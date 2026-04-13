@@ -14,13 +14,10 @@ flowerssummerr, Ervi, Koi, Ghosty, WildKat, Techiee, SirPapera, Luigi, Carols, S
 <a href="https://espressooffice.carrd.co/">Carrd</a> - <a href="https://t.me/espressooffice">Telegram</a> - <a href="https://discord.gg/3nusa6KWpB">Discord</a> - <a href="https://www.youtube.com/@EspressoOffice/">Youtube</a>
 </div>
 
-# Completamento Storia
+# Storia
 Canti: ✔ Selva Oscura - ✔ Canto 1 - ✔ Canto 2 - ✔ Canto 3 - 🚧 Canto 4 - ❌ Canto 5 - ❌ Canto 6 - ❌ Canto 7 - ❌ Canto 8 - ❌ Canto 9 
 
 Intervalli: Galline da Incubo ✔ - M.A.R.E. ❌ - Miracolo nel Distretto 20 ❌ - Cedo la Carne per Strappare le Ossa ❌ - Tempo Ammazzatempo ❌ - Assassinio sul WARP Express ❌ - Controllo di Routine LBC ❌ - Spazzare Notturno ❌ - Cultura Primaverile ❌
-
-# Completamento Gameplay
-Scavoluce: ✔ - Dungeon Storia: 🚧 - Dungeon Specchio: 🚧 - Metro Rifrattiva: ✔ - Identità&E.G.O: 🚧 - Interfaccia Utente: ✔
 
 
 
