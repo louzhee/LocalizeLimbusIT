@@ -11,7 +11,7 @@ Traduzione&Localizzazione Italiana per Limbus Company - Non siamo affiliati con 
 </div>
 
 ## Installazione
-1. Scarica l'ultima versione per il tuo sistema operativo dalla pagina GitHub [qui](https://github.com/kimght/LimbusLocalizationManager), in `releases`
+1. Scarica l'ultima versione per il tuo sistema operativo da [releases](https://github.com/kimght/LimbusLocalizationManager/releases)
    - Per gli utenti Windows: `LimbusLocalizationManager_Setup_x.x.x.exe`
 2. Lancia l'eseguibile
    - Non preoccuparti se il Windows SmartScreen o l'antivirus ti avvertono dell'autore sconosciuto, clicca su `Ulteriori informazioni` seguito da `Esegui comunque`
