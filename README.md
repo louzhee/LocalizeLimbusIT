@@ -7,7 +7,7 @@ Traduzione&Localizzazione Italiana per Limbus Company - Non siamo affiliati con 
 
 ## Vieni a prendere un caffe con noi!
 
-<a href="https://espressooffice.carrd.co/">Carrd</a> - <a href="https://t.me/espressooffice">Telegram</a> - <a href="https://discord.gg/3nusa6KWpB">Discord</a> - <a href="https://www.youtube.com/@EspressoOffice/">Youtube</a>
+<a href="https://espressooffice.carrd.co/">Carrd</a> - <a href="https://t.me/espressooffice">Telegram</a> - <a href="https://discord.gg/3nusa6KWpB">Discord</a> - <a href="https://www.youtube.com/@EspressoOffice/">Youtube</a> - <a href="https://www.instagram.com/espressooffice_it">Instagram</a>
 </div>
 
 ## Installazione
