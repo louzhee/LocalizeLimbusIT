@@ -33,7 +33,7 @@ Il modo migliore per aggiornare è usare il pulsante `Aggiorna & Gioca` sulla sc
 - Aprirà il gioco per te
 
 ## Membri
-flowerssummerr, Ervi, Koi, Ghosty, WildKat, Techiee, SirPapera, Luigi, Carols, SimerOtt, Chiara Firever
+flowerssummerr, Koi, Ghosty, WildKat, Techiee, SirPapera, Luigi, Carols, SimerOtt, Chiara Firever
 
 
 
