@@ -1,0 +1,200 @@
+{
+  "dataList": [
+    {
+      "id": 9732,
+      "name": "Buono Sconto per la Classe Economica",
+      "desc": "Fine Turno: tra le Identità con 5- Velocità, quello con Velocità minore ottiene 1 [Agility] nel turno successivo.",
+      "simpleDesc": [
+        {
+          "abilityID": 9732,
+          "simpleDesc": "Ottieni 1 [Agility] nel turno successivo"
+        }
+      ]
+    },
+    {
+      "id": 9733,
+      "name": "Gelato in Scatola",
+      "desc": "Quando un alleato perde dei PV a causa di un effetto di una sua stessa Abilità, recupera metà dei PV persi a causa dell'effetto dell'Abilità all'Inizio del prossimo Turno. (arrotondato per difetto)\n\nQuando un alleato recupera dei PV grazie all'effetto di un'Abilità E.G.O, recupera il +12.5% di PV in più. (arrotondato per difetto)",
+      "simpleDesc": [
+        {
+          "abilityID": 9733,
+          "simpleDesc": "Recupera PV all'Inizio del prossimo Turno"
+        },
+        {
+          "abilityID": 97331,
+          "simpleDesc": "Potenzia gli effetti E.G.O che fanno recuperare PV"
+        }
+      ]
+    },
+    {
+      "id": 9734,
+      "name": "Daga Dimensionale Tipo-E",
+      "desc": "Le Abilità 1 che fanno ottenere Conteggio [Charge] o '<noparse>Carica</noparse> Speciale' ottengono Potere Scontro +1 e infliggono +5% di danno.\n\nSe quell'Abilità 1 era un'Abilità a Moneta-singola, invece ottiene Potere Scontro +1 e infliggi +12.5% di danno.\n\nSe un'Identità della W Corp. ha danneggiato un nemico con un'Abilità d'Invidia (incluse le Abilità E.G.O), infliggi 2 [TakeHpHealReduce]. (non si accumula)",
+      "simpleDesc": [
+        {
+          "abilityID": 9734,
+          "simpleDesc": "Abilità 1 ottiengono Potere Scontro e infligge più danni"
+        },
+        {
+          "abilityID": 97341,
+          "simpleDesc": "Abilità 1 ottiengono Potere Scontro e infligge più danni"
+        },
+        {
+          "abilityID": 97342,
+          "simpleDesc": "Infliggi 2 [TakeHpHealReduce]"
+        }
+      ]
+    },
+    {
+      "id": 9735,
+      "name": "Batteria per Barriere Portatile",
+      "desc": "Le Abilità 1 che fanno ottenere Conteggio [Charge] o '<noparse>Carica</noparse> Speciale' ottengono Potere Scontro +2.\n\nQuando viene usata un'Abilità 1 che fa ottenere Conteggio [Charge], ottieni +2 Conteggio [Charge] e 1 [ChargeForceField]. (una volta per turno)\n\nSe un'Identità della W Corp. subisce danni ai PV per qualsiasi effetto che non sia danno diretto, ottiene 5 [ChargeForceField]. (una volta per turno)",
+      "simpleDesc": [
+        {
+          "abilityID": 9735,
+          "simpleDesc": "Abilità 1 ottiene Potere Scontro, Conteggio [Charge], e [ChargeForceField]"
+        },
+        {
+          "abilityID": 97351,
+          "simpleDesc": "Ottieni [ChargeForceField]"
+        }
+      ]
+    },
+    {
+      "id": 9736,
+      "name": "Batteria Biogenerativa",
+      "desc": "Gli alleati con Conteggio [Charge] o '<noparse>Carica</noparse> Speciale' ottengono 1 'Livello Offensivo' per ogni Scontro. (Max 6. Si resetta Dopo l'Attacco)\n\nFine Turno: Le Identità con 10+ (Conteggio [Charge] + '<noparse>Carica</noparse> Speciale'(Potenza Fissa)) ottengono 1 [Agility] nel turno successivo. A 18+ (Conteggio [Charge] + '<noparse>Carica</noparse> Speciale'(Potenza Fissa)), ottengono anche 3 [AttackUp].\n\n※ Per '<noparse>Carica</noparse> Speciale' che ha sia Potenza che Conteggio, solo il suo Conteggio sarà usato per il calcolo",
+      "simpleDesc": [
+        {
+          "abilityID": 9736,
+          "simpleDesc": "Ottieni Livello Offensivo"
+        },
+        {
+          "abilityID": 97361,
+          "simpleDesc": "Ottieni [Agility]"
+        },
+        {
+          "abilityID": 97362,
+          "simpleDesc": "Ottieni [AttackUp]"
+        }
+      ]
+    },
+    {
+      "id": 9737,
+      "name": "Modulo Cardiovascolare Reattivo",
+      "desc": "Quando un alleato con Conteggio [Charge] o '<noparse>Carica</noparse> Speciale' perde uno Scontro, ottiene Scudo uguale a (Conteggio [Charge] + '<noparse>Carica</noparse> Speciale'). (una volta per turno)\n\nQuando a 50%- PV, ottiene invece ((Conteggio [Charge] + '<noparse>Carica</noparse> Speciale') x 2) in Scudo. (una volta per turno)\n\nSe un'Identità dell'Ufficio Multicrack ha ricevuto danni ai PV in questo Incontro: nel turno successivo, recupera il 33% dei PV persi nel turno precedente. (arrotondato per difetto)",
+      "simpleDesc": [
+        {
+          "abilityID": 9737,
+          "simpleDesc": "Ottieni Scudo"
+        },
+        {
+          "abilityID": 97371,
+          "simpleDesc": "Recupera PV in base ai PV persi lo scorso turno"
+        }
+      ]
+    },
+    {
+      "id": 9738,
+      "name": "Servomeccanismi per Giunzioni Protesiche",
+      "desc": "Turno Successivo: gli alleati ottengono [Agility] e Conteggio [Charge] uguale al numero delle Abilità Attacco base che fanno ottenere Conteggio [Charge] o '<noparse>Carica</noparse> Speciale' usate in questo turno. (max 2)\n\nQuando un'Identità dell'Ufficio Multicrack ottiene o consuma del Conteggio [Charge] tramite Abilità Attacco base, ottiene +1 Conteggio [Charge] ulteriore. (max 2)",
+      "simpleDesc": [
+        {
+          "abilityID": 9738,
+          "simpleDesc": "Ottieni [Agility] e Conteggio [Charge]"
+        },
+        {
+          "abilityID": 97381,
+          "simpleDesc": "Ottieni più Conteggio [Charge]"
+        }
+      ]
+    },
+    {
+      "id": 9739,
+      "name": "Sangue Cristalizzato",
+      "desc": "Fine Turno: Se questa unità ha [Laceration], dimezza la Potenza [Laceration] su di sé e recupera (Potenza [Laceration] rimossa x Conteggio [Laceration] su sé stessi) PV. (arrotondato per difetto. Curabile fino al 10% dei PV Max per volta)",
+      "simpleDesc": [
+        {
+          "abilityID": 9739,
+          "simpleDesc": "Dimezza Potenza [Laceration] su di sé, recupera PV"
+        }
+      ]
+    },
+    {
+      "id": 9740,
+      "name": "Giunzione Automatica",
+      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità hanno Abilità Attacco per ottenere Conteggio [Charge] o '<noparse>Carica</noparse> Speciale'. (escluse le Abilità E.G.O; escluse le Riserve)\n\nAbilità Attacco a Moneta Positiva Base che consumano Conteggio [Charge] o '<noparse>Carica</noparse> Speciale': ottieni Potere Moneta +1 e infliggi +(somma del Conteggio [Charge] e '<noparse>Carica</noparse> Speciale' consumate da quell'Abilità x 4)% di danno (max 40%)\nAbilità Attacco a Moneta Negativa Base: Invece di ottenere Potere Moneta, ottieni Potere Base +(4 / n° di Monete) (min 1; arrotondato per difetto)\n\nFine Turno: gli alleati con Conteggio [Charge] o '<noparse>Carica</noparse> Speciale' ottengono 1 [Agility] (max 2) e 1 [AttackDmgUp] (max 3) nel turno successivo per ogni istanza in cui abbiano usato un'Abilità Attacco Base che consumi Conteggio [Charge] o '<noparse>Carica</noparse> Speciale' in questo Incontro.\n\nSe un'Identità dell'Ufficio Multicrack ha 5+ [Charge], ottiene Potere Moneta +1 per le Abilità Attacco Base.",
+      "simpleDesc": [
+        {
+          "abilityID": 9740,
+          "simpleDesc": "Ottieni Potere Moneta/Base e infliggi più danni"
+        },
+        {
+          "abilityID": 97401,
+          "simpleDesc": "Ottieni [Agility] e [AttackDmgUp] nel turno successivo"
+        },
+        {
+          "abilityID": 97402,
+          "simpleDesc": "Ottieni Potere Moneta"
+        }
+      ]
+    },
+    {
+      "id": 9741,
+      "name": "Batteria Sovraccarica",
+      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità hanno Abilità Attacco per ottenere Conteggio [Charge] o '<noparse>Carica</noparse> Speciale'. (escluse le Abilità E.G.O; escluse le Riserve)\n\nAbilità Attacco a Moneta Positiva Base che consumano Conteggio [Charge] o '<noparse>Carica</noparse> Speciale': ottieni Potere Moneta +1 e infliggi +(somma del Conteggio [Charge] e '<noparse>Carica</noparse> Speciale' consumate da quell'Abilità x 4)% di danno (max 40%)\nAbilità Attacco a Moneta Negativa Base: Invece di ottenere Potere Moneta, ottieni Potere Base +(4 / n° di Monete) (min 1; arrotondato per difetto)\n\nQuando gli alleati con Conteggio [Charge] o '<noparse>Carica</noparse> Speciale' si Scontrano con delle Abilità Attacco base: Potere Scontro +2; ottengono +3 Conteggio [Charge] a Scontro Vinto, e perdono 6 Conteggio [Charge] a Scontro perso.\n\nVincendo uno Scontro con un'Abilità Attacco Base Invidia, infliggi 1 [VioletTakeDamageUp]. (cumulabile per 3 volte)",
+      "simpleDesc": [
+        {
+          "abilityID": 9741,
+          "simpleDesc": "Ottieni Potere Moneta/Base e deal più danni"
+        },
+        {
+          "abilityID": 97411,
+          "simpleDesc": "Ottieni Potere Scontro; ottieni Conteggio [Charge] a Scontro Vinto, perdi Conteggio [Charge] a Scontro perso"
+        },
+        {
+          "abilityID": 97412,
+          "simpleDesc": "Infliggi [VioletTakeDamageUp]"
+        }
+      ]
+    },
+    {
+      "id": 9742,
+      "name": "Motori Servo del Generatore Perpetuo",
+      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità hanno Abilità Attacco per ottenere Conteggio [Charge] o '<noparse>Carica</noparse> Speciale'. (escluse le Abilità E.G.O; escluse le Riserve)\n\nAbilità Attacco a Moneta Positiva Base che consumano Conteggio [Charge] o '<noparse>Carica</noparse> Speciale'(Potenza Fissa): ottieni Potere Moneta +1 e infliggi +(somma del Conteggio [Charge] e '<noparse>Carica</noparse> Speciale'(Potenza Fissa) consumate da quell'Abilità x 4)% di danno (max 40%)\n- Abilità Attacco a Moneta Negativa Base: Invece di ottenere Potere Moneta, ottieni Potere Base +(4 / n° di Monete) (min 1; arrotondato per difetto)\n\nQuando gli alleati con Conteggio [Charge] o '<noparse>Carica</noparse> Speciale' si Scontrano con delle Abilità Attacco base: Potere Scontro +1; ottengono 2 [AttackUp] ad Inizio Turno per ogni istanza di Scontro Vinto durante quello Scontro per questo Incontro. (max 6)\n\nIn questo Incontro, quando un alleato subisce un attacco letale, consuma tutto il Conteggio [Charge] e la '<noparse>Carica</noparse> Speciale'(Potenza Fissa) su di sé; dopo, recupera immediatamente (10 + somma del Conteggio [Charge] e '<noparse>Carica</noparse> Speciale'(Potenza Fissa) consumate)% PV (una volta per Incontro); poi, ottiene 3 [Protection] finché l'alleato non viene sconfitto.\n\n※ Per '<noparse>Carica</noparse> Speciale' che ha sia Potenza che Conteggio, solo il suo Conteggio sarà usato per il calcolo",
+      "simpleDesc": [
+        {
+          "abilityID": 9742,
+          "simpleDesc": "Ottieni Potere Moneta/Base e infliggi più danni"
+        },
+        {
+          "abilityID": 97421,
+          "simpleDesc": "Ottieni Potere Scontro e [AttackUp]"
+        },
+        {
+          "abilityID": 97422,
+          "simpleDesc": "Prima di morire, consuma Conteggio [Charge] per cura istantanea e ottieni [Protection]"
+        }
+      ]
+    },
+    {
+      "id": 9743,
+      "name": "Cuore Potenziato a Gioielli",
+      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità hanno Abilità Attacco per ottenere Conteggio [Charge] o '<noparse>Carica</noparse> Speciale'. (escluse le Abilità E.G.O; escluse le Riserve)\n\nAbilità Attacco a Moneta Positiva Base che consumano Conteggio [Charge] o '<noparse>Carica</noparse> Speciale': ottieni Potere Moneta +1 e infliggi +(somma del Conteggio [Charge] e '<noparse>Carica</noparse> Speciale' consumate da quell'Abilità x 4)% di danno (max 40%)\n- Abilità Attacco a Moneta Negativa Base: Invece di ottenere Potere Moneta, ottieni Potere Base +(4 / n° di Monete) (min 1; arrotondato per difetto)\n\nQuando gli alleati hanno 15+ (Conteggio [Charge] + '<noparse>Carica</noparse> Speciale'): quando usano l'Abilità 3 che consuma Conteggio [Charge] o '<noparse>Carica</noparse> Speciale', e se rimane del Conteggio [Charge] o '<noparse>Carica</noparse> Speciale' Dopo l'Attacco, consuma tutto il Conteggio [Charge] e la '<noparse>Carica</noparse> Speciale' rimanente per infliggere (somma del Conteggio [Charge] e '<noparse>Carica</noparse> Speciale' consumata x 7.5)% danni fissi bonus. (max 75%)\n\nConteggio [Charge] Massimo +5.",
+      "simpleDesc": [
+        {
+          "abilityID": 9743,
+          "simpleDesc": "Ottieni Potere Moneta/Base e infliggi più danni"
+        },
+        {
+          "abilityID": 97431,
+          "simpleDesc": "Spendi Conteggio [Charge] in più per infliggere danni bonus"
+        },
+        {
+          "abilityID": 97432,
+          "simpleDesc": "Conteggio [Charge] Massimo +5"
+        }
+      ]
+    }
+  ]
+}

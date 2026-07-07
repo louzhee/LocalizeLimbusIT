@@ -1,0 +1,85 @@
+{
+  "dataList": [
+    {
+      "id": 9744,
+      "name": "Amore Filiale",
+      "desc": "Quando infliggi Potenza [Laceration] o '<noparse>Sanguinamento</noparse> Speciale' con gli effetti di Attacchi Abilità Base contro i nemici, infliggi +2 Conteggio [Laceration] (3 volte per turno per tutta la squadra)\n\nInfliggi +1% di danno per ogni Conteggio [Laceration] sul bersaglio (max 20%)",
+      "simpleDesc": [
+        {
+          "abilityID": 9744,
+          "simpleDesc": "Infliggi Conteggio [Laceration] e infliggi più danni"
+        }
+      ]
+    },
+    {
+      "id": 9745,
+      "name": "Transistor Disallineato",
+      "desc": "Le Abilità Attacco Base che consumano Conteggio [Charge] o '<noparse>Carica</noparse> Speciale' consumeranno x 1.5 di [Charge]\nInfliggi +2% di danno per ogni Conteggio [Charge] o '<noparse>Carica</noparse> Speciale' consumata dalle Abilità Attacco Base (max 20%)",
+      "simpleDesc": [
+        {
+          "abilityID": 9745,
+          "simpleDesc": "Consuma Conteggio [Charge] o '<noparse>Carica</noparse> Speciale' addizionale per infliggere più danni"
+        }
+      ]
+    },
+    {
+      "id": 9746,
+      "name": "Gas di Potenziamento della Corruzione Mentale",
+      "desc": "Quando si ci Scontra usando un'Abilità Attacco che infligge Potenza o Conteggio [Sinking], o '<noparse>Annegamento</noparse> Speciale' , per poi infliggere danni con quell'Abilità Attacco: Per Colpo, infliggi Potenza [Sinking] uguale al numero degli Scontri fatti (max 3; 3 volte per turno)",
+      "simpleDesc": [
+        {
+          "abilityID": 9746,
+          "simpleDesc": "Infliggi Potenza [Sinking] uguale al numero degli Scontri"
+        }
+      ]
+    },
+    {
+      "id": 9747,
+      "name": "Encefalina Fuoriuscita",
+      "desc": "Quando il nemico sta per perdere o consumare Conteggio [Sinking]: (Potenza [Sinking] sul bersaglio)% di probabilità di infliggere +1 Conteggio [Sinking] prima ancora che il persaglio perda o consumi del Conteggio [Sinking] (3 volte per turno; max 100%)\n- Aumenta la probabilità base di (Risonanza più alta x2)% (max 12%)\n- Se la Risonanza più alta era di Affinità Tristezza o Invidia: infliggi +1 Conteggio [Sinking] in più",
+      "simpleDesc": [
+        {
+          "abilityID": 9747,
+          "simpleDesc": "Chance del (Potenza [Sinking])% di infliggere Conteggio [Sinking] subito prima di perdere o consumare Conteggio [Sinking]"
+        }
+      ]
+    },
+    {
+      "id": 9748,
+      "name": "Avversità",
+      "desc": "A Scontro Vinto: Recupera PS uguale al numero degli Scontri fatti (max 3)\nSe l'unità affetta è già a 45+ PS, ottiene (n° di Scontri/2) [AttackUp] nel turno successivo (max 3)",
+      "simpleDesc": [
+        {
+          "abilityID": 9748,
+          "simpleDesc": "Per Scontro Vinto, recupera PS uguale al numero di Scontri"
+        }
+      ]
+    },
+    {
+      "id": 9749,
+      "name": "Corona di Spine",
+      "desc": "Inizio Turno: 1 alleato con meno PS recupera 8 PS (se non sono in Panico o in Corrosione E.G.O)\nSe questo alleato era già a PS Max, Potere Scontro +1 per questo turno\nPer questo turno: [MentalSystemResultIncrease_Typo] +1, [MentalSystemResultDecrease_Typo] -1",
+      "simpleDesc": [
+        {
+          "abilityID": 9749,
+          "simpleDesc": "Inizio Turno: recupera 8 PS ad 1 alleato con meno PS"
+        }
+      ]
+    },
+    {
+      "id": 9750,
+      "name": "Riposo",
+      "desc": "Perdi 1 PS in meno quando un alleato perde PS a causa dell'effetto di un'Abilità Attacco Base propria\nSe il bersaglio ha [Sinking], infliggi +2% di danno per ogni Moneta con Testa uscita in questa Abilità Attacco quando si attacca (max 16%)",
+      "simpleDesc": [
+        {
+          "abilityID": 9750,
+          "simpleDesc": "Perdi 1 PS in meno quando un alleato perde PS per una sua Abilità Attacco Base"
+        },
+        {
+          "abilityID": 97501,
+          "simpleDesc": "Infliggi più danni se il bersaglio ha [Sinking]"
+        }
+      ]
+    }
+  ]
+}

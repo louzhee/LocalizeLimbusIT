@@ -1,0 +1,106 @@
+{
+  "dataList": [
+    {
+      "id": 9243,
+      "name": "Estrazione Sperimentale : S.F.A",
+      "desc": "Infliggi +10% di danno con Abilità Attacco che infliggono Potenza o Conteggio [Combustion], o '<noparse>Bruciatua</noparse> Speciale'\n- Se l'Abilità applica Conteggio [Combustion] su sé stessi, Potere Scontro +1\n- Infliggi +1% di danno per ogni 2% di PV mancanti su sé stessi (max 15%)",
+      "simpleDesc": [
+        {
+          "abilityID": 9243,
+          "simpleDesc": "Abilità Attacco infliggono più danni, ottieni Potere Scontro a condizioni soddisfatte"
+        }
+      ]
+    },
+    {
+      "id": 9244,
+      "name": "Estrazione Sperimentale : Lanterna",
+      "desc": "Infliggi +10% di danno con Abilità Attacco che infliggono Potenza o Conteggio [Burst]\n- Al 20%+ di PV mancanti su sé stessi, Potere Scontro +1\n- Infliggi +1% di danno con Abilità Attacco per ogni 1 (somma di [Aggro] su tutte le proprie Abilità Slot) (max 15%)",
+      "simpleDesc": [
+        {
+          "abilityID": 9244,
+          "simpleDesc": "Abilità Attacco infliggono più danni, ottieni Potere Scontro a condizioni soddisfatte"
+        }
+      ]
+    },
+    {
+      "id": 9245,
+      "name": "Estrazione Modificata : AEDD",
+      "desc": "Se questa unità ha ottenuto Conteggio [Charge] o '<noparse>Carica</noparse> Speciale' superando il limite massimo in questo turno, ottiene 1 [AttackUp] nel turno successivo per ogni 2 Stack di eccesso (2 per turno per Identità)\n- Le Identità con Abilità Base che fanno ottenere o consumare Conteggio [Carica] o '<noparse>Carica</noparse> Speciale': max diventa 6 per turno per Identità\n- Se questa unità ha [HighVoltageExoshell], ottiene anche Potenza 1 [Charge] (una volta per Incontro)",
+      "simpleDesc": [
+        {
+          "abilityID": 9245,
+          "simpleDesc": "Ottieni [AttackUp] in base all'eccesso di Conteggio [Carica], ottieni [Charge] a condizioni soddisfatte"
+        }
+      ]
+    },
+    {
+      "id": 9246,
+      "name": "Tessera da Impiegato Caduta da Qualcuno",
+      "desc": "Per le Identità della Limbus Company:\n- Inizio Turno: Ottieni (n° delle Identità della Limbus Company che partecipano in battaglia / 3) [ParryingResultUp] (max 2; arrotondato per difetto)\n\nIdentità della LCE:\n- Infliggi +(n° delle Identità che indossano un Equipaggiamento E.G.O x 10)% di danno (max 30%)\n- Per Morte Alleata della stessa fazione: Ottieni 1 risorsa E.G.O per tutte le Affinità; ottieni 1 [PlusCoinValueUp] e 1 [MinusCoinValueUp] ad Inizio Turno per il resto di questo Incontro (2 volte per Incontro per Identità)",
+      "simpleDesc": [
+        {
+          "abilityID": 9246,
+          "simpleDesc": "Ottieni [ParryingResultUp] in base al numero delle Identità della Limbus Company partecipanti in battaglia"
+        },
+        {
+          "abilityID": 92461,
+          "simpleDesc": "Infliggi più danni in base al numero delle Identità con addosso Equipaggiamento E.G.O partecipanti in battaglia"
+        },
+        {
+          "abilityID": 92462,
+          "simpleDesc": "Per Morte Alleata della stessa fazione: Ottieni risorse E.G.O; ottieni [PlusCoinValueUp] e [MinusCoinValueUp] ad Inizio Turno per l'Incontro, dal turno dopo"
+        }
+      ]
+    },
+    {
+      "id": 9248,
+      "name": "Lindera, Occhiali, e Lettera Spedita",
+      "desc": "[Gli effetti si applicano solo per la 1°, 2°, 3° Identità Schierate]\n\nQuando vinci uno Scontro con un'Abilità Attacco che infligge Potenza o Conteggio [Burst], infliggi 5 Potenza [Burst] e +3 Conteggio [Burst] contro il bersaglio (una volta per turno per Identità)\n\nQuando ti Scontri con un nemico meno Veloce, ottieni Potere Finale +1 e infliggi +25% di danno\n\nQuando vinci uno Scontro contro un nemico con [AttackUp], ottieni 3 [AttackUp] per il turno successivo, e infliggi 3 [AttackDown] al nemico che ha perso lo Scontro (3 volte per turno per Identità)\n\nOgni volta che l'Abilità 1, Abilità 2, o Abilità 3 viene usata, attiva il seguente effetto (una volta per grado dell'Abilità):\n- L'unità che ha usato questa Abilità ottiene 1 [Agility] e 1 [SkillPowerUp] ad Inizio Turno per questo Incontro (può accumularsi fino a 3 volte)",
+      "simpleDesc": [
+        {
+          "abilityID": 9248,
+          "simpleDesc": "Per Scontro Vinto: Infliggi [Burst] sul bersaglio"
+        },
+        {
+          "abilityID": 92481,
+          "simpleDesc": "Quando Scontri contro un nemico più lento, ottieni Potere Finale e infliggi più danni"
+        },
+        {
+          "abilityID": 92482,
+          "simpleDesc": "Ottieni [AttackUp] su sé stessi e infliggi [AttackDown] al nemico a condizioni soddisfatte"
+        },
+        {
+          "abilityID": 92483,
+          "simpleDesc": "Ottieni [Agility] e [SkillPowerUp] ad Inizio Turno a condizioni soddisfatte"
+        }
+      ]
+    },
+    {
+      "id": 9249,
+      "name": "Un Piccolo, Adorabile Violino",
+      "desc": "[Gli effetti si applicano solo per la 5°, 6° Identità Schierate]\n\nRecupera come PV il 10% dei danni inflitti ai PV con un'Abilità (max 20 per Abilità)\n\nPer Scontro Vinto: Ottieni 1 [AttackUp] e 1 [TakeHpHealIncrease] (2 volte per turno per Identità)\n\nPer Uso di Abilità: Ottieni 1 [AttackUp] e 1 [TakeHpHealIncrease] (2 volte per turno per Identità)\n\nInfliggi +10% di danno con Abilità Contundenti\n\nInfliggi +(n° di Scontri x 6)% di danno con l'Abilità che ha vinto lo Scontro (max 30%)",
+      "simpleDesc": [
+        {
+          "abilityID": 9249,
+          "simpleDesc": "ura PV su sé stessi in base al danno inflitto con Abilità"
+        },
+        {
+          "abilityID": 92491,
+          "simpleDesc": "Ottieni [AttackUp] e [TakeHpHealIncrease] per Scontro Vinto"
+        },
+        {
+          "abilityID": 92492,
+          "simpleDesc": "Ottieni [AttackUp] e [TakeHpHealIncrease] per Uso di Abilità"
+        },
+        {
+          "abilityID": 92493,
+          "simpleDesc": "Infliggi più danni con Abilità Contundenti"
+        },
+        {
+          "abilityID": 92494,
+          "simpleDesc": "Infliggi più danni con Abilità che vincono gli Scontri"
+        }
+      ]
+    }
+  ]
+}

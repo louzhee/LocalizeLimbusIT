@@ -1,0 +1,143 @@
+{
+    "dataList": [
+        {
+            "id": 2027,
+            "name": "Libro Mastro Annerito",
+            "desc": "Primo Inizio Turno di un Incontro: ottieni risorse E.G.O casuali pari al numero dei nemici.\n\nInizio Turno: se sono presenti 4 o più Identità dei Discendenti della Spada o del Clan Kurokumo durante l'Incontro, ottieni invece il tipo di risorse E.G.O che possiedi in minore quantità.",
+            "simpleDesc": [
+                {
+                    "abilityID": 2027,
+                    "simpleDesc": "Ottieni risorse E.G.O casuali"
+                },
+                {
+                    "abilityID": 20271,
+                    "simpleDesc": "Ottieni le risorse E.G.O che possiedi in minore quantità"
+                }
+            ]
+        },
+        {
+            "id": 2028,
+            "name": "Elsa Arruginita",
+            "desc": "Inizio Turno: Tutti gli alleati ottengono 1 [SlashDamageUp].\n\nLe Identità dei Discendenti della Spada o del Clan Kurokumo ottengono invece 2 [SlashDamageUp].",
+            "simpleDesc": [
+                {
+                    "abilityID": 2028,
+                    "simpleDesc": "Ottieni 1 Potere Tagliente Potenziato"
+                },
+                {
+                    "abilityID": 20281,
+                    "simpleDesc": "Ottieni 2 Potere Tagliente Potenziato"
+                }
+            ]
+        },
+        {
+            "id": 2029,
+            "name": "Lama Frantumata",
+            "desc": "Durante l'Incontro: Quando infligge Potenza [Laceration] o '<noparse>Sanguinament​o</noparse> Speciale' per la prima volta ad un nemico tramite l'effetto di un'Abilità Attacco, infligge +2 Conteggio [Laceration]. (Una volta per Incontro)\n\nQuando Le Identità del Clan Kurokumo infliggono danno ad un nemico per la prima volta, infligge invece 4 Potenza e Conteggio [Laceration].",
+            "simpleDesc": [
+                {
+                    "abilityID": 2029,
+                    "simpleDesc": "Infligge 2 Conteggio Sanguinamento in più"
+                },
+                {
+                    "abilityID": 20291,
+                    "simpleDesc": "Infligge 4 Potenza Sanguinamento e 4 Conteggio Sanguinamento in più"
+                }
+            ]
+        },
+        {
+            "id": 2030,
+            "name": "Lama Spezzata",
+            "desc": "Quando un alleato infligge un Colpo Critico ad un nemico, infliggi Danno Superbia in più pari a (Potenza [Breath]/3).\n\nQuando le Identità dei Discendenti della Spada infliggono un Colpo Critico, infliggi invece danni da Superbia addizionali pari a (Potenza [Breath]/2).",
+            "simpleDesc": [
+                {
+                    "abilityID": 2030,
+                    "simpleDesc": "Infligge anni da Superbia addizionali pari a (Potenza [Breath]/3)."
+                },
+                {
+                    "abilityID": 20301,
+                    "simpleDesc": "Danni da Superbia addizionali pari a (Potenza [Breath]/2)."
+                }
+            ]
+        },
+        {
+            "id": 2031,
+            "name": "Nappa Rossa",
+            "desc": "Se il bersaglio ha resistenza Tagliente 1.5 o inferiore, ottieni +0.3 Resistenza Tagliente.",
+            "simpleDesc": [
+                {
+                    "abilityID": 2031,
+                    "simpleDesc": "Resistenza Tagliente +0.3"
+                }
+            ]
+        },
+        {
+            "id": 2032,
+            "name": "Sublimità",
+            "desc": "Inizio dell'Incontro: Gli effetti si applicano quando sono presenti 3 o più Identità del Clan Kurokumo (conta solo le Identità sul campo di battaglia).\n\nGli alleati ottengono 2 [SlashDamageUp] ed infliggono il 35% di danni aggiuntivi Taglienti.\n\nInizio Turno: quando un'Identità del Clan Kurokumo infligge danno per la prima volta, infligge 4 Potenza e Conteggio [Laceration] aggiuntivi. (Una volta per turno)",
+            "simpleDesc": [
+                {
+                    "abilityID": 2032,
+                    "simpleDesc": "Ottiene 2 Potere Tagliente Potenziato ed infligge +35% di danni Taglienti"
+                },
+                {
+                    "abilityID": 20321,
+                    "simpleDesc": "Infligge 4 Potenza [Laceration] e +4 Conteggio [Laceration] in più"
+                }
+            ]
+        },
+        {
+            "id": 2033,
+            "name": "Inflessibile",
+            "desc": "Inizio dell'Incontro: Gli effetti si applicano quando sono presenti 3 o più Identità dei Discendenti della Spada (conta solo le Identità sul campo di battaglia).\n\nGli alleati ottengono 2 Potere Tagliente Potenziato ed infliggono il 35% di danni aggiuntivi Taglienti.\n\nInizio Turno: quando un'Identità dei Discendenti della Spada ingligge un Colpo Critico, infligge danno Superbia in più pari alla Potenza [Breath] su sé stesso.",
+            "simpleDesc": [
+                {
+                    "abilityID": 2033,
+                    "simpleDesc": "Ottiene 2 Potere Tagliente Potenziato ed infligge +35% di danni Taglienti"
+                },
+                {
+                    "abilityID": 20331,
+                    "simpleDesc": "Infligge danno da Superbia pari a Potenza Equilibrio"
+                }
+            ]
+        },
+        {
+            "id": 2034,
+            "name": "Cappello di Bambù Logoro",
+            "desc": "Inizio dell'Incontro: Gli effetti si applicano quando sono presenti 3 o più Identità dei Discendenti della Spada (conta solo le Identità sul campo di battaglia).\n\nTutti gli alleati infliggono il 50% di danno Tagliente in più.\n\nPer le Identità dei Discendenti della Spada: gli alleati con [Breath] hanno una probabilità di Colpo Critico fissata al 100%\n\nInoltre infliggono 1.5 danni aggiuntivi sul Colpo Critico.",
+            "simpleDesc": [
+                {
+                    "abilityID": 2034,
+                    "simpleDesc": "Infligge +50% Danni Taglienti"
+                },
+                {
+                    "abilityID": 20341,
+                    "simpleDesc": "La percentuale di Colpo Critico è portata al 100%"
+                },
+                {
+                    "abilityID": 20342,
+                    "simpleDesc": "Infligge 1.5 danni aggiuntivi sul Colpo Critico"
+                }
+            ]
+        },
+        {
+            "id": 2035,
+            "name": "Vecchia Tunica Dopo",
+            "desc": "Inizio Turno: si attiva quando ci sono 3 o più Identità dei Discendenti dela Spada (contano solo le Identità sul campo).\n\nTutti gli alleati infliggono +50% di danni Taglienti.\n\nPer le Identità dei Discendenti della Spada: l'Abilità 1 ottiene Potere Moneta +1; le Abilità 1 a Moneta Singola ottengono Potere Moneta +3.\n\n[Solo per il Mentore dei Discendenti della Spada Meursault] L'Abilità 'Sacrifico la Carne' ottiene Potere Scontro Finale -12; l'Abilità 'Per Reclamare le Ossa' infligge +50% di danni.",
+            "simpleDesc": [
+                {
+                    "abilityID": 2035,
+                    "simpleDesc": "Infligge +50% Danni Taglienti"
+                },
+                {
+                    "abilityID": 20351,
+                    "simpleDesc": "Attacco Aumentato Moneta - Abilità 1"
+                },
+                {
+                    "abilityID": 20352,
+                    "simpleDesc": "Abilità 'Sacrifico la Carne': Potere Scontro Finale -12; 'Per Reclamare le Ossa' infligge il 50% di danni in più"
+                }
+            ]
+        }
+    ]
+}

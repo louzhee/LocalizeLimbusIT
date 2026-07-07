@@ -1,0 +1,101 @@
+{
+  "dataList": [
+    {
+      "id": 9805,
+      "name": "Benedizione della Costellazione Cinerea",
+      "desc": "[Gli effetti si applicano alla 1° Identità Schierata ]\n\nOttieni [KnightBless] ad Inizio Incontro",
+      "simpleDesc": [
+        {
+          "abilityID": 9744,
+          "simpleDesc": "Ottieni [KnightBless]"
+        }
+      ]
+    },
+    {
+      "id": 9806,
+      "name": "Il Rifiutato",
+      "desc": "Ogni volta che un alleato subisce un colpo, infliggi 3 [Sinking] all'attaccante\n\nQuando un alleato viene ucciso, tutti gli alleati ottengono 2 [Enhancement] nel turno successivo (una volta per turno)",
+      "simpleDesc": [
+        {
+          "abilityID": 9806,
+          "simpleDesc": "Infliggi [Sinking]"
+        },
+        {
+          "abilityID": 98061,
+          "simpleDesc": "Ottieni [Enhancement]"
+        }
+      ]
+    },
+    {
+      "id": 9807,
+      "name": "Spada Forgiata nelle Lacrime",
+      "desc": "Quando un alleato colpisce con un'Abilità, se il bersaglio ha -20 o meno PS, infliggi danni da Tristezza uguale all'[Sinking] sul bersaglio (una volta per Abilità)\n\n- Se era un'Abilità Perforante, infliggi (Conteggio [Sinking] sul bersaglio / 2) danni fissi bonus (una volta per Abilità))",
+      "simpleDesc": [
+        {
+          "abilityID": 9807,
+          "simpleDesc": "Danni da Tristezza Bonus"
+        },
+        {
+          "abilityID": 98071,
+          "simpleDesc": "Danni Fissi Bonus"
+        }
+      ]
+    },
+    {
+      "id": 9808,
+      "name": "Dono D'Amore della Maghetta",
+      "desc": "Quando un alleato colpisce con un'Abilità che fa ottenere o consumare Conteggio [Charge] o '<noparse>Carica</noparse> Speciale', i PV o PS di un alleato casuale vengono recuperati di 3 (una volta per Moneta; alleati con PV o PS a Max sono esclusi)\n\nQuando un alleato si riprende dal Panico o 'Corrosione E.G.O', recupera 20 PS",
+      "simpleDesc": [
+        {
+          "abilityID": 9808,
+          "simpleDesc": "Recupera casualmente PV o PS"
+        },
+        {
+          "abilityID": 98081,
+          "simpleDesc": "Recupera PS"
+        }
+      ]
+    },
+    {
+      "id": 9809,
+      "name": "Utilità Esaurita, Odio Cristalizzato",
+      "desc": "Quando consumi Conteggio [Charge] con Abilità Attacco, ottieni (Conteggio [Charge] consumato / 2) [AttackUp] nel turno successivo (10 per turno; '<noparse>Carica</noparse> Speciale' inclusa)\n\nFine Turno: se un alleato ha perso PS in questo turno, questo alleato ottieni 1 [Enhancement] e 1 [Vulnerable] nel turno successivo",
+      "simpleDesc": [
+        {
+          "abilityID": 9809,
+          "simpleDesc": "Ottieni [AttackUp]"
+        },
+        {
+          "abilityID": 98091,
+          "simpleDesc": "Ottieni [AttackUp] e [DefenseDown]"
+        }
+      ]
+    },
+    {
+      "id": 9810,
+      "name": "Scudo Anti-Trauma",
+      "desc": "Inizio Incontro: tutti gli alleati ottengono 2 [TraumaShield]",
+      "simpleDesc": [
+        {
+          "abilityID": 9810,
+          "simpleDesc": "Ottieni [TraumaShield]"
+        }
+      ]
+    },
+    {
+      "id": 9811,
+      "name": "Valore Dismesso",
+      "desc": "Quando un alleato muore durante l'Incontro, ottieni 2 Risorse 2 E.G.O per tutte le Affinità\n\nInizio Combattimento: se sono entrati degli alleati dalle Riserve in questo turno, recupera 10 PS per 2 alleati con meno PS (una volta per turno; tranne se sono in Panico o in 'Corrosione E.G.O')",
+      "simpleDesc": [
+        {
+          "abilityID": 9811,
+          "simpleDesc": "Ottieni Risorse E.G.O"
+        },
+        {
+          "abilityID": 98111,
+          "simpleDesc": "Recupera PS"
+        }
+      ]
+    }
+  ]
+}

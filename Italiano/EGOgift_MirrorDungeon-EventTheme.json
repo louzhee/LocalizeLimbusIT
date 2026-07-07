@@ -1,0 +1,469 @@
+{
+  "dataList": [
+    {
+      "id": 9701,
+      "name": "Coscia Succulenta e Fumante",
+      "desc": "Quando infliggi [Combustion] con un'Abilità contro nemici, infliggi +3 Conteggio [Combustion] (3 volte per turno)",
+      "simpleDesc": [
+        {
+          "abilityID": 9701,
+          "simpleDesc": "Quando infliggi [Combustion] con un'abilità, infliggi +3 Conteggio [Combustion]"
+        }
+      ]
+    },
+    {
+      "id": 9702,
+      "name": "Petto di Pollo Stopposo",
+      "desc": "Quando infliggi [Burst] con un'Abilità contro nemici, infliggi +3 [Burst]  (3 volte per turno)",
+      "simpleDesc": [
+        {
+          "abilityID": 9702,
+          "simpleDesc": "Quando infliggi [Burst] con un'Abilità, infliggi +3 Conteggio [Burst]"
+        }
+      ]
+    },
+    {
+      "id": 9703,
+      "name": "Marinatura al Tango",
+      "desc": "Se la Velocità dell'unità è più alta del bersaglio, guadagna +(Velocità/3) Potere Scontro. (max 3)",
+      "simpleDesc": [
+        {
+          "abilityID": 9703,
+          "simpleDesc": "Ottieni +(Velocità/3) Potere Scontro."
+        }
+      ]
+    },
+    {
+      "id": 9704,
+      "name": "Ago e Filo Contaminati",
+      "desc": "Il seguente effetto si applica sulla prima Abilità che infligge danno ai nemici.\n\nInfliggi (danno inflitto/3) Potenza [Laceration].",
+      "simpleDesc": [
+        {
+          "abilityID": 9704,
+          "simpleDesc": "Infliggi (danno inflitto/3) Potenza [Laceration]"
+        }
+      ]
+    },
+    {
+      "id": 9705,
+      "name": "Ago Affilato e Filo",
+      "desc": "Ogni turno, la prima Abilità che infligge danni ai nemici, infligge danni fissi extra pari alla metà dei danni inflitti dall'Abilità.",
+      "simpleDesc": [
+        {
+          "abilityID": 9705,
+          "simpleDesc": "Infliggi (damage dealt/2) danni fissi extra"
+        }
+      ]
+    },
+    {
+      "id": 9706,
+      "name": "Chiave Inglese Sporca d'Olio",
+      "desc": "Le Abilità Contundenti infliggono +10% danni\n\nL'ultima Moneta delle Abilità Contundenti infligge 2 Potenza [Vibration] con il colpo (una volta per turno).",
+      "simpleDesc": [
+        {
+          "abilityID": 9706,
+          "simpleDesc": "Le Abilità Contundenti infliggono +10% danni"
+        },
+        {
+          "abilityID": 97061,
+          "simpleDesc": "Infliggi 2 Potenza [Vibration] contro il nemico."
+        }
+      ]
+    },
+    {
+      "id": 9707,
+      "name": "Rottami Scintillanti",
+      "desc": "Quando un alleato con Scudo viene colpito da un nemico, riflette 3 danni fissi (non riflette il danno se questo non viene subito dallo Scudo).",
+      "simpleDesc": [
+        {
+          "abilityID": 9707,
+          "simpleDesc": "Riflette 3 danni fissi"
+        }
+      ]
+    },
+    {
+      "id": 9708,
+      "name": "Vino alle Cervella di Pagumiere",
+      "desc": "Quando un alleato colpisce un nemico che ha [Burst] con un'Abilità che infligge Potenza o Conteggio [Burst], infliggi (Conteggio [Burst] x 1.25)% danni. (max 50%)\n\nQuando un alleato si riprende dallo Stordimento, recupera 20% dei PV massimi. (2 volte per Incontro)",
+      "simpleDesc": [
+        {
+          "abilityID": 9708,
+          "simpleDesc": "Infliggi +(Conteggio [Burst] x 1.25)% danni (max 50%)"
+        },
+        {
+          "abilityID": 97081,
+          "simpleDesc": "Recupera 20% dei PV massimi"
+        }
+      ]
+    },
+    {
+      "id": 9709,
+      "name": "Cappello Pom-pom",
+      "desc": "A Fine Turno: ottiene 1 Potenza [Breath] nel turno successivo per ogni Abilità Attacco che ha inflitto danni prima della fine del turno.\n\nNegli Incontri Mirati: ottiene 3 Potenza [Breath] per ogni Abilità Attacco che ha inflitto danni prima della fine del turno.",
+      "simpleDesc": [
+        {
+          "abilityID": 9709,
+          "simpleDesc": "Ottiene 1 Potenza [Breath]"
+        },
+        {
+          "abilityID": 97091,
+          "simpleDesc": "Ottiene 3 Potenza [Breath]"
+        }
+      ]
+    },
+    {
+      "id": 9710,
+      "name": "Enorme Sacco dei Regali",
+      "desc": "Inizio Turno: applica 2 [Breath], 2 Conteggio [Breath] e 2 [Protection] all'alleato con meno PV.",
+      "simpleDesc": [
+        {
+          "abilityID": 9710,
+          "simpleDesc": "Applica 2 [Breath], 2 Conteggio [Breath] e 2 [Protection]"
+        }
+      ]
+    },
+    {
+      "id": 9711,
+      "name": "Peluche Triste",
+      "desc": "Infligge +(valore assoluto dei PS/1.5)% danni. (min 0%)\n\nQuando un alleato con Abilità con Moneta Positiva si riprende dallo Stordimento, recupera tutti i suoi PS (non si attiva se l'unità Corrode).\n\nSe un alleato ha solo Abilità con Monete Negative: guadagna 3 [Paralysis] ad inizio turno.",
+      "simpleDesc": [
+        {
+          "abilityID": 9711,
+          "simpleDesc": "Infligge +(valore assoluto dei PS/1.5)% danni. (min 0%)"
+        },
+        {
+          "abilityID": 97111,
+          "simpleDesc": "Quando si recupera dallo Stordimento, recupera tutti i PS"
+        },
+        {
+          "abilityID": 97112,
+          "simpleDesc": "Ottiene 3 [Paralysis] ad Inizio Turno"
+        }
+      ]
+    },
+    {
+      "id": 9712,
+      "name": "Libro Mastro Annerito",
+      "desc": "Ad Inizio del primo Turno: ottieni risorse E.G.O casuali pari al numero dei nemici.\n\nSe all'Incontro partecipano 4 o più Identità dei Discendenti della Spada o del Clan Kurokumo (vengono contate solo le Identità in campo all'Inizio dell'Incontro), ottieni risorse E.G.O dell'Affinità meno posseduta.",
+      "simpleDesc": [
+        {
+          "abilityID": 9712,
+          "simpleDesc": "Ottieni risorse E.G.O casuali"
+        },
+        {
+          "abilityID": 97121,
+          "simpleDesc": "Ottieni le risorse E.G.O che possiedi di meno"
+        }
+      ]
+    },
+    {
+      "id": 9713,
+      "name": "Elsa Arrugginita",
+      "desc": "Ad Inizio del primo Turno: tutti gli alleati ottengono Potere Tagliente Aumentato +1.\n\nLe Identità dei Discendenti della Spada o del Clan Kurokumo ottengono invece Potere Tagliente Aumentato +2.",
+      "simpleDesc": [
+        {
+          "abilityID": 9713,
+          "simpleDesc": "Ottiene Potere Tagliente Aumentato +1"
+        },
+        {
+          "abilityID": 97131,
+          "simpleDesc": "Ottiene Potere Tagliente Aumentato +2"
+        }
+      ]
+    },
+    {
+      "id": 9714,
+      "name": "Lama Frantumata",
+      "desc": "Durante questo Incontro: quando infliggi Potenza [Laceration] o 'Sanguinamento Speciale' per la prima volta contro un nemico con l'effetto di un'Abilità Attacco, infliggi +2 Conteggio [Laceration] in più (1 volta per Incontro).\n\nSe, invece, sono le identità del Clan Kurokumo, infliggi 4 Potenza [Laceration] in più e +4 Conteggio [Laceration].",
+      "simpleDesc": [
+        {
+          "abilityID": 9714,
+          "simpleDesc": "Infligge 2 Conteggio [Laceration] in più"
+        },
+        {
+          "abilityID": 97141,
+          "simpleDesc": "Infligge 4 Potenza [Laceration] e +4 Conteggio [Laceration]"
+        }
+      ]
+    },
+    {
+      "id": 9715,
+      "name": "Lama Spezzata",
+      "desc": "Quando un alleato colpisce un nemico con un colpo critico, infligge ulteriori (Potenza [Breath]/3) danni Superbia.\n\nLe Identità dei Discendenti della Spada,invece, infliggono ulteriori (Potenza [Breath]/2) danni Superbia.",
+      "simpleDesc": [
+        {
+          "abilityID": 9715,
+          "simpleDesc": "infligge ulteriori (Potenza [Breath] /3) danni Superbia."
+        },
+        {
+          "abilityID": 97151,
+          "simpleDesc": "infligge ulteriori (Potenza [Breath] /2) danni Superbia."
+        }
+      ]
+    },
+    {
+      "id": 9716,
+      "name": "Nappa Rossa",
+      "desc": "Se il bersaglio ha 1.5 Resistenza Tagliente o meno, Resistenza Tagliente +0.3.",
+      "simpleDesc": [
+        {
+          "abilityID": 9716,
+          "simpleDesc": "Resistenza Tagliente +0.3"
+        }
+      ]
+    },
+    {
+      "id": 9717,
+      "name": "Sublimità",
+      "desc": "Ad Inizio Turno: si attiva quando ci sono 3 o più Identità del Clan Kurokumo (vengono contate solo le Identità in campo).\n\nAd Inizio Turno: tutti gli alleati ottengono 2 Potere Tagliente Aumentato ed infliggono +35% danni Taglienti.\n\nAd Inizio Turno: quando un'Identità del Clan Kurokumo infligge danni per la prima volta, infligge 4 Potenza [Laceration] in più e +4 Conteggio [Laceration] (1 volta per turno).",
+      "simpleDesc": [
+        {
+          "abilityID": 9717,
+          "simpleDesc": "Ottiene 2 Potere Tagliente Aumentato e infliggi +35% danni Taglienti"
+        },
+        {
+          "abilityID": 97171,
+          "simpleDesc": "Infliggi 4 Potenza [Laceration] in più e +4 Conteggio [Laceration] (1 volta per turno)."
+        }
+      ]
+    },
+    {
+      "id": 9718,
+      "name": "Inflessibile",
+      "desc": "Ad Inizio Turno: si attiva se ci sono 3 o più Identità Discendenti della Spada (vengono contate solo le Identità in campo).\n\nAd Inizio Turno: tutti gli alleati ottengono Potere Tagliente Aumentato +2 e infliggono +35% Danni Taglienti in più.\n\nAd Inizio Turno: quando un'Identità Discendenti della Spada infligge un Colpo Critico, infligge ulteriori danni Superbia pari a Potenza [Breath] su sé stessa.",
+      "simpleDesc": [
+        {
+          "abilityID": 9718,
+          "simpleDesc": "Ottiene Potere Tagliente Aumentato +2 e infligge +35% Danni Taglienti in più"
+        },
+        {
+          "abilityID": 97181,
+          "simpleDesc": "Infligge Danni Superbia in più pari a Potenza [Breath] su sé stessi"
+        }
+      ]
+    },
+    {
+      "id": 9719,
+      "name": "Cappello di Bambù Logoro",
+      "desc": "Ad Inizio Turno: Si attiva se ci sono 3 o più Identità Discendenti della Spada(sono contate solo le Identità in campo).\n\nTutti gli alleati infliggono +50% Danni Taglienti extra\n\nIdentità Discendenti della Spada: se l'alleato ha [Breath], il Colpo Critico è fissato a 100%.\n\nIdentità Discendenti della Spada: infliggi x1.5 danni in più con Colpo Critico",
+      "simpleDesc": [
+        {
+          "abilityID": 9719,
+          "simpleDesc": "Infligge +50% Danni Taglienti"
+        },
+        {
+          "abilityID": 97191,
+          "simpleDesc": "Colpo Critico fissato a 100%"
+        },
+        {
+          "abilityID": 97192,
+          "simpleDesc": "Infligge 1.5 volte più danni con Colpo Critico"
+        }
+      ]
+    },
+    {
+      "id": 9720,
+      "name": "Vecchia Tunica Dopo",
+      "desc": "Inizio dell'Incontro: Gli effetti si applicano quando sono presenti 3 o più Identità dei Discendenti della Spada (vengono contate solo le Identità in campo)\n\nTutti gli alleati infliggono 50% danni Taglienti in più\n\nPer le Identità dei Discendenti della Spada: l'Abilità 1 ottiene Potere Moneta Positivo +1; le Abilità 1 a Moneta Singola ottengono Potere Moneta Positivo +3\n\n[Solo per il Mentore dei Discendenti della Spada Meursault] Non può essere Stordito nel turno in cui questa unità equipaggia 'Sacrifico la Carne'. L'Abilità 'Sacrifico la Carne' ottiene Potere Scontro Finale -36; 'Per Reclamare le Ossa' infligge 50% danni in più",
+      "simpleDesc": [
+        {
+          "abilityID": 9720,
+          "simpleDesc": "Infligge +50% danno Tagliente"
+        },
+        {
+          "abilityID": 97201,
+          "simpleDesc": "Aumenta il Potere Moneta dell'Abilità 1"
+        },
+        {
+          "abilityID": 97202,
+          "simpleDesc": "Potere Scontro Finale dell'Abilità 'Sacrifico la Carne' -36; 'Per Reclamare le Ossa' infligge +50% danni"
+        }
+      ]
+    },
+    {
+      "id": 9721,
+      "name": "Cassa Argentata",
+      "desc": "Quando danneggi un nemico con Abilità Attacco (Abilità E.G.O escluse) che infliggono Potenza, Conteggio [Vibration] o '<noparse>Vibrazione</noparse> Speciale', infliggi +10% danni.\n\nSe l'Abilità innesca [VibrationExplosion] su un nemico in questo turno, infliggi +2 Conteggio [Vibration] nel turno successivo (una volta per turno).",
+      "simpleDesc": [
+        {
+          "abilityID": 2036,
+          "simpleDesc": "Infligge +10% danni"
+        },
+        {
+          "abilityID": 20361,
+          "simpleDesc": "Infligge +2 Conteggio [Vibration] nel turno successivo"
+        }
+      ]
+    },
+    {
+      "id": 9722,
+      "name": "Cassa Sbiadita",
+      "desc": "In Scontro contro un nemico più veloce, ottieni Potere Scontro +1.\n\nQuando si danneggia un nemico più veloce, infliggi 3 Potenza [Vibration] e +2 Conteggio [Vibration] nel turno successivo. (Una volta per turno)",
+      "simpleDesc": [
+        {
+          "abilityID": 2037,
+          "simpleDesc": "Potere Scontro +1"
+        },
+        {
+          "abilityID": 20371,
+          "simpleDesc": "Infliggi 3 Potenza [Vibration] e +2 Conteggio [Vibration] nel turno successivo"
+        }
+      ]
+    },
+    {
+      "id": 9723,
+      "name": "Avviso di Sollecito",
+      "desc": "Fine Turno: Infliggi 1 [Binding] al nemico più veloce il turno successivo (per Anormalità, una Parte).\n\nSe il bersaglio ha [Vibration] o '<noparse>Vibrazione</noparse> Speciale', infliggi invece 2 [Binding].\n\nQuando un alleato attacca dei nemici con [Binding], infliggi +(5 + (2.5 x Stack di [Binding]))% danni in più (max 15%).",
+      "simpleDesc": [
+        {
+          "abilityID": 2038,
+          "simpleDesc": "Applica 1 [Binding] il turno successivo"
+        },
+        {
+          "abilityID": 20381,
+          "simpleDesc": "Infligge +(5 + (2.5 x Stack di [Binding]))% danni in più"
+        }
+      ]
+    },
+    {
+      "id": 9724,
+       "name": "Lancette Incise",
+      "desc": "Inizio del Primo Turno di un'Ondata: infliggi (9 - Velocità corrente) Potenza [Vibration] ai 3 nemici con minore Velocità. (Min 3)\n\nInfliggi +10% danni contro i bersagli con 12+ [Vibration] o '<noparse>Vibrazione</noparse> Speciale' ad Inizio Turno.",
+      "simpleDesc": [
+        {
+          "abilityID": 2039,
+          "simpleDesc": "Infligge (9 - Velocità corrente) Potenza [Vibration]"
+        },
+        {
+          "abilityID": 20391,
+          "simpleDesc": "Infligge +10% danni"
+        }
+      ]
+    },
+    {
+      "id": 9725,
+      "name": "Lancette Arruginite",
+      "desc": "Inizio del Primo Turno di un'Ondata: infliggi (9 - Velocità corrente) Potenza [Vibration] (Min 3) e (9 - Velocità corrente)/2 Conteggio [Vibration] al nemico con Velocità maggiore. (arrotondato per eccesso; per Anormalità, una Parte)\n\nSubisci -10% danni dai nemici con 12+ [Vibration] o '<noparse>Vibrazione</noparse> Speciale' ad Inizio Turno.",
+      "simpleDesc": [
+        {
+          "abilityID": 2040,
+          "simpleDesc": "Infligge (9 - Velocità corrente) Potenza [Vibration] (Min 3) e (9 - Velocità corrente)/2 Conteggio [Vibration]"
+        },
+        {
+          "abilityID": 20401,
+          "simpleDesc": "Danni subiti -10%."
+        }
+      ]
+    },
+    {
+      "id": 9726,
+      "name": "Calice dello Sgocciolamento",
+      "desc": "Quando un alleato vince uno Scontro con un'Abilità Attacco (non Abilità E.G.O) che infligge Potenza, Conteggio [Vibration] o '<noparse>Vibrazione</noparse> Speciale', infliggi 2 Potenza [Vibration] e +2 Conteggio [Vibration] (2 volte per turno).\n\nIdentità del Yurodivy: Infliggi 3 Potenza [Vibration] e +3 Conteggio [Vibration] invece. (3 volte per turno)\n\nSe l'Identità affetta si Scontra con bersagli con Livello Offensivo più alto, Potere Scontro +2; infliggi +20% danni dopo aver vinto lo Scontro.",
+      "simpleDesc": [
+        {
+          "abilityID": 2041,
+          "simpleDesc": "Infligge 2 Potenza [Vibration] e +2 Conteggio [Vibration]"
+        },
+        {
+          "abilityID": 20411,
+          "simpleDesc": "Infligge 3 Potenza [Vibration] e +3 Conteggio [Vibration]"
+        },
+        {
+          "abilityID": 20412,
+          "simpleDesc": "Potere Scontro +2, infligge +20% danni"
+        }
+      ]
+    },
+    {
+      "id": 9727,
+         "name": "Ricevuta del Tempo Prepagato",
+      "desc": "Infliggi +(5 + (2.5 x differenza di Velocità))% danni contro nemici più veloci con 2+ di differenza di Velocità. (Max 15%)\n\nFine Turno: Se un alleato ha danneggiato con un'Abilità Attacco (Eccetto Abilità E.G.O.) in questo turno contro nemici più veloci con 2+ di differenza di Velocità, infliggi 2 [Binding] e 1 [ResultReduction] al nemico nel turno successivo. (Una volta per turno)",
+      "simpleDesc": [
+        {
+          "abilityID": 2042,
+          "simpleDesc": "Infliggi +(5 + (2.5 x differenza di Velocità))% danni"
+        },
+        {
+          "abilityID": 20421,
+          "simpleDesc": "Infliggi 2 [Binding] e 1 [ResultReduction] al nemico nel turno successivo"
+        }
+      ]
+    },
+    {
+      "id": 9728,
+      "name": "Orologio da Taschino : Tipo L",
+      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità posseggono Abilità Attacco che applicano Potenza, Conteggio [Vibration] o '<noparse>Vibrazione</noparse> Speciale'. (Abilità E.G.O. escluse; Unità di Riserva escluse)\n\nPer le Abilità 3 degli alleati che infliggono Potenza, Conteggio [Vibration] o '<noparse>Vibrazione</noparse> Speciale': Potere Moneta +2 ed infliggi +25% danni.\n\nQuando un alleato che può infliggere Potenza, Conteggio [Vibration] o '<noparse>Vibrazione</noparse> Speciale' attiva [Switch_Vibration] su un nemico tramite Abilità Attacco (Incluse Abilità E.G.O.): Moltiplica Potenza e Conteggio [Vibration] di 1.5 (solamente quando viene Convertito in un tipo diverso di 'Vibrazione') ed infligge 5 [DefenseDown] nel turno successivo. (Una volta per turno)\n\nInizio Turno: Infliggi (12 - Velocità corrente) Potenza [Vibration] (Min 6) ai 3 nemici con Velocità minore. (Una volta per Ondata)",
+      "simpleDesc": [
+        {
+          "abilityID": 2043,
+          "simpleDesc": "Abilità 3 ottiene Potere Moneta +2 ed infligge +25% danni"
+        },
+        {
+          "abilityID": 20431,
+          "simpleDesc": "Moltiplica Potenza e Conteggio [Vibration] di 1.5 quando attivi [Switch_Vibration]"
+        },
+        {
+          "abilityID": 20432,
+          "simpleDesc": "Infligge (12 - Velocità corrente) Potenza [Vibration]"
+        }
+      ]
+    },
+    {
+      "id": 9729,
+      "name": "Orologio da Taschino : Tipo E",
+      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità posseggono Abilità Attacco che applicano Potenza, Conteggio [Vibration] o '<noparse>Vibrazione</noparse> Speciale'. (Abilità E.G.O. escluse; Unità di Riserva escluse)\n\nPer le Abilità 3 degli alleati che infliggono Potenza, Conteggio [Vibration] o '<noparse>Vibrazione</noparse> Speciale': Potere Moneta +2 ed infliggi +25% danni.\n\nQuando un alleato che può infliggere Potenza, Conteggio [Vibration] o '<noparse>Vibrazione</noparse> Speciale' danneggia un nemico più lento con 2+ differenza di Velocità: infliggi +(Potenza [Vibration] sul bersaglio, Max 25)% danni e 2 [DefenseDown] ogni volta che l'alleato causa del danno (Max 6)\n\nInizio Turno: Infliggi (12 - Velocità corrente) Potenza [Vibration] (Min 6) e (12 - Velocità corrente)/2 Conteggio [Vibration] al nemico con Velocità maggiore. (arrotondato per eccesso; per Anormalità, una Parte; Una volta per Ondata)",
+      "simpleDesc": [
+        {
+          "abilityID": 2044,
+          "simpleDesc": "L'Abilità 3 ottiene Potere Moneta +2 ed infligge +25% danni"
+        },
+        {
+          "abilityID": 20441,
+          "simpleDesc": "Infligge +(Potenza [Vibration] al nemico)% danni e 2 [DefenseDown] ogni volta che l'alleato infligge danni"
+        },
+        {
+          "abilityID": 20442,
+          "simpleDesc": "Infligge (12 - Velocità corrente) Potenza [Vibration] (Min 6) e (12 - Velocità corrente)/2 Conteggio [Vibration]"
+        }
+      ]
+    },
+    {
+      "id": 9730,
+       "name": "Orologio da Taschino : Tipo Y",
+      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità posseggono Abilità Attacco che applicano Potenza, Conteggio [Vibration] o '<noparse>Vibrazione</noparse> Speciale'. (Abilità E.G.O. escluse; Unità di Riserva escluse)\n\nPer le Abilità 3 degli alleati che infliggono Potenza, Conteggio [Vibration] o '<noparse>Vibrazione</noparse> Speciale': Potere Moneta +2 ed infliggi +25% danni.\n\nIdentità del Yurodivy: l'Abilità 3 ottiene Potere Moneta +2 ed infligge +(25 + (somma della Potenza e Conteggio [Vibration] sul bersaglio))% danni. (Max 100%)\n\nIdentità del Yurodivy: ottieni +3 Conteggio [Vibration] ad Inizio Turno.",
+      "simpleDesc": [
+        {
+          "abilityID": 2045,
+          "simpleDesc": "L'Abilità 3 ottiene Potere Moneta +2 ed infligge +25% danni"
+        },
+        {
+          "abilityID": 20451,
+          "simpleDesc": "L'Abilità 3 ottiene Potere Moneta +2 ed infligge +(25 + (somma Potenza e Conteggio [Vibration] sul nemico))% danni."
+        },
+        {
+          "abilityID": 20452,
+          "simpleDesc": "Ottiene +3 Conteggio [Vibration]"
+        }
+      ]
+    },
+    {
+      "id": 9731,
+       "name": "Orologio da Taschino : Tipo P",
+      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità posseggono Abilità Attacco che applicano Potenza, Conteggio [Vibration] o '<noparse>Vibrazione</noparse> Speciale'. (Abilità E.G.O. escluse; Unità di Riserva escluse)\n\nPer le Abilità 3 degli alleati che infliggono Potenza, Conteggio [Vibration] o '<noparse>Vibrazione</noparse> Speciale': Potere Moneta +2 ed infliggi +25% danni.\n\nQuando un alleato che può infliggere Potenza, Conteggio [Vibration] o '<noparse>Vibrazione</noparse> Speciale' si Scontra contro un nemico più veloce con +2 differenza di Velocità: Potere Scontro +2 ed infligge +(Potenza [Vibration] sul bersaglio)% danni. (Max 50%)\n\nInizio Turno: dal più lento al più veloce, i 3 alleati più lenti ottengono rispettivamente 5 [AttackUp], 3 [AttackUp], e 2 [AttackUp].",
+      "simpleDesc": [
+        {
+          "abilityID": 2046,
+          "simpleDesc": "Abilità 3 ottiene Potere Moneta +2 ed infligge +25% danni"
+        },
+        {
+          "abilityID": 20461,
+          "simpleDesc": "Potere Scontro +2 ed infligge +(Potenza [Vibration] sul nemico)% danni"
+        },
+        {
+          "abilityID": 20462,
+          "simpleDesc": "Ottiene [AttackUp]"
+        }
+      ]
+    }
+  ]
+}

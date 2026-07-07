@@ -1,0 +1,222 @@
+{
+  "dataList": [
+    {
+      "id": 9819,
+      "name": "Spada Sanguifiamma",
+      "desc": "Primo Inizio Turno di un Incontro: Le Identità con Abilità Attacco Base che fanno ottenere [Combustion], ottengono 5 [Combustion] e recuperano 8 PS\n\nPer le Identità del Branco Heishou - Ramo You: I PV vengono limitati al 49% dei PV Max. In cambio, subiscono il 50% in meno di danno e ricevono 50% di cure ridotte (escluse le cure dai Doni E.G.O)",
+      "simpleDesc": [
+        {
+          "abilityID": 9819,
+          "simpleDesc": "Ottieni [Combustion], Livelli Offensivi, e recupera PS"
+        },
+        {
+          "abilityID": 98191,
+          "simpleDesc": "PV vengono limitati. Subisci meno danni e recupera meno PV."
+        }
+      ]
+    },
+    {
+      "id": 9820,
+      "name": "Bardatura in Ferro Nero",
+      "desc": "Inizio Turno: applica (Livello Difensivo / 3) Scudo ad 1 alleato con il Livello Difensivo più alto (priorità per le Identità del Branco Heishou - Ramo Wu; Scudo  15)\n\nQuando gli alleati con dello Scudo vincono uno Scontro, infliggono (Velocità / 2) Potenza [Vibration]; dopo, ottengono 2 [Agility] e 2 [DefenseUp] nel turno successivo (una volta per turno per Identità)",
+      "simpleDesc": [
+        {
+          "abilityID": 9820,
+          "simpleDesc": "Applica Scudo e [Agility] ad un alleato"
+        },
+        {
+          "abilityID": 98201,
+          "simpleDesc": "Infliggi Potenza [Vibration] in base alla Velocità; ottieni Livello Difensivo nel turno dopo"
+        }
+      ]
+    },
+    {
+      "id": 9821,
+      "name": "Benda Rossa che Sigilla il Cuore",
+      "desc": "[Gli effetti si applicano solo alla 1° Identità Schierata]\n\nQuando gli altri alleati usano un Attacco Incontrastato per colpire un nemico, ottengono 1 [AttackUp] nel turno successivo (possono attivare solo una volta per turno per Identità; l'effetto si attiva fino a 6 volte per turno)\n\nQuando gli altri alleati [RetreatForCommon], ottengono 1 [SlashResultUp] e 1 [SlashDamageUp] nel turno successivo (una volta per turno)\n\nQuando le condizioni vengono soddisfatte, ottengono 1 [ResultEnhancement] nel turno successivo (una volta per turno)",
+      "simpleDesc": [
+        {
+          "abilityID": 9821,
+          "simpleDesc": "Ottieni Livello Offensivo nel turno dopo"
+        },
+        {
+          "abilityID": 98211,
+          "simpleDesc": "Ottieni [SlashResultUp] e [SlashDamageUp] nel turno dopo"
+        },
+        {
+          "abilityID": 98212,
+          "simpleDesc": "Ottieni [ResultEnhancement] nel turno dopo"
+        }
+      ]
+    },
+    {
+      "id": 9822,
+      "name": "Virtù - Zhi (智)",
+      "desc": "[Gli effetti si applicano solo alla 6° Identità Schierata]\n\nQuando viene usata un'Abilità Attacco (incluse le Abilità E.G.O) che infligge Potenza [Burst] o Conteggio [Burst] per vincere uno Scontro, ottieni 2 [DefenseUp] nel turno successivo (una volta per turno)\n- Se questa unità è un Candidato a Gerarca della Famiglia: ottieni anche 1 [Agility] nel turno successivo",
+      "simpleDesc": [
+        {
+          "abilityID": 9822,
+          "simpleDesc": "Ottieni [DefenseUp]. Fazione Candidati a Gerarca della Famiglia ottiengono anche [Agility] nel turno dopo"
+        }
+      ]
+    },
+    {
+      "id": 9823,
+      "name": "Virtù - Yong (勇)",
+      "desc": "[Gli effetti si applicano solo alla 6° Identità Schierata]\n\nQuando viene usata un'Abilità Attacco (incluse le Abilità E.G.O) che infligge Potenza [Burst] o Conteggio [Burst] per vincere uno Scontro, ottieni 2 [AttackUp] nel turno successivo (una volta per turno)\n- Se questa unità è un Candidato a Gerarca della Famiglia: ottieni anche 3 [AttackUp] nel turno successivo",
+      "simpleDesc": [
+        {
+          "abilityID": 9823,
+          "simpleDesc": "Ottieni [AttackUp]. Fazione Candidati a Gerarca della Famiglia ottengono [AttackUp] nel turno dopo as well"
+        }
+      ]
+    },
+    {
+      "id": 9824,
+      "name": "Virtù - Ren (仁)",
+      "desc": "[Gli effetti si applicano solo alla 6° Identità Schierata]\n\nQuando viene usata un'Abilità Attacco (incluse le Abilità E.G.O) che infligge Potenza [Burst] o Conteggio [Burst] per vincere uno Scontro, recupera 15 PV (una volta per turno)\n- Se questa unità è un Candidato a Gerarca della Famiglia: ottieni anche 1 [Protection] nel turno successivo",
+      "simpleDesc": [
+        {
+          "abilityID": 9824,
+          "simpleDesc": "Recupera PV. Fazione Candidati a Gerarca della Famiglia ottengono anche [Protection] nel turno"
+        }
+      ]
+    },
+    {
+      "id": 9825,
+      "name": "Cultura: Taglia, Leviga, Modella, Ridefinisci",
+      "desc": "[Gli effetti si applicano solo alla 6° Identità Schierata]\n\nQuando viene usata un'Abilità Attacco (incluse le Abilità E.G.O) che infligge Potenza [Burst] o Conteggio [Burst] per vincere uno Scontro, recupera 20 PV, ottieni 3 [AttackUp], e ottieni 3 [DefenseUp] nel turno successivo (una volta per turno)\n- Se questa unità è un Candidato a Gerarca della Famiglia: applica 1 [Agility], 1 [Protection], e 3 [AttackUp] a tutti gli alleati, inclusa questa unità",
+      "simpleDesc": [
+        {
+          "abilityID": 9825,
+          "simpleDesc": "Ottieni [AttackUp], [DefenseUp], e recupera PV. Se questa unità è un Candidato a Gerarca della Famiglia, applica anche [Agility], [Protection], e [AttackUp] a tutti gli alleati nel turno dopo"
+        }
+      ]
+    },
+    {
+      "id": 9826,
+      "name": "Vino Shaoxing",
+      "desc": "[Gli effetti si applicano solo alla 2° Identità Schierata]\n\nInfliggi +1% di danno per ogni 1% di PV mancante su sé stessi (max 10%)",
+      "simpleDesc": [
+        {
+          "abilityID": 9826,
+          "simpleDesc": "Infliggi più danni in base ai PV mancanti"
+        }
+      ]
+    },
+    {
+      "id": 19826,
+      "name": "Vino Shaoxing+",
+      "desc": "[Gli effetti si applicano solo alla 2° <style=\"upgradeHighlight\">e 4° Identità Schierate</style>]\n\nInfliggi +1% di danno per ogni 1% di PV mancante su sé stessi (max 10%)",
+      "simpleDesc": [
+        {
+          "abilityID": 19826,
+          "simpleDesc": "Infliggi più danni in base ai PV mancanti"
+        }
+      ]
+    },
+    {
+      "id": 29826,
+      "name": "Vino Shaoxing++",
+      "desc": "[Gli effetti si applicano solo alla 2° ,4°, <style=\"upgradeHighlight\">e 6°</style> Identità Schierate]\n\nInfliggi +1% di danno per ogni 1% di PV mancante su sé stessi (max 10%)",
+      "simpleDesc": [
+        {
+          "abilityID": 29826,
+          "simpleDesc": "Infliggi più danni in base ai PV mancanti"
+        }
+      ]
+    },
+    {
+      "id": 9827,
+      "name": "Risentimento Della Famiglia",
+      "desc": "Raddoppia la quantità di [BloodDinner] generata in Campo\nLe Abilità che infliggono Potenza [Laceration], Conteggio [Laceration], o '<noparse>Sanguinamento</noparse> Speciale': Dopo l'Attacco, recupera il 30% dei danni PV inflitti. (max 20)\n* Se un'unità ha recuperato PV grazie a questo effetto, ottiene 1 [Enhancement] all'Inizio del prossimo Turno (max 2)\n\nPer ogni 50 [BloodDinner_Common_Accumulation], tutti gli alleati ottengono 1 [AttackUp] all'Inizio del prossimo Turno (max 5)\nCiascuna unità di La Manchaland ottiene anche 1 [AttackUp] per ogni 30 [BloodDinner_Accumulation] consumata da ciascuna unità (max 3)",
+      "simpleDesc": [
+        {
+          "abilityID": 9827,
+          "simpleDesc": "Genera più [BloodDinner]"
+        },
+        {
+          "abilityID": 98271,
+          "simpleDesc": "Recupera PV"
+        },
+        {
+          "abilityID": 98272,
+          "simpleDesc": "Ottieni [AttackUp]"
+        },
+        {
+          "abilityID": 98272,
+          "simpleDesc": "Ottieni [AttackUp]"
+        }
+      ]
+    },
+    {
+      "id": 9828,
+      "name": "Per il Capo",
+      "desc": "[Gli effetti si applicano solo alla 1° Identità Schierata]\nQuando viene usata un'Abilità che spende [Bullet], attiva il seguente:\n- Ottieni 3 [Agility] nel turno successivo (una volta per turno)\n- Per Colpo: innesca [VibrationExplosion] una volta (e consuma 1 Conteggio [Vibration]) (2 volte per turno)\n- Per Colpo dopo Scontro Vinto: se il bersaglio ha entrambi [Combustion] e [Vibration] (incluse entrambe '<noparse>Bruciatura</noparse> Speciale' e '<noparse>Vibrazione</noparse> Speciale'), infliggi danno da Ira uguale a ([Combustion] + [Vibration]). (2 volte per turno)\n\nA 4+ Risonanza Ira, attiva il seguente:\n- Le Abilità Ira ottengono Potere Moneta +2 all'uso\n- Per Colpo, se delle [Bullet] vengono spese, infliggi +30% di danno",
+      "simpleDesc": [
+        {
+          "abilityID": 9828,
+          "simpleDesc": "Ottieni [Agility]"
+        },
+        {
+          "abilityID": 98281,
+          "simpleDesc": "[VibrationExplosion]"
+        },
+        {
+          "abilityID": 98282,
+          "simpleDesc": "Infliggi danno Ira"
+        },
+        {
+          "abilityID": 98283,
+          "simpleDesc": "Ottieni Potere Moneta"
+        },
+        {
+          "abilityID": 98284,
+          "simpleDesc": "Infliggi più danni"
+        }
+      ]
+    },
+    {
+      "id": 9829,
+      "name": "Regole del Medio",
+      "desc": "Per le Abilità Attacco Contundente Base: Potere Moneta +1; Le Identità Del Medio ottengono invece Potere Moneta +2\nQuando un alleato viene colpito, tutti gli alleati ottengono 2 [AttackUp] nel turno successivo (3 volte per turno)\n\nI seguenti effetti si attivano quando ci sono 3 o più Identità Del Medio nell'Incontro.\nInizio Combattimento: ottieni 1 [Enhancement] e 1 [Protection] per ogni Risonanza Invidia (max 3)\nQuando le Identità Del Medio usano un'Abilità Attacco Base Invidia, converti le sue Monete in [SuperCoin], subiscono -50% di danno, e ottengono 2 [HitDamageUp] in questo e nel turno successivo",
+      "simpleDesc": [
+        {
+          "abilityID": 9829,
+          "simpleDesc": "Ottieni Potere Moneta"
+        },
+        {
+          "abilityID": 98291,
+          "simpleDesc": "Ottieni Potere Moneta"
+        },
+        {
+          "abilityID": 98292,
+          "simpleDesc": "Ottieni Livello Offensivo"
+        },
+        {
+          "abilityID": 98293,
+          "simpleDesc": "Ottieni Attack Power Up e [Protection]"
+        },
+        {
+          "abilityID": 98294,
+          "simpleDesc": "Converti le Monete in [SuperCoin], subisci meno danni, e infliggi più danni Contundenti"
+        }
+      ]
+    },
+    {
+      "id": 9830,
+      "name": "Regalino di Kkomi",
+      "desc": "Nel primo Inizio Turno dell'Incontro, e a tutte le Riserve quando entrano in campo, applica 3 [VerEmergencyCandy]\nSe non hanno consumato [VerEmergencyCandy] nel turno precedente, applica 1 [VerHunger] ad Inizio Turno",
+      "simpleDesc": [
+        {
+          "abilityID": 9830,
+          "simpleDesc": "Applica [VerEmergencyCandy]"
+        },
+        {
+          "abilityID": 98301,
+          "simpleDesc": "Applica [VerHunger]"
+        }
+      ]
+    }
+  ]
+}

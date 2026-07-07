@@ -1,0 +1,364 @@
+{
+  "dataList": [
+    {
+      "id": 9156,
+      "name": "Cuor di Vampa Decamillenaria",
+      "desc": "Fine Turno: nemici con 3+ Conteggio [Combustion] attivano [Combustion] un'altra volta (riducendo il Conteggio [Combustion] di 1)",
+      "simpleDesc": [
+        {
+          "abilityID": 9156,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9158,
+      "name": "Fiamma Sgraffignata",
+      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità hanno Abilità Attacco che applicano [Combustion] o '<noparse>Bruciatura</noparse> Speciale'. (escluse le Abilità E.G.O; escluse le Riserve)\n\nPer Colpo con un'Abilità (incluse le Abilità E.G.O): se il bersaglio ha 3+ Conteggio [Combustion], attiva [Combustion] una volta sul bersaglio. (il bersaglio perde 1 Conteggio [Combustion]; si attiva una volta per Abilità)\n\nFine Turno: bersagli con 3+ Conteggio [Combustion] attivano [Combustion] un'altra volta (il bersaglio perde 1 Conteggio [Combustion])\n\nSe un bersaglio con [Combustion] viene sconfitto (per le Anormalità, quando il Nucleo viene sconfitto), infliggi la sua Potenza [Combustion] ad uno dei nemici con meno Potenza [Combustion] all'Inizio del prossimo Turno.\n\nInizio Turno: per questo Turno, infliggi 4 [AttackDown] ai nemici con [Combustion]\n\nSe un bersaglio con [Combustion] viene sconfitto, all'Inizio del prossimo Turno, (Potenza [Combustion] del nemico sconfitto / 15) alleati con Abilità che infliggono [Combustion] ottengono 2 [AttackDmgUp]. (una volta per turno)",
+      "simpleDesc": [
+        {
+          "abilityID": 9158,
+          "simpleDesc": "Attiva [Combustion] una volta"
+        },
+        {
+          "abilityID": 91581,
+          "simpleDesc": "Attiva [Combustion] 1 volta in più"
+        },
+        {
+          "abilityID": 91582,
+          "simpleDesc": "Infliggi Potenza [Combustion] uguale a (Stack rimanenti di [Combustion] sul nemico sconfitto)"
+        },
+        {
+          "abilityID": 91583,
+          "simpleDesc": "Infliggi 4 [AttackDown]"
+        },
+        {
+          "abilityID": 91583,
+          "simpleDesc": "Ottieni 2 [AttackDmgUp]"
+        }
+      ]
+    },
+    {
+      "id": 9160,
+      "name": "Sacca di Sangue Lacerata",
+      "desc": "Per Scontro Vinto da un alleato: attiva il [Laceration] del nemico una volta e riduci il Conteggio [Laceration] di 1 (3 volte per turno)",
+      "simpleDesc": [
+        {
+          "abilityID": 9160,
+          "simpleDesc": "Attiva [Laceration] una volta (riduci Conteggio [Laceration] di 1)"
+        }
+      ]
+    },
+    {
+      "id": 9162,
+      "name": "Shock Emorragico",
+      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità hanno Abilità Attacco che applicano [Laceration] o '<noparse>Sanguinamento</noparse> Speciale'. (escluse le Abilità E.G.O; escluse le Riserve)\n\nPer Scontro Vinto da un alleato: attiva il [Laceration] del nemico una volta e riduci il Conteggio [Laceration] di 1 (una volta per turno per Identità)\n\nI nemici possono essere Storditi tramite danni da [Laceration]; se un nemico viene Stordito a causa del danno da [Laceration] nel mezzo dello Scontro, attiva [Laceration] (n° delle Monete rimanenti del nemico) volte e riduci il Conteggio [Laceration] di (n° delle attivazioni del [Laceration])\n\nSe tutti i nemici hanno [Laceration], perdono 2 'Livelli Difensivi'; alla Fine del Turno, infliggi (n° delle attivazioni del [Laceration] x 2) [DefenseDown] nel turno successivo (max 20)\n\nQuando si infligge Potenza [Laceration] o '<noparse>Sanguinamento</noparse> Speciale' tramite effetti delle Abilità, infliggi 3 Potenza [Laceration] e +1 Conteggio [Laceration] sul bersaglio",
+      "simpleDesc": [
+        {
+          "abilityID": 9162,
+          "simpleDesc": "Per Scontro Vinto, attiva [Laceration] sul bersaglio una volta (riduci Conteggio [Laceration] di 1)"
+        },
+        {
+          "abilityID": 91621,
+          "simpleDesc": "Dopo lo Scontro, attiva il [Laceration] del nemico (n° delle Monete rimanenti su sé stessi) volte e riduci il Conteggio [Laceration] di (n° delle attivazioni del [Laceration])"
+        },
+        {
+          "abilityID": 91622,
+          "simpleDesc": "Infliggi (n° delle attivazioni del [Laceration] x 2) [DefenseDown] (max 20)"
+        },
+        {
+          "abilityID": 91623,
+          "simpleDesc": "Infliggi 3 [Laceration] Potency e +1 Conteggio [Laceration]"
+        }
+      ]
+    },
+    {
+      "id": 9163,
+      "name": "Gemma Oscillatrice",
+      "desc": "Quando si vince uno Scontro con un'Abilità che ha consumato Conteggio [Vibration]: se il bersaglio non ha [Vibration], infliggi +2 Conteggio [Vibration]\n\nA 3+ Risonanza Accidia, inclusa questa Abilità, infliggi invece +3 Conteggio [Vibration]",
+      "simpleDesc": [
+        {
+          "abilityID": 9163,
+          "simpleDesc": "Quando si vince uno Scontro con un'Abilità che ha consumato Conteggio [Vibration], infliggi +2 Conteggio [Vibration]"
+        },
+        {
+          "abilityID": 91631,
+          "simpleDesc": "Quando si vince uno Scontro con un'Abilità che ha consumato Conteggio [Vibration] e fa parte di una Risonanza Accidia di 3+: infliggi +3 Conteggio [Vibration]"
+        }
+      ]
+    },
+    {
+      "id": 9164,
+      "name": "Barilotto Barcollante",
+      "desc": "Inizio Turno: a 8+ Conteggio [Vibration], Potere Scontro +1\n\nQuando un nemico viene sconfitto o Stordito con un'Abilità che consuma Conteggio [Vibration] su sé stessi: ottieni +(Conteggio [Vibration] consumato / 4) Conteggio [Vibration] (una volta per Abilità)",
+      "simpleDesc": [
+        {
+          "abilityID": 9164,
+          "simpleDesc": "A 8+ Conteggio [Vibration], Potere Scontro +1"
+        },
+        {
+          "abilityID": 91641,
+          "simpleDesc": "Quando si vince uno Scontro con un'Abilità che consuma Conteggio [Vibration]: ottieni Conteggio [Vibration]"
+        }
+      ]
+    },
+    {
+      "id": 9166,
+      "name": "Epicentro",
+      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità hanno Abilità Attacco che applicano Potenza o Conteggio [Vibration]. (escluse le Abilità E.G.O; escluse le Riserve)\n(Se delle Identità hanno solo Abilità che ottengono Conteggio [Vibration] su sé stessi, questo Dono E.G.O non si attiva per loro)\n\nQuando si vince uno Scontro con un'Abilità che ha consumato del Conteggio [Vibration] su sé stessi: se il bersaglio non ha [Vibration], infliggi +3 Conteggio [Vibration]\n\nInizio Turno: ottieni Potere Scontro +(Conteggio [Vibration] su sé stessi / 5) (max 3)\n\nQuando si usa un'Abilità che consuma Conteggio [Vibration] su sé stessi: se il bersaglio viene sconfitto o Stordito, ottieni +(Conteggio [Vibration] consumato / 2) Conteggio [Vibration] (una volta per Abilità)",
+      "simpleDesc": [
+        {
+          "abilityID": 9166,
+          "simpleDesc": "Quando si vince uno Scontro con un'Abilità che ha consumato Conteggio [Vibration] su sé stessi: se il bersaglio non ha [Vibration], infliggi +3 Conteggio [Vibration]"
+        },
+        {
+          "abilityID": 91661,
+          "simpleDesc": "Inizio Turno: ottieni (Conteggio [Vibration] su sé stessi / 5) Potere Scontro"
+        },
+        {
+          "abilityID": 91662,
+          "simpleDesc": "Quando si vince uno Scontro con un'Abilità che consuma Conteggio [Vibration]: ottieni Conteggio [Vibration]"
+        }
+      ]
+    },
+    {
+      "id": 9167,
+      "name": "Onnivibro-ottovetti-campana",
+      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità hanno Abilità Attacco che applicano Potenza o Conteggio [Vibration], o '<noparse>Vibrazione</noparse> Speciale'. (escluse le Abilità E.G.O; escluse le Riserve)\n(Se un'Identità ha solo Abilità che ottengono Conteggio [Vibration] su sé stessi, questo Dono E.G.O non si attiva per loro)\n\nQuando si vince uno Scontro con un'Abilità che infligge Potenza o Conteggio [Vibration], o consuma Conteggio [Vibration] su sé stessi: infliggi (n° delle Monete rimanenti) Potenza [Vibration] contro il bersaglio e ottieni (n° delle Monete rimanenti) Conteggio [Vibration] (max +3 Conteggio [Vibration] ottenuto per Abilità).\nSe il bersaglio non ha [Vibration], infliggi +3 Conteggio [Vibration]\n\nInizio Turno: ottieni (1 + (Conteggio [Vibration] su sé stessi / 5)) [ParryingResultUp]. (max 3)\n\nQuando si usa un'Abilità che consuma Conteggio [Vibration] su sé stessi: quando un bersaglio viene sconfitto o Stordito, ottieni (Conteggio [Vibration] consumato / 2) Conteggio [Vibration] (una volta per Abilità)\n\nLe Abilità infliggono +([Vibration] consumato su sé stessi + Potenza [Vibration] sul nemico + 5)% di danno (escluse le Abilità E.G.O; max 50%)\nQuando il bersaglio ha [VibrationNesting], quando si innesca [Switch_Vibration] o [FusionVibration] contro un nemico con un tipo di [Vibration] di cui non hanno tra i loro [VibrationNesting], estendi [VibrationNesting] del bersaglio dalla Fine del Turno al turno successivo",
+      "simpleDesc": [
+        {
+          "abilityID": 9167,
+          "simpleDesc": "Per Scontro Vinto, infliggi [Vibration] uguale al n° delle Monete rimanenti. Se il bersaglio non ha [Vibration], infliggi Conteggio [Vibration]"
+        },
+        {
+          "abilityID": 91671,
+          "simpleDesc": "Turm Start: ottieni [ParryingResultUp] basato sul Conteggio [Vibration] su sé stessi"
+        },
+        {
+          "abilityID": 91672,
+          "simpleDesc": "Quando si vince uno Scontro con un'Abilità che consuma Conteggio [Vibration]: ottieni Conteggio [Vibration]"
+        },
+        {
+          "abilityID": 91673,
+          "simpleDesc": "Abilità che consumano Conteggio [Vibration] infliggono più danni"
+        },
+        {
+          "abilityID": 91674,
+          "simpleDesc": "Estendi the [VibrationNesting] sul bersaglio a Fine Turno fino al turno successivo"
+        }
+      ]
+    },
+    {
+      "id": 9168,
+      "name": "Frammenti dell'Apocalisse",
+      "desc": "Se il bersaglio ha meno di 15 Potenza [Burst], infliggi 1 ulteriore Potenza [Burst] quando viene inflitto della Potenza [Burst]",
+      "simpleDesc": [
+        {
+          "abilityID": 9168,
+          "simpleDesc": "Infliggi 1 Potenza [Burst] addizionale"
+        }
+      ]
+    },
+    {
+      "id": 9170,
+      "name": "Effigie Lugubre",
+      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità hanno Abilità Attacco che applicano Potenza o Conteggio [Burst]. (escluse le Abilità E.G.O; escluse le Riserve)\n\nGli effetti da [Burst] infliggono +100% di danno contro gli Scudi nemici\nSe il bersaglio ha meno di 15 Potenza [Burst], infliggi 2 Potenza [Burst] in più quando viene inflitta Potenza [Burst]\n\nSe [Burst] non può essere applicato per via degli effetti di un'Abilità, ottieni invece <noparse>Potere Moneta Positiva +</noparse>1\n- Abilità a Moneta Negativa: Al posto di ottenere Potere Moneta Positiva, ottieni Potere Base +(4 / n° delle Monete) (min 1; arrotondato per difetto)",
+      "simpleDesc": [
+        {
+          "abilityID": 9170,
+          "simpleDesc": "Effetti da [Burst] infliggono +100% di danno contro Scudi nemici"
+        },
+        {
+          "abilityID": 91701,
+          "simpleDesc": "Infliggi 2 Potenza [Burst] addizionale"
+        },
+        {
+          "abilityID": 91702,
+          "simpleDesc": "Se [Burst] non può essere applicato per via degli effetti di un'Abilità, ottieni invece Potere Moneta/Base "
+        }
+      ]
+    },
+    {
+      "id": 9171,
+      "name": "Rovina",
+      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità hanno Abilità Attacco che applicano Potenza o Conteggio [Burst]. (escluse le Abilità E.G.O; escluse le Riserve)\n\nGli effetti da [Burst] infliggono +150% di danno contro gli Scudi nemici\n\nInizio Turno: i nemici o le Parti con [Burst] perdono (3 + (Potenza [Burst] / 2)) 'Livelli Offensivi' e 'Livelli Difensivi'. (max 6)\n\nQuando viene inflitta Potenza o Conteggio [Burst] tramite effetti delle Abilità, infliggi 2 Potenza [Burst] e +1 Conteggio [Burst] contro il bersaglio. Se il bersaglio ha meno di 15 Potenza [Burst], infliggi 2 Potenza [Burst] in più.\n\nPotere Moneta +1 per Abilità a Moneta Positiva che infliggono Potenza o Conteggio [Burst], o '<noparse>Lacerazione</noparse> Speciale'\nPotere Base +(4 / n° delle Monete) (min. 1; arrotondato per difetto) per le Abilità a Moneta Negativa che infliggono Potenza o Conteggio [Burst], o '<noparse>Lacerazione</noparse> Speciale'",
+      "simpleDesc": [
+        {
+          "abilityID": 9171,
+          "simpleDesc": "Effetti da [Burst] infliggono +100% di danno contro Scudi nemici"
+        },
+        {
+          "abilityID": 91711,
+          "simpleDesc": "Nemici con [Burst] perdono Livelli Offensivi e Difensivi"
+        },
+        {
+          "abilityID": 91712,
+          "simpleDesc": "Quando viene inflitta Potenza [Burst] tramite effetti delle Abilità, infliggi 2 Potenza [Burst] e +1 Conteggio [Burst] al bersaglio"
+        },
+        {
+          "abilityID": 91713,
+          "simpleDesc": "Ottieni Potere Moneta"
+        }
+      ]
+    },
+    {
+      "id": 9172,
+      "name": "Cantabile",
+      "desc": "Quando viene usata un'Abilità Attacco Base, se il bersaglio ha 5+ Potenza [Sinking], recupera (Potenza [Sinking] sul bersaglio / 10) PS su sé stessi (max 3)",
+      "simpleDesc": [
+        {
+          "abilityID": 9172,
+          "simpleDesc": "Recupera PS in base all'[Sinking] del bersaglio"
+        }
+      ]
+    },
+    {
+      "id": 9173,
+      "name": "Soprabito Sbiadito",
+      "desc": "Fine Turno: Se ci sono 3+ nemici con -45 PS, tutti gli alleati ottengono 2 [AttackUp] nel turno successivo",
+      "simpleDesc": [
+        {
+          "abilityID": 9173,
+          "simpleDesc": "Tutti gli alleati ottengono 2 [AttackUp]"
+        }
+      ]
+    },
+    {
+      "id": 9175,
+      "name": "Sfera Impetuosa",
+      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità hanno Abilità Attacco che applicano Potenza o Conteggio [Sinking], o '<noparse>Annegamento</noparse> Speciale'. (escluse le Abilità E.G.O; escluse le Riserve)\n\nQuando si utilizza un'Abilità Attacco Base, se il nemico ha 5+ Potenza [Sinking], recupera (Potenza [Sinking] sul bersaglio / 10) PS su sé stessi (max 5)\n\nFine Turno: nel turno successivo, tutti gli alleati ottengono [AttackUp] uguale al numero di nemici con -45 PS (max 3)",
+      "simpleDesc": [
+        {
+          "abilityID": 9175,
+          "simpleDesc": "Recupera PS in base all'[Sinking] del bersaglio"
+        },
+        {
+          "abilityID": 91751,
+          "simpleDesc": "Tutti gli alleati ottengono [AttackUp] uguale al numero di nemici con -45 PS (max 3)"
+        }
+      ]
+    },
+    {
+      "id": 9176,
+      "name": "Onda Incombente",
+      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità hanno Abilità Attacco che applicano Potenza o Conteggio [Sinking], o '<noparse>Annegamento</noparse> Speciale'. (escluse le Abilità E.G.O; escluse le Riserve)\n\nInizio Turno: infliggi 1 [WaveSinking] contro un nemico casuale\n\nQuando un nemico con [WaveSinking] viene ucciso, all'Inizio del prossimo Turno, trasferisci le Stack di [WaveSinking] da quel nemico ad un nemico con maggior, ma non al massimo, Stack di [WaveSinking]\n\nQuando colpisci ed infliggi danni ai PV ad un nemico con un'Abilità che infligge Potenza o Conteggio [Sinking], o '<noparse>Annegamento</noparse> Speciale', infliggi 4 Potenza [Sinking] e +3 Conteggio [Sinking] a Fine Turno (una volta per turno per ciascun nemico)\nInizio Combattimento: quando viene attivato Rison.-A Tristezza o Lussuria, infliggi 3 Potenza [Sinking] e +3 Conteggio [Sinking] a tutti i nemici (per le Anormalità, una Parte casuale)\n\nDopo aver usato un'Abilità Attacco Base, se il bersaglio ha 10+ Potenza [Sinking], recupera (Potenza [Sinking] sul bersaglio / 10) PS su sé stessi (max 5) e infliggi la stessa quantità come [DefenseDown] contro il bersaglio (max 5; una volta per turno per ciascun nemico)\n\nFine Turno: tutti gli alleati ottengono [AttackUp] uguale al numero di nemici che hanno -45 PS o che sono Unità Senza PS nel turno successivo (max 6)\n\nPotere Moneta +1 per le Abilità a Moneta Positiva che infliggono Potenza o Conteggio [Sinking], o '<noparse>Annegamento</noparse> Speciale'\nPotere Base +(4 / n° di Monete) (min. 1; arrotondato per difetto) per le Abilità a Moneta Negativa che infliggono Potenza o Conteggio [Sinking], o '<noparse>Annegamento</noparse> Speciale'\n\nQuando viene attivato l'effetto dell'[Sinking] (incluso '<noparse>Annegamento</noparse> Speciale') sul bersaglio con un effetto Per Colpo da un'Abilità Attacco Base che infligge o che ottiene Potenza [Sinking], Conteggio [Sinking], o '<noparse>Annegamento</noparse> Speciale', recupera 5 PS a Fine Turno (2 volte per turno per Identità)\nSe l'unità era a 45 PS ad Inizio Turno, l'effetto cambia col seguente: quando colpisci e viene attivato l'effetto dell'[Sinking] (incluso '<noparse>Annegamento</noparse> Speciale') sul bersaglio con un'Abilità Attacco Base, infliggi +3 Conteggio [Sinking] contro il nemico bersagliato (2 volte per turno per Identità)",
+      "simpleDesc": [
+        {
+          "abilityID": 9176,
+          "simpleDesc": "Infliggi [Sinking]"
+        },
+        {
+          "abilityID": 91761,
+          "simpleDesc": "Infliggi [DefenseDown]"
+        },
+        {
+          "abilityID": 91762,
+          "simpleDesc": "Applica [OffenseUp]"
+        },
+        {
+          "abilityID": 91763,
+          "simpleDesc": "Recupera PS"
+        },
+        {
+          "abilityID": 91764,
+          "simpleDesc": "Infliggi [Sinking]"
+        },
+        {
+          "abilityID": 91765,
+          "simpleDesc": "Ottieni Potere Moneta"
+        },
+        {
+          "abilityID": 91766,
+          "simpleDesc": "Ottieni Potere Base"
+        },
+        {
+          "abilityID": 91767,
+          "simpleDesc": "Infliggi [WaveSinking]"
+        },
+        {
+          "abilityID": 91768,
+          "simpleDesc": "Infliggi [WaveSinking]"
+        }
+      ]
+    },
+    {
+      "id": 9178,
+      "name": "Tassa dell'Angelo",
+      "desc": "Fine Turno: quando un alleato ha più di 20 Potenza [Breath], tale alleato consuma 1 Potenza [Breath] per ottenere +1 Conteggio [Breath]",
+      "simpleDesc": [
+        {
+          "abilityID": 9178,
+          "simpleDesc": "Consuma 1 Potenza [Breath] per ottenere 1 Conteggio [Breath]"
+        }
+      ]
+    },
+    {
+      "id": 9180,
+      "name": "Acquavite in Botte",
+      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità hanno Abilità Attacco per ottenere o applicare Potenza o Conteggio [Breath]. (escluse le Abilità E.G.O; escluse le Riserve)\n\nFine Turno: Se un alleato ha più di 20 Potenza [Breath] su sé stesso, l'alleato consuma 1 Potenza [Breath] per ottenere +1 Conteggio [Breath]\n\nFine Turno: 1 alleato con maggior Potenza [Breath] e 1 alleato con maggior Conteggio [Breath] ottengono 2 [Agility] e 1 [AttackUp] nel turno successivo (si possono attivare sulla stessa Identità)\n\nQuando ottieni Potenza [Breath] tramite effetto di un'Abilità, ottieni 2 Potenza [Breath] e +2 Conteggio [Breath] in più.\nSe la somma della Potenza e del Conteggio [Breath] su sé stessi è meno di 20, ottieni invece 3 Potenza [Breath] e +3 Conteggio [Breath].\n\nFine Combattimento: se hai più di 40 Potenza [Breath], consuma 15 Potenza [Breath] per [Discard]re 1 Abilità del grado più basso tra tutti gli Slot Abilità dell'unità (una volta per turno per Identità)",
+      "simpleDesc": [
+        {
+          "abilityID": 9180,
+          "simpleDesc": "Ottieni Conteggio [Breath]"
+        },
+        {
+          "abilityID": 91801,
+          "simpleDesc": "Applica 2 [Agility] e 1 [OffenseUp]"
+        },
+        {
+          "abilityID": 91802,
+          "simpleDesc": "Quando si ottiene Potenza [Breath] tramite effetti delle Abilità, ottieni Potenza e Conteggio addizionali"
+        },
+        {
+          "abilityID": 91803,
+          "simpleDesc": "[Discard] un'Abilità di rango basso in uno Slot Abilità"
+        }
+      ]
+    },
+    {
+      "id": 9181,
+      "name": "Traliccio in Miniatura",
+      "desc": "Dopo un Attacco con un'Abilità Attacco che ha consumato 7+ Conteggio [Charge] su sé stessi: se il bersaglio viene sconfitto, ottieni (Conteggio [Charge] consumato dall'Abilità / 4) Conteggio [Charge] (incluso '<noparse>Carica</noparse> Speciale')",
+      "simpleDesc": [
+        {
+          "abilityID": 9181,
+          "simpleDesc": "Ottieni Conteggio [Charge] in base al Conteggio [Charge] consumato"
+        }
+      ]
+    },
+    {
+      "id": 9183,
+      "name": "Isolante",
+      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità hanno Abilità Attacco per ottenere Conteggio [Charge] o '<noparse>Carica</noparse> Speciale'. (escluse le Abilità E.G.O; escluse le Riserve)\n\nDopo un Attacco con un'Abilità Attacco che consuma Conteggio [Charge] su sé stessi: se il bersaglio viene sconfitto, ottieni (Conteggio [Charge] consumato dall'Abilità / 3) Conteggio [Charge]\n\nInizio Turno: a meno di 3 Conteggio [Charge], ottieni +3 Conteggio [Charge]\nInizio Turno: a 3+ Conteggio [Charge], ottieni 1 [AttackDmgUp]",
+      "simpleDesc": [
+        {
+          "abilityID": 9183,
+          "simpleDesc": "Ottieni Conteggio [Charge] in base al Conteggio [Charge] consumato"
+        },
+        {
+          "abilityID": 91831,
+          "simpleDesc": "Ottieni 1 [AttackDmgUp] o Conteggio [Charge] in base al Conteggio [Charge]"
+        }
+      ]
+    },
+    {
+      "id": 9184,
+      "name": "Macchina del Movimento Perpetuo T-5",
+      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità hanno Abilità Attacco per ottenere Conteggio [Charge] o '<noparse>Carica</noparse> Speciale'. (escluse le Abilità E.G.O; escluse le Riserve)\n\nInizio Turno: a meno di 3 Conteggio [Charge], ottieni +5 Conteggio [Charge].\nInizio Turno: a 5+ Conteggio [Charge], ottieni +2 min/max di Velocità, 1 [Enhancement], e 2 [AttackDmgUp]. (incluso '<noparse>Carica</noparse> Speciale')\n\nTutti gli alleati sul campo ottengono [ShareCharge] ad Inizio Turno.\n\nDopo un Attacco con un'Abilità 3 che fa ottenere o consumare Conteggio [Charge] su sé stessi: se il bersaglio viene sconfitto, o se l'alleato che ha usato l'Abilità è a 3+ [Charge], viene aggiunta 1 Abilità 3 alla lista delle Abilità per il turno successivo. (una volta per turno per Identità; incluso '<noparse>Carica</noparse> Speciale')",
+      "simpleDesc": [
+        {
+          "abilityID": 9184,
+          "simpleDesc": "Ottieni 1 [AttackDmgUp] o Conteggio [Charge] in base al Conteggio [Charge]"
+        },
+        {
+          "abilityID": 91841,
+          "simpleDesc": "Ottieni Conteggio [Charge] in base al Conteggio [Charge] consumato. Nel Turno dopo, ottieni [PlusCoinValueUp]"
+        },
+        {
+          "abilityID": 91842,
+          "simpleDesc": "Dopo un Attacco con un'Abilità 3 che ha consumato Conteggio [Charge], aggiungi 1 Abilità 3 alla lista delle Abilità"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "dataList": [
+    {
+      "id": 9840,
+      "name": "Berretto della W Corp. in Dotazione Standard",
+      "desc": "Dopo aver usato un'Abilità che fa ottenere Conteggio [Charge] o '<noparse>Carica</noparse> Speciale', ottieni [EmergencyChargeForceField] uguale al Conteggio ottenuto (max 7 per Identità)",
+      "simpleDesc": [
+        {
+          "abilityID": 9840,
+          "simpleDesc": "Ottieni [EmergencyChargeForceField]"
+        }
+      ]
+    },
+    {
+      "id": 9841,
+      "name": "Set C di Attrezzi da Agente di Pulizia",
+      "desc": "Dopo aver usato un'Abilità che fa ottenere Conteggio [Charge] o '<noparse>Carica</noparse> Speciale', ottieni [EmergencyChargeForceField] uguale al Conteggio ottenuto (max 7 per Identità)\n\nAbilità che consumano Conteggio [Charge] o '<noparse>Carica</noparse> Speciale' infliggono +(numero di Identità in Squadra con Abilità per ottenere o consumare Conteggio [Charge] o '<noparse>Carica</noparse> Speciale')% di danno (contano tutte le unità in Squadra)\n\nAbilità che consumano Conteggio [Charge] o '<noparse>Carica</noparse> Speciale' ottengono Potere Scontro +3 e infliggono +15% di danno\n- Quando si usano tali Abilità, l'unità ottiene +4 Conteggio [Charge] e 1 [ChargeForceField] (una volta per turno per Identità)\n\nLe Identità della W Corp. ottengono i seguenti effetti:\n- Quando si infliggono danni con un'Abilità (incluse le Abilità E.G.O), infliggi 2 [TakeHpHealReduce] (non cumulabile)\n- Durante la fase di combattimento, quando questa unità subisce danni ai PV da altre fonti al di fuori di danni diretti dalle Abilità, ottiene 5 [ChargeForceField] (una volta per turno per Identità)\n- L'Abilità 2 ottiene Potere Scontro +3 e infligge +15% di danno\n- Inizio Turno: per questo turno, l'Abilità 3 infligge +(numero delle Identità della W Corp. sul campo x 6.25)% di danno\n- Inizio Turno: gli Agenti L2 della W Corp. ottengono 1 [PlusCoinValueUp]\n- Inizio Turno: ottieni (numero delle Identità della W Corp. sul campo / 3) [ChargeLoad] (max 2; arrotondato per eccesso)",
+      "simpleDesc": [
+        {
+          "abilityID": 9841,
+          "simpleDesc": "Ottieni [EmergencyChargeForceField]"
+        },
+        {
+          "abilityID": 98411,
+          "simpleDesc": "Abilità che consuma Conteggio [Charge] infligge più danni"
+        },
+        {
+          "abilityID": 98412,
+          "simpleDesc": "Abilità 1 ottiene Potere Scontro e infligge più danni; Ottieni Conteggio [Charge] e [ChargeForceField]"
+        },
+        {
+          "abilityID": 98413,
+          "simpleDesc": "Infliggi [TakeHpHealReduce]"
+        },
+        {
+          "abilityID": 98414,
+          "simpleDesc": "Ottieni [ChargeForceField]"
+        },
+        {
+          "abilityID": 98415,
+          "simpleDesc": "Abilità 2 ottiene Potere Scontro e infligge più danni"
+        },
+        {
+          "abilityID": 98416,
+          "simpleDesc": "Abilità 3 infligge più danni"
+        },
+        {
+          "abilityID": 98417,
+          "simpleDesc": "Applica Moneta Positiva +"
+        },
+        {
+          "abilityID": 98418,
+          "simpleDesc": "Ottieni [ChargeLoad]"
+        }
+      ]
+    },
+    {
+      "id": 9842,
+      "name": "Carne Sanguinosa, Sangue Carnoso",
+      "desc": "Gli effetti di questo Dono E.G.O vengono potenziati in base al numero delle Identità nella Squadra con Abilità Attacco che consumano [BloodDinner] (il numero delle Identità che soddisfano le condizioni rappresentato da \"N\" qua sotto; escluse le Abilità E.G.O; contano tutte le unità in Squadra)\n\nPrimo Turno di un'ondata: incrementa [BloodDinner] di (N x 20); dopo, applica 3 Potenza [Laceration] e +3 Conteggio [Laceration] su tutti i bersagli ([BloodDinner] incrementata da questo effetto si limita a 100 per attivazione)\n\nGli alleati subiscono -(N x 10%) danni da [Laceration] (min 1 danno da [Laceration]; max 40%)\n- I danni ridotti non influiscono sulla quantità di [BloodDinner] incrementata\n\nI nemici subiscono +(N x 5)% danni da [Laceration] (max 20%)",
+      "simpleDesc": [
+        {
+          "abilityID": 9842,
+          "simpleDesc": "Incrementa [BloodDinner] e infliggi Potenza [Laceration] e Conteggio [Laceration]"
+        },
+        {
+          "abilityID": 98421,
+          "simpleDesc": "Subisci meno danni da [Laceration]"
+        },
+        {
+          "abilityID": 98422,
+          "simpleDesc": "Infliggi più danni da [Laceration]"
+        }
+      ]
+    },
+    {
+      "id": 9843,
+      "name": "Alabarda di Sangue Coagulato",
+      "desc": "Gli effetti di questo Dono E.G.O vengono potenziati in base al numero delle Identità nella Squadra con Abilità Attacco che consumano [BloodDinner] (il numero delle Identità che soddisfano le condizioni rappresentato da \"N\" qua sotto; escluse le Abilità E.G.O; contano tutte le unità in Squadra)\n\nInizio Incontro: tutti gli alleati ottengono (N - 2) [BloodArmorCasting] (max 3)",
+      "simpleDesc": [
+        {
+          "abilityID": 9843,
+          "simpleDesc": "Ottieni [BloodArmorCasting]"
+        }
+      ]
+    },
+    {
+      "id": 9205,
+      "name": "Fiasca WB",
+      "desc": "Per nemico ucciso, incrementa [BloodDinner] di (PV Max / 10) del nemico ucciso (max 50)\nFine Turno: Se un alleato è stato ucciso in questo turno, tutti gli alleati ottengono 2 [Enhancement] nel turno successivo",
+      "simpleDesc": [
+        {
+          "abilityID": 9205,
+          "simpleDesc": "Incrementa [BloodDinner]"
+        },
+        {
+          "abilityID": 92051,
+          "simpleDesc": "Ottieni [Enhancement]"
+        }
+      ]
+    },
+    {
+      "id": 9206,
+      "name": "Discesa della Fraganza Sanguigna",
+      "desc": "L'alleato con meno PV prima dell'Inizio del Combattimento recupera il 3% di PV Per Colpo con Abilità Attacco che applicano [Laceration] o '<noparse>Sanguinamento</noparse> Speciale' (2 volte per turno)\n\nIn uno Scontro usando Abilità che applicano [Laceration] o '<noparse>Sanguinamento</noparse> Speciale' contro nemici con [Laceration] o '<noparse>Sanguinamento</noparse> Speciale', Potere Scontro +1\n- Se 5 o più Identità hanno Abilità Attacco che applicano [Laceration] o '<noparse>Sanguinamento</noparse> Speciale', Potere Scontro +1 e infliggono +10% di danno (contano tutte le unità in Squadra)\n- Se ci sono 10 o più Identità che soddisfanno la condizione precedente, Potere Scontro +2 e infliggono +15% di danno",
+      "simpleDesc": [
+        {
+          "abilityID": 9206,
+          "simpleDesc": "Recupera PV"
+        },
+        {
+          "abilityID": 92061,
+          "simpleDesc": "Ottieni Potere Scontro o infliggi più danni"
+        }
+      ]
+    },
+    {
+      "id": 9818,
+      "name": "Guanto Dimensionale Scartato",
+      "desc": "Quando si danneggiano dei nemici tramite Abilità che consumano Conteggio [Charge] o '<noparse>Carica</noparse> Speciale', +0.1 alla Restistenza al Tipo di Attacco più basso per il turno (una volta per turno)",
+      "simpleDesc": [
+        {
+          "abilityID": 9818,
+          "simpleDesc": "Aumenta la Resistenza ad un Tipo d'Attacco"
+        }
+      ]
+    },
+    {
+      "id": 19818,
+      "name": "Guanto Dimensionale Scartato+",
+      "desc": "Quando si danneggiano dei nemici tramite Abilità che consumano Conteggio [Charge] o '<noparse>Carica</noparse> Speciale', +0.1 alla Restistenza al Tipo di Attacco più basso per il turno (una volta per turno)\n<style=\"upgradeHighlight\">- Inoltre, infliggi 1 [VioletResistDown]</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 19818,
+          "simpleDesc": "Aumenta la Resistenza ad un Tipo d'Attacco"
+        }
+      ]
+    },
+    {
+      "id": 29818,
+      "name": "Guanto Dimensionale Scartato++",
+      "desc": "Quando si danneggiano dei nemici tramite Abilità che consumano Conteggio [Charge] o '<noparse>Carica</noparse> Speciale', +0.1 alla Restistenza al Tipo di Attacco più basso per il turno (<style=\"upgradeHighlight\">2</style> volte per turno)\n- Inoltre, infliggi 1 [VioletResistDown] <style=\"upgradeHighlight\">e 1 [AzureResistDown]</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 29818,
+          "simpleDesc": "Aumenta la Resistenza ad un Tipo d'Attacco"
+        }
+      ]
+    },
+    {
+      "id": 9817,
+      "name": "Frammenti Stellari Blu",
+      "desc": "I nemici con Morale Basso o in Panico perdono 1 Potere Finale (contro i bersagli senza PS, quando hanno 25+ [Sinking])\n- Contro i nemici affetti, quando si infliggono danni tramite Abilità che applicano Potenza o Conteggio [Sinking], o '<noparse>Annegamento</noparse> Speciale', infliggi 2 [DefenseDown] (2 volte per turno)",
+      "simpleDesc": [
+        {
+          "abilityID": 9817,
+          "simpleDesc": "Riduci il Potere Finale del bersaglio; Per Colpo, infliggi [DefenseDown]"
+        }
+      ]
+    },
+    {
+      "id": 19817,
+      "name": "Frammenti Stellari Blu+",
+      "desc": "I nemici con Morale Basso o in Panico perdono <style=\"upgradeHighlight\">2</style> Potere Finale (contro i bersagli senza PS, quando hanno <style=\"upgradeHighlight\">15</style>+ [Sinking])\n- Contro i nemici affetti, quando si infliggono danni tramite Abilità che applicano Potenza o Conteggio [Sinking], o '<noparse>Annegamento</noparse> Speciale', infliggi <style=\"upgradeHighlight\">3</style> [DefenseDown] (2 volte per turno)",
+      "simpleDesc": [
+        {
+          "abilityID": 19817,
+          "simpleDesc": "Riduci il Potere Finale del bersaglio; Per Colpo, infliggi [DefenseDown]"
+        }
+      ]
+    },
+    {
+      "id": 29817,
+      "name": "Frammenti Stellari Blu++",
+      "desc": "I nemici con Morale Basso o in Panico perdono <style=\"upgradeHighlight\">3</style> Potere Finale (contro i bersagli senza PS, quando hanno <style=\"upgradeHighlight\">10</style>+ [Sinking])\n- Contro i nemici affetti, quando si infliggono danni tramite Abilità che applicano Potenza o Conteggio [Sinking], o '<noparse>Annegamento</noparse> Speciale', infliggi 3 [DefenseDown] (<style=\"upgradeHighlight\">3</style> volte per turno)",
+      "simpleDesc": [
+        {
+          "abilityID": 29817,
+          "simpleDesc": "Riduci il Potere Finale del bersaglio; Per Colpo, infliggi [DefenseDown]"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "dataList": [
+    {
+      "id": 9799,
+      "name": "Una Certa Filosofia",
+      "desc": "Fissa la Predizione della Probabilità di Fusione al 100%",
+      "simpleDesc": [
+        {
+          "abilityID": 9799,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9800,
+      "name": "Ricchezza",
+      "desc": "Fissa il Costo di Acquisto e Potenziamento tutti i Doni E.G.O ad 1.\n\nGli alleati ottengono 1 [AttackUp] per ogni 500 Costo posseduto (max 20)",
+      "simpleDesc": [
+        {
+          "abilityID": 9800,
+          "simpleDesc": ""
+        },
+        {
+          "abilityID": 980001,
+          "simpleDesc": "Si ottiene Livello Offensivo Aumentato"
+        }
+      ]
+    },
+    {
+      "id": 9801,
+      "name": "Bolo della Tenacia",
+      "desc": "A Inizio Turno: l'alleato con i PV massimi più alti ottiene 1 [DefenseUp] per ogni colpo subito dalle Abilità Attacco nemiche (max 6)",
+      "simpleDesc": [
+        {
+          "abilityID": 9801,
+          "simpleDesc": "Ottieni [DefenseUp]"
+        }
+      ]
+    },
+    {
+      "id": 9802,
+      "name": "Ascia Tonante",
+      "desc": "Quando un'Abilità Attacco che consuma [Charge] su di sè colpisce: infliggi 1 [Burst] (questo effetto si attiva 3 volte per Abilità e include '<noparse>Carica</noparse> Speciale')\n\n[I seguenti Effetti si attivano in base al numero di Identità schierate con Abilità Attacco che infliggono [Burst] o [Charge]. (esclude le Abilità E.G.O e include le Identità di Riserva)]\n\nA 6 o più Identità, quando vengono attivati gli Effetti di [Burst] sui nemici, l'attaccante ottiene +1 Conteggio [Charge] (3 volte per Abilità)\nA 8 o più Identità, quando un'Abilità che consuma Conteggio [Charge] colpisce, applica +1 Conteggio [Burst] sul bersaglio (3 volte per Abilità e include '<noparse>Carica</noparse> Unica')",
+      "simpleDesc": [
+        {
+          "abilityID": 9802,
+          "simpleDesc": "Applica 1 [Laceration]"
+        },
+        {
+          "abilityID": 980201,
+          "simpleDesc": ""
+        },
+        {
+          "abilityID": 980202,
+          "simpleDesc": "Ottieni +1 Conteggio [Charge]"
+        },
+        {
+          "abilityID": 980203,
+          "simpleDesc": "Applica +1 Conteggio [Burst]"
+        }
+      ]
+    },
+    {
+      "id": 9803,
+      "name": "Il Fiore nello Specchio",
+      "desc": "A Inizio Turno: applica 3 Potenza [Burst] e +1 Conteggio [Burst] su tutti i nemici (negli Incontri Mirati, viene inflitto su tutte le parti)\n\n[I seguenti Effetti si attivano in base al numero di Identità schierate con Abilità Attacco che infliggono Lacerazione o Equilibrio. (esclude le Abilità E.G.O e include le Identità di Riserva)]\n\nA 6 o più Identità, quando vengono attivati gli effetti di [Burst] sui nemici, l'attaccante ottiene +1 Conteggio [Breath] (3 volte per Abilità)\n\nA 10 o più Identità, applica +1 Conteggio [Burst] sul Colpo Critico (3 volte per Abilità)",
+      "simpleDesc": [
+        {
+          "abilityID": 9803,
+          "simpleDesc": "Applica 3 Potenza [Burst] e +1 Conteggio [Burst]"
+        },
+        {
+          "abilityID": 980301,
+          "simpleDesc": ""
+        },
+        {
+          "abilityID": 980302,
+          "simpleDesc": "Ottieni +1 Conteggio [Breath]"
+        },
+        {
+          "abilityID": 980303,
+          "simpleDesc": "Applica +1 Conteggio [Burst]"
+        }
+      ]
+    },
+    {
+      "id": 9804,
+      "name": "La Luna nell'Acqua",
+      "desc": "Quando un nemico con 5 o più Potenza [Burst] viene colpito, l'attaccante ottiene 1 Potenza e +1 Conteggio [Breath] (3 volte per Abilità)\n\n[I seguenti Effetti si attivano in base al numero di Identità schierate con Abilità Attacco che infliggono Lacerazione o Equilibrio. (esclude le Abilità E.G.O e include le Identità di Riserva)]\n\nSul Colpo, se il bersaglio ha 20 o più [Burst], i Colpi Critici infliggono il 10% dei danni aggiuntivi (aumenta del 3% per ogni Identità che soddisfa le condizioni di questo Dono)\n\nA 12 o più Identità, l'attaccante rimuove 1 effetto negativo rimovibile sul Colpo Critico (1 volta per turno per Identità) ",
+      "simpleDesc": [
+        {
+          "abilityID": 9804,
+          "simpleDesc": "Gain Poise Potency and Count"
+        },
+        {
+          "abilityID": 980401,
+          "simpleDesc": ""
+        },
+        {
+          "abilityID": 980402,
+          "simpleDesc": "Deal more Damage on Critical Hit"
+        },
+        {
+          "abilityID": 980403,
+          "simpleDesc": "Remove a random negative effect"
+        }
+      ]
+    },
+    {
+      "id": 9795,
+      "name": "Una Goccia",
+      "desc": "Questo Dono viene attivato quando 3 o più Identità hanno Abilità Attacco che consumano [BloodDinner]. L'effetto persisterà per il resto dell'Incontro. (escluse le Abilità E.G.O e le Identità di Riserva)\n\nA Inizio Combattimento: quando un bersaglio con 30 o più [Laceration] viene colpito da un'Identità che consuma [BloodDinner], la sua Potenza [Laceration] viene ridotta a 15 e Tutta la Potenza rimossa viene registrata su [BloodDinner]. (1 volta per turno. Le Abilità Attacco con più di 1 Portata Attacco riducono solo il [Laceration] del bersaglio principale)\n\nLe Identità con Abilità Attacco che consumano [BloodDinner] ottengono 1 [ResultEnhancement] e 1 [AttackDmgUp] nel turno successivo per ogni 10 [BloodDinner] generato da questo effetto (max 4)",
+      "simpleDesc": [
+        {
+          "abilityID": 9795,
+          "simpleDesc": "Reduce Bleed Potency and increase Bloodfeast"
+        },
+        {
+          "abilityID": 979501,
+          "simpleDesc": "Apply Power Up and Damage Up"
+        }
+      ]
+    },
+    {
+      "id": 9796,
+      "name": "Respiro Doloroso",
+      "desc": "[L'Effetto si applica solo alla Quinta Identità Schierata]\n\nLe monete di un alleato con 50 o più (Potenza + Conteggio) [Breath] faranno sempre Testa (le Abilità con Monete Negative, invece, faranno Croce) e infliggono l'80% dei danni aggiuntivi sul Colpo Critico (1 volta per Incontro ed esclude le Abilità E.G.O).\n\nSe 5 o più Identità hanno Abilità Attacco che applicano Potenza o Conteggio [Breath], la quinta Identità schierata infligge il 60% dei danni aggiuntivi sul Colpo Critico (aumenta del 20% per ogni Identità che soddisfa le condizioni di questo Dono, Identità di Riserva incluse)",
+      "simpleDesc": [
+        {
+          "abilityID": 9796,
+          "simpleDesc": "Deal more Damage on Critical Hit"
+        },
+        {
+          "abilityID": 979601,
+          "simpleDesc": "Deal more Damage on Critical Hit"
+        }
+      ]
+    },
+    {
+      "id": 9797,
+      "name": "Cannone Frantumante",
+      "desc": "A Inizio Turno: ottiene 2 [GiftCannon] e 2 [GiftGlass] ogni turno\nA partire dal secondo turno, le Stack di [GiftCannon] e [GiftGlass] ottenute da questo effetto aumentano di 1 ognuna (fino a 8 volte)",
+      "simpleDesc": [
+        {
+          "abilityID": 9797,
+          "simpleDesc": "Gain Firepower and Delicateness"
+        },
+        {
+          "abilityID": 979701,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9798,
+      "name": "Rovo Bramante",
+      "desc": "Inizio Incontro: aumenta [BloodDinner] di 100\nInizio Turno: Infligge 2 [RoseThorn] a tutti i nemici (o tutte le Parti) con [Laceration].\nSe tutti i nemici (o tutte le Parti) hanno [Laceration], infligge 4 [RoseThorn].",
+      "simpleDesc": [
+        {
+          "abilityID": 9798,
+          "simpleDesc": "Inflict Gluttonous Thorn (貪食棘)"
+        },
+        {
+          "abilityID": 979801,
+          "simpleDesc": "Inflict Gluttonous Thorn (貪食棘)"
+        }
+      ]
+    }
+  ]
+}

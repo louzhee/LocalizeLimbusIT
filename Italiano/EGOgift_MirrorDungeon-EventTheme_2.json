@@ -1,0 +1,884 @@
+{
+  "dataList": [
+    {
+      "id": 9751,
+      "name": "Muta del Serpente",
+      "desc": "Inizio Turno: tutti gli alleati ottengono 2 [DefenseUp].\nOgni alleato ottiene ([DefenseUp] su di sé / 4) Livello Offensivo. (max 10)",
+      "simpleDesc": [
+        {
+          "abilityID": 9751,
+          "simpleDesc": "Tutti gli alleati ottengono [DefenseUp] e Livello Offensivo"
+        }
+      ]
+    },
+    {
+      "id": 19751,
+      "name": "Muta del Serpente+",
+      "desc": "Inizio Turno: tutti gli alleati ottengono <style=\"upgradeHighlight\">4</style> [DefenseUp].\nOgni alleato ottiene ([DefenseUp] su di sé / <style=\"upgradeHighlight\">3</style>) Livello Offensivo. (max 10)",
+      "simpleDesc": [
+        {
+          "abilityID": 19751,
+          "simpleDesc": "Tutti gli alleati ottengono [DefenseUp] e Livello Offensivo"
+        }
+      ]
+    },
+    {
+      "id": 29751,
+      "name": "Muta del Serpente++",
+      "desc": "Inizio Turno: tutti gli alleati ottengono 4 [DefenseUp].\nOgni alleato ottiene ([DefenseUp] su di sé / <style=\"upgradeHighlight\">2</style>) Livello Offensivo. (max 10)",
+      "simpleDesc": [
+        {
+          "abilityID": 29751,
+          "simpleDesc": "Tutti gli alleati ottengono [DefenseUp] e Livello Offensivo"
+        }
+      ]
+    },
+    {
+      "id": 9752,
+      "name": "Aureola Fasulla",
+      "desc": "Per Colpo, ottieni 1 [Zazen]. (2 volte per Abilità)\nSe questa unità è stata colpita da un'Abilità nemica in questo turno, ottieni +1 [Zazen] ulteriore per volta.",
+      "simpleDesc": [
+        {
+          "abilityID": 9752,
+          "simpleDesc": "Per Colpo, ottieni 1 [Zazen]"
+        }
+      ]
+    },
+    {
+      "id": 19752,
+      "name": "Aureola Fasulla+",
+      "desc": "Per Colpo, ottieni 1 [Zazen]. (<style=\"upgradeHighlight\">3</style> volte per Abilità)\nSe questa unità è stata colpita da un'Abilità nemica in questo turno, ottieni +1 [Zazen] ulteriore per volta.",
+      "simpleDesc": [
+        {
+          "abilityID": 19752,
+          "simpleDesc": "Per Colpo, ottieni 1 [Zazen]"
+        }
+      ]
+    },
+    {
+      "id": 29752,
+      "name": "Aureola Fasulla++",
+      "desc": "Per Colpo, ottieni <style=\"upgradeHighlight\">2</style> [Zazen]. (3 volte per Abilità)\nSe questa unità è stata colpita da un'Abilità nemica in questo turno, ottieni +1 [Zazen] ulteriore per volta.",
+      "simpleDesc": [
+        {
+          "abilityID": 29752,
+          "simpleDesc": "Per Colpo, ottieni 2 [Zazen]"
+        }
+      ]
+    },
+    {
+      "id": 9753,
+      "name": "Metronomo",
+      "desc": "Nei turni dispari, tutti gli alleati ottengono 1 [AttackDmgUp]. Nei turni pari, tutti gli alleati ottengono 1 [Protection].",
+      "simpleDesc": [
+        {
+          "abilityID": 9753,
+          "simpleDesc": "Potenzia gli attacci o le difese in base al numero del turno"
+        }
+      ]
+    },
+    {
+      "id": 19753,
+      "name": "Metronomo+",
+      "desc": "Nei turni dispari, tutti gli alleati ottengono 1 [AttackDmgUp]. Nei turni pari, tutti gli alleati ottengono 1 [Protection] <style=\"upgradeHighlight\">e 1 [DefenseUp]</style>.",
+      "simpleDesc": [
+        {
+          "abilityID": 19753,
+          "simpleDesc": "Potenzia gli attacci o le difese in base al numero del turno"
+        }
+      ]
+    },
+    {
+      "id": 29753,
+      "name": "Metronomo++",
+      "desc": "Nei turni dispari, tutti gli alleati ottengono 1 [AttackDmgUp] <style=\"upgradeHighlight\">e 1 [AttackUp]</style>. Nei turni pari, tutti gli alleati ottengono 1 [Protection] e 1 [DefenseUp].",
+      "simpleDesc": [
+        {
+          "abilityID": 29753,
+          "simpleDesc": "Potenzia gli attacci o le difese in base al numero del turno"
+        }
+      ]
+    },
+    {
+      "id": 9754,
+      "name": "Vincolo",
+      "desc": "Inizio Incontro: tutti gli alleati ottengono (Piano corrente x 2)% di PV max (max 20%)",
+      "simpleDesc": [
+        {
+          "abilityID": 9754,
+          "simpleDesc": "Tutti gli alleati ottengono PV max in base al Piano corrente"
+        }
+      ]
+    },
+    {
+      "id": 19754,
+      "name": "Vincolo+",
+      "desc": "Inizio Incontro: tutti gli alleati ottengono (Piano corrente x <style=\"upgradeHighlight\">3</style>)% di PV max (max <style=\"upgradeHighlight\">30</style>%)",
+      "simpleDesc": [
+        {
+          "abilityID": 19754,
+          "simpleDesc": "Tutti gli alleati ottengono PV max in base al Piano corrente"
+        }
+      ]
+    },
+    {
+      "id": 29754,
+      "name": "Vincolo++",
+      "desc": "Inizio Incontro: tutti gli alleati ottengono (Piano corrente x <style=\"upgradeHighlight\">5</style>)% di PV max (max <style=\"upgradeHighlight\">50</style>%)",
+      "simpleDesc": [
+        {
+          "abilityID": 29754,
+          "simpleDesc": "Tutti gli alleati ottengono PV max in base al Piano corrente"
+        }
+      ]
+    },
+    {
+      "id": 9755,
+      "name": "Disprezzo dello Sguardo del Disprezzo",
+      "desc": "[Gli effetti si applicano solo alla 6° Identità Schierata]\n\nInizio Combattimento: infliggi +10% di danni per ogni Abilità Attacco nemica che mira a questa unità (max 20%)\n\nInizio Combattimento: se si è mirati da 2+ Abilità Attacco, infliggi (n° di Abilità che mirano a questa unità) di danni fissi ai PV e PS contro tutti i nemici che mirano a questa unità. (max 3; questo effetto non danneggia gli alleati)",
+      "simpleDesc": [
+        {
+          "abilityID": 9755,
+          "simpleDesc": "Infliggi più danni in base al n° di Abilità nemiche che mirano a questa unità; infliggi danni fissi"
+        }
+      ]
+    },
+    {
+      "id": 19755,
+      "name": "Disprezzo dello Sguardo del Disprezzo+",
+      "desc": "[Gli effetti si applicano solo alla 6° Identità Schierata]\n\nInizio Combattimento: infliggi +10% di danni per ogni Abilità Attacco nemica che mira a questa unità (max 20%)\n\nInizio Combattimento: se si è mirati da 2+ Abilità Attacco, infliggi <style=\"upgradeHighlight\">(n° di Abilità che mirano a questa unità x 2)</style> di danni fissi ai PV e PS contro tutti i nemici che mirano a questa unità. (max <style=\"upgradeHighlight\">5</style>; questo effetto non danneggia gli alleati)",
+      "simpleDesc": [
+        {
+          "abilityID": 19755,
+          "simpleDesc": "Infliggi più danni in base al n° di Abilità nemiche che mirano a questa unità; infliggi danni fissi"
+        }
+      ]
+    },
+    {
+      "id": 29755,
+      "name": "Disprezzo dello Sguardo del Disprezzo++",
+      "desc": "[Gli effetti si applicano solo alla <style=\"upgradeHighlight\">n°1</style> e 6° Identità Schierate]\n\nInizio Combattimento: infliggi +10% di danni per ogni Abilità Attacco nemica che mira a questa unità (max <style=\"upgradeHighlight\">30</style>%)\n\nInizio Combattimento: se si è mirati da 2+ Abilità Attacco, infliggi (n° di Abilità che mirano a questa unità x 2) di danni fissi ai PV e PS contro tutti i nemici che mirano a questa unità. (max <style=\"upgradeHighlight\">10</style>; questo effetto non danneggia gli alleati)",
+      "simpleDesc": [
+        {
+          "abilityID": 29755,
+          "simpleDesc": "Infliggi più danni in base al n° di Abilità nemiche che mirano a questa unità; infliggi danni fissi"
+        }
+      ]
+    },
+    {
+      "id": 9756,
+      "name": "Braci Non Schiuse",
+      "desc": "Quando si subisce un attacco mortale, mantieni i PV a 1 per l'attacco; Dopo l'Attacco, recupera il 20% dei PV max. (una volta per Incontro)",
+      "simpleDesc": [
+        {
+          "abilityID": 9756,
+          "simpleDesc": "Quando subisci un attacco mortale, sfuggi dalla morte e recupera PV"
+        }
+      ]
+    },
+    {
+      "id": 19756,
+      "name": "Braci Non Schiuse+",
+      "desc": "Quando si subisce un attacco mortale, mantieni i PV a 1 per l'attacco; Dopo l'Attacco, recupera il 20% dei PV max. (una volta per Incontro)\n\n<style=\"upgradeHighlight\">Se l'unità affetta ha [Combustion]: mantieni i PV a 1 per l'attacco; Dopo l'Attacco, recupera invece il 30% dei PV max. (una volta per Incontro sia per questo che l'effetto precedente)</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 19756,
+          "simpleDesc": "Quando subisci un attacco mortale, sfuggi dalla morte e recupera PV"
+        }
+      ]
+    },
+    {
+      "id": 29756,
+      "name": "Braci Non Schiuse++",
+      "desc": "Quando si subisce un attacco mortale, mantieni i PV a 1 per l'attacco; Dopo l'Attacco, recupera il 20% dei PV max. (una volta per Incontro)\n\nSe l'unità affetta ha [Combustion]: mantieni i PV a 1 per l'attacco; Dopo l'Attacco, recupera invece il <style=\"upgradeHighlight\">40</style>% dei PV max. (una volta per Incontro sia per questo che l'effetto precedente)",
+      "simpleDesc": [
+        {
+          "abilityID": 29756,
+          "simpleDesc": "Quando subisci un attacco mortale, sfuggi dalla morte e recupera PV"
+        }
+      ]
+    },
+    {
+      "id": 9757,
+      "name": "Spina di Messa a Terra Anti-Ovino",
+      "desc": "Quando si viene colpiti durante la fase di combattimento, infliggi 1 [Paralysis] contro l'attaccante nel turno successivo. (Una volta per turno per ciascuna Identità)",
+      "simpleDesc": [
+        {
+          "abilityID": 9757,
+          "simpleDesc": "Quando colpiti, infliggi 1 [Paralysis] nel turno dopo"
+        }
+      ]
+    },
+    {
+      "id": 19757,
+      "name": "Spina di Messa a Terra Anti-Ovino+",
+      "desc": "Quando si viene colpiti durante la fase di combattimento, infliggi 1 [Paralysis] contro l'attaccante nel turno successivo. (Una volta per turno per ciascuna Identità)\n\n<style=\"upgradeHighlight\">A 5+ Rison.-A Invidia, ad Inizio Combattimento: infliggi 1 [Paralysis] contro tutti i nemici.</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 19757,
+          "simpleDesc": "Quando colpiti, infliggi 1 [Paralysis] nel turno dopo; Inizio Combattimento: a 5+ Ris-A Invidia, infliggi 1 [Paralysis] a tutti i nemici"
+        }
+      ]
+    },
+    {
+      "id": 9758,
+      "name": "Vestigi del Re",
+      "desc": "Turn Start: Se un'Identità sostituisce un'altra, quell'Identità recupera 10 PS, ottiene 2 [Enhancement], 2 [ParryingResultUp], e ottieni 1 risorsa E.G.O per ciascuna delle sue Abilità 1, 2, e 3",
+      "simpleDesc": [
+        {
+          "abilityID": 9758,
+          "simpleDesc": "Recupera PS, ottieni [ParryingResultUp] e risorse E.G.O quando sostituisci un'Identità in campo"
+        }
+      ]
+    },
+    {
+      "id": 9759,
+      "name": "Lanterna Spenta",
+      "desc": "[Gli effetti si applicano solo alla 7° Identità Schierata]\n\nOttieni +1 Conteggio [Vibration] ulteriore dagli effetti delle Abilità o delle Monete\n\n- Se il bersaglio è Stordito, è in Morale Basso, o in Panico, ottieni invece +2 Conteggio [Vibration]",
+      "simpleDesc": [
+        {
+          "abilityID": 9759,
+          "simpleDesc": "Ottieni più Conteggio [Vibration] con effetti Abilità o Monete"
+        }
+      ]
+    },
+    {
+      "id": 9760,
+      "name": "Candeliere Spento",
+      "desc": "[Gli effetti si applicano solo alla 1° Identità Schierata]\n\nSe ci sono nemici Storditi, in Morale Basso, o in Panico ad Inizio Turno, infliggi 1 [AttackDown] o 1 [DefenseDown] contro tutti i nemici. (3 volte per turno)\n\nPer Colpo contro nemici Storditi, in Morale Basso, o in Panico: infliggi 1 [AttackDown] o 1 [DefenseDown] (3 volte per turno)",
+      "simpleDesc": [
+        {
+          "abilityID": 9760,
+          "simpleDesc": "Infliggi 1 [AttackDown] o 1 [DefenseDown]"
+        },
+        {
+          "abilityID": 97601,
+          "simpleDesc": "Infliggi 1 [AttackDown] o 1 [DefenseDown]"
+        }
+      ]
+    },
+    {
+      "id": 9761,
+      "name": "Mostro d'Ombra",
+      "desc": "[Gli effetti si applicano solo alla 1°, 2°, 7°, e 8° Identità Schierate]\n\nOttieni +1 Conteggio [Vibration] ulteriore dagli effetti delle Abilità e delle Monete\n  - Se il bersaglio è Stordito, in Morale Basso, o in Panico, ottieni invece +2 Conteggio [Vibration]\n\nSe ci sono nemici Storditi, in Morale Basso, o in Panico ad Inizio Turno, infliggi 2 [AttackDown] o 2 [DefenseDown] contro tutti i nemici. (3 volte per turno)\n\nPer Colpo contro nemici Storditi, in Morale Basso, o Panico: infliggi 1 [AttackDown] o 1 [DefenseDown] (3 volte per turno tra tutte le Identità)",
+      "simpleDesc": [
+        {
+          "abilityID": 9761,
+          "simpleDesc": "Ottieni più Conteggio [Vibration] con gli effetti Abilità o Monete"
+        },
+        {
+          "abilityID": 97611,
+          "simpleDesc": "Infliggi 1 [AttackDown] o 1 [DefenseDown]"
+        },
+        {
+          "abilityID": 97612,
+          "simpleDesc": "Infliggi 1 [AttackDown] o 1 [DefenseDown]"
+        }
+      ]
+    },
+    {
+      "id": 9762,
+      "name": "Scatola per Confezioni",
+      "desc": "Per Colpo da Abilità degli alleati) seleziona casualmente uno dei seguenti effetti: [Combustion], [Laceration], [Vibration], [Burst], e [Sinking], dopodiché infliggi 1 Potenza dell'effetto selezionato (3 volte per turno)\n\nPer Uccisione da un alleato) seleziona casualmente uno dei seguenti effetti: Conteggio [Breath], Conteggio [Charge], [Agility], [AttackUp], e [DefenseUp], successivamente applica 1 degli effetti selezionati ad 1 alleato casuale (3 volte per turno)",
+      "simpleDesc": [
+        {
+          "abilityID": 9762,
+          "simpleDesc": "Infliggi un depotenziamento casuale"
+        },
+        {
+          "abilityID": 97621,
+          "simpleDesc": "Ottieni un potenziamento casuale"
+        }
+      ]
+    },
+    {
+      "id": 9763,
+      "name": "Nastro per Confezioni",
+      "desc": "Inizio Turno: seleziona casualmente 1 tra gli effetti 'Danno Ira ~ Invidia Potenziato' e applica 1 Stack su tutti gli alleati\n\nInizio Turno: seleziona casualmente tra gli effetti 'Fragilità Ira ~ Invidia' e infliggi 1 Stack su tutti i nemici",
+      "simpleDesc": [
+        {
+          "abilityID": 9763,
+          "simpleDesc": "Ottieni un Potenziamento Danni per un'Affinità casuale"
+        },
+        {
+          "abilityID": 97631,
+          "simpleDesc": "Infliggi 'Fragility' per un'Affinità casuale"
+        }
+      ]
+    },
+    {
+      "id": 9764,
+      "name": "Regalo",
+      "desc": "Quando un alleato colpisce con un'Abilità, seleziona casualmente 2 dei seguenti effetti: [Combustion], [Laceration], [Vibration], [Burst], e [Sinking], dopodiché infliggi 1 Potenza dell'effetto selezionato (3 volte per turno)\n\nQuando un alleato colpisce con un'Abilità, seleziona casualmente uno dei seguenti effetti: Conteggio [Breath], Conteggio [Charge], [Agility], [AttackUp], e [DefenseUp], successivamente applica 1 degli effetti selezionati a 2 alleati casuali (3 volte per turno)\n\nInizio Turno: seleziona casualmente 2 tra gli effetti 'Danno Ira ~ Invidia Potenziato' e applica 1 Stack su tutti gli alleati\n\nInizio Turno: seleziona casualmente 2 tra gli effetti 'Fragilità Ira ~ Invidia' e infliggi 1 Stack su tutti i nemici",
+      "simpleDesc": [
+        {
+          "abilityID": 9764,
+          "simpleDesc": "Infliggi un depotenziamento casuale"
+        },
+        {
+          "abilityID": 97641,
+          "simpleDesc": "Ottieni un potenziamento casuale"
+        },
+        {
+          "abilityID": 97642,
+          "simpleDesc": "Ottieni un Potenziamento Danni per un'Affinità casuale"
+        }
+      ]
+    },
+    {
+      "id": 9765,
+      "name": "Peluche Gioioso",
+      "desc": "Ottieni 2 Potenza [Breath] nel turno successivo in base al numero delle Abilità Attacco alleate che hanno inflitto danni entro la Fine del Turno\n- Negli Incontro Mirati, ottieni invece 4 Potenza [Breath].\n\nInizio Turno: applica 2 [Breath], +2 Conteggio [Breath], e 2 [Protection] all'alleato con meno PV.\n\nInfliggi +(valore assoluto dei PS)% di danni. (min 0%)\n\nQuando un alleato con Abilità a Moneta Positiva recupera dallo Stordimento, recupera tutti i PS. (non si attiva sotto Corrosione)\n\nPer un alleato con solo Abilità a Moneta Negativa: ottieni 5 [Paralysis] ad Inizio Turno.",
+      "simpleDesc": [
+        {
+          "abilityID": 9765,
+          "simpleDesc": "Ottieni Potenza [Breath]"
+        },
+        {
+          "abilityID": 97651,
+          "simpleDesc": "Applica un potenziamento casuale"
+        },
+        {
+          "abilityID": 97652,
+          "simpleDesc": "Applica [Breath] e [Protection]"
+        },
+        {
+          "abilityID": 97653,
+          "simpleDesc": "Infliggi più danni"
+        },
+        {
+          "abilityID": 97654,
+          "simpleDesc": "Recupera tutti i PS"
+        },
+        {
+          "abilityID": 97655,
+          "simpleDesc": "Ottieni [Paralysis]"
+        }
+      ]
+    },
+    {
+      "id": 9766,
+      "name": "Rinnovo del Contratto Implicito",
+      "desc": "Se non c'è un [RequestedTarget] sopravvissuto, infliggi l'effetto [RequestedTarget] al primo nemico attaccato da un alleato. (una volta per turno)",
+      "simpleDesc": [
+        {
+          "abilityID": 9766,
+          "simpleDesc": "Infliggi [RequestedTarget]"
+        }
+      ]
+    },
+    {
+      "id": 9767,
+      "name": "Pipa della Fiamma Oscura",
+      "desc": "[L'effetto si applica solo alla 1° Identità Schierata]\n\nOttieni 2 [Enhancement] e 1 [Vulnerable] ad ogni turno\n\nSe il bersaglio principale ha il Livello Difensivo ridotto, ottieni 5 [Breath] prima di attaccare\n\nAbilità di Superbia Perforanti infliggono +(50 / n° di Monete)% di danni (Abilità E.G.O incluse)",
+      "simpleDesc": [
+        {
+          "abilityID": 9767,
+          "simpleDesc": "Ottieni [Enhancement] e [Vulnerable]"
+        },
+        {
+          "abilityID": 97671,
+          "simpleDesc": "Ottieni [Breath]"
+        },
+        {
+          "abilityID": 97672,
+          "simpleDesc": "Le Abilità Perforanti infliggono più danni"
+        }
+      ]
+    },
+    {
+      "id": 9768,
+      "name": "Ferro",
+      "desc": "Se il bersaglio ha 1.5 o meno di Resistenza ai danni Perforanti, Resistenza ai danni Perforanti +0.3",
+      "simpleDesc": [
+        {
+          "abilityID": 9768,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9769,
+      "name": "Comando Repentino",
+      "desc": "Fine Turno: se qualche alleato si è Ritirato in questo turno, 1 alleato con Velocità maggiore ottiene 2 [Enhancement] e 1 [AttackDmgUp]all'Inizio del prossimo Turno\n\nInizio Combattimento: se qualche alleato Rinforza in questo turno, questi alleati ottengono 2 [Enhancement] e 2 [Endurance]",
+      "simpleDesc": [
+        {
+          "abilityID": 9769,
+          "simpleDesc": "Ottieni [Enhancement] e [AttackDmgUp]"
+        },
+        {
+          "abilityID": 97691,
+          "simpleDesc": "Ottieni [Enhancement] e [Endurance]"
+        }
+      ]
+    },
+    {
+      "id": 9770,
+      "name": "Ingranaggio a Pezzi",
+      "desc": "Inizio Turno: se questa unità ha [Breath], ottiene 2 [DefenseUp] e 1 [Endurance]\n\nSe questa unità ha [Breath], la prima Moneta che colpisce infligge +10% di danni\n\nSe la Moneta colpisce con Critico, +20% di danni per Colpo Critico",
+      "simpleDesc": [
+        {
+          "abilityID": 9770,
+          "simpleDesc": "Ottieni [DefenseUp] e [Endurance]"
+        },
+        {
+          "abilityID": 97701,
+          "simpleDesc": "Infliggi più danni con la prima Moneta che colpisce"
+        }
+      ]
+    },
+    {
+      "id": 9771,
+      "name": "Manuale CQC",
+      "desc": "Se un'Abilità che può spendere [Bullet] non spende [Bullet], ottieni 1 [Enhancement] per questo turno e il turno seguente (una volta per turno)\n\nQuando ottieni delle [Bullet], l'Abilità 3 infligge +50% di danni per questo turno e il turno seguente quando viene usata\n\nQuando viene usata un'Abilità che spende [Bullet], ottieni 3 [Breath] e +1 Conteggio [Breath]",
+      "simpleDesc": [
+        {
+          "abilityID": 9771,
+          "simpleDesc": "Ottieni [Enhancement]"
+        },
+        {
+          "abilityID": 97711,
+          "simpleDesc": "L'Abilità 3 infligge più danni"
+        },
+        {
+          "abilityID": 97712,
+          "simpleDesc": "Ottieni Potenza e Conteggio [Breath]"
+        }
+      ]
+    },
+    {
+      "id": 9772,
+      "name": "Guanti della Combustione",
+      "desc": "Per Scontro Vinto con un'Abilità Attacco Base che infligge Potenza [Combustion] o '<noparse>Bruciatura</noparse>Speciale', infliggi 2 Potenza [Combustion] (2 volte per turno per Identità)\n\nPer Scontro Vinto con un'Abilità Attacco Base che infligge Conteggio [Combustion], infliggi +2 Conteggio [Combustion] (3 volte per turno per nemico)\n\nLe Abilità Attacco Base che infliggono Potenza o Conteggio [Combustion], o '<noparse>Bruciatura</noparse>Speciale': ciascuna Abilità ottiene Livello Offensivo uguale al numero delle copie dell'Abilità (max 3).\n- Se un'Abilità ha 3+ copie, ottieni 2 ulteriori Livelli Offensivi.",
+      "simpleDesc": [
+        {
+          "abilityID": 9772,
+          "simpleDesc": "Infliggi [Combustion]"
+        },
+        {
+          "abilityID": 97721,
+          "simpleDesc": "Infliggi Conteggio [Combustion]"
+        },
+        {
+          "abilityID": 97722,
+          "simpleDesc": "Ottieni Livello Offensivo"
+        }
+      ]
+    },
+    {
+      "id": 9773,
+      "name": "Anfibi Spinati",
+      "desc": "Per Scontro Vinto con un'Abilità Attacco Base che infligge Potenza o Conteggio [Burst] contro un nemico, infliggi +3 Conteggio [Burst] (2 volte per turno per nemico)\n\nPer Colpo: se il nemico non ha [Burst], gli effetti delle Monete che infliggono Potenza [Burst] infliggono invece Conteggio [Burst] (max 4; 2 volte per turno per nemico; per le Anormalità, per ciascuna Parte)\n\nLe Abilità Attacco Base che infliggono Potenza o Conteggio [Burst]: ciascuna Abilità ottiene Livello Offensivo uguale al numero delle copie dell'Abilità (max 3).\n- Se un'Abilità ha 3+ copie, ottieni 2 ulteriori Livelli Offensivi.",
+      "simpleDesc": [
+        {
+          "abilityID": 9773,
+          "simpleDesc": "Infliggi Conteggio [Burst]"
+        },
+        {
+          "abilityID": 97731,
+          "simpleDesc": "Infliggi Conteggio [Burst]"
+        },
+        {
+          "abilityID": 97732,
+          "simpleDesc": "Ottieni Livello Offensivo"
+        }
+      ]
+    },
+    {
+      "id": 9774,
+      "name": "Spina di Ri-Accensione",
+      "desc": "Le Abilità Attacco Base che infliggono Conteggio [Combustion]: infliggono +20% di danni e infliggono +1 Conteggio [Combustion] in più. Per Colpo con queste Abilità contro nemici con [Combustion] o '<noparse>Bruciatura</noparse>Speciale': infliggi 1 [DefenseDown] (2 volte per turno per Identità)\n\nPer le Identità di cui le Abilità Attacco Base infliggono Potenza o Conteggio [Combustion], o '<noparse>Bruciatura</noparse>Speciale': ad Inizio Turno, ottieni [AttackUp] uguale al numero dei turni sopravvissuti (eccezione del turno in cui si è uniti all'Incontro; max 5)",
+      "simpleDesc": [
+        {
+          "abilityID": 9774,
+          "simpleDesc": "Infliggi [DefenseDown]"
+        },
+        {
+          "abilityID": 97741,
+          "simpleDesc": "Ottieni [AttackUp]"
+        },
+        {
+          "abilityID": 97742,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9775,
+      "name": "Potenziatore Mk.4",
+      "desc": "Per Colpo con l'ultima Moneta contro i nemici con 15- Potenza [Burst] quando si usa un'Abilità Attacco Base che infligge Potenza o Conteggio [Burst]: infliggi +3 Conteggio [Burst] (una volta per turno per Identità)\n\nLe Abilità Attacco Base che infliggono Conteggio [Burst]: Potere Scontro +1, infliggi +20% di danni",
+      "simpleDesc": [
+        {
+          "abilityID": 9775,
+          "simpleDesc": "Infliggi Conteggio [Burst]"
+        },
+        {
+          "abilityID": 97751,
+          "simpleDesc": "Ottieni Potere Scontro e infliggi più danni"
+        },
+        {
+          "abilityID": 97752,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9776,
+      "name": "Braci",
+      "desc": "Inizio Turno: Tutti i nemici (per le Anormalità, tutte le Parti) ottengono +1~2 Conteggio [Combustion]\n\nQuando i nemici subiscono 5 colpi da Abilità Attacco alleate (Abilità E.G.O incluse) che infliggono Potenza o Conteggio [Combustion], o '<noparse>Bruciatura</noparse>Speciale': Attiva [Combustion] una volta, poi riduci il Conteggio [Combustion] di 1 (2 volte per turno per nemico; per le Anormalità, per ciascuna Parte)",
+      "simpleDesc": [
+        {
+          "abilityID": 9776,
+          "simpleDesc": "Infliggi Conteggio [Combustion]"
+        },
+        {
+          "abilityID": 97761,
+          "simpleDesc": "Attiva [Combustion]"
+        }
+      ]
+    },
+    {
+      "id": 9777,
+      "name": "Ramoscelli",
+      "desc": "Ogni volta che [Burst] si attiva 3 volte sui nemici con [Burst] dalle Abilità Attacco alleate (Abilità E.G.O incluse) che infliggono Potenza o Conteggio [Burst], infliggi 2 [AttackDown] su tale nemico nel turno successivo (3 volte per turno per nemico; per le Anormalità, per ciascuna Parte)\n\nPer Uccisione con un'Abilità Attacco Base che infligge Conteggio [Burst]: infliggi il Conteggio [Burst] rimanente del nemic sconfitto su un nemico casuale nel turno successivo (2 volte per turno)",
+      "simpleDesc": [
+        {
+          "abilityID": 9777,
+          "simpleDesc": "Infliggi [AttackDown]"
+        },
+        {
+          "abilityID": 97771,
+          "simpleDesc": "Infliggi Conteggio [Burst]"
+        },
+        {
+          "abilityID": 97772,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9778,
+      "name": "Equipaggiamento Operativo Regolare",
+      "desc": "Identità della Limbus Company: l'Abilità 2 ottiene Livello Offensivo +1 e infligge +15% di danni; l'Abilità 3 ottiene Livello Offensivo +2 e infligge +30% di danni\n\nSe ci sono 4+ Identità della Limbus Company tra le Riserve, 2 alleati casuali ottengono 2 [AttackUp] ad Inizio Turno",
+      "simpleDesc": [
+        {
+          "abilityID": 9778,
+          "simpleDesc": "Ottieni Livello Offensivo e infliggi più danni"
+        },
+        {
+          "abilityID": 97781,
+          "simpleDesc": "Ottieni [AttackUp]"
+        }
+      ]
+    },
+    {
+      "id": 9779,
+      "name": "Carta per Autorizzazione alle Operazioni",
+      "desc": "Durante l'Incontro, quando un alleato si ritira o viene sconfitto, applica casualmente 3 [AttackUp] tra tutte le Identità all'Inizion del prossimo Turno. (2 volte per turno)\n- Quando 3+ alleati si ritirano o vengono sconfitti, applica casualmente invece 6 [AttackUp] tra tutte le Identità all'Inizio del prossimo Turno. (2 volte per turno)\n\nInizio Turno: 3 alleati con meno PS recuperano 15, 10, e 5 PS rispettivamente (non cumulabile; i numeri si applicano in ordine ascendente; non si attiva se le unità affette sono in Panico o Corrose)",
+      "simpleDesc": [
+        {
+          "abilityID": 9779,
+          "simpleDesc": "Ottieni [AttackUp]"
+        },
+        {
+          "abilityID": 97791,
+          "simpleDesc": "Recupera PS"
+        }
+      ]
+    },
+    {
+      "id": 9780,
+      "name": "Equipaggiamento Operativo ad Alto Rischio",
+      "desc": "Identità della Limbus Company: l'Abilità 2 ottiene Livello Offensivo +2 e infligge +20% di danni; l'Abilità 3 ottiene Livello Offensivo +3 e infligge +40% di danni\n\nInizio Turno: 1 alleato casuale ottiene 2 [AttackUp] per ogni Identità della Limbus Company in Riserva o sconfitta.\n\nDurante l'Incontro, quando un alleato si ritira o viene sconfitto, applica casualmente 3 [AttackUp] tra tutte le Identità all'Inizio del prossimo Turno. (distribuito equalmente, 2 volte per turno)\n- Quando 3+ alleati si ritirano o vengono sconfitti, applica casualmente invece 6 [AttackUp] tra tutte le Identità all'Inizio del prossimo Turno. (2 volte per turno)\n- Quando 3+ Identità della Limbus Company si ritirano o vengono sconfitti, applica casualmente invece 8 [AttackUp] tra tutte le Identità.",
+      "simpleDesc": [
+        {
+          "abilityID": 9780,
+          "simpleDesc": "Ottieni Livello Offensivo e infliggi più danni"
+        },
+        {
+          "abilityID": 97801,
+          "simpleDesc": "Applica casualmente [AttackUp] tra gli alleati"
+        },
+        {
+          "abilityID": 97802,
+          "simpleDesc": "Applica casualmente [AttackUp] tra gli alleati"
+        }
+      ]
+    },
+    {
+      "id": 9781,
+      "name": "Bicchiere per Liquori in Legno Massiccio",
+      "desc": "Per Scontro Perso, ottieni 1 [Protection] e recupera 3~6 PS (una volta per turno per Identità)\n\nQuando attachi un nemico con l'effetto di una [SuperCoin] dell'Abilità (Abilità E.G.O escluse) che ha perso lo Scontro: \n- Le Abilità a Moneta Positiva ottengono Potere Moneta Positiva +(3 / n° di Monete) e infliggono +20% di danni (min. 1 Potere Moneta Positiva)\n- Le Abilità a Moneta Negativa infliggono +40% di danni",
+      "simpleDesc": [
+        {
+          "abilityID": 9781,
+          "simpleDesc": "Ottieni [Protection] e recupera PS"
+        },
+        {
+          "abilityID": 97811,
+          "simpleDesc": "Ottieni Potere Moneta e infliggi più danni"
+        }
+      ]
+    },
+    {
+      "id": 9782,
+      "name": "Elsa Consumata",
+      "desc": "Inizio Turno: tutti gli alleati ottengono 1 [ScarletResultUp].\n\nLe Identità dei Discendenti della Spada o del Clan Kurokumo Identities ottengono invece 2 [ScarletResultUp] e 1 [SlashResultUp].",
+      "simpleDesc": [
+        {
+          "abilityID": 9782,
+          "simpleDesc": "Ottieni [ScarletResultUp]"
+        },
+        {
+          "abilityID": 97821,
+          "simpleDesc": "Ottieni [ScarletResultUp] e [SlashResultUp]"
+        }
+      ]
+    },
+    {
+      "id": 9783,
+      "name": "Splendore",
+      "desc": "Inizio Turno: si attiva quando ci sono 3 o più Identità del Clan Kurokumo. (contano solo le Identità in campo)\n\nTutti gli alleati ottengono 2 [ScarletResultUp] e 1 [SlashResultUp] ad Inizio Turno.\n\nAbilità Attacco Base delle Identità del Clan Kurokumo: ottengono Potere Moneta +(4 / n° di Monete; min. 1), infliggono ulteriormente 1 [Laceration], +1 Conteggio [Laceration], e infliggono +(80/n° di Monete)% di danni\n\nAnnulla la prima Soglia di Stordimento per le Identità del Clan Kurokumo; a meno del 50% dei PV, ottengono 2 [Protection] at Inizio Turno. Le Identità che hanno subito danni dai nemici in questo turno ottengono 2 [Agility] nel turno successivo",
+      "simpleDesc": [
+        {
+          "abilityID": 9783,
+          "simpleDesc": "Ottieni [ScarletResultUp] e [SlashResultUp]"
+        },
+        {
+          "abilityID": 97831,
+          "simpleDesc": "Ottieni Potere Moneta, infliggi più [Laceration] e Conteggio [Laceration], e infliggi più danni"
+        },
+        {
+          "abilityID": 97832,
+          "simpleDesc": "Annulla la prima Soglia di Stordimento; ottieni [Protection] quando sotto una certa quantità di PV; ottieni [Agility] dopo aver subito danni"
+        }
+      ]
+    },
+    {
+      "id": 9784,
+      "name": "Cultura",
+      "desc": "Inizio Turno: si attiva quando ci sono 3 o più Identità dei Discendenti della Spada. (contano solo le Identità in campo)\n\nInizio Turno: tutti gli alleati ottengono 2 [SlashResultUp], e infliggono +35% di danni.\n\nInizio Turno: quando un'Identità dei Discendenti della Spada colpisce con Critico, infligge danni di Superbia addizionali uguale a (Potenza [Breath] / 2) su sé stessi.\n\nSe un'Identità dei Discendenti della Spada ha 30+ Potenza [Breath] a Fine Turno, consuma 10 Potenza [Breath] e ottiene 2 [SlashDamageUp] nel turno successivo",
+      "simpleDesc": [
+        {
+          "abilityID": 9784,
+          "simpleDesc": "Ottieni [SlashResultUp] e infliggi più danni"
+        },
+        {
+          "abilityID": 97841,
+          "simpleDesc": "Infliggi ulteriori (Potenza [Breath]/2) danni da Superbia."
+        },
+        {
+          "abilityID": 97842,
+          "simpleDesc": "Ottieni [SlashDamageUp]"
+        }
+      ]
+    },
+    {
+      "id": 9785,
+      "name": "Nube Temporalesca",
+      "desc": "Inizio Turno: si attiva quando ci sono 3 o più Identità del Clan Kurokumo. (contano solo le Identità in campo)\n\nPer Colpo con [SuperCoin] delle Abilità Attacco Base (Abilità E.G.O escluse): infliggi +(40/n° di Monete)% di danni\nPer le Identità del Clan Kurorumo: infliggi invece +(80/n° di Monete)% di danni\n\nAbilità Attacco Base Taglienti delle Identità del Clan Kurokumo: ottieni 2 [SlashDamageUp] ad Inizio Turno. Le Identità del Clan Kurokumo ottengono 1 [AttackUp] e 1 [DefenseUp] nel turno successivo per ogni 10% di PV mancanti su di sé a Fine Turno. (max 5 ognuna)\n\nQuando un'Identità del Clan Kurokumo muore, tutte le Identità del Clan Kurokumo ottengono 2 [AttackDmgUp] nel turno successivo (una volta per turno)",
+      "simpleDesc": [
+        {
+          "abilityID": 9785,
+          "simpleDesc": "Infliggi più danni"
+        },
+        {
+          "abilityID": 97851,
+          "simpleDesc": "Ottieni [SlashDamageUp], [AttackUp], e [DefenseUp]"
+        },
+        {
+          "abilityID": 97852,
+          "simpleDesc": "Ottieni [AttackDmgUp]"
+        }
+      ]
+    },
+    {
+      "id": 9786,
+      "name": "Tatuaggi di Poten. - Il Medio",
+      "desc": "Per le Abilità Contundenti: Potere Scontro +1\n- Per le Identità del Medio: ottieni invece Potere Scontro +1 e Potere Moneta +1\n- Per le Identità del Medio: se il bersaglio principale ha [RetaliationBook], ottieni invece Potere Scontro +1, Potere Moneta +1, e infliggi +10% di danni",
+      "simpleDesc": [
+        {
+          "abilityID": 9786,
+          "simpleDesc": "Ottieni Potere Scontro. Le Identità del Medio ottengono anche Potere Moneta e infliggono più danni"
+        }
+      ]
+    },
+    {
+      "id": 9787,
+      "name": "Talismano dello Strano Glifo",
+      "desc": "Quando sconfiggi un bersaglio con [Burst] (per gli Incontri Mirati, una Parte) con un'Abilità Attacco, infliggi la Potenza [Burst] sul bersaglio tra tutti i nemici (per gli Incontri Mirati, tutte le Parti) (max 2 per nemico, arrotondato per eccesso)\n\nQuando sconfiggi un bersaglio con [BurstAgility](per gli Incontri Mirati, una Parte) con un'Abilità Attacco, infliggi la Potenza e il Conteggio [Burst] sul bersaglio tra tutti i nemici (per gli Incontri Mirati, tutte le Parti) (max 2 per nemico, arrotondato per eccesso)",
+      "simpleDesc": [
+        {
+          "abilityID": 9787,
+          "simpleDesc": "Infliggi [Burst]"
+        },
+        {
+          "abilityID": 97871,
+          "simpleDesc": "Infliggi Potenza e Conteggio [Burst]"
+        }
+      ]
+    },
+    {
+      "id": 9788,
+      "name": "Passo di Lepre",
+      "desc": "Se la Velocità di un alleato è maggiore rispetto al bersaglio, l'Alleato infligge (differenza di Velocità / 3) [Burst] o Conteggio [Burst] addizionali quando li si infligge con delle Abilità (max 3)",
+      "simpleDesc": [
+        {
+          "abilityID": 9788,
+          "simpleDesc": "Infliggi [Burst] o Conteggio [Burst]"
+        }
+      ]
+    },
+    {
+      "id": 9789,
+      "name": "Catene della Lealtà",
+      "desc": "Quando si è colpiti, tutti gli alleati della stessa fazione infliggono +5% in più di danni Contundenti (15% per turno)\n\nPer le Identità del Medio, invece ottengono 1 [AttackUp] e infliggono +10% in più di danni Contundenti (3 per turno, 30% per turno)",
+      "simpleDesc": [
+        {
+          "abilityID": 9789,
+          "simpleDesc": "Infliggi più danni Contundenti. Le Identità del Medio ottengono anche [AttackUp]"
+        }
+      ]
+    },
+    {
+      "id": 9790,
+      "name": "Incisioni dello Strano Glifo",
+      "desc": "Quando si ci Scontra contro dei bersagli con [Burst], ottieni ([Burst] sul bersaglio / 20) Potere Scontro (max 2)\n- Quando si ci Scontra contro dei bersagli con [BurstAgility], ottieni invece ([Burst] sul bersaglio / 15) Potere Scontro (max 3)\n\nQuando infliggi danni con l'effetto di [BurstAgility], infliggi (danni da [BurstAgility] / 3) di danni fissi",
+      "simpleDesc": [
+        {
+          "abilityID": 9790,
+          "simpleDesc": "Potere Scontro Up"
+        },
+        {
+          "abilityID": 97901,
+          "simpleDesc": "Infliggi più danni quando infliggi danni con [BurstAgility]"
+        }
+      ]
+    },
+    {
+      "id": 9791,
+      "name": "Cappello di Bambù Oscuro",
+      "desc": "Fine Turno: Identità del Branco Heishou - Ramo Mao ottengono 2 [Agility] nel turno successivo\n\nSe la Velocità di un alleato è maggiore rispetto a quella del bersaglio, o quando si attivano degli Attacchi Incontrastati, infliggi +10% in più di danni Taglienti per ogni (differenza di Velocità / 3) (max 30%)\n\nSe la Velocità di un alleato è maggiore rispetto a quella del bersaglio, subisci -10% di danni per ogni (differenza di Velocità / 3) (max 30%)",
+      "simpleDesc": [
+        {
+          "abilityID": 9791,
+          "simpleDesc": "Ottieni [Agility]"
+        },
+        {
+          "abilityID": 97911,
+          "simpleDesc": "Infliggi più danni Taglienti"
+        },
+        {
+          "abilityID": 97912,
+          "simpleDesc": "Subisci meno danni"
+        }
+      ]
+    },
+    {
+      "id": 9792,
+      "name": "Eterne Catene dei Legami",
+      "desc": "Inizio Turno: si attiva quando ci sono 3 o più Identità del Medio. (contano solo le Identità in campo)\n\nQuando si viene colpiti, tutti gli alleati della stessa fazione infliggono +5% in più di danni Contundenti (15% per turno)\nLe Identità del Medio invece ottengono 1 [AttackUp] e infliggono +10% in più di danni Taglienti (3 per turno, 30% per turno)\n\nLe Abilità Contundenti ottengono Potere Base +1\n- Le Identità del Medio invece ottengono Potere Base +1 e Potere Moneta +1\n- Se il bersaglio ha [RetaliationBook], Le Identità del Medio invece ottengono Potere Base +1, Potere Moneta +1, e infliggono +30% di danni\n\nLe Identità del Medio ottengono Velocità Min +1 e Velocità Max +1 per l'Incontro",
+      "simpleDesc": [
+        {
+          "abilityID": 9792,
+          "simpleDesc": "Infliggi più danni Contundenti. Le Identità del Medio ottengono anche [AttackUp]"
+        },
+        {
+          "abilityID": 97921,
+          "simpleDesc": "Potenziamento Abilità Contundenti"
+        },
+        {
+          "abilityID": 97922,
+          "simpleDesc": "Ottieni Velocità Min e Max"
+        }
+      ]
+    },
+    {
+      "id": 9793,
+      "name": "Glifo di Frammenti di Vetro",
+      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando ci sono 5 o più Identità che infliggono Potenza [Burst] o Conteggio [Burst] (Abilità E.G.O escluse; Riserve escluse)\n\nQuando sconfiggi un bersaglio con [Burst](per gli Incontri Mirati, una Parte) con un'Abilità Attacco, infliggi la Potenza [Burst] sul bersaglio tra tutti i nemici (per gli Incontri Mirati, tutte le Parti) (max 3 per nemico)\n\nQuando sconfiggi un bersaglio con [BurstAgility](per gli Incontri Mirati, una Parte) con un'Abilità Attacco, infliggi la Potenza e il Conteggio [Burst] sul bersaglio tra tutti i nemici(per gli Incontri Mirati, tutte le Parti) (max 6 per nemico)\n\nQuando si ci Scontra contro dei bersagli con [Burst], ottieni ([Burst] sul bersaglio / 20) Potere Scontro (max 2)\n- Quando si ci Scontra contro dei bersagli con [BurstAgility], ottieni invece ([Burst] sul bersaglio / 10) Potere Moneta (max 2)\n\nQuando infliggi danni con l'effetto di [BurstAgility] effect, infliggi (danni da [BurstAgility] / 2) di danni fissi",
+      "simpleDesc": [
+        {
+          "abilityID": 9793,
+          "simpleDesc": "Infliggi [Burst]"
+        },
+        {
+          "abilityID": 97931,
+          "simpleDesc": "Infliggi [Burst]"
+        },
+        {
+          "abilityID": 97932,
+          "simpleDesc": "Potere Scontro Potenziato"
+        },
+        {
+          "abilityID": 97933,
+          "simpleDesc": "Infliggi più danni quando infliggi danni con [BurstAgility]"
+        }
+      ]
+    },
+    {
+      "id": 9794,
+      "name": "Tanica di Carburante Traboccante",
+      "desc": "[Gli effetti si applicano solo alla 2°, 4° Identità Schierate]\n\nQuando si subisce un attacco letale, 60% di possibilità di non subire quel danno e recuperare 30 PV. (una volta per Identità per Incontro)\nL'effetto non si attiva sotto le seguenti condizioni:\n- Quando il danno dell'Abilità supera i PV max dell'unità\n- Quando l'unità ha [TakeHpHealReduce]",
+      "simpleDesc": [
+        {
+          "abilityID": 9794,
+          "simpleDesc": "Recupera PV"
+        }
+      ]
+    },
+    {
+      "id": 2080,
+      "name": "Elsa Consumata",
+      "desc": "Inizio Turno: tutti gli alleati ottengono 1 [ScarletResultUp].\n\nLe Identità dei Discendenti della Spada o del Clan Kurokumo Identities ottengono invece 2 [ScarletResultUp] e 1 [SlashResultUp]",
+      "simpleDesc": [
+        {
+          "abilityID": 2080,
+          "simpleDesc": "Ottieni [ScarletResultUp]"
+        },
+        {
+          "abilityID": 20801,
+          "simpleDesc": "Ottieni [ScarletResultUp] e [SlashResultUp]"
+        }
+      ]
+    },
+    {
+      "id": 2081,
+      "name": "Splendore",
+      "desc": "Inizio Turno: si attiva quando ci sono 3 o più Identità del Clan Kurokumo. (contano solo le Identità in campo)\n\nTutti gli alleati ottengono 2 [ScarletResultUp] e 1 [SlashResultUp] ad Inizio Turno.\n\nAbilità Attacco Base delle Identità del Clan Kurokumo: ottengono Potere Moneta +(4 / n° di Monete; min. 1), infliggono ulteriormente 1 [Laceration], +1 Conteggio [Laceration], e infliggono +(80/n° di Monete)% di danni\n\nAnnulla la prima Soglia di Stordimento per le Identità del Clan Kurokumo; a meno del 50% dei PV, ottengono 2 [Protection] at Inizio Turno. Le Identità che hanno subito danni dai nemici in questo turno ottengono 2 [Agility] nel turno successivo",
+      "simpleDesc": [
+        {
+          "abilityID": 2081,
+          "simpleDesc": "Ottieni [ScarletResultUp] e [SlashResultUp]"
+        },
+        {
+          "abilityID": 20811,
+          "simpleDesc": "Ottieni Potere Moneta, infliggi più [Laceration] e Conteggio [Laceration], e infliggi più danni"
+        },
+        {
+          "abilityID": 20812,
+          "simpleDesc": "Annulla la prima Soglia di Stordimento; ottieni [Protection] quando sotto una certa quantità di PV; ottieni [Agility] dopo aver subito danni"
+        }
+      ]
+    },
+    {
+      "id": 2082,
+      "name": "Cultura",
+      "desc": "Inizio Turno: si attiva quando ci sono 3 o più Identità dei Discendenti della Spada. (contano solo le Identità in campo)\n\nInizio Turno: tutti gli alleati ottengono 2 [SlashResultUp], e infliggono +35% di danni.\n\nInizio Turno: quando un'Identità dei Discendenti della Spada colpisce con Critico, infligge danni di Superbia addizionali uguale a (Potenza [Breath] / 2) su sé stessi.\n\nSe un'Identità dei Discendenti della Spada ha 30+ Potenza [Breath] a Fine Turno, consuma 10 Potenza [Breath] e ottiene 2 [SlashDamageUp] nel turno successivo",
+      "simpleDesc": [
+        {
+          "abilityID": 2082,
+          "simpleDesc": "Ottieni [SlashResultUp] e infliggi più danni"
+        },
+        {
+          "abilityID": 20821,
+          "simpleDesc": "Infliggi altri (Potenza [Breath]/2) danni da Superbia."
+        },
+        {
+          "abilityID": 20822,
+          "simpleDesc": "Ottieni [SlashDamageUp]"
+        }
+      ]
+    }
+  ]
+}

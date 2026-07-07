@@ -1,0 +1,630 @@
+{
+  "dataList": [
+    {
+      "id": 9209,
+      "name": "Per Te Che Adori La Città",
+      "desc": "Se un alleato è a meno del 30% dei PV quando colpito, questo alleato recupera l'80% dei PV e gli altri alleati recuperano il 40% dei PV al turno successivo (una volta per Incontro)\n- Le cure che eccedono i PV Max verranno applicate come Scudi\n- Se un alleato recupera 50+ di PV grazie all'effetto, ottiene 3 [AttackUp] e 3 [DefenseDown]",
+      "simpleDesc": [
+        {
+          "abilityID": 9209,
+          "simpleDesc": "Recupera PV"
+        }
+      ]
+    },
+    {
+      "id": 9210,
+      "name": "Batticarne",
+      "desc": "[Gli effetti si applicano solo alla 4° Identità Schierata]\n\nSe questa unità ha 2+ Abilità Attacco Contundenti, ottiene 1 [ParryingResultUp] ad Inizio Turno",
+      "simpleDesc": [
+        {
+          "abilityID": 9210,
+          "simpleDesc": "Ottieni [ParryingResultUp]"
+        }
+      ]
+    },
+    {
+      "id": 19210,
+      "name": "Batticarne+",
+      "desc": "[Gli effetti si applicano solo alla 4° Identità Schierata]\n\nSe questa unità ha 2+ Abilità Attacco Contundenti, ottiene <style=\"upgradeHighlight\">2</style> [ParryingResultUp] ad Inizio Turno",
+      "simpleDesc": [
+        {
+          "abilityID": 19210,
+          "simpleDesc": "Ottieni [ParryingResultUp]"
+        }
+      ]
+    },
+    {
+      "id": 29210,
+      "name": "Batticarne++",
+      "desc": "[Gli effetti si applicano solo alla 4° <style=\"upgradeHighlight\">e 5°</style> Identità Schierate]\n\nSe questa unità ha 2+ Abilità Attacco Contundenti, ottiene 2 [ParryingResultUp] ad Inizio Turno",
+      "simpleDesc": [
+        {
+          "abilityID": 29210,
+          "simpleDesc": "Ottieni [ParryingResultUp]"
+        }
+      ]
+    },
+    {
+      "id": 9207,
+      "name": "Scelta e Sorte",
+      "desc": "L'Abilità E.G.O più a sinistra negli Slot Abilità ha una possibilità casuale di infliggere -50% di danno o +150% di danno (una volta per turno)",
+      "simpleDesc": [
+        {
+          "abilityID": 9207,
+          "simpleDesc": "Abilità E.G.O infliggono più(o meno) danni"
+        }
+      ]
+    },
+    {
+      "id": 9208,
+      "name": "Fato Intrecciato",
+      "desc": "Inizio Combattimento: A 7+ Risonanza Assoluta, tutti gli alleati ottengono Potere Finale +5 per questo turno (una volta per Incontro)",
+      "simpleDesc": [
+        {
+          "abilityID": 9208,
+          "simpleDesc": "Ottieni Potere Finale"
+        }
+      ]
+    },
+    {
+      "id": 9211,
+      "name": "Nembo",
+      "desc": "Inizio Turno: A 30+ somma totale della Potenza e del Conteggio [Sinking] su tutti i nemici, applica i seguenti effetti:\n\n- Abilità che infliggono Potenza o Conteggio [Sinking]: Potere Finale +1 (incluso '<noparse>Annegamento</noparse> Speciale'; escluse le Abilità E.G.O)\n\n- Quando 6 o più Identità hanno Abilità Attacco che infliggono Potenza o Conteggio [Sinking], o '<noparse>Annegamento</noparse> Speciale', Abilità che infliggono Potenza o Conteggio [Sinking] infliggono anche +20% di danno (incluso '<noparse>Annegamento</noparse> Speciale' e Riserve; escluse le Abilità E.G.O)\n · Se il bersaglio è a -45 PS, infliggi ulteriormente +10% di danno\n\n- Quando 10 o più Identità hanno Abilità Attacco che infliggono Potenza o Conteggio [Sinking], o '<noparse>Annegamento</noparse> Speciale', Abilità a Moneta Positiva che infliggono Potenza o Conteggio [Sinking] ottengono anche Potere Moneta +1 (incluso '<noparse>Annegamento</noparse> Speciale' e Riserve; escluse le Abilità E.G.O)\n · Abilità a Moneta Negativa: Invece di ottenere Potere Moneta, ottengono Potere Base +(4 / n° di Monete) (min 1; arrotondato per difetto)",
+      "simpleDesc": [
+        {
+          "abilityID": 9211,
+          "simpleDesc": "Abilità [Sinking] ottengono Potere Finale"
+        },
+        {
+          "abilityID": 92111,
+          "simpleDesc": "Abilità [Sinking] infliggono più danni"
+        },
+        {
+          "abilityID": 92112,
+          "simpleDesc": "Abilità [Sinking] ottengono Potere Moneta/Base"
+        }
+      ]
+    },
+    {
+      "id": 9212,
+      "name": "La Fine di Tutti i Mali",
+      "desc": "Si attiva quando ci sono 3 o più Identità della fazione Pequod (contano anche le Riserve)\n\nPer Colpo con un'Abilità Attacco contro i nemici con [Laceration] o '<noparse>Sanguinamento</noparse> Speciale': Ottieni 3 [Breath] o +2 Conteggio [Breath] (3 volte per turno per Identità)\n\nPer Critico: 80% di possibilità di ottenere 1 [PenetrateResultUp] nel turno successivo (2 volte per turno per Identità; incluse le Abilità E.G.O e Abilità Contrattacco)\n- Identità della fazione Pequod ottengono anche 1 [PlusCoinValueUp] nel turno successivo (una volta per turno per Identità)\n\nPer Critico mentre Colpisce Testa con un'Abilità Base: Infliggi +1 addizionale agli effetti negativi di quella Moneta (una volta per turno per Identità; incluso Abilità Contrattacco ed escluse le Abilità E.G.O)\n\nPer nemico o alleato morto, le Identità della fazione Pequod ottengono 1 [PenetrateResultUp], 1 [Protection], e 1 [CriticalDamageUp] ad ogni turno per tutto l'Incontro (3 volte per Incontro)\n\nSe una delle Identità della fazione Pequod attacca e colpisce un nemico, l'Identità della fazione Pequod Schierata per prima nell'Ordine di Schieramento recupera 7 PS (una volta per Abilità)\n\nQuando un alleato uccide un nemico, l'Identità della fazione Pequod Schierata per prima nell'Ordine di Schieramento recupera 15 PS se ha perso dei PS",
+      "simpleDesc": [
+        {
+          "abilityID": 9212,
+          "simpleDesc": "Ottieni [Breath]"
+        },
+        {
+          "abilityID": 92121,
+          "simpleDesc": "Per Critico: Chance di ottenere [PenetrateResultUp] nel turno dopo; ottieni [PlusCoinValueUp] e aumenta la quantità di effetti negativi inflitti"
+        },
+        {
+          "abilityID": 92122,
+          "simpleDesc": "Ottieni [PenetrateResultUp], [Protection], e [CriticalDamageUp]"
+        },
+        {
+          "abilityID": 92123,
+          "simpleDesc": "Recupera PS"
+        }
+      ]
+    },
+    {
+      "id": 9213,
+      "name": "Ruota Panoramica in Miniatura",
+      "desc": "Tutti i Bramasangue alleati: Potere Moneta per le Abilità Base +1, infliggi +([BloodDinner_Accumulation] / 10)% di danno per Abilità\n\nFine Turno: Tra gli alleati con [Laceration], 2 alleati con meno PV recuperano il 5% dei PV e ottengono 10 [SwirlingBloodPersonality] all'Inizio del prossimo Turno\n\nPer Uccisione nemica, aumenta [BloodDinner] di (PV Max del Nucleo nemico / 10) (max 50)\n\nFine Turno: Se un alleato è morto in questo turno, tutti gli alleati ottengono 2 [Enhancement] nel turno successivo\n\nNegli Incontri in cui appaiono delle Riserve nemiche: Quando dei nuovi nemici appaiono, infliggi 5 Potenza [Laceration] e +3 Conteggio [Laceration] contro loro ad Inizio Combattimento.\nSe c'è un <Bramasangue> tra gli alleati: Quando dei nuovi nemici entrano in battaglia, attiva [Laceration] su tutti i nemici due volte e riduci il loro Conteggio [Laceration] di 2",
+      "simpleDesc": [
+        {
+          "abilityID": 9213,
+          "simpleDesc": "Ottieni Potere Moneta per Abilità Base"
+        },
+        {
+          "abilityID": 92131,
+          "simpleDesc": "Recupera PV e ottieni [SwirlingBloodPersonality]"
+        },
+        {
+          "abilityID": 92132,
+          "simpleDesc": "Ottieni [Enhancement]"
+        },
+        {
+          "abilityID": 92133,
+          "simpleDesc": "Infliggi Potenza e Conteggio [Laceration]"
+        }
+      ]
+    },
+    {
+      "id": 9214,
+      "name": "Martello Incandescente",
+      "desc": "Se il nemico ha [VibrationIgnition], applica i seguenti effetti:\n- Per Colpo con Abilità Base, infliggi 1 [Combustion] (3 volte per Abilità)\n- Per Colpo con Abilità Base, se il nemico ha 15+ [VibrationIgnition], infliggi +1 Conteggio [Combustion] (2 volte per Abilità)\n- Per ogni 3 [Combustion], +1% di Soglia di Stordimento aumentata da [VibrationExplosion] (max 15%)",
+      "simpleDesc": [
+        {
+          "abilityID": 9214,
+          "simpleDesc": "Infliggi Burn"
+        },
+        {
+          "abilityID": 92141,
+          "simpleDesc": "[VibrationExplosion] aumenta di più Soglia di Stordimento"
+        }
+      ]
+    },
+    {
+      "id": 9215,
+      "name": "Cravatta Rossa",
+      "desc": "Abilità 3 che infligge Potenza o Conteggio [Combustion], o '<noparse>Bruciatura</noparse> Speciale': Potere Scontro +2 e infligge +30% di danno",
+      "simpleDesc": [
+        {
+          "abilityID": 9215,
+          "simpleDesc": "Ottieni Potere Scontro e infliggi più danni"
+        }
+      ]
+    },
+    {
+      "id": 9216,
+      "name": "Uniforme - Assoc. Liu",
+      "desc": "Inizio Turno: Questo Dono si attiva per tutto l'Incontro quando 5 o più Identità hanno Abilità Attacco che applicano Potenza o Conteggio [Combustion], o '<noparse>Bruciatura</noparse> Speciale'. (escluse le Abilità E.G.O; escluse le Riserve)\n\nIdentità dell'Associazione Liu: Abilità Attacco Base ottengono <noparse>Potere Moneta Positiva +</noparse>2 (le Abilità a Moneta Negativa ottengono Potere Base +(8 / n° di Monete) (min 1; arrotondato per difetto))\n\nLe Abilità al di fuori dell'Abilità 3 (incluse le Abilità E.G.O) che infliggono Potere o Conteggio [Combustion], o '<noparse>Bruciatura</noparse> Speciale' infliggono +20% di danno\n\nAbilità 3 che infligge Potenza o Conteggio [Combustion], o '<noparse>Bruciatura</noparse> Speciale' ottiene <noparse>Potere Moneta Positiva +</noparse>1 (le Abilità a Moneta Negativa ottengono Potere Base +(4 / n° di Monete) (min 1; arrotondato per difetto)) e infliggono +30% di danno \n- Le Identità di una fazione infliggono +5% di danno per ogni Identità che fa parte della stessa fazione in Squadra (max 20%; incluse le Riserve)\n\nFine Turno: 2 alleati con meno PS si recuperano 8 PS\n- Se gli alleati affetti sono a 0 PS o meno, recuperano altri 5 PS",
+      "simpleDesc": [
+        {
+          "abilityID": 9216,
+          "simpleDesc": "Ottieni Potere Abilità e infliggi più danni"
+        }
+      ]
+    },
+    {
+      "id": 9217,
+      "name": "Dispositivo di Qualcuno",
+      "desc": "Fine Attacco: Se [IndexPrescriptTargetToEnemy] è stato ucciso, l'Identità che ha attaccato e ucciso [IndexPrescriptTargetToEnemy] ottiene 1 [AzureResultUp] nel turno successivo; infliggi +3 Conteggio [Sinking] ad 1 nemico sopravvissuto casuale (una volta per turno)\n- Se l'unita che ha ucciso [IndexPrescriptTargetToEnemy] è nella fazione dell'Index, ottiene invece 1 [Enhancement] invece di [AzureResultUp] nel turno successivo (una volta per turno)\n\nFine Turno: le unità della fazione dell'Index subiscono (Stack di [KarmaOfIndexAlly] su sé stessi)% PV di danno.\n(L'unità non può essere Stordita a causa di questo effetto; questo danno non può ridurre i PV degli alleati al di sotto del 20 % di PV)\nDopo, le Identità hanno subito danni a causa dell'effetto ottengono (Stack di [KarmaOfIndexAlly] su di sé / 5) [ResultEnhancement] nel turno successivo (max 2)",
+      "simpleDesc": [
+        {
+          "abilityID": 9217,
+          "simpleDesc": "Ottieni [AzureResultUp]. Identità dell'Indice ottiene invece [Enhancement]"
+        },
+        {
+          "abilityID": 92171,
+          "simpleDesc": "Identità dell'Indice subisce danni e ottiene [ResultEnhancement] nel turno dopo"
+        }
+      ]
+    },
+    {
+      "id": 9218,
+      "name": "Provvidenza del Prescritto",
+      "desc": "Le Identità che hanno inflitto Potenza [Sinking], Conteggio [Sinking], o '<noparse>Annegamento</noparse> Speciale', ottengono 3 [Breath] o +2 Conteggio [Breath] ad Inizio Turno (una volta per turno per Identità)\n\nDurante l'Incontro, se un'Identità ha ottenuto [Breath] 3 volte grazie all'effetto, dal turno dopo, tale alleato infligge +30% di danno per Colpo Critico",
+      "simpleDesc": [
+        {
+          "abilityID": 9218,
+          "simpleDesc": "Ottieni Potenza e Conteggio [Breath]"
+        },
+        {
+          "abilityID": 92181,
+          "simpleDesc": "Infliggi più danni per Colpo Critico"
+        }
+      ]
+    },
+    {
+      "id": 9219,
+      "name": "Factotum",
+      "desc": "Quando delle Abilità dello stesso Tipo di Attacco colpiscono un nemico 12 volte, quel nemico riceve +0.1 di Resistenza contro quel Tipo di Attacco (3 volte per Incontro per nemico/Parti dell'Anormalità; questo effetto non può aumentare il valore di Resistenza oltre 2.0)",
+      "simpleDesc": [
+        {
+          "abilityID": 9219,
+          "simpleDesc": "Il bersaglio diventa più vulnerabile ad un Tipo d'Attacco"
+        }
+      ]
+    },
+    {
+      "id": 19219,
+      "name": "Factotum+",
+      "desc": "Quando delle Abilità dello stesso Tipo di Attacco colpiscono un nemico <style=\"upgradeHighlight\">9 volte</style>, quel nemico riceve +0.1 di Resistenza contro quel Tipo di Attacco (3 volte per Incontro per nemico/Parti dell'Anormalità; questo effetto non può aumentare il valore di Resistenza oltre 2.0)",
+      "simpleDesc": [
+        {
+          "abilityID": 19219,
+          "simpleDesc": "Il bersaglio diventa più vulnerabile ad un Tipo d'Attacco"
+        }
+      ]
+    },
+    {
+      "id": 29219,
+      "name": "Factotum++",
+      "desc": "Quando delle Abilità dello stesso Tipo di Attacco colpiscono un nemico <style=\"upgradeHighlight\">6 volte</style>, quel nemico riceve +0.1 di Resistenza contro quel Tipo di Attacco (3 volte per Incontro per nemico/Parti dell'Anormalità; questo effetto non può aumentare il valore di Resistenza oltre 2.0)",
+      "simpleDesc": [
+        {
+          "abilityID": 29219,
+          "simpleDesc": "Il bersaglio diventa più vulnerabile ad un Tipo d'Attacco"
+        }
+      ]
+    },
+    {
+      "id": 9220,
+      "name": "Rivista sui Fixer Rubata",
+      "desc": "Inizio Turno: Ottieni 1 [HitResultUp]\n\nInizio Combattimento: Ottieni 1 [HitDamageUp] se viene attivata Risonanza Assoluta Invidia\n\nInizio Incontro: Se ci sono 4 o più Identità della fazione del Medio sul campo, applica [RetaliationBook] ad un nemico casuale",
+      "simpleDesc": [
+        {
+          "abilityID": 9220,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9221,
+      "name": "Arma Termica",
+      "desc": "Per Colpo con un'Abilità Invidia o Contundente, infliggi +1 Conteggio [Laceration] o +1 Conteggio [Combustion] (3 volte per turno)\n\nQuando il Conteggio [Laceration] di un nemico scende sotto l'1 durante il combattimento, riduci invece il Conteggio [Combustion] se tale nemico ha 2+ Conteggio [Combustion] (3 volte per turno)",
+      "simpleDesc": [
+        {
+          "abilityID": 9221,
+          "simpleDesc": "Infliggi Conteggio [Laceration] e Conteggio [Combustion]"
+        },
+        {
+          "abilityID": 92211,
+          "simpleDesc": "Riduci il Conteggio [Combustion]"
+        }
+      ]
+    },
+    {
+      "id": 9222,
+      "name": "Tela Candida",
+      "desc": "Per Colpo con Abilità Attacco a Moneta Positiva contro un nemico con 15+ Potenza [Laceration], recupera 3 PS (una volta per turno per Identità)\n- Se questa Identità o il bersaglio ha 3+ tipi di effetto negativo, recupera invece 6 PS",
+      "simpleDesc": [
+        {
+          "abilityID": 9222,
+          "simpleDesc": "Recupera PS"
+        }
+      ]
+    },
+    {
+      "id": 9223,
+      "name": "Opera Mediocre",
+      "desc": "Le Identità della fazione Anulare ottengono [Inspire]\n\nSe un'Identità della fazione Anulare con [Inspire] colpisce un nemico tramite Abilità Taglienti o di Lussuria, infliggi [ObjectOfExploration] al nemico nel turno successivo\n- Se il nemico ha già [ObjectOfExploration], sostituisci [ObjectOfExploration] con [PaintingMaterial]\n\nSe un'Identità della fazione Anulare con [Inspire] uccide un nemico con [PaintingMaterial], quella Identità ottiene 1 [PlusCoinValueUp] nel turno successivo (una volta per turno)",
+      "simpleDesc": [
+        {
+          "abilityID": 9223,
+          "simpleDesc": "Infliggi [ObjectOfExploration]"
+        },
+        {
+          "abilityID": 92231,
+          "simpleDesc": "Ottieni [PlusCoinValueUp]"
+        }
+      ]
+    },
+    {
+      "id": 9224,
+      "name": "Opera Raffinata",
+      "desc": "Le Identità della fazione Anulare ottengono [Inspire]\n\nSe un'Identità della fazione Anulare con [Inspire] colpisce un nemico, infliggi [ObjectOfExploration] al nemico\n- Se il nemico ha già [ObjectOfExploration], sostituisci [ObjectOfExploration] con [PaintingMaterial]\n\nSe un'Identità della fazione Anulare con [Inspire] uccide un nemico con [PaintingMaterial], quella Identità perde [Inspire] e ottiene [GreatAesthetics]\n\n- Per Colpo con Abilità Attacco a Moneta Positiva contro un nemico con 15+ [Laceration], recupera 3 PS (una volta per turno per ciascuna Identità)\n- Se tale Identità o bersaglio ha 3+ tipi di effetto negativo, recupera invece 6 PS",
+      "simpleDesc": [
+        {
+          "abilityID": 9224,
+          "simpleDesc": "Ottieni [Inspire]"
+        },
+        {
+          "abilityID": 92241,
+          "simpleDesc": "Infliggi [ObjectOfExploration]"
+        },
+        {
+          "abilityID": 92242,
+          "simpleDesc": "Ottieni [GreatAesthetics]"
+        }
+      ]
+    },
+    {
+      "id": 9225,
+      "name": "Il Filo del Ragno",
+      "desc": "Gli alleati che usano Abilità Difensive infliggono +10% di danno con l'Abilità 3 nel turno successivo (una volta per turno)",
+      "simpleDesc": [
+        {
+          "abilityID": 9225,
+          "simpleDesc": "Abilità 3 infligge più danni"
+        }
+      ]
+    },
+    {
+      "id": 19225,
+      "name": "Il Filo del Ragno+",
+      "desc": "Gli alleati che usano Abilità Difensive infliggono <style=\"upgradeHighlight\">+15%</style> di danno con l'Abilità 3 nel turno successivo (una volta per turno)",
+      "simpleDesc": [
+        {
+          "abilityID": 19225,
+          "simpleDesc": "Abilità 3 infligge più danni"
+        }
+      ]
+    },
+    {
+      "id": 29225,
+      "name": "Il Filo del Ragno++",
+      "desc": "Gli alleati che usano Abilità Difensive infliggono <style=\"upgradeHighlight\">+20%</style> di danno con l'Abilità 3 nel turno successivo (una volta per turno)",
+      "simpleDesc": [
+        {
+          "abilityID": 29225,
+          "simpleDesc": "Abilità 3 infligge più danni"
+        }
+      ]
+    },
+    {
+      "id": 9226,
+      "name": "Lama Azzurra di Qualcuno",
+      "desc": "Inizio Combattimento: Gli alleati con Scudo ottengono 1 [CriticalDamageUp]\nPer Critico con un'Abilità di un alleato, quell'alleato ottiene Scudo uguale a ([Breath] / 5) per il turno successivo (max 15)",
+      "simpleDesc": [
+        {
+          "abilityID": 9226,
+          "simpleDesc": "Ottieni [CriticalDamageUp]"
+        },
+        {
+          "abilityID": 92261,
+          "simpleDesc": "Ottieni Shield"
+        }
+      ]
+    },
+    {
+      "id": 9227,
+      "name": "Hwando Malevola",
+      "desc": "Questo Dono E.G.O cambia dopo aver vinto 6 Incontri\n{0}\n\nPer tutti gli alleati: Subisci +20% di danno, Potere Scontro -1",
+      "simpleDesc": [
+        {
+          "abilityID": 9227,
+          "simpleDesc": "Subisci più danni e perdi Potere Scontro"
+        }
+      ]
+    },
+    {
+      "id": 9228,
+      "name": "Tutt'Uno con la Lama",
+      "desc": "Tutti gli alleati infliggono +25% di danno",
+      "simpleDesc": [
+        {
+          "abilityID": 9228,
+          "simpleDesc": "Infliggi più danni"
+        }
+      ]
+    },
+    {
+      "id": 9229,
+      "name": "Guanto d'Arme Ossidato",
+      "desc": "Questo Dono E.G.O cambia dopo aver vinto 6 Incontri\n{0}\n\nVelocità Min e Max -5 per tutti gli alleati (questo effetto non può ridurre la Velocità sotto l'1)",
+      "simpleDesc": [
+        {
+          "abilityID": 9229,
+          "simpleDesc": "Riduci la Velocità"
+        }
+      ]
+    },
+    {
+      "id": 9230,
+      "name": "Ora d'Oro",
+      "desc": "Velocità Min e Max +3 per tutti gli alleati\nPotere Finale +2 quando si usano Abilità contro bersagli più lenti con 4+ di differenza di Velocità\nPer Colpo contro un nemico, infliggi 1 [Binding] nel turno successivo (4 volte per turno)",
+      "simpleDesc": [
+        {
+          "abilityID": 9230,
+          "simpleDesc": "Ottieni Velocità e Potere Finale"
+        }
+      ]
+    },
+    {
+      "id": 9231,
+      "name": "Archivio Registri di Quel Giorno",
+      "desc": "Questo Dono E.G.O cambia dopo aver vinto 6 Incontri\n{0}\n\nInizio Turno: Un alleato casuale che non è Stordito verrà Stordito forzatamente",
+      "simpleDesc": [
+        {
+          "abilityID": 9231,
+          "simpleDesc": "Viene Stordito"
+        }
+      ]
+    },
+    {
+      "id": 9232,
+      "name": "Potenzialità",
+      "desc": "Per Stordimento da danni, si riprende dallo Stordimento; poi ottieni Scudo uguale al 50% dei PV Max e rimuovi 1 effetto negativo removibile a caso da sé stessi (esclusi gli Stordimenti, 2 volte per Incontro)\n\nOttieni 20 Potenza [Breath] all'inizio del turno successivo dopo aver attivato l'effetto (una volta per turno)",
+      "simpleDesc": [
+        {
+          "abilityID": 9232,
+          "simpleDesc": "Si riprende dallo Stordimento; rimuovi effetti negativi"
+        }
+      ]
+    },
+    {
+      "id": 9242,
+      "name": "Peluche di Bongy",
+      "desc": "Moltiplica il Costo in possesso di 1.5 dopo aver completato un Piano\n\nInfliggi +0.5% danni per ogni Dono E.G.O in possesso (max 100%)",
+      "simpleDesc": [
+        {
+          "abilityID": 9242,
+          "simpleDesc": "Infligge più danno"
+        },
+        {
+          "abilityID": 92421,
+          "simpleDesc": "Ottiene [Enhancement]"
+        }
+      ]
+    },
+    {
+      "id": 9256,
+      "name": "Occhio della Precognizione Imperfetto",
+      "desc": "Abilità a Monetà Positiva degli alleati: Ottengono Potere Moneta +(8 / n° di Monete) (viene ottenuto almeno 1 Potere Moneta, Abilità E.G.O incluse; arrotondato per difetto)\n\nAbilità a Moneta Negativa degli alleati: Ottengono Potere Finale +(8 / n° di Monete) (viene ottenuto almeno 1 Potere Finale, Abilità E.G.O incluse; arrotondato per difetto)\n\n[Gli effetti si applicano solo alla 1° Identità Schierata]\n- Durante uno Scontro, ottieni 1 [LookingFutureMirror] per ogni Scontro. Infliggi 2 [Vibration] e [Combustion] al bersaglio (10 volte per Abilità)\n- A Scontro Vinto, attiva [Switch_Vibration] in [VibrationIgnition] e innesca [VibrationExplosion] sul bersaglio principale. Il bersaglio perde 1 Conteggio [Vibration]\n- Per Colpo con un'Abilità, se il bersaglio è Stordito, infliggi +30% di danni\n- Per Critico, innesca [VibrationExplosion]. Il bersaglio perde 1 Conteggio [Vibration] (2 volte per Abilità)",
+      "simpleDesc": [
+        {}
+      ]
+    },
+    {
+      "id": 9257,
+      "name": "L'Oracolo Abbandonato",
+      "desc": "Abilità a Monetà Positiva degli alleati: Ottengono Potere Moneta +(8 / n° di Monete) (viene ottenuto almeno 1 Potere Moneta, Abilità E.G.O incluse; arrotondato per difetto)\n\nAbilità a Moneta Negativa degli alleati: Ottengono Potere Finale +(8 / n° di Monete) (viene ottenuto almeno 1 Potere Finale, Abilità E.G.O incluse; arrotondato per difetto)\n\nDurante uno Scontro, ottieni Potere Scontro +1 per ogni 30 ([Sinking] al bersaglio + [Breath] su di sé) (max 5)\n\nInfliggi +25% di danni con [SuperCoin]\nSubisci -25% di danni da [SuperCoin]\n\n[Effetto Esclusivo per la fazione dell'Indice]\n- Entrando nell'Incontro per la prima volta, ottieni 6 [BlessingOfIndexPrescriptAlly]\n· Se l'unità è un'Identità che può ottenere [UnlockBuff_Base], ottieni anche [UnlockBuffAlly_2]\n- Infliggi +50% di danni contro [IndexPrescriptTargetToEnemy]",
+      "simpleDesc": [
+        {
+          "abilityID": 98270,
+          "simpleDesc": "Gli alleati ottengono una buona quantità di Potere Moneta o Potere Finale"
+        },
+        {
+          "abilityID": 9257,
+          "simpleDesc": "Ottieni Potere Scontro in base alla somma di [Annegamento] sul bersaglio e [Breath] su di sé"
+        },
+        {
+          "abilityID": 92571,
+          "simpleDesc": "Infliggi +25% di danni con Monete Infrangibili"
+        },
+        {
+          "abilityID": 92572,
+          "simpleDesc": "Infliggi +50% di danni contro [IndexPrescriptTargetToEnemy]"
+        }
+      ]
+    },
+    {
+      "id": 9258,
+      "name": "Il Libro della Vendetta: Spin-Off",
+      "desc": "Abilità a Monetà Positiva degli alleati: Ottengono Potere Moneta +(8 / n° di Monete) (viene ottenuto almeno 1 Potere Moneta, Abilità E.G.O incluse; arrotondato per difetto)\n\nAbilità a Moneta Negativa degli alleati: Ottengono Potere Finale +(8 / n° di Monete) (viene ottenuto almeno 1 Potere Finale, Abilità E.G.O incluse; arrotondato per difetto)\n\nInizio Incontro: Tutti gli alleati guadagnano 50 di Scudo per ogni unità alleata della fazione del Medio sul campo (Riserve incluse; lo Scudo ottenuto grazie all'effetto non scade a Fine Turno)\n\nFine dell'Attacco con le Abilità Base Invidia o Contundenti degli alleati della fazione del Medio: Recupera come PV del 10% dei danni inflitti dall'Abilità\n- Se questo effetto viene attivato da un'Abilità di Contrattacco, recupera come PV invece del 20% dei danni inflitti\n- Le cure che eccedono i PV verranno convertite in Scudo (lo Scudo ottenuto grazie all'effetto non scade a Fine Turno)\n\nInizio Combattimento: Le unità alleate della fazione del Medio ottengono Livello Offensivo per il turno in base al numero delle Abilità Difensive equipaggiate (max 12 Livelli Offensivi)\n- Se sono state equipaggiate 6+ Abilità Difensive, infliggi +30% di danni con Abilità Base Invidia\n- Infliggi +10% di danni addizionali per ogni Abilità Difensiva equipaggiata oltre a 6 (max 60%)",
+      "simpleDesc": [
+        {}
+      ]
+    },
+    {
+      "id": 9259,
+      "name": "Anulare-Divenuto-Opera di Un Maestro",
+      "desc": "Abilità a Monetà Positiva degli alleati: Ottengono Potere Moneta +(8 / n° di Monete) (viene ottenuto almeno 1 Potere Moneta, Abilità E.G.O incluse; arrotondato per difetto)\n\nAbilità a Moneta Negativa degli alleati: Ottengono Potere Finale +(8 / n° di Monete) (viene ottenuto almeno 1 Potere Finale, Abilità E.G.O incluse; arrotondato per difetto)\n\nQuando le Identità della fazione dell'Anulare usano Abilità Attacco Base, applica i seguenti effetti in base al numero dei tipi di effetti negativi sul bersaglio:\n- 2+: Potere Scontro +2\n- 4+: Infliggi +15% di danni\n- 6+: Infliggi +1 Potenza e Conteggio degli effetti negativi inflitti tramite effetti delle Monete\n- 7+: Potere Base +2\n- 8+: Infliggi +35% di danni",
+      "simpleDesc": [
+        {}
+      ]
+    },
+    {
+      "id": 9250,
+      "name": "Ampolla di Fascia Media della K Corp.",
+      "desc": "[Gli effetti si applicano solo alla 1° Identità Schierata]\nInizio Incontro: Ottieni 1 [KAmpouleMirror]",
+      "simpleDesc": [
+        {}
+      ]
+    },
+    {
+      "id": 9251,
+      "name": "Destino Infuocato",
+      "desc": "Potenza [Combustion] max + 30\n\nPer Scontro Vinto contro dei bersagli che hanno [Combustion], attiva una volta [Combustion] e diminuisci il Conteggio [Combustion] del bersaglio di 1 (una volta per Identità)\n\nAll'Uso di Abilità contro dei nemici che hanno [Combustion], ottieni Livelli Offensivi uguale a (Potenza [Combustion] sul bersaglio principale / 10)(max 8)",
+      "simpleDesc": [
+        {}
+      ]
+    },
+    {
+      "id": 9252,
+      "name": "Chiodo e Martello",
+      "desc": "Per le Identità <noparse>Fanatiche della N. Corp</noparse>: Le Abilità Base ottengono Potere Base +3\n\nQuando un'Identità <noparse>Fanatica della N. Corp</noparse> ottiene [AssemblePersonality], tutte le Identità <noparse>Fanatiche della N. Corp</noparse> ottengono la stessa Stack di [AssemblePersonality] (una volta per turno inclusa la prima unità)\n- Se c'è una Rison.-A Lussuria, triplica le Stack guadagnate\n\nInizio Incontro: Infliggi 2 [NailPersonality] su tutti i nemici\n\nQuando un'Identità <noparse>Fanatica della N. Corp</noparse> usa un'Abilità Base per Scontrarsi contro un bersaglio che ha [NailPersonality], infliggi 3 [Laceration] (una volta per Abilità)\n\nLe Identità <noparse>Fanatiche della N. Corp</noparse> infliggono +100% di danni usando Abilità Base contro i bersaglio che hanno [NailPersonality]",
+      "simpleDesc": [
+        {}
+      ]
+    },
+    {
+      "id": 9253,
+      "name": "Modellino della Giostra",
+      "desc": "Primo Inizio Turno: Aumenta l'[BloodDinner] di 300\nRaddoppia la quantità di [BloodDinner] aumentata dal [Laceration]\nAll'Uso di un'Abilità che consuma [BloodDinner], a Fine Attacco, consuma altra [BloodDinner] uguale alla quantità consumata dall'Abilità\n\n[Solo per le Identità del La Manchaland]\nQuando un'unitò del La Manchaland entra in campo, l'Identità ottiene il proprio effetto tra i seguenti:\n- La Manager di La Manchaland Don Quixote: Ottiene 15 [BloodArmorPersonalityFirst]\n- La Principessa di La Manchaland Rodion: Ottiene 15 [BloomingThornsRodionFirst]\n- Il Prete di La Manchaland Gregor: Ottiene 15 [BloodyHandGregFirst]\n- La Barbiera di La Manchaland Outis: Ottiene 15 [BloodScissorPersonalityFirst]\n- Il Principe di La Manchaland Meursault: Ottiene 3 [BloodArmorMeursault]\n\n[Solo per La Manager di La Manchaland Don Quixote]\nLe Abilità Base della Manager di La Manchaland Don Quixote ottengono Potere Finale +1 e infliggono +30% di danni per ogni Identità del La Manchaland in Squadra (max 4; max 120%; Riserve incluse; unità sconfitte incluse; unità non schierate escluse)",
+      "simpleDesc": [
+        {}
+      ]
+    },
+    {
+      "id": 9254,
+      "name": "Un Altro Giro!",
+      "desc": "Le Abilità Base che consumano Conteggio [Vibration] o Conteggio [Charge] infliggono +20% di danni ('<noparse>Carica</noparse> Speciale' inclusa; '<noparse>Carica</noparse> Speciale' a Potenza fissa esclusa)\n\nQuando consumi Conteggio [Vibration] o Conteggio [Charge] tramite Abilità Base, riprendi metà del Conteggio consumato a Fine Abilità (min 1, arrotondato per difetto; '<noparse>Carica</noparse> Speciale' inclusa; '<noparse>Carica</noparse> Speciale' a Potenza fissa esclusa)",
+      "simpleDesc": [
+        {}
+      ]
+    },
+    {
+      "id": 9255,
+      "name": "Clappity Clap!",
+      "desc": "Per Scontro Vinto usando un'Abilità Base che infligge Potenza o Conteggio [Vibration], o '<noparse>Vibrazione</noparse> Speciale' contro un nemico, attiva [FusionVibration] in una '<noparse>Vibrazione</noparse> Speciale' tra le seguenti (una volta per turno):\n- [VibrationIgnition]\n- [VibrationBleeding]\n- [VibrationEcho]\n- [VibrationCollapse]\n- [VibrationChainPersonality]",
+      "simpleDesc": [
+        {}
+      ]
+    },
+    {
+      "id": 9273,
+      "name": "Ragnatela Intrecciata in Rosso",
+      "desc": "Tutti gli alleati ottengono 1 Livello Offensivo e 1 Livello Difensivo per ogni alleato sconfitto (max 10)\n\nSe Lama del Nido dei Ragni Ryōshū è nella configurazione della Squadra, tutte le Identità sconfitte eccetto Lama del Nido dei Ragni Ryōshū non torneranno in vita dopo aver terminato un Incontro (nodi boss finale del Piano e nodi Nascosti inclusi)\n\n[Gli effetti si applicano solo alla 1° Identità Schierata]\n\nInizio Turno: Se non ci sono degli alleati sopravvissuti oltre a questa unità, ottiene [RedButterfly]\n\n[Gli effetti si applicano solo a Lama del Nido dei Ragni Ryōshū]\n\nQuando entra nell'Incontro per la prima volta, per ogni Identità del Nido dei Ragni alleata sconfitta, ottiene 5 [PhantomIncisionTotalID]\nPer ogni 2 alleati del Nido dei Ragni sconfitti, Potere Finale +1, Potere Moneta +1, e infligge +10% di danni (max 3 e 30%, rispettivamente)\nSe non ci sono alleati sopravvissuti oltre a Lama del Nido dei Ragni Ryōshū, ottiene +12 nel modificatore per tutte le prove Abilità negli Eventi a Scelta",
+      "simpleDesc": [
+        {
+          "abilityID": 9273,
+          "simpleDesc": "Ottieni Livello Offensivo e Livello Difensivo"
+        },
+        {
+          "abilityID": 92731,
+          "simpleDesc": "Ottieni [RedButterfly]"
+        },
+        {
+          "abilityID": 92732,
+          "simpleDesc": "Ottieni [PhantomIncisionTotalID]"
+        },
+        {
+          "abilityID": 92733,
+          "simpleDesc": "Ottieni Potere Finale, Potere Moneta, infliggi più danni"
+        }
+      ]
+    },
+    {
+      "id": 9274,
+      "name": "Catena Ohra",
+      "desc": "Per Colpo Critico contro un nemico, infliggi 1 [Binding] nel prossimo turno (2 volte per turno)\nPer Colpo usando un'Abilità contro un nemico affetto da [Binding], ottieni 1 [Breath] (2 volte per Identità)\n\nInizio Turno: Tutti i nemici che hanno [Laceration] ottengono [AttackDown] pari a [Binding] su sé stessi (max 5)\n\nInizio Turno: Se tuti i nemici (per gli Incontri Mirati, tutte le Parti) hanno [Binding], tutti gli alleati ottengono 3 [Breath]",
+      "simpleDesc": [
+        {
+          "abilityID": 9274,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9275,
+      "name": "Valigetta del Service des Clous della N Corp.",
+      "desc": "Quando colpisci un nemico usando un'Abilità che infligge Potenza, Conteggio [Laceration] o '<noparse>Sanguinamento</noparse> Speciale', infliggi 1 [NailPersonality] (una volta per Abilità)\nQuando si attiva [VibrationExplosion] su un nemico con [NailPersonality], infliggi 1 [Binding] nel turno dopo (3 volte per turno)",
+      "simpleDesc": [
+        {
+          "abilityID": 9275,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9276,
+      "name": "Contagocce in Baekja",
+      "desc": "Quando un'Identità alleata ottiene [SupportProtect], quell'Identità ottiene 2 [AttackDmgUp] e 2 [Protection]\n\n[Gli effetti si applicano solo alla 1° Identità Schierata]\nFine Turno: Ottieni 2 [Agility] nel turno dopo\nQuando la Velocità di un'Identità è maggiore rispetto a quella del nemico, infliggi +3% di danni per la differenza in Velocità (max 30%)",
+      "simpleDesc": [
+        {
+          "abilityID": 9276,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9277,
+      "name": "Bastone Animato di Acoro",
+      "desc": "Se un alleato non è stato colpito da un nemico in questo turno, tale alleato ottiene 1 [SlashDamageUp] nel turno dopo\nQuando un alleato viene colpito da un nemico, tale alleato ottiene 4 [Breath], e ottiene 1 [CriticalDamageUp] per questo turno e il turno dopo (una volta per turno per Identità)\n- Se l'alleato affetto è un'Identità dei Discendenti della Spada, ottiene il doppio degli effetti di questo Dopo E.G.O",
+      "simpleDesc": [
+        {
+          "abilityID": 9277,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9278,
+      "name": "Ceppo di Legno Spezzato",
+      "desc": "Per Colpo contro un nemico che usa un'Abilità Tagliente, infliggi 1 [DefenseDown] il turno dopo (2 volte per Abilità)\nSe un alleato è più veloce del nemico, tale alleato infligge +3% di danni usando le Abilità Attacco Base per ciascuna differenza di Velocità (max 12%)\n- Se il nemico ha [Binding], raddoppia il precedente potenziamento ai danni e il suo limite massimo",
+      "simpleDesc": [
+        {
+          "abilityID": 9278,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9279,
+      "name": "Guardia di Spada Scabra",
+      "desc": "Le Abilità Taglienti infliggono +1% di danni per ogni [Breath] (max 15%)",
+      "simpleDesc": [
+        {
+          "abilityID": 9279,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9280,
+      "name": "Il Manuale della Scherma della Patria [本國劍譜]",
+      "desc": "Se un nemico ha la Resistenza Tagliente di 1.5 o minore, Resistenza Tegliente +0.3\nLe Abilità Taglienti ottengono Livello Offensivo +2\nQuando attacchi dei nemici Deboli(Resistenza maggiore di 1.0; gli stati di Stordimento non contano) al Tagliente, infliggi +(5 + (Resistenza Tagliente del bersaglio. x 10))% di danni (max 25%)\n\nLe Abilità Taglienti infliggono +1.5% di danni per ogni [Breath] (max 30%)\n\nConta 1 Identità della S Corp che non fa parte dei Discendenti della Spada schierata per prima come un'Identità dei Discendenti della Spada e applica [BongukGiftEnhance] su di essa a ogni turno\n\nInizio Turno: Si attiva quando ci sono 3 o più Identità dei Discendenti della Spada (vengono contate solo le Identità in campo all'Inizio dell'Incontro)\n- Inizio Combattimento: Applica 1 [BongukGiftEnhance] sulle identità dei Discendenti della Spada alleate che hanno equipaggiato Abilità Ira o Superbia",
+      "simpleDesc": [
+        {
+          "abilityID": 9280,
+          "simpleDesc": ""
+        }
+      ]
+    }
+  ]
+}

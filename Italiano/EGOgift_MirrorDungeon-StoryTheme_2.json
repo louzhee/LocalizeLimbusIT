@@ -1,0 +1,267 @@
+{
+  "dataList": [
+    {
+        "id": 9427,
+        "name": "Arpione per Proteggere il Villaggio",
+        "desc": "[Effetti applicati solo all'Identità schierata in posizione #6]\n\nFine Turno: se con meno del 30% di PV, ottiene 1 [Enhancement] per il turno successivo",
+        "simpleDesc": [
+            {
+                "abilityID": 9427,
+                "simpleDesc": "Ottiene 1 Potenziamento per il turno successivo"
+            }
+        ]
+    },
+    {
+        "id": 19427,
+        "name": "Arpione per Proteggere il Villaggio+",
+        "desc": "[Effetti applicati solo all'Identità schierata in posizione #6]\nFine Turno: se con meno del 40% di PV, ottiene 1 [Enhancement] per il turno successivo\n\nFine Turno: se un alleato è Stordito, ottiene +6 [Aggro] e 4 [DefenseUp] per il turno successivo",
+        "simpleDesc": [
+            {
+                "abilityID": 19427,
+                "simpleDesc": "Ottiene 1 Potenziamento per il turno successivo"
+            },
+            {
+                "abilityID": 194271,
+                "simpleDesc": "Ottiene +6 Provocazione e 4 Livello Difensivo Aumentato per il turno successivo"
+            }
+        ]
+    },
+    {
+        "id": 29427,
+        "name": "Arpione per Proteggere il Villaggio++",
+        "desc": "[Effetti applicati solo all'Identità schierata in posizione #6]\nFine Turno: se con meno del 50% di PV, ottiene 1 [Enhancement] per il turno successivo\n\nFine Turno: se un alleato è Stordito, ottiene +6 [Aggro] e 4 [DefenseUp] per il turno successivo",
+        "simpleDesc": [
+            {
+                "abilityID": 29427,
+                "simpleDesc": "Ottiene 1 Potenziamento per il turno successivo"
+            },
+            {
+                "abilityID": 294271,
+                "simpleDesc": "Ottiene +6 Provocazione e 4 Livello Difensivo Aumentato per il turno successivo"
+            }
+        ]
+    },
+    {
+        "id": 9428,
+        "name": "Cuore di Cetaceo",
+        "desc": "Sul Colpo con un'Abilità di Attacco contro nemici con [Laceration] o 'Sanguinamento Speciale' : Ottiene 1 [Breath]. (3 volte per turno per Identità)\nIn caso di Critico: 50% di probabilità di ottenere 1 [PenetrateResultUp] il turno successivo. (2 volte per turno per Identità; incluse le Abilità E.G.O e le Abilità di Contrattacco)\n\nIn caso di Testa su un colpo Critico con un'Abilità Base: Infligge +1 [Effetto Negativo] addizionale con quella Moneta. (una volta per turno per Identità; incluse le Abilità di Contrattacco ed escluse le Abilità E.G.O)",
+        "simpleDesc": [
+            {
+                "abilityID": 9428,
+                "simpleDesc": "Ottiene 1 [Breath]"
+            },
+            {
+                "abilityID": 94281,
+                "simpleDesc": "Probabilità di ottenere 1 [PenetrateResultUp] il turno successivo"
+            },
+            {
+                "abilityID": 94282,
+                "simpleDesc": "Infligge +1 effetto negativo addizionale"
+            }
+        ]
+    },
+    {
+        "id": 9431,
+        "name": "Violino Rotto",
+        "desc": "[Effetti applicati solo alle Identità schierate nelle posizioni #5 e #6]\n\nCon PV pari o inferiori al 45%: ottiene 1 [AttackUp] e 1 [TakeHpHealIncrease] in caso di Vittoria Scontro (2 volte per turno per ogni personaggio).\n\nCon PV pari o inferiori al 20%: ottiene invece 1 [AttackUp] e 1 [TakeHpHealIncrease] all'Uso dell'Abilità (2 volte per turno per ogni personaggio).",
+        "simpleDesc": [
+            {
+                "abilityID": 9431,
+                "simpleDesc": "Ottiene 1 Livello Offensivo Aumentato & 1 Cure PV Aumentate"
+            },
+            {
+                "abilityID": 94311,
+                "simpleDesc": "Ottiene 1 Livello Offensivo Aumentato & 1 Cure PV Aumentate"
+            }
+        ]
+    },
+    {
+        "id": 19431,
+        "name": "Violino Rotto+",
+        "desc": "[Effetti applicati solo alle Identità schierate nelle posizioni #5 e #6]\n\nCon PV pari o inferiori al <style=\"upgradeHighlight\">65%</style> ottiene 1 [AttackUp] e 1 [TakeHpHealIncrease] in caso di Vittoria Scontro (2 volte per turno per ogni personaggio).\n\nCon PV pari o inferiori al <style=\"upgradeHighlight\">40%</style> ottiene invece 1 [AttackUp] e 1 [TakeHpHealIncrease] all'Uso dell'Abilità (2 volte per turno per ogni personaggio).\n\n<style=\"upgradeHighlight\">Quando vince uno Scontro dopo 5+ Scontri, l'Abilità che ha vinto lo Scontro infligge +(# di Scontri x 2)% di danni (max 20%)</style>",
+        "simpleDesc": [
+            {
+                "abilityID": 19431,
+                "simpleDesc": "Ottiene 1 Livello Offensivo Aumentato & 1 Cure PV Aumentate"
+            },
+            {
+                "abilityID": 194311,
+                "simpleDesc": "Ottiene 1 Livello Offensivo Aumentato & 1 Cure PV Aumentate"
+            },
+            {
+                "abilityID": 194312,
+                "simpleDesc": "Infligge più danni in base al numero degli Scontri"
+            }
+        ]
+    },
+    {
+        "id": 29431,
+        "name": "Violino Rotto++",
+        "desc": "[Effetti applicati solo alle Identità schierate nelle posizioni #5 e #6]\n\nCon PV pari o inferiori al 65%: ottiene 1 [AttackUp] e 1 [TakeHpHealIncrease] in caso di Vittoria Scontro (2 volte per turno per ogni personaggio).\n\nCon PV pari o inferiori al 40%: ottiene invece 1 [AttackUp] e 1 [TakeHpHealIncrease] all'Uso dell'Abilità (2 volte per turno per ogni personaggio).\n\nQuando vince uno Scontro dopo 5+ Scontri, l'Abilità che ha vinto lo Scontro infligge <style=\"upgradeHighlight\">+(# di Scontri x 3)% di danni (max 30%)</style>",
+        "simpleDesc": [
+            {
+                "abilityID": 29431,
+                "simpleDesc": "Ottiene 1 Livello Offensivo Aumentato & 1 Cure PV Aumentate"
+            },
+            {
+                "abilityID": 294311,
+                "simpleDesc": "Ottiene 1 Livello Offensivo Aumentato & 1 Cure PV Aumentate"
+            },
+            {
+                "abilityID": 294312,
+                "simpleDesc": "Infligge più danni in base al numero degli Scontri"
+            }
+        ]
+    },
+    {
+      "id": 9432,
+      "name": "Carillon a Forma di Maniero",
+      "desc": "Fine Turno: se è Stordito, si riprende dallo Stordimento; dopodiché, all'Inizio Turno successivo, infligge 4 Potenza [Sinking] e 4 Conteggio [Sinking] a tutti i nemici (una volta per Incontro; negli Incontri Mirati, a tutte le parti).\n\nPer Uccisione, 1 nemico con meno Conteggio [Sinking] ottiene +2 Conteggio [Sinking] (3 volte per turno; negli Incontri Mirati, la Parte).",
+      "simpleDesc": [
+        {
+          "abilityID": 9432,
+          "simpleDesc": "Infligge 4 Potenza e Conteggio [Sinking] a tutti i nemici"
+        },
+        {
+          "abilityID": 94321,
+          "simpleDesc": "Il nemico con meno Conteggio [Sinking] ottiene +2 Conteggio [Sinking]"
+        }
+      ]
+    },
+    {
+        "id": 9435,
+        "name": "Arti Vincolanti del Maggiordomo",
+        "desc": "Inizio Turno: infligge 1 [Binding] al nemico che si è ripreso dallo Stordimento il turno precedente.\n\nSul Colpo da parte dell'alleato con la percentuale di PV più alta: se il bersaglio è Stordito, infligge +7,5% di danni per ogni Livello di Stordimento.",
+        "simpleDesc": [
+            {
+                "abilityID": 9435,
+                "simpleDesc": "Infligge 1 Rallentamento al nemico che si è ripreso dallo Stordimento"
+            },
+            {
+                "abilityID": 94351,
+                "simpleDesc": "Infligge più danni in base al Livello di Stordimento del bersaglio"
+            }
+        ]
+    },
+    {
+      "id": 19435,
+      "name": "Arti Vincolanti del Maggiordomo+",
+      "desc": "Inizio Turno: infligge <style=\"upgradeHighlight\">2</style> [Binding] al nemico che si è ripreso dallo Stordimento il turno precedente.\n\nSul Colpo da parte dell'alleato con la percentuale di PV più alta: se il bersaglio è Stordito, infligge +<style=\"upgradeHighlight\">10%</style> di danni per ogni Livello di Stordimento.",
+      "simpleDesc": [
+        {
+          "abilityID": 19435,
+          "simpleDesc": "Infligge 2 Rallentamento al nemico che si è ripreso dallo Stordimento"
+        },
+        {
+          "abilityID": 194351,
+          "simpleDesc": "Infligge più danni in base al Livello di Stordimento del bersaglio"
+        }
+      ]
+    },
+    {
+      "id": 29435,
+      "name": "Arti Vincolanti del Maggiordomo++",
+      "desc": "Inizio Turno: infligge <style=\"upgradeHighlight\">3</style> [Binding] al nemico che si è ripreso dallo Stordimento il turno precedente.\n\nSul Colpo da parte dell'alleato con la percentuale di PV più alta: se il bersaglio è Stordito, infligge +<style=\"upgradeHighlight\">12,5%</style> di danni per ogni Livello di Stordimento.",
+      "simpleDesc": [
+        {
+          "abilityID": 29435,
+          "simpleDesc": "Infligge 3 Rallentamento al nemico che si è ripreso dallo Stordimento"
+        },
+        {
+          "abilityID": 294351,
+          "simpleDesc": "Infligge più danni in base al Livello di Stordimento del bersaglio"
+        }
+      ]
+    },
+    {
+      "id": 9436,
+      "name": "Tubo di Vetro a Rifrazione",
+      "desc": "Incontri Regolari) Sul Colpo contro nemici con 10+ (somma di Potenza e Conteggio [Sinking]):\nse il bersaglio è a -45 PS, infligge danni da Tristezza pari a (Potenza [Sinking] sul bersaglio / 2) (una volta per Abilità).\n\nIncontri Mirati) Sul Colpo contro nemici con 10+ (somma di Potenza e Conteggio [Sinking]):\ninfligge danni da Tristezza pari a (Potenza [Sinking] sul bersaglio / 2) (una volta per Abilità).\n\nSe l'Abilità che ha colpito il nemico infligge [Sinking] (inclusi Conteggio [Sinking] e [Sinking] Unico), invece di infliggere (Potenza [Sinking] / 2) danni da Tristezza, infligge (Potenza [Sinking]) danni da Tristezza.\n(Ogni turno, questo si applica solo alla prima Abilità che infligge Annegamento che va a segno).",
+      "simpleDesc": [
+        {
+          "abilityID": 9436,
+          "simpleDesc": "Infligge danni da Tristezza in base all'Annegamento sul bersaglio"
+        },
+        {
+          "abilityID": 94361,
+          "simpleDesc": "Infligge danni da Tristezza in base all'Annegamento sul bersaglio"
+        }
+      ]
+    },
+    {
+      "id": 9437,
+      "name": "Pass Giornaliero per La Manchaland",
+      "desc": "A segno contro bersagli con 10+ (somma di [Laceration], 'Sanguinamento Unico' e [Burst]): ottiene 1 Potenza e Conteggio [Breath] (2 volte per Abilità)",
+      "simpleDesc": [
+        {
+          "abilityID": 9437,
+          "simpleDesc": "Ottiene 1 Potenza e Conteggio [Breath]"
+        }
+      ]
+    },
+    {
+      "id": 9438,
+      "name": "Medaglia della Vittoria",
+      "desc": "Su Uccisione: 1 alleato con il minor numero di PS ne ripristina 3.\n\nFine Attacco: se un nemico con 10+ (somma di [Laceration], 'Sanguinamento Unico' e [Burst]) viene sconfitto, 1 alleato ottiene 2 [AttackUp] per il turno successivo (priorità all'alleato che ha sconfitto quel nemico).",
+      "simpleDesc": [
+        {
+          "abilityID": 9438,
+          "simpleDesc": "Ripristina 3 PS"
+        },
+        {
+          "abilityID": 9438,
+          "simpleDesc": "Un alleato casuale ottiene 2 Livello Offensivo Aumentato per il turno successivo"
+        }
+      ]
+    },
+    {
+      "id": 9439,
+      "name": "Cubo Divoratore",
+      "desc": "Quando un alleato muore, ottiene 1 Risorsa E.G.O per ciascuna delle Abilità 1 e 2 di quell'alleato.\n\nFine Attacco: se il nemico viene ucciso, ottiene 1 Risorsa E.G.O casuale (una volta per Abilità).",
+      "simpleDesc": [
+        {
+          "abilityID": 9439,
+          "simpleDesc": "Ottiene 1 Risorsa E.G.O casuale"
+        }
+      ]
+    },
+    {
+      "id": 9440,
+      "name": "Maschera della Parata",
+      "desc": "Le Abilità Base di tutti i Bramasangue alleati ottengono Potere Moneta +1\n\nNegli Incontri in cui appaiono rinforzi: quando nuovi nemici entrano in battaglia, infligge 3 [Laceration] e +3 Conteggio [Laceration] a ciascuno di essi.\n\nSe tra gli alleati è presente un <Bramasangue>: quando nuovi nemici entrano in battaglia, attiva [Laceration] su tutti i nemici e riduce il loro Conteggio [Laceration] di 1.",
+      "simpleDesc": [
+        {
+          "abilityID": 94402,
+          "simpleDesc": "Potere Moneta delle Abilità Base +1"
+        },
+        {
+          "abilityID": 9440,
+          "simpleDesc": "Infligge 3 Sanguinamento e +3 Conteggio Sanguinamento ai rinforzi che entrano in battaglia"
+        },
+        {
+          "abilityID": 94401,
+          "simpleDesc": "Attiva Sanguinamento una volta su tutti i nemici (riduce il loro Conteggio Sanguinamento di 1)"
+        }
+      ]
+    },
+    {
+      "id": 19440,
+      "name": "Maschera della Parata+",
+      "desc": "Le Abilità Base di tutti i Bramasangue alleati ottengono Potere Moneta +1\n\nNegli Incontri in cui appaiono rinforzi: quando nuovi nemici entrano in battaglia, infligge <style=\"upgradeHighlight\">5</style> [Laceration] e +<style=\"upgradeHighlight\">3</style> Conteggio [Laceration] a ciascuno di essi.\n\nSe tra gli alleati è presente un <Bramasangue>: quando nuovi nemici entrano in battaglia, attiva [Laceration] su tutti i nemici e riduce il loro Conteggio [Laceration] di 1.",
+      "simpleDesc": [
+        {
+          "abilityID": 94402,
+          "simpleDesc": "Potere Moneta delle Abilità Base +1"
+        },
+        {
+          "abilityID": 194405,
+          "simpleDesc": "Infligge 5 Sanguinamento e +3 Conteggio Sanguinamento ai rinforzi che entrano in battaglia"
+        },
+        {
+          "abilityID": 1944051,
+          "simpleDesc": "Attiva Sanguinamento una volta su tutti i nemici (riduce il loro Conteggio Sanguinamento di 1)"
+        }
+      ]
+    }
+  ]
+}

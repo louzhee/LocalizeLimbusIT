@@ -1,0 +1,138 @@
+{
+  "dataList": [
+    {
+      "id": 9812,
+      "name": "Tempo Interconnesso",
+      "desc": "Quando viene attivato [Switch_Vibration] o [FusionVibration], innesca [VibrationExplosion] sul bersaglio (una volta per turno per Identità)",
+      "simpleDesc": [
+        {
+          "abilityID": 9812,
+          "simpleDesc": "Innesca [VibrationExplosion] sul bersaglio"
+        }
+      ]
+    },
+    {
+      "id": 19812,
+      "name": "Tempo Interconnesso+",
+      "desc": "Quando viene attivato [Switch_Vibration] o [FusionVibration], innesca [VibrationExplosion] sul bersaglio (<style=\"upgradeHighlight\">2 volte</style> per turno per Identità)",
+      "simpleDesc": [
+        {
+          "abilityID": 19812,
+          "simpleDesc": "Innesca [VibrationExplosion] sul bersaglio"
+        }
+      ]
+    },
+    {
+      "id": 29812,
+      "name": "Tempo Interconnesso++",
+      "desc": "Quando viene attivato [Switch_Vibration] o [FusionVibration], innesca [VibrationExplosion] sul bersaglio (<style=\"upgradeHighlight\">3 volte</style> per turno per Identità)",
+      "simpleDesc": [
+        {
+          "abilityID": 29812,
+          "simpleDesc": "Innesca [VibrationExplosion] sul bersaglio"
+        }
+      ]
+    },
+    {
+      "id": 9813,
+      "name": "Distintivo d'Emergenza da Investigatore",
+      "desc": "[Gli effetti si applicano solo alla 3° Identità Schierata]\n\nQuando questa unità subisce un danno letale, i suoi PV non scendono sotto l'1, recupera istantaneamente l'80% dei propri PV Max, e si riprende dallo Stordimento. (una volta per Incontro, arrotondato per eccesso)\nQuando il Dono E.G.O si attiva, dal turno successivo in poi, ottiene 2 [Enhancement] e 1 [Vulnerable] ad Inizio Turno per questo Incontro.\nSe l'unità affetta è un impiegato della T Corp., ottiene 1 ulteriore [TimeRentalTwoPersonality] quando si ottengono delle Stack.\nSe l'unità affetta è un impiegato della T Corp., se il bersaglio ha [TimeSuspend], infliggi +10% di danno con Abilità Attacco.",
+      "simpleDesc": [
+        {
+          "abilityID": 9813,
+          "simpleDesc": "I PV non scendono sotto l'1, e recupera istantaneamente l'80% dei PV Max"
+        },
+        {
+          "abilityID": 98131,
+          "simpleDesc": "Ottieni [TimeRentalTwoPersonality] extra al suo ottenimento"
+        },
+        {
+          "abilityID": 98132,
+          "simpleDesc": "Infliggi più danni se questa unità ha [TimeSuspended]"
+        }
+      ]
+    },
+    {
+      "id": 19813,
+      "name": "Distintivo d'Emergenza da Investigatore+",
+      "desc": "[Gli effetti si applicano solo alla <style=\"upgradeHighlight\">2°, e</style> 3° Identità Schierata]\n\nQuando questa unità subisce un danno letale, i suoi PV non scendono sotto l'1, recupera istantaneamente l'80% dei propri PV Max, e si riprende dallo Stordimento. (una volta per Incontro, arrotondato per eccesso)\nQuando il Dono E.G.O si attiva, dal turno successivo in poi, ottiene 2 [Enhancement] e 1 [Vulnerable] ad Inizio Turno per questo Incontro.\nSe l'unità affetta è un impiegato della T Corp., ottiene 1 ulteriore [TimeRentalTwoPersonality] quando si ottengono delle Stack.\nSe l'unità affetta è un impiegato della T Corp., se il bersaglio ha [TimeSuspend], infliggi +<style=\"upgradeHighlight\">12.5</style>% di danno con Abilità Attacco.",
+      "simpleDesc": [
+        {
+          "abilityID": 19813,
+          "simpleDesc": "I PV non scendono sotto l'1, e recupera istantaneamente l'80% dei PV Max"
+        },
+        {
+          "abilityID": 198131,
+          "simpleDesc": "Ottieni [TimeRentalTwoPersonality] extra al suo ottenimento"
+        },
+        {
+          "abilityID": 198132,
+          "simpleDesc": "Infliggi più danni se questa unità ha [TimeSuspended]"
+        }
+      ]
+    },
+    {
+      "id": 29813,
+      "name": "Distintivo d'Emergenza da Investigatore++",
+      "desc": "[Gli effetti si applicano solo alla <style=\"upgradeHighlight\">1°,</style> 2°, e 3° Identità Schierata]\n\nQuando questa unità subisce un danno letale, i suoi PV non scendono sotto l'1, recupera istantaneamente l'80% dei propri PV Max, e si riprende dallo Stordimento. (una volta per Incontro, arrotondato per eccesso)\nQuando il Dono E.G.O si attiva, dal turno successivo in poi, <style=\"upgradeHighlight\">ottiene 2 [Enhancement]</style> ad Inizio Turno per questo Incontro.\nSe l'unità affetta è un impiegato della T Corp., ottiene <style=\"upgradeHighlight\">2</style> ulteriori [TimeRentalTwoPersonality] quando si ottengono delle Stack.\nSe l'unità affetta è un impiegato della T Corp., se il bersaglio ha [TimeSuspend], infliggi +<style=\"upgradeHighlight\">15</style>% di danno con Abilità Attacco.",
+      "simpleDesc": [
+        {
+          "abilityID": 29813,
+          "simpleDesc": "I PV non scendono sotto l'1, e recupera istantaneamente l'80% dei PV Max"
+        },
+        {
+          "abilityID": 298131,
+          "simpleDesc": "Ottieni [TimeRentalTwoPersonality] extra al suo ottenimento"
+        },
+        {
+          "abilityID": 298132,
+          "simpleDesc": "Infliggi più danni se questa unità ha [TimeSuspended]"
+        }
+      ]
+    },
+    {
+      "id": 9814,
+      "name": "Sequenziatore della Sovrascrittura dell'Intreccio",
+      "desc": "Ad Inizio Turno, per 1 Identità con maggior Conteggio [Vibration], attiva [FusionVibration] per convertire la propria [Vibration] in [VibrationDistribution]",
+      "simpleDesc": [
+        {
+          "abilityID": 9814,
+          "simpleDesc": "Attiva [FusionVibration] in [VibrationDistribution]"
+        }
+      ]
+    },
+    {
+      "id": 19814,
+      "name": "Sequenziatore della Sovrascrittura dell'Intreccio+",
+      "desc": "Ad Inizio Turno, per <style=\"upgradeHighlight\">2</style> Identità con maggior Conteggio [Vibration], attiva [FusionVibration] per convertire la propria [Vibration] in [VibrationDistribution]",
+      "simpleDesc": [
+        {
+          "abilityID": 19814,
+          "simpleDesc": "Attiva [FusionVibration] in [VibrationDistribution]"
+        }
+      ]
+    },
+    {
+      "id": 29814,
+      "name": "Sequenziatore della Sovrascrittura dell'Intreccio++",
+      "desc": "Ad Inizio Turno, per <style=\"upgradeHighlight\">3</style> Identità con maggior Conteggio [Vibration], attiva [FusionVibration] per convertire la propria [Vibration] in [VibrationDistribution]",
+      "simpleDesc": [
+        {
+          "abilityID": 29814,
+          "simpleDesc": "Attiva [FusionVibration] in [VibrationDistribution]"
+        }
+      ]
+    },
+    {
+      "id": 9816,
+      "name": "Accelerazione Temporale Microprecisa",
+      "desc": "[Gli effetti si applicano solo alla 1° Identità Schierata]\n\nSi applica all'Identità con Abilità che infliggono Potenza o Conteggio [Vibration] o che attivano [VibrationExplosion].\nInizio Incontro: ottieni 5 [UltraPrecisionTimeAcceleration]",
+      "simpleDesc": [
+        {
+          "abilityID": 9816,
+          "simpleDesc": "Ottieni 5 [UltraPrecisionTimeAcceleration]"
+        }
+      ]
+    }
+  ]
+}

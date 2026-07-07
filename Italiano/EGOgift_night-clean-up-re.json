@@ -1,0 +1,96 @@
+{
+  "dataList": [
+    {
+      "id": 9269,
+      "name": "Boombox delle Entrate ad Effetto",
+      "desc": "Per Colpo usando delle Abilità Contundenti: Recupera  il 5% dei danni inflitti dall'alleato che ha usato l'Abilità\n\nPer Colpo usando Abilità di Contrattacco: Recupera 5 PS (2 volte per turno per Identità)",
+      "simpleDesc": [
+        {
+          "abilityID": 9269,
+          "simpleDesc": "Recupera PV in proporzione al danno inflitto"
+        },
+        {
+          "abilityID": 92691,
+          "simpleDesc": "Recupera PS"
+        }
+      ]
+    },
+    {
+      "id": 9270,
+      "name": "ENTRA IN SCENA: Il G.F.",
+      "desc": "Quando un alleato viene colpito, applica 3 [AttackUp] all'alleato e infliggi +4 Conteggio [Laceration] all'attaccante (una volta per Abilità)\n\nLe Abilità Base usate dalle Identità Del Medio ottengono Potere Base +1 e infliggi +(30 / n° di Monete)% di danni\n- Inizio Turno: Se ci sono 3+ Identità Del Medio in campo, invece ottieni Potere Base +1 e infliggi +(60 / n° di Monete)% di danni\n- Se ci sono 5+ Identità Del Medio in campo, invece ottieni Potere Base +2 e infliggi +(90 / n° di Monete)% di danni\n\nPer Colpo usando Abilità Contundenti: Recupera il 10% dei danni inflitti dall'alleato che ha usato l'Abilità\n\nPer Colpo usanto un'Abilità di Contrattacco: Recupera 5 PS (2 volte per turno per Identità)\n\nFine Turno: Se l'alleato che ha equipaggiato l'Abilità di Contrattacco ad Inizio Combattimento non riesce ad utilizzarla in questo turno, quell'alleato ottiene 1 [PlusCoinValueUp] e 1 [MinusCoinValueDown] nel turno successivo",
+      "simpleDesc": [
+        {
+          "abilityID": 9270,
+          "simpleDesc": "L'attaccante ottiene Conteggio [Laceration], l'alleato attaccato ottiene [AttackUp]"
+        },
+        {
+          "abilityID": 92701,
+          "simpleDesc": "Ottieni Potere Base e infliggi più danni"
+        },
+        {
+          "abilityID": 92702,
+          "simpleDesc": "Recupera PV in proporzione al danno inflitto"
+        },
+        {
+          "abilityID": 92703,
+          "simpleDesc": "Recupera PS"
+        },
+        {
+          "abilityID": 92704,
+          "simpleDesc": "Ottieni [PlusCoinValueUp] e [MinusCoinValueDown] nel turno dopo"
+        }
+      ]
+    },
+    {
+      "id": 9271,
+      "name": "Bolo Heishou - Mao",
+      "desc": "Quando un'Identità del Branco Heishou - Ramo Mao entra nell'Incontro per la prima volta, limita la sua Velocità Min a 10 per quel turno (se la sua Velocità Min è già 10+, questo effetto non si attiva)\n\nSe un alleato ha [LegStrength], le Abilità Base dell'alleato ottengono Potere Scontro +1 e infliggono +10% di danni",
+      "simpleDesc": [
+        {
+          "abilityID": 9271,
+          "simpleDesc": "Limita il valore della Velocità minima"
+        },
+        {
+          "abilityID": 92711,
+          "simpleDesc": "Ottieni Potere Scontro e infliggi più danni"
+        }
+      ]
+    },
+    {
+      "id": 9272,
+      "name": "Celati nelle Ombre",
+      "desc": "Quando un'Identità del Branco Heishou - Ramo Mao entra nell'Incontro per la prima volta, limita la sua Velocità Min a 10 per 3 turni (se la sua Velocità Min è già 10+, questo effetto non si attiva)\n\nLe Abilità Base ottengono Potere Scontro +1 e infliggono +10% di danni per ciascuna Stack di [LegStrength]\n\nQuando viene inflitto [BurstAgility], infliggilo anche ad altri 2 nemici che non hanno [BurstAgility] (una volta per turno; negli Incontri Mirati, le Parti)\n\nSe la Velocità di un alleato è maggiore rispetto a quella del suo bersaglio, le Abilità dell'alleato infliggono (differenza di Velocità / 3) in più di [Burst] o di Conteggio [Burst] Count (max 3)\n\nFine Turno: gli alleati del Branco Heishou - Ramo Mao ottengono 2 [Agility] nel turno successivo\nSe la Velocità di un alleato è maggiore rispetto a quella del bersaglio, o quando un alleato usa un'Abilità Incontrastata, quell'alleato infligge +10% danni Taglienti per ogni (differenza di Velocità / 3) (max 30%)\nSe la Velocità di un alleato è maggiore rispetto a quella del bersaglio, subisci -10% di danni per ogni (differenza di Velocità / 3) (max 30%)",
+      "simpleDesc": [
+        {
+          "abilityID": 9272,
+          "simpleDesc": "Limita il valore della Velocità minima"
+        },
+        {
+          "abilityID": 92721,
+          "simpleDesc": "Ottieni Potere Scontro e infliggi più danni"
+        },
+        {
+          "abilityID": 92722,
+          "simpleDesc": "Infliggi ulteriore [BurstAgility]"
+        },
+        {
+          "abilityID": 92723,
+          "simpleDesc": "Le Abilità infliggono +1 [Burst] o Conteggio [Burst]"
+        },
+        {
+          "abilityID": 92724,
+          "simpleDesc": "Fine Turno: Ottieni [Agility] nel turno dopo"
+        },
+        {
+          "abilityID": 92725,
+          "simpleDesc": "Infliggi più danni Taglienti"
+        },
+        {
+          "abilityID": 92726,
+          "simpleDesc": "Subisci meno danni"
+        }
+      ]
+    }
+  ]
+}

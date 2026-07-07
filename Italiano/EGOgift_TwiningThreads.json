@@ -1,0 +1,92 @@
+{
+  "dataList": [
+    {
+      "id": 9260,
+      "name": "Opera: Battito",
+      "desc": "Se un alleato ha consumato 10+ Conteggio [Charge] in un solo turno con le sue Abilità Base, questo alleato infligge +20% di danni con Abilità Base nel turno successivo ('<noparse>Cariche</noparse> Speciali' con Potenza fissa escluse)\n- Se la [Charge] consumata era una '<noparse>Carica</noparse> Speciale', infliggi +1 ulteriore [Laceration] e Conteggio [Laceration] nel turno successivo",
+      "simpleDesc": [
+        {}
+      ]
+    },
+    {
+      "id": 9261,
+      "name": "Opera: Ferocia",
+      "desc": "Infliggi +20% di danni con le Abilità Contundenti contro i nemici che hanno 35+ Potenza [Sinking] oppure che sono a 15 o meno PS (Potenza [Sinking] viene calcolata per Parte)\n- Se tali Abilità Contundenti sono delle Abilità Tristezza o Abilità che infliggono Potenza o Conteggio [Laceration], o '<noparse>Sanguinamento</noparse> Speciale', e colpiscono il bersaglio, ottieni 1 [Enhancement] nel turno successivo (una volta per turno per Identità)",
+      "simpleDesc": [
+        {}
+      ]
+    },
+    {
+      "id": 9262,
+      "name": "Scheletro Universale",
+      "desc": "Le Identità della fazione Anulare: A Fine Attacco, infliggi 1 Stack di Resistenza Diminuita per un Tipo di Attacco casuale sul bersaglio (2 volte per turno)\n\nLe Identità della fazione Anulare infliggono +10% di danni",
+      "simpleDesc": [
+        {}
+      ]
+    },
+    {
+      "id": 9263,
+      "name": "Opera: Battito in Evoluzione",
+      "desc": "Inizio Turno: Si attiva quando ci sono 2 o più Identità della fazione Anulare (contano solo le Identità in campo)\n\nLe Identità della Scuola del Corporismo dell'Anulare infliggono 1 [SlashResistDown] Per Colpo con delle Abilità Base (una volta per Abilità; 2 volte per turno)\n\nLe Identità dell'Anulare infliggono +20% di danni\n\nInizio Turno: A 99+ di somma totale di Potenza [Laceration] su tutti i nemici, Le Identità della Scuola del Corporismo dell'Anulare ottengono 1 [RingFingerPhysical]",
+      "simpleDesc": [
+        {}
+      ]
+    },
+    {
+      "id": 9264,
+      "name": "Opera: Ferocia Imbalsamata",
+      "desc": "Inizio Turno: Si attiva quando ci sono 2 o più Identità della fazione Anulare (contano solo le Identità in campo)\n\nLe Identità della fazione della Scuola del Fauvismo dell'Anulare infliggono 1 [HitResistDown] Per Colpo con le Abilità Base (una volta per Abilità; 2 volte per turno)\n\nLe Identità dell'Anulare infliggono +20% di danni\n\nInizio Turno: A 99+ di somma totale di Potenza [Laceration] su tutti i nemici, Le Identità della fazione della Scuola del Fauvismo dell'Anulare ottengono 1 [RingFingerFauvism]",
+      "simpleDesc": [
+        {}
+      ]
+    },
+    {
+      "id": 9265,
+      "name": "Tirapugni in Stile Medio",
+      "desc": "Se il bersaglio ha 1.5 o meno Resistenza Contundente, Resistenza Contundente +0.3",
+      "simpleDesc": [
+        {}
+      ]
+    },
+    {
+      "id": 9266,
+      "name": "Gabbietta Disoccupata",
+      "desc": "A Fine Attacco di un'Abilità con una Portata d'Attacco di 2+, ottieni +(n° di colpi subiti da un nemico / 2) risorse E.G.O dell'Affinità di quell'Abilità (arrotondato per difetto; max 5 per Abilità)\n\nPer Critico con un'Abilità con una Portata d'Attacco di 2+, ottieni +(n° di Monete che hanno colpito con Critico) risorse E.G.O dell'Affinità meno posseduta a Fine Attacco (max 3)",
+      "simpleDesc": [
+        {}
+      ]
+    },
+    {
+      "id": 9267,
+      "name": "Ottone Ardente",
+      "desc": "Potenza [Combustion] Max +11\n\nTriplica la prima Potenza [Combustion] inflitta nell'Incontro (una volta per Incontro)\n\nQuando un nemico subisce danni da [Combustion], infliggi danni da Ira uguale alla Potenza [Combustion]\n\nAbilità che infliggono Potenza o Conteggio [Combustion], o '<noparse>Bruciatura</noparse> Speciale' infliggono +20% di danni",
+      "simpleDesc": [
+        {}
+      ]
+    },
+    {
+      "id": 19267,
+      "name": "Searing Brass+",
+      "desc": "Potenza [Combustion] Max <style=\"upgradeHighlight\">+21</style>\n\nTriplica la prima Potenza [Combustion] inflitta nell'Incontro (una volta per Incontro)\n\nQuando un nemico subisce danni da [Combustion], infliggi danni da Ira uguale alla Potenza [Combustion]\n\nAbilità che infliggono Potenza o Conteggio [Combustion], o '<noparse>Bruciatura</noparse> Speciale' infliggono <style=\"upgradeHighlight\">+25%</style> di danni",
+      "simpleDesc": [
+        {}
+      ]
+    },
+    {
+      "id": 29267,
+      "name": "Searing Brass++",
+      "desc": "Potenza [Combustion] Max +21\n\nTriplica la prima Potenza [Combustion] inflitta nell'Incontro (una volta per Incontro)\n\nQuando un nemico subisce danni da [Combustion], infliggi danni da Ira uguale a <style=\"upgradeHighlight\">(Potenza [Combustion] x 1.5</style>)\n\nAbilità che infliggono Potenza o Conteggio [Combustion], o '<noparse>Bruciatura</noparse> Speciale' infliggono <style=\"upgradeHighlight\">+30%</style> di danni",
+      "simpleDesc": [
+        {}
+      ]
+    },
+    {
+      "id": 9268,
+      "name": "Istinto Universale",
+      "desc": "Fine Turno: applica casualmente 1 Stack di <noparse>Danno Potenziato</noparse> di un 'Affinità casuale nel turno successivo a (n° di nemici con [Laceration]) Identità della fazione Anulare (una volta per Identità per turno; negli Incontri Mirati, le Parti)\n\nLe Identità della fazione Anulare infliggono +10% di danni",
+      "simpleDesc": [
+        {}
+      ]
+    }
+  ]
+}
