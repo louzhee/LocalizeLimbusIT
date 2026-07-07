@@ -1,0 +1,628 @@
+{
+  "dataList": [
+    {
+      "id": 1,
+      "name": "Lunacy Pagata",
+      "desc": "Un materiale cristallino a forma di rosa. Usata per effettuare estrazioni e acquistare Casse di Encefalina.",
+      "flavor": "Una rosa di cristallo che sembra sempre guardare in una certa direzione. Questo oggetto con qualcosa di umano si dice assorba l' umidità di un certo fiume per sbocciare."
+    },
+    {
+      "id": 2,
+      "name": "Lunacy Gratuita",
+      "desc": "Un materiale cristallino a forma di rosa. Usata per effettuare estrazioni e acquistare Casse di Encefalina.",
+      "flavor": "Una rosa di cristallo che sembra sempre guardare in una certa direzione. Questo oggetto con qualcosa di umano si dice assorba l' umidità di un certo fiume per sbocciare."
+    },
+    {
+      "id": 3,
+      "name": "Lunacy",
+      "desc": "Un materiale cristallino a forma di rosa. Usata per effettuare estrazioni e acquistare Casse di Encefalina.",
+      "flavor": "Per gli umani, accettare la follia è un passo necessario per andare avanti."
+    },
+    {
+      "id": 11,
+      "name": "Modulo di Encefalina",
+      "desc": "Usato per entrare nei dungeon.",
+      "flavor": "Un modulo sferico progettato per contenimento speciale.\n[NOTA] L'impiego di Encefalina liquida permette un utilizzo più stabile rispetto alla sua forma gassosa.\nL'Encefalina può essere convertita in energia inserendo il modulo nella presa designata.\n[ATTENZIONE] Assemblare l'Encefalina in moduli è un processo irreversibile; il modulo può essere usato solamente con l'adattatore specifico.\nL'uso al di fuori dello scopo designato o le modifiche sono strettamente proibite."
+    },
+    {
+      "id": 101,
+      "name": "Biglietto per Estrazione",
+      "desc": "Può essere usato per effettuare 1 estrazione.",
+      "flavor": "Un oggetto consumabile intrecciato con la Lunacy, la fonte dell'energia di estrazione di Mephistopheles.\n Sembra un sottile foglio di carta a prima vista, ma qualcosa sembra pulsare al suo interno."
+    },
+    {
+      "id": 102,
+      "name": "Biglietto per Decaestrazione",
+      "desc": "Può essere usato per effettuare 10 estrazioni.",
+      "flavor": "Un oggetto consumabile intrecciato con la Lunacy, la fonte dell'energia di estrazione di Mephistopheles.\n Sembra un sottile foglio di carta a prima vista, ma qualcosa sembra pulsare al suo interno."
+    },
+    {
+      "id": 103,
+      "name": "Biglietto per Decaestrazione 3★ Garantita",
+      "desc": "Può essere usato per effettuare 10 estrazioni dove è garantita un'Identità 3★.",
+      "flavor": "Un biglietto speciale contrassegnato da un simbolo. Può estrarre con certezza un'Identità da un mondo di possibilità improbabili. La carta pulsa e sussulta violentemente."
+    },
+    {
+      "id": 104,
+      "name": "[Stagione 1] Biglietto per Decaestrazione 3★ Garantita",
+      "desc": "Può essere usato per effettuare 10 estrazioni dove è garantita un'Identità 3★ dalla [Stagione 1].",
+      "flavor": "Un biglietto contrassegnato da un simbolo. Può estrarre con certezza un'Identità da un mondo di possibilità improbabili. La carta pulsa e sussulta violentemente."
+    },
+    {
+      "id": 105,
+      "name": "[Stagione 2] Biglietto per Decaestrazione 3★ Garantita",
+      "desc": "Può essere usato per effettuare 10 estrazioni dove è garantita un'Identità 3★ dalla [Stagione 2].",
+      "flavor": "Un biglietto contrassegnato da un simbolo. Può estrarre con certezza un'Identità da un mondo di possibilità improbabili. La carta pulsa e sussulta violentemente."
+    },
+    {
+      "id": 106,
+      "name": "[Stagione 3] Biglietto per Decaestrazione 3★ Garantita",
+      "desc": "Può essere usato per effettuare 10 estrazioni dove è garantita un'Identità 3★ dalla [Stagione 3].",
+      "flavor": "Un biglietto contrassegnato da un simbolo. Può estrarre con certezza un'Identità da un mondo di possibilità improbabili. La carta pulsa e sussulta violentemente."
+    },
+    {
+      "id": 201,
+      "name": "Filo",
+      "desc": "Usato per Legare le Identità e Intrecciare l' E.G.O",
+      "flavor": "Il Filo è un'oggetto filamentare concepito per annodare tutte le possibilità in un solo punto.\nLa nostra compagnia usa il Filo in vari modi, come Legando le Identità o Intrecciando l' E.G.O, per comprenderne meglio la natura."
+    },
+    {
+      "id": 211,
+      "name": "Biglietto per l'Addestramento Identità I",
+      "desc": "Conferisce 50 ESP Identità.",
+      "flavor": "Un biglietto che contiene possibilità del passato, presente e futuro.\n“Scoprii che il pensiero di qualcosa che non avevo mai sperimentato si era insiedato stabilmente nella mia mente.”"
+    },
+    {
+      "id": 212,
+      "name": "Biglietto per l'Addestramento Identità II",
+      "desc": "Conferisce 200 ESP Identità.",
+      "flavor": "Un biglietto che contiene possibilità del passato, presente e futuro.\n“Hmhm~ Non ho mai visitato il quartiere meridionale, quindi perché mi sembra così familiare…?”"
+    },
+    {
+      "id": 213,
+      "name": "Biglietto per l'Addestramento Identità III",
+      "desc": "Conferisce 1000 ESP Identità.",
+      "flavor": "Un biglietto che contiene possibilità del passato, presente e futuro.\n“…Se in passato avessi potuto avere un oggetto così utile, avrei superato molto più facilmente quelle avversità da incubo.”"
+    },
+    {
+      "id": 214,
+      "name": "Biglietto per l'Addestramento Identità IV",
+      "desc": "Conferisce 3000 ESP Identità.",
+      "flavor": "Un biglietto che brilla delle possibiltà che abbiamo vissuto, viviamo e vivremo.\n\"È una sensazione simile a quella di vedersi impresse a forza memorie mai vissute. Non è affatto piacevole, ma è certamente efficiente"
+    },
+    {
+      "id": 221,
+      "name": "Biglietto di Aumento Livello I",
+      "desc": "Porta un'Identità al liv. 10.",
+      "flavor": "Un biglietto sblocca-limiti che permette a un'Identità di contenere esperienza in eccesso.\n“Oho! Le mie membra sono ora più atte che mai a compier giustizia!”"
+    },
+    {
+      "id": 222,
+      "name": "Biglietto di Aumento Livello II",
+      "desc": "Porta un'Identità al liv. 20.",
+      "flavor": "Un biglietto sblocca-limiti che permette a un'Identità di contenere esperienza in eccesso.\n“È… stranamente rilassante. Sento di poter fare cose che non potevo prima.”"
+    },
+    {
+      "id": 223,
+      "name": "Biglietto di Aumento Livello III",
+      "desc": "Porta un'Identità al liv. 30.",
+      "flavor": "Un biglietto sblocca-limiti che permette a un'Identità di contenere esperienza in eccesso.\n“Questa roba sarebbe stata pericolosissima se fosse stata a disposizione durante la guerra. Immagina addestrare veterani in soli secondi.”"
+    },
+    {
+      "id": 224,
+      "name": "Biglietto di Aumento Livello IV",
+      "desc": "Porta un'Identità al liv. 40.",
+      "flavor": "Un biglietto sblocca-limiti che permette a un'Identità di contenere esperienza in eccesso. \n\"T.F. Darmi anni di esperienza con l' uso di una tecnica che non ho mai usato fin'ora...  non c'è soddisfazione. Rivoltante.\""
+    },
+    {
+      "id": 231,
+      "name": "Biglietto di Lancio Identità",
+      "desc": "Porta un'Identità al liv. 40 e il Grado Legame al liv. 4.",
+      "flavor": "Strappa questo biglietto per attivarlo.\nStrappa lo spazio-tempo, legando e rafforzando un'Identità a velocità incredibile.\nFa un suono irresistibile quando si strappa; fa venir voglia di strapparne altri."
+    },
+    {
+      "id": 301,
+      "name": "Cassa di Encefalina",
+      "desc": "Ricarica 60 Encefalina quando viene usata.",
+      "flavor": "Un contenitore stabile con dentro Encefalina liquida.\n[ATTENZIONE] Spostare questa cassa senza seguire le procedure descritte potrebbe risultare in incidenti come fuoriuscita di Encefalina.\nL'ingestione non regolamentata di Encefalina può causare una vasta gamma di sintomi psicopatologici non confermati."
+    },
+    {
+      "id": 401,
+      "name": "Cassa di Filo",
+      "desc": "Aprila per ricevere 1-3 matasse di Filo.",
+      "flavor": "Una cassa ricolma di possibilità intrecciate.\nNessuno sa quante sia possibile trarne."
+    },
+    {
+      "id": 1101,
+      "name": "[Stagione 1] Cassa di ScheggeEgo",
+      "desc": "Aprila per ricevere 1-3 ScheggeEgo di Peccatori casuali.",
+      "flavor": "Delle ScheggeEgo sono state raccolte casualmente e messe in queste casse. Il loro contenuto è un mistero.\nQuando ne tieni una in un posto tranquillo, puoi sentire piccoli rumori."
+    },
+    {
+      "id": 1201,
+      "name": "[Stagione 1] Cassa di ScheggeEgo A Scelta",
+      "desc": "Aprila per ricevere 1-3 ScheggeEgo di un Peccatore a scelta.",
+      "flavor": "Una cassa con cui ottenere le ScheggeEgo di un Peccatore a tua scelta.\nSecondo Faust, il suo contenuto è determinato dopo che un manager ha preso una decisione."
+    },
+    {
+      "id": 1102,
+      "name": "[Stagione 2] Cassa di ScheggeEgo",
+      "desc": "Aprila per ricevere 1-3 ScheggeEgo di Peccatori casuali.",
+      "flavor": "Delle ScheggeEgo sono state raccolte casualmente e messe in queste casse. Il loro contenuto è un mistero.\nQuando ne tieni una in un posto tranquillo, puoi sentire piccoli rumori."
+    },
+    {
+      "id": 1202,
+      "name": "[Stagione 2] Cassa di ScheggeEgo A Scelta",
+      "desc": "Aprila per ricevere 1-3 ScheggeEgo di un Peccatore a scelta.",
+      "flavor": "Una cassa con cui ottenere le ScheggeEgo di un Peccatore a tua scelta.\nSecondo Faust, il suo contenuto è determinato dopo che un manager ha preso una decisione."
+    },
+    {
+      "id": 1103,
+      "name": "[Stagione 3] Cassa di ScheggeEgo",
+      "desc": "Aprila per ricevere 1-3 ScheggeEgo casuali.",
+      "flavor": "Delle ScheggeEgo sono state raccolte casualmente e messe in queste casse. Il loro contenuto è un mistero.\nQuando ne tieni una in un posto tranquillo, puoi sentire piccoli rumori."
+    },
+    {
+      "id": 1203,
+      "name": "[Stagione 3] Cassa di ScheggeEgo A Scelta",
+      "desc": "Aprila per ricevere 1-3 ScheggeEgo di un Peccatore a scelta.",
+      "flavor": "Una cassa con cui ottenere le ScheggeEgo di un Peccatore a tua scelta.\nSecondo Faust, il suo contenuto è determinato dopo che un manager ha preso una decisione."
+    },
+    {
+      "id": 10101,
+      "name": "[Stagione 1] ScheggiaEgo di Yi Sang",
+      "desc": "Usata per acquistare le Identità ed E.G.O di Yi Sang e Filo dalla Dispensa.",
+      "flavor": "Momenti fugaci di un qualsiasi punto della vita di un Peccatore, condensati in forma fisica. Le schegge fluttuano nell'aria.\nLe possibilità sono entità effimere; vagano nel regno dell'incertezza finché non vengono colte."
+    },
+    {
+      "id": 10201,
+      "name": "[Stagione 1] ScheggiaEgo di Faust",
+      "desc": "Usata per acquistare le Identità ed E.G.O di Faust e Filo dalla Dispensa.",
+      "flavor": "Momenti fugaci di un qualsiasi punto della vita di un Peccatore, condensati in forma fisica. Le schegge fluttuano nell'aria.\nLe possibilità sono entità effimere; vagano nel regno dell'incertezza finché non vengono colte."
+    },
+    {
+      "id": 10301,
+      "name": "[Stagione 1] ScheggiaEgo di Don Quixote",
+      "desc": "Usata per acquistare le Identità ed E.G.O di Don Quixote e Filo dalla Dispensa.",
+      "flavor": "Momenti fugaci di un qualsiasi punto della vita di un Peccatore, condensati in forma fisica. Le schegge fluttuano nell'aria.\nLe possibilità sono entità effimere; vagano nel regno dell'incertezza finché non vengono colte."
+    },
+    {
+      "id": 10401,
+      "name": "[Stagione 1] ScheggiaEgo di Ryōshū",
+      "desc": "Usata per acquistare le Identità ed E.G.O di Ryōshū e Filo dalla Dispensa.",
+      "flavor": "Momenti fugaci di un qualsiasi punto della vita di un Peccatore, condensati in forma fisica. Le schegge fluttuano nell'aria.\nL possibilità sono cosa effimera; vagano nel regno delle possibilità a meno che non vengano prese."
+    },
+    {
+      "id": 10501,
+      "name": "[Stagione 1] ScheggiaEgo di Meursault",
+      "desc": "Usata per acquistare le Identità ed E.G.O di Meursault e Filo dalla Dispensa.",
+      "flavor": "Momenti sfuggenti da qualunque punto della vita del Peccatore, condensati in forma fisica. Le schegge fluttuano in aria.\nLe possibilità sono cosa effimera; vagano nel regno delle possibilità a meno che non vengano prese."
+    },
+    {
+      "id": 10601,
+      "name": "[Stagione 1] ScheggiaEgo di Hong Lu",
+      "desc": "Usata per acquistare le Identità ed E.G.O di Hong Lu e Filo dalla Dispensa.",
+      "flavor": "Momenti sfuggenti da qualunque punto della vita del Peccatore, condensati in forma fisica. Le schegge fluttuano in aria.\nLe possibilità sono cosa effimera; vagano nel regno delle possibilità a meno che non vengano prese."
+    },
+    {
+      "id": 10701,
+      "name": "[Stagione 1] ScheggiaEgo di Heathcliff",
+      "desc": "Usata per acquistare le Identità ed E.G.O di Heathcliff e Filo dalla Dispensa.",
+      "flavor": "Momenti sfuggenti da qualunque punto della vita del Peccatore, condensati in forma fisica. Le schegge fluttuano in aria.\nLe possibilità sono cosa effimera; vagano nel regno delle possibilità a meno che non vengano prese."
+    },
+    {
+      "id": 10801,
+      "name": "[Stagione 1] ScheggiaEgo di Ishmael",
+      "desc": "Usata per acquistare le Identità ed E.G.O di Ishmael e Filo dalla Dispensa.",
+      "flavor": "Momenti fugaci di un qualsiasi punto della vita di un Peccatore, condensati in forma fisica. Le schegge fluttuano nell'aria.\nL possibilità sono cosa effimera; vagano nel regno delle possibilità a meno che non vengano prese."
+    },
+    {
+      "id": 10901,
+      "name": "[Stagione 1] ScheggiaEgo di Rodion",
+      "desc": "Usata per acquistare le Identità ed E.G.O di Rodya e Filo dalla Dispensa.",
+      "flavor": "Momenti fugaci di un qualsiasi punto della vita di un Peccatore, condensati in forma fisica. Le schegge fluttuano nell'aria.\nL possibilità sono cosa effimera; vagano nel regno delle possibilità a meno che non vengano prese."
+    },
+    {
+      "id": 11001,
+      "name": "[Stagione 1] ScheggiaEgo di Sinclair",
+      "desc": "Usata per acquistare le Identità ed E.G.O di Sinclair e Filo dalla Dispensa.",
+      "flavor": "Momenti sfuggenti da qualunque punto della vita del Peccatore, condensati in forma fisica. Le schegge fluttuano in aria.\nLe possibilità sono cosa effimera; vagano nel regno delle possibilità a meno che non vengano prese."
+    },
+    {
+      "id": 11101,
+      "name": "[Stagione 1] ScheggiaEgo di Outis",
+      "desc": "Usata per acquistare le Identità ed E.G.O di Outis e Filo dalla Dispensa.",
+      "flavor": "Momenti fugaci di un qualsiasi punto della vita di un Peccatore, condensati in forma fisica. Le schegge fluttuano nell'aria.\nL possibilità sono cosa effimera; vagano nel regno delle possibilità a meno che non vengano prese."
+    },
+    {
+      "id": 11201,
+      "name": "[Stagione 1] ScheggiaEgo di Gregor",
+      "desc": "Usata per acquistare le Identità ed E.G.O di Gregor e Filo dalla Dispensa.",
+      "flavor": "Momenti sfuggenti da qualunque punto della vita del Peccatore, condensati in forma fisica. Le schegge fluttuano in aria.\nLe possibilità sono cosa effimera; vagano nel regno delle possibilità a meno che non vengano prese."
+    },
+    {
+      "id": 10001,
+      "name": "ScheggeEgo Stagione 1 di [Peccatori Selezionati]",
+      "desc": "재화 등장 확률 상세 표시용(name 만 번역해주세요)",
+      "flavor": ""
+    },
+    {
+      "id": 10102,
+      "name": "[Stagione 2] ScheggiaEgo di Yi Sang",
+      "desc": "Usata per acquistare le Identità ed E.G.O di Yi Sang e Filo dalla Dispensa.",
+      "flavor": "Momenti sfuggenti da qualunque punto della vita del Peccatore, condensati in forma fisica. Le schegge fluttuano in aria.\nLe possibilità sono cosa effimera; vagano nel regno delle possibilità a meno che non vengano prese."
+    },
+    {
+      "id": 10202,
+      "name": "[Stagione 2] ScheggiaEgo di Faust",
+      "desc": "Usata per acquistare le Identità ed E.G.O di Faust e Filo dalla Dispensa.",
+      "flavor": "Momenti fugaci di un qualsiasi punto della vita di un Peccatore, condensati in forma fisica. Le schegge fluttuano nell'aria.\nL possibilità sono cosa effimera; vagano nel regno delle possibilità a meno che non vengano prese."
+    },
+    {
+      "id": 10302,
+      "name": "[Stagione 2] ScheggiaEgo di Don Quixote",
+      "desc": "Usata per acquistare le Identità ed E.G.O di Don Quixote e Filo dalla Dispensa.",
+      "flavor": "Momenti fugaci di un qualsiasi punto della vita di un Peccatore, condensati in forma fisica. Le schegge fluttuano nell'aria.\nL possibilità sono cosa effimera; vagano nel regno delle possibilità a meno che non vengano prese."
+    },
+    {
+      "id": 10402,
+      "name": "[Stagione 2] ScheggiaEgo di Ryōshū",
+      "desc": "Usata per acquistare le Identità ed E.G.O di Ryōshū e Filo dalla Dispensa.",
+      "flavor": "Momenti fugaci di un qualsiasi punto della vita di un Peccatore, condensati in forma fisica. Le schegge fluttuano nell'aria.\nL possibilità sono cosa effimera; vagano nel regno delle possibilità a meno che non vengano prese."
+    },
+    {
+      "id": 10502,
+      "name": "[Stagione 2] ScheggiaEgo di Meursault",
+      "desc": "Usata per acquistare le Identità ed E.G.O di Meursault e Filo dalla Dispensa.",
+      "flavor": "Momenti sfuggenti da qualunque punto della vita del Peccatore, condensati in forma fisica. Le schegge fluttuano in aria.\nLe possibilità sono cosa effimera; vagano nel regno delle possibilità a meno che non vengano prese."
+    },
+    {
+      "id": 10602,
+      "name": "[Stagione 2] ScheggiaEgo di Hong Lu",
+      "desc": "Usata per acquistare le Identità ed E.G.O di Hong Lu e Filo dalla Dispensa.",
+      "flavor": "Momenti sfuggenti da qualunque punto della vita del Peccatore, condensati in forma fisica. Le schegge fluttuano in aria.\nLe possibilità sono cosa effimera; vagano nel regno delle possibilità a meno che non vengano prese."
+    },
+    {
+      "id": 10702,
+      "name": "[Stagione 2] ScheggiaEgo di Heathcliff",
+      "desc": "Usata per acquistare le Identità ed E.G.O di Heathcliff e Filo dalla Dispensa.",
+      "flavor": "Momenti sfuggenti da qualunque punto della vita del Peccatore, condensati in forma fisica. Le schegge fluttuano in aria.\nLe possibilità sono cosa effimera; vagano nel regno delle possibilità a meno che non vengano prese."
+    },
+    {
+      "id": 10802,
+      "name": "[Stagione 2] ScheggiaEgo di Ishmael",
+      "desc": "Usata per acquistare le Identità ed E.G.O di Ishmael e Filo dalla Dispensa.",
+      "flavor": "Momenti fugaci di un qualsiasi punto della vita di un Peccatore, condensati in forma fisica. Le schegge fluttuano nell'aria.\nL possibilità sono cosa effimera; vagano nel regno delle possibilità a meno che non vengano prese."
+    },
+    {
+      "id": 10902,
+      "name": "[Stagione 2] ScheggiaEgo di Rodion",
+      "desc": "Usata per acquistare le Identità ed E.G.O di Rodion e Filo dalla Dispensa.",
+      "flavor": "Momenti fugaci di un qualsiasi punto della vita di un Peccatore, condensati in forma fisica. Le schegge fluttuano nell'aria.\nL possibilità sono cosa effimera; vagano nel regno delle possibilità a meno che non vengano prese."
+    },
+    {
+      "id": 11002,
+      "name": "[Stagione 2] ScheggiaEgo di Sinclair",
+      "desc": "Usata per acquistare le Identità ed E.G.O di Sinclair e Filo dalla Dispensa.",
+      "flavor": "Momenti sfuggenti da qualunque punto della vita del Peccatore, condensati in forma fisica. Le schegge fluttuano in aria.\nLe possibilità sono cosa effimera; vagano nel regno delle possibilità a meno che non vengano prese."
+    },
+    {
+      "id": 11102,
+      "name": "[Stagione 2] ScheggiaEgo di Outis",
+      "desc": "Usata per acquistare le Identità ed E.G.O di Outis e Filo dalla Dispensa.",
+      "flavor": "Momenti fugaci di un qualsiasi punto della vita di un Peccatore, condensati in forma fisica. Le schegge fluttuano nell'aria.\nL possibilità sono cosa effimera; vagano nel regno delle possibilità a meno che non vengano prese."
+    },
+    {
+      "id": 11202,
+      "name": "[Stagione 2] ScheggiaEgo di Gregor",
+      "desc": "Usata per acquistare le Identità ed E.G.O di Gregor e Filo dalla Dispensa.",
+      "flavor": "Momenti sfuggenti da qualunque punto della vita del Peccatore, condensati in forma fisica. Le schegge fluttuano in aria.\nLe possibilità sono cosa effimera; vagano nel regno delle possibilità a meno che non vengano prese."
+    },
+    {
+      "id": 10103,
+      "name": "[Stagione 3] ScheggiaEgo di Yi Sang",
+      "desc": "Usata per acquistare le Identità ed E.G.O di Yi Sang e Filo dalla Dispensa.",
+      "flavor": "Momenti sfuggenti da qualunque punto della vita del Peccatore, condensati in forma fisica. Le schegge fluttuano in aria.\nLe possibilità sono cosa effimera; vagano nel regno delle possibilità a meno che non vengano prese."
+    },
+    {
+      "id": 10203,
+      "name": "[Stagione 3] ScheggiaEgo di Faust",
+      "desc": "Usata per acquistare le Identità ed E.G.O di Faust e Filo dalla Dispensa.",
+      "flavor": "Momenti fugaci di un qualsiasi punto della vita di un Peccatore, condensati in forma fisica. Le schegge fluttuano nell'aria.\nL possibilità sono cosa effimera; vagano nel regno delle possibilità a meno che non vengano prese."
+    },
+    {
+      "id": 10303,
+      "name": "[Stagione 3] ScheggiaEgo di Don Quixote",
+      "desc": "Usata per acquistare le Identità ed E.G.O di Don Quixote e Filo dalla Dispensa.",
+      "flavor": "Momenti fugaci di un qualsiasi punto della vita di un Peccatore, condensati in forma fisica. Le schegge fluttuano nell'aria.\nL possibilità sono cosa effimera; vagano nel regno delle possibilità a meno che non vengano prese."
+    },
+    {
+      "id": 10403,
+      "name": "[Stagione 3] ScheggiaEgo di Ryōshū",
+      "desc": "Usata per acquistare le Identità ed E.G.O di Ryōshū e Filo dalla Dispensa.",
+      "flavor": "Momenti fugaci di un qualsiasi punto della vita di un Peccatore, condensati in forma fisica. Le schegge fluttuano nell'aria.\nL possibilità sono cosa effimera; vagano nel regno delle possibilità a meno che non vengano prese."
+    },
+    {
+      "id": 10503,
+      "name": "[Stagione 3] ScheggiaEgo di Meursault",
+      "desc": "Usata per acquistare le Identità ed E.G.O di Meursault e Filo dalla Dispensa.",
+      "flavor": "Momenti sfuggenti da qualunque punto della vita del Peccatore, condensati in forma fisica. Le schegge fluttuano in aria.\nLe possibilità sono cosa effimera; vagano nel regno delle possibilità a meno che non vengano prese."
+    },
+    {
+      "id": 10603,
+      "name": "[Stagione 3] ScheggiaEgo di Hong Lu's",
+      "desc": "Usata per acquistare le Identità ed E.G.O di Hong Lu e Filo dalla Dispensa.",
+      "flavor": "Momenti sfuggenti da qualunque punto della vita del Peccatore, condensati in forma fisica. Le schegge fluttuano in aria.\nLe possibilità sono cosa effimera; vagano nel regno delle possibilità a meno che non vengano prese."
+    },
+    {
+      "id": 10703,
+      "name": "[Stagione 3] ScheggiaEgo di Heathcliff",
+      "desc": "Usata per acquistare le Identità ed E.G.O di Heathcliff e Filo dalla Dispensa.",
+      "flavor": "Momenti sfuggenti da qualunque punto della vita del Peccatore, condensati in forma fisica. Le schegge fluttuano in aria.\nLe possibilità sono cosa effimera; vagano nel regno delle possibilità a meno che non vengano prese."
+    },
+    {
+      "id": 10803,
+      "name": "[Stagione 3] ScheggiaEgo di Ishmael",
+      "desc": "Usata per acquistare le Identità ed E.G.O di Ishmael e Filo dalla Dispensa.",
+      "flavor": "Momenti fugaci di un qualsiasi punto della vita di un Peccatore, condensati in forma fisica. Le schegge fluttuano nell'aria.\nL possibilità sono cosa effimera; vagano nel regno delle possibilità a meno che non vengano prese."
+    },
+    {
+      "id": 10903,
+      "name": "[Stagione 3] ScheggiaEgo di Rodion",
+      "desc": "Usata per acquistare le Identità ed E.G.O di Rodion e Filo dalla Dispensa.",
+      "flavor": "Momenti sfuggenti da qualunque punto della vita della Peccatrice ,condensati in forma fisica. Le schegge fluttuano in aria.\nLe possibilità sono cosa effimera; vagano nel regno delle possibilità a meno che non vengano prese."
+    },
+    {
+      "id": 11003,
+      "name": "[Stagione 3] ScheggiaEgo di Sinclair",
+      "desc": "Usata per acquistare le Identità ed E.G.O di Sinclair e Filo dalla Dispensa.",
+      "flavor": "Momenti sfuggenti da qualunque punto della vita del Peccatore, condensati in forma fisica. Le schegge fluttuano in aria.\nLe possibilità sono cosa effimera; vagano nel regno delle possibilità a meno che non vengano prese."
+    },
+    {
+      "id": 11103,
+      "name": "[Stagione 3] ScheggiaEgo di Outis",
+      "desc": "Usata per acquistare le Identità ed E.G.O di Outis e Filo dalla Dispensa.",
+      "flavor": "Momenti fugaci di un qualsiasi punto della vita di un Peccatore, condensati in forma fisica. Le schegge fluttuano nell'aria.\nL possibilità sono cosa effimera; vagano nel regno delle possibilità a meno che non vengano prese."
+    },
+    {
+      "id": 11203,
+      "name": "[Stagione 3] ScheggiaEgo di Gregor",
+      "desc": "Usata per acquistare le Identità ed E.G.O di Gregor e Filo dalla Dispensa.",
+      "flavor": "Momenti sfuggenti da qualunque punto della vita del Peccatore, condensati in forma fisica. Le schegge fluttuano in aria.\nLe possibilità sono cosa effimera; vagano nel regno delle possibilità a meno che non vengano prese."
+    },
+    {
+      "id": 10002,
+      "name": "ScheggeEgo Stagione 2 di [Peccatori Selezionati]",
+      "desc": "재화 등장 확률 상세 표시용(name 만 번역해주세요)",
+      "flavor": ""
+    },
+    {
+      "id": 4,
+      "name": "Yisang [Ideale]",
+      "desc": "천장 재화 표시용(name 만 번역해주세요)",
+      "flavor": ""
+    },
+    {
+      "id": 20001,
+      "name": "Rottami Modifica-Bus",
+      "desc": "Spazzatura varia, come placche arrugginite e bulloni staccati direttamemte dalle schiene dei granchi spazzatura.\nSi può usare per modificare il Mephistopheles.",
+      "flavor": ""
+    },
+    {
+      "id": 20002,
+      "name": "Ferro di Cavallo con Rottami Modifica-Bus",
+      "desc": "Un grosso oggetto a forma di ferro di cavallo preso dal re granchio spazzatura.\nPuò sostituirsi a molti pezzi di rottame, ci dicono.",
+      "flavor": ""
+    },
+    {
+      "id": 5,
+      "name": "ScheggeEgo",
+      "desc": "자판기 재화 표시용(name 만 번역해주세요)",
+      "flavor": ""
+    },
+    {
+      "id": 20009,
+      "name": "Sacco di Ninnoli",
+      "desc": "Un sacco pieno di ninnoli e decorazioni presi di fretta dalla Fabbrica di Doni.\nDon Quixote li userà per bene per ravvivare l'interno di Mephistopheles.",
+      "flavor": ""
+    },
+    {
+      "id": 20010,
+      "name": "Grosso Sacco di Ninnoli",
+      "desc": "Un sacco enorme pieno fino all'orlo di ninnoli e decorazioni presi di fretta dalla Fabbrica di Doni.\nDon Quixote li userà per bene per ravvivare l'interno di Mephistopheles.",
+      "flavor": ""
+    },
+    {
+      "id": 20012,
+      "name": "Fodera Insanguinata",
+      "desc": "Usata per acquistare vari premi dal menù delle Ricompense.\n\n<color=#a16a3b>Coloro che brandiscono lame nella vita lasciano fodere insanguinate nella morte.\nLa vera dimora di coloro che seguono il cammino delle lame è il proprio fodero.</color>",
+      "flavor": ""
+    },
+    {
+      "id": 20013,
+      "name": "Fodera Risentita",
+      "desc": "Usata per acquistare vari premi dal menù delle Ricompense.\n\n<color=#a16a3b>Chi brandisce la propria lama con risentimento profondo si dice Demone della Lama.\nI Demoni della Lama non necessitano più di un fodero; eppure lo portano, poichè quel risentimento è sfumato con residuo attaccamento.</color>",
+      "flavor": ""
+    },
+    {
+      "id": 20017,
+      "name": "Orologio da Taschino",
+      "desc": "Ognuno ha il proprio orologio, con classi temporali diverse.\nTempo che passa velocemente. Tempo che resta.\nLe ore non sono mai allineate.",
+      "flavor": ""
+    },
+    {
+      "id": 20018,
+      "name": "Pacchetto di Orologi da Taschino",
+      "desc": "Un singolo destino attende ogni orologio.\nLe ore si allineano quando finalmente le lancette smettono di contare i secondi, quando qualcuno esala l'ultimo respiro.",
+      "flavor": ""
+    },
+    {
+      "id": 20020,
+      "name": "Pacchetto Recup. Civili",
+      "desc": "Usato per acquistare vari premi dal menù delle Ricompense.\n\n<color=#a16a3b>Avviso agli Agenti Pulitori: si prega di raccogliere e conservare i pezzi di un singolo passeggiero in questo pacco. Nonostante trovare tutti i resti possa sembrare difficile, sappiate che c'è una singola vena che connette tutte le parti tra loro. Immaginate di riavvolgere un gomitolo di lana, e raccoglietele pazientemente una ad una.</color>",
+      "flavor": ""
+    },
+    {
+      "id": 20021,
+      "name": "Pacchetto Recup. Fixer",
+      "desc": "Trovato raramente. Convertito in 20 Pacchetti Recup. Civili appena acquisito.\n\n<color=#a16a3b>A volte, potreste lavorare con passeggeri forniti di protesi.\nDovete sapere che anche le protesi da corpo intero non rimuovono il cervello del passeggero.\nOgni pezzo di protesi riconosciuta dal cervello del passeggero sarà connessa con vene,quindi non c'è bisogno di preoccuparsi di ricomporle.\nRicordate: il sangue non è acqua.</color>",
+      "flavor": ""
+    },
+    {
+      "id": 232,
+      "name": "Modulo di Lancio - Legame ID",
+      "desc": "Porta il Grado Legame di un'Identità al Grado 4.",
+      "flavor": "Modulo di Legame Rapido Identità sviluppato dal Team R&S di LCA.\nInserisci forzatamente i fili lucenti e tessi insieme le Schegge, alzando rapidamente il Grado Legame ad un certo livello.\nAnche se coloro fuori dallo specchio ne possono essere ignari, questa devastante iniezione semina distruzione a corto termine nello specchio."
+    },
+    {
+      "id": 233,
+      "name": "Modulo di Lancio - Intreccio E.G.O [WAW] x1",
+      "desc": "Porta il Grado Intreccio di un E.G.O al Grado 4. (Utilizzabile solo su E.G.O di Livello WAW o inferiore)",
+      "flavor": "Modulo di Intreccio E.G.O sviluppato dal Team R&S di LCA.\nIntreccia i fili lucenti con molte Schegge, alzando il Grado Intreccio E.G.O fino ad un certo livello a ritmo accelerato.\nNon è ancora noto quanta altra pressione possa sopportare quel cuore chiamato E.G.O... continuando a tessere questi E.G.O basati su Psicostrumenti Anormali così incautamente per pura convenienza."
+    },
+    {
+      "id": 501,
+      "name": "Biglietto per Scelta Identità S1",
+      "desc": "Usa quest'oggetto per selezionare un'Identità della Stagione 1 (Identità Evento incluse).",
+      "flavor": "Un biglietto capace di osservare ed estrarre un'Identità di un periodo specifico della caccia ai Rami Dorati della squadra LCB.\n'L'Abilità di trovare e tirare a sé un'Identità osservata in un certo periodo dimostra il notevole avanzamento in tecnologia della Limbus Company. - Ricercatori dello Specchio, Dipartimento Osservatorio Mondo Specchio LCA'"
+    },
+    {
+      "id": 601,
+      "name": "Biglietto per E.G.O del Pass Battaglia S1 Nominabile",
+      "desc": "Usa quest' oggetto per selezionare un E.G.O del Pass Battaglia della Stagione 1 da ottenere.",
+      "flavor": "Un biglietto capace di osservare ed estrarre un E.G.O di un periodo specifico della caccia ai Rami Dorati della squadra LCB.\n'Recuperare un E.G.O, osservato in un periodo specifico, dalle profondità, è una ricerca molto più complicata del rendere delle Identità selezionabili. Fuhu. - Ricercatore dello Specchio, Dipartimento Osservatorio Mondi Specchio LCA'"
+    },
+    {
+      "id": 12004,
+      "name": "Scheggia Limitata a Legame e Intreccio (Universale) Stagione 4",
+      "desc": "Può essere usata per Legare Identità e Intrecciare E.G.O per tutti i Peccatori.",
+      "flavor": "Una scheggia universale che può essere usata per Legare o Intrecciare Identità e E.G.O per tutti i Peccatori.\nPerò, queste schegge non possono essere usate per estrarre Identità o E.G.O, non importa quante ne siano ammassate.\n'Queste schegge sono il prodotto delle nostre ricerche sulla natura onnitrasformativa dei Rami Dorati; possono essere usate per colmare qualsiasi abisso o mondo specchio. Eh? Estrazioni? Certamente no. La loro natura adattabile a ogni mondo implica ovviamente che non possono essere state create *per* un mondo specifico, non vi pare? — Capo Ricercatore, Dipartimento Osservatorio Mondi Specchio LCA'"
+    },
+    {
+      "id": 234,
+      "name": "Modulo di Lancio - Intreccio E.G.O [HE] x1",
+      "desc": "Aumenta il Grado Intreccio di un E.G.O al fino Grado 4. (Utilizzabile solo su E.G.O di Livello HE o inferiore)",
+      "flavor": "Il secondo Modulo di Intreccio E.G.O sviluppato dal Team R&S di LCA.\nIntreccia i fili lucenti con molte Schegge, aumentando il Grado Intreccio E.G.O fino al livello [HE] a ritmo accelerato.\nTessiamo tra loro le schegge con i fili per comprimerli in una forma. La luce calda dei fili ricorda la luce che un tempo cadde sulla Città per qualche giorno."
+    },
+    {
+      "id": 20024,
+      "name": "Dati Ammassati",
+      "desc": "Usati per acquistare vari premi dal menù delle Ricompense.\n\n<color=#a16a3b>Varie note disorganizzate e irrilevanti su LCB, Distorsioni, e Peccatula ci sono scritte alla rinfusa. Questi dati sono stati raccolti dalla LCE—documenti disordinati di test, esperimenti, e ricerche sporcano le pagine.\n\n'Non è il compito di un ricercatore organizzare le proprie scoperte. Quella è responsabilità degli assistenti'</color>",
+      "flavor": ""
+    },
+    {
+      "id": 20025,
+      "name": "Dati Classificati",
+      "desc": "Trovati raramente. Convertiti in 20 Dati Ammassati appena acquisiti.\n\n<color=#a16a3b>Dati classificati raccolti da Hohenheim stesso, la letture è permessa solo ai ricercatori assistenti della LCE. Contiene ogni tipo di informazione dettagliata su Limbus Company—dalle informazioni personali di tutti i Peccatori(Compleanni, luoghi di nascita, etc.) alle analisi di Anormalità e Distorsioni contenute nella LCE.\n\n'Il numero di dati da solo è inutile. Quello che importa è quali dati si connettono agli altri, quando sono ricelati, e come sono utilizzati. Solo allora i dati si trasformano in informazioni utili.' - Agente Senza nome di LCA</color>",
+      "flavor": ""
+    },
+    {
+      "id": 502,
+      "name": "Biglietto per Scelta Identità S2",
+      "desc": "Usa quest'oggetto per selezionare un'Identità della Stagione 2 (Identità Evento incluse).",
+      "flavor": "Un biglietto capace di osservare ed estrarre un'Identità di un periodo specifico della caccia ai Rami Dorati della squadra LCB.\n'L'Abilità di trovare e tirare a sé un'Identità osservata in un certo periodo dimostra il notevole avanzamento in tecnologia della Limbus Company. - Ricercatori dello Specchio, Dipartimento Osservatorio Mondo Specchio LCA'"
+    },
+    {
+      "id": 235,
+      "name": "Biglietto di Lancio Identità - ver.2",
+      "desc": "Porta un'Identità al liv. 50, e il Grado Legame al liv. 4.",
+      "flavor": "Strappa questo biglietto per attivarlo.\nStrappa lo spazio-tempo, legando e rafforzando un'Identità a velocità incredibile.\nFa un suono irresistibile quando si strappa; fa venir voglia di strapparne altri."
+    },
+    {
+      "id": 20029,
+      "name": "[Cilindro di Carburante degli Spazzini]",
+      "desc": "Usato per acquistare vari premi dal menù delle Ricompense.\n\n<color=#a16a3b>Questi cilindri di carburante contengono la fonte di energia degli Spazzini, che puliscono la Città durante la Notte nei Vicoli. Nonostante il caos notturno, le persone trovano ogni giorno le strade pulite sulla via per il lavoro. Usando il loro fluido come carburante, dissolvono ogni cosa sgradita alla Città, dalla spazzatura agli edifici non autorizzati, inondando le strade durante la notte. Emergono dai sotteranei della Città ad orari precisi. Però mi chiedo—da quanto in basso vengono esattamente? - Estratto di un'intervista con un Dipendente della LCCB</color>",
+      "flavor": ""
+    },
+    {
+      "id": 20030,
+      "name": "[Tanica di Carburante degli Spazzini]",
+      "desc": "Trovata raramente. Viene convertita in 20 Cilindri di Carburante degli Spazzini appena acquisita.\n\n<color=#a16a3b>Molto riguardo agli Spazzini è ancora un mistero. Da quando compiono questo loro lavoro? Da dove vengono? Si dice che l'unica istituzione con cui collaborino sia la Testa. Il fluido del carburante degli Spazzini è una risorsa multifunzionale—forma i loro corpi, funziona come arma per dissolvere tutto quello che trovano sulla loro strada, e fa da sostentamento. Questa è solo una curiosità personale, ma non posso non chiedermi come si propaghino. Forse sono colpevoli delle sparizioni dei bambini durante la Notte nei Vicoli… o dei rapimenti nella Periferia. - Estratto di un'intervista con Dipendente della LCCA</color>",
+      "flavor": ""
+    },
+    {
+      "id": 30006,
+      "name": "Luce Stellare dell'Immortalità",
+      "desc": "Usata nei Dungeon Specchio.\n\n<color=#a16a3b>La Luce Stellare che può essere ottenuta solo finché lo Specchio dell'Immortalità rimane aperto. Per quanto le persone desiderino tessere nuovi racconti dalla Luce Stellare, non possono che raccogliere i miseri resti di quella caduta sulla terra—poiché le stelle nel cielo non esistono più.</color>",
+      "flavor": ""
+    },
+    {
+      "id": 30007,
+      "name": "Luce Stellare dei Nomi e dei Ragni",
+      "desc": "Usata nei Dungeon Specchio.\n\n<color=#a16a3b>La Luce Stellare può essere raccolta solo in un fugace arco temporale. Lo sguardo si alza alle stelle nel cielo. Le stelle hanno visto, e poi sono cadute, aspettando di essere raccolte. Raccolte ed incatenate contro la loro volontà, sono costrette a brillare, dando vita a nuove storie.</color>",
+      "flavor": ""
+    },
+    {
+      "id": 20034,
+      "name": "Introduzioni a Zhi, Yong, Ren",
+      "desc": "Usata per acquistare vari premi dal menù delle Ricompense.\n\n<color=#a16a3b>I Saggi non si sorprendono, I Coraggiosi non si spaventano, e i Buoni non si preoccupano. Qualunque sia la disciplina, erigere i pilastri della conoscenza sulle fondamenta di Zhi, Yong e Ren significa innalzare una torre svettante. Il che solleva una questione intrigante: non si potrebbe forse riassumere l'intera istruzione in Zhi, Yong e Ren? - Stella Tianji(天機星)</color>",
+      "flavor": ""
+    },
+    {
+      "id": 20035,
+      "name": "Decisamente Non Una Pergamena Segreta",
+      "desc": "Trovata raramente. Convertita in 20 Introduzioni a Zhi, Yong, Ren appena acquisita\n\n<color=#a16a3b>Una pergamena piena di conoscenze esoteriche. Permette a chi legge di assorbire i suoi contenuti, saperi o tecniche, ignorando le basi che dovrebbero precedere l'apprendimento. Nessuno ancora sa se sia la pergamena ad essere una Singolarità, o se le lettere siano la Singolarità, o se l'inchiostro sia la Singolarità. Difficile importi a chi brama questa pergamena segreta. Eppure, ricorda bene che il cibo ingerito in fretta rischia di causare malessere e vomito. Sii sempre profondamente consapevole delle tue capacità. - Un Certo Maestro</color>",
+      "flavor": ""
+    },
+    {
+      "id": 20036,
+      "name": "Sea Terror Sample",
+      "desc": "Used to purchase various rewards from the Reward Exchange menu.\n\n<color=#a16a3b>Chunks of Sea Terror flesh, collected for research purposes. The calm noise of waves crest faintly through the insidious blue light.</color>",
+      "flavor": ""
+    },
+    {
+      "id": 20037,
+      "name": "Luminous Sea Terror Sample",
+      "desc": "Spawns rarely. Converted to 20 Sea Terror Sample immediately upon acquisition.\n\n<color=#a16a3b>A Sea Terror specimen, collected for research purposes. There was no hesitation in the hand that clove through the life its owner had once beheld with awe. One must delve into the undying light to evolve. It is an inevitable step.</color>",
+      "flavor": ""
+    },
+    {
+      "id": 9900,
+      "name": "Matassa di Filo",
+      "desc": "Usata per tessere le Façades delle Identità da proiettare.\n\n<color=#a16a3b>Sinfonie di luce tessute in fili, poi intrecciate in una matassa.\nI fili di luce sono componenti di una connessione universale: se un filo nella trama dovesse vibrare, lo farebbe anche uno lontano, rendendo così tutto ciò che esso connette interlegato da legami di vibrazioni.\nIn quanto tale, non è affatto assurdo considerare un abito fatto di fili una <i>façade</i> in ogni suo significato.</color>",
+      "flavor": ""
+    },
+    {
+      "id": 20043,
+      "name": "Filo Reciso",
+      "desc": "Usato per acquistare vari premi dal menù delle Ricompense.\n\n<color=#a16a3b>Qualcosa ha reciso questo filo, spezzandolo in filamenti.\nIn verità, non esiste un'esistenza in completa omogeneità con un'altra, poiché tagliare un singolo filo rivela che si tratta in realtà di un intreccio di molteplici fibre. Quando un filo viene reciso, non restano due fili separati, ma una moltitudine di capi sfilacciati: da questo possiamo imparare che il tempo, in effetti, non rimargina tutte le ferite. Il passare del tempo non fa altro che sbrogliare ulteriormente i fili sfilacciati, lasciando ferite aperte che non guariscono mai.</color>",
+      "flavor": ""
+    },
+    {
+      "id": 20044,
+      "name": "Matassa Bruciata e Recisa",
+      "desc": "Trovata raramente. Convertita in 20 Filo Reciso appena acquisita.\n\n<color=#a16a3b>Per recidere veramente un filo, esso deve essere bruciato, non tagliato. L'affilatezza è un mezzo insufficiente per ottenere l'annientamento totale che brucia e fonde persino i resti persistenti di un legame passato, fino alle estremità sfilacciate dei fili separati. Solo con una volontà ferma e un cuore risoluto si può recidere un simile legame.\n\nSe si potessero raccogliere questi fili recisi e bruciati e intrecciarli di nuovo, quel che ne nascerebbe sarebbe ancora capace di unire i cuori? Lo spero vivamente, anche se al momento non abbiamo modo di saperlo.</color>",
+      "flavor": ""
+    },
+    {
+      "id": 238,
+      "name": "Modulo di Lancio - Intreccio E.G.O [ZAYIN]",
+      "desc": "Aumenta il Grado Intreccio di un E.G.O al fino Grado 4 (Utilizzabile solo su E.G.O di Livello ZAYIN).\n\n<color=#a16a3b>Accelera notevolmente l'Intreccio di un E.G.O di livello [ZAYIN] intrecciandolo con un gran numero di schegge in un breve lasso di tempo. \"Se un filo nella trama dovesse tremare, ne tremerebbe anche uno lontano...\" queste furono le parole pronunciate dalla gente qui. Se tutti questi filamenti sono componenti di una connessione universale come sostengono, allora l'atto di decifrare un dato oggetto deve anche equivalere a dipanare il filo. Mi ritrovo a pensare, cosa accadrebbe se <i>tutti</i> i fili avvolti attorno a me venissero dipanati?</color>",
+      "flavor": ""
+    },
+    {
+      "id": 20045,
+      "name": "Lenti Bruciacchiate",
+      "desc": "Usate nella schermata Scambia Ricompense di \"Riflessione][enoisselfiR\" per ottenere ricompense standard e sempre disponibili.\n\n<size=75%><color=#a16a3b>Viene proiettato attraverso un vetro deformato. Coloro che si riflettono in questa lente vengono presto impressi in una pellicola e, poco dopo, ne vengono distaccati; ormai slegati, diventano ombre che sbarrano il cammino. Purtroppo, ogni lente ha un ciclo vitale finito. una volta che la luce sferzante l'ha attraversata interamente, la lente finisce per cuocersi del tutto—per preservare le ombre proiettate, essa viene sostituita da una nuova lente. Quelle lenti ormai bruciate restano così come resterebbero i cimeli di un defunto.\n\n\"Hanno la minima idea di quanto siano esorbitantemente costose queste lenti, per usarle così incoscientemente? Potenziamento delle capacità di combattimento, analisi dei processi... sì, so che le ragioni sono valide, ma non riesco proprio a capacitarmi del fatto che ne consumino così tante. Questa compagnia deve veramente navigare nell'oro.\"</color></size>\n",
+      "flavor": ""
+    },
+    {
+      "id": 20046,
+      "name": "Foto",
+      "desc": "Usata per acquistare vari premi dal menù delle Ricompense.\n\n<color=#a16a3b>*snap* Il rumore di un martello che conficca un chiodo. Ma cosa è di fatto \"conficcato?\" La fotocamera intrappola la luce in un dato istante, poi la inchioda su carta ruvida per poi esibirla. La fotografia fu scattata per registrare o ricordare? Forse il nome di una fotografia cambia in funzione del suo scopo finale. Dopo tutto, i raggi di luce inchiodati da un martello, solo per essere registrati e mai ricordati, sono cose pietose. All'interno delle fotografie stampate, luci morte urlano disperate, bruciate e scurite. Le luci morte, perite urlando dove sono state inchiodate, registrano il sorriso di qualcuno nella fotografia.</color>",
+      "flavor": ""
+    },
+    {
+      "id": 20047,
+      "name": "Pacchetto di Foto",
+      "desc": "Trovato raramente. Si converte in 20 Foto non appena viene ottenuto.\n\n<color=#a16a3b>'Abbiamo rinvenuto un bel po' di foto qui. Oh, lo sapevate? Queste foto sono composte da un materiale prodotto dalla Distorsione, ma rimangono esistenti. Alcuni dei sottoprodotti delle Distorsioni svaniscono quando il caso è risolto, ma altre no, anche quando tutto è finito. Mi chiedo se ha qualcosa a vedere con la natura della Distorsione. Beh, noi sappiamoche questa Distorsione desidera registrare qualcosa e ricordarla... da qui le foto. Forse è per questo che queste fotografie sono state lasciate come se fossero una sorta di \"registrazione.\" Ciò richiede una ricerca approfondita su cosa determini esattamente la differenza di proprietà tra una Distorsione e l'altra. Beh, lavorare nella LCD probabilmente mi darà più informazioni a tempo debito... anche se prefererirei non cooperare con la LCE.'</color>",
+      "flavor": ""
+    },
+    {
+      "id": 20048,
+      "name": "Pellicola Srotolata",
+      "desc": "Usata per acquistare le Ricompense Limitate dallo Scambio Ricompense di \"Riflessione][enoisselfiR\".\n\n<size=70%><color=#a16a3b>Sulla pellicola, la luce è incorporata e impressa. Un successivo lampo di luce penetrerà l'informazione contenuta nella luce precedente ed è impressa in una silhouette simile a cosa rimane quando un corpo umano è esposto ad una esplosione devastante di luce e calore. La luce catturata, ancora similmente ad una tassidermia, contiene i ricordi di qualcuno, qualcosa. Quando una nuova luce trapassa al contempo la lente e la pellicola, il banale fascio è mutato in una immagine di luce; attraverso lo stesso, l'informazione conservata nel lampo iniziale rimane intatta. L'immagine composta dalla luce vivente non viene da se ma una immagine di un cadavere, tracce di luce morta; che ironico, che la luce che vive possa formare una immagine solo quando passa attraverso luce che è morta? Questo è il motivo per cui l'arte della proiezione è alquanto amara. Un'arte che forza il vivente a passare attraverso il morto, uccidendolo, solo per proiettare un mero simulacro della vita.\n\n\"Da dove diamine state prendendo queste pellicole? C'è, tipo, un appropriato documentarista o una macchina che registra le battaglie della LCB? Ma non può essere... O questo è anche...?\"</color></size>",
+      "flavor": ""
+    }
+  ]
+}

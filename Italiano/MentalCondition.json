@@ -1,0 +1,129 @@
+{
+  "dataList": [
+    {
+      "id": "OnWinDuelAsParryingCountMultiplyAndPlusPercent",
+      "add": "Aumenta dopo aver vinto uno Scontro in base al Numero di Scontri\n<size=95%>(Valore di Base {0}, aumenta di {1}% per ogni Scontro sopra 1)</size>",
+      "min": "Diminuisce dopo aver vinto uno Scontro in base al Numero di Scontri\n<size=95%>(Valore di Base {0}, aumenta di {1}% per ogni Scontro sopra 1)</size>"
+    },
+    {
+      "id": "OnWinDuelAsParryingCountMultiplyAndPlusPercentWithMax",
+      "add": "Aumenta dopo aver vinto uno Scontro in base al Numero di Scontri\n<size=95%>(Valore di Base {0}, aumenta di {1}% per ogni Scontro sopra 1; max {2}%)</size>",
+      "min": "Diminuisce dopo aver vinto uno Scontro in base al Numero di Scontri\n<size=95%>(Valore di Base {0}, aumenta di {1}% per ogni Scontro sopra 1; max {2}%)</size>"
+    },
+    {
+      "id": "OnKillEnemyAsLevelRatioMultiply",
+      "add": "Aumenta di {0} quando questa unità sconfigge un nemico di livello maggiore o uguale al proprio",
+      "min": "Diminuisce di {0} quando questa unità sconfigge un nemico di livello maggiore o uguale al proprio"
+    },
+    {
+      "id": "OnKillEnemyByOtherAllyAsLevelRatioMultiply",
+      "add": "Aumenta di {0} quando un alleato sconfigge un nemico di livello maggiore o uguale all'unità",
+      "min": "Diminuisce di {0} quando un alleato sconfigge un nemico di livello maggiore o uguale all'unità"
+    },
+    {
+      "id": "OnLoseDuelAsParryingCountMultiplyAndPlusPercent",
+      "add": "Aumenta dopo aver perso uno Scontro in base al Numero di Scontri\n<size=95%>(Valore di Base {0}, aumenta di {1}% per ogni Scontro sopra 1)</size>",
+      "min": "Diminuisce dopo aver perso uno Scontro in base al Numero di Scontri\n<size=95%>(Valore di Base {0}, aumenta di {1}% per ogni Scontro sopra 1)</size>"
+    },
+    {
+      "id": "OnDieAllyAsLevelRatio",
+      "add": "Se il livello dell'alleato sconfitto era maggiore o uguale all'unità,\naumenta in base alla differenza\n<size=95%>(Valore di Base {0}, aumenta di {0} ogni livello)</size>",
+      "min": "Se il livello dell'alleato sconfitto era maggiore o uguale all'unità,\ndiminuisce in base alla differenza\n<size=95%>(Valore di Base {0}, aumenta di {0} ogni livello)</size>"
+    },
+    {
+      "id": "OnRoundStartAfterEvent",
+      "add": "Aumenta di {0} all'inizio del turno",
+      "min": "Diminuisce di {0} all'inizio del turno"
+    },
+    {
+      "id": "OnKillEnemyMp",
+      "add": "Aumenta di {0} quando questa unità sconfigge un nemico indipendentemente dal livello",
+      "min": "Diminuisce di {0} quando questa unità sconfigge un nemico indipendentemente dal livello"
+    },
+    {
+      "id": "OnDieAllyMp",
+      "add": "Se un alleato viene sconfitto, aumenta di {0} indipendentemente dal livello",
+      "min": "Se un alleato viene sconfitto, diminuisce {0} indipendentemente dal livello"
+    },
+    {
+      "id": "OnKillEnemyByOtherAllyExceptSupportiveAction",
+      "add": "Aumenta di {0} quando un alleato sconfigge un nemico di livello maggiore o uguale all'unità",
+      "min": "Diminuisce di {0} quando un alleato sconfigge un nemico di livello maggiore o uguale all'unità. Non aumenta quando il nemico è stato sconfitto da un'Attacco di Supporto."
+    },
+    {
+      "id": "OnDieBladeLineageAlly",
+      "add": "Se un alleato dei Discendenti della Spada viene sconfitto, ottiene {0} indipendentemente dal livello",
+      "min": "Se un alleato dei Discendenti della Spada viene sconfitto, perde {0} indipendentemente dal livello"
+    },
+    {
+      "id": "OnWinDuelLessMpTarget",
+      "add": "Aumenta di {0} dopo aver vinto uno Scontro contro un nemico con PS inferiori a questa unità",
+      "min": "Diminuisce di {0} dopo aver vinto uno Scontro contro un nemico con PS inferiori a questa unità"
+    },
+    {
+      "id": "OnLoseDuelLessMpTarget",
+      "add": "Aumenta di {0} dopo aver perso uno Scontro contro un nemico con PS inferiori a questa unità",
+      "min": "Diminuisce di {0} dopo aver perso uno Scontro contro un nemico con PS inferiori a questa unità"
+    },
+    {
+      "id": "OnKillEnemyByOtherAlly",
+      "add": "Aumenta di {0} quando un alleato sconfigge un nemico indipendentemente dal livello",
+      "min": "Diminuisce di {0} quando un alleato sconfigge un nemico indipendentemente dal livello"
+    },
+    {
+      "id": "OnWinDuelAnyTarget",
+      "add": "Aumenta di {0} a Scontro Vinto",
+      "min": "Diminuisce di {0} a Scontro Perso"
+    },
+    {
+      "id": "OnLoseDuelAnyTarget",
+      "add": "Aumenta di {0} a Scontro Perso",
+      "min": "Diminuisce di {0} a Scontro Perso"
+    },
+    {
+      "id": "OnWinDuelAsParryingCountMultiplyAndPlusPercentWithEmphasis",
+      "add": "Aumenta dopo aver vinto uno Scontro in base al Numero di Scontri\n<size=95%>(Valore di Base {0}, aumenta di <color=red>{1}%</color> per ogni Scontro sopra 1)</size>",
+      "min": "Diminuisce dopo aver vinto uno Scontro in base al Numero di Scontri\n<size=95%>(Valore di Base {0}, aumenta di <color=red>{1}%</color> per ogni Scontro sopra 1)</size>"
+    },
+    {
+      "id": "OnLoseDuelAsParryingCountMultiplyAndPlusPercentWithEmphasis",
+      "add": "Aumenta dopo aver perso uno Scontro in base al Numero di Scontri\n<size=95%>(Valore di Base {0}, aumenta di <color=red>{1}%</color> per ogni Scontro sopra 1)</size>",
+      "min": "Diminuisce dopo aver perso uno Scontro in base al Numero di Scontri\n<size=95%>(Valore di Base {0}, aumenta di <color=red>{1}%</color> per ogni Scontro sopra 1)</size>"
+    },
+    {
+      "id": "OnTakeAttackDamagePerWithMax",
+      "add": "<color=red>Aumenta quando subisce un colpo da un nemico\n<size=95%>(Valore di Base {0}, massimo {1} ogni Turno)</size></color>",
+      "min": "<color=red>Diminuisce quando subisce un colpo da un nemico\n<size=95%>(Valore di Base {0}, massimo {1} ogni Turno)</size></color>"
+    },
+    {
+      "id": "OnWinDuelAsParryingCountMultiplyAndPlusPercentIfMpNotLessThan",
+      "add": "A {2} o più PS, aumenta dopo aver vinto uno Scontro in base al Numero di Scontri\n<size=95%>(Valore di Base {0}, aumenta di {1}% per ogni Scontro sopra 1)</size>",
+      "min": "A {2} o più PS, diminuisce dopo aver vinto uno Scontro in base al Numero di Scontri\n<size=95%>(Valore di Base {0}, aumenta di {1}% per ogni Scontro sopra 1)</size>"
+    },
+    {
+      "id": "OnWinDuelAsParryingCountMultiplyAndPlusPercentIfMpNotLessThanWithEmphasis",
+      "add": "<color=red>A {2} o più PS,</color> aumenta dopo aver vinto uno Scontro in base al Numero di Scontri\n<size=95%>(Valore di Base {0}, aumenta di <color=red>{1}%</color> per ogni Scontro sopra 1)</size>",
+      "min": "<color=red>A {2} o più PS,</color> diminuisce dopo aver vinto uno Scontro in base al Numero di Scontri\n<size=95%>(Valore di Base {0}, aumenta di <color=red>{1}%</color> per ogni Scontro sopra 1)</size>"
+    },
+    {
+      "id": "OnOneSideAttackEnd",
+      "add": "Increase by {0} after Unopposed Attack",
+      "min": "Decrease by {0} after Unopposed Attack"
+    },
+    {
+      "id": "OnSucceedAttackAsTargetHasIndexPrescriptTargetToPersonality",
+      "add": "Turn End: Gain {0} SP if The Prescript's Target was hit by an attack",
+      "min": "Turn End: Lose {0} SP if The Prescript's Target was hit by an attack"
+    },
+    {
+      "id": "OnUseSkillMp",
+      "add": "Increases by {0} on Skill Use",
+      "min": "Decreases by {0} on Skill Use"
+    },
+    {
+      "id": "OnEndAttackMp",
+      "add": "Increases by {0} at Attack End",
+      "min": "Decreases by {0} at Attack End"
+    }
+  ]
+}

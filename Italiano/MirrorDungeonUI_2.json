@@ -1,0 +1,940 @@
+{
+  "dataList": [
+    {
+      "id": "mirrordungeon_product_list",
+      "content": "Catalogo"
+    },
+    {
+      "id": "ego_gift_list",
+      "content": "Doni E.G.O Posseduti"
+    },
+    {
+      "id": "normal_difficulty",
+      "content": "Normale"
+    },
+    {
+      "id": "hard_difficulty",
+      "content": "Difficile"
+    },
+    {
+      "id": "start_buffs",
+      "content": "Effetti Attivi"
+    },
+    {
+      "id": "enter_normal_difficulty",
+      "content": "Entra nel Dungeon Normale"
+    },
+    {
+      "id": "enter_hard_difficulty",
+      "content": "Entra nel Dungeon Difficile"
+    },
+    {
+      "id": "list_of_applied_effects",
+      "content": "Lista Effetti Attivi"
+    },
+    {
+      "id": "activation_complete",
+      "content": "Attivato"
+    },
+    {
+      "id": "lack_of_points",
+      "content": "Luce Stellare Insufficente."
+    },
+    {
+      "id": "require_to_activate_former_buffs",
+      "content": "Engrave Stars on the previous\nstage's Starter Buffs first."
+    },
+    {
+      "id": "weekly_bonus_reward",
+      "content": "Bonus Settimanali"
+    },
+    {
+      "id": "hard_dungeon_reward",
+      "content": "Ricompense Difficile"
+    },
+    {
+      "id": "dungeon_shop_return_title",
+      "content": "Non comprare."
+    },
+    {
+      "id": "dungeon_shop_return_desc",
+      "content": "Passa al Negozio"
+    },
+    {
+      "id": "dungeon_shop_heal_title_one",
+      "content": "Scegli il tonico costoso."
+    },
+    {
+      "id": "dungeon_shop_heal_desc_one_hp_perc_mp_int",
+      "content": "Il Peccatore selezionato si cura del {0}% PV e {1} PS"
+    },
+    {
+      "id": "dungeon_shop_heal_title_all",
+      "content": "Scegli le bevande energetiche."
+    },
+    {
+      "id": "dungeon_shop_heal_desc_all_hp_perc_mp_int",
+      "content": "Tutti i Peccatori si curando del {0}% PV e {1} PS"
+    },
+    {
+      "id": "dungeon_shop_purchase_title",
+      "content": "Compra"
+    },
+    {
+      "id": "dungeon_shop_change_formation_title",
+      "content": "Pick up a mirror shard amid the crumbs."
+    },
+    {
+      "id": "dungeon_shop_change_formation_desc",
+      "content": "Aggiungi una nuova Identità o E.G.O alla Squadra attuale"
+    },
+    {
+      "id": "dungeon_shop_heal_character",
+      "content": "Cura un Peccatore"
+    },
+    {
+      "id": "dungeon_shop_change_formation",
+      "content": "Squadra"
+    },
+    {
+      "id": "dungeon_shop_upgrade_personality",
+      "content": "Cambia l'Abilità di {0}"
+    },
+    {
+      "id": "dungeon_shop_upgrade_personality_0_title",
+      "content": "Paga un prezzo ragionevole."
+    },
+    {
+      "id": "dungeon_shop_upgrade_personality_1_title",
+      "content": "Paga una grande somma."
+    },
+    {
+      "id": "dungeon_shop_upgrade_personality_2_title",
+      "content": "Paga un prezzo tremendo."
+    },
+    {
+      "id": "dungeon_shop_upgrade_personality_desc",
+      "content": "Cambia una delle [skills {2} - {0}] dell'Identità in [skill {3} - {1}]"
+    },
+    {
+      "id": "dungeon_shop_out",
+      "content": "Esci"
+    },
+    {
+      "id": "mirrordungeon_2_hard_open_at",
+      "content": "Clear Mirror of Mirrors on Normal to unlock"
+    },
+    {
+      "id": "mirrordungeon_with_number",
+      "content": "Mirror Dungeon {0}"
+    },
+    {
+      "id": "mirrordungeon_select_buffs_title",
+      "content": "Seleziona Effetti Evento"
+    },
+    {
+      "id": "acquire_additional_rewards",
+      "content": "Ottieni ricompense aggiuntive"
+    },
+    {
+      "id": "mirrordungeon_acquire_rewards_using_chance_desc",
+      "content": "Spendere il/i 「Bonus Settimanale/i」 per ottenere ricompense bonus?"
+    },
+    {
+      "id": "mirrordungeon_acquire_rewards_not_using_chance_desc",
+      "content": "Hai ancora del Bonus Settimanale da usare. Vuoi davvero ottenere le ricompense senza usare il Bonus?"
+    },
+    {
+      "id": "mirrordungeon_acquire_rewards_no_chance_desc",
+      "content": "Ottenere le ricompense?"
+    },
+    {
+      "id": "mirror_dungeon_start_buffs_chip_name",
+      "content": "Luce Stellare"
+    },
+    {
+      "id": "mirror_dungeon_exit_without_acquire_rewards",
+      "content": "Terminare la spedizione senza ottenere le ricompense?"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_1",
+      "content": "Half a Step More"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_2",
+      "content": "Fighting Spirit"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_3",
+      "content": "Spotting Vulnerabilities"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_4",
+      "content": "Spirit to Push Ahead"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_5",
+      "content": "Focusing Vulnerabilities"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_6",
+      "content": "Physical Training"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_7",
+      "content": "Glimpse of Earnestness"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_8",
+      "content": "Intense Training"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_9",
+      "content": "Autogenic"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_10",
+      "content": "Meshed Possibilities"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_11",
+      "content": "Just One Pocket"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_12",
+      "content": "One Step Further"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_13",
+      "content": "Fortuitous Find"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_14",
+      "content": "Distinct Pocket"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_15",
+      "content": "Solid Defense"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_16",
+      "content": "Quick Legs"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_17",
+      "content": "Fleet-footed"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_18",
+      "content": "Grazing Attack"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_19",
+      "content": "Stalwart Spirit"
+    },
+    {
+      "id": "mirrordungeon_unable_to_purchase_buffs_when_running_dungeon",
+      "content": "You may not purchase starter buffs while an expedition is in progress."
+    },
+    {
+      "id": "mirrordungeon_resting_open",
+      "content": "Riposati pure qui!\n\nSe desideri un incontro casuale, ti preghiamo di posizione l'oggetto sulla scrivania.\n\n- Proprietario del minimarket in cerca di un distributore automatico"
+    },
+    {
+      "id": "mirrordungeon_shop_open",
+      "content": "Il ronzio del distributore automatico riempie l'aria.\n\nSa cosa vogliamo.\n\nEd anche noi sappiamo cosa vuole."
+    },
+    {
+      "id": "mirrordungeon_resting_heal_title",
+      "content": "Riposati."
+    },
+    {
+      "id": "mirrordungeon_resting_heal_desc",
+      "content": "I Peccatori ripristinano i loro PV"
+    },
+    {
+      "id": "mirrordungeon_resting_heal_desc_1",
+      "content": "Il Peccatore selezionato si cura del {0}% dei suoi PV"
+    },
+    {
+      "id": "mirrordungeon_resting_heal_desc_2",
+      "content": "Tutti i Peccatori si curano del {0}% dei loro PV"
+    },
+    {
+      "id": "mirrordungeon_resting_change_formation_title",
+      "content": "Poggia l'oggetto sul tavolo."
+    },
+    {
+      "id": "mirrordungeon_resting_change_formation_desc",
+      "content": "Aggiungi un nuova Idenità o E.G.O alla squadra attuale"
+    },
+    {
+      "id": "hard_difficulty_en",
+      "content": "Difficile"
+    },
+    {
+      "id": "mirrordungeon_2_normal_open_at",
+      "content": "Completa 4-54 e lo Specchio dell'Inizio per sbloccare"
+    },
+    {
+      "id": "mirrordungeon_2_shop_stageinfo_title",
+      "content": "Ronzio Ricco e Rimbombante"
+    },
+    {
+      "id": "mirrordungeon_2_shop_stageinfo_desc",
+      "content": "The eerily empty space is occupied by the hum coming from the dispenser.\n\nThe voice speaks: 'Yield that crumb you have, and it'll be exchanged for something useful.'\n\nYou're drawn by the mysterious object."
+    },
+    {
+      "id": "mirrordungeon_2_resting_stageinfo_title",
+      "content": "Quiete Densa"
+    },
+    {
+      "id": "mirrordungeon_2_resting_stageinfo_desc",
+      "content": "You may bury your pain in the quiet,\nor bring out someone to share the pain with."
+    },
+    {
+      "id": "dungeon_resting_change_formation_title",
+      "content": "Pick up a mirror shard amid the crumbs."
+    },
+    {
+      "id": "dungeon_resting_change_formation_desc",
+      "content": "Aggiungi un nuova Idenità o E.G.O alla squadra attuale"
+    },
+    {
+      "id": "dungeon_resting_heal_title_one",
+      "content": "Place the most tired Sinner in the chair."
+    },
+    {
+      "id": "dungeon_resting_heal_title_all",
+      "content": "All Sinners take a seat to rest."
+    },
+    {
+      "id": "ego_gift_info",
+      "content": "Informazioni Dono E.G.O"
+    },
+    {
+      "id": "mirrordungeon_shop_gift_entrance",
+      "content": "The bizarre and curious things draw your attention."
+    },
+    {
+      "id": "mirrordungeon_shop_gift_purchase",
+      "content": "You hear something drop with a clang."
+    },
+    {
+      "id": "mirrordungeon_reenter",
+      "content": "Anything else to buy?"
+    },
+    {
+      "id": "mirrordungeon_shop_heal_one_who",
+      "content": "Unfortunately, there's only one of this precious restorative drink.\nWho should drink it?"
+    },
+    {
+      "id": "mirrordungeon_shop_heal_one_answer",
+      "content": "It looks like the item was well worth the price.\nAfter drinking the tonic, the Sinner is almost glowing with vigor."
+    },
+    {
+      "id": "mirrordungeon_shop_heal_all_answer",
+      "content": "You bought energy drinks for every Sinner.\nTasting the sweet and sour liquid, fatigue seems to be leaving the Sinners' faces."
+    },
+    {
+      "id": "mirrordungeon_resting_heal_one_answer",
+      "content": "I had the Sinner take a light nap.\nThankfully, the Sinner seems to have recovered their strength when I looked at them by the end of the break."
+    },
+    {
+      "id": "mirrordungeon_resting_heal_all_answer",
+      "content": "It was a bit cramped for everyone to sit,\nBut the rest was blissful to have nonetheless."
+    },
+    {
+      "id": "mirrordungeon_shop_heal_one_after",
+      "content": "It was a bit cramped for everyone to sit,\nBut the rest was blissful to have nonetheless."
+    },
+    {
+      "id": "mirrordungeon_shop_heal_one_who_right",
+      "content": "Choose the Sinner that looks tired."
+    },
+    {
+      "id": "mirrordungeon_shop_upgrade_start_left",
+      "content": "Could infinite possibilities really reside within this dispenser?"
+    },
+    {
+      "id": "dungeon_encounter_guide_mirror_shop",
+      "content": "Negozio"
+    },
+    {
+      "id": "dungeon_encounter_guide_mirror_select_event",
+      "content": "Punto Riposo"
+    },
+    {
+      "id": "dungeon_explore_floor",
+      "content": "Sul Piano {0}"
+    },
+    {
+      "id": "lack_of_point_for_shop",
+      "content": "Costo non Sufficente"
+    },
+    {
+      "id": "mirrordungeon_select_less_character_at_start",
+      "content": "Hai schierato meno Peccatori del massimo disponibile.\nVuoi veramente procedere?"
+    },
+    {
+      "id": "list_of_applied_effects_is_empty",
+      "content": "Nessun effetto attivo."
+    },
+    {
+      "id": "give_up_rewards",
+      "content": "Rinuncia alle Ricompense"
+    },
+    {
+      "id": "mirror_dungeon_rewards_back_to_lobby_button",
+      "content": "Menu Principale"
+    },
+    {
+      "id": "mirror_dungeon_rewards_back_to_lobby_desc",
+      "content": "Would you like to move to the Window?\nThe expedition rewards popup will reappear when you return to the Mirror Dungeons menu."
+    },
+    {
+      "id": "mirror_dungeon_rewards_back_to_lobby_button_lobby",
+      "content": "To List"
+    },
+    {
+      "id": "mirrordungeon_resting_heal_one_who",
+      "content": "The space isn't all that wide.\nWho should take the rest?"
+    },
+    {
+      "id": "mirrordungeon_resting_heal_one_who_right",
+      "content": "Scegli il Peccatore che ti sembra stanco."
+    },
+    {
+      "id": "mirror_dungeon_change_formation_release_character",
+      "content": "Annulla le Selezioni"
+    },
+    {
+      "id": "mirrordungeon_exit_shop",
+      "content": "Lasciare il Negozio?"
+    },
+    {
+      "id": "mirrordungeon_exit_resting",
+      "content": "Lasciare il Punto?"
+    },
+    {
+      "id": "mirrordungeon_change_formation_confirm_less_participants",
+      "content": "Hai delle scelte rimaste.\nVuoi veramente concludere la preparazione?"
+    },
+    {
+      "id": "mirrordungeon_change_formation_confirm_exact_participants",
+      "content": "Vuoi spendere il Costo per schierare le Identità e E.G.O scelti?"
+    },
+    {
+      "id": "mirror_dungeon_clear_battle_reward_label",
+      "content": "Ricompensa"
+    },
+    {
+      "id": "mirror_dungeon_start_change_formation_but_button",
+      "content": "Compra"
+    },
+    {
+      "id": "mirror_dungeon_give_up_ego_gift",
+      "content": "Rifiuta Dono"
+    },
+    {
+      "id": "mirror_dungeon_give_up_ego_gift_ask",
+      "content": "Continuare senza scegliere un Dono E.G.O?"
+    },
+    {
+      "id": "mirror_dungeon_challenge_mode_description",
+      "content": "While Challenge Mode is active, the team will be set up randomly.\nThe setup will not change until you have claimed rewards for an expedition with the team.\nYou can receive more rewards in Challenge Mode clears."
+    },
+    {
+      "id": "mirror_dungeon_challenge_mode_ask",
+      "content": "Activate Challenge Mode?"
+    },
+    {
+      "id": "mirror_dungeon_challenge_mode",
+      "content": "Challenge Mode"
+    },
+    {
+      "id": "mirror_dungeon_hard_require_condition_title",
+      "content": "Recommendations"
+    },
+    {
+      "id": "mirror_dungeon_hard_require_condition_level",
+      "content": "- Identity Levels 45"
+    },
+    {
+      "id": "mirror_dungeon_hard_require_condition_ego_gacksung",
+      "content": "- E.G.O Threadspin Tier 3"
+    },
+    {
+      "id": "mirror_dungeon_hard_require_condition_personality_gacksung",
+      "content": "- Identity Uptie Tier 3"
+    },
+    {
+      "id": "mirror_dungeon_hard_require_condition_start_buf",
+      "content": "- All Starter Buffs Active"
+    },
+    {
+      "id": "mirrordungeon_acquire_rewards_using_hard_using_chance_desc",
+      "content": "Consume all of your remaining <color=#a16a3b>Weekly Bonuses</color> and <color=#ff0000>Hard Difficulty Reward count</color> to claim the rewards?"
+    },
+    {
+      "id": "mirrordungeon_acquire_rewards_using_hard_not_using_chance_desc",
+      "content": "You have remaining <color=#a16a3b>Weekly Bonuses</color>.\n\nConsume only the <color=#ff0000>Hard Difficulty Reward counts</color> to unlock the rewards?"
+    },
+    {
+      "id": "mirrordungeon_acquire_rewards_using_hard_no_chance_desc",
+      "content": "Spend <color=#ff0000>Hard Difficulty Rewards count</color> to unlock the rewards?"
+    },
+    {
+      "id": "mirrordungeon_acquire_rewards_not_using_hard_chance_using_chance_desc",
+      "content": "You have remaining <color=#ff0000>Hard Difficulty Reward counts</color>.\n\nConsume only the <color=#a16a3b>Weekly Bonuses</color> to unlock the rewards?"
+    },
+    {
+      "id": "mirrordungeon_acquire_rewards_not_using_hard_chance_not_using_chance_desc",
+      "content": "You have remaining <color=#a16a3b>Weekly Bonuses</color> and <color=#ff0000>Hard Difficulty Reward counts</color>.\n\nUnlock the rewards without spending them?"
+    },
+    {
+      "id": "mirrordungeon_acquire_rewards_not_using_hard_chance_no_chance_desc",
+      "content": "You have remaining <color=#ff0000>Hard Difficulty Reward counts</color>.\n\nUnlock the rewards without spending them?"
+    },
+    {
+      "id": "mirrordungeon_acquire_rewards_no_hard_chance_using_chance_desc",
+      "content": "Spend <color=#a16a3b>Weekly Bonuses</color> to unlock the rewards?"
+    },
+    {
+      "id": "mirrordungeon_acquire_rewards_no_hard_chance_not_using_chance_desc",
+      "content": "You have remaining <color=#a16a3b>Weekly Bonuses</color>.\n\nUnlock the rewards without spending them?"
+    },
+    {
+      "id": "mirrordungeon_acquire_rewards_no_hard_chance_no_chance_desc",
+      "content": "Claim the rewards?"
+    },
+    {
+      "id": "mirrordungeon_hard_no_reward_desc",
+      "content": "<color=#ff0000>The rewards for this content has already been claimed.</color>"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_1",
+      "content": "A Journey's Start"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_2",
+      "content": "Seize the Opportunity"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_3",
+      "content": "Just in Case"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_4",
+      "content": "Fruits of Labor"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_5",
+      "content": "Worthy Prize"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_6",
+      "content": "New Discovery"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_7",
+      "content": "The Spoils of War"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_8",
+      "content": "More the Better"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_9",
+      "content": "Established Trust"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_10",
+      "content": "Perseverance"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_11",
+      "content": "Namesake"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_12",
+      "content": "Fame and Feats"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_13",
+      "content": "Rights"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_14",
+      "content": "Triumphant Return"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_15",
+      "content": "Goals"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_16",
+      "content": "Readiness"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_17",
+      "content": "Spirit to Push Ahead"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_18",
+      "content": "Physical Training"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_101",
+      "content": "Tier 3 Gift Appearance"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1011",
+      "content": "Higher Tier Burn Gifts appear"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1012",
+      "content": "Higher Tier Bleed Gifts appear"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1013",
+      "content": "Higher Tier Tremor Gifts appear"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1014",
+      "content": "Higher Tier Rupture Gifts appear"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1015",
+      "content": "Higher Tier Sinking Gifts appear"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1016",
+      "content": "Higher Tier Poise Gifts appear"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1017",
+      "content": "Higher Tier Charge Gifts appear"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1018",
+      "content": "Higher Tier Random Gifts appear"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_102",
+      "content": "Tier 4+ Gifts appear & Higher Tier Gifts appear"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1021",
+      "content": "Higher Tier Gifts appear"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1022",
+      "content": "Higher Tier Gifts appear"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1023",
+      "content": "Higher Tier Gifts appear"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_103",
+      "content": "Selectable E.G.O Gift +1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1031",
+      "content": "Selectable E.G.O Gift +1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_104",
+      "content": "Selectable E.G.O Gift +1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1041",
+      "content": "Selectable Burn E.G.O Gift +1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1042",
+      "content": "Selectable Bleed E.G.O Gift +1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1043",
+      "content": "Selectable Tremor E.G.O Gift +1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1044",
+      "content": "Selectable Rupture E.G.O Gift +1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1045",
+      "content": "Selectable Sinking E.G.O Gift +1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1046",
+      "content": "Selectable Poise E.G.O Gift +1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1047",
+      "content": "Selectable Charge E.G.O Gift +1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1048",
+      "content": "Selectable Random E.G.O Gift +1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_105",
+      "content": "Gain +50 Starting Cost"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1051",
+      "content": "Starting Cost +50"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1052",
+      "content": "Starting Cost +50"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1053",
+      "content": "Starting Cost +50"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_106",
+      "content": "Introduce 3 new Gifts"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1061",
+      "content": "Introduce 2 new Burn Gifts"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1062",
+      "content": "Introduce 2 new Bleed Gifts"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1063",
+      "content": "Introduce 2 new Tremor Gifts"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1064",
+      "content": "Introduce 2 new Rupture Gifts"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1065",
+      "content": "Introduce 2 new Sinking Gifts"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1066",
+      "content": "Introduce 2 new Poise Gifts"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1067",
+      "content": "Introduce 2 new Charge Gifts"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_107",
+      "content": "Gain more Cost from Combat Encounters"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1071",
+      "content": "Gain more Cost from Regular Encounters"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1072",
+      "content": "Gain more Cost from Incontri Mirati"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1073",
+      "content": "Gain more Cost from Risky Encounters"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1074",
+      "content": "Gain more Cost from Floor Boss Encounters"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_108",
+      "content": "Gift Choice +1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_109",
+      "content": "Cheaper Refresh Cost"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1091",
+      "content": "Cheaper Refresh Cost"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1092",
+      "content": "Small chance for a free Refresh"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1093",
+      "content": "[Shops] Cheaper Skill Replacement Cost"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1094",
+      "content": "[Shops] Cheaper Skill Replacement Cost"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_110",
+      "content": "Cheaper Enhancement Cost"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1101",
+      "content": "Small chance for a free Enhance"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1102",
+      "content": "Cheaper Burn Gift Enhancement Cost"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1103",
+      "content": "Cheaper Bleed Gift Enhancement Cost"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1104",
+      "content": "Cheaper Tremor Gift Enhancement Cost"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1105",
+      "content": "Cheaper Rupture Gift Enhancement Cost"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1106",
+      "content": "Cheaper Sinking Gift Enhancement Cost"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1107",
+      "content": "Cheaper Poise Gift Enhancement Cost"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1108",
+      "content": "Cheaper Charge Gift Enhancement Cost"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_111",
+      "content": "Gain more Cost from selling Gifts"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1111",
+      "content": "Gain more Cost from selling Gifts"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_112",
+      "content": "Cheaper Gift Purchase Cost"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1121",
+      "content": "Cheaper Burn Gift Purchase Cost"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1122",
+      "content": "Cheaper Bleed Gift Purchase Cost"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1123",
+      "content": "Cheaper Tremor Gift Purchase Cost"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1124",
+      "content": "Cheaper Rupture Gift Purchase Cost"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1125",
+      "content": "Cheaper Sinking Gift Purchase Cost"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1126",
+      "content": "Cheaper Poise Gift Purchase Cost"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1127",
+      "content": "Cheaper Charge Gift Purchase Cost"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1128",
+      "content": "Cheaper Keywordless Gift Purchase Cost"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_151",
+      "content": "E.G.O Gift Selection +1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_152",
+      "content": "Starting Cost +250"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_153",
+      "content": "After selecting a Starting E.G.O Gift, receive a random Tier 4 E.G.O Gift"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_121",
+      "content": "+1 E.G.O resource for all Affinities"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1211",
+      "content": "+1 E.G.O resource for all Affinities"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1212",
+      "content": "Max Speed +1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1213",
+      "content": "Max Speed +1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_122",
+      "content": "Deal +3% damage"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1221",
+      "content": "Deal +3% damage"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1222",
+      "content": "Offense Level +1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1223",
+      "content": "Offense Level +1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1224",
+      "content": "Deal +4% Slash Damage"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1225",
+      "content": "Deal +4% Pierce Damage"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1226",
+      "content": "Deal +4% Blunt Damage"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_123",
+      "content": "Take -3% damage"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1231",
+      "content": "Take -3% damage"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1232",
+      "content": "Defense Level +1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1233",
+      "content": "Defense Level +2"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1234",
+      "content": "Slash Resistance -0.1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1235",
+      "content": "Pierce Resistance -0.1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1236",
+      "content": "Blunt Resistance -0.1"
+    }
+  ]
+}
