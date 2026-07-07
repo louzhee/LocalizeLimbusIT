@@ -1,0 +1,468 @@
+{
+  "dataList": [
+    {
+      "id": "Empty",
+      "content": ""
+    },
+    {
+      "id": "Nothing",
+      "content": "<color=#ebcaa2>Non è successo nulla.</color>"
+    },
+    {
+      "id": "LevelupPersonality",
+      "content": "<color=#ebcaa2>Evento: Peccatore Potenziato!</color>"
+    },
+    {
+      "id": "GetEgogift",
+      "content": "<color=#ebcaa2>Evento: Dono E.G.O Casuale!</color>"
+    },
+    {
+      "id": "GetCharacter",
+      "content": "<color=#ebcaa2>Evento: Recluta un Peccatore!</color>"
+    },
+    {
+      "id": "LevelupPersonalityOnWinBattle",
+      "content": "<color=#ebcaa2>Vinci la prossima battaglia per reclutare un Peccatore!</color>"
+    },
+    {
+      "id": "GetConfirmedEgogiftOnWinBattle",
+      "content": "<color=#ebcaa2>Vinci la prossima battaglia per ottenere il Dono E.G.O {reward}!</color>"
+    },
+    {
+      "id": "StartBattle",
+      "content": "<color=#ff0000>Combattimento!</color>"
+    },
+    {
+      "id": "StartBattle_Normal",
+      "content": "<color=#ff0000>Incontro Regolare!</color>"
+    },
+    {
+      "id": "StartBattle_Danger",
+      "content": "<color=#ff0000>Incontro Rischioso!</color>"
+    },
+    {
+      "id": "StartBattle_Abnormality",
+      "content": "<color=#ff0000>Incontro Mirato!</color>"
+    },
+    {
+      "id": "StartBattle_FloorBoss",
+      "content": "<color=#ff0000>Incontro Boss!</color>"
+    },
+    {
+      "id": "RecoverHpOnly",
+      "content": "<color=#ebcaa2>{targets}{conditions}</color> <color=#ebcaa2>recupera(no)</color> <color=#00ff9c>{amount} PV.</color>"
+    },
+    {
+      "id": "RecoverMpOnly",
+      "content": "<color=#ebcaa2>{targets}{conditions}</color> <color=#ebcaa2>recupera(no)</color> <color=#80c9ff>{amount} PS.</color>"
+    },
+    {
+      "id": "RecoverHpOnlyUntilMax",
+      "content": "<color=#ebcaa2>{targets}{conditions}</color> <color=#ebcaa2>recupera(no)</color> <color=#00ff9c>tutti i PV.</color>"
+    },
+    {
+      "id": "RecoverMpOnlyUntilMax",
+      "content": "<color=#ebcaa2>{targets}{conditions}</color> <color=#ebcaa2>recupera(no)</color> <color=#80c9ff>tutti i PS.</color>"
+    },
+    {
+      "id": "LoseHpOnly",
+      "content": "<color=#ebcaa2>{targets}{conditions}</color> <color=#ebcaa2>perde(ono)</color> <color=#e30000>{amount} PV!</color>"
+    },
+    {
+      "id": "LoseMpOnly",
+      "content": "<color=#ebcaa2>{targets}{conditions}</color> <color=#ebcaa2>perde(ono)</color> <color=#fe4b48>{amount} PS!</color>"
+    },
+    {
+      "id": "RecoverHpMpSameAmount",
+      "content": "<color=#ebcaa2>{targets}{conditions}</color> <color=#ebcaa2>recupera(no)</color> <color=#00ff9c>{amount} PV</color> e <color=#80c9ff>PS.</color>"
+    },
+    {
+      "id": "RecoverHpMpDifferentAmount",
+      "content": "<color=#ebcaa2>{targets}{conditions}</color> <color=#ebcaa2>recupera(no)</color> <color=#00ff9c>{hpAmount} PV</color> e <color=#80c9ff>{mpAmount} PS.</color>"
+    },
+    {
+      "id": "LoseHpMpSameAmount",
+      "content": "<color=#ebcaa2>{targets}{conditions}</color> <color=#ebcaa2>perde(ono)</color> <color=#e30000>{amount} PV</color> e <color=#fe4b48>PS!</color>"
+    },
+    {
+      "id": "LoseHpMpDifferentAmount",
+      "content": "<color=#ebcaa2>{targets}{conditions}</color> <color=#ebcaa2>perde(ono)</color> <color=#e30000>{hpAmount} PV</color> e <color=#fe4b48>{mpAmount} PS!</color>"
+    },
+    {
+      "id": "GetConfirmedEgogift",  
+      "content": "<color=#ebcaa2>Hai ottenuto il Dono E.G.O {reward}!</color>"
+    },
+    {
+      "id": "GetConfirmedStackableEgogift",
+      "content": "<color=#ebcaa2>Hai ottenuto il Dono E.G.O {stack} {reward}!</color>"
+    },
+    {
+      "id": "LoseConfirmedStackableEgogift",
+      "content": "<color=#ebcaa2>Hai perso il Dono E.G.O {stack} {reward}!</color>"
+    },
+    {
+      "id": "GetBuff_OnStageStart",
+      "content": "<color=#ebcaa2>{target}{conditional} entrerà nel prossimo combattimento con {stack} {buffName}.</color>"
+    },
+    {
+      "id": "UnlockHiddenRoute",
+      "content": "<color=#ebcaa2>C'è una nuova strada sulla mappa!</color>"
+    },
+    {
+      "id": "ReduceEnemyWave",
+      "content": "<color=#ebcaa2>Il numero di ondate nemiche è ridotto di {waveNum} per la prossima battaglia</color>"
+    },
+    {
+      "id": "DestroyEgogift",
+      "content": "<color=#ebcaa2>Il Dono E.G.O {reward}</color> <color=#e30000>è stato distrutto!</color>"
+    },
+    {
+      "id": "Choice_90103301",
+      "content": "<color=#f8c200>Velocità +1</color> <color=#ebcaa2>per questa battaglia</color>"
+    },
+    {
+      "id": "Choice_901001",
+      "content": "<color=#ebcaa2>All'Inizio della Fase di Combattimento,</color> gli alleati senza <color=#a0392b>un'Abilità Attacco di Affinità Ira</color> <color=#ebcaa2>subiscono</color> <color=#e30000>5 danni da Ira</color>"
+    },
+    {
+      "id": "Choice_901007",
+      "content": "<color=#ebcaa2>All'inizio del turno,</color> </color=#ebcaa2>recupera</color> <color=#00ff9c>10 PV</color> e <color=#80c9ff>10 PS</color> (Fino a 3 turni)"
+    },
+    {
+      "id": "Choice_901009",
+      "content": "<color=#e30000>Potere Finale Abilità -1</color> <color=#ebcaa2>all'inizio della fase di combattimento.</color>"
+    },
+    {
+      "id": "Choice_901010",
+      "content": "<color=#ebcaa2>All'inizio del prossimo combattimento,</color> <color=#ebcaa2>le Unità Alleate senza</color> <color=#bb521f>un'Abilità Attacco di Affinità Lussuria</color> <color=#ebcaa2>verranno Stordite.</color>"
+    },
+    {
+      "id": "Choice_901019",
+      "content": "<color=#e30000>Velocità -2</color> <color=#ebcaa2>all'inizio della fase di combattimento.</color>"
+    },
+    {
+      "id": "Choice_90103402",
+      "content": "<color=#f8c200>Velocità +2</color> <color=#ebcaa2>per questo combattimento</color>"
+    },
+    {
+      "id": "Choice_1030301",
+      "content": "<color=#ebcaa2>All'inizio del prossimo combattimento, Tutte le Unità Alleate</color> <color=#ebcaa2>ottengono</color> <color=#f8c200>3 Potere Attacco Aumentato.</color>"
+    },
+    {
+      "id": "Choice_1030501",
+      "content": "<color=#ff0000>Combattimento!</color>\n<color=#ebcaa2>Tutti i Nemici</color> <color=#ebcaa2>subiscono</color> <color=#e30000>5 Potere Attacco Diminuito!</color>"
+    },
+    {
+      "id": "Choice_1031001",
+      "content": "<color=#ebcaa2>Il Peccatore Scelto</color> <color=#ebcaa2>ottiene</color> <color=#e30000>3 Danno Diminuito</color> <color=#ebcaa2>per i prossimi 2 combattimenti.</color>"
+    },
+    {
+      "id": "Choice_90100201",
+      "content": "<color=#ebcaa2>Il Peccatore che ha fallito la Prova perde</color> <color=#e30000>12 PV</color> <color=#ebcaa2>e</color> <color=#fe4b48>8 PS!</color>"
+    },
+    {
+      "id": "Choice_90100502",
+      "content": "<color=#ebcaa2>Il Peccatore che ha fallito la Prova perde</color> <color=#e30000>15 PV</color> <color=#ebcaa2>e</color> <color=#fe4b48>12 PS!</color>"
+    },
+    {
+      "id": "Choice_90101001",
+      "content": "<color=#ebcaa2>Le Identità senza</color> <color=#bb521f>un'Abilità Attacco di Affinità Lussuria</color> <color=#ebcaa2>perdono</color> <color=#fe4b48>10 PS!</color>"
+    },
+    {
+      "id": "Choice_90101101",
+      "content": "<color=#ebcaa2>Il Peccatore che ha fallito la Prova perde</color> <color=#fe4b48>15 PS!</color>"
+    },
+    {
+      "id": "Choice_90101701",
+      "content": "<color=#ebcaa2>Il Peccatore che ha superato la Prova perde</color> <color=#fe4b48>5 PS!</color>"
+    },
+    {
+      "id": "Choice_90101702",
+      "content": "<color=#ebcaa2>Il Peccatore che ha fallito la Prova perde</color> <color=#fe4b48>25 PS!</color>"
+    },
+    {
+      "id": "Choice_90101801",
+      "content": "<color=#ebcaa2>Il Peccatore che ha fallito la Prova perde</color> <color=#fe4b48>12 PS!</color>"
+    },
+    {
+      "id": "Choice_90101901",
+      "content": "<color=#ebcaa2>Il Peccatore che ha fallito la Prova perde</color> <color=#fe4b48>10 PS!</color>"
+    },
+    {
+      "id": "Choice_90102001",
+      "content": "<color=#ebcaa2>Le Identità senza</color> <color=#61822b>un'Abilità Attacco di Affinità Gola</color> <color=#ebcaa2>perde</color> <color=#fe4b48>5 PV!</color>"
+    },
+    {
+      "id": "Choice_90102002",
+      "content": "<color=#ebcaa2>Le Identità senza</color> <color=#61822b>un'Abilità Attacco di Affinità Gola</color> <color=#ebcaa2>perdono</color> <color=#fe4b48>10 PV!</color>"
+    },
+    {
+      "id": "Choice_90102201",
+      "content": "<color=#ebcaa2>Le Identità senza</color> <color=#306471>un'Abilità Attacco di Affinità Tristezza</color> <color=#ebcaa2>perdono</color> <color=#fe4b48>13 PV!</color>"
+    },
+    {
+      "id": "Choice_90103302",
+      "content": "<color=#ebcaa2>Le Identità senza</color> <color=#7d4e94>un'Abilità Attacco di Affinità Invidia</color> <color=#fe4b48>perdono</color> <color=#e30000>15 PV</color> <color=#ebcaa2>e</color> <color=#fe4b48>15 PS!</color>"
+    },
+    {
+      "id": "Choice_90100101",
+      "content": "<color=#ebcaa2>Le Identità senza</color> <color=#a0392b>un'Abilità Attacco di Affinità Ira</color> <color=#ebcaa2>perdono</color> <color=#fe4b48>16 PV!</color>"
+    },
+    {
+      "id": "Choice_901004",
+      "content": "<color=#ebcaa2>Le Identità con</color> <color=#a0392b>un'Abilità Attacco di Affinità Ira</color> <color=#ebcaa2>recuperano</color> <color=#f8c200>15 PV.</color>"
+    },
+    {
+      "id": "Choice_90100701",
+      "content": "<color=#ebcaa2>Le Identità con</color> <color=#bb521f>un'Abilità Attacco di Affinità Lussuria</color> </color=#ebcaa2>recuperano</color> <color=#80c9ff>PS.</color>"
+    },
+    {
+      "id": "Choice_901008",
+      "content": "<color=#ebcaa2>Le Identità con</color> <color=#bb521f>un'Abilità Attacco di Affinità Lussuria</color> <color=#ebcaa2>recuperano</color> <color=#f8c200>10 PV.</color>"
+    },
+    {
+      "id": "Choice_90100901",
+      "content": "<color=#ebcaa2>Le Identità senza</color> <color=#bb521f>un'Abilità Attacco di Affinità Lussuria</color> <color=#ebcaa2>perdono</color> <color=#fe4b48>20 PS!</color>"
+    },
+    {
+      "id": "Choice_901014",
+      "content": "<color=#ebcaa2>Le Identità senza</color> <color=#e48801>un'Abilità Attacco di Affinità Accidia</color> <color=#ebcaa2>perdono</color> <color=#fe4b48>20 PV!</color>"
+    },
+    {
+      "id": "Choice_90101401",
+      "content": "<color=#ebcaa2>Le Identità senza</color> <color=#e48801>un'Abilità Attacco di Affinità Accidia</color> <color=#fe4b48>perdono</color> <color=#fe4b48>12 PV</color> <color=#ebcaa2>e</color> <color=#fe4b48>12 PS!</color>"
+    },
+    {
+      "id": "Choice_90101601",
+      "content": "<color=#ebcaa2>Le Identità con</color> <color=#61822b>un'Abilità Attacco di Affinità Gola</color> </color=#ebcaa2>recuperano</color> <color=#80c9ff>PS.</color>"
+    },
+    {
+      "id": "Choice_901018",
+      "content": "<color=#ebcaa2>Un'Identità casuale senza</color> <color=#a0392b>un'Abilità Attacco di Affinità Ira</color> <color=#ebcaa2>perdono</color> <color=#fe4b48>10 PV!</color>"
+    },
+    {
+      "id": "Choice_901021",
+      "content": "<color=#ebcaa2>Le Identità senza</color> <color=#306471>un'Abilità Attacco di Affinità Tristezza</color> <color=#ebcaa2>perdono</color> <color=#fe4b48>10 PV!</color>"
+    },
+    {
+      "id": "Choice_901023",
+      "content": "<color=#ebcaa2>Le Identità senza</color> <color=#306471>un'Abilità Attacco di Affinità Tristezza</color> <color=#ebcaa2>perdono</color> <color=#fe4b48>9 PS!</color>"
+    },
+    {
+      "id": "Choice_90102301",
+      "content": "<color=#ebcaa2>Un'Identità casuale senza</color> <color=#306471>un'Abilità Attacco di Affinità Tristezza</color> <color=#ebcaa2>perde</color> <color=#fe4b48>10 PS!</color>"
+    },
+    {
+      "id": "Choice_901024",
+      "content": "<color=#ebcaa2>L'Identità con la Sanità più bassa che possiede</color> <color=#306471>un'Abilità Attacco di Affinità Tristezza</color> </color=#ebcaa2>recupera completamente i suoi</color> <color=#f8c200>PV.</color>"
+    },
+    {
+      "id": "Choice_901025",
+      "content": "<color=#ebcaa2>Le Identità senza</color> <color=#306471>un'Abilità Attacco di Affinità Tristezza</color> <color=#ebcaa2>perdono</color> <color=#fe4b48>20 PV!</color>"
+    },
+    {
+      "id": "Choice_90102501",
+      "content": "<color=#ebcaa2>Le Identità con</color> <color=#306471>un'Abilità Attacco di Affinità Tristezza</color> <color=#ebcaa2>recuperano</color> <color=#f8c200>20 PV.</color>"
+    },
+    {
+      "id": "Choice_901026",
+      "content": "<color=#ebcaa2>Le Identità senza</color> <color=#185188>un'Abilità Attacco di Affinità Superbia</color> <color=#ebcaa2>perdono</color> <color=#fe4b48>10 PV!</color>"
+    },
+    {
+      "id": "Choice_90102601",
+      "content": "<color=#ebcaa2>Le Identità con</color> <color=#185188>un'Abilità Attacco di Affinità Superbia</color> <color=#ebcaa2>recuperano</color> <color=#f8c200>10 PV.</color>"
+    },
+    {
+      "id": "Choice_901027",
+      "content": "<color=#ebcaa2>Le Identità senza</color> <color=#185188>un'Abilità Attacco di Affinità Superbia</color> <color=#ebcaa2>perdono</color> <color=#fe4b48>25 PV!</color>"
+    },
+    {
+      "id": "Choice_90102701",
+      "content": "<color=#ebcaa2>Le Identità senza</color> <color=#185188>un'Abilità Attacco di Affinità Superbia</color> <color=#ebcaa2>perdono</color> <color=#fe4b48>25 PV!</color>"
+    },
+    {
+      "id": "Choice_901028",
+      "content": "<color=#ebcaa2>Le Identità senza</color> <color=#185188>un'Abilità Attacco di Affinità Superbia</color> <color=#ebcaa2>perdono</color> <color=#fe4b48>5 PV!</color>"
+    },
+    {
+      "id": "Choice_90102801",
+      "content": "<color=#ebcaa2>Le Identità con</color> <color=#185188>un'Abilità Attacco di Affinità Superbia</color> <color=#ebcaa2>recuperano</color> <color=#f8c200>15 PV.</color>"
+    },
+    {
+      "id": "Choice_901032",
+      "content": "<color=#ebcaa2>Le Identità senza</color> <color=#7d4e94>un'Abilità Attacco di Affinità Invidia</color> <color=#ebcaa2>perdono</color> <color=#fe4b48>20 PS!</color>"
+    },
+    {
+      "id": "Choice_901034",
+      "content": "<color=#ebcaa2>Le Identità senza</color> <color=#7d4e94>un'Abilità Attacco di Affinità Invidia</color> <color=#fe4b48>perdono</color> <color=#e30000>15 PV</color> <color=#ebcaa2>e</color> <color=#fe4b48>15 PS!</color>"
+    },
+    {
+      "id": "Choice_901035",
+      "content": "<color=#ebcaa2>Le Identità senza</color> <color=#7d4e94>un'Abilità Attacco di Affinità Invidia</color> <color=#ebcaa2>perdono</color> <color=#fe4b48>12 PV!</color>"
+    },
+    {
+      "id": "Choice_90103501",
+      "content": "<color=#ebcaa2>Le Identità con</color> <color=#7d4e94>un'Abilità Attacco di Affinità Invidia</color> <color=#ebcaa2>recuperano</color> <color=#f8c200>15 PV.</color>"
+    },
+    {
+      "id": "Choice_1040301",
+      "content": "<color=#ebcaa2>Il Peccatore Scelto</color> <color=#ebcaa2>ottiene</color> <color=#e30000>10 Lacerazione</color> <color=#ebcaa2>per 1 turno nel prossimo combattimento.</color>"
+    },
+    {
+      "id": "MirrorDungeonAcquireCost",
+      "content": "<color=#ebcaa2>Ottenuto {amount} Costo</color>"
+    },
+    {
+      "id": "MirrorDungeonLossCost",
+      "content": "<color=#ebcaa2>Perso {amount} Costo</color>"
+    },
+    {
+      "id": "Choice_90104001",
+      "content": "<color=#ebcaa2>Inizia la prossima battaglia con</color> <color=#f8c200>+2 risorse E.G.O</color> <color=#ebcaa2>per tutte le affinità</color>"
+    },
+    {
+      "id": "Choice_9010400101",
+      "content": "<color=#ebcaa2>Tutti gli alleati ottengono</color> <color=#f8c200>+2 Potere Abilità Finale</color> <color=#ebcaa2>per la prossima battaglia</color>"
+    },
+    {
+      "id": "Choice_90104002",
+      "content": "<color=#ebcaa2>Tutti gli alleati ottengono</color> <color=#f8c200>+1 Potere Abilità</color> <color=#ebcaa2>per la prossima battaglia</color>"
+    },
+    {
+      "id": "ChangeEventIllust",
+      "content": ""
+    },
+    {
+      "id": "Choice_90105801",
+      "content": "Tutte le Identità schierate ottengono 2 Livelli"
+    },
+    {
+      "id": "Choice_90106802",
+      "content": "Tutte le Identità schierate ottengono 3 Livelli"
+    },
+    {
+      "id": "Choice_90107402",
+      "content": "Tutte le Identità schierate ottengono 2 Livelli"
+    },
+    {
+      "id": "Choice_90109101",
+      "content": "Tutte le Identità schierate ottengono 2 Livelli"
+    },
+    {
+      "id": "Choice_90200502",
+      "content": "<color=#ebcaa2>Il Peccatore che ha fallito la Prova perde</color> <color=#e30000>15 PV</color> <color=#ebcaa2>e</color> <color=#fe4b48>12 PS!</color>"
+    },
+    {
+      "id": "Choice_LoseBattle",
+      "content": "<color=#ff0000>Nessuna ricompensa con la Sconfitta</color>"
+    },
+    {
+      "id": "Choice_EGO901001",
+      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Sogno della Falena Infernale\" & \"Fiore Ardente\""
+    },
+    {
+      "id": "Choice_EGO901002",
+      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Perversione\" & \"Timore\""
+    },
+    {
+      "id": "Choice_EGO901009",
+      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Penna Ardente\" & \"Paraffina Sciolta\""
+    },
+    {
+      "id": "Choice_EGO901010",
+      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Gadget Sanguigno\" & \"Solennità\""
+    },
+    {
+      "id": "Choice_EGO901011",
+      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Pioggia Solare\" & \"Ombrello Logoro\""
+    },
+    {
+      "id": "Choice_EGO901013",
+      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Fascio di Talismani\" & \"Vecchio Fantoccio in Legno\""
+    },
+    {
+      "id": "Choice_EGO901014",
+      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Moneta Commemorativa Arrugginita\" & \"Dolore della Rabbia Repressa\""
+    },
+    {
+      "id": "Choice_EGO901016",
+      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Distillato Verde\" & \"Aroma dell'Aspro Liquore\""
+    },
+    {
+      "id": "Choice_EGO901018",
+      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Corona di Rose\" & \"Ristoro\""
+    },
+    {
+      "id": "Choice_EGO901019",
+      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Melma Appiccicosa\" & \"Boccetta di Veleno Biologico\""
+    },
+    {
+      "id": "Choice_EGO901020",
+      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Cotone Bianco\" & \"Fascio Aggrovigliato\""
+    },
+    {
+      "id": "Choice_EGO901021",
+      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Zippo Blu\" & \"Torcia di Pattuglia\""
+    },
+    {
+      "id": "Choice_EGO901024",
+      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Bulbo Oculare Sciolto\" & \"Pelle Velenosa\""
+    },
+    {
+      "id": "Choice_EGO901031",
+      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Divergenza di Nixie\" & \"Meccanismo a Molla\""
+    },
+    {
+      "id": "Choice_EGO901033",
+      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Batteria Standard\" & \"Defibrillatore Illimitato\""
+    },
+    {
+      "id": "Choice_EGO901034",
+      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Circuito Logico di Identificazione\" & \"Sistema UPS\""
+    },
+    {
+      "id": "Choice_EGO901056",
+      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Quadrifoglio\" & \"Elitra Smeraldo\""
+    },
+    {
+      "id": "Choice_EGO901059",
+      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Incubo di Mezzo Inverno\" & \"Trappola dell'Albero Antico\""
+    },
+    {
+      "id": "Choice_EGO901073",
+      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Kit di Endorfina\" & \"Lampada Fluorescente\""
+    },
+    {
+      "id": "Choice_EGO971029",
+      "content": "Vinci la battaglia per ottenere i Doni E.G.O \"Daga Dimensionale Tipo-E\" & \"Batteria per Barriere Portatile\""
+    },
+    {
+      "id": "GetImmediateConfirmedEgogifts",
+      "content": "<color=#ebcaa2>Hai ottentuo il Dono E.G.O {reward}!</color>"
+    },
+    {
+      "id": "Choice_EGO901101",
+      "content": "Vinci la battaglia per ottenere il Dono E.G.O \"Traliccio in Miniatura\""
+    },
+    {
+      "id": "Choice_EGO901104",
+      "content": "Vinci la battaglia per ottenere il Dono E.G.O \"Sacca di Sangue Lacerata\""
+    },
+    {
+      "id": "Choice_EGO971054",
+      "content": "Vinci la battaglia per ottenere il Dono E.G.O \"Tanica di Carburante Traboccante\""
+    },
+    {
+      "id": "LoseMpOnlyUntilMin",
+      "content": "<color=#ebcaa2>Riduci</color> <color=#fe4b48>i PS al valore minimo per</color> <color=#ebcaa2>{conditions}{targets}</color>"
+    },
+    {
+      "id": "ReviveOutOfBattleAndRecoverHpAll",
+      "content": "Riporta in vita tutti i Peccatori morti e tutti i sopravvissuti <color=#ebcaa2>recuperano</color> tutti i loro <color=#00ff9c>PV Max</color>"
+    },
+    {
+      "id": "RecoverRatioHpOnly",
+      "content": "<color=#ebcaa2>{targets}{conditions}</color> <color=#ebcaa2>recupera(no) del</color> <color=#00ff9c>{amount}% dei PV Max.</color>"
+    }
+  ]
+}
