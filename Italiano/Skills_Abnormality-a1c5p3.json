@@ -1,0 +1,1950 @@
+{
+  "dataList": [
+    {
+      "id": 810001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tutto Verrà Disperso",
+          "desc": "Dà priorità ai nemici col [AaCePcBa]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge danno ai PS pari al numero di Candele accese"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge danno ai PS pari al numero di Candele accese"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Attendendo...",
+          "desc": "Dà priorità ai nemici col [AaCePcBa]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [CrimsonTakeDamageUp] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [Combustion], infligge 4 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [CrimsonTakeDamageUp] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [Combustion], infligge 4 [Combustion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "9:2",
+          "desc": "Spegne ogni Candela il turno successivo.\nSe colpisce un bersaglio [AaCePcBa], il bersaglio perde oò 5% dei PV max in più.\n[DefeatDuel] Infligge 10 [Combustion]. Infligge [AaCePcBa] sul bersaglio il turno successivo.\n[EndBattle] Ogni candela recupera il max dei PV.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] I PV max del bersaglio scendono del 10%."
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Combustion] e +2 Conteggio [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] I PV max del bersaglio scendono del 10%."
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Combustion] e +2 Conteggio [Combustion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "6:5",
+          "desc": "[CantDuel][CantChangeTarget]\nSubisce danni al posto del bersaglio. Viene stordito nel turno successivo.\nInfligge [AaCePcBa] su un nemico casuale senza [AaCePcBa].\n[EndBattle] Ogni candela recupera il max dei PV",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] I PV max di quest'unità scendono del 10%."
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 10 [Combustion] su di sé"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] I PV max di quest'unità scendono del 10%."
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 10 [Combustion] su di sé"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810005,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tutto Verrà Rivelato",
+          "desc": "[CantDuel]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [CrimsonTakeDamageUp]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810006,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tutto Brucerà",
+          "desc": "[CantDuel]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [Combustion], infligge 3 [Combustion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fiamma Attizzata",
+          "desc": "Dà priorità ai nemici col [AaCePcBa]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 6 [Combustion] e +2 Conteggio [Combustion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Così Che Essa Bruci",
+          "desc": "[StartBattle] Ottiene 20 Scudo\nSe lo Scudo viene distrutto, questa Candela viene Spenta",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion] e +1 Conteggio [Combustion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fluido Tossico",
+          "desc": "[StartBattle] Consuma 1 Slime Verde",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Poison]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Poison]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fluido Corrosivo",
+          "desc": "[StartBattle] Consuma 1 Slime Verde",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge [DefenseDown] in base al [Poison] sul bersaglio"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 Larva"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge [DefenseDown] in base al [Poison] sul bersaglio"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 Larva"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fluido Paralitico",
+          "desc": "[StartBattle] Consuma 1 Slime Verde",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [Poison], infligge 1 [Paralysis]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 Larva"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [Poison], infligge 1 [Paralysis]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 Larva"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fluido Divorante",
+          "desc": "[StartBattle] Consuma 2 Slime Verde\n[WhenUse] Infligge 3 Larva",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Poison]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Paralysis] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Poison]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Paralysis] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810105,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Slime Verde Effervescente",
+          "desc": "[StartBattle] Ottiene Portata Attacco in base al [AaCePcBh]\n[StartBattle] Ottiene 10 [AaCePcBh]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 10 [Poison]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Perde 7 PS"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 Larva"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Paralysis] e 3 [DefenseDown] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810106,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Predazione",
+          "desc": "[CantDuel][CantChangeTarget]\nBersaglia lo <noparse>Slime Verde</noparse>\nSe attacca lo <noparse>Slime Verde</noparse>, lo uccide",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[TargetKill] Ottiene 3 [AaCePcBh]."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810107,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Veleno Traboccante",
+          "desc": "[OnSucceedEvade] Infligge 5 [Poison]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Testata",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Botta",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Schiaccia",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking] se il bersaglio ha [AaCePcBb]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking] se il bersaglio ha [AaCePcBb]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ossessione Cieca",
+          "desc": "[DefeatDuel] La Parte Fluorente di questa unità perde il 34% dei PV max.\n[DefeatDuel] Ottiene 1 Ossessione Cieca",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 4 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 4 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 4 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [SinkingSurge]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810205,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Corrente Torbida",
+          "desc": "[CantDuel][StartBattle] Modifica il campo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Sinking] e +2 Conteggio [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Ottiene -2 Efficenza Perdita PS il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Sinking] e +2 Conteggio [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810206,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ossessione Cieca e Dispersa",
+          "desc": "[CantDuel][CantChangeTarget] Bersaglia i Relitti distrutti\n[EndSkill] La parte Fluorente perde il 34% dei PV max.\n[EndBattle] Ottiene 1 Ossessione Cieca.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Distrugge il bersaglio."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810207,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Spazzata",
+          "desc": "[EndBattle] Crea un Relitto",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking] se il bersaglio ha [AaCePcBb]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking] se il bersaglio ha [AaCePcBb]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810208,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Torsione",
+          "desc": "[StartBattle] Consuma ogni Ossessione Cieca\n[StartBattle] Distrugge tutti i Relitti",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 811001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Trafiggi",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 4 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 811002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Apri Ferita",
+          "desc": "[WinDuel] Recupera 5 PS.\nInfligge +5% danni per ogni [Laceration] sul bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 811003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Proteggete il Villaggio!",
+          "desc": "[WhenUse] Ottiene 5 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Recupera 4 PS"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Recupera 4 PS"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Recupera 4 PS"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Recupera 4 PS"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 811004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lancia e Cattura",
+          "desc": "[WhenUse] Ottiene 5 [Breath] e +2 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge [AaCePcBk]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Binding] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 811005,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Blocco",
+          "desc": "Se colpito mentre ha Scudo, Ottiene 1 Livello Offensivo Aumentato il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 811101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Colpi Rapidi",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge +2 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 811102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sfregia Ferite",
+          "desc": "[WinDuel] Recupera 5 PS.\nInfligge +5% danni per ogni [Laceration] sul bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 811103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Proteggete il Villaggio!",
+          "desc": "[WhenUse] Ottiene 5 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Recupera 4 PS"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Recupera 4 PS"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Recupera 4 PS"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Recupera 4 PS"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 811104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lancia e Cattura",
+          "desc": "[WhenUse] Ottiene 5 [Breath] e +2 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge [AaCePcBl]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Binding] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 811105,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Evasione",
+          "desc": "[OnSucceedEvade] Ottiene 1 Livello Offensivo Aumentato il turno successivo (Max 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Iniziare La Caccia",
+          "desc": "[StartBattle] Evoca 4 alleati il turno successivo\n[WhenUse] Applica [AaCePcBj] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Arpionare",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Arpione Perforante",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [AttackDown]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [[Binding]ing] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Respiro Profondo",
+          "desc": "[StartBattle] Ottiene 10 Potenza e Conteggio [Breath].\nQuesta Abilità non consuma Conteggio [Breath] sul Colpo Critico.\nA fine turno, ottiene [PlusCoinValueUp] il turno successivo pari al numero di alleati in vita.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810305,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Contrattacco",
+          "desc": "Questa Abilità non consuma Conteggio [Breath] sul Colpo Critico.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810306,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Braccare la Preda",
+          "desc": "+30% danni su Colpo Critico",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Alza la prima Soglia di Stordimento del bersaglio del 50% del danno inflitto"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810307,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tagliare la Gola",
+          "desc": "Questa Abilità non consuma Conteggio [Breath] sul Colpo Critico.\nInfligge +5% danni per ogni [Laceration] sul bersaglio\n[WhenUse] Se non ha [Breath] su di sé viene Stordita.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "+50% danni su Colpo Critico"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Stordisce il bersaglio nel turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810308,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Respiri Profondi",
+          "desc": "[StartBattle] Ottiene 3 [Breath] e +5 Conteggio [Breath].\nPer questo turno:\n- Ottiene Potere Finale pari alla Potenza [Breath] su di sé;\n- Perde 1 Conteggio [Breath] quando colpita.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810309,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Per Sopravvivere",
+          "desc": "+30% danni su Colpo Critico",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Cura i PV del Nucleo e della Parte del 50% del danno inflitto"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Cura i PV del Nucleo e della Parte del 50% del danno inflitto"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Cura i PV del Nucleo e della Parte del 50% del danno inflitto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810310,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Devo... Proteggere",
+          "desc": "[TurnStartBattle] Se usa quest'Abilità e se quest'unità ha più di 0 [AaCePcBr], attiva la [AaCePcBs].\n[StartBattle] Ottiene il 10% dei PV max come [AaCePcBr].",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810311,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Arpione Tenace",
+          "desc": "Potere Finale +1 quando attacca lo stesso bersaglio di Starbuck",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Cura i PV del Nucleo e della Parte del 50% del danno inflitto"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge [AaCePcBk]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Cura i PV del Nucleo e della Parte del 50% del danno inflitto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810312,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Devo Concludere La Caccia...",
+          "desc": "Questa Abilità non consuma Conteggio [Breath] sul Colpo Critico.\nInfligge +5% danni per ogni [Laceration] sul bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "+50% danni su Colpo Critico"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Stordisce il bersaglio nel turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Impala",
+          "desc": "[WhenUse] Ottiene +3 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Affondo Perforante",
+          "desc": "[WhenUse] Ottiene 5 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Fragility] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [DefenseDown] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Riusa questa Moneta una volta (Max 3)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Eseguo gli ordini...",
+          "desc": "[TurnStartBattle] Se Queequeg ha più di 0 [AaCePcBr], attiva l'[AaCePcBt]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Imboscata",
+          "desc": "Infligge +50% danni su Colpo Critico\nInfligge +5% danni per ogni [Laceration] sul bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Alza la prima Soglia di Stordimento del bersaglio del 50% del danno inflitto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810405,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sospiro Impaurito",
+          "desc": "[WhenUse] Ottiene +6 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810406,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Arpione Deciso",
+          "desc": "Potere Finale +2 quando attacca lo stesso bersaglio di Queequeg",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge [AaCePcBl]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [DefenseDown] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Fragility] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Riusa questa Moneta una volta (Max 3)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810407,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Per Fuggire...",
+          "desc": "Infligge +100% danni sul Colpo Critico\ninfligge +5% danni per ogni [Laceration] sul bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Alza la prima Soglia di Stordimento del bersaglio del 50% del danno inflitto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Obbedite Ai Miei Ordini",
+          "desc": "[WhenUse] Recupera 10 PS su di sé e su 1 atro alleato con meno PS ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "A Me!",
+          "desc": "[StartBattle] Ordina la [AaCePcBs] di Queequeg il turno successivo. L'ordine viene annullato se quest'unità è Stordita.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Braccateli Fino alla Fine!",
+          "desc": "[StartBattle] Ordina l'[AaCePcBt] di Starbuck il turno successivo. L'ordine viene annullato se quest'unità è Stordita.\n[WhenUse] Applica 1 [AaCePcBj] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Arpione della Veterana",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810505,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Arpione Infuocato",
+          "desc": "Potere Finale +1 per ogni effetto negativo sul bersaglio (Max 5)\nInfligge +5% danni per ogni [Laceration] sul bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge [Combustion] pari al [Laceration] sul bersaglio"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810506,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Che idiozie!",
+          "desc": "[WhenUse] Recupera 5 PS\n[OnSucceedEvade] Il bersaglio perde 5 PS",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810507,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Espira!",
+          "desc": "[WhenUse] Infligge 1 [AaCePcBj] il turno successivo\n[WinDuel] Ottiene 4 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Applica 4 [Breath] ad altri 2 alleati.\nSe non ci sono alleati, ottiene invece 2 Conteggio [Breath]."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810508,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Non Temete!",
+          "desc": "[WhenUse] Recupera 10 PS. 1 alleato con più PS perde 10 PS (esclude sé stessa)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Applica 1 [Paralysis] su un altro alleato casuale il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Applica 1 [Paralysis] su un altro alleato casuale il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Applica 1 [Paralysis] su un altro alleato casuale il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810509,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tempering of Death",
+          "desc": "[WhenUse] Apply Undefiable Command to 1 ally with the lowest PS\n[DefeatDuel] Alza la Soglia di Vacillamento di 1 alleato con meno PS di 20",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Fragility]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Abbattimi!",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Trafiggi a Morte",
+          "desc": "Bersaglia l'unità coi PV max minori",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 6 [AttackDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Anima Immortale",
+          "desc": "Se l'Evasione fallisce, Riusa l'Evasione (Max 2 volte)\n[OnDefeatEvade] Perde 2 [AaCePcBo]",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Innocenza Torbida",
+          "desc": "[DefeatDuel] Ottiene 2 [DefenseDown]. Perde 10 PS su di sé",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [AaCePbBa]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Paralysis]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [AaCePbBa]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Binding] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Il Peso Della Colpa",
+          "desc": "Bersaglia le 3 unità coi PV max minori\n[StartBattle] Potere Base +2 e Portata Attacco +1 per ogni 5 [AaCePcBo]\n[WhenUse] Perde 3 [AaCePcBo]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [AaCePbBa]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Alza la Soglia di Stordimento di 30 "
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Il bersaglio perde 10 PS"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810606,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "사용하지않는스킬(번역x)",
+          "desc": "",
+          "coinlist": [
+            {},
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810607,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Avvolti dal Terrore",
+          "desc": "[WhenUse] Infligge 1 [AaCePcBj] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [AaCePbBa]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration] e +4 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810608,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Debolezza Perforante",
+          "desc": "[WhenUse] Infligge 1 [AaCePcBj] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [AaCePbBa]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [AttackDown] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810609,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Grido Echeggiante",
+          "desc": "Infligge +5% danni per ogni [Laceration] sul bersaglio\nIf target does not have [AaCePcBj], Potere Moneta +1\n[DefeatDuel] Perde 5 PS",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 danni ai PS a 3 nemici casuali"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 danni ai PS a 3 nemici casuali"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 danni ai PS a 3 nemici casuali"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 danni ai PS a 3 nemici casuali"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 danni ai PS a 3 nemici casuali"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Riusa questa Moneta una volta per ogni 10 Starbuck's Ego"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810610,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Percorso Annebbiato",
+          "desc": "[WhenUse] Infligge 1 [AaCePcBj] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [AttackDmgDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [AaCePbBa]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810611,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ammenda Sbiadita",
+          "desc": "[WhenUse] Perde 5 [AaCePcBq]\n[WinDuel] Ottiene 6 [DefenseUp]\n[DefeatDuel] Perde 5 PS",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [AaCePbBa]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Stordisce il bersaglio nel turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810612,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Pallidificazione Insidiosa",
+          "desc": "[StartBattle] Ottiene il 10% dei PV max come Scudo. Per ogni [AaCePcBq], ottiene lo 0.5% dei PV Max come Scudo.\nSe colpita mentre ha Scudo, l'attaccante perde 5 PS\nSe colpita, usa quest'Abilità una volta per ogni 10 [AaCePcBq]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810007,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Non Sdegnare la Profezia",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Combustion] e 2 Conteggio [Combustion] sul bersaglio"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

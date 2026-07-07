@@ -1,0 +1,654 @@
+{
+    "dataList": [
+        {
+      "id": 500101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Manate",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 danni Contundenti bonus"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 danni Contundenti bonus"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Paralysis]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+        },
+        {
+      "id": 500102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Pedate",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 danni Contundenti bonus"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 danni Contundenti bonus"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Paralysis] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+        },
+        {
+      "id": 500103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Rivincita",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 danni ai PS"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+        },
+        {
+      "id": 500104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Guardati Le Spalle!",
+          "desc": "Se il bersaglio ha meno di 0 PS, Potere Moneta +3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Recupera 10 PS"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Binding] e 2 [Reduction] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 20 danni ai PS"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+        },
+        {
+      "id": 500105,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Raduno",
+          "desc": "[StartBattle] Evoca 2 alleati il turno successivo",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+        },
+        {
+      "id": 500106,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Rendilo Indimenticabile",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+        },
+        {
+      "id": 500107,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "I MIEI COUPOOOOOOOOOOON!!!",
+          "desc": "[DefeatDuel] Infligge -30% danni finali; i bersagli non possono essere Storditi.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Aumenta la Soglia di Stordimento del bersaglio di 30"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 1 [Paralysis] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Riduce l'[RicardoBookRaid] sul bersaglio di 5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+        },
+        {
+      "id": 500108,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sofferenza Promessa",
+          "desc": "Dà priorità ai nemici con più [RicardoBookRaid]\n[WhenUse] Se il bersaglio ha <color=#ff6000><mark=#ff000040><b><u>3+ [RicardoBookRaid],</u></b></mark></color> converte tutte le Monete in [SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vulnerable] questo turno e il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vulnerable] questo turno e il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge ([RicardoBookRaid] sul bersaglio x 3) danni Contundenti bonus"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Riduce l'[RicardoBookRaid] del bersaglio di 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+        },
+        {
+      "id": 500109,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Basta Giochetti",
+          "desc": "[StartBattle] Recupera 20 PS\n[EndBattle] Ottiene 5 [Enhancement] il turno successivo",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+        },
+        {
+      "id": 500110,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "VI CONDANNO A MORTE!!!",
+          "desc": "[DefeatDuel] Infligge -30% danni finali; i bersagli non possono essere Storditi.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge danno pari al 3% dei PV Max per ogni [RicardoBookRaid] sul bersaglio"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Riduce l'[RicardoBookRaid] del bersaglio di 10"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+        },
+        {
+      "id": 500111,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ah, Siete Di Famiglia",
+          "desc": "[StartBattle] Tutte le Unità del Medio recuperano 10 PS",
+          "coinlist": [
+            {},
+            {},
+            {}
+          ]
+        }
+      ]
+        },
+        {
+      "id": 500112,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "MI PRENDETE PER IL CULO?!?!",
+          "desc": "[StartBattle] Perde 20 PS\n[StartBattle] Ottiene 6 [AttackUp]\n[StartBattle] Ottiene 4 [Vulnerable]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+        },
+        {
+      "id": 500113,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Giuro Vendetta",
+          "desc": "[EndBattle] Ottiene 3 [AttackUp] il turno successivo\n- Se lo Slot Abilità di questo attacco <color=#ff6000><mark=#ff000040><b><u>è il bersaglio principale di un'Abilità Attacco nemica</u></b></mark></color>, ottiene 1 [AttackUp] in meno",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+        },
+        {
+      "id": 500114,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "QUESTA È UN'ESECUZIONE IMMEDIATA!!!",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge danno pari all'1% dei PV massimi del bersaglio per ogni [RicardoBookRaid] sul bersaglio"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge danno pari all'1% dei PV massimi del bersaglio per ogni [RicardoBookRaid] sul bersaglio"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge danno pari all'1% dei PV massimi del bersaglio per ogni [RicardoBookRaid] sul bersaglio"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+        },
+        {
+      "id": 500115,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fine Dei Test",
+          "desc": "[WhenUse] Ottiene 3 [HitDamageUp] il turno successivo\n[WhenUse] Se il bersaglio ha <color=#ff6000><mark=#ff000040><b><u>5+ [RicardoBookRaid]</u></b></mark></color>, converte tutte le Monete in [SuperCoin]",
+          "coinlist": [
+            {},
+            {}
+          ]
+        }
+      ]
+        },
+        {
+      "id": 500116,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "La Pietà del Fratellone",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Riduce l'[RicardoBookRaid] del bersaglio di 10</u></b></mark></color>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Stordisce il bersaglio</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+        },
+        {
+      "id": 500301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Cogli la Chance",
+          "desc": "[BeforeHit] Ottiene 5 Scudo per ogni [MiddleFingerBook] sul bersaglio (una volta per turno; max 50)\n[WhenUse] Se il bersaglio ha 5+ [MiddleFingerBook], Potere Base +3 e infligge 4 [DefenseDown]",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+        },
+        {
+      "id": 500401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Rappresaglia Molteplice",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+        },
+        {
+      "id": 501203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Rompi-Vertebra D'Orso",
+          "desc": "[WhenUse] A 8+ [Breath], infligge +40% danni sul Colpo Critico\n[WhenUse] Potere Finale +1 per ogni 4 [Laceration] sul bersaglio (max 2)\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>A 7+ [ChoiSwordsmanship], converte ogni Moneta in [SuperCoin] e infligge +100% danni sul Colpo Critico</color></mark></b></u>\n[DefeatDuel]\n- Infligge -80% danni\n- Non può eseguire Colpi Critici\n- Quest'Abilità non può Stordire il bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [SlashResistDown] questo turno e il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Laceration] e +3 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+        },
+        {
+      "id": 501207,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Spezza-Tigri",
+          "desc": "[WhenUse] A 8+ [Breath], infligge +40% danni sul Colpo Critico\n[WhenUse] Potere Finale +1 per ogni 4 [Laceration] sul bersaglio (max 2)\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>A 3 o meno [ChoiSwordsmanship], converte ogni Moneta in [SuperCoin] e infligge +100% danni sul Colpo Critico</color></mark></b></u>\n[DefeatDuel]\n- Infligge -80% danni\n- Non può eseguire Colpi Critici\n- Quest'Abilità non può Stordire il bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration] e +2 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration] e +2 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Binding] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [SlashResistDown] questo turno e il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+        },
+        {
+      "id": 501209,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Spada della Patria [Sal] - Riacquisire Postura",
+          "desc": "Quest'Abilità non è affetta da [ChoiSwordsmanship]\nSe l'Abilità del bersaglio è esclusiva alla [SupportProtect], converte la Moneta in [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>Perde 3 [ChoiSwordsmanship]</color></mark></b></u>\n- Se l'Abilità del bersaglio è esclusiva alla [SupportProtect], questo effetto non viene attivato\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>Se ha colpito come Attacco Incontrastato, o se ha colpito un'unità che ha usato un'Abilità esclusiva alle [SupportProtect], ottiene 2 [ChoiSwordsmanship]</color></mark></b></u>",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+        },
+        {
+      "id": 501210,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Spada della Patria [Sal] - Affilalama",
+          "desc": "Quest'Abilità non è affetta da [ChoiSwordsmanship]\nSe l'Abilità del bersaglio è esclusiva alla [SupportProtect], converte la Moneta in [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>Ottiene 3 [ChoiSwordsmanship]</color></mark></b></u>\n- Se l'Abilità del bersaglio è esclusiva alla [SupportProtect], questo effetto non viene attivato\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>Se ha colpito come Attacco Incontrastato, o se ha colpito un'unità che ha usato un'Abilità esclusiva alle [SupportProtect], perde 2 [ChoiSwordsmanship]</color></mark></b></u>",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+        },
+        {
+      "id": 501303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Rompi-Vertebra D'Orso",
+          "desc": "[WhenUse] A 8+ [Breath], infligge +40% danni sul Colpo Critico\n[WhenUse] Potere Finale +1 per ogni 4 [Laceration] sul bersaglio (max 2)\n[WhenUse] A più di 6 [ChoiSwordsmanship], ottiene Potere Finale per ogni Stack di [ChoiSwordsmanship] in eccesso (max 3)\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>A 7+ [ChoiSwordsmanship], converte ogni Moneta in [SuperCoin] e infligge +100% danni sul Colpo Critico</color></mark></b></u>\n[DefeatDuel]\n- Infligge -80% danni\n- Non può eseguire Colpi Critici\n- Quest'Abilità non può Stordire il bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [SlashResistDown] questo turno e il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Laceration] e +3 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+        },
+        {
+      "id": 501304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Persino i Sangun Cadranno Sotto Questa Lama",
+          "desc": "Bersaglia il nemico con più [Laceration]\n[WhenUse] Non può essere Stordita fino alla fine di quest'Abilità\n[WhenUse] Potere Finale +1 per ogni 4 [Laceration] sul bersaglio (max 3)\n[WhenUse] A più di 6 [ChoiSwordsmanship], ottiene Potere Finale +2 per ogni Stack di [ChoiSwordsmanship] in eccesso (max 6)\n[WinDuel] <color=#ff6000><mark color=#ff000040><b><u>Le Monete di quest'Abilità cadranno sempre su Testa, eseguiranno un Colpo Critico, e non consumano Conteggio [Breath]</color></mark></b></u>\n[BeforeAttack] Infligge +30% danni sul Colpo Critico per ogni 2 [ChoiSwordsmanship] su di sé (max 120%)\n[DefeatDuel]\n- Infligge -80% danni\n- Non può eseguire Colpi Critici\n- Quest'Abilità non può Stordire il bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge (([Breath] su di sé x 10)% dei danni finali di questa Moneta) danni Taglienti (max 100%)"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge (([Laceration] sul bersaglio x 10)% dei danni finali di questa Moneta) danni Lussuria (max 100%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Attiva [Laceration] sul bersaglio una volta. Il bersaglio perde 1 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+        },
+        {
+      "id": 501307,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Spezza-Tigri",
+          "desc": "[WhenUse] A 8+ [Breath], infligge +40% danni sul Colpo Critico\n[WhenUse] Potere Finale +1 per ogni 4 [Laceration] sul bersaglio (max 2)\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>A 3 o meno [ChoiSwordsmanship], converte ogni Moneta in [SuperCoin] e infligge +100% danni sul Colpo Critico</color></mark></b></u>\n[DefeatDuel]\n- Infligge -80% danni\n- Non può eseguire Colpi Critici\n- Quest'Abilità non può Stordire il bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration] e +2 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration] e +2 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Binding] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [SlashResistDown] questo turno e il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+        },
+        {
+      "id": 501308,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Le Carni di Nessuna Tigre Sarà Lasciata Intatta",
+          "desc": "Bersaglia il nemico con più [Laceration]\n<color=#ff6000><mark color=#ff000040><b><u>Ci si può Scontrare con quest'Abilità a prescindere dalla Velocità</color></mark></b></u>\n[WhenUse] Non può essere Stordita fino alla fine di quest'Abilità\n[WhenUse] Potere Finale +1 per ogni 4 [Laceration] sul bersaglio (max 3)\n[WinDuel] <color=#ff6000><mark color=#ff000040><b><u>Le Monete di quest'Abilità cadranno sempre su Testa, eseguiranno un Colpo Critico, e non consumano Conteggio [Breath]</color></mark></b></u>\n[BeforeAttack] Infligge +30% danni sul Colpo Critico per ogni 2 [Breath] su di sé (max 120%)\n[DefeatDuel]\n- Infligge -80% danni\n- Non può eseguire Colpi Critici\n- Quest'Abilità non può Stordire il bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Attiva [Laceration] sul bersaglio una volta. Il bersaglio perde 1 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Attiva [Laceration] sul bersaglio una volta. Il bersaglio perde 1 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Attiva [Laceration] sul bersaglio una volta. Il bersaglio perde 1 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio principale ha 10+ [Laceration], infligge +8 Conteggio [Laceration] su ogni bersaglio colpito da questa Moneta"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +8 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+        },
+        {
+      "id": 501309,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Spada della Patria [Sal] - Riacquisire Postura",
+          "desc": "Quest'Abilità non è affetta da [ChoiSwordsmanship]\nSe l'Abilità del bersaglio è esclusiva alla [SupportProtect], converte la Moneta in [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>Perde 3 [ChoiSwordsmanship]</color></mark></b></u>\n- Se l'Abilità del bersaglio è esclusiva alla [SupportProtect], questo effetto non viene attivato\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>Se ha colpito come Attacco Incontrastato, o se ha colpito un'unità che ha usato un'Abilità esclusiva alle [SupportProtect], ottiene 2 [ChoiSwordsmanship]</color></mark></b></u>",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+        },
+        {
+      "id": 501310,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Spada della Patria [Sal] - Affilalama",
+          "desc": "Quest'Abilità non è affetta da [ChoiSwordsmanship]\nSe l'Abilità del bersaglio è esclusiva alla [SupportProtect], converte la Moneta in [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>Ottiene 3 [ChoiSwordsmanship]</color></mark></b></u>\n- Se l'Abilità del bersaglio è esclusiva alla [SupportProtect], questo effetto non viene attivato\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>Se ha colpito come Attacco Incontrastato, o se ha colpito un'unità che ha usato un'Abilità esclusiva alle [SupportProtect], perde 2 [ChoiSwordsmanship]</color></mark></b></u>",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+        }
+    ]
+  }
+  

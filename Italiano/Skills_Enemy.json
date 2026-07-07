@@ -1,0 +1,4797 @@
+{
+  "dataList": [
+    {
+      "id": 9000101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Coltellata"
+        }
+      ]
+    },
+    {
+      "id": 9000102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Testa Bassa",
+          "desc": "[OnSucceedAttack] Infligge 2 [Binding] e cura il 5% dei PV Max"
+        }
+      ]
+    },
+    {
+      "id": 9000201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Attacco Furtivo",
+          "desc": "[OnSucceedAttack] Ottiene 1 [Enhancement] il turno successivo"
+        }
+      ]
+    },
+    {
+      "id": 9000202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Colpo Selvaggio"
+        }
+      ]
+    },
+    {
+      "id": 9000301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ferita Aperta",
+          "desc": "[OnSucceedAttack] Infligge 1 [Reduction] il turno successivo"
+        }
+      ]
+    },
+    {
+      "id": 9000302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Individua Debolezze",
+          "desc": "[OnSucceedAttack] Infligge 3 [Vulnerable] il turno successivo"
+        }
+      ]
+    },
+    {
+      "id": 9100101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Grida"
+        }
+      ]
+    },
+    {
+      "id": 9100102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ordine d'Assalto",
+          "desc": "[WhenUse] Applica 1 [Enhancement] a un alleato casuale il turno successivo"
+        }
+      ]
+    },
+    {
+      "id": 9100103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ordine Difensivo",
+          "desc": "[2xPostLine]\n[WhenUse] Applica 2 [Endurance] a 2 alleati casuali il turno successivo"
+        }
+      ]
+    },
+    {
+      "id": 9100104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Onde Mentali",
+          "desc": "[5xPostLine]\n[OnSucceedAttack] Infligge 20 danni ai PS"
+        }
+      ]
+    },
+    {
+      "id": 9000401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Mozzata Maldestra",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9000501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Coltellata Goffa",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9000601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Colpo Debole",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9000701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Colpo",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9000702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Attacco Pesante",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9000703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Blocco",
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "id": 9000801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Manrovescio",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9000802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Blocco Multiplo",
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "id": 9000901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Coltellata",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9000902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Colpi Rapidi",
+          "desc": "",
+          "coinlist": [
+            {},
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9001001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Botta",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9001002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Affetta",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9001101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Manrovescio",
+          "desc": "",
+          "keywords": [
+            "Bleeding"
+          ],
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Binding] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9001102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Blocco Multiplo",
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "id": 9001201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Coltellata",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9001202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Colpi Rapidi",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9001301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Botta",
+          "desc": "",
+          "keywords": [
+            "Bleeding"
+          ],
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9001302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Affetta",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge +3 Conteggio [Burst] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9000103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Manrovescio",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Binding] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9000104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Blocco",
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "id": 9000203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Coltellata",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9000204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Colpi Rapidi",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9000303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Botta",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9000304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Affetta",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge +3 Conteggio [Burst] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9001401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Manrovescio",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 3 [Binding] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9001402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Blocco Multiplo",
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "id": 9001501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Coltellata",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9001502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Colpi Rapidi",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9001601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Botta",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9001602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Affetta",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge +3 Conteggio [Burst] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9001603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Blocco Multiplo",
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "id": 9100105,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Grida",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100106,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ordine Difensivo",
+          "desc": "[WhenUse] Applica 1 [Protection] a 2 alleati casuali il turno successivo",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100108,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Irrigidire",
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "id": 9100109,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ordine d'Assalto",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge +5 Conteggio [Burst] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Grida",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 5 danni ai PS"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 5 danni ai PS"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ordine d'Assalto",
+          "desc": "[WhenUse] Applica 1 [AttackDmgUp] a 2 alleati casuali il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge +5 Conteggio [Burst] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Onde Mentali",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 15 danni ai PS"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Irrigidire",
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "id": 9100205,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ordine Difensivo",
+          "desc": "[WhenUse] Applica 1 [Protection] a 2 alleati casuali il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 5 danni ai PS"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9001701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Botta",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9001702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Spinta Furtiva",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Binding] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Binding] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9001703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Piccolo Desiderio",
+          "desc": "[StartBattle] Tutte le Monete dell'Abilità Attacco nel secondo slot lanceranno Testa",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9001801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "State Zitti",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9001802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Botta Pesante",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9001803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Piccolo Desiderio",
+          "desc": "[StartBattle] Tutte le Monete dell'Abilità Attacco nel secondo slot lanceranno Testa",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9001901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Incidere",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9001902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Coltellata Astuta",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9001903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Piccolo Desiderio",
+          "desc": "[StartBattle] Tutte le Monete dell'Abilità Attacco nel secondo slot lanceranno Testa",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9001904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Difesa",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sgozza",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 3 [Laceration] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Pugnalata",
+          "desc": "[BeforeAttack] Se i PV del bersaglio sono inferiori al 50%, riusa le prime due Monete",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Burst] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Burst] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Mutilare",
+          "desc": "[EnemyKill] Usa di nuovo quest'Abilità 1 volta",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 3 danni"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 3 danni"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 3 danni"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ti Faccio Vedere Io...!",
+          "desc": "[StartBattle] Ottiene 1 [Enhancement]",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100305,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Desiderio Luccicante",
+          "desc": "[StartBattle] Durante questo turno, tutte le Monete lanceranno Testa",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100306,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Levati Dai Piedi!",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Allarme Intruso!",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Binding] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Feermi!",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 4 [PlusCoinValueDown] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fermi Dove Siete!",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [ResultReduction] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [ResultReduction] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Questo Farà Male!",
+          "desc": "[WinDuel] Potere Abilità +1",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Intruso Individuato",
+          "desc": "",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Binding] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Mossa Prudente",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Paralysis] il turno successivo"
+                }
+              ]
+            },
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Arresto Di Massa",
+          "desc": "[WinDuel] Potere Abilità +2",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Paralysis] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Non Hai Chance",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Bailemos~",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Cura 2 PS"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Cura 2 PS"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Cura 2 PS"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Danza de Paz",
+          "desc": "[WhenUse] Applica 1 [Endurance] a tutti gli alleati il turno successivo",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Duelo de Baile",
+          "desc": "[WinDuel] Infligge 5 danni ai PS",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Reduction] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Puñales Joviales",
+          "desc": "Se i PS del bersaglio sono sotto 0, Potere Abilità +1",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002405,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "¡Olé!",
+          "desc": "[OnSucceedEvade] Infligge 5 danni ai PS",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Danza de Emoción",
+          "desc": "[WhenUse] Ottiene 1 [Enhancement] il turno successivo",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Pasos Pasionales",
+          "desc": "[WhenUse] Cura 5 PS",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "¿Eso es todo?",
+          "desc": "[WinDuel] Infligge 10 danni ai PS",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Reduction] e 3 [Paralysis] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "¡Bruscamente!",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Enhancement] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Rápidamente~",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Endurance] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100405,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Pañata Party~!",
+          "desc": "[WhenUse] Se i PS del bersaglio sono sotto 0, la percentuale di effettuare un Colpo Critico aumenta proporzionalmente ai suoi PS",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Abbassa la propria Soglia di Stordimento del 50% dei danni inflitti"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100406,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "¡Excelente!",
+          "desc": "[OnSucceedEvade] Abbassa la propria Soglia di Stordimento di 5 e infligge 5 danni ai PS",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Te Faccio A Pezzi",
+          "desc": "Se i PS del bersaglio sono minori a quelli su di sé, Potere Abilità +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Benvenuto Grottesco",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 15 danni ai PS"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Raffica Di Insulti",
+          "desc": "[WinDuel] Un alleato casuale cura 10 PS",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 danni ai PS"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ey!",
+          "desc": "[WinDuel] Infligge 15 danni ai PS",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Paralysis] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002607,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Che Te Guardi?",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Te Spacco Er Cranio",
+          "desc": "Se i PS del bersaglio sono minori a quelli su di sé, Potere Abilità +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Raid",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Barriera",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Neutralizza il Bersaglio",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 3 [Vibration] il turno successivo"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Attivazione dei Proiettili PV",
+          "desc": "[WhenUse] Cura 10 PV",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Abbattimento",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Protezione",
+          "desc": "[WinDuel] Applica 1 [Endurance] a 2 alleati casuali il turno successivo",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Barriera",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Innesca [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "",
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "id": 9003101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Riparo",
+          "desc": "[WinDuel] Applica 2 [Protection] a un alleato casuale il turno successivo",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Inficca",
+          "desc": "",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Pianta Chiodo",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Nail] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Nail] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Abbatti",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Paralysis] e 1 [Disarming] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Martello",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Binding] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Inquisizione",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Nail]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "",
+          "desc": "",
+          "coinlist": [
+            {},
+            {},
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Inchiodatura Grezza",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Nail] e 1 [Laceration] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Nail] e 1 [Laceration] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Nail] e 1 [Laceration] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sermone Aggressivo",
+          "desc": "[DefeatDuel] Ottiene 2 [Vulnerable] il turno successivo",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vulnerable] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Come Osi?!",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Nail] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "",
+          "desc": "",
+          "coinlist": [
+            {},
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Martellamento Vigoroso",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Binding] e 2 [Paralysis] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sermone Opprimente",
+          "desc": "[DefeatDuel] Ottiene 2 [Reduction] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Reduction] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Inquisizione Assertiva",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Nail]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 5 o più [Nail], infligge 10 [Binding] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ficca Chiodi",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Nail] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Congrega",
+          "desc": "[WinDuel] Applica 1 [Assemble] a 2 alleati casuali il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration] il turno successivo"
+                }
+              ]
+            },
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fede Audace",
+          "desc": "[WhenUse] Ottiene 1 [Protection]",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sentenza Del Martello",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 3 [Binding] e 2 [Reduction] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Unione",
+          "desc": "[WinDuel] Cura due alleati con meno PS di 15 PS",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration] il turno successivo"
+                }
+              ]
+            },
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Inquisizione Ponderosa",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Nail]"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 5 o più [Nail], infligge 10 [Reduction] e 10 [Paralysis] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Pianta Palo",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Nail] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Nail] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Nail] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Impala",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Laceration] e 2 [Vulnerable] il turno successivo"
+                }
+              ]
+            },
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "A Me, Martelli...!",
+          "desc": "[WinDuel] Applica 1 [Assemble] a tutti gli alleati il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Cura i due alleati con meno PS di 10 PS"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ti Libero dal Peccato",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 3 [Nail]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 5 o più [Nail], viene Stordito"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100505,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sostenitore Fedele",
+          "desc": "[WhenUse] Ottiene 2 [Protection]",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Pianta Palo",
+          "desc": "Se i PV sono inferiori al 50%, infligge +1 [Nail]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Nail] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Nail] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Nail] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Impala",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Laceration] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "La Sacra Missione Sarà Compiuta...!",
+          "desc": "[WhenUse] Applica 1 [Assemble] a tutti gli alleati il turno successivo",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ti Purificherò... Dal Peccato!",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 5 [Nail]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 5 o più [Nail], viene Stordito"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Distruggere gli Eretici",
+          "desc": "Se il bersaglio ha [Nail], infligge +100% danni",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 10 [Burst] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Vulnerable] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100606,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Stolti...!",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Nail] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Abbatti",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Linea di Morte",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Kii",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 3 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Kiih",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge +3 Conteggio [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Blocco",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Kiih",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 3 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Kiieeh",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
+                }
+              ]
+            },
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Blocco",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Kigik!",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Kieek!",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Riduce il Livello Difensivo del bersaglio di 2 e infligge +1 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Blocco",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Kigigiik",
+          "desc": "Se quest'unità non ha subito danni lo scorso turno, Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 5 [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Kigigiik",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Binding] e riduce il livello Difensivo di 2 il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Kieegikhik",
+          "desc": "[WhenUse] Ottiene 2 [Protection]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Blocco",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Scatto di Prossimità",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ritirata; Ritirata;",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Scatto di Prossimità",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ritirata; Ritirata;",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Flash; Flash;",
+          "desc": "[WhenUse] Il bersaglio perde 10 PS",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004606,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Scansione Debolezze.",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vulnerable] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004607,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Impedimento.",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Paralysis] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Intagliare.",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Incisione.",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Vulnerable] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 5 [DefenseDown] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ricarica... Fuoco",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Compressione.",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Reduction] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Innesca [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Intagliare",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +5 Conteggio [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Incisione.",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [DefenseDown] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Vulnerable] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Motosega... Sbattimento.",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +5 Conteggio [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 5 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Vulnerable] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ingaggio Modalità Difensiva",
+          "desc": "[WhenUse] Ottiene 2 [Protection]",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ricarica... Fuoco",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge +2 Conteggio [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Compressione.",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 Offense Level Down il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ATTENZIONE, ATTENZIONE: Instabile",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 Offense Level Down il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ingaggio Modalità Difensiva",
+          "desc": "[WhenUse] Ottiene 2 [Protection]",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lacerazione.",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge +5 Conteggio [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ferita: AVVISTATA, AVVISTATA.",
+          "desc": "Dà priorità ai nemici con [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge danni fissi pari al Conteggio [Burst] sul bersaglio"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Amplifica Vibrazione",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge +3 Conteggio [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Scomposizione.",
+          "desc": "Dà priorità ai nemici con [Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 5 [Paralysis] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ATTENZIONE, ATTENZIONE: Tremolio",
+          "desc": "Dà priorità ai nemici con [Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 10 [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100706,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Debolezza Avvistata",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge -50% danni\n[OnSucceedAttack] Stordisce il bersaglio"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100707,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ingaggio Modalità Difensiva",
+          "desc": "[StartBattle] Ottiene 3 [Protection]",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100708,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Mi permetta di ricambiare il favore.",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge [Vibration] pari al numero di Monete che hanno colpito il turno precedente"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ti Farà Perdere l'Equilibrio!",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Aumento Della Vibrazione",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Raddoppia il Conteggio [Vibration] sul bersaglio"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ecco Qui!",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Accendi I Motori",
+          "desc": "[WhenUse] Ottiene 1 [VibrationAssimilation] il turno successivo",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Prendi Questo!",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Amplifica Vibrazione",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge [Vibration] in base alla [Vibration] sul bersaglio"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Basta Così!",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Accendi I Motori",
+          "desc": "[WhenUse] Ottiene 1 [VibrationAssimilation] il turno successivo",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Frizione Intensificata",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 3 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ti Macinerò!",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 3 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Scuoti, Scuoti!",
+          "desc": "",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se le Monete 1 & 2 lanciano Testa, infligge [Vibration] in base alla [Vibration] sul bersaglio"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se le Monete 1 & 2 lanciano Testa, infligge [Vibration] quante volte questa Abilità fa Testa"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Accendi I Motori",
+          "desc": "[WhenUse] Ottiene 1 [VibrationAssimilation] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sta' Indietro!",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Preparati A Vacillare!",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge [Paralysis] in base alla [Vibration] sul bersaglio il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Turbo Amplificazione",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge [Vibration] in base alla [Vibration] sul bersaglio"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Conversione Traballante",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge [Vibration] in base alla [Vibration] sul bersaglio"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge [Paralysis] in base alla [Vibration] sul bersaglio il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100805,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vibrazione Compressa",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100806,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Alziamo la Posta!",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Aumenta la Soglia di Stordimento di 10"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Aumenta la Soglia di Stordimento di 20"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100807,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Riscaldamento Finale",
+          "desc": "[StartBattle] Ottiene 4 [Protection]\nCura 15 PS",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fermate Gli intrusi",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Accesso Vietato",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Accesso Proibito",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Vulnerable] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Al Riparo, Al Riparo!",
+          "desc": "[StartBattle] Cura il 5% dei PV Max",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Halt! Fermati!",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Per Piacere, Si Fermi!",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 3 [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lei è in Arresto!",
+          "desc": "Dà priorità ai nemici con [Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Mettersi Al Riparo!",
+          "desc": "[StartBattle] Cura il 5% dei PV Max",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Somministrazione delle Capsule PV",
+          "desc": "[CantDuel]\n[WhenUse] Quest'Abilità bersaglia solo gli alleati e non infligge danni\n- Esclude i danni da effetto sul colpo come [Burst] e [Sinking]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Cura i PV del bersaglio"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Somministrazione delle Capsule Rinforzanti",
+          "desc": "[CantDuel]\n[WhenUse] Quest'Abilità bersaglia solo gli alleati e non infligge danni\n- Esclude i danni da effetto sul colpo come [Burst] e [Sinking]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Aumenta la Resistenza di un'Affinità casuale del bersaglio"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Somministrazione delle Capsule Decadenti",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [CollapseAmpoule]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Paralysis] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Avvio delle Manovre Elusive.",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Somministrazione delle Capsule Decadenti",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Paralysis] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [CollapseAmpoule]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Debolezze Esposte.",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vulnerable] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Vulnerable] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 3 [CollapseAmpoule]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Continui l'Ingaggio.",
+          "desc": "[CantDuel]\n[WhenUse] Quest'Abilità bersaglia solo gli alleati",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Applica 2 [AttackDmgUp] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Non Trattenga le Forze.",
+          "desc": "[CantDuel]\n[WhenUse] Quest'Abilità bersaglia solo gli alleati",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Applica 2 [Enhancement] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vulnerable] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ritirata.",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Maledizione Dolente",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 [Burst] Count"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Maledizione Proliferante",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 [Burst] Count"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 [Burst] Count"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ferita Esposta",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Talismano Difensivo",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fluido Sopprimente",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 Bind il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fluido Esplosivo",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fluido Barcollante",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 [Vibration] Count"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Blocco Fluido",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9006101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Maledizione Dolente",
+          "desc": "[WhenUse] Ottiene 1 [WrappedCurseTag]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 [Burst] Count"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9006102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Maledizione Proliferante",
+          "desc": "[WhenUse] Ottiene 2 [WrappedCurseTag]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 [Burst] Count"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 [Burst] Count"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9006103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Maledizione Impedente",
+          "desc": "[WhenUse] Ottiene 2 [WrappedCurseTag]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 2 Bind il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9006104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ferita Pronunciata",
+          "desc": "[EndBattle] Rimuove ogni [WrappedCurseTag] su di sé",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Binding] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 5 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9006105,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Talismano Difensivo",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9006001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fluido Sopprimente",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Binding] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9006002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fluido Esplosivo",
+          "desc": "[WhenUse] Ottiene 1 [Exalted]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9006003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fluido Barcollante",
+          "desc": "[WhenUse] Ottiene 1 [Exalted]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9006004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Blocco Fluido",
+          "desc": "[WhenUse] Cura il 5% dei PV Max\nOttiene 2 [Vulnerable] il turno successivo\n[EndBattle] Rimuove tutto l'[Tipsiness] su di sé",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Maledizione Impedente",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Binding] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Maledizione Smussata",
+          "desc": "[WhenUse] Infligge 1 [ReattachedCurseTag]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [HitTakeDamageUp]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Talismano Moltiplicante",
+          "desc": "Bersaglia il nemico con più [Burst]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge [Burst] pari ai [ReattachedCurseTag] sul bersaglio"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Maledizione Paralizzante",
+          "desc": "[EndBattle] Rimuove ogni [ReattachedCurseTag] sul bersaglio",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge [Paralysis] per ogni [ReattachedCurseTag] sul bersaglio"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100905,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Talismano Maledetto Strangolante",
+          "desc": "Bersaglia il nemico con più [ReattachedCurseTag]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [ReattachedCurseTag]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100906,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Talismano Maledetto Esplosivo",
+          "desc": "Bersaglia il nemico con più [ReattachedCurseTag]\n[EndBattle] Rimuove ogni [ReattachedCurseTag] sul bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [ReattachedCurseTag]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Se il bersaglio ha 9+ [ReattachedCurseTag], infligge 5 [Paralysis]\nInfligge danni fissi pari al 50% dei danni inflitti"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100907,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Diffusione del Talismano Maledetto",
+          "desc": "[WhenUse] Infligge 2 [ReattachedCurseTag]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9101001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Talismano Maledetto Scadente",
+          "desc": "Bersaglia il nemico con più [ReattachedCurseTag]\n[EndBattle] Rimuove ogni [ReattachedCurseTag] sul bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [ReattachedCurseTag]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] Se il bersaglio ha 9+ [ReattachedCurseTag], infligge 5 [Paralysis]\nInfligge danni fissi pari al 50% dei danni inflitti"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9006801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Individui Sospetti",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] Infligge 3 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9006802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Contenere",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] Infligge 3 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9006803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Nessuna Intrusione",
+          "desc": "Bersaglia l'unità con più PV",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] La prossima moneta infligge +10% danni"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] La prossima moneta infligge +10% danni"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] Se anche la Moneta 2 ha lanciato Croce, la prossima Moneta infligge +30% Danni"
+                }
+              ]
+            },
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9007001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Moto d'Incastro",
+          "desc": "[WhenUse] Ottiene +1 Conteggio [Charge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [InterlockingTime]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Consuma 2 Conteggio [Charge] per infliggere 3 [Paralysis]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9007002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sottrazione del Tempo",
+          "desc": "[WhenUse] Ottiene +1 Conteggio [Charge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Agility]; Infligge 2 [Binding] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9007003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Moto Accelerato",
+          "desc": "[StartBattle] Ottiene +3 Conteggio [Charge]\n[WhenUse] A 5+ Conteggio [Charge], Potere Scontro +2\n[EndBattle] Diventa [Inactible]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Binding] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] A 5+ Conteggio [Charge], consuma tutto il Conteggio [Charge] per infliggere +10% Danni per ogni Conteggio"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [InterlockingTime]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9007004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tempo in Prestito",
+          "desc": "[StartBattle] Ottiene 3 [TimeRental] e +1 Conteggio [Charge]",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9007101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Scatto di Prossimità",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9007102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ritirata; Ritirata;",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9007103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Flash; Flash;",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Il bersaglio perde 5 PS"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Il bersaglio perde 5 PS"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9007104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Arresto.",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Binding] e 3 [Paralysis] il turno successivo."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9008201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Individui Sospetti",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 3 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9008202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Contenere",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 3 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9008203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Nessuna Intrusione",
+          "desc": "Bersaglia l'unità con più PV",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] La prossima Moneta infligge +10% Danni"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] La prossima Moneta infligge +10% Danni"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Se anche la Moneta 2 ha lanciato Testa, la prossima Moneta infligge +30% Danni"
+                }
+              ]
+            },
+            {}
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1196 @@
+{
+  "dataList": [
+    {
+      "id": 9012801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Deter Rulebreakers",
+          "desc": "[WhenUse] Se il bersaglio ha [Laceration], recupera 4 PS",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9012802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Rule Execution",
+          "desc": "[WhenUse] Se il bersaglio ha 5+ [Laceration], Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [Laceration], recupera 5 PS"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [Laceration], recupera 5 PS"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9012803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Execute Rulebreakers",
+          "desc": "[WinDuel] Se il bersaglio ha [Laceration], ottiene 1 [Enhancement] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 5+ [Laceration], infligge danno bonus pari al 20% del danno inflitto"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [DefenseDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 5+ [Laceration], infligge danno bonus pari al 20% del danno inflitto"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [DefenseDown]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9012804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Blocco",
+          "desc": "If this unit has remaining Shield PV at Turn End, ottiene 2 [AttackDmgUp] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9012901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Dispose Rulebreakers",
+          "desc": "[WhenUse] Se il bersaglio ha [Laceration], recupera 4 PS",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9012902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Rule Fulfillment",
+          "desc": "[WhenUse] Se il bersaglio ha 4+ Conteggio [Laceration], Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [Laceration], recupera 5 PS"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [Laceration], recupera 5 PS"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9012903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Punish Rulebreakers",
+          "desc": "[WinDuel] Se il bersaglio ha [Laceration], ottiene 1 [Enhancement] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 4+ Conteggio [Laceration], infligge danno bonus pari al 20% del danno inflitto"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [DefenseDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 4+ Conteggio [Laceration], infligge danno bonus pari al 20% del danno inflitto"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [DefenseDown]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9012904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Blocco",
+          "desc": "If this unit has remaining Shield PV at Turn End, ottiene 2 [AttackDmgUp] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Punishment Execution",
+          "desc": "[WinDuel] Se il bersaglio ha 5+ [Laceration], riusa quest'Abilità (once)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Laceration] and +2 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Discipline Rulebreakers",
+          "desc": "Se il bersaglio ha 5+ [Laceration], infligge +30% danni",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [Laceration], Infligge 2 [AttackDown] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge [Burst] pari a ([Laceration]/2)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [Laceration], recupera 7 PS"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Violated Clause",
+          "desc": "Potere Moneta +1 per ogni 3 [Laceration] sul bersaglio (max 3)\n[WinDuel] Se il bersaglio ha 6+ [Laceration], infligge +40% danni",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 8 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [Laceration], recupera 5 PS"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge [Burst] pari al [Laceration] sul bersaglio"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [Laceration], recupera 10 PS"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Se il bersaglio ha 5+ [Laceration], riusa quest'Abilità (once)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Evasione",
+          "desc": "[OnSucceedEvade] Ottiene [Enhancement] (max 1)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Bozzetto",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Pennellata",
+          "desc": "Se il bersaglio ha 5+ [Laceration], Potere Base +2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [Laceration], recupera 5 PS"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [Laceration], recupera 5 PS"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge [Burst] pari al [Laceration] sul bersaglio"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Puntini Sanguinei",
+          "desc": "[WinDuel] Se il bersaglio ha [Laceration], ottiene 1 [Enhancement] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 5+ [Laceration], infligge danno bonus pari al 20% del danno inflitto"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [DefenseDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 5+ [Laceration], infligge danno bonus pari al 20% del danno inflitto"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [DefenseDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 5+ [Laceration], riusa quest'Abilità (max 1 volta)"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [DefenseDown]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Blocco",
+          "desc": "[EndBattle] Se lo Scudo non è stato distrutto, ottiene 3 [AttackDmgUp] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Disegno a Linea",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tratteggiare",
+          "desc": "Se il bersaglio ha 5+ [Laceration], Potere Base +2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [Laceration], recupera 5 PS"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [Laceration], recupera 5 PS"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge [Burst] pari al [Laceration] sul bersaglio"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Pois Sanguinei",
+          "desc": "[WinDuel] Se il bersaglio ha [Laceration], ottiene 1 [Enhancement] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 4+ Conteggio [Laceration], infligge danno bonus pari al 20% del danno inflitto"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [DefenseDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 4+ Conteggio [Laceration], infligge danno bonus pari al 20% del danno inflitto"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [DefenseDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 4+ Conteggio [Laceration], riusa quest'Abilità (max 1 volta)"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [DefenseDown]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Blocco",
+          "desc": "[EndBattle] Se lo Scudo non è stato distrutto, ottiene 3 [AttackDmgUp] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Colorare",
+          "desc": "[WinDuel] Dopo l'attacco, se il bersaglio ha 5+ [Laceration], riusa quest'Abilità su un nemico casuale (max 1 volta)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +4 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Puntinismo Sanguineo",
+          "desc": "Se il bersaglio ha 5+ [Laceration], infligge +30% danni",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [Laceration], Infligge 2 [AttackDown] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [AttackDown] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge [Burst] pari al [Laceration] sul bersaglio"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Puntinismo",
+          "desc": "Potere Moneta +1 per ogni 3 [Laceration] sul bersaglio (max 4)\n[WinDuel] Se il bersaglio ha 6+ [Laceration], infligge +40% danni",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 10 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge Conteggio [Burst] pari al Conteggio [Laceration] sul bersaglio"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge [Burst] pari al [Laceration] sul bersaglio"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sangue della Valle",
+          "desc": "[WinDuel] Se il bersaglio ha [Laceration], ottiene 1 [Enhancement] il turno successivo\n[WinDuel] Se il bersaglio ha 10+ [Laceration], ottiene 1 [Enhancement] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [DefenseDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [DefenseDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 5+ [Laceration], riusa quest'Abilità (max 3 volte)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Riduce il Conteggio [Laceration] sul bersaglio by 1"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [DefenseDown]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013305,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Evasione",
+          "desc": "[OnSucceedEvade] Ottiene [Enhancement] (max 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Normal Attack 1",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [AttackDown] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [AttackDown] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Paralysis]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Normal Attack 2",
+          "desc": "[WhenUse] Se il bersaglio ha [AttackDown], infligge +20% danni",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [HitResistDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [HitResistDown]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [DefenseDown] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Normal Attack 3",
+          "desc": "[WhenUse] Se il bersaglio ha 2+ [AttackDown], Potere Scontro +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vulnerable]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Binding] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Recupera 4 PS"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [DefenseDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Recupera 4 PS"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [DefenseDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Recupera 4 PS"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [DefenseDown]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Normal Attack 4",
+          "desc": "Prioritizes targets with the most negative effects\n[WhenUse] Potere Scontro +1 per ogni 3 [DefenseDown] sul bersaglio (max 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vulnerable]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vulnerable] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Paralysis] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +20% danni per ogni 2 [AttackDown] sul bersaglio (max 100%)"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Se il bersaglio ha 3+ negative effects, reuse this coin (max 1 volta)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013505,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Contrattacco",
+          "desc": "Se il bersaglio ha [Vulnerable], Potere Base +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9101501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Dannati Plebei...!",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [AttackUp] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [AttackUp] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9101502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vi Butto Fuori!",
+          "desc": "[WinDuel] Potere Base +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [AttackDown], infligge danni Contundenti bonus pari al 20% del danno inflitto"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [AttackDown], infligge danni Contundenti bonus pari al 20% del danno inflitto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9101503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Rimetterò Tutto A Posto",
+          "desc": "[WinDuel] Se il bersaglio ha 2+ [AttackDown], Potere Base +1\n[WhenUse] Se il bersaglio ha [AttackDown], infligge +30% danni",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Recupera 4 PS"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Recupera 4 PS"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Recupera 4 PS"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9101504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fatti Schiacciare",
+          "desc": "Dà priorità all'unità con più status negativi\n[WinDuel] Potere Moneta +1 per ogni 3 [AttackDown] sul bersaglio (max 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vulnerable]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vulnerable] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Paralysis] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +30% danni per ogni 2 [AttackDown] sul bersaglio (max 120%)"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Se il bersaglio ha 3+ status negativi, riusa questa Moneta (max 1 volta)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9101505,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Blocco",
+          "desc": "[StartBattle] Ottiene 20 Scudo in più per ogni altro alleato in vita",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9101601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Mazzata",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9101602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Batosta",
+          "desc": "[WinDuel] Ottiene 1 [Enhancement] and 1 Danno Aumentato il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge [Laceration] pari alla [Burst] sul bersaglio"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9101603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Randellata",
+          "desc": "Se il bersaglio ha 5+ [Burst], Potere Scontro +1\nSe il bersaglio ha 5+ [Laceration], Potere Scontro +1\n[WinDuel] Infligge +3 Conteggio [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Potere della prossima Moneta +1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Potere della prossima Moneta +2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Paralysis] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge danni Perforanti pari a ([Laceration] x Conteggio [Laceration])"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9101604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Blocco",
+          "desc": "[WhenUse] Ottiene 1 [Enhancement] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9101605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Contrattacco",
+          "desc": "[WhenUse] Ottiene 1 [Enhancement] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

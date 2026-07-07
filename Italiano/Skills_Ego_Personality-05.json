@@ -1,0 +1,1038 @@
+{
+  "dataList": [
+    {
+      "id": 2050511,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Rimpianto",
+          "abName": "Assassino Dimenticato",
+          "desc": "[BeforeAttack] Rimuove 1 effetto negativo rimovibile applicato a sé",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]; Infligge un ulteriore (Rison-A Ira /3) Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Rimpianto",
+          "abName": "Assassino Dimenticato",
+          "desc": "[BeforeAttack] Rimuove 1 effetto negativo rimovibile applicato a sé",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]; Infligge un ulteriore (Rison-A Ira /3) Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]\nSe il bersaglio non ha una Soglia di Stordimento durante l'innesco di [VibrationExplosion],\ninfligge danno da Ira pari al (6 + 2x(Rison-A Ira))% di quanto è stata alzata la Soglia di Stordimento"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Rimpianto",
+          "abName": "Assassino Dimenticato",
+          "desc": "[BeforeAttack] Rimuove 2 effetti negativi rimovibili applicato a sé",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Vibration]; Infligge un ulteriore (Rison-A Ira /3) Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]\nSe il bersaglio non ha una Soglia di Stordimento durante l'innesco di [VibrationExplosion],\ninfligge danno da Ira pari al (12 + 3x(Rison-A Ira))% di quanto è stata alzata la Soglia di Stordimento"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050521,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Rimpianto",
+          "abName": "Assassino Dimenticato",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Se quest'unità ha un effetto negativo su di sé, Portata Attacco +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]\nLa quantità di Soglia di Stordimento che aumenta in base a [VibrationExplosion] incrementa del 30% di [Vibration] sul bersaglio.\nRiduce Conteggio [Vibration] di 1."
+                },
+                {
+                  "desc": "[EndSkill] Ottiene 3 [Binding] e 1 [HitResultUp] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Rimpianto",
+          "abName": "Assassino Dimenticato",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Se quest'unità ha un effetto negativo su di sé, Portata Attacco +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]\nLa quantità di Soglia di Stordimento che aumenta in base a [VibrationExplosion] incrementa del 40% di [Vibration] sul bersaglio.\nSe il bersaglio non ha una Soglia di Stordimento durante l'innesco di [VibrationExplosion],\ninfligge danno da Ira pari al (6 + 2x(Rison-A Ira))% di quanto è stata alzata la Soglia di Stordimento\nRiduce Conteggio [Vibration] di 1"
+                },
+                {
+                  "desc": "[EndSkill] Ottiene 3 [Binding] e 1 [HitResultUp] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Rimpianto",
+          "abName": "Assassino Dimenticato",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Se quest'unità ha un effetto negativo su di sé, Portata Attacco +2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]\nLa quantità di Soglia di Stordimento che aumenta in base a [VibrationExplosion] incrementa del 40% di [Vibration] sul bersaglio.\nSe il bersaglio non ha una Soglia di Stordimento durante l'innesco di [VibrationExplosion],\ninfligge danno da Ira pari al (12 + 3x(Rison-A Ira))%di quanto è stata alzata la Soglia di Stordimento\nRiduce Conteggio [Vibration] di 1"
+                },
+                {
+                  "desc": "[EndSkill] Ottiene 3 [Binding] e 1 [HitResultUp] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050611,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Strillo Elettrico",
+          "abName": "Pecora Elettrica Sognante",
+          "desc": "[BeforeAttack] Ottiene +8 Conteggio [Charge]\n[EndSkill] Applica +8 Conteggio [Charge] ad 1 altro alleato che ha il Conteggio [Charge] minore\n- Il numero degli alleati a cui viene applicato quest'effetto aumenta di (Rison. Invidia più alta - 2) (max 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Strillo Elettrico",
+          "abName": "Pecora Elettrica Sognante",
+          "desc": "[BeforeAttack] Ottiene +8 Conteggio [Charge]\n[EndSkill] Applica +8 Conteggio [Charge] ad 1 altro alleato che ha il Conteggio [Charge] minore\n- Il numero degli alleati a cui viene applicato quest'effetto aumenta di (Rison. Invidia più alta - 2) (max 4)\n- A 4+ (Rison. Invidia più alta), applica 1 [VioletDamageUp] a sé e agli alleati a cui è stato applicato l'effetto precedente",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Strillo Elettrico",
+          "abName": "Pecora Elettrica Sognante",
+          "desc": "[BeforeAttack] Ottiene +12 Conteggio [Charge]\n[EndSkill] Applica +8 Conteggio [Charge] ad 1 altro alleato che ha il Conteggio [Charge] minore\n- Il numero degli alleati a cui viene applicato quest'effetto aumenta di (Rison. Invidia più alta - 2) (max <style=\"highlight\">5</style>)\n- A 4+ (Rison. Invidia più alta), applica 1 [VioletDamageUp] a sé e agli alleati a cui è stato applicato l'effetto precedente\n<style=\"highlight\">- A 6+ (Rison. Invidia più alta), applica 1 [VioletDamageUp] a sé e agli alleati a cui è stato applicato l'effetto precedente</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050621,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Strillo Elettrico",
+          "abName": "Pecora Elettrica Sognante",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene Portata Attacco pari a (Rison. Invidia più alta - 2) (max 2)\n[BeforeAttack] Se quest'unità ha 10+ Conteggio [Charge], spende fino a 20 Conteggio [Charge] Count; infligge +2% danni per ogni Conteggio [Charge] consumato (max 40%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Paralysis]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Strillo Elettrico",
+          "abName": "Pecora Elettrica Sognante",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene Portata Attacco pari a (Rison. Invidia più alta - 2) (max <style=\"highlight\">3</style>)\n[BeforeAttack] Se quest'unità ha 10+ Conteggio [Charge], spende fino a 20 Conteggio [Charge] Count; infligge +<style=\"highlight\">2.5</style>% danni per ogni Conteggio [Charge] consumato (max <style=\"highlight\">50</style>%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Paralysis]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Strillo Elettrico",
+          "abName": "Pecora Elettrica Sognante",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack]Ottiene Portata Attacco pari a (Rison. Invidia più alta - 2) (max 3)\n<style=\"highlight\">[BeforeAttack] A 10+ Conteggio [Charge], applica gli effetti di 'Sul Colpo' due volte</style>\n[BeforeAttack] Se quest'unità ha 10+ Conteggio [Charge], spende fino a 20 Conteggio [Charge] Count; infligge +<style=\"highlight\">3</style>% danni per ogni Conteggio [Charge] consumato (max <style=\"highlight\">60</style>%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Paralysis]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Mircalla Bramante",
+          "abName": "Quattrocento Rose",
+          "desc": "[EndSkill] Per 3 turni, perde 10 PS a Fine Turno",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Infligge +2 Conteggio [RoseWedge]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [RoseWedge]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Attiva [Laceration] sul bersaglio una volta (il bersaglio perde 1 Conteggio [Laceration])"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Mircalla Bramante",
+          "abName": "Quattrocento Rose",
+          "desc": "<style=\"highlight\">Se il bersaglio ha 6+ [Laceration], Potere Moneta +1</style>\n[EndSkill] Per 3 turni, perde 10 PS a Fine Turno",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] A 4+ Rison. più alta, attiva [Laceration] sul bersaglio una volta (il bersaglio perde 1 Conteggio [Laceration])</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] A 4+ Rison. più alta, attiva [Laceration] sul bersaglio una volta (il bersaglio perde 1 Conteggio [Laceration])</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Infligge +2 Conteggio [RoseWedge]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [RoseWedge]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Attiva [Laceration] sul bersaglio <style=\"highlight\">(1 + (Rison. più alta/2)) volte. (3 volte max; il bersaglio perde Conteggio [Laceration] pari al numero di quante volte [Laceration] è stata attivata)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Mircalla Bramante",
+          "abName": "Quattrocento Rose",
+          "desc": "<style=\"highlight\">Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)</style>\n[EndSkill] Per 3 turni, perde 10 PS a Fine Turno",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] A 4+ Rison. più alta, attiva [Laceration] sul bersaglio una volta (il bersaglio perde 1 Conteggio [Laceration])<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] A 4+ Rison. più alta, attiva [Laceration] sul bersaglio una volta (il bersaglio perde 1 Conteggio [Laceration])<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Infligge +2 Conteggio [RoseWedge]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +<style=\"highlight\">2</style> Conteggio [RoseWedge]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Attiva [Laceration] sul bersaglio (1 + (Rison. più alta/2)) volte. (3 volte max; il bersaglio perde Conteggio [Laceration] pari al numero di quante volte [Laceration] è stata attivata)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[EnemyKill] Se il danno inflitto supera i PV rimanenti del nemico, infligge il danno in eccesso come danno fisso tra tutti i nemici. (min 1)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050721,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Mircalla Bramante",
+          "abName": "Quattrocento Rose",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[WhenUse] Consuma fino al 10% dei PV Max di quest'unità e infligge (PV consumati / 2) danni a tutti i nemici ed alleati\n- Con meno del 50% dei PV Max su quest'unità, infligge ed attiva invece 5 [Laceration] su tutti gli alleati una volta (perde 1 Conteggio [Laceration]). Recupera PV pari alla quantità di danno da [Laceration] inflitto agli alleati",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration] su sé e sul bersaglio"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration] su sé e sul bersaglio"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Infligge +2 Conteggio [RoseWedge]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [RoseWedge]"
+                },
+                {
+                  "desc": "- Se il bersaglio non ha [RoseWedge], infligge 4 Potenza [RoseWedge] addizionale"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Attiva [Laceration] sul bersaglio una volta 1 [Laceration] Count)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Mircalla Bramante",
+          "abName": "Quattrocento Rose",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n<style=\"highlight\">A 6+ ([Laceration] su sé + [Laceration] sul bersaglio), Potere Moneta +1</style>\n[WhenUse] Consuma fino al 10% dei PV Max di quest'unità e infligge (PV consumati / 2) danni a tutti i nemici ed alleati\n- Con meno del 50% dei PV Max su quest'unità, infligge ed attiva invece 5 [Laceration] su tutti gli alleati una volta (perde 1 Conteggio [Laceration]). Recupera PV pari alla quantità di danno da [Laceration] inflitto agli alleati",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">3</style> [Laceration] su sé e sul bersaglio"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">3</style> [Laceration] su sé e sul bersaglio"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Infligge +2 Conteggio [RoseWedge]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [RoseWedge]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "- Se il bersaglio non ha [RoseWedge], infligge 4 Potenza [RoseWedge] addizionale<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Attiva [Laceration] <style=\"highlight\">(1 + (highest Reson./2)) volte. (3 volte max; il bersaglio perde Conteggio [Laceration] pari al numero delle volte che è stato attivato)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Mircalla Bramante",
+          "abName": "Quattrocento Rose",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nPotere Moneta +1 per ogni 6 ([Laceration] su sé + [Laceration] sul bersaglio) <style=\"highlight\">(max 3)</style>\n[WhenUse] Consuma fino al 10% dei PV Max di quest'unità e infligge (PV consumati / 2) danni a tutti i nemici ed alleati\n- Con meno del 50% dei PV Max su quest'unità, infligge ed attiva invece 5 [Laceration] su tutti gli alleati una volta (perde 1 Conteggio [Laceration]). Recupera PV pari alla quantità di danno da [Laceration] inflitto agli alleati",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration] su sé e sul bersaglio<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Attiva [Laceration] su sé e sul bersaglio una volta (entrambi perdono 1 Conteggio [Laceration])</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration] su sé e sul bersaglio<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Attiva [Laceration] su sé e sul bersaglio una volta (entrambi perdono 1 Conteggio [Laceration])</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Infligge +2 Conteggio [RoseWedge]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +<style=\"highlight\">2</style> Conteggio [RoseWedge]"
+                },
+                {
+                  "desc": "- Se il bersaglio non ha [RoseWedge], infligge 4 Potenza [RoseWedge] addizionale<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Attiva [Laceration] sul bersaglio (1 + (Rison. più alta/2)) volte. (3 volte max; il bersaglio perde Conteggio [Laceration] pari al numero delle volte che è stato attivato)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[EnemyKill] Se il danno inflitto supera i PV rimanenti del nemico, infligge il danno in eccesso come danno fisso tra tutti i nemici. (min 1)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050811,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Passato Opprimente",
+          "abName": "Trasporto a Vapore",
+          "desc": "[EndSkill] Per 3 turni, perde 10 PS a Fine Turno\n[EndSkill] Quando si attiva una Rison. Accidia dispari quando il numero del turno è dispari, o quando si attiva Rison. Accidia pari quando il numero del turno è pari, recupera 10 PS",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +(Ris. Accidia / 2) Conteggio [Vibration] (max 3)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se è il bersaglio principale, innesca [FusionVibration] nel tipo corrente di [Vibration] nel bersaglio"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] Questa Moneta infligge +1% danni per ogni [Vibration] sul bersaglio principale (max 50%)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] Questa Moneta infligge +1% danni per ogni (Conteggio [Vibration] + [Vibration]) sul bersaglio principale (max 100%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi, riduce il Conteggio [Vibration] del bersaglio di 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se gli effetti di questa Moneta aumentano il danno inflitto del 100% o più, innesca [VibrationExplosion] 2 volte; poi, riduce il Conteggio [Vibration] del bersaglio di 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Passato Opprimente",
+          "abName": "Trasporto a Vapore",
+          "desc": "<style=\"highlight\">[BeforeAttack] Se il bersaglio principale ha 30+ ([Vibration] + Conteggio [Vibration]), ottiene +1 Portata Attacco</style>\n[EndSkill] Per 3 turni, perde 10 PS a Fine Turno\n[EndSkill] Quando si attiva una Rison. Accidia dispari quando il numero del turno è dispari, o quando si attiva Rison. Accidia pari quando il numero del turno è pari, recupera 10 PS",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 [Vibration] Count<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +(Ris. Accidia / 2) Conteggio [Vibration] (max 3)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se è il bersaglio principale, innesca [FusionVibration] nel tipo corrente di [Vibration] nel bersaglio<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] Questa Moneta infligge +1% danni per ogni [Vibration] sul bersaglio principale (max 50%)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] Questa Moneta infligge +1% danni per ogni (Conteggio [Vibration] + [Vibration]) sul bersaglio principale (max 100%)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi, riduce il Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se gli effetti di questa Moneta aumentano il danno inflitto del 100% o più, innesca [VibrationExplosion] 2 volte; poi, riduce il Conteggio [Vibration] del bersaglio di 2<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Passato Opprimente",
+          "abName": "Trasporto a Vapore",
+          "desc": "[BeforeAttack] Se il bersaglio principale ha 30+ ([Vibration] + Conteggio [Vibration]), ottiene +1 Portata Attacco\n<style=\"highlight\">- A 100+, ottiene invece +3 Portata Attacco</style>\n<style=\"highlight\">[BeforeAttack] Per ogni 2 Rison. più alte, infligge 1 [Vibration] a tutti i bersagli che questa unità attacca (max 3)</style>\n[EndSkill] Per 3 turni, perde 10 PS a Fine Turno\n<style=\"highlight\">[EndSkill] Recupera ([AccumulatedPastSinner] x 2)% PV</style>\n[EndSkill] Quando si attiva una Rison. Accidia dispari quando il numero del turno è dispari, o quando si attiva Rison. Accidia pari quando il numero del turno è pari, recupera 10 PS",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 [Vibration] Count<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +(Ris. Accidia / 2) Conteggio [Vibration] (max 3)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se è il bersaglio principale, innesca [FusionVibration] nel tipo corrente di [Vibration] nel bersaglio<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] Questa Moneta infligge +1% danni per ogni [Vibration] sul bersaglio principale (max 50%)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] Questa Moneta infligge +1% danni per ogni ([Vibration] + Conteggio [Vibration]) sul bersaglio principale (max 100%)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion];  poi, riduce il Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Se gli effetti di questa Moneta aumentano il danno inflitto del +50% o più, innesca [VibrationExplosion] una volta.</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se gli effetti di questa Moneta aumentano il danno inflitto del 100% o più, innesca [VibrationExplosion] 2 volte; poi, riduce il Conteggio [Vibration] del bersaglio di 2<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050821,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Passato Opprimente",
+          "abName": "Trasporto a Vapore",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nInfligge +10% danni per ogni Rison. più alta (max 100%)\n- Se la Rison. più alta è Accidia, infligge invece +20% danni per ogni Rison. più alta (max 100%)\n[BeforeAttack] Quando si attiva una Rison. Accidia pari quando il numero di un turno è dispari, o quando si attiva una Rison. Accidia dispari quando il numero di un turno è pari, infligge +12% danni",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] Questa Moneta infligge +1% danni per ogni ([Vibration] + Conteggio [Vibration]) sul bersaglio principale (max 100%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Vibration] e +2 Conteggio [Vibration] "
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +(Rison. Accidia) Conteggio [Vibration] (max 6)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se è il bersaglio principale, innesca [FusionVibration] nel tipo corrente di [Vibration] nel bersaglio"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion] 2 volte; infine, riduce il Conteggio [Vibration] del bersaglio di 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se gli effetti di questa Moneta aumentano il danno inflitto del 100% o più, innesca [VibrationExplosion] 2 volte; poi, riduce il Conteggio [Vibration] del bersaglio di 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Passato Opprimente",
+          "abName": "Trasporto a Vapore",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nInfligge +10% danni per ogni Rison. più alta (max 100%)\n- Se la Rison. più alta è Accidia, infligge invece +20% danni per ogni Rison. più alta (max 100%)\n<style=\"highlight\">[BeforeAttack] Se il bersaglio ha 30+ ([Vibration] + Conteggio [Vibration]), ottiene +2 Portata Attacco</style>\n[BeforeAttack] Quando si attiva una Rison. Accidia pari quando il numero di un turno è dispari, o quando si attiva una Rison. Accidia dispari quando il numero di un turno è pari, infligge +12% danni",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] Questa Moneta infligge +1% danni per ogni ([Vibration] + Conteggio [Vibration]) sul bersaglio principale (max 100%)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Vibration] e +2 Conteggio [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +(Sloth Reson.) Conteggio [Vibration] (max 6)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se è il bersaglio principale, innesca [FusionVibration] nel tipo corrente di [Vibration] nel bersaglio<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion] 2 volte; infine, riduce il Conteggio [Vibration] del bersaglio di 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se gli effetti di questa Moneta aumentano il danno inflitto del 100% o più, innesca [VibrationExplosion] 2 volte; poi, riduce il Conteggio [Vibration] del bersaglio di 2<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Passato Opprimente",
+          "abName": "Trasporto a Vapore",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nInfligge +10% danni per ogni Rison. più alta (max 100%)\n- Se la Rison. più alta è Accidia, infligge invece +20% danni per ogni Rison. più alta (max 100%)\n[BeforeAttack] Se il bersaglio ha 30+ ([Vibration] + Conteggio [Vibration]), ottiene +2 Portata Attacco\n[BeforeAttack] When activating even-numbered (Sloth Reson.) in odd-numbered turns, or when activating odd-numbered (Sloth Reson.) in even-numbered turns, deal +12% damage\n<style=\"highlight\">[EndSkill] Heal ([AccumulatedPastSinner] x 3)% HP</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] Questa Moneta infligge <style=\"highlight\">+2%</style> danni per ogni ([Vibration] + Conteggio [Vibration]) sul bersaglio principale (max 100%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Vibration] e +2 Conteggio [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +(Sloth Reson.) Conteggio [Vibration] (max 6)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se è il bersaglio principale, innesca [FusionVibration] nel tipo corrente di [Vibration] nel bersaglio<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion] 2 volte; infine, riduce il Conteggio [Vibration] del bersaglio di 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se gli effetti di questa Moneta aumentano il danno inflitto del 100% o più, innesca [VibrationExplosion] 2 volte; poi, riduce il Conteggio [Vibration] del bersaglio di 2<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050911,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Spadaccino Ammantato D'ombra [着影揮刀]",
+          "abName": "Geseundae",
+          "desc": "Quando viene usata per la prima volta in battaglia, consuma 15 PS in meno\n- Se Mentore dei Discendenti della Spada Meursault usa questa Abilità, consuma inoltre 1 risorsa E.G.O Ira, Superbia, e Invidia in meno\n\nPotere Scontro +1 ae infligge +6% danni per ogni 4 [Breath] su sè (max 4, max 12% rispettivamente)\n\nSe questa unità ha ottenuto [AlcoholKimPersonal] durante questo Incontro, infligge +60% danni contro il bersaglio principale\n- Mentore dei Discendenti della Spada Meursault infligge invece +120% danni contro il bersaglio principale\n\n[BeforeAttack] Ottiene +(Rison. più alta / 2) Portata Attacco (max 2, rounded down)\n[BeforeAttack] (3 + Rison. più alta) alleati con l'ordine di schieramento più alto ottengono +4 Conteggio [Breath]\n[EndSkill] 4 altre unità alleate dei Discendenti della Spada che hanno la quantità minore di PS recuperano 10 PS\n[EndSkill] Ottiene 4 [AlcoholKimPersonal] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Spadaccino Ammantato d'Ombra [着影揮刀]",
+          "abName": "Geseundae",
+          "desc": "Quando viene usata per la prima volta in battaglia, consuma 15 PS in meno\n- Se Mentore dei Discendenti della Spada Meursault usa questa Abilità, consuma inoltre 1 risorsa E.G.O Ira, Superbia, e Invidia in meno\n\nPotere Scontro +1 ae infligge +6% danni per ogni 4 [Breath] su sè (max <style=\"highlight\">6</style>, max <style=\"highlight\">24</style>% rispettivamente)\n\nSe questa unità ha ottenuto [AlcoholKimPersonal] durante questo incontro, infligge +<style=\"highlight\">80</style>% danni contro il brsaglio principale\n- Mentore dei Discendenti della Spada Meursault infligge invece +<style=\"highlight\">160</style>% danni contro il bersaglio principale\n\n[BeforeAttack] Ottiene +(Rison. più alta / 2) Portata Attacco (max 2, arrotondato per difetto)\n[BeforeAttack] (3 + Rison. più alta) alleati con l'ordine di schieramento più alto ottengono +4 Conteggio [Breath]\n[EndSkill] 4 altre unità alleate dei Discendenti della Spada che hanno la quantità minore di PS recuperano 10 PS\n[EndSkill] Ottiene 4 [AlcoholKimPersonal] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Spadaccino Ammantato d'Ombra [着影揮刀]",
+          "abName": "Geseundae",
+          "desc": "Quando viene usata per la prima volta in battaglia, consuma 15 PS in meno\n- Se Mentore dei Discendenti della Spada Meursault usa questa Abilità, consuma inoltre 1 risorsa E.G.O Ira, Superbia, e Invidia in meno\n\nPotere Scontro +1 e infligge +6% danni per ogni 4 [Breath] su sè (max <style=\"highlight\">8</style>, max <style=\"highlight\">30</style>% rispettivamente)\n\nSe questa unità ha ottenuto [AlcoholKimPersonal] durante questo incontro, infligge +<style=\"highlight\">100</style>% danni contro il bersaglio principale\n- Mentore dei Discendenti della Spada Meursault infligge invece +<style=\"highlight\">200</style>% danni contro il bersaglio principale\n\n[BeforeAttack] Ottiene + (Rison. più alta / 2) Portata Attacco (max 2, arrotondato per difetto)\n[BeforeAttack] (3 + Rison. più alta) alleati con l'ordine di schieramento più alto ottengono +4 Conteggio [Breath]\n[EndSkill] 4 altre unità alleate dei Discendenti della Spada che hanno la quantità minore di PS recuperano 10 PS\n[EndSkill] Ottiene 4 [AlcoholKimPersonal] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050921,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Spadaccino Ammantato d'Ombra [着影揮刀]",
+          "abName": "Geseundae",
+          "desc": "[CantIdentify]\nBersaglia Casualmente\n\nPotere Moneta +2 and infligge +6% danno per ogni 4 [Breath] se sè (max 8, max 12% rispettivamente)\n\nSe questa unità ha ottenuto [AlcoholKimPersonal] durante questo incontro, infligge +60% danni contro il bersaglio pricipale\n- Mentore dei Discendenti della Spada Meursault infligge +120% danni contro il bersaglio principale\n\n[BeforeAttack] Potere Base -2 per ogni Moneta Infranta (max -8)\n[BeforeAttack] Tutti i nemici e alleati ottengono +4 Conteggio [Breath], 1 [SlashDamageUp] e 1 [SlashTakeDamageUp]\n\n[EndSkill] 4 altre unità alleate dei Discendenti della Spada che hanno la quantità minore di PS recuperano 10 PS\n[EndSkill] Ottiene 4 [AlcoholKimPersonal] il prossimo turno",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] La Moneta Finale ottiene Potere Finale +2 (una volta per Moneta)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] La Moneta Finale ottiene Potere Finale +2 (una volta per Moneta)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] La Moneta Finale ottiene Potere Finale +2 (una volta per Moneta)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Spadaccino Ammantato d'Ombra [着影揮刀]",
+          "abName": "Geseundae",
+          "desc": "[CantIdentify]\nBersaglia Casualente\n\nPotere Moneta +2 and infligge +6% danno per ogni 4 [Breath] se sè (max <style=\"highlight\">12</style>, max <style=\"highlight\">24</style>% rispettivamente)\n\nSe questa unità ha ottenuto [AlcoholKimPersonal] durante questo Incontro, infligge +<style=\"highlight\">80</style>% danni contro il bersaglio principale\n- Mentore dei Discendenti della Spada Meursault infligge +<style=\"highlight\">160</style>% danni contro il bersaglio principale\n\n[BeforeAttack] Potere Base -2 per ogni Moneta Infranta (max -8)\n[BeforeAttack] Tutti i nemici e alleati ottengono +4 Conteggio [Breath], 1 [SlashDamageUp] e 1 [SlashTakeDamageUp]\n\n[EndSkill] 4 altre unità alleate dei Discendenti della Spada che hanno la quantità minore di PS recuperano 10 PS\n[EndSkill] Ottiene 4 [AlcoholKimPersonal] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] La Moneta Finale ottiene Potere Finale +2 (una volta per Moneta)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] La Moneta Finale ottiene Potere Finale +2 (una volta per Moneta)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] La Moneta Finale ottiene Potere Finale +2 (una volta per Moneta)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Spadaccino Ammantato d'Ombra [着影揮刀]",
+          "abName": "Geseundae",
+          "desc": "[CantIdentify]\nBersaglia Casualmente\n\nPotere Moneta +2 and infligge +6% danno per ogni 4 [Breath] se sè (max <style=\"highlight\">16</style>, max <style=\"highlight\">30</style>% rispettivamente)\n\nSe questa unità ha ottenuto [AlcoholKimPersonal] durante questo Incontro, infligge +<style=\"highlight\">100</style>% danni contro il bersaglio principale\n- Mentore dei Discendenti della Spada Meursault infligge +<style=\"highlight\">200</style>% danni contro il bersaglio principale\n\n[BeforeAttack] Potere Base -2 per ogni Moneta Infranta (max -8)\n[BeforeAttack] Tutti i nemici e alleati ottengono +4 Conteggio [Breath], 1 [SlashDamageUp] e 1 [SlashTakeDamageUp]\n\n[EndSkill] 4 altre unità alleate dei Discendenti della Spada che hanno la quantità minore di PS recuperano 10 PS\n[EndSkill] Ottiene 4 [AlcoholKimPersonal] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] La Moneta Finale ottiene Potere Finale +2 (una volta per Moneta)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] La Moneta Finale ottiene Potere Finale +2 (una volta per Moneta)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] La Moneta Finale ottiene Potere Finale +2 (una volta per Moneta)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

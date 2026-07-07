@@ -1,0 +1,467 @@
+{
+  "dataList": [
+    {
+      "id": 142201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Espressione dei Colori Primari",
+          "desc": "Potere Finale +1 per ogni 6 ([Laceration] + [Sinking]) sul bersaglio (max 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [EagleClawWound]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [EagleClawWound]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 142202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ritocco Irruento",
+          "desc": "Potere Finale +1 per ogni 6 ([Laceration] + [Sinking]) sul bersaglio (max 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [BearClawWound]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [BearClawWound]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 142203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Le Fauvisme - Déchaînement Primal",
+          "desc": "Potere Finale +1 per ogni 6 ([Laceration] + [Sinking]) sul bersaglio (max 3)\n[DefeatDuel]\n- I danni di questa Abilità non Stordiscono il bersaglio\n- Sul Colpo, non attiva gli effetti di [Sinking] sul bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration] e +2 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [BearClawWound]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking] e +2 Conteggio [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [EagleClawWound]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Infligge 1 [BoldBrushstrokes]</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 142204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Critique",
+          "desc": "[CantChangeTarget]\n[WhenUse]\n- Potere Scontro +2 <color=#ff6000><mark=#ff000040><b><u>per ogni tipo di effetto negativo</u></b></mark></color> sul bersaglio (max 12)\n- <color=#ff6000><mark=#ff000040><b><u>Se il bersaglio ha [IntenseColors], </u></b></mark></color>Potere Scontro +6 e infligge +100% danni\n· <color=#ff6000><mark=#ff000040><b><u>Se il bersaglio ha equipaggiato un'Abilità Difensiva</u></b></mark></color> mentre ha [IntenseColors], Potere Scontro +6 e infligge invece -90% danni\n[DefeatDuel]\n- Il danno di questa Abilità non Stordisce il bersaglio\n- Sul Colpo, non attiva gli effetti di [Sinking] sul bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Riusa questa Moneta (max 2 volte)\n- Sul Colpo dopo aver perso uno Scontro, Riusa questa Moneta solo una volta\n- Non si attiva se il bersaglio ha equipaggiato un'Abilità Difensiva"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration] e +2 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking] e +2 Conteggio [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 142301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Colorare con i Colori Primari",
+          "desc": "Potere Finale +1 per ogni 6 ([Laceration] + [Sinking]) sul bersaglio (max 2)\n[DefeatDuel]\n- I danni di questa Abilità non Stordiscono il bersaglio\n- Sul Colpo, non attiva gli effetti di [Sinking] sul bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [EagleClawWound]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [EagleClawWound]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 142302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Pittura Appassionata",
+          "desc": "Potere Finale +1 per ogni 6 ([Laceration] + [Sinking]) sul bersaglio (max 3)\n[DefeatDuel]\n- I danni di questa Abilità non Stordiscono il bersaglio\n- Sul Colpo, non attiva gli effetti di [Sinking] sul bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 2 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [BearClawWound]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [BearClawWound]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 142303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Le Fauvisme - Déchaînement Brutal",
+          "desc": "Potere Finale +1 per ogni 6 ([Laceration] + [Sinking]) sul bersaglio (max 4)\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Se il bersaglio ha 3+ tipi di effetti negativi,</u></b></mark></color> converte tutte le Monete su questa Abilità in [SuperCoin](i)\n[DefeatDuel]\n- Infligge -75% danni\n- I danni di questa Abilità non Stordiscono il bersaglio\n- Sul Colpo, non attiva gli effetti di [Sinking] sul bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [BearClawWound]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [EagleClawWound]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Infligge 1 [BoldBrushstrokes]</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 142304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Il Brivido dell'Ispirazione",
+          "desc": "Ci si può Scontrare con questa Abilità a prescindere dalla Velocità\n[WhenUse] Potere Finale +1 e infligge +10% danni <color=#ff6000><mark=#ff000040><b><u>per ogni tipo di effetto negativo</u></b></mark></color> sul bersaglio principale (max 6 e 60% rispettivamente)\n[WinDuel]\n- Infligge +10% danni <color=#ff6000><mark=#ff000040><b><u>per ogni tipo di effetto negativo</u></b></mark></color> su ogni bersaglio (max 60% contro ogni bersagli)\n[DefeatDuel]\n- Infligge -75% danni\n- Infligge 2/3 Stack in meno di [BearClawWound] e [EagleClawWound] con gli effetti di questa Abilità (arrotondato per eccesso)\n- I danni di questa Abilità non Stordiscono il bersaglio\n- Sul Colpo, non attiva gli effetti di [Sinking] sul bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [Laceration] e +3 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [Sinking] and +3 Conteggio [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Infligge 9 [BearClawWound]</u></b></mark></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Infligge 9 [EagleClawWound]</u></b></mark></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Infligge 1 [BoldBrushstrokes]</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 142305,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Esplode il Cremisi Pulsante Sotto la Tua Pelle.",
+          "desc": "[WideAreaRampage]\nDà priorità ai bersagli che hanno [IntenseColors]\nQuesta Abilità non attiva le Abilità Difensivi (Guardia Scontrabile esclusa)\nCi si può Scontrare con questa Abilità a prescindere dalla Velocità\n[WhenUse]\n- Potere Finale +1 <color=#ff6000><mark=#ff000040><b><u>per ogni tipo di effetto negativo</u></b></mark></color> sul bersaglio principale (max 6)\n- <color=#ff6000><mark=#ff000040><b><u>Se il bersaglio principale ha [IntenseColors],</u></b></mark></color> Potere Scontro +6\n- <color=#ff6000><mark=#ff000040><b><u>Se il bersaglio ha [IntenseColors],</u></b></mark></color> infligge +100% danni (contro ogni bersaglio, separatamente)\n· <color=#ff6000><mark=#ff000040><b><u>Se il bersaglio ha equipaggiata un'Abilità Difensiva</u></b></mark></color> mentre ha [IntenseColors], infligge invece -90% danni\n[WinDuel]\n- Infligge +10% danni <color=#ff6000><mark=#ff000040><b><u>per ogni tipo di effetto negativo sul besaglio</u></b></mark></color> (max 60%, contro ogni bersaglio, separatamente)\n[DefeatDuel]\n- Ottiene 5 [AttackDmgDown] e 5 [Paralysis]\n- I danni di questa Abilità non Stordiscono il bersaglio\n- Sul Colpo, non attiva gli effetti di [Sinking] sul bersaglio\n[EndSkill] Termina il turno",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +3 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +3 Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "<color=#ff6000><mark=#ff000040><b><u>Questa Moneta colpisce tutti i bersagli</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 500604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Critique",
+          "desc": "[CantChangeTarget]\n[WhenUse]\n- Potere Scontro +2 <color=#ff6000><mark=#ff000040><b><u>per ogni tipo di effetto negativo</u></b></mark></color> sul bersaglio (max 12)\n- Infligge +12.5% danni <color=#ff6000><mark=#ff000040><b><u>per ogni Studente Fauvista dell'Anulare</u></b></mark></color> sul campo (max 50%)\n- <color=#ff6000><mark=#ff000040><b><u>Se il bersaglio ha [IntenseColors], </u></b></mark></color>ottiene Potere Scontro +6 e infligge +200% danni\n· <color=#ff6000><mark=#ff000040><b><u>Se il bersaglio ha equipaggiato un'Abilità Difensiva</u></b></mark></color> mentre ha [IntenseColors], ottiene invece Potere Scontro +6 e infligge -90% danni. I danni di questa Abilità non Stordiscono il bersaglio; Sul Colpo, non attiva gli effetti di [Sinking] sul bersaglio\n[DefeatDuel]\n- I danni di questa Abilità non Stordiscono il bersaglio\n- Sul Colpo, non attiva gli effetti di [Sinking] sul bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Riusa questa Moneta (max 2 volte)\n- Sul Colpo dopo aver perso uno Scontro, Riusa questa Moneta (max una volta)\n- Non si attiva se il bersaglio ha equipaggiato un'Abilità Difensiva"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration] e +2 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking] e +2 Conteggio [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 500704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Il Brivido dell'Ispirazione",
+          "desc": "Ci si può Scontrare con questa Abilità a prescindere dalla Velocità\n[WhenUse] Potere Finale +1 e infligge +10% danni <color=#ff6000><mark=#ff000040><b><u>per ogni tipo di effetto negativo</u></b></mark></color> sul bersaglio principale (max 6 e 60% rispettivamente)\n[WinDuel]\n- Infligge +10% danni <color=#ff6000><mark=#ff000040><b><u>per ogni tipo di effetto negativo</u></b></mark></color> su ogni bersaglio (max 60% contro ogni bersagli)\n[DefeatDuel]\n- Infligge -75% danni\n- Infligge 2/3 Stack in meno di [BearClawWound] e [EagleClawWound] con gli effetti di questa Abilità (arrotondato per eccesso)\n- I danni di questa Abilità non Stordiscono il bersaglio\n- Sul Colpo, non attiva gli effetti di [Sinking] sul bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [Laceration] e +3 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [Sinking] and +3 Conteggio [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Infligge 9 [BearClawWound]</u></b></mark></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Infligge 9 [EagleClawWound]</u></b></mark></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Infligge 1 [BoldBrushstrokes]</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 500705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Esplode il Cremisi Pulsante Sotto la Tua Pelle.",
+          "desc": "[WideAreaRampage]\nDà priorità ai bersagli che hanno [IntenseColors]\nQuesta Abilità non attiva le Abilità Difensivi (Guardia Scontrabile esclusa)\nCi si può Scontrare con questa Abilità a prescindere dalla Velocità\n[WhenUse]\n- Potere Finale +1 <color=#ff6000><mark=#ff000040><b><u>per ogni tipo di effetto negativo</u></b></mark></color> sul bersaglio principale (max 6)\n- <color=#ff6000><mark=#ff000040><b><u>Se il bersaglio principale ha [IntenseColors],</u></b></mark></color> Potere Scontro +6\n- <color=#ff6000><mark=#ff000040><b><u>Se il bersaglio ha [IntenseColors],</u></b></mark></color> infligge +100% danni (contro ogni bersaglio, separatamente)\n· <color=#ff6000><mark=#ff000040><b><u>Se il bersaglio ha equipaggiata un'Abilità Difensiva</u></b></mark></color> mentre ha [IntenseColors], infligge invece -90% danni\n[WinDuel]\n- Infligge +10% danni <color=#ff6000><mark=#ff000040><b><u>per ogni tipo di effetto negativo sul besaglio</u></b></mark></color> (max 60%, contro ogni bersaglio, separatamente)\n[DefeatDuel]\n- Ottiene 5 [AttackDmgDown] e 5 [Paralysis]\n- I danni di questa Abilità non Stordiscono il bersaglio\n- Sul Colpo, non attiva gli effetti di [Sinking] sul bersaglio\n[EndSkill] Termina il turno",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +3 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +3 Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "<color=#ff6000><mark=#ff000040><b><u>Questa Moneta colpisce tutti i bersagli</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

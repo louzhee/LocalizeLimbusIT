@@ -1,0 +1,783 @@
+{
+  "dataList": [
+    {
+      "id": 2040511,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Soda",
+          "abName": "Wellcheers",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Sinking]"
+                },
+                {
+                  "desc": "[EnemyKill] Ottiene 3 risorse E.G.O di un'Affinità casuale correntemente in possesso"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Soda",
+          "abName": "Wellcheers",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Sinking]"
+                },
+                {
+                  "desc": "[EnemyKill] Ottiene 3 risorse E.G.O di un'Affinità casuale correntemente in possesso; Cura 3 PS a tutti gli alleati"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Soda",
+          "abName": "Wellcheers",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 6 [Sinking]"
+                },
+                {
+                  "desc": "[EnemyKill] Ottiene 3 risorse E.G.O di un'Affinità casuale correntemente in possesso; Cura 3 PS a tutti gli alleati"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2040521,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Soda",
+          "abName": "Wellcheers",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Sinking]"
+                },
+                {
+                  "desc": "[EndSkill] Applica a tutti gli alleati +1 [GainSinStockAdder]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Soda",
+          "abName": "Wellcheers",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Sinking]"
+                },
+                {
+                  "desc": "[EndSkill] Applica a tutti gli alleati +1 <[GainSinStockAdder]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Soda",
+          "abName": "Wellcheers",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 6 [Sinking]"
+                },
+                {
+                  "desc": "[EndSkill] Applica a tutti gli alleati +1 [GainSinStockAdder] e 1 [Agility] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2040611,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ossessione Cieca",
+          "abName": "Corrente Torbida Divorasogni",
+          "desc": "[BeforeAttack] Ottiene 4 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Charge]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Ottiene +2 Conteggio [Charge]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Ossessione Cieca",
+          "abName": "Corrente Torbida Divorasogni",
+          "desc": "[BeforeAttack] Ottiene 4 [Breath]\n[EndSkill] Ottiene 2 [Breath] per ogni unità sconfitta da quest'Abilità",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Charge]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Ottiene +2 Conteggio [Charge]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ossessione Cieca",
+          "abName": "Corrente Torbida Divorasogni",
+          "desc": "[BeforeAttack] Ottiene 4 [Breath]\n[EndSkill] Ottiene 2 [Breath] per ogni unità sconfitta da quest'Abilità",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Charge]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Ottiene +2 Conteggio [Charge]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2040621,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ossessione Cieca",
+          "abName": "Corrente Torbida Divorasogni",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene 4 [Breath]. Consuma 2 Conteggio [Charge] per ottenere 1 [Breath] (Max 10)\n[EndSkill] Ottiene +4 Conteggio [Charge] per ogni unità sconfitta da quest'Abilità",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Ossessione Cieca",
+          "abName": "Corrente Torbida Divorasogni",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene 4 [Breath]. Consuma 2 Conteggio [Charge] per ottenere 1 [Breath] (Max 10)\n[EndSkill] Ottiene +4 Conteggio [Charge] per ogni unità sconfitta da quest'Abilità",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ossessione Cieca",
+          "abName": "Corrente Torbida Divorasogni",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene 4 [Breath]. Consuma 2 Conteggio [Charge] per ottenere 1 [Breath] (Max 10)\n[EndSkill] Ottiene +4 Conteggio [Charge] per ogni unità sconfitta da quest'Abilità",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] A 10+ [Breath], ottiene +30% Danno Critico"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2040711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Disprezzo, Timore",
+          "abName": "Spirale del Disprezzo",
+          "desc": "[BeforeAttack] Ottiene (Rison. più alta) Portata Attacco (max 2)\n[BeforeAttack] Ottiene (Rison. più alta + 1) [GazePersonality] (max 7)\n[EndSkill] Per 2 turni, perde 10 PS a Fine Turno",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] Infligge 10 [Laceration] equamente tra tutti i bersagli"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Disprezzo, Timore",
+          "abName": "Spirale del Disprezzo",
+          "desc": "[BeforeAttack] Ottiene (Rison. più alta) Portata Attacco (max <style=\"highlight\">4</style>)\n[BeforeAttack] Ottiene (Rison. più alta + 1) [GazePersonality] (max 7)\n[EndSkill] Per 2 turni, perde 10 PS a Fine Turno",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] Infligge <style=\"highlight\">15</style> [Laceration] equamente tra tutti i bersagli"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Disprezzo, Timore",
+          "abName": "Spirale del Disprezzo",
+          "desc": "[BeforeAttack] Ottiene (Rison. più alta) Portata Attacco (max <style=\"highlight\">6</style>)\n[BeforeAttack] Ottiene (Rison. più alta + 1) [GazePersonality] <style=\"highlight\">questo turno e quello successivo</style> (max 7)\n<style=\"highlight\">[EndSkill] Se quest'Abilità era parte di una Rison. Lussuria, ottiene 1 risorsa E.G.O corrispondente alle Affinità delle Abilità offensive di quest'unità</style>\n[EndSkill] Per 2 turni, perde 10 PS a Fine Turno",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] Infligge [Laceration] equamente tra tutti i bersagli<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2040721,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Disprezzo, Timore",
+          "abName": "Spirale del Disprezzo",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene 7 [GazePersonality]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [Laceration], infligge +(Potenza + Conteggio [Laceration] sul bersaglio)% danni (max 20%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge (1 + (Rison. più alta x 1.5)) [Laceration] (max 10, arrotondato per difetto)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration] Count"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Disprezzo, Timore",
+          "abName": "Spirale del Disprezzo",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene 7 [GazePersonality]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [Laceration], infligge +(Potenza + Conteggio [Laceration] sul bersaglio)% danni (max <style=\"highlight\">40%</style>)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">(3 + (Rison. più alta x 2))</style> [Laceration] (max <style=\"highlight\">15</style>, arrotondato per difetto)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +<style=\"highlight\">3</style> Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Disprezzo, Timore",
+          "abName": "Spirale del Disprezzo",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene 7 [GazePersonality]\n<style=\"highlight\">[EndSkill] Se quest'Abilità era parte di una Rison. Lussuria, ottiene 1 risorsa E.G.O corrispondente alle Affinità delle Abilità offensive di quest'unità</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [Laceration], infligge +(Potenza + Conteggio [Laceration] sul bersaglio)% danni (max <style=\"highlight\">60%</style>)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">(10 + (Rison. più alta x 2.5))</style> [Laceration] (max <style=\"highlight\">25</style>, arrotondato per difetto)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +<style=\"highlight\">5</style> Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2040811,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Thoracalgia",
+          "abName": "Saccoccia del Passato",
+          "desc": "[BeforeAttack] Ottiene (Rison. più alta.) [Breath] (max 4)\n- A 15+ [Breath], ottiene invece Potere Finale +(Rison. più alta) (max 4)\n[BeforeAttack] Ottiene (Rison. più alta / 2) Conteggio [Breath] (max 2)\n- A 5+ Conteggio [Breath], ottiene invece Potere Moneta +(Rison. più alta / 2) (max 2)\n[TargetKill] Ottiene 1 [HoldingBreath] il turno successivo (2 volte per turno)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [HoldingBreath] (1 volta per turno)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Thoracalgia",
+          "abName": "Saccoccia del Passato",
+          "desc": "[BeforeAttack] Ottiene (Rison. più alta.) [Breath] (max <style=\"highlight\">6</style>)\n- A 15+ [Breath], ottiene invece Potere Finale +(Rison. più alta) (max <style=\"highlight\">6</style>)\n[BeforeAttack] Ottiene (Rison. più alta / 2) Conteggio [Breath] (max 2)\n-  A 5+ Conteggio [Breath], ottiene invece Potere Moneta +(Rison. più alta / 2) (max 2)\n[TargetKill] Ottiene <style=\"highlight\">2</style> [HoldingBreath] il turno successivo (<style=\"highlight\">4</style> volte per turno)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">Infligge +(Potenza + Conteggio [Breath])% danni sul Colpo Critico (max 20%)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [HoldingBreath] (1 volta per turno)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Thoracalgia",
+          "abName": "Saccoccia del Passato",
+          "desc": "[BeforeAttack] Ottiene (Rison. più alta.) [Breath] (max 6)\n- A 15+ [Breath], ottiene invece Potere Finale +(Rison. più alta) (max 6)\n[BeforeAttack] (Rison. più alta / 2) Conteggio [Breath] (max <style=\"highlight\">3</style>)\n- A 5+ Conteggio [Breath], ottiene invece Potere Moneta +(Rison. più alta / 2) (max <style=\"highlight\">3</style>)\n[TargetKill] Ottiene 2 [HoldingBreath] il turno successivo (<style=\"highlight\">6</style> volte per turno)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "Infligge +(Potenza + Conteggio [Breath])% danni sul Colpo Critico (max <style=\"highlight\">40%</style>)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene <style=\"highlight\">4</style> [HoldingBreath] (1 volta per turno)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2040821,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Thoracalgia",
+          "abName": "Saccoccia del Passato",
+          "desc": "[CantIdentify]\nDa' priorità ai bersagli con i PV minori (priorità agli alleati)\nSe il bersaglio di quest'Abilità è un alleato, infligge +30% danni\n\n[BeforeAttack] A meno di 15 [Breath], consuma 10% PV per ottenere 5 [Breath] e +5 Conteggio [Breath]\n- L'unità non può essere Stordita o morire tramite quest'effetto\n\n[EndSkill] Se il bersaglio viene sconfitto, ottiene 2 [HoldingBreath] il turno successivo (1 volta per turno). Se il bersaglio era un alleato, attiva anche il seguente effetto:\n- Gli alleati che sono in battaglia o che entrano in battaglia per la morte di un alleato ottengono 2 [Breath] e +2 Conteggio [Breath]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 4 [HoldingBreath] (1 volta per turno)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Thoracalgia",
+          "abName": "Saccoccia del Passato",
+          "desc": "[CantIdentify]\nDa' priorità ai bersagli con i PV minori (priorità agli alleati)\nSe il bersaglio di quest'Abilità è un alleato, infligge +30% danni\n\n[BeforeAttack] A meno di 15 [Breath], consuma 10% PV per ottenere 5 [Breath] e +5 Conteggio [Breath]\n- L'unità non può essere Stordita o morire tramite quest'effetto\n<style=\"highlight\">- Ottiene 1 [Breath] per ogni alleato bersagliato da quest'Abilità (max 2)</style>\n\n[EndSkill] Se il bersaglio viene sconfitto, ottiene 2 [HoldingBreath] il turno successivo (1 volta per turno). Se il bersaglio era un alleato, attiva anche il seguente effetto:\n- Gli alleati che sono in battaglia o che entrano in battaglia per la morte di un alleato ottengono <style=\"highlight\">4</style> [Breath] e +2 Conteggio [Breath] \n<style=\"highlight\">- Recupera metà dei PS usati da questa Abilità</style>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">Infligge +(Potenza + Conteggio [Breath])% danni sul Colpo Critico (max 20%)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 4 [HoldingBreath] (1 volta per turno)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Thoracalgia",
+          "abName": "Saccoccia del Passato",
+          "desc": "[CantIdentify]\nDa' priorità ai bersagli con i PV minori (priorità agli alleati)\nSe il bersaglio di quest'Abilità è un alleato, infligge +30% danni\n\n[BeforeAttack] A meno di 15 [Breath], consuma 10% PV per ottenere 5 [Breath] e +5 Conteggio [Breath]\n- L'unità non può essere Stordita o morire tramite quest'effetto\n- Ottiene <style=\"highlight\">2</style> [Breath] per ogni alleato bersagliato da quest'Abilità (max <style=\"highlight\">4</style>)\n\n[EndSkill] Se il bersaglio viene sconfitto, ottiene 3 [HoldingBreath] il turno successivo (1 volta per turno). Se il bersaglio era un alleato, attiva anche il seguente effetto:\n- Gli alleati che sono in battaglia o che entrano in battaglia per la morte di un alleato ottengono 4 [Breath] e +<style=\"highlight\">4</style>Conteggio [Breath]\n<style=\"highlight\">- Recupera i PS ed 1 di ogni risorsa E.G.O usati da questa Abilità</style>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "Infligge +(Potenza + Conteggio [Breath])% danni sul Colpo Critico (max <style=\"highlight\">40%</style>)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene <style=\"highlight\">7</style> [HoldingBreath] (1 volta per turno)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2040911,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Grande Trichiliocosmo [三千大世界]",
+          "abName": "Farfalla delle Vite Intrecciate [羅生蝶]",
+          "desc": "[BeforeAttack] Ottiene (Rison. più alta) [Breath] (max 7)\n\n[EndSkill] Ottiene 1 [RyoshuEGOPF]\n[EndSkill] Perde 10 PS a Fine Turno per 3 turni",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Infligge +30% Danni su Colpo Critico"
+                },
+                {
+                  "desc": "[OnStartCoin] Consuma tutte le Stack di [RyoshuEGOPF] su di sé e infligge +1% danni per ogni 5 [RyoshuEGOPF] consumate (max 100%)",
+                  "summary": "[OnStartCoin] Infligge più danni in base a [RyoshuEGOPF]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Grande Trichiliocosmo [三千大世界]",
+          "abName": "Farfalla delle Vite Intrecciate [羅生蝶]",
+          "desc": "[BeforeAttack] Ottiene (Rison. più alta) [Breath] (max 7)\n<style=\"highlight\">[BeforeAttack] Ottiene +2 [Breath] Count</style>\n\n[EndSkill] Ottiene 1 [RyoshuEGOPF]\n[EndSkill] Perde 10 PS a Fine Turno per 3 turni",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge 1 [Binding] il turno successivo</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Potere Moneta +3 per la Moneta finale (una volta per Abilità)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "+30% Danni su Colpo Critico<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnStartCoin] Infligge +1% danni per ogni 10 (Potenza [Combustion] + Potenza [Laceration]) su tutti i bersaglis (max 30%)</style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnStartCoin] Potere Moneta +1 per ogni 10 (Potenza [Combustion] + Potenza [Laceration]) su tutti i bersagli (max 3)</style>"
+                },
+                {
+                  "desc": "[OnStartCoin] Consuma tutte le Stack di [RyoshuEGOPF] su di sé e infligge +1% danni per ogni 5 [RyoshuEGOPF] consumate (max 100%)\n- Quando attacca un singolo bersaglio, il modificatore di danno si applica all'1.5x del suo valore (negli Incontri Mirati, il Nucleo e le sue Parti connesse contano come singolo bersaglio)",
+                  "summary": "<style=\"highlight\">[OnStartCoin] Infligge più danno in base a [RyoshuEGOPF]</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Grande Trichiliocosmo [三千大世界]",
+          "abName": "Farfalla delle Vite Intrecciate [羅生蝶]",
+          "desc": "[BeforeAttack] Ottiene (Rison. più alta) [Breath] (max 7)\n[BeforeAttack] Ottiene <style=\"highlight\">+3</style> Conteggio [Breath]\n\n[EndSkill] Ottiene 1 [RyoshuEGOPF]\n[EndSkill] Perde 10 PS a Fine Turno per 3 turni",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Binding] il turno successivo<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Potere Moneta <style=\"highlight\">+5</style> per la Moneta finale (una volta per Abilità)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "+30% Danni su Colpo Critico<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnStartCoin] Infligge +1% danni per ogni 10 (Potenza [Combustion] + Potenza [Laceration]) su tutti i bersagli <style=\"highlight\">(max 50%)</style>"
+                },
+                {
+                  "desc": "[OnStartCoin] Potere Moneta +1 per ogni 10 (Potenza [Combustion] + Potenza [Laceration]) su tutti i bersagli <style=\"highlight\">(max 5)</style>"
+                },
+                {
+                  "desc": "[OnStartCoin] Consuma tutte le Stack di [RyoshuEGOPF] su di sé e infligge +1% danni per ogni 5 [RyoshuEGOPF] consumate <style=\"highlight\">(max 198%)</style>\n- Quando attacca un singolo bersaglio, il modificatore di danno si applica al <style=\"highlight\">2x</style> del suo valore (negli Incontri Mirati, il Nucleo e le sue Parti connesse contano come singolo bersaglio)",
+                  "summary": "[OnStartCoin] Deal more damage based on [RyoshuEGOPF]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2040921,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Grande Trichiliocosmo [三千大世界]",
+          "abName": "Farfalla delle Vite Intrecciate [羅生蝶]",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Consuma un massimo di 20 [Breath] in più oltre 20 [Breath] su di sé, e per ogni [Breath] consumato, recupera l'1% dei PV max (min 1 PV) e infligge +1% danni con questa Abilità\n[BeforeAttack] Ottiene +3 Conteggio [Breath]\n[BeforeAttack] A 999 [RyoshuEGOPF], Potere Base +1\n[BeforeAttack] Potere Base -3 per ogni Moneta Rotta (max -9)\n\n[EndSkill] Ottiene 10 [RyoshuEGOPF]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Infligge +30% Danno su Colpo Critico"
+                },
+                {
+                  "desc": "[OnStartCoin] Consuma tutte le Stack di [RyoshuEGOPF] su di sé e infligge +1% danni per ogni 5 [RyoshuEGOPF] consumati (max 100%)",
+                  "summary": "[OnStartCoin] Infligge più danno in base a [RyoshuEGOPF]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Grande Trichiliocosmo [三千大世界]",
+          "abName": "Farfalla delle Vite Intrecciate [羅生蝶]",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Consuma un massimo di 20 [Breath] in più oltre 20 [Breath] su di sé, e per ogni [Breath] consumato, recupera l'1% dei PV max (min 1 PV) e infligge +1% danni con questa Abilità\n[BeforeAttack] Ottiene +3 Conteggio [Breath]\n[BeforeAttack] A 999 [RyoshuEGOPF], Potere Base <style=\"highlight\">+2</style>\n[BeforeAttack] Potere Base -3 per ogni Moneta Rotta (max -9)\n\n[EndSkill] Ottiene <style=\"highlight\">20</style> [RyoshuEGOPF]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge 1 [Binding] il turno successivo</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Infligge +30% danni con la Moneta finale (una volta per Abilità)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "+30% Danni su Colpo Critico<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnStartCoin] Infligge +1% danni per ogni 10 (Potenza [Combustion] + Potenza [Laceration]) su tutti i bersagli (max 30%)</style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnStartCoin] Potere Finale +1 per ogni 10 (Conteggio [Combustion] + Conteggio [Laceration]) su tutti i bersagli (max 3)</style>"
+                },
+                {
+                  "desc": "[OnStartCoin] Consuma tutte le Stack di [RyoshuEGOPF] su di sé e infligge +1% danni per ogni 5 [RyoshuEGOPF] consumati (max 100%)\n<style=\"highlight\">- Quando attacca un singolo bersaglio, il modificatore di danno si applica al <style=\"highlight\">2x</style> del suo valore (negli Incontri Mirati, il Nucleo e le sue Parti connesse contano come singolo bersaglio)</style>",
+                  "summary": "[OnStartCoin] Infligge più danno in base a [RyoshuEGOPF]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Grande Trichiliocosmo [三千大世界]",
+          "abName": "Farfalla delle Vite Intrecciate [羅生蝶]",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Consuma un massimo di 20 [Breath] in più oltre 20 [Breath] su di sé, e per ogni [Breath] consumato, recupera l'1% dei PV max (min 1 PV) e infligge +1% danni con questa Abilità\n[BeforeAttack] Ottiene <style=\"highlight\">+5</style> Conteggio [Breath]\n[BeforeAttack] A 999 [RyoshuEGOPF], Potere Base <style=\"highlight\">+3</style>\n[BeforeAttack] Potere Base -3 per ogni Moneta Rotta (max -9)\n\n[EndSkill] Ottiene <style=\"highlight\">33</style> [RyoshuEGOPF]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Binding] il turno successivo<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge <style=\"highlight\">+50%</style> danni con la Moneta finale (una volta per Abilità)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "+30% Danni su Colpo Critico<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnStartCoin] Infligge +1% danni per ogni 10 (Potenza [Combustion] + Potenza [Laceration]) su tutti i bersagli <style=\"highlight\">(max 50%)</style>"
+                },
+                {
+                  "desc": "[OnStartCoin] Potere Finale +1 per ogni 10 (Conteggio [Combustion] + Conteggio [Laceration]) su tutti i bersagli <style=\"highlight\">(max 5)</style>"
+                },
+                {
+                  "desc": "[OnStartCoin] Consuma tutte le Stack di [RyoshuEGOPF] su di sé e infligge <style=\"highlight\">+1.25%</style> danni per ogni 5 [RyoshuEGOPF] consumati <style=\"highlight\">(max 248%)</style>\n- Quando attacca un singolo bersaglio, il modificatore di danno si applica al <style=\"highlight\">2x</style> del suo valore (negli Incontri Mirati, il Nucleo e le sue Parti connesse contano come singolo bersaglio)",
+                  "summary": "[OnStartCoin] Infligge più danno in base a [RyoshuEGOPF]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

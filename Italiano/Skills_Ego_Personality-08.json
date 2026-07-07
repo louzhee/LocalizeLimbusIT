@@ -1,0 +1,1090 @@
+{
+  "dataList": [
+    {
+      "id": 2080511,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ossessione Cieca",
+          "abName": "Corrente Torbida Divorasogni",
+          "desc": "[EndSkill] Cura di 15 PS a 4 alleati con i PS minori",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Ottiene +3 Conteggio [Charge]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Applica +1 Conteggio [Breath] ad 1 alleato casuale"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Ossessione Cieca",
+          "abName": "Corrente Torbida Divorasogni",
+          "desc": "[EndSkill] Cura di 20 PS a 4 alleati con i PS minori",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Ottiene +4 Conteggio [Charge]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Applica +1 Conteggio [Breath] ad 1 alleato casuale"
+                },
+                {
+                  "desc": "[EndSkillHead] Applica 1 [PenetrateResultUp] e 1 [AttackDmgUp] a 4 alleati con i PS maggiori"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ossessione Cieca",
+          "abName": "Corrente Torbida Divorasogni",
+          "desc": "[EndSkill] Cura di 25 PS a 4 alleati con i PS minori",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +6 Conteggio [Charge]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Applica +1 Conteggio [Breath] ad 1 alleato casuale"
+                },
+                {
+                  "desc": "[EndSkill] Applica 2 [PenetrateResultUp] e 2 [AttackDmgUp] a 4 alleati con i PS maggiori"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2080521,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ossessione Cieca",
+          "abName": "Corrente Torbida Divorasogni",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath] e +1 Conteggio [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [IndigoTakeDamageUp] questo turno e quello successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Ossessione Cieca",
+          "abName": "Corrente Torbida Divorasogni",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] Si cura del 3% dei PV Max"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath] e +1 Conteggio [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [IndigoTakeDamageUp] questo turno e quello successivo"
+                },
+                {
+                  "desc": "[EndSkillTail] Applica 2 [AttackDmgUp] questo turno e quello successivo a 4 alleati con i PS minori"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ossessione Cieca",
+          "abName": "Corrente Torbida Divorasogni",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si cura del 3% dei suoi PV Max"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath] e +1 Conteggio [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [IndigoTakeDamageUp] questo turno e quello successivo"
+                },
+                {
+                  "desc": "[EndSkill] Applica 2 [AttackDmgUp] questo turno e quello successivo a 4 alleati con i PS minori"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2080611,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Battito d'Ali",
+          "abName": "Festival delle Fatine",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si cura del 15% dei suoi PV Max"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Perde 1~2 PS"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Riusa questa Moneta (5 volte per Abilità)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si cura del 4~8% del danno inflitto"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [ShamrockTakeDamageUp]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1~3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Battito d'Ali",
+          "abName": "Festival delle Fatine",
+          "desc": "Se la cura di quest'Abilità eccede i PV Max di quest'unità, la cura in eccesso viene invece data ad 1 alleato con la minore percentuale di PV",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si cura del <style=\"highlight\">18%</style> dei suoi PV Max"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Perde 1~2 PS"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Riusa questa Moneta (5 volte per Abilità)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si cura del <style=\"highlight\">6~10</style>% del danno inflitto"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [ShamrockTakeDamageUp]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1~3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Battito d'Ali",
+          "abName": "Festival delle Fatine",
+          "desc": "Se la cura di quest'Abilità eccede i PV Max di quest'unità, la cura in eccesso viene invece data ad 1 alleato con la minore percentuale di PV",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si cura del <style=\"highlight\">20</style>% dei suoi PV Max"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Perde 1~2 PS"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Riusa questa Moneta (5 volte per Abilità)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si cura del <style=\"highlight\">8~12</style>% del danno inflitto"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [ShamrockTakeDamageUp]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1~<style=\"highlight\">4</style> [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2080621,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Battito d'Ali",
+          "abName": "Festival delle Fatine",
+          "desc": "[CantIdentify]\nBersaglia l'unità con i PV minori nel Nucleo\n[BeforeAttack] Infligge il 5% danni ai PV ad al massimo 5 altri alleati\n- Recupera PV pari al danno inflitto agli alleati\n- Se quest'unità infligge danno ad un alleato, ottiene 2 [Enhancement] questo turno, ed ottiene 2 [Agility] in quello successivo\n(Una volta per turno. Il 'danno inflitto' include il danno inflitto agli Scudi PV. Quest'effetto può uccidere gli alleati.)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] Si cura del 10% del danno inflitto"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Infligge 1~4 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Battito d'Ali",
+          "abName": "Festival delle Fatine",
+          "desc": "[CantIdentify]\nBersaglia l'unità con i PV minori nel Nucleo\n<style=\"highlight\">[BeforeAttack] Ottiene (# della Rison. più alta -2) Portata Attacco (max 1)</style>\n[BeforeAttack] Infligge il 5% danni ai PV ad al massimo 5 altri alleati\n- Recupera PV pari al danno inflitto agli alleati\n- Se quest'unità infligge danno ad un alleato, ottiene 2 [Enhancement] questo turno, ed ottiene 2 [Agility] in quello successivo\n(Una volta per turno. Il 'danno inflitto' include il danno inflitto agli Scudi PV. Quest'effetto può uccidere gli alleati.)\n<style=\"highlight\">[EndSkill] Se la cura di quest'Abilità eccede i PV Max di quest'unità, ottiene (cura eccessiva/PV Max) x 10 [AttackUp] il turno successivo (max 3 per turno)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] Si cura del <style=\"highlight\">15</style>% del danno inflitto"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Infligge <style=\"highlight\">2~5</style> [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Battito d'Ali",
+          "abName": "Festival delle Fatine",
+          "desc": "[CantIdentify]\nBersaglia l'unità con i PV minori nel Nucleo\n[BeforeAttack] Ottiene (# della Rison. più alta -2) Atk Weight (max <style=\"highlight\">2</style>)\n[BeforeAttack] Infligge il 5% danni ai PV ad al massimo 5 altri alleati\n- i cura di PV pari al danno inflitto agli alleati\n- Se quest'unità infligge danno ad un alleato, ottiene 2 [Enhancement] questo turno, ed ottiene 2 [Agility] in quello successivo\n(Una volta per turno. Il 'danno inflitto' include il danno inflitto agli Scudi PV. Quest'effetto può uccidere gli alleati.)\n[EndSkill] Se la cura di quest'Abilità eccede i PV Max di quest'unità, ottiene (cura eccessiva/PV Max) x 10 [AttackUp] il turno successivo (max <style=\"highlight\">6</style> per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] Si cura del <style=\"highlight\">20</style>% del danno inflitto"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Infligge <style=\"highlight\">3~6</style> [Laceration]"
+                },
+                {
+                  "desc": "[EnemyKill] Ottiene 1 [Enhancement] il turno successivo (max 3)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2080711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Giorni Andati",
+          "abName": "Ritratto di un Certo Giorno",
+          "desc": "[BeforeAttack] A 4+ Rison. più alta, ottiene +1 Portata Attacco\n[EndSkill] Cura 2 alleati con la percentuale di PV minore di (5 + ([Sinking] + Conteggio [Sinking] sul bersaglio principale)/3)% PV (max 15%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Curse]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [UninvitedGuestPersonality]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Giorni Andati",
+          "abName": "Ritratto di un Certo Giorno",
+          "desc": "[BeforeAttack] A 4+ Rison. più alta, ottiene +1 Portata Attacco\n<style=\"highlight\">- Se la Rison. più alta era Rison. Tristezza, ottiene +1 Portata Attacco</style>\n[EndSkill] Cura 2 alleati con la percentuale di PV minore di (<style=\"highlight\">10</style> + ([Sinking] + Conteggio [Sinking] sul bersaglio principale)/3)% PV (max 15%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 [Sinking] Count<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Curse]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] A 4+ Rison. Tristezza, infligge 1 [AzureTakeDamageUp]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [UninvitedGuestPersonality]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Giorni Andati",
+          "abName": "Ritratto di un Certo Giorno",
+          "desc": "[BeforeAttack] A 4+ Rison. più alta, ottiene +1 Portata Attacco\n- Se la Rison. più alta era Rison. Tristezza, ottiene +1 Portata Attacco\n[EndSkill] Cura 2 alleati con la percentuale di PV minore di (10 + ([Sinking] + Conteggio [Sinking] sul bersaglio principale)/3)% PV (max <style=\"highlight\">20</style>%)\n<style=\"highlight\">- Se la Rison. più alta era una 4+ Rison. Tristezza, cura un ulteriore 10% in base ai PV Max</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">+3</style> Conteggio [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Curse]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] A 4+ Rison. Tristezza, infligge 1 [AzureTakeDamageUp]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [UninvitedGuestPersonality]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2080721,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Giorni Andati",
+          "abName": "Ritratto di un Certo Giorno",
+          "desc": "[CantIdentify]\nDa' priorità ai bersagli con la quantità maggiore di [Sinking]\n[BeforeAttack] Perde PV pari al 10% dei PV Max (quest'effetto non Stordisce l'unità)\n[EndSkill] Cura altri 3 alleati con la percentuali di PV minore di (5 + ([Sinking] + Conteggio [Sinking] sul bersaglio principale)/3)% PV (max 10%)\n- A 4+ Rison. più alta, cura 1 alleato in più",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Curse]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] A 3+ Rison. Tristezza, infligge 1 [AzureTakeDamageUp]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [UninvitedGuestPersonality]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Giorni Andati",
+          "abName": "Ritratto di un Certo Giorno",
+          "desc": "[CantIdentify]\nDa' priorità ai bersagli con la quantità maggiore di [Sinking]\n[BeforeAttack] Perde PV pari al 10% dei PV Max (quest'effetto non Stordisce l'unità)\n[EndSkill] Cura altri 3 alleati con la percentuali di PV minore di (<style=\"highlight\">10</style> + ([Sinking] + Conteggio [Sinking] sul bersaglio principale)/3)% PV (max <style=\"highlight\">15</style>%)\n- A 4+ Rison. più alta, cura 1 alleato in più",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Curse]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] A 3+ Rison. Tristezza, infligge 1 [AzureTakeDamageUp]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [UninvitedGuestPersonality]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [EchoOfMansion] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Giorni Andati",
+          "abName": "Ritratto di un Certo Giorno",
+          "desc": "[CantIdentify]\nDa' priorità ai bersagli con la quantità maggiore di [Sinking]\n[BeforeAttack] Perde PV pari al 10% dei PV Max (quest'effetto non Stordisce l'unità)\n[EndSkill] HCura altri 3 alleati con la percentuali di PV minore di (10 + ([Sinking] + Conteggio [Sinking] sul bersaglio principale)/3)% PV (max 15%)\n- A 4+ Rison. più alta, cura 1 alleato in più\n<style=\"highlight\">- Se la Rison. più alta era una 4+ Rison. Tristezza, cura un ulteriore 5% PV</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">+3</style> Conteggio [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <style=\"highlight\">Per ogni 3</style> Rison. Tristezza, infligge 1 [AzureTakeDamageUp] <style=\"highlight\">(max 2)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [UninvitedGuestPersonality]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [EchoOfMansion] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2080811,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Incubo Natalizio",
+          "abName": "Letto Comodo",
+          "desc": "[BeforeAttack] Ottiene (Rison. più alta + 5) Conteggio [Vibration] (max 10)\n[EndSkill] Se sono presenti bersagli Storditi, in Morale Basso o Panico, recupera 10 PS",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +5 Conteggio [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Incubo Natalizio",
+          "abName": "Letto Comodo",
+          "desc": "<style=\"highlight\">Se il bersaglio ha meno di  0 PS, infligge +1% danni per ogni punto PS al di sotto di 0 (max 45%)</style>\n[BeforeAttack] Ottiene (Rison. più alta + 5) Conteggio [Vibration] (max 10)\n[EndSkill] Se sono presenti bersagli Storditi, in Morale Basso o Panico, recupera 10 PS",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +5 Conteggio [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio è Stordito, non è in Morale Basso o in Panico, infligge 5 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio è Stordito, non è in Morale Basso o in Panico, innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Incubo Natalizio",
+          "abName": "Letto Comodo",
+          "desc": "Se il bersaglio ha meno di  0 PS, infligge +1% danni per ogni punto PS al di sotto di 0 (max 45%)\n[BeforeAttack] Ottiene (Rison. più alta + 5) Conteggio [Vibration] (max 10)\n[EndSkill] Se sono presenti bersagli Storditi, sono in Morale Basso o Panico, recupera 10 PS<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +5 Conteggio [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio non è Stordito, non è in Morale Basso o in Panico, infligge 5 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio non è Stordito, non ha Morale Basso o Panico, innesca [VibrationExplosion] <style=\"highlight\">due volte</style>; riduce poi il Conteggio [Vibration] del bersaglio di 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2080821,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Incubo Natalizio",
+          "abName": "Letto Comodo",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene (Rison. più alta + 5) Conteggio [Vibration] (max 10)\n[BeforeAttack] Recupera 10 PV",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +5 Conteggio [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Incubo Natalizio",
+          "abName": "Letto Comodo",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n<style=\"highlight\">Se il bersaglio principale è Stordito, è in Morale Basso o in Panico, Potere Base +1</style>\n[BeforeAttack] Ottiene (Rison. più alta + 5) Conteggio [Vibration] (max 10)\n[BeforeAttack] Recupera 10 PV\n<style=\"highlight\">[EndSkill] Recupera 5 PS per ogni nemico che è Stordito, ha Morale Basso o Panico</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +5 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio non è Stordito, non è in Morale Basso o in Panico, infligge 5 [Sinking] e +2 Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio non è Stordito, non è in Morale Basso o in Panico, innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Incubo Natalizio",
+          "abName": "Letto Comodo",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nSe il bersaglio principale è Stordito, è in Morale Basso o in Panico, Potere Base +<style=\"highlight\">2</style>\n[BeforeAttack] Ottiene (Rison. più alta + 5) Conteggio [Vibration] (max 10)\n[BeforeAttack] Recupera 10 PV\n[EndSkill] Recupera 5 PS per ogni nemico che è Stordito, ha Morale Basso o Panico<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +5 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio non è Stordito, non è in Morale Basso o in Panico, infligge 5 [Sinking] e +2 Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio non è Stordito, non è in Morale Basso o in Panico, innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio non è Stordito, non è in Morale Basso o in Panico, innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2080911,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Larva Centopiedi Mortale [蝍蛆殺]",
+          "abName": "Centipede Apostle",
+          "desc": "[EndSkill] Infligge [CentipedePoison] pari alla somma di ogni effetto negativo su di sé e sul bersaglio principale (max 5)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] A 4+ Risonanza Gola o Tristezza, infligge [CentipedePoison] in base alla Risonanza (max 4)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Larva Centopiedi Mortale [蝍蛆殺]",
+          "abName": "Centipede Apostle",
+          "desc": "[EndSkill] Infligge [CentipedePoison] pari alla somma di ogni effetto negativo su di sé e sul bersaglio principale (max <style=\"highlight\">8</style>)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] A 4+ Risonanza Gola o Tristezza, infligge [CentipedePoison] in base alla Risonanza (max 4)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Larva Centopiedi Mortale [蝍蛆殺]",
+          "abName": "Centipede Apostle",
+          "desc": "[EndSkill] Infligge [CentipedePoison] pari alla somma di ogni effetto negativo su di sé e sul bersaglio principale (max <style=\"highlight\">10</style>)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] A 4+ Risonanza Gola o Tristezza, infligge [CentipedePoison] in base alla Risonanza (max <style=\"highlight\">5</style>)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2080921,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Larva Centopiedi Mortale [蝍蛆殺]",
+          "abName": "Centipede Apostle",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[EndSkill] Infligge [CentipedePoison] pari alla somma di ogni effetto negativo su di sé e sul bersaglio principale (max 8)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] A 4+ Risonanza Gola o Tristezza, infligge [CentipedePoison] in base alla Risonanza (max 4)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Larva Centopiedi Mortale [蝍蛆殺]",
+          "abName": "Centipede Apostle",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[EndSkill] Infligge [CentipedePoison] pari alla somma di ogni effetto negativo su di sé e sul bersaglio principale (max <style=\"highlight\">10</style>)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] A 4+ Risonanza Gola o Tristezza, infligge [CentipedePoison] in base alla Risonanza (max 4)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Larva Centopiedi Mortale [蝍蛆殺]",
+          "abName": "Centipede Apostle",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[EndSkill] Infligge [CentipedePoison] pari alla somma di ogni effetto negativo su di sé e sul bersaglio principale (max 10<style=\"highlight\"></style>)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] A 4+ Risonanza Gola o Tristezza, infligge [CentipedePoison] in base alla Risonanza (max <style=\"highlight\">5</style>)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2081011,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Elegia alle Onde",
+          "abName": "Skadi",
+          "desc": "Quando attacca un solo bersaglio, Infligge +100% danni e ottiene Potere Moneta +2 (negli Incontri Mirati, più Parti dello stesso nemico sono considerate come un singolo bersaglio)\n[WhenUse] Se il bersaglio principale ha 4+ [Sinking], Potere Scontro +1\n[BeforeAttack] Se la resistenza Tristezza del bersaglio principale è più alta di 1, infligge +2% danni per ogni 0.1 resistenza in eccesso. (max 10%)\n[BeforeAttack] A 2+ Risonanza Tristezza, infligge +5% danni per ogni Risonanza Tristezza (max 20%)\n[EndSkill] Se 1 o più bersagli sono stati sconfitti da questa Abilità, infligge (Potenza[Sinking] su ogni bersaglio / 2) danni da Tristezza su 2 nemici a caso (max 15; dà priorità ai nemici bersagliati da questa Abilità con più Potenza [Sinking])",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 1 [Binding] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se tra i bersagli ci sono nemici Storditi, Sconfitti o con una Parte rotta, infligge 2 [Sinking] su un nemico non bersagliato a caso (una volta per turno. Negli Incontri Mirati, ogni Parte è considerata come 1 bersaglio.)"
+                },
+                {
+                  "desc": "- Se attacca solo un bersaglio, viene invece inflitto su 3 bersagli"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Elegia alle Onde",
+          "abName": "Skadi",
+          "desc": "Quando attacca un solo bersaglio, Infligge +100% danni e ottiene Potere Moneta +2 (negli Incontri Mirati, più Parti dello stesso nemico sono considerate come un singolo bersaglio)\n[WhenUse] Se il bersaglio principale ha 4+ [Sinking], Potere Scontro +1\n[BeforeAttack] Se la Resistenza a Tristezza del bersaglio principale è più alta di 1, infligge +<style=\"highlight\">3</style>% danni per ogni 0.1 Resistenza in eccesso (max <style=\"highlight\">15</style>%)\n[BeforeAttack] A 2+ Risonanza Tristezza, infligge +<style=\"highlight\">8</style>% danni per ogni Risonanza Tristezza (max <style=\"highlight\">32</style>%)\n[EndSkill] Se 1 o più bersagli sono stati sconfitti da questa Abilità, infligge (Potenza[Sinking] su ogni bersaglio / 2) danni da Tristezza su 2 nemici a caso (max 15; dà priorità ai nemici bersagliati da questa Abilità con più Potenza [Sinking])",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 1 [Binding] il turno successivo<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se tra i bersagli ci sono nemici Storditi, Sconfitti o con una Parte rotta, infligge 2 [Sinking] su un nemico non bersagliato a caso (una volta per turno. Negli Incontri Mirati, ogni Parte è considerata come 1 bersaglio.)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "- Se attacca solo un bersaglio, viene invece inflitto su 3 bersagli<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Elegia alle Onde",
+          "abName": "Skadi",
+          "desc": "Quando attacca un solo bersaglio, Infligge +100% danni e ottiene Potere Moneta +2 (negli Incontri Mirati, più Parti dello stesso nemico sono considerate come un singolo bersaglio)\n[WhenUse] <style=\"highlight\">Potere Scontro +1 per ogni 4 [Sinking] sul bersaglio principale (max 2)</style>\n[BeforeAttack] Se la Resistenza a Tristezza del bersaglio principale è più alta di 1, infligge +<style=\"highlight\">5</style>% danni per ogni 0.1 Resistenza in eccesso (max <style=\"highlight\">20</style>%)\n[BeforeAttack] A 2+ Risonanza Tristezza, infligge +<style=\"highlight\">10</style>% danni per ogni Risonanza Tristezza (max <style=\"highlight\">40</style>%)\n[EndSkill] Se 1 o più bersagli sono stati sconfitti da questa Abilità, infligge (Potenza[Sinking] su ogni bersaglio / 2) danni da Tristezza su 2 nemici a caso (max 15; dà priorità ai nemici bersagliati da questa Abilità con più Potenza [Sinking])",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">3</style> [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">3</style> [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge <style=\"highlight\">2</style> [Binding] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se tra i bersagli ci sono nemici Storditi, Sconfitti o con una Parte rotta, infligge 2 [Sinking] su un nemico non bersagliato a caso (una volta per turno. Negli Incontri Mirati, ogni Parte è considerata come 1 bersaglio.)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "- Se attacca solo un bersaglio, viene invece inflitto su 3 bersagli<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2081021,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Elegia alle Onde",
+          "abName": "Skadi",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[WhenUse] Se il bersaglio principale ha 5+ [Sinking], Potere Scontro +1\n[BeforeAttack] Attiva i seguenti effetti una volta per ogni 3 Risonanza più alta:\n- +1 Portata Attacco (max 2)\n- Infligge +15% danni (max 30%)\n[EndSkill] Applica 1 [HitDamageUp] a (Risonanza più alta) alleati casuali il turno successivo (include sé stessa; max 4 alleati; una volta per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Elegia alle Onde",
+          "abName": "Skadi",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[WhenUse] <style=\"highlight\">Potere Scontro +1 per ogni 5 [Sinking] sul bersaglio principale (max 2)</style>\n[BeforeAttack] Attiva i seguenti effetti una volta per ogni 3 Risonanza più alta:\n- +1 Portata Attacco (max 2)\n- Infligge +15% danni (max 30%)\n[EndSkill] Applica 1 [HitDamageUp] a (Risonanza più alta) alleati casuali il turno successivo (include sé stessa; max 4 alleati; una volta per turno)\n<style=\"highlight\">- Se questa era una Risonanza o Risonanza Assoluta Tristezza, applica anche 1 [AzureDamageUp]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Se tra i bersagli ci sono nemici Storditi, Sconfitti o con una Parte rotta, infligge 1 [AzureTakeDamageUp] su un nemico non bersagliato a caso il turno successivo (una volta per turno. Negli Incontri Mirati, ogni Parte è considerata come 1 bersaglio)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Elegia alle Onde",
+          "abName": "Skadi",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[WhenUse] Potere Scontro +1 per ogni 5 [Sinking] sul bersaglio principale (max <style=\"highlight\">3</style>)\n[BeforeAttack] Attiva i seguenti effetti una volta per ogni 3 Risonanza più alta <style=\"highlight\">(se questa è una Risonanza Tristezza, si attivano invece per ogni 2 Risonanza più alta)</style>\n- +1 Portata Attacco (max 2)\n- Infligge +15% danni (max 30%)\n[EndSkill] Applica 1 [HitDamageUp] a (Risonanza più alta) alleati casuali il turno successivo (include sé stessa; max 4 alleati; una volta per turno)\n- Se questa era una Risonanza o Risonanza Assoluta Tristezza, applica anche 1 [AzureDamageUp]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se tra i bersagli ci sono nemici Storditi, Sconfitti o con una Parte rotta, infligge 1 [AzureTakeDamageUp] su un nemico non bersagliato a caso il turno successivo (una volta per turno. Negli Incontri Mirati, ogni Parte è considerata come 1 bersaglio)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

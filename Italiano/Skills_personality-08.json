@@ -1,0 +1,2777 @@
+{
+  "dataList": [
+    {
+      "id": 1080701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Pronta a Schiacciare",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +3 Conteggio [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge +2 Conteggio [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Pronta a Schiacciare",
+          "desc": "[WhenUse] Ottiene +3 Conteggio [Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +3 Conteggio [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge +2 Conteggio [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Pronta a Schiacciare",
+          "desc": "[WhenUse] Ottiene +3 Conteggio [Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +3 Conteggio [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1080702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Botto Esplosivo",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 6 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [DefenseDown] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Botto Esplosivo",
+          "desc": "A 5+ Conteggio [Vibration], Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 6 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [DefenseDown] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Botto Esplosivo",
+          "desc": "A 5+ Conteggio [Vibration], Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 6 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [DefenseDown] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1080703,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Scelta Rischiosa",
+          "desc": "A 5+ Conteggio [Vibration], Potere Moneta +1\nSe il bersaglio ha 6+ [Sinking], infligge +20% danni",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +5 Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Consuma 5 Conteggio [Vibration] per infliggere 1 [Vulnerable] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Consuma 5 Conteggio [Vibration] per infliggere 2 [Vulnerable] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Scelta Rischiosa",
+          "desc": "Potere Moneta +1 per ogni 5 Conteggio [Vibration] su di sé (Max 2)\nSe il bersaglio ha 6+ [Sinking], infligge +40% danni",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +5 Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Consuma 5 Conteggio [Vibration] per infliggere 1 [Vulnerable] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Consuma 5 Conteggio [Vibration] per infliggere 2 [Vulnerable] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1080704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Passi Sciolti",
+          "desc": "[WhenUse] Ottiene 2 [BurstProtection] (6 volte per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1080801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "A Me!",
+          "desc": "[WhenUse] Il turno successivo, l'Abilità più a sinistra di 1 altro alleato con i maggiori PV Max ottiene +(Rison. più alta) [Aggro] (Una volta per turno)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "A Me!",
+          "desc": "[WhenUse] Il turno successivo, l'Abilità più a sinistra di 1 altro alleato con i maggiori PV Max ottiene +(Rison. più alta) [Aggro] (Una volta per turno)\n- A 4+ Rison-A più alta, applica 1 [Protection] all'alleato il turno successivo quando ottiene [Aggro] (Una volta per turno)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "A Me!",
+          "desc": "<style=\"highlight\">[StartBattle] Applica 2 [DefenseUp] a 2 alleati adiacenti a questa unità sul Pannello di Controllo</style>\n[WhenUse] Il turno successivo, l'Abilità più a sinistra di 1 altro alleato con i maggiori PV Max ottiene +(Rison. più alta) [Aggro] (Una volta per turno)\n- A 4+ Rison-A più alta, applica 1 [Protection] all'alleato il turno successivo quando ottiene [Aggro] (Una volta per turno)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1080802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Inseguiteli Fino alla Fine!",
+          "desc": "[WhenUse] Ogni Rison. della Rison. più alta aggiunge 10% di probabilità che questa unità ordini all'alleato alla sua immediata destra(sul Pannello di Controllo) di usare [CoverAttack] questo turno.",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Inseguiteli Fino alla Fine!",
+          "desc": "[WhenUse] Ogni Rison. della Rison. più alta aggiunge 15% di probabilità che questa unità ordini all'alleato alla sua immediata destra(sul Pannello di Controllo) di usare [CoverAttack] questo turno.\n- A 4+ Rison-A più alta, applica 1 [AttackDmgUp] all'alleato\n- A 4+ Rison-A Superbia, applica anche 1 [IndigoResultUp]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Inseguiteli Fino alla Fine!",
+          "desc": "[StartBattle] Applica 3 [AttackUp] a 2 alleati adiacenti a questa unità sul Pannello di Controllo\n[WhenUse] Ogni Rison. della Rison. più alta aggiunge 20% di probabilità che questa unità ordini all'alleato alla sua immediata destra(sul Pannello di Controllo) di usare [CoverAttack] questo turno.\n- A 4+ Rison-A più alta, applica 2 [AttackDmgUp] all'alleato\n- A 4+ Rison-A Superbia, applica anche 2 [IndigoResultUp]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1080803,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Arpione dell'Ossessione",
+          "desc": "Infligge più danni in base ai PV mancanti del bersaglio (+0.2% danni per 1% PV mancanti, max +20%)\n[EndSkill] Se il bersaglio viene Stordito o sconfitto, (1+(Rison-A più alta/2)) alleati con meno PS si curano di 10 PS, ottiene 2 [Breath], e +4 Conteggio [Breath]. (2 volte max. Max # di alleati che possono venire curati: 4)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Arpione dell'Ossessione",
+          "desc": "Infligge più danni in base ai PV mancanti del bersaglio (+0.3% danni per 1% PV mancanti, max +30%)\nPotere Moneta +1 per ogni 5 [Laceration] sul bersaglio (Max 2)\n[EndSkill] Se il bersaglio viene Stordito o sconfitto, (1+(Rison-A più alta/2)) alleati con meno PS si curano di 10 PS, ottiene 2 [Breath], e ottiene +4 Conteggio [Breath]. (4 volte max. Max # di alleati che possono venire curati: 4)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1080804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Non Temete",
+          "desc": "[WhenUse] 2 alleati adiacenti a questa unità sul Pannello di Controllo si curano per 3 PS (2 volte max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Non Temete",
+          "desc": "[WhenUse] 2 alleati adiacenti a questa unità sul Pannello di Controllo si curano per 5 PS (2 volte max)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1080901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ampio Spazzare",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Ampio Spazzare",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ampio Spazzare",
+          "desc": "Se la Velocità di questa unità è maggiore del bersaglio, Potere Moneta +1\n[WhenUse] Ottiene +2 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Ottiene 1 [Agility] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1080902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ripulire",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Agility] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [DefenseDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Ripulire",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Breath]\n[WinDuel] Ottiene 2 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Agility] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [DefenseDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ripulire",
+          "desc": "Se la Velocità di questa unità è maggiore del bersaglio, Potere Moneta +1\n[WhenUse] Ottiene +2 Conteggio [Breath]\n[WinDuel] Ottiene 2 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Agility] il turno successivo"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Infligge 1 [Binding] il turno successivo</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [DefenseDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1080903,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Tecnica Immobilizzante",
+          "desc": "[WhenUse] Ottiene 6 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Binding] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [SlashTakeDamageUp] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Tecnica Immobilizzante",
+          "desc": "Se la Velocità di questa unità è maggiore del bersaglio, Potere Moneta +1\n[WhenUse] Ottiene 6 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Binding] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [SlashTakeDamageUp] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1080904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Evasione",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Evasione",
+          "desc": "[OnSucceedEvade] Recupera 5 PS (1 volta per turno)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Stile con Spadone dei Cavalieri Zwei",
+          "desc": "[WhenUse] Ottiene +2 [Aggro] su questo Slot Abilità il turno successivo\n[WhenUse] Ottiene 1 [DefenseUp] per ogni 4 Conteggio [Vibration] su di sé (max 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [DefenseUp] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [DefenseUp] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Stile con Spadone dei Cavalieri Zwei",
+          "desc": "[WhenUse] Ottiene +<style=\"highlight\">3</style> [Aggro] su questo Slot Abilità il turno successivo\n[WhenUse] Ottiene 1 [DefenseUp] per ogni <style=\"highlight\">3</style> Conteggio [Vibration] su di sé (max 2)\n<style=\"highlight\">[WhenUse] A 4+ [DefenseUp], Potere Base +1</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene <style=\"highlight\">2</style> [DefenseUp] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene <style=\"highlight\">2</style> [DefenseUp] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Stile con Spadone dei Cavalieri Zwei",
+          "desc": "[WhenUse] Ottiene +3 [Aggro] su questo Slot Abilità il turno successivo\n[WhenUse] Ottiene 1 [DefenseUp] per ogni <style=\"highlight\">2</style> Conteggio [Vibration] su di sé (max <style=\"highlight\">3</style>)\n[WhenUse] <style=\"highlight\">Potere Base +1 per ogni 4 [DefenseUp] (max 2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [DefenseUp] il turno successivo<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [DefenseUp] il turno successivo<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Non Posso Farti Passare.",
+          "desc": "[WhenUse] Ottiene +3 [Aggro] su questo Slot Abilità il turno successivo\n[WhenUse] Ottiene 1 [DefenseUp] per ogni 2 Conteggio [Vibration] su di sé (max 3)\n[WinDuel] Ottiene +3 Conteggio [Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 3 [DefenseUp] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge [Vibration] pari a ((Conteggio [Vibration] su di sé)/2) (max 2)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] A 10+ [DefenseUp], infligge 1 [Reduction]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Non Posso Farti Passare.",
+          "desc": "[WhenUse] Ottiene +3 [Aggro] su questo Slot Abilità il turno successivo\n[WhenUse] Ottiene 1 [DefenseUp] per ogni 2 Conteggio [Vibration] su di sé (max <style=\"highlight\">4</style>)\n<style=\"highlight\">[WhenUse] A 5+ [DefenseUp], Potere Moneta +1</style>\n[WinDuel] Ottiene +3 Conteggio [Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">3</style> [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 3 [DefenseUp] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge [Vibration] pari a ((Conteggio [Vibration] su di sé)/2) (max <style=\"highlight\">3</style>)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] A 10+ [DefenseUp], infligge 1 [Reduction]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Non Posso Farti Passare.",
+          "desc": "[WhenUse] Ottiene +<style=\"highlight\">5</style> [Aggro] su questo Slot Abilità il turno successivo\n[WhenUse] Ottiene 1 [DefenseUp] per ogni 2 Conteggio [Vibration] su di sé (max <style=\"highlight\">5</style>)\n[WhenUse] A <style=\"highlight\">4</style>+ [DefenseUp], Potere Moneta +1\n[WinDuel] Ottiene +3 Conteggio [Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">4</style> [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene <style=\"highlight\">4</style> [DefenseUp] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge [Vibration] pari a ((Conteggio [Vibration] su di sé)/2) (max <style=\"highlight\">4</style>)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] A <style=\"highlight\">8</style>+ [DefenseUp], infligge 1 [Reduction]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081003,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Difendi",
+          "desc": "[WhenUse] Ottiene 1 [DefenseUp] per ogni 2 Conteggio [Vibration] su di sé (max 3)\n[WhenUse] Se questa unità è in [DefensiveStance], infligge +50% danni\n[WhenUse] Potere Moneta +1 per ogni 4 [DefenseUp] su di sé (max 2)\n[WhenUse] Ottiene +8 [Aggro] su questo Slot Abilità il turno successivo\n[WinDuel] Ottiene +3 Conteggio [Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Consuma tutto il Conteggio [Vibration] su di sé, e infligge il valore di Conteggio consumato come [Vibration] sul bersaglio. (max 10)\n- Infligge +([Vibration] in eccesso x 1.5)% danni (max 30%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se questa unità è in [DefensiveStance], innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Difendi",
+          "desc": "[WhenUse] Ottiene 1 [DefenseUp] per ogni 2 Conteggio [Vibration] su di sé (max <style=\"highlight\">5</style>)\n[WhenUse] Se questa unità è in [DefensiveStance], infligge +<style=\"highlight\">70</style>% danni\n[WhenUse] Potere Moneta +1 per ogni 4 [DefenseUp] su di sé (max <style=\"highlight\">4</style>)\n[WhenUse] Ottiene +<style=\"highlight\">10</style> [Aggro] su questo Slot Abilità il turno successivo\n[WinDuel] Ottiene +3 Conteggio [Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Consuma tutto il Conteggio [Vibration] su di sé, e infligge il valore di Conteggio consumato come [Vibration] sul bersaglio. (max <style=\"highlight\">20</style>)\n- Infligge +([Vibration] in eccesso x <style=\"highlight\">5</style>)% danni (max <style=\"highlight\">50</style>%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se questa unità è in [DefensiveStance], innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Il Tuo Scudo",
+          "desc": "[CanDuelGuard]\n[StartBattle] Ottiene 2 [DefensiveStance]. (1 volta per turno)\n[WhenUse] Ottiene +10 Conteggio [Vibration] (1 volta per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Il Tuo Scudo",
+          "desc": "[CanDuelGuard]\n[StartBattle] Ottiene 2 [DefensiveStance]. (1 volta per turno)\n[WhenUse] Ottiene +10 Conteggio [Vibration] (1 volta per turno)\n<style=\"highlight\">[WinDuel] Innesca [VibrationExplosion]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Pulizia",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [AttackDown]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Pulizia",
+          "desc": "<style=\"highlight\">Se il bersaglio ha 6+ [Laceration], Potere Moneta +1</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [AttackDown]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Pulizia",
+          "desc": "<style=\"highlight\">Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)\nInfligge +10% danni per ogni tipo di effetto negativo sul bersaglio (max 30%)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [AttackDown]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lama Affilata",
+          "desc": "[StartBattle] A 2 altre Identità del Clan Kurokumo alleate dalla Velocità più alta: applica 1 [AttackDmgUp] (1 volta per turno)\n- Se ci sono 6+ alleati del Clan Kurokumo, inclusa questa unità, allora applica 2 [AttackDmgUp] a 5 alleati",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Lama Affilata",
+          "desc": "<style=\"highlight\">Se il bersaglio ha 6+ [Laceration], Potere Moneta +1</style>\n[StartBattle] A 2 altre Identità del Clan Kurokumo alleate dalla Velocità più alta: applica <style=\"highlight\">2</style> [AttackDmgUp] (1 volta per turno)\n- Se ci sono 6+ unità del Clan Kurokumo, inclusa questa unità, allora applica <style=\"highlight\">3</style> [AttackDmgUp] a 5 alleati",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Infligge 1 [SlashTakeDamageUp] (1 volta per turno)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Ottiene 1 [SlashResultUp] il turno successivo (1 volta per turno)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Lama Affilata",
+          "desc": "<style=\"highlight\">Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)\nInfligge +10% danni per ogni tipo di effetto negativo sul bersaglio (max 50%)</style>\n[StartBattle] A 2 altre Identità del Clan Kurokumo alleate dalla Velocità più alta: applica 2 [AttackDmgUp] (1 volta per turno)\n- Se ci sono 6+ unità del Clan Kurokumo, inclusa questa unità, applica 4 [AttackDmgUp] a 5 allies instead",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [SlashTakeDamageUp] (1 volta per turno)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">- Se ci sono 6+ unità del Clan Kurokumo, inclusa questa unità, infligge 2 [Vulnerable] instead</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [SlashResultUp] il turno successivo (<style=\"highlight\">2 volte</style> per turn)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081103,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Pittura ad Inchiostro",
+          "desc": "Se il bersaglio ha 6+ [Laceration], Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Attiva [Laceration] sul bersaglio 3 volte; infine, riduce il suo Conteggio [Laceration] di 3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Pittura ad Inchiostro",
+          "desc": "<style=\"highlight\">Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)\n[EnemyKill] Ottiene 2 [SlashResultUp] il turno successivo (1 volta per turno)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">Infligge +10% danni per ogni tipo di effetto negativo sul bersaglio (max 100%)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Attiva [Laceration] sul bersaglio 3 volte; infine, riduce il suo Conteggio [Laceration] di 3<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Taglio Dispersivo",
+          "desc": "[StartBattle] Ottiene 1 [Protection] (1 volta per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Taglio Dispersivo",
+          "desc": "[StartBattle] Ottiene 1 [Protection] (1 volta per turno)\n<style=\"highlight\">[StartBattle] A (2 + Rison. più alta) Identità del Clan Kurokumo alleate, inclusa questa unità, dalla Velocità più alta: applica 2 [Endurance] (1 volta per turno)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+     },
+    {
+      "id": 1081201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Colpo Cremisi",
+          "desc": "[WhenUse] Se il bersaglio ha 5+ tipi di effetti negativi, Potere Scontro +1\n[WinDuel] Ottiene 1 [Breath] e +1 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Ottiene 1 [AttackUp] il turno successivo (1 volta per turno)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Colpo Cremisi",
+          "desc": "[WhenUse] Se il bersaglio ha 5+ tipi di effetti negativi, Potere Scontro +1\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 3+ [Burst], Potere Moneta +1</style>\n[WinDuel] Ottiene 2 [Breath] e +1 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Ottiene 1 [AttackUp] il turno successivo (1 volta per turno)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Colpo Cremisi",
+          "desc": "[WhenUse] Se il bersaglio ha 5+ tipi di effetti negativi, Potere Scontro +1\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 3 [Burst] sul bersaglio (max 2)</style>\n[WinDuel] Ottiene <style=\"highlight\">3</style> [Breath] e +<style=\"highlight\">2</style> Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Ottiene 1 [AttackUp] il turno successivo (<style=\"highlight\">2 volte</style> per turn)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fenice Cremisi",
+          "desc": "[WhenUse] Se il bersaglio ha 5+ tipi di effetti negativi, Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene [Breath] pari a [Burst] sul bersaglio (max 5)"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Ottiene Conteggio [Breath] pari a Conteggio [Burst] sul bersaglio (max 3)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Infligge +(20 + [Breath] su di sé + [Burst] sul bersaglio)% danni sul Colpo Critico (max 50%)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Fenice Cremisi",
+          "desc": "[WhenUse] Se il bersaglio ha 5+ tipi di effetti negativi, Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 1 [DefenseDown] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 1 [DefenseDown] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene [Breath] pari a [Burst] sul bersaglio (max 5)"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Ottiene Conteggio [Breath] pari a Conteggio [Burst] sul bersaglio (max 3)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Infligge +(20 + [Breath] su di sé + [Burst] sul bersaglio)% danni sul Colpo Critico (max 50%)"
+                },
+                {
+                  "desc": "[CriticalEnemyTargetKill] Ottiene 3 [AttackUp] il turno successivo (1 volta per turno)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Fenice Cremisi",
+          "desc": "[WhenUse] Se il bersaglio ha 5+ tipi di effetti negativi, Potere Moneta +1\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 4+ [Burst], Potere Moneta +1</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge <style=\"highlight\">2</style> [DefenseDown] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge <style=\"highlight\">2</style> [DefenseDown] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene [Breath] pari a [Burst] sul bersaglio (max 5)"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Ottiene Conteggio [Breath] pari a Conteggio [Burst] sul bersaglio (max 3)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Infligge +(20 + [Breath] su di sé + [Burst] sul bersaglio)% danni sul Colpo Critico (max 50%)"
+                },
+                {
+                  "desc": "[CriticalEnemyTargetKill] Ottiene 3 [AttackUp] il turno successivo (1 volta per turno)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081203,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Primavera Cremisi",
+          "desc": "[BeforeAttack] Se il bersaglio principale ha 6+ tipi di effetti negativi, Portata Attacco +1\n[WhenUse] Potere Moneta +2 per ogni 3 tipi di effetti negativi sul bersaglio principale (max 4)\n[WhenUse] Potere Moneta +1 per ogni 7 ([Burst] + Conteggio [Burst]) sul bersaglio principale (max 3)\n[WinDuel] Ottiene 4 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Infligge +(20 + [Breath] su di sé + [Burst] sul bersaglio principale)% danni (max 40%)"
+                },
+                {
+                  "desc": "Infligge +(45 + [Breath] su di sé + [Burst] sul bersaglio principale)% danni sul Colpo Critico (max 65%)"
+                },
+                {
+                  "desc": "+5% Danni sul Colpo Critico per ogni [StartXichun] su di sé (max 30%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Burst]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Ottiene 2 [Breath] e +1 Conteggio [Breath]"
+                },
+                {
+                  "desc": "[CriticalEnemyTargetKill] Ottiene +2 Conteggio [Breath] (3 volte per turno)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Primavera Cremisi",
+          "desc": "[BeforeAttack] Se il bersaglio principale ha 5+ tipi di effetti negativi, Portata Attacco +1\n<style=\"highlight\">[BeforeAttack] A 3+ [StartXichun], Portata Attacco +1</style>\n[WhenUse] Potere Moneta +2 per ogni 3 tipi di effetti negativi sul bersaglio principale (max <style=\"highlight\">6</style>)\n[WhenUse] Potere Moneta +1 per ogni 7 ([Burst] + Conteggio [Burst]) sul bersaglio principale (max <style=\"highlight\">5</style>)\n[WinDuel] Ottiene 4 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Infligge +(<style=\"highlight\">50</style> + [Breath] su di sé + [Burst] sul bersaglio principale)% danni (max <style=\"highlight\">75</style>%)"
+                },
+                {
+                  "desc": "Infligge +(<style=\"highlight\">80</style> + [Breath] su di sé + [Burst] sul bersaglio principale)% danni sul Colpo Critico (max <style=\"highlight\">105</style>%)"
+                },
+                {
+                  "desc": "+5% Danni sul Colpo Critico per ogni [StartXichun] su di sé (max 30%)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Infligge +1 Conteggio [Burst]</style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Ottiene 2 [Breath] e +1 Conteggio [Breath]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalEnemyTargetKill] Ottiene +2 Conteggio [Breath] (3 volte per turno)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Evasione Esperta",
+          "desc": "[StartBattle] A 3+ [StartXichun], effettua una [RetreatForCommon] a Fine Turno.\n- Quando si Ritira, si sposta al primo posto nell' Ordine di Schieramento delle Unità di Riserva (Ritorna prima delle altre Unità di Riserva in una sostituzione)\n[OnSucceedEvade] Ottiene 2 [Breath] (2 volte per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Evasione Esperta",
+          "desc": "[StartBattle] A 3+ [StartXichun], effettua una [RetreatForCommon] a Fine Turno.\n- Quando si Ritira, si sposta al primo posto nell' Ordine di Schieramento delle Unità di Riserva (Ritorna prima delle altre Unità di Riserva in una sostituzione)\n<style=\"highlight\">[WhenUse] Ottiene +1 Conteggio [Breath] (2 volte per turno)</style>\n[OnSucceedEvade] Ottiene 2 [Breath] (2 volte per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081205,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Colpo Cremisi - Lancio [始]",
+          "desc": "[CantDuel]\n[WhenUse] Ottiene 5 [Breath] e +2 Conteggio [Breath]\n[BeforeAttack] Consuma ogni [WaitingXichun] su di sé a ottiene +([WaitingXichun] su di sé x 2) Portata Attacco (max 5)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Colpo Cremisi - Lancio [始]",
+          "desc": "[CantDuel]\n[WhenUse] Ottiene 5 [Breath] e +2 Conteggio [Breath]\n<style=\"highlight\">[WhenUse] A 3+ [WaitingXichun], Potere Moneta +1</style>\n[BeforeAttack] Consuma ogni [WaitingXichun] su di sé a ottiene +([WaitingXichun] su di sé x 2) Portata Attacco (max 5)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Colpo Cremisi - Lancio [始]",
+          "desc": "[CantDuel]\n[WhenUse] Ottiene 5 [Breath] e +2 Conteggio [Breath]\n[WhenUse] A 3+ [WaitingXichun], Potere Moneta +<style=\"highlight\">2</style>\n[BeforeAttack] Consuma ogni [WaitingXichun] su di sé a ottiene +([WaitingXichun] su di sé x 2) Portata Attacco (max 5)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tsuru-giri [鶴斬り]",
+          "desc": "[WhenUse] Se l'altra Abilità nello stesso Slot Abilità è diversa, [Discard] quell'Abilità",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Tsuru-giri [鶴斬り]",
+          "desc": "[WhenUse] Se l'altra Abilità nello stesso Slot Abilità è diversa, [Discard] quell'Abilità\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ ([Vibration] + [Sinking]), Potere Moneta +1</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Infligge +1 Conteggio [Sinking]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Infligge +1 Conteggio [Vibration]</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Tsuru-giri [鶴斬り]",
+          "desc": "[WhenUse] Se l'altra Abilità nello stesso Slot Abilità è diversa, [Discard] quell'Abilità\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 ([Vibration] + [Sinking]) sul bersaglio (max 2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Finta Susuki",
+          "desc": "[WhenUse] Se l'altra Abilità nello stesso Slot Abilità è diversa, [Discard] quell'Abilità",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
+                }
+              ]
+            },
+            {}
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Finta Susuki",
+          "desc": "[WhenUse] Se l'altra Abilità nello stesso Slot Abilità è diversa, [Discard] quell'Abilità\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ ([Vibration] + [Sinking]), Potere Moneta +1</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Infligge 1 [Sinking]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Infligge 1 [Vibration]</style>"
+                }
+              ]
+            },
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Finta Susuki",
+          "desc": "[WhenUse] Se l'altra Abilità nello stesso Slot Abilità è diversa, [Discard] quell'Abilità\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 ([Vibration] + [Sinking]) sul bersaglio (max 2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Recupera 5 PS</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081303,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Sakura-sen [桜閃]",
+          "desc": "Infligge +5% danni per ogni Potenza [HanafudaCombo] su di sé\n[WhenUse] Se l'altra Abilità nello stesso Slot Abilità è diversa, [Discard] quell'Abilità\n[WhenUse] Se il bersaglio ha 6+ ([Vibration] + [Sinking]), Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio non è in stato di [Switch_Vibration], innesca [Switch_Vibration] in [VibrationCollapse]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Sakura-sen [桜閃]",
+          "desc": "Infligge +<style=\"highlight\">10</style>% danni per ogni Potenza [HanafudaCombo] su di sé\n[WhenUse] Se l'altra Abilità nello stesso Slot Abilità è diversa, [Discard] quell'Abilità\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 ([Vibration] + [Sinking]), sul bersaglio (max 3)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\"> Se il bersaglio è in stato di [Switch_Vibration] o [FusionVibration], questa moneta infligge +48% danni</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio non è in stato di [Switch_Vibration], innesca [Switch_Vibration] in [VibrationCollapse]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Rimescola le Mani - Mazzo Floreale",
+          "desc": "[DuelCounter]\n[StartBattle] [Discard] 2 Abilità del grado più basso in tutti gli Slot Abilità di questa unità (una volta per turno)\n[StartBattle] Se questa Abilità viene equipaggiata sullo Slot Abilità più a sinistra di questa unità, converte il Seme della Mano dell'unità in un Seme casuale corrispondente ad una delle Abilità Attacco Base di questa unità il turno successivo. (una volta per turno; escludendo il Seme che ha già nella Mano)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Rimescola le Mani - Mazzo Floreale",
+          "desc": "[DuelCounter]\n[StartBattle] [Discard] 2 Abilità del grado più basso in tutti gli Slot Abilità di questa unità (una volta per turno)\n[StartBattle] Se questa Abilità viene equipaggiata sullo Slot Abilità più a sinistra di questa unità, converte il Seme della Mano dell'unità in un Seme casuale corrispondente ad una delle Abilità Attacco Base di questa unità il turno successivo. (una volta per turno; escludendo il Seme che ha già nella Mano)\n<style=\"highlight\">[StartBattle] 50% di probabilità di ottenere 1 Potenza [HanafudaCombo] (una volta per turno)</style>\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 2 Potenza [HanafudaCombo] su di sé (max 2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081305,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Kōzan [光斬]",
+          "desc": "[CantDuel]\nQuesta Abilità non attiva le Abilità Difesa, e gli effetti esterni non possono farla Riusare\n\n[WhenUse] A meno di 3 Potenza [HanafudaCombo], non usa questa Abilità e ottiene 2 [Enhancement] il turno successivo\n[WhenUse] A 3+ Potenza [HanafudaCombo], ottiene i seguenti effetti in base alla Potenza:\n- Per 1 Potenza: questa Abilità infligge +10% danni\n- A 4+ Potenza: Potere Base +1\n- A 5 Potenza: Sul Colpo con l'ultima Moneta Riusata, innesca [VibrationExplosion] 2 volte; infine, riduce il Conteggio [Vibration] del bersaglio di 1\n[EndSkillAll] Perde [HanafudaCombo] su di sé\n[EndSkillAll] Il Turno Successivo, converte il Seme della Mano dell'unità in un Seme casuale corrispondente ad una delle Abilità Attacco Base di questa unità (una volta per turno)\n[EndSkillAll] Ottiene Potenza [HanafudaCombo] il turno successivo pari al # di Monete che non sono state usate",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Riusa questa Moneta (Potenza [HanafudaCombo] - 1) volte (4 volte max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Kōzan [光斬]",
+          "desc": "[CantDuel]\nQuesta Abilità non attiva le Abilità Difesa, e gli effetti esterni non possono farla Riusare\n\n[WhenUse] A meno di 3 Potenza [HanafudaCombo], non usa questa Abilità e ottiene 2 [Enhancement] il turno successivo\n[WhenUse] A 3+ Potenza [HanafudaCombo], ottiene i seguenti effetti in base alla Potenza:\n- Per 1 Potenza: questa Abilità infligge +10% danni\n- A 4+ Potenza: Potere Base +1\n- A 5 Potenza: Sul Colpo con l'ultima Moneta Riusata, innesca [VibrationExplosion] 2 volte; infine, riduce il Conteggio [Vibration] del bersaglio di 1\n[EndSkillAll] Perde [HanafudaCombo] su di sé\n[EndSkillAll] Il Turno Successivo, converte il Seme della Mano dell'unità in un Seme casuale corrispondente ad una delle Abilità Attacco Base di questa unità (una volta per turno)\n[EndSkillAll] Ottiene Potenza [HanafudaCombo] il turno successivo pari al # di Monete che non sono state usate<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Riusa questa Moneta (Potenza [HanafudaCombo] - 1) volte (4 volte max)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Infligge 1 [DefenseDown]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Spaccaculi Davvero Strafico",
+          "desc": "[WhenUse] Recupera 5 PS",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {}
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Spaccaculi Davvero Strafico",
+          "desc": "<style=\"highlight\">Se il bersaglio ha 6+ ([Combustion] + [Laceration]), Potere Moneta +1</style>\n[WhenUse] Recupera 5 PS",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge 5 danni Contundenti bonus</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Spaccaculi Davvero Strafico",
+          "desc": "Se il bersaglio ha 6+ ([Combustion] + [Laceration]), Potere Moneta +1\n[WhenUse] Recupera 5 PS<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 danni Contundenti bonus<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Se questa unità ha [ReinforcedTattooIshmael], infligge +1 Conteggio [Laceration]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Danza delle Lame Incrociate",
+          "desc": "[StartBattle] Questa Abilità aumenta il suo Livello Offensivo di (Rison. più alta / 2) (max 3, arrotondato per difetto)\n[WhenUse] Ottiene +5 [Aggro] su questo slot il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {}
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Danza delle Lame Incrociate",
+          "desc": "<style=\"highlight\">Se il bersaglio ha 6+ ([Combustion] + [Laceration]), Potere Moneta +1</style>\n[StartBattle] Questa Abilità aumenta il suo Livello Offensivo di (Rison. più alta / 2) (max 3, arrotondato per difetto)\n[WhenUse] Ottiene +5 [Aggro] su questo Slot il turno successivo\n<style=\"highlight\">[WhenUse] Se questa unità ha [HeatingWireIshmael], Sul Colpo con la 1° e la 2° Moneta, infligge [Combustion] in base alla quantità base di [Laceration] inflitta dall'Abilità</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge 5 danni Contundenti bonus</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Danza delle Lame Incrociate",
+          "desc": "Se il bersaglio ha 6+ ([Combustion] + [Laceration]), Potere Moneta +1\n[StartBattle] Questa Abilità aumenta il suo Livello Offensivo di (Rison. più alta / 2) (max 3, arrotondato per difetto)\n<style=\"highlight\">- Se c'è stata una Rison-A nella catena di Risonanza, raddoppia la quantità di Livello Offensivo ottenuta dall'effetto precedente</style>\n[WhenUse] Ottiene +5 [Aggro] su questo Slot il turno successivo\n[WhenUse] Se questa unità ha [HeatingWireIshmael], Sul Colpo con la 1° e la 2° Moneta, infligge [Combustion] in base alla quantità base di [Laceration] inflitta dall'Abilità",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 danni Contundenti bonus<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Se questa unità ha [ReinforcedTattooIshmael], infligge 1 [Paralysis] e 1 [Binding] il turno successivo (2 volte per turno)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081403,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Violet~ Breaking Slam",
+          "desc": "Se il bersaglio ha 6+ ([Combustion] + [Laceration]), Potere Moneta +1\n[StartBattle] Questa Abilità aumenta il suo Livello Offensivo di (Rison. più alta / 2) (max 3, arrotondato per difetto)\n[WhenUse] Se questa unità ha [HeatingWireIshmael], Sul Colpo con la 1°, 2° e 4° Moneta, infligge [Combustion] in base alla quantità base di [Laceration] inflitta da questa Abilità\n[WhenUse] Con 5+ [ResentmentIshmael], Potere Finale +1\n[EndSkill] Consuma tutti i [ResentmentIshmael] su di sé",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge il (Rison. Invidia x 5)% del danno finale di questa Moneta come danni Taglienti bonus (max 30%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Violet~ Breaking Slam",
+          "desc": "Se il bersaglio ha 6+ ([Combustion] + [Laceration]), Potere Moneta +1\n[StartBattle] Questa Abilità aumenta il suo Livello Offensivo di (Risonanza più alta / 2) (max 3, arrotondato per difetto)\n<style=\"highlight\">- Se c'è stata una Risonanza A. nella catena di Risonanza, raddoppia la quantità di Livello Offensivo ottenuta dall'effetto precedente</style>\n[WhenUse] Se questa unità ha [HeatingWireIshmael], Sul Colpo con la 1°, 2° e 4° moneta, infligge [Combustion] in base alla quantità base di [Laceration] inflitta da questa Abilità\n[WhenUse] <style=\"highlight\">Potere finale +1 per ogni 5 [ResentmentIshmael] su di sé (max 3)</style>\n[EndSkill] Consuma tutti i [ResentmentIshmael] su di sé\n<style=\"highlight\">[EndSkill] Se questa Abilità è stata attivata come Abilità Contrattacco, ottiene 1 [HitDamageUp] il turno successivo (una volta per turno)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +<style=\"highlight\">2</style> Conteggio [Laceration]"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge il (Rison. Invidia x 5)% del danno finale di questa Moneta come danni Taglienti bonus (max 30%)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Te la Farò Pagare, Amico",
+          "desc": "[StartBattle] Ottiene il 25% dei PV mancanti come Scudo (una volta per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Riduce la propria Soglia di Stordimento di 6"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Te la Farò Pagare, Amico",
+          "desc": "<style=\"highlight\">[StartBattle] Con una somma di Ris-A Invidia pari a 6+, utilizza 'Violet~ Breaking Slam' come Contrattacco\n(Si attiva dallo Slot Abilità più a sinistra, 2 volte per turno)</style>\n[StartBattle] Ottiene il 25% dei PV mancanti come Scudo (una volta per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Riduce la propria Soglia di Stordimento di 6<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tecniche Laceranti",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Breath]\n[EndSkill] Se questa unità ha [Agility], ottiene 1 [WindBladeIshmael] (una volta per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Tecniche Laceranti",
+          "desc": "<style=\"highlight\">[WhenUse] A 3+ [Agility], Potere Scontro +1</style>\n[WhenUse] Ottiene +2 Conteggio [Breath]\n[EndSkill] Se questa unità ha [Agility],  1 [WindBladeIshmael] (una volta per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Rending Arts",
+          "desc": "<style=\"highlight\">[WhenUse] A 5+ [Breath], Potere Moneta +1\n[WhenUse] Potere Scontro +1 per ogni 5 [Laceration] sul bersaglio (max 2)</style>\n[WhenUse] A 3+ [Agility], Potere Scontro +1\n[WhenUse] Ottiene +2 Conteggio [Breath]\n[EndSkill] Se questa unità possiede [Agility], Ottiene 1 [WindBladeIshmael] (una volta per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Se questa unità ha [AengduNewArmIshmael] e 3+ [Agility], Riusa questa Moneta (una volta per turno)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Agopuntura",
+          "desc": "[WhenUse] Ottiene +3 Conteggio [Breath]\n[EndSkill] Ottiene 1 [WindBladeIshmael] per ogni [Agility] su sè (max 2, once per turn)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Ottiene 2 [Agility] il turno successivo (una volta per turno)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Agopuntura",
+          "desc": "<style=\"highlight\">[WhenUse] A 3+ [Agility], Potere Scontro +2</style>\n[WhenUse] Ottiene +3 Conteggio [Breath]\n[EndSkill] Ottiene 1 [WindBladeIshmael] per ogni [Agility] su sè (max 2, una volta per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Ottiene 2 [Agility] il prossimo turno (una volta per turno)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Agopuntura",
+          "desc": "<style=\"highlight\">[WhenUse] A 5+ [Breath], Potere Moneta +1\n[WhenUse] Potere Scontro +1 per ogni 5 [Laceration] sul bersaglio (max 2)</style>\n[WhenUse] A 3+ [Agility], Potere Scontro +2\n[WhenUse] Ottiene +3 Conteggio [Breath]\n[EndSkill] Ottiene 1 [WindBladeIshmael] per ogni [Agility] su sè (max 2, una volta per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Se questa unità ha [AengduNewArmIshmael] a 3+ [Agility], Riusa questa moneta (una volta per turno)</style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Ottiene 2 [Agility] il turno successivo (once per turn)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fiamma Lucente Increspata",
+          "desc": "Infligge +1.5% danni su Colpo Critico per ogni [Breath] su sè (max 30%)\n[WhenUse] Potere Finale +1 per ogni 2 [Agility] su sè (max 2)\n[WhenUse] A 10+ [WindBladeIshmael], converte tutte le monete in [SuperCoin]s\n[WhenUse] Ottiene 3 [Breath]\n[WhenUse] Ottiene 2 [Agility] il turno successivo (una volta per turno)\n[EndSkill] Ottiene 1 [WindBladeIshmael] per ogni [Agility] su sè (max 3, una volta per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +3 Conteggio [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Infligge +2% danni su Colpi Critici per ogni [WindBladeIshmael] su sè (max 20%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [SlashTakeDamageUp] (una volta per turno)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Fiamma Lucente Increspata",
+          "desc": "Infligge +1.5% danni su Colpo Critico per ogni [Breath] su sè (max 30%)\n[WhenUse] Potere Finale +1 per ogni 2 [Agility] su sè (max 2)\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 ([Breath] su sè + [Laceration] sul bersaglio) (max 2)</style>\n[WhenUse] A 10+ [WindBladeIshmael], converte tutte le Monete in [SuperCoin]s\n[WhenUse] Ottiene 3 [Breath]\n[WhenUse] Ottiene 2 [Agility] il prossimo turno (una volta per turno)\n[EndSkill] Ottiene 1 [WindBladeIshmael] per ogni [Agility] su sè (max 3, una volta per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +3 Conteggio [Breath]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Ottiene 1 [WindBladeIshmael]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Breath]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Ottiene 1 [WindBladeIshmael]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Infligge +2% danni su Colpo Critico per ogni [WindBladeIshmael] su sè (max 20%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [SlashTakeDamageUp] (una volta per turno)"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Ottiene 1 [WindBladeIshmael]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Illuminerò la Strada",
+          "desc": "[CanDuelGuard]\n[StartBattle] Ottiene 1 [SupportProtect] (una volta per turno)\n[WhenUse] Ottiene 2 [Agility] il prossimo turno (una volta per turno)\n[WhenUse] Ottiene +2 Conteggio [Breath] (una volta per turno)\n[WinDuel] Ottiene 3 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Illuminerò la Strada",
+          "desc": "[CanDuelGuard]\n[StartBattle] Ottiene 1 [SupportProtect] (una volta per turno)\n[WhenUse] Ottiene 2 [Agility] il turno successivo (una volta per turno)\n[WhenUse] Ottiene +2 Conteggio [Breath] (una volta per turno)\n[WinDuel] Ottiene 3 [Breath]\n<style=\"highlight\">[EndSkillAll] Se questa unità ha [Agility], ottiene 2 [WindBladeIshmael] (una volta per turno)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081505,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Per Reclamare le Loro Ossa",
+          "desc": "[CantDuel]\nQuesta Abilità non attiva Abilità Difensive\nOttiene +0.5% danni per ogni 1% PV mancanti su sè (max 20%)\nInfligge +3% danni su Colpo Critico per ogni [Agility] su sè (max 15%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 3 [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [SlashTakeDamageUp] (una volta per turno)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Paralysis] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Per Reclamare le Loro Ossa",
+          "desc": "[CantDuel]\nQuesta Abilità non attiva Abilità Difensive\nInfligge +0.5% danni per ogni 1% PV mancanti su sè (max 20%)\nInfligge +3% danni su Colpo Critico per ogni [Agility] su sè (max 15%)\n<style=\"highlight\">[WhenUse] Infligge +1% danni per ogni [WindBladeIshmael] su sè (max 15%)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 3 [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [SlashTakeDamageUp] (una volta per turno)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Paralysis] il turno succesivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Per Reclamare le Loro Ossa",
+          "desc": "[CantDuel]\nQuesta Abilità non attiva Abilità Difensive\nInfligge +0.5% danni per ogni 1% PV mancanti su sè (max 20%)\nInfligge +3% danni su Colpo Critico per ogni [Agility] su sè (max 15%)\n[WhenUse] Infligge +1% danni per ogni [WindBladeIshmael] su sè (max 15%)\n<style=\"highlight\">[WhenUse] Infligge +1.5% danni su Colpo Critico per ogni [Breath] su sè (max 30%)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 3 [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [SlashTakeDamageUp] (una volta per turno)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Paralysis] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081506,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Stabilizzazione - Fiamma Lucente Increspata",
+          "desc": "[CantDuel]\nQuesta Abilità non attiva Abilità Difensive\nInfligge +1.5% danni su Colpo Critico per ogni [Breath] su sè (max 30%)\n[WhenUse] Ottiene +3 Contwggio [Breath]\n[EndSkill] Consuma tutti [WindBladeIshmael] su sè",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 3 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "A più di 15 [WindBladeIshmael], infligge +5% danni su Colpo Critico per ogni Stack in eccesso (max 25%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] A 5+ [Agility], Riusa questa Moneta (once per Skill)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Stabilizzazione - Fiamma Lucente Increspata",
+          "desc": "[CantDuel]\nQuesta Abilità non attiva Abilità Difensive\nDeal +1.5% danni su Colpo Critico per ogni [Breath] su sè (max 30%)\n<style=\"highlight\">Infligge +5% danni su Colpo Critico per ogni [Agility] su sè (max 25%)</style>\n[WhenUse] Ottiene +3 Conteggio [Breath]\n[EndSkill] Consuma tutti i [WindBladeIshmael] su sè",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 3 [Breath]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Ottiene 1 [WindBladeIshmael]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Ottiene 1 [WindBladeIshmael]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Ottiene 1 [WindBladeIshmael]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "A più di 15 [WindBladeIshmael], infligge +5% danni su Colpo Critico per ogni Stack in eccesso (max 25%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] A 5+ [Agility], Riusa questa Moneta (once per Skill)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081507,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Osservando le Pietre nella Scacchiera",
+          "desc": "[CanDuelGuard]\n[SupportProtect] Abilità Esclusiva\n\n[WhenUse] Ottiene 3 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Osservando le Pietre nella Scacchiera",
+          "desc": "[CanDuelGuard]\n[SupportProtect] Abilità Esclusiva\n<style=\"highlight\">[WhenUse] Recupera 5 PS su bersagli che questa unità ha protetto con sando [SupportProtect]</style>\n[WhenUse] Ottiene 3 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

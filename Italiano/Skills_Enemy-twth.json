@@ -1,0 +1,730 @@
+{
+  "dataList": [
+    {
+      "id": 9104301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Pennellata Selvaggia",
+          "desc": "[WhenUse] Se il bersaglio non ha [BearClawWound], Potere Scontro +1\n[WhenUse] Se il bersaglio ha 6+ ([Laceration] + [Sinking]), Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9104302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Dessin Rapide",
+          "desc": "[WhenUse] Se il bersaglio non ha [BearClawWound], Potere Scontro +1\n[WhenUse] Se il bersaglio ha 6+ ([Laceration] + [Sinking]), Potere Moneta +1\n[WhenUse] Se il bersaglio ha 5+ Colore Sbranato, converte tutte le Monete di questa Abilità in [SuperCoin](i)\n[DefeatDuel]\n- I danni di questa Abilità non Stordiscono il bersaglio\n- Sul Colpo, non attiva gli effetti di [Sinking] sul bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9104303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Le Fauvisme - Dipingere e Dispiegarsi",
+          "desc": "Infligge +10% danni per ogni 3 Colore Sbranato sul bersaglio (max 30%)\n[WhenUse] Se il bersaglio ha 6+ ([Laceration] + [Sinking]), Potere Moneta +1\n[WhenUse] A meno del 50% PV, o se il bersaglio ha 5+ Colore Sbranato, una volta in più e converte tutte le Monete su questa Abilità in [SuperCoin](i)\n[DefeatDuel]\n- I danni di questa Abilità non Stordisce il bersaglio\n- Sul Colpo, non attiva gli effetti di [Sinking] sul bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [BearClawWound]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9104304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Gusset",
+          "desc": "[DuelCounter]\n[WhenUse] Se il bersaglio ha [BearClawWound], Potere Finale +2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9104401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Pennellata Selvaggia",
+          "desc": "[WhenUse] Se il bersaglio non ha [BearClawWound], Potere Scontro +1\n[WhenUse] Se il bersaglio ha 6+ ([Laceration] + [Sinking]), Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9104402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Dessin Rapide",
+          "desc": "[WhenUse] Se il bersaglio non ha [BearClawWound], Potere Scontro +1\n[WhenUse] Se il bersaglio ha 6+ ([Laceration] + [Sinking]), Potere Moneta +1\n[WhenUse] Se il bersaglio ha 5+ Colore Sbranato, converte tutte le Monete di questa Abilità in [SuperCoin](i)\n[DefeatDuel]\n- I danni di questa Abilità non Stordiscono il bersaglio\n- Sul Colpo, non attiva gli effetti di [Sinking] sul bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9104403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Le Fauvisme - Dipingere e Dispiegarsi",
+          "desc": "Infligge +10% danni per ogni 3 Colore Sbranato sul bersaglio (max 30%)\n[WhenUse] Se il bersaglio ha 6+ ([Laceration] + [Sinking]), Potere Moneta +1\n[WhenUse] A meno del 50% PV, o se il bersaglio ha 5+ Colore Sbranato, una volta in più e converte tutte le Monete su questa Abilità in [SuperCoin](i)\n[DefeatDuel]\n- I danni di questa Abilità non Stordiscono il bersaglio\n- Sul Colpo, non attiva gli effetti di [Sinking] sul bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [BearClawWound]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9104404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Gusset",
+          "desc": "[DuelCounter]\n[WhenUse] Se il bersaglio ha [BearClawWound], Potere Finale +2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9104501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Preparazione dell'Opera",
+          "desc": "[WhenUse] Se il bersaglio non ha [EagleClawWound], Potere Scontro +1\n[WhenUse] Se il bersaglio ha 6+ ([Laceration] + [Sinking]), Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9104502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Espressione Vivace",
+          "desc": "[WhenUse] Se il bersaglio non ha [EagleClawWound], Potere Scontro +1\n[WhenUse] Se il bersaglio ha 6+ ([Laceration] + [Sinking]), Potere Moneta +1\n[WhenUse] Se il bersaglio ha 5+ Colore Sbranato, converte tutte le Monete di questa Abilità in [SuperCoin](i)\n[DefeatDuel]\n- I danni di questa Abilità non Stordiscono il bersaglio\n- Sul Colpo, non attiva gli effetti di [Sinking] sul bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se questa unità ha [Agility], Riusa questa Moneta (una volta per Abilità)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9104503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tocco Finale",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 6 ([Laceration] + [Sinking]) sul bersaglio (max 2)\n[WhenUse] A meno del 50% dei PV, o se il bersaglio ha 5+ Colore Sbranato, converte tutte le Monete di questa Abilità in [SuperCoin](i)\n[DefeatDuel]\n- I danni di questa Abilità non Stordiscono il bersaglio\n- Sul Colpo, non attiva gli effetti di [Sinking] sul bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se questa unità ha [Agility], Riusa questa Moneta (una volta per Abilità)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9104504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Revisione Parziale",
+          "desc": "[DuelCounter]\n[WhenUse] Se il bersaglio ha [EagleClawWound], Potere Scontro +2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [EagleClawWound]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [EagleClawWound]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9104601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Preparazione dell'Opera",
+          "desc": "[WhenUse] Se il bersaglio non ha [EagleClawWound], Potere Scontro +1\n[WhenUse] Se il bersaglio ha 6+ ([Laceration] + [Sinking]), Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9104602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Espressione Vivace",
+          "desc": "[WhenUse] Se il bersaglio non ha [EagleClawWound], Potere Scontro +1\n[WhenUse] Se il bersaglio ha 6+ ([Laceration] + [Sinking]), Potere Moneta +1\n[WhenUse] Se il bersaglio ha 5+ Colore Sbranato, converte tutte le Monete di questa Abilità in [SuperCoin](i)\n[DefeatDuel]\n- I danni di questa Abilità non Stordiscono il bersaglio\n- Sul Colpo, non attiva gli effetti di [Sinking] sul bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se questa unità ha [Agility], Riusa questa Moneta (una volta per Abilità)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9104603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tocco Finale",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 6 ([Laceration] + [Sinking]) sul bersaglio (max 2)\n[WhenUse] A meno del 50% dei PV, o se il bersaglio ha 5+ Colore Sbranato, converte tutte le Monete di questa Abilità in [SuperCoin](i)\n[DefeatDuel]\n- I danni di questa Abilità non Stordiscono il bersaglio\n- Sul Colpo, non attiva gli effetti di [Sinking] sul bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se questa unità ha [Agility], Riusa questa Moneta (una volta per Abilità)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9104604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Revisione Parziale",
+          "desc": "[DuelCounter]\n[WhenUse] Se il bersaglio ha [EagleClawWound], Potere Moneta +2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [EagleClawWound]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [EagleClawWound]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Obiettivo Avvistato",
+          "desc": "Se il bersaglio ha [IndexPrescriptTargetToPersonality], Potere Scontro +1 e infligge +10% danni\nPotere Finale +1 per ogni 6 ([Breath] su di sé + [Sinking] sul bersaglio) (max 2)\n[WhenUse] A 6+ [BlessingOfIndexPrescriptEnemy], o se il bersaglio ha [IndexPrescriptTargetToPersonality], converte la Moneta finale di questa Abilità in [SuperCoin]\n[WhenUse] Ottiene 2 [Breath] e +2 Conteggio [Breath]\n[DefeatDuel]\n- I danni di questa Abilità non Stordiscono il bersaglio\n- Sul Colpo, non attiva gli effetti di [Sinking] sul bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Verso Dove il Prescritto Indica",
+          "desc": "Se il bersaglio ha [IndexPrescriptTargetToPersonality], Potere Scontro +1 e infligge +20% danni\nPotere Finale +1 per ogni 6 ([Breath] su di sé + [Sinking] sul bersaglio) (max 3)\n[WhenUse] A 6+ [BlessingOfIndexPrescriptEnemy], o se il bersaglio ha [IndexPrescriptTargetToPersonality], converte la Moneta finale di questa Abilità in [SuperCoin]\n[WhenUse] Ottiene 3 [Breath] e +3 Conteggio [Breath]\n[DefeatDuel]\n- I danni di questa Abilità non Stordiscono il bersaglio\n- Sul Colpo, non attiva gli effetti di [Sinking] sul bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Intraprendere il Prescritto",
+          "desc": "Se il bersaglio ha [IndexPrescriptTargetToPersonality], Potere Scontro +2 e infligge +25% danni\nPotere Finale +1 per ogni 6 ([Breath]u di sé + [Sinking] sul bersaglio) (max 3)\n[WhenUse] A 3+ [BlessingOfIndexPrescriptEnemy], Potere Moneta +1\n[WhenUse] A 6+ [BlessingOfIndexPrescriptEnemy], o se il bersaglio ha [IndexPrescriptTargetToPersonality], converte tutte le Monete di questa Abilità in [SuperCoin](i)\n[WhenUse] Ottiene 4 [Breath] e +3 Conteggio [Breath]\n[DefeatDuel]\n- I danni di questa Abilità non Stordiscono il bersaglio\n- Sul Colpo, non attiva gli effetti di [Sinking] sul bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Infligge +5% danni per ogni [BlessingOfIndexPrescriptEnemy] su di sé (max 45%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Sinking] e +2 Conteggio [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Obiettivo Avvistato",
+          "desc": "Se il bersaglio ha [IndexPrescriptTargetToPersonality], Potere Scontro +1 e infligge +10% danni\nPotere Finale +1 per ogni 6 ([Breath] su di sé + [Sinking] sul bersaglio) (max 2)\n[WhenUse] A 6+ [BlessingOfIndexPrescriptEnemy], o se il bersaglio ha [IndexPrescriptTargetToPersonality], converte la Moneta finale di questa Abilità in [SuperCoin]\n[WhenUse] Ottiene 1 [Breath] e +3 Conteggio [Breath]\n[DefeatDuel]\n- I danni di questa Abilità non Stordiscono il bersaglio\n- Sul Colpo, non attiva gli effetti di [Sinking] sul bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking] e +2 Conteggio [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Verso Dove il Prescritto Indica",
+          "desc": "Se il bersaglio ha [IndexPrescriptTargetToPersonality], Potere Scontro +1 e infligge +20% danni\nPotere Finale +1 per ogni 6 ([Breath] su di sé + [Sinking] sul bersaglio) (max 3)\n[WhenUse] A 6+ [BlessingOfIndexPrescriptEnemy], o se il bersaglio ha [IndexPrescriptTargetToPersonality], converte la Moneta finale di questa Abilità in [SuperCoin]\n[WhenUse] Ottiene 4 [Breath] e +2 Conteggio [Breath]\n[DefeatDuel]\n- I danni di questa Abilità non Stordiscono il bersaglio\n- Sul Colpo, non attiva gli effetti di [Sinking] sul bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking] e +2 Conteggio [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Intraprendere il Prescritto",
+          "desc": "Se il bersaglio ha [IndexPrescriptTargetToPersonality], Potere Scontro +2 e infligge +25% danni\nPotere Finale +1 per ogni 6 ([Breath] su di Sé + [Sinking] sul bersaglio) (max 3)\n[WhenUse] A 3+ [BlessingOfIndexPrescriptEnemy], Potere Moneta +1\n[WhenUse] A 6+ [BlessingOfIndexPrescriptEnemy], o se il bersaglio ha [IndexPrescriptTargetToPersonality], converte tutte le Monete di questa Abilità in [SuperCoin](i)\n[WhenUse] Ottiene 3 [Breath] e +4 Conteggio [Breath]\n[DefeatDuel]\n- I danni di questa Abilità non Stordiscono il bersaglio\n- Sul Colpo, non attiva gli effetti di [Sinking] sul bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Infligge +5% danni per ogni [BlessingOfIndexPrescriptEnemy] su di sé (max 45%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking] e +3 Conteggio [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

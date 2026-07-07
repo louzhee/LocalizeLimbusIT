@@ -1,0 +1,916 @@
+{
+  "dataList": [
+    {
+      "id": 2090411,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Corrosione Infestata",
+          "abName": "Perla Vagante",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Binding] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Corrosione Infestata",
+          "abName": "Perla Vagante",
+          "desc": "[BeforeAttack] Se il bersaglio principale ha 50%+ PV, Portata Attacco +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Vibration] e +5 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Binding] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Innesca [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Corrosione Infestata",
+          "abName": "Perla Vagante",
+          "desc": "[BeforeAttack] Se il bersaglio principale ha 50%+ PV, Portata Attacco +1;\nSe il bersaglio principale ha 75%+ PV, Portata Attacco addizionale +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Vibration] e +7 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge [Binding] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2090421,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Corrosione Infestata",
+          "abName": "Perla Vagante",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si cura del 30% del danno inflitto"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Corrosione Infestata",
+          "abName": "Perla Vagante",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Se il bersaglio principale ha 50%+ PV, Portata Attacco +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si cura del 30% del danno inflitto"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [DefenseDown]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Corrosione Infestata",
+          "abName": "Perla Vagante",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Se il bersaglio principale ha 50%+ PV, Portata Attacco +1;\nSe il bersaglio principale ha 75%+ PV, Portata Attacco addizionale +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si cura del 30% del danno inflitto"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [DefenseDown]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2090511,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Esecuzione",
+          "abName": "Scriba dell'Esecutore Celeste",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [AmberTakeDamageUp] il turno successivo"
+                },
+                {
+                  "desc": "[EndSkill] Cura 2 altri alleati con la minore percentuale di PV del 15% dei PV Max di quest'unità"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Esecuzione",
+          "abName": "Scriba dell'Esecutore Celeste",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [AmberTakeDamageUp] il turno successivo"
+                },
+                {
+                  "desc": "[EndSkill] Cura 2 altri alleati con la minore percentuale di PV del 15% dei PV Max di quest'unità"
+                },
+                {
+                  "desc": "[EndSkillHead] Se il bersaglio è Stordito o viene sconfitto, applica uno Scudo pari al 10% dei PV Max di quest'unità agli alleati che sono stati curati"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Esecuzione",
+          "abName": "Scriba dell'Esecutore Celeste",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [AmberTakeDamageUp] il turno successivo"
+                },
+                {
+                  "desc": "[EndSkill] Cura 2 altri alleati con la minore percentuale di PV del 30% dei PV Max di quest'unità"
+                },
+                {
+                  "desc": "[EndSkillHead] Se il bersaglio è Stordito o viene sconfitto, applica uno Scudo pari al 10% dei PV Max di quest'unità agli alleati che sono stati curati"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2090521,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Esecuzione",
+          "abName": "Scriba dell'Esecutore Celeste",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 15 danni ai PS"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Esecuzione",
+          "abName": "Scriba dell'Esecutore Celeste",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] A 50%- PV, Portata Attacco +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 20 danni ai PS"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Se il bersaglio è Stordito o viene sconfitto, recupera 5 PS"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Esecuzione",
+          "abName": "Scriba dell'Esecutore Celeste",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] A 50%- PV, Portata Attacco +2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 20 danni ai PS"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio è Stordito o viene sconfitto, recupera 7 PS"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2090611,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Desiderio Sanguineo",
+          "abName": "Le Scarpette Rosse",
+          "desc": "Potere Moneta +1 per ogni 2 [Laceration] sul bersaglio (max 6)\n[StartBattle] Il bersaglio principale di quest'Abilità non perde Conteggio [Laceration] per questo turno.\n[EndSkill] Per 3 turni, perde 10 PS a Fine Turno.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge danni da Lussuria pari alla Potenza [Laceration] sul bersaglio.\n- A 4+ Rison. Lussuria, infligge danni Lussuria pari a (Potenza [Laceration] sul bersaglio x 1.2).\n(La Potenza [Laceration] massima usata per il calcolo del danno è 99.)",
+                  "summary": "[OnSucceedAttack] Infligge danni da Lussuria in base a [Laceration] sul bersaglio"
+                },
+                {
+                  "desc": "[EnemyKill] Se quest'Abilità o la sua Moneta infliggono danno maggiori dei PV rimanenti del bersaglio (Negli Incontri Mirati, al Nucleo), infligge il danno in eccesso come danno fisso a tutti gli altri nemici.",
+                  "summary": "[EnemyKill] Infligge il danno in eccesso come danno fisso a tutti gli altri nemici."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Desiderio Sanguineo",
+          "abName": "Le Scarpette Rosse",
+          "desc": "Potere Moneta +1 per ogni 2 [Laceration] sul bersaglio (max <style=\"highlight\">9</style>)\n[StartBattle] Il bersaglio principale di quest'Abilità non perde Conteggio [Laceration] per questo turno.\n[EndSkill] Per 3 turni, perde 10 PS a Fine Turno.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge danni da Lussuria pari a <style=\"highlight\">(Potenza [Laceration] sul bersaglio x 1.2)</style>.\n- A 4+ Rison. Lussuria, infligge danni Lussuria pari a (Potenza [Laceration] sul bersaglio x <style=\"highlight\">1.5</style>).\n<style=\"highlight\">- A 4+ Rison. Lussuria, infligge danni Lussuria pari a (Potenza [Laceration] sul bersaglio x 1.8).</style>\n(La Potenza [Laceration] massima usata per il calcolo del danno è 99.)",
+                  "summary": "[OnSucceedAttack] Infligge danni da Lussuria in base a [Laceration] sul bersaglio"
+                },
+                {
+                  "desc": "[EnemyKill] Se quest'Abilità o la sua Moneta infliggono danno maggiori dei PV rimanenti del bersaglio (Negli Incontri Mirati, al Nucleo), infligge il danno in eccesso come danno fisso a tutti gli altri nemici.",
+                  "summary": "[EnemyKill] Infligge il danno in eccesso come danno fisso a tutti gli altri nemici."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Desiderio Sanguineo",
+          "abName": "Le Scarpette Rosse",
+          "desc": "Potere Moneta +1 per ogni 2 [Laceration] sul bersaglio (max <style=\"highlight\">13</style>)\n[StartBattle] Il bersaglio principale di quest'Abilità non perde Conteggio [Laceration] per questo turno.\n[EndSkill] Per 3 turni, perde 10 PS a Fine Turno.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge danni da Lussuria pari a (Potenza [Laceration] sul bersaglio x <style=\"highlight\">1.5</style>)\n- A 4+ Rison. Lussuria, infligge danni Lussuria pari a (Potenza [Laceration] sul bersaglio x <style=\"highlight\">1.8</style>).\n- A 4+ Rison. Lussuria, infligge danni Lussuria pari a (Potenza [Laceration] sul bersaglio x <style=\"highlight\">2</style>).\n(La Potenza [Laceration] massima usata per il calcolo del danno è 99.)",
+                  "summary": "[OnSucceedAttack] Infligge danni da Lussuria in base a [Laceration] sul bersaglio"
+                },
+                {
+                  "desc": "[EnemyKill] Se quest'Abilità o la sua Moneta infliggono danno maggiori dei PV rimanenti del bersaglio (Negli Incontri Mirati, al Nucleo), infligge il danno in eccesso come danno fisso a tutti gli altri nemici.",
+                  "summary": "[EnemyKill] Infligge il danno in eccesso come danno fisso a tutti gli altri nemici."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2090621,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Desiderio Sanguineo",
+          "abName": "Le Scarpette Rosse",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene (# della Rison. più alta - 2) Portata Attacco (max 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge (2 + (Rison. Lussuria)) [Laceration]\n(Rison. Lussuria max : 4)",
+                  "summary": "[OnSucceedAttack] Infligge (2 + (Rison. Lussuria)) [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Desiderio Sanguineo",
+          "abName": "Le Scarpette Rosse",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene (# della Rison. più alta - 2) Portata Attacco (max 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge (<style=\"highlight\">3</style> + (Rison. Lussuria)) [Laceration]\n(Rison. Lussuria max : <style=\"highlight\">5</style>)",
+                  "summary": "[OnSucceedAttack] Infligge (3 + (Rison. Lussuria)) [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Desiderio Sanguineo",
+          "abName": "Le Scarpette Rosse",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene (# della Rison. più alta - 2) Portata Attacco (max 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge (<style=\"highlight\">4</style> + (Rison. Lussuria)) [Laceration]\n(Rison. Lussuria max : <style=\"highlight\">6</style>)",
+                  "summary": "[OnSucceedAttack] Infligge (4 + (Rison. Lussuria)) [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +<style=\"highlight\">3</style> Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2090711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Chiodo Stregato",
+          "abName": "Orsacchiotto Sofferente",
+          "desc": "[EndSkill] Cura se stesso ed altri 2 alleati con la minore percentuale di PV del 12.5% dei PV Max di quest'unità",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Curse]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [NailPersonality]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Chiodo Stregato",
+          "abName": "Orsacchiotto Sofferente",
+          "desc": "[EndSkill] Cura se stesso ed altri 2 alleati con la minore percentuale di PV del 12.5% dei PV Max di quest'unità\n<style=\"highlight\">- Ogni unità che riceve la cura viene curata del 2.5% PV in più per ogni 2 effetti negativi che ha su di sé (max 7.5)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">3</style> [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Curse]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [NailPersonality]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Chiodo Stregato",
+          "abName": "Orsacchiotto Sofferente",
+          "desc": "[EndSkill]Cura se stesso ed altri 2 alleati con la minore percentuale di PV del <style=\"highlight\">15%</style> dei PV Max di quest'unità\n- Ogni unità che riceve la cura viene curata del 2.5% PV in più per <style=\"highlight\">ogni</style> effetto negativo che ha su di sé (max <style=\"highlight\">10%</style>)\n<style=\"highlight\">- A 4+ Rison. Invidia, inclusa quest'Abilità, cura 1 alleato in più</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">4</style> [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">3</style> [Curse]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge <style=\"highlight\">3</style> [NailPersonality]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2090721,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Chiodo Stregato",
+          "abName": "Orsacchiotto Sofferente",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[EndSkill] Cura 3 alleati con la minore percentuale di PV del 15% dei PV Max di quest'unità",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Curse]"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Infligge 2 [NailPersonality]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Chiodo Stregato",
+          "abName": "Orsacchiotto Sofferente",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[EndSkill] Cura 3 alleati con la minore percentuale di PV del 15% dei PV Max di quest'unità\n<style=\"highlight\">- Ogni unità che riceve la cura ottiene 1 [AttackUp] fino al turno successivo per ogni 2 effetti negativi che ha su di sé (max 2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">3</style> [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Curse]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Infligge 2 [NailPersonality]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Chiodo Stregato",
+          "abName": "Orsacchiotto Sofferente",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[EndSkill] Cura 3 alleati con la minore percentuale di PV del <style=\"highlight\">20%</style> dei PV Max di quest'unità\n- Ogni unità che riceve la cura ottiene 1 [AttackUp] fino al turno successivo per <style=\"highlight\">ogni</style> effetto negativo che ha su di sé (max <style=\"highlight\">3</style>)\n<style=\"highlight\">- A 4+ Rison. Invidia, inclusa quest'Abilità, cura 1 alleato in più</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">4</style> [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">3</style> [Curse]"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Infligge <style=\"highlight\">3</style> [NailPersonality]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+     },
+    {
+      "id": 2090811,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Processo della Strega",
+          "abName": "Duchessa Fiammeggiante",
+          "desc": "[EndSkill] Cura (1 + Rison. più alta) alleati con la percentuale di PV minore del 15% dei PV Max di quest'unità (max 3 alleati)\n[EndSkill] Per 3 turni, perde 10 PS a Fine Turno",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 6 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se quest'attacco colpisce il bersaglio principale, infligge (1 + (Rison. Ira / 3)) [BirdCage] il turno successivo sul bersaglio principale (max 2; arrotondato per difetto)"
+                }
+              ]
+            },
+            {}
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Processo della Strega",
+          "abName": "Duchessa Fiammeggiante",
+          "desc": "<style=\"highlight\">[BeforeAttack] Ottiene (Rison. più alta / 2) Portata Attacco (max 3; arrotondato per difetto)</style>\n[EndSkill] Cura (1 + Rison. più alta) alleati con la percentuale di PV minore del <style=\"highlight\">18</style>% dei PV Max di quest'unità (max 3 alleati)\n[EndSkill] Per 3 turni, perde 10 PS a Fine Turno",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">8</style> [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se quest'attacco colpisce il bersaglio principale, infligge (1 + (Rison. Ira / 3)) [BirdCage] il turno successivo sul bersaglio principale (max <style=\"highlight\">3</style>; arrotondato per difetto)"
+                }
+              ]
+            },
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Processo della Strega",
+          "abName": "Duchessa Fiammeggiante",
+          "desc": "[BeforeAttack] Ottiene (Rison. più alta / 2) Portata Attacco (max 3; arrotondato per difetto)\n[EndSkill] Cura (1 + Rison. più alta) alleati con la percentuale di PV minore del <style=\"highlight\">20</style>% dei PV Max di quest'unità (max 3 alleati)\n[EndSkill] Per 3 turni, perde 10 PS a Fine Turno",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 8 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se quest'attacco colpisce il bersaglio principale, infligge (1 + (Rison. Ira / 3)) [BirdCage] il turno successivo sul bersaglio principale<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2090821,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Processo della Strega",
+          "abName": "Duchessa Fiammeggiante",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene (Rison. più alta / 2) Portata Attacco (max 3; arrotondato per difetto)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 6 [Combustion]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Se quest'attacco colpisce il bersaglio principale, infligge (1 + (Rison. Ira) [BirdCage] sul bersaglio principale (max 3)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Infligge +1% danni sul bersaglio principale per ogni Potenza [Combustion] sul bersaglio principale (max 50%)"
+                },
+                {
+                  "desc": "[EnemyKill] Applica 1 [CrimsonResultUp] e 1 [CrimsonDamageUp] a (1 + Rison. più alta) alleati con la percentuale minore di PV (max 4 alleati; 1 volta per Abilità)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Processo della Strega",
+          "abName": "Duchessa Fiammeggiante",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene (Rison. più alta / 2) Portata Attacco (max 3; arrotondato per difetto)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge <style=\"highlight\">8</style> [Combustion]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Se quest'attacco colpisce il bersaglio principale, infligge (1 + (Rison. Ira) [BirdCage] sul bersaglio principale (max <style=\"highlight\">4</style>)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Infligge +1% danni sul bersaglio principale per ogni Potenza [Combustion] sul bersaglio principale (max 50%)"
+                },
+                {
+                  "desc": "[EnemyKill] Applica 1 [CrimsonResultUp] e 1 [CrimsonDamageUp] a (1 + Rison. più alta) alleati con la percentuale minore di PV (max <style=\"highlight\">5</style> alleati; 1 volta per Abilità)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Processo della Strega",
+          "abName": "Duchessa Fiammeggiante",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene (Rison. più alta / 2) Portata Attacco (max 3; arrotondato per difetto)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge <style=\"highlight\">10</style> [Combustion]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[UnBrokenCoinOnSucceedAttack] Infligge +1 Conteggio [Combustion]</style>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Se quest'attacco colpisce il bersaglio principale, infligge (1 + (Rison. Ira) [BirdCage] sul bersaglio principale (max <style=\"highlight\">5</style>)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Infligge +<style=\"highlight\">2</style>% danni sul bersaglio principale per ogni Potenza [Combustion] sul bersaglio principale (max <style=\"highlight\">100</style>%)"
+                },
+                {
+                  "desc": "[EnemyKill] Applica 1 [CrimsonResultUp] e 1 [CrimsonDamageUp] a (1 + Rison. più alta) alleati con la percentuale minore di PV (max <style=\"highlight\">6</style> alleati; 1 volta per Abilità)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2090911,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Verso il Tramonto",
+          "abName": "Pellegrino del Tramonto",
+          "desc": "[EndSkill] Cura 2 alleati con le percentuali di PV minori del 5% dei loro PV e applica loro 2 [ScarletMothRodion] (PV minimi curati: 1)\n- Cura altri alleati pari a (Rison. Lussuria - 1) (max 2 alleati)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Verso il Tramonto",
+          "abName": "Pellegrino del Tramonto",
+          "desc": "<style=\"highlight\">[WhenUse] Potere Scontro +1 per ogni 6 ([Combustion] + [Laceration]) su tutti i bersagli (max 2)</style>\n[EndSkill] Cura 2 alleati con le percentuali di PV minori dell'<style=\"highlight\">8%</style> dei loro PV e applica loro 2 [ScarletMothRodion] (PV minimi curati: 1)\n- Cura altri alleati pari a (Rison. Lussuria - 1) (max 2 alleati)\n<style=\"highlight\">- Se l'alleato curato ha equipaggiata un'Abilità Lussuria, quell'alleato recupera anche 3 PS</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">3</style> [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">3</style> [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Verso il Tramonto",
+          "abName": "Pellegrino del Tramonto",
+          "desc": "[WhenUse] Potere Scontro +1 per ogni 6 ([Combustion] + [Laceration]) su tutti i bersagli (max 2)\n[EndSkill] Cura 2 alleati con le percentuali di PV minori del <style=\"highlight\">10%</style> dei loro PV e applica loro 2 [ScarletMothRodion] (PV minimi curati: 1)\n- Cura altri alleati pari a (Rison. Lussuria - 1) (max 2 alleati)\n- Se l'alleato curato ha equipaggiata un'Abilità Lussuria, quell'alleato recupera anche <style=\"highlight\">6</style> PS",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[EndCoin] Infligge 1 [CrimsonTakeDamageUp] e 1 [ScarletTakeDamageUp] il turno successivo quando si colpisce il bersaglio</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2090921,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Verso il Tramonto",
+          "abName": "Pellegrino del Tramonto",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Infligge +5% danni per ogni 4 ([Combustion] + [Laceration]) su tutti i bersagli (max 15%)\n[BeforeAttack] Potere Base -6 per ogni Moneta Rotta (max -12)\n[EndSkill] Applica 1 [ScarletMothRodion] 3 volte tra alleati casuali",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]"
+                },
+                {
+                  "desc": "[EndCoin] Infligge 1 [CrimsonTakeDamageUp] il turno successivo quando si colpisce il bersaglio (una volta per turno)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[EndCoin] Infligge 1 [ScarletTakeDamageUp] il turno successivo quando si colpisce il bersaglio (una volta per turno)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Verso il Tramonto",
+          "abName": "Pellegrino del Tramonto",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Infligge +5% danni per ogni 4 ([Combustion] + [Laceration]) su tutti i bersagli (max 15%)\n<style=\"highlight\">- Se è presente una Rison. o Rison-A Lussuria, infligge +10% danni addizionali</style>\n[BeforeAttack] Potere Base -6 per ogni Moneta Rotta (max -12)\n[EndSkill] Applica 1 [ScarletMothRodion] <style=\"highlight\">4</style> volte tra alleati casuali",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]"
+                },
+                {
+                  "desc": "[EndCoin] Infligge 1 [CrimsonTakeDamageUp] il turno successivo quando si colpisce il bersaglio (una volta per turno)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[EndCoin] Infligge 1 [ScarletTakeDamageUp] il turno successivo quando si colpisce il bersaglio (una volta per turno)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Verso il Tramonto",
+          "abName": "Pellegrino del Tramonto",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n<style=\"highlight\">[BeforeAttack] Infligge +10% danni per ogni 4 ([Combustion] + [Laceration]) su tutti i bersagli (max 30%)</style>\n- Se è presente una Rison. o Rison-A Lussuria, infligge <style=\"highlight\">+20%</style> danni addizionali\n<style=\"highlight\">[BeforeAttack] Potere Base -5 per ogni Moneta Rotta (max -10)</style>\n[EndSkill] Applica 1 [ScarletMothRodion] <style=\"highlight\">5</style> volte tra alleati casuali",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +<style=\"highlight\">2</style> Conteggio [Combustion]"
+                },
+                {
+                  "desc": "[EndCoin] Infligge 1 [CrimsonTakeDamageUp] il turno successivo quando si colpisce il bersaglio (una volta per turno)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +<style=\"highlight\">2</style> Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[EndCoin] Infligge 1 [ScarletTakeDamageUp] il turno successivo quando si colpisce il bersaglio (una volta per turno)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

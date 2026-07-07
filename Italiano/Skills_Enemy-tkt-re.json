@@ -1,0 +1,228 @@
+{
+  "dataList": [
+    {
+      "id": 9102401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Non Ti Vergogni?",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Vibration]\n[WhenUse] A 5+ Conteggio [Vibration], Potere Scontro +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Dunque, Non Ti Vergogni Affatto.",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Vibration]\n[WhenUse] A 5+ Conteggio [Vibration], Potere Scontro +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Li Puoi Proteggere?",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Vibration]\n[WhenUse] A 5+ Conteggio [Vibration], Potere Scontro +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] A 10+ Conteggio [Vibration] su di sé, innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] sul bersaglio di 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 15+ Potenza [Vibration], innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] sul bersaglio di 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Non Posso Usare Quell'Arma Adesso",
+          "desc": "[WhenUse] Ottiene +3 Conteggio [Vibration]\n[WhenUse] A 5+ Conteggio [Vibration], Potere Scontro +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [Switch_Vibration] in [VibrationCollapse]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102405,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Pronti alla Sconfitta?",
+          "desc": "Dà priorità ai bersagli con [VibrationCollapse]\n[WhenUse] Applica Conteggio [Vibration] pari al Conteggio [Vibration] su di sé a tutti gli altri alleati\n[WhenUse] Innesca [Switch_Vibration] su tutti gli alleati (inclusa questa unità) e converte la loro [Vibration] in [VibrationDistribution]\n[DefeatDuel] Infligge -80% danni e i danni inflitti da questa abilità non Stordiscono il bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 10 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [FusionVibration] in [VibrationEcho]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102406,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Guardia",
+          "desc": "[StartBattle] Ottiene 5 x (Conteggio [Vibration] su di sé) Scudo (max 60)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102407,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Per la Causa Maggiore",
+          "desc": "[CantDuel]\n[StartBattle] Raccoglie il Conteggio [Vibration] di tutti gli alleati su di sé; la [Vibration] su tutti gli alleati si esaurisce\n[StartBattle] Ottiene 1 [AttackUp] per ogni 3 Conteggio [Vibration] su di sé\n[WhenUse] Ottiene 10 Conteggio [Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 10 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 20% danni da Accidia in più per ogni Conteggio [Vibration] su di sé"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +4 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 20% danni da Accidia in più per ogni Conteggio [Vibration] su di sé"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Consuma 1 Conteggio [Vibration] su di sé, e innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] sul bersaglio di 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Consuma 1 Conteggio [Vibration] su di sé, e innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] sul bersaglio di 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Consuma 1 Conteggio [Vibration] su di sé, e innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] sul bersaglio di 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

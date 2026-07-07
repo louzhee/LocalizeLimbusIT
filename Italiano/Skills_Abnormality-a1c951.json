@@ -1,0 +1,141 @@
+{
+    "dataList": [
+        {
+            "id": 811301,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Gioia Natalizia",
+                    "desc": "[WhenUse] Ottiene +2 Conteggio [Charge]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] infligge 3 [Binding] sul bersaglio nel turno successivo"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Ottiene 2 [Breath]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 811302,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Conforto Natalizio",
+                    "desc": "[WhenUse] Ottiene +2 Conteggio [Charge]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Ottiene +3 Conteggio [Charge]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Ottiene 3 [Breath]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[CriticalOnSucceedAttack] Ottiene [Breath] pari all'[Breath] su di sé"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Ottiene +3 Conteggio [Charge]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 811303,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Prendi un Regalo",
+                    "desc": "Se il bersaglio ha [Binding], e se questa unità ha la Velocità più alta, ottiene Potere Scontro per ogni differenza di Velocità",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Perde 5 PS"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Ottiene 2 [Breath] e +3 Conteggio [Charge]"
+                                },
+                                {
+                                    "desc": "[CriticalOnSucceedAttack] infligge 3 [Paralysis] nel turno successivo"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 811304,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Impacchettiamo",
+                    "desc": "Se questa unità ha [AaCeSeBa], aggiunge l'effetto 'infligge 1 [Paralysis] nel turno successivo' su ogni Moneta\nBersaglia l'unità con la Velocità minore\n[EndBattle] Spende tutto il Conteggio [Charge]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Ottiene 3 [Breath]."
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge danni bonus pari all'[Breath] su di sé"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Ottiene 1 [Breath] e +3 Conteggio [Charge]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Sceglie 1 effetto casuale tra [Protection], [Enhancement], [Vulnerable] e [Paralysis]. Poi, infligge or applica 3 Stack dell'effetto scelto."
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge danno ai PS pari al Conteggio [Charge] su di sé"
+                                },
+                                {
+                                    "desc": "[EnemyKill] Ogni nemico perde 10 PS."
+                                },
+                                {
+                                    "desc": "[EnemyKillFail] Ottiene 2 [Paralysis] nel turno successivo."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 811305,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "È Ora di Farsi Impacchettare",
+                    "desc": "[EndBattle] Se lo Scudo viene distrutto, viene Stordito nel turno successivo.\n- Se invece lo Scudo non viene distrutto, ottiene 2 [Enhancement] nel turno successivo",
+                    "coinlist": [
+                        {}
+                    ]
+                }
+            ]
+        }
+    ]
+}

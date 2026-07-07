@@ -1,0 +1,1039 @@
+{
+  "dataList": [
+    {
+      "id": 2020511,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "9:2",
+          "abName": "Profeta della Pelle",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Converte 2 [Combustion] sul bersaglio in 1 [DefenseDown] (Max 10)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "9:2",
+          "abName": "Profeta della Pelle",
+          "desc": "[BeforeAttack] A 4+ (Rison-A Lussuria più alta), Portata Attacco +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 3 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Converte 2 [Combustion] sul bersaglio in 1 [DefenseDown] (Max 10)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "9:2",
+          "abName": "Profeta della Pelle",
+          "desc": "[BeforeAttack] A 4+ (Rison-A Lussuria più alta), Portata Attacco +1\nA 6+ (Rison-A Lussuria più alta), Portata Attacco addizionale +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Converte 2 [Combustion] sul bersaglio in 1 [DefenseDown] (Max 10)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2020521,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "9:2",
+          "abName": "Profeta della Pelle",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] Infligge 4 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Converte 2 [Combustion] sul bersaglio in 1 [DefenseDown] (Max 10)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "9:2",
+          "abName": "Profeta della Pelle",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] A 4+ (Rison-A Lussuria più alta), Portata Attacco +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] Infligge 2 [Binding] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Converte 2 [Combustion] sul bersaglio in 1 [DefenseDown] (Max 10)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "9:2",
+          "abName": "Profeta della Pelle",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] A 4+ (Rison-A Lussuria più alta), Portata Attacco +1\nA 6+ (Rison-A Lussuria più alta), Portata Attacco addizionale +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] Infligge 2 [Binding] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Converte 2 [Combustion] sul bersaglio in 1 [DefenseDown] (Max 10)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2020611,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Eternità",
+          "abName": "Anatra Temporale",
+          "desc": "Se la Velocità del bersaglio è minore di quella di quest'unità, infligge +(2.5 x (differenza Velocità))% danni (max 25%)\n[BeforeAttack] A 3+ Rison. più alta, infligge Potenza [Vibration] in base alla Rison. più alta (max 5)\n[EndSkill] Per 3 turni, perde 10 PS a Fine Turno",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Vibration] e +5 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [FusionVibration] in [VibrationContinue]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce Conteggio [Vibration] del bersaglio di 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce Conteggio [Vibration] del bersaglio di 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce Conteggio [Vibration] del bersaglio di 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Dimezza la Velocità Max del bersaglio il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Eternità",
+          "abName": "Anatra Temporale",
+          "desc": "Se la Velocità del bersaglio è minore di quella di quest'unità, infligge +(<style=\"highlight\">3.5</style> x (differenza Velocità))% danni (max <style=\"highlight\">35%</style>)\n[BeforeAttack] A 3+ Rison. più alta, infligge Potenza [Vibration] in base alla Rison. più alta (max 5)\n<style=\"highlight\">- Se la Rison. più alta era Accidia, infligge Conteggio [Vibration] pari alla Potenza [Vibration] inflitta (max 5)</style>\n[EndSkill] Per 3 turni, perde 10 PS a Fine Turno",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Vibration] e +5 Conteggio [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [FusionVibration] in [VibrationContinue]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Dimezza la Velocità Max del bersaglio il turno successivo<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Eternità",
+          "abName": "Anatra Temporale",
+          "desc": "Se la Velocità del bersaglio è minore di quella di quest'unità, infligge +(<style=\"highlight\">5</style> x (differenza Velocità))% danni (max <style=\"highlight\">50%</style>)\n[BeforeAttack] A 3+ Rison. più alta, infligge Potenza [Vibration] pari a (<style=\"highlight\">2</style> x (Rison. più alta)) (max <style=\"highlight\">10</style>)\n- Se la Rison-A più alta è Accidia, infligge Conteggio [Vibration] pari alla Potenza [Vibration] inflitta (max <style=\"highlight\">10</style>)\n[EndSkill] Per 3 turni, perde 10 PS a Fine Turno",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">10</style> [Vibration] e <style=\"highlight\">+10</style> Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [FusionVibration] in [VibrationContinue]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce Conteggio [Vibration] del bersaglio di 1</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Dimezza la Velocità Max del bersaglio il turno successivo<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2020621,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Eternità",
+          "abName": "Anatra Temporale",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nSe la Velocità del bersaglio principale è minore di quella di quest'unità, infligge +(1.5 x (differenza Velocità))% danni (max 12%)\n[BeforeAttack] A 3+ Rison. più alta, infligge 3 Potenza [Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Vibration] e +3 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [FusionVibration] in [VibrationContinue]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce Conteggio [Vibration] del bersaglio di 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce Conteggio [Vibration] del bersaglio di 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Dimezza la Velocità Max del bersaglio il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Eternità",
+          "abName": "Anatra Temporale",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nSe la Velocità del bersaglio principale è minore di quella di quest'unità, infligge +(<style=\"highlight\">2</style> x (differenza Velocità))% danni (max <style=\"highlight\">16%</style>)\n[BeforeAttack] A 3+ Rison. più alta, infligge 3 Potenza [Vibration] in base alla Rison. più alta (max 4)\n<style=\"highlight\">- [BeforeAttack] Se la Rison. più alta è Accidia, infligge +2 Conteggio [Vibration]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Vibration] e +3 Conteggio [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [FusionVibration] in [VibrationContinue]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Dimezza la Velocità Max del bersaglio il turno successivo<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Eternità",
+          "abName": "Anatra Temporale",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nSe la Velocità del bersaglio principale è minore di quella di quest'unità, infligge +(<style=\"highlight\">2.5</style> x (differenza Velocità))% danni (max <style=\"highlight\">20%</style>)\n[BeforeAttack] A 3+ Rison. più alta, infligge 3 Potenza [Vibration] in base alla Rison. più alta (max <style=\"highlight\">5</style>)\n- [BeforeAttack] Se la Rison-A più alta era Accidia, <style=\"highlight\">infligge Conteggio [Vibration] pari alla Potenza [Vibration] inflitta (max 5)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">5</style> [Vibration] e <style=\"highlight\">+5</style> Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [FusionVibration] in [VibrationContinue]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce Conteggio [Vibration] del bersaglio di 1</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Dimezza la Velocità Max del bersaglio il turno successivo<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2020711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lazo",
+          "abName": "Cacciatore di Rose",
+          "desc": "Potere Moneta +1 per ogni 7 [Burst] sul bersaglio (max 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Lazo",
+          "abName": "Cacciatore di Rose",
+          "desc": "<style=\"highlight\">Se la somma della Velocità di quest'unità e del bersaglio è 6 o più, Potere Moneta +1</style>\nPotere Moneta +1 per ogni 7 [Burst] sul bersaglio (max 2)\n<style=\"highlight\">[BeforeAttack] Ottiene 2 [Agility] il turno successivo\n[BeforeAttack] A 4+ Rison. Gola o Lussuria, ottiene +1 Portata Attacco</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Lazo",
+          "abName": "Cacciatore di Rose",
+          "desc": "Se la somma della Velocità di quest'unità e del bersaglio è 6 o più, Potere Moneta +1\nPotere Moneta +1 per ogni 7 [Burst] sul bersaglio (max 2)\n[BeforeAttack] Ottiene 2 [Agility] il turno successivo\n[BeforeAttack] A 4+ Rison. più alta, Portata Attacco +1\n<style=\"highlight\">- Se la Rison. era una Rison. Gola, Portata Attacco +1</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2020721,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lazo",
+          "abName": "Cacciatore di Rose",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nPotere Moneta +1 per ogni 7 [Burst] sul bersaglio (max 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Snare]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Lazo",
+          "abName": "Cacciatore di Rose",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n<style=\"highlight\">Se la somma della Velocità di quest'unità e del bersaglio è 6 o più, Potere Moneta +1</style>\nPotere Moneta +1 per ogni 7 [Burst] sul bersaglio (max 2)\n<style=\"highlight\">[BeforeAttack] Ottiene 2 [Agility] il turno successivo</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Snare]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2% danni per ogni [Burst] sul bersaglio (max 30%)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Lazo",
+          "abName": "Cacciatore di Rose",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nSe la somma della Velocità di quest'unità e del bersaglio è 6 o più, Potere Moneta +1\nPotere Moneta +1 per ogni 7 [Burst] sul bersaglio (max 2)\n[BeforeAttack] Ottiene 2 [Agility] il turno successivo\n<style=\"highlight\">[EndSkill] Se il bersaglio viene Stordito o viene sconfitto, ottiene 1 [ShamrockResultUp] il turno successivo</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Snare]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2% danni per ogni [Burst] sul bersaglio (max 60%)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2020811,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Thoracalgia",
+          "abName": "Saccoccia del Passato",
+          "desc": "[BeforeAttack] Applica (Rison. più alta) Potenza [Breath] a tutti gli alleati (max 4)\n- A 3+ Rison. Superbia, applica +1 Conteggio [Breath] alle unità interessate. Applica inoltre 1 [ReleaseBreath] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Thoracalgia",
+          "abName": "Saccoccia del Passato",
+          "desc": "[BeforeAttack] Applica (Rison. più alta) Potenza [Breath] a tutti gli alleati (max <style=\"highlight\">6</style>)\n- A 3+ Rison. Superbia, applica +1 Conteggio [Breath] alle unità interessate. Applica inoltre 1 [ReleaseBreath] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Ottiene +1 Conteggio [Breath]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">Infligge +(Potenza [Breath] + Conteggio [Breath])% danni con Colpo Critico (max 20%)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Thoracalgia",
+          "abName": "Saccoccia del Passato",
+          "desc": "[BeforeAttack] Applica (highest Reson.) Potenza [Breath] a tutti gli alleati (max 6)\n- A 3+ Rison. Superbia, applica +1 Conteggio [Breath] alle unità interessate. Applica inoltre 1 [ReleaseBreath] il turno successivo<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Infligge +(Potenza [Breath] + Conteggio [Breath])% danni con Colpo Critico (max <style=\"highlight\">40%</style>)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2020821,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Thoracalgia",
+          "abName": "Saccoccia del Passato",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] A meno di 20 Potenza [Breath], ottiene fino a 20 Potenza [Breath] e consuma (Potenza [Breath] ottenuta x 2)% PV su di sé\n- Non può essere Stordito o morire tramite quest'effetto\n[BeforeAttack] Applica (Rison. più alta) Potenza [Breath] a tutti gli alleati (max 4)\n- A 3+ Rison. Superbia, applica +1 Conteggio [Breath] alle unità interessate. Applica inoltre 1 [ReleaseBreath] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Thoracalgia",
+          "abName": "Saccoccia del Passato",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] A meno di 20 Potenza [Breath] ottiene fino a 20 Potenza [Breath] e consuma (Potenza [Breath] ottenuta x 2)% PV su di sé\n- Non può essere Stordito o morire tramite quest'effetto\n[BeforeAttack] Applica (Rison. più alta) Potenza [Breath] a tutti gli alleati (max <style=\"highlight\">6</style>)\n- A 3+ Rison. Superbia, applica +1 Conteggio [Breath] alle unità interessate. Applica inoltre [ReleaseBreath] e 1 [IndigoDamageUp] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Ottiene +1 Conteggio [Breath]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">Infligge +(Potenza [Breath] + Conteggio [Breath])% danno sul Colpo Critico (max 20%)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Thoracalgia",
+          "abName": "Saccoccia del Passato",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] A meno di 20 Potenza [Breath] ottiene fino a 20 Potenza [Breath] e consuma (Potenza [Breath] ottenuta x 2)% PV su di sé\n- Non può essere Stordito o morire tramite quest'effetto\n[BeforeAttack] Applica (Rison. più alta) Potenza [Breath] a tutti gli alleati (max 6)\n- A 3+ Rison. Superbia, applica +1 Conteggio [Breath] alle unità interessate. Applica inoltre [ReleaseBreath] e 1 [IndigoDamageUp] il turno successivo<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Infligge +(Potenza [Breath] + Conteggio [Breath])% danno sul Colpo Critico (max <style=\"highlight\">40%</style>)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2020911,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ordine: Collasso",
+          "abName": "Kal'tsit",
+          "desc": "Se il bersaglio principale ha [Combustion] o [Burst], Potere Finale +1\n[BeforeAttack] Infligge +1% danni per ogni 1 (Potenza [Burst] + Conteggio [Burst]) sul bersaglio principale (max 15%)\n[EndSkill] Ottiene 4 [CuredFilm]\n[EndSkill] Cura sé stessa ed un alleato con la percentuale di PV minori del 15% dei PV Max di quest'unità\n- Se quest'unità ha i PV al massimo, cura invece altri due alleati\n[EndSkill] Cura 10 PS ai due alleati (compresa quest'unità) con i PS minori",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Ordine: Collasso",
+          "abName": "Kal'tsit",
+          "desc": "Se il bersaglio principale ha [Combustion] o [Burst], Potere Finale +<style=\"highlight\">2</style>\n[BeforeAttack] Infligge +1% danni per ogni 1 (Potenza [Burst] + Conteggio [Burst]) sul bersaglio principale (max 15%)\n<style=\"highlight\">- Se quest'unità ha [CuredFilm], moltiplica quest'effetto ed il suo tetto massimo di 1.5</style>\n[EndSkill] Ottiene <style=\"highlight\">7</style> [CuredFilm]\n[EndSkill] Cura sé stessa ed un alleato con la percentuale di PV minori del <style=\"highlight\">20</style>% dei PV Max di quest'unità\n- Se quest'unità ha i PV al massimo, cura invece altri due alleati\n[EndSkill] Cura 10 PS ai due alleati (compresa quest'unità) con i PS minori",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ordine: Collasso",
+          "abName": "Kal'tsit",
+          "desc": "Se il bersaglio principale ha [Combustion] o [Burst], Potere Finale +<style=\"highlight\">3</style>\n[BeforeAttack] Infligge +1% danni per ogni 1 (Potenza [Burst] + Conteggio [Burst]) sul bersaglio principale (max <style=\"highlight\">25</style>%)\n- Se quest'unità ha [CuredFilm], moltiplica quest'effetto ed il suo tetto massimo di <style=\"highlight\">2</style>\n[EndSkill] Ottiene <style=\"highlight\">10</style> [CuredFilm]\n[EndSkill] Cura sé stessa ed un alleato con la percentuale di PV minori del <style=\"highlight\">30</style>% dei PV Max di quest'unità\n- Se quest'unità ha i PV al massimo, cura invece altri due alleati\n[EndSkill] Cura <style=\"highlight\">15</style> PS ai due alleati (compresa quest'unità) con i PS minori",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">3</style> [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">3</style> [Combustion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2020921,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ordine: Collasso",
+          "abName": "Kal'tsit",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] A 4+ Rison. più alta, ottiene +1 Portata Attacco\n[EndSkill] Ottiene 4 [CuredFilm]\n[EndSkill] Se il danno di quest'Abilità non Stordisce o non uccide un bersaglio, subisce danni pari al 20% dei PV di quest'unità ed ottiene uno Scudo pari al danno subito da quest'effetto\n- Questi danni non uccidono quest'unità. Aumenta al massimo le Stack di [CuredFilm] a Fine Turno ed ottiene 2 [AttackDmgUp] il turno successivo (1 volta per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Ordine: Collasso",
+          "abName": "Kal'tsit",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n<style=\"highlight\">Se il bersaglio ha 6+ (Potenza [Burst] + Conteggio [Burst]), Potere Base +1</style>\n[BeforeAttack] A <style=\"highlight\">3</style>+ Rison. più alta, ottiene +1 Portata Attacco\n[EndSkill] Ottiene <style=\"highlight\">7</style> [CuredFilm]\n[EndSkill] Se il danno di quest'Abilità non Stordisce o non uccide un bersaglio, subisce danni pari al 20% dei PV di quest'unità ed ottiene uno Scudo pari al danno subito da quest'effetto\n- Questi danni non uccidono quest'unità. Aumenta al massimo le Stack di [CuredFilm] a Fine Turno ed ottiene 2 [AttackDmgUp] il turno successivo (1 volta per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge +1 Conteggio [Burst]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ordine: Collasso",
+          "abName": "Kal'tsit",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n<style=\"highlight\">Potere Base +1 per ogni 6 (Potenza [Burst] + Conteggio [Burst]) sul bersaglio principale (max 2)</style>\n<style=\"highlight\">[BeforeAttack] Ottiene +1 Portata Attacco per ogni 3 Rison. più alta (max 2)</style>\n[EndSkill] Ottiene <style=\"highlight\">10</style> [CuredFilm]\n[EndSkill] Se il danno di quest'Abilità non Stordisce o non uccide un bersaglio, subisce danni pari al 20% dei PV di quest'unità ed ottiene uno Scudo pari al <style=\"highlight\">(danno subito da quest'effetto x 2)</style>\n- Questi danni non uccidono quest'unità. Aumenta al massimo le Stack di [CuredFilm] a Fine Turno ed ottiene 2 [AttackDmgUp] il turno successivo (1 volta per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge 1 [Burst]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +<style=\"highlight\">2</style> Conteggio [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnStartCoin] Se il danno di quest'Abilità non Stordisce o non uccide un bersaglio, infligge +30% danni</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">3</style> [Combustion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2021011,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Stella Del Fiore Ardente",
+          "abName": "Falena del Fiore Ardente",
+          "desc": "[BeforeAttack] Potere Finale +1 per ogni 10 ([Combustion] su tutti i bersagli + [Combustion] su di sé) (max 2)\n[EndSkill] Ottiene 10 [Combustion] e +1 Conteggio [Combustion]\n[EndSkill] A 15+ [Combustion] su di sé, ottiene 1 [CrimsonDamageUp] il turno successivo (una volta per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] A 15+ [Combustion] su di sé, infligge 1 [FaustFlameMothEmber] a tutti i bersagli (una volta per turno; negli Incontri Mirati, alle Parti)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Stella Del Fiore Ardente",
+          "abName": "Falena del Fiore Ardente",
+          "desc": "[BeforeAttack] Potere Finale +1 per ogni 10 ([Combustion] su tutti i bersagli + [Combustion] su di sé) (max 2)\n[EndSkill] Ottiene 10 [Combustion] e +1 Conteggio [Combustion]\n[EndSkill] A 15+ [Combustion] su di sé, ottiene 1 [CrimsonDamageUp] il turno successivo (una volta per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge [Combustion] pari a (Rison. Ira / 2) (max 3; arrotondato per difetto)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] A 15+ [Combustion] su di sé, infligge 1 [FaustFlameMothEmber] a tutti i bersagli (una volta per turno; negli Incontri Mirati, alle Parti)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Stella Del Fiore Ardente",
+          "abName": "Falena del Fiore Ardente",
+          "desc": "[BeforeAttack] Potere Finale +1 per ogni 10 ([Combustion] su tutti i bersagli + [Combustion] su di sé) (max 2)\n[EndSkill] Ottiene 10 [Combustion] e +1 Conteggio [Combustion]\n[EndSkill] A 15+ [Combustion] su di sé, ottiene 1 [CrimsonDamageUp] il turno successivo (una volta per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge [Combustion] pari a (Rison. Ira / 2) (max 3; arrotondato per difetto)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge Conteggio [Combustion] pari a (Rison. Ira / 3) (max 2; arrotondato per difetto)</style>"
+                },
+                {
+                  "desc": "[EndCoin] A 15+ [Combustion] su di sé, infligge 1 [FaustFlameMothEmber] a tutti i bersagli (una volta per turno; negli Incontri Mirati, alle Parti)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2021021,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Stella Del Fiore Ardente",
+          "abName": "Falena del Fiore Ardente",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Potere Finale +1 per ogni 10 ([Combustion] su tutti i bersagli + [Combustion] su di sé) (max 2)\n[EndSkill] Ottiene 10 [Combustion] e +1 Conteggio [Combustion]\n[EndSkill] A 25+ [Combustion] su di sé, ottiene 2 [CrimsonDamageUp] il turno successivo (una volta per turno)\n[EndSkill] Se a questa unità mancano 50%+ PV, recupera 5 PS per ogni 10 [Combustion] su di sé (max 10)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Infligge casualmente 3 [FaustFlameMothEmber] tra i bersagli (una volta per turno, esclusi i bersagli che hanno Potenza [FaustFlameMothEmber] massima. Negli Incontri Mirati alle Parti)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Stella Del Fiore Ardente",
+          "abName": "Falena del Fiore Ardente",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Potere Finale +1 per ogni 10 ([Combustion] su tutti i bersagli + [Combustion] su di sé) (max 2)\n[EndSkill] Ottiene 10 [Combustion] e +1 Conteggio [Combustion]\n[EndSkill] A 25+ [Combustion] su di sé, ottiene 2 [CrimsonDamageUp] il turno successivo (una volta per turno)\n[EndSkill] Se a questa unità mancano 50%+ PV, recupera 5 PS per ogni 10 [Combustion] su di sé (max 10)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge [Combustion] pari a (Rison. Ira / 2) (max 3; arrotondato per difetto)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Infligge casualmente 3 [FaustFlameMothEmber] tra i bersagli (una volta per turno, esclusi i bersagli che hanno Potenza [FaustFlameMothEmber] massima. Negli Incontri Mirati alle Parti)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Stella Del Fiore Ardente",
+          "abName": "Falena del Fiore Ardente",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Potere Finale +1 per ogni 10 ([Combustion] su tutti i bersagli + [Combustion] su di sé) (max 2)\n[EndSkill] Ottiene 10 [Combustion] e +1 Conteggio [Combustion]\n[EndSkill] A 25+ [Combustion] su di sé, ottiene 2 [CrimsonDamageUp] il turno successivo (una volta per turno)\n[EndSkill] Se a questa unità mancano 50%+ PV, recupera 5 PS per ogni 10 [Combustion] su di sé (<style=\"highlight\">max 15</style>)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge Conteggio [Combustion] pari a (Rison. Ira / 3) (max 2; arrotondato per difetto)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge [Combustion] pari a (Rison. Ira / 2) (max 3; arrotondato per difetto)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Infligge casualmente <style=\"highlight\">6</style> [FaustFlameMothEmber] tra i bersagli (una volta per turno, esclusi i bersagli che hanno Potenza [FaustFlameMothEmber] massima. Negli Incontri Mirati alle Parti)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

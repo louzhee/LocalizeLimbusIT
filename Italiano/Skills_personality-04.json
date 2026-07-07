@@ -1,0 +1,3423 @@
+{
+  "dataList": [
+    {
+      "id": 1040501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "C.E.",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Charge]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Charge]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "C.E.",
+          "desc": "A 10+ Conteggio [Charge], infligge +10% danni",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Charge]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Charge]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "C.E.",
+          "desc": "A 10+ Conteggio [Charge], infligge +10% danni\nA 15+ Conteggio [Charge], infligge altri +10% danni",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Charge]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Charge]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Salto",
+          "desc": "[WhenUse] Ottiene +5 Conteggio [Charge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] A 10+ Conteggio [Charge], infligge 1 [SlashTakeDamageUp]"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se i PV del bersaglio sono sotto il 30%, infligge +15% danni"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Salto",
+          "desc": "[WhenUse] Ottiene +6 Conteggio [Charge]\nA 10+ Conteggio [Charge], ottiene +1 Potere Moneta",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] A 10+ Conteggio [Charge], infligge 1 [SlashTakeDamageUp]"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se i PV del bersaglio sono sotto il 30%, infligge +20% danni"
+                },
+                {
+                  "desc": "[EnemyKill] Ottiene 1 [Agility] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Salto",
+          "desc": "[WhenUse] Ottiene +7 Conteggio [Charge]\nA 10+ Conteggio [Charge], ottiene +1 Potere Moneta\nA 15+ Conteggio [Charge], ottiene +1 Potere Moneta in più",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] A 10+ Conteggio [Charge], infligge 2 [SlashTakeDamageUp]"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se i PV del bersaglio sono sotto il 30%, infligge +30% danni"
+                },
+                {
+                  "desc": "[EnemyKill] Ottiene 3 [Agility] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040503,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "L.D.D.R.D.",
+          "desc": "[WhenUse] A 7~14 Conteggio [Charge]\nConsuma tutto il Conteggio [Charge],\nE consuma 3 x (15 - Conteggio [Charge] Consumato )% PV per ottenere +3 Potere Moneta\n[WhenUse] Consuma 15 Conteggio [Charge] per ottenere +3 Potere Moneta",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] L'ultima Moneta infligge +5% danni"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] L'ultima Moneta infligge +5% danni"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] L'ultima Moneta infligge +5% danni"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[EnemyKill] Se questa Abilità ha consumato 15 Conteggio [Charge] all'uso, applica 5 [ChargeForceField] su di sé e 1 altro alleato"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "L.D.D.R.D.",
+          "desc": "[WhenUse] A 7~14 Conteggio [Charge]\nConsuma tutto il Conteggio [Charge],\nE consuma 3 x (15 - Conteggio [Charge] Consumato )% PV per ottenere +5 Potere Moneta\n[WhenUse] Consuma 15 Conteggio [Charge] per ottenere +5 Potere Moneta",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] L'ultima Moneta infligge +10% danni"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] L'ultima Moneta infligge +10% danni"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] L'ultima Moneta infligge +10% danni"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[EnemyKill] Se questa Abilità ha consumato 15 Conteggio [Charge] all'uso, applica 7 [ChargeForceField] su di sé e 1 altro alleato"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Schivata Caricata",
+          "desc": "Potere Base +1 per ogni 5 Conteggio [Charge] (max 2)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Schivata Caricata",
+          "desc": "Potere Base +1 per ogni 5 Conteggio [Charge] (max 3)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Botta",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Il bersaglio perde 4 PS"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Botta",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Il bersaglio perde 6 PS"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Botta",
+          "desc": "[WhenUse] Ottiene 2 Conteggio [Breath]\n<style=\"highlight\">A 7+ [Breath], Potere Moneta +1</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Il bersaglio perde 8 PS"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "O.D.N.",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 1 [AttackDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 1 [AttackDown]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "O.D.N.",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Breath]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 1 [AttackDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 1 [AttackDown]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "O.D.N.",
+          "desc": "A 7+ <color=#f8c200><u>[Breath]</color></u>, Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Breath]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 2 [AttackDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 1 [AttackDown]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040603,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "V.L.F.",
+          "desc": "[WhenUse] Ottiene 4 [Breath]\nA 10+ <color=#f8c200><u>[Breath]</color></u>, Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            },
+            {
+              "coindescs": [
+                {}
+              ]
+            },
+            {
+              "coindescs": [
+                { 
+                  "desc": "Utilizza 1 [Bullet]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Raddoppia l'applicazione di Potenza e Conteggio [Vibration] e [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Vibration] e +1 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst] e +1 Conteggio [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Innesca [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "V.L.F.",
+          "desc": "[WhenUse] Ottiene 4 [Breath]\nGain +1 Potere Moneta per ogni 7 [Breath] su di sé (max 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Ottiene +1 Conteggio [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Ottiene +1 Conteggio [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Utilizza 1 [Bullet]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Raddoppia l'applicazione di Potenza e Conteggio [Vibration] e [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Vibration] e +2 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Burst] e +2 Conteggio [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Blocco",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Blocco",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Guerra Totale",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Guerra Totale",
+          "desc": "Se il bersaglio ha 6+ [Combustion], Potere Scontro +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Guerra Totale",
+          "desc": "Se il bersaglio ha 6+ [Combustion], Potere Scontro +1\n<style=\"highlight\">Se il bersaglio ha 10+ [Combustion], Potere Moneta +1 </style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Mano Affilata Infuocata",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 6+ [Combustion], infligge +20% danni"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Mano Affilata Infuocata",
+          "desc": "Se il bersaglio ha 6+ [Combustion], Potere Scontro +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 6+ [Combustion], infligge +30% danni"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Mano Affilata Infuocata",
+          "desc": "Se il bersaglio ha 6+ [Combustion], Potere Scontro +1\n<style=\"highlight\">Se il bersaglio ha 6+ [Combustion], Potere Moneta +1</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 6+ [Combustion], infligge +50% danni"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040703,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Squarciafiamme",
+          "desc": "Se il bersaglio ha 6+ [Combustion], Potere Scontro +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 10+ [Combustion], infligge +20% danni"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Squarciafiamme",
+          "desc": "Se il bersaglio ha 6+ [Combustion], Potere Scontro +1\n<style=\"highlight\">Se il bersaglio ha 6+ [Combustion], Potere Moneta +1 </style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 10+ [Combustion], infligge +40% danni"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Blocco",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Blocco",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Arti dell'Accoglienza 1: La Caccia",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [MarkOfButler]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Arti dell'Accoglienza 1: La Caccia",
+          "desc": "<style=\"highlight\">Se la Velocità di questa unità è maggiore del bersaglio di 3 o più, Potere Scontro +1</style>\n[WhenUse] Ottiene +2 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [MarkOfButler]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Arti dell'Accoglienza 1: La Caccia",
+          "desc": "<style=\"highlight\">Se la Velocità di questa unità è maggiore del bersaglio, ottiene Potere Scontro +1 per ogni 2 differenza di Velocità (max 3)</style>\n[WhenUse] Ottiene +2 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [MarkOfButler]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Arti dell'Accoglienza 7: Cattura",
+          "desc": "[StartBattle] Consuma 6 Conteggio [Breath] su di sé per ottenere +2 Portata Attacco per questa Abilità",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [MarkOfButler]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Arti dell'Accoglienza 7: Cattura",
+          "desc": "[StartBattle] Consuma 6 Conteggio [Breath] su di sé per ottenere +2 Portata Attacco per questa Abilità",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 3 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [MarkOfButler]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Arti dell'Accoglienza 7: Cattura",
+          "desc": "<style=\"highlight\">Se la Velocità di questa unità è maggiore del bersaglio principale, ottiene Potere Scontro +1 per ogni 2 differenza di Velocità (max 3)</style>\n[StartBattle] Consuma 6 Conteggio [Breath] su di sé per ottenere +2 Portata Attacco per questa Abilità",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 3 [Breath]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 1 [MarkOfButler]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [MarkOfButler]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040803,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Arti dell'Accoglienza 2: T.S.I.C.C.",
+          "desc": "Se il bersaglio ha [MarkOfButler], Potere Scontro +1\n[WhenUse] Ottiene +7 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 5 [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Binding] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Aumenta la Soglia di Stordimento del 20% dei danni inflitti "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio è Stordito, infligge +20% Danni sul Colpo Critico"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [MarkOfButler]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Arti dell'Accoglienza 2: T.S.I.C.C.",
+          "desc": "Se il bersaglio ha [MarkOfButler], Potere Scontro +1\n<style=\"highlight\">Se la Velocità di questa unità è maggiore del bersaglio, ottiene Potere Moneta +1 per ogni 2 differenza di Velocità (max 2)</style>\n[WhenUse] Ottiene +7 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 5 [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Binding] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Aumenta la Soglia di Stordimento del 30% dei danni inflitti "
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 1 [MarkOfButler]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio è Stordito, infligge +40% Danni sul Colpo Critico"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [MarkOfButler]"
+                },
+                {
+                  "desc": "[EnemyKill] Riusa quest'Abilità una volta su un bersaglio casuale con [MarkOfButler]\n(Non si attiva al Riuso. Non si attiva quando non ci sono bersagli rimasti con [MarkOfButler])"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Mediocre",
+          "desc": "[OnSucceedEvade] Recupera 3 PS (3 volte per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Mediocre",
+          "desc": "[OnSucceedEvade] Recupera 3 PS (<style=\"highlight\">5</style> volte per turno)\n<style=\"highlight\">[OnSucceedEvade] Ottiene +1 Conteggio [Breath](5 volte per turno)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Hai le Rotelle A Posto?",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene Conteggio [Vibration] pari a ((Conteggio [Vibration] sul bersaglio)/2) (max 2)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Hai le Rotelle A Posto?",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Vibration]\n<style=\"highlight\">[WhenUse] A 5+ Conteggio [Vibration], Potere Scontro +2</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene Conteggio [Vibration] pari a ((Conteggio [Vibration] sul bersaglio)/2) (max <style=\"highlight\">3</style>)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Hai le Rotelle A Posto?",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Vibration]\n[WhenUse] A <style=\"highlight\">4</style>+ Conteggio [Vibration], Potere Scontro +2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene Conteggio [Vibration] pari a (Conteggio [Vibration] sul bersaglio) (max <style=\"highlight\">4</style>)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +<style=\"highlight\">2</style> Conteggio [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Chiave Inglese a Molla Compressa",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Vibration]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge +1 Conteggio [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Consuma Conteggio [Vibration] su di sé, e infligge altrettanto Conteggio [Vibration] sul bersaglio (max 5)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Chiave Inglese a Molla Compressa",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Vibration]\n<style=\"highlight\">A 5+ Conteggio [Vibration], Potere Moneta +1</style>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Ottiene +1 Conteggio [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Consuma Conteggio [Vibration] su di sé, e infligge altrettanto Conteggio [Vibration] sul bersaglio (max 5)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Chiave Inglese a Molla Compressa",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Vibration]\n<style=\"highlight\">[WhenUse] A 4+ Conteggio [Vibration], Potere Scontro +1</style>\nA <style=\"highlight\">4</style>+ Conteggio [Vibration], Potere Moneta +1",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Consuma Conteggio [Vibration] su di sé, e infligge altrettanto Conteggio [Vibration] sul bersaglio (max 5)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040903,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Botta Riparatrice",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Vibration]\nConsuma 10 Conteggio [Vibration] su di sé per ottenere Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Botta Riparatrice",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Vibration]\nConsuma <style=\"highlight\">8</style> Conteggio [Vibration] su di sé per ottenere Potere Moneta +1\n<style=\"highlight\">Se il bersaglio ha 6+ [Vibration], Potere Moneta +1</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di <style=\"highlight\">1</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Blocco",
+          "desc": "[WhenUse] Ottiene 2 x (Conteggio [Vibration] su di sé) come Scudo PV (max 5)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Blocco",
+          "desc": "[WhenUse] Ottiene 2 x (Conteggio [Vibration] su di sé) come Scudo PV (max <style=\"highlight\">10</style>)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Zitti, Tutti e Due",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 3 [PenanceFirst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [RedEyeFirst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Zitti, Tutti e Due",
+          "desc": "<style=\"highlight\">A 7+ [RedEyeFirst], Potere Moneta +1\nA 7+ [PenanceFirst], Potere Scontro +1</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 3 [PenanceFirst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [RedEyeFirst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge 1 [Laceration]</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Zitti, Tutti e Due",
+          "desc": "A 7+ [RedEyeFirst], Potere Moneta +1\nA 7+ [PenanceFirst], Potere Scontro <style=\"highlight\">+2</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 3 [PenanceFirst]\n<style=\"highlight\">[OnSucceedAttackHead] Ottiene 1 [PenanceFirst]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [RedEyeFirst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "F.T. / T.R.",
+          "desc": "Se la somma di [RedEyeFirst] e [PenanceFirst] è 20 o più, Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 4 [PenanceFirst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 3 [RedEyeFirst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {}
+          ]
+        },
+        {
+          "level": 2,
+          "name": "F.T. / T.R.",
+          "desc": "Se la somma di [RedEyeFirst] e [PenanceFirst] è 20 o più, Potere Moneta +1\n<style=\"highlight\">Se il bersaglio ha 6+ [Laceration], Potere Moneta +1</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 4 [PenanceFirst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 3 [RedEyeFirst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Ottiene [RedEyeFirst] pari a ([Laceration] sul bersaglio/3) (max 2)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "F.T. / T.R.",
+          "desc": "Se la somma di [RedEyeFirst] e [PenanceFirst] è <style=\"highlight\">15</style> o più, Potere Moneta +1\nSe il bersaglio ha 6+ [Laceration], Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 4 [PenanceFirst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 3 [RedEyeFirst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene [RedEyeFirst] pari a ([Laceration] sul bersaglio/<style=\"highlight\">2</style>) (max <style=\"highlight\">3</style>)"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] A 7+ [RedEyeFirst], ottiene 1 [Agility] il turno successivo (2 volte per turno)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041003,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Spacaccrani",
+          "desc": "[BeforeUse] Se [RedEyeFirst] e [PenanceFirst] sono entrambi a 15+, allora attiva 'Spaccacrani Serio'\nSe la Velocità di questa unità è maggiore del bersaglio di 3 o più, Potere Moneta +1\n[WhenUse] Se ha i PS al massimo, Potere Moneta +1\n- [EndSkill] Se questo effetto viene attivato, perde 15 PS",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 7 [RedEyeFirst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 7 [PenanceFirst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Cura se stessa e 1 alleato con la minore percentuale di PV di ([PenanceFirst]/3)% dei PV massimi di quell'unità"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Cura se stessa e 1 alleato con meno PS di ([PenanceFirst] - 10) PS (min 0)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Spacaccrani",
+          "desc": "[BeforeUse] Se [RedEyeFirst] e [PenanceFirst] sono entrambi a 15+, allora attiva 'Spaccacrani Serio'\nSe la Velocità di questa unità <style=\"highlight\">è maggiore del bersaglio</style>, Potere Moneta +1\n[WhenUse] Se ha i PS al massimo, <style=\"highlight\">Potere Scontro +2</style> e Potere Moneta +1\n- [EndSkill] Se questo effetto viene attivato, perde 15 PS",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 7 [RedEyeFirst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 7 [PenanceFirst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">3</style> [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Ottiene 2 [PenanceFirst]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Cura se stessa e 1 alleato con la minore percentuale di PV di ([PenanceFirst]/<style=\"highlight\">2</style>)% dei PV massimi di quell'unità"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Cura se stessa e 1 alleato con meno PS di ([PenanceFirst] - 10) PS (min 0)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Mangiate, Dormite",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [RedEyeFirst] (1 volta per turno)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [PenanceFirst] (1 volta per turno)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Mangiate, Dormite",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [RedEyeFirst] (1 volta per turno)\n<style=\"highlight\">- A meno di 7 [RedEyeFirst], ottiene +1 altro [RedEyeFirst]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [PenanceFirst] (1 volta per turno)\n<style=\"highlight\">- A meno di 7 [PenanceFirst], ottiene +1 altra [PenanceFirst]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041005,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Spaccacrani Serio",
+          "desc": "[WhenUse] Consuma ogni [RedEyeFirst] e [PenanceFirst] su di sé\n- Potere Moneta +1 per ogni 5 [RedEyeFirst] consumati (max 4)\n- Potere Base +1 per ogni 5 [PenanceFirst] consumata (max 4)\n[EndSkill] Perde 15 PS e ottiene [Emptiness] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge [Laceration] pari a ([RedEyeFirst] consumati - 15) sul bersaglio (max 5)"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "Infligge +2.5% danni per ogni [RedEyeFirst] e [PenanceFirst] consumati (max 100%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Cura se stessa e 1 alleato con la minore percentuale di PV di ([PenanceFirst] consumata / 2)% dei PV massimi di quell'unità\n- Cura 1 alleato in più per ogni 2 Rison. più alta (max altri 2 alleati)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Cura se stessa e 1 alleato con meno PS di ([PenanceFirst] consumata - 10) PS\n- Cura 1 alleato in più per ogni 2 Rison. più alta (max altri 2 alleati)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Binding] e 2 [Reduction] il turno successivo (1 volta per turno)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Spaccacrani Serio",
+          "desc": "[WhenUse] Consuma ogni [RedEyeFirst] e [PenanceFirst] su di sé\n- Potere Moneta +1 per ogni 5 [RedEyeFirst] consumati (max 4)\n- Potere Base +1 per ogni 5 [PenanceFirst] consumata (max 4)\n[EndSkill] Perde 15 PS e ottiene [Emptiness] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge [Laceration] pari a ([RedEyeFirst] consumati - 15) sul bersaglio (max 5)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "Infligge <style=\"highlight\">+4%</style> più danni per ogni [RedEyeFirst] e [PenanceFirst] consumati (max <style=\"highlight\">160%</style>)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Cura se stessa e 1 alleato con la minore percentuale di PV di <style=\"highlight\">([PenanceFirst] consumata)%</style> dei PV massimi di quell'unità\n- Cura 1 alleato in più per ogni 2 Rison. più alta (max altri 2 alleati)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Cura se stessa e 1 alleato con meno PS di ([PenanceFirst] consumata - <style=\"highlight\">5</style>) PS\n- Cura 1 alleato in più per ogni 2 Rison. più alta (max altri 2 alleati)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Binding] e 2 [Reduction] il turno successivo (1 volta per turno)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Scatto Fulmineo",
+          "desc": "[WhenUse] Se il bersaglio ha 6+ [Burst], Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Scatto Fulmineo",
+          "desc": "[WhenUse] Se il bersaglio ha <style=\"highlight\">4</style>+ [Burst], Potere Moneta +1\n<style=\"highlight\">[WinDuel] Infligge +1 Conteggio [Burst]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] A 10+ Velocità, Riusa questa Moneta una volta (1 volta per Abilità)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Scatto Fulmineo",
+          "desc": "<style=\"highlight\">Se la Velocità di questa unità è maggiore del bersaglio di 3 o più, Potere Moneta +1</style>\n[WhenUse] Se il bersaglio ha 4+ [Burst], Potere Moneta +1\n[WinDuel] Infligge +1 Conteggio [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] A 10+ Velocità, Riusa questa Moneta una volta (1 volta per Abilità)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Come Scritto",
+          "desc": "Se la Velocità di questa unità è maggiore del bersaglio, infligge (differenza di Velocità x Potenza [Burst] sul bersaglio)% danni (max 50%)\n[WhenUse] Se il bersaglio ha 6+ [Burst], Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "A 10+ Velocità, infligge +10% danni"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Come Scritto",
+          "desc": "Se la Velocità di questa unità è maggiore del bersaglio, infligge (differenza di Velocità x Potenza [Burst] sul bersaglio)% danni (max 50%)\n[WhenUse] Se il bersaglio ha <style=\"highlight\">4</style>+ [Burst], Potere Moneta +1\n<style=\"highlight\">[WhenUse] Ottiene 2 [Agility] il turno successivo (1 volta per turno)\n[WinDuel] Infligge +1 Conteggio [Burst]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] A 10+ Velocità, infligge +1 Conteggio [Burst]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "A 10+ Velocità, infligge +<style=\"highlight\">20</style>% danni"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Come Scritto",
+          "desc": "Se la Velocità di questa unità è maggiore del bersaglio, infligge (differenza di Velocità x Potenza [Burst] sul bersaglio)% danni (max 50%)\n<style=\"highlight\">Se la Velocità di questa unità è maggiore del bersaglio di 3 o più, Potere Moneta +1</style>\n[WhenUse] Se il bersaglio ha 4+ [Burst], Potere Moneta +1\n[WhenUse] Ottiene 2 [Agility] il turno successivo (1 volta per turno)\n[WinDuel] Infligge +1 Conteggio [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] A 10+ Velocità, infligge +1 Conteggio [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "A 10+ Velocità, infligge +<style=\"highlight\">30</style>% danni"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge 1 [Burst]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041103,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Ti sventrerò con una spada incisa di maledizioni",
+          "desc": "Se la Velocità di questa unità è maggiore del bersaglio, infligge (differenza di Velocità x Potenza [Burst] sul bersaglio)% danni (max 50%)\nSe la Velocità di questa unità è maggiore del bersaglio di 2 o più, Potere Moneta +1\n[WhenUse] Ottiene 3 [LegStrength]\n[WinDuel] Infligge +2 Conteggio [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge [BurstAgility]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "A 10+ Velocità, infligge +30% danni"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] A 10+ Velocità, Riusa questa Moneta una volta (1 volta per Abilità)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ti sventrerò con una spada incisa di maledizioni",
+          "desc": "Se la Velocità di questa unità è maggiore del bersaglio, infligge (differenza di Velocità x Potenza [Burst] sul bersaglio)% danni (max 50%)\nSe la Velocità di questa unità è maggiore del bersaglio, <style=\"highlight\">ottiene Potere Moneta in base alla differenza di Velocità (Potere Moneta +1 per ogni 2 differenza di Velocità; max 2)\n[WhenUse] Se il bersaglio ha 15+ [Burst], Potere Moneta +1</style>\n[WhenUse] Ottiene 3 [LegStrength]\n[WinDuel] Infligge +2 Conteggio [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge [BurstAgility]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "A 10+ Velocità, infligge +30% danni<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] A 10+ Velocità, Riusa questa Moneta una volta (1 volta per Abilità)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[ReUseOnSucceedAttack] Infligge [BurstAgility]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Scattante. Scatenata. Heh",
+          "desc": "[DuelCounter]\n[WhenUse] Ottiene 3 [LegStrength]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Scattante. Scatenata. Heh",
+          "desc": "[DuelCounter]\n[WhenUse] Ottiene 3 [LegStrength]\n<style=\"highlight\">[WhenUse] Se la Velocità di questa unità è maggiore del bersaglio, ottiene Potere Base in base alla differenza di Velocità (Potere Base +1 per ogni 2 differenza di Velocità; max 2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Cosa Spregevole",
+          "desc": "[WhenUse] Se il bersaglio ha [GazeRyoshu] o [ContemptRyoshu], Potere Scontro +1",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [GazeRyoshu]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Cosa Spregevole",
+          "desc": "[WhenUse] Se il bersaglio ha [GazeRyoshu] o [ContemptRyoshu], Potere Scontro +1\n[WhenUse] A 6+ ([Laceration] + [Vibration]) sul bersaglio, Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [GazeRyoshu]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Cosa Spregevole",
+          "desc": "[WhenUse] Se il bersaglio ha [GazeRyoshu] o [ContemptRyoshu], Potere Scontro +1\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 6 ([Laceration] + [Vibration]) sul bersaglio (max 2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [GazeRyoshu]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Cadi in Soggezione",
+          "desc": "[WhenUse] Se il bersaglio ha [GazeRyoshu] o [ContemptRyoshu], Potere Scontro +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [GazeRyoshu]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Cadi in Soggezione",
+          "desc": "[WhenUse] Se il bersaglio ha [GazeRyoshu] o [ContemptRyoshu], Potere Scontro +1\n[WhenUse] A 6+ ([Laceration] + [Vibration]) sul bersaglio, Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [GazeRyoshu]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 3+ Conteggio [Vibration], innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Cadi in Soggezione",
+          "desc": "[WhenUse] Se il bersaglio ha [GazeRyoshu] o [ContemptRyoshu], Potere Scontro +1\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 6 ([Laceration] + [Vibration]) sul bersaglio (max 2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [GazeRyoshu]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 3+ Conteggio [Vibration], innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041203,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Timore, Disprezzo",
+          "desc": "Se il bersaglio ha [GazeRyoshu], questa Abilità infligge +2 Potenza [Laceration] e [Vibration] in più\n[BeforeUse] A 7+ (somma di [GazeRyoshu] su tutti i nemici), o a 1+ (somma di [ContemptRyoshu] su tutti i nemici), attiva al suo posto '<noparse>Sguardo</noparse> di <noparse>Timore</noparse> Sotto al<noparse>Disprezzo</noparse> Discendente'\n[WhenUse] A 8+ ([Laceration] + [Vibration]) sul bersaglio, Potere Moneta +1\n[WhenUse] Infligge +1% danni per ogni ([Laceration] + [Vibration]) sul bersaglio (max 20%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Infligge +5% danni per ogni 1 [GazeRyoshu] sul bersaglio (max 35%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [GazeRyoshu]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Innesca [Switch_Vibration] in [VibrationBleeding]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Timore, Disprezzo",
+          "desc": "Se il bersaglio ha [GazeRyoshu], questa Abilità infligge +2 Potenza [Laceration] e [Vibration] in più<style=\"highlight\"></style>\n[BeforeUse] A 7+ (somma di [GazeRyoshu] su tutti i nemici), o a 1+ (somma di [ContemptRyoshu] su tutti i nemici), attiva al suo posto '<noparse>Sguardo</noparse> di <noparse>Timore</noparse> Sotto al<noparse>Disprezzo</noparse> Discendente'\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 8 ([Laceration] + [Vibration]) sul bersaglio (max 2)</style>\n[WhenUse] Infligge +1% danni per ogni ([Laceration] + [Vibration]) sul bersaglio (max <style=\"highlight\">40</style>%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Infligge +<style=\"highlight\">10</style>% danni per ogni 1 [GazeRyoshu] sul bersaglio (max <style=\"highlight\">70</style>%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [GazeRyoshu]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Innesca [Switch_Vibration] in [VibrationBleeding]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Presa",
+          "desc": "[StartBattle] Se questa unità non ha [ContemptPersonality], e si trova 7+ (somma di [GazeRyoshu] su tutti i nemici) o 1+ (somma di [ContemptRyoshu] su tutti i nemici), ottiene [ContemptPersonality] (1 volta per turno)\n[WhenUse] Se questa unità ha [ContemptPersonality], Potere Finale +5\n[WhenUse] Quando subisce un colpo mentre usa questa Abilità, infligge +1 Conteggio [Laceration] all'attaccante (3 volte per turno)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Presa",
+          "desc": "[StartBattle] Se questa unità non ha [ContemptPersonality], e si trova 7+ (somma di [GazeRyoshu] su tutti i nemici) o 1+ (somma di [ContemptRyoshu] su tutti i nemici), ottiene [ContemptPersonality] (1 volta per turno)\n[WhenUse] Se questa unità ha [ContemptPersonality], Potere Finale +10\n[WhenUse] Quando subisce un colpo mentre usa questa Abilità, infligge +1 Conteggio [Laceration] all'attaccante (3 volte per turno)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041205,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Sguardo di Timore Sotto al Disprezzo Discendente",
+          "desc": "Gli effetti esterni non possono far Riusare questa Abilità\nBersaglia con priorità i nemici con [GazeRyoshu] o [ContemptRyoshu] come bersagli secondari\n- Infligge -50% danni ai bersagli secondari\nSe vi è un solo bersaglio, infligge +200% danni (per gli Incontri Mirati, una Parte)\n[WhenUse] Potere Moneta +1 per ogni 4 ([Laceration] + [Vibration]) sul bersaglio principale (max 2)\n[WhenUse] Infligge +2% danni per ogni ([Laceration] + [Vibration]) sul bersaglio principale (max 50%)\n[WhenUse] Infligge +7% danni per ogni 1 (somma di [GazeRyoshu] su tutti i bersagli dell'attacco) (max 49%)\n[EndSkill] Consuma [GazeRyoshu] o [ContemptRyoshu] su tutti i bersagli colpiti",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Se il bersaglio ha [ContemptRyoshu], infligge +180% danni"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Vibration] e +1 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration] e +1 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [Switch_Vibration] in [VibrationBleeding]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Sguardo di Timore Sotto al Disprezzo Discendente",
+          "desc": "Gli effetti esterni non possono far Riusare questa Abilità\nBersaglia con priorità i nemici con [GazeRyoshu] o [ContemptRyoshu] come bersagli secondari<style=\"highlight\"></style>\n- Infligge -50% danni ai bersagli secondari\nSe vi è un solo bersaglio, infligge +200% danni (per gli Incontri Mirati, una Parte)\n[WhenUse] Potere Moneta +1 per ogni 4 ([Laceration] + [Vibration]) sul bersaglio principale (max <style=\"highlight\">4</style>)\n[WhenUse] Infligge +2% danni per ogni ([Laceration] + [Vibration]) sul bersaglio principale (max <style=\"highlight\">100</style>%)\n[WhenUse] Infligge +10% danni per ogni 1 (somma di [GazeRyoshu] su tutti i bersagli dell'attacco) (max 70%)\n[EndSkill] Consuma [GazeRyoshu] o [ContemptRyoshu] su tutti i bersagli colpiti",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Se il bersaglio ha [ContemptRyoshu], infligge +<style=\"highlight\">235</style>% danni"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Vibration] e +2 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration] e +2 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [Switch_Vibration] in [VibrationBleeding]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041206,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Farò Fuoco / Quando Vuoi",
+          "desc": "[StartBattle] Dà priorità a E.G.O della N Corp.::<noparse>Disprezzo</noparse>, Timore Ryōshū\n[StartBattle] Ottiene +1 Portata Attacco per ogni 3 [BoseProjektil] su di sé (max 2)\n[WhenUse] A 5+ [Breath], Potere Moneta +1\n[WhenUse] A 3+ Conteggio [Breath], Potere Base +1\n[WhenUse] Ottiene 1 [Breath] per ogni [BoseProjektil] su di sé (max 7)\n[EndSkill] Perde ([BoseProjektil] su di sé x 2) PS (max 14)\n[EndSkill] Se questa unità ha 7 [BoseProjektil] a Inizio Combattimento, li perde tutti e recupera 20 PS",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Questa Moneta danneggia solamente il bersaglio principale"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Questa Moneta danneggia solamente i bersagli secondari"
+                },
+                {
+                  "desc": "- Se la prima Moneta non è stata un Colpo Critico, e se E.G.O della N Corp.::<noparse>Disprezzo</noparse>, Timore Ryōshū è sopravvissuta, 1 bersaglio casuale subisce danni\n"
+                },
+                {
+                  "desc": "Infligge +30% danni per ogni [BoseProjektil] su di sé (max 210%)"
+                },
+                {
+                  "desc": "+2.5% Danni sul Colpo Critico per ogni Potenza [Breath] (max <style=\"highlight\">25%</style>)"
+                },
+                {
+                  "desc": "+7% Danni sul Colpo Critico per ogni [BoseProjektil] su di sé (max 49%)"
+                },
+                {
+                  "desc": "Infligge +1% danni per ogni 1% di PV mancanti sul bersaglio principale (max 100%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration] e +1 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Farò Fuoco / Quando Vuoi",
+          "desc": "[StartBattle] Dà priorità a E.G.O della N Corp.::<noparse>Disprezzo</noparse>, Timore Ryōshū\n[StartBattle] Ottiene +1 Portata Attacco per ogni 3 [BoseProjektil] su di sé (max 2)\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 5 [Breath] su di sé (max 2)</style>\n[WhenUse] <style=\"highlight\">Potere Base +1 per ogni 3 Conteggio [Breath] su di sé (max 2)</style>\n[WhenUse] Ottiene 1 [Breath] per ogni [BoseProjektil] su di sé (max 7)\n[EndSkill] Perde ([BoseProjektil] su di sé x 2) PS (max 14)\n[EndSkill] Se questa unità ha 7 [BoseProjektil] a Inizio Combattimento, li perde tutti e recupera 20 PS",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Questa Moneta danneggia solamente il bersaglio principale"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Questa Moneta danneggia solamente i bersagli secondari"
+                },
+                {
+                  "desc": "- Se la prima Moneta non è stata un Colpo Critico, e se E.G.O della N Corp.::<noparse>Disprezzo</noparse>, Timore Ryōshū è sopravvissuta, 1 bersaglio casuale subisce danni\n"
+                },
+                {
+                  "desc": "Infligge +<style=\"highlight\">40</style>% danni per ogni [BoseProjektil] su di sé (max <style=\"highlight\">280</style>%)"
+                },
+                {
+                  "desc": "+<style=\"highlight\">5</style>% Danni sul Colpo Critico per ogni Potenza [Breath] (max <style=\"highlight\">50</style>%)"
+                },
+                {
+                  "desc": "+<style=\"highlight\">10</style>% Danni sul Colpo Critico per ogni [BoseProjektil] su di sé (max <style=\"highlight\">70</style>%)"
+                },
+                {
+                  "desc": "Infligge +1% danni per ogni 1% di PV mancanti sul bersaglio principale (max 100%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Laceration] e +2 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ehi, Allontanati",
+          "desc": "[WhenUse] Ottiene +1 Conteggio [Breath]\n[OnDirectAttack] Infligge +1 Conteggio [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Ehi, Allontanati",
+          "desc": "<style=\"highlight\">[WhenUse] A 6+ ([Breath] su di sé + [Burst] sul bersaglio), Potere Moneta +1</style>\n[WhenUse] Ottiene +1 Conteggio [Breath]\n[OnDirectAttack] Infligge +1 Conteggio [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ehi, Allontanati",
+          "desc": "<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 ([Breath] su di sé + [Burst] sul bersaglio) (max 2)</style>\n[WhenUse] Ottiene +1 Conteggio [Breath]\n[OnDirectAttack] Infligge +1 Conteggio [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">+20% danni su Colpo Critico</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Infligge 1 [Burst]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Inciso Nella Carne e Nelle Ossa [銘肌鏤骨]",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene [Breath] pari a (([Burst] sul bersaglio / 5) + 1) (max 6, arrotondato per difetto)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 1 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Inciso Nella Carne e Nelle Ossa [銘肌鏤骨]",
+          "desc": "<style=\"highlight\">[WhenUse] A 6+ ([Breath] su di sé + [Burst] sul bersaglio), Potere Moneta +1</style>\n[WhenUse] Ottiene +2 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">+2</style> Conteggio [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene [Breath] pari a (([Burst] sul bersaglio / 5) + 1) (max 6, arrotondato per difetto)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Inciso Nella Carne e Nelle Ossa [銘肌鏤骨]",
+          "desc": "<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 ([Breath] su di sé + [Burst] sul bersaglio) (max 2)</style>\n[WhenUse] Ottiene +2 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst] <style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene [Breath] pari a (([Burst] sul bersaglio / 5) + <style=\"highlight\">2</style>) (max 6, arrotondato per difetto)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">+20% danni su Colpo Critico</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041303,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Colpo di Supporto [加斥我援]",
+          "desc": "[WhenUse] Ottiene 2 [ProtectStanceRyoshu]\n[WhenUse] Se il bersaglio ha 3+ tipi di effetti negativi, Potere Finale +1\n[WhenUse] A 6+ ([Breath] su di sé + [Burst] sul bersaglio), Potere Moneta +1\n[WhenUse] Ottiene +3 Conteggio [Breath]\n[WhenUse] Ottiene 3 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] Infligge il 2% di danno in più su Colpo Critico per ogni ([Breath] su di sé + [Burst] sul bersaglio) (max 100%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Colpo di Supporto [加斥我援]",
+          "desc": "[WhenUse] Ottiene 2 [ProtectStanceRyoshu]\n[WhenUse] Se il bersaglio ha 3+ tipi di effetti negativi, Potere Finale +1\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 ([Breath] su di sé + [Burst] sul bersaglio) (max 2)</style>\n[WhenUse] Ottiene +3 Conteggio [Breath]\n[WhenUse] Ottiene 3 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 [Burst] Count<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] Infligge il 2% di danno in più su Colpo Critico per ogni ([Breath] su di sé + [Burst] sul bersaglio) <style=\"highlight\">(max 120%)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sentinella",
+          "desc": "[CanDuelGuard]\n[StartBattle] Ottiene 2 [ProtectStanceRyoshu]\n[WhenUse] Questa Abilità ottiene +1 Livello Difensivo per ogni 10% di PV che quest'unità ha perso in totale in questo Incontro (max 6, si basa sui PV max quando si attiva quest'Abilità)\n[WinDuel] Ottiene [Breath] in base alla quantità di [Burst] sul bersaglio (max 5, una volta per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Sentinella",
+          "desc": "[CanDuelGuard]\n[StartBattle] Ottiene 2 [ProtectStanceRyoshu]\n[WhenUse] Questa Abilità ottiene +1 Livello Difensivo per ogni 10% di PV che quest'unità ha perso in totale in questo Incontro (max 6, si basa sui PV max quando si attiva quest'Abilità)\n[WinDuel] Ottiene [Breath] in base alla quantità di [Burst] sul bersaglio (max 5, una volta per turno)<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Bang. Bang.",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Usa 1 [BulletGodok]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Usa 1 [BulletGodok]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Bang. Bang.",
+          "desc": "[WhenUse] Se il bersaglio ha 6+ ([Vibration] + [Sinking]), Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Usa 1 [BulletGodok]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Usa 1 [BulletGodok]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Bang. Bang.",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 6 ([Vibration] + [Sinking]) sul bersaglio (max 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Usa 1 [BulletGodok]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Usa 1 [BulletGodok]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fragranza che Sboccia nel Vuoto",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Usa 1 [BulletGodok]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [AlriuneEGOThey]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [AlriuneEGOThey]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Fragranza che Sboccia nel Vuoto",
+          "desc": "[WhenUse] Se il bersaglio ha 6+ ([Vibration] + [Sinking]), Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Usa 1 [BulletGodok]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [AlriuneEGOThey]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [AlriuneEGOThey]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Fragranza che Sboccia nel Vuoto",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 6 ([Vibration] + [Sinking]) sul bersaglio (max 2)\n[WhenUse] Infligge +1% danni per ogni [AlriuneEGOThey] sul bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Usa 1 [BulletGodok]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [AlriuneEGOThey]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [AlriuneEGOThey]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041403,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Piena Fioritura",
+          "desc": "[WhenUse] Se il bersaglio 6+ ([Vibration] + [Sinking]), Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [AlriuneEGOThey]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [AlriuneEGOThey]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [AlriuneEGOThey]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce Conteggio [Vibration] del bersaglio di 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Piena Fioritura",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 6 ([Vibration] + [Sinking]) sul bersaglio (max 2)\n[WhenUse] Infligge +1% danno per ogni Stack di [AlriuneEGOThey] sul bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [AlriuneEGOThey]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [AlriuneEGOThey]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict 4 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [AlriuneEGOThey]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce Conteggio [Vibration] del bersaglio di 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge Danno da Tristezza pari all'[Sinking] sul bersaglio"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "T.A.A.",
+          "desc": "[EndBattle] Ottiene 10 [AlriuneEGOWe] (una volta per turno)\n[EndBattle] Ottiene 2 [Vulnerable] e 2 [Enhancement] il turno successivo (una volta per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "T.A.A.",
+          "desc": "[EndBattle] Ottiene 10 [AlriuneEGOWe] (una volta per turno)\n[EndBattle] Ottiene 2 [Vulnerable] e 2 [Enhancement] il turno successivo (una volta per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041405,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Racconti Interminabili",
+          "desc": "[CantDuel]\n[WideAreaRampage]\nQuando questa Abilità infligge [GodokPanicType], se il bersaglio ha già [GodokPanicType] in questo turno o gli verrà inflitto [GodokPanicType] il turno successivo, innesca invece [VibrationExplosion], poi riduce Conteggio [Vibration] del bersaglio di 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [GodokPanicType] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [GodokPanicType] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [GodokPanicType] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041406,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Fine Magnifica",
+          "desc": "[CantDuel]\nGli effetti esterni non possono far Riusare questa Abilità\nInfligge +30% danni per ogni Portata Attacco in eccesso rispetto al numero di bersagli effettivi (negli Incontri Mirati, la Parte)\n[WhenUse] Potere Finale +1 per ogni 5 (somma di [AlriuneEGOThey] su tutti i bersagli) (max 6)\n\n[EndSkill] Perde tutte le Stack di [AlriuneEGOWe] su di sé",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [AlriuneEGOThey]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce Conteggio [Vibration] del bersaglio di 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge Danno da Tristezza pari all'[Sinking] sul bersaglio"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fendente Triplo [三連]",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Breath]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge +1 Conteggio [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [PhantomIncisionID]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge [PhantomIncisionID] pari a [SojiRyoshuEchoPast] su di sé (max 4)"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 2 [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge danno Tagliente pari al ([SojiRyoshuEchoPast] x 2)% del danno finale di questa Moneta"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Fendente Triplo [三連]",
+          "desc": "<style=\"highlight\">[WhenUse] A 6+ [Breath], Potere Moneta +1</style>\n[WhenUse] Ottiene +<style=\"highlight\">3</style> Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge +2 Conteggio [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Breath]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge +1 Conteggio [Combustion]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Breath]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [PhantomIncisionID]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge [PhantomIncisionID] pari a [SojiRyoshuEchoPast] su di sé (max 4)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 2 [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge danno Tagliente pari al ([SojiRyoshuEchoPast] x 2)% del danno finale di questa Moneta<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Fendente Triplo [三連]",
+          "desc": "[WhenUse] A 6+ [Breath], Potere Moneta +1\n<style=\"highlight\">[WhenUse] Potere Finale +1 per ogni 6 ([Combustion] + [Laceration]) sul bersaglio (max 2)</style>\n[WhenUse] Ottiene +3 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge +2 Conteggio [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Breath]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge +1 Conteggio [Combustion]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Breath]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [PhantomIncisionID]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge [PhantomIncisionID] pari a [SojiRyoshuEchoPast] su di sé (max 4)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 2 [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge danno Tagliente pari al ([SojiRyoshuEchoPast] x 2)% del danno finale di questa Moneta<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fendente Triplo - Echeggiante [三連 - 殘]",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Breath]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 2 [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge danno Tagliente pari al ([SojiRyoshuEchoPast] x 3)% del danno finale di questa Moneta"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Fendente Triplo - Echeggiante [三連 - 殘]",
+          "desc": "<style=\"highlight\">[WhenUse] A 6+ [Breath], Potere Moneta +1</style>\n[WhenUse] Ottiene +<style=\"highlight\">3</style> Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Breath]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 1 [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 1 [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 2 [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge danno Tagliente pari al ([SojiRyoshuEchoPast] x 3)% del danno finale di questa Moneta<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Fendente Triplo - Echeggiante [三連 - 殘]",
+          "desc": "[WhenUse] A 6+ [Breath], Potere Moneta +1\n<style=\"highlight\">[WhenUse] Potere Finale +1 per ogni 6 ([Combustion] + [Laceration]) sul bersaglio (max 2)</style>\n[WhenUse] Ottiene +3 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Breath]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 1 [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 1 [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 2 [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge danno Tagliente pari al ([SojiRyoshuEchoPast] x 3)% del danno finale di questa Moneta<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041503,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Lacera lo Spazio [空間斬]",
+          "desc": "[WhenUse] Potere Finale +1 per ogni 4 [Breath] su di sé (max 5)\n[WhenUse] Infligge +5% danni per ogni [SojiRyoshuEchoPast] su di sé\n[WhenUse] Ottiene 5 [Breath]\n[WhenUse] Ottiene +1 Portata Attacco per ogni 2 [SojiRyoshuEchoPast] su di sé (max 2)\n[WhenUse] Infligge +15% danni per ogni Portata Attacco in eccesso rispetto al numero effettivo dei bersagli (negli Incontri Mirati, le Parti)\n[EndSkill] Infligge casualmente ([SojiRyoshuEchoPast] su di sé + 10) [PhantomIncisionID] tra tutti i bersagli colpiti dall'Abilità",
+          "flavor": "\"La via della spada, eh? Già, A forza di non schiodarsi da un unico sentiero come un deficiente con i paraocchi alla fine si finisce per tagliare persino lo spazio. Oh, ma non montarti la testa—Fa solo tremolare lo spazio squarciato per un po', come l'aria con il caldo. Dagli un po' di tempo e il taglio si richiude come se non fosse mai esistito\"",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Infligge +30% danni su Colpo Critico"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Combustion]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Attiva [Combustion] sul bersaglio. Il bersaglio perde 1 Conteggio [Combustion]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Attiva [Laceration] sul bersaglio. Il bersaglio perde 1 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge danno Tagliente pari al ([SojiRyoshuEchoPast] x 3)% del danno finale di questa Moneta"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Lacera lo Spazio [空間斬]",
+          "desc": "[WhenUse] Potere Finale +1 per ogni 4 [Breath] su di sé (max 5)\n<style=\"highlight\">[WhenUse] Potere Base +1 per ogni 6 ([Combustion] + [Laceration]) sul bersaglio principale (max 5)</style>\n[WhenUse] Infligge +5% danni per ogni [SojiRyoshuEchoPast] su di sé\n[WhenUse] Ottiene 5 [Breath]\n[WhenUse] Ottiene +1 Portata Attacco per ogni 2 [SojiRyoshuEchoPast] su di sé (max 2)\n[WhenUse] Infligge <style=\"highlight\">+30%</style> danni per ogni Portata Attacco in eccesso rispetto al numero effettivo dei bersagli (negli Incontri Mirati, le Parti)\n[EndSkill] Infligge casualmente ([SojiRyoshuEchoPast] su di sé + 10) [PhantomIncisionID] tra tutti i bersagli colpiti dall'Abilità",
+          "flavor": "\"La via della spada, eh? Già, A forza di non schiodarsi da un unico sentiero come un deficiente con i paraocchi alla fine si finisce per tagliare persino lo spazio. Oh, ma non montarti la testa—Fa solo tremolare lo spazio squarciato per un po', come l'aria con il caldo. Dagli un po' di tempo e il taglio si richiude come se non fosse mai esistito\"",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Infligge <style=\"highlight\">+50%</style> danni su Colpo Critico"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Attiva [Combustion] sul bersaglio. Il bersaglio perde 1 Conteggio [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Attiva [Laceration] sul bersaglio. Il bersaglio perde 1 Conteggio [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge danno Tagliente pari al ([SojiRyoshuEchoPast] x <style=\"highlight\">4</style>)% del danno finale di questa Moneta"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Passo Fantasma [殘像步]",
+          "desc": "[StartBattle] Bersaglia l'ultimo alleato schierato del Nido dei Ragni (2 volte per turno)\n- A 1+ [SojiRyoshuEntangle], bersaglia 1 alleato in più\n- A Fine Abilità di tutte le Abilità equipaggiate dal bersaglio in questo turno, o se il bersaglio è Stordito, o se il bersaglio non ha Abilità rimaste, usa \"Assasinio Dei Cieli - Tiansha\" sul bersaglio come un Attacco Incontrastato (una volta per Identità)\n - Il Nido dei Ragni: Apprendista del Mignolo Sinclair riceve priorità per ultimo\n[StartBattle] Ottiene +3 Conteggio [Breath] (una volta per turno)",
+          "flavor": "\"Ciò che stai inseguendo non è altro che il mio fantasma\"",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Passo Fantasma [殘像步]",
+          "desc": "[StartBattle] Bersaglia l'ultimo alleato schierato del Nido dei Ragni (2 volte per turno)\n- A 1+ [SojiRyoshuEntangle], bersaglia 1 alleato in più\n- A Fine Abilità di tutte le Abilità equipaggiate dal bersaglio in questo turno, o se il bersaglio è Stordito, o se il bersaglio non ha Abilità rimaste, usa \"Assasinio Dei Cieli - Tiansha\" sul bersaglio come un Attacco Incontrastato (una volta per Identità)\n - Il Nido dei Ragni: Apprendista del Mignolo Sinclair riceve priorità per ultimo\n[StartBattle] Ottiene +3 Conteggio [Breath] (una volta per turno)\n<style=\"highlight\">[OnSucceedEvade] Ottiene 1 [Breath] (3 volte per turno)</style>",
+          "flavor": "\"Ciò che stai inseguendo non è altro che il mio fantasma\"",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041505,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Assasinio dei Cieli - Tiansha [天殺]",
+          "desc": "[CantDuel]\nQuesta Abilità non attiva le Abilità Difensive ed effetti esterni non possono riattivarla\nDisattiva i \"Fattori di base che diminuiscono la Sanità\" quando si utilizza questa Abilità\n[WhenUse] Per questo Incontro, perde 1 Livello Offensivo e ottiene Potere Base +1 per gli Attacchi di questa unità (4 volte per Incontro)\n[TargetKill] Recupera 20 PS\n[TargetKill] Ottiene [RyoshuEGOPF] pari al danno inflitto con questa Abilità",
+          "flavor": "\"*sputo* Com'è che faceva quel detto? Che bisogna venerare i genitori come il cielo stesso?\"",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 20 [PhantomIncisionID]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio è un alleato del Nido dei Ragni, infligge 120% danni ai PV come danno fisso"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041506,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fine Inevitabile [必然殺]",
+          "desc": "[CantDuel]\nQuesta Abilità non attiva le Abilità Difensive ed effetti esterni non possono riattivarla\n[WhenUse] Ottiene +1 Conteggio [Breath]\n[BeforeAttack] Se questa Abilità è stata attivata dall'Abilità 3,\n- Applica Portata Attacco a questa Abilità pari al numero di nemici che hanno [SojiRyoshuEchoFuture] (min 1)\n- Dà priorità ai nemici che hanno [SojiRyoshuEchoFuture]\n[EndSkill] Le Stack di [SojiRyoshuEchoFuture] sul bersaglio scadono",
+          "flavor": "\"Oho... Che modo originale di usare la Spada della Stella Dihui, la lama che lascia sempre alle spalle un non so che di persistente. Gli attacchi impossibili da schivare sembrano un po' da vigliacchi, ma...ah! Devo proprio dirlo, quella spada mi piace\"",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Infligge +30% danni su Colpo Critico"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [PhantomIncisionID]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge [PhantomIncisionID] pari a [SojiRyoshuEchoPast] su di sé (max 4)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Attiva [Combustion] sul bersaglio. Il bersaglio perde 1 Conteggio [Combustion]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 1 [SlashTakeDamageUp]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041507,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Lacera lo Spazio - Echeggiante [空間斬 - 殘]",
+          "desc": "[WhenUse] Per ogni [SojiRyoshuEntangle] su di sé, questa Abilità perde 1 Potere Base e ottiene un'Abilità 1 extra prima di usare l'Abilità 2\n[WhenUse] La Moneta finale ottiene Potere Moneta +1 per ogni [SojiRyoshuEchoPast] su di sé\n[WhenUse] Infligge +50% danni per ogni Portata Attacco in eccesso rispetto al numero di bersagli effettivi (negli Incontri Mirati, le Parti)\n[EndSkill] Aumenta il limite delle Stack Min & Max di [SojiRyoshuEchoPast] di 1 e resetta [SojiRyoshuEchoPast] su di sé alle Stack minime (max 2 volte per Incontro)\n[EndSkill] Consuma 50 [PhantomIncisionTotalID]",
+          "flavor": "\"Questo Apre sicuramente nuove strade nell' ambito delle tecniche di taglio spaziali\"\n\"Hai sentito? Si potrebbe pensare che squarciare il tessuto stesso dello spazio sia il culmine della Via della Spada,  tuttavia il percorso si estende ben oltre. Continuando ad allenarsi, si sviluppa un proprio stile unico nel farlo. Ciò aggiunge un ulteriore livello di artisticità, lasciando un tocco non convenzionale a una tecnica universale, permettendo allo squarcio di persistere o, a volte, persino di ridursi al lampo di un istante.\"\n\"È motivo di orgoglio per coloro che hanno scelto la via della spada, ciò significa che è spesso oggetto di dibattito nel settore. Fuhu, mi ricorda i giorni in cui ero solito abbandonarmi a dispute di analoga belligeranza con gli altri Maestri.\"",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Infligge +30% danni su Colpo Critico"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Consuma tutte le Stack di [PhantomIncisionID] sul bersaglio e infligge danno Tagliente pari al ([PhantomIncisionID] consumata / 10)% del danno finale di questa Moneta"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge danno Tagliente pari al ([SojiRyoshuEchoPast] x 4)%  del danno finale di questa Moneta"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Attiva [Combustion] sul bersaglio. Il bersaglio perde 1 Conteggio [Combustion]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Attiva [Laceration] sul bersaglio. Il bersaglio perde 1 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041508,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Lacera lo Spazio - Legame [空間斬 - 緣]",
+          "desc": "[CantDuel]\nQuesta Abilità non non attiva le Abilità Difensive del bersaglio\n[WhenUse] Ottiene 5 [Breath]\n[WhenUse] Ottiene [SojiRyoshuShin]\n[EndSkill] Rimuove la prima soglia di Stordimento di questa unità (una volta per Incontro)",
+          "flavor": "\"Imbalsamato e immobile giace il nemico nello squarcio che la lama ha aperto nello spazio\"\n\"Tale maestria con la lama è sovente di sì assoluta acutezza, che le sue vittime non sanno d'esser state recise; O, quand'anche ne avessero in modo contezza, restano inchiodate da una traccia di lama che ghermisce lo spazio che abitano, solo per sanguinare una volta trascorso l'istante\"\n\"Eppure... la differenza risiede nel modo in cui taglia\"\n\"La lama ha invero tracciato un unico solco, ma nel rinfoderarla colui che la impugna ha evocato nella propria mente la moltitudine di fendenti che hanno seguito la medesima traiettoria—una tecnica di somma precisione\"\n\"Uhm. Mi sono sovente imbattuto in tecniche simili nei giorni successivi all' incidente; tecniche che paiono contraddire la natura stessa della causalità\"",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Attiva [Combustion] sul bersaglio. Il bersaglio perde 1 Conteggio [Combustion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

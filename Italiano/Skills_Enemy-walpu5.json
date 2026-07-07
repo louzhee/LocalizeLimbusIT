@@ -1,0 +1,311 @@
+{
+  "dataList": [
+    {
+      "id": 9017801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Guida degli Ingranaggi",
+          "desc": "[WhenUse] Ottiene 2 [Smoke]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Smoke]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9017802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ingranaggio della Carne: Stop",
+          "desc": "[WhenUse] Ottiene 4 [Smoke] e +2 Conteggio [Smoke]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Smoke]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Paralysis] nel turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Smoke]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Paralysis] nel turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9017803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vapore",
+          "desc": "Potere Scontro +1 per ogni 3 [Smoke] sul bersaglio (max 2)\nInfligge +10% danni per ogni 3 [Smoke] su di sé (max 20%)\n[WhenUse] A 10 [Smoke], Potere Moneta +2\n[EndSkill] Consuma tutto il [Smoke] su di sé",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Smoke]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Riusa questa Moneta per ogni 3 [Smoke] sul bersaglio (max 3 volte)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9017804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ordine di Evasione",
+          "desc": "[OnSucceedEvade] Ottiene 3 [Smoke] e +1 Conteggio [Smoke]\n[OnSucceedEvade] A 10 [Smoke], ottiene 1 [ParryingResultUp] e 3 [Protection] nel turno successivo (una volta per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9017901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Guida degli Ingranaggi",
+          "desc": "[WhenUse] Ottiene 2 [Smoke]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Smoke]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9017902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ingranaggio della Carne: Presa",
+          "desc": "[WhenUse] Ottiene 4 [Smoke] e +2 Conteggio [Smoke]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Smoke]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Binding] nel turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Smoke]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Binding] nel turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9017903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ordine d'Assalto",
+          "desc": "Potere Scontro +1 per ogni 3 [Smoke] sul bersaglio (max 2)\nInfligge +10% danni per ogni 3 [Smoke] su di sé (max 20%)\n[WhenUse] A 10 [Smoke], Potere Moneta +2\n[EndSkill] Consuma tutto il [Smoke] su di sé",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Smoke]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Riusa questa Moneta per ogni 3 [Smoke] sul bersaglio (max 3 volte)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9017904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ordine di Evasione",
+          "desc": "[OnSucceedEvade] Ottiene 3 [Smoke] e +1 Conteggio [Smoke]\n[OnSucceedEvade] A 10 [Smoke], ottiene 1 [ParryingResultUp] e 3 [Protection] nel turno successivo (una volta per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9018001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ingranaggio della Carne: Comando",
+          "desc": "[WhenUse] Ottiene 3 [Smoke] e +2 Conteggio [Smoke]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Smoke] e +2 Conteggio [Smoke]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9018002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ingranaggio del Pensiero: Raccogli",
+          "desc": "[WhenUse] Ottiene 4 [Smoke] e +2 Conteggio [Smoke]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Smoke] e +2 Conteggio [Smoke]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Paralysis] nel turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9018003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ingranaggio della Carne: Confina",
+          "desc": "Potere Moneta +1 per ogni 3 [Smoke] sul bersaglio\nInfligge +10% danni per ogni 3 [Smoke] su di sé\nConsuma 3 [Smoke] su di sé ogni volta che quest'Abilità Riusa una Moneta\n[WhenUse] A 10 [Smoke], Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Smoke]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Riusa questa Moneta per ogni 5 [Smoke] sul bersaglio (max 2 volte)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9018004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ingranaggio del Pensiero: Rimuovi",
+          "desc": "Potere Scontro +1 per ogni 3 [Smoke] sul bersaglio\nInfligge +20% danni per ogni 3 [Smoke] su di sé\n[WhenUse] A 10 [Smoke], Potere Moneta +2\n[EndSkill] Consuma tutto il [Smoke] su di sé",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Smoke]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Smoke]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Riusa questa Moneta per ogni 3 [Smoke] sul bersaglio (max 3 volte)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9018005,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ingranaggio del Pensiero: Vapore",
+          "desc": "[WhenUse] Ottiene 5 [Smoke] e +2 Conteggio [Smoke]\n[WhenUse] A 10 [Smoke], ottiene 2 [PlusCoinValueUp] e 3 [Protection] nel turno successivo (una volta per turno)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    }
+  ]
+}

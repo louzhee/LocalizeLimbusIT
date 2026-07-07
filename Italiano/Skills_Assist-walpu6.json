@@ -1,0 +1,183 @@
+{
+  "dataList": [
+    {
+      "id": 40000301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Con Amore!",
+          "desc": "[WhenUse] Potere Base +1 per ogni 5 ([Burst] + [Sinking]) sul bersaglio (max 2)\n[WhenUse] Ottiene +10 [PowerOfLoveAndJustice]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "In Nome della Giustizia!",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 7 ([Burst] + [Sinking]) sul bersaglio (max 2)\n[WhenUse] Ottiene +10 Conteggio [PowerOfLoveAndJustice]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 10+ ([Burst] + [Sinking]), infligge 1 [Binding] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Arcana Beats",
+          "desc": "Bersaglia principalmente 'Il Cavaliere della Disperazione'\nBersaglia come secondario l'alleato con più [ColdBlackTear]\n- Se non è presente, bersaglia come secondario l'alleato con i PV minori\nInfligge 0 danni e non attiva gli effetti di [Sinking] e [ColdBlackTear] contro gli alleati\n\n[WinDuel] Rimuove 1 [ColdBlackTear] dall'alleato bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio è un nemico, infligge 1 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio è un alleato, recupera 5 PV"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio è un nemico, infligge 1 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio è un alleato, recupera 5 PV"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio è un nemico, infligge 1 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio è un alleato, recupera 5 PV"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sembra che Io Debba Usare Questo Potere!",
+          "desc": "[StartBattle] Ottiene 1 [ChasingArcana]\n[StartBattle] Ottiene 50 Scudo\n[StartBattle] Ottiene 20 [Aggro] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000305,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Incantesimo - Arcana Beats",
+          "desc": "[StartBattle] Ottiene 50 Scudo\n[StartBattle] Ottiene 20 [Aggro] il turno successivo\n[EndBattle] Quando i PV dello Scudo sono a 0, si Ritira dalla Battaglia",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000306,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ARCANA BEATS",
+          "desc": "[CantDuel]\nNon infligge danno alla Spada di un Cavaliere Dimenticato\nTermina il turno quando colpisce i nemici con l'effetto [WornOutKnight]\n[EndBattle] Ottiene [UsedTooMuchPower]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Riduce i PV del bersaglio a (100 - ([CollapsedPride] Stack x 33))%"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000307,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ARCANA BEATS",
+          "desc": "[CantDuel]\nInfligge danno solo con gli Effetti della Moneta\nNon infligge danno alla Spada Spaccacuore, Spada Squarciacuore, e Spada Trafiggicuore\nTermina il turno quando colpisce i nemici con l'effetto [WornOutKnight] e con 600 o meno PV\n[EndBattle] Ottiene [UsedTooMuchPower]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge ([CollapsedPride] x 200) danni fissi"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000308,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sembra che Io Debba Usare Questo Potere!",
+          "desc": "[StartBattle] Ottiene 1 [ChasingArcanahard]\n[StartBattle] Ottiene 50 Scudo\n[StartBattle] Ottiene 20 [Aggro] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

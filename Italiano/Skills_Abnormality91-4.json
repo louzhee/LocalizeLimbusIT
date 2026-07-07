@@ -1,0 +1,149 @@
+{
+    "dataList": [
+        {
+            "id": 806301,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Distruzione Brutale",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 806302,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Colpo! Potente!",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge +4 Conteggio [Burst]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 806303,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Schiuma",
+                    "desc": "[CantIdentify]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge +5 Conteggio [Burst]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge +5 Conteggio [Burst]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 806304,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Colpo di Guscio!!!",
+                    "desc": "[CantIdentify]\nInfligge +20% danno per ogni 5 Conteggio [Burst] sul bersaglio",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 5 [Burst]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge +5 Conteggio [Burst]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 806305,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Crab Rave",
+                    "desc": "[CantIdentify] +20% danni per ogni 5 Conteggio [Burst] sul bersaglio\n[EndSkill] Se ci sono meno di 5 Granchi alleati in campo a fine turno, evoca 3 Granchi (Max 5)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 5 [Burst]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 806306,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Corazza Schiumosa",
+                    "desc": "[StartBattle] Quando colpito mentre ha Scudo, infligge 7 danni sull'attaccante e infligge 1 [Burst]",
+                    "coinlist": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 806307,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Foam Armor",
+                    "desc": "[StartBattle] Quando colpito mentre ha Scudo, infligge 7 danni sull'attaccante e infligge 1 [Burst]",
+                    "coinlist": [
+                        {}
+                    ]
+                }
+            ]
+        }
+    ]
+}

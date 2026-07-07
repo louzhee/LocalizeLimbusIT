@@ -1,0 +1,816 @@
+{
+  "dataList": [
+    {
+      "id": 2070511,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Festività",
+          "abName": "Sandolph",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Seleziona casualmente uno dei seguenti effetti: [Combustion], [Laceration], [Vibration], [Burst], o [Sinking]. Infligge 1 Potenza dell'effetto selezionato il turno successivo.\nRipete il processo (2 + (Rison-A Gola più alta)) volte (5 volte max)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Festività",
+          "abName": "Sandolph",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Seleziona casualmente uno dei seguenti effetti: [Combustion], [Laceration], [Vibration], [Burst], o [Sinking]. Infligge 1 Potenza dell'effetto selezionato il turno successivo.\nRipete il processo (2 + (Rison-A Gola più alta)) volte (5 volte max)"
+                },
+                {
+                  "desc": "[EnemyKill] Seleziona casualmente uno dei seguenti effetti: 1 Conteggio [Breath], 1 Conteggio [Charge], 1 [Agility], 1 [AttackUp], o 1 [DefenseUp]. Applica l'effetto selezionato a 2 alleati casuali il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Festività",
+          "abName": "Sandolph",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Seleziona casualmente uno dei seguenti effetti: [Combustion], [Laceration], [Vibration], [Burst], o [Sinking]. Infligge 1 Potenza dell'effetto selezionato il turno successivo.\nRipete il processo (2 + (Rison-A Gola più alta)) volte (7 times max)"
+                },
+                {
+                  "desc": "[EnemyKill] eleziona casualmente uno dei seguenti effetti: 2 Conteggio [Breath], 2 Conteggio [Charge], 2 [Agility], 2 [AttackUp], o 2 [DefenseUp]. Applica l'effetto selezionato a 2 alleati casuali il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2070521,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Festività",
+          "abName": "Sandolph",
+          "desc": "[CantIdentify]\nBersaglia l'unità con i PS maggiori\n[BeforeAttack] Il bersaglio perde 10 PS",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Seleziona casualmente uno dei seguenti effetti: [Combustion], [Laceration], [Vibration], [Burst], o [Sinking]. Infligge 1 Potenza dell'effetto selezionato il turno successivo.\nRipete il processo (2 + (Rison-A Gola più alta)) volte (7 times max)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Festività",
+          "abName": "Sandolph",
+          "desc": "[CantIdentify]\nBersaglia l'unità con i PS maggiori\n[BeforeAttack] Il bersaglio perde 10 PS",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Seleziona casualmente uno dei seguenti effetti: [Combustion], [Laceration], [Vibration], [Burst], o [Sinking]. Infligge 1 Potenza dell'effetto selezionato il turno successivo.\nRipete il processo (2 + (Rison-A Gola più alta)) volte (7 times max)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Festività",
+          "abName": "Sandolph",
+          "desc": "[CantIdentify]\nBersaglia l'unità con i PS maggiori\nSe i PS del bersaglio principale sono maggiori di 15, Portata Attacco +1\n[BeforeAttack] Il bersaglio perde 10 PS",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Seleziona casualmente uno dei seguenti effetti: [Combustion], [Laceration], [Vibration], [Burst], o [Sinking]. Infligge 1 Potenza dell'effetto selezionato il turno successivo.\nRipete il processo (2 + (Rison-A Gola più alta)) volte (7 times max)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2070611,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vincoli",
+          "abName": "Il Re Legato",
+          "desc": "[EndSkill] Per 3 turni, perde 10 PS a Fine Turno\n[EndSkill] Il turno successivo ottiene 20 [Binding], 1 [ForwardToTheKing], e 1 [Enhancement]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Vincoli",
+          "abName": "Il Re Legato",
+          "desc": "[EndSkill] Per 3 turni, perde 10 PS a Fine Turno\n[EndSkill] Il turno successivo ottiene 20 [Binding], 1 [ForwardToTheKing], e 1 [Enhancement]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Binding] next turn"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Vincoli",
+          "abName": "Il Re Legato",
+          "desc": "[EndSkill] Per 3 turni, perde 10 PS a Fine Turno\n[EndSkill] Il turno successivo ottiene 20 [Binding], 1 [ForwardToTheBoundKing], e 2 [Enhancement]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Binding] next turn"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2070621,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vincoli",
+          "abName": "Il Re Legato",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[EndSkill] Il turno successivo ottiene 20 [Binding], 1 [ForwardToTheKing], e 2 [Enhancement]\n[EndSkill] Il turno successivo applica 20 [Binding] e 3 [Enhancement] ad altri 2 alleati, in ordine di schieramento\n- Il numero di alleati che ottengono quest'effeto aumenta di (Rison. Tristezza o Superbia più alta - 2) (max 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Binding] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Vincoli",
+          "abName": "Il Re Legato",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[EndSkill] Il turno successivo ottiene 20 [Binding], 1 [ForwardToTheKing], e 2 [Enhancement]\n[EndSkill] Il turno successivo applica 20 [Binding], 3 [Enhancement], e 1 <style=\"highlight\">[AzureDamageUp]</style> ad altri 2 alleati, in ordine di schieramento\n- Il numero di alleati che ottengono quest'effeto aumenta di (Rison. Tristezza o Superbia più alta - 2) (max <style=\"highlight\">3</style>)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Binding] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Vincoli",
+          "abName": "Il Re Legato",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[EndSkill] Il turno successivo ottiene 20[Binding], 1 [ForwardToTheKing], e 3 [Enhancement]\n[EndSkill] Il turno successivo applica 20 [Binding], 3 [Enhancement], e <style=\"highlight\">2</style> [AzureDamageUp] ad altri 2 alleati, in ordine di schieramento\n- l numero di alleati che ottengono quest'effeto aumenta di (Rison. Tristezza o Superbia più alta - 2) (max <style=\"highlight\">4</style>)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Binding] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2070711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Proiettile Crudele",
+          "abName": "Der Fluchschütze",
+          "desc": "[BeforeAttack] Ottiene (Rison. più alta + 1) [BoseProjektil] (max 7)\n- Se la Rison. era Assoluta, ottiene invece (Rison. più alta +2) [BoseProjektil]\n[BeforeAttack] Ottiene 1 [Breath] per ogni [BoseProjektil] (max 3)\n[EndSkill] Perde ogni [BoseProjektil]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "+5% danni sul Colpo Critico per ogni [BoseProjektil] (max 35%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 3 [Sinking]"
+                },
+                {
+                  "desc": "[CriticalTargetKill] Se quest'unità ha l'effetto [Bullet], ottiene 1 [Bullet] (2 volte per Incontro)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Proiettile Crudele",
+          "abName": "Der Fluchschütze",
+          "desc": "[BeforeAttack] Ottiene (Rison. più alta + 1) [BoseProjektil] (max 7)\n- Se la Rison. era Assoluta, ottiene invece (Rison. più alta +2) [BoseProjektil]\n[BeforeAttack] Ottiene 1 [Breath] per ogni [BoseProjektil] (max <style=\"highlight\">4</style>)\n[EndSkill] Perde ogni [BoseProjektil]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "+<style=\"highlight\">10</style>% danni sul Colpo Critico per ogni [BoseProjektil] (max <style=\"highlight\">70</style>%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 3 [Sinking]"
+                },
+                {
+                  "desc": "[CriticalTargetKill] Se quest'unità ha l'effetto [Bullet], ottiene 1 [Bullet] (2 volte per Incontro)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Proiettile Crudele",
+          "abName": "Der Fluchschütze",
+          "desc": "[BeforeAttack] Ottiene (Rison. più alta + 1) [BoseProjektil] (max 7)\n- Se la Rison. era Assoluta, ottiene invece (Rison. più alta +2) [BoseProjektil]\n[BeforeAttack] Ottiene 1 [Breath] per ogni [BoseProjektil] (max <style=\"highlight\">7</style>)\n[BeforeAttack] Ottiene +1 Conteggio [Breath]\n[EndSkill] Perde ogni [BoseProjektil]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "+<style=\"highlight\">15</style>% danni sul Colpo Critico per ogni [BoseProjektil] (max <style=\"highlight\">105</style>%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 3 [Sinking]"
+                },
+                {
+                  "desc": "[CriticalTargetKill] Se quest'unità ha l'effetto [Bullet], ottiene 1 [Bullet] (3 volte per Incontro)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2070721,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Proiettile Crudele",
+          "abName": "Der Fluchschütze",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene (Rison. più alta + 1) [BoseProjektil] (max 7)\n- Se la Rison. era Assoluta, ottiene invece (Rison. più alta + 2) [BoseProjektil]\n[BeforeAttack] Infligge +2% danni per ogni [BoseProjektil] (max 14%)\n[BeforeAttack] Ottiene 1 [Breath] per ogni [BoseProjektil] (max 3)\n[BeforeAttack] Infligge +3% danni per ogni 5 [Breath] su sé (max 15%)\n[BeforeAttack] Consuma 5 [Breath] su sé\n[EndSkill] Perde ogni [BoseProjektil]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration] e 2 [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Proiettile Crudele",
+          "abName": "Der Fluchschütze",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene (Rison. più alta + 1) [BoseProjektil] (max 7)\n- Se la Rison. era Assoluta, ottiene invece (Rison. più alta + 2) [BoseProjektil]\n<style=\"highlight\">[BeforeAttack] A 3+ [BoseProjektil], ottiene 1 Portata Attacco</style>\n[BeforeAttack] Infligge +2% danni per ogni [BoseProjektil] (max 14%)\n[BeforeAttack] Ottiene 1 [Breath] per ogni [BoseProjektil] (max <style=\"highlight\">4</style>)\n[BeforeAttack] Infligge +<style=\"highlight\">4</style>% danni per ogni 5 [Breath] su sé (max <style=\"highlight\">20</style>%)\n[BeforeAttack] Consuma 5 [Breath] su sé\n[EndSkill] Perde ogni [BoseProjektil]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration] e 3 [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Proiettile Crudele",
+          "abName": "Der Fluchschütze",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene (Rison. più alta + 1) [BoseProjektil] (max 7)\n- Se la Rison. era Assoluta, ottiene invece (Rison. più alta + 2) [BoseProjektil]\n[BeforeAttack] Ottiene 1 Portata Attacco per <style=\"highlight\">ogni 3 [BoseProjektil] (max 2)</style>\n[BeforeAttack] Infligge +<style=\"highlight\">3</style>% danni per ogni [BoseProjektil] (max <style=\"highlight\">21</style>%)\n[BeforeAttack] Ottiene 1 [Breath] per ogni [BoseProjektil] (max <style=\"highlight\">7</style>)\n[BeforeAttack] Infligge +<style=\"highlight\">5</style>% danni per ogni 5 [Breath] su sé (max <style=\"highlight\">25</style>%)\n[BeforeAttack] Consuma 5 [Breath] su sé\n[EndSkill] Perde ogni [BoseProjektil]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration] e 3 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2070811,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Inerzia Asimmetrica",
+          "abName": "Tempo-a-molla Sempreinpiedi",
+          "desc": "[BeforeAttack] Ottiene (Rison. più alta) Conteggio [Vibration] (max 6, 20 per turno)\n- Se la Rison. era Accidia, innesca [Switch_Vibration] su [Vibration] su sé in [VibrationSpring]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Infligge +2 Conteggio [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1\n- Quando innesca [VibrationExplosion], infligge 1 [AmberTakeDamageUp] in questo turno\n- Se la Rison. più alta era una 4+ Rison-A Accidia, infligge anche 1 [AmberTakeDamageUp] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Inerzia Asimmetrica",
+          "abName": "Tempo-a-molla Sempreinpiedi",
+          "desc": "[BeforeAttack] Ottiene (<style=\"highlight\">2 +</style> Rison. più alta) Conteggio [Vibration] (max <style=\"highlight\">8</style>, 20 per turno)\n- Se la Rison. più alta era Rison. Accidia, innesca [Switch_Vibration] su [Vibration] su sé in [VibrationSpring]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 4 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Infligge +2 Conteggio [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1\n- Quando innesca [VibrationExplosion], infligge 1 [AmberTakeDamageUp] in questo turno\n- Se la Rison. più alta era <style=\"highlight\">Rison-A Accidia</style>, infligge anche 1 [AmberTakeDamageUp] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Inerzia Asimmetrica",
+          "abName": "Tempo-a-molla Sempreinpiedi",
+          "desc": "[BeforeAttack] Ottiene (<style=\"highlight\">4 +</style> Rison. più alta) Conteggio [Vibration] (max 8, 20 per turno)\n- Se la Rison. più alta era Rison. Accidia, innesca [Switch_Vibration] su [Vibration] su sé in [VibrationSpring]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 5 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Infligge +3 Conteggio [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1\n- Quando innesca [VibrationExplosion], infligge 1 [AmberTakeDamageUp] in questo turno\n- Se la Rison. più alta era <style=\"highlight\">3+ Rison-A Accidia</style>, infligge anche 1 [AmberTakeDamageUp] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2070821,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Inerzia Asimmetrica",
+          "abName": "Tempo-a-molla Sempreinpiedi",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene (2 + Rison. più alta) Conteggio [Vibration] (max 8, 20 per turno)\n- Se la Rison. più alta era Rison. Accidia, innesca [Switch_Vibration] su [Vibration] su sé in [VibrationSpring]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 4 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Infligge +2 Conteggio [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1\n- Quando innesca [VibrationExplosion], infligge 2 [AmberTakeDamageUp] in questo turno\n- Se la Rison. più alta era 4+ Rison-A Accidia, infligge anche 2 [AmberTakeDamageUp] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Inerzia Asimmetrica",
+          "abName": "Tempo-a-molla Sempreinpiedi",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene (<style=\"highlight\">4 +</style> Rison. più alta) Conteggio [Vibration] (max 8, 20 per turno)\n- Se la Rison. più alta era Rison. Accidia, innesca [Switch_Vibration] su [Vibration] su sé in [VibrationSpring]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 5 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Infligge +3 Conteggio [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1\n- Quando innesca [VibrationExplosion], infligge 2 [AmberTakeDamageUp] in questo turno\n- Se la Rison. più alta era <style=\"highlight\">Rison-A Accidia</style>, infligge anche 2 [AmberTakeDamageUp] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Inerzia Asimmetrica",
+          "abName": "Tempo-a-molla Sempreinpiedi",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene (4 + Rison. più alta) Conteggio [Vibration] (max <style=\"highlight\">10</style>, 20 per turn)\n- Se la Rison. più alta era Rison. Accidia, innesca [Switch_Vibration] su [Vibration] su sé in [VibrationSpring]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 6 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Infligge +4 Conteggio [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1\n- Quando innesca [VibrationExplosion], infligge 2 [AmberTakeDamageUp] in questo turno\n- Se la Rison. più alta era <style=\"highlight\">3+ Rison. Accidia</style>, infligge anche 2 [AmberTakeDamageUp] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2070911,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Registro Trasloco",
+          "abName": "Kqe-1j-23",
+          "desc": "[BeforeAttack] Ottiene +(Rison. più alta + 1) Conteggio [Charge] (max 7)\n- A 4+ Rison. Invidia, ottiene invece +7 Conteggio [Charge]\n[BeforeAttack] Consuma tutto il Conteggio [Charge] su di sé. Infligge +2% danni per ogni Conteggio [Charge] consumato (max 30%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Binding] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [IDMicroChip]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +1~2 Conteggio [Charge]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Registro Trasloco",
+          "abName": "Kqe-1j-23",
+          "desc": "[BeforeAttack] Ottiene +(Rison. più alta + 1) Conteggio [Charge] (max 7)\n- A 4+ Rison. Invidia, ottiene invece +7 Conteggio [Charge]\n[BeforeAttack] Consuma tutto il Conteggio [Charge] su di sé. Infligge +3% danni per ogni Conteggio [Charge] consumato (max 45%)\n<style=\"highlight\">- Se questo consuma 5+ Conteggio [Charge], Potere Base +1</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Binding] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [IDMicroChip]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +1~2 Conteggio [Charge]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Registro Trasloco",
+          "abName": "Kqe-1j-23",
+          "desc": "<style=\"highlight\">Potere Moneta +1 per ogni 6 [Combustion] sul bersaglio principale (max 3)</style>\n[BeforeAttack] Ottiene +(Rison. più alta + 1) Conteggio [Charge] (max 7)\n- A 4+ Rison. Invidia, ottiene invece +7 Conteggio [Charge]\n[BeforeAttack] Consuma tutto il Conteggio [Charge] su di sé. Infligge +3% danni per ogni Conteggio [Charge] consumato (max 45%)\n- Se questo consuma 5+ Conteggio [Charge], Potere Base +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Binding] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [IDMicroChip]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +<style=\"highlight\">1~3</style> Conteggio [Charge]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2070921,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Registro Trasloco",
+          "abName": "Kqe-1j-23",
+          "desc": "[CantIdentify]\nDa' priorità ai bersagli con i PV maggiori\n[BeforeAttack] A meno di 10 Conteggio [Charge], si infligge 10% danni ai PV e ottiene +10 Conteggio [Charge]\n(questo effetto non uccide o Stordisce questa unità)\n[BeforeAttack] Ottiene +(Rison. più alta + 1) Conteggio [Charge] (max 8)\n- A 5+ Rison. Invidia, ottiene invece +8 Conteggio [Charge]\n[BeforeAttack] Consuma tutto il Conteggio [Charge] su di sé. Infligge +3% danni per ogni Conteggio [Charge] consumato (max 50%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Se il bersaglio ha [IDMicroChip], infligge +20% danni"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Binding] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [IDMicroChip]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +1~2 Conteggio [Charge]"
+                },
+                {
+                  "desc": "[EnemyKill] Ottiene +2 Conteggio [Charge]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Registro Trasloco",
+          "abName": "Kqe-1j-23",
+          "desc": "[CantIdentify]\nDa' priorità ai bersagli con i PV maggiori\n[BeforeAttack] A meno di 10 Conteggio [Charge], si infligge 10% danni ai PV e ottiene +10 Conteggio [Charge]\n(questo effetto non uccide o Stordisce questa unità)\n[BeforeAttack] Ottiene +(Rison. più alta + <style=\"highlight\">2</style>) Conteggio [Charge] (max 8)\n- A 5+ Rison. Invidia, ottiene invece +8 Conteggio [Charge]\n[BeforeAttack] Consuma tutto il Conteggio [Charge] su di sé. Infligge +3% danni per ogni Conteggio [Charge] consumato (max <style=\"highlight\">55</style>%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Se il bersaglio ha [IDMicroChip], infligge +20% danni"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Binding] next turn"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [IDMicroChip]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +1~2 Conteggio [Charge]"
+                },
+                {
+                  "desc": "[EnemyKill] Ottiene +2 Conteggio [Charge]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Registro Trasloco",
+          "abName": "Kqe-1j-23",
+          "desc": "[CantIdentify]\nDa' priorità ai bersagli con i PV maggiori\n<style=\"highlight\">Potere Moneta +1 per ogni 6 [Combustion] sul bersaglio principale (max 3)</style>\n[BeforeAttack] A meno di 10 Conteggio [Charge], si infligge 10% danni ai PV e ottiene +10 Conteggio [Charge]\n(questo effetto non uccide o Stordisce questa unità)\n[BeforeAttack] Ottiene +(Rison. più alta + <style=\"highlight\">3</style>) Conteggio [Charge] (max <style=\"highlight\">10</style>)\n- A 5+ Rison. Invidia, ottiene invece +<style=\"highlight\">10</style> Conteggio [Charge]\n[BeforeAttack] Consuma tutto il Conteggio [Charge] su di sé. Infligge +3% danni per ogni Conteggio [Charge] consumato (max <style=\"highlight\">60</style>%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Se il bersaglio ha [IDMicroChip], infligge +20% danni"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Binding] next turn"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [IDMicroChip]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +<style=\"highlight\">1~3</style> Conteggio [Charge]"
+                },
+                {
+                  "desc": "[EnemyKill] Ottiene +2 Conteggio [Charge]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "dataList": [
+    {
+      "id": 836301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Comprensione",
+          "desc": "Se il bersaglio ha 10 o meno PS, Potere Scontro +1\n[WhenUse] Ottiene 1 [VioletUnderstand]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [MentalCrack]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 836302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Percezione",
+          "desc": "Se il bersaglio ha 10 o meno PS, Potere Scontro +1\n[WhenUse] Ottiene 2 [VioletUnderstand]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [VioletTakeDamageUp]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [MentalCrack]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 836303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Salvezza",
+          "desc": "Se il bersaglio ha 10 o meno PS, Potere Scontro +1\n[WhenUse] Ottiene 1 [VioletUnderstand]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [VioletTakeDamageUp]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [MentalCrack]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 836304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ciò Che È Incomprensibile",
+          "desc": "[WhenUse] Ottiene 2 [VioletUnderstand]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 836305,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Decadimento",
+          "desc": "[CantDuel]\n[EndSkill] Muore",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [VioletTakeDamageUp] nel turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 10~14 danni ai PS"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 836601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Pietà",
+          "desc": "Se il bersaglio ha 20 o meno PS, Potere Scontro +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [VioletTakeDamageUp]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [MentalCrack]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 836602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Amore",
+          "desc": "Se il bersaglio ha 20 o meno PS, Potere Scontro +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [VioletTakeDamageUp]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [MentalCrack]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 836603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Glifi Della Comprensione Tremolanti",
+          "desc": "[CantDuel]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [MentalCrack]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [MentalCrack]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 836604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Glifi Della Comprensione Tremolanti",
+          "desc": "Se il bersaglio ha 20 o meno PS, Potere Scontro +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [VioletTakeDamageUp]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [MentalCrack]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 836605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ciò Che È Incomprensibile",
+          "desc": "[WhenUse] Ottiene 2 [Protection]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 836606,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Il Rapido Abbraccio della Morte",
+          "desc": "[CantDuel]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 100 danni"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

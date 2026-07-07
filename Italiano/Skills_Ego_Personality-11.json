@@ -1,0 +1,762 @@
+{
+  "dataList": [
+    {
+      "id": 2110511,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Festività",
+          "abName": "Sandolph",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                },
+                {
+                  "desc": "[EndSkill] Applica 1 [AttackDmgUp] all'Affinità con la Risonanza più alta a 2 alleati con i PS minori"
+                },
+                {
+                  "desc": "[EndSkill] Cura 20 PS a 2 alleati con i PS minori"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Festività",
+          "abName": "Sandolph",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                },
+                {
+                  "desc": "[EndSkill] Applica 1 [AttackDmgUp] all'Affinità con la Risonanza più alta a 3 alleati con i PS minori"
+                },
+                {
+                  "desc": "[EndSkill]  Cura 20 PS a 3 alleati con i PS minori"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Festività",
+          "abName": "Sandolph",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                },
+                {
+                  "desc": "[EndSkill] Applica 1 [AttackDmgUp] all'Affinità con la Risonanza più alta a 4 alleati con i PS minori"
+                },
+                {
+                  "desc": "[EndSkill] Cura 20 PS a 4 alleati con i PS minori"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2110521,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Festività",
+          "abName": "Sandolph",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Quest'unità perde il 10% dei suoi PV",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Il bersaglio perde 10 PS"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Infligge 1 Fragilità all'Affinità con la Risonanza più alta"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Festività",
+          "abName": "Sandolph",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Quest'unità perde il 10% dei suoi PV",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Il bersaglio perde 10 PS"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Infligge 2 Fragilità all'Affinità con la Risonanza più alta"
+                },
+                {
+                  "desc": "[EndSkillTail] Ottiene 1 Danno Aumentato sull'Affinità con la Risonanza più alta"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Festività",
+          "abName": "Sandolph",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Quest'unità perde il 10% dei suoi PV",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Il bersaglio perde 10 PS"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 Fragilità all'Affinità con la Risonanza più alta"
+                },
+                {
+                  "desc": "[EndSkillTail] Ottiene 1 Danno Aumentato sull'Affinità con la Risonanza più alta"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2110611,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vincoli",
+          "abName": "Il Re Legato",
+          "desc": "[BeforeAttack] Ottiene (Rison. Superbia o Accidia più alta - 2) Portata Attacco (max 2)\n[EndSkill] Per 3 turni, perde 10 PS a Fine Turno",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [Switch_Vibration] a [VibrationCrack]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Vincoli",
+          "abName": "Il Re Legato",
+          "desc": "[BeforeAttack] Ottiene (Rison. Superbia o Accidia più alta - 2) Portata Attacco (max 2)\nLa Soglia di Stordimento aumentata da [VibrationExplosion] incrementa del 50%\n[EndSkill] Per 3 turni, perde 10 PS a Fine Turno",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [Switch_Vibration] a [VibrationCrack]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Vincoli",
+          "abName": "Il Re Legato",
+          "desc": "[BeforeAttack] Ottiene (Rison. Superbia o Accidia più alta - 2) Portata Attacco (max 2)\nLa Soglia di Stordimento aumentata da [VibrationExplosion] incrementa del 100%\n[EndSkill] Per 3 turni, perde 10 PS a Fine Turno",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 6 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [Switch_Vibration] a [VibrationCrack]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2110621,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vincoli",
+          "abName": "Il Re Legato",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene (Rison. Superbia o Accidia più alta - 2) Portata Attacco (max 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [Switch_Vibration] a [VibrationCrack]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Vincoli",
+          "abName": "Il Re Legato",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene (Rison. Superbia o Accidia più alta - 2) Portata Attacco (max 2)\nLa Soglia di Stordimento aumentata da [VibrationExplosion] incrementa del 50%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [Switch_Vibration] a [VibrationCrack]"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Innesca [VibrationExplosion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Vincoli",
+          "abName": "Il Re Legato",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene (Rison. Superbia o Accidia più alta - 2) Portata Attacco (max 2)\nLa Soglia di Stordimento aumentata da [VibrationExplosion] incrementa del 50%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 6 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [Switch_Vibration] into [VibrationCrack]"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Innesca [VibrationExplosion]"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Innesca [VibrationExplosion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2110711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Squartatore Dimensionale",
+          "abName": "Passeggero Disperso",
+          "desc": "[BeforeAttack] A 4+ Rison. più alta, ottiene +1 Portata Attacco\n[BeforeAttack] A meno di 10 Conteggio [Charge], consuma il 15% dei PV per ottenere +10 Conteggio [Charge] (questo danno non riduce i PV di quest'unità a 0; arrotondato per difetto)\n[BeforeAttack] Consuma fino a 40 Conteggio [Charge] ed infligge +1% danni per ogni Conteggio [Charge] consumato (max 10%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge ([Charge] - 1) [DimensionRift] (max 1)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Agility] e 1 [ChargeLoad] per ogni [Charge] il turno successivo (max 1 di ciascuno, per Abilità)"
+                },
+                {
+                  "desc": "[EnemyKill] Ottiene +2 Conteggio [Charge]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Squartatore Dimensionale",
+          "abName": "Passeggero Disperso",
+          "desc": "[BeforeAttack] A <style=\"highlight\">3</style>+ Rison. più alta, ottiene +1 Portata Attacco\n[BeforeAttack] A meno di 10 Conteggio [Charge], consuma il 15% dei PV per ottenere +10 Conteggio [Charge] (questo danno non riduce i PV di quest'unità a 0; arrotondato per difetto)\n[BeforeAttack] Consuma fino a 40 Conteggio [Charge] ed infligge +1% danni per ogni Conteggio [Charge] consumato (max <style=\"highlight\">20</style>%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge ([Charge] - 1) [DimensionRift] (max <style=\"highlight\">2</style>)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Agility] e 1 [ChargeLoad] per ogni [Charge] il turno successivo (max <style=\"highlight\">2</style> di ciascuno, per Abilità)"
+                },
+                {
+                  "desc": "[EnemyKill] Ottiene +2 Conteggio<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Squartatore Dimensionale",
+          "abName": "Passeggero Disperso",
+          "desc": "[BeforeAttack] Ottiene <style=\"highlight\">(Rison. più alta - 2)</style> Portata Attacco <style=\"highlight\">(max 2)</style>\n[BeforeAttack] A meno di 10 Conteggio [Charge], consuma il <style=\"highlight\">10</style>% dei PV per ottenere +10 Conteggio [Charge] (questo danno non riduce i PV di quest'unità a 0; arrotondato per difetto)\n[BeforeAttack] Consuma fino a 40 Conteggio [Charge] ed infligge +1% danni per ogni Conteggio [Charge] consumato (max <style=\"highlight\">30</style>%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge ([Charge] - 1) [DimensionRift] (max 2)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Agility] e 1 [ChargeLoad] per ogni [Charge] il turno successivo (max <style=\"highlight\">3</style> di ciascuno, per Abilità)"
+                },
+                {
+                  "desc": "[EnemyKill] Ottiene +2 Conteggio [Charge]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2110721,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Squartatore Dimensionale",
+          "abName": "Passeggero Disperso",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] A 4+ Rison. più alta, ottiene +1 Portata Attacco\n[BeforeAttack] A meno del Conteggio massimo di [Charge], consuma il (Conteggio [Charge] mancante x 1.5)% dei PV per ottenere il Conteggio [Charge] massimo (max Conteggio [Charge] ottenibile da quest'effetto: 30. Questo danno non riduce i PV di quest'unità a 0; arrotondato per difetto)\n[BeforeAttack] Consuma fino a 40 Conteggio [Charge] ed infligge +2% danni per ogni Conteggio [Charge] consumato (max 20%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge ([Charge] - 1) [DimensionRift] (max 2)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Agility] e 1 [ChargeLoad] per ogni [Charge] il turno successivo (max 2 di ciascuno, per Abilità)"
+                },
+                {
+                  "desc": "[EnemyKill] Ottiene +2 Conteggio [Charge]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Squartatore Dimensionale",
+          "abName": "Passeggero Disperso",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] A 4+ Rison. più alta, ottiene +1 Portata Attacco\n[BeforeAttack] A meno del Conteggio massimo di [Charge], consuma il (Conteggio [Charge] mancante <style=\"highlight\">1.2</style>)% dei PV per ottenere il Conteggio [Charge] massimo (max Conteggio [Charge] ottenibile da quest'effetto: 30. Questo danno non riduce i PV di quest'unità a 0; arrotondato per difetto)\n[BeforeAttack] Consuma fino a 40 Conteggio [Charge] ed infligge +2% danni per ogni Conteggio [Charge] consumato (max <style=\"highlight\">40</style>%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge ([Charge] - 1) [DimensionRift] (max 2)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Agility] e 1 [ChargeLoad] per ogni [Charge] il turno successivo (max 2 di ciascuno, per Abilità)"
+                },
+                {
+                  "desc": "[EnemyKill] Ottiene +2 Conteggio [Charge]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Squartatore Dimensionale",
+          "abName": "Passeggero Disperso",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] ottiene <style=\"highlight\">(Rison. più alta - 2)</style> Portata Attacco <style=\"highlight\">(max 2)</style>\n[BeforeAttack] A meno del Conteggio massimo di [Charge], consuma il <style=\"highlight\">(Conteggio [Charge] mancante)%</style> dei PV per ottenere il Conteggio [Charge] massimo (max Conteggio [Charge] ottenibile da quest'effetto: 30. Questo danno non riduce i PV di quest'unità a 0; arrotondato per difetto)\n[BeforeAttack] Consuma fino a 40 Conteggio [Charge] ed infligge +2% danni per ogni Conteggio [Charge] consumato (max <style=\"highlight\">60</style>%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge ([Charge] - 1) [DimensionRift] (max <style=\"highlight\">4</style>)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Agility] e 1 [ChargeLoad] per ogni [Charge] il turno successivo (max <style=\"highlight\">3</style> di ciascuno, per Abilità)"
+                },
+                {
+                  "desc": "[EnemyKill] Ottiene +2 Conteggio [Charge]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2110811,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Proiettile Magico",
+          "abName": "Der Freischütz",
+          "desc": "Infligge +1% danni per ogni 3 [Combustion] sul bersaglio (max 10%)\n[BeforeAttack] A 0 [FreischutzShotCount], ottiene 1 [FreischutzShotCount].\n- Il valore di [FreischutzShotCount] determina la pallottola che verrà sparata.\n· [FreishutzOutisEgoBullet_1st]\n· [FreishutzOutisEgoBullet_2nd]\n· [FreishutzOutisEgoBullet_3rd]\n· [FreishutzOutisEgoBullet_4th]\n· [FreishutzOutisEgoBullet_5th]\n· [FreishutzOutisEgoBullet_6th]\n· [FreishutzOutisEgoBullet_7th]\n[EndSkill] Ottiene [FreischutzShotCount] pari alla Rison. più alta (min. 1, max 4)\n[EndSkill] Se il bersaglio principale viene sconfitto, infligge 2 [DarkFlame] a tutti i nemici con [Combustion]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge [Combustion] pari a [FreischutzShotCount]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge [DarkFlame] pari a [FreischutzShotCount] (1 volta per turno per ogni unità)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Proiettile Magico",
+          "abName": "Der Freischütz",
+          "desc": "Infligge +<style=\"highlight\">2</style>% danni per ogni 3 [Combustion] sul bersaglio (max <style=\"highlight\">20</style>%)\n[BeforeAttack] A 0 [FreischutzShotCount], ottiene 1 [FreischutzShotCount].\n- Il valore di [FreischutzShotCount] determina la pallottola che verrà sparata.\n· [FreishutzOutisEgoBullet_1st]\n· [FreishutzOutisEgoBullet_2nd]\n· [FreishutzOutisEgoBullet_3rd]\n· [FreishutzOutisEgoBullet_4th]\n· [FreishutzOutisEgoBullet_5th]\n· [FreishutzOutisEgoBullet_6th]\n· [FreishutzOutisEgoBullet_7th]\n[EndSkill] Ottiene [FreischutzShotCount] pari alla Rison. più alta (min. 1, max 4)\n[EndSkill] Se il bersaglio principale viene sconfitto, infligge <style=\"highlight\">3</style> [DarkFlame] a tutti i nemici con [Combustion]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge [Combustion] pari a [FreischutzShotCount]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge [DarkFlame] pari a [FreischutzShotCount] (1 volta per turno per ogni unità)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Proiettile Magico",
+          "abName": "Der Freischütz",
+          "desc": "Infligge +<style=\"highlight\">3</style>% danni per ogni 3 [Combustion] sul bersaglio (max <style=\"highlight\">30</style>%)\n[BeforeAttack] A 0 [FreischutzShotCount], ottiene 1 [FreischutzShotCount].\n- Il valore di [FreischutzShotCount] determina la pallottola che verrà sparata.\n· [FreishutzOutisEgoBullet_1st]\n· [FreishutzOutisEgoBullet_2nd]\n· [FreishutzOutisEgoBullet_3rd]\n· [FreishutzOutisEgoBullet_4th]\n· [FreishutzOutisEgoBullet_5th]\n· [FreishutzOutisEgoBullet_6th]\n· [FreishutzOutisEgoBullet_7th]\n[EndSkill] Ottiene [FreischutzShotCount] pari alla Rison. più alta (min. 1, max 4)\n[EndSkill] Se il bersaglio principale viene sconfitto, infligge <style=\"highlight\">4</style> [DarkFlame] a tutti i nemici con [Combustion]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge [Combustion] pari a [FreischutzShotCount]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge [DarkFlame] pari a [FreischutzShotCount] (1 volta per turno per ogni unità)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2110821,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Proiettile Magico",
+          "abName": "Der Freischütz",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nInfligge +1% danni per ogni 3 [Combustion] sul bersaglio (max 10%)\n[BeforeAttack] A 0 [FreischutzShotCount], ottiene 1 [FreischutzShotCount].\n- Il valore di [FreischutzShotCount] determina la pallottola che verrà sparata.\n· [FreishutzOutisEgoBullet_1st]\n· [FreishutzOutisEgoBullet_2nd]\n· [FreishutzOutisEgoBullet_3rd]\n· [FreishutzOutisEgoBullet_4th]\n· [FreishutzOutisEgoBullet_5th]\n· [FreishutzOutisEgoBullet_6th]\n· [FreishutzOutisEgoBullet_7th]\n[EndSkill] Ottiene [FreischutzShotCount] pari alla Rison. più alta (min. 1, max 4)\n[EndSkill] Se il bersaglio principale viene sconfitto, infligge 3 [DarkFlame] a tutti i nemici con [Combustion]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge [Combustion] pari a [FreischutzShotCount]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge [DarkFlame] pari a [FreischutzShotCount] (1 volta per turno per ogni unità)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Proiettile Magico",
+          "abName": "Der Freischütz",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nInfligge +<style=\"highlight\">2</style>% danni per ogni 3 [Combustion] sul bersaglio (max <style=\"highlight\">20</style>%)\n[BeforeAttack] A 0 [FreischutzShotCount], ottiene 1 [FreischutzShotCount].\n- Il valore di [FreischutzShotCount] determina la pallottola che verrà sparata.\n· [FreishutzOutisEgoBullet_1st]\n· [FreishutzOutisEgoBullet_2nd]\n· [FreishutzOutisEgoBullet_3rd]\n· [FreishutzOutisEgoBullet_4th]\n· [FreishutzOutisEgoBullet_5th]\n· [FreishutzOutisEgoBullet_6th]\n· [FreishutzOutisEgoBullet_7th]\n[EndSkill] Ottiene [FreischutzShotCount] pari alla Rison. più alta (min. 1, max 4)\n[EndSkill] Se il bersaglio principale viene sconfitto, infligge <style=\"highlight\">5</style> [DarkFlame] a tutti i nemici con [Combustion]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge [Combustion] pari a [FreischutzShotCount]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +([FreischutzShotCount] / 3) Conteggio [Combustion] (arrotondato per difetto)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge [DarkFlame] pari a [FreischutzShotCount] (1 volta per turno per ogni unità)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Proiettile Magico",
+          "abName": "Der Freischütz",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nInflige +<style=\"highlight\">3</style>% danni per ogni 3 [Combustion] sul bersaglio (max <style=\"highlight\">30</style>%)\n[BeforeAttack] A 0 [FreischutzShotCount], ottiene 1 [FreischutzShotCount].\n- Il valore di [FreischutzShotCount] determina la pallottola che verrà sparata.\n· [FreishutzOutisEgoBullet_1st]\n· [FreishutzOutisEgoBullet_2nd]\n· [FreishutzOutisEgoBullet_3rd]\n· [FreishutzOutisEgoBullet_4th]\n· [FreishutzOutisEgoBullet_5th]\n· [FreishutzOutisEgoBullet_6th]\n· [FreishutzOutisEgoBullet_7th]\n[EndSkill] Ottiene [FreischutzShotCount] pari alla Rison. più alta (min. 1, max 4)\n[EndSkill] Se il bersaglio principale viene sconfitto, infligge <style=\"highlight\">7</style> [DarkFlame] a tutti i nemici con [Combustion]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge [Combustion] pari a [FreischutzShotCount]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +([FreischutzShotCount] / <style=\"highlight\">2</style>) Conteggio [Combustion] (arrotondato per difetto)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge [DarkFlame] pari a [FreischutzShotCount] (1 volta per turno per ogni unità)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2110911,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tirerò Forbici. E Tu?",
+          "abName": "Giocherai?",
+          "desc": "Su Attacco Incontrastato: Non attiva gli effetti [UnBrokenCoinOnSucceedAttack] di questa Abilità\n[WinDuel] Consuma risorse E.G.O Invidia pari alla Rison. Invidia e, per ogni risorsa E.G.O Invidia consumata, ottiene 1 risorsa E.G.O per ognuna delle Affinità possedute in quantità minore (risorse Invidia consumabili al max: 4)\n[DefeatDuel] Potere Finale -4 e ottiene Scudo pari a (Rison. Invidia x 5) (max 20)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Cura 2 alleati con la percentuale di PV minore per il 6% dei loro PV max (una volta per Abilità)\n- Ignora gli alleati senza Abilità Attacco Base Invidia quando sceglie i bersagli della cura (questa unità esclusa)",
+                  "summary": "[UnBrokenCoinOnSucceedAttack] Cura PV"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [NiddleEGO]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [NailPersonality]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Tirerò Forbici. E Tu?",
+          "abName": "Giocherai?",
+          "desc": "Su Attacco Incontrastato: Non attiva gli effetti [UnBrokenCoinOnSucceedAttack] di questa Abilità\n[WinDuel] Consuma risorse E.G.O Invidia pari alla Rison. Invidia e, per ogni risorsa E.G.O Invidia consumata, ottiene 1 risorsa E.G.O per ognuna delle Affinità possedute in quantità minore (risorse Invidia consumabili al max: 5)\n[DefeatDuel] Potere Finale -4 e ottiene Scudo pari a (Rison. Invidia x 5) (max 25)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Cura 2 alleati con la percentuale di PV minore per l'8% dei loro PV max (una volta per Abilità)\n- Ignora gli alleati senza Abilità Attacco Base Invidia quando sceglie i bersagli della cura (questa unità esclusa)",
+                  "summary": "[UnBrokenCoinOnSucceedAttack] Cura PV"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [NiddleEGO]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Curse]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [NailPersonality]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Tirerò Forbici. E Tu?",
+          "abName": "Giocherai?",
+          "desc": "Su Attacco Incontrastato: Non attiva gli effetti [UnBrokenCoinOnSucceedAttack] di questa Abilità\n[WinDuel] Consuma risorse E.G.O Invidia pari alla Rison. Invidia e, per ogni risorsa E.G.O Invidia consumata, ottiene 1 risorsa E.G.O per ognuna delle Affinità possedute in quantità minore (risorse Invidia consumabili al max: 6)\n[DefeatDuel] Potere Finale -4 e ottiene Scudo pari a (Rison. Invidia x 5) (max 30)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Cura 2 alleati con la percentuale di PV minore per il 10% dei loro PV max (una volta per Abilità)\n- Ignora gli alleati senza Abilità Attacco Base Invidia quando sceglie i bersagli della cura (questa unità esclusa)",
+                  "summary": "[UnBrokenCoinOnSucceedAttack] Cura PV"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [NiddleEGO]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Curse]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [NailPersonality]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2110921,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tirerò Forbici. E Tu?",
+          "abName": "Giocherai?",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nA 2+ Rison. Invidia, Potere Finale +1\n[WinDuel] Portata Attacco +1 per ogni 2 Rison. Invidia (max 2)\n[DefeatDuel] Ottiene Scudo pari a (Rison. Invidia x 5) (max 20)\n[DefeatDuel] Questa Abilità infligge +1 [NiddleEGO] e [NailPersonality] in più",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [NiddleEGO]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [NailPersonality]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Tirerò Forbici. E Tu?",
+          "abName": "Giocherai?",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n<style=\"highlight\">Potere Finale +1 per ogni 2 Rison. Invidia (max 2)</style>\n[WinDuel] Portata Attacco +1 per ogni 2 Rison. Invidia (max 2)\n[DefeatDuel] Ottiene Scudo pari a (Rison. Invidia x 5) (max <style=\"highlight\">25</style>)\n[DefeatDuel] Questa Abilità infligge +1 [NiddleEGO], <style=\"highlight\">[Curse]</style>, e [NailPersonality] in più",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [NiddleEGO]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Curse]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [NailPersonality]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Tirerò Forbici. E Tu?",
+          "abName": "Giocherai?",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nPotere Finale +1 per ogni (max <style=\"highlight\">3</style>) Rison. Invidia\n[WinDuel] Portata Attacco +1 per ogni 2 Rison. Invidia (max 2)\n[DefeatDuel] Ottiene Scudo pari a (Rison. Invidia x 5) (max <style=\"highlight\">30</style>)\n[DefeatDuel] Questa Abilità infligge +1 [NiddleEGO], [Curse], e [NailPersonality] in più<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [NiddleEGO]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Curse]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [NailPersonality]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

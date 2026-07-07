@@ -1,0 +1,1804 @@
+{
+  "dataList": [
+    {
+      "id": 956301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Battito Devastante",
+          "desc": "[WhenUse]\n- Potere Scontro +1 per ogni 8 ([Combustion] + [Laceration]) sul bersaglio (max 3)\n- Infligge +5% danni per ogni 6 [Breath] su di sé (max 20%)\n- Ottiene 2 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Polverizzazione",
+          "desc": "[WhenUse]\n- Potere Scontro +1 per ogni 8 ([Combustion] + [Laceration]) sul bersaglio (max 3)\n- Infligge +5% danni per ogni 6 [Breath] su di sé (max 20%)\n- Ottiene +2 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Movimenti",
+          "desc": "[CantDuel], [CantChangeTarget]\nQuesto attacco non infligge danni\n[WhenUse] Non subisce danni in questo turno\n[EndSkill] Termina l'incontro",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vita Intrecciata - Regressione",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Il Tipo e l'Affinità dell'Attacco che ha Scontrato quest'Abilità</u></b></mark></color> avrà effetto sul Passato Incombente\n- Ogni nemico della Sezione 2 ottiene [HeatedWingScalesExplain]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956305,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vita Intrecciata - Manifestazione",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Il Tipo e l'Affinità dell'Attacco che ha Scontrato quest'Abilità</u></b></mark></color> avrà effetto sul Presente Incombente\n- Ogni nemico della Sezione 3 ottiene [TransparentWingScalesExplain]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956306,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vita Intrecciata - Avvento",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Il Tipo e l'Affinità dell'Attacco che ha Scontrato quest'Abilità</u></b></mark></color> avrà effetto sul Futuro Incombente\n- Ogni nemico della Sezione 4 ottiene [RustedWingScalesExplain]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Schiusa",
+          "desc": "[CantDuel][CantChangeTarget]\nQuesto attacco non infligge danni\n[EndSkill] Termina l'Incontro\n- Se lo Scudo viene rotto, passa al turno successivo e <color=#ff6000><mark=#ff000040><b><u>inizia un Evento a Scelta speciale</u></b></mark></color> prima di terminare l'incontro",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Schiusa",
+          "desc": "[CantDuel][CantChangeTarget]\nQuesto attacco non infligge danni\n[EndSkill] Termina l'Incontro\n- Se lo Scudo viene rotto, passa al turno successivo e <color=#ff6000><mark=#ff000040><b><u>inizia un Evento a Scelta speciale</u></b></mark></color> prima di terminare l'incontro",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Schiusa",
+          "desc": "[CantDuel][CantChangeTarget]\nQuesto attacco non infligge danni\n[EndSkill] Termina l'Incontro\n- Se lo Scudo viene rotto, passa al turno successivo e <color=#ff6000><mark=#ff000040><b><u>inizia un Evento a Scelta speciale</u></b></mark></color> prima di terminare l'incontro",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Battito Devastante",
+          "desc": "[WhenUse]\n- Potere Scontro +1 per ogni 8 ([Combustion] + [Laceration]) sul bersaglio (max 3)\n- Infligge +10% danni per ogni 8 [Breath] su di sP (max 30%)\n- Ottiene 2 [Breath]\n- A meno di 66% PV, converte l'ultima Moneta in [SuperCoin]\n- A meno di 33% PV, converte ogni Moneta in [SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Polverizzazione",
+          "desc": "[WhenUse]\n- Potere Scontro +1 per ogni 8 ([Combustion] + [Laceration]) sul bersaglio (max 3)\n- Infligge +10% danni per ogni 8 [Breath] su di sé (max 30%)\n- Ottiene +2 Conteggio [Breath]\n- A meno di 66% PV, converte l'ultima Moneta in [SuperCoin]\n- A meno di 33% PV, converte ogni Moneta in [SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Subbuglio Caotico",
+          "desc": "[WhenUse]\n- Potere Scontro +1 per ogni 6 ([Combustion] + [Laceration]) sul bersaglio (max 6)\n- Potere Scontro +1 per ogni 6 [Breath] su di sé (max 3)\n[DefeatDuel]\nOttiene <color=#ff6000><mark=#ff000040><b><u>2 [ResultReduction] e 2[AttackDmgDown]</u></b></mark></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Riusa questa Moneta per ogni 33% dei PV mancanti (max 2 volte)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Attizza e Infiamma",
+          "desc": "Ci si può Scontrare con quest'Abilità a prescindere dalla Velocità\n[WhenUse]\n- Potere Scontro +1 per ogni 6 [Combustion] sul bersaglio (max 6)\n- A meno di 66% PV, converte la seconda moneta in [SuperCoin]\n- A meno di 33% PV, converte ogni Moneta in [SuperCoin]\n[DefeatDuel] Non può Stordire il bersaglio fino alla fine di questo attacco",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion] e +1 Conteggio [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Attiva [Combustion] sul bersaglio once</u></b></mark></color>. Il bersaglio perde 1 Conteggio [Combustion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Immolazione",
+          "desc": "Ci si può Scontrare con quest'Abilità a prescindere dalla Velocità\n[WhenUse]\n- Potere Scontro +1 per ogni 6 [Combustion] sul bersaglio principale (max 6)\n- <color=#ff6000><mark=#ff000040><b><u>Infligge +([StackPastActivate] x 2)% danni</u></b></mark></color> (max 60%)\n- A meno di 66% PV, converte la seconda Moneta in [SuperCoin]\n- A meno di 33% PV, converte ogni Moneta in [SuperCoin]\n[DefeatDuel] Non può Stordire il bersaglio fino alla fine di questo attacco",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Attiva [Combustion] sul bersaglio 2 volte</u></b></mark></color>. Il bersaglio perde 2 Conteggio [Combustion]"
+                },
+                {
+                  "desc": "[DefeatDuelAttack]\n<color=#ff6000><mark=#ff000040><b><u>At less than 33% PV, attiva [Combustion] sul bersaglio principale</u></b></mark></color>. Il bersaglio perde 1 Conteggio [Combustion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956706,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Kalpāgni",
+          "desc": "Ci si può Scontrare con quest'Abilità a prescindere dalla Velocità\n[WhenUse]\n- Potere Finale +1 per ogni 6 [Combustion] sul bersaglio principale (max 6)\n- <color=#ff6000><mark=#ff000040><b><u>Infligge +([StackPastActivate] x 4)% danni</u></b></mark></color> (max 120%)\n[WinDuel] Ottiene 5 [StackPastActivate]\n[DefeatDuel]\n- Dimezza [StackPastActivate] (arrotondato per difetto)\n- Ottiene 2 [AttackDmgDown] e 4 [Paralysis]\n- Il bersaglio non può essere Stordito fino alla fine di questo attacco",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion] e +1 Conteggio [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion] e +1 Conteggio [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Attiva [Combustion] sul bersaglio una volta</u></b></mark></color>. Il bersaglio perde 1 Conteggio [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Attiva [Combustion] sul bersaglio 2 volte</u></b></mark></color>. Il bersaglio perde 2 Conteggio [Combustion]"
+                },
+                {
+                  "desc": "[DefeatDuelAttack]\n<color=#ff6000><mark=#ff000040><b><u>A meno di 33% PV, Attiva [Combustion] sul bersaglio una volta</u></b></mark></color>. Il bersaglio perde 1 Conteggio [Combustion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956707,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Anitya",
+          "desc": "Ci si può Scontrare con quest'Abilità a prescindere dalla Velocità\n[WhenUse]\n- Potere Scontro +1 e infligge +10% danni per ogni 6 [Breath] su di sé (max 6 e 60%)\n- A meno di 66% PV, converte la seconda moneta in [SuperCoin]\n- A meno di 33% PV, converte ogni Moneta in [SuperCoin]\n[BeforeAttack] Ottiene 2 [Breath] e +2 Conteggio [Breath]\n[DefeatDuel] Il bersaglio non può essere Stordito per questo attacco",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath] e +1 Conteggio [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Infligge ([Breath] su di sé / 2) danni da Superbia sul bersaglio</u></b></mark></color> e perde 1 Conteggio [Breath] (arrotondato per difetto)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956708,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Perforacieli",
+          "desc": "Ci si può Scontrare con quest'Abilità a prescindere dalla Velocità\n[WhenUse]\n- Potere Scontro +1 e infligge +10% danni per ogni 6 [Breath] su di sé (max 6 e 60%)\n- <color=#ff6000><mark=#ff000040><b><u>Infligge +([StackPresentActivate] x 2)% danni</u></b></mark></color> (max 60%)\n- A meno di 66% PV, converte la seconda Moneta in [SuperCoin]\n- A meno di 33% PV, converte ogni Moneta in [SuperCoin]\n[BeforeAttack] Ottiene 3 [Breath] e +2 Conteggio [Breath]\n[DefeatDuel] Non può Stordire il bersaglio fino alla fine di questo attacco",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Infligge +(Conteggio [Breath] su di sé)% danni</u></b></mark></color> (max 50%)"
+                },
+                {
+                  "desc": "[DefeatDuelAttack]\n<color=#ff6000><mark=#ff000040><b><u>A meno di 33% PV, infligge +(Conteggio [Breath] su di sé)% danni</u></b></mark></color> (max 30%)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Infligge +([Breath] su di sé x 2)% danni</u></b></mark></color> (max 100%)"
+                },
+                {
+                  "desc": "[DefeatDuelAttack]\n<color=#ff6000><mark=#ff000040><b><u>A meno di 33% PV, infligge +([Breath] su di sé)% danni</u></b></mark></color> (max 50%)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956709,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sconfiggi i Malvagi",
+          "desc": "Ci si può Scontrare con quest'Abilità a prescindere dalla Velocità\n[WhenUse]\n- Potere Finale +1 e infligge +20% danni per ogni 6 [Breath] su di sé (max 6 e 120%)\n- Ottiene 4 [Breath] e +4 Conteggio [Breath]\n- <color=#ff6000><mark=#ff000040><b><u>Infligge +([StackPresentActivate] x 4)% danni (max 120%)</u></b></mark></color>\n[BeforeAttack] Se quest'unità ha 20+ Potenza [Breath], consuma fino a 20 [Breath] oltre il 20 e infligge +([Breath] consumato x 5)% danni (max 100%)\n- A Scontro Perso, questo effetto non viene attivato\n[WinDuel] Ottiene 5 [StackPresentActivate]\n[DefeatDuel]\n- Dimezza [StackPresentActivate] (arrotondato pèer difetto)\n- Ottiene 2 [AttackDmgDown] e 1 [Paralysis]\n- Non Stordisce il bersaglio fino alla fine di questo attacco\n[EndSkill] Se il bersaglio è sconfitto, Riusa quest'Abilità sul bersaglio con più PV (una volta per turno)\n- A Scontro Perso, questo effetto non viene attivato",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "<color=#ff6000><mark=#ff000040><b><u>Se la resistenza Perforante del Bersaglio è più bassa di \"Debole\" (1.5), viene considerata come Debole (1.5)</u></b></mark></color>\n- A Scontro Perso, questo effetto non viene attivato"
+                },
+                {
+                  "desc": "[DefeatDuelAttack]\n<color=#ff6000><mark=#ff000040><b><u>Atmeno di 33% PV, infligge +(50% del danno inflitto da questa Moneta)% danni Perforanti bonus</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956710,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Distruzione Corrosiva",
+          "desc": "Ci si può Scontrare con quest'Abilità a prescindere dalla Velocità\n[WhenUse]\n- Potere Scontro +1 per ogni 6 [Laceration] sul bersaglio (max 6)\n- A meno di 66% PV, converte la seconda Moneta in [SuperCoin]\n- A meno di 33% PV, converte ogni Moneta in [SuperCoin]s\n[DefeatDuel] Non Stordisce il bersaglio fino alla fine di questo attacco",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration] e +1 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Attiva [Laceration] sul bersaglio una volta</u></b></mark></color>. Il bersaglio perde 1 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Distruzione Putrescente",
+          "desc": "Ci si può Scontrare con quest'Abilità a prescindere dalla Velocità\nDurante lo Scontro, <color=#ff6000><mark=#ff000040><b><u>il Conteggio [Laceration] del bersaglio non può scendere sotto 1</u></b></mark></color>\n[WhenUse]\n- Potere Scontro +1 per ogni 6 [Laceration] sul bersaglio principale (max 6)\n- Infligge +([StackFutureActivate] x 2)% danni (max 60%)\n- A meno di 66% PV, converte la seconda Moneta in [SuperCoin]\n- A meno di 33% PV, converte ogni Moneta in [SuperCoin]\n[DefeatDuel] Non Stordisce il bersaglio fino alla fine di questo attacco",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration] e +2 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Attiva [Laceration] sul bersaglio 2 volte</u></b></mark></color>. Il bersaglio perde 2 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[DefeatDuelAttack]\n<color=#ff6000><mark=#ff000040><b><u>A meno di 33% PV, attiva [Laceration] sul bersaglio principale una volta</u></b></mark></color>. Il bersaglio perde 1 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956712,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fiore Sanguineo",
+          "desc": "Ci si può Scontrare con quest'Abilità a prescindere dalla Velocità\nDurante lo scontro, <color=#ff6000><mark=#ff000040><b><u>il Conteggio [Laceration] del bersaglio non può scendere sotto 1</u></b></mark></color>\n[WhenUse]\n- Potere Finale +1 per ogni 6 [Laceration] sul bersaglio principale (max 6)\n- Infligge +([StackFutureActivate] x 4)% danni (max 120%)\n[WinDuel] Ottiene 5 [StackFutureActivate]\n[DefeatDuel]\n- Dimezza [StackFutureActivate] (arrotondato per difetto)\n- Ottiene 2 [AttackDmgDown] e 2 [Paralysis]\n- Non Stordisce il bersaglio fino alla fine di questo attacco",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration] e +2 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration] e +3 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Attiva [Laceration] sul bersaglio 2 times</u></b></mark></color>. Il bersaglio perde 2 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[DefeatDuelAttack]\n<color=#ff6000><mark=#ff000040><b><u>A meno di 33% PV, attiva [Laceration] sul bersaglio principale una volta</u></b></mark></color>. Il bersaglio perde 1 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Furia della Scaglia Achillea [逆鱗之禍]",
+          "desc": "Quest'Abilità si attiva solo se <color=#ff6000><mark=#ff000040><b><u>la Parte \"Scaglia Achillea\" è colpita come bersaglio principale</u></b></mark></color>\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Consuma ogni [YesdragonSelfRefraction]</u></b></mark></color> su di sé e riusa l'ultima Moneta (# di Stack consumati) volte (max 5 volte)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 danni ai PS"
+                },
+                {
+                  "desc": "[EnemyKill] Se uccide il bersaglio principale, quest'Abilità diventa una [WideAreaRampage]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Infligge danno solo al bersaglio principale. Se è una [WideAreaRampage], il danno è invece inflitto su ogni bersaglio"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lampo di Luce [閃雷]",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ruggito del Dragone [龍聲]",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Binding] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Aculeo Calante [落針]",
+          "desc": "[WhenUse] Potere Base +1 <color=#ff6000><mark=#ff000040><b><u>per ogni 2 [YesdragonSelfRefraction]</u></b></mark></color> su di sé\n[WhenUse] Se il bersaglio ha [Binding] o [Paralysis], Potere Base +2\n[WinDuel] <color=#ff6000><mark=#ff000040><b><u>Evoca \"Aculeo Tumula-Fiori\" nel turno successivo</u></b></mark></color>\n[DefeatDuel] Il bersaglio recupera 5 PS\n[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>\"Aculeo Tumula-Fiori\" non viene evocato</u></b></mark></color>, e la Testa subisce <color=#ff6000><mark=#ff000040><b><u>danni fissi</u></b></mark></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst] e +2 Conteggio [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956805,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Turbine Draconica [龍卷]",
+          "desc": "[WhenUse] Se il bersaglio ha [Binding] o [Paralysis], Potere Moneta +1\n[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Applica [YesdragonWind]</u></b></mark></color> sul bersaglio principale",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956806,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Raccogliere la Pioggia [積雨]",
+          "desc": "[WhenUse] Potere Base +1 <color=#ff6000><mark=#ff000040><b><u>per ogni [YesdragonSelfRefraction]</u></b></mark></color> su di sé\n[WhenUse] Se quest'unità ha <color=#ff6000><mark=#ff000040><b><u>5+ [YesdragonSelfRefraction]</u></b></mark></color>, Potere Moneta +1 e ottiene +1 Portata Attacco\n[DefeatDuel] Infligge -80% danni; Il danno inflitto da quest'Abilità non può Stordire il bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se quest'unità ha <color=#ff6000><mark=#ff000040><b><u>5+ [YesdragonSelfRefraction], Riusa questa Moneta</u></b></mark></color> (una volta per Abilità)"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +2 Conteggio [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956807,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Luce Battente [落雷]",
+          "desc": "[CantDuel][CantChangeTarget] \n<color=#ff6000><mark=#ff000040><b><u>Bersaglia \"Aculeo Tumula-Fiori\"</u></b></mark></color>\nSe \"Aculeo Tumula-Fiori\" è stato distrutto, quest'Abilità viene annullata",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Burst] e +3 Conteggio [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Possibilità del 50% di infliggere 1 [Paralysis] nel turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Cuneo Del Dragone [龍之櫼]",
+          "desc": "[CanDuelGuard]\n[StartBattle] <color=#ff6000><mark=#ff000040><b><u>Ottiene 1 [DragonLanceRefraction]</u></b></mark></color> il turno successivo\n[DefeatDuel] L'effetto precedente viene annullato. Ottiene 3 [Endurance] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Furia della Scaglia Achillea [逆鱗之禍]",
+          "desc": "[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Consuma ogni [YesdragonSelfRefraction]</u></b></mark></color> su di sé e riusa l'ultima Moneta (# di Stack consumati) volte (max 5 volte)\n[DefeatDuel] Infligge -50% danni; Il danno inflitto da quest'Abilità non può Stordire il bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 danni ai PS"
+                },
+                {
+                  "desc": "[EnemyKill] Se uccide il bersaglio principale, quest'Abilità diventa una [WideAreaRampage]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Infligge danno solo al bersaglio principale. Se è una [WideAreaRampage], il danno è invece inflitto su ogni bersaglio"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 1 [CondensedBloodRefraction]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lampo di Luce [閃雷]",
+          "desc": "[WhenUse] Se il bersaglio principale ha meno di 35 PS, Potere Base +1\n[DefeatDuel] Infligge -50% danni; Il danno inflitto da quest'Abilità non può Stordire il bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +1 Conteggio [CondensedBloodRefraction]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 1 [Paralysis] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ruggito del Dragone [龍聲]",
+          "desc": "[WhenUse] Se il bersaglio principale ha meno di 35 PS, Potere Base +1\n[DefeatDuel] Infligge -50% danni; Il danno inflitto da quest'Abilità non può Stordire il bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 5 danni ai PS"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +2 Conteggio [CondensedBloodRefraction]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956905,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Aculeo Calante [落針]",
+          "desc": "[WhenUse] Potere Base +1 <color=#ff6000><mark=#ff000040><b><u>per ogni 2 [YesdragonSelfRefraction]</u></b></mark></color> su di sé\n[WhenUse] Se il bersaglio ha [Binding] o [Paralysis], Potere Base +2\n[WhenUse] Se quest'unità ha <color=#ff6000><mark=#ff000040><b><u>5+ [YesdragonSelfRefraction]</u></b></mark></color>, Potere Moneta +1\n<color=#ff6000><mark=#ff000040><b><u>Evoca \"Aculeo Tumula-Fiori\" il turno successivo</u></b></mark></color>\n[DefeatDuel]<color=#ff6000><mark=#ff000040><b><u>\"Aculeo Tumula-Fiori\" non viene evocato</u></b></mark></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 danni ai PS"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst] +2 Conteggio [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956906,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Turbine Draconica [龍卷]",
+          "desc": "[WhenUse] Se il bersaglio ha [Binding] o [Paralysis], Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [CondensedBloodRefraction]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [CondensedBloodRefraction]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [CondensedBloodRefraction]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956907,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Raccogliere la Pioggia [積雨]",
+          "desc": "[WhenUse] Potere Base +1 <color=#ff6000><mark=#ff000040><b><u>per ogni [YesdragonSelfRefraction]</u></b></mark></color> su di sé\n[WhenUse] Se quest'unità ha <color=#ff6000><mark=#ff000040><b><u>5+ [YesdragonSelfRefraction]</u></b></mark></color>, Potere Moneta +1 e ottiene +1 Portata Attacco\n[DefeatDuel] Infligge -80% danni; Il danno inflitto da quest'Abilità non può Stordire il bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 danni ai PS"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [Burst]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +2 Conteggio [CondensedBloodRefraction]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se quest'unità ha <color=#ff6000><mark=#ff000040><b><u>5+ [YesdragonSelfRefraction], Riusa questa Moneta</u></b></mark></color> (una volta per Abilità)"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +2 [Burst] Count"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 2 [CondensedBloodRefraction]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956908,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Luce Battente [落雷]",
+          "desc": "[CantDuel][CantChangeTarget] \n<color=#ff6000><mark=#ff000040><b><u>Bersaglia \"Aculeo Tumula-Fiori\"</u></b></mark></color>\nSe \"Aculeo Tumula-Fiori\" è stato distrutto, quest'Abilità viene annullata",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Burst] e +3 Conteggio [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Possibilità del 50% di infliggere 1 [Paralysis] nel turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956909,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Marea Nata dalle Lacrime del Dragone [龍淚成濤]",
+          "desc": "Ci si può Scontrare con quest'Abilità a prescindere dalla velocità\n[WhenUse] Quest'unità non può essere Stordita fino alla fine di quest'Abilità\n[WhenUse] Potere Moneta e Portata Attacco +1 <color=#ff6000><mark=#ff000040><b><u>Per ogni [DragonLanceRefraction] su di sé</u></b></mark></color>\n- Se ha il massimo degli Stack di [DragonLanceRefraction], infligge +100% danni\n[DefeatDuel] Infligge -80% danni; Il danno inflitto da quest'Abilità non può Stordire il bersaglio\n[DefeatDuel] Ottiene 3 [Vulnerable] fino alla fine del turno successivo\n[EndSkillAll] Riduce [DragonLanceRefraction] a 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +2 Conteggio [CondensedBloodRefraction]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +2 Conteggio [CondensedBloodRefraction]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 2 [CondensedBloodRefraction]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 2 [CondensedBloodRefraction]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 2 [CondensedBloodRefraction]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 957001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Impalare il Sé, Espurga le impurità [自穿滅汚]",
+          "desc": "[CantDuel] [CantIdentify]\n[WhenUse] Se la Giada Cremisi ha 1 PV, <color=#ff6000><mark=#ff000040><b><u>quest'Abilità non infligge danno e non attiva gli effetti delle sue Monete</u></b></mark></color>\n[EndSkill] Muore",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +5 Conteggio [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 957101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Aculeo Porta-Spirito del Dragone",
+          "desc": "[CanDuelGuard]\n[WinDuel] Infligge 1 [Vulnerable]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955110,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Furioso (Replica)",
+          "desc": "[WideAreaRampage]\n<color=#ff6000><mark=#ff000040><b><u>Non attiva le Abilità Difensive</u></b></mark></color>\nCi si può Scontrare con quest'Abilità a prescindere dalla Velocità\n[WhenUse]\n- Ottiene 3 [Breath] e +3 Conteggio [Breath]\n- Potere Scontro +5 (<color=#ff6000><mark=#ff000040><b><u>il Potere Scontro ottenuto è ridotto di 1 per ogni 8 [KarmaOfIndexRien] su di sé, con un minimo di 0</u></b></mark></color>)\n[WhenUse] A 0+ PS, genera 1 Mang\n- Infligge +20% danni; Potere Finale +3\n[WinDuel]\n- Ottiene 3 [Breath] e +3 Conteggio [Breath]\n- A fine attacco, Infligge 3 [Laceration], 1 [Binding], e 1 [Vulnerable] il turno successivo su ogni bersaglio colpito da quest'Abilità\n[DefeatDuel]\n- Ottiene 4 [AttackDmgDown] e 9 [Paralysis]\n- Il danno inflitto da quest'Abilità non può Stordire il bersaglio e non può attivare gli effetti di [Sinking] sul colpo\n[EndSkill] Se quest'Abilità ha gerato Mang, perde 20 PS\n[EndSkill] Termina il turno",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Riuse questa Moneta (max 7 volte)</u></b></mark></color>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955207,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Silenzia Il Suono, Annienta Il Pensiero",
+          "desc": "Ci si può Scontrare con quest'Abilità a prescindere dalla Velocità\nSe ha [BlackNightmare]:\n- Converte ogni moneta in [SuperCoin]\n- <color=#ff6000><mark=#ff000040><b><u>Se non si Scontra contro un'Abilità Attacco Contundente</u></b></mark></color>, Potere Moneta +2 e infligge +50% danni\n- A Scontro perso contro un'Abilità Attacco Contundente:\n  - Potere Moneta -2 e infligge -50% danni\n  - Il danno inflitto da quest'Abilità non può Stordire il bersaglio e non può attivare gli effetti di [Sinking] sul colpo\n\nLe armi Contundenti appaiono più frequentemente\n- A 75+ [KarmaOfIndexRien_2Phase], le armi Contundenti appaiono meno frequentemente\n- A 150+ [KarmaOfIndexRien_2Phase], le armi Contundenti appaiono molto meno frequentemente\nAttiva i seguenti effetti in base all'arma usata:\n- Le armi Contundenti infliggono +60% danni\n- Le armi Taglienti e Contundenti infliggono -30% danni\n[WhenUse] Ottiene 3 [Breath] e +2 Conteggio [Breath]\n[WinDuel] alza la Soglia di Stordimento del Bersaglio di 25\n- A 150+ [KarmaOfIndexRien_2Phase], questo effetto non viene attivato",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +2 Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Ottiene 2 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Ottiene +2 Conteggio [Breath]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955208,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Infilza Il Cuor Del Silenzio, Perforane Ogni Memoria",
+          "desc": "Ci si può Scontrare con quest'Abilità a prescindere dalla Velocità\nSe ha [BlackNightmare]:\n- Converte ogni moneta in [SuperCoin]\n- <color=#ff6000><mark=#ff000040><b><u>Se non si Scontra contro un'Abilità Attacco Perforante</u></b></mark></color>, Potere Moneta +2 e infligge +50% danni\n- A Scontro perso contro un'Abilità Attacco Perforante:\n  - Potere Moneta -2 e infligge -50% danni\n  - Il danno inflitto da quest'Abilità non può Stordire il bersaglio e non può attivare gli effetti di [Sinking] sul colpo\n\nLe armi Perforanti appaiono più frequentemente\n- A 75+ [KarmaOfIndexRien_2Phase], le armi Perforanti appaiono meno frequentemente\n- A 150+ [KarmaOfIndexRien_2Phase], le armi Perforanti appaiono molto meno frequentemente\nAttiva i seguenti effetti in base all'arma usata:\n- Le armi Perforanti infliggono +60% danni\n- Le armi Taglienti e Contundenti infliggono -30% danni\n[WhenUse] Ottiene 3 [Breath] e +2 Conteggio [Breath]\n[WinDuel] Ottiene 2 [AttackDmgUp] il turno successivo\n- A 150+ [KarmaOfIndexRien_2Phase], questo effetto non viene attivato",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Ottiene 3 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +2 Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Ottiene +2 Conteggio [Breath]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955209,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Con Segreto Temperato, Recidi La Forma",
+          "desc": "Ci si può Scontrare con quest'Abilità a prescindere dalla Velocità\nSe ha [BlackNightmare]:\n- Converte ogni moneta in [SuperCoin]\n- <color=#ff6000><mark=#ff000040><b><u>Se non si Scontra contro un'Abilità Attacco Tagliente</u></b></mark></color>, Potere Moneta +2 e infligge +50% danni\n- A Scontro perso contro un'Abilità Attacco Tagliente:\n  - Potere Moneta -2 e infligge -50% danni\n  - Il danno inflitto da quest'Abilità non può Stordire il bersaglio e non può attivare gli effetti di [Sinking] sul colpo\n\nLe armi Taglienti appaiono più frequentemente\n- A 75+ [KarmaOfIndexRien_2Phase], le armi Taglienti appaiono meno frequentemente\n- A 150+ [KarmaOfIndexRien_2Phase], le armi Taglienti appaiono molto meno frequentemente\nAttiva i seguenti effetti in base all'arma usata:\n- Le armi taglienti infliggono +60% danni\n- Le armi Contundenti e Perforanti infliggono -30% danni\n[WhenUse] Ottiene 3 [Breath] e +2 Conteggio [Breath]\n[WinDuel] Potere Finale +3\n- A 150+ [KarmaOfIndexRien_2Phase], questo effetto non viene attivato",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Ottiene 3 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Ottiene +3 Conteggio [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +2 Conteggio [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955210,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Furioso [Crescendo]",
+          "desc": "[WideAreaRampage]\n<color=#ff6000><mark=#ff000040><b><u>Non attiva le Abilità Difensive</u></b></mark></color>\nCi si può Scontrare con quest'Abilità a prescindere dalla Velocità\n[WhenUse]\n- Ottiene 6 [Breath] e +6 Conteggio [Breath]\n- Potere Scontro +10 (<color=#ff6000><mark=#ff000040><b><u>il Potere Scontro ottenuto è ridotto di 1 per ogni 8 [KarmaOfIndexRien_2Phase] su di sé, con un minimo di 0</u></b></mark></color>)\n[WhenUse] A 0+ PS, genera 2 Mang\n- Infligge +40% danni; Potere Finale +5\n\n[WinDuel]\n- A fine attacco: Infligge 4 [Laceration], 2 [Binding], e 2 [Vulnerable] il turno successivo su ogni bersaglio colpito da quest'Abilità\n[DefeatDuel]\n- Ottiene 6 [AttackDmgDown] e 9 [Paralysis]\n- Il danno inflitto da quest'Abilità non può Stordire il bersaglio e non può attivare gli effetti di [Sinking] sul colpo\n[EndSkill] Se quest'Abilità ha generato Mang, perde 25 PS\n[EndSkill] Termina il turno",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Riusa questa Moneta (max 7 volte)</u></b></mark></color>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955211,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Furioso [Lacrimosa-Crescendo]",
+          "desc": "[WideAreaRampage]\n<color=#ff6000><mark=#ff000040><b><u>Non attiva le Abilità Difensive</u></b></mark></color>\nCi si può Scontrare con quest'Abilità a prescindere dalla Velocità\n[WhenUse]\n- Ottiene 9 [Breath] e +9 Conteggio [Breath]\n- Potere Scontro +15 (il Potere Scontro ottenuto è ridotto di 1 per ogni 20 [KarmaOfIndexRien_2Phase])\n[WhenUse] A 0+ PS, genera 3 Mang\n- Infligge +60% danni; Potere Finale +8\n\n[WinDuel]\n- A fine attacco, Infligge 5 [Laceration], 3 [Binding], e 3 [Vulnerable] il turno successivo su ogni bersaglio colpito da quest'Abilità\n[DefeatDuel]\n- Ottiene 8 [AttackDmgDown] e 9 [Paralysis]\n- Il danno inflitto da quest'Abilità non può Stordire il bersaglio e non può attivare gli effetti di [Sinking] sul colpo\n[EndSkill] Se quest'Abilità ha generato Mang, perde 30 PS\n[EndSkill] Termina il turno",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Riusa questa Moneta (max 7 volte)</u></b></mark></color>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Non Permettergli Di Farmi Del Male",
+          "desc": "[CanDuelGuard]\nPotere Finale -4 per ogni alleato sconfitto",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Gioca Con Me!",
+          "desc": "Potere Finale +1 e infligge +5% danni per ogni alleato sconfitto\n[DefeatDuel] Potere Base -7\n[DefeatDuel] Il danno inflitto da quest'Abilità non può stordire il bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [ResultReduction] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Hyah!",
+          "desc": "Potere Finale +1 e infligge +10% danni per ogni alleato sconfitto\n[DefeatDuel] Potere Base -8\n[DefeatDuel] Il danno inflitto da quest'Abilità non può stordire il bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [ResultReduction] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ti Piacciono Le Bambole?",
+          "desc": "Potere Finale +1 e infligge +5% danni per ogni alleato sconfitto\n[DefeatDuel] Potere Base -10\n[DefeatDuel] Il danno inflitto da quest'Abilità non può stordire il bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [ResultReduction] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tirerò Forbici. E Tu?",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Su Attacco Incontrastato o a Scontro Perso, infligge +300% danni</u></b></mark></color>\n[StartDuel] <color=#ff6000><mark=#ff000040><b><u>Se il bersaglio ha [ResultReduction], Potere Scontro +20</u></b></mark></color>\n[WinDuel] Non attiva le Abilità Difensive\n[WinDuel] Annulla quest'Abilità e usa \"Hai Vinto...\" sul bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 5 [Laceration] e +4 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955606,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Hai Vinto...",
+          "desc": "[CantDuel]\nQuest'Abilità:\n- Non attiva le Abilità Difensive\n- Non colpisce\n[WhenUse] Applica 2 [AttackUp] sul bersaglio il turno successivo\n[EndSkill] I 2 peccatori con la minore percentuale di PV recuperano (Potere Finale x 5) PV",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955607,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Giochiamo Insieme Per Sempre~!",
+          "desc": "Quest'Abilità non attiva le Abilità Difensive, ma può essere Scontrata a prescindere dalla Velocità\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Infligge -90% danni sui bersagli che hanno equipaggiato le Abilità Difensive</u></b></mark></color>\n<color=#ff6000><mark=#ff000040><b><u>[StartDuel] Potere Finale +20</u></b></mark></color>\n[WinDuel] Infligge +100% danni\n[DefeatDuel] Infligge -90% danniIl danno inflitto da quest'Abilità non può stordire il bersaglio\n[DefeatDuel] Ogni Parte viene Stordita il turno successivo\n[EndSkill] Termina il turno",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 6 [Laceration] e +5 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Installazione D'Arte n.3: Cassa Toracica Improvvisata",
+          "desc": "[CantDuel]\nDà priorità al nemico di Livello più alto\nQuesta Abilità non attiva le Abilità Difensive\n[WhenUse] Potere Moneta +1 per ogni 8 [Laceration] sul bersaglio (max 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge danni ai PS al posto dei PV"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Recupera 15 PS"
+                },
+                {
+                  "desc": "[OnSucceedAttack]\n<color=#ff6000><mark=#ff000040><b><u>Stordisce il bersaglio e lo trasforma nel [LivingSpecimenTheRings] il turno successivo</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Melodia Di Tibia: Dissezione del Non Dissezionato Dal Dissezionato",
+          "desc": "Per il turno in cui quest'Abilità è stata equipaggiata, ottiene 1 [PlusCoinValueDown] e 1 [ResultReduction] <color=#ff6000><mark=#ff000040><b><u>quando viene colpita da un'Abilità Attacco</u></b></mark></color> (una volta per Abilità; max 3 volte per turno)\nNon può essere Stordito fino all'uso di questa Abilità\nSe Uccide, recupera 15 PS per ogni bersaglio ucciso\n[StartBattle] Ottiene 4 [Protection]\n[WhenUse] Infligge +3% danni per ogni 6 ([Laceration] sul bersaglio principale + [Laceration] sui bersagli secondari) (max 30%)\nInfligge -90% danni; Il danno inflitto da quest'Abilità non può Stordire il bersaglio\n[EndSkill] [MineTheRings] scade",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 5 danni PS"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Recupera 5 PS (una volta per Abilità)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 1 [Vulnerable] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Protection] il turno successivo (una volta per Abilità)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 1 [AttackDmgDown] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [AttackDmgUp] il turno successivo (once per Skill)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Taglio Letale [絶命]",
+          "desc": "Non attiva le Abilità Difensive\nDà priorità ai nemici con la minore percentuale di PV",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [PhantomIncision] per ogni 1% dei PV mancanti sul bersaglio"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Consuma ogni [PhantomIncision] sul bersaglio e infligge ([PhantomIncision] consumata)% danni ai PV"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955505,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Liberazione Della Carne Repressa",
+          "desc": "Mentre questa Abilità è equipaggiata, ottiene 1 [PlusCoinValueDown] e 1 [ResultReduction] <color=#ff6000><mark=#ff000040><b><u>quando viene colpita dalle Abilità nemiche</u></b></mark></color> (una volta per Abilità; max 3 volte per turno)\nNon può essere Stordita prima dell'uso di quest'Abilità\nSe quest'Abilità uccide: recupera 15 PS per ogni nemico sconfitto\n[StartBattle] Ottiene 4 [Protection]\n[WhenUse] Infligge +3% danni per ogni 6 ([Laceration] sul bersaglio principale + [Laceration] nei bersagli secondari) (max 30%)\n[DefeatDuel] Infligge -90% danni; Il danno inflitto da quest'Abilità non può Stordire il bersaglio\n[EndSkill] [BoneBladeTheRings] scade",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 5 danni ai PS"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Recupera 5 PS (una volta per Abilità)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 1 [Vulnerable] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Protection] il turno successivo (una volta per Abilità)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 1 [AttackDmgDown] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [AttackDmgUp] il turno successivo (una volta per Abilità)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

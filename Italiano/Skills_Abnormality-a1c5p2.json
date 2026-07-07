@@ -1,0 +1,217 @@
+{
+    "dataList": [
+        {
+            "id": 809901,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Manate",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 3 danni Contundenti bonus"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 3 danni Contundenti bonus"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 3 [Paralysis]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 809902,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Pedate",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 5 danni Contundenti bonus"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 5 danni Contundenti bonus"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 3 [Paralysis] il turno successivo"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 809903,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Rivincita",
+                    "desc": "",
+                    "coinlist": [
+                        {},
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Il bersaglio perde 5 PS"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 809904,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Dominio",
+                    "desc": "[StartBattle] Applica 1 [AttackDmgUp] a tutti gli alleati\n[StartBattle] Infligge 2 [AttackDmgDown] ai 2 nemici con meno PS",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 809905,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Rendilo Indimenticabile",
+                    "desc": "[StartBattle] Ottiene 2 [AaCePbBi]. Ottiene 5 [Binding] il turno successivo",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 809906,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Guardati Le Spalle!",
+                    "desc": "Se il bersaglio ha meno di 0 PS, Potere Moneta +3",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Recupera 10 PS"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] IInfligge 2 [Binding] e 2 [AttackDmgDown] il turno successivo"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Il bersaglio perde 20 PS"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 809907,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Raduno",
+                    "desc": "[StartBattle] Evoca 2 alleati il turno successivo",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 809908,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Giuro Vendetta",
+                    "desc": "[StartBattle] Ottiene 2 [AaCePbBi]. Ottiene 5 [Binding] e 5 [AttackDmgUp] il turno successivo.",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 809909,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "I MIEI COUPOOOOOOOOOOON!!!",
+                    "desc": "Se il bersaglio ha meno di 0 PS, Potere Finale +5",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Aumenta la Soglia di Stordimento del bersaglio di 30"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 1 [Paralysis] il turno successivo"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

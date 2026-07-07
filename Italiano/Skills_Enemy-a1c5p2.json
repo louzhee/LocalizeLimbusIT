@@ -1,0 +1,984 @@
+{
+    "dataList": [
+        {
+            "id": 9008801,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Semina la Paura",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackTail] Infligge 2 danni ai PS"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackTail] Infligge 2 danni ai PS"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9008802,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Incidi l'Orrore",
+                    "desc": "[WinDuel] Infligge 10 danni ai PS e recupera 10 PV",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 1 [Binding] il turno successivo"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9008803,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Raccogli l'Orrore",
+                    "desc": "Se i PS del bersaglio sono sotto 20, recupera +20% PV con gli effetti di questa Abilità",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackTail] Infligge 3 danni ai PS"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Recupera PV pari al 30% del danno inflitto"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackTail] Infligge 3 danni ai PS"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Recupera PV pari al 30% del danno inflitto"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9008804,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Immobilizza la Mente",
+                    "desc": "Se i PS sono sotto -15, infligge +50% danni",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 2 [Paralysis] il turno successivo"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 2 [Paralysis] il turno successivo"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9008901,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "-... - ..-",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 3 [Sinking]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 3 [Sinking]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9008902,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "-- ... -.-",
+                    "desc": "[WinDuel] Infligge 1 [AaCePbBa]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 3 [Sinking]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] Infligge +3 Conteggio [Sinking]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9008903,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "...- .",
+                    "desc": "Potere Finale +1 per ogni alleato Pallidificato in vita (esclude sé stessa)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Recupera PV pari al 40% del danno inflitto"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Copia uno dei buff sul bersaglio e lo applica su di sé nel turno successivo.\n(Limitato a [Enhancement], [Agility], [AttackDmgUp] e [Protection])"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Recupera PV pari al 40% del danno inflitto"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009001,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "..-. .",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009002,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "..-. . --",
+                    "desc": "[WinDuel] Infligge 1 [AaCePbBa]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] Infligge 2 [Sinking]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009003,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": ".-.. -",
+                    "desc": "[WinDuel] Infligge 1 danno ai PS per ogni alleato Pallidificato in vita (esclude sé stessa)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Recupera PV pari al 40% del danno inflitto"
+                                },
+                                {
+                                    "desc": "Copia uno dei buff sul bersaglio e lo applica su di sé nel turno successivo.\n(Limitato a [Enhancement], [Agility], [AttackDmgUp] e [Protection])"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Recupera PV pari al 40% del danno inflitto"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009101,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "-... .…",
+                    "desc": "Se il bersaglio ha [Sinking], the PV heal effect also applies to 1 other Pallidified ally with the lowest PS",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Heal by 30% del danno inflitto"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] Infligge 1 [Sinking]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Heal by 30% del danno inflitto"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] Infligge 1 [Sinking]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009102,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": ".--- .",
+                    "desc": "Se il bersaglio ha [Sinking], the PV heal effect also applies to 1 other Pallidified ally with the lowest PS",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Heal by 50% del danno inflitto"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 2 [AaCePbBa]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009103,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "-. .…",
+                    "desc": "[WhenUse] Se il bersaglio ha [AaCePbBa], all other Pallidified allies heal 30 PV",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "Copia uno dei buff sul bersaglio e lo applica su di sé nel turno successivo.\n(Limitato a [Enhancement], [Agility], [AttackDmgUp] e [Protection])"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Heal 20 PV on self"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009201,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": ".- -.",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 3 [Vibration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 3 [Vibration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009202,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "-.. .. .-",
+                    "desc": "[WhenUse] Applica 1 [Protection] su 1 altro alleato il turno successivo. Se questo alleato è Pallidificato, applica 1 [Protection] in più.",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge +4 Conteggio [Vibration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009203,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "-- --- -.-.",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Riduce il Conteggio [Vibration] sul bersaglio di 2"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 1 [AaCePbBa]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 10 [Burst] e +4 Conteggio [Burst]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009204,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": ". -. .",
+                    "desc": "[StartBattle] Ottiene 1 [Protection] per ogni 2 alleati Pallidificati (esclude sé stessa)\nSe colpita mentre ha scudo, infligge 1 [Vibration] sull'attaccante",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009301,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "...- .. .-",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 2 [DefenseDown]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009302,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "-.. .-",
+                    "desc": "[WhenUse] Applica 1 [AttackDmgUp] su 1 altro alleato Pallidificato casuale il turno successivo",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 2 [Paralysis]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] Infligge 1 [AaCePbBa]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009303,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "--.- ..- ..",
+                    "desc": "[WhenUse] Applica 1 [AttackDmgUp] su 1 alleato Pallidificato casuale il turno successivo",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 2 [DefenseDown]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 1 [AaCePbBa]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 2 [DefenseDown]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009401,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": ".- .. ..-",
+                    "desc": "Se il bersaglio ha [AaCePbBa], infligge 1 danno ai PS to target per ogni altro alleato in vita",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] Infligge 3 [Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009402,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "- .-",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 1 [AaCePbBa]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009403,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "- .",
+                    "desc": "[WinDuel] Infligge 1 [AaCePbBa]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 4 [Laceration] il turno successivo"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 2 [Fragile] il turno successivo"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009404,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "-- ..",
+                    "desc": "Se colpita mentre ha scudo, infligge 1 [AaCePbBa] sull'attaccante\n[EndBattle] Se ha Scudo, ottiene 3 [Breath] il turno successivo",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009501,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "-.-. --- ...",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 2 [Binding] il turno successivo"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009502,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": ".-..-",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 1 [Paralysis] il turno successivo"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 2 [AttackDmgDown] il turno successivo"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009503,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "--.- ..- . .-.. .-.. .-",
+                    "desc": "[WhenUse] Ottiene 1 [Protection] per ogni alleato in vita. (Max 3)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Ottiene 2 [Protection]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] Infligge 1 [AaCePbBa]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Ottiene 2 [Protection] il turno successivo"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] Infligge 4 [Laceration] il turno successivo"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009504,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "-.-. --- ... .-",
+                    "desc": "[WhenUse] Ottiene 2 [Protection]\nSe colpita mentre ha Scudo, infligge 1 [AaCePbBa] sull'attaccante\n[EndBattle] Recupera PV pari a (Scudo rimasto x 2).",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009601,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Dritto al Plesso Solare",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Infligge 1 [Paralysis] il turno successivo"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009602,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Non Dimentichiamo Mai!",
+                    "desc": "[DefeatDuel] Ottiene 1 [AttackDmgUp] il turno successivo",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 2 [Binding] il turno successivo"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge danni bonus in base al numero di alleati del Medio sconfitti durante quest'Ondata"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009603,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Spaccacranio",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Infligge 1 [AttackDmgDown] il turno successivo"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 2 [Paralysis] il turno successivo"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009604,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Pronto a Scrivere",
+                    "desc": "[EndBattle] Se ha Scudo, ottiene 1 [AttackDmgUp] il turno successivo",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009605,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Vendetta",
+                    "desc": "[DefeatDuel] Ottiene 1 [AttackDmgUp] il turno successivo",
+                    "coinlist": [
+                        {},
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 2 [Paralysis] il turno successivo"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackTail] Aumenta la Soglia di Stordimento del bersaglio di 8"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009606,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Rappresaglia Molteplice",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Aumenta la Soglia di Stordimento del bersaglio di 30"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 20 danni ai PV"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] Infligge 3 [Paralysis] il turno successivo"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009701,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Dritto al Plesso Solare",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Infligge 1 [Paralysis] il turno successivo"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009702,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Scrivete i Loro Peccati!",
+                    "desc": "[DefeatDuel] Ottiene 1 [AttackDmgUp] il turno successivo",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 2 [AttackDmgDown] il turno successivo"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge danni bonus in base al numero di alleati del Medio sconfitti durante quest'Ondata"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009703,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Spaccacranio",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Infligge 1 [PlusCoinValueDown] il turno successivo"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 1 [PlusCoinValueDown] il turno successivo"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009704,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Pronto a Scrivere",
+                    "desc": "[EndBattle] Se lo Scudo di questa unità è stato distrutto, ottiene 1 [AttackDmgUp] il turno successivo",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009705,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Vendetta",
+                    "desc": "[DefeatDuel] Ottiene 1 [AttackDmgUp] il turno successivo",
+                    "coinlist": [
+                        {},
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 2 [Paralysis] il turno successivo"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackTail] Aumenta la Soglia di Stordimento del bersaglio di 8"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009706,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Rappresaglia Molteplice",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Aumenta la Soglia di Stordimento del bersaglio di 30"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 20 danni ai PV"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 3 [Paralysis] il turno successivo"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

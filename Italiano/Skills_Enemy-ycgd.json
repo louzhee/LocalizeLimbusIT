@@ -1,0 +1,556 @@
+{
+  "dataList": [
+    {
+      "id": 9011001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tagliare",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9011002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Attacco Mirato",
+          "desc": "Se il bersaglio ha 7+ [Laceration], Potere Moneta +1\n[WinDuel] Ottiene 1 [SlashDamageUp] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Se il bersaglio ha [Laceration], infligge +50% danni"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9011003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Dispersione Lenticolare",
+          "desc": "Se il bersaglio ha 5+ [Laceration], Potere Moneta +1\n[WinDuel] Ottiene 1 [SlashResultUp] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Se il bersaglio ha [Laceration], infligge +20% danni"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Se il bersaglio ha [Laceration], infligge +10% danni"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Se il bersaglio ha [Laceration], infligge +40% danni"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9011004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Evasione",
+          "desc": "[OnSucceedEvade] Ottiene 1 [SlashDamageUp] il turno successivo (Once per turn)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9011101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Botta",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9011102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fendere",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Se il bersaglio ha [Laceration], infligge +30% danni"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9011103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Taglio Netto",
+          "desc": "[WinDuel] Ottiene 1 [SlashDamageUp] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Se il bersaglio ha [Laceration], infligge +10% danni"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Se il bersaglio ha [Laceration], infligge +10% danni"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Se il bersaglio ha [Laceration], infligge +20% danni"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9011104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Evasione",
+          "desc": "[OnSucceedEvade] Ottiene 1 [SlashDamageUp] il turno successivo (Once per turn)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9011201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Taglio Basso",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9011202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Taglio Inverso",
+          "desc": "[WinDuel] Infligge 1 [Paralysis] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9011203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Attacco Mirato",
+          "desc": "[WinDuel] Ottiene 1 [Protection] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9011204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Blocco",
+          "desc": "[StartBattle] Ottiene 1 [Protection]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9011301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Taglio Perforante",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9011302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Colpo Netto",
+          "desc": "Se il bersaglio ha 7+ [Laceration], Potere Moneta +1\n[WinDuel] Ottiene 1 [Protection] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Paralysis] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9011303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Attacco Mirato",
+          "desc": "Se il bersaglio ha 5+ [Laceration], Potere Moneta +1\n[StartBattle] Ottiene 1 [Protection]\n[WinDuel] Ottiene 1 [Protection] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9011304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Blocco",
+          "desc": "[StartBattle] Ottiene 2 [Protection]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9101301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Scuronuvola",
+          "desc": "[WhenUse] Se il bersaglio ha [Laceration], infligge +10% danni",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration] e +1 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration] e +1 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9101302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Pulizia",
+          "desc": "Se il bersaglio ha 5+ [Laceration], Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [SlashTakeDamageUp] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [SlashTakeDamageUp] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9101303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Taglio Lenticolare",
+          "desc": "Se il bersaglio ha 5+ [Laceration], Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Paralysis] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 8 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9101304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lama Affilata",
+          "desc": "[StartBattle] Apply 2 [SlashDamageUp] to all allies, including this unit\n[StartBattle] Ottiene 2 [SlashResultUp]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9101305,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Taglio Apricielo",
+          "desc": "[StartBattle] Se il bersaglio principale ha 10+ [Laceration], Portata Attacco +1\n[StartBattle] Se questa unità userà 5+ Abilità Attacco in questo turno, Potere Finale +5\n[WinDuel] Ogni alleato recupera 10 PS\nSe il bersaglio ha 7+ [Laceration], infligge +30% danni",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Se il bersaglio ha 7+ [Laceration], infligge +50% danni"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +10 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9101306,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Regole dei Vicoli",
+          "desc": "[WhenUse] Ottiene 1 Moneta per ogni alleato in vita (Max 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[EnemyKill] Ogni alleato recupera 20 PS"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

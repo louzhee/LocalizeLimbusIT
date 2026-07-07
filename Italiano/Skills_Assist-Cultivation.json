@@ -1,0 +1,67 @@
+{
+  "dataList": [
+    {
+      "id": 40000501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Taglio Cremisi",
+          "desc": "[WhenUse] Potere Base +1 per ogni 3 [Burst] sul bersaglio (max 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [DefenseDown]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Ottiene +2 Conteggio [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge +2 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [DefenseDown]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Ottiene +2 Conteggio [Breath]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sonno Ubriaco, Onde Libere",
+          "desc": "Può dirigere qualunque attacco verso questa unità indipendentemente dalla Velocità\n[WhenUse] Potere Base +1 per ogni 3 [Breath] (max 3)\n[WhenUse] Potere Base +3 per ogni tipo di effetto negativo sul bersaglio (max 9)\n[WhenUse] Ottiene 5 [Agility] il turno successivo (1 volta per turno)\n[WhenUse] Ottiene 10 [Breath] e +2 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 7 [Laceration] e +2 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Paralysis] il turno successivo"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge +300% danni"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

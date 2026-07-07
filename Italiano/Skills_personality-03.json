@@ -1,0 +1,3237 @@
+{
+  "dataList": [
+    {
+      "id": 1030601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Controlla il Libro",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Controlla il Libro",
+          "desc": "[WhenUse] Recupera 5 PS",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Controlla il Libro",
+          "desc": "[WhenUse] Recupera 5 PS",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1030602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Segno di Lealtà",
+          "desc": "[StartBattle] Il Livello Offensivo di quest'Abilità aumenta di 1 (Rison-A più alta/3) (Max 4)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [AttackDmgDown]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Segno di Lealtà",
+          "desc": "[StartBattle] Il Livello Offensivo di quest'Abilità aumenta di 1 (Rison-A più alta/3) (Max 4)\nSe la Rison-A più alta è Invidia, migliora l'aumento del Livello Offensivo del suddetto effetto del 50% (arrotondato per difetto)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [AttackDmgDown]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Segno di Lealtà",
+          "desc": "[StartBattle] Il Livello Offensivo di quest'Abilità aumenta di 1 (Rison-A più alta/3) (Max 4)\nSe la Rison-A più alta è Invidia, migliora l'aumento del Livello Offensivo del suddetto effetto del 50% (arrotondato per difetto)\nOttiene il doppio del Livello Offensivo dai suddetti effetti negli Incontri Mirati limitati a 7 o meno partecipanti.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [AttackDmgDown]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1030603,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Una Giusta Vendetta",
+          "desc": "[StartBattle] Il Livello Offensivo di quest'Abilità aumenta di 1 (Rison-A più alta/3) (Max 4)\nSe la Rison-A più alta è Invidia, migliora l'aumento del Livello Offensivo del suddetto effetto del 50% (arrotondato per difetto)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] Se il bersaglio viene sconfitto, 1 alleato con i PS più bassi recupera 6 PS"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Una Giusta Vendetta",
+          "desc": "[StartBattle] Il Livello Offensivo di quest'Abilità aumenta di 1 (Rison-A più alta/2) (Max 6)\nSe la Rison-A più alta è Invidia, migliora l'aumento del Livello Offensivo del suddetto effetto del 50% (arrotondato per difetto)\nOttiene il doppio del Livello Offensivo dai suddetti effetti negli Incontri Mirati limitati a 7 o meno partecipanti.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] Se il bersaglio viene sconfitto, 1 alleato con meno PS recupera 6 PS"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1030604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Rappresaglia Molteplice",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Abbassa la propria Soglia di Stordimento di 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Abbassa la propria Soglia di Stordimento di 3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Rappresaglia Molteplice",
+          "desc": "[StartBattle] A 6+ Rison-A Invidia totale, usa 'Una Giusta Vendetta' come Contrattacco.\nQuando questo effetto viene attivato, l'affinità di questa Abilità diventa Invidia.\n(La 'Rappresaglia Molteplice' più a sinistra si attiva per prima. Si attiva 2 volte per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Abbassa la propria Soglia di Stordimento di 5"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Abbassa la propria Soglia di Stordimento di 5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1030605,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Una Giusta Vendetta",
+          "desc": "[StartBattle] Il Livello Offensivo di quest'Abilità aumenta di 1 (Rison-A più alta/3) (Max 4)\nSe la Rison-A più alta è Invidia, migliora l'aumento del Livello Offensivo del suddetto effetto del 50% (arrotondato per difetto)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] Se il bersaglio viene sconfitto, 1 alleato con meno PS recupera 6 PS"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Una Giusta Vendetta",
+          "desc": "[StartBattle] Il Livello Offensivo di quest'Abilità aumenta di 1 (Rison-A più alta/2) (Max 6)\nSe la Rison-A più alta è Invidia, migliora l'aumento del Livello Offensivo del suddetto effetto del 50% (arrotondato per difetto)\nOttiene double the Offense Level from above effects in encounters with 6 or fewer Participant Limits.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] Se il bersaglio viene sconfitto, 1 alleato con meno PS recupera 6 PS"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1030701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vi Mordicchierò!",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge +2 Conteggio [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Vi Mordicchierò!",
+          "desc": "[WhenUse] Ottiene +1 [Aggro] per questo Slot Abilità il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Vi Mordicchierò!",
+          "desc": "[WhenUse] Ottiene +3 [Aggro] per questo Slot Abilità il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1030702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Esca Lampeggiante",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Esca Lampeggiante",
+          "desc": "[WhenUse] Ottiene +2 [Aggro] per questo Slot Abilità il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 2 o meno Conteggio [Burst], infligge +2 Conteggio [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Esca Lampeggiante",
+          "desc": "[WhenUse] Ottiene +4 [Aggro] per questo Slot Abilità il turno successivo\n[WhenUse] Se il bersaglio ha 6+ [Burst], Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 2 o meno Conteggio [Burst], infligge +3 Conteggio [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1030703,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Turbine Om-Nom-Nom!",
+          "desc": "[WhenUse] Ottiene +3 [Aggro] per questo Slot Abilità il turno successivo ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Burst]"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Recupera 10 PV."
+                },
+                {
+                  "desc": "[OnSucceedAttack] Recupera PV aggiuntivi in base alla [Burst] sul bersaglio (1 PV curato per 1 [Burst]. Max 20)"
+                },
+                {
+                  "desc": "A 50%- PV, Riusa questa Moneta una volta"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Turbine Om-Nom-Nom!",
+          "desc": "[WhenUse] Ottiene +5 [Aggro] per questo Slot Abilità il turno successivo\n[WhenUse] Se il bersaglio ha 6+ [Burst], Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Burst]"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Recupera 15 PV. Recupera il +50% in più dei PV quando riusa la Moneta when reusing Coin."
+                },
+                {
+                  "desc": "[OnSucceedAttack] Recupera PV aggiuntivi in base alla [Burst] sul bersaglio (2 PV curati per 1 [Burst]. Max 40)"
+                },
+                {
+                  "desc": "A 50%- PV, Riusa questa Moneta una volta"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1030704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Denti Chiacchieroni",
+          "desc": "[EndBattle] Recupera PV pari ai PV dello Scudo rimanenti (Uno volta per turno. Quantità curata Max: 10% dei PV Max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Denti Chiacchieroni",
+          "desc": "[WhenUse] Se il bersaglio ha 6+ [Burst], Potere Finale +3\n[EndBattle] Recupera PV pari ai PV dello Scudo rimanenti (Uno volta per turno. Quantità curata Max: 10% dei PV Max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1030801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sguainare la Spada",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Ottiene 1 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Ottiene 1 [Breath]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Sguainare la Spada",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Ottiene 1 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Ottiene 1 [Breath]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Sguainare la Spada",
+          "desc": "<style=\"highlight\">A 5+ [Breath] su di sé, Potere Moneta +1\n</style>[WhenUse] Ottiene +2 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1030802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Arco della Lama",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Ottiene 2 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Ad 1 alleato che non ha nessun [Breath] o con meno Potenza [Breath], applica 2 [Breath]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Arco della Lama",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Ad 1 alleato che non ha nessun [Breath] o con meno Potenza [Breath], applica 2 [Breath]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Arco della Lama",
+          "desc": "<style=\"highlight\">A 7+ [Breath] su di sé, Potere Moneta +1\n</style>[WhenUse] Ottiene +2 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Ad 1 alleato che non ha nessun [Breath] o con meno Potenza [Breath], applica 2 [Breath]\n<style=\"highlight\">Se l'alleato fa parte dei Discendenti della Spada, applica altri 2 [Breath]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1030803,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Saluti!",
+          "desc": "[WhenUse] Ottiene 5 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] L'ultima Moneta infligge +10% danni"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] L'ultima Moneta infligge +10% danni"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {},
+                {
+                  "desc": "[CriticalOnSucceedAttack] Ai 2 alleati che non hanno nessun [Breath] o con meno Conteggio [Breath], applica +2 Conteggio [Breath]"
+                },
+                {
+                  "desc": "[EndSkill] Se il bersaglio viene sconfitto, ottiene 1 [SlashDamageUp] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Saluti!",
+          "desc": "<style=\"highlight\">A 10+ [Breath] su di sé, Potere Moneta +1\n</style>[WhenUse] Ottiene 5 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] L'ultima Moneta infligge +10% danni"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] L'ultima Moneta infligge +10% danni"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {},
+                {
+                  "desc": "+30% Danni sul Colpo Critico"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Ai 2 alleati che non hanno nessun [Breath] o con meno Conteggio [Breath], applica +2 Conteggio [Breath].\n<style=\"highlight\">Se l'alleato fa parte dei Discendenti della Spada, applica altri 2 Conteggio [Breath]</style>"
+                },
+                {
+                  "desc": "[EndSkill] Se il bersaglio viene sconfitto, <style=\"highlight\">applica 1 [SlashDamageUp] su di sé e 1 alleato casuale il turno successivo</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1030804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Evasione",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Evasione",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1030901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Prepariamoci alla Riscossione",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Vibration]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Prepariamoci alla Riscossione",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Vibration]\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ [Vibration], Potere Scontro +1\n[WhenUse] Ottiene +3 [Aggro] per questo Slot Abilità il turno successivo</style>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Prepariamoci alla Riscossione",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Vibration]\n<style=\"highlight\">[WhenUse] Ottiene Potere Scontro +1 per ogni 6 [Vibration] sul bersaglio (max 2)</style>\n[WhenUse] Ottiene +3 [Aggro] per questo Slot Abilità il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Ottiene +4 [Aggro] per questo Slot Abilità il turno successivo</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1030902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Amputatore Accelerato della T Corp.",
+          "desc": "[WhenUse] Ottiene +3 Conteggio [Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Consuma fino a 3 [Vibration] sul bersaglio, e ottiene altrettanto Conteggio [Vibration] su di sé"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Amputatore Accelerato della T Corp.",
+          "desc": "[WhenUse] Ottiene +3 Conteggio [Vibration]\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ [Vibration], Potere Scontro +1</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Consuma fino a 3 [Vibration] sul bersaglio, e ottiene altrettanto Conteggio [Vibration] su di sé"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">3</style> [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Se gli effetti delle Monete di questa Abilità hanno consumato [Vibration] sul bersaglio, innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Amputatore Accelerato della T Corp.",
+          "desc": "[WhenUse] Ottiene +3 Conteggio [Vibration]\n[WhenUse] <style=\"highlight\">Potere Scontro +1 per ogni 6 [Vibration] sul bersaglio (max 2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Consuma fino a 3 [Vibration] sul bersaglio, e ottiene <style=\"highlight\">il doppio di quanto consumato</style> come Conteggio [Vibration] su di sé\n<style=\"highlight\">Infligge ([Vibration] consumata - 1) [Binding] il turno successivo</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se gli effetti delle Monete di questa Abilità hanno consumato [Vibration] sul bersaglio, innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1030903,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Dico, Fermatevi!",
+          "desc": "[WhenUse] Se il bersaglio ha 6+ [Vibration], Potere Scontro +1\n[WhenUse] Consuma 10 Conteggio [Vibration] su di sé per ottenere Potere Moneta +2",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 10+ [Vibration], consuma 10 [Vibration] sul bersaglio and infligge 2 [TimeSuspend]\n- Se questa unità è in stato di [TimeRentalTwoPersonality], questo effetto non consuma la [Vibration] del bersaglio"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se la Velocità del bersaglio è inferiore a questa unità, innesca [Switch_Vibration] in [VibrationChainPersonality]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Dico, Fermatevi!",
+          "desc": "[WhenUse] <style=\"highlight\">Potere Scontro +1 per ogni 6 [Vibration] sul bersaglio (max 2)</style>\n<style=\"highlight\">[WhenUse] Se il bersaglio ha [Binding], ottiene Potere Scontro +1</style>\n[WhenUse] Consuma 10 Conteggio [Vibration] su di sé per ottenere Potere Moneta +2",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge 3 [Vibration]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 10+ [Vibration], consuma 10 [Vibration] sul bersaglio e infligge 2 [TimeSuspend]\n- Se questa unità è in stato di [TimeRentalTwoPersonality], questo effetto non consuma la [Vibration] del bersaglio<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se la Velocità del bersaglio è inferiore a questa unità, innesca [Switch_Vibration] in [VibrationChainPersonality]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1030904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Invocherò il Tempo",
+          "desc": "[StartBattle] Se questa unità non è in stato di [TimeRentalTwoPersonality], ottiene 4 [TimeRentalTwoPersonality] a Fine Turno (1 volta per turno)\n[WhenUse] Durante questo turno: quando subisce un colpo da un nemico, infligge 2 [Vibration] sul bersaglio il turno successivo (2 volte per turno)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Invocherò il Tempo",
+          "desc": "[StartBattle] Se questa unità non è in stato di [TimeRentalTwoPersonality], ottiene 4 [TimeRentalTwoPersonality] a Fine Turno (1 volta per turno)\n[WhenUse] Durante questo turno: quando subisce un colpo da un nemico, infligge <style=\"highlight\">3</style> [Vibration] sul bersaglio il turno successivo (<style=\"highlight\">6 volte</style> per turno)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Basta Così",
+          "desc": "Quando quest'Abilità colpisce: si cura del 30% del danno inflitto ai PV (max 10)\n[WhenUse] Consuma fino a 50 [BloodDinner] ed ottiene 1 [BloodArmorPersonalityFirst] per ogni 5 [BloodDinner] consumati da quest'unità\n- Se quest'unità non riesce a consumare [BloodDinner], ottiene 5 [Laceration]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Basta Così",
+          "desc": "Quando quest'Abilità colpisce: si cura del 30% del danno inflitto ai PV (max 10)\n[WhenUse] Consuma fino a 50 [BloodDinner] ed ottiene 1 [BloodArmorPersonalityFirst] per ogni 5 [BloodDinner] consumati da quest'unità\n- Se quest'unità non riesce a consumare [BloodDinner], ottiene 5 [Laceration]\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1</style>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Basta Così",
+          "desc": "Quando quest'Abilità colpisce: si cura del 30% del danno inflitto ai PV (max 10)\n[WhenUse] Consuma fino a 50 [BloodDinner] ed ottiene 1 [BloodArmorPersonalityFirst] per ogni 5 [BloodDinner] consumati da quest'unità\n- Se quest'unità non riesce a consumare [BloodDinner], ottiene 5 [Laceration]\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lasciali Fiorire",
+          "desc": "Quando quest'Abilità colpisce: si cura del 30% del danno inflitto ai PV (max 10)\n[WhenUse] Consuma fino a 50 [BloodDinner] ed ottiene 1 [BloodArmorPersonalityFirst] per ogni 10 [BloodDinner] consumati da quest'unità\n- Se quest'unità non riesce a consumare [BloodDinner], ottiene 5 [Laceration]\n[BeforeAttack] A 10+ [BloodArmorPersonalityFirst], Portata Attacco +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Infligge +2.5% danni per ogni [Laceration] sul bersaglio (max 25%)"
+                },
+                {
+                  "desc": "Infligge +5% danni per ogni 100 [BloodDinner_Accumulation] su sé (max 25%)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Lasciali Fiorire",
+          "desc": "Sul Colpo con quest'Abilità: si cura del 30% del danno inflitto ai PV (max 10)\n[WhenUse] Consuma fino a 50 [BloodDinner] ed ottiene 1 [BloodArmorPersonalityFirst] per ogni 10 [BloodDinner] consumati da quest'unità\n- Se quest'unità non riesce a consumare [BloodDinner], ottiene 5 [Laceration]\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1</style>\n[BeforeAttack] <style=\"highlight\">Portata Attacco +1 per ogni 10 [BloodArmorPersonalityFirst] su sé (max 2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Infligge +2.5% danni per ogni [Laceration] sul bersaglio (max 25%)"
+                },
+                {
+                  "desc": "Infligge +<style=\"highlight\">10</style>% danni per ogni 100 [BloodDinner_Accumulation] su sé (max <style=\"highlight\">50</style>%)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Lasciali Fiorire",
+          "desc": "Sul Colpo con quest'Abilità: si cura del 30% del danno inflitto ai PV (max 10)\n[WhenUse] Consuma fino a 50 [BloodDinner] ed ottiene 1 [BloodArmorPersonalityFirst] per ogni 10 [BloodDinner] consumati da quest'unità\n- Se quest'unità non riesce a consumare [BloodDinner], ottiene 5 [Laceration]\n[WhenUse] Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)</style>\n[BeforeAttack] Portata Attacco +1 per ogni 10 [BloodArmorPersonalityFirst] su sé (max 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Infligge +2.5% danni per ogni [Laceration] sul bersaglio (max 25%)"
+                },
+                {
+                  "desc": "Infligge +<style=\"highlight\">15</style>% danni per ogni 100 [BloodDinner_Accumulation] su sé (max <style=\"highlight\">75</style>%)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031003,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Io Impalerò",
+          "desc": "Sul Colpo con quest'Abilità: si cura del 50% del danno inflitto ai PV (max 10)\n[WhenUse] Potere Scontro +1 per ogni 10 [BloodArmorPersonalityFirst] (max 2)\n[WhenUse] Se il bersaglio ha 10+ [Laceration], Potere Moneta +1\n[WhenUse] Consuma fino a 50 [BloodDinner] ed ottiene 1 [BloodArmorPersonalityFirst] per ogni 10 [BloodDinner] consumati\n- Se quest'unità non riesce a consumare [BloodDinner], ottiene 10 [Laceration]\nInfligge +5% danni per ogni [Laceration] sul bersaglio (max 50%)\nInfligge +10% danni per ogni 100 [BloodDinner_Accumulation] su sé (max 50%)\n[EndSkill] Se il bersaglio viene sconfitto, aumenta [BloodDinner] di 30; ottiene 10 [BloodArmorPersonalityFirst] (1 volta per turno)",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Io Impalerò",
+          "desc": "Sul Colpo con quest'Abilità: si cura del 50% del danno inflitto ai PV (max 10)\n[WhenUse] Potere Scontro +1 per ogni 10 [BloodArmorPersonalityFirst] (max 2)\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 5 [Laceration] sul bersaglio (max 2)</style>\n[WhenUse] Consuma fino a 50 [BloodDinner] ed ottiene 1 [BloodArmorPersonalityFirst] per ogni 10 [BloodDinner] consumati\n- Se quest'unità non riesce a consumare [BloodDinner], ottiene 10 [Laceration]\nInfligge +5% danni per ogni [Laceration] sul bersaglio (max 50%)\nInfligge +<style=\"highlight\">20</style>% danni per ogni 100 [BloodDinner_Accumulation] su sé (max <style=\"highlight\">100</style>%)\n[EndSkill] Se il bersaglio viene sconfitto, aumenta [BloodDinner] di <style=\"highlight\">60</style>; ottiene 10 [BloodArmorPersonalityFirst] (1 volta per turno)",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Le Risate Taceranno",
+          "desc": "[DuelCounter]\n[StartBattle] Consuma fino a 50 [BloodDinner] ed ottiene 1 [BloodArmorPersonalityFirst] per ogni 10 [BloodDinner]\n- Se quest'unità non riesce a consumare [BloodDinner], ottiene 10 [Laceration]\n[StartBattle] Ad 1 alleato con i PV minori: applica 1 [SwirlingBloodPersonality] per ogni 50 [BloodDinner_Common_Accumulation] (max 10, 1 volta per turno)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Le Risate Taceranno",
+          "desc": "[DuelCounter]\n[StartBattle] Consuma fino a 50 [BloodDinner] ed ottiene 1 [BloodArmorPersonalityFirst] per ogni 10 [BloodDinner]\n- Se quest'unità non riesce a consumare [BloodDinner], ottiene 10 [Laceration]\n[StartBattle] Ad 1 alleato con i PV minori: applica 1 [SwirlingBloodPersonality] per ogni 50 [BloodDinner_Common_Accumulation] (max <style=\"highlight\">15</style>, 1 volta per turno)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031005,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tecnica del Sangue Coagulato 6 - Frusta, Variante Sancho",
+          "desc": "Sul Colpo con quest'Abilità: Si cura del 50% del danno inflitto ai PV (max 20)\n[WhenUse] Ottiene 20 [Laceration]\n[WhenUse] Infligge +1 [Laceration] in più Sul Colpo per ogni 10 [BloodArmorPersonalityFirst] (max 2). Fine Attacco: Consuma 10 [BloodArmorPersonalityFirst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Tecnica del Sangue Coagulato 6 - Frusta, Variante Sancho",
+          "desc": "Sul Colpo con quest'Abilità: Si cura del 50% del danno inflitto ai PV (max 20)\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1</style>\n[WhenUse] Ottiene 20 [Laceration]\n[WhenUse] Infligge +1 [Laceration] in più Sul Colpo per ogni 10 [BloodArmorPersonalityFirst] (max 2). Fine Attacco: Consuma 10 [BloodArmorPersonalityFirst]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Tecnica del Sangue Coagulato 6 - Frusta, Variante Sancho",
+          "desc": "Sul Colpo con quest'Abilità: Si cura del 50% del danno inflitto ai PV (max 20)\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)</style>\n[WhenUse] Ottiene 20 [Laceration]\n[WhenUse] Infligge +1 [Laceration] in più Sul Colpo per ogni 10 [BloodArmorPersonalityFirst]. (max 2) Fine Attacco: Consuma 10 [BloodArmorPersonalityFirst]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Attiva [Laceration] sul bersaglio una volta (il bersaglio perde 1 Conteggio [Laceration])</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031006,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tecnica del Sangue Coagulato 6 - Scissione, Variante Sancho",
+          "desc": "Sul Colpo con quest'Abilità: si cura del 30% del danno inflitto ai PV (max 10)\n[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1\n[BeforeAttack] A 10+ [BloodArmorPersonalityFirst], Portata Attacco +1\n[EndSkill] Se quest'Abilità ha aumentato il suo Portata Attacco, consuma 10 [BloodArmorPersonalityFirst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Infligge +2.5% danni per ogni [Laceration] sul bersaglio (max 25%)"
+                },
+                {
+                  "desc": "Infligge +5% danni per ogni 100 [BloodDinner_Common_Accumulation] (max 25%)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Tecnica del Sangue Coagulato 6 - Scissione, Variante Sancho",
+          "desc": "Sul Colpo con quest'Abilità: si cura del 30% del danno inflitto ai PV (max 10)\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)</style>\n[BeforeAttack] <style=\"highlight\">Ottiene Portata Attacco +1 per ogni 10 [BloodArmorPersonalityFirst] (max 2)</style>\n[EndSkill] Consuma 10 [BloodArmorPersonalityFirst] per ogni Portata Attacco ottenuto",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Infligge +2.5% danni per ogni [Laceration] sul bersaglio (max 25%)"
+                },
+                {
+                  "desc": "Infligge +<style=\"highlight\">10</style>% danni per ogni 100 [BloodDinner_Common_Accumulation] (max <style=\"highlight\">50</style>%)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Tecnica del Sangue Coagulato 6 - Scissione, Variante Sancho",
+          "desc": "Sul Colpo con quest'Abilità: si cura del 30% del danno inflitto ai PV (max 10)\n[WhenUse] Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)\n[BeforeAttack] Ottiene Portata Attacco +1 per ogni 10 [BloodArmorPersonalityFirst] (max 2)\n[EndSkill] Consuma 10 [BloodArmorPersonalityFirst] per ogni Portata Attacco ottenuto<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Infligge +2.5% danni per ogni [Laceration] sul bersaglio (max 25%)"
+                },
+                {
+                  "desc": "Infligge +<style=\"highlight\">15</style>% danni per ogni 100 [BloodDinner_Common_Accumulation] (max <style=\"highlight\">75</style>%)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031007,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Tecnica Segreta del Sangue Coagulato di Sancho - La Sangre",
+          "desc": "Sul Colpo con quest'Abilità: si cura del 50% del danno inflitto ai PV (max 20)\n[WhenUse] Potere Base +1 per ogni 10 [BloodArmorPersonalityFirst] su sé (max 2)\n[WhenUse] Se il bersaglio ha 10+ [Laceration], Potere Moneta +1\nInfligge +5% danni per ogni [Laceration] sul bersaglio (max 50%)\n[WhenUse] Infligge +20% danni per ogni 100 [BloodDinner_Common_Accumulation] (max 100%)\n[EndSkill] Consuma 10 [BloodArmorPersonalityFirst] per ogni 10 [BloodArmorPersonalityFirst]\n[EndSkill] Se il bersaglio viene sconfitto, aumenta [BloodDinner] di 50. Riottiene metà del [BloodArmorPersonalityFirst] consumato da quest'Abilità (1 volta per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration] e +4 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[EndSkill] Se il bersaglio viene sconfitto, infligge 5 [Laceration] e +1 Conteggio [Laceration] a tutti i nemici"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Tecnica Segreta del Sangue Coagulato di Sancho - La Sangre",
+          "desc": "Sul Colpo con quest'Abilità: si cura del 50% del danno inflitto ai PV (max 20)\n[WhenUse] Potere Base +1 per ogni 10 [BloodArmorPersonalityFirst] su sé (max <style=\"highlight\">3</style>)\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 5 [Laceration] sul bersaglio (max 2)</style>\nInfligge +5% danni per ogni [Laceration] sul bersaglio (max 50%)\n[WhenUse] Infligge +20% danni per ogni 100 [BloodDinner_Common_Accumulation] (max 100%)\n[EndSkill] Consuma 10 [BloodArmorPersonalityFirst] per ogni 10 [BloodArmorPersonalityFirst]\n[EndSkill] Se il bersaglio viene sconfitto, aumenta [BloodDinner] di <style=\"highlight\">100</style>. Riottiene metà del [BloodArmorPersonalityFirst] consumato da quest'Abilità (1 volta per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">8</style> [Laceration] e +4 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[EndSkill] Se il bersaglio viene sconfitto, infligge 5 [Laceration] e +1 Conteggio [Laceration] a tutti i nemici"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031008,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tecnica del Sangue Coagulato 15 - Anticipazione del Finale, Variante Sancho",
+          "desc": "[DuelCounter]\n[StartBattle] A (3 + (Rison. più alta / 2)) alleati con i PV minori: applica (1 + ([BloodArmorPersonalityFirst] / 15)) [SwirlingBloodPersonality] per ogni 40 [BloodDinner_Common_Accumulation], poi consuma metà del [BloodArmorPersonalityFirst] su sé (1 volta per alleato; arrotondato per difetto).",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Tecnica del Sangue Coagulato 15 - Anticipazione del Finale, Variante Sancho",
+          "desc": "[DuelCounter]\n[StartBattle] A (3 + (Rison. più alta / 2)) alleati con i PV minori: applica (1 + ([BloodArmorPersonalityFirst] / <style=\"highlight\">10</style>)) [SwirlingBloodPersonality] per ogni 40 [BloodDinner_Common_Accumulation], poi consuma metà del [BloodArmorPersonalityFirst] su sé (1 volta per alleato; arrotondato per difetto).",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fa Jin",
+          "desc": "Se la Velocità di questa unità è maggiore del bersaglio di 3 o più, Potere Moneta +1\n[WhenUse] Ottiene +2 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Fa Jin",
+          "desc": "Se la Velocità di questa unità è maggiore del bersaglio di <style=\"highlight\">2</style> o più, Potere Moneta +1\n[WhenUse] Ottiene +2 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Infligge 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Infligge 1 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Fa Jin",
+          "desc": "<style=\"highlight\">Se la Velocità di questa unità è maggiore del bersaglio, ottiene Potere Moneta in base alla differenza di Velocità (Potere Moneta +1 per ogni 2 differenza di Velocità; max 2)</style>\n[WhenUse] Ottiene +<style=\"highlight\">3</style> Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Infligge +1 [Combustion] Count</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Palmo della Fiamma Virescente",
+          "desc": "Se la Velocità di questa unità è maggiore del bersaglio di 3 o più, Potere Moneta +1\n[WinDuel] Ottiene 3 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Ottiene +2 Conteggio [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [DefenseDown] per ogni 6 [Combustion] sul bersaglio (max 2, 1 volta per turno)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Palmo della Fiamma Virescente",
+          "desc": "Se la Velocità di questa unità è maggiore del bersaglio di <style=\"highlight\">2</style> o più, Potere Moneta +1\n[WinDuel] Ottiene 3 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Ottiene +2 Conteggio [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Infligge 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [DefenseDown] per ogni 6 [Combustion] sul bersaglio (max <style=\"highlight\">3</style>, 1 volta per turno)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Palmo della Fiamma Virescente",
+          "desc": "<style=\"highlight\">Se la Velocità di questa unità è maggiore del bersaglio, ottiene Potere Moneta in base alla differenza di Velocità (Potere Moneta +1 per ogni 2 differenza di Velocità; max 2)</style>\n[WinDuel] Ottiene 3 [Breath]\n<style=\"highlight\">- Ottiene Conteggio [Breath] in più pari a [DianxueDonQuixote] sul bersaglio</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Breath]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [DefenseDown] per ogni 6 [Combustion] sul bersaglio (max <style=\"highlight\">5</style>, 1 volta per turno)\n<style=\"highlight\">- Infligge additional [DefenseDown] pari a [DianxueDonQuixote] sul bersaglio</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031103,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Che questa contesa sia Illuminante",
+          "desc": "Infligge +10% danni per ogni 1 [DianxueDonQuixote] sul bersaglio (max 30%)\nSe la Velocità di questa unità è maggiore del bersaglio di 2 o più, Potere Moneta +1\n[WinDuel] Ottiene 5 [Breath]\n- Se il bersaglio ha [DianxueDonQuixote], ottiene altri 3 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Infligge +([Breath] su di sé + [Combustion] sul bersaglio)% danni con un Colpo Critico (max 30%)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Che questa contesa sia Illuminante",
+          "desc": "Infligge <style=\"highlight\">+15%</style> danni aggiuntivi per ogni 1 [DianxueDonQuixote] sul bersaglio (max <style=\"highlight\">45%</style>)\n<style=\"highlight\">Se la Velocità di questa unità è maggiore del bersaglio, ottiene Potere Moneta in base alla differenza di Velocità (Potere Moneta +1 per ogni 2 differenza di Velocità; max 2)</style>\n[WinDuel] Ottiene 5 [Breath]\n- Se il bersaglio ha [DianxueDonQuixote], ottiene altri 3 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Infligge +([Breath] su di sé + [Combustion] sul bersaglio)% danni con un Colpo Critico (max <style=\"highlight\">50%</style>)"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Se il bersaglio ha [DianxueDonQuixote], infligge 3 [DefenseDown]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vi serve proprio una lezione sulle maniere a tavola!",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Vi serve proprio una lezione sulle maniere a tavola!",
+          "desc": "<style=\"highlight\">Se la Velocità di questa unità è maggiore del bersaglio, ottiene +1 Potere Moneta per ogni 2 differenza di Velocità (max 2)</style>",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Come Ordina l'Illustre Manager, Eccomi!",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [ThePowerOfLoveAndHate]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [ThePowerOfLoveAndHate]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Come Ordina l'Illustre Manager, Eccomi!",
+          "desc": "<style=\"highlight\">[WhenUse] Consuma 5 Conteggio [ThePowerOfLoveAndHate] su di sé per ottenere Potere Moneta +1</style>\n[WhenUse] Ottiene +<style=\"highlight\">3</style> Conteggio [ThePowerOfLoveAndHate]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [ThePowerOfLoveAndHate]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Come Ordina l'Illustre Manager, Eccomi!",
+          "desc": "[WhenUse] Consuma 5 Conteggio [ThePowerOfLoveAndHate] su di sé per ottenere Potere Moneta +1\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 2 [ThePowerOfLoveAndHate] (max 2)</style>\n[WhenUse] Ottiene +3 Conteggio [ThePowerOfLoveAndHate]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +<style=\"highlight\">3</style> Conteggio [ThePowerOfLoveAndHate]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">3</style> [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Con Amore! Haaa!",
+          "desc": "[WhenUse] Ottiene +3 Conteggio [ThePowerOfLoveAndHate]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +3 Conteggio [ThePowerOfLoveAndHate]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Con Amore! Haaa!",
+          "desc": "<style=\"highlight\">Infligge +7.5% danni per ogni [ThePowerOfLoveAndHate] su di sé (max 30%)\n[WhenUse] Consuma 6 Conteggio [ThePowerOfLoveAndHate] su di sé per ottenere Potere Moneta +1</style>\n[WhenUse] Ottiene +3 Conteggio [ThePowerOfLoveAndHate]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +<style=\"highlight\">4</style> Conteggio [ThePowerOfLoveAndHate]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Burst]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Infligge [VillainMark] al bersaglio principale il turno successivo</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Con Amore! Haaa!",
+          "desc": "Infligge +<style=\"highlight\">12.5</style>% danni per ogni [ThePowerOfLoveAndHate] su di sé (max <style=\"highlight\">75</style>%)\n[WhenUse] Consuma 6 Conteggio [ThePowerOfLoveAndHate] su di sé per ottenere Potere Moneta +1\n[WhenUse] Ottiene +<style=\"highlight\">5</style> Conteggio [ThePowerOfLoveAndHate]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +4 Conteggio [ThePowerOfLoveAndHate]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Infligge [VillainMark] al bersaglio principale il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031203,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Arcana Beats!! / Arcana Slave Minore!!!",
+          "desc": "Infligge +15% danni per ogni [ArcanaQueenOfHate] su di sé (max 45%)\n[WhenUse] A 2+ [ThePowerOfLoveAndHate], infligge +([ThePowerOfLoveAndHate] x 20)% danni (max 80%)\n[WhenUse] A 2+ [ThePowerOfLoveAndHate], Potere Base +1\n[WhenUse] Consuma Conteggio [ThePowerOfLoveAndHate] per ottenere Potere Moneta (Potere Moneta +1 per ogni 5 Conteggio consumato, max 2)\n[WhenUse] Ottiene +6 Conteggio [ThePowerOfLoveAndHate]\n[EndSkill] Ottiene 1 [ArcanaQueenOfHate]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 2 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Arcana Beats!! / Arcana Slave Minore!!!",
+          "desc": "Infligge +<style=\"highlight\">30</style>% danni per ogni [ArcanaQueenOfHate] su di sé (max <style=\"highlight\">90</style>%)\n[WhenUse] A 2+ [ThePowerOfLoveAndHate], infligge +([ThePowerOfLoveAndHate] x <style=\"highlight\">25</style>)% danni <style=\"highlight\">(max 125%)</style>\n[WhenUse] A 2+ [ThePowerOfLoveAndHate], Potere Base +<style=\"highlight\">2</style>\n[WhenUse] Consuma Conteggio [ThePowerOfLoveAndHate] per ottenere Potere Moneta (Potere Moneta +1 per ogni 5 Conteggio consumato, max <style=\"highlight\">4</style>)\n[WhenUse] Ottiene +6 Conteggio [ThePowerOfLoveAndHate]\n[EndSkill] Ottiene 1 [ArcanaQueenOfHate]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 2 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Incatesimo Veloce",
+          "desc": "[CanDuelGuard]\n[WhenUse] Potere Base +1 per ogni [HystericGauge] (max 2)\n[WhenUse] Ottiene +2 Conteggio [ThePowerOfLoveAndHate] (2 volte per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Incatesimo Veloce",
+          "desc": "[CanDuelGuard]\n[WhenUse] Potere Base +1 per ogni [HystericGauge] <style=\"highlight\">(max 3)</style>\n[WhenUse] Ottiene +<style=\"highlight\">4</style> Conteggio [ThePowerOfLoveAndHate] (2 volte per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031205,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Dove sono... i cattivi...?",
+          "desc": "Infligge +3% danni per ogni [HystericGauge] su di sé (max 9%)\n[WhenUse] Ottiene +2 Conteggio [ThePowerOfLoveAndHate]\n[WhenUse] Perde 5 PS",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [ThePowerOfLoveAndHate]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Dove sono... i cattivi...?",
+          "desc": "Infligge <style=\"highlight\">+4%</style> danni per ogni [HystericGauge] su di sé <style=\"highlight\">(max 12%)</style>\n<style=\"highlight\">[WhenUse] Consuma 5 Conteggio [ThePowerOfLoveAndHate] su di sé per ottenere Potere Base +1</style>\n[WhenUse] Ottiene <style=\"highlight\">+3</style> Conteggio [ThePowerOfLoveAndHate]\n[WhenUse] Perde 5 PS",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [ThePowerOfLoveAndHate]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Dove sono... i cattivi...?",
+          "desc": "Infligge <style=\"highlight\">+5%</style> danni per ogni [HystericGauge] su di sé <style=\"highlight\">(max 15%)</style>\n<style=\"highlight\">[WhenUse] Consuma 5 Conteggio [ThePowerOfLoveAndHate] su di sé per ottenere Potere Base +1</style>\n<style=\"highlight\">[WhenUse] Potere Base +1 per ogni 2 [ThePowerOfLoveAndHate] su di sé (max 2)</style>\n[WhenUse] Ottiene +3 Conteggio [ThePowerOfLoveAndHate]\n[WhenUse] Perde 5 PS",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +<style=\"highlight\">3</style> Conteggio [ThePowerOfLoveAndHate]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">3</style> [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031206,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vattene dalla mia testa...",
+          "desc": "Se quest'unità ha [HystericGauge], Potere Scontro +1\n[WhenUse] Ottiene +3 Conteggio [ThePowerOfLoveAndHate]\n[WhenUse] Perde 8 PS",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +3 Conteggio [ThePowerOfLoveAndHate]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Vattene dalla mia testa...",
+          "desc": "Se quest'unità ha [HystericGauge], <style=\"highlight\">Potere Scontro +1</style>\n<style=\"highlight\">[WhenUse] Consuma 6 Conteggio [ThePowerOfLoveAndHate] su di sé per ottenere Potere Base +1</style>\n[WhenUse] Ottiene +3 Conteggio [ThePowerOfLoveAndHate]\n[WhenUse] Perde 8 PS",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +3 Conteggio [ThePowerOfLoveAndHate]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Sinking]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Infligge [VillainMark] al bersaglio principale il turno successivo</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Vattene dalla mia testa...",
+          "desc": "<style=\"highlight\">Potere Base +1 per ogni [HystericGauge] su di sé (max 2)\n- A 3 [HystericGauge], ottiene +1 Portata Attacco\n- Infligge -50% danni ai bersagli secondari</style>\n[WhenUse] Consuma 6 Conteggio [ThePowerOfLoveAndHate] su di sé per ottenere Potere Base +1\n[WhenUse] Ottiene +<style=\"highlight\">5</style> Conteggio [ThePowerOfLoveAndHate]\n[WhenUse] Perde 8 PS",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +3 Conteggio [ThePowerOfLoveAndHate]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Infligge [VillainMark] al bersaglio principale il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031207,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Reversed Beats / Arcana Beats Rovesciato",
+          "desc": "Questa Abilità infligge -50% contro i bersagli secondari\n\n[WhenUse] Consuma tutta l'[HystericGauge] per ottenere Potere Scontro +1\n[WhenUse] Consuma Conteggio [ThePowerOfLoveAndHate] per ottenere Potere Scontro (Potere Scontro +1 per ogni 8 Conteggio consumato, max 2)\nInfligge +15% danni per ogni [ThePowerOfLoveAndHate] su di sé (max 60%)\n[BeforeAttack] Consuma ogni [ArcanaQueenOfHate] su di sé per ottenere +1 Portata Attacco\n[BeforeAttack] Se questa Abilità ha un solo bersaglio (negli Incontri Mirati, una Parte), ma ha 2+ Portata Attacco, infligge +20% danni\n[BeforeAttack] Potere Base -6 per ogni Moneta Rotta (max -18)\n[EndBattle] Se questa unità non è a -45 PS, ed è a meno di 0 PS, recupera 10 PS. Recupera più PS in base a quanto il valore dei PS attuali è lontano da 0 (2 PS curati per ogni PS mancante, max 50 PS)\n[WhenUse] Perde 10 PS",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 2 [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Reversed Beats / Arcana Beats Rovesciato",
+          "desc": "Questa Abilità infligge -50% contro i bersagli secondari\n\n[WhenUse] Consuma tutta l'[HystericGauge]; <style=\"highlight\">Potere Scontro +1 per ogni Stack consumata (max 3)</style>\n[WhenUse] Consuma Conteggio [ThePowerOfLoveAndHate] per ottenere Potere Scontro (Potere Scontro +1 per ogni <style=\"highlight\">5</style> Conteggio consumato, max <style=\"highlight\">4</style>)\nInfligge +<style=\"highlight\">30</style>% danni per ogni [ThePowerOfLoveAndHate] su di sé (max <style=\"highlight\">150</style>%)\n[BeforeAttack] Consuma ogni [ArcanaQueenOfHate] su di sé; <style=\"highlight\">ottiene +1 Portata Attacco per ogni Stack consumata (max 3)\n- Se questa Abilità ha consumato 3 [HystericGauge], ottiene +1 Portata Attacco</style>\n[BeforeAttack] Se questa Abilità ha un solo bersaglio (negli Incontri Mirati, una Parte), <style=\"highlight\">infligge +(20 x (Portata Attacco - 1))% danni (max 80%)</style>\n[BeforeAttack] Potere Base -6 per ogni Moneta Rotta (max -18)\n[EndBattle] Se questa unità non è a -45 PS, ed è a meno di 0 PS, recupera 10 PS. Recupera più PS in base a quanto il valore dei PS attuali è lontano da 0 (2 PS recuperati per ogni PS mancante, max 50 PS)\n[WhenUse] Perde 10 PS",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 2 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 2 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sfondamento",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Sfondamento",
+          "desc": "<style=\"highlight\">Se il bersaglio ha 6+ ([Burst] + [Sinking]), Potere Moneta +1</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Sfondamento",
+          "desc": "<style=\"highlight\">Se il bersaglio ha [CrushMarks], infligge +25% danni</style>\n<style=\"highlight\">Potere Moneta +1 per ogni 6 ([Burst] + [Sinking]) sul bersaglio (max 2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sfrutta il Momentum, Frantuma il Muro",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Sfrutta il Momentum, Frantuma il Muro",
+          "desc": "<style=\"highlight\">Se il bersaglio ha 6+ ([Burst] + [Sinking]), Potere Moneta +1\n[StartBattle] Se questa unità ha [GrownHorns], converte l'ultima Moneta di questa Abilità in [SuperCoin]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge danno Tagliente pari al 5% del danno finale di questa Moneta per ogni Stack di [GrownHorns] su questa unità (max 15%)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Sfrutta il Momentum, Frantuma il Muro",
+          "desc": "<style=\"highlight\">Potere Moneta +1 per ogni 6 ([Burst] + [Sinking]) sul bersaglio (max 2)</style>\n[StartBattle] Se questa unità ha [GrownHorns], converte l'ultima Moneta di questa Abilità in [SuperCoin]; <style=\"highlight\">l'ultima Moneta infligge +5% danni per ogni Stack di [GrownHorns] Stack su questa unità (max 15%)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge danno Tagliente pari al <style=\"highlight\">10%</style> del danno finale di questa Moneta per ogni Stack di [GrownHorns] su questa unità (max <style=\"highlight\">30%</style>)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031303,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Corna Schiaccianti [破碎角]",
+          "desc": "Se il bersaglio ha 6+ ([Burst] + [Sinking]), Potere Moneta +1\n[StartBattle] Se questa unità ha [GrownHorns], converte tutte le Monete di questa Abilità in [SuperCoin]i)\n[WhenUse] Ottiene 3 [GrownHorns]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "- Se il bersaglio ha un qualsiasi tipo di effetto che cambia il Panico, +5% danni per ogni Stack (max 15%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge (25% del danno finale di questa Moneta) danno Tagliente"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [CrushMarks] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Corna Schiaccianti [破碎角]",
+          "desc": "<style=\"highlight\">Potere Moneta +1 per ogni 6 ([Burst] + [Sinking]) sul bersaglio (max 2)</style>\n[StartBattle] Se questa unità ha [GrownHorns], converte tutte le Monete di questa Abilità in [SuperCoin](i) e <style=\"highlight\">infligge +10% danni per ogni Stack di [GrownHorns] su questa unità (max 30%)</style>\n[WhenUse] Ottiene 3 [GrownHorns]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">+2</style> Conteggio [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">+2</style> Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "- Se il bersaglio ha un qualsiasi tipo di effetto che cambia il Panico, <style=\"highlight\">+10%</style> danni per ogni Stack (max <style=\"highlight\">30%</style>)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge (25% del danno finale di questa Moneta) danno Tagliente\n<style=\"highlight\">- Se il bersaglio ha [CrushMarks], potenzia questo effetto e infligge invece (50% del danno finale di questa Moneta) danno Tagliente"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [CrushMarks] il turno successivo\n<style=\"highlight\">- Se il bersaglio ha un qualsiasi tipo di effetto che cambia il Panico, infligge +3 Conteggio [Sinking] (una volta per turno)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Schiaccerò tutto ciò che si erige sul nostro cammino!",
+          "desc": "[DuelCounter] \n[WhenUse] Ottiene 3 [GrownHorns] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Schiaccerò tutto ciò che si erige sul nostro cammino!",
+          "desc": "[DuelCounter]\n<style=\"highlight\">Potere Finale +1 per ogni 3 ([Burst] + [Sinking]) sul bersaglio (max 3)</style>\n[WhenUse] Ottiene 3 [GrownHorns] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sfondamento Del Cranio",
+          "desc": "Se quest'Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], infligge +10% danni\n[WhenUse] Ottiene +1 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Sfondamento Del Cranio",
+          "desc": "Se quest'Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], infligge +10% danni\n<style=\"highlight\">A 6+ ([Breath] su di sé + [Sinking] sul bersaglio), Potere Moneta +1</style>\n[WhenUse] Ottiene +<style=\"highlight\">2</style> Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Sfondamento Del Cranio",
+          "desc": "Se quest'Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], <style=\"highlight\">Potere Finale +1</style> e infligge <style=\"highlight\">+15%</style> danni\n<style=\"highlight\">Potere Moneta +1 per ogni 6 ([Breath] su di sé + [Sinking] sul bersaglio) (max 2)</style>\n[WhenUse] Ottiene +2 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Ottiene +1 Conteggio [Breath]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "N-Non Proferir Parola",
+          "desc": "Se quest'Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], Potere Scontro +1\n[WhenUse] Ottiene 3 [Breath]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "N-Non Proferir Parola",
+          "desc": "Se quest'Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], Potere Scontro +1\n<style=\"highlight\">A 6+ ([Breath] su di sé + [Sinking] sul bersaglio), Potere Moneta +1</style>\n[WhenUse] Ottiene 3 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge 1 [Sinking]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "N-Non Proferir Parola",
+          "desc": "Se quest'Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], <style=\"highlight\">Potere Finale +1</style>\n<style=\"highlight\">Potere Moneta +1 per ogni 6 ([Breath] su di sé + [Sinking] sul bersaglio) (max 2)</style>\n[WhenUse] Ottiene 3 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Infligge +1 Conteggio [Sinking]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031403,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "I-Il Prescritto Va Ultimato Celermente...",
+          "desc": "Se quest'Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], infligge +20% danni su Colpo Critico\nPotere Finale +1 per ogni 4 ([Breath] su di sé + [Sinking] sul bersaglio) (max 2)\n[StartBattle] A 2+ livello di [UnlockBuff_Base], converte tutte le Monete di quest'Abilità in [SuperCoin](i)\n[WhenUse] Ottiene +3 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Infligge +20% danni per ogni livello di [UnlockBuff_Base] (max 60%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking] e +1 Conteggio [Sinking]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "I-Il Prescritto Va Ultimato Celermente...",
+          "desc": "Se quest'Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], <style=\"highlight\">Potere Moneta +1 e</style> infligge +<style=\"highlight\">40</style>% danni su Colpo Critico\nPotere Finale +1 per ogni 4 ([Breath] su di sé + [Sinking] sul bersaglio) (max <style=\"highlight\">4</style>)\n[StartBattle] A 2+ livello di [UnlockBuff_Base], converte tutte le Monete di quest'Abilità in [SuperCoin](i) <style=\"highlight\">e infligge +20% danni per ogni livello di [UnlockBuff_Base] (max 60%)</style>\n[WhenUse] Ottiene +3 Conteggio [Breath]\n<style=\"highlight\">- Ottiene [Breath] pari al livello corrente di [UnlockBuff_Base]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Breath]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Infligge <style=\"highlight\">+40%</style> danni per ogni livello di [UnlockBuff_Base] (max <style=\"highlight\">120%</style>)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking] e +1 Conteggio [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 1 [Sinking] <style=\"highlight\">e +1 Conteggio [Sinking]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Stoffa Concessa Dal Prescritto, Tessuta Da Esso",
+          "desc": "Potere Finale +1 per ogni livello di [UnlockBuff_Base] (max 3)\n[StartBattle] Ottiene Scudo pari al 10% dei PV max (una volta per turno)\n- Riduce lo Scudo ottenuto del 1% per ogni 5 [KarmaOfIndexAlly]; a 50+ [KarmaOfIndexAlly], non ottiene lo Scudo\n[WhenUse] Ottiene +2 Conteggio [Breath]\n[EndBattle] Se quest'unità non ha [UnlockBuff_Base], ottiene [UnlockBuffAlly_1] (una volta per turno)\n- Modifica le Stack di [BlessingOfIndexPrescriptAlly] a 3\n- Ottiene 5 [KarmaOfIndexAlly] al prossimo Inizio Turno per ogni [BlessingOfIndexPrescriptAlly] ottenuto",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath]"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Stoffa Concessa Dal Prescritto, Tessuta Da Esso",
+          "desc": "Potere Finale +1 <style=\"highlight\">e infligge +15% danni</style> per ogni livello di [UnlockBuff_Base] (max 3; <style=\"highlight\">max 45%</style>)\n[StartBattle] Ottiene Scudo pari al <style=\"highlight\">15</style>% dei PV max (una volta per turno)\n- Riduce lo Scudo ottenuto del <style=\"highlight\">1.5</style>% per ogni 5 [KarmaOfIndexAlly]; a 50+ [KarmaOfIndexAlly], non ottiene lo Scudo\n[WhenUse] Ottiene +2 Conteggio [Breath]\n[EndBattle] Se quest'unità non ha [UnlockBuff_Base], ottiene [UnlockBuffAlly_1] (una volta per turno)\n- Modifica le Stack di [BlessingOfIndexPrescriptAlly] a 3\n- Ottiene 5 [KarmaOfIndexAlly] al prossimo Inizio Turno per ogni [BlessingOfIndexPrescriptAlly] ottenuto",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Breath]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge 1 [Sinking]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031405,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lascia Che Queste Mani Siano Il Mandante Per Cui...",
+          "desc": "Se quest'Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], infligge +10% danni\n[WhenUse] Ottiene +1 Conteggio [Breath]\n[EndSkill] Perde 3 PS (2 volte per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Lascia Che Queste Mani Siano Il Mandante Per Cui...",
+          "desc": "Se quest'Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], infligge +10% danni\n<style=\"highlight\">A 6+ ([Breath] su di sé + [Sinking] sul bersaglio), Potere Moneta +1</style>\n[WhenUse] Ottiene +<style=\"highlight\">2</style> Conteggio [Breath]\n[EndSkill] Perde 3 PS (2 volte per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Lascia Che Queste Mani Siano Il Mandante Per Cui...",
+          "desc": "Se quest'Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], infligge +<style=\"highlight\">15</style>% danni\n<style=\"highlight\">Potere Moneta +1 per ogni 6 ([Breath] su di sé + [Sinking] sul bersaglio) (max 2)</style>\n[WhenUse] Ottiene +2 Conteggio [Breath]\n[EndSkill] Perde 3 PS (2 volte per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Ottiene +1 Conteggio [Breath]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031406,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Attuazione: Incidere",
+          "desc": "Se quest'Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], infligge +5% danni\n[WhenUse] Ottiene 3 [Breath]\n[EndSkill] Perde 6 PS (2 volte per turno)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Attuazione: Incidere",
+          "desc": "Se quest'Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], infligge +5% danni\n<style=\"highlight\">A 6+ ([Breath] su di sé + [Sinking] sul bersaglio), Potere Moneta +1</style>\n[WhenUse] Ottiene 3 [Breath]\n[EndSkill] Perde 6 PS (2 volte per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge 2 [Sinking]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Attuazione: Incidere",
+          "desc": "Se quest'Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], infligge +<style=\"highlight\">10</style>% danni\n<style=\"highlight\">Potere Moneta +1 per ogni 6 ([Breath] su di sé + [Sinking] sul bersaglio) (max 2)</style>\n[WhenUse] Ottiene 3 [Breath]\n[EndSkill] Perde 6 PS (2 volte per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Infligge +1 Conteggio [Sinking]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031407,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Attuazione: Annientare",
+          "desc": "Se quest'Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], infligge +15% danni\nA 6+ ([Breath] su di sé + [Sinking] sul bersaglio), Potere Moneta +1\n[WhenUse] Ottiene +3 Conteggio [Breath]\n[EndSkill] Perde 15 PS (2 volte per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Questa Moneta infligge +20% danni per ogni livello di [UnlockBuff_Base] (max 60%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge +1 Conteggio [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Attuazione: Annientare",
+          "desc": "Se quest'Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], infligge +<style=\"highlight\">25</style>% danni\n<style=\"highlight\">Potere Moneta +1 per ogni 6 ([Breath] su di sé + [Sinking] sul bersaglio) (max 2)</style>\n[WhenUse] Ottiene +3 Conteggio [Breath]\n<style=\"highlight\">- Ottiene [Breath] pari al livello attuale di [UnlockBuff_Base]</style>\n[EndSkill] Perde 15 PS (2 volte per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "Questa Moneta ottiene <style=\"highlight\">Potere +1</style> e infligge +<style=\"highlight\">40</style>% danni per ogni livello di [UnlockBuff_Base] <style=\"highlight\">(max 3; max 120%)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge +<style=\"highlight\">2</style> Conteggio [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031408,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sblocco Forzato",
+          "desc": "[DuelCounter]\n[WhenUse] Ottiene 3 [Breath]\n[EndBattle] Al di sotto del livello 3 di [UnlockBuff_Base], attiva i seguenti effetti (una volta per turno):\n- Se quest'unità ha [UnlockBuff_Base], aumenta di 1 il suo livello\n- A meno di 6/9 [BlessingOfIndexPrescriptAlly], modifica le sue Stack in 6/9\n- Ottiene 5 [KarmaOfIndexAlly] al prossimo Inizio Turno per ogni [BlessingOfIndexPrescriptAlly] ottenuto",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Sblocco Forzato",
+          "desc": "[DuelCounter]\n<style=\"highlight\">Potere Finale +1 per ogni livello di [UnlockBuff_Base] (max 3)</style>\n[WhenUse] Ottiene 3 [Breath]\n[EndBattle] Al di sotto del livello 3 di [UnlockBuff_Base], attiva i seguenti effetti (una volta per turno):\n- Se quest'unità ha [UnlockBuff_Base], aumenta di 1 il suo livello\n- A meno di 6/9 [BlessingOfIndexPrescriptAlly], modifica le sue Stack in 6/9\n- Ottiene 5 [KarmaOfIndexAlly] al prossimo Inizio Turno per ogni [BlessingOfIndexPrescriptAlly] ottenuto",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,727 @@
+{
+  "dataList": [
+    {
+      "id": 2010611,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Giorni Andati",
+          "abName": "Ritratto di un Certo Giorno",
+          "desc": "[EndSkill] Infligge casualmente (6 + Rison. Tristezza) [Sinking] tra i bersagli",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 6+ [Sinking], infligge 1 [Binding] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Giorni Andati",
+          "abName": "Ritratto di un Certo Giorno",
+          "desc": "[EndSkill] Infligge casualmente (6 + Rison. Tristezza) [Sinking] tra i bersagli",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 6+ [Sinking], infligge 2 [Binding] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Giorni Andati",
+          "abName": "Ritratto di un Certo Giorno",
+          "desc": "[EndSkill] Infligge casualmente (6 + (<style=\"highlight\">Rison. Tristezza x1.5</style>)) [Sinking] tra i bersagli",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 6+ [Sinking], infligge 2 [Binding] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2010621,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Giorni Andati",
+          "abName": "Ritratto di un Certo Giorno",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]. Infligge 2 [Binding] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 6+ [Sinking], infligge 1 [Binding] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Giorni Andati",
+          "abName": "Ritratto di un Certo Giorno",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] A 3+ (Rison. Tristezza), Portata Attacco +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]. Infligge 2 [Binding] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 6+ [Sinking], infligge 1 [Binding] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Giorni Andati",
+          "abName": "Ritratto di un Certo Giorno",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] A 3+ (Rison. Tristezza), Portata Attacco +1\n[BeforeAttack] A 5+ (Rison. Tristezza), Portata Attacco addizionale +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]. Infligge 2 [Binding] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 6+ [Sinking], infligge 2 [Binding] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2010711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Proiettile Crudele",
+          "abName": "Der Fluchschütze",
+          "desc": "Da' priorità al bersaglio con i PV minori (priorità agli alleati)\n[BeforeAttack] Ottiene (Rison. più alta + 1) [BoseProjektil] (max 7)\n[BeforeAttack] Ottiene 1 [Breath] per ogni [BoseProjektil] (max 7)\n[EndSkill] Perde ogni [BoseProjektil]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Questa Moneta infligge danno solo al bersaglio principale"
+                },
+                {
+                  "desc": "Se il bersaglio principale è un alleato, infligge +8% danni per ogni [BoseProjektil] (max 56%)"
+                },
+                {
+                  "desc": "[AllyKill] Applica 2 [Breath] a sé ed a 2 alleati casuali"
+                },
+                {
+                  "desc": "[AllyKillFail] Ottiene 1 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Questa Moneta infligge danno solo ai bersagli secondari\n- Se la prima Moneta non uccide l'alleato, 1 bersaglio secondario subisce danno"
+                },
+                {
+                  "desc": "+2% danni sul Colpo Critico per ogni [BoseProjektil] (max 14%)"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Proiettile Crudele",
+          "abName": "Der Fluchschütze",
+          "desc": "Da' priorità al bersaglio con i PV minori (priorità agli alleati)\n[BeforeAttack] Ottiene (Rison. più alta + 1) [BoseProjektil] (max 7)\n[BeforeAttack] Ottiene 1 [Breath] per ogni [BoseProjektil] (max 7)\n[EndSkill] Perde ogni [BoseProjektil]<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Questa Moneta infligge danno solo al bersaglio principale<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "Se il bersaglio principale è un alleato, infligge <style=\"highlight\">+10%</style> danni per ogni [BoseProjektil] (max <style=\"highlight\">70%</style>)"
+                },
+                {
+                  "desc": "[AllyKill] Applica 3 [Breath] a sé ed a 2 alleati casuali<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[AllyKill] +1 risorsa E.G.O in base all'affinità dell'Abilità 1 dell'alleato che è stato ucciso</style>"
+                },
+                {
+                  "desc": "[AllyKillFail] Ottiene <style=\"highlight\">3</style> [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Questa Moneta infligge danno solo ai bersagli secondari\n- Se la prima Moneta non uccide l'alleato, 1 bersaglio secondario subisce danno<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">+5%</style> danni sul Colpo Critico per ogni [BoseProjektil] (max <style=\"highlight\">35%</style>)"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 2 [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Proiettile Crudele",
+          "abName": "Der Fluchschütze",
+          "desc": "Da' priorità al bersaglio con i PV minori (priorità agli alleati)\n[BeforeAttack] Ottiene (Rison. più alta + 1) [BoseProjektil] (max 7)\n<style=\"highlight\">- Se la Rison. più alta è Superbia, ottiene invece (Rison. più alta x 2) [BoseProjektil] (max 7)</style>\n[BeforeAttack] Ottiene 1 [Breath] per ogni [BoseProjektil] (max 7)\n[EndSkill] Perde ogni [BoseProjektil]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Questa Moneta infligge danno solo al bersaglio principale<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "Se il bersaglio principale è un alleato, infligge <style=\"highlight\">+15%</style> danni per ogni [BoseProjektil] (max <style=\"highlight\">105%</style>)"
+                },
+                {
+                  "desc": "[AllyKill] Applica 3 [Breath] a sé ed a 2 alleati casuali<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[AllyKill] +1 risorsa E.G.O in base alle affinità delle Abilità 1 e 2 dell'alleato che è stato ucciso</style>"
+                },
+                {
+                  "desc": "[AllyKillFail] Ottiene <style=\"highlight\">3</style> [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Questa Moneta infligge danno solo ai bersagli secondari\n- Se la prima Moneta non uccide l'alleato, 1 bersaglio secondario subisce danno<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">+9%</style> danni sul Colpo Critico per ogni [BoseProjektil] (max <style=\"highlight\">63%</style>)"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge <style=\"highlight\">3</style> [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2010721,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Proiettile Crudele",
+          "abName": "Der Fluchschütze",
+          "desc": "[CantIdentify]\nDa' priorità al bersaglio con i PV minori (priorità agli alleati)\n[BeforeAttack] Ottiene (Rison. più alta + 1) [BoseProjektil] (max 7)\n[BeforeAttack] Infligge +2% danni per ogni [BoseProjektil] (max 14%)\n[BeforeAttack] Ottiene 1 [Breath] per ogni [BoseProjektil] (max 7)\n[EndSkill] Perde ogni [BoseProjektil]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Questa Moneta infligge danno solo al bersaglio principale"
+                },
+                {
+                  "desc": "Se il bersaglio principale è un alleato, infligge +10% danni per ogni [BoseProjektil] (max 70%)"
+                },
+                {
+                  "desc": "Se il bersaglio principale è un alleato, infligge +2% danni per ogni [Breath] su sé (max 50%)"
+                },
+                {
+                  "desc": "[AllyKill] Applica 2 [Breath] a sé ed a 3 alleati casuali"
+                },
+                {
+                  "desc": "[AllyKill] La prossima Moneta infligge +2% danni per ogni [BoseProjektil] (max 14%)"
+                },
+                {
+                  "desc": "[AllyKill] +1 risorsa E.G.O in base alle affinità delle Abilità 1 e 2 dell'alleato che è stato ucciso"
+                },
+                {
+                  "desc": "[AllyKillFail] Ottiene 1 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Questa Moneta infligge danno solo ai bersagli secondari\n- Se la prima Moneta non uccide l'alleato, 1 bersaglio secondario subisce danno"
+                },
+                {
+                  "desc": "+2% danni sul Colpo Critico per ogni [BoseProjektil] (max 14%)"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Proiettile Crudele",
+          "abName": "Der Fluchschütze",
+          "desc": "[CantIdentify]\nDa' priorità al bersaglio con i PV minori (priorità agli alleati)\n[BeforeAttack] Ottiene (Rison. più alta + 1) [BoseProjektil] (max 7)\n[BeforeAttack] Infligge <style=\"highlight\">+3%</style> danni per ogni [BoseProjektil] (max <style=\"highlight\">21%</style>)\n[BeforeAttack] Ottiene 1 [Breath] per ogni [BoseProjektil] (max 7)\n[EndSkill] Perde ogni [BoseProjektil]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Questa Moneta infligge danno solo al bersaglio principale<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "Se il bersaglio principale è un alleato, infligge <style=\"highlight\">+12%</style> danni per ogni [BoseProjektil] (max <style=\"highlight\">84%</style>)"
+                },
+                {
+                  "desc": "Se il bersaglio principale è un alleato, infligge +2% danni per ogni [Breath] su sé (max 50%)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[AllyKill] Applica 3 [Breath] a sé ed a <style=\"highlight\">3</style> alleati casuali"
+                },
+                {
+                  "desc": "[AllyKill] La prossima Moneta infligge <style=\"highlight\">+5%</style> danni per ogni [BoseProjektil] (max <style=\"highlight\">35%</style>)"
+                },
+                {
+                  "desc": "<style=\"highlight\">[AllyKill] +1 risorsa E.G.O in base alle affinità delle Abilità 1, 2 e 3 dell'alleato che è stato ucciso</style>"
+                },
+                {
+                  "desc": "[AllyKillFail] Ottiene <style=\"highlight\">2</style> [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Questa Moneta infligge danno solo ai bersagli secondari\n- Se la prima Moneta non uccide l'alleato, 1 bersaglio secondario subisce danno<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">+3%</style> danno sul Colpo Critico per ogni [BoseProjektil] (max <style=\"highlight\">21%</style>)"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge <style=\"highlight\">4</style> [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Proiettile Crudele",
+          "abName": "Der Fluchschütze",
+          "desc": "[CantIdentify]\nDa' priorità al bersaglio con i PV minori (priorità agli alleati)\n[BeforeAttack] Ottiene (Rison. più alta + 1) [BoseProjektil] (max 7)\n<style=\"highlight\">- Se la Rison. più alta è Superbia, ottiene invece (Rison. più alta x 2) [BoseProjektil] (max 7)</style>\n[BeforeAttack] Infligge <style=\"highlight\">+4%</style> danni per ogni [BoseProjektil] (max 28%)\n[BeforeAttack] Ottiene 1 [Breath] per ogni [BoseProjektil] (max 7)\n[EndSkill] Perde ogni [BoseProjektil]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Questa Moneta infligge danno solo al bersaglio principale<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "Se il bersaglio principale è un alleato, infligge +15% danni per ogni [BoseProjektil] (max 105%)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "Se il bersaglio principale è un alleato, infligge +2% danni per ogni [Breath] su sé (max 50%)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">+30% danni sul Colpo Critico</style>"
+                },
+                {
+                  "desc": "[AllyKill] Applica 3 [Breath] a sé ed a <style=\"highlight\">4</style> alleati casuali"
+                },
+                {
+                  "desc": "[AllyKill] La prossima Moneta infligge <style=\"highlight\">+7%</style> danni per ogni [BoseProjektil] (max <style=\"highlight\">49%</style>)"
+                },
+                {
+                  "desc": "[AllyKill] +1 risorsa E.G.O in base alle affinità delle Abilità 1, 2 e 3 dell'alleato che è stato ucciso<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[AllyKillFail] Ottiene <style=\"highlight\">3</style> [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Questa Moneta infligge danno solo ai bersagli secondari\n- Se la prima Moneta non uccide l'alleato, 1 bersaglio secondario subisce danno<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">+4% danno sul Colpo Critico per ogni [BoseProjektil] (max 28%)</style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge <style=\"highlight\">5</style> [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2010811,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Grande Trichiliocosmo [三千大世界]",
+          "abName": "Farfalla delle Vite Intrecciate [羅生蝶]",
+          "desc": "[BeforeAttack] Ottiene (Rison. più alta) [Breath] (max 7)\n- Se è stata concatenata una Rison-A, ottiene anche +(Reson. più alta/ 3) Conteggio [Breath] (max 2; arrotondato per difetto)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 1 [ThreeMirrorpartYiSang] questo turno e il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge [Combustion] pari a ([Sinking] sul bersaglio / 3) (max 5; arrotondato per difetto)"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge +1 Conteggio [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Innesca [Combustion] sul bersaglio una volta; infine, riduce il suo Conteggio [Combustion] di 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Grande Trichiliocosmo [三千大世界]",
+          "abName": "Farfalla delle Vite Intrecciate [羅生蝶]",
+          "desc": "<style=\"highlight\">[BeforeAttack] Se il bersaglio principale ha 15+ ([Combustion] + [Sinking]), Potere Moneta +1</style>\n[BeforeAttack] Ottiene (Rison. più alta) [Breath] (max 7)\n- Se è stata concatenata una Rison-A, ottiene anche +(Reson. più alta / 3) Conteggio [Breath] (max 2; arrotondato per difetto)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">+2</style> Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 1 [ThreeMirrorpartYiSang] questo turno e il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge [Combustion] pari a ([Sinking] sul bersaglio / 3) (max 5; arrotondato per difetto)"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge +1 Conteggio [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Innesca [Combustion] sul bersaglio una volta; infine, riduce il suo Conteggio [Combustion] di 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Grande Trichiliocosmo [三千大世界]",
+          "abName": "Farfalla delle Vite Intrecciate [羅生蝶]",
+          "desc": "[BeforeAttack] Se il bersaglio principale ha <style=\"highlight\">10</style>+ ([Combustion] + [Sinking]), Potere Moneta +1\n[BeforeAttack] Ottiene (Rison. più alta) [Breath] (max 7)\n- Se è stata concatenata una Rison-A, ottiene anche +(Reson. più alta / 3) Conteggio [Breath] (max 2; arrotondato per difetto)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +<style=\"highlight\">3</style> Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 1 [ThreeMirrorpartYiSang] questo turno e il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge [Combustion] pari a ([Sinking] sul bersaglio / 3) (max 5; arrotondato per difetto)"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge +1 Conteggio [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Innesca [Combustion] sul bersaglio una volta; infine, riduce il suo Conteggio [Combustion] di 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2010821,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Grande Trichiliocosmo [三千大世界]",
+          "abName": "Farfalla delle Vite Intrecciate [羅生蝶]",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nSe la Moneta Colpisce, ottiene 5 [Combustion]; all'Uso finale della Moneta, Potere Finale +1 (max 3; una volta per Moneta)\n[BeforeAttack] Ottiene (Rison. più alta) [Breath] (max 7)\n- Se è stata concatenata una Rison-A, ottiene anche +(Rison. più alta / 3) Conteggio [Breath] (max 2; arrotondato per difetto)\n[BeforeAttack] Potere Base -1 per ogni Moneta Rotta (fino a -4)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [ThreeMirrorpartYiSang] questo turno e il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge +1 Conteggio [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnStartCoin] Infligge +10% danni per ogni 10 ([Combustion] + [Sinking]) su tutti i bersagli (max 40%)",
+                  "summary": "[OnStartCoin] Infligge più danno per ogni 10 ([Combustion] + [Sinking]) su tutti i bersagli"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Innesca [Combustion] sul bersaglio una volta; infine, riduce il suo Conteggio [Combustion] di 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Grande Trichiliocosmo [三千大世界]",
+          "abName": "Farfalla delle Vite Intrecciate [羅生蝶]",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nSe la Moneta Colpisce, ottiene <style=\"highlight\">4</style> [Combustion]; all'Uso finale della Moneta, Potere Finale +1 (max 3; una volta per Moneta)\n[BeforeAttack] Ottiene (Rison. più alta) [Breath] (max 7)\n- Se è stata concatenata una Rison-A, ottiene anche +(Rison. più alta / 3) Conteggio [Breath] (max 2; arrotondato per difetto)\n[BeforeAttack] Potere Base -1 per ogni Moneta Rotta (fino a -4)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +<style=\"highlight\">2</style> Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [ThreeMirrorpartYiSang] questo turno e il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">3</style> [Combustion]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge +1 Conteggio [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnStartCoin] Infligge +10% danni per ogni 10 ([Combustion] + [Sinking]) su tutti i bersagli (max <style=\"highlight\">50</style>%)",
+                  "summary": "[OnStartCoin] Infligge più danno per ogni 10 ([Combustion] + [Sinking]) su tutti i bersagli"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Innesca [Combustion] sul bersaglio una volta; infine, riduce il suo Conteggio [Combustion] di 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Grande Trichiliocosmo [三千大世界]",
+          "abName": "Farfalla delle Vite Intrecciate [羅生蝶]",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nSe la Moneta Colpisce, ottiene <style=\"highlight\">3</style> [Combustion]; all'Uso finale della Moneta, Potere Finale +1 (max 3; una volta per Moneta)\n[BeforeAttack] Ottiene (Rison. più alta) [Breath] (max 7)\n- Se è stata concatenata una Rison-A, ottiene anche +(Rison. più alta / 3) Conteggio [Breath] (max 2; arrotondato per difetto)\n[BeforeAttack] Potere Base -1 per ogni Moneta Rotta (fino a -4)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +<style=\"highlight\">3</style> Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [ThreeMirrorpartYiSang] questo turno e il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">4</style> [Combustion]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge +1 Conteggio [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnStartCoin] Infligge +10% danni per ogni 10 ([Combustion] + [Sinking]) su tutti i bersagli (max <style=\"highlight\">60</style>%)",
+                  "summary": "[OnStartCoin] Infligge più danno per ogni 10 ([Combustion] + [Sinking]) su tutti i bersagli"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Innesca [Combustion] sul bersaglio una volta; infine, riduce il suo Conteggio [Combustion] di 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

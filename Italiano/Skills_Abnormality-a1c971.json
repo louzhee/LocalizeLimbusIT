@@ -1,0 +1,689 @@
+{
+    "dataList": [
+        {
+            "id": 108001,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Pioggia di Pietre",
+                    "desc": "[WhenUse] Se il bersaglio ha 5+ [Vibration], Potere Base +1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 8 [Vibration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Vibration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 108002,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Accumula Pietre",
+                    "desc": "[WinDuel] Se il bersaglio ha [Vibration], Potere Base +2",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 8 [Vibration]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] sul bersaglio di 1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 108003,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Accidia in Aumento",
+                    "desc": "[WhenUse] Potere Moneta +1 per ogni 3 [Vibration] sul bersaglio (max 3)\n[WinDuel] Portata Attacco +1 per ogni 5 [Vibration] sul bersaglio principale (max 2)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Innesca [Switch_Vibration] in [VibrationEcho]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Innesca [VibrationExplosion] una volta per ogni Conteggio [Vibration] sul bersaglio (max 2); riduce poi il Conteggio [Vibration] sul bersaglio di 2"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge +4 Conteggio [Vibration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 108004,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Blocco",
+                    "desc": "Se colpito: Finchè rimane dello Scudo, infligge 2 [Vibration] sull'attaccante\n[WhenUse] Ottiene 3 [Protection]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 108101,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Impatto Decadente",
+                    "desc": "[WhenUse] Se il bersaglio ha 5+ [Sinking], Potere Moneta +1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 2 [Sinking] e +2 Conteggio [Sinking]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 108102,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Torrente",
+                    "desc": "[WhenUse] Se il bersaglio ha [Sinking], Potere Base +2",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 8 [Sinking] e +2 Conteggio [Sinking]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 4 [Sinking] e +2 Conteggio [Sinking] su 2 bersagli casuali"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 108103,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Pioggia di Tristezza",
+                    "desc": "[WhenUse] Potere Moneta +1 per ogni 3 [Sinking] sul bersaglio (max 3)\n[WinDuel] Portata Attacco +1 per ogni 5 [Sinking] sul bersaglio (max 2)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 5 [Sinking] e +4 Conteggio [Sinking]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Potere della prossima Moneta +1 per ogni 3 [Sinking] sul bersaglio (max 3)"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] Innesca [SinkingSurge]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 108104,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Evasione",
+                    "desc": "[OnSucceedEvade] Il bersaglio perde 5 PS",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 107901,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Abbatti",
+                    "desc": "[WhenUse] Consuma 20 [BloodDinner]: ottiene 1 [BloodArmor] per ogni 10 [BloodDinner] consumata\n[WhenUse] Potere Moneta +1 per ogni 10 [BloodArmor] (max 2)\n[WhenUse] Potere Moneta +1 per ogni 15 [Laceration] su di sé (max 3)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 5 [Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 5 [Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 107902,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Ferisci",
+                    "desc": "[WhenUse] Consuma 20 [BloodDinner]: ottiene 1 [BloodArmor] per ogni 10 [BloodDinner] consumata\n[WhenUse] Potere Moneta +1 per ogni 10 [BloodArmor] (max 2)\n[WhenUse] Potere Moneta +1 per ogni 15 [Laceration] su di sé (max 3)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 107903,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Tecnica del Sangue Coagulato di Don Quixote 4 - Divisione",
+                    "desc": "[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1\n[WinDuel] Infligge +20% danni per ogni livello di [BloodArmor] (max 60%)\n[DefeatDuel] Consuma 4 [BloodArmor]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 5 [Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 5 [Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 107904,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Tecnica del Sangue Coagulato di Don Quixote 11 - Impalare",
+                    "desc": "[WhenUse] per ogni 3 [Laceration] sul bersaglio, Potere Base +1 (max 3)\n[WinDuel] Infligge +20% danni per ogni livello di [BloodArmor] (max 60%)\n[DefeatDuel] Consuma 4 [BloodArmor]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Attiva il [Laceration] sul bersaglio per ogni Conteggio. Il Conteggio [Laceration] del bersaglio scende a 1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 107905,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Tecnica Segreta del Sangue Coagulato di Don Quixote 4 - Rintraccia, Variante Sancho",
+                    "desc": "Dà priorità al bersaglio con più [Laceration]\n[BeforeAttack] Portata Attacco +1 per ogni 10 [BloodArmor] su di sé (max 3)\n[WhenUse] Potere Scontro +1 per ogni 5 [Laceration] sul bersaglio (max 3)\n[WhenUse] Consuma fino a 30 [BloodDinner]: ottiene 1 [BloodArmor] e Potere Moneta +1 per ogni 15 [BloodDinner] consumata (max 2)\n- Se non può consumare [BloodDinner], ottiene 10 [Laceration] e attiva immediatamente il [Laceration] su di sé. Perde 1 Conteggio [Laceration] \n[EndSkill] Aumenta [BloodDinner] pari al danno inflitto da quest'Abilità",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 8 [Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 1 [Binding] nel turno successivo\n- Se quest'Abilità ha consumato 30 [BloodDinner], infligge 2 [Binding] in più"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 107906,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Tecnica Segreta del Sangue Coagulato di Don Quixote 3 - Imboscata, Variante Sancho",
+                    "desc": "Dà priorità al bersaglio con più [Laceration]\n[BeforeAttack] Portata Attacco +1 per ogni 10 [BloodArmor] su di sé (max 2)\n[WhenUse] Potere Scontro +1 per ogni 5 [Laceration] sul bersaglio (max 3)\n[WhenUse] Consuma fino a 30 [BloodDinner]: ottiene 1 [BloodArmor] e Potere Moneta +1 per ogni 15 [BloodDinner] consumata (max 2)\n- Se non può consumare [BloodDinner], ottiene 10 [Laceration] e attiva immediatamente il [Laceration] su di sé. Perde 1 Conteggio [Laceration] \n[EndSkill] Aumenta [BloodDinner] pari al danno inflitto da quest'Abilità",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 1 [Paralysis] nel turno successivo\n- Se quest'Abilità ha consumato 50 [BloodDinner], infligge 2 [Paralysis] in più"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 107907,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Tecnica del Sangue Coagulato di Don Quixote 2 - Sangue Coagulato",
+                    "desc": "Ci si può Scontrare con quest'Abilità a prescindere dalla Velocità\n[StartBattle] Ottiene 1 [SwirlingBlood]\n[StartBattle] Consuma 100 [BloodDinner]; ottiene 1 [BloodArmor] e 20 Scudo per ogni 10 [BloodDinner] consumata\n- Se non ha consumato abbastanza [BloodDinner], ottiene 50 [Laceration] e attiva immediatamente il [Laceration] su di sé. Perde 2 Conteggio [Laceration]. Ottiene 200 Scudo (questo danno non può uccidere l'unità)\n[DefeatDuel] Finchè c'è ancora dello Scudo, ottiene 3 [Vulnerable]\n[DefeatDuel] Infligge -50% danni\n[EndSkill] Termina il turno",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 5 [Laceration] e +3 Conteggio [Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 107908,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "La Aventura Ha Terminado",
+                    "desc": "Infligge +10% danni per ogni [Laceration] sul bersaglio (max 200%)\nInfligge +10% danni per ogni 3 [BloodArmor] (max 100%)\n[StartBattle] Consuma (45 - PS attuali) [BloodDinner] e recupera fino a 45 PS\n- Se non c'è abbastanza [BloodDinner], ottiene 20 [Laceration] e recupera fino a 45 PS\n- Ottiene Scudo pari all'[BloodDinner] rimasta (max 100)\n[WinDuel] Infligge 10 [Laceration]\n[EndSkill] Aumenta [BloodDinner] pari al danno inflitto\n[EndSkill] Se il bersaglio è sconfitto, aumenta [BloodDinner] pari ai PV max del bersaglio",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 10 [Laceration] e +3 Conteggio [Laceration]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 5 [Laceration] e +3 Conteggio [Laceration] su ogni nemico (esclude il bersaglio)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 107909,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "La Aventura Ha Terminado...",
+                    "desc": "Infligge +40% danni per ogni 10 (sum of [Laceration] on all targets]) (max 200%)\nInfligge +10% danni per ogni [BloodDinner] consumata da questa unità (max 100%)\n[StartBattle] Consuma (45 - PS attuali) [BloodDinner] e recupera fino a 45 PS\n- Se non c'è abbastanza [BloodDinner], ottiene 20 [Laceration] e recupera fino a 45 PS\n- Ottiene Scudo pari all'[BloodDinner] rimasta (max 100)\n[WinDuel] Infligge 10 [Laceration]\n[EndSkill] Aumenta [BloodDinner] pari al danno inflitto sul bersaglio\n[EndSkill] Se il bersaglio è sconfitto, aumenta [BloodDinner] pari ai PV max del bersaglio",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "Infligge 10 [Laceration] e +3 Conteggio [Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 108201,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Compressione",
+                    "desc": "[WhenUse] Potere Finale +1 per ogni 5 [Breath] su di sé (max 3)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
+                                },
+                                {
+                                    "desc": "[CriticalOnSucceedAttack] Infligge 3 [Vibration] e +2 Conteggio [Vibration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 108202,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Decostruire",
+                    "desc": "[WhenUse] Potere Finale +1 per ogni 3 [Breath] su di sé (max 5)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 3 [Vibration]"
+                                },
+                                {
+                                    "desc": "[WinDuelAttack] Infligge +3 Conteggio [Vibration]"
+                                },
+                                {
+                                    "desc": "[CriticalOnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] sul bersaglio di 1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 108203,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Condurre l'Analisi",
+                    "desc": "[WhenUse] A 10+ [Breath], consuma Potenza [Breath] e ottiene +2 Potere Finale per ogni 3 [Breath] consumati (max 4)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Se il bersaglio 5+ Conteggio [Vibration], innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] sul bersaglio di 1"
+                                },
+                                {
+                                    "desc": "[WinDuelAttack] Infligge 5 [Vibration] e +3 Conteggio [Vibration]"
+                                },
+                                {
+                                    "desc": "[CriticalOnSucceedAttack] Innesca [VibrationExplosion] due volte; riduce poi il Conteggio [Vibration] sul bersaglio di 2"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 108204,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Avviare la Sequenza di Estinzione",
+                    "desc": "[WhenUse] Consuma la metà della Potenza e del Conteggio [Breath] su di sé\n- Ottiene (Potenza + Conteggio [Breath] consumati / 2) Potere Finale (max 20)\n- Infligge +(Potenza + Conteggio [Breath] consumati x 2)% danni (max 50%)\n- +(Potenza + Conteggio [Breath] consumati x 4)% danni su Colpo Critico(max 100%)\n[DefeatDuel] Dimezza il Conteggio [Breath] rimasto su di sé",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "Se non ha subito danni ai PV nel turno precedente, garantisce un Colpo Critico"
+                                },
+                                {
+                                    "desc": "Se ha subito danni ai PV nel turno precedente, non può eseguire un Colpo Critico e infligge -80% danni"
+                                },
+                                {
+                                    "desc": "[CriticalOnSucceedAttack] Innesca [VibrationExplosion] tre volte; riduce poi il Conteggio [Vibration] sul bersaglio di 3"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 108205,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Riflessione",
+                    "desc": "[WhenUse] Potere Finale +1 per ogni [Breath] su di sé (max 5)\n[WhenUse] Ottiene 4 [Breath]\n- Se ha Scudo, ottiene anche +2 Conteggio [Breath]",
+                    "coinlist": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 137801,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Compressione",
+                    "desc": "[WhenUse] Potere Finale +1 per ogni 5 [Breath] su di sé (max 3)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
+                                },
+                                {
+                                    "desc": "[CriticalOnSucceedAttack] Infligge 3 [Vibration] e +2 Conteggio [Vibration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 137802,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Decostruire",
+                    "desc": "[WhenUse] Potere Finale +1 per ogni 3 [Breath] su di sé (max 5)\n<color=#ff6000><mark=#ff000040><b><u>[WhenUse] Se il bersaglio ha 20+ [ObservedPerson], converte tutte le Monete di quest'Abilità in [SuperCoin]</u></b></mark></color>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 3 [Vibration]"
+                                },
+                                {
+                                    "desc": "[WinDuelAttack] Infligge +3 Conteggio [Vibration]"
+                                },
+                                {
+                                    "desc": "[CriticalOnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] sul bersaglio di 1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 137803,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Condurre l'Analisi",
+                    "desc": "[WhenUse] A 10+ [Breath], consuma Potenza [Breath] e ottiene +2 Potere Finale per ogni 3 [Breath] consumati (max 4)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Se il bersaglio ha 5+ Conteggio [Vibration], innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] sul bersaglio di 1"
+                                },
+                                {
+                                    "desc": "[WinDuelAttack] Infligge 5 [Vibration] e +3 Conteggio [Vibration]"
+                                },
+                                {
+                                    "desc": "[CriticalOnSucceedAttack] Innesca [VibrationExplosion] due volte; riduce poi il Conteggio [Vibration] sul bersaglio di 2"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 137804,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Avviare la Sequenza di Estinzione",
+                    "desc": "[WhenUse] Consuma la metà della Potenza e del Conteggio [Breath] su di sé\n- Ottiene (Potenza + Conteggio [Breath] consumati / 2) Potere Finale (max 20)\n- Infligge +(Potenza + Conteggio [Breath] consumati x 2)% danni (max 50%)\n- +(Potenza + Conteggio [Breath] consumati x 4)% danni su Colpo Critico(max 100%)\n[DefeatDuel] Dimezza il Conteggio [Breath] rimasto su di sé",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "Se non ha subito danni ai PV nel turno precedente, garantisce un Colpo Critico"
+                                },
+                                {
+                                    "desc": "Se ha subito danni ai PV nel turno precedente, non può eseguire un Colpo Critico e infligge -80% danni"
+                                },
+                                {
+                                    "desc": "[CriticalOnSucceedAttack] Innesca [VibrationExplosion] tre volte; riduce poi il Conteggio [Vibration] sul bersaglio di 3"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 137805,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Riflessione",
+                    "desc": "[CanDuelGuard]\n[WhenUse] Potere Finale +1 per ogni 3 [Breath] su di sé (max 5)\n[WhenUse] Ottiene 4 [Breath]\n- Se ha Scudo, ottiene anche +2 [Breath]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

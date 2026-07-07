@@ -1,0 +1,879 @@
+{
+  "dataList": [
+    {
+      "id": 2030511,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tumulo dei Desideri",
+          "abName": "Venerazione della Pagoda",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 [Laceration] Conteggio"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Tumulo dei Desideri",
+          "abName": "Venerazione della Pagoda",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +4 [Laceration] Conteggio"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Paralysis]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Tumulo dei Desideri",
+          "abName": "Venerazione della Pagoda",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +4 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Paralysis]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2030521,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tumulo dei Desideri",
+          "abName": "Venerazione della Pagoda",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Innesca [VibrationExplosion]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 4 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Innesca [VibrationExplosion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Tumulo dei Desideri",
+          "abName": "Venerazione della Pagoda",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Innesca [VibrationExplosion]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 6 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Innesca [VibrationExplosion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Tumulo dei Desideri",
+          "abName": "Venerazione della Pagoda",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Innesca [VibrationExplosion]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 8 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Innesca [VibrationExplosion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2030611,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Strillo Elettrico",
+          "abName": "Pecora Elettrica Sognante",
+          "desc": "[BeforeAttack] Ottiene (Rison. Invidia - 2) Portata Attacco (max 1)\n[BeforeAttack] Se quest'unità ha 20+ Conteggio [Charge], spende 20 Conteggio [Charge] per infliggere +30% danni",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EnemyKill] Ottiene +2 Conteggio [Charge]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Strillo Elettrico",
+          "abName": "Pecora Elettrica Sognante",
+          "desc": "[BeforeAttack] Ottiene (Rison. Invidia - 2) Portata Attacco (max 2)\n[BeforeAttack] Infligge +((Rison. Invidia - 3) x 5)% danni (max 15%)\n[BeforeAttack] Se quest'unità ha 20+ Conteggio [Charge], spende 20 Conteggio [Charge] per infliggere +35% danni",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EnemyKill] Ottiene +2 Conteggio [Charge]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Strillo Elettrico",
+          "abName": "Pecora Elettrica Sognante",
+          "desc": "[BeforeAttack] Ottiene (Rison. Invidia - 2) Portata Attacco (max 3)\n[BeforeAttack] Infligge +((Rison. Invidia - 3) x 10)% danni (max 30%)\n[BeforeAttack] Se quest'unità ha 20+ Conteggio [Charge], spende 20 Conteggio [Charge] per infliggere +40% danni",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EnemyKill] Gain +2 Conteggio [Charge]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2030621,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Strillo Elettrico",
+          "abName": "Pecora Elettrica Sognante",
+          "desc": "[CantIdentify]\nBersaglia Casualmente\n[BeforeAttack] Ottiene (Rison. Invidia - 2) Portata Attacco (max 1)\n[BeforeAttack] Infligge +((Envy Reson. - 3) x 5)% danni (max 15%)\n[BeforeAttack] A meno di 20 Conteggio [Charge], usa 1.5% dei PV Max di quest'unità per ogni Conteggio [Charge] rimanente per arrivare a 20 Conteggio [Charge]\n[BeforeAttack] Spende fino a 20 Conteggio [Charge] per infliggere +2.5% danni per ogni Conteggio [Charge] speso (max 50%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EnemyKill] Ottiene +3 Conteggio [Charge]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Strillo Elettrico",
+          "abName": "Pecora Elettrica Sognante",
+          "desc": "[CantIdentify]\nBersaglia Casualmente\n[BeforeAttack] Ottiene (Rison. Invidia - 2) Portata Attacco (max <style=\"highlight\">2</style>)\n[BeforeAttack] Infligge +((Rison. Invidia - 3) x <style=\"highlight\">8</style>)% danni (max <style=\"highlight\">24</style>%)\n[BeforeAttack] A meno di 20 Conteggio [Charge], usa l'1.5% dei PV Max di quest'unità per ogni Conteggio [Charge] rimanente per arrivare a 20 Conteggio [Charge]\n[BeforeAttack] Spende fino a 20 Conteggio [Charge] per infliggere +<style=\"highlight\">3.5</style>% danni per ogni Conteggio [Charge] speso (max <style=\"highlight\">70</style>%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EnemyKill] Ottiene +3 Conteggio [Charge]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Strillo Elettrico",
+          "abName": "Pecora Elettrica Sognante",
+          "desc": "[CantIdentify]\nBersaglia Casualmente\n[BeforeAttack] Ottiene (Rison. Invidia - 2) Portata Attacco (max <style=\"highlight\">3</style>)\n[BeforeAttack] Infligge +((Rison. Invidia - 3) x <style=\"highlight\">12</style>)% danni (max <style=\"highlight\">36</style>%)\n[BeforeAttack]A meno di 20 Conteggio [Charge], usa l'<style=\"highlight\">1</style>% dei PV Max di quest'unità per ogni Conteggio [Charge] rimanente per arrivare a 20 Conteggio [Charge]\n[BeforeAttack] Spende fino a 20 Conteggio [Charge] per infliggere +<style=\"highlight\">5</style>%danni per ogni Conteggio [Charge] speso (max <style=\"highlight\">100</style>%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EnemyKill] Ottiene +3 Conteggio [Charge]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2030711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Mircalla Bramante",
+          "abName": "Quattrocento Rose",
+          "desc": "I PV di questa unità non scendono al di sotto di 1 quando si usa quest'Abilità.\nPotere Scontro +1 per ogni 100 [BloodDinner_Accumulation] da quest'unità (max 2)\n[BeforeAttack] A meno di 50 [BloodDinner], infligge 1 [Laceration] con ogni colpo\n[EndSkill] Per 3 Turni, perde 10 PS a Fine Turno.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Infligge +0.1% danni oer ogni [BloodDinner_Common_Accumulation] (max 10%)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "A 100+ [BloodDinner_Common_Accumulation]: infligge +0.1% danni per ogni valore (max 10%)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "A 200+ [BloodDinner_Common_Accumulation]: infligge +0.1% danni per ogni valore (max 20%)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "A 300+ [BloodDinner_Common_Accumulation]: infligge +0.1% danni per ogni valore (max 30%)"
+                },
+                {
+                  "desc": "[WinDuelAttack] Infligge [ThirstyRose] in base alla Rison-A Lussuria più alta (max 3)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Mircalla Bramante",
+          "abName": "Quattrocento Rose",
+          "desc": "I PV di questa unità non scendono al di sotto di 1 quando si usa quest'Abilità.\n<style=\"highlight\">Se il bersaglio ha 10+ [Laceration], Potere Moneta +1</style>\nPotere Scontro +1 per ogni 100 [BloodDinner_Accumulation] da quest'unità (max <style=\"highlight\">3</style>)\n[BeforeAttack] A meno di <style=\"highlight\">75</style> [BloodDinner], infligge 1 [Laceration] con ogni colpo\n[EndSkill] Per 3 Turni, perde 10 PS a Fine Turno.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Infligge +0.1% danni per ogni [BloodDinner_Common_Accumulation] (max <style=\"highlight\">10</style>%)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "A 100+ [BloodDinner_Common_Accumulation]: infligge +0.1% danni per ogni valore (max <style=\"highlight\">15</style>%)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "A 200+ [BloodDinner_Common_Accumulation]: infligge +0.1% danni per ogni valore (max <style=\"highlight\">25</style>%)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "A 300+ [BloodDinner_Common_Accumulation]: infligge +0.1% danni per ogni valore (max <style=\"highlight\">40</style>%)"
+                },
+                {
+                  "desc": "[WinDuelAttack] Infligge [ThirstyRose] in base alla Rison-A Lussuria più alta (max 3)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Mircalla Bramante",
+          "abName": "Quattrocento Rose",
+          "desc": "I PV di questa unità non scendono al di sotto di 1 quando si usa quest'Abilità.\n<style=\"highlight\">Potere Moneta +1 per ogni 10 [Laceration] sul bersaglio (max 2)</style>\nPotere Scontro +1 per ogni 100 [BloodDinner_Accumulation] da quest'unità (max <style=\"highlight\">5</style>)\n[BeforeAttack] A meno di <style=\"highlight\">100</style> [BloodDinner], infligge 1 [Laceration] con ogni colpo\n[EndSkill] Per 3 Turni, perde 10 PS a Fine Turno.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Infligge +0.1% danni per ogni [BloodDinner_Common_Accumulation] (max 10%)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "A 100+ [BloodDinner_Common_Accumulation]: infligge +0.1% danni per ogni valore (max <style=\"highlight\">20</style>%)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "A 200+ [BloodDinner_Common_Accumulation]: infligge +0.1% danni per ogni valore (max <style=\"highlight\">30</style>%)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "A 300+ [BloodDinner_Common_Accumulation]: infligge +0.1% danni per ogni valore (max <style=\"highlight\">50</style>%)"
+                },
+                {
+                  "desc": "[WinDuelAttack] Infligge [ThirstyRose] in base alla Rison-A Lussuria più alta (max <style=\"highlight\">4</style>)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2030721,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Mircalla Bramante",
+          "abName": "Quattrocento Rose",
+          "desc": "[CantIdentify]\nBersaglia Casualmente\nI PV di questa unità non scendono al di sotto di 1 quando si usa quest'Abilità.\nSe il bersaglio ha 10+ [Laceration], Potere Moneta -1\n[BeforeAttack] A meno di 150 [BloodDinner], infligge 1 [Laceration] con ogni colpo\n[BeforeAttack] Ottiene 20 [Laceration], ed attiva [Laceration] su sé immediatamente. Perde 2 Conteggio [Laceration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration] per ogni 50 [BloodDinner_Common_Accumulation] (max 10)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] A 100- [BloodDinner], infligge 10 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Infligge +5% danni per ogni 100 [BloodDinner_Common_Accumulation] (max 25%)"
+                },
+                {
+                  "desc": "[WinDuelAttack] Infligge [ThirstyRose] in base alla Rison-A Lussuria più alta (max 3)"
+                },
+                {
+                  "desc": "[WinDuelAttack] Si cura del 50% dei danni inflitti ai PV (max 10)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Mircalla Bramante",
+          "abName": "Quattrocento Rose",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nI PV di questa unità non scendono al di sotto di 1 quando si usa quest'Abilità.\nSe il bersaglio ha 10+ [Laceration], Potere Moneta -1\n<style=\"highlight\">A 200+ [BloodDinner_Accumulation] da quest'unità, Potere Moneta -1</style>\n[BeforeAttack] A meno di 150 [BloodDinner], infligge 1 [Laceration] con ogni colpo\n[BeforeAttack] Ottiene 20 [Laceration], ed attiva [Laceration] su sé immediatamente. Perde 2 Conteggio [Laceration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration] per ogni 50 [BloodDinner_Common_Accumulation] (max 10)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] A 100- [BloodDinner], infligge 10 [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Infligge +<style=\"highlight\">10</style>% danni per ogni 100 [BloodDinner_Common_Accumulation] (max <style=\"highlight\">50</style>%)"
+                },
+                {
+                  "desc": "[WinDuelAttack] Infligge [ThirstyRose] in base alla Rison-A Lussuria più alta (max <style=\"highlight\">4</style>)"
+                },
+                {
+                  "desc": "[WinDuelAttack] Si cura del 50% dei danni inflitti ai PV (max 10)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Mircalla Bramante",
+          "abName": "Quattrocento Rose",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nI PV di questa unità non scendono al di sotto di 1 quando si usa quest'Abilità.\nSe il bersaglio ha 10+ [Laceration], Potere Moneta -1\nA 200+ [BloodDinner_Accumulation] da quest'unità, Potere Moneta -1\n[BeforeAttack] A meno di 150 [BloodDinner], infligge 1 [Laceration] con ogni colpo\n[BeforeAttack] Ottiene 20 [Laceration], ed attiva [Laceration] su sé immediatamente. Perde 2 Conteggio [Laceration]<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration] per ogni 50 [BloodDinner_Common_Accumulation] (max 10)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] A 100- [BloodDinner], infligge 10 [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Infligge +<style=\"highlight\">20</style>% danni per ogni 100 [BloodDinner_Common_Accumulation] (max <style=\"highlight\">100</style>%)"
+                },
+                {
+                  "desc": "[WinDuelAttack] Infligge [ThirstyRose] in base alla Rison-A Lussuria più alta (max <style=\"highlight\">5</style>)"
+                },
+                {
+                  "desc": "[WinDuelAttack] Si cura del 50% dei danni inflitti ai PV (max 10)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+     },
+    {
+      "id": 2030811,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Foglio Rosso",
+          "abName": "Affinché Nessuno Pianga",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge (4 + Rison. Gola) [EntangledCurseTalisman] (max 10)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge ([EntangledCurseTalisman] sul bersaglio / 2) [Burst] (max 3, arrotondato per difetto)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +([EntangledCurseTalisman] sul bersaglio / 4) Conteggio [Burst] (max 2, arrotondato per difetto)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Foglio Rosso",
+          "abName": "Affinché Nessuno Pianga",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge (4 + Rison. Gola) [EntangledCurseTalisman] (max 10)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">Infligge +3% danni per ogni [EntangledCurseTalisman] sul bersaglio (max 30%)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge ([EntangledCurseTalisman] sul bersaglio / 2) [Burst] (max 3, arrotondato per difetto)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +([EntangledCurseTalisman] sul bersaglio / 4) Conteggio [Burst] (max 2, arrotondato per difetto)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Foglio Rosso",
+          "abName": "Affinché Nessuno Pianga",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge (4 + Rison. Gola) [EntangledCurseTalisman] (max 10)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Infligge +<style=\"highlight\">5</style>% danni per ogni [EntangledCurseTalisman] sul bersaglio (max <style=\"highlight\">50</style>%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge ([EntangledCurseTalisman] sul bersaglio / 2) [Burst] (max <style=\"highlight\">4</style>, arrotondato per difetto)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +([EntangledCurseTalisman] sul bersaglio / 4) Conteggio [Burst] (max 2, arrotondato per difetto)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2030821,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Foglio Rosso",
+          "abName": "Affinché Nessuno Pianga",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge (6 + Rison. Gola) [EntangledCurseTalisman] (max 10)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Infligge +5% danni per ogni [EntangledCurseTalisman] sul bersaglio (max 50%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge ([EntangledCurseTalisman] sul bersaglio / 2) [Burst] (max 3, arrotondato per difetto)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +([EntangledCurseTalisman] sul bersaglio / 3) Conteggio [Burst] (max 2, arrotondato per difetto)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Foglio Rosso",
+          "abName": "Affinché Nessuno Pianga",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge (6 + Rison. Gola) [EntangledCurseTalisman] (max 10)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Infligge +<style=\"highlight\">10</style>% danni per ogni [EntangledCurseTalisman] sul bersaglio (max <style=\"highlight\">100</style>%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge ([EntangledCurseTalisman] sul bersaglio / 2) [Burst] (max 3, arrotondato per difetto)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +([EntangledCurseTalisman] sul bersaglio / 3) Conteggio [Burst] (max 2, arrotondato per difetto)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Foglio Rosso",
+          "abName": "Affinché Nessuno Pianga",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge (6 + Rison. Gola) [EntangledCurseTalisman] (max 10)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Infligge +10% danni per ogni [EntangledCurseTalisman] sul bersaglio (max 100%)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge ([EntangledCurseTalisman] sul bersaglio / 2) [Burst] (max <style=\"highlight\">4</style>, arrotondato per difetto)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +([EntangledCurseTalisman] sul bersaglio / 3) Conteggio [Burst] (max 2, arrotondato per difetto)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2030911,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Nel Nome dell'Amore e dell'Odio - Arcana Beats Maggiore!!!",
+          "abName": "La Regina dell'Odio",
+          "desc": "[BeforeAttack] Applica 1 [MagicalGirlResponse] ad altri (1 + (Rison. Invidia / 3)) alleati casuali (max 3 alleati)\n\n[BeforeAttack] Ottiene +([Charge] - 1) Portata Attacco (max 3)\n\n[EndSkill] Consuma tutto il Conteggio [Charge] su di sé per curare (2 + (Rison. Invidia / 2)) alleati con la percentuale più bassa di PV del (Conteggio [Charge] consumato)% dei PV (max 5 alleati, max 5%)\n\n[EndSkill] Se quest'unità è E.G.O della Lobotomy::Nel Nome dell'Amore e <noparse>dell'Odio</noparse> Don Quixote, ottiene 1 [ArcanaQueenOfHate]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Charge] (5 per turno)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge [VillainMark] al bersaglio principale il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge ([Charge] - 1) [Burst] (max 2)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Nel Nome dell'Amore e dell'Odio - Arcana Beats Maggiore!!!",
+          "abName": "La Regina dell'Odio",
+          "desc": "[BeforeAttack] Applica 1 [MagicalGirlResponse] a (1 + (Rison. Invidia / 3)) altri alleati casuali (max 3 alleati)\n<style=\"highlight\">- Se quest'unità ha [MagicalGirlAppear], applica invece 2 [MagicalGirlResponse] ad altri (1 + (Rison. Invidia / 3)) alleati casuali (max 3 alleati)</style>\n\n[BeforeAttack] Ottiene +([Charge] - 1) Portata Attacco (max <style=\"highlight\">5</style>)\n[EndSkill] Consuma tutto il Conteggio [Charge] su di sé per curare (2 + (Rison. Invidia / 2)) alleati con la percentuale più bassa di PV del (Conteggio [Charge] consumato)% dei PV (max 5 alleati, max <style=\"highlight\">8</style>%)\n\n[EndSkill] Se quest'unità è E.G.O della Lobotomy::Nel Nome dell'Amore e <noparse>dell'Odio</noparse> Don Quixote, ottiene 1 [ArcanaQueenOfHate]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Charge] (5 per turno)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge [VillainMark] al bersaglio principale il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge ([Charge] - 1) [Burst] (max <style=\"highlight\">3</style>)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Nel Nome dell'Amore e dell'Odio - Arcana Beats Maggiore!!!",
+          "abName": "La Regina dell'Odio",
+          "desc": "[BeforeAttack] Applica 1 [MagicalGirlResponse] a (1 + (Rison. Invidia / <style=\"highlight\">2</style>)) altri alleati casual (max <style=\"highlight\">4</style> alleati)\n- Se quest'unità ha [MagicalGirlAppear], applica invece 2 [MagicalGirlResponse] ad altri (1 + (Rison. Invidia / <style=\"highlight\">2</style>)) alleati casuali (max <style=\"highlight\">4</style> alleati)\n\n[BeforeAttack] Ottiene +([Charge] - 1) Portata Attacco (max 5)\n<style=\"highlight\">- Se quest'unità ha [MagicalGirlAppear], ottiene invece +([Charge]) Portata Attacco (max 5)</style>\n\n[EndSkill]Consuma tutto il Conteggio [Charge] su di sé per curare (2 + (Rison. Invidia / 2)) alleati con la percentuale più bassa di PV del (Conteggio [Charge] consumato)% dei PV (max 5 alleati, max <style=\"highlight\">10</style>%)\n\n[EndSkill] Se quest'unità è E.G.O della Lobotomy::Nel Nome dell'Amore e <noparse>dell'Odio</noparse> Don Quixote, ottiene 1 [ArcanaQueenOfHate]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +<style=\"highlight\">2</style> Conteggio [Charge] (<style=\"highlight\">10</style> per turno)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge [VillainMark] al bersaglio principale il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge ([Charge] - 1) [Burst] (max <style=\"highlight\">4</style>)"
+                },
+                {
+                  "desc": "<style=\"highlight\">- Se quest'unità ha [MagicalGirlAppear], infligge +1 Conteggio [Burst]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2030921,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Arcana Beats Rovesciato Potenziato - Obliterazione dell'Odio",
+          "abName": "La Regina dell'Odio",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene +([Charge]) Portata Attacco (max 5)\n\n[BeforeAttack] Consuma tutto il Conteggio [Charge] ed infligge +1% danni aggiuntivi per ogni Conteggio [Charge] consumato (max 20%)\n\n[BeforeAttack] Se il bersaglio principale ha [VillainMark], infligge +3% danni per ogni [Charge] (max 15%)\n\n[BeforeAttack] Infligge +5% danni per ogni 3 Rison. Invidia (max 10%, arrotondato per difetto)\n\n[BeforeAttack] Potere Base -12 per ogni Moneta Infranta (max -24)\n\n[EndSkill] Se questa unità è E.G.O della Lobotomy::Nel Nome dell'Amore e <noparse>dell'Odio</noparse> Don Quixote, ottiene 1 [HystericGauge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Charge] (7 volte per turno)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Infligge [VillainMark] al bersaglio principale il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge ([Charge] - 1) [Sinking] (max 2)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Arcana Beats Rovesciato Potenziato - Obliterazione dell'Odio",
+          "abName": "La Regina dell'Odio",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene +([Charge]) Portata Attacco (max 5)\n<style=\"highlight\">- Se quest'unità ha [NoVillain], ottiene invece +([Charge] + 1) Portata Attacco (max 5)</style>\n\n[BeforeAttack] Consuma tutto il Conteggio [Charge] ed infligge +<style=\"highlight\">2</style>% danni aggiuntivi per ogni Conteggio [Charge] consumato (max <style=\"highlight\">40</style>%)\n\n[BeforeAttack] Se il bersaglio principale ha [VillainMark], infligge +<style=\"highlight\">5</style>% danni per ogni [Charge] (max <style=\"highlight\">25</style>%)\n<style=\"highlight\">- Se quest'unità ha [HystericGauge], infligge invece +7% danni per ogni [Charge] (max 35%)</style>\n\n[BeforeAttack] Infligge +<style=\"highlight\">7</style>% danni per ogni 2 Rison. Invidia (max <style=\"highlight\">21</style>%, arrotondato per difetto)\n\n[BeforeAttack] Potere Base -12 per ogni Moneta Infranta (max -24)\n\n[EndSkill] Se quest'unità è E.G.O della Lobotomy::Nel Nome dell'Amore e <noparse>dell'Odio</noparse> Don Quixote, ottiene 1 [HystericGauge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Charge] (<style=\"highlight\">10</style> per turno)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Infligge [VillainMark] al bersaglio principale il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge ([Charge] - 1) [Sinking] (max <style=\"highlight\">3</style>)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Arcana Beats Rovesciato Potenziato - Obliterazione dell'Odio",
+          "abName": "La Regina dell'Odio",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene +([Charge]) Portata Attacco (max 5)\n- Se quest'unità ha [NoVillain], ottiene invece +([Charge] + 1) Portata Attacco (max 5)\n\n[BeforeAttack] Consuma tutto il Conteggio [Charge] ed infligge <style=\"highlight\">+2.5%</style> danni aggiuntivi per ogni Conteggio [Charge] consumato (max <style=\"highlight\">50</style>%)\n\n[BeforeAttack] Se il bersaglio principale ha [VillainMark], infligge +5% danni per ogni [Charge] (max 25%)\n- Se quest'unità ha [HystericGauge], infligge invece +<style=\"highlight\">10</style>% danni per ogni [Charge] (max <style=\"highlight\">50</style>%)\n\n[BeforeAttack] Infligge +<style=\"highlight\">10</style>% danni per ogni 2 Rison. Invidia (max <style=\"highlight\">30</style>%, arrotondato per difetto)\n\n[BeforeAttack] Potere Base -12 per ogni Moneta Infranta (max -24)\n\n[EndSkill] Se quest'unità è E.G.O della Lobotomy::Nel Nome dell'Amore e <noparse>dell'Odio</noparse> Don Quixote, ottiene 1 [HystericGauge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Charge] (<style=\"highlight\">14</style> per turno)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Infligge [VillainMark] al bersaglio principale il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge ([Charge] - 1) [Sinking] (max <style=\"highlight\">4</style>)"
+                },
+                {
+                  "desc": "<style=\"highlight\">- Se quest'unità ha [NoVillain], infligge +1 Conteggio [Sinking]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

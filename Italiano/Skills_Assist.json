@@ -1,0 +1,650 @@
+{
+  "dataList": [
+    {
+      "id": 40000101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Colpo Cremisi",
+          "desc": "[WhenUse] Se il bersaglio ha 5+ tipi di effetti negativi, Potere Scontro +1\n[WhenUse] Potere Base +1 per ogni 3 [Burst] sul bersaglio (max 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Ottiene 1 [AttackUp] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Ottiene 1 [AttackUp] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Colpo Cremisi Seconda Forma - Lacerazione (破)",
+          "desc": "[WhenUse] Se il bersaglio ha 5+ tipi di effetti negativi, Potere Scontro +1\n[WhenUse] Potere Base +1 per ogni 3 [Burst] sul bersaglio (max 2)\n[WhenUse] Potere Moneta +1 per ogni 6 [Burst] sul bersaglio (max 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Ottiene 1 [AttackUp] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Ottiene 1 [AttackUp] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Colpo Cremisi Terza Forma - Forza (强)",
+          "desc": "[WhenUse] Se il bersaglio ha 5+ tipi di effetti negativi, Potere Scontro +2\n[WhenUse] Potere Base +1 per ogni 3 [Burst] sul bersaglio (max 2)\n[WhenUse] Potere Moneta +1 per ogni 6 [Burst] sul bersaglio (max 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst] e +2 Conteggio [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Ottiene 1 [AttackUp] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst] e +2 Conteggio [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Ottiene 1 [AttackUp] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Colpo Cremisi Quarta Forma - Legante (束)",
+          "desc": "[WhenUse] Se il bersaglio ha 5+ tipi di effetti negativi, Potere Scontro +2\n[WhenUse] Potere Base +1 per ogni 3 [Burst] sul bersaglio (max 2)\n[WhenUse] Potere Moneta +1 per ogni 6 [Burst] sul bersaglio (max 2)\n[WhenUse] Ottiene 3 [Agility] il turno successivo (1 volta per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst] e +2 Conteggio [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Ottiene 1 [AttackUp] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst] e +2 Conteggio [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Ottiene 1 [AttackUp] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Binding] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "name": "Colpo Cremisi Quinta Forma - Avanza (進)",
+          "desc": "[WhenUse] Se il bersaglio ha 5+ tipi di effetti negativi, Potere Scontro +2\n[WhenUse] Potere Base +1 per ogni 3 [Burst] sul bersaglio (max 2)\n[WhenUse] Potere Moneta +1 per ogni 6 [Burst] sul bersaglio (max 2)\n[WhenUse] Ottiene 3 [Agility] il turno successivo (1 volta per turno)\n[WhenUse] Ottiene 3 [Breath] e +2 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst] e +2 Conteggio [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Ottiene 1 [AttackUp] il turno successivo"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst] e +2 Conteggio [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Ottiene 1 [AttackUp] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Binding]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Riusa questa Moneta (2 volte max)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fenice Cremisi",
+          "desc": "[WhenUse] Se il bersaglio ha 5+ tipi di effetti negativi, Potere Moneta +1\n[WhenUse] Potere Moneta +1 per ogni 6 [Burst] sul bersaglio (max 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [DefenseDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 3 [AttackUp] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]. Ottiene [Breath] pari alla [Burst] sul bersaglio (max 5)"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Ottiene 3 [Breath] il turno successivo. Ottiene Conteggio [Breath] pari al Conteggio [Burst] sul bersaglio il turno successivo (max 2)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Infligge +50% Danni sul Colpo Critico"
+                },
+                {
+                  "desc": "[CriticalEnemyTargetKillFail] Infligge +2 Conteggio [Burst]"
+                },
+                {
+                  "desc": "[CriticalEnemyTargetKill] Ottiene 3 [AttackUp] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Fenice Cremisi Seconda Forma - Lacerazione (破)",
+          "desc": "[WhenUse] Se il bersaglio ha 4+ tipi di effetti negativi, Potere Moneta +1\n[WhenUse] Potere Moneta +1 per ogni 6 [Burst] sul bersaglio (max 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [DefenseDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 3 [AttackUp] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]. Ottiene [Breath] pari alla [Burst] sul bersaglio (max 5)"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Ottiene 3 [Breath] il turno successivo. Ottiene Conteggio [Breath] pari al Conteggio [Burst] sul bersaglio il turno successivo (max 2)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Infligge +50% Danni sul Colpo Critico"
+                },
+                {
+                  "desc": "[CriticalEnemyTargetKillFail] Infligge +2 Conteggio [Burst]"
+                },
+                {
+                  "desc": "[CriticalEnemyTargetKill] Ottiene 3 [AttackUp] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Fenice Cremisi Terza Forma - Incendio (炎)",
+          "desc": "[WhenUse] Se il bersaglio ha 4+ tipi di effetti negativi, Potere Moneta +1\n[WhenUse] Potere Moneta +1 per ogni 6 [Burst] sul bersaglio (max 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [DefenseDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 3 [AttackUp] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene [Breath] pari alle ([Burst] + [Combustion]) sul bersaglio (max 10)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene Conteggio [Breath] pari al (Conteggio [Burst] + Conteggio [Combustion]) sul bersaglio (max 5)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Infligge +50% Danni sul Colpo Critico"
+                },
+                {
+                  "desc": "[CriticalEnemyTargetKillFail] Infligge +2 Conteggio [Burst]"
+                },
+                {
+                  "desc": "[CriticalEnemyTargetKill] Ottiene 3 [AttackUp] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Fenice Cremisi Quarta Forma - Qi (氣)",
+          "desc": "[WhenUse] Se il bersaglio ha 4+ tipi di effetti negativi, Potere Moneta +1\n[WhenUse] Potere Moneta +1 per ogni 3 [Burst] sul bersaglio (max 2)\n[WhenUse] Ottiene 3 [Breath] e +2 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [DefenseDown]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 3 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 3 [AttackUp] il turno successivo"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 3 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene [Breath] pari alle ([Burst] + [Combustion]) sul bersaglio (max 10)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene Conteggio [Breath] pari al (Conteggio [Burst] + Conteggio [Combustion]) sul bersaglio (max 5)"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 2 [Vulnerable]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Infligge +50% Danni sul Colpo Critico"
+                },
+                {
+                  "desc": "[CriticalEnemyTargetKillFail] Infligge +2 Conteggio [Burst]"
+                },
+                {
+                  "desc": "[CriticalEnemyTargetKill] Ottiene 3 [AttackUp] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "name": "Fenice Cremisi Quinta Forma - Ali (翼)",
+          "desc": "[WhenUse] Se il bersaglio ha 4+ tipi di effetti negativi, Potere Moneta +1\n[WhenUse] Potere Moneta +1 per ogni 3 [Burst] sul bersaglio (max 2)\n[WhenUse] Ottiene 3 [Breath] e +2 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [DefenseDown]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 3 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 3 [AttackUp] il turno successivo"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 3 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene [Breath] pari alle ([Burst] + [Combustion]) sul bersaglio (max 10)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene Conteggio [Breath] pari al (Conteggio [Burst] + Conteggio [Combustion]) sul bersaglio (max 5)"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 2 [Vulnerable]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Infligge +50% Danni sul Colpo Critico"
+                },
+                {
+                  "desc": "[CriticalEnemyTargetKillFail] Infligge +2 Conteggio [Burst]"
+                },
+                {
+                  "desc": "[CriticalEnemyTargetKill] Ottiene 3 [AttackUp] il turno successivo"
+                },
+                {
+                  "desc": "[CriticalEnemyTargetKillFail] Usa Taglio Cremisi contro il bersaglio"
+                },
+                {
+                  "desc": "[CriticalEnemyTargetKill] Usa Taglio Cremisi contro un nemico casuale"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Primavera Cremisi",
+          "desc": "[BeforeAttack] Ottiene +1 Portata Attacco per ogni 4 tipi di effetti negativi sul bersaglio (max 2)\n[WhenUse] Se il bersaglio ha 5+ tipi di effetti negativi, Potere Base +5\n[WhenUse] Se il bersaglio ha 15+ ([Burst] + Conteggio [Burst]), Potere Moneta +5\n[WinDuel] Infligge +2 Conteggio [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 7 [Laceration]"
+                },
+                {
+                  "desc": "Infligge il 200% di danni in più su Colpo Critico"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge +3 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Ottiene 2 [Breath] e +1 Conteggio [Breath]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Primavera Cremisi Seconda Forma - Passione (熱)",
+          "desc": "[BeforeAttack] Ottiene +1 Portata Attacco per ogni 3 tipi di effetti negativi sul bersaglio (max 2)\n[WhenUse] Se il bersaglio ha 5+ tipi di effetti negativi, Potere Base +5\n[WhenUse] Potere Moneta +1 per ogni 3 ([Burst] + Conteggio [Burst] sul bersaglio) (max 5)\n[WinDuel] Infligge +2 Conteggio [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 7 [Laceration]"
+                },
+                {
+                  "desc": "Infligge il 200% di danni in più su Colpo Critico"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge +3 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Ottiene 2 [Breath] e +1 Conteggio [Breath]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Primavera Cremisi Terza Forma - Decapitazione (斬)",
+          "desc": "[BeforeAttack] Ottiene +1 Portata Attacco per ogni 3 tipi di effetti negativi sul bersaglio (max 2)\n[WhenUse] Se il bersaglio ha 5+ tipi di effetti negativi, Potere Base +5\n[WhenUse] Potere Moneta +1 per ogni 3 ([Burst] + Conteggio [Burst] sul bersaglio) (max 5)\n[WinDuel] Infligge +2 Conteggio [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Ottiene 2 [Breath] e +1 Conteggio [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 7 [Laceration]"
+                },
+                {
+                  "desc": "Infligge il 200% di danni in più su Colpo Critico"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge +3 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Ottiene 2 [Breath] e +1 Conteggio [Breath]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Primavera Cremisi Quarta Forma - Flusso (巡)",
+          "desc": "[BeforeAttack] Ottiene +1 Portata Attacco per ogni 3 tipi di effetti negativi sul bersaglio (max 2)\n[WhenUse] Se il bersaglio ha 5+ tipi di effetti negativi, Potere Base +5\n[WhenUse] Potere Moneta +1 per ogni 3 ([Burst] + Conteggio [Burst] sul bersaglio) (max 5)\n[WinDuel] Infligge +2 Conteggio [Burst]\n[WhenUse] Ottiene 5 [Breath] e +2 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Ottiene 2 [Breath] e +1 Conteggio [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 7 [Laceration]"
+                },
+                {
+                  "desc": "Infligge il 200% di danni in più su Colpo Critico"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge +3 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Ottiene 2 [Breath] e +1 Conteggio [Breath]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "name": "Primavera Cremisi Quinta Forma - 花 (Fiore)",
+          "desc": "[BeforeAttack] Ottiene +1 Portata Attacco per ogni 3 tipi di effetti negativi sul bersaglio (max 2)\n[WhenUse] Se il bersaglio ha 5+ tipi di effetti negativi, Potere Base +5\n[WhenUse] Potere Moneta +1 per ogni 3 ([Burst] + Conteggio [Burst] sul bersaglio) (max 5)\n[WinDuel] Infligge +2 Conteggio [Burst]\n[WhenUse] Ottiene 5 [Breath] e +2 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Ottiene 2 [Breath] e +1 Conteggio [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 7 [Laceration]"
+                },
+                {
+                  "desc": "Infligge il 200% di danni su Colpo Critico"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge +3 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Ottiene 2 [Breath] e +1 Conteggio [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +10% damage per ogni type of negative effect sul bersaglio (max 50%)"
+                },
+                {
+                  "desc": "Infligge +50% Danni sul Colpo Critico"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 3 [Agility] il turno successivo (1 volta per turno)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Evasione Esperta",
+          "desc": "[OnSucceedEvade] Ottiene 1 [Breath] il turno successivo. (3 volte per Abilità)"
+        },
+        {
+          "level": 2,
+          "name": "Evasione Esperta",
+          "desc": "[OnSucceedEvade] Ottiene 3 [Breath] il turno successivo. (2 volte per Abilità)"
+        },
+        {
+          "level": 3,
+          "name": "Evasione Esperta",
+          "desc": "[WhenUse] Potere Base +2 per ogni 2 tipi di effetti negativi sul bersaglio (max 10)\n[OnSucceedEvade] Ottiene 3 [Breath] il turno successivo. (2 volte per Abilità)"
+        },
+        {
+          "level": 4,
+          "name": "Evasione Esperta - Contrattacco Reindirizzato",
+          "desc": "[WhenUse] Potere Base +2 per ogni 2 tipi di effetti negativi sul bersaglio (max 10)\n[OnSucceedEvade] Ottiene 3 [Breath] il turno successivo. (2 volte per Abilità)\n[OnSucceedEvade] Usa Taglio Cremisi (1 volta per turno)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+    "dataList": [
+        {
+            "id": 112701,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Fine Dei Test",
+                    "desc": "[WhenUse] Ottiene 3 [HitDamageUp] il turno successivo\n[WhenUse] Se il bersaglio principale ha 3+ [MiddleFingerBook], converte tutte le monete di quest'Abilità in [SuperCoin]",
+                    "coinlist": [
+                        {},
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 1 [Binding] il turno successivo"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 112702,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Sofferenza Promessa",
+                    "desc": "Dà priorità al nemico con più [MiddleFingerBook]\n[WhenUse] Se il bersaglio ha 3+ [MiddleFingerBook], converte tutte le monete di quest'Abilità in [SuperCoin]s",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 1 [Vulnerable] in questo turno e nel turno successivo"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 1 [Vulnerable] in questo turno e nel turno successivo"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge ([MiddleFingerBook] sul bersaglio x 3) danni Contundenti bonus"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Rimuove ogni [MiddleFingerBook] sul bersaglio"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 112703,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Basta Giochetti",
+                    "desc": "[StartBattle] Tutti gli alleati recuperano 10 PS\n[EndBattle] Se ci sono alleati in stato di Panico, essi ne escono il turno successivo e i loro PS tornano a 0\n[EndBattle] Applica 1 [HitResultUp] a tutti gli alleati (include questa unità)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 112704,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "VI CONDANNO A MORTE!!!",
+                    "desc": "Ci si può Scontrare con l'Abilità a prescindere dalla Velocità\nSe il bersaglio principale ha 5+ [MiddleFingerBook], Potere Finale +5\n[DefeatDuel] Infligge -80% danno finale e il danno inflitto da questa Abilità non può Stordire il bersaglio\nEndSkill] Rimuove ogni [MiddleFingerBook] da ogni bersaglio colpito",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge ([MiddleFingerBook] sul bersaglio x 10) danni Contundenti bonus"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 112601,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Colpo Stordente",
+                    "desc": "[WhenUse] Se il bersaglio ha 5+ [Burst], Potere Scontro +1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 112602,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Uccisione Perforante",
+                    "desc": "[WhenUse] Se il bersaglio ha 5+ [Burst], Potere Scontro +1\n[WhenUse] Ottiene 3 [LegStrength]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Se il bersaglio ha [BurstAgility], ottiene 1 [Agility] il turno successivo"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 112603,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Colpo Incisore",
+                    "desc": "[WhenUse] Se il bersaglio ha 5+ [Burst], Potere Scontro +1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge [BurstAgility]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 112604,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Lama Macellaia Maledetta - Scatto Fulmineo",
+                    "desc": "Dà priorità ai bersagli con [BurstAgility]\nInfligge +15% danni per ogni 2 differenza di Velocità (max 60%)\n[WhenUse] Potere Moneta +1 per ogni 5 [Burst] sul bersaglio (max 2)\n[WhenUse] Potere Base +1 per ogni 2 Conteggio [Burst] sul bersaglio (max 3)\n[EndSkill] A 10+ Velocità, se sconfigge il bersaglio, Riusa questa Abilità su un nemico a caso (una volta per turno)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Burst]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 5 [Burst]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "Se il bersaglio ha [BurstAgility], +50% danni"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge 5 [Burst]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 112605,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Lama Coperta di Maledizioni",
+                    "desc": "[DuelCounter]\n[WhenUse] Se il bersaglio ha [BurstAgility], gli effetti di questa Abilità infliggono +1 Conteggio [Burst]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Infligge +1 [Burst] Conteggio"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

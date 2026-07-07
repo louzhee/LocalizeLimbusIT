@@ -1,0 +1,756 @@
+{
+  "dataList": [
+    {
+      "id": 122301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Disperazione a Cascata",
+          "desc": "[WhenUse] Se il bersaglio ha 4+ [Sinking], Potere Moneta +1\n[WinDuel] Infligge [ColdBlackTear] pari al numero di Monete rimanenti",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lacrime Affilate",
+          "desc": "[WhenUse] Se il bersaglio ha 4+ [Sinking], Potere +1\n[WhenUse] Se il bersaglio ha 20 o più PS, Potere Base +1\n[WinDuel] Infligge [ColdBlackTear] pari al numero di Monete rimanenti",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fiume di Lacrime Disperate",
+          "desc": "[WhenUse] Potere Base +1 per ogni 4 [Sinking] sul bersaglio (max 2)\n[WhenUse] Se il bersaglio ha 1+ [ColdBlackTear], Potere Moneta +1\n[DefeatDuel] Ingligge -80% danni; i danni inflitti da quest'Abilità non possono Stordire il bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 1 [ColdBlackTear]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 1 [ColdBlackTear]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 1 [ColdBlackTear]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 1 [ColdBlackTear]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 1 [ColdBlackTear]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tristezza Condivisa, Offuscata",
+          "desc": "[WhenUse] Infligge 1 [ColdBlackTear]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 3+ [ColdBlackTear], infligge 1 [Vulnerable]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122305,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Violenta Cascata della Disperazione Vacua",
+          "desc": "Dà priorità ai bersagli con le Stack maggiori di [ColdBlackTear]\n[WhenUse] Se il bersaglio ha 5+ [ColdBlackTear], Potere Moneta +5",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge danno fisso pari al ([ColdBlackTear] Stack sul bersaglio x 6)% dei PV max del bersaglio, per poi rimuovere tutte le Stack di [ColdBlackTear] sul bersaglio"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122306,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Arcana: Strappa e Perfora",
+          "desc": "Usa quest'Abilità quando un nemico usa Fulmin​e Arcano, e quando quest'unità non ha [CollapsedPride]\nContrattacca solo Fulmin​e Arcano",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [ColdBlackTear]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [ColdBlackTear]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [ColdBlackTear]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [ColdBlackTear]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge danno fisso pari al ([ColdBlackTear] Stack sul bersaglio x 6)% dei PV max del bersaglio, per poi rimuovere tutte le Stack di [ColdBlackTear] sul bersaglio (ignora le Resistenze)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fede Sbiadita",
+          "desc": "[WhenUse] Potere Scontro +1 per ogni 4 [Sinking] sul bersaglio (max 2)\n[WhenUse] Se il bersaglio ha 10 o più PS, Potere Base +1\n[WhenUse] Se il bersaglio ha 20 o più PS, Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Orgoglio Consunto",
+          "desc": "[WhenUse] Potere Scontro +1 per ogni 4 [Sinking] sul bersaglio (max 2)\n[WhenUse] Se il bersaglio ha 10 o più PS, Potere Base +1\n[WhenUse] Se il bersaglio ha 20 o più PS, Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Disperazione Senza Fine",
+          "desc": "[WhenUse] Potere Scontro +1 per ogni 4 [Sinking] sul bersaglio (max 2)\n[WhenUse] Se il bersaglio ha 10 o più PS, Potere Base +1\n[WhenUse] Se il bersaglio ha 20 o più PS, Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Spada Affilata con le Lacrime",
+          "desc": "[WhenUse] Potere Moneta +5 per ogni 6 [Sinking] sul bersaglio (max 10)\n[WhenUse] Se il bersaglio ha [ColdBlackTear], Potere Finale +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 6+ [Sinking], infligge ([Sinking] sul bersaglio / 10) [DefenseDown] il turno successivo (arrotondato per difetto)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122405,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Spada Intrisa di Dolore",
+          "desc": "[WhenUse] Potere Moneta +3 per ogni 6 [Sinking] sul bersaglio (max 6)\n[WhenUse] Potere Base +1 per ogni Contegio [ColdBlackTear] sul bersaglio (max 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge danno da Tristezza bonus pari al (Potere Abilità)% dei PV max del bersaglio (max 30)\n- Se il bersaglio ha 2+ [ColdBlackTear], infligge nuovamente danno da Tristezza bonus"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fede Sbiadita",
+          "desc": "[WhenUse] Potere Scontro +1 per ogni 4 [Sinking] sul bersaglio (max 2)\n[WhenUse] Se il bersaglio ha 10 o più PS, Potere Base +1\n[WhenUse] Se il bersaglio ha 20 o più PS, Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Orgoglio Consunto",
+          "desc": "[WhenUse] Potere Scontro +1 per ogni 4 [Sinking] sul bersaglio (max 2)\n[WhenUse] Se il bersaglio ha 10 o più PS, Potere Base +1\n[WhenUse] Se il bersaglio ha 20 o più PS, Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Disperazione Senza Fine",
+          "desc": "[WhenUse] Potere Scontro +1 per ogni 4 [Sinking] sul bersaglio (max 2)\n[WhenUse] Se il bersaglio ha 10 o più PS, Potere Base +1\n[WhenUse] Se il bersaglio ha 20 o più PS, Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Spada Affilata con le Lacrime",
+          "desc": "[WhenUse] Potere Moneta +5 per ogni 6 [Sinking] sul bersaglio (max 10)\n[WhenUse] Se il bersaglio ha [ColdBlackTear], Potere Finale +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 6+ [Sinking], infligge ([Sinking] sul bersaglio / 10) [DefenseDown] il turno successivo (arrotondato oer difetto)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122505,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Spada Intrisa di Dolore",
+          "desc": "[WhenUse] Potere Moneta +3 per ogni 6 [Sinking] sul bersaglio (max 6)\n[WhenUse] Potere Base +1 per ogni Conteggio [ColdBlackTear] sul bersaglio (max 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge danno da Tristezza bonus pari al (Potere Abilità)% dei PV max del bersaglio (max 30)\n- Se il bersaglio ha 2+ [ColdBlackTear], infligge nuovamente danno da Tristezza bonus"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fede Sbiadita",
+          "desc": "[WhenUse] Potere Scontro +1 per ogni 4 [Sinking] sul bersaglio (max 2)\n[WhenUse] Se il bersaglio ha 10 o più PS, Potere Base +1\n[WhenUse] Se il bersaglio ha 20 o più PS, Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Orgoglio Consunto",
+          "desc": "[WhenUse] Potere Scontro +1 per ogni 4 [Sinking] sul bersaglio (max 2)\n[WhenUse] Se il bersaglio ha 10 o più PS, Potere Base +1\n[WhenUse] Se il bersaglio ha 20 o più PS, Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Disperazione Senza Fine",
+          "desc": "[WhenUse] Potere Scontro +1 per ogni 4 [Sinking] sul bersaglio (max 2)\n[WhenUse] Se il bersaglio ha 10 o più PS, Potere Base +1\n[WhenUse] Se il bersaglio ha 20 o più PS, Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Spada Affilata con le Lacrime",
+          "desc": "[WhenUse] Potere Moneta +5 per ogni 6 [Sinking] sul bersaglio (max 10)\n[WhenUse] Se il bersaglio ha [ColdBlackTear], Potere Finale +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 6+ [Sinking], infligge ([Sinking] sul bersaglio / 10) [DefenseDown] il turno successivo (arrotondato per difetto)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Spada Intrisa di Dolore",
+          "desc": "[WhenUse] Potere Moneta +3 per ogni 6 [Sinking] sul bersaglio (max 6)\n[WhenUse] Potere Base +1 per ogni Conteggio [ColdBlackTear] sul bersaglio (max 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge danno da Tristezza bonus pari al (Potere Abilità)% dei PV max del bersaglio (max 30)\n- Se il bersaglio ha 2+ [ColdBlackTear], infligge nuovamente danno da Tristezza bonus"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fede Sbiadita",
+          "desc": "[WhenUse] Potere Scontro +1 per ogni 4 [Sinking] sul bersaglio (max 2)\n[WhenUse] Se il bersaglio ha 10 o più PS, Potere Base +1\n[WhenUse] Se il bersaglio ha 20 o più PS, Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Orgoglio Consunto",
+          "desc": "[WhenUse] Potere Scontro +1 per ogni 4 [Sinking] sul bersaglio (max 2)\n[WhenUse] Se il bersaglio ha 10 o più PS, Potere Base +1\n[WhenUse] Se il bersaglio ha 20 o più PS, Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Disperazione Senza Fine",
+          "desc": "[WhenUse] Potere Scontro +1 per ogni 4 [Sinking] sul bersaglio (max 2)\n[WhenUse] Se il bersaglio ha 10 o più PS, Potere Base +1\n[WhenUse] Se il bersaglio ha 20 o più PS, Potere Moneta +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Spada Affilata con le Lacrime",
+          "desc": "[WhenUse] Potere Moneta +5 per ogni 6 [Sinking] sul bersaglio (max 10)\n[WhenUse] Se il bersaglio ha [ColdBlackTear], Potere Finale +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 6+ [Sinking], infligge ([Sinking] sul bersaglio / 10) [DefenseDown] il turno successivo (arrotondato per difetto)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Spada Intrisa di Dolore",
+          "desc": "[WhenUse] Potere Moneta +3 per ogni 6 [Sinking] sul bersaglio (max 6)\n[WhenUse] Potere Base +1 per ogni Conteggio [ColdBlackTear] sul bersaglio (max 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge danno da Tristezza bonus pari al (Potere Abilità)% dei PV max del bersaglio (max 30)\n- Se il bersaglio ha 2+ [ColdBlackTear], infligge nuovamente danno da Tristezza bonus"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

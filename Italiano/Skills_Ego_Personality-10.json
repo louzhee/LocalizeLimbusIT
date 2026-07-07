@@ -1,0 +1,1042 @@
+{
+  "dataList": [
+    {
+      "id": 2100411,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lanterna",
+          "abName": "Lanterna Fatata",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 3 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Cura 2 alleati con la minore percentuale di PV del 10% dei PV Max di quest'unità."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Lanterna",
+          "abName": "Lanterna Fatata",
+          "desc": "[BeforeAttack] A 50%- PV, Portata Attacco +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 3 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Cura 2 alleati con la minore percentuale di PV del 12% dei PV Max di quest'unità."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Lanterna",
+          "abName": "Lanterna Fatata",
+          "desc": "[BeforeAttack] A 50%- PV, Portata Attacco +2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Cura 2 alleati con la minore percentuale di PV del 15% dei PV Max di quest'unità."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2100421,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lanterna",
+          "abName": "Lanterna Fatata",
+          "desc": "[CantIdentify] \nBersaglia l'unità con i PV maggiori",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] Infligge +2 Conteggio [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si cura del 30% del danno inflitto"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Lanterna",
+          "abName": "Lanterna Fatata",
+          "desc": "[CantIdentify]\nBersaglia l'unità con i PV maggiori\n[BeforeAttack] A 50%- PV, Portata Attacco +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] Infligge +3 Conteggio [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [DefenseDown]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si cura del 50% del danno inflitto"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Lanterna",
+          "abName": "Lanterna Fatata",
+          "desc": "[CantIdentify]\nBersaglia l'unità con i PV maggiori\n[BeforeAttack] A 50%- PV, Portata Attacco +2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [DefenseDown]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si cura del 50% del danno inflitto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2100511,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "9:2",
+          "abName": "Profeta della Pelle",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio non ha [Combustion], infligge 4 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "9:2",
+          "abName": "Profeta della Pelle",
+          "desc": "[BeforeAttack] A 4+ (Rison. Lussuria), Portata Attacco +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio non ha [Combustion], infligge 4 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "9:2",
+          "abName": "Profeta della Pelle",
+          "desc": "[BeforeAttack] A 4+ (Rison. Lussuria), Portata Attacco +1\n[BeforeAttack] A 4+ (Rison-A Lussuria più alta), Portata Attacco +1 in più",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio non ha [Combustion], infligge 4 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Se il bersaglio ha 10+ [Combustion], infligge 1 Attack Power Down e 1 Defense Power Down il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2100521,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "9:2",
+          "abName": "Profeta della Pelle",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio non ha [Combustion], infligge 6 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "9:2",
+          "abName": "Profeta della Pelle",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] A 4+ (Rison. Lussuria), Portata Attacco +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio non ha [Combustion], infligge 6 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Se il bersaglio ha 10+ [Combustion], infligge 1 Lust Fragility il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "9:2",
+          "abName": "Profeta della Pelle",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] A 4+ (Rison. Lussuria), Portata Attacco +1\n[BeforeAttack] A 4+ (Rison-A Lussuria più alta), Portata Attacco +1 in più",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio non ha [Combustion], infligge 6 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Se il bersaglio ha 10+ [Combustion], infligge 2 Lust Fragility il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2100611,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Pianto Greve",
+          "abName": "Rana Piagnucolona",
+          "desc": "[BeforeAttack] A 4+ Rison. più alta, Portata Attacco +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] Applica uno Scudo pari al 10% dei PV Max di quest'unità a sé e ad 1 altro alleato con i PV più bassi. Applica, inoltre, 2 [ShieldManagerCryingToad]"
+                },
+                {
+                  "desc": "- A 4+ Rison. più alta, applica lo Scudo ad 1 alleato in più"
+                },
+                {
+                  "desc": "- Se l'unità che riceve lo Scudo ha già [ShieldManagerCryingToad], cambia il valore di [ShieldManagerCryingToad] a 2"
+                },
+                {
+                  "desc": "- A 4+ Rison-A Tristezza più alta, l'effetto sopracitato di quest'Abilità cambia in 'applica 3 [ShieldManagerCryingToad]' e 'cambia il valore di [ShieldManagerCryingToad] a 3'."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Pianto Greve",
+          "abName": "Rana Piagnucolona",
+          "desc": "<style=\"highlight\">[BeforeAttack] Ottiene (Rison. più alta - 2) Portata Attacco (max 2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] Applica uno Scudo pari al <style=\"highlight\">14%</style> dei PV Max di quest'unità a sé ed a <style=\"highlight\">(1 + (Rison. più alta - 2))</style> alleati con i PV più bassi. Applica, inoltre, 2 [ShieldManagerCryingToad]\n<style=\"highlight\">(max # di alleati che ottiene [ShieldManagerCryingToad]: 3).</style>"
+                },
+                {
+                  "desc": "- Se l'unità che riceve lo Scudo ha già [ShieldManagerCryingToad], cambia il valore di [ShieldManagerCryingToad] a 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "- A 4+ Rison-A Tristezza più alta, l'effetto sopracitato di quest'Abilità cambia in 'applica 3 [ShieldManagerCryingToad]' e 'cambia il valore di [ShieldManagerCryingToad] a 3'.<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Pianto Greve",
+          "abName": "Rana Piagnucolona",
+          "desc": "[BeforeAttack] Ottiene (Rison. più alta - 2) Portata Attacco (max 2)<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] Applica uno Scudo pari al <style=\"highlight\">20%</style> dei PV Max di quest'unità a sé ed a (1 + (Rison. più alta - 2)) alleati con i PV più bassi. Applica, inoltre, 2 [ShieldManagerCryingToad]\n(max # di alleati che ottiene [ShieldManagerCryingToad]: 3)"
+                },
+                {
+                  "desc": "- Se l'unità che riceve lo Scudo ha già [ShieldManagerCryingToad], cambia il valore di [ShieldManagerCryingToad] a 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "- A 4+ Rison-A Tristezza più alta, l'effetto sopracitato di quest'Abilità cambia in 'applica 3 [ShieldManagerCryingToad]' e 'cambia il valore di [ShieldManagerCryingToad] a 3'.<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2100621,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Pianto Greve",
+          "abName": "Rana Piagnucolona",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] A 4+ Rison. più alta, Portata Attacco +1\n[BeforeAttack] Ottiene +5 [Aggro] per questo Slot Abilità il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
+                },
+                {
+                  "desc": "[EndSkill] Ottiene uno Scudo pari al (15 + 2.5(Rison. più alta))% dei PV Max di quest'unità e 2 [ShieldManagerCryingToad]. (max 25%)"
+                },
+                {
+                  "desc": "- Se quest'unità ha già [ShieldManagerCryingToad], cambia il valore di [ShieldManagerCryingToad] a 2"
+                },
+                {
+                  "desc": "- A 4+ Rison-A Tristezza più alta, l'effetto sopracitato di quest'Abilità cambia in 'applica 3 [ShieldManagerCryingToad]' e 'cambia il valore di [ShieldManagerCryingToad] a 3'."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Pianto Greve",
+          "abName": "Rana Piagnucolona",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n<style=\"highlight\">[BeforeAttack] Ottiene (Rison. più alta - 2) Portata Attacco (max 2)</style>\n[BeforeAttack] Ottiene <style=\"highlight\">+10 [Aggro]</style> su questo Slot Abilità il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[EndSkill] Ottiene uno Scudo pari al (<style=\"highlight\">18</style> + <style=\"highlight\">3</style>(Rison. più alta))% dei PV Max di quest'unità e 2 [ShieldManagerCryingToad]. (max <style=\"highlight\">30%</style>)"
+                },
+                {
+                  "desc": "- Se quest'unità ha già [ShieldManagerCryingToad], cambia il valore di [ShieldManagerCryingToad] a 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "- A 4+ Rison-A Tristezza più alta, l'effetto sopracitato di quest'Abilità cambia in 'applica 3 [ShieldManagerCryingToad]' e 'cambia il valore di [ShieldManagerCryingToad] a 3'.<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Pianto Greve",
+          "abName": "Rana Piagnucolona",
+          "desc": "[CantIdentify]\nBersaglia casualmene\n[BeforeAttack] Ottiene (Rison. più alta - 2) Portata Attacco (max 2)\n[BeforeAttack] Ottiene +10 [Aggro] per questo Slot Abilità il turno successivo<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking] e <style=\"highlight\">+3 Conteggio [Sinking]</style>"
+                },
+                {
+                  "desc": "[EndSkill] Ottiene uno Scudo pari al (<style=\"highlight\">20</style> + <style=\"highlight\">5</style>(Rison. più alta))% dei PV Max di quest'unità e 2 [ShieldManagerCryingToad]. (max <style=\"highlight\">40%</style>)"
+                },
+                {
+                  "desc": "- Se quest'unità ha già [ShieldManagerCryingToad], cambia il valore di [ShieldManagerCryingToad] a 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "- A 4+ Rison-A Tristezza più alta, l'effetto sopracitato di quest'Abilità cambia in 'applica 3 [ShieldManagerCryingToad]' e 'cambia il valore di [ShieldManagerCryingToad] a 3'.<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">- A 4+ Rison. Tristezza, ottiene un ulteriore Scudo pari al 10% dei PV Max di quest'unità</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2100711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Chiodo Stregato",
+          "abName": "Orsacchiotto Sofferente",
+          "desc": "[EndSkill] Se il bersaglio ha [Curse], attiva l'effetto immediatamento e lo riduce di 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Curse]\n- Infligge 1 [Curse] in più per ogni 3 effetti negativi sul bersaglio che non sono [Curse] o [NailPersonality] (max 2)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [NailPersonality]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Chiodo Stregato",
+          "abName": "Orsacchiotto Sofferente",
+          "desc": "<style=\"highlight\">[BeforeAttack] A 4+ Rison. Invidia (quest'Abilità inclusa) Portata Attacco +1</style>\n[EndSkill] Se il bersaglio ha [Curse], attiva subito l'effetto per due volte e lo riduce di 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Curse]\n- Infligge 1 [Curse] in più in più per ogni 3 effetti negativi sul bersaglio che non sono [Curse] o [NailPersonality] (max 2)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">3</style> [NailPersonality]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Infligge 2 [Binding] il turno successivo (1 volta per turno)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Chiodo Stregato",
+          "abName": "Orsacchiotto Sofferente",
+          "desc": "<style=\"highlight\">[BeforeAttack] Per ogni 3 Rison. Invidia (quest'Abilità inclusa), Portata Attacco +1 (max 2)</style>\n[EndSkill] Se il bersaglio ha [Curse], attiva subito l'effetto per due volte e lo riduce di 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Curse]\n- Infligge 1 [Curse] in più in più per ogni <style=\"highlight\">2</style> effetti negativi sul bersaglio che non sono [Curse] o [NailPersonality] (max 2)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [NailPersonality]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] A 4+ [Curse], infligge 1 [ParryingResultDown] (1 volta per turno)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Binding] il turno successivo (once per turn)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2100721,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Chiodo Stregato",
+          "abName": "Orsacchiotto Sofferente",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[EndSkill] Se il bersaglio ha [Curse], attiva subito l'effetto per due volte e lo riduce di 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Curse]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [NailPersonality]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Chiodo Stregato",
+          "abName": "Orsacchiotto Sofferente",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[EndSkill] Se il bersaglio ha [Curse], attiva subito l'effetto per due volte e lo riduce di 2<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] Infligge <style=\"highlight\">3</style> [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Curse]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">3</style> [NailPersonality]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Infligge 2 [Binding] il turno successivo (once per turn)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Chiodo Stregato",
+          "abName": "Orsacchiotto Sofferente",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[EndSkill] Se il bersaglio ha [Curse], attiva subito l'effetto per due volte e lo riduce di 2<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] Infligge 3 [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Curse]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [NailPersonality]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] A 4+ Rison. Invidia (quest'Abilità inclusa), infligge 1 [ParryingResultDown] (1 volta per turno)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Infligge 2 [Binding] il turno successivo (once per turn)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Infligge 2 [DefenseDown] il turno successivo (once per turn)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2100811,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lacrime del Sangue Impuro",
+          "abName": "Yinglong",
+          "desc": "[StartBattle] Gain [YesdragonNodie]\n[BeforeAttack] Gain [YesdragonSelf] equal to Gluttony Reson. (max 5)\n[BeforeAttack] Take ([YesdragonSelf] on self x 2) PV damage\n- Does not get Staggered if this lowers this unit's PV below a Stagger Threshold; instead, remove the Stagger Threshold higher than this unit's current PV\n[EndSkill] For 3 turns, lose 10 PS at Turn End",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] If this unit has 30% or less PV, or is at 20 [YesdragonSelf] Stack, Reuse this Coin (una volta per Abilità)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Consume all PV on self to deal +20% damage with this Coin (once per Turn)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Lacrime del Sangue Impuro",
+          "abName": "Yinglong",
+          "desc": "<style=\"highlight\">At 6+ [YesdragonSelf], Coin Power +1</style>\n[StartBattle] Gain [YesdragonNodie]\n[BeforeAttack] Gain [YesdragonSelf] equal to Gluttony Reson. (max 5)\n[BeforeAttack] Take ([YesdragonSelf] on self x 2) PV damage\n- Does not get Staggered if this lowers this unit's PV below a Stagger Threshold; instead, remove the Stagger Threshold higher than this unit's current PV\n[EndSkill] For 3 turns, lose 10 PS at Turn End",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">3</style> [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] If this unit has 30% or less PV, or is at 20 [YesdragonSelf] Stack, Reuse this Coin (una volta per Abilità)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Consume all PV on self to deal +20% damage with this Coin (once per Turn)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Lacrime del Sangue Impuro",
+          "abName": "Yinglong",
+          "desc": "<style=\"highlight\">Coin Power +1 for every 6 [YesdragonSelf] on self (max 3)</style>\n[StartBattle] Gain [YesdragonNodie]\n[BeforeAttack] Gain [YesdragonSelf] equal to Gluttony Reson. (max 5)\n[BeforeAttack] Take ([YesdragonSelf] on self x 2) PV damage\n- Does not get Staggered if this lowers this unit's PV below a Stagger Threshold; instead, remove the Stagger Threshold higher than this unit's current PV\n[EndSkill] For 3 turns, lose 10 PS at Turn End",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\"> Deal +1% damage for every 2% missing PV on self (max 40%)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] If this unit has 30% or less PV, or is at 20 [YesdragonSelf] Stack, Reuse this Coin (una volta per Abilità)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Consume all PV on self to deal +20% damage with this Coin (once per Turn)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2100821,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lacrime del Sangue Impuro",
+          "abName": "Yinglong",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[StartBattle] Gain [YesdragonNodie]\n[BeforeAttack] Gain (Gluttony Reson. + 4) [YesdragonSelf] (max 10)\n[BeforeAttack] Take ([YesdragonSelf] on self x 2) PV damage\nDoes not get Staggered if this lowers this unit's PV below a Stagger Threshold; instead, remove the Stagger Threshold higher than this unit's current PV",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] If this unit has 30% or less PV, or is at 20 [YesdragonSelf] Stack, Reuse this Coin (una volta per Abilità)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Consume all PV on self to deal +20% damage with this Coin (once per Turn)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Lacrime del Sangue Impuro",
+          "abName": "Yinglong",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n<style=\"highlight\">At 10+ [YesdragonSelf], Base Power +1</style>\n[StartBattle] Gain [YesdragonNodie]\n[BeforeAttack] Gain (Gluttony Reson. + 4) [YesdragonSelf] (max 10)\n[BeforeAttack] Take ([YesdragonSelf] on self x 2) PV damage\nDoes not get Staggered if this lowers this unit's PV below a Stagger Threshold; instead, remove the Stagger Threshold higher than this unit's current PV",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">3</style> [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] If this unit has 30% or less PV, or is at 20 [YesdragonSelf] Stack, Reuse this Coin (una volta per Abilità)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Consume all PV on self to deal +20% damage with this Coin (once per Turn)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Lacrime del Sangue Impuro",
+          "abName": "Yinglong",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n<style=\"highlight\">Base Power +1 for every 10 [YesdragonSelf] on self (max 2)</style>\n[StartBattle] Gain [YesdragonNodie]\n[BeforeAttack] Gain (Gluttony Reson. + 4) [YesdragonSelf] (max 10)\n[BeforeAttack] Take ([YesdragonSelf] on self x 2) PV damage\nDoes not get Staggered if this lowers this unit's PV below a Stagger Threshold; instead, remove the Stagger Threshold higher than this unit's current PV",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\"> Deal +1% damage for every 2% missing PV on self (max 40%)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] If this unit has 30% or less PV, or is at 20 [YesdragonSelf] Stack, Reuse this Coin (una volta per Abilità)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Consume all PV on self to deal +20% damage with this Coin (once per Turn)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2100911,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Armonia",
+          "abName": "Macchina Canterina",
+          "desc": "Potere Scontro +1 per ogni 2 ([Laceration] + [Combustion]) sul bersaglio principale (max 6)\nInfilgge più danno in base ai PV mancanti su di sé (max 10%)\nInfligge -50% danni ai bersagli secondari\n[TargetKill] Tutti gli alleati ottengono 2 [ThatIsRhythm] il turno successivo (una volta per Abilità)\n[EndSkill] Cura di 8 PS a (1 + Rison. più alta) altri alleati che hanno i PS più bassi (max 4 unità)\n[EndSkill] Per 2 turni, perde 8 PS a Fine Combattimento",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] A 10%+ PV, subisce 4 ~ 8 danni ai PV (una volta per Moneta)\n- Riusa infine questa Moneta (4 volte per Moneta)\n- Questo danno non Stordisce o riduce i PV di questa unità al di sotto di 1",
+                  "summary": "[OnSucceedAttackHead] Dopo aver usato i propri PV, Riusa questa Moneta"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Un alleato casuale ottiene 1 [ThatIsRhythm] il turno successivo (una volta per Moneta)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Armonia",
+          "abName": "Macchina Canterina",
+          "desc": "Potere Scontro +1 per ogni 2 ([Laceration] + [Combustion]) sul bersaglio principale (max <style=\"highlight\">8</style>)\nInfilgge più danno in base ai PV mancanti su di sé (max <style=\"highlight\">15</style>%)\nInfligge -50% danni ai bersagli secondari\n[TargetKill] Tutti gli alleati ottengono 2 [ThatIsRhythm] il turno successivo (una volta per Abilità)\n[EndSkill] Cura di <style=\"highlight\">10</style> PS a (1 + Rison. più alta) altri alleati che hanno i PS più bassi (max 4 unità)\n[EndSkill] Per 2 turni, perde 8 PS a Fine Combattimento",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] A 10%+ PV, subisce 4 ~ 8 danni ai PV (una volta per Moneta)\n- Riusa infine questa Moneta (4 volte per Moneta)\n- Questo danno non Stordisce o riduce i PV di questa unità al di sotto di 1",
+                  "summary": "[OnSucceedAttackHead] Dopo aver usato i propri PV, Riusa questa Moneta"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Un alleato casuale ottiene <style=\"highlight\">1 ~ 2</style> [ThatIsRhythm] il turno successivo (una volta per Moneta)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Armonia",
+          "abName": "Macchina Canterina",
+          "desc": "Potere Scontro +1 per ogni 2 ([Laceration] + [Combustion]) sul bersaglio principale (max <style=\"highlight\">10</style>)\nInfilgge più danno in base ai PV mancanti su di sé (max <style=\"highlight\">20</style>%)\nInfligge -50% danni ai bersagli secondari\n[TargetKill] Tutti gli alleati ottengono 2 [ThatIsRhythm] il turno successivo (una volta per Abilità)\n[EndSkill] Cura di <style=\"highlight\">12</style> PS a (1 + Rison. più alta) altri alleati che hanno i PS più bassi (max 4 unità)\n[EndSkill] Per 2 turni, perde 8 PS a Fine Combattimento",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] A 10%+ PV, subisce 4 ~ 8 danni ai PV (una volta per Moneta)\n- Riusa infine questa Moneta (4 volte per Moneta)\n- Questo danno non Stordisce o riduce i PV di questa unità al di sotto di 1",
+                  "summary": "[OnSucceedAttackHead] Dopo aver usato i propri PV, Riusa questa Moneta"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Un alleato casuale ottiene 1 ~ <style=\"highlight\">3</style> [ThatIsRhythm] il turno successivo (una volta per Moneta)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2100921,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Armonia",
+          "abName": "Macchina Canterina",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nPotere Scontro +1 per ogni 2 ([Laceration] + [Combustion]) sul bersaglio principale (max 6)\nInfilgge più danno in base ai PV mancanti su di sé (max 10%)\nInfligge -50% danni ai bersagli secondari\n[BeforeAttack] Ottiene Portata Att. pari a (Rison. più alta / 2) (max 2, arrotondato per difetto)\n[BeforeAttack] Potere Base -2 per ogni Moneta Rotta (max -6)\n[EndSkill] Cura 10 PS ad altri 4 alleati che hanno i PS più bassi\n[EndSkill] Tutti gli alleati ottengono 2 [ThatIsRhythm], 1 [CrimsonDamageUp], 1 [ScarletDamageUp], 1 [VioletDamageUp], 1 [Vulnerable] il turno successivo\n- Se il bersaglio è stato ucciso, l'effetto sopracitato si attiva un'altra volta",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] A 10%+ PV, subisce 10 ~ 20 danni ai PV (una volta per Moneta)\n- Riusa infine questa Moneta se la somma dei PV persi per questo effetto è meno di 50 (4 volte per Abilità)\n- Questo danno non Stordisce o riduce i PV di questa unità al di sotto di 1",
+                  "summary": "[OnSucceedAttack] Consuma i propri PV\nRiusa questa Moneta se le condizioni sono rispettate"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Un alleato casuale ottiene 1 [ThatIsRhythm] il turno successivo (una volta per Moneta)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Armonia",
+          "abName": "Macchina Canterina",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nPotere Scontro +1 per ogni 2 ([Laceration] + [Combustion]) sul bersaglio principale (max <style=\"highlight\">8</style>)\nInfilgge più danno in base ai PV mancanti su di sé (max <style=\"highlight\">15</style>%)\nInfligge -50% danni ai bersagli secondari\n[BeforeAttack] Ottiene Portata Att. pari a (Rison. più alta / 2) (max 2, arrotondato per difetto)\n[BeforeAttack] Potere Base -2 per ogni Moneta Rotta (max -6)\n[EndSkill] Cura <style=\"highlight\">12</style> PS ad altri 4 alleati che hanno i PS più bassi\n[EndSkill] Tutti gli alleati ottengono 2 [ThatIsRhythm], 1 [CrimsonDamageUp], 1 [ScarletDamageUp], 1 [VioletDamageUp], 1 [Vulnerable] il turno successivo\n- Se il bersaglio è stato ucciso, l'effetto sopracitato si attiva un'altra volta",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] A 10%+ PV, subisce 10 ~ 20 danni ai PV (una volta per Moneta)\n- Riusa infine questa Moneta se la somma dei PV persi per questo effetto è meno di 50 (4 volte per Abilità)\n- Questo danno non Stordisce o riduce i PV di questa unità al di sotto di 1",
+                  "summary": "[OnSucceedAttack] Consuma i propri PV\nRiusa questa Moneta se le condizioni sono rispettate"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Un alleato casuale ottiene <style=\"highlight\">1 ~ 2</style> [ThatIsRhythm] il turno successivo (una volta per Moneta)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Armonia",
+          "abName": "Macchina Canterina",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nPotere Scontro +1 per ogni 2 ([Laceration] + [Combustion]) sul bersaglio principale (max <style=\"highlight\">10</style>)\nInfilgge più danno in base ai PV mancanti su di sé (max <style=\"highlight\">20</style>%)\nInfligge -50% danni ai bersagli secondari\n[BeforeAttack] Ottiene Portata Att. pari a (Rison. più alta / 2) (max 2, arrotondato per difetto)\n[BeforeAttack] Potere Base -2 per ogni Moneta Rotta (max -6)\n[EndSkill] Cura <style=\"highlight\">15</style> PS ad altri 4 alleati che hanno i PS più bassi\n[EndSkill] Tutti gli alleati ottengono 2 [ThatIsRhythm], 1 [CrimsonDamageUp], 1 [ScarletDamageUp], 1 [VioletDamageUp], 1 [Vulnerable] il turno successivo\n- Se il bersaglio è stato ucciso, l'effetto sopracitato si attiva un'altra volta",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] A 10%+ PV, subisce 10 ~ 20 danni ai PV (una volta per Moneta)\n- Riusa infine questa Moneta se la somma dei PV persi per questo effetto è meno di 50 (4 volte per Abilità\n- Questo danno non Stordisce o riduce i PV di questa unità al di sotto di 1",
+                  "summary": "[OnSucceedAttack] Consuma i propri PV\nRiusa questa Moneta se le condizioni sono rispettate"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Un alleato casuale ottiene 1 ~ <style=\"highlight\">3</style> [ThatIsRhythm] il turno successivo (una volta per Moneta)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,884 @@
+{
+  "dataList": [
+    {
+      "id": 2120511,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Giardino delle Spine",
+          "abName": "Insegna delle Rose",
+          "desc": "[BeforeAttack] A 3+ Rison. più alta, Portata Attacco +1\n[WhenUse] Applica 1 '(Affinità Peccato Corrispondente) Potenziata' ed '1 Potenzia (Affinità Peccato Corrispondente)' a (1 + # della Rison. più alta) alleati.\n- A 4+ Rison. Corrispondente, applica 1 ulteriore '(Affinità Peccato Corrispondente) Potenziata'",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] Cura 1 alleato con la percentuale di PV minore del 15% dei suoi PV Max\n- Cura (Rison. più alta - 2) alleato/i in più (max 3)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Giardino delle Spine",
+          "abName": "Insegna delle Rose",
+          "desc": "[BeforeAttack] Ottiene (# della Rison. più alta - 2) Portata Attacco (Max 2)\n[WhenUse] Applica 1 '(Affinità Peccato Corrispondente) Potenziata' e '1 Potenzia (Affinità Peccato Corrispondente)' a (2 + # della Rison. più alta) alleati.\n- A 4+ Rison. Corrispondente, applica 1 ulteriore '(Affinità Peccato Corrispondente) Potenziata'\n- A 5+ Rison. Corrispondente, applica 1 ulteriore '(Affinità Peccato Corrispondente) Potenziata'",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] Cura 2 alleati con la percentuale di PV minore del 18% dei loro PV Max\n- Cura (Rison. più alta - 2) alleato/i in più (max 3)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Giardino delle Spine",
+          "abName": "Insegna delle Rose",
+          "desc": "[BeforeAttack] Ottiene (# della Rison. più alta - 2) Portata Attacco (Max 3)\n[WhenUse] Applica 1 '(Affinità Peccato Corrispondente) Potenziata' e '1 Potenzia (Affinità Peccato Corrispondente)' a (4 + # della Rison. più alta) alleati.\n- A 4+ Rison. Corrispondente, applica 1 ulteriore '(Affinità Peccato Corrispondente) Potenziata'\n- A 5+ Rison. Corrispondente, applica 1 ulteriore '(Affinità Peccato Corrispondente) Potenziata'\n- A 6+ Rison-A Corrispondente, applica gli effetti precedenti anche nel turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] Cura 4 alleati con la percentuale di PV minore del 22% dei loro PV Max\n- Cura (Rison. più alta - 2) alleato/i in più (max 3)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120521,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Giardino delle Spine",
+          "abName": "Insegna delle Rose",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] A 3+ Rison. più alta, Portata Attacco +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [AttackDmgDown]. Infligge 2 [Binding] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 'Fragilità' e 1 'Fragile' per l'Affinità Peccato con la Rison. più alta\n- A 4+ Rison. Corrispondente, infligge 1 ulteriore 'Fragilità (Affinità Peccato Corrispondente)'"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Giardino delle Spine",
+          "abName": "Insegna delle Rose",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene (Rison. più alta - 2) Portata Attacco (max 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [AttackDmgDown]. Infligge 2 [Binding] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 'Fragility' e 1 'Power Down' per l'Affinità Peccato con la Rison. più alta\n- A 4+ Rison. Corrispondente, infligge 1 ulteriore 'Fragilità (Affinità Peccato Corrispondente)'\n- A 5+ Rison. Corrispondente, infligge 1 ulteriore 'Fragilità (Affinità Peccato Corrispondente)'"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Giardino delle Spine",
+          "abName": "Insegna delle Rose",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene (Rison. più alta - 2) Portata Attacco (max 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [AttackDmgDown]. Infligge 2 [Binding] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 'Fragility' e 1 'Power Down' per l'Affinità Peccato con la Rison. più alta\n- A 4+ Rison. Corrispondente, infligge 1 ulteriore 'Fragilità (Affinità Peccato Corrispondente)'\n- A 5+ Rison. Corrispondente, infligge 1 ulteriore 'Fragilità (Affinità Peccato Corrispondente)'\n- A 6+ Rison-A Corrispondente, applica gli effetti precedenti anche nel turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120611,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Giorni Andati",
+          "abName": "Ritratto di un Certo Giorno",
+          "desc": "[EndSkill] Cura sé stesso ed altri 2 alleati con i PS minori di 10 PS\n- Se il bersaglio è ancora vivo dopo quest'attacco, consuma 5 Conteggio [Sinking] sul bersaglio, e poi cura PS aggiuntivi (a sé e agli alleati che ha già curato) pari alla Potenza [Sinking] sul bersaglio (Cura PS max: 20)\n- Se il bersaglio viene sconfitto, infligge 3 [Sinking] su 2 nemici casuali (Negli Incontri Mirati, a Parti casuali)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Giorni Andati",
+          "abName": "Ritratto di un Certo Giorno",
+          "desc": "[EndSkill] Cura sé stesso ed altri 2 alleati con i PS minori di <style=\"highlight\">12</style> PS\n- Se il bersaglio è ancora vivo dopo quest'attacco, consuma 5 Conteggio [Sinking] sul bersaglio, e poi cura PS aggiuntivi (a sé e agli alleati che ha già curato) pari alla Potenza [Sinking] sul bersaglio (Cura PS max: 20)\n- Se il bersaglio viene sconfitto, infligge 3 [Sinking] e <style=\"highlight\">1 [Curse]</style> su 2 nemici casuali (Negli Incontri Mirati, a Parti casuali)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Giorni Andati",
+          "abName": "Ritratto di un Certo Giorno",
+          "desc": "[EndSkill] Cura sé stesso ed altri 2 alleati con i PS minori di <style=\"highlight\">15</style> PS\n- Se il bersaglio è ancora vivo dopo quest'attacco, consuma <style=\"highlight\">3</style> Conteggio [Sinking] sul bersaglio, e poi cura PS aggiuntivi (a sé e agli alleati che ha già curato) pari alla Potenza [Sinking] sul bersaglio (Cura PS max: 20)\n- Se il bersaglio viene sconfitto, infligge 3 [Sinking] e 1 [Curse] su <style=\"highlight\">3</style> nemici casuali (Negli Incontri Mirati, a Parti casuali)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120621,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Giorni Andati",
+          "abName": "Ritratto di un Certo Giorno",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [AzureTakeDamageUp]. A 3+ Rison. Tristezza, infligge 1 ulteriore [AzureTakeDamageUp]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Curse]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Giorni Andati",
+          "abName": "Ritratto di un Certo Giorno",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [AzureTakeDamageUp]. Infligge 1 ulteriore [AzureTakeDamageUp] per ogni 3 Rison. Tristezza (max 2)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Curse]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Giorni Andati",
+          "abName": "Ritratto di un Certo Giorno",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nSe il bersaglio ha [Curse], infligge +50% danni",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [AzureTakeDamageUp]. Infligge 1 ulteriore [AzureTakeDamageUp] per ogni 2 Rison. Tristezza (max 2)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Curse]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lamento Solenne",
+          "abName": "Funerale delle Farfalle Morte",
+          "desc": "Quando quest'Abilità lancia la Moneta, ogni Moneta viene lanciata contro un nemico casuale tra i suoi bersagli.\n- La prima Moneta bersaglia sempre il bersaglio principale.\n- Tutti gli effetti 'Sul Colpo' e tutto il danno inflitto da ogni Moneta vengono inflitti solo al bersaglio casuale che viene selezionato dalla Moneta.\nQuando infligge [SinkingWhite] con gli effetti di quest'Abilità: (Possibilità di ottenere Testa)% di chance di applicare I Defunti. Se quest'unità non ha applicato I Defunti, applica invece I Vivi (calcola ogni Stack di [SinkingWhite] indipendentemente)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [SinkingWhite] casuale"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [SinkingWhite] casuale"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1~2 [SinkingWhite] casuale"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Perde 2~6 PS"
+                },
+                {
+                  "desc": "[OnSucceedAttack] A 0+ PS, Riusa questa Moneta (5 volte max per Abilità)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Lamento Solenne",
+          "abName": "Funerale delle Farfalle Morte",
+          "desc": "Quando quest'Abilità lancia la Moneta, ogni Moneta viene lanciata contro un nemico casuale tra i suoi bersagli.\n- La prima Moneta bersaglia sempre il bersaglio principale.\n- Tutti gli effetti 'Sul Colpo' e tutto il danno inflitto da ogni Moneta vengono inflitti solo al bersaglio casuale che viene selezionato dalla Moneta.\nQuando infligge [SinkingWhite] con gli effetti di quest'Abilità: (Possibilità di ottenere Testa)% di chance di applicare I Defunti. Se quest'unità non ha applicato I Defunti, applica invece I Vivi (calcola ogni Stack di [SinkingWhite] indipendentemente)\n<style=\"highlight\">[EndSkill] Cura (# di Moneta 3 che ha colpito x 2) PS</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [SinkingWhite] casuale"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [SinkingWhite] casuale"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1~2 [SinkingWhite] casuale<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Perde 2~6 PS<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] A 0+ PS, Riusa questa Moneta (5 volte max per Abilità)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Lamento Solenne",
+          "abName": "Funerale delle Farfalle Morte",
+          "desc": "Quando quest'Abilità lancia la Moneta, ogni Moneta viene lanciata contro un nemico casuale tra i suoi bersagli.\n- La prima Moneta bersaglia sempre il bersaglio principale.\n- Tutti gli effetti 'Sul Colpo' e tutto il danno inflitto da ogni Moneta vengono inflitti solo al bersaglio casuale che viene selezionato dalla Moneta.\nQuando infligge [SinkingWhite] con gli effetti di quest'Abilità: (Possibilità di ottenere Testa)% di chance di applicare I Defunti. Se quest'unità non ha applicato I Defunti, applica invece I Vivi (calcola ogni Stack di [SinkingWhite] indipendentemente)\n[EndSkill] Cura <style=\"highlight\">(# di Moneta 3 che ha colpito x 3)</style> PS",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [SinkingWhite] casuale"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [SinkingWhite] casuale"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1~2 [SinkingWhite] casuale<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Perde 2~6 PS<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] A 0+ PS, Riusa questa Moneta (5 volte max per Abilità)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120721,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lamento Solenne",
+          "abName": "Funerale delle Farfalle Morte",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nSe il bersaglio ha meno di 0 PS, infligge più danni quanto più il valore dei PS del bersaglio è lontano da 0 (+1% danni per ogni PS mancante, max 45%)\nContro i nemici senza PS: infligge +1% danni per ogni 2 [Sinking] sul bersaglio (max 45%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [SinkingWhite](I Vivi)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [SinkingWhite](I Defunti)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Lamento Solenne",
+          "abName": "Funerale delle Farfalle Morte",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nSe il bersaglio ha meno di 0 PS, infligge più danni quanto più il valore dei PS del bersaglio è lontano da 0 (+1% danni per ogni PS mancante, max 45%)\nContro i nemici senza PS: infligge +1% danni per ogni 2 [Sinking] sul bersaglio (max 45%)\n<style=\"highlight\">[EnemyKill] Recupera 5 PS</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [SinkingWhite](I Vivi)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [SinkingWhite](I Defunti)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge +3 Conteggio [Sinking]</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Lamento Solenne",
+          "abName": "Funerale delle Farfalle Morte",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nSe il bersaglio ha meno di 0 PS, infligge più danni quanto più il valore dei PS del bersaglio è lontano da 0 (+1% danni per ogni PS mancante, max 45%)\nContro i nemici senza PS: infligge +1% danni per ogni 2 [Sinking] sul bersaglio (max 45%)\n[EnemyKill] Recupera 5 PS<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [SinkingWhite](I Vivi)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [SinkingWhite](I Defunti)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] If target has 50%- HP, inflict Gloom Damage equal to \"All\" [SinkingWhite] values on target\n- \"All\" = the sum of both The Living and The Departed on target</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120811,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Incubo Natalizio",
+          "abName": "Letto Comodo",
+          "desc": "[EndSkill] A PV Max, recupera 10 PS a Fine Turno ed ottiene 1 [Enhancement] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio è Stordito, in Morale Basso o Panico, infligge 1 [Reduction] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Incubo Natalizio",
+          "abName": "Letto Comodo",
+          "desc": "<style=\"highlight\">Se il bersaglio ha meno di 0 PS, infligge +1% danni per ogni PS al di sotto di 0 (max 45%)</style>\n[EndSkill] A PV Max, recupera 10 PS a Fine Turno ed ottiene 1 [Enhancement] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si cura del (2 + Rison. più alta)% dei suoi PV mancanti (max 30% per Abilità)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio è Stordito, in Morale Basso o Panico, infligge 1 [Reduction] il turno successivo<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Incubo Natalizio",
+          "abName": "Letto Comodo",
+          "desc": "Se il bersaglio ha meno di 0 PS, infligge +1% danni per ogni PS al di sotto di 0 (max 45%)\n[EndSkill] A PV Max, recupera <style=\"highlight\">15</style> PS a Fine Turno ed ottiene 1 [Enhancement] il turno successivo<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si cura del (<style=\"highlight\">3</style> + Rison. più alta)% dei suoi PV mancanti (max 30% per Abilità)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio è Stordito, in Morale Basso o Panico, infligge 1 [Reduction] <style=\"highlight\">e Intensific​a per l'Affinità della Rison. più alta</style> il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120821,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Incubo Natalizio",
+          "abName": "Letto Comodo",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Recupera 10 PV\n[EndSkill] A PV Max, recupera 10 PS a Fine Turno ed ottiene 1 [Enhancement] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio è Stordito, in Morale Basso o Panico, infligge 1 [Reduction] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Incubo Natalizio",
+          "abName": "Letto Comodo",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n<style=\"highlight\">Se il bersaglio ha meno di 0 PS, infligge +1% danni per ogni PS al di sotto di 0 (max 45%)</style>\n[BeforeAttack] Recupera 10 PV\n[EndSkill] A PV Max, recupera <style=\"highlight\">15</style> PS a Fine Turno ed ottiene 1 [Enhancement] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si cura del (2 + Rison. più alta)% dei suoi PV mancanti (max 30% per Abilità)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio è Stordito, in Morale Basso o Panico, infligge 1 [Reduction] il turno successivo<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Incubo Natalizio",
+          "abName": "Letto Comodo",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nSe il bersaglio ha meno di 0 PS, infligge +1% danni per ogni PS al di sotto di 0 (max 45%)\n[BeforeAttack] Recupera 10 PV\n[EndSkill] A PV Max, recupera <style=\"highlight\">20</style> PS a Fine Turno ed ottiene 1 [Enhancement] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si cura del (<style=\"highlight\">3</style> + Rison. più alta)% dei suoi PV mancanti (max 30% per Abilità)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio è Stordito, in Morale Basso o Panico, infligge 1 [Reduction] <style=\"highlight\">e 2 Intensific​a per l'Affinità della Rison. più alta</style> il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120911,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Gloria Sbiadita - Inarrestabile",
+          "abName": "Młynar",
+          "desc": "[CantDuel]\nQuando viene usata per la prima volta, Gloria Sbiadita consuma 1 Risorsa Ira, 2 Risorse Accidia e 1 Risorsa Superbia in meno.\nA 1+ [MlynarWaiting], attiva al suo posto <noparse>Gloria Sbiadita - Incandescente</noparse>\nQuesta Abilità non colpisce nemici, non attiva Abilità Difensive, e gli effetti esterni non possono far Riusare questa Abilità\n[EndSkill] Ottiene 1 [MlynarWaiting]\n[EndSkill] Cura 25 PS\n[EndSkill] Ottiene 1 [AttackUp] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Gloria Sbiadita - Inarrestabile",
+          "abName": "Młynar",
+          "desc": "[CantDuel]\nQuando viene usata per la prima volta, Gloria Sbiadita consuma 1 Risorsa Ira, 2 Risorse Accidia e 1 Risorsa Superbia in meno.\nA 1+ [MlynarWaiting], attiva al suo posto <noparse>Gloria Sbiadita - Incandescente</noparse>\nQuesta Abilità non colpisce nemici, non attiva Abilità Difensive, e gli effetti esterni non possono far Riusare questa Abilità\n[EndSkill] Ottiene 1 [MlynarWaiting]\n[EndSkill] Cura 25 PS\n[EndSkill] Ottiene <style=\"highlight\">2</style> [AttackUp] il prossimo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Gloria Sbiadita - Inarrestabile",
+          "abName": "Młynar",
+          "desc": "[CantDuel]\nQuando viene usata per la prima volta, Gloria Sbiadita consuma 1 Risorsa Ira, 2 Risorse Accidia e 1 Risorsa Superbia in meno.\nA 1+ [MlynarWaiting], attiva al suo posto <noparse>Gloria Sbiadita - Incandescente</noparse>\nQuesta Abilità non colpisce nemici, non attiva Abilità Difensive, e gli effetti esterni non possono far Riusare questa Abilità\n[EndSkill] Ottiene 1 [MlynarWaiting]\n[EndSkill] Cura 25 PS\n[EndSkill] Ottiene 2 [AttackUp] <style=\"highlight\">e 1 [AttackDmgUp]</style> il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120912,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Gloria Sbiadita - Incandescente",
+          "abName": "Młynar",
+          "desc": "[CantDuel]\nGli effetti esterni non possono far Riusare questa Abilità\nA 40 [MlynarWaiting], questa Abilità diventa Scontrabile\n[WhenUse] A 40 [MlynarWaiting]:\n- Potere Scontro +20;\n- Finché quest'Abilità non è finita, questa unità non può essere Stordita dai danni subiti.\n\n[BeforeAttack] Consuma ogni [MlynarWaiting] per ottenere i seguenti effetti (ognuno arrotondato per difetto):\n- Recupera 1 Risorsa E.G.O per ogni (Stack consumato / 20) nel seguente ordine: Superbia, Ira\n- Ottiene 1 Portata Attacco per ogni (Stack consumati / 10) (max 4)\n- Ottiene 1 [DefenseUp] per ogni (Stack consumati / 10) (una volta per turno)\n- Se ha consumato 40 Stack, la 4ta Moneta infligge +50% danni e ottiene 2 [Protection] (una volta per turno)\n\n[BeforeAttack] Infligge +5% danni per ogni 8 ([Combustion] + [Vibration]) sul bersaglio principale (max 25%)\n[EndSkill] Cura 5 PS per ogni bersaglio Storito o Sconfitto dai danni di questa Abilità (max 25)\n[EndSkill] Ottiene 1 [MlynarWaiting]\n[EndBattle] Se questa Abilità non ha consumato 40 [MlynarWaiting], lo Slot Abilità più a sinistra sul Pannello di Controllo ottiene +4 [Aggro] il turno successivo (una volta per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Riusa questa Moneta (( Stack di [MlynarWaiting] consumati / 10) - 1) volte (max 3)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Se questa è l'ultima Moneta, e se il bersaglio ha 15+ Potenza [Vibration], innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Se questa Moneta è stata usata 4 volte, infligge danni da Accidia pari alla [Vibration] sul bersaglio (max 5)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Gloria Sbiadita - Incandescente",
+          "abName": "Młynar",
+          "desc": "[CantDuel]\nGli effetti esterni non possono far Riusare questa Abilità\nA 40 [MlynarWaiting], questa Abilità diventa Scontrabile\n[WhenUse] A 40 [MlynarWaiting]:\n- Potere Scontro +20;\n- Finché quest'Abilità non è finita, questa unità non può essere Stordita dai danni subiti.\n\n[BeforeAttack] Consuma ogni [MlynarWaiting] per ottenere i seguenti effetti (ognuno arrotondato per difetto):\n- Recupera 1 Risorsa E.G.O per ogni (Stack consumato / 20) nel seguente ordine: Superbia, Ira\n- Ottiene 1 Portata Attacco per ogni (Stack consumati / 10) (max 4)\n- Ottiene 1 [DefenseUp] per ogni (Stack consumati / 10) (una volta per turno)\n- Se ha consumato 40 Stack, la 4ta Moneta infligge +<style=\"highlight\">80</style>% danni e ottiene 2 [Protection] (una volta per turno)\n\n[BeforeAttack] Infligge +5% danni per ogni 8 ([Combustion] + [Vibration]) sul bersaglio principale (max 25%)\n[EndSkill] Cura 5 PS per ogni bersaglio Storito o Sconfitto dai danni di questa Abilità (max 25)\n[EndSkill] Ottiene 1 [MlynarWaiting]\n[EndBattle] Se questa Abilità non ha consumato 40 [MlynarWaiting], lo Slot Abilità più a sinistra sul Pannello di Controllo ottiene +4 [Aggro] il turno successivo (una volta per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Riusa questa Moneta (( Stack di [MlynarWaiting] consumati / 10) - 1) volte (max 3)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnStartCoin] Se questa moneta non è stata rotta, e se bersaglia 3+ nemici, l'ultima Moneta usata da questa Abilità infligge +10% danni (negli Incontri Mirati, ogni Parte è considerata come 1 bersaglio)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Se questa è l'ultima Moneta, e se il bersaglio ha 15+ Potenza [Vibration], innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Se questa Moneta è stata usata 4 volte, infligge danni da Accidia pari alla [Vibration] sul bersaglio (max 5)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Gloria Sbiadita - Incandescente",
+          "abName": "Młynar",
+          "desc": "[CantDuel]\nGli effetti esterni non possono far Riusare questa Abilità\nA 40 [MlynarWaiting], questa Abilità diventa Scontrabile\n[WhenUse] A 40 [MlynarWaiting]:\n- Potere Scontro +20;\n- Finché quest'Abilità non è finita, questa unità non può essere Stordita dai danni subiti.\n\n[BeforeAttack] Consuma ogni [MlynarWaiting] per ottenere i seguenti effetti (ognuno arrotondato per difetto):\n- Recupera 1 Risorsa E.G.O per ogni (Stack consumato / 20) nel seguente ordine: Superbia, Ira\n- Ottiene 1 Portata Attacco per ogni (Stack consumati / 10) (max 4)\n- Ottiene 1 [DefenseUp] per ogni (Stack consumati / 10) (una volta per turno)\n- Se ha consumato 40 Stack, la 4ta Moneta infligge +<style=\"highlight\">100</style>% danni e ottiene 2 [Protection] (una volta per turno)\n\n[BeforeAttack] Infligge +5% danni per ogni 8 ([Combustion] + [Vibration]) sul bersaglio principale (max 25%)\n[EndSkill] Cura 5 PS per ogni bersaglio Storito o Sconfitto dai danni di questa Abilità (max 25)\n[EndSkill] Ottiene 1 [MlynarWaiting]\n[EndBattle] Se questa Abilità non ha consumato 40 [MlynarWaiting], lo Slot Abilità più a sinistra sul Pannello di Controllo ottiene +4 [Aggro] il turno successivo (una volta per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Riusa questa Moneta (( Stack di [MlynarWaiting] consumati / 10) - 1) volte (max 3)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnStartCoin] Se questa moneta non è stata rotta, e se bersaglia 3+ nemici, l'ultima Moneta usata da questa Abilità infligge +<style=\"highlight\">20</style>% danni (negli Incontri Mirati, ogni Parte è considerata come 1 bersaglio)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Se questa è l'ultima Moneta, e se il bersaglio 15+ Potenza [Vibration], innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Se questa Moneta è stata usata 4 volte, infligge danni da Accidia pari alla [Vibration] sul bersaglio (max <style=\"highlight\">10</style>)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120921,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Gloria Sbiadita - Inarrestabile",
+          "abName": "Młynar",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[WhenUse] A 40 [MlynarWaiting], Potere Base +1\n\n[BeforeAttack] Consuma ogni [MlynarWaiting] per attivare i seguenti effetti (ognuno arrotondato per difetto):\n- Ottiene 1 [DefenseUp] per ogni (Stack consumati / 10) (una volta per turno)\n- Se ha consumato 40 Stack, l'ultima Moneta infligge +110% danni e ottiene 2 [Protection] (una volta per turno)\n\n[BeforeAttack] Infligge +3% danni per ogni 6 ([Combustion] + [Vibration]) sul bersaglio principale (max 15%)\n[BeforeAttack] Potere Base -4 per ogni Moneta Rotta (max -16)\n[EndSkill] Ottiene 1 [MlynarWaiting]\n[EndBattle] Se questa Abilità ha consumato 40 [MlynarWaiting], lo Slot Abilità più a sinistra sul Pannello di Controllo ottiene +8 [Aggro] il turno successivo (una volta per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Vibration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Se il bersaglio ha 15+ Potenza [Vibration], innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Gloria Sbiadita - Inarrestabile",
+          "abName": "Młynar",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n<style=\"highlight\">Quando attacca 3+ bersagli: Se le prime 3 Monete non sono rotte, l'ultima Moneta infligge +25% danni (una volta per Moneta. Negli Incontri Mirati, ogni Parte è considerata come 1 bersaglio)</style>\n[WhenUse] A 40 [MlynarWaiting], Potere Base +1\n\n[BeforeAttack] Consuma ogni [MlynarWaiting] per attivare i seguenti effetti (ognuno arrotondato per difetto):\n- Ottiene (Stack consumati / 10) [DefenseUp] (una volta per turno)\n- Se ha consumato 40 Stack, l'ultima Moneta infligge +<style=\"highlight\">130</style>% danni e ottiene 2 [Protection] (una volta per turno)\n\n[BeforeAttack] Infligge +3% danni per ogni 6 ([Combustion] + [Vibration]) sul bersaglio principale (max 15%)\n[BeforeAttack] Potere Base -4 per ogni Moneta Rotta (max -16)\n[EndSkill] Ottiene 1 [MlynarWaiting]\n[EndBattle] Se questa Abilità ha consumato 40 [MlynarWaiting], lo Slot Abilità più a sinistra sul Pannello di Controllo ottiene +8 [Aggro] il turno successivo (una volta per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Se il bersaglio ha 15+ Potenza [Vibration], innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Gloria Sbiadita - Inarrestabile",
+          "abName": "Młynar",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nQuando attacca 3+ bersagli: Se le prime 3 Monete non sono rotte, l'ultima Moneta infligge +<style=\"highlight\">30</style>% danni (una volta per Moneta. Negli Incontri Mirati, ogni Parte è considerata come 1 bersaglio)\n[WhenUse] A 40 [MlynarWaiting], Potere Base +1\n\n[BeforeAttack] Consuma ogni [MlynarWaiting] per ottenere i seguenti effetti (ognuno arrotondato per difetto):\n- Ottiene (Stack consumed / 10) [DefenseUp] (una volta per turno)\n- Se questa Abilità ha consumato 40 Stack, l'ultima Moneta infligge +<style=\"highlight\">160</style>% danni e ottiene 2 [Protection] (una volta per turno)\n\n[BeforeAttack] Infligge +3% danni per ogni 6 ([Combustion] + [Vibration]) sul bersaglio principale (max 15%)\n[BeforeAttack] Potere Base -4 per ogni Moneta Rotta (max -16)\n[EndSkill] Ottiene 1 [MlynarWaiting]\n[EndBattle] Se questa Abilità ha consumato 40 [MlynarWaiting], lo Slot Abilità più a sinistra sul Pannello di Controllo ottiene +8 [Aggro] il turno successivo (una volta per turno)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Se il bersaglio ha 15+ Potenza [Vibration], innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

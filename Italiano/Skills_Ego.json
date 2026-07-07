@@ -1,0 +1,4372 @@
+{
+  "dataList": [
+    {
+      "id": 2010111,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Punto di Vista del Corvo",
+          "abName": "Yi Sang",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Reduction]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Applica 1 [Agility] a tutti gli alleati il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Punto di Vista del Corvo",
+          "abName": "Yi Sang",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Reduction]"
+                },
+                {
+                  "desc": "[OnSucceedAttack]  Applica 3 [Agility] a tutti gli alleati il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Punto di Vista del Corvo",
+          "abName": "Yi Sang",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Reduction]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Applica 3 [Agility] a tutti gli alleati il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Binding] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2010211,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fiamma del Quarto Fiammifero",
+          "abName": "Piccola Fiammiferaia",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Fiamma del Quarto Fiammifero",
+          "abName": "Piccola Fiammiferaia",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 4 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Fiamma del Quarto Fiammifero",
+          "abName": "Piccola Fiammiferaia",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 6 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "name": "Fiamma del Quarto Fiammifero",
+          "abName": "Piccola Fiammiferaia",
+          "desc": "<style=\"highlight\">[BeforeAttack] Applica i seguenti effetti:\n- Potere Finale +1 per ogni 6 [Combustion] su tutti i bersagli (max 4)\n- Infligge +1% danni per ogni 1 [Combustion] su tutti i bersagli (max 30%)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 6 [Combustion]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2010221,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fiamma del Quarto Fiammifero",
+          "abName": "Piccola Fiammiferaia",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Fiamma del Quarto Fiammifero",
+          "abName": "Piccola Fiammiferaia",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Fiamma del Quarto Fiammifero",
+          "abName": "Piccola Fiammiferaia",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 6 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "name": "Fiamma del Quarto Fiammifero",
+          "abName": "Piccola Fiammiferaia",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n<style=\"highlight\">[BeforeAttack] Applica i seguenti effetti:\n- Potere Finale +1 per ogni 6 [Combustion] su tutti i bersagli (max 6)\n- Infligge +1.5% danni per ogni 1 [Combustion] su tutti i bersagli (max 45%)\n[DefeatDuel] Potere Base -12\n[EndSkill] Ottiene [MatchesPersonality] il turno successivo (una volta per turno)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[SuperCoin]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[UnBrokenCoinOnSucceedAttack]</style> Infligge 6 [Combustion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2010311,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tumulo dei Desideri",
+          "abName": "Venerazione della Pagoda",
+          "desc": "Bersaglia l'unità più indietro (Negli incontri regolari)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [AmberTakeDamageUp]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Paralysis]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Tumulo dei Desideri",
+          "abName": "Venerazione della Pagoda",
+          "desc": "Bersaglia l'unità più indietro (Negli incontri regolari)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [AmberTakeDamageUp]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 3 [Paralysis]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2010321,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tumulo dei Desideri",
+          "abName": "Venerazione della Pagoda",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [AmberTakeDamageUp]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Paralysis]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Tumulo dei Desideri",
+          "abName": "Venerazione della Pagoda",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [AmberTakeDamageUp]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Paralysis]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 3 [Binding] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2020111,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Trasmettitore di Rappresentazioni",
+          "abName": "Faust",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] Cura 8 PS per i 4 alleati con PS minori"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Trasmettitore di Rappresentazioni",
+          "abName": "Faust",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] Cura 10 PS per i 4 alleati con PS minori"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Trasmettitore di Rappresentazioni",
+          "abName": "Faust",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] Cura 12 PS per i 4 alleati con PS minori"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2020211,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sacca di Fluido",
+          "abName": "Ichthys senza Testa",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] Cura 10 PS a tutti gli alleati"
+                },
+                {
+                  "desc": "[EndSkill] Cura tutti gli alleati del 10% dei PV Max"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Sacca di Fluido",
+          "abName": "Ichthys senza Testa",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] Cura 15 PS a tutti gli alleati"
+                },
+                {
+                  "desc": "[EndSkill] Cura tutti gli alleati del 15% dei PV Max"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Sacca di Fluido",
+          "abName": "Ichthys senza Testa",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] Cura 15 PS a tutti gli alleati"
+                },
+                {
+                  "desc": "[EndSkill] Cura tutti gli alleati del 15% dei PV Max"
+                },
+                {
+                  "desc": "[EndSkillHead] Cura 10 PS a tutti gli alleati"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2020221,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sacca di Fluido",
+          "abName": "Ichthys senza Testa",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 10 danni ai PS"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Reduction] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Sacca di Fluido",
+          "abName": "Ichthys senza Testa",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 20 danni ai PS"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Reduction] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Sacca di Fluido",
+          "abName": "Ichthys senza Testa",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 20 danni ai PS"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Infligge 10 danni ai PS"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Reduction] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2020311,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Chiodo Stregato",
+          "abName": "Orsacchiotto Sofferente",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [PenetrateTakeDamageUp]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [VioletTakeDamageUp]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Chiodo Stregato",
+          "abName": "Orsacchiotto Sofferente",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [PenetrateTakeDamageUp]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [VioletTakeDamageUp]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 3 [Curse]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Chiodo Stregato",
+          "abName": "Orsacchiotto Sofferente",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [PenetrateTakeDamageUp]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [VioletTakeDamageUp]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 3 [Curse]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 3 [NailPersonality]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [Curse], +50% danni"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2020321,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Chiodo Stregato",
+          "abName": "Orsacchiotto Sofferente",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [PenetrateTakeDamageUp]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [VioletTakeDamageUp]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Chiodo Stregato",
+          "abName": "Orsacchiotto Sofferente",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [PenetrateTakeDamageUp]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [VioletTakeDamageUp]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Curse]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Chiodo Stregato",
+          "abName": "Orsacchiotto Sofferente",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [PenetrateTakeDamageUp]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [VioletTakeDamageUp]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Curse]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [NailPersonality]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [Curse], +50% danni"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2030111,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "La Sangre de Sancho",
+          "abName": "Don Quixote",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 4 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "La Sangre de Sancho",
+          "abName": "Don Quixote",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 6 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Si cura del 50% del danno inflitto"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "La Sangre de Sancho",
+          "abName": "Don Quixote",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 8 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si cura del 50% del danno inflitto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2030211,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sacca di Fluido",
+          "abName": "Ichthys senza Testa",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Innesca [VibrationExplosion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 15 danni ai PS"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Sacca di Fluido",
+          "abName": "Ichthys senza Testa",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 25 danni ai PS"
+                },
+                {
+                  "desc": "Se il bersaglio è Stordito, ha Morale Basso o Panico, infligge il 30% del danno inflitto come danno bonus"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Sacca di Fluido",
+          "abName": "Ichthys senza Testa",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 25 danni ai PS"
+                },
+                {
+                  "desc": "Se il bersaglio è Stordito, ha Morale Basso o Panico, infligge il 30% del danno inflitto come danno bonus"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2030221,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sacca di Fluido",
+          "abName": "Ichthys senza Testa",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Sacca di Fluido",
+          "abName": "Ichthys senza Testa",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 7 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 7 [Sinking]"
+                },
+                {
+                  "desc": "Se il bersaglio NON è Stordito, ha Morale Basso o Panico, infligge il 50% del danno inflitto come danno bonus"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Sacca di Fluido",
+          "abName": "Ichthys senza Testa",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 10 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 10 [Vibration]"
+                },
+                {
+                  "desc": "Se il bersaglio NON è Stordito, ha Morale Basso o Panico, infligge il 50% del danno inflitto come danno bonus"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2040111,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Creato in Fiamme",
+          "abName": "Ryōshū",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 4 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Creato in Fiamme",
+          "abName": "Ryōshū",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 6 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Vulnerable] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Creato in Fiamme",
+          "abName": "Ryōshū",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 6 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vulnerable] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Vulnerable] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2040211,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fiamma del Quarto Fiammifero",
+          "abName": "Piccola Fiammiferaia",
+          "desc": "Potere Finale +2 contro i bersagli con [Combustion]\n[EnemyKill] Ottiene 1 [Enhancement] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Fiamma del Quarto Fiammifero",
+          "abName": "Piccola Fiammiferaia",
+          "desc": "Potere Finale +2 contro i bersagli con [Combustion]\n[EnemyKill] Ottiene 2 [Enhancement] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Fiamma del Quarto Fiammifero",
+          "abName": "Piccola Fiammiferaia",
+          "desc": "Potere Finale +2 contro i bersagli con [Combustion]\nInfligge +5% danni per ogni [Combustion] sul bersaglio (Max 100%)\n[EnemyKill] Ottiene +2 [Enhancement] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "name": "Fiamma del Quarto Fiammifero",
+          "abName": "Piccola Fiammiferaia",
+          "desc": "Potere Finale +2 contro i bersagli con [Combustion]\n<style=\"highlight\">[BeforeAttack]</style> Infligge +5% danni per ogni <style=\"highlight\">1 somma totale di [Combustion] su tutti i bersagli</style> (max 100%)\n[EnemyKill] Ottiene 2 [Enhancement] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge  (([Combustion] sul bersaglio x 2)% del danno finale di questa Moneta) danno Ira (max 20%)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Combustion]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2040221,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fiamma del Quarto Fiammifero",
+          "abName": "Piccola Fiammiferaia",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nPotere Finale +2 contro i bersagli con [Combustion]\n[EnemyKill] Ottiene 2 [Enhancement] il turno successivo\n[EnemyKillFail] Ottiene 10 [Combustion] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Fiamma del Quarto Fiammifero",
+          "abName": "Piccola Fiammiferaia",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nPotere Finale +4 contro i bersagli con [Combustion]\n[EnemyKill] Ottiene 3 [Enhancement] il turno successivo\n[EnemyKillFail] Ottiene 3 [Enhancement] e 10 [Combustion] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Fiamma del Quarto Fiammifero",
+          "abName": "Piccola Fiammiferaia",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nPotere Finale +4 contro i bersagli con [Combustion]\n Infligge +5% danni per ogni [Combustion] sul bersaglio (Max 100%)\n[EnemyKill] Ottiene 3 [Enhancement] il turno successivo\n[EnemyKillFail] Ottiene 3 [Enhancement] e 10 [Combustion] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "name": "Fiamma del Quarto Fiammifero",
+          "abName": "Piccola Fiammiferaia",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nPotere Finale +4 contro i bersagli con [Combustion]\n<style=\"highlight\">[BeforeAttack]</style> Infligge +5% danni per ogni <style=\"highlight\">1 somma totlae di [Combustion] su tutti i bersagli</style> (max 100%)\n<style=\"highlight\">[DefeatDuel] Potere Base -16</style>\n[EnemyKill] Ottiene 3 [Enhancement] il turno successivo\n[EnemyKillFail] Ottiene 3 [Enhancement] e 10 [Combustion] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[SuperCoin]</style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge (([Combustion] sul bersaglio x 3)% del danno finale di questa Moneta) danno Ira (max 30%)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Combustion]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050111,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Catene Altrui",
+          "abName": "Meursault",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Binding] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 3 [Binding] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Reduction] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Reduction] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Catene Altrui",
+          "abName": "Meursault",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Binding] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 5 [Binding] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Reduction] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 4 [Reduction] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Ottiene 2 [Protection] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Catene Altrui",
+          "abName": "Meursault",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Binding] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 3 [Binding] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Reduction] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 3 [Reduction] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Protection] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050211,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Cazzotto Svitato",
+          "abName": "Vuoi Farti Menare? Tipo Tanto?",
+          "desc": "[EndSkill] Ottiene 3 [Protection]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 3 [Paralysis]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Cazzotto Svitato",
+          "abName": "Vuoi Farti Menare? Tipo Tanto?",
+          "desc": "[EndSkill] Ottiene 3 [Protection]\n[EndSkill] Ottiene 1 Chirurgia il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 3 [Paralysis]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050221,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Cazzotto Svitato",
+          "abName": "Vuoi Farti Menare? Tipo Tanto?",
+          "desc": "[EndSkill] Ottiene 2 Chirurgia il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 3 [Paralysis]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Cazzotto Svitato",
+          "abName": "Vuoi Farti Menare? Tipo Tanto?",
+          "desc": "[EndSkill] Ottiene 2 Chirurgia il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 3 [Paralysis]"
+                },
+                {
+                  "desc": "Aumenta la Soglia di Stordimento del 30% del danno inflitto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050311,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Esecuzione",
+          "abName": "Scriba dell'Esecutore Celeste",
+          "desc": "[EndSkill] Cura altri 2 alleati con i PV minori per il 15% dei PV Max",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Innesca [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Esecuzione",
+          "abName": "Scriba dell'Esecutore Celeste",
+          "desc": "[EndSkill] Cura altri 2 alleati con i PV minori per il 30% dei PV Max; Applica 2 [Protection] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050321,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Esecuzione",
+          "abName": "Scriba dell'Esecutore Celeste",
+          "desc": "[CantIdentify] Bersaglia casualmente\n[EndSkill] Nel turno successivo, applica 1 [Vulnerable] e 2 [AttackDmgUp] a due alleati con i PV minori",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Innesca [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Esecuzione",
+          "abName": "Scriba dell'Esecutore Celeste",
+          "desc": "[CantIdentify] Bersaglia casualmente\n[EndSkill] Nel turno successivo, applica 2 [Vulnerable] e 3 [AttackDmgUp] a due alleati con i PV minori",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2060111,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Mondo delle Illusioni",
+          "abName": "Hong Lu",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Mondo delle Illusioni",
+          "abName": "Hong Lu",
+          "desc": "[EndSkill] Recupera 15 PS",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Mondo delle Illusioni",
+          "abName": "Hong Lu",
+          "desc": "[EndSkill] Recupera 15 PS",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Sinking]"
+                },
+                {
+                  "desc": "[EndSkill] Nel turno successivo applica -2 Efficenza Perdita PS a tutti gli alleati; -2 PS persi quando si usano Abilità E.G.O"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2060211,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Desiderio Rosato",
+          "abName": "Scarpe Rosa",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Disarming]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Disarming]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Desiderio Rosato",
+          "abName": "Scarpe Rosa",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Disarming]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Disarming]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Desiderio Rosato",
+          "abName": "Scarpe Rosa",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Disarming]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Disarming]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2060221,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Desiderio Rosato",
+          "abName": "Scarpe Rosa",
+          "desc": "[CantIdentify]\nBersaglia l'unità con la Velocità maggiore",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Disarming]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Disarming]"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Infligge 4 [Binding] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Desiderio Rosato",
+          "abName": "Scarpe Rosa",
+          "desc": "[CantIdentify]\nBersaglia l'unità con la Velocità maggiore",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Disarming]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Disarming]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Binding] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Desiderio Rosato",
+          "abName": "Scarpe Rosa",
+          "desc": "[CantIdentify]\nBersaglia l'unità con la Velocità maggiore",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Disarming]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Disarming]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Binding] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2070111,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sacco Nero",
+          "abName": "Heathcliff",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Ottiene 1 [Enhancement] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Ottiene 2 [Agility] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Sacco Nero",
+          "abName": "Heathcliff",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Enhancement] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 3 [Agility] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Sacco Nero",
+          "abName": "Heathcliff",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Enhancement] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 3 [Agility] il turno successivo"
+                },
+                {
+                  "desc": "[EnemyKill] Ottiene 2 [Enhancement] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2070211,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Traliccio",
+          "abName": "Guardiano della Stradina",
+          "desc": "Usa 5 Conteggio [Charge] per ottenere +3 Potere Finale",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] Ottiene +3 Conteggio [Charge]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Traliccio",
+          "abName": "Guardiano della Stradina",
+          "desc": "[WhenUse] Ottiene Conteggio [Charge] in base alla Rison. Invidia\nUsa 5 Conteggio [Charge] per ottenere +3 Potere Finale",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] Ottiene +5 Conteggio [Charge]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Traliccio",
+          "abName": "Guardiano della Stradina",
+          "desc": "[WhenUse] Ottiene Conteggio [Charge] in base alla Rison. Invidia\nUsa 5 Conteggio [Charge] per ottenere +3 Potere Finale (Max 12)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] Ottiene +5 Conteggio [Charge]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2070221,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Traliccio",
+          "abName": "Guardiano della Stradina",
+          "desc": "[CantIdentify] Bersaglia casualmente\nUsa tutto il Conteggio [Charge] per ottenere +6 Potere Finale",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Ottiene 3 [Vulnerable] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Traliccio",
+          "abName": "Guardiano della Stradina",
+          "desc": "[CantIdentify] Bersaglia casualmente\n[WhenUse] Ottiene Conteggio [Charge] in base alla Rison. Invidia\nUsa tutto il Conteggio [Charge] per ottenere +10 Potere Finale",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Ottiene 3 [Vulnerable] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Traliccio",
+          "abName": "Guardiano della Stradina",
+          "desc": "[CantIdentify] Bersaglia casualmente\n[WhenUse] Ottiene Conteggio [Charge] in base alla Rison. Invidia\nUsa tutto il Conteggio [Charge] per ottenere +15 Potere Finale",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Ottiene 3 [Vulnerable] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2080111,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Arpione Conficcato",
+          "abName": "Ishmael",
+          "desc": "Bersaglia l'unità più indietro (Negli incontri regolari)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Binding] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Arpione Conficcato",
+          "abName": "Ishmael",
+          "desc": "Bersaglia l'unità più indietro (Negli incontri regolari)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 6 [Binding] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Arpione Conficcato",
+          "abName": "Ishmael",
+          "desc": "Bersaglia l'unità più indietro (Negli incontri regolari)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 6 [Binding] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2080211,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Desiderio Rosato",
+          "abName": "Scarpe Rosa",
+          "desc": "Bersaglia l'unità più indietro (Negli incontri regolari)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [AttackDown]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Paralysis]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Desiderio Rosato",
+          "abName": "Scarpe Rosa",
+          "desc": "Bersaglia l'unità più indietro (Negli incontri regolari)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 7 [AttackDown]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Paralysis]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Desiderio Rosato",
+          "abName": "Scarpe Rosa",
+          "desc": "Bersaglia l'unità più indietro (Negli incontri regolari)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 10 [AttackDown]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Paralysis]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Binding] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2080221,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Desiderio Rosato",
+          "abName": "Scarpe Rosa",
+          "desc": "[CantIdentify]\nBersaglia l'unità con la Velocità maggiore",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [AttackDown]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Paralysis]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 4 [Binding] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Desiderio Rosato",
+          "abName": "Scarpe Rosa",
+          "desc": "[CantIdentify]\nBersaglia l'unità con la Velocità maggiore",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 7 [AttackDown]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Paralysis]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Binding] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Desiderio Rosato",
+          "abName": "Scarpe Rosa",
+          "desc": "[CantIdentify]\nBersaglia l'unità con la Velocità maggiore",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 10 [AttackDown]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Paralysis]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Binding] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2080311,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Stella del Fiore Ardente",
+          "abName": "Falena del Fiore Ardente",
+          "desc": "Bersaglia l'unità più indietro (Negli incontri regolari)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Infligge [Combustion] pari alla metà della Rison. Ira"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 3 [Combustion] su 3 nemici casuali"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Stella del Fiore Ardente",
+          "abName": "Falena del Fiore Ardente",
+          "desc": "Bersaglia l'unità più indietro (Negli incontri regolari)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Aumenta la Soglia di Stordimento del 40% del danno inflitto"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge [Combustion] in base alla Rison. Ira"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 3 [Combustion] su 3 nemici casuali"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Stella del Fiore Ardente",
+          "abName": "Falena del Fiore Ardente",
+          "desc": "Bersaglia l'unità più indietro (Negli incontri regolari)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Aumenta la Soglia di Stordimento del 40% del danno inflitto"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge [Combustion] in base alla Rison. Ira"
+                },
+                {
+                  "desc": "[EndSkillHead] Infligge 5 [Combustion] su 3 nemici casuali"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2080321,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Stella del Fiore Ardente",
+          "abName": "Falena del Fiore Ardente",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[WhenUse] Perde PV pari al 10% dei PV Max",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge [Combustion] in base alla Rison. Ira su tutte le unità"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Stella del Fiore Ardente",
+          "abName": "Falena del Fiore Ardente",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[WhenUse] Perde PV pari al 10% dei PV Max",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge [Combustion] pari al doppio della Rison. Ira su tutte le unità"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Aumenta la Soglia di Stordimento del 60% del danno inflitto"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Stella del Fiore Ardente",
+          "abName": "Falena del Fiore Ardente",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[WhenUse] Perde PV pari al 10% dei PV Max",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] Infligge (2 * Rison. Ira) [Combustion] su tutte le unità"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Aumenta la Soglia di Stordimento del 60% del danno inflitto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2090111,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ciò Ch'è Fatto",
+          "abName": "Rodion",
+          "desc": "Se i PV del bersaglio sono al di sopra del 50%, infligge +10% danni",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Ciò Ch'è Fatto",
+          "abName": "Rodion",
+          "desc": "Se i PV del bersaglio sono al di sopra del 50%, infligge +30% danni",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ciò Ch'è Fatto",
+          "abName": "Rodion",
+          "desc": "Se i PV del bersaglio sono al di sopra del 50%, infligge +30% danni",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +2 Efficenza Cura PS il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene -2 Efficenza Perdita PS il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2090211,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fiamma del Quarto Fiammifero",
+          "abName": "Piccola Fiammiferaia",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Fiamma del Quarto Fiammifero",
+          "abName": "Piccola Fiammiferaia",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 6 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [CrimsonTakeDamageUp] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2090221,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fiamma del Quarto Fiammifero",
+          "abName": "Piccola Fiammiferaia",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Fiamma del Quarto Fiammifero",
+          "abName": "Piccola Fiammiferaia",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 6 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [CrimsonTakeDamageUp] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2090311,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Gambo Brinato",
+          "abName": "Baba Yaga",
+          "desc": "Se i PV del bersaglio sono al di sopra del 50%, infligge +10% danni",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Innesca [VibrationExplosion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Gambo Brinato",
+          "abName": "Baba Yaga",
+          "desc": "Se i PV del bersaglio sono al di sopra del 50%, infligge +30% danni",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Gambo Brinato",
+          "abName": "Baba Yaga",
+          "desc": "Se i PV del bersaglio sono al di sopra del 50%, infligge +30% danni",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Sinking]\n[OnSucceedAttack] Infligge +5 Conteggio [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2090321,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Gambo Brinato",
+          "abName": "Baba Yaga",
+          "desc": "[CantIdentify]\nBersaglia l'unità con i PV maggiori\nSe i PV del bersaglio sono al di sopra del 50%, +10% danni",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Innesca [VibrationExplosion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +4 Conteggio [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Gambo Brinato",
+          "abName": "Baba Yaga",
+          "desc": "[CantIdentify]\nBersaglia l'unità con i PV maggiori\nSe i PV del bersaglio sono al di sopra del 50%, +30% danni",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +6 Conteggio [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Gambo Brinato",
+          "abName": "Baba Yaga",
+          "desc": "[CantIdentify]\nBersaglia l'unità con i PV maggiori\nSe i PV del bersaglio sono al di sopra del 50%, +30% danni",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 10 [Sinking]\n[OnSucceedAttack] Infligge +8 Conteggio [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2100111,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ramo della Conoscenza",
+          "abName": "Sinclair",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 6 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Perde 10 PS"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Ramo della Conoscenza",
+          "abName": "Sinclair",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 12 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Perde 10 PS"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Recupera 10 PS"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ramo della Conoscenza",
+          "abName": "Sinclair",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 12 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Perde 10 PS. <style=\"highlight\">Ottiene 1 [Enhancement] il turno successivo</style>"
+                },
+                {},
+                {
+                  "desc": "[OnSucceedAttackTail] Recupera 10 PS. <style=\"highlight\">Ottiene 1 [Protection] il turno successivo</style>"
+                },
+                {}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2100211,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Giorno Imminente",
+          "abName": "Calendario del Giorno del Giudizio",
+          "desc": "Se il bersaglio è sotto il 25% di PV, infligge +10% danni",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EnemyKill] Cura tutti gli alleati del 10% dei loro PV Max"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Giorno Imminente",
+          "abName": "Calendario del Giorno del Giudizio",
+          "desc": "Se il bersaglio è sotto il 25% di PV, infligge +20% danni",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EnemyKill] Ottiene 1 [Enhancement] il turno successivo"
+                },
+                {
+                  "desc": "[EnemyKill] Cura tutti gli alleati del 15% dei loro PV Max"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Giorno Imminente",
+          "abName": "Calendario del Giorno del Giudizio",
+          "desc": "Se il bersaglio è sotto il 25% di PV, infligge +40% danni",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EnemyKill] Ottiene 1 [Enhancement] il turno successivo"
+                },
+                {
+                  "desc": "[EnemyKill] Cura tutti gli alleati del 15% dei loro PV Max"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2100221,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Giorno Imminente",
+          "abName": "Calendario del Giorno del Giudizio",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nSe i PV del bersaglio sono sotto il 25%, +15% danni",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EnemyKillFail] Ottiene 10 [Laceration] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Giorno Imminente",
+          "abName": "Calendario del Giorno del Giudizio",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nSe i PV del bersaglio sono sotto il 25%, +25% danni",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EnemyKillFail] Ottiene 10 [Laceration] il turno successivo"
+                },
+                {
+                  "desc": "[EnemyKillFail] Ottiene 3 [Enhancement] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Giorno Imminente",
+          "abName": "Calendario del Giorno del Giudizio",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nSe i PV del bersaglio sono sotto il 25%, +50% danni",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EnemyKillFail] Ottiene 10 [Laceration] il turno successivo"
+                },
+                {
+                  "desc": "[EnemyKillFail] Ottiene 3 [Enhancement] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2110111,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "To Páthos Máthos",
+          "abName": "Outis",
+          "desc": "Se i PV del bersaglio sono sotto il 50%, +10% danni",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "To Páthos Máthos",
+          "abName": "Outis",
+          "desc": "Se i PV del bersaglio sono sotto il 50%, +30% danni",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "To Páthos Máthos",
+          "abName": "Outis",
+          "desc": "Se i PV del bersaglio sono sotto il 50%, +30% danni",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Burst]"
+                },
+                {
+                  "desc": "[EnemyKill] Applica 1 [AttackDmgUp] ad un alleato casuale"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2110211,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Stelo d'Ebano",
+          "abName": "Mela della Regina d'Ebano",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Stelo d'Ebano",
+          "abName": "Mela della Regina d'Ebano",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [ShamrockTakeDamageUp]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2110221,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Stelo d'Ebano",
+          "abName": "Mela della Regina d'Ebano",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Stelo d'Ebano",
+          "abName": "Mela della Regina d'Ebano",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [ShamrockTakeDamageUp]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2110311,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ya Śūnyatā Tad Rūpam",
+          "abName": "La Mia Forma si Svuota",
+          "desc": "[EndSkill] Cura 12 PS",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [ScarletTakeDamageUp]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Ya Śūnyatā Tad Rūpam",
+          "abName": "La Mia Forma si Svuota",
+          "desc": "[EndSkill] Cura 18 PS\n[EndSkill] Applica 1 [Enhancement] a 2 alleati casuali",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [ScarletTakeDamageUp]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2110321,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ya Śūnyatā Tad Rūpam",
+          "abName": "La Mia Forma si Svuota",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [ScarletTakeDamageUp]"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Infligge 1 [Vulnerable]"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Ottiene 1 [Vulnerable]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Ya Śūnyatā Tad Rūpam",
+          "abName": "La Mia Forma si Svuota",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[EndSkill] Applica 1 [Enhancement] a 2 alleati casuali",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [ScarletTakeDamageUp]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vulnerable]"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Ottiene 2 [Vulnerable]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120111,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Un Giorno, All'Improvviso",
+          "abName": "Gregor",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 di un uno status casuale tra [Combustion], [Laceration], [Vibration], [Burst] e [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Un Giorno, All'Improvviso",
+          "abName": "Gregor",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 6 di un uno status casuale tra [Combustion], [Laceration], [Vibration], [Burst] e [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Un Giorno, All'Improvviso",
+          "abName": "Gregor",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 10 di un uno status casuale tra [Combustion], [Laceration], [Vibration], [Burst] e [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120211,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Legerdemain",
+          "abName": "Mela Dorata",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Paralysis]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Legerdemain",
+          "abName": "Mela Dorata",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 4 [Paralysis]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Legerdemain",
+          "abName": "Mela Dorata",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 6 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Paralysis]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120221,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Legerdemain",
+          "abName": "Mela Dorata",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 2 [Paralysis]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Legerdemain",
+          "abName": "Mela Dorata",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Paralysis]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Muckworm]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Legerdemain",
+          "abName": "Mela Dorata",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Paralysis]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 6 [Muckworm]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120311,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lanterna",
+          "abName": "Lanterna Fatata",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si cura del 40% del danno inflitto"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Lanterna",
+          "abName": "Lanterna Fatata",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si cura del 60% del danno inflitto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120321,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lanterna",
+          "abName": "Lanterna Fatata",
+          "desc": "[CantIdentify] \nBersaglia l'unità con più salute",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si cura del 20% del danno inflitto"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 3 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Lanterna",
+          "abName": "Lanterna Fatata",
+          "desc": "[CantIdentify] \nBersaglia l'unità con più salute",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si cura del 30% del danno inflitto"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Infligge 5 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2030311,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Traliccio",
+          "abName": "Guardiano della Stradina",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +10 Conteggio [Charge]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Traliccio",
+          "abName": "Guardiano della Stradina",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +10 Conteggio [Charge]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Applica Conteggio [Charge] a tutti gli alleati in base alla Rison. Invidia"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Traliccio",
+          "abName": "Guardiano della Stradina",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +10 Conteggio [Charge]"
+                },
+                {
+                  "desc": "[EndSkill] Applica Conteggio [Charge] a tutti gli alleati in base alla Rison. Invidia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2030321,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Traliccio",
+          "abName": "Guardiano della Stradina",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +10 Conteggio [Charge] e 10 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Traliccio",
+          "abName": "Guardiano della Stradina",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +10 Conteggio [Charge] e 10 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Applica +10 Conteggio [Charge], 5 [Vulnerable] e 10 [Burst] a tutti gli alleati"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Traliccio",
+          "abName": "Guardiano della Stradina",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +10 Conteggio [Charge] e 10 [Burst]"
+                },
+                {
+                  "desc": "[EndSkill] Applica +10 Conteggio [Charge], 5 [Vulnerable] e 10 [Burst] a tutti gli alleati"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2020411,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Traliccio",
+          "abName": "Guardiano della Stradina",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Paralysis]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +5 Conteggio [Charge]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Traliccio",
+          "abName": "Guardiano della Stradina",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Paralysis]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +7 Conteggio [Charge]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Applica 1 [VioletResultUp] e 1 [Agility] a due alleati casuali il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Traliccio",
+          "abName": "Guardiano della Stradina",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Paralysis]"
+                },
+                {
+                  "desc": "[EndSkill] Ottiene +7 Conteggio [Charge]"
+                },
+                {
+                  "desc": "[EndSkillHead] Applica 1 [VioletResultUp] e 1 [Agility] a due alleati casuali il turno successivo, e quest'unità ottiene +3 Conteggio [Charge]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2020421,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Traliccio",
+          "abName": "Guardiano della Stradina",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Paralysis]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +7 Conteggio [Charge]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Traliccio",
+          "abName": "Guardiano della Stradina",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Paralysis]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene +10 Conteggio [Charge]"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Infligge 2 [Paralysis] e 2 [Binding] su 2 unità casuali il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Traliccio",
+          "abName": "Guardiano della Stradina",
+          "desc": "[CantIdentify]\nTargets randomly",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 5 [Paralysis]"
+                },
+                {
+                  "desc": "[EndSkill] Ottiene +10 Conteggio [Charge]"
+                },
+                {
+                  "desc": "[EndSkillTail] Infligge 2 [Paralysis] e 2 [Binding] su 2 unità casuali il turno successivo, ottiene +3 Conteggio [Charge]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2030411,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Stufato Perpetuo",
+          "abName": "Brodilisco",
+          "desc": "[BeforeAttack] Aumenta il danno in base alle risorse Lussuria correnti (Fino al 25%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Stufato Perpetuo",
+          "abName": "Brodilisco",
+          "desc": "[BeforeAttack] Aumenta il danno in base alle risorse Lussuria correnti (Fino al 50%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Combustion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2030421,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Stufato Perpetuo",
+          "abName": "Brodilisco",
+          "desc": "[CantIdentify]\nBersaglia l'unità con i PV maggiori\n\n[BeforeAttack] Aumenta il danno in base alle risorse Lussuria correnti (Fino al 25%)\nPoi spende risorse Lussuria in base alla Rison. Lussuria; aumenta ulteriorimente il danno del 5% per risorsa spesa",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Stufato Perpetuo",
+          "abName": "Brodilisco",
+          "desc": "[CantIdentify]\nBersaglia l'unità con i PV maggiori\n\n[BeforeAttack] Aumenta il danno in base alle risorse Lussuria correnti (Fino al 50%)\nPoi spende risorse Lussuria in base alla Rison. Lussuria; aumenta ulteriorimente il danno del 10% per risorsa spesa",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +4 Conteggio [Combustion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2100311,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Stufato Perpetuo",
+          "abName": "Brodilisco",
+          "desc": "[CantIdentify]\nBersaglia l'unità con i PV minori\nSe il bersaglio è un alleato, questa Abilità infligge 0 danni",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Se il bersaglio è un alleato, questo viene curato del 5% dei PV Max di quest'unità"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Infligge 7 [Combustion]; se il bersaglio è un alleato, applica 2 [Agility] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Stufato Perpetuo",
+          "abName": "Brodilisco",
+          "desc": "[CantIdentify]\nBersaglia l'unità con i PV minori\nSe il bersaglio è un alleato, questa Abilità infligge 0 danni",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Se il bersaglio è un alleato, questo viene curato del 10% dei PV Max di quest'unità"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Infligge 7 [Combustion]; se il bersaglio è un alleato, applica 2 [Agility] e 1 [GainSinStockAdder] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2100321,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Stufato Perpetuo",
+          "abName": "Brodilisco",
+          "desc": "[CantIdentify]\nBersaglia l'unità con i PV minori\n\n[BeforeAttack] Usa 3 risorse E.G.O casuali per aumentare il danno del 10%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Stufato Perpetuo",
+          "abName": "Brodilisco",
+          "desc": "[CantIdentify]\nBersaglia l'unità con i PV minori\n\n[BeforeAttack] Usa 3 risorse E.G.O casuali per aumentare il danno del 20%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Stufato Perpetuo",
+          "abName": "Brodilisco",
+          "desc": "[CantIdentify]\nBersaglia l'unità con i PV minori\n\n[BeforeAttack] Usa 3 risorse E.G.O casuali per aumentare il danno del 30%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Combustion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2010411,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Squartatore Dimensionale",
+          "abName": "Passeggero Disperso",
+          "desc": "Bersaglia l'unità più indietro (Negli incontri regolari)\n\n[BeforeAttack] Usa Conteggio [Charge] per infliggere più danno (Max 50%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge danno da Superbia bonus pari al ([Burst] sul bersaglio x 7.5)% del danno inflitto, e riduce il Conteggio [Burst] di 5 (Max 75%)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Squartatore Dimensionale",
+          "abName": "Passeggero Disperso",
+          "desc": "Bersaglia l'unità più indietro (Negli incontri regolari)\n\n[BeforeAttack] Usa Conteggio [Charge] per infliggere più danno (Max <style=\"highlight\">75</style>%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] <style=\"highlight\">Se è stato usato del Conteggio [Charge], infligge 3 [DimensionRift]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge danno da Superbia bonus pari al ([Burst] sul bersaglio x <style=\"highlight\">10</style>)% del danno inflitto, e riduce il Conteggio [Burst] di 5 (Max <style=\"highlight\">100</style>%)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Squartatore Dimensionale",
+          "abName": "Passeggero Disperso",
+          "desc": "Bersaglia l'unità più indietro (Negli incontri regolari)\n\n[BeforeAttack] Usa Conteggio [Charge] per infliggere più danno (Max 75%)<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se è stato usato del Conteggio [Charge], infligge <style=\"highlight\">5</style> [DimensionRift]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge danno da Superbia bonus pari al ([Burst] sul bersaglio x 10)% del danno inflitto, e riduce il Conteggio [Burst] di 5 (Max 100)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2010421,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Squartatore Dimensionale",
+          "abName": "Passeggero Disperso",
+          "desc": "[CantIdentify]\nBersaglia un'unità casuale\n\n[BeforeAttack] Spende Conteggio [Charge] per infliggere più danno (Max 50%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge danno da Superbia bonus pari al ([Burst] sul bersaglio x 7.5)% del danno inflitto, e riduce il Conteggio [Burst] di 5 (Max 75%)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Squartatore Dimensionale",
+          "abName": "Passeggero Disperso",
+          "desc": "[CantIdentify]\nBersaglia un'unità casuale\n\n[BeforeAttack] Spende Conteggio [Charge] per infliggere più danno (Max <style=\"highlight\">75</style>%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Se è stato usato del Conteggio [Charge], infligge 3 [DimensionRift]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">6</style> [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge danno da Superbia bonus pari al ([Burst] sul bersaglio x <style=\"highlight\">10</style>)% del danno inflitto, e riduce il Conteggio [Burst] di 5 (Max <style=\"highlight\">100</style>%)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Squartatore Dimensionale",
+          "abName": "Passeggero Disperso",
+          "desc": "[CantIdentify]\nBersaglia un'unità casuale\n\n[BeforeAttack] Spende Conteggio [Charge] per infliggere più danno (Max 75%)<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se è stato usato del Conteggio [Charge], infligge <style=\"highlight\">5</style> [DimensionRift]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 6 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge danno da Superbia bonus pari al ([Burst] sul bersaglio x x 10)% del danno inflitto, e riduce il Conteggio [Burst] di 5 (Max 100)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2060311,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Squartatore Dimensionale",
+          "abName": "Passeggero Disperso",
+          "desc": "Bersaglia l'unità più indietro (Negli incontri regolari)\n\n[BeforeAttack] Ottiene +3 Conteggio [Charge]; Ottiene 2 [Agility] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vulnerable] e 2 [DimensionRift]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Squartatore Dimensionale",
+          "abName": "Passeggero Disperso",
+          "desc": "Bersaglia l'unità più indietro (Negli incontri regolari)\n\n[BeforeAttack] Ottiene +5 Conteggio [Charge]; Ottiene 2 [Agility] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vulnerable] e 4 [DimensionRift]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2060321,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Squartatore Dimensionale",
+          "abName": "Passeggero Disperso",
+          "desc": "[CantIdentify]\nBersaglia l'unità con i PV maggiori\n\n[BeforeAttack] Ottiene 2 [Agility] il turno successivo\nUsa 10 Conteggio [Charge] per infliggere +1 [Vulnerable] e [DimensionRift] in più con questa Abilità",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vulnerable] e 3 [DimensionRift]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Squartatore Dimensionale",
+          "abName": "Passeggero Disperso",
+          "desc": "[CantIdentify]\nBersaglia l'unità con i PV maggiori\n\n[BeforeAttack] Ottiene <style=\"highlight\">3</style> [Agility] il turno successivo\nUsa 10 Conteggio [Charge] per infliggere <style=\"highlight\">+2</style> [Vulnerable] e [DimensionRift] in più con questa Abilità",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vulnerable] e 4 [DimensionRift]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050411,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Capote",
+          "abName": "Toro d'Ottone",
+          "desc": "[EndSkill] Ottiene 1 [Agility], 1 [CrimsonResultUp] e 1 [HitResultUp] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge [Vibration] in base a [Combustion] sul bersaglio"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce Conteggio [Vibration] di 3; se [VibrationExplosion] ha Stordito il bersaglio, infligge +1 Conteggio [Combustion] su 5 nemici casuali"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Capote",
+          "abName": "Toro d'Ottone",
+          "desc": "[EndSkill] Ottiene 2 [Agility], 1 [CrimsonResultUp] e 1 [HitResultUp] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 7 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge [Vibration] in base a [Combustion] sul bersaglio"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion] su 5 nemici casuali"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce Conteggio [Vibration] di 2; se [VibrationExplosion] ha Stordito il bersaglio, infligge +2 Conteggio [Combustion] su 5 nemici casuali"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Capote",
+          "abName": "Toro d'Ottone",
+          "desc": "[EndSkill] Ottiene 2 [Agility], 1 [CrimsonResultUp] e 1 [HitResultUp] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 10 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge [Vibration] in base a [Combustion] sul bersaglio"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Combustion] su 5 nemici casuali"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce Conteggio [Vibration] di 2; se [VibrationExplosion] ha Stordito il bersaglio, infligge +3 Conteggio [Combustion] su 5 nemici casuali"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050421,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Capote",
+          "abName": "Toro d'Ottone",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[EndSkill] Ottiene 1 [Agility], 1 [CrimsonResultUp] e 1 [HitResultUp] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 6 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge [Vibration] in base a [Combustion] sul bersaglio"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce Conteggio [Vibration] di 3; se [VibrationExplosion] ha Stordito il bersaglio, infligge +2 Conteggio [Combustion] su 5 unità casuali"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Capote",
+          "abName": "Toro d'Ottone",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[EndSkill] Ottiene 2 [Agility], 1 [CrimsonResultUp] e 1 [HitResultUp] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 10 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge [Vibration] in base a [Combustion] sul bersaglio"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion] su 5 unità casuali"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce Conteggio [Vibration] di 2; se [VibrationExplosion] ha Stordito il bersaglio, infligge +3 Conteggio [Combustion] su 5 unità casuali"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Capote",
+          "abName": "Toro d'Ottone",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[EndSkill] Ottiene 2 [Agility], 1 [CrimsonResultUp] e 1 [HitResultUp] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 12 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge [Vibration] in base a [Combustion] sul bersaglio"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Combustion] su 5 unità casuali"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce Conteggio [Vibration] di 2; se [VibrationExplosion] ha Stordito il bersaglio, infligge +4 Conteggio [Combustion] su 5 unità casuali"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2080411,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Capote",
+          "abName": "Toro d'Ottone",
+          "desc": "[EndSkill] Applica 1 [CrimsonDamageUp] a tutti gli alleati il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 7 danni ai PS"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Capote",
+          "abName": "Toro d'Ottone",
+          "desc": "[EndSkill] Applica 1 [CrimsonDamageUp] a tutti gli alleati il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 15 danni ai PS"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2080421,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Capote",
+          "abName": "Toro d'Ottone",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[EndSkill] Applica 1 [CrimsonTakeDamageUp] ed 1 [CrimsonDamageUp] a tutti gli alleati il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 7 danni ai PS"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce Conteggio [Vibration] del bersaglio di 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Capote",
+          "abName": "Toro d'Ottone",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[EndSkill] Applica 1 [CrimsonTakeDamageUp] ed 1 [CrimsonDamageUp] a tutti gli alleati il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 15 danni ai PS"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce Conteggio [Vibration] del bersaglio di 2; se [VibrationExplosion] ha Stordito il bersaglio, infligge +2 Conteggio [Combustion] su 3 unità casuali"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2110411,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Pioggia Solare",
+          "abName": "Volpe Vagabonda",
+          "desc": "[BeforeAttack] Ottiene +4 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Binding] il turno successivo"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Innesca [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Pioggia Solare",
+          "abName": "Volpe Vagabonda",
+          "desc": "[BeforeAttack] Ottiene +6 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Binding] il turno successivo"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Innesca [VibrationExplosion]; Infligge +2 Conteggio [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Pioggia Solare",
+          "abName": "Volpe Vagabonda",
+          "desc": "[BeforeAttack] Ottiene +7 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 6 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Binding] il turno successivo"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Innesca [VibrationExplosion]; Infligge +3 Conteggio [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2110421,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Pioggia Solare",
+          "abName": "Volpe Vagabonda",
+          "desc": "[CantIdentify]\nBersaglia l'unità con i PV minori\n[BeforeAttack] Ottiene +5 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Binding] il turno successivo"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Innesca [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Pioggia Solare",
+          "abName": "Volpe Vagabonda",
+          "desc": "[CantIdentify]\nBersaglia l'unità con i PV minori\n[BeforeAttack] Ottiene +7 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Binding] il turno successivo"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Innesca [VibrationExplosion]; Infligge +2 Conteggio [Sinking] e Conteggio [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Pioggia Solare",
+          "abName": "Volpe Vagabonda",
+          "desc": "[CantIdentify]\nBersaglia l'unità con i PV minori\n[BeforeAttack] Ottiene +7 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 6 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 6 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Binding] il turno successivo"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Innesca [VibrationExplosion]; Infligge +3 Conteggio [Sinking] e Conteggio [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120411,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "AEDD",
+          "abName": "Scolopendra Elettrica",
+          "desc": "[BeforeAttack] Ottiene +5 Conteggio [Charge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [EmittedCurrent]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "AEDD",
+          "abName": "Scolopendra Elettrica",
+          "desc": "[BeforeAttack] Ottiene +7 Conteggio [Charge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 10 [EmittedCurrent]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "AEDD",
+          "abName": "Scolopendra Elettrica",
+          "desc": "[BeforeAttack] Ottiene +10 Conteggio [Charge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 15 [EmittedCurrent]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120421,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "AEDD",
+          "abName": "Scolopendra Elettrica",
+          "desc": "[CantIdentify]\nDa' priorità alle unità con [Charge]\n[BeforeAttack] Ottiene +5 Conteggio [Charge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [EmittedCurrent] e +5 Conteggio [Charge]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "AEDD",
+          "abName": "Scolopendra Elettrica",
+          "desc": "[CantIdentify]\nDa' priorità alle unità con [Charge]\n[BeforeAttack] Ottiene +7 Conteggio [Charge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 10 [EmittedCurrent] e +5 Conteggio [Charge]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "AEDD",
+          "abName": "Scolopendra Elettrica",
+          "desc": "[CantIdentify]\nDa' priorità alle unità con [Charge]\n[BeforeAttack] Ottiene +10 Conteggio [Charge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 15 [EmittedCurrent] e +7 Conteggio [Charge]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2070311,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "AEDD",
+          "abName": "Scolopendra Elettrica",
+          "desc": "[BeforeAttack] Ottiene +1 Conteggio [Charge] per ogni 10% di PV persi (Max 5)\nOttiene 2 [Agility] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Paralysis]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "AEDD",
+          "abName": "Scolopendra Elettrica",
+          "desc": "[BeforeAttack] Ottiene +1 Conteggio [Charge] per ogni 10% di PV persi (Max 7)\nOttiene 2 [Agility] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Paralysis] e 1 [AzureTakeDamageUp]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2070321,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "AEDD",
+          "abName": "Scolopendra Elettrica",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene +1 Conteggio [Charge] per ogni 10% di PV persi (Max 5)\nOttiene 2 [Agility] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Usa tutto il Conteggio [Charge] per infliggere il (Conteggio [Charge] * 1.5)% del danno inflitto come danni Tristezza bonus (Max 30%)"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Dopo l'attacco, perde il 10% dei PV Max per ottenere +7 Conteggio [Charge]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "AEDD",
+          "abName": "Scolopendra Elettrica",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene +1 Conteggio [Charge] per ogni 10% di PV persi (Max 7)\nOttiene 2 [Agility] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Usa tutto il Conteggio [Charge] per infliggere il (Conteggio [Charge] * 2.5)% del danno inflitto come danni Tristezza bonus (Max 50%)"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Dopo l'attacco, perde il 10% dei PV Max per ottenere +10 Conteggio [Charge]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "AEDD",
+          "abName": "Scolopendra Elettrica",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene +1 Conteggio [Charge] per ogni 10% di PV persi (Max 7)\nOttiene 2 [Agility] il turno successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Usa tutto il Conteggio [Charge] per infliggere il (Conteggio [Charge] * 2.5)% del danno inflitto come danni Tristezza bonus (Max 50%)"
+                },
+                {
+                  "desc": "[EndSkill] Usa tutto il Conteggio [Charge]"
+                },
+                {
+                  "desc": "[EndSkillTail] Perde il 10% dei PV Max per ottenere +10 Conteggio [Charge]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2010511,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Pioggia Solare",
+          "abName": "Volpe Vagabonda",
+          "desc": "[BeforeAttack] Applica 1 [AmberResultUp], 1 [AmberDamageUp] e 2 [Protection] a tutti gli alleati in questo turno e in quello successivo",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Pioggia Solare",
+          "abName": "Volpe Vagabonda",
+          "desc": "[BeforeAttack] Applica 1 [AmberResultUp], 2 [AmberDamageUp], e 3 [Protection] a tutti gli alleati in questo turno e in quello successivo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Recupera 15 PS"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2010521,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Pioggia Solare",
+          "abName": "Volpe Vagabonda",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene 1 [AmberResultUp] e 1 [AmberDamageUp] questo turno ed i 2 successivi",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [AmberTakeDamageUp] e 1 [PenetrateTakeDamageUp] questo turno e quello successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Pioggia Solare",
+          "abName": "Volpe Vagabonda",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene 2 [AmberResultUp] e 2 [AmberDamageUp] questo turno ed i 2 successivi",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [AmberTakeDamageUp] e 2 [PenetrateTakeDamageUp] questo turno e quello successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2040311,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Occhi Rossi",
+          "abName": "Ragno Bocciolo",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Binding] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 3+ [Binding], infligge 1 [PlusCoinValueDown] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Occhi Rossi",
+          "abName": "Ragno Bocciolo",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Binding] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 3+ [Binding], infligge 1 [PlusCoinValueDown] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se la Velocità del bersaglio è minore di quella di quest'unità, infligge 2 [SlashTakeDamageUp] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Occhi Rossi",
+          "abName": "Ragno Bocciolo",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Binding] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 3+ [Binding], infligge 1 [PlusCoinValueDown] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se la Velocità del bersaglio è minore di quella di quest'unità, infligge 2 [SlashTakeDamageUp] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2040321,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Occhi Rossi",
+          "abName": "Ragno Bocciolo",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Binding] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 3+ [Binding], infligge 2 [PlusCoinValueDown] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Occhi Rossi",
+          "abName": "Ragno Bocciolo",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Binding] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 3+ [Binding], infligge 2 [PlusCoinValueDown] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se la Velocità del bersaglio è minore di quella di quest'unità, infligge 1-3 [SlashTakeDamageUp] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2040411,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Occhi Rossi (Aperti)",
+          "abName": "Ragno Bocciolo",
+          "desc": "Se la Velocità del bersaglio principale è minore di 3 o più rispetto a quella di quest'unità, Potere Moneta +4",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 3+ [Binding], infligge +20% danni"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Occhi Rossi (Aperti)",
+          "abName": "Ragno Bocciolo",
+          "desc": "Se la Velocità del bersaglio principale è minore di 3 o più rispetto a quella di quest'unità, Potere Moneta +4",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 3+ [Binding], infligge +20% danni"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se quest'Abilità Stordisce o uccide un bersaglio, quest'unità cura sé stessa e l'alleato con i PV minori del 10% dei PV Max"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Occhi Rossi (Aperti)",
+          "abName": "Ragno Bocciolo",
+          "desc": "Se la Velocità del bersaglio principale è minore di 3 o più rispetto a quella di quest'unità, Potere Moneta +7",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 3+ [Binding], infligge +40% danni"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se quest'Abilità Stordisce o uccide un bersaglio, quest'unità cura sé stessa e l'alleato con i PV minori del 10% dei PV Max"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2040421,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Occhi Rossi (Aperti)",
+          "abName": "Ragno Bocciolo",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nSe la Velocità del bersaglio principale è minore di 3 o più rispetto a quella di quest'unità, Potere Moneta +7",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 3+ [Binding], infligge +30% danni"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Occhi Rossi (Aperti)",
+          "abName": "Ragno Bocciolo",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nSe la Velocità del bersaglio principale è minore di 3 o più rispetto a quella di quest'unità, Potere Moneta +7",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 3+ [Binding], infligge +30% danni"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se quest'Abilità Stordisce o uccide un bersaglio, quest'unità cura sé stessa e l'alleato con i PV minori del 10% dei PV Max"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Occhi Rossi (Aperti)",
+          "abName": "Ragno Bocciolo",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nSe la Velocità del bersaglio principale è minore di 3 o più rispetto a quella di quest'unità, Potere Moneta +10",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 3+ [Binding], infligge +50% danni"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se quest'Abilità Stordisce o uccide un bersaglio, quest'unità cura sé stessa e l'alleato con i PV minori del 10% dei PV Max"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2070411,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ya Śūnyatā Tad Rūpam",
+          "abName": "La Mia Forma si Svuota",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Reduction] il turno successivo"
+                },
+                {
+                  "desc": "[EndSkill] Cura 12 PS a 4 alleati con i PS più bassi"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Ya Śūnyatā Tad Rūpam",
+          "abName": "La Mia Forma si Svuota",
+          "desc": "[BeforeAttack] A 15+ PS, Portata Attacco +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Reduction] il turno successivo"
+                },
+                {
+                  "desc": "[EndSkill] Cura 17 PS a 4 alleati con i PS più bassi"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ya Śūnyatā Tad Rūpam",
+          "abName": "La Mia Forma si Svuota",
+          "desc": "[BeforeAttack] A 15+ PS, Portata Attacco +2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Reduction] il turno successivo"
+                },
+                {
+                  "desc": "[EndSkill] Cura 25 PS a 4 alleati con i PS più bassi"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2070421,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ya Śūnyatā Tad Rūpam",
+          "abName": "La Mia Forma si Svuota",
+          "desc": "[CantIdentify]\nBersaglia casualmente",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [DefenseDown] ad 1 alleato casuale"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [DefenseUp] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [AttackDmgUp] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Ya Śūnyatā Tad Rūpam",
+          "abName": "La Mia Forma si Svuota",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] A -15 o meno PS, Portata Attacco +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [DefenseDown] ad 1 alleato casuale"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [DefenseUp] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [AttackDmgUp] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Recupera 4 PS"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ya Śūnyatā Tad Rūpam",
+          "abName": "La Mia Forma si Svuota",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] A -15 o meno PS, Portata Attacco +2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [DefenseDown] ad 1 alleato casuale"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 2 [DefenseUp] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ottiene 1 [AttackDmgUp] il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Recupera 4 PS"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Infligge 1 [Vulnerable]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

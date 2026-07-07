@@ -1,0 +1,1224 @@
+{
+  "dataList": [
+    {
+      "id": 144801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Catene Ohra Vincolanti",
+          "desc": "[WhenUse] A 6+ ([Breath] su di sé + [Laceration] sul bersaglio), Potere Base +1\n[WhenUse] Ottiene +3 Conteggio [Breath]\n- Se la Velocità di quest'unità è più alta di quella del bersaglio, ottiene +1 Conteggio [Breath] in più",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [ScratchesHurt] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 144802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Immobilizzazione",
+          "desc": "[WhenUse] Potere Base +1 per ogni 6 ([Breath] su di sé + [Laceration] sul bersaglio) (max 2)\n[WhenUse] Se la Velocità di quest'unità è più alta di quella del bersaglio, converte l'ultima Moneta in [SuperCoin]\n[WhenUse] Ottiene 2 [Breath] e +3 Conteggio [Breath]\n[WhenUse] Se la Velocità di quest'unità è più alta di quella del bersaglio, ottiene 3 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [ScratchesHurt] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 144803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Squarcio Avulsivo",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 6 ([Breath] su di sé + [Laceration] sul bersaglio) (max 2)\n[WhenUse] Se la Velocità di quest'unità è più alta di quella del bersaglio, converte ogni Moneta in [SuperCoin]\n[WhenUse] Ottiene 3 [Breath]\n[WinDuel] Ottiene 2 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [ScratchesHurt] il turno successivo"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 1 [ScratchesHurt] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 144804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Marchiare",
+          "desc": "Dà priorità ai bersagli con [TiedRope]\nSe la Velocità di quest'unità è più alta di quella del bersaglio, infligge +25% danni per ogni differenza di Velocità (max 100%)\n[WhenUse] Potere Moneta +1 per ogni 6 ([Breath] su di sé + [Laceration] sul bersaglio) (max 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 144805,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Interrompi la Fuga",
+          "desc": "[DuelCounter]\n[WhenUse] Potere Base +1 per ogni 6 ([Breath] su di sé + [Laceration] sul bersaglio) (max 2)\n[WhenUse] Ottiene 3 [Breath]\n[WinDuel] Ottiene +3 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [ScratchesHurt] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 144901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Imprigionare",
+          "desc": "[WhenUse] A 6+ ([Breath] su di sé + [Laceration] sul bersaglio), Potere Base +1\n[WhenUse] Ottiene +3 Conteggio [Breath]\n- Se la Velocità di quest'unità è più alta di quella del bersaglio, ottiene +1 Conteggio [Breath] in più",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Binding] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 144902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Strangolamento",
+          "desc": "[WhenUse] Potere Base +1 per ogni 6 ([Breath] su di sé + [Laceration] sul bersaglio) (max 2)\n[WhenUse] Se la Velocità di quest'unità è più alta di quella del bersaglio, converte l'ultima Moneta in [SuperCoin]\n[WhenUse] Ottiene 2 [Breath] e +2 Conteggio [Breath]\n[WhenUse] Se la Velocità di quest'unità è più alta di quella del bersaglio, ottiene 3 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Binding] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 144903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Scarnatura del Cacciatore",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 6 ([Breath] su di sé + [Laceration] sul bersaglio) (max 2)\n[WhenUse] Se la Velocità di quest'unità è più alta di quella del bersaglio, converte ogni Moneta in [SuperCoin]\n[WhenUse] Ottiene 3 [Breath]\n[WinDuel] Ottiene 2 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [Binding] questo turno e il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Possibilità del ([Binding] x 20)% di infliggere [TiedRope]\n- If target is Staggered, questo effetto non fallisce"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 144904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Marchiare",
+          "desc": "Dà priorità ai bersagli con [TiedRope]\nSe la Velocità di quest'unità è più alta di quella del bersaglio, infligge +25% danni per ogni differenza di Velocità (max 100%)\n[WhenUse] Potere Moneta +1 per ogni 6 ([Breath] su di sé + [Laceration] sul bersaglio) (max 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 144905,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Intercetta la Fuga",
+          "desc": "[DuelCounter]\n[WhenUse] Potere Base +1 per ogni 6 ([Breath] su di sé + [Laceration] sul bersaglio) (max 2)\n[WhenUse] Ottiene 3 [Breath]\n[WinDuel] Ottiene +3 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Binding] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Punto d'Angolo della Valigia",
+          "desc": "[WhenUse] Ottiene 1 [Agility] il turno successivo (una volta per turno)\nSe il bersaglio ha 6+ ([Laceration] + [Vibration]), Potere Base +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [LensmanNail]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [LensmanNail]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Botta Pesante",
+          "desc": "[WhenUse] Ottiene 2 [Agility] il turno successivo (una volta per turno)\nPotere Moneta +1 per ogni 6 ([Laceration] sul bersaglio + [Vibration] sul bersaglio) (max 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [LensmanNail]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [LensmanNail]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] sul bersaglio di 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Incorniciare il Soggetto",
+          "desc": "Potere Moneta +1 per ogni 6 ([Laceration] sul bersaglio + [Vibration] sul bersaglio) (max 2)\n[WhenUse] Se la Velocità di quest'unità è più alta di quella del bersaglio, converte ogni Moneta in [SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [LensmanNail]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] sul bersaglio di 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [Paralysis] il turno successivo"
+                },
+                {
+                  "desc": "[EndCoin] Infligge 1 [TakePicture] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Scatto",
+          "desc": "[DuelCounter]\nPotere Base +1 per ogni 4 ([Laceration] sul bersaglio + [Vibration] sul bersaglio) (max 2)\n[WhenUse] Se la Velocità di quest'unità è più alta di quella del bersaglio, converte ogni Moneta in [SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [AttackDown] il turno successivo"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [Paralysis] il turno successivo"
+                },
+                {
+                  "desc": "[EndCoin] Infligge 1 [TakePicture] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Botta della Valigia d'Acciaio",
+          "desc": "[WhenUse] Ottiene 1 [Agility] il turno successivo (una volta per turno)\nSe il bersaglio ha 6+ ([Laceration] + [Vibration]), Potere Base +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [LensmanNail]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [LensmanNail]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Colpo della Testa del Chiodo",
+          "desc": "[WhenUse] Ottiene 2 [Agility] il turno successivo (una volta per turno)\nPotere Moneta +1 per ogni 6 ([Laceration] sul bersaglio + [Vibration] sul bersaglio) (max 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [LensmanNail]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [LensmanNail]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] sul bersaglio di 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Rimetti a Fuoco",
+          "desc": "Potere Moneta +1 per ogni 6 ([Laceration] sul bersaglio + [Vibration] sul bersaglio) (max 2)\n[WhenUse] Se la Velocità di quest'unità è più alta di quella del bersaglio, converte ogni Moneta in [SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [LensmanNail]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] sul bersaglio di 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [Paralysis] il turno successivo"
+                },
+                {
+                  "desc": "[EndCoin] Infligge [TakePicture] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Scatto",
+          "desc": "[DuelCounter]\nPotere Base +1 per ogni 4 ([Laceration] sul bersaglio + [Vibration] sul bersaglio) (max 2)\n[WhenUse] Se la Velocità di quest'unità è più alta di quella del bersaglio, converte ogni Moneta in [SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [AttackDown] il turno successivo"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [Paralysis] il turno successivo"
+                },
+                {
+                  "desc": "[EndCoin] Infligge [TakePicture] il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Spezza-Tori",
+          "desc": "[WhenUse] Ottiene 3 [Breath]\n[WhenUse] Potere Finale +1 per ogni 4 [Laceration] sul bersaglio (max 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Squarciaorsi",
+          "desc": "[WhenUse] Ottiene +3 Conteggio [Breath]\n[WhenUse] Potere Finale +1 per ogni 4 [Laceration] sul bersaglio (max 2)\n[WhenUse] A 6+ [Breath], converte ogni Moneta in [SuperCoin]\n[DefeatDuel]\n- Infligge -80% danni\n- Non può eseguire Colpi Critici\n- Quest'Abilità non può Stordire il bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Rompi-Vertebra D'Orso",
+          "desc": "[WhenUse] A 8+ [Breath], infligge +40% danni sul Colpo Critico\n[WhenUse] Potere Finale +1 per ogni 4 [Laceration] sul bersaglio (max 2)\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>A 7+ [ChoiSwordsmanship], converte ogni Moneta in [SuperCoin] e infligge +20% danni sul Colpo Critico</color></mark></b></u>\n[DefeatDuel]\n- Infligge -80% danni\n- Non può eseguire Colpi Critici\n- Quest'Abilità non può Stordire il bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [SlashResistDown] questo turno e il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Laceration] e +3 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145005,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Forma della Spada della Patria - Taglio Dei Sal",
+          "desc": "[WhenUse] Ottiene 3 [Breath]\n[WhenUse] Potere Finale +1 per ogni 4 [Laceration] sul bersaglio (max 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145006,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Cacciatigri",
+          "desc": "[WhenUse] Ottiene +3 Conteggio [Breath]\n[WhenUse] Potere Finale +1 per ogni 4 [Laceration] sul bersaglio (max 2)\n[WhenUse] A 6+ [Breath], converte ogni Moneta in [SuperCoin]\n[DefeatDuel]\n- Infligge -80% danni\n- Non può eseguire Colpi Critici\n- Quest'Abilità non può Stordire il bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145007,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Spezza-Tigri",
+          "desc": "[WhenUse] A 8+ [Breath], infligge +40% danni sul Colpo Critico\n[WhenUse] Potere Finale +1 per ogni 4 [Laceration] sul bersaglio (max 2)\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>A 3 o meno [ChoiSwordsmanship], converte ogni Moneta in [SuperCoin] e infligge +20% danni sul Colpo Critico</color></mark></b></u>\n[DefeatDuel]\n- Infligge -80% danni\n- Non può eseguire Colpi Critici\n- Quest'Abilità non può Stordire il bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration] e +2 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration] e +2 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Binding] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [SlashResistDown] questo turno e il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145009,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Spada della Patria [Sal] - Riacquisire Postura",
+          "desc": "Quest'Abilità non è affetta da [ChoiSwordsmanship]\n[CantDuel] dalle Unità di Supporto\nDà priorità ai Peccatori\nSe l'Abilità del bersaglio è esclusiva alla [SupportProtect], converte la Moneta in [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>Perde 3 [ChoiSwordsmanship]</color></mark></b></u>\n- Se l'Abilità del bersaglio è esclusiva alla [SupportProtect], questo effetto non viene attivato\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>Se ha colpito come Attacco Incontrastato, o se ha colpito un'unità che ha usato un'Abilità esclusiva alle [SupportProtect], ottiene 2 [ChoiSwordsmanship]</color></mark></b></u>",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145010,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Spada della Patria [Sal] - Affilalama",
+          "desc": "Quest'Abilità non è affetta da [ChoiSwordsmanship]\n[CantDuel] dalle Unità di Supporto\nDà priorità ai Peccatori\nSe l'Abilità del bersaglio è esclusiva alla [SupportProtect], converte la Moneta in [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>Ottiene 3 [ChoiSwordsmanship]</color></mark></b></u>\n- Se l'Abilità del bersaglio è esclusiva alla [SupportProtect], questo effetto non viene attivato\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>Se ha colpito come Attacco Incontrastato, o se ha colpito un'unità che ha usato un'Abilità esclusiva alle [SupportProtect], perde 2 [ChoiSwordsmanship]</color></mark></b></u>",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145011,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Arco della Patria [Sal] - Freccialibera",
+          "desc": "<color=#ff6000><mark color=#ff000040><b><u>Bersaglia il nemico con più [Laceration]</color></mark></b></u>\nQuest'Abilità non è affetta da [ChoiSwordsmanship]\n[WhenUse] Consuma 3 Potenza [Breath] su di sé per ottenere Potere Finale +2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Laceration] e +4 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Alza la Soglia di Stordimento di 10"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 2 [Binding] il turno successivo"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [Vulnerable]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145012,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Forma di Guardia",
+          "desc": "Quest'Abilità non è affetta da [ChoiSwordsmanship]\n[StartBattle] Ottiene 5 [Breath] e +5 Conteggio [Breath]\n[WhenUse] Ottiene 2 [CriticalDamageUp] il turno successivo",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145013,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Forma di Contrattacco",
+          "desc": "Quest'Abilità non è affetta da [ChoiSwordsmanship]\n[StartBattle] Ottiene 5 [Breath] e +5 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Spezza-Tori",
+          "desc": "[WhenUse] Ottiene 3 [Breath]\n[WhenUse] Potere Finale +1 per ogni 4 [Laceration] sul bersaglio (max 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Squarciaorsi",
+          "desc": "[WhenUse] Ottiene +3 Conteggio [Breath]\n[WhenUse] Potere Finale +1 per ogni 4 [Laceration] sul bersaglio (max 2)\n[WhenUse] A 6+ [Breath], converte ogni Moneta in [SuperCoin]\n[DefeatDuel]\n- Infligge -80% danni\n- Non può eseguire Colpi Critici\n- Quest'Abilità non può Stordire il bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Infligge 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Rompi-Vertebra D'Orso",
+          "desc": "[WhenUse] A 8+ [Breath], infligge +40% danni sul Colpo Critico\n[WhenUse] Potere Finale +1 per ogni 4 [Laceration] sul bersaglio (max 2)\n[WhenUse] A più di 6 [ChoiSwordsmanship], ottiene Potere Finale per ogni Stack di [ChoiSwordsmanship] in eccesso (max 3)\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>A 7+ [ChoiSwordsmanship], converte ogni Moneta in [SuperCoin] e infligge +20% danni sul Colpo Critico</color></mark></b></u>\n[DefeatDuel]\n- Infligge -80% danni\n- Non può eseguire Colpi Critici\n- Quest'Abilità non può Stordire il bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [SlashResistDown] questo turno e il turno successivo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Laceration] e +3 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Persino i Sangun Cadranno Sotto Questa Lama",
+          "desc": "Bersaglia il nemico con più [Laceration]\n[WhenUse] Non può essere Stordita fino alla fine di quest'Abilità\n[WhenUse] Potere Finale +1 per ogni 4 [Laceration] sul bersaglio (max 3)\n[WhenUse] A più di 6 [ChoiSwordsmanship], ottiene Potere Finale +2 per ogni Stack di [ChoiSwordsmanship] in eccesso (max 6)\n[WinDuel] <color=#ff6000><mark color=#ff000040><b><u>Le Monete di quest'Abilità cadranno sempre su Testa, eseguiranno un Colpo Critico, e non consumano Conteggio [Breath]</color></mark></b></u>\n[BeforeAttack] Infligge +20% danni sul Colpo Critico per ogni 2 [ChoiSwordsmanship] su di sé (max 80%)\n[DefeatDuel]\n- Infligge -80% danni\n- Non può eseguire Colpi Critici\n- Quest'Abilità non può Stordire il bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge (([Breath] su di sé x 10)% dei danni finali di questa Moneta) danni Taglienti (max 100%)"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge (([Laceration] sul bersaglio x 10)% dei danni finali di questa Moneta) danni Lussuria (max 100%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Attiva [Laceration] sul bersaglio una volta. Il bersaglio perde 1 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145105,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Forma della Spada della Patria - Taglio Dei Sal",
+          "desc": "[WhenUse] Ottiene 3 [Breath]\n[WhenUse] Potere Finale +1 per ogni 4 [Laceration] sul bersaglio (max 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145106,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Cacciatigri",
+          "desc": "[WhenUse] Ottiene +3 Conteggio [Breath]\n[WhenUse] Potere Finale +1 per ogni 4 [Laceration] sul bersaglio (max 2)\n[WhenUse] A 6+ [Breath], converte ogni Moneta in [SuperCoin]\n[DefeatDuel]\n- Infligge -80% danni\n- Non può eseguire Colpi Critici\n- Quest'Abilità non può Stordire il bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145107,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Spezza-Tigri",
+          "desc": "[WhenUse] A 8+ [Breath], infligge +40% danni sul Colpo Critico\n[WhenUse] Potere Finale +1 per ogni 4 [Laceration] sul bersaglio (max 2)\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>A 3 o meno [ChoiSwordsmanship], converte ogni Moneta in [SuperCoin] e infligge +20% danni sul Colpo Critico</color></mark></b></u>\n[DefeatDuel]\n- Infligge -80% danni\n- Non può eseguire Colpi Critici\n- Quest'Abilità non può Stordire il bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration] e +2 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration] e +2 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Binding] il turno successivo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [SlashResistDown] questo turno e il turno successivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145108,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Le Carni di Nessuna Tigre Sarà Lasciata Intatta",
+          "desc": "Bersaglia il nemico con più [Laceration]\n<color=#ff6000><mark color=#ff000040><b><u>Ci si può Scontrare con quest'Abilità a prescindere dalla Velocità</color></mark></b></u>\n[WhenUse] Non può essere Stordita fino alla fine di quest'Abilità\n[WhenUse] Potere Finale +1 per ogni 4 [Laceration] sul bersaglio (max 3)\n[WinDuel] <color=#ff6000><mark color=#ff000040><b><u>Le Monete di quest'Abilità cadranno sempre su Testa, eseguiranno un Colpo Critico, e non consumano Conteggio [Breath]</color></mark></b></u>\n[BeforeAttack] Infligge +20% danni sul Colpo Critico per ogni 2 [Breath] su di sé (max 80%)\n[DefeatDuel]\n- Infligge -80% danni\n- Non può eseguire Colpi Critici\n- Quest'Abilità non può Stordire il bersaglio",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Attiva [Laceration] sul bersaglio una volta. Il bersaglio perde 1 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Attiva [Laceration] sul bersaglio una volta. Il bersaglio perde 1 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Attiva [Laceration] sul bersaglio una volta. Il bersaglio perde 1 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se il bersaglio principale ha 10+ [Laceration], infligge +8 Conteggio [Laceration] su ogni bersaglio colpito da questa Moneta"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +8 Conteggio [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145109,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Spada della Patria [Sal] - Riacquisire Postura",
+          "desc": "Quest'Abilità non è affetta da [ChoiSwordsmanship]\n[CantDuel] dalle Unità di Supporto\nDà priorità ai Peccatori\nSe l'Abilità del bersaglio è esclusiva alla [SupportProtect], converte la Moneta in [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>Perde 3 [ChoiSwordsmanship]</color></mark></b></u>\n- Se l'Abilità del bersaglio è esclusiva alla [SupportProtect], questo effetto non viene attivato\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>Se ha colpito come Attacco Incontrastato, o se ha colpito un'unità che ha usato un'Abilità esclusiva alle [SupportProtect], ottiene 2 [ChoiSwordsmanship]</color></mark></b></u>",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145110,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Spada della Patria [Sal] - Affilalama",
+          "desc": "Quest'Abilità non è affetta da [ChoiSwordsmanship]\n[CantDuel] dalle Unità di Supporto\nDà priorità ai Peccatori\nSe l'Abilità del bersaglio è esclusiva alla [SupportProtect], converte la Moneta in [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>Ottiene 3 [ChoiSwordsmanship]</color></mark></b></u>\n- Se l'Abilità del bersaglio è esclusiva alla [SupportProtect], questo effetto non viene attivato\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>Se ha colpito come Attacco Incontrastato, o se ha colpito un'unità che ha usato un'Abilità esclusiva alle [SupportProtect], perde 2 [ChoiSwordsmanship]</color></mark></b></u>",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145111,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Arco della Patria [Sal] - Freccialibera",
+          "desc": "<color=#ff6000><mark color=#ff000040><b><u>Bersaglia il nemico con più [Laceration]</color></mark></b></u>\nQuest'Abilità non è affetta da [ChoiSwordsmanship]\n[WhenUse] Consuma 3 Potenza [Breath] su di sé per ottenere Potere Finale +2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 5 [Laceration] e +4 Conteggio [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Raise Stagger Threshold by 10"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 2 [Binding] il turno successivo"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [Vulnerable]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145112,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Forma di Guardia",
+          "desc": "Quest'Abilità non è affetta da [ChoiSwordsmanship]\n[StartBattle] Ottiene 5 [Breath] e +5 Conteggio [Breath]\n[WhenUse] Ottiene 2 [CriticalDamageUp] il turno successivo",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145113,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Forma di Contrattacco",
+          "desc": "Quest'Abilità non è affetta da [ChoiSwordsmanship]\n[StartBattle] Ottiene 5 [Breath] e +5 Conteggio [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
