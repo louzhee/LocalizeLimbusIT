@@ -1,0 +1,178 @@
+{
+  "dataList": [
+    {
+      "id": 955601,
+      "name": "",
+      "subDesc": "",
+      "desc": "Una creatura che risplende di giallo si para davanti a noi in tutta fretta, bloccando il nostro cammino.\n\n\"Potreste fermarvi un momento, per favore?\"\n\n\"Vedete... c'è una bambina capricciosetta che sta giocando con i suoi amichetti poco più avanti.\"\n\n\"Non è un'impresa da poco riuscire a intrattenere questa piccolina finché non si stanchi, quindi ho deciso di aspettare qui per poter dare una mano.\"\n\n\"Ditemi, come posso esservi utile?\"<size=0%>",
+      "options": [
+        {
+          "message": "Bevete della linfa vitale.",
+          "messageDesc": "Seleziona per applicare un effetto che potenzia la sopravvivenza per tutte le unità alleate e nemiche per questa Sezione",
+          "result": [
+            "Dopo aver bevuto la linfa vitale, i Peccatori sembravano sentirsi decisamente meglio.<size=0%>"
+          ]
+        },
+        {
+          "message": "Portatevi la farfalla color tramonto.",
+          "messageDesc": "Seleziona per applicare un effetto che potenzia i danni per tutte le unità alleate e nemiche per questa Sezione",
+          "result": [
+            "Avevamo deciso di andare avanti assieme alle farfalle.<size=0%>"
+          ]
+        },
+        {
+          "message": "Rifiutate l'aiuto.",
+          "messageDesc": "Nessun effetto particolare",
+          "result": [
+            "Avevamo deciso di iniziare la battaglia senza ricevere alcun aiuto.<size=0%>"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955101,
+      "name": "",
+      "subDesc": "",
+      "desc": "Una creatura che risplende di giallo ci stava aspettando.\n\n\"Salve. Ne è passato di tempo.\"\n\n\"Più avanti c'è un fanciullo solo soletto, che non riesce ad arrivare alla fine della storia.\"\n\n\"Finora ho aspettato qui per assistere chiunque voglia mostrare al ragazzo cosa sia un finale.\"\n\n\"Ditemi, come posso esservi utile?\"<size=0%>",
+      "options": [
+        {
+          "message": "Bevete della linfa congelata.",
+          "messageDesc": "Seleziona per applicare un effetto che potenzia la sopravvivenza per tutte le unità alleate e nemiche per questa Sezione",
+          "result": [
+            "I Peccatori avevano sciolto la linfa congelata per poi bersela. Sembravano sentirsi decisamente meglio.<size=0%>"
+          ]
+        },
+        {
+          "message": "Prendete le scaglie d'ali luccicanti.",
+          "messageDesc": "Seleziona per applicare un effetto che potenzia i danni per tutte le unità alleate e nemiche per questa Sezione",
+          "result": [
+            "Avevamo messo da parte le scaglie d'ali luccicanti per poi proseguire.<size=0%>"
+          ]
+        },
+        {
+          "message": "Rifiutate l'aiuto.",
+          "messageDesc": "Nessun effetto particolare",
+          "result": [
+            "Avevamo deciso di andare in battaglia senza ricevere alcun aiuto.<size=0%>"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956701,
+      "name": "",
+      "subDesc": "",
+      "desc": "L'ultima fermata.\n\nUn pellegrino tinto nel bagliore del tramonto si avvicina a noi.\n\n\"Non penso ci sia bisogno di dirvi altro.\"\n\n\"Mettetevi a vostro agio e riposatevi per un po'. Sentitevi pure liberi di ripartire subito se siete di fretta.\"<size=0%>",
+      "options": [
+        {
+          "message": "Sorseggiate della linfa e riposatevi.",
+          "messageDesc": "Seleziona per applicare un effetto che potenzia la sopravvivenza per tutte le unità alleate per questa Sezione",
+          "result": [
+            "I Peccatori si erano dissetati con la linfa e si erano riposati per bene. Sembravano sentirsi decisamente meglio.<size=0%>"
+          ]
+        },
+        {
+          "message": "Riposatevi un po' per poi incamminarvi con le farfalle.",
+          "messageDesc": "Seleziona per applicare un effetto che potenzia i danni per tutte le unità alleate per questa Sezione",
+          "result": [
+            "Avevamo seguito le farfalle, andandocene dal luogo con i nostri istinti combattivi ancora fini.<size=0%>"
+          ]
+        },
+        {
+          "message": "Sbrigatevi ad andarvene.",
+          "messageDesc": "Nessun effetto particolare",
+          "result": [
+            "Avevamo deciso di iniziare la battaglia senza riposarci.<size=0%>"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956401,
+      "name": "Illusory Butterfly of Entangled Lives::The Past Choice Event",
+      "subDesc": "",
+      "desc": "Siamo riusciti a rimuovere i filamenti di filo rosso avvolti attorno all'Anormalità.\n\nCome dovremo procedere?<size=0%>",
+      "options": [
+        {
+          "message": "Recidi il nerofumo.",
+          "messageDesc": "Nell'Incontro contro la Farfalla delle Vite Intrecciate::Imago nella Sezione 5, disabilita il primo effetto della Passiva \"Passato\":\n\"Quando colpita da un Peccatore, la Farfalla delle Vite Intrecciate infligge Bruciatura e Conteggio Bruciatura su quel Peccatore\"",
+          "result": [
+            "L'illusione si disperde, svanendo nel passato.<size=0%>"
+          ]
+        },
+        {
+          "message": "Recidi il tizzone.",
+          "messageDesc": "Nell'Incontro contro la Farfalla delle Vite Intrecciate::Imago nella Sezione 5, disabilita il secondo effetto della Passiva \"Passato\":\n\"L'Abilità esclusiva 'Kalpāgni' della Farfalla delle Vite Intrecciate 'Nel Passato' ottiene Potere Finale e la sua Moneta finale infligge danni ai PS Per Colpo\"",
+          "result": [
+            "L'illusione si disperde, svanendo nel passato.<size=0%>"
+          ]
+        },
+        {
+          "message": "Recidi i resti.",
+          "messageDesc": "Nell'Incontro contro la Farfalla delle Vite Intrecciate::Imago nella Sezione 5, disabilita il terzo effetto della Passiva \"Passato\":\n\"Farfalla delle Vite Intrecciate infligge Cure PV Ridotte e Fragilità Ira ai Peccatori che hanno abbastanza Bruciatura\"",
+          "result": [
+            "L'illusione si disperde, svanendo nel passato.<size=0%>"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956501,
+      "name": "Illusory Butterfly of Entangled Lives::The Present Choice Event",
+      "subDesc": "",
+      "desc": "Siamo riusciti a rimuovere i filamenti di filo rosso avvolti attorno all'Anormalità.\n\nCome dovremo procedere?<size=0%>",
+      "options": [
+        {
+          "message": "Recidi il filo.",
+          "messageDesc": "Nell'Incontro contro la Farfalla delle Vite Intrecciate::Imago nella Sezione 5, disabilita il primo effetto della Passiva \"Presente\":\n\"Quando la Farfalla delle Vite Intrecciate colpisce con Critico, non perde Conteggio Equilibrio; ottiene una grossa quantità di Potenza Equilibrio a Inizio Turno\"",
+          "result": [
+            "L'illusione si disperde, svanendo nel presente.<size=0%>"
+          ]
+        },
+        {
+          "message": "Recidi l'attimo.",
+          "messageDesc": "Nell'Incontro contro la Farfalla delle Vite Intrecciate::Imago nella Sezione 5, disabilita il secondo effetto della Passiva \"Presente\":\n\"L'Abilità esclusiva 'Sconfiggi i Malvagi' della Farfalla delle Vite Intrecciate 'Nel Presente' ottiene Potere Finale e la sua Moneta finale alza la Soglia di Stordimento Per Colpo\"",
+          "result": [
+            "L'illusione si disperde, svanendo nel presente.<size=0%>"
+          ]
+        },
+        {
+          "message": "Recidi l'ala.",
+          "messageDesc": "Nell'Incontro contro la Farfalla delle Vite Intrecciate::Imago nella Sezione 5, disabilita il terzo effetto della Passiva \"Presente\":\n\"Farfalla delle Vite Intrecciate infligge più danni per Colpo Critico in base alla propria Potenza e Conteggio Equilibrio\"",
+          "result": [
+            "L'illusione si disperde, svanendo nel presente.<size=0%>"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956601,
+      "name": "Illusory Butterfly of Entangled Lives::The Future Choice Event",
+      "subDesc": "",
+      "desc": "Siamo riusciti a rimuovere i filamenti di filo rosso avvolti attorno all'Anormalità.\n\nCome dovremo procedere?<size=0%>",
+      "options": [
+        {
+          "message": "Recidi il presagio.",
+          "messageDesc": "Nell'Incontro contro la Farfalla delle Vite Intrecciate::Imago nella Sezione 5, disabilita il primo effetto della Passiva \"Futuro\":\n\"Inizio Turno: I Peccatori ottengono Conteggio Sanguinamento\"",
+          "result": [
+            "L'illusione si disperde, svanendo nel futuro.<size=0%>"
+          ]
+        },
+        {
+          "message": "Recidi la possibilità.",
+          "messageDesc": "Nell'Incontro contro la Farfalla delle Vite Intrecciate::Imago nella Sezione 5, disabilita il secondo effetto della Passiva \"Futuro\": \n\"L'Abilità esclusiva 'Fiore Sanguineo' della Farfalla delle Vite Intrecciate 'Nel Futuro' ottiene Potere Finale; Per Colpo, recupera PV con la sua Moneta finale\"",
+          "result": [
+            "L'illusione si disperde, svanendo nel futuro.<size=0%>"
+          ]
+        },
+        {
+          "message": "Recidi la via d'uscita.",
+          "messageDesc": "Nell'Incontro contro la Farfalla delle Vite Intrecciate::Imago nella Sezione 5, disabilita il terzo effetto della Passiva \"Futuro\":\n\"Farfalla delle Vite Intrecciate recupera PV ogni volta che si attiva Sanguinamento su di sé o sui Peccatori\"",
+          "result": [
+            "L'illusione si disperde, svanendo nel futuro.<size=0%>"
+          ]
+        }
+      ]
+    }
+  ]
+}

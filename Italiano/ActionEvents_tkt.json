@@ -1,0 +1,168 @@
+{
+  "dataList": [
+    {
+      "id": 10511,
+      "name": "Operaio della Fabbrica",
+      "subDesc": "",
+      "desc": "L'ennesima fabbrica di orologi trafficata.\n\n\"!@#$!#$#!$@#$!$#@$.\"\n\nUn uomo, con delle scarpe luccicanti ed un vestito pulito (sicuramente il proprietario della fabbrica), sta urlando contro i suoi dipendenti, vestiti con degli indumenti da lavoro sudici di olio.\n\nSembra che qualcosa attiri la sua attenzione, facendolo urlare contro uno dei dipendenti.\n\nIl dipendente, nonostante stia lavorando, si imbarazza e prova a ribattere, ma non riesce a spiccare una parola.\n\nIl proprietario tira fuori un dispositivo per comunicare, ma non sembra aiutare.\n\n\"Ho appena controllato i video della sorveglianza. Hai dormito per due ore di fila! Voglio una spiegazione.\"\n\n\"F… … … a… … …\"\n\n\"… … b… … … b…\"\n\n\"Non riesci a parlare più velocemente?!\"\n\nForse qui intorno c'è qualcosa che può essere d'aiuto?",
+      "options": [
+        {
+          "message": "Dai un'occhiata in giro per la fabbrica.",
+          "messageDesc": "Prova con Vantaggio per Gola e Superbia.\nPassa per ottenere un Dono E.G.O Vibrazione."
+        },
+        {
+          "message": "Osserva più da vicino il proprietario e il dipendente.",
+          "messageDesc": "Prova con Vantaggio per Tristezza e Accidia.\nPassa per ottenere un Dono E.G.O Vibrazione."
+        }
+      ]
+    },
+    {
+      "id": 10512,
+      "name": "Riscossione Tasse della T Corp.",
+      "subDesc": "",
+      "desc": "Ti trovi in una delle stradine della T Corp. Un Esattore sta riscuotendo le tasse da un cittadino.\n\n\"Preferisce pagare in tempo o contanti?\"\n\n\"Te l'ho detto, abbiamo già pagato tutte le nostre Tasse Temporali! Ma poi, trecento milioni di Ahn? È assurdo...!\"\n\n\"I registri indicano che hai maturato interessi sulla tassa di donazione.\"\n\n\"Non è possibile... È perché ho dato il mio tempo a quei bambini nei Vicoli?\"\n\n\"Ho dato loro solo trecento ore, da dove diamine sono arrivati quei trecento milioni di Ahn?! Non ha assolutamente senso!\"\n\n\"I calcoli delle imposte a T Corp. sono sempre accurati.\"\n\nL'Esattore Temporale avanza verso il cittadino, per neutralizzarlo.",
+      "options": [
+        {
+          "message": "Parla con l'Esattore.",
+          "messageDesc": "Prova con Vantaggio per Tristezza e Accidia.\nPassa per ottenere un Dono E.G.O Senza Tratti."
+        },
+        {
+          "message": "Vattene.",
+          "result": [
+            "Sembra che dovrà difendersi da solo all'Ufficio Riscossioni.\n\nNon cambierà molto se ti intrometti.\n\n... All'improvviso realizzi che questo pensiero è ciò che ha fatto diventare T Corp. in ciò che è adesso. Ti giri rapidamente e provi ad intervenire...\n\n... Ma l'Esattore ha già estratto il tempo dal cittadino, rallentandolo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10513,
+      "name": "Strade della T Corp.",
+      "subDesc": "",
+      "desc": "Persone di tutte le età, con ore da spendere in qualsiasi giorno, parlano e si muovono a diverse velocità.\n\nIl suono di questa strana disuguaglianza riempie la strada di incongruenze.\n\nIn quel caos, due persone catturano la tua attenzione.\n\nUn giovane ricco, nonostante abbia a disposizione molto tempo, cammina a passo sostenuto verso le strade...\n\n... ed un uomo povero, nonostante non abbia molto tempo, cammina lentamente in un vicolo, con uno sguardo tranquillo.\n\nChi seguirai?",
+      "options": [
+        {
+          "message": "Segui il giovane.",
+          "messageDesc": "Prova con Vantaggio per Superbia e Gola.\nPassa per ottenere un Dono E.G.O Vibrazione."
+        },
+        {
+          "message": "Segui l'anziano.",
+          "messageDesc": "Prova con Vantaggio per Accidia e Lussuria.\nPassa per ottenere un Dono E.G.O Vibrazione."
+        },
+        {
+          "message": "Non seguire nessuno.",
+          "result": [
+            "Sono solo due persone intente a farsi i propri affari, che spendono il loro tempo come meglio credono.\n\nA che pro seguirli? Usiamo il nostro tempo come riteniamo opportuno.\n\nContinui a camminare per la strada, con la testa piena di pensieri sull'inequalità temporale."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10514,
+      "name": "Nascondiglio degli Yurodiviye",
+      "subDesc": "",
+      "desc": "Un nascondiglio segreto degli Yurodiviye. Uno di loro sta recitando con fervore un testo che gli è stato dato dal Santo.\n\n\"Siamo diventati ingranaggi di una macchina che esiste solo per gli imprenditori, per la borghesia e per le Ali.\"\n\n\"Cos'altro, che altro tipo di relazione umana rimane ai Cittadini, se non l'egoismo e i legami senza cuore creati dal capitale?\n\n\"Pertanto, ci libereremo dalle fredde catene del metallo che chiamiamo moneta; dovremmo scambiare il nostro calore l'uno con l'altro, in base ai nostri bisogni!\"\n\n\"Per i ricchi, le leggi dei Nidi sono lo scudo che protegge i loro privilegi; eppure, per i poveri, quelle sono le catene che li legano!\"\n\n\"Dobbiamo dunque ribellarci alle leggi del Nido! Mostreremo loro l'ira dei poveri!\"\n\n\"Tutto quello che gli Yurodiviye hanno da perdere solo le loro catene; tutto quello che abbiamo da guadagnare è un mondo senza fame!\"\n\nLo Yurodivy all'improvviso indica verso di noi.\n\nSembra che dovremo dire qualcosa.",
+      "options": [
+        {
+          "message": "Y-Yurodiviye di tutta la Città, Unitevi!",
+          "messageDesc": "Prova con Vantaggio per Ira, Invidia e Gola.\nPassa per ottenere un Dono E.G.O Vibrazione."
+        },
+        {
+          "message": "L'idea mi piace, ma non potrebbe mai funzionare.",
+          "result": [
+            "Non appena il Peccatore finisce di parlare, l'atmosfera nella stanza si fa gelida e silente.\n\nLo Yurodivy che sembra essere il loro capo indica la porta e ti fa cenno di andartene.\n\nTe ne vai prima che possa succedere qualcosa."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10515,
+      "name": "La Scena del Tempocrimine",
+      "subDesc": "",
+      "desc": "Vedi una vittima dello Squartatempo.\n\nNon riesci neanche a toccarla a causa del fenomeno di sovrapposizione spazio-temporale.\n\nC'è qualcosa che potresti fare per aiutare?",
+      "options": [
+        {
+          "message": "Prova ad aiutare.",
+          "messageDesc": "Prova con Vantaggio per Accidia, Gola e Superbia.\nPassa per ottenere un Dono E.G.O Vibrazione."
+        },
+        {
+          "message": "Ignoralo e vai per la tua strada.",
+          "result": [
+            "Devi cercare lo Squartatempo.\n\nNon c'è tempo da perdere."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 910901,
+      "name": "Inizio del Dungeon Rinnovato di Tempo Ammazzatempo",
+      "subDesc": "",
+      "desc": "Entriamo in un Dungeon dell'Abisso. Assomiglia ad una strada della T Corp.\n\nSuperata la folla di passanti, notiamo il luccichio di un distributore automatico nelle vicinanze.\n\nNelle strade così prive di colore...\n\n... la luce del distributore automatico risuona ancora di più col nostro cuore.\n\nGuardandoci intorno, gli altri passanti non sembrano notare niente di strano.\n\nVediamo più file di bottoni sul distributore.\n\nCosa dovremmo fare?",
+      "options": [
+        {
+          "message": "Premete uno dei bottoni sulla prima riga.",
+          "messageDesc": "Ottieni un Dono E.G.O Vibrazione",
+          "result": [
+            "Prendiamo il Dono E.G.O che è uscito dal distributore con un tonfo.\n\nSiamo *così* vicini a svelare il mistero del Tempo Ammazzatempo.\n\nNon sappiamo bene come si concluderà questo caso...\n\n... ma abbiamo deciso di continuare, con la luce a guidarci."
+          ]
+        },
+        {
+          "message": "Premete uno dei bottoni sulla riga in mezzo.",
+          "messageDesc": "Ottieni un Dono E.G.O Vibrazione",
+          "result": [
+            "Prendiamo il Dono E.G.O che è uscito dal distributore con un tonfo.\n\nSiamo *così* vicini a svelare il mistero del Tempo Ammazzatempo.\n\nNon sappiamo bene come si concluderà questo caso...\n\n... ma abbiamo deciso di continuare, con la luce a guidarci."
+          ]
+        },
+        {
+          "message": "Premete uno dei bottoni sull'ultima riga.",
+          "messageDesc": "Ottieni un Dono E.G.O Senza Tratti",
+          "result": [
+            "Prendiamo il Dono E.G.O che è uscito dal distributore con un tonfo.\n\nSiamo *così* vicini a svelare il mistero del Tempo Ammazzatempo.\n\nNon sappiamo bene come si concluderà questo caso...\n\n... ma abbiamo deciso di continuare, con la luce a guidarci."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 910902,
+      "name": "Timekilling Time Dungeon Renewal Fusion",
+      "subDesc": "",
+      "desc": "Ci imbattiamo in un punto di ristoro familiare.\n\nLa vetrata è chiusa, con una nota attaccata su di essa.\n\n'Oggi siamo chiusi per ragioni personali, Ci scusiamo per l'inconveniente.'\n\n'Comunque, il nostro dispositivo di fusione è disponibile per l'uso. I clienti che necessitano di servizi di fusione sono gentilmente pregati di usare l'apparecchio dietro l'entrata.'\n\nCosa dovremmo fare?",
+      "options": [
+        {
+          "message": "Prova ad inserire la Cassa Argentata e le Lancette Incise.",
+          "messageDesc": "",
+          "result": [
+            "Dopo un lungo sferragliamento, un Dono E.G.O esce fuori dal dispositivo."
+          ]
+        },
+        {
+          "message": "Prova ad inserire la Cassa Argentata e le Lancette Arruginite.",
+          "messageDesc": "",
+          "result": [
+            "Dopo un lungo sferragliamento, un Dono E.G.O esce fuori dal dispositivo."
+          ]
+        },
+        {
+          "message": "Prova ad inserire la Cassa Sbiadita e le Lancette Incise.",
+          "messageDesc": "",
+          "result": [
+            "Dopo un lungo sferragliamento, un Dono E.G.O esce fuori dal dispositivo."
+          ]
+        },
+        {
+          "message": "Prova ad inserire la Cassa Sbiadita e le Lancette Arruginite.",
+          "messageDesc": "",
+          "result": [
+            "Dopo un lungo sferragliamento, un Dono E.G.O esce fuori dal dispositivo."
+          ]
+        },
+        {
+          "message": "Non c'è niente che sembra possa essere inserito nel dispositivo.",
+          "messageDesc": "",
+          "result": [
+            "Non abbiamo nulla che vada bene da inserire nel dispositivo.\n\nNon abbiamo avuto scelta se non ritornare nel nostro cammino."
+          ]
+        }
+      ]
+    }
+  ]
+}

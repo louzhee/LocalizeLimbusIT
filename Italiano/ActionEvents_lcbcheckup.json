@@ -1,0 +1,158 @@
+{
+  "dataList": [
+    {
+      "id": 971042,
+      "name": "",
+      "desc": "Siamo all'inizio del Dungeon dei Meandri.\n\nCi ritroviamo in una stanza che sembra essere un'officina di equipaggiamenti E.G.O.\n\n'Se avete segnato meno del 100% del rapporto di sincronia nel test attitudinale, prendete solamente un E.G.O da questa parte.'\n\nUn minaccioso cartello d'avvertimento ci accoglie, e le stesse parole vengono ripetute incessantemente dall'altoparlante.\n\nI Peccatori vanno a dare un'occhiata, attirati dal cartello che ci dice di poter prendere degli equipaggiamenti E.G.O da qui... ma quel che vediamo sono Doni E.G.O.\n\n\"Ma che? Questi non son equipaggiamenti E.G.O. Non sono quei... regali o quel che sono?\"\n\n\"Pare che in questo luogo gli E.G.O si manifestino sotto l'aspetto di Doni E.G.O.\"\n\n\"Mh. Non possiamo semplicemente prenderceli tutti?\"\n\n\"Questo è un Dungeon dei Meandri. Anche se differisce dal solito Dungeon Specchio, è altamente consigliato che vengano seguite le sue regole.\"\n\nCosa dovremmo fare?",
+      "options": [
+        {
+          "message": "Prendi i guanti fiammeggianti.",
+          "messageDesc": "Seleziona per ottenere un Dono E.G.O Bruciatura",
+          "result": [
+            "Questo sembra il più adatto per la situazione in cui ci troviamo.\n\nPrendiamo il Dono E.G.O 'Guanti della Combustione'."
+          ]
+        },
+        {
+          "message": "Prendi gli anfibi con parti spinose.",
+          "messageDesc": "Seleziona per ottenere un Dono E.G.O Lacerazione",
+          "result": [
+            "Questo sembra il più adatto per la situazione in cui ci troviamo.\n\nPrendiamo il Dono E.G.O 'Anfibi Spinati'."
+          ]
+        },
+        {
+          "message": "Prendi la soluzione spray detergente.",
+          "messageDesc": "Seleziona per ottenere un Dono E.G.O Senza Tratti",
+          "result": [
+            "Questo sembra il più adatto per la situazione in cui ci troviamo.\n\nPrendiamo il Dono E.G.O 'Caccia Illusoria'."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 971043,
+      "name": "",
+      "desc": "Ci siamo imbattuti in un gruppo di ricercatori che stavano studiando minuziosamente vari documenti.\n\nStanno avendo un dibattito su 2 argomenti: le emozioni e le fiamme.\n\n\"Fiamme comuni non sembrano danneggiare molto le Anormalità. Quindi come mai questa sembra funzionare...?\"\n\n\"Forse un alto grado di emozioni furibonde permettono al calore della fiamma di toccare le Anormalità e le Distorsioni, essendo entrambe entità dell'ignoto.\"\n\nDevono averci notato origliare la loro conversazione—uno di loro si avvicina con gli occhi speranzosi.\n\n\"Siete voi i 'campioni' che hanno accettato questo esperimento?\"\n\n\"Se è così, provate ad usare questo.\"\n\nNelle mani del ricercatore c'era quel che dava l'aria di essere una spina di accensione... o una qualche sorta di macchina per delle prove.",
+      "options": [
+        {
+          "message": "Avete preso la persona sbagliata.",
+          "messageDesc": "",
+          "result": [
+            "\"Che? Non siete i campioni?\"\n\n\"Ma allora che ci fate qui? Andatevene, adesso!\"\n\nSiamo stati cacciati."
+          ]
+        },
+        {
+          "message": "Siamo i 'campioni'.",
+          "messageDesc": "Esegui una prova con Vantaggio per Ira e Lussuria per ottenere un Dono E.G.O Bruciatura.",
+          "result": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": 971044,
+      "name": "",
+      "desc": "Parecchi ricercatori girano frettolosamente in un laboratorio dall'aria frenetica.\n\nMa sarà scappato qualcosa, o che?\n\nMentre eravamo imbambolati davanti al casino, qualcuno cammina verso i Peccatori.\n\n\"Toglietevi di mezzo!\"\n\n\"N-no, anzi sapete che c'è? Siete capitati nel momento giusto.\"\n\n\"Ingerite questo. Eddai, non abbiamo molto tempo prima della scadenza del resoconto sulla prova clinica!\"",
+      "options": [
+        {
+          "message": "Ingeritelo.",
+          "messageDesc": "Esegui una prova con Vantaggio per Gola e Tristezza per ottenere un Dono E.G.O Lacerazione.",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "Non lo prendiamo. Non sappiamo nemmeno cosa sia.",
+          "messageDesc": "",
+          "result": [
+            "\"E ma allora levatevi dalle scatole!\"\n\nIl ricercatore ci spinge via."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 971045,
+      "name": "",
+      "desc": "Vediamo la Falena del Fiore Ardente all'interno dell'unità di contenimento.\n\nPiccole particelle di fiamme cremisi la circondano come un'aura.\n\nLe ali fiameggianti si spengono brevemente, per poi rivampare vigorosamente poco dopo.\n\nUn tentativo incessante di incendiare tutto ciò che la circonda.\n\n\"Che meraviglioso esemplare, questa Falena del Fiore Ardente. Non hai ancora terminato con le tue osservazioni?\"\n\n\"Stiamo imparando molto su questa Anormalità recentemente.\"\n\n\"Eppure c'è ancora molto che non sappiamo su di lei.\"\n\n\"A proposito di sapere, ecco un'interrogazione a sorpresa. Quale Dono E.G.O puoi ottenere dalla Falena del Fiore Ardente?\"",
+      "options": [
+        {
+          "message": "Fioritura Subacquea",
+          "messageDesc": "Seleziona la risposta giusta per ottenere un Dono E.G.O Bruciatura",
+          "result": [
+            "\"…….\"\n\n\"Presta più attenzione per la prossima volta.\"\n\nIl ricercatore passa accanto a noi."
+          ]
+        },
+        {
+          "message": "Sogno della Falena Infernale",
+          "messageDesc": "Seleziona la risposta giusta per ottenere un Dono E.G.O Bruciatura",
+          "result": [
+            "\"Esatto. Te ne sai molto sulla Falena del Fiore Ardente.\"\n\n\"Ma non è tutto. Di recente sta producendo anche questi oggetti.\"\n\n\"Prendi questo con te. Sono alquanto grato di aver incontrato un'anima gemella quest'oggi.\"\n\nHai ricevuto una sfavillante fiamma ardente. Sembra sia venuta direttamente dalla stessa Falena del Fiore Ardente."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 971046,
+      "name": "",
+      "desc": "Vediamo la Lanterna Fatata all'interno dell'unità di contenimento.\n\nUna fatina di una sfumatura di ciano volteggia verso gli antichi e ispidi rami dell'albero, per poi lentamente appoggiarsi ad uno di essi.\n\nIl ramo che fa da appoggio alla fatina oscilla, come se ci stesse invitando ad avvicinarci a loro...\n\nInnumerevoli occhi gialli brillanti si illuminano dalle ombre sottostanti alle sue radici.\n\n\"Che meraviglioso esemplare, questa Lanterna Fatata. Non hai ancora terminato con le tue osservazioni?\"\n\n\"Stiamo imparando molto su questa Anormalità recentemente.\"\n\n\"Eppure c'è ancora molto che non sappiamo su di lei.\"\n\n\"A proposito di sapere, ecco un'interrogazione a sorpresa. Quale Dono E.G.O puoi ottenere dalla  Lanterna Fatata?\"",
+      "options": [
+        {
+          "message": "Incubo di Mezzo Inverno",
+          "messageDesc": "Seleziona la risposta giusta per ottenere un Dono E.G.O Lacerazione",
+          "result": [
+            "\"Esatto. Te ne sai molto sulla Lanterna Fatata.\"\n\n\"Ma non è tutto. Di recente sta producendo anche questi oggetti.\"\n\n\"Prendi questo con te. Sono alquanto grato di aver incontrato un'anima gemella quest'oggi.\"\n\nHai ricevuto un ramoscello secco. Sembra sia venuto direttamente dalla stessa Lanterna Fatata."
+          ]
+        },
+        {
+          "message": "Concavità",
+          "messageDesc": "Seleziona la risposta giusta per ottenere un Dono E.G.O Lacerazione",
+          "result": [
+            "\"…….\"\n\n\"Presta più attenzione per la prossima volta.\"\n\nIl ricercatore passa accanto a noi."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 971047,
+      "name": "",
+      "desc": "Alla fine di questo corridoio, un gruppo di ricercatori sta avendo una discussione di fronte ad un luogo stranamente oscuro.\n\nNotando la nostra presenza, le loro espressioni si risollevano mentre si avvicinano a noi.\n\n\"Per favore, potreste perlustrare questa zona davanti a noi?\"\n\n\"Vi aiuteremo come meglio possiamo se accettate.\"",
+      "options": [
+        {
+          "message": "Accetta e perlustrate.",
+          "messageDesc": "Cura tutti gli alleati\nEsegui una prova con Vantaggio per Superbia e Invidia per ottenere un Dono E.G.O Senza Tratti.",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "Rifiuta.",
+          "messageDesc": "",
+          "result": [
+            "\"Va bene, andatevene.\"\n\n\"Non siamo noi a perdere un'occasione d'oro.\"\n\nI ricercatori si voltano tutti con un attimo di esitazione."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 971048,
+      "name": "",
+      "desc": "Parecchie lettere grossolane e disordinate sono incise sulle mura da dei coltelli.\n\nPosso praticamente sentire il puro orrore e la disperazione degli autori dalle violenti scritte.\n\nIspezionandole più da vicino, i segni raccontano di una storia scritta nel terrore.\n\n'Ci stanno circondando i mostri sento il loro fiato ci uccideranno tutti'\n\n'Salvatemi vi prego qualcuno mi salvi non voglio morire vi scongiuro'\n\n'La paura è ciò che manda gli uomini nella pazzia. I mostri sono vicini, posso sentire il tremore dei loro passi. Stanno arrivando…'\n\nCi sono frasi incomplete scritte sul muro.\n\nLa morte ha intagliato delle tracce profonde tra di esse.",
+      "options": [
+        {
+          "message": "Ignorate e muovetevi.",
+          "messageDesc": "",
+          "result": [
+            "Niente di buono ci aspetta dal curiosare qui attorno. Non farà bene ai Peccatori.\n\nAbbiamo deciso di svignarcela velocemente dal posto."
+          ]
+        },
+        {
+          "message": "Controlla in giro.",
+          "messageDesc": "Esegui una prova con Vantaggio per Ira e Tristezza per ottenere un Dono E.G.O Senza Tratti.",
+          "result": [
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

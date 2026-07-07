@@ -1,0 +1,666 @@
+{
+  "dataList": [
+    {
+      "id": 800101,
+      "title": "백설선택지1",
+      "eventDesc": "Un cuore strappato in mille pezzi deve celarsi da ogni sguardo, così si è sotterrato e contorto.\n\nEppure, qualcuno deve tirare fuori queste radici spinate,\npoichè nessuna ferita può restare sepolta.\n\nI peccatori si scambiano sguardi.\nEssere avvolti da un dolore pungente sarebbe da evitare anche nei sogni.",
+      "prevDesc": "I rami che escono dal terreno sono una seccatura.\nForse avremo un'occasione per sbarazzarcene?",
+      "behaveDesc": "La secca terra deve essere rovesciata.\nChi ci può riuscire?",
+      "successDesc": [
+        "{0} camminava con passi indecisi.\nA mani nude, ha strappato via le radici.\n\nNelle sue mani teneva i dubbi degli altri.\n{0} ha capito...\n\nChe mentre la ferita guarisce, il dubbio può radicarsi nel suo cuore."
+      ],
+      "failureDesc": [
+        "{0} non riusciva a strappare le radici.\nNon era semplice, in fondo- così attorcigliate, non si trovava la fine.\n\n Avvolta su se stessa, la tela di fibre resistenti continua ad espandersi, \ned i Peccatori continueranno a soffrire."
+      ]
+    },
+    {
+      "id": 800102,
+      "title": "백설선택지2",
+      "eventDesc": "Il terreno ha cominciato a tremare leggermente.\nI Peccatori son rimasti zitti, ma potevano leggere dagli sguardi degli altri che condividevano un pensiero:\n“Uno di noi non dovrebbe farsi avanti per sopportare il dolore così che gli altri siano risparmiati?”",
+      "prevDesc": "백설 선택지 2 뜰 예정",
+      "behaveDesc": "C'era una piccola crepa nel pavimento.\nChi la chiuderà?",
+      "successDesc": [
+        "La radice impala {0} nel petto e si allunga verso il cielo.\n{0} ansima, ma non è un tuo problema."
+      ],
+      "failureDesc": [
+        "Le radici sussurrano mentre infilzano ogni Peccatore:\n“Tutti noi dovremmo sentire dolore.”\n“Come la tua tristezza mi porta malinconia, dovremmo sentire lo stesso dolore.”\nLe migliaia di radici, un solo essere, trapassano la carne di tutti."
+      ]
+    },
+    {
+      "id": 800104,
+      "title": "백설선택지4",
+      "eventDesc": "Come per dimostrare la durezza inappagante della vita, e nonostante tutto il dolore sopportato, dal cadavere non cresceva un singolo fiore.\nInvece, i Peccatori hanno visto che ne erano nati dei frutti.\n\nQualcuno deglutisce la saliva.\nUn'impulso di conoscere il sapore di un frutto fertilizzato da un Peccatore cresce.",
+      "prevDesc": "백설 선택지 4 뜰 예정",
+      "behaveDesc": "Un Peccatore alla fine prese il frutto.\nChi di loro ha dato un morso?",
+      "successDesc": [
+        "{0} dà un morso al frutto.\nLa sua lingua è ricoperta di pura delizia.\n\nMa è più una maledizione, poiché nessun sapore ci si potrà mai avvicinare."
+      ],
+      "failureDesc": [
+        "Qualcosa stava consumando {0} dall'interno.\nEra una cosa più umiliante di un insetto in cerca di dolcezza; era un'emozione, una sensazione ignobile.\n\n{0} si guarda intorno.\nOra invidia tutto, non più capace di amarsi."
+      ]
+    },
+    {
+      "id": 800105,
+      "title": "백설선택지5",
+      "eventDesc": "I Peccatori fissavano la sua faccia.\nOsservavano i ricordi consumati all'interno…\n\nFino ai buchi fatti dai parassiti.\n\nUna mela non arriva al culmine quando matura fino ad un rosso lucido.\nQuando la mela diventa marrone, si crepa, avvizzisce e attrae creature semplici…\nQuello è quando ha raggiunto la gioia.\n\nI Peccatori sapevano che ora era tempo di mettere la mela a terra.",
+      "prevDesc": "Il frutto era rinato.\nForse questa è l'occasione per distruggerlo definitivamente?",
+      "behaveDesc": "La mela era scoperta per un attacco.\nChi ha atterrato la mela nel suo momento di gioia?",
+      "successDesc": [
+        "{0} fa cadere la mela.\nLa caduta fa un tonfo sordo.\n\nIl frutto aveva perso la sua linfa vitale da tempo; resta solo banalità.\nQuesto attacco ha dato a tutti i Peccatori un momento per respirare."
+      ],
+      "failureDesc": [
+        "{0} non ha colpito la mela.\nIl suo cuore vacillante deve aver esitato.\n\nLa mente è una cosa così superficiale.\nIn ogni mente troverai un senso di inferiorità che si compiace a sminuire l'Io."
+      ]
+    },
+    {
+      "id": 800801,
+      "title": "구더기사과선택지1",
+      "eventDesc": "Il corpo della mela si era rotto, e la frutta ha continuato a crescere.\nIl Ramo Dorato potrebbe davvero essere lì?\n\n“Andrò a vedere!”\nYuri ha detto agli altri.\n\nIl Peccatore col braccio d'insetto sembra nervoso.\nForse vuole andare con lei?",
+      "prevDesc": "Forse il Ramo Dorato è dentro la mela?",
+      "behaveDesc": "Non puoi mandare Yuri lì da sola.\nChi può tenerla al sicuro?",
+      "successDesc": [
+        "Il guscio rotto della mela ha cominciato a tremare come se potesse balzare su in qualunque momento.\n\n{0} ha potuto scappare, ma sembra Yuri non ce l'abbia fatta.\nLa pelle del frutto si è fusa per formare un nuovo corpo.\n\nNon sentirti troppo in colpa. Una vita perduta è sempre meglio di due."
+      ],
+      "failureDesc": [
+        "Il guscio rotto della mela ha cominciato a tremare come se potesse balzare su in qualunque momento.\n\n{0} aveva troppo da gestire per notarlo in tempo.\nHa provato a scappare, ma dopo aver subito una ferita.\n\nYuri lo ha notato ancora più tardi. La carne del frutto si era già fusa con lei per formare un nuovo corpo.\n\nÈ un peccato, ma non c'è niente che possiamo fare. Anche uno dei nostri ha subito danni."
+      ]
+    },
+    {
+      "id": 800201,
+      "prevDesc": "L'Anormalità sembra arrabbiata.\nSembra che voglia qualcosa, ma cosa dovremmo darle?"
+    },
+    {
+      "id": 800202,
+      "title": "아즈텍원판선택지2",
+      "eventDesc": "Sembra che uno dei Peccatori dovrà fare la parte di una bambola d'argilla.",
+      "behaveDesc": "Chi appagherà l'Anormalità?",
+      "successDesc": [
+        "Sembra che il sangue di {0} fosse abbastanza fresco.\nSazia, l'Anormalità si è calmata per il momento."
+      ],
+      "failureDesc": [
+        "Non sembra apprezzi il sangue di {0}.\nL'Anormalità sembra più arrabbiata di prima."
+      ]
+    },
+    {
+      "id": 800203,
+      "prevDesc": "Il caldo dell'Anormalità sta stancando tutti.\nDovremo fare un'offerta per placare la sua ira."
+    },
+    {
+      "id": 800204,
+      "title": "아즈텍원판선택지4",
+      "eventDesc": "Sembra che uno dei Peccatori dovrà fare la parte di una bambola d'argilla.",
+      "behaveDesc": "Chi di loro avrà il cuore più freddo?",
+      "successDesc": [
+        "{0} ha calmato il suo fervore.\nLa fiamma si è ridotta a un barlume."
+      ],
+      "failureDesc": [
+        "Forse {0} aveva un cuore più caldo di quello che pensavamo.\nL'Anormalità sta vomitando ancora più fuoco adesso."
+      ]
+    },
+    {
+      "id": 800205,
+      "prevDesc": "Percepisci una luce pericolosa.",
+      "behaveDesc": "Le stelle sfavillano.\nQuando brilleranno, ci prenderanno la vista.\nChe regalo vogliono le stelle?"
+    },
+    {
+      "id": 800206,
+      "title": "아즈텍원판선택지6",
+      "eventDesc": "Sembra che uno dei Peccatori dovrà fare la parte di una bambola d'argilla.",
+      "behaveDesc": "La voce di chi può cullare le stelle?",
+      "successDesc": [
+        "La ninna nanna di {0} ha messo le stelle in un sonno profondo.\nLa loro luce ci lascerà in pace per un po'."
+      ],
+      "failureDesc": [
+        "La ninna nanna di {0} ha svegliato le stelle.\nSembra stiano per punirci.\n\nUn lampo incredibilmente forte ci brucerà gli occhi.\nForse il cosmo si mostrerà alle nostre orbite ustionate."
+      ]
+    },
+    {
+      "id": 801201,
+      "prevDesc": "Hai sconfitto il nemico, ma si è rialzato.  Cosa sta succedendo?"
+    },
+    {
+      "id": 801202,
+      "prevDesc": "Puntate a Quello Grosso!"
+    },
+    {
+      "id": 801501,
+      "prevDesc": "Pezzi di nastro rosa fluttuano verso di noi."
+    },
+    {
+      "id": 801502,
+      "title": "분홍신선택지2",
+      "eventDesc": "Il nodo dei desideri deve esssere sciolto.",
+      "prevDesc": "“Riprendetevi! Qualunque cosa vi stia dicendo, sono menzogne!”\n\nHa urlato qualcuno.\n\nGrazie all'avvertimento, abbiamo capito che i nastri erano decorati da frammenti di avidità.\nDevi slegare il nodo pieno di desideri.",
+      "behaveDesc": "Chi scioglierà il nodo?",
+      "successDesc": [
+        "“Aargh…”\n\n“Mi fa male la testa.”\n\n“Nngh… Stava diventando interessante.”\n\nI nastri che legavano la squadra si sono dispersi e hanno cominciato a squagliarsi.\n\n“Libertà! Liberazione!”\n\nUna voce ignota ti raggiunge, ma al momento, dovresti aiutare i Peccatori a recuperare.."
+      ],
+      "failureDesc": [
+        "I nastri rosa hanno finito per avvolgere tutti.\nNon trovate la forza per resistere o anche solo pensare.\n\nSembra…\n\nChe non potremo mai fuggire."
+      ]
+    },
+    {
+      "id": 10100201,
+      "title": "Eternal Rest",
+      "eventDesc": "Un soldato era schiacciato sotto le macerie, rantolando agonizzante.\n\n“Vi prego, uccidetemi… Fa troppo male.”\n\nNon possiamo ignorare questa persona.",
+      "prevDesc": "",
+      "behaveDesc": "Chi verrà incaricato per dare pace a questo soldato?",
+      "successDesc": [
+        "“Gra… zie…”\n\nUn colpo di grazia con il coltello ha messo fine alla vita del soldato.\nIl ritmo di vita che saliva dalla lama si è fermato presto, ed il soldato è stato accompagnato al riposo eterno."
+      ],
+      "failureDesc": [
+        "“Aaaaah…!”\n\nIl coltello colpisce nel posto sbagliato.\nIl tossire sangue del soldato e il suo sguardo di terrore sembravano durare per sempre.\n\nCi è voluto tempo perché quel soldato sofferente morisse.\nRimorso e odio erano le ultime cose nei suoi occhi."
+      ]
+    },
+    {
+      "id": 10200201,
+      "title": "Exhilarating Edutainment Featuring Excess Violence!",
+      "eventDesc": "“Piace il rosso! Piace il rosso! Piace! Piace!”\n\nUn gruppo di cyborg urlava con uno strano ritmo.\n\n“4 Rosso!!!”\n\nEsclamando il numero, giravano la roulette.\nPoi hanno dato una palla da roulette a uno dei Peccatori.",
+      "prevDesc": "",
+      "behaveDesc": "Sembra che la palla debba finire in un settore rosso con un numero sopra il 4.\nChi dovrebbe lanciare la palla?",
+      "successDesc": [
+        "“Perso! Sconfitta!! Urgh-ack!”\n\nIl croupier “migliorato” è caduto a terra, ronzando e sfacendo scintille.\nAnche i suoi ultimi spasmi sembravano ritmati."
+      ],
+      "failureDesc": [
+        "“Prendile! Fatti distruggere, a pezzettini!”\n\nAppena il cyborg ha visto che la palla è rotolata nel settore sbagliato, ha mosso il suo enorme braccio per colpire il Peccatore.\n\nCon il Peccatore crollato a terra, il gioco si è dovuto fermare…"
+      ]
+    },
+    {
+      "id": 10200202,
+      "title": "Exhilarating Edutainment Featuring Excess Violence!",
+      "eventDesc": "“Non c'è tempo~ Per stare tutti~ M. A. L. E!”\n\nI cyborg divertiti si erano rimessi a giocare.\n\n“Piace giallo! Piace giallo! Giallo! Giallo! Giallo!”\n\n“6 Giallo!!!”",
+      "prevDesc": "",
+      "behaveDesc": "Questa volta, la palla deve finire in un settore giallo con un numero sopra il 6.\nChi dovrebbe lanciare la palla?",
+      "successDesc": [
+        "“Perso tutto! Sconfitto di nuovo!! Ya-aaa-argh!”\n\nIl croupier “migliorato” è caduto a terra, ronzando e sfacendo scintille."
+      ],
+      "failureDesc": [
+        "“Ecco che arriva il pugno~! Pronto? Pronto-proprio-fermo!”\n\nIl cyborg ha mosso il suo enorme braccio per colpire il Peccatore.\n\nCon il Peccatore crollato a terra, il gioco si è dovuto fermare…"
+      ]
+    },
+    {
+      "id": 10200203,
+      "title": "Exhilarating Edutainment Featuring Excess Violence!",
+      "eventDesc": "“Non si può dire di no al divertimento! Neanche. Un. Pochino ino!”\n\nIl gruppo di cyborg cantante gira la ruota.\n\n“Piace il blu! Piace il blu! Blu! Blu! Blu!”\n\n“8 Blu!!!”",
+      "prevDesc": "",
+      "behaveDesc": "Questa volta, la palla deve finire in un settore blu con un numero sopra l'8.\nChi dovrebbe lanciare la palla?",
+      "successDesc": [
+        "“Tutto! Andato!! Dannazione!”\n\nIl croupier “migliorato” è caduto a terra, ronzando e sfacendo scintille.\n\nTutti gli altri cyborg si sono rotti allo stesso tempo.\nAbbiamo vinto…?\n\nHai visto qualcosa che brilla nella loro pila di resti di latta.\nL'hai sollevata con attenzione."
+      ],
+      "failureDesc": [
+        "BAP!\n\nIl cyborg ha mosso il suo enorme braccio per colpire il Peccatore.\n\n“GAME OVER! Arriva premio di consolazione!”\nIl gruppo di cyborg ci ha lanciato qualcosa e se ne è andato."
+      ]
+    },
+    {
+      "id": 1030201,
+      "title": "Before a Sealed Door",
+      "eventDesc": "L'acciaio è spesso, ma potrebbe non essere impossibile per un Peccatore spostarlo.\nChi è la persona giusta per questo?",
+      "prevDesc": "",
+      "behaveDesc": "Chi può aprire la porta?",
+      "successDesc": [
+        "{0} ha spinto la porta con tutta la sua forza.\n\n“Hnngh…”\n\nLa porta tremava leggermente ma si rifiutava di spostarsi.\n\n“Va bene, ci hai provato…”\n\nAvevo provato a dirgli di smettere, ma {0} continuava a spingere, concentrandosi sulla porta.\n\nDopo qualche tempo…\n\n“Ecco!”\n\nLa porta era aperta.\nDietro era nascosta una strada."
+      ],
+      "failureDesc": [
+        "{0} spingeva la porta con tutta la sua forza.\n\n“…Non funziona.”\n\nLa porta non si era spostata di un millimetro.\n\nPer quanto volessi sapere cosa c'era dietro la porta…\nNon c'era altra scelta che uscire dalla stanza per ora."
+      ]
+    },
+    {
+      "id": 1030202,
+      "title": "Before a Sealed Door",
+      "eventDesc": "Dev'esserci un altro modo oltre alla forza bruta.\nForse guardare in giro ci dirà qualcosa.",
+      "prevDesc": "",
+      "behaveDesc": "Un Peccatore attento sarebbe bravo qui…",
+      "successDesc": [
+        "{0} guardava intorno alla porta.\n\n“……”\n\nDopo aver armeggiato con qualcosa sul muro,\n{0} emmette un grugnito di vittoria.\n\n“Huh?!”\n\nLa porta si è aperta.\n\nApparentemente, c'era un mattone che sporgeva accanto alla porta.\n{0} ha detto che spingerlo al suo posto ha fatto aprire la porta, per poi entrare.\n\nC'era una strada nascosta dietro la porta."
+      ],
+      "failureDesc": [
+        "{0} guardava intorno alla porta.\n\nMa, non ha potuto trovare niente anche dopo un bel tentativo.\n\n“Oh beh…”\n\nNon abbiamo avuto altra scelta che lasciarci la stanza alle spalle."
+      ]
+    },
+    {
+      "id": 1030301,
+      "title": "The First Gate",
+      "eventDesc": "La foresta è densa, ma ci sono ancora dei varchi.\n\nSe camminiamo con attenzione, potremmo riuscire a colpire gli Inquisitori alle spalle.\nCi darebbe un bel vantaggio nella prossima battaglia.",
+      "prevDesc": "",
+      "behaveDesc": "Chi è più adatto a passare furtivamente dalla foresta per un'imboscata?",
+      "successDesc": [
+        "{0} camminava lentamente tra gli alberi.\nPresto gli Inquisitori finiscono a terra.\n\n“Eretici! Gli Eretici sono qui!”\n\nAnche se non potevamo atterrarli tutti insieme, era abbastanza da rompere la loro formazione.\nPotremo passare quando avremo sconfitto gli altri."
+      ],
+      "failureDesc": [
+        "{0} camminava lentamente tra gli alberi.\nPresto si è sentito un trambusto al cancello.\n\n“Che c'è?”\n\n“Sembra un eretico, che ci fa qui?”\n\n“Avrà inciampato.”\n\n…Sembra che l'imboscata sia fallita."
+      ]
+    },
+    {
+      "id": 1030302,
+      "title": "The First Gate",
+      "eventDesc": "Potremmo riuscire a distrarli facendo rumore.\nIl problema è come farlo…\n\n“Prestatemi ascolto—poiché ho un piano!”\n\nTanto vale ascoltarla.\n\n…Non ti sembra un'idea incredibile, ma potrebbe andare, comunque.",
+      "prevDesc": "",
+      "behaveDesc": "Quindi, chi la dovrà eseguire?",
+      "successDesc": [
+        "{0} ha fatto la sua mossa.\n\n“Aspetta, ma quello…”\n“Ehi, dovremmo controllare.”\n\nGli Inquisitori di guardia al cancello hanno lasciato la postazione per indagare sull'origine del suono.\n\n“Ed ecco torna trionfale la nostra distrazione! Proprio come ho dichiarato! Un piano senza pecca, da concezione a frutto!”\n\nEsclama l'ideatrice.\n\nNon mi aspettavo che funzionasse così bene onestamente…\nPotremo passare una volta che avremo sconfitto gli Inquisitori rimasti."
+      ],
+      "failureDesc": [
+        "{0} ha fatto la sua mossa.\n\n“…Un'eretico! Lanciate i chiodi!”\n\n“Arriva da quella parte, ho visto una dozzina di eretici lì.”\n\n…Ovviamente è finita così.\nNon abbiamo scelta che combatterli direttamente."
+      ]
+    },
+    {
+      "id": 1030501,
+      "title": "Who Judges the Judge",
+      "eventDesc": "“Eretici! Gli Eretici sono qui!”\n\nMentre i Peccatori si avvicinavano, gli Inquisitori hanno gettato le loro vittime per caricarci.\n\n“Bastardi!”\n\nSinclair gli si è parato contro in prima linea.\nMa, quel martello potrebbe essere troppo grande perché la sua arma lo fermi.",
+      "prevDesc": "",
+      "behaveDesc": "Dovrebbe proprio pensarci Sinclair?\nO dovresti ordinare ad un altro Peccatore di respingere l'attacco?",
+      "successDesc": [
+        "Hai deciso fosse meglio chiedere di farlo a {0}.\nIl martello viene respinto, e gli Inquisitori erano sconvolti dalla rivalsa.\n\nRiusciremo a mantenere il vantaggio in combattimento prendendo l'iniziativa.",
+        "In fondo, questa è prima di tutto la sua battaglia.\n\n“Raaaah!!”\n\nSinclair ha spinto la sua alabarda verso il manico del martello e l'ha deviato di lato.\n\nPrevenendo l'attacco del capo, gli Inquisitori sono stati mandati nello scompiglio.\nRiusciremo a mantenere il vantaggio in combattimento prendendo l'iniziativa."
+      ],
+      "failureDesc": [
+        "Hai chiesto a {0} di deviare l'attacco, ma…\nIl movimento del martello gigante non poteva essere fermato.\n\nGli Inquisitori hanno circondato {0}, che adesso è in difficoltà.\nDobbiamo combattere con questo svantaggio."
+      ]
+    },
+    {
+      "id": 1030601,
+      "title": "A Rotting Corpse's Memento",
+      "eventDesc": "Molto probabilmente un Peccatore facilmente attratto da ninnoli sarebbe disposto a scavare tra quella roba schifosa per ottenere l'oggetto.\nD'altro canto, se lo chiedessi a qualcuno a cui non importa dei ninnoli, probabilmente non sarebbe molto contento di eseguire l'ordine.",
+      "prevDesc": "",
+      "behaveDesc": "Chi dovrebbe andare a recuperare l'oggetto?",
+      "successDesc": [
+        "{0} ha trovato un sigillo piegato della N Corp. nella criniera.\n\nNon ne sarà valsa la pena di frugare in un cadavere, ma si è rivelato in qualche modo utile.\n\nHai preso il sigillo e ve ne siete andati dalla stanza, confortando i Peccatori a cui la vista stava facendo venire la nausea."
+      ],
+      "failureDesc": [
+        "{0} scava e rovista nella criniera, ma alla fine non ha trovato niente.\n\n“Hrk… Geh…”\n\nPiù frugava il cadavere, più aumentava la voglia di vomitare di {0}.\n…Non vale la pena di continuare.\n\nDicendo a {0} che ha fatto del suo meglio, abbiamo lasciato la stanza.\nAbbiamo perso qualcosa e guadagnato nulla.",
+        "{0} scava e rovista nella criniera, ma alla fine non ha trovato niente.\n\n“Hrk… Geh…”\n\nPiù frugava il cadavere, più aumentava la voglia di vomitare di {0}.\n…Non vale la pena di continuare.\n\nDicendo a {0} che ha fatto del suo meglio, abbiamo lasciato la stanza.\nAbbiamo perso qualcosa e guadagnato nulla."
+      ]
+    },
+    {
+      "id": 1030801,
+      "title": "Rite of Suppuration",
+      "eventDesc": "“…Non funzionerà. Ci sono troppi Inquisitori di guardia nell'altra strada.”\n\nAbbiamo fatto perlustrare la zona ad un Peccatore, e questa sembra la zona più facile.\nQualcuno con una mostruosa forza di volontà potrà resistere a questo dolore.",
+      "prevDesc": "",
+      "behaveDesc": "Chi percorrerà il sentiero?",
+      "successDesc": [
+        "{0} ha corso sul sentiero a piedi scalzi.\nGli altri si sono accigliati sentendo il rancido fetore della carne umana che brucia.\n\nPiangendo dal dolore, {0} ce l'ha fatta a raggiungere l'altro lato…\n\nUn altare con un sigillo rosso ed una leva si è innalzato davanti a loro.\nQuando {0} ha tirato la leva, la strada si è rapidamente raffreddata.\nIl resto di noi ha attraversato il sentiero senza alcun problema."
+      ],
+      "failureDesc": [
+        "{0} ha corso sul sentiero a piedi scalzi.\nGli altri si sono accigliati sentendo il rancido fetore della carne umana che brucia.\n\n{0} c'era quasi vicino…\n\nMa non poteva sopportarlo più e ha deciso di ritirarsi subito.\nSembra che non prenderemo questa strada.\nDovremo seguire l'altra via e scontrarci con tutti gli Inquisitori lì presenti.",
+        "Don Quixote esclama:\n\n'Io giammai marcerò a piedi spogli!'"
+      ]
+    },
+    {
+      "id": 1031001,
+      "title": "Rite of Confrontation",
+      "eventDesc": "Sembra che per iniziare il rito ci si debba sedere sulla sedia.\nNon è molto chiaro che tipo di rito si tratta… Ma è l'unico modo per aprire la porta.",
+      "prevDesc": "",
+      "behaveDesc":  "Quale Peccatore si siederà?",
+      "successDesc": [
+        "{0} si siede sulla sedia.\n…Terrificanti urla riecheggiano nella stanza.\nUn flusso costante di lacrime sgorga lungo il volto di {0}.\n\nBen presto, la ciotola diventa piena di lacrime.\nQuando viene messa sull'altare vicino alla porta, l'altare scivola in giù, aprendoci la strada.\n\n“Gasp, huff… Hic.”\n\nGli occhi di {0} stanno tremando.\nMeglio non chiedere cosa abbiano visto.\n\n“…C'è un sigillo oltre la porta.”\n\nPrendendo il sigillo blu, abbiamo lasciato la stanza."
+      ],
+      "failureDesc": [
+        "{0} si siede sulla sedia.\n…Terrificanti urla riecheggiano nella stanza.\nUn flusso costante di lacrime sgorga lungo il volto di {0}.\n\nMa non era abbastanza per riempire la ciotola.\nSembra che il Peccatore sia così sconvolto da non riuscire più a lacrimare.\nAbbiamo lasciato la stanza, aiutando {0}, scosso dalla tristezza, in piedi."
+      ]
+    },
+    {
+      "id": 1031201,
+      "title": "Rite of Penance",
+      "eventDesc": "Qualcuno deve passare sulle spine e impalare i propri arti.",
+      "prevDesc": "",
+      "behaveDesc": "Chi deve essere mandato sulle spine?",
+      "successDesc": [
+        "{0} si erge sul dispositivo pieno di spine.\nTi guardava tremando mentre te silenziosamente annuivi.\n\n…Un orribile eco ha rimbombato nella stanza.\n\nBen presto, la porta si è aperta.\nAll'interno, un sigillo arancione aspetta di essere preso.\nAbbiamo preso il sigillo e accompagnato {0} fuori dalla stanza."
+      ],
+      "failureDesc": [
+        "{0} si erge sul dispositivo pieno di spine.\nTi guardava tremando mentre te silenziosamente annuivi.\n\n…Un orribile eco ha rimbombato nella stanza.\n\nMa non c'è stata risposta.\nForse questa sofferenza non era abbastanza?\nCi siamo assicurati che {0} ripetesse il rito più volte, ma la porta non si è aperta."
+      ]
+    },
+    {
+      "id": 1031401,
+      "title": "Rite of Conclusion",
+      "eventDesc": "Non sembra esserci altra via, il dialogo è l'unica opzione rimasta.",
+      "prevDesc": "",
+      "behaveDesc": "Chi è tra noi il più diplomatico?",
+      "successDesc": [
+        "{0} si avvicina all'Inquisitore.\n\n“…Tu, sei molto eloquente. Le tue parole, ci hanno persuaso.”\n\nDopo aver chiacchierato per un po', l'Inquisitore ha aperto il cancello per noi."
+      ],
+      "failureDesc": [
+        "{0} si avvicina all'Inquisitore.\n\n“……”\n\nMa l'Inquisitore rimane in silenzio.\n\n“…Rifiutato.”\n\nNon sentiamo altro che risposte negative ogni volta.\n{0} alla fine ha dovuto smettere di provarci e tornare dagli altri.\n…Sembra che forse ce la caveremo con i pugni."
+      ]    
+    },
+    {
+      "id": 103003,
+      "title": "던전 103003 선택지",
+      "eventDesc": "Un'iscrizione sul cancello recita:\n\nMettete alla prova la vostra paura e il vostro terrore\nRiempite questa ciotola con le vostre lacrime",
+      "prevDesc": "",
+      "behaveDesc": "Chi fra noi verserà più lacrime?",
+      "successDesc": [
+        "Le lacrime di {0} hanno riempito la ciotola.\nIl piedistallo si è abbassato, e il cancello si è aperto."
+      ],
+      "failureDesc": [
+        "{0} non riesce a riempire la ciotola.\nLa porta deve essere aperta con la forza di tutti quanti."
+      ]
+    },
+    {
+      "id": 103004,
+      "title": "던전 103004 선택지 : 짓무름의 의식",
+      "eventDesc": "Vedete una porta dall'altro lato di un percorso rovente.\nIl cartello affianco recita:\n\nMetti alla prova la tua sofferenza e suppurazione\nInaridate la via con mobilità",
+      "prevDesc": "",
+      "behaveDesc": "Chi può passare oltre il percorso bollente?",
+      "successDesc": [
+        "{0} attraversa il percorso rovente con i piedi scalzi.\nQuando il Peccatore l'ha oltrepassato, è comparso un pannello vicino alla porta.\n\nQuando {0} l'ha usato, la strada si è raffreddata.\nIl resto di noi può oltrepassarlo tranquillamente."
+      ],
+      "failureDesc": [
+        "{0} attraversa il percorso rovente con i piedi scalzi.\nTuttavia, il Peccatore si gira e torna indietro, non riesce a sopportare il calore.\nSiamo tutti quanti costretti ad oltrepassare la strada bollente."
+      ]
+    },
+    {
+      "id": 103005,
+      "title": "던전 103004 선택지 : 속죄의 의식",
+      "eventDesc": "Sul cancello c'è scritto un passaggio.\n\nSolo coloro che si pentono possono andare avanti\n, espiate i vostri peccati mediante la flagellazione",
+      "prevDesc": "",
+      "behaveDesc": "Chi è il più adatto a redimersi?",
+      "successDesc": [
+        "{0} si siede sul dispositivo pieno di spine.\nUrla di dolore riecheggiano nella stanza.\n\nBen presto, la porta comincia ad aprirsi.\nSembra che {0} si stia sbarazzando del peso emotivo."
+      ],
+      "failureDesc": [
+        "{0} si siede sul dispositivo pieno di spine.\nUrla di dolore riecheggiano nella stanza.\nMa non c'è nessuna risposta.\n\nSiamo riusciti a passare solo dopo aver ripetuto più volte il rituale."
+      ]
+    },
+    {
+      "id": 10300601,
+      "title": "던전 103006 2차 선택지",
+      "eventDesc": "Proviamo a risolvere le cose parlandone.",
+      "prevDesc": "",
+      "behaveDesc": "Quale Peccatore potrebbe convincere gli Inquisitori?",
+      "successDesc": [
+        "{0} si avvicina all'Inquisitore e riesce a tenere un bellissimo discorso.\nDopo un po', ci hanno aperto le porte"
+      ],
+      "failureDesc": [
+        "{0} si avvicina all'Inquisitore e cerca di iniziare un discorso.\nDopo un po', l'Inquisitore ha cacciato via il Peccatore.\n\nOggi la spada ferirà più della penna."
+      ]
+    },
+    {
+      "id": 802501,
+      "title": "늑대선택지1",
+      "eventDesc": "Dopo essersi preparato, ha saltato verso di noi.\nSi sta avvicinando più velocemente del previsto.",
+      "prevDesc": "Il lupo si sta accucciando!\nSi sta preparando per balzare?",
+      "behaveDesc": "Chi fermerà la bestia agitata?",
+      "successDesc": [
+        "La rapida bestia è stata fermata in tempo.\nAdesso ci fissa rimanendo in guardia.\n\nMa non ci starà per molto.\nForse le ricorderà del dolore causato dalle ferite…"
+      ],
+      "failureDesc": [
+        "L'avanzata del lupo e il successivo assalto non sono stati ostacolati.\nSi può impedire qualcosa che è troppo veloce per l'occhio?\n\nL'attacco ha lasciato delle gravi ferite."
+      ]
+    },
+    {
+      "id": 802801,
+      "title": "뱀선택지1",
+      "eventDesc": "The rampage continues.\nIt might reach a critical point faster than expected.",
+      "prevDesc": "Something's different about its aura!\nHas its anger boiled over?",
+      "behaveDesc": "Who will stop the monster's wrath?",
+      "successDesc": [
+        "The Sinner delivered a powerful attack to the raging foe.\nIt seems to be thrown into confusion by this unexpected move.\n\nThis could be our chance.\nOr a greater threat…"
+      ],
+      "failureDesc": [
+        "An attempt to counter the monster was made.\n\nHowever, it missed as expected, angering our foe further."
+      ]
+    },
+    {
+      "id": 802901,
+      "title": "크로머선택지1",
+      "eventDesc": "Kromer appare essere calma e composta.\nMa il chiodo nella sua mano scintillava come un pugnale, in attesa di squarciare la sua stessa maschera.",
+      "prevDesc": "Senti un presagio dallo sguardo di Kromer.\nI suoi occhi sono pieni d'odio e brama!",
+      "behaveDesc": "Chi affronterà l'implemento appuntito di Kromer?",
+      "successDesc": [
+        "Kromer viene presa di soppiatto dal contrattacco inaspettato.\nI suoi occhi furibondi perdono per un momento la concentrazione.\n\nL'arma appuntita nelle sue mani non è riuscita a trafiggere nessuno.\nCade a terra in una tranquillizzante quiete."
+      ],
+      "failureDesc": [
+        "Kromer tentenna per un secondo, ma riesce agilmente a schivare il contrattacco.\nIndietregga come se lei se lo stesse aspettando e fissa il nostro gruppo come un cacciatore in cerca di una preda.\n\nQualcuno deve essere la vittima di quell'odio e brama."
+      ]
+    },
+    {
+      "id": 803001,
+      "title": "크로머선택지2",
+      "eventDesc": "Kromer sta respirando affanosamente. Forse è un effetto collaterale della sua trasformazione.\n\nLa sua postura è instabile, e i suoi occhi guardano altrove.\n\nOra che ha perso la concentrazione, forse riusciremo a segnare un colpo critico.",
+      "prevDesc": "Kromer si sta affaticando. Presto esporrà un punto debole.",
+      "behaveDesc": "Chi sarà capace di raccogliere quell'opportunità?",
+      "successDesc": [
+        "{0} gira attorno alla carnosa massa di Kromer per disorientarla.\n\nPoco dopo, lei abbassa la guardia.\n{0} non si lascia scappare l'occasione di infliggere un colpo devastante.\n\nSembra sia stato abbastanza efficace. È rimasta una profonda ed indelebile ferita sul corpo di Kromer.\nForse ci siamo…"
+      ],
+      "failureDesc": [
+        "{0} gira attorno alla carnosa massa di Kromer per disorientarla.\n\n“…Ah.”\n\nPerò, per qualche ragione ignota, {0} si ferma di punto in bianco.\n\nEra per l'agitazione nell'assistere da vicino la sua carne contorta, o era per il timore che gli occhi di Kromer instillavano?\n\nNon riusciva a far altro se non sfoderare la sua arma prima di ritornare da voi. La sua mente è stremata.\n\nNon c'è molto che tu possa fare. Combattiamola come facciamo sempre."
+      ]
+    },
+    {
+      "id": 803101,
+      "title": "단수어선택지1",
+      "prevDesc": "Lo stomaco di quella creatura senza testa si è gonfiato al limite.",
+      "eventDesc": "Il suo addome era pieno di un liquido rosso.\nSembra che possa espellerlo in un qualsiasi momento.\nSi può notare uno spruzzo di sangue gorgogliare attorno al suo collo.",
+      "behaveDesc": "Chi può ostruire la sua gola?",
+      "successDesc": [
+        "{0} scatta verso il collo e lo guarda.\nNon ci sono modi per tappare la gola recisa.\nDopo una breve riflessione, {0} ha usato la sua arma per aprire lo stomaco.\nIl liquido viene disperso per terra, perdendo la pressione accumulata."
+      ],
+      "failureDesc": [
+        "{0} scatta verso il collo e lo taglia.\nPerò, accorciare una gola già tagliata non avrebbe diminuito il flusso di sangue.\n\n“Un errore.”\n\nCommentava un Peccatore, ma quel che è fatto è fatto.\nAvevamo solo un'occasione, ed è stata sprecata."
+      ]
+    },
+    {
+      "id": 803201,
+      "title": "골목파수견선택지1",
+      "prevDesc": "I tuonanti boati si accumulano e le scintille violacee crescono a dismisura.\nDove dovrebbero andare?",
+      "eventDesc": "I lampi viola saltano da un palo all'altro.\nSe non verranno catturati, succederà qualcosa di terribile.",
+      "behaveDesc": "Chi sottrarrà quei lampi instabili?",
+      "successDesc": [
+        "{0} conficca la sua arma nel suolo.\n“Ti sei fuso il cervello?”\nUrlava qualcuno, ma c'è voluto poco tempo per calmare quella preoccupazione.\nLa spessa saetta viene attratta dall'arma di {0} per poi venire risucchiata dal terreno.\n“…Verrà poi condotta.”\nInfatti, la saetta si rigetta nel traliccio vicino all'arma.\nIronicamente, il re delle stradine viene folgorato dall'elettricità."
+      ],
+      "failureDesc": [
+        "{0} conficca la sua arma nel suolo.\nSta cercando di guidare l'impetuosa saetta verso terra.\n“…È troppo bassa. Non colpirà qui.”\nInfatti, la spessa saetta si dirige verso i tralicci senza esitazione.\n“Oi, non vi pare un po'… feroce?”\nSfortunatamente, il re delle stradine ora aveva il fulmine rosso sotto il suo controllo."
+      ]
+    },
+    {
+      "id": 851001,
+      "title": "Blubbering Toad",
+      "prevDesc": "La rana sembra stia prendendo un bel respiro.",
+      "eventDesc": "La rana ha preso un respiro profondo, gonfiando la sua pancia.\nUn paio di lacrime blu sgorgano dai suoi enormi occhi tondi.\nQuesta cava verrà riempita con un aria di tristezza una volta che aprirà bocca.\nSarebbe meglio farle togliere il fiato.",
+      "behaveDesc": "Chi fermerà il suo pianto sul nascere?",
+      "successDesc": [
+        "“Temo che questo sia un po' troppo crudele…”\n\n{0} dà un colpo ben assestato alle gonfie sacche vocali.\n\n“Pfarhk!”\n\nUn suono sgonfio risuona nella cava.\n\n“Croough…”\n\nTornata ad una forma più snella, la rana tira su col naso. Deve essere frustrata dal non poter urlare quanto voleva.\n\n“Che tristezza.”\n\nAnche se ha lasciato l'amaro in bocca… un'opportunità è pur sempre un'opportunità."
+      ],
+      "failureDesc": [
+        "{0} si avvicina alla rana.\n\n“Croak!”\n\nForse era meglio non essere così cauti.\n\nQuando {0} riesce ad arrivare alla rana, la sua bocca si stava già aprendo, esalando un suono sorprendentemente malinconico.\n\n“Croohoo… Croohic… Croohoo…”\n\n{0} perde coscienza dall'immensurabile tristezza.\nOra non può far altro che piangere, proprio come la rana."
+      ]
+    },
+    {
+      "id": 851901,
+      "title": "Kqe-1j-23",
+      "prevDesc": "Il braccio meccanico sta raggiungendo il suolo. Cosa cerca di fare?",
+      "eventDesc": "Il burattino meccanico allunga i suoi cavi verso il terreno.\nQuei cavi successivamente si piantano come radici.\nSta provando a ricevere elettricità dal pavimento?\n\nNel terminale del robot viene visualizzato:\n\n<Per Favore Cooperate!>\n\n“…Aspetta, quindi non può fare niente mentre si sta caricando?”\n\nI Peccatori non sembrano voler dare ascolto alla sua richiesta.",
+      "behaveDesc": "Chi può sabotare i suoi tentativi di caricarsi?",
+      "successDesc": [
+        "{0} si muove in fretta.\nIl burattino meccanico rimane immobile—un'opportunità perfetta.\nUn suono netto risuona nell'area.\n{0} infligge un attacco potente, distruggendo il condensatore del burattino.\n\n<Per Favore Cooperrr… Csdk…ppra…@#@%!%^#$>\n\nIl terminale si riempiva di lettere casuali prima di spegnersi.\nDavvero un bel colpo, dico bene?"
+      ],
+      "failureDesc": [
+        "{0} si muove in fretta.\nIl burattino meccanico rimane immobile—un'opportunità perfetta.\nMa ahimè…\n\n“A-Aspetta!”\n\nMa era troppo tardi, l'arma di {0} colpisce i cavi connessi al pavimento.\nNon c'è bisogno di dire che toccare una corrente ad alto voltaggio con qualcosa di minimamente conduttivo porti delle conseguenze.\nL'elettricità fulmina {0}.\nPer fortuna, la scossa non era mortale, ma la macchina inizia a muoversi… ritraendo i suoi cavi dal terreno.\nEggià.\nNon sempre le cose vanno come previsto, non è vero?"
+      ]
+    },
+    {
+      "id": 852701,
+      "title": "My Form Empties",
+      "prevDesc": "La statua pare tranquilla come sempre. A cosa starà mai pensando?",
+      "eventDesc": "Senti come se potessi trovare pace semplicemente guardandola.\nLa statua sembra accogliere l'angoscia e l'agonia di tutti.\nNon esiste un sé stessi—solo tutti.\nHa senso che uno perda la voglia di combattere.\nPerò, nessun uomo può portarsi addosso la sofferenza altrui al loro posto.\nPrima che tutti vengano attratti dalla sua falsa compassione, qualcuno deve distruggere la statua.",
+      "behaveDesc": "Chi sarà in grado di demolire l'ingannevole statua?",
+      "successDesc": [
+        "{0} scuote la testa.\nNota che tutti gli altri si prostrano alla statua. Alcuni iniziano persino a recitare uno strano mantra.\n{0} realizza che tale tranquillità era l'effetto di un lavaggio del cervello.\nNon c'è bisogno di descrivere come i veneratori si sentivano appena hanno realizzato questa verità.\nUn potente colpo frantuma la statua, e tutti tornano ai propri sensi."
+      ],
+      "failureDesc": [
+        "{0} fa fatica a raggiungere la statua, i piedi sembravano diventare pietra.\nTutti gli altri erano occupati a chinare la propria testa e a prostrarsi dinanzi alla statua.\n{0} mormora qualche specie di mantra nel suo cammino.\nAscoltando attentamente, era una confessione. Vengono proferiti tutti i ricordi e i pensieri negativi che venivano alla mente.\n{0} sente il proprio cuore diventare leggero e il perdono avvicinarsi a forza di parlare, ma mai arrivare.\nIl falso bodhisattva stava solo prendendo tempo per riprendere le forze, non prestando attenzione alla confessione.\nE ora…\nIl tempo è scaduto."
+      ]
+    },
+    {
+      "id": 91030201,
+      "title": "Tango of Poultry Passion",
+      "eventDesc": "Il pollo che teneva del filo di scorta supplica coi suoi occhi da pulcino.\nQualcuno lo deve fare. Non possiamo ignorare quegli occhi.",
+      "behaveDesc": "Chi sarà capace di questo incarico?",
+      "successDesc": [
+        "{0} si fa avanti con un po' di esitazione.\n“Mmh…”\nPrendendo ago e filo, si siede dietro al pollo.\nCon mani impacciate ma attente, inizia ad eseguire una cucitura con un metodo alquanto comune.\n“Kieph.”\nPer fortuna, non sembra che senta dolore dall'ago.\nA cucitura finita, il pollo salta sul grembo di {0} come segno di ringraziamento.\n“Kieeh!”\n{0} non sapeva come reagire, ma ne era felice."
+      ],
+      "failureDesc": [
+        "{0} si fa avanti con sicurezza.\n“Vediamo…”\nPrendendo ago e filo, si siede dietro al pollo.\nMa anche con tutta quella sicurezza iniziale, la cucitura diventa sempre più caustica.\n“Kieerh!”\nPrima che potesse finire, il pollo spinge via {0}.\n“…Perché non lo volevi far da solo allora?”\nSi riprende l'ago e filo per cucirsi da solo, per poi andarse via.\n{0} non sa cosa pensare."
+      ]
+    },
+    {
+      "id": 804501,
+      "title": "Shock Centipede",
+      "prevDesc": "La scolopendra si contorce come per attorcigliarsi.",
+      "eventDesc": "Il corpo della Scolopendra Elettrica inizia ad attorcigliarsi in un punto.\n\"Sembra che stia accumulando elettricità.\"\nCome viene fatto notare da un Peccatore, delle scintille escono dal centro del suo corpo attorcigliato.\nFermarlo sarebbe una buona idea.",
+      "behaveDesc": "Chi sarà in grado di fermarla?",
+      "successDesc": [
+        "[{0}] colpisce il carapace della Scolopendra Elettrica.\n\"Ohh...!\"\nSi è creata una crepa nella sua dura corazza.\nAvrà davvero fermato la scolopendra?\nQuesta deve essere la nostra occasione."
+      ],
+      "failureDesc": [
+        "[{0}] colpisce il carapace della Scolopendra Elettrica.\nAhimè...\nChe l'energia immagazzinata sia fuoriuscita?\nUna tremenda pioggia di scintille è saltata fuori dal centro della Scolopendra insieme ad una fragorosa esplosione.\nNaturalmente, l'onda d'urto lancia via [{0}].\nPer fortuna, non sono rimaste ferite oltre allo scombussolamento...\nMa la scolopendra sembra alquanto irritata.\nSarebbe una buona idea prepararsi, non è vero?"
+      ]
+    },
+    {
+      "id": 804601,
+      "title": "Drifting Fox",
+      "prevDesc": "Quegli ombrelli possono veramente proteggere la volpe?",
+      "eventDesc": "Vecchi ombrelli si allineano attorno alla Volpe Vagabonda.\nOmbrelli vecchi, bucati ed usurati.\nSolo le Ali sanno per quanto tempo quegli ombrelli hanno provato a proteggere la volpe, ma non sembrano fare un bel lavoro.\n\"…….\"\nImprovvisamente, qualcuno cammina lentamente verso di lei.\nLa Volpe se ne accorge, ma non ringhia, ne si tranquilizza.\nRimane ferma, mantenendo la sua posizione.",
+      "behaveDesc": "Chi si avvicina alla volpe?",
+      "successDesc": [
+        "[{0}] cammina verso la volpe prima di prendere un ombrello logoro.\nSeppur sia un ombrello, ha permesso a molte gocce d'acqua di passarci attraverso.\nL'aria umida e il vento gelido trapassavano l'ombrello nelle mani di [{0}].\n\"…….\"\nMa alza la testa al cielo con un sorriso sincero.\nCome se sapesse che un giorno la pioggia finirà."
+      ],
+      "failureDesc": [
+        "[{0}] cammina verso la volpe prima di prendere un ombrello logoro.\nSeppur sia un ombrello, ha permesso a molte gocce d'acqua di passarci attraverso.\nL'aria umida e il vento gelido trapassavano l'ombrello nelle mani di [{0}].\n\"…Haah.\"\nSi abbatte dopo un grosso sospiro.\nNon sarà facile notarlo da così lontano,\nma deve essere l'accumulo di tristezza e lo smorzamento che avrà sentito la persona sotto l'ombrello."
+      ]
+    },
+    {
+      "id": 804701,
+      "title": "So That No One Will Cry",
+      "prevDesc": "La bambola di legno maledetta ha smesso di muoversi.\nCosa starà accadendo?",
+      "eventDesc": "La bambola di legno si ferma di colpo come se non stesse accadendo niente.\nLa sua testa è inclinata verso il basso mentre esamina i suoi talismani...\nO forse sta osservando i talismani dei Peccatori?\n\"…….\"\nCome se posseduti, i Peccatori iniziano a camminare verso la bambola di legno.\nSembra si siano dimenticati che stavamo combattendo fino qualche momento fa.\nOra stanno rimuovendo i talismani attaccati ai loro corpi.\nMa cosa starà succedendo?",
+      "behaveDesc": "Chi raccoglierà i talismani per restituirli?",
+      "successDesc": [
+        "[{0}] raccoglie i talismani staccati per poi imporsi davanti alla bambola di legno.\nSembra che stia osservando in silenzio.\nO, forse è ciò che la coscienza del Peccatore fa sembrare.\nEra il desiderio di riportare i talismani alla bambola.\n[{0}] estende le sue braccia per dare il mucchio di talismani...\nCome dei magneti, i talismani vengono attratti dalla bambola.\n\"Affinché nessuno pianga...\"\nDopo aver mormorato quella frase, [{0}] torna nella sua posizione."
+      ],
+      "failureDesc": [
+        "[{0}] raccoglie i talismani staccati per poi imporsi davanti alla bambola di legno.\n\"…….\"\nScricchiolando, la bambola allunga una mano verso [{0}].\nPensando fosse per riprendersi i talismani, [{0}] porge il mucchio di fronte a sé.\n\"Ah!\"\nLa mano di legno cambia la sua traiettoria, puntando al corpo.\nIn quel momento, tutti i talismani di [{0}] iniziano ad agitarsi per poi sciogliersi e diventare sangue appiccicoso.\n…Non è un buon presagio."
+      ]
+    },
+    {
+      "id": 804801,
+      "title": "Fairy Gentleman",
+      "prevDesc": "Un odore inebriante riempe l'aria, potrebbe facilmente ubriacarti.",
+      "eventDesc": "La Fata Gentiluomo parla con una grossa risata.\n\"Huhu... Non pensavo che potessi bere così tanto.\"\nSi poteva sentire un leggero singhiozzo.\n\"Ammetto, mi avete preso un pochino alla sprovvista... giusto un pochino.\"\nLa fata avvicina il calice alla sua bocca.\n\"Ehi! Quella cosa sta cercando di smaltire la sbornia?\"\n\"Dobbiamo tenere quel mascalzone disorientato!\"\n…Pare che dobbiamo fermare la fata dal bere dal suo calice.",
+      "behaveDesc": "Chi prenderà il calice dal gentiluomo?",
+      "successDesc": [
+        "[{0}] si piazza di fronte al gigantesco pancione del gentiluomo.\n\"Ah, non posso condividere questo con te, anche se sei un ospite privilegiato.\"\nInvece di chiederlo, [{0}] inizia a fissare la fata.\n\"...Ahem.\"\nCompletamente impassibile, non muove neanche un muscolo.\n\"...V-Va bene, va bene! Posso darti... un sorsetto.\"\n[{0}] scuote la testa.\n\"Mi stai dicendo... di darti tutto?\"\nIl Peccatore annuisce.\n\"Tu...\"\n\"Fuu, haha. Ok, ho perso. Te lo darò.\"\n[{0}] finalmente mostra un leggero sorriso mentre reclama il calice."
+      ],
+      "failureDesc": [
+        "[{0}] si piazza di fronte al gigantesco pancione del gentiluomo.\n\"Ah, non posso condividere questo con te, anche se sei un ospite privilegiato.\"\nInvece di chiederlo, [{0}] inizia a fissare la fata.\n\"...Ahem.\"\nCompletamente impassibile, non muove neanche un muscolo.\n\"...Startene così non cambierà la mia risposta, lo sai?\"\nDopo una vigorosa risata, la fata beve il contenuto del calice tutto d'un sorso, direttamente dal suo stomaco.\n\"Anche se ci tengo a te, non posso mica darti tutto quel che ho, giusto? Haha.\"\nDopo questa sconfitta, [{0}] ritorna da noi."
+      ]
+    },
+    {
+      "id": 1040101,
+      "title": "Looking for a Drone",
+      "prevDesc": "",
+      "eventDesc": "Un Peccatore bravo a perquisire dovrebbe fare al caso nostro.",
+      "behaveDesc": "Chi sarà il più efficiente?",
+      "successDesc": [
+        "[{0}] si ritrova con diverse ferite alle mani dopo aver frugato dentro al rottame.\nPer fortuna, siamo riusciti a trovare una piccola ampolla all'interno.\n\"Dopo tutto quel lavoraccio...\"\nSospirano gli altri Peccatori per il misero bottino.\n...Siamo usciti dalla stanza con la promessa di riavvolgere il tempo per loro la prossima volta."
+      ],
+      "failureDesc": [
+        "I detriti erano più affilati del previsto.\n\"…!\"\n[{0}] si ritrova con diverse ferite alle mani dopo aver frugato dentro al rottame.\n\"Immagino non ci sia niente.\"\nDopo aver passato parecchio tempo a cercare, non abbiamo trovato niente di utile.\n\"…….\"\nSento lo sguardo rancoroso dei Peccatori sulle mie spalle."
+      ]
+    },
+    {
+      "id": 1040301,
+      "title": "Poking at the Egg",
+      "prevDesc": "",
+      "eventDesc": "Tenendo in considerazione la nostra esperienza nel ricevere doni dalle Anormalità,\nforse riusciremo ad ottenere qualcosa che possa aiutarci nell'esplorazione di questo dungeon.",
+      "behaveDesc": "Chi è il più adatto per questo lavoro?\nDelle mani delicate potrebbero fare la differenza.",
+      "successDesc": [
+        "\"Whoa!\"\n[{0}] tocca l'uovo. L'uovo inizia ad illuminarsi.\nPoco dopo, si è indurito per poi dare forma ad una gemma unica nel suo genere.\n\"Potrebbe valerne la pena prendercela.\"\n[{0}] mostra segni di stanchezza, ma non c'era niente di strano nel suo corpo per quel che potevamo vedere.\nAbbiamo lasciato il posto con la gemma in nostro possesso."
+      ],
+      "failureDesc": [
+        "\"Whoa!\"\n[{0}] tocca l'uovo. L'uovo inizia ad illuminarsi.\nPerò, presto si è ridotto in un mucchio di polvere.\n\"Ugh...\"\nNella mano di [{0}] era rimasta una strana ferita.\nInoltre notavamo un'improvvisa stanchezza da parte sua.\n...Abbiamo lasciato la stanza, consolando [{0}]."
+      ]
+    },
+    {
+      "id": 1040401,
+      "title": "PickingRowAndColumn",
+      "prevDesc": "",
+      "eventDesc": "Vedendo più da vicino, riesci quasi a notare qualcos'altro al suo interno.\nUn Peccatore con la vista aguzza potrebbe ottenere qualcosa di buono.",
+      "behaveDesc": "Chi darà un'occhiata?",
+      "successDesc": [
+        "[{0}] guarda l'armadio.\nRiesce a scoprire un cassetto nascosto. Il cassetto conteneva un mucchio di oggetti utili.\nPoco dopo, l'area iniziò a farsi sfocata e l'armadietto scomparve."
+      ],
+      "failureDesc": [
+        "[{0}] guarda l'armadio.\nForse ha sprecato troppo tempo a riflettere; Presto, l'area iniziò a farsi sfocata e l'armadietto scomparve."
+      ]
+    },
+    {
+      "id": 1040801,
+      "title": "Try Talking",
+      "prevDesc": "",
+      "eventDesc": "Tutti i Peccatori guardano la finestra.",
+      "behaveDesc": "Chi parlerà con le figure?",
+      "successDesc": [
+        "<i>Piansisenzascelta.\nOh ▽ ! Eccomiinpena.\nContemplotalepensiero:\nComedebbapiangerIo.</i>\n\nQuando [{0}] inizia a parlare con le figure nella finestra, loro si contorcono per poi sparire.\nDopodiché un frammento cade dalla finestra.\nLo abbiamo preso per poi lasciare la stanza.",
+        "<i>Piansisenzascelta.\nOh ▽ ! Eccomiinpena.\nContemplotalepensiero:\nComedebbapiangerIo.</i>\n\nQuando [{0}] inizia a parlare con le figure nella finestra, loro si contorcono per poi sparire.\nDopodiché un frammento cade dalla finestra.\nLo abbiamo preso per poi lasciare la stanza."
+      ],
+      "failureDesc": [
+        "…………..\n[{0}] ha provato a parlare, ma non c'è stata risposta.\nPresto, le figure si contorcono per poi sparire.\n\"Cosa, volevano ci mettessimo a cantare?\"\nAbbiamo lasciato la stanza con i Peccatori che si lamentavano."
+      ]
+    },
+    {
+      "id": 805002,
+      "title": "Stand in his way.",
+      "prevDesc": "",
+      "eventDesc": "",
+      "behaveDesc": "Fermerai Dongrang?",
+      "successDesc": [
+        "[{0}] riesce a bloccare l'attacco di Dongrang.\n\n\"Haha... Siete una seccatura.\"\n\nMormora Dongrang mentre la sua arma viene respinta.\nSotto quell'amara risata si celava una furia gelida."
+      ],
+      "failureDesc": [
+        "[{0}] ha provato a fermare Dongrang, ma ahimè...\n\n\"Haha, che cosa ridicola che stai facendo.\"\n\nForse l'attacco era più forte di quel che ci aspettavamo. L'impatto spinge via [{0}].\n\n\"Haah... Siete una seccatura.\"\n\"Preferirei che voi serviate come semi... per i miei traguardi.\"\n\nSotto quel sogghigno beffardo si celava una furia gelida."
+      ]
+    },
+    {
+      "id": 805004,
+      "title": "Stand in his way.",
+      "prevDesc": "",
+      "eventDesc": "",
+      "behaveDesc": "Fermerai di nuovo Dongrang?",
+      "successDesc": [
+        "[{0}] mira con la sua arma verso Dongrang mentre la sua concentrazione è altrove.\n\n\"Kgh...\"\n\nSembra che l'attacco sia stato un successo.\nLa mossa che stava preparando Dongrang non è stata portata a termine.\n\n\"Ho capito da che parte state...\"\n\n\"Allora mi sbarazzerò di tutti voi assieme a Yi Sang e il suo ideale.\""
+      ],
+      "failureDesc": [
+        "[{0}] mira con la sua arma verso Dongrang mentre la sua concentrazione è altrove.\n\n\"Che incompetenza.\"\n\nPerò, ciò che sembrava un varco nelle sue difese si rivela una trappola.\nL'attaccante viene respinto dal contrattacco.\n\n\"Ha, ho capito da che parte state...\"\n\n\"Non mi lasciate altra scelta. mi sbarazzerò di tutti voi assieme a Yi Sang e il suo ideale..\""
+      ]
+    },
+    {
+      "id": 805006,
+      "title": "Stand in his way.",
+      "prevDesc": "",
+      "eventDesc": "\"…….\"\n\nYi Sang si fa avanti.\n\n\"Insisto... che io segni la fine per Dongrang.\"\n\n\"...Perché ciò sarebbe il più ideale.\"",
+      "behaveDesc": "……",
+      "successDesc": [
+        "Yi Sang riesce a fermare Dongrang nel suo cammino.\n\n\"Yi Sang...\"\n\n\"Ti imploro, metti fine a tutto ciò... Dongrang.\"\n\n\"Haha... Come posso farlo?\"\n\n\"Alla fine... qualcuno deve... piangere lacrime, non è vero...?\"\n\nDongrang spinge l'arma conficcata nel suo corpo più in profondita.\n\n\"…!\"\n\n\"Finiamola così... Yi Sang...\""
+      ],
+      "failureDesc": [
+        ""
+      ]
+    },
+    {
+      "id": 805901,
+      "title": "Fairy Longlegs",
+      "prevDesc": "Il cielo sembra sia stato coperto nuovamente. Perché continua a fare quell'ombra?",
+      "eventDesc": "Il pianta gigante germinato dalla fata era spessa quanto alta.\n\nAveva i suoi vantaggi.\n\nProprio come una colonna di un edificio, i Peccatori possono usarla per nascondersi dalla fata,\nper poi cautamente raggiungere lo stelo.",
+      "behaveDesc": "Chi si avvicinerà allo stelo?",
+      "successDesc": [
+        "Raggiunto lo stelo, [{0}] arrampica la pianta. Prima mano, poi piede, poi mano.\n\nPiù si arrampicava, più piccoli diventavano gli altri e la fata.\n\nLo stelo sembrava alzarsi all'infinito, ma una fine ce l'aveva.\n\nE così, [{0}] raggiunge la foglia in cima.\n\nSi avvicina cautamente verso il bordo...\n\nPer poi creare un buco nella foglia, causando la caduta di una pozza d'acqua sulla testa della fata.\n\nLa fata, sorpresa dalla pozza, si agita."
+      ],
+      "failureDesc": [
+        "Raggiunto lo stelo, [{0}] arrampica la pianta. Prima mano, poi piede, poi mano.\n\nPiù si arrampicava, più piccoli diventavano gli altri e la fata.\n\nLo stelo sembrava alzarsi all'infinito, ma una fine ce l'aveva.\n\nE così, [{0}] raggiunge la foglia in cima.\n\nMa forse non aveva considerato la quantità di acqua accumulata sulla foglia...\n\nNon appena ha messo piede, [{0}] scivola e precipita al suolo.\n\n...Fortunatamente, la caduta non era mortale."
+      ]
+    }
+  ]
+}

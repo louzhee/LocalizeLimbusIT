@@ -1,0 +1,89 @@
+{
+  "dataList": [
+    {
+      "id": 971051,
+      "name": "",
+      "desc": "La notte arriva.\n\nDelle luci verde giada brillano dalla finestra, sotto l'opprimente cielo notturno senza luna.\n\nMentre conversavo con i Peccatori, improvvisamente qualcosa pareva bloccare la luce.\n\nMentre stavamo in allerta, qualcuno entra nella stanza e tenta di colpirci con uno strumento affilato.\n\nFortunatamente, un Peccatore sfodera la sua arma per bloccare l'attacco dell'intruso.\n\nDeve aver pensato di aver fallito la sua missione.\n\nIl nemico ci fissa in silenzio per un momento prima di scappare dalla scena.",
+      "options": [
+        {
+          "message": "Inseguite l'intruso in fuga.",
+          "messageDesc": "Prova con Vantaggio per Gola e Superbia per ottenere un Dono E.G.O Lacerazione.",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "Guardate l'intruso mentre scappa via.",
+          "messageDesc": "",
+          "result": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": 971052,
+      "name": "",
+      "desc": "Abbiamo notato in lontananza dei tirapiedi del Medio, mentre discutevano di qualcosa.\n\nProbabilmente stanno cercando un bersaglio che si sarà fatto scrivere il nome nel loro Libro della Vendetta.\n\nQuando ci siamo avvicinati, ci hanno bloccati per farci vedere una foto.\n\n\"Avete visto qualcuno che assomigliava a questo?\"",
+      "options": [
+        {
+          "message": "Di' \"Penso di averlo visto da qualche parte\".",
+          "messageDesc": "Prova con Vantaggio per Gola e Invidia per ottenere un Dono E.G.O Contundente.",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "Di' \"No, mai visto prima d'ora.\"",
+          "messageDesc": "",
+          "result": [
+            "Li abbiamo fissati con sguardi persi ed innocenti finché non hanno deciso di lasciarci andare senza creare problemi."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 971053,
+      "name": "",
+      "desc": "Ci siamo ritrovati dentro a degli interni buii.\n\nDelle persone vestite in abiti scuri sono piazzati in gruppo. Tutti indossano dei cappelli di bambù.\n\nPare che questo gruppo stia aspettando dei nemici; sono indaffarati a prepararsi per qualcosa.\n\n\"Abbiamo intercettato delle informazioni su qualcuno intento a far fuori il nostro signore stanotte.\"\n\n\"Squadra di Supporto, rimanete qui e attendete il prossimo ordine.\"\n\n\"Squadra Operativa, recatevi nei punti d'infiltrazione nemica e preparatevi al loro arrivo.\"\n\n\"Voi tutti sapete la vostra missione. Seguitela fino alla fine.\"",
+      "options": [
+        {
+          "message": "Attendete gli ordini.",
+          "messageDesc": "Prova con Vantaggio per Gola e Superbia per ottenere un Dono E.G.O Lacerazione.",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "Seguite la Squadra Operativa.",
+          "messageDesc": "Prova con Vantaggio per Gola e Superbia per ottenere un Dono E.G.O Lacerazione.",
+          "result": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": 971054,
+      "name": "",
+      "desc": "È giunta quell'ora della notte dove diventa impossibile capire che ora sia.\n\nEravamo scesi dal bus per fare qualche ricognizione, quando ad un tratto sentivo un nefasto tremore.\n\nMi giro per guardare l'origine dei tremori, per poi vedere un'enorme massa di Spazzini caricarci addosso, lampeggiando con le loro luci rosse.\n\nRipuliranno tutto ciò che sta nel loro cammino.\n\nPiù aspettiamo, più si avvicineranno.",
+      "options": [
+        {
+          "message": "Cercate un rifugio vicino.",
+          "messageDesc": "Prova con Vantaggio per Gola e Superbia per ottenere un Dono E.G.O Senza Tratti.",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "Scappate verso il bus.",
+          "messageDesc": "50% di possibilità di iniziare un incontro di combattimento.\nVinci per ottenere un Dono E.G.O Senza Tratti.",
+          "result": [
+            "Solo scattando verso Mephistopheles riusciamo ad entrare in tempo.\n\nL'implacabile ondata degli Spazzini passa qualche momento dopo che abbiamo chiuso la porta.",
+            "Scattiamo verso Mephistopheles, ma era già troppo tardi.\n\nNemmeno il tempo di girarci che ci siamo ritrovati sopraffatti dallo sciame."
+          ]
+        }
+      ]
+    }
+  ]
+}

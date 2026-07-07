@@ -1,0 +1,120 @@
+{
+  "dataList": [
+    {
+      "id": 853901,
+      "title": "Drifting Fox",
+      "prevDesc": "Quegli ombrelli possono veramente proteggere la volpe?",
+      "eventDesc": "Vecchi ombrelli si allineano attorno alla Volpe Vagabonda.\nOmbrelli vecchi, bucati ed usurati.\nSolo le Ali sanno per quanto tempo quegli ombrelli hanno provato a proteggere la volpe, ma non sembrano fare un bel lavoro.\n\"…….\"\nImprovvisamente, qualcuno cammina lentamente verso di lei.\nLa Volpe se ne accorge, ma non ringhia, ne si tranquilizza.\nRimane ferma, mantenendo la sua posizione.",
+      "behaveDesc": "Chi si avvicina alla volpe?",
+      "successDesc": [
+        "[{0}] cammina verso la volpe prima di prendere un ombrello logoro.\nSeppur sia un ombrello, ha permesso a molte gocce d'acqua di passarci attraverso.\nL'aria umida e il vento gelido trapassavano l'ombrello nelle mani di [{0}].\n\"…….\"\nMa alza la testa al cielo con un sorriso sincero.\nCome se sapesse che un giorno la pioggia finirà."
+      ],
+      "failureDesc": [
+        "[{0}] cammina verso la volpe prima di prendere un ombrello logoro.\nSeppur sia un ombrello, ha permesso a molte gocce d'acqua di passarci attraverso.\nL'aria umida e il vento gelido trapassavano l'ombrello nelle mani di [{0}].\n\"…Haah.\"\nSi abbatte dopo un grosso sospiro.\nNon sarà facile notarlo da così lontano,\nma deve essere l'accumulo di tristezza e lo smorzamento che avrà sentito la persona sotto l'ombrello."
+      ]
+    },
+    {
+      "id": 854101,
+      "title": "La scolopendra si contorce come per attorcigliarsi.",
+      "eventDesc": "Il corpo della Scolopendra Elettrica inizia ad attorcigliarsi in un punto.\n\"Sembra che stia accumulando elettricità.\"\nCome viene fatto notare da un Peccatore, delle scintille escono dal centro del suo corpo attorcigliato.\nFermarlo sarebbe una buona idea.",
+      "behaveDesc": "Chi sarà in grado di fermarla?",
+      "successDesc": [
+        "[{0}] colpisce il carapace della Scolopendra Elettrica.\n\"Ohh...!\"\nSi è creata una crepa nella sua dura corazza.\nAvrà davvero fermato la scolopendra?\nQuesta deve essere la nostra occasione."
+      ],
+      "failureDesc": [
+        "[{0}] colpisce il carapace della Scolopendra Elettrica.\nAhimè...\nChe l'energia immagazzinata sia fuoriuscita?\nUna tremenda pioggia di scintille è saltata fuori dal centro della Scolopendra insieme ad una fragorosa esplosione.\nNaturalmente, l'onda d'urto lancia via [{0}].\nPer fortuna, non sono rimaste ferite oltre allo scombussolamento...\nMa la scolopendra sembra alquanto irritata.\nSarebbe una buona idea prepararsi, non è vero?"
+      ]
+    },
+    {
+      "id": 854201,
+      "title": "Fairy Gentleman",
+      "prevDesc": "Un odore inebriante riempe l'aria, potrebbe benissimo ubriacarti.",
+      "eventDesc": "La Fata Gentiluomo parla con una grossa risata.\n\"Huhu... Non pensavo che potessi bere così tanto.\"\nSi poteva sentire un leggero singhiozzo.\n\"Ammetto, mi avete preso un pochino alla sprovvista... giusto un pochino.\"\nLa fata avvicina il calice alla sua bocca.\n\"Ehi! Quella cosa sta cercando di smaltire la sbornia?\"\n\"Dobbiamo tenere quel mascalzone disorientato!\"\n…Pare che dobbiamo fermare la fata dal bere dal suo calice.",
+      "behaveDesc": "Chi prenderà il calice dal gentiluomo?",
+      "successDesc": [
+        "[{0}] si piazza di fronte al gigantesco pancione del gentiluomo.\n\"Ah, non posso condividere questo con te, anche se sei un ospite privilegiato.\"\nInvece di chiederlo, [{0}] inizia a fissare la fata.\n\"...Ahem.\"\nCompletamente impassibile, non muove neanche un muscolo.\n\"...V-Va bene, va bene! Posso darti... un sorsetto.\"\n[{0}] scuote la testa.\n\"Mi stai dicendo... di darti tutto?\"\nIl Peccatore annuisce.\n\"Tu...\"\n\"Fuu, haha. Ok, ho perso. Te lo darò.\"\n[{0}] finalmente mostra un leggero sorriso mentre reclama il calice."
+      ],
+      "failureDesc": [
+        "[{0}] si piazza di fronte al gigantesco pancione del gentiluomo.\n\"Ah, non posso condividere questo con te, anche se sei un ospite privilegiato.\"\nInvece di chiederlo, [{0}] inizia a fissare la fata.\n\"...Ahem.\"\nCompletamente impassibile, non muove neanche un muscolo.\n\"...Startene così non cambierà la mia risposta, lo sai?\"\nDopo una vigorosa risata, la fata beve il contenuto del calice tutto d'un sorso, direttamente dal suo stomaco.\n\"Anche se ci tengo a te, non posso mica darti tutto quel che ho, giusto? Haha.\"\nDopo questa sconfitta, [{0}] ritorna da noi."
+      ]
+    },
+    {
+      "id": 854401,
+      "title": "So That No One Will Cry",
+      "prevDesc": "La bambola di legno maledetta ha smesso di muoversi.\nCosa starà accadendo?",
+      "eventDesc": "La bambola di legno si ferma di colpo come se non stesse accadendo niente.\nLa sua testa è inclinata verso il basso mentre esamina i suoi talismani...\nO forse sta osservando i talismani dei Peccatori?\n\"…….\"\nCome se posseduti, i Peccatori iniziano a camminare verso la bambola di legno.\nSembra si siano dimenticati che stavamo combattendo fino qualche momento fa.\nOra stanno rimuovendo i talismani attaccati ai loro corpi.\nMa cosa starà succedendo?",
+      "behaveDesc": "Chi raccoglierà i talismani per restituirli?",
+      "successDesc": [
+        "[{0}] raccoglie i talismani staccati per poi imporsi davanti alla bambola di legno.\nSembra che stia osservando in silenzio.\nO, forse è ciò che la coscienza del Peccatore fa sembrare.\nEra il desiderio di riportare i talismani alla bambola.\n[{0}] estende le sue braccia per dare il mucchio di talismani...\nCome dei magneti, i talismani vengono attratti dalla bambola.\n\"Affinché nessuno pianga...\"\nDopo aver mormorato quella frase, [{0}] torna nella sua posizione."
+      ],
+      "failureDesc": [
+        "[{0}] raccoglie i talismani staccati per poi imporsi davanti alla bambola di legno.\n\"…….\"\nScricchiolando, la bambola allunga una mano verso [{0}].\nPensando fosse per riprendersi i talismani, [{0}] porge il mucchio di fronte a sé.\n\"Ah!\"\nLa mano di legno cambia la sua traiettoria, puntando al corpo.\nIn quel momento, tutti i talismani di [{0}] iniziano ad agitarsi per poi sciogliersi e diventare sangue appiccicoso.\n…Non è un buon presagio."
+      ]
+    },
+    {
+      "id": 854501,
+      "title": "Fairy Longlegs",
+      "prevDesc": "Il cielo sembra sia stato coperto nuovamente. Perché continua a fare quell'ombra?",
+      "eventDesc": "Il pianta gigante germinato dalla fata era spessa quanto alta.\n\nAveva i suoi vantaggi.\n\nProprio come una colonna di un edificio, i Peccatori possono usarla per nascondersi dalla fata,\nper poi cautamente raggiungere lo stelo.",
+      "behaveDesc": "Chi si avvicinerà allo stelo?",
+      "successDesc": [
+        "Raggiunto lo stelo, [{0}] arrampica la pianta. Prima mano, poi piede, poi mano.\n\nPiù si arrampicava, più piccoli diventavano gli altri e la fata.\n\nLo stelo sembrava alzarsi all'infinito, ma una fine ce l'aveva.\n\nE così, [{0}] raggiunge la foglia in cima.\n\nSi avvicina cautamente verso il bordo...\n\nPer poi creare un buco nella foglia, causando la caduta di una pozza d'acqua sulla testa della fata.\n\nLa fata, sorpresa dalla pozza, si agita."
+      ],
+      "failureDesc": [
+        "Raggiunto lo stelo, [{0}] arrampica la pianta. Prima mano, poi piede, poi mano.\n\nPiù si arrampicava, più piccoli diventavano gli altri e la fata.\n\nLo stelo sembrava alzarsi all'infinito, ma una fine ce l'aveva.\n\nE così, [{0}] raggiunge la foglia in cima.\n\nMa forse non aveva considerato la quantità di acqua accumulata sulla foglia...\n\nNon appena ha messo piede, [{0}] scivola e precipita al suolo.\n\n...Fortunatamente, la caduta non era mortale."
+      ]
+    },
+    {
+      "id": 854901,
+            "title": "Lanterna Fatata",
+            "prevDesc": "La fata color turchese è apparsa di nuovo sull'estremità del ramo.",
+            "eventDesc": "Attaccare la fata rivelerà la sua vera forma.\n\nNon è la prima volta che affrontate quest'entità, non sarà difficile come allora.\n\nI peccatori sembrano d'accordo.\n\nLa fata siede lì, completamente immobile. Gli unici movimenti registrati sono le ali che vibrano in modo intermittente. Era come se la fata sapesse del nostro arrivo.",
+            "behaveDesc": "Chi abboccherà all'esca?",
+      "successDesc": [
+        "[{0}] avanza verso la fata.\n\nDopo aver fatto un leggero salto, [{0}] attacca la fata con la sua arma.\n\n”!!!”\n\nLa fata sembrava urlare, ma nessun suono è uscito dalla sua bocca.\n\nForse non era nemmeno un urlo. Forse era solo l'agitare dei rami.\n\n”Gli occhi stanno iniziando ad uscire…”\n\n”Andiamocene da qui! Oh, ci risiamo.”\n\nNumerosi occhi si apririvano uno ad uno, scintillando dall'ombra.\n\nVibravano come se volessero saltarci addosso da un momento all'altro.\n\nQuindi... adesso che si fa?"
+      ],
+      "failureDesc": [
+        "[{0}] avanza verso la fata.\n\nA seguito di un leggero salto, [{0}] attacca la fata con la sua arma.\n\nMa…\n\n”Quella cosa riesce a schivare…?!”\n\nMa certo, non poteva essere così facile. Presumere che un esca rimanga ferma era solo un presupposto ottimista.\n\nLa fata è volata poco più in alto e osservava con sguardo tagliente l'agressore, che ha osato attaccarla.\n\n”V-Via da qui! Sta ricominciando a muoversi!”\n\n[{0}] ha provato a ritirarsi, ma la sua gamba viene afferrata dal corpo principale.\n\nQuindi... adesso che si fa?"
+      ]
+    },
+    {
+      "id": 855001,
+      "title": "Wayward Passenger",
+      "prevDesc": "Si sta di nuovo nascondendo in un'altra dimensione?",
+      "eventDesc": "Una cosa che abbiamo imparato finora in questa battaglia, è che presto riemergerà dagli squarci dimensionali.\n\nSe riusciamo a intuire il punto da cui sbucherà, forse potremo infliggere un colpo fatale mentre ancora sta uscendo dallo squarcio.",
+      "behaveDesc": "Chi intuirà da dove emergerà?",
+      "successDesc": [
+        "Presto, l'entità iniziava a sbucare dallo squarcio scelto da [{0}].\n\n\"!\"\n\nSeppur era riuscita a sentire l'ostacolo prima di emergere,\n\nNon aveva abbastanza tempo per agire prima di venir attaccata dall'arma di [{0}].\n\nL'entità chiude di fretta lo squarcio non appena fuggita al sicuro. Quell'azione sembra aver destabilizzato lo squarcio dimensionale.\n\nOpportunità."
+      ],
+      "failureDesc": [
+        "Presto, l'entità è iniziata a sbucare dallo squarcio dimensionale.\n\n… Da quello opposto a quello scelto da [{0}], sfortunatamente.\n\n[{0}] si volta di fretta, imbrandendo la sua arma… ma non era abbastanza veloce.\n\nNon c'è bisogno di dire che quell'errore viene punito da un potente colpo da parte dell'entità."
+      ]
+    },
+    {
+      "id": 855501,
+      "title": "Steam Transport Machine",
+      "prevDesc": "La luce porta via i sedimenti del passato.",
+      "eventDesc": "I tubi a vuoto al centro del torso del Trasporto a Vapore si stanno illuminando.\n\nLentamente, o velocemente, i numeri mostrati nei tubi stanno diminuendo…\n\nE il suo telaio distrutto e arruginito inizia a ricostruirsi da solo.\n\nIl Trasporto a Vapore è tornato a quando è stato appena prodotto?\n\nHa lasciato dietro a sé tutto quel che ha subito.\n\nPiù la macchina invecchia, più parti avrà bisogno di ricostruire.\n\nForse il Trasporto a Vapore può essere fermato… se qualcuno può manomettere i tubi a vuoto.",
+      "behaveDesc": "Chi si recherà dai tubi a vuoto?",
+      "successDesc": [
+        "[{0}] va dal Trasporto a Vapore.\n\nSembra che il Trasporto a Vapore era in una profonda concentrazione. La macchina era completamente immobile, non importa quanto qualcuno si avvicinasse.\n\n[{0}] non esita ad afferrare i tubi a vuoto.\n\n”Ooh!!”\n\n”I numeri…!”\n\nSembra che [{0}] abbia sfruttato la propria creatività e ha scambiato qualche elettrodo connesso ai tubi a vuoto.\n\nSembra abbia funzionato; i numeri hanno smesso di scendere.\n\nIl Trasporto a Vapore inizia a rimettersi in moto una volta ancora, come se avesse appena realizzato cosa era successo, ma [{0}] se l'era già filata."
+      ],
+      "failureDesc": [
+        "[{0}] va dal Trasporto a Vapore.\n\nSembra che il Trasporto a Vapore era in una profonda concentrazione. La macchina era completamente immobile, non importa quanto qualcuno si avvicinasse.\n\n[{0}] non esita ad afferrare i tubi a vuoto.\n\n”Fai attenzione—!”\n\nForse siamo stati ingannati dal Trasporto a Vapore. O forse era riuscito a ricostruirsi in tempo.\n\nIn ogni caso, la macchina schiaccia il polso di [{0}]…\n\nPer poi rigettare il suo bollente vapore.\n\n… Ci vorrà un po' prima che [{0}] si riprenda."
+      ]
+    },
+    {
+      "id": 85560101,
+      "title": "Sign of Roses",
+      "prevDesc": "",
+      "eventDesc": "",
+      "behaveDesc": "Di quale colore vuoi che i petali si tingano?",
+      "successDesc": [
+        "\"Ah, che carino.\"\n\n\"Pure così vivido!\"\n\n\"Il vostro peccato era una così bella tonalità di {0}.\"\n\n\"Sei davvero un'incantevole aggiunta nel giardino.\"\n\n\"Il colore {0}?! Lo pianterò vicino a me.\"\n\n\"E ora… Giochiamo per un altro po'?\"\n\n\"Questo giardino diventerà incredibilmente meraviglioso con più peccaminosi fiori a sbocciare!\""
+      ],
+      "failureDesc": [
+        "\"Mm, ancora troppo pallido.\"\n\n\"Non ce ne facciamo niente di fiori così monotoni come i vostri.\"\n\n\"Che delusione~\"\n\nE con ciò, si sono ammutilite.\n\nProbabilmente non è piaciuto molto a loro."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+    "dataList": [
+        {
+            "id": 10501,
+            "name": "Checking the Boat",
+            "subDesc": "",
+            "desc": "Poco dopo aver salpato...\n\n\"Woah!\"\n\n... Iniziammo a sentire qualcosa tremare sotto la nave.\n\n\"Cos'era quello...?\"\n\n\"Perbacco, potrebbe celarsi un nemico al di sotto della nostra imbarcazione, raschiandola!\n\n\"... Si, è preoccupante. Faremmo meglio a controllare.\"\n\nCosa facciamo?",
+            "options": [
+                {
+                    "message": "Controlla sotto la nave.",
+                    "messageDesc": "Ishmael ottiene 10 PS. Procedi alla prova.",
+                    "result": [
+                        ""
+                    ]
+                },
+                {
+                    "message": "Non sappiamo cosa accadrà se lo facciamo. Non muoviamoci.",
+                    "messageDesc": "Ishmael perde 10 PS. Probabilità del 50% di iniziare un Combattimento. Ottieni un Dono E.G.O con la vittoria.",
+                    "result": [
+                        "\"Farai finta di niente? Ma cosa ti dice il...\"\n\nLa Peccatrice irritata stava per dire qualcosa... ma si fermò. Forse aveva pensato che era solo una perdita di tempo.\n\n\"... Il rumore di graffi sta aumentando.\"\n\nA dirla tutta, questa non era una nave consueta... magari è solo la barca a fare questi rumori di tanto in tanto.\n\n\"... Si è interrotto.\"\n\n\"Talvolta, persino l'inazione può divenire la soluzione.\"\n\nQualche minuto dopo, il rumore si era fermato.\n\n... Immagino che non fosse stata la barca a fare quel rumore di graffi. Abbiamo avuto fortuna.",
+                        "\"Farai finta di niente? Ma cosa ti dice il...\"\n\nLa Peccatrice irritata stava per dire qualcosa... ma si fermò. Forse aveva pensato che era solo una perdita di tempo.\n\n\"... Il rumore di graffi sta aumentando.\"\n\nA dirla tutta, questa non era una nave consueta... magari è solo la barca a fare questi rumori di tanto in tanto.\n\nSe così non fosse...\n\n\"Aspetta, questo mi fa ricordare. Le navi pirata...\"\n\n\"Immagino quei spuntoni servissero a questo.\"\n\nIl rumore di graffi continua a crescere, fino a spostarsi alla fiancata della nave. Presto, l'origine del rumore si manifesta.\n\n... Sirene.\n\n\"Maledizione, dovevamo controllare.\"\n\nNon avevo niente da dire.\n\nDovevamo combattere."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 10504,
+            "name": "The Artery",
+            "subDesc": "",
+            "desc": "Questa deve essere l'arteria di cui Ahab stava parlando. Una volta che taglieremo questa cosa... il nostro cammino verso il centro del cuore verrà aperto.",
+            "options": [
+                {
+                    "message": "Taglia l'arteria.",
+                    "messageDesc": "Procedi alla prova",
+                    "result": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 10505,
+            "name": "Supply Crates",
+            "subDesc": "",
+            "desc": "\"Quella è... una cassa di legno?\"\n\nI Peccatori trovarono una mucchio di casse tirate a casaccio.\n\n\"Si può estrapolare dal loro aspetto che una volta facevano da casse di rifornimenti.\"\n\nQualche scatola ha disegnato il logo dei Pirati Doppiouncino. Qualche altra aveva invece il logo del Before Team.\n\nLa Balena deve aver ingoiato anche queste casse.\n\n\"Sarebbe saggio procacciarne qualcheduna come provviste nostre!\"\n\nGiusto. Non sappiamo cosa succederà una volta raggiunto il cuore.\n\nDovremmo prendercene qualcuna, per precauzione?",
+            "options": [
+                {
+                    "message": "Frugate tra le casse di rifornimento.",
+                    "messageDesc": "Procedi alla prova",
+                    "result": [
+                        ""
+                    ]
+                },
+                {
+                    "message": "Andatevene.",
+                    "messageDesc": "Non succede niente.",
+                    "result": [
+                        "Non può uscire niente di buono dal maneggiare oggetti sospetti come questi.\n\nAbbiamo lasciato la stanza così com'era."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 810601,
+            "name": "Ahab",
+            "subDesc": "",
+            "desc": "\"Ho fallito.\"\n\n\"<...!>\"\n\nQuella è un'illusione? O... è anche quella Ishmael?\n\nDietro al Capitano appare una silhouette Ishmael, avvolta dalla membrana pallida.\n\n\"Non ho potuto rimediare niente. Ho fallito in tutto.\"\n\n\"Tutto quel che ero riuscita a fare era sopravvivere. Miseramente, come una disgraziata. Aggrappata alla bara della mia cara amica.\"\n\nIl Capitano sghignazza all'impazzata. \"Esattamente, Ishmael! Non sei riuscita a salvare nessuno! Nemmeno la tua ciurma! Nemmeno i tuoi amici! Nessuno!\"\n\n\"E ti arrenderai ancora. Perché hai paura! Ti arrenderai prima ancora di iniziare!\"\n\nI Peccatori iniziano ad agitarsi.\n\n\"Quella maledetta bastarda...!\"\n\n\"Non ascoltarla, Ishmael! L-lei non sa cosa sta dicendo!\n\n\"<......>\"\n\nIl Manager rimane in silenzio.\n\nPer poi parlare.",
+            "options": [
+                {
+                    "message": "Quella non è Ishmael.",
+                    "messageDesc": "",
+                    "result": [
+                        ""
+                    ]
+                }
+            ]
+        }
+    ]
+}

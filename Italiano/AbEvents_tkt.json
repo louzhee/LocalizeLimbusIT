@@ -1,0 +1,95 @@
+{
+  "dataList": [
+    {
+      "id": 1051101,
+      "title": "Dai un'occhiata in giro per la fabbrica.",
+      "eventDesc": "",
+      "prevDesc": "",
+      "behaveDesc": "Chi darà una mano?",
+      "successDesc": [
+        "Dopo aver riflettuto ed aver dato un'occhiata in giro, {0} nota che la macchina della fabbrica sta operando ad alta velocità.\n\n{0} dice che due ore di sonno potrebbero essere un peso per gli altri operai...\n\ne potrebbe anche avere anche delle conseguenze sulle linee di produzione.\n\n\"Hai un occhio attento per i problemi.\"\n\n\"Hai sentito? Basta fare storie e torna a lavoro.\"\n\nIl proprietario dà un'occhiataccia all'operaio, che stava scendendo lentamente le scale, prima di offrirci qualcosa.\n\n\"Volevo darlo come bonus per lavorazione buona ad un mio dipendende, ma immagino di non doverlo più fare adesso. Ecco qui, prendete.\""
+      ],
+      "failureDesc": [
+        "{0} esprime perplessità su come nessuno, compreso l'operaio stesso, sembra notare che quest'ultimo abbia dormito per due ore intere. \n\n\"Tsk tsk. L'immagine dell'azienda ne risentirà.\"\n\n\"Sei licenziato. Vattene.\"\n\nQualcosa non quadra, ma ormai è troppo tardi.\n\nL'operaio si inginocchia lentamente, con le lacrime agli occhi, ma il proprietario non batte ciglio e va via dalla stanza.\n\nSiamo rimasti soli, assieme al suono del pianto lento e disperato dell'operario."
+      ]
+    },
+    {
+      "id": 1051102,
+      "title": "Osserva più da vicino il proprietario e il dipendente.",
+      "eventDesc": "",
+      "prevDesc": "",
+      "behaveDesc": "Chi darà una mano?",
+      "successDesc": [
+        "{0} si muove tra le due figure per un poì, prima di rendersi conto che la durata delle loro giornate era completamente diversa tra loro.\n\nAl proprietario, con giornate da ottanta ore, è sembrato che l'operaio abbia dormito per due ore di fila.\n\nMa per l'altro uomo, la cui giornata è di sei ore, erano passati solo 9 minuti. {0} tiene a mente l'informazione.\n\n\"Hm. Quante ore lavori al giorno?\"\n\n\"C...i...n...q...u...e... O...r...e...\"\n\n\"Hm, capisco. Sembra giusto. Stavolta chiuderò un occhio, ma non rifare lo stesso errore.\"\n\nDetto ciò, il proprietario va via.\n\nL'operaio si inchina lentamente a noi, come segno di gratitudine, prima di lasciarci qualcosa."
+      ],
+      "failureDesc": [
+        "{0} dichiara che l'operaio vive giorni più corti rispetto al proprietario.\n\n\"E a me cosa dovrebbe importare?\"\n\n\"Nove minuti, due ore, non c'è giustificazione. Hai deciso di dormire durante il turno di lavoro. Sei licenziato.\"\n\nQualcosa non quadra—ma ormai è troppo tardi.\n\nL'operaio si inginocchia lentamente, con le lacrime agli occhi, ma il proprietario non batte ciglio e va via dalla stanza\n\nSiamo rimasti soli, assieme al suono del pianto lento e disperato dell'operario."
+      ]
+    },
+    {
+      "id": 1051201,
+      "title": "",
+      "eventDesc": "",
+      "prevDesc": "",
+      "behaveDesc": "Chi parlerà?",
+      "successDesc": [
+        "{0} dichiara che c'è qualcosa di sbagliato nei loro calcoli.\n\nAnche gli altri Peccatori intervengono, sostenendo che gli importi dovrebbero essere ricontrollati. Uno di loro fa notare che, molto convenientemente, c'è un Ufficio Riscossone lì vicino.\n\nUna folla bisbigliante inizia a formarsi attorno a noi, ed eventualmente il Riscossore Temporale rinuncia.\n\n\"Sembra che tu non abbia un orologio con te.\"\n\n\"Se fossi in te, starei alla larga dai guai.\"\n\nChiaramente infastidito dalla situazione, il Riscossore Temporale borbotta qualcosa e va via, ma non prima di attaccare qualcosa ai vestiti del Peccatore."
+      ],
+      "failureDesc": [
+        "{0} dichiara che c'è qualcosa di sbagliato nei loro calcoli.\n\nAnche gli altri Peccatori intervengono, sostenendo che gli importi dovrebbero essere ricontrollati. Uno di loro fa notare che, molto convenientemente, c'è un Ufficio Riscossone lì vicino.\n\nUna folla bisbigliante inizia a formarsi attorno a noi, ed eventualmente il Riscossore Temporale rinuncia.\n\n\"Sembra che tu non abbia un orologio con te.\"\n\n\"E non solo, ma stai anche disturbando la quiete pubblica. Dovrò riscuotere le vostre tasse.\""
+      ]
+    },
+    {
+      "id": 1051301,
+      "title": "",
+      "eventDesc": "",
+      "prevDesc": "",
+      "behaveDesc": "Chi interverrà?",
+      "successDesc": [
+        "Dopo aver raggiunto a malapena il giovane, {0} gli chiede per quale motivo stia correndo.\n\nIl giovane continua a guardare il suo orologio, aspettando con pochissima pazienza che {0} finisca la sua domanda. Continua a muoversi da un posto all'altro.\n\n\"Devo lavorare più velocemente, così posso guadagnare più tempo!\"\n\n\"Quel proprietario lì? Sono sicuro che abbia più di dieci ore nella sua vita, rispetto a me!\"\n\n{0} si avvicina al giovane e gli chiede: \"Per cosa vuoi usare tutto quel tempo?\"\n\n\"Se ho più tempo, posso usarlo per lavorare più ore! Argh, sono in ritardo! Devo scappare, ciao!\"\n\nIl giovane corre di fretta verso l'edificio.\n\nNon abbiamo capito cosa voleva farsene di tutto quel tempo.\n\nPare che gli sia caduto qualcosa mentre correva...\n\nMa era ormai troppo lontano per restituirglielo."
+      ],
+      "failureDesc": [
+        "Non siete riusciti a raggiungere il giovane.\n\nE vabbè."
+      ]
+    },
+    {
+      "id": 1051302,
+      "title": "",
+      "eventDesc": "",
+      "prevDesc": "",
+      "behaveDesc": "Chi interverrà?",
+      "successDesc": [
+        "{0} chiede all'anziano: \"Come fai a sorridere se è chiaro che non hai chissà quanto tempo?\"\n\nL'anziano signore ci sorride gentilmente per poi scrivere qualcosa su un pezzo di carta.\n\n'Nella vita non è importante quanto tempo noi abbiamo.'\n\n'Ciò che davvero conta è come usare il tempo che ci è stato dato.'\n\n'Perchè non dovrei sorridere quando, in questo momento, mi è concesso dell'ozio in un mondo frettoloso?'\n\nL'anziano signore si gira lentamente per poi andarsene.\n\nPare che si sia dimenticato qualcosa per terra.\n\nCercate l'anziano per restituirgli l'oggetto... ma lui era già sparito."
+      ],
+      "failureDesc": [
+        "{0} chiede all'anziano: \"Come fai a sorridere se è chiaro che non hai chissà quanto tempo?\"\n\nL'anziano signore ci sorride gentilmente per poi scrivere qualcosa su un pezzo di carta.\n\nNon abbiamo tempo per questa stupidaggine.\n\nVi sbrigate a tornare nel vostro cammino, lasciando indietro il vecchio signore."
+      ]
+    },
+    {
+      "id": 1051401,
+      "title": "",
+      "eventDesc": "",
+      "prevDesc": "",
+      "behaveDesc": "Chi lo dirà?",
+      "successDesc": [
+        "UNITEVI!\n\nLo Yurodivy tira fuori alcune bottiglie di liquore rubato ai ricchi per versarlo sopra ad una pila di calici, il tutto mentre recita il motto ad alta voce.\n\nL'alcohol sgorga dal calice in cima per riempire gli altri calici sottostanti."
+      ],
+      "failureDesc": [
+        "Era davvero un patetico motto. Tutti tirano un'occhiataccia nella nostra direzione.\n\nDando qualche pessima scusa sull'avere urgenza di andare da qualche parte, siete scappati dal nascondiglio."
+      ]
+    },
+    {
+      "id": 1051501,
+      "title": "",
+      "eventDesc": "",
+      "prevDesc": "",
+      "behaveDesc": "Chi parlerà?",
+      "successDesc": [
+        "{0} ha fatto tutto quel che poteva, ma niente riusciva a portare a qualche risultato.\n\nLa vittima non si muove e non può essere fisicamente toccata.\n\nMa sotto la sua scarpa c'è uno scontrino individuato da {0} molto sospetto.\n\nPotrebbe essere un indizio."
+      ],
+      "failureDesc": [
+        "{0} ha fatto tutto quel che poteva, ma niente riusciva a portare a qualche risultato.\n\nLa vittima non si muove e non può essere fisicamente toccata."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "dataList": [
+    {
+      "id": 97110802,
+      "title": "Post-Heishou Choice Development",
+      "prevDesc": "",
+      "eventDesc": "",
+      "behaveDesc": "Chi si farà avanti?",
+      "successDesc": [
+        "Riferendo tutto quel che sapeva sul ramo Mao, {0} prova a convincere gli Heishou.\n\nPer nostra fortuna, sembra sia stato abbastanza per convincerli—gli Heishou se ne vanno dopo averci dato un Bolo Mao."
+      ],
+      "failureDesc": [
+        "Riferendo tutto quel che sapeva sul ramo Mao, {0} prova a convincere gli Heishou.\n\nMa avrà detto qualcosa di sbagliato o sospetto, perché non appena hanno finito di ascoltare {0}, siamo stati cacciati via da lì."
+      ]
+    },
+    {
+      "id": 97110901,
+      "title": "Oddly Familiar Boombox",
+      "prevDesc": "",
+      "eventDesc": "",
+      "behaveDesc": "Chi si farà avanti?",
+      "successDesc": [
+        "{0} furtivamente prende lo stereo.\n\nLo abbiamo portato in una strada vicina e premuto il pulsante \"play\", risuonando nelle stradine con della musica EDM.\n\nI membri del Medio vicini, notando l'improvviso rimbombo della musica, sono andati via dalle loro posizioni per andare nella stradina.\n\n<Quella strada ora dovrebbe essere libera. Sbrighiamoci prima che tornino qui.>\n\nAbbiamo spento la musica per sgattaiolare nel percorso di prima, che adesso è aperto.\n\nCon la strada libera, abbiamo potuto attraversarla senza problemi."
+      ],
+      "failureDesc": [
+        "Non appena {0} ha preso lo stereo, viene subito riprodotta la rimbombante musica EDM, abbastanza forte da risuonare nelle stradine.\n\nNotando la musica, i teppisti del Medio iniziano subito a caricarci."
+      ]
+    }
+  ]
+}

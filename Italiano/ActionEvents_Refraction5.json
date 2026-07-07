@@ -1,0 +1,63 @@
+{
+  "dataList": [
+    {
+      "id": 863201,
+      "name": "",
+      "subDesc": "",
+      "desc": "L'enorme teschio indietreggia con un forte scricchiolio; un'inquietante risata rieccheggia.\n\nSotto quell'aria tranquilla trema un'energia esplosiva; il teschio si sta preparando a lanciare un attacco potente.\n\nPerò deve essersi affaticato;\n\nil corpo traballa e si spacca, lasciando un'apertura.\n\nPotrebbe essere meglio attaccare quella breccia nel suo corpo, invece di aspettare che ci attacchi.\n\nCosa dovremmo fare?",
+      "options": [
+        {
+          "message": "Attacca il corpo.",
+          "messageDesc": "Seleziona questo per indebolire le Resistenze dell'Anormalità, al costo di aumentare il Danno Critico",
+          "result": [
+            "I peccatori al fronte scattano verso la breccia e colpiscono il corpo dell'Anormalità.\n\nLa spaccatura del suo torso si ingrandisce, diventando un crepaccio.\n\nIn quel momento, ho sentito un paio di occhi fissarmi dall'oscurità al di là delle ossa."
+          ]
+        },
+        {
+          "message": "Aspetta e osserva.",
+          "messageDesc": "Seleziona questo per applicare Mitigazione agli alleati",
+          "result": [
+            "Poco prima dell'attacco, ho notato oltre l'infinito flusso dell'esalazione gli occhi della figura in penombra.\n\nForse la vera minaccia non è lo scheletro protettivo, ma quella figura.\n\nMi arriva per un attimo un'intuizione. Non dovremmo essere troppo precipitosi; rimaniamo sulla difensiva e guardiamo bene come va."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 863301,
+      "name": "",
+      "subDesc": "",
+      "prevDesc": "뭔가 넣어봄",
+      "desc": "La rosa tracanna il flusso sanguigno, brillando di un rosso cremisi.\n\nMa neppure questa inondazione di sangue bastava.\n\nDai suoi petali, degli occhi luccicanti fissano minacciosamente i Peccatori.",
+      "options": [
+        {
+          "message": "Ignorala.",
+          "messageDesc": "Seleziona questo per aumentare l'attacco dell'Anormalità e ridurne le difese",
+          "result": [
+            "Ci siamo concordati nel non darle del sangue.\n\nLo scontento genera frustrazione, così pare.\n\nLa rosa alza le sue spine affilate e si scaglia contro i Peccatori."
+          ]
+        },
+        {
+          "message": "Tutti i Peccatori versano un goccio di sangue.",
+          "messageDesc": "Seleziona questo per consumare PV dagli alleati per ridurre l'attacco dell'Anormalità e aumentarne le difese",
+          "result": [
+            "La rosa sembra in qualche modo soddisfatta dopo aver bevuto il sangue dei Peccatori.\n\nLa rosa ritrae i suoi sguardi luccicanti, e i suoi petali si rimpiccioliscono."
+          ]
+        },
+        {
+          "message": "Tutti i Peccatori versano una buona quantità di sangue.",
+          "messageDesc": "Seleziona questo per consumare PV dagli alleati per ridurre l'attacco dell'Anormalità e aumentarne le difese",
+          "result": [
+            "La rosa sembra in qualche modo soddisfatta dopo aver bevuto il sangue dei Peccatori.\n\nLa rosa ritrae i suoi sguardi luccicanti, e i suoi petali si rimpiccioliscono."
+          ]
+        },
+        {
+          "message": "Fai pulire il sangue ai Peccatori.",
+          "messageDesc": "Seleziona questo per eliminare parzialmente l'Emofagia, aumentando l'attacco dell'Anormalità e riducendone le difese",
+          "result": [
+            "I Peccatori corrono in giro, ripulendo più sangue possibile dall'area.\n\nDovendo affrontare una maggiore scarsità di sangue...\n\n... i suoi petali tremano in modo allarmante mentre le sue spine si sollevano minacciosamente."
+          ]
+        }
+      ]
+    }
+  ]
+}

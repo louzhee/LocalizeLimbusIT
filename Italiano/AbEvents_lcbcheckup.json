@@ -1,0 +1,56 @@
+{
+  "dataList": [
+    {
+      "id": 97104301,
+      "title": "Siamo i 'campioni'.",
+      "eventDesc": "",
+      "prevDesc": "",
+      "behaveDesc": "Chi si farà avanti?",
+      "successDesc": [
+        "\"Oho, che reazione interessante. Il rapporto di sincronia è persino decente.\"\n\nForse il ricercatore piaceva quel che osservava?\n\nDopo aver scritto le sue osservazioni in vari documenti, il ricercatore lascia andare {0}.\n\n{0} si toglie lo strumento e lo porge al ricercatore per restituirlo, ma lui scuote la testa per risposta.\n\n\"L'equipaggiamento sembra vada perfettamente a te. Portatelo.\""
+      ],
+      "failureDesc": [
+        "\"Mh, il tuo corpo non regge lo stress, non è vero? Forse non andava bene con te, dopotutto.\"\n\nIl ricercatore aggrotta le soppracciglia, chiaramente deluso dai risultati.\n\nAnche {0} si corruga-ma per il dolore.\n\n\"Beh, forse c'è bisogno di tempo prima che te ti ci acclimatizzi. Prenditelo con te, e cerca di farci l'abitudine.\"\n\n\"Provatelo quelche volta e riportamelo se non riesci proprio a resistere.\""
+      ]
+    },
+    {
+      "id": 97104401,
+      "title": "Ingeritelo.",
+      "eventDesc": "",
+      "prevDesc": "",
+      "behaveDesc": "Chi si farà avanti?",
+      "successDesc": [
+        "La faccia di {0} si ravviva con stupore dopo aver preso un sorso dall'intruglio del ricercatore.\n\nLa pozione sembra aver allievato buona parte di stress da {0}—i suoi occhi stavano praticamente luccicando.\n\n\"Questa prova clinica è stata un successo. Grazie per esservi offerti volontari.\"\n\n\"Prego, prendete questo. È una delle nostre nuove linee di medicinali.\""
+      ],
+      "failureDesc": [
+        "La faccia di {0} si corruga dal disgusto non appena prende un sorso dall'intruglio del ricercatore.\n\nNon sembra che {0} si senta tanto bene—peggio ancora, sembra che abbia continui conati di vomito per il sapore.\n\n\"Credo proprio che questa prova clinica è stata un fallimento... Mi spiace.\"\n\n\"Almeno prendete questo. È una delle nostre nuove linee di medicinali.\""
+      ]
+    },
+    {
+      "id": 97104701,
+      "title": "Accetta e perlustrate.",
+      "eventDesc": "",
+      "prevDesc": "",
+      "behaveDesc": "Chi accetterà?",
+      "successDesc": [
+        "\"Adoro vedere un po' di sano entusiasmo. Sì... Mi piace la tua attitudine. Prendi questo con te.\"\n\n\"Vi aiuterà nelle vostre perlustrazioni.\"\n\nDopo averci dato l'equipaggiamento, i ricercatori si avvicinano ai Peccatori e iniziano ad esaminarli.\n\nUna volta finito, i Peccatori si ritrovano in perfetta forma."
+      ],
+      "failureDesc": [
+        "\"Ma almeno provaci a fingere di avere un po' di entusiasmo.\"\n\n\"Vabbè, ci assicureremo che almeno vi riprendiate completamente. Ma almeno non fate quelle facce.\"\n\nI ricercatori si avvicinano ai Peccatori e iniziano ad esaminarli.\n\nUna volta finito, i Peccatori si ritrovano in perfetta forma."
+      ]
+    },
+    {
+      "id": 97104801,
+      "title": "Controllando in giro.",
+      "eventDesc": "",
+      "prevDesc": "",
+      "behaveDesc": "Chi andrà a cercare?",
+      "successDesc": [
+        "Notando qualcosa, {0} indica un'area sul muro.\n\nC'è una piccola spaccatura tra le innumerevoli scritte incise. Provo attentamente a infilare la mia mano nella fessura e—\n\nAha, riesco a sentire le punte delle mie dita toccare una tessera. Qualcuno deve averla nascosta laddentro.\n\nPotrebbe tornarci utile più tardi."
+      ],
+      "failureDesc": [
+        "Notando qualcosa, {0} indica un'area sul muro.\n\nC'è una piccola spaccatura tra le innumerevoli scritte incise. Provo attentamente a infilare la mia mano nella fessura e—\n\nRiesco a sentire le punte delle mie dita toccare un'ampolla rigenerativa, la sua superficie è appiccicosa per via del sangue.\n\nForse c'è stata una battaglia per questa ampolla.\n\nCi sono segni di morte e disperazione persistente intorno a questo luogo.\n\nAbbiamo utilizzato l'ampolla e ci siamo incamminati, con un'espressione cupa appiccicata sulle nostre facce."
+      ]
+    }
+  ]
+}

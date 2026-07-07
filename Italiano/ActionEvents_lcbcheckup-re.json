@@ -1,0 +1,186 @@
+{
+  "dataList": [
+    {
+      "id": 971100,
+      "name": "Ardor Blossom Moth Containment Breach",
+      "desc": "La gestione della sicurezza delle unità di contenimento sarà diventata più negligente.\nLa Falena del Fiore Ardente sfreccia tra i corridoi, rilasciando un cumulo di rosse braci brillanti e fiamme al suo passaggio.\n\nPoco dopo, il sistema di comunicazione del sito rimbomba con avvertenze di una violazione di contenimento. I ricercatori si precipitano nel corridoio, cercando di reagire.\n\nDovremmo intervenire e aiutare i ricercatori a sopprimere l'Anormalità, o lasciarla a loro e andarcene per la nostra strada?",
+      "options": [
+        {
+          "message": "Andate ad aiutare con la soppressione.",
+          "messageDesc": "Prova con Vantaggio per Ira.\nPassa per ottenere un Dono E.G.O Bruciatura.",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "Lascia la soppressione ai ricercatori.",
+          "messageDesc": "Nessun effetto in particolare",
+          "result": [
+            "Sono armati fino ai denti con equipaggiamenti E.G.O. Sopprimere l'Anormalità non dovrebbe essere un grosso problema per loro.\n\nMuovamoci a riprendere il nostro cammino."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 971101,
+      "name": "Faelantern Containment Breach",
+      "desc": "Una fluorescente tonalità di turchese danza e ondeggia verso la fine del corridoio.\n\nVeniamo colti da un impulso inspiegabile di dirigerci verso la lucina.\n\nEppure, guardando i ricercatori correrle dietro come se attratti da un'esca irresistibile, diventa chiaro che questo è il lavoro di un'Anormalità.\n\nDovremmo cercare di far tornare in sé i ricercatori e aiutarli a sopprimere l'Anormalità, o dovremmo stare alla larga per qualsiasi trappola possa nascondersi davanti e muoverci?",
+      "options": [
+        {
+          "message": "Andate ad aiutare con la soppressione.",
+          "messageDesc": "Prova con Vantaggio per Gola.\nPassa per ottenere un Dono E.G.O Lacerazione.",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "Evitate la trappola.",
+          "messageDesc": "Nessun effetto in particolare",
+          "result": [
+            "Un'Anormalità che attira le sue prede con la luce... non può che essere la Lanterna Fatata.\n\nCorreremmo un grosso rischio se tentassimo di affrontarla senza essere certi di dove possa celarsi.\n\nMeglio oltrepassare questo posto e mantenere le nostre forze per altre battaglie.\n\n... Sbrighiamoci a darci una mossa."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 971102,
+      "name": "Shock Centipede",
+      "desc": "Possiamo vedere la Scolopendra Elettrica oltre al vetro dell'unità di contenimento.\n\n\"Ah, siamo nel bel mezzo dello studio sulle modalità in cui la Scolopendra Elettrica diventa effettivamente 'immortale' per un breve lasso di tempo prima della sua soppressione.\"\n\n\"Vedete, la relazione del nostro gruppo si concentra nelle potenziali fonti di energia che permettano una maggiore efficienza per l'equipaggiamento a carica elettrica.\"\n\n\"Sono abbastanza fiducioso che tutti voi siate a conoscenza del nome del Dono E.G.O estratto da questa Anormalità.\"\n\n... Quale era il suo nome?",
+      "options": [
+        {
+          "message": "Defibrillatore Illimitato",
+          "messageDesc": "Seleziona la risposta giusta per ottenere un Dono E.G.O Carica",
+          "result": [
+            "\"Esatto! Oltre a contenere temporaneamente i sovraccarichi in sicurezza, non c'è quasi nessuna perdita nelle scariche in uscita! È indubbiamente un fenomeno degno di nota...\"\n\nConversa piacevolmente il ricercatore prima di tirare fuori qualcosa dall'armadietto dietro.\n\n\"Abbiamo implementato di recente un nuovo meccanismo per calibrare le Estrazioni—ha prodotto una forma alquanto insolita del Dono E.G.O.\"\n\n\"Per caso vorreste provarlo? Oh, apprezzeremo qualsiasi commento sulle sue prestazioni...\""
+          ]
+        },
+        {
+          "message": "Batteria Non-Standard",
+          "messageDesc": "Seleziona la risposta giusta per ottenere un Dono E.G.O Carica",
+          "result": [
+            "\".......\"\n\n\"Pensavo vi sareste ricordati. Dopotutto ne avete fatto uso diverse volte...\"\n\n\"Avreste bisogno di più sessioni di osservazione.\"\n\nCon un sospiro pieno di delusione, il ricercatore si è allontanato da noi."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 971103,
+      "name": "Post-choice Development",
+      "desc": "\"Vediamo cosa c'è scritto... 'Accesso Vietato'...?\"\n\nAvevamo appena passato il muro con incise le grossolane lettere disordinate, quando abbiamo notato un'altra porta.\n\nLa porta era piena di ammacchi, come se un qualcosa di massiccio avesse sbattuto ripetutamente con una forza brutale.\n\n\"A questo punto... credo possiamo semplicemente forzarla?\"\n\n\"Giànno, la corrente continua ad affluire. Dovremo provvedere a far uso dei modi più giusti anzichè rischiare di riversarci le conseguenze di un mal operato.\"\n\nUn lettore di carte era attaccato accanto alla porta sbattuta.\n\nCosa dovremmo fare?",
+      "options": [
+        {
+          "message": "Apri la porta con la Carta per Autorizzazione alle Operazioni.\n<size=75%><color=#a16a3b>Scelta sbloccabile con il Dono E.G.O \"Carta per Autorizzazione alle Operazioni\"</color></size>",
+          "messageDesc": "Seleziona per ottenere un Dono E.G.O Senza Tratti",
+          "result": [
+            "Lo stridulo metallico nel forzare la porta devastata torturava le nostre orecchie, ma alla fine, i nostri sforzi erano ripagati.\n\nVeniamo accolti dalla vista di una stanza ricoperta di sangue, cosparse di parti e segni di una lotta disperata.\n\n\"... Pare sia un documento d'identità di un impiegato.\"\n\nHo dato un'occhiata più da vicino alla piccola carta di plastica che il Peccatore ha raccolto.\n\nIl sangue asciutto sulla carta era così spesso che mi era impossibile vedere la faccia o il nome scritto sopra.\n\n... Forse è meglio tenerla da parte per ora."
+          ]
+        },
+        {
+          "message": "Forzate la porta.",
+          "messageDesc": "Prova con Vantaggio per Ira e Invidia.\nPassa per ottenere un Dono E.G.O Senza Tratti.",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "Andate via.",
+          "messageDesc": "Nessun effetto particolare",
+          "result": [
+            "Ci sono segni di qualcuno—o <i>qualcosa</i>—che si è introdotto con forza in un posto in cui è esplicitamente scritto \"Accesso Vietato.\"\n\nLo spazio è fin troppo piccolo per farci passare una persona, ma un cagnolino o un pennuto potrebbe facilmente intrufolarsi.\n\nE se qualunque cosa fosse sia riuscita ad entrare in quel piccolo varco si rivela essere un'Anormalità...\n\nAllora ciò che ci aspetta è probabilmente un qualcosa che non vorremmo visualizzare neppure con l'immaginazione.\n\nLa scelta più sicura è di andarcene per ora."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10711,
+      "name": "Ardor Blossom Moth Containment Breach",
+      "desc": "La gestione della sicurezza delle unità di contenimento sarà diventata più negligente.\nLa Falena del Fiore Ardente sfreccia tra i corridoi, rilasciando un cumulo di rosse braci brillanti e fiamme al suo passaggio.\n\nPoco dopo, il sistema di comunicazione del sito rimbomba con avvertenze di una violazione di contenimento. I ricercatori si precipitano nel corridoio, cercando di reagire.\n\nDovremmo intervenire e aiutare i ricercatori a sopprimere l'Anormalità, o lasciarla a loro e andarcene per la nostra strada?",
+      "options": [
+        {
+          "message": "Andate ad aiutare con la soppressione.",
+          "messageDesc": "Prova con Vantaggio per Ira.\nPassa per ottenere un Dono E.G.O Bruciatura.",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "Lascia la soppressione ai ricercatori.",
+          "messageDesc": "Nessun effetto in particolare",
+          "result": [
+            "Sono armati fino ai denti con equipaggiamenti E.G.O. Sopprimere l'Anormalità non dovrebbe essere un grosso problema per loro.\n\nMuovamoci a riprendere il nostro cammino."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10712,
+      "name": "Faelantern Containment Breach",
+      "desc": "Una fluorescente tonalità di turchese danza e ondeggia verso la fine del corridoio.\n\nVeniamo colti da un impulso inspiegabile di dirigerci verso la lucina.\n\nEppure, guardando i ricercatori correrle dietro come se attratti da un'esca irresistibile, diventa chiaro che questo è il lavoro di un'Anormalità.\n\nDovremmo cercare di far tornare in sé i ricercatori e aiutarli a sopprimere l'Anormalità, o dovremmo stare alla larga per qualsiasi trappola possa nascondersi davanti e muoverci?",
+      "options": [
+        {
+          "message": "Andate ad aiutare con la soppressione.",
+          "messageDesc": "Prova con Vantaggio per Gola.\nPassa per ottenere un Dono E.G.O Lacerazione.",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "Evitate la trappola.",
+          "messageDesc": "Nessun effetto in particolare",
+          "result": [
+            "Un'Anormalità che attira le sue prede con la luce... non può che essere la Lanterna Fatata.\n\nCorreremmo un grosso rischio se tentassimo di affrontarla senza essere certi di dove possa celarsi.\n\nMeglio oltrepassare questo posto e mantenere le nostre forze per altre battaglie.\n\n... Sbrighiamoci a darci una mossa."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10713,
+      "name": "Shock Centipede",
+      "desc": "Possiamo vedere la Scolopendra Elettrica oltre al vetro dell'unità di contenimento.\n\n\"Ah, siamo nel bel mezzo dello studio sulle modalità in cui la Scolopendra Elettrica diventa effettivamente 'immortale' per un breve lasso di tempo prima della sua soppressione.\"\n\n\"Vedete, la relazione del nostro gruppo si concentra nelle potenziali fonti di energia che permettano una maggiore efficienza per l'equipaggiamento a carica elettrica.\"\n\n\"Sono abbastanza fiducioso che tutti voi siate a conoscenza del nome del Dono E.G.O estratto da questa Anormalità.\"\n\n... Quale era il suo nome?",
+      "options": [
+        {
+          "message": "Defibrillatore Illimitato",
+          "messageDesc": "Seleziona la risposta giusta per ottenere un Dono E.G.O Carica",
+          "result": [
+            "\"Esatto! Oltre a contenere temporaneamente i sovraccarichi in sicurezza, non c'è quasi nessuna perdita nelle scariche in uscita! È indubbiamente un fenomeno degno di nota...\"\n\nConversa piacevolmente il ricercatore prima di tirare fuori qualcosa dall'armadietto dietro.\n\n\"Abbiamo implementato di recente un nuovo meccanismo per calibrare le Estrazioni—ha prodotto una forma alquanto insolita del Dono E.G.O.\"\n\n\"Per caso vorreste provarlo? Oh, apprezzeremo qualsiasi commento sulle sue prestazioni...\""
+          ]
+        },
+        {
+          "message": "Batteria Non-Standard",
+          "messageDesc": "Seleziona la risposta giusta per ottenere un Dono E.G.O Carica",
+          "result": [
+            "\".......\"\n\n\"Pensavo vi sareste ricordati. Dopotutto ne avete fatto uso diverse volte...\"\n\n\"Avreste bisogno di più sessioni di osservazione.\"\n\nCon un sospiro pieno di delusione, il ricercatore si è allontanato da noi."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10714,
+      "name": "Post-choice Development",
+      "desc": "\"Vediamo cosa c'è scritto... 'Accesso Vietato'...?\"\n\nAvevamo appena passato il muro con incise le grossolane lettere disordinate, quando abbiamo notato un'altra porta.\n\nLa porta era piena di ammacchi, come se un qualcosa di massiccio avesse sbattuto ripetutamente con una forza brutale.\n\n\"A questo punto... credo possiamo semplicemente forzarla?\"\n\n\"Giànno, la corrente continua ad affluire. Dovremo provvedere a far uso dei modi più giusti anzichè rischiare di riversarci le conseguenze di un mal operato.\"\n\nUn lettore di carte era attaccato accanto alla porta sbattuta.\n\nCosa dovremmo fare?",
+      "options": [
+        {
+          "message": "Apri la porta con la Carta per Autorizzazione alle Operazioni.\n<size=75%><color=#a16a3b>Scelta sbloccabile con il Dono E.G.O \"Carta per Autorizzazione alle Operazioni\"</color></size>",
+          "messageDesc": "Seleziona per ottenere un Dono E.G.O Senza Tratti",
+          "result": [
+            "Lo stridulo metallico nel forzare la porta devastata torturava le nostre orecchie, ma alla fine, i nostri sforzi erano ripagati.\n\nVeniamo accolti dalla vista di una stanza ricoperta di sangue, cosparse di parti e segni di una lotta disperata.\n\n\"... Pare sia un documento d'identità di un impiegato.\"\n\nHo dato un'occhiata più da vicino alla piccola carta di plastica che il Peccatore ha raccolto.\n\nIl sangue asciutto sulla carta era così spesso che mi era impossibile vedere la faccia o il nome scritto sopra.\n\n... Forse è meglio tenerla da parte per ora."
+          ]
+        },
+        {
+          "message": "Forzate la porta.",
+          "messageDesc": "Prova con Vantaggio per Ira e Invidia.\nPassa per ottenere un Dono E.G.O Senza Tratti.",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "Andate via.",
+          "messageDesc": "Nessun effetto particolare",
+          "result": [
+            "Ci sono segni di qualcuno—o <i>qualcosa</i>—che si è introdotto con forza in un posto in cui è esplicitamente scritto \"Accesso Vietato.\"\n\nLo spazio è fin troppo piccolo per farci passare una persona, ma un cagnolino o un pennuto potrebbe facilmente intrufolarsi.\n\nE se qualunque cosa fosse sia riuscita ad entrare in quel piccolo varco si rivela essere un'Anormalità...\n\nAllora ciò che ci aspetta è probabilmente un qualcosa che non vorremmo visualizzare neppure con l'immaginazione.\n\nLa scelta più sicura è di andarcene per ora."
+          ]
+        }
+      ]
+    }
+  ]
+}

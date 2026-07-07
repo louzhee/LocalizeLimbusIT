@@ -1,0 +1,179 @@
+{
+    "dataList": [
+        {
+            "id": 810001,
+            "title": "Skin Prophet",
+            "prevDesc": "Il profeta scrive senza sosta.",
+            "eventDesc": "I registri, incisi con quella piuma ardente, sono infiniti.\n\nEppure il profeta deve scrivere.\n\nPerché anche il futuro è infinito.",
+            "behaveDesc": "Chi leggerà i registri?",
+          "successDesc": [
+            "{0} ha spento le fiamme ardenti e ha guardato tra i registri.\n\n@#$!@%!!@%!@%!@%\n\nNon riusciva a capire una sola parola... ma presto si rese conto che leggerli non era necessario.\n\nSi limitò ad accettare i registri così come apparivano naturalmente.\n\n{0} sentì come se qualcosa stringesse la sua testa, ma... il suo braccio che reggeva l'arma si sentì rinvigorito.\n\n... Una delle teste del Profeta fissava assiduamente {0}."
+          ],
+            "failureDesc": [
+                "Non tutte le fiamme potevano essere spente.\n\n{0} guardò goffamente tra le cronache.\n\n@#$!@%!!@%!@%!@%\n\nUna sensazione impura e terrificante risalì lungo il suo corpo.\n\nNon poté fare a meno di indietreggiare di qualche passo.\n\nCosì facendo, {0} alzò istintivamente le mani...\n\n... e lasciò cadere a terra il libro della Profezia, colmo di scritte.\n\nIl libro cadde con il contenuto visibile a tutti i Peccatori...\n\nColpendo chiunque lo guardasse con un terrore ineffabile."
+            ]
+        },
+        {
+            "id": 810101,
+            "title": "Ambling Pearl",
+            "prevDesc": "Cos'è quel luccichio in quel lerciume effervescente?",
+            "eventDesc": "Guardando da vicino... sembra essere una sorta di gemma.\n\nNata dopo un lungo, lunghissimo tempo di attesa...\n\nNata nel flusso e riflusso del lerciume che riempie e abbandona quella creatura a ogni suo movimento.\n\nPrendere la sua gemma equivarrebbe a toglierle la ragione di esistere. Potrebbe andare in pezzi senza di essa.",
+            "behaveDesc": "Chi la priverà del suo significato di vita?",
+            "successDesc": [
+                "{0} si protende verso la luce scintillante.\n\nLa melma verde... la sensazione acida e bruciante... le larve brulicanti... tutto ciò innervosisce il Peccatore.\n\nMa nonostante tutto, {0} prevale, afferrando la gemma con la mano.\n\n!!!\n\nUn ruggito incomprensibile echeggia.\n\nLa creatura ha rigenerato rapidamente qualcosa di nuovo nelle sue fauci...\n\nMa non sarà mai la stessa cosa."
+            ],
+            "failureDesc": [
+                "{0} si protende verso la luce scintillante.\n\nLa melma verde... la sensazione acida e bruciante... le larve brulicanti... tutto ciò innervosisce il Peccatore.\n\n... Non è un compito facile rovistare in tutta quella melma alla ricerca di quella luce.\n\n{0} non ce l'ha fatta più.\n\nLa pazienza e la perseveranza non durano in eterno. Il Peccatore ha dovuto liberare la mano dalle sue fauci.\n\nQuesta esperienza non ha lasciato altro che ferite sia a {0} che alla creatura."
+            ]
+        },
+        {
+            "id": 810201,
+            "title": "Dream-Devouring Siltcurrent",
+            "prevDesc": "Qualcosa ondeggia tra i flutti.",
+            "eventDesc": "Da dove viene quel relitto?\n\nDa dove, e come è finito qui?\n\nDopo così tanti anni, persino quel relitto potrebbe non ricordare più da dove sia venuto.\n\n... Potrebbe essere usato per fermare l'attacco dell'Anormalità.",
+            "behaveDesc": "Chi si avvicinerà al relitto?",
+            "successDesc": [
+                "{0} riesce infine a raggiungere il relitto.\n\nCiò è stato possibile perché gli altri Peccatori hanno fatto del loro meglio per attirare l'attenzione dell'Anormalità.\n\n{0} ha afferrato il relitto, ha cercato di spostarlo... per poi calarvi sopra la propria arma con forza.\n\nQuesto ha finito per lasciare diversi bordi taglienti sul relitto.\n\nSe qualcosa dovesse caricare contro questo ammasso... verrebbe trafitto, incapace di proseguire."
+            ],
+          "failureDesc": [
+            "{0} riesce infine a raggiungere il relitto.\n\nCiò è stato possibile perché gli altri Peccatori hanno fatto del loro meglio per attirare l'attenzione dell'Anormalità.\n\n{0} ha afferrato il relitto, ha cercato di spostarlo... per poi calarvi sopra la propria arma con forza.\n\nMa non è facile brandire la propria arma in mezzo ad acque così agitate.\n\nPeggio ancora, il relitto era più robusto di quanto apparisse.\n\nTutto ciò che {0} ha compiuto è stato creare un forte rumore.\n\n... Che ha attirato l'attenzione dell'Anormalità su di sé. Non c'è voluto molto prima che l'Anormalità iniziasse a caricare verso {0}."
+          ]
+        },
+        {
+            "id": 1050101,
+            "title": "Check underneath the ship",
+            "eventDesc": "\"Sì, certo che dovremmo.\"\n\nNon appena abbiamo deciso di controllare sotto la barca, un potente urto ha scosso la poppa.\n\n\"Sirene! Dei nemici stanno risalendo dal fondo della nave...\"\n\n\"Possiamo minimizzare le perdite mandando uno di noi a scaraventarle giù prima che si aggancino.\"\n\nNon appena è stato deciso, due Peccatori sono scattati dai loro posti e si sono avvicinati a me.\n\n\"Andrò io, Manager Esecutivo!\"\n\n\"No. Io sono più adatta per questo compito.\"\n\nI due Peccatori iniziano a battibeccare.",
+            "prevDesc": "",
+            "behaveDesc": "... Non sappiamo cosa succederà laggiù. Scegliamo qualcuno senza paura.",
+            "successDesc": [
+                "[{0}] ha colpito una Sirena che strisciava su dalle acque.\n\nL'impatto del colpo ha fatto cadere qualcosa dalla Sirena.\n\n\"…….\"\n\nÈ un tesserino da dipendente della LCCB... proprio come quello che indossava Pilot.\n\nÈ terribile. ...Ma dobbiamo continuare a muoverci.",
+                "Non appena ho scelto [{0}] per il compito, la Peccatrice è corsa e ha fracassato la testa della Sirena.\n\n\"Non possiamo lasciare che queste Sirene ci facciano perdere altro tempo.\"\n\nL'impatto del colpo ha fatto cadere qualcosa dalla Sirena.\n\n\"…….\"\n\nÈ un tesserino da dipendente della LCCB... proprio come quello che indossava Pilot.\n\nÈ terribile. ...Ma dobbiamo continuare a muoverci."
+            ],
+            "failureDesc": [
+                "[{0}] si paralizzò nel vedere la Sirena arrampicarsi lungo la fiancata della nostra nave.\n\n\"…….\"\n\nQualcosa in quella Sirena deve aver causato l'esitazione.\n\n\"Che diavolo stai facendo?!\"\n\n\"Stanno salendo sulla nave!\"\n\n…Dobbiamo prima respingere le sirene.\n\nChiederemo delle spiegazioni più tardi."
+            ]
+        },
+        {
+            "id": 10502,
+            "title": "Left or Right",
+            "prevDesc": "",
+            "eventDesc": "Siamo entrati in una sorta di stretto canale.\n\n\"... Manager Esecutivo.\"\n\nVedo Sirene nuotare sotto la nave.\n\nAnche le Sirene attaccate alle pareti ci stanno fissando.\n\n\"Questo posto, difficile timonare. Timonare e seguire la rotta, difficile fare entrambi contemporaneamente.\"\n\nQualcuno dovrà tenere d'occhio la direzione.",
+            "behaveDesc": "Chi dovrebbe tenere traccia della direzione?",
+            "successDesc": [
+                "\"A sinistra!\"\n\n\"... La strada si divide in tre? Aspettate, guardate! Un'apertura a ore 2!\"\n\nGrazie alle indicazioni rapide e chiare di [{0}], stavamo attraversando i canali velocemente.\n\n\"... Non finiscono mai, eh?\"\n\nMa l'orda di Sirene che attacca la nostra nave non sembra diminuita rispetto a quando siamo entrati.",
+                "\"A sinistra!\"\n\n\"... La strada si divide in tre? Aspettate, guardate! Un'apertura a ore 2!\"\n\nGrazie alle indicazioni rapide e chiare di [{0}], stavamo attraversando i canali velocemente.\n\n\"... È da un po' che non facevamo una cosa del genere insieme.\"\n\n\"Sì. Ricordi? Starbuck al timone. Tu, io, a urlare a Starbuck...\"\n\n\"Sì...\"\n\n\"... Cavolo, non finiscono mai.\"\n\nMa l'orda di Sirene che attacca la nostra nave non sembra diminuita rispetto a quando siamo entrati."
+            ],
+            "failureDesc": [
+                "\"Vai a des— cioè, a sinistra! C-credo che a sinistra sia aperto...?\"\n\n\"Ci sono tre sentieri... Uh... Cosa faccio qui...?\"\n\n[{0}] ha avuto qualche difficoltà a distinguere le direzioni...\n\n\"Tsk, preparatevi alla battaglia...!\"\n\n... e le conseguenze sono state immediate."
+            ]
+        },
+        {
+            "id": 1050201,
+            "title": "Right or Left",
+            "prevDesc": "",
+            "eventDesc": "\"Uscita. Ancora lontana.\"",
+            "behaveDesc": "Qualcuno dovrà continuare a tenere traccia delle direzioni. Continuiamo con lo stesso metodo?",
+            "successDesc": [
+                "\"Vai dritto!\n\n\"... Ora! Tutto a destra!\"\n\nGrazie alle indicazioni rapide e chiare di [{0}], stavamo attraversando i canali velocemente.\n\n\"... Non finiscono mai, eh?\"\n\nMa l'orda di Sirene che attacca la nostra nave non sembra diminuita rispetto a quando siamo entrati.",
+                "\"Mantenere la rotta!\"\n\n\"... Ora! Timone a destra!\"\n\nGrazie alle indicazioni rapide e chiare di [{0}], stavamo attraversando i canali velocemente.\n\n\"... È da un po' che non facevamo una cosa del genere insieme.\"\n\n\"Sì. Ricordi? Starbuck al timone. Tu, io, a urlare a Starbuck...\"\n\n\"Sì...\"\n\n\"... Cavolo, non finiscono mai.\"\n\nMa l'orda di Sirene che attacca la nostra nave non sembra diminuita rispetto a quando siamo entrati nei canali."
+            ],
+            "failureDesc": [
+                "\"… Andare avanti è l'unica opzione?\"\n\n\"A-aspetta! C'era un altro sentiero! ... Sembra che l'abbiamo mancato, però…\"\n\n[{0}] deve aver avuto qualche problema con le direzioni...\n\n\"Tsk, preparatevi alla battaglia...!\"\n\n... e le conseguenze sono state immediate."
+            ]
+        },
+        {
+            "id": 1050202,
+            "title": "Right or Left",
+            "prevDesc": "",
+            "eventDesc": "\"Quasi arrivati. Scappiamo presto. Alla prossima area.\"\n\nCi siamo quasi.",
+            "behaveDesc": "Siamo quasi fuori, ma non abbassiamo ancora la guardia.",
+            "successDesc": [
+                "\"Si sta aprendo—aspetta! È una cascata! Mantenere la rotta!\"\n\n\"Fiuuu... Oh! Rocce in vista! Tenere la sinistra, tenere la sinistra... A tutta a destra!\"\n\nGrazie alle direzioni rapide e dirette di [{0}], siamo riusciti a seminare le Sirene e a fuggire dal canale.",
+                "\"Si sta aprendo—aspetta! C'è un salto! Mantenere la rotta!\"\n\n\"Fiuuu... Oh! Altre rocce in vista! Timone a sinistra di 10 gradi, stabili... A tutta a destra!\"\n\nGrazie alle direzioni rapide e dirette di [{0}], siamo riusciti a seminare le Sirene e a fuggire dal canale.\n\n\"... È da un po' che non facevamo una cosa del genere insieme.\"\n\n\"Sì. Ricordi? Starbuck al timone. Tu, io, a urlare a Starbuck...\"\n\n\"Sì...\"\n\nLa nave era coperta di sangue e olio delle Sirene che avevamo ucciso nel canale.\n\n\"Questo, utile. Mettilo in un barile.\"\n\nLa barca ha navigato tranquillamente verso l'area successiva mentre passavamo il tempo a raccogliere l'olio di Sirena dalla nave. Ce n'era così tanto che il ponte era quasi allagato."
+            ],
+            "failureDesc": [
+                "\"...? A-aspetta! C'è un salto?! U-uh, cosa facciamo...?\"\n\n\"Ah, ah... N-non ci vedo molto bene qui...\"\n\n[{0}] stava facendo del suo meglio, ma la stanchezza sembra aver avuto la meglio; le sue indicazioni erano molto confuse.\n\n\"Agh... Ed eravamo così vicini all'uscita...!\"\n\nDovremo farci strada combattendo fino alla fine, allora..."
+            ]
+        },
+        {
+            "id": 10503,
+            "title": "To the Arteries",
+            "prevDesc": "",
+            "eventDesc": "Dopo aver sconfitto l'Anormalità, abbiamo navigato per un po' senza troppi incidenti. Fu allora che...\n\n\"Un muro...\"\n\n... un muro spesso e solido apparve davanti a noi.\n\n\"Arteria. Oltre questo muro.\"\n\n\"Il muro si apre. Si chiude. L'apertura è molto breve. Non farti afferrare dalle Sirene lì. Tagliati a metà, se afferrati dalle sirene.\"\n\nE con un pesante rombo, il muro iniziò immediatamente ad aprirsi.\n\n\"Tenete le Sirene lontane dalla nave. Ci rallentano, verremo tagliati a metà.\"\n\nLe Sirene devono aver percepito il rombo. Iniziano a scagliarsi contro la nostra nave.",
+            "behaveDesc": "Chi andrà in prima fila per tenere le Sirene fuori dalla nostra nave?",
+            "successDesc": [
+                "[{0}] si mette in prima fila, scaraventando le Sirene fuori dalla barca.\n\n\"Può bastare.\"\n\n\"Bene, ce l'abbiamo fatta...\"\n\n\"Fiuuu. Ehi, il muro sta tremando. Come se stesse per—\"\n\nNemmeno un secondo dopo che la poppa della nostra barca ha superato il muro, la porta si è richiusa con violenza.\n\n... Continuiamo a muoverci verso l'arteria.",
+                "[{0}] si mette in prima fila, scaraventando le Sirene fuori dalla barca.\n\n\"Può bastare.\"\n\n\"Bene, ce l'abbiamo fatta...\"\n\n\"Non adagiatevi. Dobbiamo restare all'erta.\"\n\n\"Fiuuu. Ehi, il muro sta tremando. Come se stesse per—\"\n\nNemmeno un secondo dopo che la poppa della nostra barca ha superato il muro, la porta si è richiusa con violenza.\n\n... Continuiamo a muoverci verso l'arteria."
+            ],
+            "failureDesc": [
+                "[{0}] si mette in prima fila, scaraventando le Sirene fuori dalla barca.\n\nMa...\n\n\"C-credo che ce ne siano più di quante ci aspettassimo...\"\n\n\"Ehi! Date una mano!\"\n\n\"Aagh, a-aspetta...!\"\n\nAlla fine siamo riusciti a scrollarci di dosso le Sirene e a superare l'apertura, ma...\n\n\"Ah...\"\n\nQuesto trambusto ha sfinito tutti e ha lasciato alcuni di noi feriti.\n\n... Non abbiamo altra scelta che continuare il nostro cammino verso l'arteria."
+            ]
+        },
+        {
+            "id": 1050401,
+            "title": "The Artery",
+            "prevDesc": "",
+            "eventDesc": "\"Questa è molto più dura di quanto mi aspettassi...\"\n\nL'arteria appariva molto più robusta di quanto avessimo inizialmente ipotizzato.\n\nAprirla con un solo colpo non sarà un compito facile... ma se indugiamo troppo qui, non riusciremo ad arrivare all'area d'incontro in tempo.",
+            "behaveDesc": "Chi può riuscire a reciderla con un colpo solo?",
+            "successDesc": [
+                "[{0}] rallentò il respiro e stabilizzò la sua posizione...\n\n\"Ooh!\"\n\n... prima di colpire l'arteria, recidendola di netto.\n\n\"Il fluido sanguigno sgorga a una velocità terrificante.\"\n\nMentre il flusso di sangue dall'apertura inizia a rallentare, il sentiero comincia ad aprirsi.\n\n... Dirigiamoci verso il cuore."
+            ],
+            "failureDesc": [
+                "[{0}] ha colpito l'arteria con tutte le sue forze, ma...\n\n\"Solo un piccolo graffio, eh...\"\n\n... non è bastato a reciderla.\n\n\"Non abbiamo tempo...!\"\n\nIn preda all'agitazione, [{0}] ha iniziato a colpire ripetutamente l'arteria con la sua arma, cercando di aprirla a forza.\n\n... Fortunatamente, siamo riusciti a tagliare l'arteria in tempo. Ma questo ha chiaramente lasciato [{0}] senza forze.\n\n\"Il fluido sanguigno sgorga a una velocità terrificante.\"\n\nMentre il flusso di sangue dall'apertura inizia a rallentare, il sentiero comincia ad aprirsi.\n\n... Dirigiamoci verso il cuore."
+            ]
+        },
+        {
+            "id": 1050501,
+            "title": "Supply Crate 1",
+            "prevDesc": "",
+            "eventDesc": "Ci siamo fermati davanti a una cassa con il logo dei Pirati Doppiouncino.\n\n\"Questa cassa sembra chiusa a chiave.\"\n\n\"È tutta arrugginita... non credo che possiamo nemmeno provare a scassinare la serratura.\"\n\n\"Allora sfondiamola!\"\n\n... Ma la scatola stessa sembra piuttosto fragile. Rischiamo di distruggere anche il suo contenuto.",
+            "behaveDesc": "Chi saprà colpire la cassa con la giusta forza?",
+            "successDesc": [
+                "[{0}] osservò attentamente la cassa, poi fece un passo indietro. Poi, con un colpo controllato, distrusse solo il coperchio della cassa.\n\nCiò che abbiamo trovato all'interno della scatola era un uncino arrugginito coperto di sangue e di una membrana bianca. Probabilmente era stato usato per uccidere le Sirene.\n\nNon so che utilità possa avere... ma potrebbe tornare utile.\n\nDovremmo controllare anche le altre scatole?"
+            ],
+            "failureDesc": [
+                "\"Oop...\"\n\nQuello non è stato affatto un colpo controllato. Non sono sicuro che ci abbia nemmeno provato.\n\nLa cassa è stata ridotta in mille pezzi, tanto che non riuscivamo a distinguere il contenuto dai resti frantumati.\n\nBeh, non resta che controllare quali altre casse abbiamo..."
+            ]
+        },
+        {
+            "id": 1050502,
+            "title": "Supply Crate 2",
+            "prevDesc": "",
+            "eventDesc": "Questa cassa ha il logo della LCCB.\n\nQuesta sembra abbastanza robusta... probabilmente non riusciremo a sfondarla.\n\n\"Questa sembra essere stata sigillata da un intricato meccanismo di chiusura.\"\n\n\"Dubito che riuscirò semplicemente a sfondarla...\"\n\n\"Aspetta, credo di ricordare qualcosa...\"\n\nForse un Peccatore che ha usato un'Identità LCCB in passato potrebbe sapere qualcosa al riguardo.",
+            "behaveDesc": "Chi tenterà di forzare la serratura?",
+            "successDesc": [
+                "\"Credo che si facesse così...\"\n\n[{0}] armeggia con la serratura e apre la cassa.\n\n\"Capisco. In questa cassa c'era un caricatore per un'arma da fuoco.\"\n\nIn effetti, quello che abbiamo trovato all'interno della cassa era un caricatore pieno di proiettili.\n\nPossiamo sicuramente trovarne un buon uso.\n\nNon ci sono più scatole utili in giro... Abbiamo deciso di passare alla prossima area.",
+                "[{0}] armeggia con la serratura e apre la cassa.\n\n\"Capisco. In questa cassa c'era un caricatore per un'arma da fuoco.\"\n\nIn effetti, quello che abbiamo trovato all'interno della cassa era un caricatore pieno di proiettili.\n\nPossiamo sicuramente trovarne un buon uso.\n\nNon ci sono più scatole utili in giro... Abbiamo deciso di passare alla prossima area."
+            ],
+            "failureDesc": [
+                "[{0}] ha armeggiato con la serratura, ma senza successo.\n\n\"Hmm...\"\n\nDopo qualche altro tentativo, la cassa è sembrata rinforzarsi con un meccanismo di chiusura aggiuntivo.\n\n\"Beh, che ci possiamo fare.\"\n\nProbabilmente c'era qualcosa di utile lì dentro... ma non abbiamo i mezzi per aprirla. Non abbiamo altra scelta che lasciarcela alle spalle.\n\nNon ci sono più scatole utili in giro... Abbiamo deciso di passare alla prossima area."
+            ]
+        },
+        {
+            "id": 810602,
+            "title": "Ahab 2",
+            "prevDesc": "",
+            "eventDesc": "Certo, si potrebbe dire così.\n\nMa... le sue risposte sono la cosa più importante qui, no?\n\n\"......\"\n\nIl suo respiro è rapido e tremante. Riflette.\n\nQuale risposta ti attende alla fine di questa deliberazione?",
+            "behaveDesc": "Riuscirà a sopportare il proprio passato?",
+            "successDesc": [
+                "\"... Akh!\"\n\nIshmael agita il braccio con determinazione. Cerca di concentrarsi.\n\n\"Ancora con le tue stronzate... ti strapperò la bocca da un orecchio all'altro!\"\n\n\"Bene. Fatti avanti.\"\n\n\"Cosa stai aspettando? È perché sei troppo debole per farlo? ... Hahaha!\"\n\nAlla provocazione del Capitano, gli occhi di Ishmael iniziano a bruciare d'odio. Si scaglia contro il Capitano.\n\nSembra che stia ancora cercando una risposta. E a volte, l'ira può portare fuori rotta. Non è vero?"
+            ],
+            "failureDesc": [
+                "\"…….\"\n\nLa sua risposta alla domanda del Manager è... un silenzio infinito.\n\nSta ancora riflettendo? O pensa che abbia torto?\n\nIn effetti... potrebbe essere troppo presto per lei.\nPer decidere, intendo."
+            ]
+        },
+        {
+            "id": 810603,
+            "title": "Ahab 3",
+            "prevDesc": "",
+            "eventDesc": "\"<Ishmael.>\"\n\n\"<Non è ancora finita.>\"\n\n\"<È troppo presto per decidere. C'è ancora tempo.>\"\n\n\"<E quando arriverà il momento... nessuno prenderà quella decisione al posto tuo.>\"\n\n\"<Non io. Non Ahab.>\"\n\n\"<So che puoi arrivare alle tue conclusioni. Trovare la tua strada.>\"\n\n\"…….\"\n\nIshmael non risponde. Invece, stringe la presa sull'arma.",
+            "behaveDesc": "Prendersi più tempo per rispondere...\n... non è una cattiva idea.",
+            "successDesc": [
+                "... Akh!\"\n\nIshmael agita il braccio con determinazione. Cerca di concentrarsi.\n\n\"Ancora con le tue stronzate... ti strapperò la bocca da un orecchio all'altro!\"\n\n\"Bene. Fatti avanti.\"\n\n\"Cosa stai aspettando? È perché sei troppo debole per farlo? ... Hahaha!\"\n\nAlla provocazione del Capitano, gli occhi di Ishmael iniziano a bruciare d'odio. Si scaglia contro il Capitano.\n\nSembra che stia ancora cercando una risposta. E a volte, l'ira può portare fuori rotta. Non è vero?"
+            ],
+            "failureDesc": [
+                ""
+            ]
+        }
+    ]
+}

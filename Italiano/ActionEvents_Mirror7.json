@@ -1,0 +1,254 @@
+{
+  "dataList": [
+    {
+      "id": 971085,
+      "name": "Yield My Flesh",
+      "desc": "La lunga gronda del tetto proietta un'impenetrabile ombra. Sotto ad essa stava una figura, appoggiata al muro.\n\nCi guardava in silenzio per un breve momento, prima di rivolgerci una domanda con un basso tono.\n\n\"Siete pronti... a sacrificare la carne, se ciò significasse fendere le ossa del vostro nemico?\"\n\"Prendete questa lama, se voi portate tale determinazione.\"\n\nAnche con una breve occhiata, la spada offerta dalla figura dava una sensazione di inquietudine.",
+      "options": [
+        {
+          "message": "Prendi la spada.",
+          "messageDesc": "Seleziona per ottenere un Dono E.G.O Maledetto",
+          "result": [
+            "\"Sacrificate la carne per reclamare le loro ossa. Siate pronti a sacrificare il susino per mettere in salvo il pesco.\" (肉斬骨斷, 李代桃僵)\n\"La risolutezza nel lasciarsi ferire permette di fendere una ferita ancor più profonda.\"\n\nIl peso della \"risolutezza di lasciarci lacerare\" incombeva su di noi nel momento in cui abbiamo preso la spada."
+          ]
+        },
+        {
+          "message": "Non prendere la spada.",
+          "messageDesc": "",
+          "result": [
+            "\"Per coloro che non hanno intenzione di colpire, sia la spada che la determinazioni sono inutili.\"\n\nDetto ciò, la figura rimette la lama al suo fianco per poi andarsene senza dire una parola."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 971086,
+      "name": "T Corp. Time Prepayment Apparatus",
+      "desc": "Dietro ad un vecchio e malridotto cartellone c'è un distributore automatico che mostrava il logo mezzo-sbiadito della T Corp.\n\nLa macchina è alta, con dozzine di piccole lancette che ticchettano e ruotano lungo il suo corpo cilindrico; c'è uno slogan promozionale scritto sotto di essa.\n\n\"Smetti di prendere tempo in prestito!\"\n\"Prepaga con il tempo a tua disposizione, e compra del tempo quando ne hai più bisogno senza ritardi!\"\n\nC'è un piccolo spazio accanto alla macchina per permette agli utenti di inserire le proprie mani.\nAspetta, sotto lo slot-ci sono avvertenze scritte in caratteri così microscopici da essere illeggibili.\n\n<Ma che diamine c'è scritto?>\n\"All'uso di questo dispositivo, a condizione che l'utente esegua un pagamento di una somma di risorse temporali, all'utente verrà imposto un ammanco temporaneo sul tempo <i>aperte parentesi</i> ai fini di questo contratto, l' \"ammanco temporaneo di tempo\" menzionato verrà calcolato nella Scala Variabile Temporale della T Corp.; però, qualsiasi somma di un giorno intero o più alta verrà misurata in base alla Scala Temporale Standard della A Corp. <i>chiuse parentesi</i>; il pagamento anticipato del tempo ricevuto verrà automaticamente depositato e accreditato nel dispositivo di accumulo ausiliare all'interno del macchinario e verrà predisposto in scorte per l'utente nelle circostanze in cui vengano eseguite richieste di prelievo tramite una serie di procedure o al rispetto delle condizioni di rimborso stipulate nel manuale, dalla somma del totale delle ore giornaliere e dei sussidi del rateo sull'accelerazione estrapolata calcolata da una formula distinta; il preciso periodo, ordine, e limitazioni nel riflettere tali cambiamenti nel conto corrente dell'utente è determinato dai termini di servizio come descritto—\"\n\n\"V-Va bene così. L'estensione completa di questa prolissa scritta non ha bisogno di essere letta per intero.\"\n\n\"'N attimo, questo non è uno di quei cosi che gli Esattori indossano sulle braccia?\"",
+      "options": [
+        {
+          "message": "Usa il dispositivo.",
+          "messageDesc": "Seleziona per ottenere un Dono E.G.O Maledetto",
+          "result": [
+            "Beh, a questo punto possiamo pure fare un deposito, finché abbiamo tempo da sperperare.\n\n\"Pare che questo dipositivo funzioni con un meccanismo non differente da quelli installati nei guanti dal Personale Riscossioni della T Corp., Manager Esecutivo.\"\n\n\"Siete sicuri che il pagamento è andato? Non mi sembra sia cambiato niente.\"\n\n<…….>\n\nCon le parole rallentate dei Peccatori a seguirmi, mi sbrigavo ad avanzare."
+          ]
+        },
+        {
+          "message": "Non usare il dispositivo.",
+          "messageDesc": "",
+          "result": [
+            "Non abbiamo chissà quanto tempo in questo momento.\n\nAbbiamo deciso di andarcene senza usare il dispositivo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 971087,
+      "name": "Audio Logs of That Day",
+      "desc": "Abbiamo notato un vecchio registratore con un'etichetta sbiadita.\n\n<i><Registrazione sull'Intervista del Soppravissuto della Succursale ■■ della Lobotomy Corporation></i>\n\nIl pulsante \"Play\" è liscio e consumato - come se qualcuno lo avesse premuto centinaia di volte.",
+      "options": [
+        {
+          "message": "Riproduci la registrazione.",
+          "messageDesc": "Seleziona per ottenere un Dono E.G.O Maledetto",
+          "result": [
+            "\"Ricercatore ■■■■■■■■■. Siamo pronti per iniziare l'intervista?\"\n\n\"Un quesito completamente inutile da porre, dato che entrambi sappiamo che ti sono stati dati tutti i permessi per decidere quando iniziare.\"\n\n\"Haha... Va bene. Iniziano subito allora.\"\n\n\"A riguardo dell'incidente del ■■■■■ ■■■■■■, ■■■■ ■■■■ al ■■■... come era la situazione quando è accaduto?\"\n\n\"L'intero sito ha iniziato a tremare e a piegarsi. Da li è arrivato l'annuncio: Inizio del sotterramento del sito in 100 secondi.\"\n\n\"100 secondi... si, sembra sia stato abbastanza breve, ma data la tecnologia implementata alla ■ Corp. e la disponibilità di unità di trasporto, dovrebbe essere bastato per evacuare in tempo.\"\n\n\"Come tu già saprai, la succursale ■■■ era uno dei siti più estesi, contenente numerose Anormalità di Livelli di Rischio più alti. Prendi come esempio ■■■ ■■■ oppure ■■.\"\n\n\"E naturalmente, qualcheduna di quelle entità possedeva l'abilità di prendere il controllo di tutto il sito.\"\n\n\"Molte uscite erano bloccate, incluso gli ascensori. Avevamo una singola capsula di salvataggio in arrivo.\"\n\n\"Ero stato ritenuto l'individuo col maggior valore come risorsa umana tra i presenti—l'unico personale a cui debba essere riservato una qualsiasi via di fuga.\"\n\n\"Gli altri concordavano che, razionalmente parlando, io dovessi essere quello da evacuare.\"\n\n\"Questo è tutto.\"\n\n\"... Sembri sorprendentemente calmo. Come se stessi narrando di un evento che non ti è mai capitato.\"\n\n\"Delle aggiunte superflue non cambieranno il nocciolo della questione del soggetto in discussione, non credi?\"\n\n\"Niente è meno efficiente di aggiungere inutili sentimenti alle parole.\"\n\n\"Ma non ti dispiace per loro? Non hai nemmeno un minimo di rimorso?\"\n\n\"No.\"\n\n\"Il prerequisito necessario affinché esista un sentimento di pentimento è che vi sia qualcuno che possa riceverlo.\"\n\n\"Quella condizione non si applica a me. Ergo, non ho bisogno di indulgere in tali sentimentalismi.\"\n\nNella registrazione, il ricercatore continua a rispondere alle domande in modo distaccato.\n\nLa registrazione si interrompe con un fastidioso statico stridente, lasciando un silenzio tombale al suo termine."
+          ]
+        },
+        {
+          "message": "Vattene.",
+          "messageDesc": "",
+          "result": [
+            "A volte, l'opzione migliore è stare alla larga.\n\nAbbiamo deciso di andarcene senza riprodurre la registrazione."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 971088,
+      "name": "Recurring Faith and Promise",
+      "desc": "Ci siamo imbattuti in due bizzarre forme di vita che stavano in piedi su entrambi i lati di una vecchia roulette predisposta su un tavolo.\n\n\"Volete voi sfidare la fortuna? Una vincita spetterà a coloro baciati dalla sorte.\"\n\"Perdete. No premio. Non volete. Uscite.\"\n\nLa vecchia roulette indicata da loro ha degli strani simboli incisi.\n\nNon riusciamo a capirli, ma hanno qualcosa che continua ad attirare i nostri sguardi.\n\nCosa dovremmo fare?",
+      "options": [
+        {
+          "message": "Gira la ruota.",
+          "messageDesc": "Scegli per guadagnare o perdere Costo",
+          "result": [
+            "Non riusciamo a togliere gli occhi dalla roulette.\n\nLa roulette si ferma, quasi dal scivolare via dallo spazio giallo.\n\n\"Oh, una vittoria!\"\n\"Fortunati. Voi.\"",
+            "Non riusciamo a togliere gli occhi dalla roulette.\n\nLa roulette si ferma, quasi dal scivolare via dallo spazio blu.\n\n\"Voi. Perdete. Smamma.\"\n\"Che peccato, avete perso. E ciò vuol dire nessun premio per voi.\"\n\nSiamo stati cacciati dalla stanza, a mani vuote."
+          ]
+        },
+        {
+          "message": "Fermati.",
+          "messageDesc": "",
+          "result": [
+            "\"Scelta. Saggia.\"\n\"Quindi vi dimostrate essere dei codardi.\"\n\nSiamo sfuggiti dalla stanza."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 97108801,
+      "name": "Recurring Faith and Promise 2",
+      "desc": "\"Ancora un altro giro? Il premio raddoppia questa volta.\"\n\"Lascia. Se. Non. Vuoi.\"",
+      "options": [
+        {
+          "message": "Continua a girare la ruota.",
+          "messageDesc": "Scegli per guadagnare o perdere Costo",
+          "result": [
+            "Non riusciamo a togliere gli occhi dalla roulette.\n\nLa roulette si ferma, quasi dal scivolare via dallo spazio giallo.\n\n\"Oh, un'altra vittoria!\"\n\"Voi. Molto. Fortunati.\"",
+            "Non riusciamo a togliere gli occhi dalla roulette.\n\nLa roulette si ferma, quasi dal scivolare via dallo spazio blu.\n\n\"Voi. Perdete. Smamma.\"\n\"Che peccato, avete perso. E ciò vuol dire nessun premio per voi.\"\n\nSiamo stati cacciati dalla stanza, a mani vuote."
+          ]
+        },
+        {
+          "message": "Fermati.",
+          "messageDesc": "Scegli per guadagnare Costo",
+          "result": [
+            "\"Il saggio sa quando fermarsi.\"\n\"Il saggio. Non. Scommette.\"\n\nNon sento più l'attrazione della roulette che avevo prima.\n\nCe ne siamo andati con un mucchio di soldi in mano."
+          ]
+        },
+        {
+          "message": "Voglio la ruota della roulette.",
+          "messageDesc": "Scegli per ottenere un Dono E.G.O",
+          "result": [
+            "\"Non esiste. Una regola. Simile.\"\n\"Quella è decisamente una scelta molto intrigante.\"\n\nLe bizzarre creature fanno tremare i loro pezzi del puzzle per un momento, per poi venir assorbiti dalla ruota della roulette.\n\nL'abbiamo raccolta e abbiamo proseguito per la nostra strada."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 97108802,
+      "name": "Recurring Faith and Promise 3",
+      "desc": "\"Che ne dite di un'ultima partita?\"\n\"Ricordate. Sempre. In moderazione.\"",
+      "options": [
+        {
+          "message": "Continua a girare la ruota.",
+          "messageDesc": "Scegli per guadagnare o perdere Costo",
+          "result": [
+            "Non riusciamo a togliere gli occhi dalla roulette.\n\nLa roulette si ferma, quasi dal scivolare via dallo spazio giallo.\n\n\"Quella è proprio una vittoria netta!\"\n\"La vostra. Ultima. Briciola di. Fortuna. Non. Tornate. Mai più.\"\n\nNel momento in cui abbiamo preso la grossa sacca di soldi, la roulette e le bizzarre creature sono svanite.",
+            "Non riusciamo a togliere gli occhi dalla roulette.\n\nLa roulette si ferma, quasi dal scivolare via dallo spazio blu.\n\n\"Che peccato, avete perso. E ciò vuol dire nessun premio per voi.\"\n\"Avevo il. Presentimento. Non. Tornate. Mai più.\"\n\nCi hanno buttato fuori da lì, a mani vuote."
+          ]
+        },
+        {
+          "message": "Fermati.",
+          "messageDesc": "Scegli per guadagnare Costo",
+          "result": [
+            "\"Il saggio sa quando fermarsi.\"\n\"Il saggio. Non. Scommette.\"\n\nNon sento più l'attrazione della roulette che avevo prima.\n\nCe ne siamo andati con un mucchio di soldi in mano."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 971089,
+      "name": "Poultry Memory",
+      "desc": "'Bar e Friggitoria da Eunbong!'\n'Chiamate il 555-0102-0386-2664! È a soli 555-0102-Zero-EUN-BONG da voi!'\n\nAbbiamo seguito quello strano, ma orecchiabile jingle per poi trovarci davanti ad una macchina stranamente familiare.\n\n\"Ehi, quello è un gioco della gru. Ha dei... Uh, questi sono...\"\n<... Perché ci sono dei Peluche di Bongy qui?>\n\"Quel tizio non diceva come quello che ci aveva dato era un tesoro unico nel suo genere, di inestimabile valore? Che non esisteva niente di simile?\"\n\"... Una promessa del genere ha poco valore nel Dungeon Specchio.\"\n\"Mm. Potrebbe essere una peculiarità dell'esperienza ancora da identificare.\"\n\"Ragazzi, un momento. Guardate a quel pupazzo laggiù—Ho visto un bagliore dorato tra le sue cuciture! Dev'esserci del denaro dentro a quelle cosette!\"\n\nCi sono Peluche di Bongy di diversi design dentro alla macchinetta.\nQuale dovremmo prendere?",
+      "options": [
+        {
+          "message": "Prendi il peluche di Bongy piccolo.",
+          "messageDesc": "Scegli per ottenere del Costo",
+          "result": [
+            "Un piccolo Peluche di Bongy dovrebbe essere facile da prendere per noi.\n\nHo manovrato cautamente l'artiglio sopra ai pupazzi e preso il peluche con massima attenzione... e in qualche modo, è riuscito a passare per lo scivolo senza cadere prima di arrivarci. Un forte tonfo metallico rieccheggia dalla porta.\n\n\"Sembra pesante. Mi chiedo se ci sia qualcosa di costoso dentro.\"\n\"Eccerto! Non hai visto quel luccichio dorato prima? Da' qua, Dante!\"\n\"Ma che cavolo stai—\"\n\"Aprirò per bene il suo pancino!\"\n\"Piccolo Messer Bongy!!!!!!\"\n\nLa Peccatrice ha tagliato la pancia del peluche di Bongy, e delle monete iniziano a cadere dal pupazzo.\nMentre stavamo contando le monete, la musichetta si stava lentamente abbassando, e presto, è svanita assieme alla macchinetta."
+          ]
+        },
+        {
+          "message": "Prendi il peluche di Bongy di taglia media.",
+          "messageDesc": "Scegli per ottenere del Costo (chance di ottenere del Costo in più)",
+          "result": [
+            "Abbiamo notato un Peluche di Bongy di taglia media in un posto abbastanza discreto da poter essere preso, e quindi abbiamo deciso di provare la nostra fortuna.\n\nHo manovrato cautamente l'artiglio sopra ai pupazzi e preso il peluche di taglia media con massima attenzione... e in qualche modo, è riuscito a passare per lo scivolo senza cadere prima di arrivarci. Un forte tonfo metallico rieccheggia dalla porta. <i>Due volte.</i>\n\n\"Ooh... Affianco al Bongy selezionato vi è un Bongy di dimensioni minori; certamente, l'espressione \"due uccelli con una fava\" è la più accurata. Non solo i due volatili garantiscono sussistenza, ma donano anche ricchezze.\"\n<Beh, sento qualcosa tintinnare qua dentro. Delle monete, forse?>\n\"Te pensi? Da' qua, Dante!\"\n\"Ma che cavolo stai—\"\n\"Aprirò per bene il suo pancino!\"\n\"Piccolo Messer Bongy! E Piccolissimo Messer Bongy!!!!!\"\n\nLa Peccatrice ha tagliato la pancia di entrambi i peluche di Bongy, e delle monete iniziano a cadere dai pupazzi.\nMentre stavamo contando le monete, la musichetta si stava lentamente abbassando, e presto, è svanita assieme alla macchinetta.",
+            "Ho manovrato cautamente l'artiglio sopra ai pupazzi e preso il peluche di taglia media con massima attenzione... ma in qualche modo si è incastrato nello scivolo.\nPer fortuna, un piccolo peluche accanto a quello è caduto dallo scivolo facendo un tonfo.\n\n\"È strappato... Deve essere rimasto incastrato prima di uscire fuori dallo scivolo.\"\n\"Mh? Ehi, da' qua, Dante!\n\"Ma che cavolo stai—\"\n\"Il peluche è pieno di monete. Che fortuna!\"\n\nLa Peccatrice apre per bene la pancia del peluche di Bongy, e delle monete iniziano a cadere dal pupazzo.\nMentre stavamo contando le monete, la musichetta si stava lentamente abbassando, e presto, è svanita assieme alla macchinetta."
+          ]
+        },
+        {
+          "message": "Prendi il peluche di Bongy grosso.",
+          "messageDesc": "Scegli per ottenere del Costo (chance di ottenere Costo in più)",
+          "result": [
+            "Quelle piccole pinze riusciranno a sollevare quell'enorme peluche di Bongy?\n\nAnche senza certezza, ho lo stesso manovrato cautamente l'artiglio per provare a prenderlo.\n\nUn forte tonfo metallico rieccheggia dallo scivolo dei premi nel momento in cui il pupazzo è caduto.\n\n\"Che sciagura! Le cuciture del Piccolo Messer Bongy si sono completamente spezzate!\n\"Non poteva resistere all'impatto della caduta.\"\n\"Un attimo, guardate un po'! Qualcosa sta uscendo da quelle cuciture~ Ehi, sono soldi!\"\n\nCi siamo messi a raccogliere le monete dentro al pupazzo.\nMentre stavamo contando le monete, la musichetta si stava lentamente abbassando, e presto, è svanita assieme alla macchinetta.",
+            "Quelle piccole pinze riusciranno a sollevare quell'enorme peluche di Bongy?\n\nAnche senza certezza, ho lo stesso manovrato cautamente l'artiglio per provare a prenderlo.\n\nPotevamo sentire sbatacchiare quando il peluche stava cadendo nello scivolo dei premi.\n\n\"Non sta scendendo... Credo sia incastrato.\"\n\"Le cuciture devono essersi allentate-delle monete stanno cadendo.\"\n<Almeno raccogliamole.>\n\nMentre stavamo contando le monete, la musichetta si stava lentamente abbassando, e presto, è svanita assieme alla macchinetta."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 971110,
+      "name": "Bamboo-hatted Kim's Past 1",
+      "desc": "\"Ehm, scusatemi...\"\n\nMentre osservavamo con calma le strade della S Corp., un giovane, dopo essersi agitato ed aver esitato un attimo, si avvicinò a noi e ci chiese una mano.\n\nIl giovane spiegò che, volendo migliorare il suo status, aveva preso parte all'Esame Reale—simile a un concorso pubblico nella S Corp.—e di essere riuscito a ottenere un ottimo voto.\n\nEd è da lì che iniziarono i suoi problemi; per quanto ne sapesse, le persone che superato l'esame a pieni voti, come aveva fatto lui, avrebbero avuto le spese per il viaggio di ritorno coperte con una guida garantita. Ma doveva esserci stato un malinteso, perché quando uscì dal luogo d'esame, non c'era nessuno ad accompagnarlo.\n\nConfuso dall'inaspettato risvolto di eventi, si allontanò dal luogo d'esame alla ricerca della sua scorta, perdendo l'orientamento e ritrovandosi in questi vicoletti.\n\nCi sta chiedendo di dargli delle indicazioni... Cosa dovremmo fare?",
+      "options": [
+        {
+          "message": "\"Perdonaci, nemmeno noi siamo mai stati qui prima d'ora.\"",
+          "messageDesc": "Nessun effetto particolare",
+          "result": [
+            "\"Ah, neanche voi conoscete queste strade?\"\n\nIl giovane se ne andò, schioccando la lingua per la delusione.\n\n\"... Hmmh.\"\n\nNon appena il giovane sparì dalla nostra vista, Kim Cappello di Bambù, che sgattaiolò dietro al gruppo, emise un lungo sospiro.\n\n\"Hai qualcosa da dire, Mentore?\"\n\"Uh, quello ... Sono io. Sono proprio quel giovane.\"\n\n... L'improvvisa rivelazione lasciò i Peccatori brevemente interdetti.\n\n\"A quei tempi, ero un idiota arrogante che pensava che i suoi peti profumassero, senza sapere che sembrava ridicolo.\"\n\"L'esame si basava sullo scrivere un tema su un certo qualcuno che ha commesso tradimento verso la S Corp. Pieno della confidenza che hanno gli idioti, ho scritto un lungo tema che umiliava quel traditore miserabile così che un tale imbarazzo non avrebbe più macchiato la nostra storia...\"\n\"... Solo quando sono arrivato a casa ho realizzato chi fosse. Chi l'avrebbe mai detto che quel 'traditore miserabile' che avevo insultato selvaggiamente nel mio esame non era nient'altro che il mio antenato?\"\n\n\"A-allora il motivo per cui non avete cercato un posto come funzionario, anche dopo aver superato l'esame, era...\"\n\n\"Come potevo permettermi, Aeng-du? Perché pensi nessuna scorta si sia offerta a fare da guida al vecchio me beota?\"\n\"Perché ogni singola anima in S Corp. oltre a me sapeva di cosa avevo fatto, di chi ero: un bastardo che ha tradito il nome del proprio antenato per superare un esame.\"\n\nKim mormorò placidamente come se stesse raccontando una barzelletta mediocre, per poi passare davanti a noi...\n\n\"Ma non dovevano avvilirmi fino farmi rompere il pennello con la mia mano, poiché lo feci già io stesso.\"\n\n... mentre nascose rapidamente la sua mano tremante sotto l'altra."
+          ]
+        },
+        {
+          "message": "\"Fammi chiedere al mio gruppo se possono dare una mano.\"",
+          "messageDesc": "Esegui una prova con Vantaggio per Gola e Superbia per ottenere un Dono E.G.O Senza Tratti.",
+          "result": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": 971111,
+      "name": "Bamboo-hatted Kim's Past 2",
+      "desc": "Facendoci strada tra le vie della S Corp., ci imbattemmo in un ragazzo con in braccio una spada, il suo sguardo perso nel vuoto verso il cielo.\n\n\"... Ah.\"\n\nNotò i nostri sguardi fissi su di lui: girò la testa verso di noi, ci diede una rapida occhiata e infine si lasciò ricadere all'indietro.\n\n\"Passate pure, gente. Non ho alcuna intenzione di farvi del male.\"\n\nLa sua voce mi era familiare... ma non riuscii a ricordare dove l'avessi già sentita.\n\n\"Non cercar rivelazioni nelle erranti nuvole, poiché esse non tengono risposte.\"\n\nEsclamò di punto in bianco Kim, proprio mentre stavamo per oltrepassare il ragazzo con la spada in braccio.\nOh, allora quel ragazzo doveva essere...\n\n\"... Mi conosci?\"\n\"Devo proprio per impartirti qualche consiglio spontaneo? Il ficcanaso che è in me non riesce a trattenersi facilmente quando passa vicino ad una partita di baduk in svantaggio.\"\n\nIl ragazzo aprì gli occhi dallo stupore, per poi parlare con un tono contemplativo.\n\n\"Sei un giocatore con il <i>dan</i> più alto del mio, ne sono certo; quindi se puoi, permettimi di sollecitarti qualche consiglio.\"\n\"Mi vergognai delle mie giocate passate, per quanto furono disonorevoli e degni di scherno; perciò stavo iniziando a chiedermi se non sia più utile che diventi una spada da assoldare...\"\n\"Ma ad un tratto, un uomo dall'integrità incorrompibile, un'anima giusta, mi ha scovato e mi ha chiesto di servire come la sua spada. Eppure, mi preoccupa come il marciume in me possa contaminare persino le sue mani.\"\n\"Cosa ne dici? Per te dovrei cogliere questa occasione e giocarmela? O...\"",
+      "options": [
+        {
+          "message": "Lascia che risponda Kim Cappello di Bambù.",
+          "messageDesc": "Seleziona per ottenere un Dono E.G.O Tagliente",
+          "result": [
+            "\"Per quanta vergogna tu possa avere delle tue giocate, contano davvero tanto?\"\n\n\"Che scelta hai se non continuare a piazzare le pietre, quando il gioco non riserva alcuna pietà per lasciarti invertire neanche una mossa?\"\n\n\"E se continuare questa partita mi porterà a perdere tutti i miei territori?\"\n\n\"Allora abbandona la partita.\"\n\"Hai dato del tuo meglio fino alla fine, e se si rivela essere la più amara, allora che puoi farci? Il minimo che tu puoi fare è giocartela finché la partita non finisce.\"\n\"Giochi seguendo la corrente in ogni caso, non è così?\"\n\n\".......\"\n\"Seppur ci siamo appena incontrati, ho l'impressione che il tuo sguardo riesca a insinuarsi fino le mie ossa, straniero.\"\n\"Prendilo in segno della mia gratitudine per il tuo 'ficcanasare.'\"\n\nFu come se gli si fosse accesa una lampadina in testa; gli occhi del ragazzo—o meglio, del Kim Cappello di Bambù del passato—brillarono. Balzò in piedi e scattò via, non prima però di averci lasciato qualcosa.\n\n\"... Non che tu sarai capace di fare di tutto per cambiare il corso di questa partita già persa.\"\nMi parve di sentire Kim sussurrare."
+          ]
+        },
+        {
+          "message": "Lascia che sia un Peccatore a rispondere.",
+          "messageDesc": "Esegui una prova con Vantaggio per Accidia e Superbia per curare l'Identità selezionata.",
+          "result": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": 971112,
+      "name": "Bamboo-hatted Kim's Past 3",
+      "desc": "Intravidi una figura, con lo sguardo perso nell'oscurità della buia prigione.\n\n\"Hah...\"\n\nKim Cappello di Bambù tirò un sospiro, ma prima che di finire la sua esalazione...\n\n\"Chi va là?!\"\n\nUn grido acuto squarciò l'aria stagnante. Qualcuno doveva averci notati.\n\nCosa dovremmo fare?",
+      "options": [
+        {
+          "message": "Diciamo di essere le guardie, tenendo d'occhio il prigioniero.",
+          "messageDesc": "Nessun effetto particolare",
+          "result": [
+            "\"Non state nemmeno provando a mentire per bene, eh?!\"\n\nFingerci guardie, combinati com'eravamo, era chiaramente una bugia facile da smascherare...\n\nCe la demmo a gambe levate mentre la donna, rossa di rabbia, ci inseguiva con la spada sguainata."
+          ]
+        },
+        {
+          "message": "Sfoderiamo le armi e prepariamoci per la battaglia.",
+          "messageDesc": "Ottieni un Dono E.G.O Tagliente in base al risultato della prossima scelta",
+          "result": [
+            "\"... Non siete le guardie della prigione.\"\n\nLa donna che ci stava richiamando si fermò per un attimo, cercando di studiarci con disinvoltura mentre noi ci tenevamo pronti con le armi in mano. Dopodiché, lei camminò verso di noi con movimenti tutto fuorché aggressivi.\n\nMa invece di parlare a noi, lei si rivolse alla figura seduta dentro la cella.\n\n\"Potresti dare una spiegazione? Chi sono loro? E... cosa è successo?\"\n\nLo scambio unilaterale continuò per un po', provava a chiedere svariate domande per parlare con la figura all'interno della cella, ma era tutto invano.\n\n\"... Hah. Forse ho più fortuna se chiedo ad un cadavere ormai freddo.\"\n\nEmise un sospiro esasperato prima di rivolgersi a noi."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 97111201,
+      "name": "Bamboo-hatted Kim's Past 3",
+      "desc": "\"Anche voi siete venuti qui a visitarlo? Che voi siate coloro che condividono i suoi propositi?\"",
+      "options": [
+        {
+          "message": "Di' di no.",
+          "messageDesc": "Nessun effetto particolare",
+          "result": [
+            "\"... Non lo siete?\"\n\"Allora dovrei... considerarvi delle spie infiltrate nella prigione della Corte Reale?\"\n\nCe la demmo a gambe levate mentre la donna, senza lasciarci neanche un secondo per spiegare, ci caricò con la sua arma sguainata."
+          ]
+        },
+        {
+          "message": "Di' di si e chiarisci la situazione.",
+          "messageDesc": "Esegui una prova con Vantaggio per Lussuria e Superbia per ottenere un Dono E.G.O Tagliente",
+          "result": [
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

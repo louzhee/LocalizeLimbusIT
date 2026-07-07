@@ -1,0 +1,97 @@
+{
+  "dataList": [
+    {
+      "id": 836601,
+      "title": "",
+      "prevDesc": "",
+      "eventDesc": "Siamo tornati di nuovo nei corridoi del Team di Formazione.\n\nSecondo il manuale di Formazione al Lavoro, avremo bisogno degli Scudi di Intervento Fisico per sopravvivere alla scossa del Mezzogiorno di Viola.\n\nEravamo tutti accalcati verso il corridoio ricordando cosa Hod, la Sephirah del Team di Formazione, ci ha detto. Non c'era voluto molto prima che gli stessi proiettili di prima ci colpissero.\n\nDelle barriere rosse si erano formate attorno ai Peccatori colpiti dai proiettili.\n\n'Vediamo... Secondo il programma, abbiamo ancora un po' di tempo prima che arrivi il prossimo Mezzogiorno.'\n\nUna dei Peccatori aveva notato un manuale di Pronto Intervento esposto sulle mura del corridoio.\n\nVi erano scritte delle istruzioni su come utilizzare una console installata nei corridoi per attivare i sistemi del Rigeneratore connessi al Team di Prevenzione.\n\n'Sembra possa valerne la pena provarci.'\n\nSe ci sbrighiamo, riusciremo ad attivare il Rigeneratore prima che arrivi il Mezzogiorno.",
+      "behaveDesc": "Chi attiverà il Rigeneratore?",
+      "successDesc": [
+        "L'espressione di {0} si solleva mentre legge il manuale.\n\nPresto, un annuncio ci comunica che il Discriminatore del Rigeneratore è stato modificato, riattivando molte funzionalità del Rigeneratore."
+      ],
+      "failureDesc": [
+        "L'espressione di {0} diventa cupa a forza di rileggere il manuale.\n\nSi starà trovando alle strette; continua a strizzare gli occhi sulla stessa pagina...\n\n... e finalmente, {0} riesce a riattivare le funzionalità di base del Rigeneratore.\n\nNon è rimasto molto tempo prima della prossima Ordalia.\n\nNon abbiamo più tempo per continuare a maneggiare questa console. Siamo corsi verso la sala."
+      ]
+    },
+    {
+      "id": 97103201,
+      "title": "",
+      "prevDesc": "",
+      "eventDesc": "",
+      "behaveDesc": "Who will examine the Generator?",
+      "successDesc": [
+        "Looking through the webs reveals... small spiders crawling within.\n\nAnd that they were no mere spiderweb.\n\nThe darkness that devoured the floor lights up, red eyes glowing and teeming.\n\n[{0}] manages to tear their eyes away from the red eyes and begin observing the fizzling generator. Thankfully, it doesn't take much time before a malfunctioning part is identified.\n\n[{0}] carefully removes the malfunctioning part...\n\n... and all of a sudden, the generator stops fizzling, and the door of the containment unit slams shut.\n\nSpiders begin crawling onto [{0}]."
+      ],
+      "failureDesc": [
+        "Looking through the webs reveals... small spiders crawling within.\n\nAnd that they were no mere spiderweb.\n\nThe darkness that devoured the floor lights up, red eyes glowing and teeming.\n\n[{0}] manages to tear their eyes away from the red eyes and begin observing the fizzling generator. Thankfully, it doesn't take much time before a malfunctioning part is identified.\n\n[{0}] yanks out the malfunctioning part, and the containment unit echoes with a heavy, resounding noise.\n\nA few spiders, spooked by the noise, lunge and bite at the Sinners."
+      ]
+    },
+    {
+      "id": 97103301,
+      "title": "",
+      "prevDesc": "",
+      "eventDesc": "",
+      "behaveDesc": "Who will collect the items?",
+      "successDesc": [
+        "'It is a terrible strategy to mess with gas you don't know the effects of! I say that we leave the gas and take only the Enkephalin.'\n\n'Hmph, you don't know what you're blathering about.'\n\nThe Sinners soon split into two parties and begin arguing with one another.\n\nWhen the argument began to turn into an extended debate, [{0}] picked up both the Enkephalin and the gas canister.\n\n'I should've just done that from the get-go instead of letting you guys waste time at loggerheads.'\n\nWe must've wasted too much time in there.\n\nUpon exiting the corridor, we're greeted by a giant something rushing in our direction from where we were earlier.\n\nWe quickly ran the other way."
+      ],
+      "failureDesc": [
+        "'It is a terrible strategy to mess with gas you don't know the effects of! I say that we leave the gas and take only the Enkephalin.'\n\n'Hmph, you don't know what you're blathering about.'\n\nThe Sinners soon split into two parties and begin arguing with one another.\n\nWhen the argument began to turn into an extended debate, [{0}] picked up both the Enkephalin and the gas canister.\n\n'Mm. Our departure was overly delayed.'\n\nWe must've wasted too much time in there.\n\nUpon exiting the corridor, we're greeted by a giant something rushing in our direction from where we were earlier.\n\nIt's too late to run."
+      ]
+    },
+    {
+      "id": 97103401,
+      "title": "",
+      "prevDesc": "",
+      "eventDesc": "",
+      "behaveDesc": "Which earnest Sinner will pray?",
+      "successDesc": [
+        "[{0}] prays before the skull.\n\nTo whom they pray, we cannot hear.\n\nFor what they pray, we cannot hear.\n\nWe cannot know if that even was a prayer, in this place of unholiness.\n\nGaze of judgment cascades from the hollows of the Skull's eyes.\n\nIt makes a threatening noise from time to time, snapping its teeth together, but [{0}] remains calm, certain that the Skull will not hurt them.\n\nOnce the pious ritual was over, a solitary scarecrow stands in the place of the great Skull, showering in the mysterious light."
+      ],
+      "failureDesc": [
+        "[{0}] prays before the skull.\n\nTo whom they pray, we cannot hear.\n\nFor what they pray, we cannot hear.\n\nWe cannot know if that even was a prayer, in this place of unholiness.\n\nGaze of judgment cascades from the hollows of the Skull's eyes.\n\nIt makes a threatening noise from time to time, snapping its teeth together. [{0}] nervously glances at the skull, shuddering lightly from worry.\n\nOnce the pious ritual was over, a solitary scarecrow stands in the place of the great Skull, showering in the mysterious light."
+      ]
+    },
+    {
+      "id": 97103402,
+      "title": "",
+      "prevDesc": "",
+      "eventDesc": "",
+      "behaveDesc": "Which Sinner will loudly convey their will?",
+      "successDesc": [
+        "[{0}] begins to recite before the skull.\n\nWe cannot hear the contents of their recital, but it is calm and honest, as though they are confessing their sins.\n\nA ray of light showers over [{0}], though there is no opening in the ceiling.\n\nWhen the light hits [{0}], a crown of thorns, the same crown worn by the skull, lands itself above their head.\n\nWhen [{0}]'s recital ends, every Sinner closes their eyes with a peaceful expression."
+      ],
+      "failureDesc": [
+        "[{0}] begins to recite before the skull.\n\nWe cannot hear the contents of their recital, but it is calm and honest, as though they are confessing their sins.\n\nA ray of light showers over [{0}], though there is no opening in the ceiling.\n\nWhen the light hits [{0}], a crown of thorns, the same crown worn by the skull, lands itself above their head.\n\n[{0}] briefly writhes in pain as the thorns of the crown begin digging into their scalp; but the pain is transient.\n\nAfter a moment passes, [{0}] closes their eyes as their expression lightens, as though they came to a certain realization."
+      ]
+    },
+    {
+      "id": 97103601,
+      "title": "",
+      "prevDesc": "",
+      "eventDesc": "",
+      "behaveDesc": "Chi ritirerà i regali?",
+      "successDesc": [
+        "{0} si avvicina agli gnomi che erano impegnati a riporre i regali.\n\nFissano {0} con espressione assente per un attimo, prima di alzare al cielo i loro strumenti all'unisono.\n\n'Umano-omo!!'\n\n'Stavamo già per finire le nostre scorte di umani-omo! Che tempismo-omo!!'\n\n'Andiamo-omo!'\n\nGli gnomi circondano e velocemente incartano {0} in un pacco regalo prima che potessimo fare qualcosa.\n\nAbbiamo preso di corsa il pacco che conteneva {0} e siamo scappati da lì il prima possibile.\n\nL'esperienza ha scosso {0}, il che era alquanto una reazione normale per quanto poco mancava per diventare un regalo.",
+        "{0} si avvicina agli gnomi che erano impegnati a riporre i regali.\n\nFissano {0} con espressione assente per un attimo, prima di alzare al cielo i loro strumenti all'unisono.\n\n'Umano-omo!!'\n\n'Stavamo già per finire le nostre scorte di umani-omo! Che tempismo-omo!!'\n\n'Andiamo-omo!'\n\nGli gnomi circondano e velocemente incartano {0} in un pacco regalo prima che potessimo fare qualcosa.\n\nAbbiamo preso di corsa il pacco che conteneva {0} e siamo scappati da lì il prima possibile.\n\nL'esperienza ha scosso {0}, il che era alquanto una reazione normale per quanto poco mancava per diventare un regalo."
+      ],
+      "failureDesc": [
+        "{0} si avvicina agli gnomi che erano impegnati a riporre i regali.\n\nFissano {0} con espressione assente per un attimo, prima di alzare al cielo i lo strumenti all'unisono.\n\n'Umano-omo!!'\n\n'Stavamo già per finire le nostre scorte di umani-omo! Che tempismo-omo!!'\n\n'Andiamo-omo!'\n\nGli gnomi circondano e velocemente incartano {0} in un pacco regalo prima che potessimo fare qualcosa.\n\nSiamo corsi subito verso gli gnomi, cercando di salvare {0}, ma...\n\nOrmai avevano finito di \"impacchettare\" per bene {0}..."
+      ]
+    },
+    {
+      "id": 97103701,
+      "title": "",
+      "prevDesc": "",
+      "eventDesc": "",
+      "behaveDesc": "Chi si avvicinerà?",
+      "successDesc": [
+        "Al passaggio di {0}, gli assi in legno del pavimento scricchiolano ad ogni suo passo.\n\nLe luci attorno al letto danzano in un modo sinistro, come se stiano avvertendo di non avvicinarsi ad esso.\n\n{0} si china attentamente per guardare sotto il letto.\n\nVi sono una candela e una lanterna spenta, entrambi rovesciati.\n\nLe nostre peggiori paure erano completamente assenti.\n\nNiente vive sotto il letto.",
+        "Al passaggio di {0}, gli assi in legno del pavimento scricchiolano ad ogni suo passo.\n\nLe luci attorno al letto danzano in un modo sinistro, come se stiano avvertendo di non avvicinarsi ad esso.\n\n{0} si china attentamente per guardare sotto il letto.\n\nVi sono una candela e una lanterna spenta, entrambi rovesciati.\n\nLe nostre peggiori paure erano completamente assenti.\n\nNiente vive sotto il letto"
+      ],
+      "failureDesc": [
+        "Al passaggio di {0}, gli assi in legno del pavimento scricchiolano ad ogni suo passo.\n\nLe luci attorno al letto danzano in un modo sinistro, come se stiano avvertendo di non avvicinarsi ad esso.\n\n{0} si china attentamente per guardare sotto il letto.\n\nQuell'oscurità, di cui siamo stati persuasi nel darle uno sguardo dalla curiosità, è un silenzio assordante.\n\n{0} rimane lì, completamente immobile in quella gobba postura, poco prima di allontanarsi lentamente dal letto.\n\nQualcosa graffia gli assi. Come a un segnale, immediatamente siamo scappati via da quella stanza.\n\nUn mostro vive sotto il letto."
+      ]
+    }
+  ]
+}

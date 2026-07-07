@@ -1,0 +1,25 @@
+{
+  "dataList": [
+    {
+      "id": 863001,
+      "title": "Proiettile Crudele",
+      "eventDesc": "'Fermi.'\n\n'Non ricordo più. Non ricordo nemmeno se fossero mai esistiti.'\n\n'Ma voi... voi ricordate ancora i vostri cari.'\n\n'Vi spappolerò il cranio. A ognuno di voi.'\n\nC'è un vecchio ciondolo appeso al collo del tiratore.\n\nForse è la chiave per fermare il combattimento.",
+      "behaveDesc": "Chi parlerà del ciondolo?",
+      "successDesc": [
+        "{0} dice al tiratore di aprire il ciondolo che tiene appeso al collo.\n\nIl tiratore prende il ciondolo e lo apre, come se lo spingesse una forza nascosta... poi urla tenendo stretto il fucile.\n\n'No...! Non voglio ricordarli! Non... Non voglio ricordare i miei cari!'\n\n'Oh... vi prego.... smettete di sorridere. Ho detto, smettetela!'\n\n'Andate via! Silenzio!'\n\nIl tiratore preme il grilletto, la sua voce è intrisa di dolore...\n\nMa la forza che spinge i proiettili era già diventata molto più debole."
+      ],
+      "failureDesc": [
+        "{0} dice al tiratore di aprire il ciondolo che tiene appeso al collo.\n\nInvece di fare come detto, il tiratore prende il ciondolo e lo stringe in pugno. Punta la canna del fucile verso di noi, ghignando.\n\n'…….'\n\nIl contraccolpo scuote il ciondolo.\n\nMa il tiratore continua a premere il grilletto. Niente è cambiato."
+      ]
+    },
+    {
+      "id": 863301,
+      "title": "Quattrocento Rose",
+      "prevDesc": "La rosa brama più sangue.",
+      "eventDesc": "",
+      "behaveDesc": "",
+      "successDesc": [],
+      "failureDesc": []
+    }
+  ]
+}

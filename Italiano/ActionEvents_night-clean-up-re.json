@@ -1,0 +1,53 @@
+{
+  "dataList": [
+    {
+      "id": 971108,
+      "name": "Post-Heishou Choice Development",
+      "desc": "Dopo aver completato il loro dovere, gli Heishou stanno distribuendo i Boli Mao ricevuti dal Heishou-Xianren.\n\n\"E voi, chi siete? Non vi ho mai visti in giro...\"\n\n\"Forse sono le Lepri da poco iniziate?\"\n\n\"... Identificatevi.\"",
+      "options": [
+        {
+          "message": "Mostra a loro il Passo di Lepre e dite che siete nuovi.\n<size=75%><color=#a16a3b>Scelta sbloccabile con il Dono E.G.O \"Passo di Lepre\"</color></size>",
+          "messageDesc": "Seleziona per ottenere un Dono E.G.O Lacerazione",
+          "result": [
+            "Appena hanno visto il Passo di Lepre, gli Heishou se ne sono andati, lasciando un Bolo Mao ai Peccatori."
+          ]
+        },
+        {
+          "message": "Dite che siete delle Lepri in ritorno da un altro dovere.",
+          "messageDesc": "Prova con Vantaggio per Gola e Superbia per ottenere un Dono E.G.O Lacerazione.",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "Dite che eravate lì per puro caso.",
+          "messageDesc": "Nessun effetto in particolare.",
+          "result": [
+            "Abbiamo oltrepassato gli Heishou con disinvoltura e ce ne siamo andati indenni."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 971109,
+      "name": "Oddly Familiar Boombox",
+      "desc": "Notiamo un gruppo di delinquenti del Medio che bloccano la strada di fronte, tutti indossano un abbigliamento simile a quelli che abbiamo incontrato al Grande Lago.\n\nProvare a passarci rischierebbe di iniziare una battaglia.\n\nGuardando in giro, troviamo uno stereo tutto solo a qualche metro di distanza da loro.\n\nSarà quello a fare tutto quel baccano con la musica che riproduce in sottofondo dovunque quei teppisti si trovino?\n\nForse spostarlo da qualche altra parte provocherebbe quei delinquenti ad andare via dal percorso con la sua musica.",
+      "options": [
+        {
+          "message": "Prendete il Boombox.",
+          "messageDesc": "Prova con Vantaggio per Gola.\nPassa per ottenere un Dono E.G.O Contundente.",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "Prendete un'altra strada.",
+          "messageDesc": "Nessun effetto in particolare.",
+          "result": [
+            "Non c'è nessuna ragione per rischiare di combatterli per andare in questa strada.\n\nAbbiamo silenziosamente cambiato rotta e proseguito per un altro percorso."
+          ]
+        }
+      ]
+    }
+  ]
+}

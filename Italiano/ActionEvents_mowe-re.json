@@ -1,0 +1,116 @@
+{
+  "dataList": [
+    {
+      "id": 971080,
+      "name": "Hardblood weapon found while resting",
+      "desc": "Nel mezzo della nostra battaglia contro un'interminabile orda di Sacca di Sangue...\n\n<Mh...?>\n\n... abbiamo trovato per terra un oggetto minaccioso.\n\nAnche se in qualche modo assomigliava alle armi dei Sacca di Sangue, era abbastanza unico da essere distinto da quelle armi.\n\n\"Dev'essere un'arma potente, giusto?\"\n\n\"Questa dovrebbe essere un'arma alquanto pericolosa.\"\n\n\"In verità, codesto arnese è da grattacapo!\"\n\nSicuramente, i Peccatori stanno avendo problemi a mettersi d'accordo.\n\n... Pare che tocchi a me decidere se prenderci o no quella cosa.",
+      "options": [
+        {
+          "message": "Prendi l'arma.",
+          "messageDesc": "Seleziona per ottenere un Dono E.G.O Sanguinamento",
+          "result": [
+            "Probabilmente ci farà comodo, in un modo o nell'altro.\n\nDopo una breve pausa, i Peccatori iniziano a incamminarsi verso la destinazione.\n\n... Ma nessuno di noi notava come gli occhi del Peccatore con l'arma in mano non riusciva a smettere di guardare le macchie di sangue."
+          ]
+        },
+        {
+          "message": "Non prendere l'arma.",
+          "messageDesc": "Nessun effetto particolare",
+          "result": [
+            "Non ci porteremo in giro un artefatto misterioso come se niente fosse.\n\nI Peccatori iniziano ad incamminarsi verso la  destinazione, malgrado la loro leggera delusione."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 971081,
+      "name": "There is a useful piece of gear on a W Corp. Cleanup Agent who was turned into a Bloodbag.",
+      "desc": "Gli Agenti della W Corp. trasformati in Sacca di Sangue erano molto più difficili da combattere rispetto agli altri già presenti nel treno.\n\nUna volta sconfitti, abbiamo trovato uno strumento bizzarro dai resti della battaglia.\n\nAvevo già visto un'Identità della W Corp usare quei guanti d'arme.\n\n\"Questo equipaggiamento è ostruito da parti putrefatte; sarà difficile usarlo così com'è.\"\n\nPotremmo impiegarci molto per poterlo riparare...",
+      "options": [
+        {
+          "message": "Togli via il putridume.",
+          "messageDesc": "Prova con Vantaggio per Ira e Tristezza.\nPassa per ottenere un Dono E.G.O Sanguinamento.",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "Lascia.",
+          "messageDesc": "Nessun effetto particolare",
+          "result": [
+            "Non abbiamo il lusso di sprecare il nostro tempo per una cosa del genere.\n\nLasciando il guanto, siamo avanzati."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 971082,
+      "name": "There is a useful piece of gear on the body of a W Corp. Cleanup Agent who was turned into a Bloodbag.",
+      "desc": "Forse siamo quasi riusciti a ripararlo.\n\nMa rischiare che uno di noi si ferisca potrebbe non valerne la pena.",
+      "options": [
+        {
+          "message": "Ripara il guanto.",
+          "messageDesc": "Prova con Vantaggio per Lussuria e Invidia.\nPassa per ottenere un Dono E.G.O Carica.",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "Smettete con le riparazioni.",
+          "messageDesc": "Nessun effetto particolare",
+          "result": [
+            "Non abbiamo il lusso di sprecare il nostro tempo per una cosa del genere.\n\nLasciando il guanto inceppato, siamo avanzati."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 971083,
+      "name": "A merchant passenger",
+      "desc": "Questa sezione sembra alquanto affollata di passeggeri.\n\nTra di loro, ne notiamo uno sorprendentemente calmo e composto.\n\n\"Prego, avvicinatevi pure...\"\n\nTeneva in mano una bottiglia piena di pillole apparentemente sospette.\n\nIl passeggero procede a spiegarci come la sua sanità attuale è intatta grazie a quelle pillole.\n\n\"Vorreste provarne qualcuna?\"",
+      "options": [
+        {
+          "message": "Compra le pillole.",
+          "messageDesc": "Spendi del Costo per far recuperare PV e PS a tutti gli alleati",
+          "result": [
+            "Ho pagato il prezzo e distribuito le pillole ai Peccatori.\n\n\"Ooh... non è affatto male.\"\n\nGli effetti si facevano subito vedere; le pillole sembrano aver curato tutti, sia fisicamente che mentalmente.\n\n\"Venite a trovarmi di nuovo...\"\n\nI passeggeri ci salutano, ricambiamo il gesto mentre ce ne andavamo."
+          ]
+        },
+        {
+          "message": "Date una breve occhiata e andatevene.",
+          "messageDesc": "Nessun effetto in particolare",
+          "result": [
+            "Non c'è bisogno di sborsare per qualcosa di così sospetto.\n\nCe ne siamo andati."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 971084,
+      "name": "A W Corp. Cleanup Agent is battling a group of Bloodbags.",
+      "desc": "\"Ammirate! Un guerriero solitario affronta le nefaste orde di Sacca di Sangue!\"\n\nI Peccatori guardano qualcuno con addosso l'uniforme della W Corp.\n\nSembra abbastanza abile, ma il grosso numero di nemici stavano per soppraffarlo.\n\n<Dobbiamo aiutarlo—>\n\nMa veniamo intralciati da un'altra orda di Sacca di Sangue che pullulavano la cabina, circondandoci.\n\n\"Cavolo... preparatevi a combattere!\"\n\n\"M-ma che ne sarà del guerriero solitario?!\"\n\n\"Beh—\"",
+      "options": [
+        {
+          "message": "Prestagli una Daga Dimensionale Tipo-E.",
+          "messageDesc": "Seleziona per ottenere un Dono E.G.O Carica.",
+          "result": [
+            "\"Questo dovrebbe aiutare, spero...!\"\n\nAbbiamo lanciato la daga all'Agente della W Corp...\n\n... che ha colpito un Sacca di Sangue alla sua nuca, poco prima che i suoi denti affondassero su di lui. L'Agente ritira subito la daga per poi usarla per difendersi.\n\nUna volta finita la pulizia, ci ha ringraziati per poi restituirci la daga.\n\n\"Grazie per essere intervenuti! Ancora un secondo e sarei diventato uno di quei mos—\"\n\nInorridito, l'Agente s'interrompe e cerca di allontanarsi da quel pensiero macabro.\n\n\"Ora mi ritiro. Prendete—non è molto, ma spero che vi aiuti.\""
+          ]
+        },
+        {
+          "message": "Manda un Peccatore ad aiutare l'Agente della W Corp.",
+          "messageDesc": "Prova con Vantaggio per Invidia e Ira.\nPassa per ottenere un Dono E.G.O Carica.",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "Non mandare nessuno.",
+          "messageDesc": "Tutti gli alleati perdono PS.",
+          "result": [
+            "Avendo anche noi la nostra parte di Sacca di Sangue da preoccuparci, abbiamo deciso di pensare prima a noi stessi.\n\nNon c'è voluto molto prima che l'Agente della W Corp. venisse travolto dall'enorme folla.\n\nPotevamo sentire le sue urla di agonia nello scompiglio, pregando perché venisse salvato, ma... era troppo tardi perché potessimo far qualcosa."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "dataList": [
+    {
+      "id": 97108101,
+      "title": "There is a useful piece of gear on a W Corp. Cleanup Agent who was turned into a Bloodbag.",
+      "prevDesc": "",
+      "eventDesc": "",
+      "behaveDesc": "Chi si farà avanti?",
+      "successDesc": [
+        "{0} riesce a sbarazzarsi del putridume dall'equipaggiamento.\n\n\"Oh...\"\n\nMa qualcosa sembra abbia danneggiato il guanto durante il processo, e ora non vuole attivarsi."
+      ],
+      "failureDesc": [
+        "{0} finisce per ferirsi ad una mano mentre prova a liberare l'equipaggiamento dal putridume.\n\n\"... Potremmo farlo funzionare se riusciamo a trovare il circuito 7B.\"\n\nUna dei Peccatori dà un suggerimento. Ma seguendo il consiglio, potrebbe gravemente peggiorare la ferita della mano di {0}.\n\nNe vale davvero la pena?"
+      ]
+    },
+    {
+      "id": 97108201,
+      "title": "There is a useful piece of gear on a W Corp. Cleanup Agent who was turned into a Bloodbag.",
+      "prevDesc": "",
+      "eventDesc": "",
+      "behaveDesc": "Chi si farà avanti?",
+      "successDesc": [
+        "{0} riesce a trovare il circuito malfunzionante e riesce a ripararlo."
+      ],
+      "failureDesc": [
+        "\"Ci siamo quasi...\"\n\nNon appena stavamo per finire...\n\n\"...! Attacco nemico, Manager Esecutivo!\"\n\nCi abbiamo impiegato troppo, e dei Sacca di Sangue stavano iniziando ad assalirci."
+      ]
+    },
+    {
+      "id": 97108402,
+      "title": "A W Corp. Cleanup Agent is battling a group of Bloodbags.",
+      "prevDesc": "",
+      "eventDesc": "",
+      "behaveDesc": "Chi si farà avanti?",
+      "successDesc": [
+        "{0} corre ad assistere l'Agente non appena si è aperto un varco nella formazione dei Sacca di Sangue.\n\n... Per fortuna, siamo riusciti a finire con la Pulizia senza alcun problema.\n\n\"Grazie per essere intervenuti! Ancora un secondo e sarei diventato uno di quei mos—\"\n\nInorridito, l'Agente s'interrompe e cerca di allontanarsi da quel pensiero macabro.\n\n\"Ora mi ritiro. Prendete—non è molto, ma spero che vi aiuti.\""
+      ],
+      "failureDesc": [
+        "{0} corre ad assistere l'Agente non appena si è aperto un varco nella formazione dei Sacca di Sangue.\n\n\"Immagino questo sia fin troppo per una persona sola...\"\n\nAnche dopo aver eliminato l'orda che ci stava caricando, l'Agente e {0} stavano ancora combattendo dei Sacca di Sangue...\n\nPer fortuna, il supporto opportuno di {0} ci ha permesso di salvare l'Agente.\n\n\"Ora mi ritiro. Prendete—non è molto, ma spero che vi aiuti.\""
+      ]
+    }
+  ]
+}

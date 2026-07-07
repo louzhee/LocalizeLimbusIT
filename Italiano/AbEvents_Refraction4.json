@@ -1,0 +1,43 @@
+{
+  "dataList": [
+    {
+      "id": 860801,
+      "title": "Dreaming Electric Sheep",
+      "prevDesc": "",
+      "eventDesc": "All'estremità di ogni cavo sparpagliato per terra, c'è una spina.\n\nProbabilmente la pecora conosce il loro scopo.\n\nEmette un verso sofferente.\n\nPiù i Peccatori si avvicinano, più le sue grida diventano forti e disperate.\n\nLa pecora inizia a dimenarsi all'impazzata.\n\nLa sua resistenza non farà altro che aumentare.",
+      "behaveDesc": "Chi proverà a tener ferma la pecora?",
+      "successDesc": [
+        "[{0}] alza un cavo e lo connette alla pecora.\n\nDelle scariche violente accecano la vostra visione per un breve attimo.\n\nLa pecora urla tremendamente per un momento prima di tacere, chiudendo gli occhi.\n\n[{0}] guarda la silenziosa pecora. Silenziosa come in un sogno.\n\n[{0}] si riunisce alla battaglia, col corpo folgorato dall'elettricità."
+      ],
+      "failureDesc": [
+        "Quando [{0}] stava per connettere il cavo alla pecora,\n\nLei dà un forte calcio con le sue lunghe zampe.\n\nMentre ancora cerca di riprendersi dal calcio, [{0}] fissa il cavo mal inserito per un attimo...\n\nPoco prima di diventare il bersaglio di un fragoroso colpo di fulmine violaceo."
+      ]
+    },
+    {
+      "id": 860501,
+      "title": "Portrait of a Certain Day",
+      "prevDesc": "",
+      "eventDesc": "'Sono un maggiordomo di questo maniero.'\n\n'Eppure non riesco a riconoscere i vostri volti.'\n\n'Non posso fare a meno di essere sospettoso di voi; forse mirate a sprofondare nuovamente questo maniero nel supplizio.'\n\n'Se dichiarate altrimenti, allora permettetemi di porgervi una domanda. Quale di questi ritratti raffigura il mio padrone?'",
+      "behaveDesc": "Chi risponderà?",
+      "successDesc": [
+        "[{0}] con sicurezza si fa avanti e punta il dito ad uno dei ritratti.\n\nIl mostro si ferma per un attimo, per poi rispondere affermativamente.\n\n'Lei è familiare col mio padrone.'\n\n'Seppur rimanga pur sempre un intruso, non vedo che lei porti della disgrazia.'\n\nIl mostro, con ancora in mano un ritratto, sembra in qualche modo meno ostile."
+      ],
+      "failureDesc": [
+        "[{0}] con sicurezza si fa avanti e punta il dito ad uno dei ritratti.\n\nIl mostro si ferma per un attimo, per poi improvvisamente gridare.\n\n'Lei non riconosce neanche il viso del mio padrone...'\n\n'Non ho dubbi. Lei non è altro che un intruso intento a portare altra agonia in questo posto.'\n\n'Come osa pretendere di conoscere quel che non sa. Questa trasgressione non verrà facilmente condonata.'\n\n[{0}] improvvisamente sente lo sguardo furente di ogni singolo ritratto concentrato su di sé.\n\nCiascuno di loro... riservava rancore."
+      ]
+    },
+    {
+      "id": 862903,
+      "title": "The King in Binds",
+      "prevDesc": "",
+      "eventDesc": "Vestendovi delle maschere, rievocate nuovamente le ardenti emozioni che lentamente ribollivano nei vostri cuori.\n\nL'angoscia risale nella nebbia della battaglia accesa; il suo peso trafigge in profondità nelle vostre emozioni.",
+      "behaveDesc": "Riuscire a opporvi a questa angoscia?",
+      "successDesc": [
+        "La pressione angosciante si calma lentamente.\n\nIl banchetto è lungi dal terminarsi.\n\nCiascun Peccatore si riprende e scuote via il dolore; il vuoto dei loro cuori viene riempito con determinazione."
+      ],
+      "failureDesc": [
+        "L'inondazione di tristezza travolge i Peccatori in un ancor più profondo abisso.\n\nPerò, il banchetto è ancora in corso.\n\nI Peccatori reprimono la loro angoscia e si fanno avanti."
+      ]
+    }
+  ]
+}
