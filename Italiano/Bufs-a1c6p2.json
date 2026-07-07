@@ -1,0 +1,84 @@
+{
+  "dataList": [
+    {
+      "id": "Vengeance_LowMorale",
+      "name": "Vendetta",
+      "desc": "- Morale Basso\n- Ottiene 3 Livello Difensivo Diminuito e 3 Danno Aumentato",
+      "summary": "Ottiene 3 Livello Difensivo Diminuito e 3 Danno Aumentato",
+      "undefined": "-"
+    },
+    {
+      "id": "Vengeance_Panic",
+      "name": "Vendetta",
+      "desc": "- Panico\n- Ottiene 6 Livello Difensivo Diminuito e 5 Danno Aumentato",
+      "summary": "Ottiene 6 Livello Difensivo Diminuito e 5 Danno Aumentato",
+      "undefined": "-"
+    },
+    {
+      "id": "AaCfPbBe",
+      "name": "Preda Marchiata",
+      "desc": "- Se questa unità non subisce danni questo turno, infligge 1 Complesso di Inferiorità a Fine Attacco e infine si esaurisce\n- Stack Massime: 1",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "AaCfPbBf",
+      "name": "Complesso di Inferiorità",
+      "desc": "- Ogni volta che l'unità viene colpita, subisce ((20% dei danni agli PV subiti) * {0}) danni\n- Stack Massime: 5",
+      "summary": "Subisce ((20% dei danni agli PV subiti) * {0}) danni",
+      "undefined": "-"
+    },
+    {
+      "id": "AaCfPbBa",
+      "name": "Tristezza Esplosiva",
+      "desc": "- Resistenza a Affinità Tristezza +0.3\n- Resistenze a Altre Affinità -0.5\n- Subendo un colpo: infligge 3 danni ai PS all'attaccante, ottiene 1 Conteggio Annegamento, e ottiene 1 Livello Offensivo Aumentato il turno successivo (9 volte per turno)",
+      "summary": "Resistenza a Tristezza(e solo Tristezza) diventa Fatale.\nSubendo un colpo: Infligge 3 danni ai PS all'attaccante, ottiene 1 Conteggio Annegamento, e ottiene 1 Livello Offensivo Aumentato il turno successivo.",
+      "undefined": "-"
+    },
+    {
+      "id": "AaCfPbBb",
+      "name": "Invidia Esplosiva",
+      "desc": "- Resistenza a Affinità Invidia +0.3\n- Resistenze a Altre Affinità -0.5\n- Subendo un colpo: applica 1 Livello Offensivo Aumentato, infligge 2 Sanguinamento, e 2 Conteggio Sanguinamento all'attaccante, e ottiene 1 Livello Difensivo Diminuito il turno successivo (9 volte per turno)",
+      "summary": "Resistance a Invidia(e solo Invidia) diventa Fatale\nSubendo un colpo: applica 1 Livello Offensivo Aumentato, 2 Sanguinamento, e 2 Conteggio Sanguinamento al bersaglio, e ottiene 1 Livello Difensivo Diminuito il turno successivo",
+      "undefined": "-"
+    },
+    {
+      "id": "AaCfPbBc",
+      "name": "Ira Esplosiva",
+      "desc": "- Resistenza a Affinità Ira +0.3\n- Resistenze a Altre Affinità -0.5\n- Subendo un colpo: Ottiene 1 Livello Offensivo Aumentato e 1 Livello Difensivo Diminuito il turno successivo (9 volte per turno)",
+      "summary": "Resistance a Ira(e solo Ira) diventa Fatale.\nSubendo un colpo: ottiene 1 Livello Offensivo Aumentato e 1 Livello Difensivo Diminuito.",
+      "undefined": "-"
+    },
+    {
+      "id": "AaCfPbBd",
+      "name": "Lutto Profondo",
+      "desc": "Inizio Turno: Perde 5 Rapidità e ottiene 5 Livello Difensivo Diminuito",
+      "undefined": "-"
+    },
+    {
+      "id": "AaCfPbBg",
+      "name": "Dipinto Deformato",
+      "desc": "- Morale Basso\n- Ottiene 1 Potere Attacco Aumentato & 1 Fragile",
+      "undefined": "-"
+    },
+    {
+      "id": "AaCfPbBh",
+      "name": "Dipinto Deformato",
+      "desc": "- Panico\n- Ottiene 1 Alza Testa Positiva & 3 Fragile",
+      "undefined": "-"
+    },
+    {
+      "id": "AaCfPbBi",
+      "name": "Odio",
+      "desc": "- Morale Basso\n- Scontro Vinto: Ottiene 1 Livello Offensivo Aumentato il turno successivo. (max 3 per turno)\nScontro Perso: Ottiene 1 Livello Difensivo Aumentato. (max 3 per turno)",
+      "undefined": "-"
+    },
+    {
+      "id": "AaCfPbBj",
+      "iconID": "Vengeanse_LowMoral",
+      "name": "Odio",
+      "desc": "- Panico\n- Scontro Vinto: Ottiene 1 Livello Offensivo Aumentato questo turno e il turno successivo. (max 3 per turno)\nScontro Perso: Ottiene 1 Livello Difensivo Aumentato. (max 3 per turno)\nA Fine Turno: Ottiene 2 Rapidità il turno successivo",
+      "undefined": "-"
+    }
+  ]
+}

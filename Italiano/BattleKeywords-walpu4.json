@@ -1,0 +1,94 @@
+{
+  "dataList": [
+    {
+      "id": "RedEyeFirst",
+      "name": "Occhi Rossi",
+      "desc": "- Gli effetti delle Monete di Abilità Base infliggono +1 Sanguinamento in più\n- Valore Max: 20\n- Carica Speciale (Potenza fissa)\n- Risorsa usata da alcune Abilità per effetti aggiuntivi\n- Aumenta lo Stadio del buff in base alle Stack\n· Stadio 1 (1~7) : Occhi Rossi\n· Stadio 2 (8~15) : Occhi Rossi - Allerta\n· Stadio 3 (16~20) : Occhi Rossi - Divoranti\n- La quantità di Sanguinamento aggiuntivo inflitto dalla prima riga di questo buff dipende dallo Stadio raggiunto (max 3)",
+      "summary": ""
+    },
+    {
+      "id": "RedEyeSecond",
+      "name": "Occhi Rossi - Allerta",
+      "desc": "- Gli effetti delle Monete di Abilità Base infliggono +2 Sanguinamento in più\n- Valore Max: 20\n- Carica Speciale (Potenza fissa)\n- Risorsa usata da alcune Abilità per effetti aggiuntivi\n- Aumenta lo Stadio del buff in base alle Stack\n· Stadio 1 (1~7) : Occhi Rossi\n· Stadio 2 (8~15) : Occhi Rossi - Allerta\n· Stadio 3 (16~20) : Occhi Rossi - Divoranti\n- La quantità di Sanguinamento aggiuntivo inflitto dalla prima riga di questo buff dipende dallo Stadio raggiunto (max 3)",
+      "summary": ""
+    },
+    {
+      "id": "RedEyeThird",
+      "name": "Occhi Rossi - Divoranti",
+      "desc": "- Gli effetti delle Monete di Abilità Base infliggono +3 Sanguinamento in più\n- Valore Max: 20\n- Carica Speciale (Potenza fissa)\n- Risorsa usata da alcune Abilità per effetti aggiuntivi\n- Aumenta lo Stadio del buff in base alle Stack\n· Stadio 1 (1~7) : Occhi Rossi\n· Stadio 2 (8~15) : Occhi Rossi - Allerta\n· Stadio 3 (16~20) : Occhi Rossi - Divoranti\n- La quantità di Sanguinamento aggiuntivo inflitto dalla prima riga di questo buff dipende dallo Stadio raggiunto (max 3)",
+      "summary": ""
+    },
+    {
+      "id": "PenanceFirst",
+      "name": "Penitenza",
+      "desc": "- Recupera 2 PS Sul Colpo con le Monete di Abilità Base che ottengono Penitenza\n- Valore Max: 20\n- Carica Speciale (Potenza fissa)\n- Inizio Turno: ottiene (Penitenza)% dei PV Max come Scudo\n- Risorsa usata da alcune Abilità per effetti aggiuntivi\n- Aumenta lo Stadio del buff in base al Valore\n· Stadio 1 (1~7) : Penitenza\n· Stadio 2 (8~15) : Penitenza - Periphery\n· Stadio 3 (16~20) : Penitenza - Confession\n- La quantità di PS curati dalla prima riga di questo buff dipendono dallo Stadio raggiunto (livello Stadio x 2)",
+      "summary": ""
+    },
+    {
+      "id": "PenanceSecond",
+      "name": "Penitenza - Limite",
+      "desc": "- Recupera 4 PS Sul Colpo con le Monete di Abilità Base che ottengono Penitenza\n- Valore Max: 20\n- Carica Speciale (Potenza fissa)\n- Inizio Turno: ottiene (Penitenza)% dei PV Max come Scudo\n- Risorsa usata da alcune Abilità per effetti aggiuntivi\n- Aumenta lo Stadio del buff in base al Valore\n· Stadio 1 (1~7) : Penitenza\n· Stadio 2 (8~15) : Penitenza - Periphery\n· Stadio 3 (16~20) : Penitenza - Confession\n- La quantità di PS curati dalla prima riga di questo buff dipendono dallo Stadio raggiunto (livello Stadio x 2)",
+      "summary": ""
+    },
+    {
+      "id": "PenanceThird",
+      "name": "Penitenza - Confessione",
+      "desc": "- Recupera 6 PS Sul Colpo con le Monete di Abilità Base che ottengono Penitenza\n- Valore Max: 20\n- Carica Speciale (Potenza fissa)\n- Inizio Turno: ottiene (Penitenza)% dei PV Max come Scudo\n- Risorsa usata da alcune Abilità per effetti aggiuntivi\n- Aumenta lo Stadio del buff in base al Valore\n· Stadio 1 (1~7) : Penitenza\n· Stadio 2 (8~15) : Penitenza - Periphery\n· Stadio 3 (16~20) : Penitenza - Confession\n- La quantità di PS curati dalla prima riga di questo buff dipendono dallo Stadio raggiunto (livello Stadio x 2)",
+      "summary": ""
+    },
+    {
+      "id": "Emptiness",
+      "name": "Resta Solo Cenere",
+      "desc": "- Non può mantenere Occhi Rossi & Penitenza\n- Quando ottiene Occhi Rossi con gli effetti di Abilità Base, cura se stessa e 1 alleato con la minore percentuale di PV del (Occhi Rossi ottenuti)% degli PV massimi di questa unità (2 volte per turno)\n- Quando ottiene Penitenza con gli effetti delle Abilità Base, cura se stessa e 1 alleato con meno PS di ((Penitenza ottenuta)/2) PS (2 volte per turno)\n- Fine Turno: questo effetto si esaurisce",
+      "summary": ""
+    },
+    {
+      "id": "SinkingWhite",
+      "name": "Farfalla",
+      "desc": "- Annegamento Speciale\n- Valore Base: 0, Valore Max: 15\n- La Potenza e il Conteggio di questo effetto si chiamano rispettivamente \"I Vivi\" e \"I Defunti\".\n- Subendo un colpo, l'attaccante recupera (I Vivi/4) PS. (min 1; arrotondati per difetto)\n- Subendo un colpo, se i PS di questa unità sono sotto 0, subisce (Potenza Annegamento/5) danni da Tristezza per ogni Stack di I Defunti. (danni da Tristezza max 30; arrotondati per difetto; infligge metà dei danni ai bersagli senza PS.)\n- Fine Turno: Mette I Defunti di questo effetto a 0; ottiene Annegamento pari a I Vivi e converte I Vivi in I Defunti.\n- Nessun effetto esterno può aumentare la quantità di Farfalla inflitta. Gli effetti di \"Infligge più Annegamento\" infliggono più Annegamento invece di più Farfalla.\n- Questo effetto si esaurisce quando sia I Vivi che I Defunti raggiungono 0.",
+      "summary": ""
+    },
+    {
+      "id": "SinkingBlack",
+      "name": "!!!OUDATED EFFECT!!!",
+      "desc": "",
+      "summary": ""
+    },
+    {
+      "id": "BulletLament",
+      "name": "I Vivi e I Defunti",
+      "desc": "- Munizioni Speciali\n- La somma di Potenza e Conteggio è al massimo 20\n- Usate per alcune Abilità.\n- Sceglie casualmente se vengano consumati I Vivi(Potenza) o I Defunti(Conteggio) con ogni colpo.\n- Alcuni attacchi si fermano se mancano Munizioni.",
+      "summary": ""
+    },
+    {
+      "id": "TrainTeamCaptain",
+      "name": "Capitano della Squadra di Formazione",
+      "desc": "Slot Abilità +1\nModifica Abilità disponibili: Ottiene 1 altro uso dell'Abilità 3, ma perde 1 uso dell'Abilità 1\nInizio Turno: Cura di 15 PS\nAumenta la quantità di Bruciatura, Sanguinamento, Lacerazione, Annegamento, or Vibrazione inflitti di +1 (inclusi 'Effetti di Stato Speciali')\nAumenta la quantità di Equilibrio o Carica ottenuti(including 'Carica Speciale') di +1\nSe Uccide, ottiene +2 risorse E.G.O dell'Affinità dell'Abilità che ha sconfitto il nemico; ottiene +1 risorse E.G.O per le altre Affinità",
+      "summary": ""
+    },
+    {
+      "id": "VioletUnderstand",
+      "name": "Comprensione",
+      "desc": "- Infligge +5% danni per Stack\n- Subisce +5% danni per Stack\n(valore massimo : 5)",
+      "summary": ""
+    },
+    {
+      "id": "MentalCrack",
+      "name": "Frattura Mentale",
+      "desc": "Efficenza di Perdita PS +1 per Stack (max 5)\nEsaurita quando arriva a 5 Stack, e subisce 10 danni ai PS\nPerde 1 Stack per turno",
+      "summary": ""
+    },
+    {
+      "id": "ImpendingCollapse",
+      "name": "Degrado Imminente",
+      "desc": " Fine Turno: Perde 1 Stack\nInizio Turno: A 1- Stack, usa un'Abilità speciale",
+      "summary": ""
+    },
+    {
+      "id": "ReloadLament",
+      "name": "Ricarica",
+      "desc": "- Effetto applicato a I Vivi E I Defunti(Munizioni Speciali)\nUsa (30 - (I Vivi + I Defunti))/2 PS. (arrotondati per difetto)\n- Imposta i valori di I Vivi e I Defunti su di sé a 0, ed ottiene il valore massimo totale in base alle probabilità scritte nella Passiva 'VedoLaFarfallaMorente.'\n- Quando Ricarica, ottiene almeno 1 I Vivi e I Defunti.",
+      "summary": ""
+    }
+  ]
+}

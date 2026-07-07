@@ -1,0 +1,171 @@
+{
+  "dataList": [
+    {
+      "id": "FavorBuffTwth1stPhaseForUI",
+      "name": "Ombra della Riflessione [Rouge]",
+      "desc": "- Le Abilità Attacco delle Identità con Affinità <color=#f8c200>Lussiria</color> o <color=#f8c200>che infliggono Sanguinamento o 'Sanguinamento Speciale'</color> infliggono +25% danni (le Abilità E.G.O, infliggono invece +100% danni)\n- I nemici subiscono x1.5 danni da <color=#f8c200>Sanguinamento</color> (arrotondato per difetto)\n- Dopo aver concatenato una <color=#f8c200>Rison-A.</color>, ottiene 1 risorsa E.G.O casuale tra quelle meno possedute e 1 risorsa E.G.O dell'Affinità della Rison-A. (2 volte per turno)"
+    },
+    {
+      "id": "FavorBuffTwth2ndPhaseForUI",
+      "name": "Ombra della Riflessione [Bleu]",
+      "desc": "- Le Abilità Attacco delle Identità con Affinità <color=#f8c200>Tristezza</color> o <color=#f8c200>che infliggono Annegamento o 'Annegamento Speciale'</color> infliggono +25% danni (le Abilità E.G.O, infliggono invece +100% danni)\n- Inizio Turno: I nemici in <color=#f8c200>Panico</color> ottengono 3 Fragile\n- <color=#f8c200>Le Identità delle Dita</color> infliggono +15% danni e subiscono -15% danni dai nemici"
+    },
+    {
+      "id": "FavorBuffTwthHardForUI",
+      "name": "Tribolazione",
+      "desc": "- <color=#ff0000>PV Max</color> +25%\n- Le Abilità infliggono +1 <color=#ff0000>Potenza Sanguinamento, Potenza Annegamento, Colore Sbranato [Rouge] e Colore Sbranato [Bleu] in più</color>\n- Se il bersaglio ha <color=#ff0000>Palette Vibrante</color>, Potere Scontro +2 e Potere Base +1\n- [Effetto Esclusivo della Fase 2] Inizio Turno: Se questa unità usa \"Esplode il Cremisi Pulsante Sotto la Tua Pelle\" in questo turno, <color=#ff0000>recupera 10 PS</color> per ogni Peccatore che ha <color=#ff0000>Palette Vibrante</color> (max 30 SP)"
+    },
+    {
+      "id": "FavorBuffTwth",
+      "name": "Ombra della Riflessione [Rouge]",
+      "desc": "- Le Abilità Attacco delle Identità con Affinità Lussiria o che infliggono Sanguinamento o 'Sanguinamento Speciale' infliggono +25% danni (le Abilità E.G.O, infliggono invece +100% danni)\n- Dopo aver concatenato una Rison-A., ottiene 1 risorsa E.G.O casuale tra quelle meno possedute e 1 risorsa E.G.O dell'Affinità della Rison-A. (2 volte per turno)",
+      "summary": "Le Abilità che infliggono Sanguinamento, 'Sanguinamento Speciale' e le Abilità con Affinità Lussuria infliggono più danni"
+    },
+    {
+      "id": "FavorBuffTwthEnemy",
+      "name": "Ombra della Riflessione [Rouge]",
+      "desc": "- Subisce x1.5 danni da Sanguinamento (arrotondato per difetto)",
+      "summary": "Subisce più danni da Sanguinamento"
+    },
+    {
+      "id": "FavorBuffTwthTwo",
+      "name": "Ombra della Riflessione [Bleu]",
+      "desc": "- Le Abilità Attacco delle Identità con Affinità Tristezza o che infliggono Annegamento o 'Annegamento Speciale' infliggono +25% danni (le Abilità E.G.O, infliggono invece +100% danni)\n- Le Identità delle Dita infliggono +15% danni e subiscono -15% danni dai nemici",
+      "summary": "Le Abilità che infliggono Annegamento, 'Annegamento Speciale' e le Abilità con Affinità Tristezza infliggono più danni"
+    },
+    {
+      "id": "FavorBuffTwthEnemyTwo",
+      "name": "Ombra della Riflessione [Bleu]",
+      "desc": "- Inizio Turno: Se in Panico, ottiene 3 Fragile",
+      "summary": "Se in Panico, ottiene Fragile"
+    },
+    {
+      "id": "FavorBuffTwthHard",
+      "name": "Tribolazione",
+      "desc": "- PV Max +25%\n- Le Abilità infliggono +1 <color=#ff0000>Potenza Sanguinamento, Potenza Annegamento, Colore Sbranato [Rouge] e Colore Sbranato [Bleu] in più\n- Se il bersaglio ha Palette Vibrante, Potere Scontro +2 e Potere Base +1",
+      "summary": "Infligge più Potenza Sanguinamento, Potenza Annegamento e Colore Sbranato\nSe il bersaglio ha Palette Vibrante, ottiene Potere Scontro e Potere Base"
+    },
+    {
+      "id": "FavorBuffTwthHardTwo",
+      "name": "Tribolazione",
+      "desc": "- PV Max +25%\n- Le Abilità infliggono +1 <color=#ff0000>Potenza Sanguinamento, Potenza Annegamento, Colore Sbranato [Rouge] e Colore Sbranato [Bleu] in più\n- Se il bersaglio ha Palette Vibrante, Potere Scontro +2 e Potere Base +1\n- [Effetto Esclusivo della Fase 2] Inizio Turno: Se questa unità usa \"Esplode il Cremisi Pulsante Sotto la Tua Pelle\" in questo turno, recupera 10 PS per ogni Peccatore che ha Palette Vibrante (max 30 PS)",
+      "summary": "Infligge più Potenza Sanguinamento, Potenza Annegamento e Colore Sbranato\nSe il bersaglio ha Palette Vibrante, ottiene Potere Scontro e Potere Base"
+    },
+    {
+      "id": "FavorBuff5001FirstPhaseForUI",
+      "name": "Ombra della Riflessione [Il Medio]",
+      "desc": "- Inizio Incontro: Se sul campo sono presenti 4+ Identità del <color=#f8c200>Medio</color>, si attivano i seguenti effetti:\n · Il primo e secondo <color=#f8c200>schema d'attacco</color> di Ricardo cambia\n · <color=#f8c200>Ottieni 2 Risorse E.G.O per tutte le Affinità</color>\n- Gli effetti delle Abilità di Ricardo <color=#f8c200>non infliggono Paralisi</color> sulle Identità che hanno <color=#f8c200>equipaggiato un'Abilità Difensiva</color>\n- Le Abilità Attacco delle Identità con Affinità <color=#f8c200>Invidia</color> o le Abilità che infliggono <color=#f8c200>Sanguinamento o 'Sanguinamento Speciale'</color> infliggono +30% danni (le Abilità E.G.O infliggono invece +100% danni)\n- Inizio Combattimento: Concatenando una <color=#f8c200>Risonanza Assoluta</color>, ottieni <color=#f8c200>4 volte 1 Risorsa E.G.O tra quelle meno possedute</color>"
+    },
+    {
+      "id": "FavorBuff5001SecondPhaseForUI",
+      "name": "Ombra della Riflessione [Imboscata]",
+      "desc": "- Le Abilità Attacco delle Identità con Affinità <color=#f8c200>Gola</color> o le Abilità che infliggono <color=#f8c200>Lacerazione</color> infliggono +25% danni (le Abilità E.G.O infliggono invece +100% danni)\n- Le Identità della <color=#f8c200>H Corp.</color> infliggono +15% danni e subiscono -30% danni\n- Inizio Combattimento: Concatenando una <color=#f8c200>Risonanza Assoluta</color>, ottieni <color=#f8c200>4 volte 1 Risorsa E.G.O tra quelle meno possedute</color>\n- Se la Velocità dell'attaccante è maggiore di quella di Ricardo quando lui è <color=#f8c200>Stordito</color>, Ricardo subisce <color=#f8c200>+(differenza Velocità x 2)% danni</color> (max 20%)"
+    },
+    {
+      "id": "FavorBuff5001HardForUI",
+      "name": "Tribolazione",
+      "desc": "- <color=#ff0000>PV Max</color> +25%\n- Le Abilità infliggono +20% danni\n- [Effetto Esclusivo della Fase 2]\n · I PS di Ricardo e dei suoi Fratelli non scendono al di sotto di 0\n · Inizio Turno: Infligge 2 \"Annotato nel Libro\" a tutti i nemici che hanno attaccato Ricardo nel turno precedente"
+    },
+    {
+      "id": "FavorBuff5001AllyFirst",
+      "name": "Ombra della Riflessione [Il Medio]",
+      "desc": "- Inizio Incontro: Se sul campo sono presenti 4+ Identità del <color=#f8c200>Medio</color>, ottieni 2 Risorse E.G.O per tutte le Affinità\n- Le Abilità Attacco con Affinità <color=#f8c200>Invidia</color> o le Abilità che infliggono <color=#f8c200>Sanguinamento o 'Sanguinamento Speciale'</color> infliggono +30% danni (le Abilità E.G.O infliggono invece +100% danni)\n- Inizio Combattimento: Concatenando una <color=#f8c200>Risonanza Assoluta</color>, ottieni <color=#f8c200>4 volte 1 Risorsa E.G.O tra quelle meno possedute</color>",
+      "summary": "Le Abilità con Sanguinamento infliggono più danni"
+    },
+    {
+      "id": "FavorBuff5001EnemyFirst",
+      "name": "Ombra della Riflessione [Il Medio]",
+      "desc": "- Inizio Incontro: Se sul campo sono presenti 4+ Identità del <color=#f8c200>Medio</color>, il primo e secondo <color=#f8c200>schema d'attacco</color> di Ricardo cambia\n- Gli effetti delle Abilità di Ricardo <color=#f8c200>non infliggono Paralisi</color> sulle Identità che hanno <color=#f8c200>equipaggiato un'Abilità Difensiva</color>",
+      "summary": "Non infligge Paralisi sulle Identità che hanno equipaggiato un'Abilità Difensiva"
+    },
+    {
+      "id": "FavorBuff5001AllyTwo",
+      "name": "Ombra della Riflessione [Imboscata]",
+      "desc": "- Le Abilità Attacco delle Identità con Affinità <color=#f8c200>Gola</color> o le Abilità che infliggono <color=#f8c200>Lacerazione</color> infliggono +25% danni (le Abilità E.G.O infliggono invece +100% danni)\n- Le Identità della <color=#f8c200>H Corp.</color> infliggono +15% danni e subiscono -30% danni\n- Inizio Combattimento: Concatenando una <color=#f8c200>Risonanza Assoluta</color>, ottieni <color=#f8c200>4 volte 1 Risorsa E.G.O tra quelle meno possedute</color>",
+      "summary": "Le Abilità con Affinità Gola infliggono più danno"
+    },
+    {
+      "id": "FavorBuff5001EnemySecond",
+      "name": "Ombra della Riflessione [Imboscata]",
+      "desc": "- Se la Velocità dell'attaccante è maggiore di quella di Ricardo quando lui è <color=#f8c200>Stordito</color>, Ricardo subisce <color=#f8c200>+(differenza Velocità x 2)% danni</color> (max 20%)",
+      "summary": "Subisce più danni in base alla differenza di Velocità"
+    },
+    {
+      "id": "FavorBuff5001Hard",
+      "name": "Tribolazione",
+      "desc": "- <color=#ff0000>PV Max</color> +25%\n- Le Abilità infliggono +20% danni",
+      "summary": "Tribolazione Mod. Difficile"
+    },
+    {
+      "id": "FavorBuff5001HardTwo",
+      "name": "Tribolazione",
+      "desc": "- <color=#ff0000>Pv Max</color> +25%\n- Le Abilità infliggono +20% danni\n-[Effetto Esclusivo della Fase 2]\n ·  PS di Ricardo e dei suoi Fratelli non scendono al di sotto di 0\n · Inizio Turno: Infligge 2 \"Annotato nel Libro\" a tutti i nemici che hanno attaccato Ricardo nel turno precedente",
+      "summary": "Tribolazione Mod. Difficile"
+    },
+    {
+      "id": "RicardoBookRaid",
+      "name": "Annotato nel Libro",
+      "desc": "Max Stack: 30\nSubisce +3% danni per ogni Stack",
+      "summary": ""
+    },
+    {
+      "id": "RicardoTattooRaid",
+      "name": "Tatuaggi Vendicativi",
+      "desc": "Max Stack: 300\nLe Abilità ottengono Livello Offensivo +1 per ogni 10 Stack",
+      "summary": ""
+    },
+    {
+      "id": "RicardoJokeRaid",
+      "name": "La Prova del Fratellone",
+      "desc": "Fine Turno: Perde 1 Stack\nFino a quando questo effetto è attivo, raddoppia il danno subito dalle Abilità e la quantità di Soglia di Stordimento aumentata da Scoppio Vibrazione",
+      "summary": ""
+    },
+    {
+      "id": "FavorBuff5012AllyOne",
+      "name": "Ombra della Riflessione [Caccia all'Orso]",
+      "desc": "- Le Abilità Attacco delle Identità con Affinità Ira o che infliggono Bruciatura o 'Bruciatura Speciale' infliggono +25% danni (le Abilità E.G.O infliggono invece +100% danni)\n- Quando la Soglia di Stordimento aumenta tramite Scoppio Vibrazione contro uno Scudo Nemico, infligge invece danno Ira\n· Quando si infligge danno Ira con l'effetto sovracitato, infligge +50% danni agli Scudi (arrotondato per difetto)\n- Quando si concatene una Risonanza, ottiene 1 risorsa E.G.O casuale tra quelle meno possedute e 1 risorsa E.G.O dell'Affinità della Risonanza (2 volte per turno)",
+      "summary": "Le Abilità Bruciatura e 'Bruciatura Speciale' infliggono più danno; aumentare la Soglia di Stordimento infligge danno Ira"
+    },
+    {
+      "id": "FavorBuff5012EnemyOne",
+      "name": "Ombra della Riflessione [Caccia all'Orso]",
+      "desc": "- Lo Scudo subisce +50% danni da Bruciatura e 'Bruciatura Speciale' (arrotondato per difetto)",
+      "summary": ""
+    },
+    {
+      "id": "FavorBuff5012AllyTwo",
+      "name": "Ombra della Riflessione [Caccia alla Tigre]",
+      "desc": "- Le Abilità Attacco delle Identità con Affinità Superbia o che applicano, fanno ottenere o consumano Equilibrio infliggono +25% danni (le Abilità E.G.O infliggono invece +100% danni)\n- Quando si usano Abilità Superbia, ottiene (Rango Abilità) Potenza Equilibrio e +2 Conteggio Equilibrio (2 volte per turno per Peccatore; le Abilità E.G.O vengono considerate come Abilità 3)\n- Applica i seguenti effetti alle Identità dei Discendenti della Spada:\n· La prima Soglia di Stordimento viene rimossa\n· Potere Finale +2\n· Infligge +30% danni e subisce -15% danni dai nemici",
+      "summary": "Le Abilità Equilibrio e Superbia infliggono più danni; ottiene Equilibrio quando usa le Abilità Superbia"
+    },
+    {
+      "id": "FavorBuff5012HardOne",
+      "name": "Tribolazione",
+      "desc": "- PV Max +25%\n- I PS non scendono al di sotto di 0\n- [Effetto Esclusivo di Im Gyeong-eop] Quando usa \"Sword of the Homeland [Sal] - Reassume Stance\" e \"Sword of the Homeland [Sal] - Swordhoning\", se questa unità ha 5 o meno Conteggio Equilibrio, ottiene +2 Conteggio Equilibrio",
+      "summary": ""
+    },
+    {
+      "id": "FavorBuff5012HardTwo",
+      "name": "Tribolazione",
+      "desc": "- PV Max +25%\n- I PS non scendono al di sotto di 0\n- [Effetto Esclusivo di Im Gyeong-eop] Quando usa \"Sword of the Homeland [Sal] - Reassume Stance\" o \"Sword of the Homeland [Sal] - Swordhoning\", se questa unità ha 5 o meno Conteggio Equilibrio, ottiene +2 Conteggio Equilibrio\n- [Effetto Esclusivo della Fase 2] Quando Swordplay of the Homeland [Sal] torna a 5 per gli effetti della Passiva \"Swordplay of the Homeland [Sal] - Shift Battleform\", ottiene o perde 2 Stack di Swordplay of the Homeland [Sal] in base a Battleform of the Homeland su di sé\n· Quando è nella Battleform of the Homeland - Bearhunt: Ottiene Stack\n· Quando è nella Battleform of the Homeland - Tigerhunt: Perde Stack",
+      "summary": ""
+    },
+    {
+      "id": "FavorBuff5012AllyOneForUI",
+      "name": "Ombra della Riflessione [Caccia all'Orso]",
+      "desc": "- Le Abilità Attacco delle Identità con <color=#f8c200>Affinità Ira o che infliggono Bruciatura o 'Bruciatura Speciale'</color> infliggono +25% danni (le Abilità E.G.O infliggono invece +100% danni)\n- Quando la Soglia di Stordimento aumenta tramite <color=#f8c200>Scoppio Vibrazione</color> contro uno Scudo Nemico, infligge invece <color=#f8c200>danno Ira</color>\n· Quando si infligge <color=#f8c200>danno Ira</color> con l'effetto sovracitato al bersaglio, o quando il bersaglio subisce danno da <color=#f8c200>Bruciatura o 'Bruciatura Speciale'</color>, <color=#f8c200>lo Scudo</color> del bersaglio subisce +50% danni (arrotondato per difetto)\n- Quando si concatene una Risonanza, ottiene 1 risorsa E.G.O casuale tra quelle meno possedute e 1 risorsa E.G.O dell'Affinità della Risonanza (2 volte per turno)",
+      "summary": ""
+    },
+    {
+      "id": "FavorBuff5012AllyTwoForUI",
+      "name": "Ombra della Riflessione [Caccia alla Tigre]",
+      "desc": "- Le <color=#f8c200>Abilità Attacco delle Identità con Affinità Superbia o che applicano, fanno ottenere o consumano Equilibrio</color> infliggono +25% danni (le Abilità E.G.O infliggono invece +100% danni)\n- Quando si usano Abilità Superbia, <color=#f8c200>ottiene (Rango Abilità) Potenza Equilibrio</color> e +2 Conteggio Equilibrio (2 volte per turno per Peccatore; le Abilità E.G.O vengono considerate come Abilità 3)\n- Applica i seguenti effetti alle <color=#f8c200>Identità dei Discendenti della Spada</color>:\n· La prima Soglia di Stordimento viene rimossa\n· Potere Finale +2\n· Infligge +30% danni e subisce -15% danni dai nemici"
+    },
+    {
+      "id": "FavorBuff5012HardTwoForUI",
+      "name": "Tribolazione",
+      "desc": "- <color=#ff0000>PV Max</color> +25%\n- I PS non scendono al di sotto di 0\n- [Effetto Esclusivo di Im Gyeong-eop] Quando usa \"Sword of the Homeland [Sal] - Reassume Stance\" o \"Sword of the Homeland [Sal] - Swordhoning\", e questa unità è ha <color=#ff0000>5 o meno Conteggio Equilibrio</color>, ottiene +2 Conteggio Equilibrio\n- [Effetto Esclusivo della Fase 2] Quando Swordplay of the Homeland [Sal] <color=#ff0000>torna a 5</color> per gli effetti della Passiva \"Swordplay of the Homeland [Sal] - Shift Battleform\", <color=#ff0000>ottiene o perde 2 Stack in più</color> di Swordplay of the Homeland [Sal] in base a Battleform of the Homeland su di sé\n· Quando è nella Battleform of the Homeland - Bearhunt: Ottiene Stack\n· Quando è nella Battleform of the Homeland - Tigerhunt: Perde Stack",
+      "summary": ""
+    }
+  ]
+}

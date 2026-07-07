@@ -1,0 +1,169 @@
+{
+  "dataList": [
+    {
+      "id": "ColdBlackTear",
+      "name": "Lacrime Nere e Fredde",
+      "desc": "- Max Stack: 5\n- Ad Inizio Turno: ottiene 1 Potere Scontro Diminuito\n- Se quest'unità viene colpita mentre ha quest'effetto, perde (Stack x 2) PS (1 volta per turno; non si attiva quando subisce un colpo da una Moneta Infranta)\n- Se è la Regina dell'Odio a ridurre quest'effetto, l'unità recupera 5 PS\n- Quest'effetto non può ridurre i PS di quest'unità al di sotto di -40",
+      "summary": ""
+    },
+    {
+      "id": "HelplessTear",
+      "name": "Lacrime Scroscianti",
+      "desc": "- Max Stack: 1\n- Ottiene 3 Livelli Offensivi\n- Perde 6 Livelli Difensivi\n- Tutte le Abilità ottengono +1 Portata Attacco\n- Tutte le Abilità diventano Monete Infrangibili\n- Infligge +1 Potenza e Conteggio Annegamento in più",
+      "summary": ""
+    },
+    {
+      "id": "WornOutKnight",
+      "name": "Orgoglio Consunto",
+      "desc": "Subisce +100% danni per questo turno",
+      "summary": "",
+      "flavor": "<color=#2e72b9><i>Il cavaliere che desiderava redimersi salvando gli altri adesso veniva chiamata, in modo disonorevole, Cavaliere della Disperazione; svanita dai ricordi della gente, esattamente come gli altri.</i></color>"
+    },
+    {
+      "id": "SignOfDespair",
+      "name": "Benedizione della Disperazione",
+      "desc": "Fine Attacco: Se ci sono bersagli senza Lacrime Nere e Fredde, rimuove quest'effetto il turno successivo\n\nOttiene 1 Potere Scontro Aumentato e 1 Danno Aumentato\nInfligge +1 Lacrime Nere e Fredde in più",
+      "summary": ""
+    },
+    {
+      "id": "CollapsedPride",
+      "name": "Orgoglio in Pezzi",
+      "desc": "Usato per la Passiva \"Cavaliere Consumato\"",
+      "summary": "",
+      "flavor": "<color=#2e72b9>Tutto ciò che resta è il vuoto orgoglio di un cavaliere consumato.</color>"
+    },
+    {
+      "id": "FailedToAssistQueen",
+      "name": "Qual è... il mio scopo...?",
+      "desc": "- Max Stack: 1\n- Perde 3 Livelli Offensivi\n- Perde 3 Livelli Difensivi",
+      "summary": ""
+    },
+    {
+      "id": "UsedTooMuchPower",
+      "name": "Ho usato troppo potere",
+      "desc": "- Max Stack: 1\n- A Fine Turno: scappa dall'Incontro",
+      "summary": "",
+      "flavor": "<color=#ff3d8f>Esausta ed incapace di muoversi.</color>"
+    },
+    {
+      "id": "ChasingArcana",
+      "name": "Incantesimo - Arcana Beats",
+      "desc": "- Max Stack: 3\n- Ne ottiene 1 all'Inizio del Turno\n- A 3 Stack, ottiene 20 Velocità e usa ARCANA BEATS il turno successivo",
+      "summary": ""
+    },
+    {
+      "id": "PowerOfLoveAndJustice",
+      "name": "Amore/Giustizia",
+      "desc": "- Per ogni Stack, infligge +1 Potenza Lacerazione in più",
+      "summary": ""
+    },
+    {
+      "id": "CentralCommandTeamCaptain",
+      "name": "Capitano della Squadra di Controllo Centrale",
+      "desc": "- Slot Abilità +1\n- Modifica le Abilità nel seguente modo: Ottiene 1 uso dell'Abilità 3, ma perde 1 uso dell'Abilità 1\n- Aumenta la quantità di Potenza Bruciatura, Sanguinamento, Lacerazione, Annegamento o Vibrazione inflitte con le Abilità di 1 ('Effetti Speciali' inclusi)\n- Aumenta la quantità Potenza Equilibrio o Conteggio Carica ('Carica Speciale' inclusa) ottenuti dalle Abilità di 1\n- Invece di andare in Panico o Corrodere, azzera i PS il turno successivo (1 volta per Incontro)\n- Le Abilità Attacco Base con 2+ Portata Attacco infliggono +30% danni\n- Se Uccide, ottiene +2 risorse E.G.O dell'Affinità dell'Abilità che ha sconfitto il nemico; ottiene +1 risorsa E.G.O per tutte le altre Affinità",
+      "summary": ""
+    },
+    {
+      "id": "BestWelfareTeamMember",
+      "name": "Agente Modello della Squadra di Welfare",
+      "desc": "- Aumenta la quantità di Bruciatura, Sanguinamento, Lacerazione, Annegamento, or Vibrazione inflitti di +1 (inclusi 'Effetti di Stato Speciali')\n- Invece di andare in Panico o Corrodere, azzera i PS il turno successivo (1 volta per Incontro)\n- Se questo effetto è applicato a Lobotomy E.G.O::La Lama Affilata con le Lacrime Rodion, ottiene 1 Danno Perforante Aumentato ad ogni Inizio Turno",
+      "summary": ""
+    },
+    {
+      "id": "ChasingArcanahard",
+      "name": "Incantesimo - Arcana Beats",
+      "desc": "- Max Stack: 3\n- Ottiene 1 a Inizio Turno\n- a 3 Stack: il turno successivo, ottiene 20 Rallentamento e usa ARCANA BEATS",
+      "summary": ""
+    },
+    {
+      "id": "HystericGauge",
+      "name": "Isteria",
+      "desc": "- Stack di Base: 0\n- Max Stack: 3\n- a Fine Turno...\n· a 0 o più PS, perde 1 Stack\n· a meno di 0 PS, ottiene 1 Stack",
+      "summary": ""
+    },
+    {
+      "id": "MagicalGirlAppear",
+      "name": "Arriva la Maghetta!",
+      "desc": "- In questo turno, questa unità usa Abilità Attacco Base con Monete Positive\n\n- Le Abilità Attacco Base infliggono +3% danni per ogni Amore/Odio su di sé (max 15%)",
+      "summary": ""
+    },
+    {
+      "id": "NoVillain",
+      "name": "Trasformazione Regressiva Rovesciata",
+      "desc": "- In questo turno, questa unità usa Abilità Attacco Base con Monete Negative",
+      "summary": ""
+    },
+    {
+      "id": "VillainMark",
+      "name": "Marchio del Cattivo",
+      "desc": "- Subisce +10% danni da Don Quixote\n\n- Si applica solo al primo bersaglio che subisce quell'effetto questo turno",
+      "summary": ""
+    },
+    {
+      "id": "ArcanaQueenOfHate",
+      "name": "Arcano Magico",
+      "desc": "- Max Stack: 3\n- Le Abilità Attacco Base infliggono +(Stack x 5)% danni\n- Fine Turno: a 3 Stack e a -25 o più PS, porta i PS a -25",
+      "summary": ""
+    },
+    {
+      "id": "ThePowerOfLoveAndHate",
+      "name": "Amore/Odio",
+      "desc": "- Max Conteggio: 20\n- Carica Speciale\n- Risorsa usata da alcune abilità per effetti aggiuntivi. Il suo Conteggio arriva fino a 20. Il Conteggio si abbassa di 1 alla fine di ogni turno.\n(Interagisce come la Carica normale con gli effetti che incrementano o abbassano Potenza/Conteggio Carica)",
+      "summary": ""
+    },
+    {
+      "id": "MagicalGirlResponse",
+      "name": "Incantesimo della Maghetta",
+      "desc": "- Max Stack: 2\n- Quando ottiene questo effetto, ottiene 1 Potere Attacco Aumentato and 1 Danno Aumentato\n- Le Abilità Attacco di questa unità che ottengono o consumano Conteggio Carica ottengono Potere Finale +1 e infliggono +10% danni\n- Si riduce di 1 a Fine Turno",
+      "summary": ""
+    },
+    {
+      "id": "BlessingAlly",
+      "name": "Benedizione",
+      "desc": "- Inizio Turno: ottiene 1 Spada Protettiva per ogni 8 PS (max 5)\n- A Fine Scontro, infligge 2 Annegamento (1 volta per turno)\n- Subendo un colpo, infligge 2 Annegamento all'attaccante (1 volta per turno)\n- Per ogni 20 PS, infligge +1 Potenza Annegamento in più con gli effetti suddetti (max 2)\n- Rimpiazza le Abilità Base di questa unità con Abilità con Monete Positive",
+      "summary": ""
+    },
+    {
+      "id": "ProtectiveSword",
+      "name": "Spada Protettiva",
+      "desc": "- Inizio Turno: ottiene 1 Livello Difensivo Aumentato per ogni Stack (max 5)\n- Inizio Turno: +(Stack x 3) Provocazione sullo Slot Abilità più a sinistra sul Pannello di Controllo (max 15)\n- Max Stack: 5\n- Si esaurisce a Fine Turno",
+      "summary": ""
+    },
+    {
+      "id": "DespairAlly",
+      "name": "Disperazione",
+      "desc": "- Inizio Turno: ottiene 1 Spada Protettiva per ogni -8 PS (max 5)\n- A Fine Scontro, infligge +1 Conteggio Annegamento (1 volta per turno)\n- Sul Colpo con la prima moneta di un'Abilità Attacco Base, infligge +1 Conteggio Annegamento (1 volta per turno)\n- Per ogni -20 PS, infligge +1 more Conteggio Annegamento con gli effetti suddetti (max 2)\n- Rimpiazza le Abilità Base di questa unità con Abilità con Monete Negative",
+      "summary": ""
+    },
+    {
+      "id": "PenetratingSword",
+      "name": "Spada Perforante",
+      "desc": "- Inizio Turno: ottiene 1 Livello Offensivo Aumentato per ogni Stack (max 5)\n- Inizio Turno: -(Stack x 0.15) Provocazione a tutti gli Slot Abilità sul Pannello di Controllo (max 0.75)\n- Max Stack: 5\n- Si esaurisce a Fine Turno",
+      "summary": ""
+    },
+    {
+      "id": "SwordCutwithTear",
+      "name": "Lacrime Taglienti",
+      "desc": "- Inizio Turno: ottiene 5 Lacrime Intense\n· a 3 Stack, ottiene altre 5 Lacrime Intense\n- Fine Turno: perde (Stack x 15) PS\n- Le Abilità Attacco Base infliggono +(Stack x 10)% danni (max 30%)\n- Se questa unità ha Benedizione, ottiene Potere Scontro Aumentato pari alle Stack dell'effetto a Inizio Turno\n- Se questa unità ha Disperazione, ottiene Potere Perforante Aumentato pari alle Stack dell'effetto a Inizio Turno\n- Max Stack: 3",
+      "summary": ""
+    },
+    {
+      "id": "BlackTearsAlly",
+      "name": "Lacrime Intense",
+      "desc": "- Carica Speciale (Potenza fissa)\n- Risorsa usata da alcune abilità per effetti aggiuntivi\n- Max Stack: 20",
+      "summary": ""
+    },
+    {
+      "id": "KnightBless",
+      "name": "Benedizione",
+      "desc": "- Inizio Turno: ottiene 2 Protezione\n- Cambia le Resistenze ai tipi di Attacco maggiore di 1 a 1 (se questa unità non viene Stordita)",
+      "summary": ""
+    },
+    {
+      "id": "TraumaShield",
+      "name": "Scudo Anti-Trauma",
+      "desc": "- Riduce i danni ai PS dai nemici dell' 80%\n- Reduce i danni da Annegamento subiti dell'80%\n- Si riduce di 1 a Fine Turno",
+      "summary": ""
+    }
+  ]
+}

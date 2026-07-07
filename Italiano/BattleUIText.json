@@ -1,0 +1,876 @@
+{
+  "dataList": [
+    {
+      "id": "battle_battleunit_guard",
+      "content": "Guardia"
+    },
+    {
+      "id": "popup_message_ego_seat_lack",
+      "content": "E.G.O non utilizzabile. Controlla lo spazio disponibile."
+    },
+    {
+      "id": "popup_message_ego_resources_lack",
+      "content": "E.G.O non utilizzabile. Controlla le risorse."
+    },
+    {
+      "id": "option_title",
+      "content": "Opzioni"
+    },
+    {
+      "id": "option_btn_exit",
+      "content": "Esci dalla Sezione"
+    },
+    {
+      "id": "option_btn_statistical",
+      "content": "Dati Combattimento"
+    },
+    {
+      "id": "creature_destroy_notice",
+      "content": "Parte Rotta"
+    },
+    {
+      "id": "oneside_attack",
+      "content": "Incontrastato"
+    },
+    {
+      "id": "guard",
+      "content": "Guardia"
+    },
+    {
+      "id": "power",
+      "content": "Potenza"
+    },
+    {
+      "id": "require",
+      "content": "Richiede"
+    },
+    {
+      "id": "battle_log_atk_hp",
+      "content": "{0} infligge {2} danni a {1}!"
+    },
+    {
+      "id": "battle_log_atk_mp",
+      "content": "{0} infligge {2} danni alla sanità di {1}!"
+    },
+    {
+      "id": "battle_log_recover_hp",
+      "content": "{0} cura {2} PV con {1}."
+    },
+    {
+      "id": "battle_log_guard",
+      "content": "{0} alza la guardia."
+    },
+    {
+      "id": "battle_log_buf_to_other",
+      "content": "{0} applica {3} {2} a {1}."
+    },
+    {
+      "id": "battle_log_buf_to_self",
+      "content": "{0} applica {2} {1} su di sé."
+    },
+    {
+      "id": "battle_log_use_ego",
+      "content": "{0} attiva {1}!!"
+    },
+    {
+      "id": "battle_log_use_ego_corrosion",
+      "content": "{1} corrode {0}!!"
+    },
+    {
+      "id": "battle_log_personality_corrosion",
+      "content": "{0} ha una crisi!!"
+    },
+    {
+      "id": "battle_log_low_morale",
+      "content": "{0} ha morale basso!"
+    },
+    {
+      "id": "battle_log_panic",
+      "content": "{0} va nel panico!!"
+    },
+    {
+      "id": "choice_result_success",
+      "content": "Prova Superata"
+    },
+    {
+      "id": "choice_result_fail",
+      "content": "Prova Fallita"
+    },
+    {
+      "id": "choice_result_skip",
+      "content": "Prova Saltata"
+    },
+    {
+      "id": "info_button_detailinfo",
+      "content": "Dettagli"
+    },
+    {
+      "id": "info_button_skill",
+      "content": "Abilità"
+    },
+    {
+      "id": "info_button_awakenskill",
+      "content": "Attivazione"
+    },
+    {
+      "id": "info_button_erosionskill",
+      "content": "Corrosione"
+    },
+    {
+      "id": "resonance",
+      "content": " Risonanza"
+    },
+    {
+      "id": "perfect_resonance",
+      "content": "Risonanza Assoluta"
+    },
+    {
+      "id": "break",
+      "content": "STORDITO"
+    },
+    {
+      "id": "mental_break",
+      "content": "CRISI"
+    },
+    {
+      "id": "low_morale",
+      "content": "Morale Basso"
+    },
+    {
+      "id": "panic",
+      "content": "Panico"
+    },
+    {
+      "id": "status",
+      "content": "Stato"
+    },
+    {
+      "id": "status_abnormal",
+      "content": "Effetti"
+    },
+    {
+      "id": "immunity_information",
+      "content": "Resistenze"
+    },
+    {
+      "id": "awaken_ego_skill",
+      "content": "Attivazione"
+    },
+    {
+      "id": "erosion_ego_skill",
+      "content": "Corrosione"
+    },
+    {
+      "id": "turnplace_test_name",
+      "content": "Un Ramo Abbandonato della LC"
+    },
+    {
+      "id": "death",
+      "content": "MORTO"
+    },
+    {
+      "id": "slash",
+      "content": "Tagliente"
+    },
+    {
+      "id": "penetrate",
+      "content": "Perforante"
+    },
+    {
+      "id": "hit",
+      "content": "Contundente"
+    },
+    {
+      "id": "action_disable",
+      "content": "Immobile"
+    },
+    {
+      "id": "ab_event_select_character",
+      "content": "Seleziona Peccatore"
+    },
+    {
+      "id": "ab_event_select_desc",
+      "content": "Info"
+    },
+    {
+      "id": "ab_event_rate",
+      "content": "Probabilità Successo"
+    },
+    {
+      "id": "formet_event_rate",
+      "content": "Probabilità Successo: {0}"
+    },
+    {
+      "id": "ab_event_decision",
+      "content": "Inizia"
+    },
+    {
+      "id": "ab_event_need",
+      "content": "Richiesto"
+    },
+    {
+      "id": "ab_battle_resume",
+      "content": "Riprendi Combattimento"
+    },
+    {
+      "id": "info_button_choice_log",
+      "content": "Registro Decisioni"
+    },
+    {
+      "id": "info_button_story",
+      "content": "Storia"
+    },
+    {
+      "id": "info_button_ego",
+      "content": "E.G.O"
+    },
+    {
+      "id": "dungeon_encounter_start",
+      "content": "Inizio"
+    },
+    {
+      "id": "dungeon_encounter_battle",
+      "content": "Incontro Regolare"
+    },
+    {
+      "id": "dungeon_encounter_ab_battle",
+      "content": "Incontro Mirato"
+    },
+    {
+      "id": "dungeon_encounter_hard_battle",
+      "content": "Incontro Rischioso"
+    },
+    {
+      "id": "dungeon_encounter_event",
+      "content": "Evento"
+    },
+    {
+      "id": "dungeon_encounter_save",
+      "content": "Checkpoint"
+    },
+    {
+      "id": "dungeon_encounter_boss",
+      "content": "Boss Piano"
+    },
+    {
+      "id": "bottom_winrate",
+      "content": "Prob. Vitt."
+    },
+    {
+      "id": "bottom_dmg",
+      "content": "Danni"
+    },
+    {
+      "id": "ab_event_next",
+      "content": "Procedi"
+    },
+    {
+      "id": "explanatory",
+      "content": "Legenda"
+    },
+    {
+      "id": "get_ego_gift",
+      "content": "Dono E.G.O Ottenuto"
+    },
+    {
+      "id": "get_ego_gift_desc",
+      "content": "Dono E.G.O Ottenuto!"
+    },
+    {
+      "id": "selection",
+      "content": "Scelte"
+    },
+    {
+      "id": "result",
+      "content": "Risultati"
+    },
+    {
+      "id": "choice_total_rate",
+      "content": "Probabilità Riusc. Totale"
+    },
+    {
+      "id": "enter",
+      "content": "Entra"
+    },
+    {
+      "id": "recommend_level",
+      "content": "Liv. Consigliato"
+    },
+    {
+      "id": "enemy_info",
+      "content": "Info Nemici"
+    },
+    {
+      "id": "enter_clear_requirement",
+      "content": "Obiettivo Extra"
+    },
+    {
+      "id": "choice_event_resume",
+      "content": "Continua"
+    },
+    {
+      "id": "crime_state_judgment",
+      "content": "Prova {0}"
+    },
+    {
+      "id": "choice_personality",
+      "content": "Scegli un personaggio con cui affrontare la prova:"
+    },
+    {
+      "id": "success_result",
+      "content": "Soglia"
+    },
+    {
+      "id": "expectation_result",
+      "content": "Predizione"
+    },
+    {
+      "id": "outcome_result",
+      "content": "Esito"
+    },
+    {
+      "id": "choice_event_percent",
+      "content": "Probabilità"
+    },
+    {
+      "id": "skill_expectition_value",
+      "content": "Gamma Predetta: {0}-{1}"
+    },
+    {
+      "id": "skill_expectition_or_value",
+      "content": "Valore Predetto: {0} / {1}"
+    },
+    {
+      "id": "skill_correction_value",
+      "content": "{0} Modificatore: {1}"
+    },
+    {
+      "id": "correction_based_on_association",
+      "content": "{0} Modificatore Fazione: {1}(, )"
+    },
+    {
+      "id": "action_choice_event_result_example_battle",
+      "content": "Combattimento"
+    },
+    {
+      "id": "action_choice_event_result_example_event",
+      "content": "Evento"
+    },
+    {
+      "id": "action_choice_event_result_example_resume",
+      "content": "Continua"
+    },
+    {
+      "id": "areaatk_attack",
+      "content": "Abilità ad Area"
+    },
+    {
+      "id": "enter_battle",
+      "content": "Inizia Combattimento"
+    },
+    {
+      "id": "choice_event_five_percent",
+      "content": "5% Probabilità"
+    },
+    {
+      "id": "choice_event_five_percent_success",
+      "content": "5% Probabilità Successo"
+    },
+    {
+      "id": "skillinfo_passivetitle",
+      "content": "Passive"
+    },
+    {
+      "id": "skillinfo_coinabilitytitle",
+      "content": "Effetti Abilità"
+    },
+    {
+      "id": "dungeon_save_desc",
+      "content": "Checkpoint raggiunto.\nProgressi del Dungeon salvati.\nTutti i Peccatori sono stati curati."
+    },
+    {
+      "id": "battle_battleunit_evade",
+      "content": "Evasione"
+    },
+    {
+      "id": "battle_battleunit_counter",
+      "content": "Contrattacco"
+    },
+    {
+      "id": "battle_operation_defence",
+      "content": "Difesa"
+    },
+    {
+      "id": "battle_increase_mp",
+      "content": "Sanità Su"
+    },
+    {
+      "id": "battle_decrease_mp",
+      "content": "Sanità Giù"
+    },
+    {
+      "id": "dungeon_encounter_type_start",
+      "content": "Inizio"
+    },
+    {
+      "id": "dungeon_encounter_type_battle",
+      "content": "Incontro Regolare"
+    },
+    {
+      "id": "dungeon_encounter_type_ab_battle",
+      "content": "Incontro Mirato"
+    },
+    {
+      "id": "dungeon_encounter_type_hard_battle",
+      "content": "Incontro Rischioso"
+    },
+    {
+      "id": "dungeon_encounter_type_event",
+      "content": "Evento"
+    },
+    {
+      "id": "dungeon_encounter_type_save",
+      "content": "Stanza Sicura"
+    },
+    {
+      "id": "dungeon_encounter_type_boss",
+      "content": "Incontro Boss"
+    },
+    {
+      "id": "battle_mp",
+      "content": "Sanità"
+    },
+    {
+      "id": "abnormality_part_hp",
+      "content": "PV Parte"
+    },
+    {
+      "id": "abnormality_research_level",
+      "content": "Livello Oss."
+    },
+    {
+      "id": "abnormality_no_research_level",
+      "content": "Dati Mancanti"
+    },
+    {
+      "id": "Insufficient_conditions",
+      "content": "Condizioni Non Raggiunte"
+    },
+    {
+      "id": "skillinfo_keyword",
+      "content": "Tratti"
+    },
+    {
+      "id": "ability_turn",
+      "content": "Cont."
+    },
+    {
+      "id": "ego_erosion",
+      "content": "Corrosione E.G.O"
+    },
+    {
+      "id": "continuous_turn",
+      "content": "Turni"
+    },
+    {
+      "id": "status_buff_list",
+      "content": "Effetti"
+    },
+    {
+      "id": "stack",
+      "content": "Stack"
+    },
+    {
+      "id": "slash_resistance",
+      "content": "Res. Tagliente"
+    },
+    {
+      "id": "penetrate_resistance",
+      "content": "Res. Perforante"
+    },
+    {
+      "id": "hit_resistance",
+      "content": "Res. Contundente"
+    },
+    {
+      "id": "Lack_Buff",
+      "content": "Niente {0}!"
+    },
+    {
+      "id": "received_the_golden_bough",
+      "content": "Ramo Dorato Recuperato"
+    },
+    {
+      "id": "destroyable",
+      "content": "Distruggibile"
+    },
+    {
+      "id": "resumption",
+      "content": "Riprendi"
+    },
+    {
+      "id": "stage_GiveUp",
+      "content": "Abbandona"
+    },
+    {
+      "id": "show_skillTool",
+      "content": "Mostra Strumenti Abilità"
+    },
+    {
+      "id": "auto_coinToss",
+      "content": "Lancio Moneta Auto"
+    },
+    {
+      "id": "babayaga_alert",
+      "content": "Hai altre {0} possibilità."
+    },
+    {
+      "id": "battle_operation_offset",
+      "content": "Devia"
+    },
+    {
+      "id": "oneside_defense",
+      "content": "Guardia Incontrastata"
+    },
+    {
+      "id": "cantIdentify",
+      "content": "<color=#ff0000>[Indiscriminato]</color>"
+    },
+    {
+      "id": "popup_message_ego_irrevocable",
+      "content": "Le Abilità E.G.O generate i turni precedenti non si possono annullare."
+    },
+    {
+      "id": "stock",
+      "content": "Totali"
+    },
+    {
+      "id": "stable",
+      "content": "Stabile"
+    },
+    {
+      "id": "un_stable",
+      "content": "Instabile"
+    },
+    {
+      "id": "vibration_explosion",
+      "content": "Scoppio Vibrazione!"
+    },
+    {
+      "id": "sinking_surge",
+      "content": "Annegamento Istantaneo!"
+    },
+    {
+      "id": "targetSlotWeight",
+      "content": "Portata Att."
+    },
+    {
+      "id": "EGO_ErodeProbability",
+      "content": "% Corrosione"
+    },
+    {
+      "id": "EGOSelectUI_resources_lack",
+      "content": "Risorse insufficenti.\nControllare le risorse a destra dello schermo."
+    },
+    {
+      "id": "EGOSelectUI_DetailInfo",
+      "content": "Dettagli"
+    },
+    {
+      "id": "ab_part_destroyable",
+      "content": "Distruggibile"
+    },
+    {
+      "id": "ab_part_destroyable_and_can_vanish",
+      "content": "Distr. e Staccabile"
+    },
+    {
+      "id": "ab_guidebook_view",
+      "content": "Registro Oss."
+    },
+    {
+      "id": "show_BattleAblityUI",
+      "content": "Mostra IU dettagliata nella Fase di Combattimento"
+    },
+    {
+      "id": "Ahab_NotTarget_Onece",
+      "content": "Dove il mio Arpione deve colpire..."
+    },
+    {
+      "id": "Ahab_NotTarget_Twice",
+      "content": "... A volte, la risposta non è di fronte a me."
+    },
+    {
+      "id": "Ahab_NotTarget_Thrice",
+      "content": "A volte, per andare avanti...\n... Dovrei girarmi e guardare al mio fianco."
+    },
+    {
+      "id": "show_BattleUnitAblityUI",
+      "content": "Mostra effetti attivi nella IU della Fase di Combattimento"
+    },
+    {
+      "id": "LobotomyStartTypo_Title_1",
+      "content": "L'Alba Verde"
+    },
+    {
+      "id": "LobotomyStartTypo_Name_1",
+      "content": "Dubbio"
+    },
+    {
+      "id": "LobotomyStartTypo_Desc_1",
+      "content": "Un giorno, mi venne in mente una domanda. Da dove veniamo? Ci è stata data la vita per poi abbandonarci in questo mondo contro volontà."
+    },
+    {
+      "id": "LobotomyStartTypo_KillCountTitle_1",
+      "content": "Stato Soppressione"
+    },
+    {
+      "id": "LobotomyClearTypo_Title_1",
+      "content": "L'Alba Verde"
+    },
+    {
+      "id": "LobotomyClearTypo_Name_1",
+      "content": "Dubbio"
+    },
+    {
+      "id": "LobotomyClearTypo_Desc_1",
+      "content": "Vivere era un processo doloroso."
+    },
+    {
+      "id": "LobotomyEndTypo_Title",
+      "content": "Tempo Limite Raggiunto"
+    },
+    {
+      "id": "LobotomyEndTypo_Desc",
+      "content": "Entità dell'Ordalia Rimaste: {0}"
+    },
+    {
+      "id": "abnormality_all_part",
+      "content": "Tutte le Parti"
+    },
+    {
+      "id": "applying_buff_format",
+      "content": "{0} Attivato"
+    },
+    {
+      "id": "level_number_UNDEF",
+      "content": "Indef."
+    },
+    {
+      "id": "level_number_HYPHEN",
+      "content": "-"
+    },
+    {
+      "id": "received_the_golden_bough_undecided",
+      "content": "?"
+    },
+    {
+      "id": "vibration_fusion",
+      "content": "Sovrapposizione Ondulare!"
+    },
+    {
+      "id": "BatonPassUIText",
+      "content": "Sostituisci"
+    },
+    {
+      "id": "perfect",
+      "content": "Risonanza Assoluta"
+    },
+    {
+      "id": "ab_part_destroyed",
+      "content": "Distrutta"
+    },
+    {
+      "id": "ab_part_vanished",
+      "content": "Distr. E Separata"
+    },
+    {
+      "id": "ab_part_cannot_destroy_and_vanish",
+      "content": "Indistr. E Insep."
+    },
+    {
+      "id": "current_hp",
+      "content": "PV Correnti"
+    },
+    {
+      "id": "break_section_format",
+      "content": "Stordito [{0}]"
+    },
+    {
+      "id": "no_break_section",
+      "content": "Non Viene Stordito"
+    },
+    {
+      "id": "correction_based_on_unit_keyword",
+      "content": "{0} Modificatore Identità: {1}(, )"
+    },
+    {
+      "id": "battle_operation_counter",
+      "content": "Contratt. Scontrabile"
+    },
+    {
+      "id": "LOBOTOMY_ORDEAL_TIME_TYPE_0",
+      "content": "Alba"
+    },
+    {
+      "id": "LOBOTOMY_ORDEAL_TIME_TYPE_1",
+      "content": "Mezzogiorno"
+    },
+    {
+      "id": "LOBOTOMY_ORDEAL_TIME_TYPE_2",
+      "content": "Tramonto"
+    },
+    {
+      "id": "LOBOTOMY_ORDEAL_TIME_TYPE_3",
+      "content": "Mezzanotte"
+    },
+    {
+      "id": "LobotomyOrdealTypo_QliphothLevel",
+      "content": "Instabilità Qliphoth - Livello {0}"
+    },
+    {
+      "id": "SinkingWhite_stack",
+      "content": "I Vivi"
+    },
+    {
+      "id": "SinkingWhite_turn",
+      "content": "I Defunti"
+    },
+    {
+      "id": "BulletLament_stack",
+      "content": "I Vivi (Mun.)"
+    },
+    {
+      "id": "BulletLament_turn",
+      "content": "I Defunti (Mun.)"
+    },
+    {
+      "id": "Retreat_TextAlarm",
+      "content": "!Ritirata!"
+    },
+    {
+      "id": "Retreat_TextPassive",
+      "content": "In Ritirata"
+    },
+    {
+      "id": "battle_operation_defense",
+      "content": "Guardia Scontrabile"
+    },
+    {
+      "id": "battle_operation_defense_TextTypo",
+      "content": "Depotenziata!"
+    },
+    {
+      "id": "battle_StageBuffUI_Stackdesc",
+      "content": "(Valore Corrente: {0})"
+    },
+    {
+      "id": "EGOSelectUI_not_allow",
+      "content": "Questo E.G.O non può essere equipaggiato al momento."
+    },
+    {
+      "id": "laceration_surge",
+      "content": "Sanguinamento Incessante!"
+    },
+    {
+      "id": "QTE_Notice",
+      "content": "GALOPPIAMO, INSIEME!"
+    },
+    {
+      "id": "septempeccata_classification",
+      "content": "Classe {0}"
+    },
+    {
+      "id": "run_forBattlePortraitStateText",
+      "content": "SCAPPA"
+    },
+    {
+      "id": "ReturnPassUIText",
+      "content": "Rientra"
+    },
+    {
+      "id": "NoHavePassive",
+      "content": "Passiva di Supporto Bloccata\nLega per Sbloccare"
+    },
+    {
+      "id": "LocalSetButtonTitle_ImportanceLevel",
+      "content": "Aiuto"
+    },
+    {
+      "id": "Retreat_Command_TextAlarm",
+      "content": "!Ritirata Ordinata!"
+    },
+    {
+      "id": "Retreat_Quit_TextAlarm",
+      "content": "!Ritirata dal Campo di Battaglia!"
+    },
+    {
+      "id": "ab_part_gadget_activated",
+      "content": "On"
+    },
+    {
+      "id": "ab_part_gadget_deactivated",
+      "content": "Off"
+    },
+    {
+      "id": "UpperSkillInfo_Player_ImportanceLevel_1_Desc",
+      "content": "!Priorità: Media!"
+    },
+    {
+      "id": "UpperSkillInfo_Player_ImportanceLevel_2_Desc",
+      "content": "!Priorità: Alta!"
+    },
+    {
+      "id": "UpperSkillInfo_Player_ImportanceLevel_3_Desc",
+      "content": "!Priorità: Molto Alta!"
+    },
+    {
+      "id": "UpperSkillInfo_Enemy_ImportanceLevel_1_Desc",
+      "content": "!Priorità: Media!"
+    },
+    {
+      "id": "UpperSkillInfo_Enemy_ImportanceLevel_2_Desc",
+      "content": "!Priorità: Alta!"
+    },
+    {
+      "id": "UpperSkillInfo_Enemy_ImportanceLevel_3_Desc",
+      "content": "!Priorità: Molto Alta!"
+    },
+    {
+      "id": "EgoGiftListPopupTabType_CANDIDATE",
+      "content": "Condizionale"
+    },
+    {
+      "id": "EgoGiftListPopupTabType_EXCLUDE_CANDIDATE",
+      "content": "Sempre Attivo"
+    },
+    {
+      "id": "EgoGiftListPopupTabType_active",
+      "content": "Attivato"
+    },
+    {
+      "id": "UnitInformation_emptySkillList",
+      "content": "Nessuna Abilità in questa categoria."
+    },
+    {
+      "id": "retire_forBattlePortraitStateText",
+      "content": "Incapacitato"
+    },
+    {
+      "id": "KAA1C9ActivateEffect",
+      "content": "Ampolla della K Corp. Usata"
+    },
+    {
+      "id": "contMineInfo_Title",
+      "content": "Progressi:"
+    },
+    {
+      "id": "contMineInfo_Desc_Valid_Reward",
+      "content": "※ Abbandonare la Sezione adesso costa {0} Moduli di Encefalina e fa ottenere ricompense in base al numero di Moduli usati"
+    },
+    {
+      "id": "contMineInfo_Desc_Invalid_Reward",
+      "content": "※ Abbandonare la Sezione adesso non costa Moduli di Encefalina e non fa ottenere ricompense"
+    }
+  ]
+}

@@ -1,0 +1,375 @@
+{
+  "dataList": [
+    {
+      "id": "IndexPrescriptTargetToPersonality",
+      "name": "Obiettivo del Prescritto - L'Indice",
+      "desc": "Potere Abilità -2 contro i nemici dell'Indice; Subisce +20% danni dai i nemici dell'Indice",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BlessingOfIndexPrescriptEnemy",
+      "name": "Grazia del Prescritto",
+      "desc": "- Livello Offensivo +1 per ogni 3 Stack\n- Max Stack: 9",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "IndexPrescript_Base_2nd",
+      "name": "Prescritto",
+      "desc": "Ottiene Prescritto: [Dispositivo] in condizioni specifiche",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Le vie del Prescritto sono numerose, le quali vengono stabilite in modo simile ad una profezia divina. Coloro che li ricevono non hanno potere su come essi arrivino."
+    },
+    {
+      "id": "IndexPrescriptStudent_0",
+      "name": "Prescritto: [Dispositivo] I",
+      "desc": "Attacca e colpisci il bersaglio del Prescritto.\n\n- Inizio Turno: Ottiene questo effetto quando quest'unità non ha livelli di Sprigiona\n- Con questo Prescritto, Grazia del Prescritto si cumula fino a massimo 3 volte",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Le vie del Prescritto sono numerose, le quali vengono stabilite in modo simile ad una profezia divina. Coloro che li ricevono non hanno potere su come essi arrivino."
+    },
+    {
+      "id": "IndexPrescriptStudent_1",
+      "name": "Prescritto: [Dispositivo] II",
+      "desc": "Colpisci il bersaglio del Prescritto con l'Abilità che appare nel primo Slot, oppure elimina un bersaglio casuale.\n\n- Inizio Turno: Ottiene questo effetto quando quest'unità ha Sprigiona - I\n- Con questo Prescritto, Grazia del Prescritto si cumula fino a massimo 6 volte",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Le vie del Prescritto sono numerose, le quali vengono stabilite in modo simile ad una profezia divina. Coloro che li ricevono non hanno potere su come essi arrivino."
+    },
+    {
+      "id": "IndexPrescriptStudent_2",
+      "name": "Prescritto: [Dispositivo] III",
+      "desc": "Stordisci o elimina un bersaglio casuale.\n\n- Inizio Turno: Ottiene questo effetto quando quest'unità ha Sprigiona - II\n- Con questo Prescritto, Grazia del Prescritto si cumula fino a massimo 9 volte",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Le vie del Prescritto sono numerose, le quali vengono stabilite in modo simile ad una profezia divina. Coloro che li ricevono non hanno potere su come essi arrivino."
+    },
+    {
+      "id": "IndexPrescriptStudent_3",
+      "name": "Prescritto: [Dispositivo] IV",
+      "desc": "Elimina tutti gli ostacoli prima che il prossimo Prescritto venga recapitato.\n\n- Inizio Turno: Ottiene questo effetto quando quest'unità ha Sprigiona - III",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Le vie del Prescritto sono numerose, le quali vengono stabilite in modo simile ad una profezia divina. Coloro che li ricevono non hanno potere su come essi arrivino."
+    },
+    {
+      "id": "UnlockBuff_1",
+      "name": "Sprigiona - I",
+      "desc": "- Livello Offensivo +1, Livello Difensivo +1\n- Fine Combattimento: Recupera 15 PS",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "UnlockBuff_2",
+      "name": "Sprigiona - II",
+      "desc": "- Livello Offensivo +2, Livello Difensivo +2\n- Fine Combattimento: Recupera 30 PS",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "UnlockBuff_3",
+      "name": "Sprigiona - III",
+      "desc": "- Livello Offensivo +3, Livello Difensivo +3\n- Fine Combattimento: Recupera 45 PS",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "KarmaOfIndexStudent",
+      "name": "Conseguenza Karmica",
+      "desc": "- Inizio Turno:\n· Ottiene 1 Livello Difensivo Diminuito per ogni 10 Stack\n· Ottiene 1 Fragile per ogni 20 Stack\n- Max Stack: 100",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Ricevi il Prescritto e portalo a termine. La sua esecuzione è come il karma, partecipe in un ciclo senza fine che tornerà al suo esecutore."
+    },
+    {
+      "id": "Blandishment_Enemy",
+      "name": "Fede Incontestabile",
+      "desc": "- Velocità Min & Max +1\n- Livello Offensivo +3, Livello Difensivo +3\n- Ottiene +1 Potenza Equilibrio in più dalle Abilità",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "\"Non... Non è evidente? Ogni parola che il cercapersone ci concede è senza dubbio... indiscutibile.\""
+    },
+    {
+      "id": "Blandishment_Shin_Enemy",
+      "name": "Shin (心) - Sora",
+      "desc": "- Velocità Min & Max +1\n- Livello Offensivo +2, Livello Difensivo +2\n- Ottiene +1 Potenza e Conteggio Equilibrio in più dalle Abilità\n- Infligge +(% PV mancanti + 25)% danni (max 100%)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "PressureOfPrescript",
+      "name": "Onus",
+      "desc": "- Deal +25% damage for every Stack (max 50%)\n- Under Effloresced E.G.O::Procuration state:\n· At 1 Stack, Final Power +1\n· At 2 Stack, Final Power +3 instead\n- Max Stack: 2",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "'W-what should I do? What is unquestionable must be carried out unquestionably...'"
+    },
+    {
+      "id": "PressureOfPrescript_2nd",
+      "name": "Extreme Onus",
+      "desc": "- Deal +50% damage for every Stack (max 100%)\n- Under Effloresced E.G.O::Procuration state:\n· At 1 Stack, Final Power +2\n· At 2 Stack, Plus Coin Power +1 and Final Power +3 instead\n- Max Stack: 2\n- When using certain Skills, counts as Onus and is consumed",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BlindFaith_LowMorale",
+      "name": "Prescript Incompliance Risk",
+      "desc": "- Low Morale\n- Deal +20% damage to targets that have The Prescript's Target\n- Take +10% damage from targets that do not have The Prescript's Target",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BlindFaith_Panic",
+      "name": "Prescript Incompliance Risk",
+      "desc": "- Panic\n- Deal +30% damage to targets that have The Prescript's Target\n- Take +20% damage from targets that do not have The Prescript's Target",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "YellowHarpoon",
+      "name": "The Yellow Harpoon",
+      "desc": "- Turn Start: Gain 4 Haste and 8 Poise\n- Turn End: Gain +3 Poise Count if an enemy has Nested Harpoon",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "YellowHarpoonSin",
+      "name": "Shin(心) - The Yellow Harpoon",
+      "desc": "- Base Offense Level +3, Base Defense Level +3\n- Heal 3 SP when attacking target that attacked this unit last turn\n- At 0+ SP, gain Final Power by (SP / 10) (rounded down)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BeeSting",
+      "name": "Nested Harpoon [Beesting]",
+      "desc": "- Slash Resist. +0.2, Sloth Resist. +0.2\n- Turn End: Gain 2 Bind next turn\n- On Hit: Gain 1 Bleed Potency\n- When attacked by Vespa, gain 2 Gungnir's Droning\n- Activate Bleed on this unit once when this effect is removed",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "ArtifactBeeSting",
+      "name": "Nested Harpoon [Waspsting]",
+      "desc": "- Slash Resist. +1, Sloth Resist. +1\n- Turn End: Gain 4 Bind next turn\n- On Hit: Gain 3 Bleed Potency\n- When attacked by Vespa, gain 3 Gungnir's Droning\n- Activate Bleed on this unit 2 times when this effect is removed",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "HornetPoison",
+      "name": "Gungnir's Droning",
+      "desc": "- When attacked by Vespa, take fixed damage equal to this effect's Potency\n- Reduce Count by 1 after Turn End (Interacts the same way as normal Tremor does to effects that raise Tremor Count)",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "<color=#fde55d>Those impaled by the harpoon are pulverized as successive strikes amplify its vibrating force.</color>"
+    },
+    {
+      "id": "CriticalDmgUpVespa",
+      "name": "Apic Flashburst Blade Art - Hwando",
+      "desc": "Deal +10% more damage on Critical Hit for every Stack this turn",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "<color=#fde55d>A swordfighting style originating from the East, suited to those who employ instantaneous bursts of leaping movement that verge on teleportation.\n\nThe boy braved the life-threatening augmentation with a desperate resolve, and his survival proved his worth.</color>"
+    },
+    {
+      "id": "Vespa_LowMorale",
+      "name": "Vexation",
+      "desc": "- Low Morale\n- Gain 1 Pierce Power Up and 1 SP Heal Efficiency Down",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "Vespa_Panic",
+      "name": "Vexation",
+      "desc": "- Panic\n- Gain 2 Pierce Power Up, 1 Pierce DMG Up, and 2 SP Heal Efficiency Down",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "ScarBygoneDays_LowMorale",
+      "name": "Affetto e Risentimento",
+      "desc": "Infligge +10% danni e subisce +10% danni da Ryōshū",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "ScarBygoneDays_Panic",
+      "name": "Affetto e Risentimento",
+      "desc": "Infligge +20% danni e subisce +20% danni da Ryōshū",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "PhantomIncision",
+      "name": "Traccia della Lama [Immagine Residua]",
+      "desc": "- Max Stack: 99\n- Inizio Turno: Ottiene 1 Fragile per ogni 10 Stack (max 5)",
+      "summary": " ",
+      "undefined": "-"
+    },
+    {
+      "id": "PhantomIncisionTotal",
+      "name": "Spada della Stella Dihui",
+      "desc": "- Somma totale delle Stack di Traccia della Lama [Immagine Residua] in questo Incontro",
+      "summary": " ",
+      "undefined": "-"
+    },
+    {
+      "id": "LvDownLittleFingerBoss",
+      "name": "Silent Regard",
+      "desc": "UNUSED BUFF",
+      "summary": " ",
+      "undefined": "-"
+    },
+    {
+      "id": "TimeGapAb",
+      "name": "Disgiunzione",
+      "desc": "- Inizio Turno: la Parte ottiene Scudo pari alle Stack\n- Ridurre lo Scudo riduce anche le Stack",
+      "summary": " ",
+      "undefined": "-"
+    },
+    {
+      "id": "TimeEntangleFour",
+      "name": "Fourfold Afterimage Entanglement",
+      "desc": "Stage 4 Afterimage Entanglement\n- Min & Max Speed -2 for this unit\n- On Hit, activate the following effects:\n  · Inflict 1 Poison\n  · Inflict 2 Bleed\n  · Inflict 1 Bind next turn\n  · Inflict 2 Burn",
+      "summary": "Stage 4 Afterimage Entanglement",
+      "undefined": "-"
+    },
+    {
+      "id": "TimeEntangleThree",
+      "name": "Threefold Afterimage Entanglement",
+      "desc": "Stage 3 Afterimage Entanglement\n- On Hit, activate the following effects:\n  · Inflict 2 Bleed\n  · Inflict 1 Bind next turn\n  · Inflict 2 Burn",
+      "summary": "Stage 3 Afterimage Entanglement",
+      "undefined": "-"
+    },
+    {
+      "id": "TimeEntangleTwo",
+      "name": "Twofold Afterimage Entanglement",
+      "desc": "Stage 2 Afterimage Entanglement\n- On Hit, activate the following effects:\n  · Inflict 1 Bind next turn\n  · Inflict 2 Burn",
+      "summary": "Stage 2 Afterimage Entanglement",
+      "undefined": "-"
+    },
+    {
+      "id": "TimeEntangleOne",
+      "name": "Onefold Afterimage Entanglement",
+      "desc": "Stage 1 Afterimage Entanglement\n- On Hit, activate the following effects:\n  · Inflict 2 Burn",
+      "summary": "Stage 1 Afterimage Entanglement",
+      "undefined": "-"
+    },
+    {
+      "id": "LittleFingerBoss_Shin",
+      "name": "Shin (心) - Dihui Star",
+      "desc": "- Max Stack: 3\n- Turn Start: Apply the following effects\n· Gain 5 Poise Potency and +1 Poise Count for every Stack\n· Gain 1 Slash DMG Up for every 15% missing HP on self (max 5)",
+      "summary": " ",
+      "undefined": "-"
+    },
+    {
+      "id": "RyoshuParrySoji",
+      "name": "Twisted and Disjointed Memory and Recollection",
+      "desc": "- Skill Slot +1\n- Deal +20% damage to and take +20% damage from The Pinky Nursefather; On Clash Win, deal 5 SP damage to The Pinky Nursefather\n- When taking damage that would Stagger this unit, does not get Staggered and remove the corresponding Stagger Threshold; then, gain 1 Attack Power Up next turn (once per turn)\n- For this Encounter: After using a Skill, gain 1 E.G.O resource of the Skill's Affinity and 1 E.G.O resource for the least-owned E.G.O resource (2 times per turn)\n- Cannot Retreat",
+      "summary": "If there is a surviving ally, HP does not drop below 1",
+      "undefined": "-"
+    },
+    {
+      "id": "RyoshuStartA1C9P2",
+      "name": "Mutilated Memory",
+      "desc": "- Skill Slot +1\n- Deal +10% damage to The House of Spiders enemies\n- When Staggered, immediately recover from Stagger at the start of the next turn and gain 1 Attack Power Up (once per Encounter)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "Ryoshu_IndexFightBuff",
+      "name": "Mutilated Memory and Recollection",
+      "desc": "- Skill Slot +1\n- Deal +10% damage to The House of Spiders enemies\n- When taking damage that would Stagger this unit, does not get Staggered and remove the corresponding Stagger Threshold; then, gain 1 Attack Power Up next turn (once per turn)\n- For this Encounter: After using a Skill, gain 1 E.G.O resource of the Skill's Affinity and 1 E.G.O resource for the least-owned E.G.O resource (2 times per turn)\n- Cannot Retreat",
+      "summary": "Ryōshū Exclusive Effect",
+      "undefined": "-"
+    },
+    {
+      "id": "Malkuth_Imperfect",
+      "name": "Dominio di Malkuth - Manifestazione Imperfetta",
+      "desc": "<i><color=#d3a562>Uno sguardo imperfetto del potere che impererà sul Regno.</color></i>",
+      "summary": " ",
+      "undefined": "-"
+    },
+    {
+      "id": "TimeEntangleDesc",
+      "name": "Afterimage Entanglement",
+      "desc": "Afterimages are Entangled\nEffect Stage changes with the progress of combat pattern",
+      "summary": " ",
+      "undefined": "-"
+    },
+    {
+      "id": "IndexPrescriptDon_0",
+      "name": "Prescritto: [Dispositivo] I",
+      "desc": "Usa un'Abilità marchiata con Segno del Prescritto o colpisci un bersaglio con un'Abilità marchiata.\n\n- Inizio Turno: ottiene questo effetto quando questa unità non ha Sprigiona\n- Con questo Prescritto, Grazia del Prescritto si cumula fino a massimo 3 volte",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Le vie del Prescritto sono numerose, le quali vengono stabilite in modo simile ad una profezia divina. Coloro che li ricevono non hanno potere su come essi arrivino."
+    },
+    {
+      "id": "IndexPrescriptDon_1",
+      "name": "Prescritto: [Dispositivo] II",
+      "desc": "Colpisci un bersaglio con un'Abilità marchiata con Segno del Prescritto.\n\n- Inizio Turno: Ottiene questo effetto se questa unità ha Sprigiona - I\n- Con questo Prescritto, Grazia del Prescritto si cumula fino a massimo 6 volte",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Le vie del Prescritto sono numerose, le quali vengono stabilite in modo simile ad una profezia divina. Coloro che li ricevono non hanno potere su come essi arrivino."
+    },
+    {
+      "id": "IndexPrescriptDon_2",
+      "name": "Prescritto: [Dispositivo] III",
+      "desc": "Colpisci un bersaglio con un'Abilità E.G.O Attivazione, o, nello stato E.G.O Manifestato::Attuazione, 'Abilità 3' marchiata con Segno del Prescritto.\n\n- Inizio Turno: Ottiene questo effetto se questa unità ha Sprigiona - II\n- Con questo Prescritto, Grazia del Prescritto si cumula fino a massimo 9 volte",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Le vie del Prescritto sono numerose, le quali vengono stabilite in modo simile ad una profezia divina. Coloro che li ricevono non hanno potere su come essi arrivino."
+    },
+    {
+      "id": "IndexPrescriptDon_3",
+      "name": "Prescritto: [Dispositivo] IV",
+      "desc": "Elimina tutti i nemici prima che il prossimo Prescritto venga recapitato.\n\n- Inizio Turno: Ottiene questo effetto se questa unità ha Sprigiona - III",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Le vie del Prescritto sono numerose, le quali vengono stabilite in modo simile ad una profezia divina. Coloro che li ricevono non hanno potere su come essi arrivino."
+    },
+    {
+      "id": "UnlockBuff_Base",
+      "name": "Sprigiona",
+      "desc": "- Ottiene quest'effetto quando le Stack di Grazia del Prescritto superano un certo numero\n- Il livello dell'effetto aumenta in base alle Stack di Grazia del Prescritto\n- Max: Livello 3",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "UnlockBuffAlly_1",
+      "name": "Sprigiona - I",
+      "desc": "- Livello Difensivo +1\n- Fine Combattimento: Recupera 5 PS",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "UnlockBuffAlly_2",
+      "name": "Sprigiona - II",
+      "desc": "- Livello Difensivo +2\n- Fine Combattimento: Recupera 10 PS",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "UnlockBuffAlly_3",
+      "name": "Sprigiona - III",
+      "desc": "- Livello Difensivo +3\n- Fine Combattimento: Recupera 15 PS",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "Blandishment",
+      "name": "Fede Incontestabile",
+      "desc": "- Velocità Min & Max +1\n- Livello Offensivo +2, Livello Difensivo +2\n- Ottiene 1 Potenza Equilibrio in più dalle Abilità Base\n- I PS di quest'unità non scendono al di sotto di -15 dagli effetti di perdita PS sulle sue Abilità Attacco Base\n- Max Stack: 1",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "Blandishment_Shin",
+      "name": "Shin (心) - Attuazione",
+      "desc": "- Velocità Min & Max +2\n- Livello Offensivo +1, Livello Difensivo +1\n- Ottiene 1 Potenza e Conteggio Equilibrio in più dalle Abilità Base\n- Infligge +(percentuale PV mancanti / 2)% danni con le Abilità Base (max 40%)\n- Max Stack: 1",
+      "summary": "",
+      "undefined": "-"
+    }
+  ]
+}
