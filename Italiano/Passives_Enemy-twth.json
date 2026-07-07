@@ -1,0 +1,64 @@
+{
+  "dataList": [
+    {
+      "id": 9104301,
+      "name": "Colore Primario Intenso - Rouge",
+      "desc": "Prima di colpire, se il bersaglio non ha [Laceration], infligge +3 Conteggio [Laceration] (una volta per turno per nemico)"
+    },
+    {
+      "id": 9104302,
+      "name": "Le Fauvisme - Masque de Chien",
+      "desc": "Sul Colpo con un'Abilità, infligge 1 [BearClawWound]\n\nOttiene 1 [Enhancement] il turno successivo per ogni 4 [BearClawWound] inflitto (2 volte per turno)",
+      "flavor": "\"The first step is always but a single animal.\"\n\n\"And with every quest for art and ferity, another beast is layered atop the previous specimen.'\""
+    },
+    {
+      "id": 9104303,
+      "name": "Ispirazione Crescente",
+      "desc": "Quando questa unità o un suo alleato vengono colpiti, ottiene 1 [AttackUp] il turno successivo (una volta per Abilità, 3 volte per turno)"
+    },
+    {
+      "id": 9104304,
+      "name": "Final Brushstroke",
+      "desc": "Quando questa unità viene uccisa, infligge 3 [BearClawWound] a 2 nemici casuali"
+    },
+    {
+      "id": 9104501,
+      "name": "Colore Primario Intenso - Bleu",
+      "desc": "Prima di colpire, se il bersaglio non ha [Sinking], infligge +3 Conteggio [Sinking] (una volta per turno per nemico)"
+    },
+    {
+      "id": 9104502,
+      "name": "Le Fauvisme - Masque de Chèvre-Hibou",
+      "desc": "Sul Colpo con un'Abilità, infligge [EagleClawWound]\n- Se questa unità ha [Agility], infligge 1 [EagleClawWound] in più\n\nOttiene 1 [Agility] il turno successivo per ogni 4 [EagleClawWound] inflitto (2 volte per turno)",
+      "flavor": "\"There are beasts that fall in and out of vogue within the School of Fauvism, yes—but a true artist must take fierce pride in that single animal as the underdrawing which best represents their unique self.\"\n\n\"Despite this wisdom, however, there are some who flit from beast to beast, as though the self is nothing more than a costume to be worn and discarded... Hm\""
+    },
+    {
+      "id": 9104503,
+      "name": "Espressione Alacre",
+      "desc": "Se la Velocità di questa unità è maggiore di quella del bersaglio, Potere Scontro +1"
+    },
+    {
+      "id": 9104504,
+      "name": "Pennellata Finale Brushstroke",
+      "desc": "Quando questa unità viene uccisa, infligge 3 [EagleClawWound] a 2 nemici casuali"
+    },
+    {
+      "id": 9103401,
+      "name": "Prescritto Consegnato Su un Foglietto",
+      "desc": "Inizio Turno:\n- Ottiene [IndexPrescriptEnemy_0]/[IndexPrescriptEnemy_1]/[IndexPrescriptEnemy_2]/[IndexPrescriptEnemy_3] in base alle Stack di  [BlessingOfIndexPrescriptEnemy] su di sé\n- Infligge [IndexPrescriptTargetToPersonality] ad un Peccatore casuale (negli Incontri Mirati, gli attacchi danno priorità al Peccatore che ha [IndexPrescriptTargetToPersonality])",
+      "flavor": "\"Some of you may already be aware that the Prescripts are delivered through various means. Of these, the Paper Slip is the most commonplace—and the most preferred by many.\""
+    },
+    {
+      "id": 9103402,
+      "name": "Volontà Del Prescritto",
+      "desc": "Fine Turno: Se il [IndexPrescript_Base] è stato portato a termine in questo turno, recupera 5 PS e ottiene 2 [BlessingOfIndexPrescriptEnemy] (una volta per turno)\n- Se questa unità ha [IndexPrescriptEnemy_2] o se il bersaglio ha [IndexPrescriptTargetToPersonality] quando questa unità sta eseguendo il [IndexPrescript_Base], recupera invece 10 PS e ottiene 3 [BlessingOfIndexPrescriptEnemy]\n\nFine Turno: Se il [IndexPrescript_Base] non è stato portato a termine in questo turno, ottiene 10 [KarmaOfIndexEnemy]\n- A meno di 6 [BlessingOfIndexPrescriptEnemy], ottiene 1 [BlessingOfIndexPrescriptEnemy]\n- A 9 [BlessingOfIndexPrescriptEnemy], non ottiene [KarmaOfIndexEnemy]",
+      "flavor": "\"Then the question we must ask is: How many forms might the Prescripts take? Do they all flow from a single origin, or are there distinct entities behind each?\"\n\n\"Unraveling these mysteries is the purpose of the Society for the Research of the Index. Now, would you like to join us and explore the answers together?\""
+    },
+    {
+      "id": 9103403,
+      "name": "Lama Del Proselito",
+      "desc": "Infligge +2.5% danni all'[IndexPrescriptTargetToPersonality] per ogni [BlessingOfIndexPrescriptEnemy] su di sé (max 20%)\n- A 9 [BlessingOfIndexPrescriptEnemy], infligge invece +30% danni a tutti i bersagli\n\nSul Colpo contro l'[IndexPrescriptTargetToPersonality], ottiene 1 [Breath] e infligge 1 [Sinking] (una volta per turno)\n- Incrementa il numero di volte che questo effetto può attivarsi per turno di 1 per ogni 3 [BlessingOfIndexPrescriptEnemy] (max 2)",
+      "flavor": "A modest blade, unassuming and unworthy of note.\nYet in following the Prescript—the fulfilling of its directives, the aid of Messengers that emerge from unseen places, the teachings of the Proxies—is it slowly perfected into a weapon imbued with a singular uniqueness."
+    }
+  ]
+}

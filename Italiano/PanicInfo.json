@@ -1,0 +1,154 @@
+{
+  "dataList": [
+    {
+      "id": 1001,
+      "panicName": "Compulsione",
+      "lowMoraleDescription": "Inizio Turno: Ottiene 2 [Agility] e 2 [Vulnerable]",
+      "panicDescription": "Inizio Turno: Perde 10 PV."
+    },
+    {
+      "id": 1002,
+      "panicName": "Sbotto",
+      "lowMoraleDescription": "Inizio Turno: Ottiene 2 [Enhancement] e 2 [Vulnerable]",
+      "panicDescription": "Inizio Turno: Un'alleato casuale perde 20 PS."
+    },
+    {
+      "id": 1003,
+      "panicName": "Sconvolgimento",
+      "lowMoraleDescription": "Inizio Turno: Ottiene 2 [Reduction]",
+      "panicDescription": "Non agisce per questo turno."
+    },
+    {
+      "id": 1004,
+      "panicName": "Atrofizzazione",
+      "lowMoraleDescription": "Inizio Turno: Ottiene 2 [Reduction]",
+      "panicDescription": "Inizio Turno: Ottiene 4 [Reduction]"
+    },
+    {
+      "id": 1005,
+      "panicName": "Agitazione",
+      "lowMoraleDescription": "Inizio Turno: Ottiene 1 [AttackDmgUp] e 2 [Vulnerable]",
+      "panicDescription": "Inizio Turno: Ottiene 2 [AttackDmgUp] e 5 [Vulnerable]"
+    },
+    {
+      "id": 1006,
+      "panicName": "Fuga",
+      "lowMoraleDescription": "Non agisce. Quando subisce un colpo, questa unità viene sconfitta una volta finita l'Abilità.",
+      "panicDescription": ""
+    },
+    {
+      "id": 1007,
+      "panicName": "Tristezza",
+      "lowMoraleDescription": "Ottiene 2 [AttackDmgDown] ogni turno",
+      "panicDescription": "Ottiene 5 [AttackDmgDown] e 2 [Vulnerable] ogni turno"
+    },
+    {
+      "id": 1008,
+      "panicName": "Forsennatezza",
+      "lowMoraleDescription": "La prima volta che va in Morale Basso, bersaglia le altre unità in modo indiscriminato",
+      "panicDescription": "Bersaglia indiscriminatamente; Potere Scontro +1, e ottiene 2 [AttackDmgUp]"
+    },
+    {
+      "id": 1009,
+      "panicName": "Suicida",
+      "lowMoraleDescription": "La prima volta che va in Morale Basso, non riesce più ad agire",
+      "panicDescription": "Non può agire per 3 turni. Dopo 3 turni, l'unità muore all'inizio del turno; tutti i suoi alleati perdono altri 10 PS per ogni condizione di perdita PS"
+    },
+    {
+      "id": 1010,
+      "panicName": "Vagabondare",
+      "lowMoraleDescription": "Fine Turno: infligge 2 danni PS agli alleati",
+      "panicDescription": "Fine Turno: infligge 5 danni PS agli alleati. Fugge dal combattimento una volta passati 3 turni"
+    },
+    {
+      "id": 1011,
+      "panicName": "Instabilità",
+      "lowMoraleDescription": "Inizio Turno: Ottiene 2 [Enhancement] e 3 [Binding]",
+      "panicDescription": "Inizio Turno: Viene Stordito"
+    },
+    {
+      "id": 1012,
+      "panicName": "Sconforto",
+      "lowMoraleDescription": "Ottiene 1 [Vulnerable]; In uno Scontro, se qualunque Moneta fa Croce, Potere Scontro -1 per quello Scontro.",
+      "panicDescription": "Ottiene 3 [Vulnerable]; In uno Scontro, se qualunque Moneta fa Croce, Potere Scontro -3 per quello Scontro."
+    },
+    {
+      "id": 9999,
+      "panicName": "Panico",
+      "lowMoraleDescription": "",
+      "panicDescription": "Non agisce per questo turno."
+    },
+    {
+      "id": 1013,
+      "panicName": "Impurità",
+      "lowMoraleDescription": "Ottiene 1 [Vulnerable]. Il bersaglio perde 2 PS se questa unità perde lo Scontro",
+      "panicDescription": "Ottiene 1 [Vulnerable]. Il bersaglio perde 5 PS se questa unità perde lo Scontro"
+    },
+    {
+      "id": 1014,
+      "panicName": "Vendetta",
+      "lowMoraleDescription": "Inizio Turno: Ottiene 1 [Enhancement] e 3 [DefenseDown]. Ottiene [AttackDmgUp] in base alla quantità di danni subita il turno precedente (1 [AttackDmgUp] per ogni 3% dei PV Max perduti)",
+      "panicDescription": "Inizio Turno: Ottiene 2 [Enhancement] e 6 [DefenseDown]. Ottiene [AttackDmgUp] in base alla quantità di danni subita il turno precedente (1 [AttackDmgUp] per ogni 3% dei PV Max perduti)"
+    },
+    {
+      "id": 1015,
+      "panicName": "Panico Pallido",
+      "lowMoraleDescription": "[MentalSystemResultDecrease_Typo] +2",
+      "panicDescription": "Ad ogni Fine Turno: Ottiene 2 [Binding].\nOgni Moneta lanciata da questa unità fa Croce."
+    },
+    {
+      "id": 1016,
+      "panicName": "Risentimento",
+      "lowMoraleDescription": "Inizio Turno: ottiene 2 [AttackDmgUp] e 3 [DefenseDown]",
+      "panicDescription": "Inizio Turno: ottiene 1 [Enhancement] e 5 [DefenseDown]"
+    },
+    {
+      "id": 1026,
+      "panicName": "Rovina",
+      "lowMoraleDescription": "Ottiene 3 [Sinking] ad ogni Fine Turno; Potere Scontro -1",
+      "panicDescription": "Ottiene 5 [Sinking] e +3 Conteggio [Sinking] ad ogni Fine Turno; Potere Scontro -2"
+    },
+    {
+      "id": 9994,
+      "panicName": "Amore e Odio",
+      "lowMoraleDescription": "",
+      "panicDescription": "Non agisce per questo turno."
+    },
+    {
+      "id": 1065,
+      "panicName": "Frantumarchio",
+      "lowMoraleDescription": "Potere Scontro -1, Livello Offensivo -2",
+      "panicDescription": "Potere Scontro -2, Livello Offensivo -3"
+    },
+    {
+      "id": 1085,
+      "panicName": "Sabbia Blu",
+      "lowMoraleDescription": "Potere Scontro -1\nVelocità Min & Max -1",
+      "panicDescription": "Potere Scontro -2\nVelocità Min & Max -1"
+    },
+    {
+      "id": 1086,
+      "panicName": "Abbaglio",
+      "lowMoraleDescription": "Fine Turno: Ottiene 1 [Binding] e 2 [AttackDown] il turno successivo",
+      "panicDescription": "Fine Turno: Ottiene 1 [Binding] e 4 [AttackDown] il turno successivo"
+    },
+    {
+      "id": 1087,
+      "panicName": "Solitudine",
+      "lowMoraleDescription": "Fine Turno: Ottiene +2 Conteggio [Sinking]",
+      "panicDescription": "Fine Turno: Ottiene +3 Conteggio [Sinking]"
+},
+    {
+      "id": 1091,
+      "panicName": "Affetto e Risentimento Rifratti",
+      "lowMoraleDescription": "Infligge e subisce +10% danni",
+      "panicDescription": "Infligge e subisce +20% danni"
+    },
+    {
+      "id": 1097,
+      "panicName": "Imitazione di un Padre",
+      "lowMoraleDescription": "- Inizio Turno: Ottiene 5 [Combustion] e 5 [Laceration]",
+      "panicDescription": "- Inizio Turno: Ottiene 5 [Combustion], +3 Conteggio [Combustion], 5 [Laceration] e +3 Conteggio [Laceration]"
+    }
+  ]
+}

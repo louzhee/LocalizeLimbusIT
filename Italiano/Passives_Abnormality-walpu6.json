@@ -1,0 +1,69 @@
+{
+  "dataList": [
+    {
+      "id": 122301,
+      "name": "Il Cavaliere della Disperazione",
+      "desc": "Subisce -50% danni da [Combustion], [Laceration], [Vibration], [Burst], e [Sinking] (arrotondati al difetto)\nSe questa unità colpisce con una [SuperCoin] Infranta, non attiva gli effetti dei [Sinking] sul bersaglio (e non consuma Conteggio)"
+    },
+    {
+      "id": 122302,
+      "name": "Fiume di Lacrime Impotenti",
+      "desc": "Inizio Turno: se nessuna delle spade sul campo ha [HelplessTear], applica [HelplessTear] a 1 spada casuale (1 volta per turno; non si attiva se una spada ha [HelplessTear])"
+    },
+    {
+      "id": 122303,
+      "name": "Orgoglio Vuoto",
+      "desc": "A Fine Turno dopo la prima volta che l'unità viene Stordita: se c'è un Peccatore con 5+ [ColdBlackTear], usa un'Abilità ad Area il turno successivo\nA Fine Turno dopo la prima volta che l'unità viene Stordita: se tutti i Peccatori hanno [ColdBlackTear], ottiene [SignOfDespair] il turno seguente"
+    },
+    {
+      "id": 122304,
+      "name": "Dolore Condiviso",
+      "desc": "La prima volta che l'unità viene Stordita, si riprende dallo Stordimento il turno successivo: infine, ottiene 10 [Protection] e 500 Scudo ogni turno\nEvoca una Spada di un Cavaliere Dimenticato il turno seguente"
+    },
+    {
+      "id": 122305,
+      "name": "Cavaliere Consumato",
+      "desc": "Ogni volta che una spada trafigge questa unità, ottiene 1 [CollapsedPride], la [Protection] ottenuta ogni turno viene ridotta di 3 mentre lo Scudo PV ottenuto ogni turno è ridotto di 100\nA 3 [CollapsedPride], questa unità non ottiene più [Protection] e Scudo ogni turno, invece viene Stordita il turno seguente e ottiene [WornOutKnight]"
+    },
+    {
+      "id": 122306,
+      "name": "Un'Ultima Giustizia",
+      "desc": "Quando questa unità viene colpita da <noparse>ARCANA BEATS</noparse> mentre ha [WornOutKnight]: non perde altri PV sotto il 5%, e si uccide a Fine Turno"
+    },
+    {
+      "id": 122307,
+      "name": "Dolore Condiviso",
+      "desc": "La prima volta l'unità viene Stordita, si riprende dallo Stordimento il turno successivo; infine, ottiene 10 [Protection] e 500 Scudo ogni turno\nEvoca Spada Spaccacuore, Spada Squarciacuore, e Spada Trafiggicuore il turno seguente"
+    },
+    {
+      "id": 122308,
+      "name": "Un'Ultima Giustizia",
+      "desc": "Quando questa unità viene colpita da <noparse>ARCANA BEATS</noparse> mentre ha [WornOutKnight] ed ha meno di 600 PV: non perde altri PV sotto il 5%, e si uccide a Fine Turno"
+    },
+    {
+      "id": 122401,
+      "name": "Spada Penetra-disperazione",
+      "desc": "Se una spada con [HelplessTear] scende a 0 PV, impala il <noparse>Cavaliere della Disperazione</noparse>"
+    },
+    {
+      "id": 122402,
+      "name": "Spada di un Cavaliere Dimenticato",
+      "desc": "Se questa unità colpisce con una [SuperCoin] Infranta, non attiva gli effetti dei [Sinking] sul bersaglio"
+    },
+    {
+      "id": 122403,
+      "name": "La Spada Punta A Coloro Che Non Ha Potuto Proteggere",
+      "desc": "Se c'è un nemico con [ChasingArcana], dà priorità a quell'unità"
+    },
+    {
+      "id": 122404,
+      "name": "Sollievo",
+      "desc": "I PV di questa unità non scendono sotto 1 quando non ha [HelplessTear]\nA Fine Turno: se i PV di questa unità scendono sotto 1 quando non ha [HelplessTear], si cura fino ai PV massimi"
+    },
+    {
+      "id": 122405,
+      "name": "Spada Penetra-disperazione",
+      "desc": "Se una spada con [HelplessTear] scende a 0 PV, impala il <noparse>Cavaliere della Disperazione</noparse>: infine, trasferisce il suo valore di Resistenza Fatale ad 1 Spada casuale il turno seguente"
+    }
+  ]
+}

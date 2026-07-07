@@ -1,0 +1,508 @@
+{
+  "dataList": [
+    {
+      "id": 133303,
+      "name": "Vergine Di Ferro - Defibrillazione",
+      "desc": "Se è Stordita, si riprende dallo Stordimento e termina il turno (una volta per Incontro)"
+    },
+    {
+      "id": 133101,
+      "name": "Tutto Il Mio Corpus È Stato Donato A Tibia",
+      "desc": "Subisce -30% danno ai PV e ai PS da [Combustion], [Burst], e [Sinking]; La Soglia di Stordimento viene alzata del 30% in meno dagli effetti di [Vibration]\nSubisce -50% danni da [Laceration]\n\nA inizio turno, se è Stordito, si riprende dallo Stordimento. Poi, ottiene 2 [CrimsonTakeDamageUp] e non può usare 'Installazione D'Arte n.3: Cassa Toracica Improvvisata' fino al turno successivo (una volta per Incontro)\n\nA fine turno, ottiene 1 [DefenseDown] il turno successivo per ogni 4 [Combustion] su di sé (max 15)"
+    },
+    {
+      "id": 133102,
+      "name": "Arte Centrata Sul Corpus",
+      "desc": "Quando entra nell'Incontro, recupera 30 SP\n\nSul Colpo, se ha ottenuto effetti positivi mentre infliggeva effetti negativi, recupera 4 PS a fine attacco\n- Se ha già il massimo dei PS, ottiene invece 1 [ResultEnhancement] il turno successivo (max 1 per turno)",
+      "flavor": "Un movimento artistico che esibisce opere e sculture usando ossa e muscoli come materiale. Ogni creazione incorpora tutti i tipi di ossa nell'arma intricata dell'artista."
+    },
+    {
+      "id": 133103,
+      "name": "L'Estetica Della Raccolta E Della Lavorazione Degli Ingredienti Sul Campo",
+      "desc": "Dopo aver usato un'Abilità, ottiene 30 [HumanBoneTheRings] e 1 [HumanBloodTheRings] per ogni bersaglio colpito"
+    },
+    {
+      "id": 133104,
+      "name": "Magnum Opus: Tibia",
+      "desc": "A Fine Turno, se ha 206 [HumanBoneTheRings] e 5 [HumanBloodTheRings], riduce lo stack di entrambi di rispettivamente 206 e 5 e ottiene 1 [MineTheRings]\n\nA Inizio Turno, Se questa Unità ha [MineTheRings], usa un attacco potente\n\n<color=#ff6000><mark=#ff000040><b><u>Quando viene colpito prima di usare questo attacco, ottiene 1 [PlusCoinValueDown] e 1 [ResultReduction]</u></b></mark></color> (una volta per Abilità; max 3 volte per turno)",
+      "flavor": "Tibia, il lavoro della vita dell'artista, completata dissezionando il suo corpus e versandoci il suo sangue fino all'ultima goccia... letteralmente."
+    },
+    {
+      "id": 133105,
+      "name": "Un'Opera Piacevole Per I Sensi",
+      "desc": "Quando [MineTheRings] scade, le seguenti Unità recuperano 30 PS e ottengono 2 [AttackUp] e 2 [DefenseUp] nel turno successivo:\n- Il Precettore Dell'Anulare - Callisto\n- L'Apprendista Dell'Anulare - Albina\n- Teatro Del Corpus[TabExplain]"
+    },
+    {
+      "id": 133106,
+      "name": "Permettetemi di Godermi L'Esibizione Della Mia Allieva",
+      "desc": "Se questa Unità ha [SupportProtect], <color=#ff6000><mark=#ff000040><b><u>perde 1 [SupportProtect] a Inizio Scontro</u></b></mark></color> (una volta per Abilità)"
+    },
+    {
+      "id": 133107,
+      "name": "Trascendi il Corpus",
+      "desc": "A meno di 50% PV, si riprende dallo Stordimento e termina il turno\n- Nel turno successivo, usa 'Chiusura - Installazione D'Arte n.1: La tua Carne E Le Tue Ossa Come Sedie Per La Mia Mostra' nell'ultimo Slot Abilità"
+    },
+    {
+      "id": 133109,
+      "name": "Prego, Smetti di Correre e Prendi Posto",
+      "desc": "Infligge [RedemptionTheRings] al Peccatore e all'Unità di Supporto con la Velocità più alta"
+    },
+    {
+      "id": 133201,
+      "name": "Legamento",
+      "desc": "Applica i seguenti effetti al <noparse>Teatro del Corpus</noparse>:\n- Diventa 'immobile'\n- I buff, i PV, e i PS di questa Unità non possono essere cambiati"
+    },
+    {
+      "id": 133202,
+      "name": "Raccolta di Ingredienti",
+      "desc": "Se il Teatro Del Corpus Corpus è distrutto dal Precettore dell'Anulare, l'Unità legata è di nuovo disponibile per l'Incontro"
+    },
+    {
+      "id": 133203,
+      "name": "Fuga Dall'Arte",
+      "desc": "Se il Teatro Del Corpus è stata distrutta da un'Unità diversa dal Precettore Dell'Anulare, attiva i seguenti effetti:\n- L'Unità legata torna disponibile per l'Incontro dal turno successivo; se quest'Unità ha meno di 10 PS, riporta i PS a 10\n- Il Precettore e L'Apprendista dell'Anulare perdono 10 PS\n- Ottieni 2 Risorse E.G.O di ogni Affinità"
+    },
+    {
+      "id": 133204,
+      "name": "Materiale Infiammabile",
+      "desc": "Prende x2 danni da [Combustion]"
+    },
+    {
+      "id": 133601,
+      "name": "I Battiti Degli Ingredienti-Divenuti-Corpus",
+      "desc": "Subisce -30% danno ai PV e ai PS da [Combustion], [Burst], e [Sinking]; La Soglia di Stordimento viene alzata del 30% in meno dagli effetti di [Vibration]\nSubisce -50% danni da [Laceration]\n\nA fine turno, ottiene 1 [DefenseDown] il turno successivo per ogni 4 [Combustion] su di sé (max 15)",
+      "flavor": "Fascia è l'opera di Albina, fatta con carne e sangue.\nOra, Albina ha solo il cervello, mentre a Fascia manca solo quello.\nSapendo questo, chi delle due possiede davvero un corpus?"
+    },
+    {
+      "id": 133602,
+      "name": "Corporismo",
+      "desc": "Sul Colpo, se ha ottenuto effetti positivi mentre infliggeva effetti negativi, recupera 4 PS\n- Se ha già il massimo dei PS, ottiene invece 1 [ResultEnhancement] il turno successivo (max 2 per turno)"
+    },
+    {
+      "id": 133603,
+      "name": "Fascia, Mia Opera Adorata",
+      "desc": "A fine turno, se ha 2 [HumanFleshTheRings], perde [HumanFleshTheRings] e ottiene [BoneBladeTheRings] il turno successivo\n\nA inizio turno, se ha [BoneBladeTheRings], usa un attacco potente\n\n<color=#ff6000><mark=#ff000040><b><u>Quando viene colpito prima di usare questo attacco, ottiene 1 [PlusCoinValueDown] e 1 [ResultReduction]</u></b></mark></color> (una volta per Abilità; max 3 volte per turno)"
+    },
+    {
+      "id": 133604,
+      "name": "I Visitatori Devono Rispettare Le Regole Della Galleria",
+      "desc": "Se questa Unità ha [SupportProtect], <color=#ff6000><mark=#ff000040><b><u>perde 1 [SupportProtect] a Inizio Scontro</u></b></mark></color> (una volta per Abilità)"
+    },
+    {
+      "id": 133606,
+      "name": "Con Questa Opera, Dimostrerò Le Mie Capacità Al Maestro",
+      "desc": "All'arrivo del Precettore dell'Anulare, se ha meno di 20 PS, porta i PS a 20"
+    },
+    {
+      "id": 132701,
+      "name": "Vengeance Tattoos [<s>Great Brother</s>]",
+      "desc": "Takes -30% damage from [Combustion], [Laceration], [Vibration], and [Burst] (rounded down)\n-50% to the amount of Stagger Threshold raised (rounded down)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 132702,
+      "name": "The Book of Vengeance",
+      "desc": "Encounter Start: Inflict [VengeanceBookSpider] on all Sinners and LCD units\n\nIf this unit hit with more than 3 Skills this turn, gain 1 [ReinforcedTattooSpider] next turn for every excess Skill that hit",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 132703,
+      "name": "My Daughter's Education",
+      "desc": "On Clash Win, gain 1 [DaughterEducationSpider]\n\nOn Hit with a Skill, gain 1 [DaughterEducationSpider] (once per Skill; this effect does not activate for Cracked Coins)\n\nOn Clash Win with the first-used Skill in a turn, gain 1 more [DaughterEducationSpider] and the Skill gains Coin Power +1",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 132704,
+      "name": "Resentment",
+      "desc": "When hit by 2 Skills, gain 1 [ResentmentSpider] and lose 1 [DaughterEducationSpider] (number of hits taken is always tracked)\n\nAt max [ResentmentSpider] Stack, use a powerful attack\n\nTurn End: At less than 80% / 60% / 40% HP, max out this unit's [ResentmentSpider] Stack",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 132706,
+      "name": "???",
+      "desc": "???",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 134101,
+      "name": "Vengeance Tattoos Max Output... Unseal Lævateinn!",
+      "desc": "When [MiddleFatherSwordFour] is unsealed, this unit gains [MiddleFatherGuts]\n\nTargets the unit with [MosesRedBreathCharge]",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 132801,
+      "name": "Am I doing this right, Papa?!",
+      "desc": "Begins Encounter with [HeatingWireOffSpider]\n\nTurn Start: At 3+ [GotACompliment], gain [HeatingWireOnSpider] for the turn and also inflict [Combustion] with Skills that inflict [Laceration]\n\nTurn End: At less than 3 [GotACompliment], convert this unit's [HeatingWireOnSpider] to [HeatingWireOffSpider]",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "'I like my papa because he always praises me and buys me comic books.'"
+    },
+    {
+      "id": 132802,
+      "name": "The Middle Styled Tattoos",
+      "desc": "If this unit hit with more than 2 Skills, gain 1 [ReinforcedTattooSpiderDaughter] next turn for every excess Skill that hit",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "'Will the bigger Sisters and Brothers of the Middle accept me as their family one day, so I can continue to live with them?'"
+    },
+    {
+      "id": 132803,
+      "name": "Praise is the Wind in Her Sail",
+      "desc": "On Clash Win, gain 1 [GotACompliment]\n\nOn Hit with a Skill, gain 1 [GotACompliment] (once per Skill; this effect does not activate for Cracked Coins)\n\nOn Clash Win with the first-used Skill in a turn, gain 1 more [GotACompliment] and the Skill gains Coin Power +1",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 132804,
+      "name": "I'm pretty sure the Middle never forgets",
+      "desc": "When hit by 2 Skills, gain 1 [ResentmentSpiderDaughter] and lose 1 [GotACompliment] (number of hits taken is always tracked)\n\nAt max [ResentmentSpiderDaughter] Stack, use a powerful attack\n\nTurn End: At less than 80% / 60% / 40% HP, max out this unit's [ResentmentSpiderDaughter] Stack",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 134201,
+      "name": "Am I doing this right, Papa?!",
+      "desc": "Begins Encounter with [HeatingWireOffSpider]\n\nTurn Start: At 3+ [GotACompliment], gain [HeatingWireOnSpider] for the turn and also inflict [Combustion] with Skills that inflict [Laceration]\n\nTurn End: At less than 3 [GotACompliment], convert this unit's [HeatingWireOnSpider] to [HeatingWireOffSpider]",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 134202,
+      "name": "Whoa... That looks mad dangerous!",
+      "desc": "If the Middle Nursefather has [MiddleFatherSwordFour], does not enter [HeatingWireOffSpider] state\n\nTargets the unit with [MosesRedBreathCharge]",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "The combination of her animalistic instincts and battle experience is screaming at her in unison:\nWhatever that red thing is, if she can't stop that attack from going off, it <b>will</b> kill."
+    },
+    {
+      "id": 132601,
+      "name": "Battaglia Estenuante",
+      "desc": "Inizia l'Incontro col 20% dei PV in meno\nOttiene 2 [ResultReduction] nei primi 3 turni dell'Incontro",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Affrontare un Colore in battaglia è un esperienza che eleverà le sue doti al livello successivo...\nSe riuscirà a sopravvivere."
+    },
+    {
+      "id": 132602,
+      "name": "Postura Instabile",
+      "desc": "Ottiene i seguenti effetti in base agli Stack di [DuelEdge] sul bersaglio\n- 1+ Stack: Infligge +10% danni sul bersaglio e subisce -10% danni dal bersaglio per ogni Stack di [DuelEdge]\n- 3+ Stack: Potere Scontro +1 negli Scontri con un bersaglio che ha [DuelEdge]\n- 5+ Stack: Potere Base +1 negli Scontri con un bersaglio che ha [DuelEdge]\n- 7+ Stack: Quando si Scontra con un bersaglio che ha [DuelEdge], Potere Moneta +1\n- At 10+ Stack: Potere Finale +1 negli Scontri con un bersaglio che ha [DuelEdge]",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 132603,
+      "name": "Lotta Disperata",
+      "desc": "Quando il Precettore del Pollice entra nell'Incontro, disattiva la Passiva \"Marchio del Cacciatore\" e attiva i seguenti effetti:\n- A meno di 30 PS, porta i PS a 30\n- A inizio turno, ottiene 3 [SupportProtect]\n<color=#ff6000><mark=#ff000040><b><u>- Può Scontrarsi con qualsiasi unità a prescindere dalla Velocità\n- Dà priorità a Vergilius</u></b></mark></color>\n- Quando il Precettore del Pollice colpisce un nemico dopo aver vinto uno Scontro, usa \"Colpi Sottani\" come Attacco Incontrastato sullo stesso bersaglio (2 volte per turno)",
+      "summary": "",
+      "undefined": "",
+      "flavor": "'Forse dovrei ucciderla ora. Forse è il mio momento.'\n\nAncora una volta, lo stesso pensiero affiora la mente di Lucio, mentre osserva la sua maestra assopita.\nMa questo impulso rimane un pensiero senza seguito, data la paura nata dalla sua esperienza, e la gratitudine che prova verso la donna che lo ha tirato fuori dalle Backstreets (non ricordo come le aabbiamo tradotte).\nPerò, il suo risentimento è fin troppo forte. Lucio, quindi, fa una promessa a se stesso, anche se proclama questo giuramento senza traccia di inganno:\n'Quando questa battaglia si sarà conclusa, la ucciderò. Le caverò l'occhio che le rimane e la sgozzerò e pugnalerò ancora ed ancora, fin quando non smette di muoversi.'\nPer la prima volta, del fuoco vivo riecheggia negli occhi del ragazzo il cui corpo è cosparso di ferite."
+    },
+    {
+      "id": 132604,
+      "name": "Marchio del Cacciatore",
+      "desc": "Sceglie un nemico casuale, riduce la sua Velocità ad 1 e lo bersaglia con tutte le sue Abilità\nquesto effetto si riattiva ogni 4 turni.",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 132606,
+      "name": "Duello Disperato",
+      "desc": "Dopo uno Scontro, infligge 1 [DuelEdge] sul bersaglio\nSe il bersaglio in questione ha [DuelEdge], recupera 2 PS per ogni Stack di [DuelEdge] sul bersaglio (max 10)"
+    },
+    {
+      "id": 131401,
+      "name": "L'Occhio della Precognizione",
+      "desc": "Quando entra nell'Incontro per la prima volta, ottiene 30 [FutureEyeOn]\nA 0 [FutureEyeOn], trasforma [FutureEyeOn] in [FutureEyeOff]",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Quella Reliquia, l'Occhio di Odino, è soltanto un pezzo della Reliquia ormai divisa in tre parti."
+    },
+    {
+      "id": 131402,
+      "name": "Futuro Accelerato",
+      "desc": "In uno Scontro, <color=#ff6000><mark=#ff000040><b><u>ottiene 1 [LookingFuture] con ogni Scontro</u></b></mark></color>\nPuò ottenere fino a ([FutureEyeOn] Stack a inizio turno / 3) [LookingFuture] per turno\nFinché ha [FutureEyeOn], <color=#ff6000><mark=#ff000040><b><u>attiva l'Abilità \"Precognizione\" quando viene attaccata da un Attacco Incontrastato o quando perde uno Scontro</u></b></mark></color>",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "\"Più a lungo ci scontriamo, più calda diventa la mia lama... e più in fretta arriviamo al futuro previsto.\""
+    },
+    {
+      "id": 131408,
+      "name": "Sovraccarico",
+      "desc": "Mentre ha [FutureEyeOn]:\n- Se questa unità non può ottenere [LookingFuture], perde 1 [FutureEyeOn] con ogni Scontro\n- Quando viene attaccata da un Attacco Incontrastato, perde 1 [FutureEyeOn]\n- A Scontro perso, perde 3 [FutureEyeOn]",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "'L'occhio si sta surriscaldando, la cavità inizia a bruciare, e la mia vista sta diventando sempre più rossa.'"
+    },
+    {
+      "id": 131405,
+      "name": "La Spada di Palermo",
+      "desc": "Infligge +15% danni agli Scudi per ogni [Combustion] sul bersaglio principale (max 300%)\nSe Scontra con un'Abilità Tagliente o Perforante, Potere Scontro +1\nQuando questa unità innesca [VibrationExplosion] tramite gli effetti delle sue Abilità, ottiene 2 [AttackDmgUp] il turno successivo (3 volte per turno)\nRecupera 5 PS quando esegue un Colpo Critico",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 131404,
+      "name": "La Vergogna della Famiglia Bognatelli",
+      "desc": "Subisce -30% danni ai PV e ai PS da [Combustion], [Laceration], [Burst], [Sinking]; La Soglia di Stordimento viene alzata del 30% in meno dagli effetti di [Vibration]\nA 1+ [AccelBullet], le Abilità che spendono [AccelBullet] infliggono +30% danni ai PV e +150% danni agli Scudi\nOttiene 4 [Breath] per ogni [AccelBullet] speso\nUsare una Moneta che spende [AccelBullet] senza [AccelBullet] non annulla l'attacco",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "\"Eri l'erede del cimelio di famiglia e dello stile Palermitano—avevi tutto ciò che potessi mai desiderare. Quindi perché ti sei ridotta in questo stato?\"\n\"Lasciamo la Reliquia e la spada nelle tue mani, poiché quelle stesse mani ne hanno contaminato l'onore.\"\n\"Sei riuscita a guadagnarti il titolo di Sottocapo, sotto solo al Capo dei Capi... solo per farti cacciare in soli 3 giorni. Nessuno ha mai sofferto una tale vergogna, Valentina.\"\n\"Sei la vergogna di questa famiglia. La Famiglia Bognatelli revoca tutto il suo amore nei tuoi confronti.\""
+    },
+    {
+      "id": 131409,
+      "name": "Shin (心) - Valentina",
+      "desc": "Quando colpita, o quando \"L'Apprendista del Pollice - Lucio\" viene sconfitto, ottiene [ObsessionAndGreed] il turno successivo",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "\"*sigh* Fammi capire. Stai dicendo che possiamo riprenderci Bigliettina se stiamo al piano del fanatico e facciamo un casino in quel posto... Siamo sicuri che ci riporterà Bigliettina?\""
+    },
+    {
+      "id": 131406,
+      "name": "Lucio, rammollito del cazzo che non sei altro!",
+      "desc": "Quando \"L'Apprendista del Pollice - Lucio\" viene sconfitto, attiva la Passiva \"Ora Della Caccia\"",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 131410,
+      "name": "Ora Della Caccia",
+      "desc": "A inizio turno, se è Stordita, si riprende dallo Stordimento\n\nSceglie un Peccatore casuale e gli infligge [TeachersPrey]\n- Questo effetto si riattiva ogni 4 turni\n- Se questa unità uccide un bersagli con l'Abilità \"Liquidare,\" la riattiva il turno successivo",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Lo Stile Palermitano ha molto in comune con la sua origine: La Famiglia Bognatelli.\nLa Famiglia e la sua tecnica sono note per la loro abilità nell'attaccare una preda senza sosta, concludendo la \"caccia\" con un Coup de Grâce comparabile a una sezionatura. Queste esecuzioni non vengono nascoste, ma bensì messe in mostra con orgoglio dalla Famiglia da cui origina.\nQuesto stile straordinario e formidabile ha portato grande onore alla Famiglia Bognatelli, che si assicurò un posto tra le Sette Famiglie dei Vicoli.\nValentina, esperta dello Stile Palermitano, lo usò per cacciare e sterminare molti soldati durante la Guerra del Fumo, diventando una vera e propria \"Eroina di guerra.\"\nMa nessuno poteva immaginare che sarebbe caduta alla stessa velocità della sua ascesa alla fama."
+    },
+    {
+      "id": 134501,
+      "name": "Tutto Il Mio Corpus È Stato Donato A Tibia",
+      "desc": "Subisce -30% danno ai PV e ai PS da [Combustion], [Burst], e [Sinking]; La Soglia di Stordimento viene alzata del 30% in meno dagli effetti di [Vibration]\nSubisce -50% danni da [Laceration]\n\nA inizio turno, se è Stordito, si riprende dallo Stordimento. Poi, ottiene 2 [CrimsonTakeDamageUp] (una volta per Incontro)\n\nA fine turno, ottiene 1 [DefenseDown] il turno successivo per ogni 4 [Combustion] su di sé (max 15)",
+      "flavor": "Ben presto, il mio capolavoro—la raison d'être del Nido dei Ragni—verrà ultimato.\nI Rami Dorati sono... dei materiali interessanti, certo, ma non sono essenziali per la mia opera.\nRitengo che prenderli e farci nemici di Limbus Company fosse innecessario... ma ammetto che questo attacco improvvisato, alla fine, ci ha portati a un finale accettabile\nAd ogni modo, l'insieme di circostanze in cui ci troviamo erano volute da Rien—o meglio, dal suddetto dio in cui pone fede.\nPerò mi chiedo... Essere così amati da un cosiddetto \"dio\" è un bene o un male? Fuhuhu..."
+    },
+    {
+      "id": 134502,
+      "name": "Corporismo",
+      "desc": "Sul Colpo, se ha ottenuto effetti positivi mentre infliggeva effetti negativi, recupera 4 PS\n- Se ha già il massimo dei PS, ottiene invece 1 [ResultEnhancement] il turno successivo (max 2 per turno)"
+    },
+    {
+      "id": 134506,
+      "name": "Permettetemi di Godermi L'Esibizione Della Mia Allieva",
+      "desc": "Se questa Unità ha [SupportProtect], <color=#ff6000><mark=#ff000040><b><u>perde 1 [SupportProtect] a Inizio Scontro</u></b></mark></color> (una volta per Abilità)"
+    },
+    {
+      "id": 134509,
+      "name": "Il Corpus Sano Produce Ingredienti Eccellenti",
+      "desc": "Gli attacchi di questa unità danno priorità e infliggono +150% danni al Peccatore e all'Unità di Supporto di livello più alto",
+      "flavor": "\"Ma quando raggiungi un certo livello di maestria, è meglio setacciare ingredienti provenienti da corpus più robusti.\"\n\"Vedi, le opere favoriscono i corpus sani poiché forniscono pezzi di ossa e muscoli ricchi, adatti a espaderne l'ambito e la scala.\"\n\"Che prospettiva eccitante, non trovi, cara Albina?\""
+    },
+    {
+      "id": 134510,
+      "name": "Magnum Opus: Tibia",
+      "desc": "A Fine Turno, se ha 206 [HumanBoneTheRings] e 5 [HumanBloodTheRings], riduce lo stack di entrambi di rispettivamente 206 e 5 e ottiene 1 [MineTheRings]\n\nA Inizio Turno, Se questa Unità ha [MineTheRings], usa un attacco potente\n\n<color=#ff6000><mark=#ff000040><b><u>Quando viene colpito prima di usare questo attacco, ottiene 1 [PlusCoinValueDown] e 1 [ResultReduction]</u></b></mark></color> (una volta per Abilità; max 3 volte per turno)",
+      "flavor": "Tibia, il lavoro della vita dell'artista, completata dissezionando il suo corpus e versandoci il suo sangue fino all'ultima goccia... letteralmente."
+    },
+    {
+      "id": 134604,
+      "name": "I Visitatori Devono Rispettare Le Regole Della Galleria",
+      "desc": "Se questa Unità ha [SupportProtect], <color=#ff6000><mark=#ff000040><b><u>perde 1 [SupportProtect] a Inizio Scontro</u></b></mark></color> (una volta per Abilità)"
+    },
+    {
+      "id": 134605,
+      "name": "Sceglta Degli Ingredienti",
+      "desc": "Dà priorità al Peccatore e all'Unità di Supporto di livello più basso",
+      "flavor": "\"Prima prenderò ossa e muscoli del corpus più debole.\"\n\"Gli ingredienti non sono il massimo, ma ne prenderò di migliori non appena  as I craft and display more artworks.\"\n\"Che prospetto eccitante, non trovi, cara Albina?\""
+    },
+    {
+      "id": 132218,
+      "name": "132218",
+      "desc": "(미사용 패시브)",
+      "flavor": ""
+    },
+    {
+      "id": 132214,
+      "name": "Immagine Residua Del Futuro",
+      "desc": "Usa l'Abilità \"Avversaria Destinata\" dopo qualche turno\n<color=#ff6000><mark=#ff000040><b><u>Questa Abilità può essere Scontrata solo dal bersaglio del suo Slot Abilità</u></b></mark></color>\n\nSe \"Avversaria Destinata\" perde uno Scontro, subisce 36~60 danni fissi\n\nA Fine Combattimento, <color=#ff6000><mark=#ff000040><b><u>Se tutte le Abilità \"Avversaria Destinata\" usate in questo turno hanno perso lo Scontro</u></b></mark></color>, ottiene 1 [Vulnerable] il turno successivo"
+    },
+    {
+      "id": 132217,
+      "name": "132217",
+      "desc": "(미사용 패시브)"
+    },
+    {
+      "id": 132219,
+      "name": "Tiansha Star's Bladewound [天殺星傷]",
+      "desc": "Encounter Start: Gain [LvDownLittleFingerBossTwo] and 4 [TimeEntangleUnstable]"
+    },
+    {
+      "id": 132222,
+      "name": "From Dawn till Dusk",
+      "desc": "Turn Start: At 0+ SP, gain 1 [SojiAbiAgeFuture]\nGain 1 [SojiAbiAgeFuture] for every 2 SP above 0\n\nTurn Start: At less than 0 SP, gain 1 [SojiAbiAgePast]\nGain 1 [SojiAbiAgePast] for every 2 SP below 0",
+      "flavor": "The past, the present, the future—the myriad moments converge together, rendering the distinction of time meaningless. Youthful and aged selves alike are pulled into the here and now from every point along the continuum of time."
+    },
+    {
+      "id": 132223,
+      "name": "Spacetime Afterimage Collapse",
+      "desc": "Turn End: Gain 1 [TimeEntangleUnstable] for every 5 SP difference between this unit's current SP and SP at Turn Start (max 5 per turn)\n\nFor every 100 damage taken cumulatively, lose 1 [TimeEntangleUnstable] (including Shield damage)",
+      "flavor": "'The afterimages that have long wrapped me in their folds are stripped away, layer by layer... and I am left standing in both loss and liberation.'"
+    },
+    {
+      "id": 133701,
+      "name": "Volontà Del Prescritto",
+      "desc": "Inizio Incontro: Ottiene Scudo pari al 20% dei PV massimi (remains throughout this Encounter)\n\nA inizio turno:\n- Ottiene [IndexPrescript_Base_2nd] in base al livello di [UnlockBuff_Base] su di sé\n- Infligge [IndexPrescriptTargetToPersonality] su un nemico casuale e dà priorità a quel bersaglio (esclude certi pattern)\n\nInfligge +2.5% danni al [IndexPrescriptTargetToPersonality] per ogni [BlessingOfIndexPrescriptEnemy] (max 20%)\n- A 9 [BlessingOfIndexPrescriptEnemy], infligge invece +30% danni su ogni bersaglio",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 133702,
+      "name": "Esecuzione Del Prescritto",
+      "desc": "A fine turno, se il [IndexPrescript_Base_2nd] è stato portato al termine, recupera 15 SP e ottiene [BlessingOfIndexPrescriptEnemy] pari a (livello di [UnlockBuff_Base] + 1) (una volta per turno)\n\nSe invece il [IndexPrescript_Base_2nd] non è stato portato al termine, ottiene 1 [PressureOfPrescript] e 10 [KarmaOfIndexStudent]\n- Se il livello di [UnlockBuff_Base] di questa Unità è sotto il 2, ottiene 1 [BlessingOfIndexPrescriptEnemy]\n- A 9 [BlessingOfIndexPrescriptEnemy], non ottiene [KarmaOfIndexStudent]\n\n- Ottiene [EsteemNeeds] pari a [PressureOfPrescript] ottenuto ogni volta che questa Unità ottiene [PressureOfPrescript]",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 133703,
+      "name": "Unlock",
+      "desc": "Turn End: At 6/9 [BlessingOfIndexPrescriptEnemy] or at 80%-/60%- HP,\n- Gain [UnlockBuff_2]/[UnlockBuff_3]\n- Heal to 45 SP\n- Consume all [PressureOfPrescript] and recover from Stagger\n\nIf [UnlockBuff_Base] was gained based on HP conditional above,\n- Gain [KarmaOfIndexStudent] by (sum of healed SP / 15)\n- Increase [BlessingOfIndexPrescriptEnemy] to 6/9 if this unit had less than 6/9 [BlessingOfIndexPrescriptEnemy]; gain 1 [DefenseDown] and 2 [KarmaOfIndexStudent] next turn for every [BlessingOfIndexPrescriptEnemy] gained\n\nMin & Max Speed +10 in the turn this unit uses its powerful attack",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 133704,
+      "name": "Effloresced E.G.O::Procuration",
+      "desc": "For this Encounter, maintain Effloresced[TabExplain] E.G.O::Procuration state\n- Encounter Start: Gain [UnlockBuff_1] and 3 [BlessingOfIndexPrescriptEnemy]\n- Gain [Blandishment_Enemy] and a different set of Resistance values while in this state\n- SP does not drop below 0",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 133705,
+      "name": "Concentration",
+      "desc": "At [UnlockBuff_3], apply the following effects:\n- [Blandishment_Shin_Enemy], gain Shield equal to 50% of max HP (lasts for the rest of this Encounter)\n- Intensify [PressureOfPrescript] to [PressureOfPrescript_2nd] and max out its Stack\n- Turn Start: Gain 1 [PressureOfPrescript_2nd]",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 133801,
+      "name": "The Orthodox Blade [整劍]",
+      "desc": "Encounter Start: gain 50 [DicipleLittleFinger]"
+    },
+    {
+      "id": 133802,
+      "name": "Training to Inherit the Name of a Star",
+      "desc": "Attack Skill End: Deal (# of Slash Coins that hit Critically x 10) Slash damage against each target (cannot be Staggered due to this damage)"
+    },
+    {
+      "id": 133803,
+      "name": "Singular Focus of the Mind",
+      "desc": "This unit's [Breath] Potency is capped at 25\nAny excess [Breath] Potency gained past 25 will be converted to [DicipleLittleFinger]\n\nGain [Fugacious] equal to [DicipleLittleFinger] lost every time this unit loses [DicipleLittleFinger] Stack"
+    },
+    {
+      "id": 133804,
+      "name": "Tranquility [靜念]",
+      "desc": "If this unit has [DicipleLittleFinger], gain the following effects:\n- SP does not drop below 0; if it was below 0, recover to 0\n- Convert any SP damage taken into Gloom damage (save for SP changes due to \"Base factors increasing/decreasing Sanity\")"
+    },
+    {
+      "id": 133805,
+      "name": "Grace",
+      "desc": "In a Clash against targets that aren't Ryōshū, Clash Power -2\nTake -20% damage from targets other than Ryōshū"
+    },
+    {
+      "id": 133901,
+      "name": "The Emperor's Subjects",
+      "desc": "Turn Start: Gain 50 [DefenseBug] (Gain 3 fewer [DefenseBug] with every subsequent turn; max reduction 20)\n- If this unit has [Combustion], [Laceration], [Vibration], [Burst], or [Sinking], <color=#ff6000><mark=#ff000040><b><u>reduce their Potency by a random value; then, lose the same Stacks of [DefenseBug] as that random value</u></b></mark></color>\n- If the above effects are at 1 Potency but has 2+ Count, reduce their Count instead\n\n<color=#ff6000><mark=#ff000040><b><u>If all [DefenseBug] was lost</u></b></mark></color> during the combat phase, gain the following effects next turn:\n- Gain 10 [DefenseDown] instead of gaining [DefenseBug]\n- Generate 2 E.G.O resources for each of the 3 least-owned Affinities\n- Turn End: Remove all negative effects from this unit and start gaining [DefenseBug] again",
+      "flavor": "They crawl out unheralded from betwixt all the lines that form where walls meet."
+    },
+    {
+      "id": 133902,
+      "name": "The Emperor's Mantle",
+      "desc": "Turn Start: Gain ([DefenseBug] x 40) Shield",
+      "flavor": "The Legion of Roaches moves for no one but its Emperor."
+    },
+    {
+      "id": 133903,
+      "name": "The Emperor's Legion",
+      "desc": "- On Clash Win, inflict 3 [OffenseBug] on target\n- On Hit with a Skill, inflict 1 [OffenseBug] on target",
+      "flavor": "Rip, seep, trickle, carve, tear, devour."
+    },
+    {
+      "id": 133904,
+      "name": "The Emperor's Blood",
+      "desc": "Take -50% HP, SP damage from [Combustion], [Laceration], [Burst], and [Sinking]; -50% to Stagger Threshold raised by [Vibration]\nCannot be Staggered due to this damage\nTurn Start: Gain 2 [ResultReduction] for every 25% missing HP on the Core",
+      "flavor": "'Become dulled and inured to all things.'"
+    },
+    {
+      "id": 133905,
+      "name": "The Unwrapped Present",
+      "desc": "This unit's SP value cannot affect the outcome of Coin flips, which is fixed to 50-50\n\n<color=#ff6000><mark=#ff000040><b><u>On Clash Win against Sinners,</u></b></mark></color> lose 5 SP and deal -40% damage against them\n\n<color=#ff6000><mark=#ff000040><b><u>When in Low Morale or Panic states</u></b></mark></color>, gain [ParryingResultDown] and [ResultReduction]\nWhen recovering from Panic, gain 2 [ResultReduction]",
+      "flavor": "'Are there really no more wrappings underneath?'"
+    },
+    {
+      "id": 133906,
+      "name": "The Emperor's Wrath",
+      "desc": "At 50% HP, or when Staggered, recover from Stagger and remove all negative effects on this unit and gain a new pattern\nThen, gain the following effects:\n- Reset SP to 0\n- Gain 50 [DefenseBug]\n- Double the amount of [OffenseBug] inflicted by the Passive \"The Emperor's Legion\""
+    },
+    {
+      "id": 134701,
+      "name": "Rien, Il Precettore Dell'Indice",
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>Subisce -50% danni dagli Attacchi Incontrastati</u></b></mark></color>\nSubisce -50% danni da [Vibration], [Burst], e [Sinking]\nQuando recupera PS per l'effetto di [UnlockBuff_Base], se i suoi PS sono sotto 0, porta i PS a 0\n\nA inizio Incontro, ottiene [BurningWoundRien_Mask]\n\nA 55% PV, ottiene un nuovo pattern\n- Rimuove tutti gli effetti non esclusivi a quest'Unità\n- Riporta [StackRienSpecialSkill] a 0",
+      "flavor": "Aspettai \"il momento giusto\" per volontà del Prescritto.\nContinuai ad aspettare anche quando la mia cara figlia se ne andò.\n\nUn giorno, finalmente, fui contattato da Limbus Company, e vidi che la Backdoor era aperta.\nPoi, il dispositivo iniziò a suonare, e capì che era arrivato il momento di riportare mia figlia a casa."
+    },
+    {
+      "id": 134702,
+      "name": "Dispositivo dell'Oracolo [Caduceo]",
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>Viene assegnata un’arma casuale ad ogni Moneta per le Abilità Attacco Base. Ogni arma ha un effetto unico.</u></b></mark></color>\n- [RienWeapon01Hatchet]\n- [RienWeapon02Stiletto]\n- [RienWeapon03Greatsword]\n- [RienWeapon04Rapier]\n- [RienWeapon05Sledgehammer]\n- [RienWeapon06Ultragreatsword]\n- [RienWeapon07Lance]\n- [RienWeapon08Chain]\n- [RienWeapon09Scythe]\n\nQuando usa un'Abilità Attacco, ottiene 1 [StackRienSpecialSkill] (max 9)\n- Questo effetto si attiva una volta per Abilità\n\n<color=#ff6000><mark=#ff000040><b><u>A inizio turno, se ha 9 [StackRienSpecialSkill], usa un'Abilità potente</u></b></mark></color>\n- A fine attacco, dopo aver usato l'Abilità potente per la prima volta, ottiene [Shin_Rien]\n- Resetta il limite massimo di [StackRienSpecialSkill]\n- Velocità Min & Max +25\n- Ottiene 1 [Vulnerable] e 2 [ResultReduction] il turno successivo\n\nNel turno 5, se ha meno di 9 [StackRienSpecialSkill], riportalo a 9; poi, ottiene (Stack ottenuto x 5) [KarmaOfIndexRien]\n- Questo effetto si riattiva ogni 4 turni",
+      "flavor": "Una specie di metallo liquido in grado di cambiare forma e massa, le cui qualità somigliano spaventosamente a quelle delle Singolarità, risiede all'interno del Dispositivo.\nLa forma di questo fluido è condizionata solo dal Prescritto ricevuto; l'arma prodotta dipende dalle informazioni riguardanti il bersaglio e dal tempo conferito per l'esecuzione.\nUn giorno, ricevette un pugnale fin troppo piccolo per l'esecuzione del Prescritto. Quindi, decise di aspettare che il dispositivo gli diede un'arma diversa. Eppure, nonstante la data di scadenza si facesse sempre più vicina, il Dispositivo si rifiutò di dargli un'arma più adeguata, e si ritrovò costretto a uccidere il suo bersaglio con una forchetta."
+    },
+    {
+      "id": 134703,
+      "name": "Volontà Del Prescritto",
+      "desc": "A inizio turno:\n- Ottiene [IndexPrescript_Base_2nd] in base al livello di [UnlockBuff_Base] su di sé\n- Infligge [IndexPrescriptTargetToPersonality] su un Peccatore casuale (esclude Ryōshū), e dà priorità a quel bersaglio\n<color=#ff6000><mark=#ff000040><b><u>- Quando usa un'Abilità contro il [IndexPrescriptTargetToPersonality], converte ogni Moneta in [SuperCoin]</u></b></mark></color>\n· Se l'[IndexPrescriptTargetToPersonality] viene sconfitto, o se non può più essere bersagliato, <color=#ff6000><mark=#ff000040><b><u>usa le Abilità Attacco rimanenti su un Peccatore casuale (esclude Ryōshū; dà priorità ai bersagli con meno PV)</u></b></mark></color>\n· Quando tutti gli altri Peccatori sono sconfitti, viene invece applicato a Ryōshū\n\nInfligge +2.5% danni sul [IndexPrescriptTargetToPersonality] per ogni [BlessingOfIndexPrescriptEnemy] (max 20%)\n- A 9 [BlessingOfIndexPrescriptEnemy], infligge +30% danni su ogni bersaglio",
+      "flavor": "Vuoi che metta su famiglia?\n\n\"Deve essere opera del destino. Chi l'avrebbe mai detto che sarei finita con un marito come te...\""
+    },
+    {
+      "id": 134704,
+      "name": "Esecuzione Del Prescritto",
+      "desc": "A fine turno, se il [IndexPrescript_Base_2nd] è stato portato al termine durante il turno, recupera 10 PS e ottiene 3 [BlessingOfIndexPrescriptEnemy] (una volta per turno)\n\n<color=#ff6000><mark=#ff000040><b><u>Se invece il [IndexPrescript_Base_2nd] non è stato portato al termine, ottiene 8 [KarmaOfIndexRien] e il [IndexPrescriptTargetToPersonality] ottiene 1 [ParryingResultUp] il turno successivo</u></b></mark></color>\n- Se non ha [UnlockBuff_Base], ottiene 1 [BlessingOfIndexPrescriptEnemy] a fine turno\n- A 9 [BlessingOfIndexPrescriptEnemy], non ottiene [KarmaOfIndexRien]",
+      "flavor": "Vuoi che perda la mia famiglia?\n\n\"Devo fare un viaggetto al nord oggi.\"\n\"Ah, a proposito— ciao, piccolo— Tesoro? Stasera dovrebbe arrivarmi un pacco. Potresti andare a ritirarlo, per favore?\""
+    },
+    {
+      "id": 134705,
+      "name": "Sprigiona",
+      "desc": "A fine turno, se ha 3/6/9 [BlessingOfIndexPrescriptEnemy], o a 95%/85%/75% o meno PV, ottiene [UnlockBuff_Rien1]/[UnlockBuff_Rien2]/[UnlockBuff_Rien3]\n\nAlla fine del primo turno, se il livello di [UnlockBuff_Base] è inferiore a 1, ottiene [UnlockBuff_Rien1]\nAlla fine del quarto turno, se il livello di [UnlockBuff_Base] è inferiore a 2, ottiene [UnlockBuff_Rien2]\n\nSe gli effetti di [UnlockBuff_Base] sono attivati tramite le condizioni di PV o di Turno:\n- Ameno di 3/6/9 [BlessingOfIndexPrescriptEnemy], vengono portati a 3/6/9\nOttiene 10 [KarmaOfIndexRien] nel turno successivo per ogni Stack ottenuto in questo modo",
+      "flavor": "\"Seguire il Prescritto è necessario per sbloccare ciò che è bloccato.\""
+    },
+    {
+      "id": 134801,
+      "name": "Rien, il Padre [Imitazione]",
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>Subisce -75% danni dagli Attacchi Incontrastati</u></b></mark></color>\nSubisce -75% danni da [Vibration], [Burst], e [Sinking]\nQuando recupera PS dagli effetti di [UnlockBuff_Base], se i PS sono sotto 15, porta i PS a 15\n\nQuando raggiunge la seconda fase al 55% dei PV, attiva i seguenti effetti:\n- Perde tutti gli effetti non esclusivi a quest'Unità\n- Riporta [StackRienSpecialSkill] a 0\n- Ottieni [IndexPrescript_RienSecondPhase]\n- Converte [BurningWoundRien_Mask] in [BurningWoundRien]\n- Converte [KarmaOfIndexRien] in [KarmaOfIndexRien_2Phase]; poi, ottieni 10 Stack di questo effetto\n- Se non ha [Shin_Rien], ottiene [Shin_Rien]\n\nA 25% o meno PV, ottiene un nuovo pattern e potenzia una certa Abilità",
+      "flavor": "Un giorno, Rien sospettò che stesse diventando l'imitazione di qualcun altro. Iniziò a dubitare della volontà del Prescritto e persino a disobbedire ai suoi ordini, poiché non sapeva chi doveva imitare. Ma quando capì il suo intento era già troppo tardi, e accettò la sua volontà.\nCosì, il falso padre fu finalmente completato."
+    },
+    {
+      "id": 134802,
+      "name": "Dispositivo dell'Oracolo [Caduceo] - Sprigionato",
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>Viene assegnata un’arma casuale ad ogni Moneta per le Abilità Attacco Base. Ogni arma ha un effetto unico.</u></b></mark></color>\n- [RienWeapon01Hatchet2phase]\n- [RienWeapon02Stiletto2phase]\n- [RienWeapon03Greatsword2phase]\n- [RienWeapon04Rapier2phase]\n- [RienWeapon05Sledgehammer2phase]\n- [RienWeapon06Ultragreatsword2phase]\n- [RienWeapon07Lance2phase]\n- [RienWeapon08Chain2phase]\n- [RienWeapon09Scythe2phase]\n\nQuando usa un'Abilità Attacco, ottiene 1 [StackRienSpecialSkill] (max 9)\n- Questo effetto si attiva una volta per Abilità\n- Non può ottenere [StackRienSpecialSkill] dalle Abilità usate solo in certi pattern.\n\nA 9 [StackRienSpecialSkill], usa un'Abilità potente\n- Resetta il limite massimo di [StackRienSpecialSkill]\n- Velocità Min & Max +25\n- Ottiene 2 [Vulnerable] e 3 [ResultReduction] il turno successivo\n\nAttiva i seguenti effetti a partire dal turno in cui ha cambiato fase:\n- Ogni 4 turni, se ha meno di 9 [StackRienSpecialSkill], portalo a 9; poi, ottieni (Stack ottenuto x 5) [KarmaOfIndexRien_2Phase]",
+      "flavor": "Una maledizione e un'arma senza pari conferita da Hermes, un dio della Città i cui Prescritti vengono trasmessi tramite onde radio."
+    },
+    {
+      "id": 134803,
+      "name": "Volontà Del Prescritto",
+      "desc": "Turn Start:\n- Infligge [IndexPrescriptTargetToPersonality] su un Peccatore casuale (esclude Ryōshū), e dà priorità a quel bersaglio\n<color=#ff6000><mark=#ff000040><b><u>- Quando usa un'Abilità sul [IndexPrescriptTargetToPersonality], converte ogni Moneta di quell'Abilità a [SuperCoin]s</u></b></mark></color>\n· Se il [IndexPrescriptTargetToPersonality] viene sconfitto, o se non può più essere bersagliato, <color=#ff6000><mark=#ff000040><b><u>usa le Abilità rimanenti su un Peccatore casuale (esclude Ryōshū; dà priorità al bersaglio con meno PV, esclude i nemici con 1 PV)</u></b></mark></color>\n· Se tutti gli altri Peccatori sono stato sconfitto, viene invece applicato a Ryōshū\n- Ottiene [Protection] pari a [BlessingOfIndexPrescriptEnemy] (max 9)\n<color=#ff6000><mark=#ff000040><b><u>· Perde 1 Stack per ogni 20 [KarmaOfIndexRien_2Phase]</u></b></mark></color>\n\nInfligge +5% danni sul [IndexPrescriptTargetToPersonality] per ogni [BlessingOfIndexPrescriptEnemy] (max 40%)\n- A 9 [BlessingOfIndexPrescriptEnemy], infligge +50% danni su ogni bersaglio\n\nA partire dal primo turno dopo il cambio di fase, attiva i seguenti effetti:\n- Ottiene [BlackNightmare] ogni 2 turni.\n- Quando ottiene [BlackNightmare], se ha meno di 9 [StackRienSpecialSkill], attiva un pattern speciale",
+      "flavor": "Ho messo su famiglia.\n\n\"Non dovresti essere qui.\"\n\"Sto lavorando. Se non ti spiace, preferirei scolpire in pace per fare in modo da esporre al meglio la loro bellezza.\"\n\"... Non mi dire che sei qui per disobbedire al Prescritto.\""
+    },
+    {
+      "id": 134804,
+      "name": "Esecuzione Del Prescritto",
+      "desc": "A fine turno, se il [IndexPrescript_Base_2nd] è stato portato al termine, recupera 15 PS e ottiene 1 [BlessingOfIndexPrescriptEnemy] (una volta per turno)\n\n<color=#ff6000><mark=#ff000040><b><u>Se invece il [IndexPrescript_Base_2nd] non è stato portato al termine durante il turno, ottiene 10 [KarmaOfIndexRien_2Phase], perde 1 [BlessingOfIndexPrescriptEnemy], e il [IndexPrescriptTargetToPersonality] ottiene 2 [ParryingResultUp] il turno successivo</u></b></mark></color>\n- Se ha usato un'Abilità Potente durante il turno, ottiene invece 15 [KarmaOfIndexRien_2Phase] e perde 3 [BlessingOfIndexPrescriptEnemy]",
+      "flavor": "Ho perso... la mia famiglia.\n\n\"Non andartene...\"\n\"Papà... Non lasciarci qui... Ti prego... aiutaci...\""
+    },
+    {
+      "id": 132224,
+      "name": "L'Ultimo Scontro",
+      "desc": "Per questo Incontro, se subisce danni fatali, annulla il danno e attiva i seguenti effetti (una volta per Incontro):\n- Porta i PV al massimo e rimuovi tutti gli status negativi\n- Ottiene 1 [Vulnerable] e fissa [TimeEntangleUnstable] a 1. Subisce (# del turno attuale x 10) danni fissi a fine turno\n- Poi, termina il turno e rafforza il suo pattern",
+      "flavor": "\"Sei nata per dimenticare, e io sono nata per ricordare.\""
+    }
+  ]
+}

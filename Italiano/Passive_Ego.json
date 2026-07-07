@@ -1,0 +1,577 @@
+{
+  "dataList": [
+    {
+      "id": 2010111,
+      "name": "Silenzio",
+      "desc": "Se colpito: Ottiene 3 [Binding] il turno successivo e infligge +20% danni quando attacca con un tipo di Attacco o Affinità a cui il bersaglio ha resistenza Debole o Fatale. (Una volta per turno.)"
+    },
+    {
+      "id": 2010211,
+      "name": "Brace",
+      "desc": "A Scontro Vinto, infligge (Rison-A Ira / 2) [Combustion]. (Una volta per Abilità.)"
+    },
+    {
+      "id": 2010311,
+      "name": "Dol Hareubang",
+      "desc": "Ottiene 3 [HitTakeDamageDown] e [AmberTakeDamageDown] ogni turno."
+    },
+    {
+      "id": 2020111,
+      "name": "Ennui",
+      "desc": "Se il nemico viene Stordito durante l'attacco di questa unità, il turno successivo applica +2 [MentalSystemResultIncrease_Typo] all'alleato che ha la quantità minore di PS (3 volte per turno)"
+    },
+    {
+      "id": 2020211,
+      "name": "Velo Liquido",
+      "desc": "A Inizio Turno: Applica 2 [Protection] all'alleato che ha i PV minori (inclusa questa unità)"
+    },
+    {
+      "id": 2020311,
+      "name": "Fa Male!",
+      "desc": "Infligge +10% danni per ogni tipo di effetto negativo su questa unità (max 50%)"
+    },
+    {
+      "id": 2030111,
+      "name": "Passione Smoderata",
+      "desc": "Sul Colpo, se il bersaglio ha [Laceration], recupera 3 PV"
+    },
+    {
+      "id": 2030211,
+      "name": "Ondata di Depressione",
+      "desc": "Il bersaglio dell'Abilità più a destra sul Pannello di Controllo perde PS pari a (2 x Rison-A Tristezza) alla fine dell'Attacco (i bersagli senza PS subiscono invece danno da Tristezza)"
+    },
+    {
+      "id": 2040111,
+      "name": "Arte",
+      "desc": "Infligge e subisce +5% danni per ogni nemico che quest'unità ha sconfitto nel turno precedente"
+    },
+    {
+      "id": 2040211,
+      "name": "Fiamma del Quarto Fiammifero",
+      "desc": "Ogni quarta Abilità usata da questa unità ottiene +4 Potere Finale ed infligge 4 [Combustion] Sul Colpo."
+    },
+    {
+      "id": 2040212,
+      "name": "Fiamma del Quarto Fiammifero",
+      "desc": "Ogni quarta Abilità usata da questa unità ottiene +4 Potere Finale ed infligge 4 [Combustion] Sul Colpo\n- Se questa Abilità è di Affinità Ira, infligge danni aggiuntivi (max 20%) in base a +(Potenza [Combustion] Su tutti i bersagli / 2)%\n- Se questa abilità è una Abilità, applica i seguenti effetti a Uso Moneta della prima Moneta:\n· Se la Moneta è una Positiva, recupera 10 PS\n· Se la Moneta è una Negativa, perde 15 PS (questo effetto non può ridurre i PS dell'unità al di sotto di -40)",
+      "summary": "Ogni quarta Abilità usata è potenziata"
+    },
+    {
+      "id": 2050111,
+      "name": "Rifiuto di Giudicare",
+      "desc": "A Inizio Combattimento: Ottiene 3 [Protection] se questa unità viene bersagliata da 3 o più Abilità"
+    },
+    {
+      "id": 2050211,
+      "name": "Potenziamento Finale",
+      "desc": "Se l'Abilità E.G.O <Cazzotto Svitato> viene usata quando questa unità ha meno del 25% PV, ottiene 3 [Enhancement], [Endurance] e [Agility] ogni turno, ma muore dopo 3 turni."
+    },
+    {
+      "id": 2050311,
+      "name": "Rivelazione dall'Alto",
+      "desc": "Dopo aver vinto uno Scontro con l'Abilità più a sinistra sul Pannello di Controllo, applica 1 [Enhancement] o [Endurance] ad un alleato casuale il turno successivo"
+    },
+    {
+      "id": 2060111,
+      "name": "Increspatura",
+      "desc": "Inizio Combattimento: Cura (Rison-A più alta di questa unità) PS all'alleato che ne ha di meno, alleati in stato di Panico esclusi."
+    },
+    {
+      "id": 2060211,
+      "name": "Nastri Vincolanti",
+      "desc": "Infligge (Rison-A Lussuria / 4) [ScarletTakeDamageUp] il turno successivo al bersaglio dell' Abilità più a sinistra nel Pannello di Controllo alla fine di quella Abilità Attacco"
+    },
+    {
+      "id": 2070111,
+      "name": "Spirito Competitivo",
+      "desc": "Quando un altro Alleato sconfigge un Nemico, ottiene 1 [Enhancement] e 1 [Agility] all'Inizio del Turno Successivo (max 3)"
+    },
+    {
+      "id": 2070211,
+      "name": "Ruggito",
+      "desc": "Se Uccide un Nemico, ottiene +(Rison-A Invidia / 2) Conteggio [Charge]"
+    },
+    {
+      "id": 2080111,
+      "name": "Pulsione",
+      "desc": "In uno Scontro:\n- Se la probabilità di vittoria è A Favore o superiore, Potere Scontro +2\n- Se la probabilità di vittoria è Difficile o inferiore, Potere Scontro -2"
+    },
+    {
+      "id": 2080211,
+      "name": "Nastri Rosa",
+      "desc": "A Scontro Vinto, infligge 1 [PinkRibbon_Ishmael]"
+    },
+    {
+      "id": 2080311,
+      "name": "Pioggia di Fuoco",
+      "desc": "Sul Colpo, se il bersaglio ha [Combustion], infligge 1 [Combustion] a 3 nemici casuali"
+    },
+    {
+      "id": 2090111,
+      "name": "Distaccamento",
+      "desc": "+1 [MentalSystemResultIncrease_Typo], -1 [MentalSystemResultDecrease_Typo]"
+    },
+    {
+      "id": 2090211,
+      "name": "Principio di Fiamma",
+      "desc": "Se Sconfigge un Nemico che ha [Combustion], recupera (Rison-A Ira)% PV"
+    },
+    {
+      "id": 2090311,
+      "name": "Freddezza",
+      "desc": "Sul Colpo, se il bersaglio ha 5+ [Sinking], infligge 1 [Binding] e [Reduction] il turno successivo\n(3 volte per unità)"
+    },
+    {
+      "id": 2100111,
+      "name": "Instabile",
+      "desc": "Se una Moneta cade da un lato differente di un'altra moneta della stessa Abilità, perde 5 PS e ottiene 1 [AttackDmgUp] questo turno (3 volte per turno)"
+    },
+    {
+      "id": 2100211,
+      "name": "Sacrificio Vivente",
+      "desc": "Se Sconfigge un Nemico con un'Abilità Attacco o Contrattacco, ottiene 5 risorse E.G.O  dell'Affinità di quella Abilità."
+    },
+    {
+      "id": 2110111,
+      "name": "Perfezione Strategica",
+      "desc": "Ottiene 1 [AttackDmgUp] il turno successivo se questa unità non è stata colpita durante il turno. Ottiene 1 ulteriore [AttackDmgUp] per ogni turno consecutivo in cui questa unità non viene colpita (max 3)"
+    },
+    {
+      "id": 2110211,
+      "name": "Stelo della Diffidenza",
+      "desc": "Ottiene 1 [PenetrateDamageUp] ogni turno\nTesta Colpisce: Infligge 1 [Binding] e +1 Conteggio [Burst] il turno successivo"
+    },
+    {
+      "id": 2110311,
+      "name": "Vuotamento",
+      "desc": "Ottiene 1 [ScarletDamageUp] ogni turno\nOttiene 1 ulteriore quando questa unità ha meno di 0 PS"
+    },
+    {
+      "id": 2120111,
+      "name": "Metamorfosi fuori Controllo",
+      "desc": "A Inizio Turno: Se a meno di 25% PV, recupera 15 PV e ottiene 2 [Protection]\nQuando gli effetti sopracitati si attivano, infligge +2 [MentalSystemResultDecrease_Typo] su 1 altro alleato casuale e 1 nemico casuale"
+    },
+    {
+      "id": 2120211,
+      "name": "Larve",
+      "desc": "Sul Colpo, infligge 5 [Muckworm] con una probabilità pari a (Rison-A Gola x 8)%"
+    },
+    {
+      "id": 2120311,
+      "name": "Assorbimento di Nutrienti",
+      "desc": "Se Sconfigge un nemico che ha [Burst], recupera (Rison-A Gola)% PV"
+    },
+    {
+      "id": 2030311,
+      "name": "Scarica Caotica",
+      "desc": "A inizio Combattimento: Un alleato casuale che ha [Charge] ottiene +(Rison.A Invidia / 2) Conteggio [Charge]"
+    },
+    {
+      "id": 2020411,
+      "name": "Rilascio Adattivo",
+      "desc": "Se questa unità ha [Charge], infligge +2% danni per conteggio [Charge].\nLe Abilità consumano -2 Conteggio [Charge]."
+    },
+    {
+      "id": 2030411,
+      "name": "Calderone delle Abbuffate",
+      "desc": "A Inizio turno: Converti 2 E.G.O risorse non-Lussuria casuali in 1 risorsa Lussuria"
+    },
+    {
+      "id": 2100311,
+      "name": "Stufato Straripante",
+      "desc": "Se Croce Colpisce e il bersaglio è un nemico infligge 1 [Combustion] "
+    },
+    {
+      "id": 2010411,
+      "name": "Uomo Vagante",
+      "desc": "A Inizio Turno: Se questa unità non ha subito danno il turno precedente, ottiene +4 Conteggio [Charge].\nSul Colpo contro un Nemico che ha Velocità più bassa, infligge +1 Conteggio [Burst] (3 volte per turno)"
+    },
+    {
+      "id": 2060311,
+      "name": "Entangled Phenomena Restoration",
+      "desc": "Sul Colpo contro un nemico che ha effetti di stato negativi: ottiene +1 Conteggio [Charge] (4 volte per turno).\nQuando i PV scendono a 0, consuma tutto il Conteggio [Charge] e recupera PV in base alle Stacks consumate (una volta per Incontro; max 25% PV)"
+    },
+    {
+      "id": 2050411,
+      "name": "Smania Sfrenata",
+      "desc": "A Inizio Combattimento: Se questa unità è bersagliata da 2 o più Abilità, le Abilità di questa unità ottengono +1 Potere Base; se l'unità viene colpita, infligge 1 [Combustion] all'attaccante (5 volte per turno)"
+    },
+    {
+      "id": 2080411,
+      "name": "Abbattimento Tra i Plausi",
+      "desc": "Quando l'unità attacca un bersaglio con meno di 30% di PV, infligge con le Abilità di Affinità Ira +20% danni"
+    },
+    {
+      "id": 2110411,
+      "name": "Respiro della Caccia",
+      "desc": "Dopo uno Scontro, ottiene 2 [Breath]\nSe l'unità è stordita, ottiene 2 [Protection]; quando si riprende dallo stordimento, ottiene 5 [Breath]"
+    },
+    {
+      "id": 2070311,
+      "name": "Scarica Suscettibile",
+      "desc": "Quando è colpita, consuma 1 Conteggio [Charge] per recuperare il 2.5% dei PV\nA meno del 40% dei PV, ottiene +1 Conteggio [Charge] prima di attivare l'effetto curativo (può ottenere fino a 10 Conteggio [Charge] per turno)"
+    },
+    {
+      "id": 2120411,
+      "name": "Scarica Alternante",
+      "desc": "Su Testa Colpisce, consuma 2 Conteggio [Charge] per applicare +1 Conteggio [Charge] all'alleato che possiede [Charge] che ha il Conteggio minore di [Charge]"
+    },
+    {
+      "id": 2010511,
+      "name": "Raggio di Sole Dopo la Pioggia",
+      "desc": "A Inizio Turno: Tutti gli Alleati recuperano 3 PS"
+    },
+    {
+      "id": 2040311,
+      "name": "Ragnatele",
+      "desc": "A Scontro Vinto, infligge 1 [Binding] il turno successivo (3 volte per turno)"
+    },
+    {
+      "id": 2040411,
+      "name": "Predatore",
+      "desc": "Se questa unità ha recuperato più del 10% dei propri Max PV in questo turno, ottiene 1 [Enhancement] il turno successivo."
+    },
+    {
+      "id": 2040511,
+      "name": "Lattina Aperta",
+      "desc": "Sul Colpo, Se il bersaglio ha 5+ [Sinking], infligge 1 [Disarming] (5 volte per turno)"
+    },
+    {
+      "id": 2060411,
+      "name": "Schiamazzo dei Gabbiani Dei Mari Lontani",
+      "desc": "Se un Nemico è Sconfitto, l'alleato con il numero minore di PS recupera 1 PS\nPer ogni volta che un nemico è sconfitto, l'ammontare di PS recuperati aumenta di 2 (max 9)\nL'ammontare sopracitato viene azzerato all'inizio di una nuova ondata"
+    },
+    {
+      "id": 2100411,
+      "name": "Esca Fatata",
+      "desc": "Dopo aver Sconfitto un Nemico che ha bersagliato questa unità a Inizio Combattimento, recupera (3 + (Rison-A Gola))% PV"
+    },
+    {
+      "id": 2070411,
+      "name": "Dhyāna",
+      "desc": "Aumenta i Max PV del 15% dei Max PV base di questa Identità quando si riprende dallo Stordimento.\nIn seguito, recupera 15% degli attuali Max PV. Se questa unità ha meno di 30% degli attuali Max PV, recupera invece 25% degli attuali Max PV (3 volte per Incontro. Alla fine dell'incontro, ritorna ad avere i Max HP base. L'attuale valore PV sarà corretto per rispettare la percentuale di PV avuto alla Fine dell'Incontro)"
+    },
+    {
+      "id": 2050511,
+      "name": "Ira contenuta",
+      "desc": "Potere Base -1 e Potere Moneta +2 all'Abilità di questa unità più a sinistra nel Panello di Controllo\nA Inizio turno: A 4- Velocità, ottiene 1 [HitResultUp]"
+    },
+    {
+      "id": 2020511,
+      "name": "Spada Fiammeggiante",
+      "desc": "Se Testa Colpisce con un'Abilità con affinità Lussuria, infligge 1 [Combustion] sul bersaglio (6 volte per turno)"
+    },
+    {
+      "id": 2060511,
+      "name": "Melma Verde",
+      "desc": "Se colpita a meno di 50% PV, infligge 1 [Burst] all'attaccante. (Si attiva (Rison.A Gola più alta) volte per turno)"
+    },
+    {
+      "id": 2040611,
+      "name": "Divorasogni",
+      "desc": "Sul Critico con una Abilità di Affinità Superbia, ottiene 1 Conteggio [Breath] (3 volte per turno)"
+    },
+    {
+      "id": 2080511,
+      "name": "Voyage Temerario",
+      "desc": "A Fine Turno: infligge 5 [Sinking] ad un altro alleato con il numero minore di PV; applica 1 [Agility] e 3 [AttackUp] il turno successivo"
+    },
+    {
+      "id": 2090411,
+      "name": "Marciume Appiccicoso",
+      "desc": "Se Testa Colpisce con una Abilità Perforante, infligge 1 [Binding] (2 volte per turno)"
+    },
+    {
+      "id": 2100511,
+      "name": "Profezia della Rovina",
+      "desc": "Se Testa Colpisce con una Abilità di Affinità Lussuria, riduce di 4 i PS di questa unità e del bersaglio.\n(Non funziona sui bersagli senza Sanità)\nOttiene 5 Risorse E.G.O Lussuria su Uccisione con una Abilità di Affinità Lussuria"
+    },
+    {
+      "id": 2090511,
+      "name": "Condanna dall'Alto",
+      "desc": "Se un nemico viene Stordito, l'alleato con la percentuale più bassa di PV recupera 4% dei propri max PV. (Una volta per turno)"
+    },
+    {
+      "id": 2070511,
+      "name": "Odio Infinito",
+      "desc": "Se questa unità ha un effetto di stato o un effetto negativo, e se il bersaglio principale o l'attaccante ha un effetto positivo:\n- Infligge +1 ulteriore [Combustion], [Laceration], [Vibration], [Burst], e [Sinking] Potenza su di sé e sui nemici con gli effetti delle Abilità o delle Monete\n- Ottiene +1 ulteriore [Breath] e Conteggio [Charge] con gli effetti delle Abilità o delle Monete"
+    },
+    {
+      "id": 2110511,
+      "name": "Regali Giusti",
+      "desc": "Se applica effetti positivi ad altri alleati con effetti delle Abilità o delle Monete, sceglie casualmente uno dei seguenti effetti: [Combustion], [Laceration], [Vibration], [Burst], o [Sinking].\nIn seguito, infligge 1 Potenza dell'effetto selezionato ad 1 nemico casuale. (Si attiva 5 volte per turno. Può essere applicato fino 5 volte per nemico. Per le Anormalità, è applicato ad una Parte casuale.)"
+    },
+    {
+      "id": 2030511,
+      "name": "Pagoda della Pietra Caduta",
+      "desc": "Ottiene 2 [Breath] e +2 Conteggio [Breath] quando sconfigge un nemico con [Laceration] (3 volte per turno)"
+    },
+    {
+      "id": 2120511,
+      "name": "Corona di Rose",
+      "desc": "A Inizio turno: Infligge 2 [Burst] ad un attaccante casuale (Negli Incontri Mirati, tutte le parti)\nSe si attiva Risonanza Assoluta, infligge 2 [Burst] su tutti i nemici a Inizio Combattimento"
+    },
+    {
+      "id": 2120611,
+      "name": "Se Potessi Tornare Indietro...",
+      "desc": "A Fine Attacco: Se il bersaglio è sconfitto dopo un attacco di questa unità, ottiene per la risorsa E.G.O meno posseduta 1 risorsa E.G.O.\nOttiene 1 ulteriore risorsa E.G.O per ogni 5 ([Sinking] Potenza + Conteggio) (max 3)\n(Se ci sono 2 o più \"risorse E.G.O meno possedute\", seleziona 1 di queste Affinità in modo casuale per ottenere una risorsa E.G.O)"
+    },
+    {
+      "id": 2010611,
+      "name": "Ieri Frammentato",
+      "desc": "Se il bersaglio ha 6+ Potenza [Sinking], Potere Scontro +1\nSe il bersaglio ha 4+ Conteggio [Sinking], Potere Scontro +1"
+    },
+    {
+      "id": 2030611,
+      "name": "Strillo Tempestoso",
+      "desc": "Se questa unità, alla fine di un'Abilità Tagliente o con Affinità Invidia, sconfigge un bersaglio, ottiene 1 [Enhancement] il turno successivo (una volta per turno)"
+    },
+    {
+      "id": 2050611,
+      "name": "Cavi Sovraccaricati",
+      "desc": "A Inizio Combattimento: A 4+ Rison., ottiene 2 [AttackUp] e 2 [DefenseUp].\nSe la Rison. era una Rison. Invidia, applica gli effetti sopracitati anche a 2 unità adiacenti a questa unità nel Pannello di Controllo"
+    },
+    {
+      "id": 2070611,
+      "name": "Catene del Vincolo",
+      "desc": "- A Inizio Combattimento: A 4+ Rison. più alta che include le Abilità di questa unità, applica 3 [AttackUp] e 3 [DefenseUp] su di sé e agli alleati che erano parte della Risonanza\n- Se la Rison. era una Rison-A, applica 2 ulteriori [AttackUp] e [DefenseUp]"
+    },
+    {
+      "id": 2110611,
+      "name": "Grandiosa Accoglienza",
+      "desc": "A Fine Attacco: Se il bersaglio dell'attacco di questa unità è Stordito o sconfitto, ottiene +1 Risorsa E.G.O Superbia e +1 Risorsa E.G.O per 1 altra Affinità Casuale (3 volte per turno)"
+    },
+    {
+      "id": 2080611,
+      "name": "Ingordigia",
+      "desc": "Se il bersaglio principale ha subito danni ai PV questo turno e non è a max PV prima dell'Uso dell'Abilità:\nSul Colpo,\n- Quando questa unità è a max PV, infligge +5~+10% danni.\n- Quando questa unità non è a max PV, recupera 2~5 PV. \n(7 volte per turno)",
+      "summary": "Se il bersaglio non è a max PV, infligge più danni Sul Colpo o recupera PV Sul Colpo"
+    },
+    {
+      "id": 2090611,
+      "name": "Ossessione",
+      "desc": "L'Abilità di questa unità più a sinistra nel Pannello di Controllo infligge il doppio della potenza di [Laceration] (una volta per turno)",
+      "summary": "Questa Abilità Infligge x2 Potenza [Laceration]"
+    },
+    {
+      "id": 2060611,
+      "name": "Malinconia",
+      "desc": "Se questa unità usa un'Abilità che innesca [VibrationExplosion] su un nemico, infligge 1 [AttackDown] e 2 [DefenseDown] al nemico il turno successivo. (3 volte per turno, Abilità E.G.O incluse)",
+      "summary": "Se innesca [VibrationExplosion], infligge 1 [AttackDown] e 2 [DefenseDown] il turno successivo"
+    },
+    {
+      "id": 2100611,
+      "name": "Strato Lacrimoso",
+      "desc": "A Inizio Turno: Se questa unità ha Scudo, ottiene 1 [Protection]\nSe questa unità è sotto l'effetto di [ShieldManagerCryingToad], ottiene 1 ulteriore [Protection]",
+      "summary": "Se questa unità ha Scudo, ottiene 1 [Protection]\nSe [ShieldManagerCryingToad] è attiva, ottiene 1 [Protection]"
+    },
+    {
+      "id": 2020611,
+      "name": "Il Tempo Corre",
+      "desc": "Se questa unità usa una Abilità che innesca [VibrationExplosion] su un nemico, ottiene 1 [Agility] il turno successivo. (4 volte per turno, Abilità E.G.O incluse)",
+      "summary": "Se usa una Abilità e innesca [VibrationExplosion] su un nemico, ottiene 1 [Agility] il turno successivo. (4 volte per turno, Abilità E.G.O incluse)"
+    },
+    {
+      "id": 2040711,
+      "name": "Marchio dello Sguardo",
+      "desc": "Se questa unità usa un'Abilità Attacco Base su un nemico, ottiene 1 ulteriore risorsa E.G.O per un'Affinità casuale, tra quelle menoo possedute, che non corrisponde all'Affinità dell'Abilità Attacco usata (2 volte per turno)"
+    },
+    {
+      "id": 2070711,
+      "name": "Pendente Frammentato",
+      "desc": "A Inizio Combattimento: A 3+ Rison. più alta, ottiene 3 [Breath]."
+    },
+    {
+      "id": 2110711,
+      "name": "Uomo Vagante",
+      "desc": "Max Conteggio [Charge] +5\nLe Abilità che consumano Conteggio [Charge] infliggono +2% danni per ogni ([Charge] - 1) (max 10%)",
+      "summary": "Le Abilità che consumano Conteggio [Charge] infliggono più danni"
+    },
+    {
+      "id": 2120711,
+      "name": "Lamento",
+      "desc": "A Fine Turno: se questa unità ha un effetto negativo, ottiene 1 [Enhancement] il turno successivo\nSe attacca bersagli che sono in Panico o in Corrosione E.G.O: infligge +15% danni",
+      "summary": ""
+    },
+    {
+      "id": 2080711,
+      "name": "Ricevimento dell'Indesiderato",
+      "desc": "Se il bersaglio ha [UninvitedGuestPersonality] o qualunque effetto che cambia il Tipo di Panico, Potere Scontro +1.\nSul colpo sul suddetto bersaglio, 1 alleato con il numero minore di PS recupera 5 PS. (una volta per turno)"
+    },
+    {
+      "id": 2020711,
+      "name": "Lazo Incontrollato",
+      "desc": "A Fine Attacco: Se il bersagio è Stordito o sconfitto, infligge +1 Conteggio [Burst] a 2 nemici casuali (una volta per turno; non cumulabile; negli Incontri Mirati, a 2 Parti casuali)",
+      "summary": "A Fine Attacco: Se il bersaglio è Stordito o sconfitto, infligge +1 Conteggio [Burst] a 2 nemici casuali"
+    },
+    {
+      "id": 2060711,
+      "name": "Si Va a Caccia",
+      "desc": "Se un nemico o un alleato viene ucciso tramite danni da [Burst] o [Laceration], infligge 2 [Snare] ad un nemico casuale ed ottiene 1 [Agility] il turno successivo (una volta per turno)"
+    },
+    {
+      "id": 2030711,
+      "name": "Bocciolo Scarlatto Germogliante",
+      "desc": "Per ogni 10+ danni inflitti da [Laceration], recupera 1 PS su di sé (10 per turno)"
+    },
+    {
+      "id": 2090711,
+      "name": "Paletto di Ferro sul Cuore",
+      "desc": "Se Infligge [Laceration] o '<noparse>Sanguinamento</noparse> Speciale' ad un nemico con Abilità Attacco Base, infligge 1 [DefenseDown] (una volta per turno)\n- Se il bersaglio ha [Laceration] o '<noparse>Sanguinamento</noparse> Speciale', infligge ulteriore 2 [Laceration] (una volta per turno)\n\nSe un alleato, inclusa questa unità, riceve danni diretti ai PV da un nemico, infligge 1 [Curse] al bersaglio nemico (2 volte per turno)",
+      "summary": ""
+    },
+    {
+      "id": 2100711,
+      "name": "Pelliccia Lurida",
+      "desc": "A Inizio Combattimento: se questa unità ha un effetto negativo, ottiene 1 [ParryingResultUp] e 1 [Endurance]\n- Ottiene 1 [Protection] per ogni 3 effetti negativi su sé (max 2)"
+    },
+    {
+      "id": 2050711,
+      "name": "Banchetto Sanguineo",
+      "desc": "Quando questa unità infligge o riceve danni da [Laceration], recupera PV pari al danno da [Laceration] (max 10 per turno)\n- Se attiva una Abilità/Moneta che infligge [Laceration], se il bersaglio ha [RoseWedge], infligge 1 [Laceration] al bersaglio. (2 volte per turno)"
+    },
+    {
+      "id": 2010711,
+      "name": "Il Prossimo",
+      "desc": "A Fine Attacco: Se il bersaglio viene ucciso, ottiene +2 Conteggio [Breath] (2 volte per turno)"
+    },
+    {
+      "id": 2070811,
+      "name": "Campana Rotta",
+      "desc": "Infligge [Vulnerable] questo turno ai nemici colpiti da [VibrationExplosion] tramite effetti da Abilità, Moneta, o Passiva.\n- Non si cumula con Doni E.G.O che infliggono [Vulnerable] tramite [VibrationExplosion]. (Se i Doni E.G.O sono stati migliorati, si sottrae il valore di questo effetto da quello finale prima di infliggerlo.)",
+      "summary": "Infligge 1 [Vulnerable] tramite [VibrationExplosion] "
+    },
+    {
+      "id": 2080811,
+      "name": "Uno Sguardo tra le Ombre",
+      "desc": "Gli alleati ottengono ulteriore +1 Conteggio [Vibration] dagli effetti delle Abilità o delle Monete (2 volte per turno)\n- Se il bersaglio dell'alleato è in stato di Stordimento, Morale Basso, o Panico, ne ottiene invece +2 in più\n- L'Effetto non si cumula con i Doni E.G.O con effetti identici."
+    },
+    {
+      "id": 2120811,
+      "name": "Notte Insonne",
+      "desc": "A Inizio Combattimento: Infligge 1 [AttackDown] o 1 [DefenseDown] su tutti i nemici per ogni nemico in stato di Stordimento, di Morale Basso, o di Panico (2 volte per turno)\n- L'Effetto non è cumulativo con i Doni E.G.O con effetti identici."
+    },
+    {
+      "id": 2110811,
+      "name": "Sette Proiettili",
+      "desc": "- Sul Colpo con Abilità Attacco Base: infligge ([FreischutzShotCount] / 3) [Combustion] (3 volte per turno)\n- Per l'identità di Outis E.G.O della Lobotomy::<noparse>Proiettile Magico</noparse>, infligge ([FreischutzShotCount]) [Combustion] invece (3 volte per turno)\n- Se il bersaglio ha 30+ [Combustion], infligge 1 [DarkFlame] invece rispetto all'effetto sopracitato (2 volte per turno)"
+    },
+    {
+      "id": 2040811,
+      "name": "Respiro",
+      "desc": "Dal turno successivo dopo aver usato questa Abilità E.G.O: Ottiene 1 [NebulizerInhale] (una volta per turno)\n- Se questa abilità sconfigge nemici, ottiene ulteriore [NebulizerInhale] pari al numero di bersagli sconfitti\n- Se questa Abilità sconfigge alleati, ottiene (bersagli sconfitti x 2) ulteriore [NebulizerInhale]\n- Questo valore si accumula durante tutto l'incontro"
+    },
+    {
+      "id": 2020811,
+      "name": "Respiro",
+      "desc": "Dal turno successivo dopo aver usato questa Abilità E.G.O: Ottiene 1 [NebulizerExhale] (una volta per turno)\n- Questo valore si accumula durante tutto l'incontro\n\nInizio Combattimento: Ottiene 1 [NebulizerExhale] per ogni volta che applica 10 Conteggio [Breath] agli alleati che hanno gli effetti di [NebulizerExhale]\n\nFine Turno: A partire dagli alleati con la percentuale di PV minori, cura il (Stack di [NebulizerExhale])% dei loro PV a (Ris. più alta) alleati (max 6)\n- Se l'alleato che è stato curato ha 20+ Potenza [Breath], attiva la cura una volta in più"
+    },
+    {
+      "id": 2090811,
+      "name": "Attrazione Fiammeggiante",
+      "desc": "Quando un bersaglio che ha 10+ Conteggio [Combustion] viene sconfitto, distribuisce il Conteggio [Combustion] del bersaglio tra tutti i nemici e recupera 8 PS (negli Incontri Mirati, tra tutte le Parti; 3 max per bersaglio, 2 volte per turno)\n- A PS massimi, cura invece di 5 PS l'alleato che ha i PS minori"
+    },
+    {
+      "id": 2030811,
+      "name": "Talismano Indebolente",
+      "desc": "Sul Colpo delle Abilità di questa unità: se il bersaglio ha 15+ [Burst], o se questa unità ha inflitto un Colpo Critico, infligge 1 [DefenseDown] (max 6)\n- Se questa Passiva si attiva, i suoi effetti non sono cumulativi con gli effetti del dono E.G.O \"Vecchio Fantoccio in Legno\"."
+    },
+    {
+      "id": 2080911,
+      "name": "Inversione della Morte per Veleno Gu",
+      "desc": "Ogni volta che questa unità infligge Potenza [Sinking], Conteggio [Sinking], o '<noparse>Annegamento</noparse> Speciale' con un'Abilità Attacco, ottiene 1 [AttackUp] il turno successivo(max 2)\n- A 3+ Rison-A, con le stesse condizioni, ottiene invece 1 [AttackUp] il turno successivo (max 3)"
+    },
+    {
+      "id": 2060811,
+      "name": "Piangendo Lacrime",
+      "desc": "Se il bersaglio è sconfitto dopo un'Abilità Attacco o un'Abilità Contrattacco di questa unità:\n- Ottiene 2 [Agility] il turno successivo (una volta per turno)\n- A tutti gli alleati, inclusa questa unità: al turno successivo, applica 1 Danno Aumentato al Tipo di Danno e Affinità dell'Abilità utilizzata per attivare l'effetto (una volta per turno)\n- Infligge 1 [Reduction] a tutti i nemici il turno successivo (una volta per turno)\n\nSe questa unità muore:\n- Applica 1 [ShamrockDamageUp] e [PenetrateDamageUp] a tutti gli alleati il turno successivo (una volta per turno)\n- Infligge 1 [Reduction] a tutti i nemici il turno successivo (una volta per turno)"
+    },
+    {
+      "id": 2100811,
+      "name": "Piangendo Lacrime",
+      "desc": "- A Fine Turno: Se questa unità aveva un effetto negativo o ha perso PV o PS, recupera 5 PS.\n- Se questa unità o un alleato è sconfitto, infligge 1 [Vulnerable] a tutti i nemici (una volta per turno)"
+    },
+    {
+      "id": 2030911,
+      "name": "Circuito di Compatibilità agli Arcani",
+      "desc": "Ottiene 1 [Charge] ogni volta che questa unità consuma 10 Conteggio [Charge] cumulativi\n- Se questa unità ottiene da sé [Charge] consumando Conteggio [Charge], questo effetto non si cumula\n- Le Abilità Attacco Base di questa unità che consumano Conteggio [Charge] ottengono il seguente effetto: infligge +5% danni per ogni [Charge] su di sé (max 25%)\n\nCon l'identità di Don Quixote E.G.O della Lobotomy::Nel Nome dell'Amore e dell'<noparse>Odio</noparse>, ottiene 1 ulteriore uso dell'Abilità 3"
+    },
+    {
+      "id": 2050811,
+      "name": "Metronomo",
+      "desc": "A Inizio Turno: nei turni dispari, ottiene 1 [AttackDmgUp]; nei turni pari, ottiene 1 [Protection]\n- Non si cumula con il Dono E.G.O Metronomo. (Se il Dono E.G.O è stato migliorato, si sottrae dal valore finale quello ottenuto da questo effetto)\n- Non influenza le istanze in cui l'effetto si applica ad altri alleati\n\nSe usa un'Abilità E.G.O, ottiene 1 [AccumulatedPastSinner] il turno successivo (una volta per Incontro)\n- Ottiene 1 [AccumulatedPastSinner] in tutti i Fine Turno successivi"
+    },
+    {
+      "id": 2020911,
+      "name": "Dottore",
+      "desc": "A Inizio Turno: cura sé stesso ed un alleato con la percentuale di PV minore del (Stack di [CuredFilm])% dei max PV di questa unità\n- Se questa unità è a max PV, cura invece i PV di altri due alleati con la percentuale di PV minore\n- Se le unità che ricevono cure hanno il 25% o meno dei PV, o sono Stordite, moltiplica l'effetto curativo per 1.5\n\nA Fine Turno: se la ultima Abilità E.G.O usata da Faust in questo Incontro è stata 'Ordine: Collasso', perde solo 1 Stack di [CuredFilm] a Fine Turno\n- Questo effetto si attiva nello stesso turno in cui viene usata l'Abilità E.G.O",
+      "summary": "A Inizio Turno: cura sé stesso ed un alleato con la percentuale di PV minore"
+    },
+    {
+      "id": 2060911,
+      "name": "Così è Decretato, un'Ode al Vino",
+      "desc": "A Fine Turno: Ottiene 1 risorsa E.G.O dell'Affinità meno posseduta tra le risorse E.G.O consumate per usare 'Rimanere Se Stessi Hong Lu' (Accidia, Tristezza, Superbia) .\n\nInfigge +1% danni per ogni Stack di [Cianjing] o [SeniorCianjing] perse o consumate in questo Incontro (max 15%)",
+      "summary": "A Fine Turno: ottiene risorse E.G.O\nInfligge più danni in base a quanto Tonante o Grantonante è stato perduto o consumato"
+    },
+    {
+      "id": 2081011,
+      "name": "Danza Abissale",
+      "desc": "- A Inizio Turno: se c'è un singolo nemico, l'Abilità Attacco di questa unità più a sinistra nel Pannello di Controllo ottiene Potere Scontro +1, e infligge +11.5% danni Sul Colpo a Scontro Vinto (Abilità E.G.O incluse)\n- Per i turni in cui l'unità è rientrata in battaglia o è entrata come sostituto: Min & Max Velocità +1, Potere Scontro +1"
+    },
+    {
+      "id": 2120911,
+      "name": "Vagabondo",
+      "desc": "Ottiene [MlynarWaiting] se le seguenti condizioni sono rispettate:\n- Ottiene 1 per ogni 3 danni ai PV subiti\n- Ottiene 1 per ogni 5 danni ai PV Scudo ricevuti\n- Ottiene 10 per alleato Stordito quando altri alleati sono storditi\n- Ottiene 20 per alleato morto quando altri alleati sono uccisi\n\nA Inizio Turno: se questa unità è Stordita subendo danni, e se questa unità ha 40+ [MlynarWaiting], fissa tutti i valori di Resistenza di questa unità a 2 per il turno e recupera da Stordimento (una volta per Incontro; escludendo Stordimento forzato)"
+    },
+    {
+      "id": 2110911,
+      "name": "Pena del Perdente: Voodoo",
+      "desc": "A Scontro Vinto, infligge 4 danni Invidia al bersaglio\n- A meno di 33% PV, o se il bersaglio ha meno di 33% PV, infligge 1 [ResultReduction] il turno successivo (una volta per turno)\n- L'effetto di questo passiva non infligge [ResultReduction] nello stesso turno in cui il Dono E.G.O <noparse>Bambola Voodoo</noparse> si è attivato",
+      "summary": "A Scontro Vinto: Infligge danni Invidia\nSe le condizioni sono rispettate, infligge [ResultReduction] il turno successivo"
+    },
+    {
+      "id": 2070911,
+      "name": "Cablaggio del Circuito",
+      "desc": "Sul colpo con Abilità che applicano Potenza [Combustion] o '<noparse>Bruciatura</noparse> Speciale', o Sul Colpo con Abilità Invidia: Infligge ulteriore Potenza [Combustion] al bersaglio della metà delle Monete totali dell'Abilità (per eccesso; max 3 volte per turno)"
+    },
+    {
+      "id": 2010811,
+      "name": "Intrecciando il Cielo",
+      "desc": "Se il bersaglio ha [ThreeMirrorpartYiSang], infligge 1 ulteriore Potenza [Combustion] e Potenza [Sinking] con le Abilità Attacco Base di questa unità (fino a 8 ulteriore Potenza per turno)\nPer ogni nemico ucciso tramite danno da [Combustion], ottiene un \"Danno Aumentato\" per un Tipo Attacco casuale (3 volte per turno; casuale per ogni istanza) il turno successivo",
+      "summary": "Infligge ulteriore Potenza [Combustion] e [Sinking] a nemici con [ThreeMirrorpartYiSang]\nPer ogni nemico ucciso da [Combustion], ottiene Danno Aumentato per Tipo Attacco casuale"
+    },
+    {
+      "id": 2040911,
+      "name": "Sanzu [三途]",
+      "desc": "Dopo aver usato un'Abilità Attacco, se il nemico viene Stordito o è sconfitto, ottiene 1 [CriticalDamageUp] il turno successivo (3 volte per turno)",
+      "summary": ""
+    },
+    {
+      "id": 2100911,
+      "name": "Quello... era Proprio un Ritmo",
+      "desc": "Inizio Turno: Ottiene 2 [ThatIsRhythm]\n\nAll'Uccisione del Bersaglio: Questa unità recupera 5% PV e di 5 PS (una volta per turno)\n- Se il Bersaglio è stato ucciso dall'Abilità E.G.O - Armonia, raddoppia la quantità della cura di questo effetto\n\nFine Turno: Se questa unità ha perso PS questo turno, recupera (4 + somma di [Combustion] e [Laceration] su tutti i nemici / 10) PS (max 10, arrotondato per difetto)"
+    },
+    {
+      "id": 2021011,
+      "name": "Tizzoni Covati",
+      "desc": "Questo effetto si attiva immediatamente dopo aver usato l'Abilità E.G.O\n\nPer ogni 10 [Combustion] su di sé, aumenta la Potenza [Combustion] inflitta sui nemici con gli effetti delle Abilità Attacco Base di questa unità e gli effetti delle Monete di 1 (max 2, '<noparse>Bruciatura</noparse> Speciale' esclusa)\n\nQuando questa unità usa l'Abilità 'Sintonia Massima S.F.A 【Corrosione Deteriorata】', non muore alla fine dell'Attacco; si cura invece del 40% dei suoi PV ed ottiene 2 [HitDamageUp] e 1 [CrimsonDamageUp] il turno successivo (una volta per Incontro)"
+    },
+    {
+      "id": 2090911,
+      "name": "Ciò che Distingue le Falene dalle Farfalle",
+      "desc": "Se l'Attacco dell'Abilità Base più a sinistra sull Pannello di Controllo è un'Abilità Ira o Lussuria, a Fine Attacco infligge il 30% del danno inflitto al bersaglio principale come danno dell'Affinità dell'Abilità ad un nemico casuale (max 30 danni; per gli Incontri Mirati, una Parte)\n\nSe questa Unità ha inflitto il massimo danno possibile con l'effetto sovracitato, ottiene 1 Danno Affinità Aumentato per l'Affinità corrispondente il turno successivo, e l'effetto non si attiva per 2 turni"
+    },
+    {
+      "id": 2010212,
+      "name": "Brace",
+      "desc": "<style=\"highlight\">Sul Colpo di un'Abilità Ira o di un'Abilità che infligge Potenza o Conteggio [Combustion]: A 6+ somma totale di [Combustion] su tutti i bersagli, Potere Scontro +1</style>\n\nA Scontro Vinto, infligge (<style=\"highlight\">Rison. Ira x 2</style>) [Combustion] <style=\"highlight\">sul bersaglio principale</style> (<style=\"highlight\">max 8</style> per Abilità)",
+      "summary": "Ottiene Potere Scontro\nQuando soddisfa le condizioni, infligge [Combustion]"
+    },
+    {
+      "id": 2050911,
+      "name": "Gocce di Liquore sulla Punta della Lama",
+      "desc": "[AlwaysUseEGOPassive2050911]\n\nSul colpo con Abilità Base, infligge 2 [Laceration] sul bersaglio (una volta per Abilità)\n\nQuesta Identià viene considerata come un Identità che applica [Laceration] e [Breath]\n- Le Abilità Base di questa Identità contano come abilità che infliggono [Laceration] e [Breath]\n\n[WhenUseEGOPassive]\n\nQuando un alleato viene sconfitto, ottiene 1 [AlcoholKimPersonal] il turno successivo\n- Se l'alleato appartiene ai Discendenti della Spada, ottiene invece 2 [AlcoholKimPersonal]\n\nInizio Turno: se questa unità ha [AlcoholKimPersonal], entra in modalità [GhostKimPersonal]\n- Mentore dei Discepoli della Spada Meursault ottiene inoltre [RootSoupKimPersonal] quando si attiva l'effetto sovracitato\n\nInizio Turno: Se questa Unità non possiede [AlcoholKimPersonal], i seguenti effetti scadono - [GhostKimPersonal], [GrudgePersonal], e [RootSoupKimPersonal]\n\nQuando questa unità possiede [AlcoholKimPersonal]: Quando questa unità subisce danni che porterebbero i propri pv a 0, Recupera ([AlcoholKimPersonal] Stack x 25)% PV; Poi, [AlcoholKimPersonal] Scade (una volta per incontrp; questo effetto si applica dopo effetti di Passive dell'identità simili)\n- Quando viene Stordito, guarisce dallo stordimento (esclusi stordimenti forzati)",
+      "summary": "Gain [AlcoholKimPersonal]"
+    }
+  ]
+}

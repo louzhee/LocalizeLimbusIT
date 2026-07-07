@@ -1,0 +1,74 @@
+{
+  "dataList": [
+    {
+      "id": 9018301,
+      "name": "Scontri Calcolati",
+      "desc": "A Scontro Vinto, ottiene 2 [Agility] il turno successivo (una volta per turno)"
+    },
+    {
+      "id": 9019301,
+      "name": "Movimenti Soppressi",
+      "desc": "A Scontro Vinto, infligge 2 [Binding] sul bersaglio il turno successivo (una volta per turno)"
+    },
+    {
+      "id": 9018501,
+      "name": "Missione Assegnata",
+      "desc": "A Inizio Incontro: ottiene [RepressedMurderousIntend]"
+    },
+    {
+      "id": 9018502,
+      "name": "Scattante [Mao]",
+      "desc": "Se colpisce un nemico con [BurstAgility], infligge +1 Conteggio [Burst] sul bersaglio (3 volte per turno)"
+    },
+    {
+      "id": 9018503,
+      "name": "Vigore [Mao]",
+      "desc": "Se la Velocità di questa Unità è maggiore di quella del bersaglio, infligge 1 Potenza e Conteggio [Burst] in più"
+    },
+    {
+      "id": 9018504,
+      "name": "Dominante [Mao]",
+      "desc": "Se colpisce un bersaglio con Velocità minore di 3 o più, Potere Moneta +1"
+    },
+    {
+      "id": 9102001,
+      "name": "Il Libro Della Vendetta",
+      "desc": "Se colpito, infligge 1 [MiddleFingerBook] sull'attaccante (1 bersaglio per turno; max 1)\nSe il bersaglio ha [MiddleFingerBook], Potere Scontro +([MiddleFingerBook] / 4) (max 2)\n- Se il bersaglio ha 8+ [MiddleFingerBook], Potere Base +([MiddleFingerBook] / 3) (max 3)"
+    },
+    {
+      "id": 9102002,
+      "name": "Tatuaggi Vendicativi",
+      "desc": "Ottiene 1 [AttackUp] per ogni alleato del Medio sconfitto (max 5)"
+    },
+    {
+      "id": 9102003,
+      "name": "Catene della Lealtà",
+      "desc": "Se un alleato del Medio viene sconfitto, ottiene 1 [PlusCoinValueUp] il turno successivo. (max 2)"
+    },
+    {
+      "id": 9018701,
+      "name": "Carne Liquefatta",
+      "desc": "Subisce -10% danni"
+    },
+    {
+      "id": 9018702,
+      "name": "Pulizia dei Cadaveri",
+      "desc": "A fine turno, recupera 5% PV per ogni unità sconfitta durante il turno\nSe uccide, recupera 2~5% PV"
+    },
+    {
+      "id": 9018703,
+      "name": "Per la Famiglia",
+      "desc": "A fine turno, recupera PS in base al al numero di Spazzini in vita"
+    },
+    {
+      "id": 9018704,
+      "name": "Notte nei Vicoli",
+      "desc": "Ogni Spazzino entrato in battaglia dopo l'Ondata 2 recupera 30 PS"
+    },
+    {
+      "id": 9102004,
+      "name": "Cogli la Chance",
+      "desc": "Non può essere Stordito finché ha un Contrattacco utilizzabile in uno Slot Abilità"
+    }
+  ]
+}

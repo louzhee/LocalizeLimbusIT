@@ -1,0 +1,75 @@
+{
+    "dataList": [
+        {
+            "id": 837101,
+            "name": "Opportunità Casuale",
+            "desc": "A inizio turno, Se la Velocità di questa unità è maggiore di quella del bersaglio, ottiene 1 [PenetrateDamageUp]"
+        },
+        {
+            "id": 837102,
+            "name": "Respiri Profondi",
+            "desc": "A fine turno, recupera 7 PS\nA fine turno, ottiene ([Breath] su di sé/4) [Agility] il turno successivo (max 3)"
+        },
+        {
+            "id": 837103,
+            "name": "Combattimento Singolo",
+            "desc": "Se il bersaglio è Stordito, usa 'Salut'"
+        },
+        {
+            "id": 837104,
+            "name": "Attacco Mirato",
+            "desc": "Se usa un'Abilità sullo stesso Slot colpito nel turno precedente, ottiene i seguenti effetti in base al numero di turni in cui ha colpito lo stesso Slot\nQuesto effetto si resetta se questa unità non è riuscita ad attaccare nel turno precedente.\n- 1 colpo consecutivo: Potere Scontro +1\n- 2 colpi consecutivi: Potere Base +1\n- 3 colpi consecutivi: Potere Base +1, Potere Moneta +1"
+        },
+        {
+            "id": 837201,
+            "name": "Ti Taglierò Per Primo!",
+            "desc": "Dà priorità al [LineCutting]."
+        },
+        {
+            "id": 837202,
+            "name": "Lamaforbice Rossosangue",
+            "desc": "A Scontro vinto, se il bersaglio ha [Laceration], recupera PV pari al 40% del danno inflitto.\nA fine attacco, se ha recuperato almeno 100 PV, recupera 10 PS\nQuesto effetto non si attiva sulle Monete Infrante.",
+            "summary": "Recupera PV quando colpisce un nemico con Sanguinamento. Se ha recuperato 100 PV, recupera PS."
+        },
+        {
+            "id": 837203,
+            "name": "Non Mi Servono Le Cose Brutte!!",
+            "desc": "Se ci sono nemici con 30% o meno PV, usa l'Abilità 'Non Mi Servono Le Cose Brutte!!'."
+        },
+        {
+            "id": 837204,
+            "name": "Non È Ancora Finita",
+            "desc": "Quando i PV scendono al 40%, ottiene un nuovo pattern\nQuando cambia pattern, ottiene 10 [Laceration] e 2 [BloodScissor]."
+        },
+        {
+            "id": 837205,
+            "name": "Emofagia",
+            "desc": "Se questa unità è sul campo, o è una delle unità che possono scendere in Campo, aumenta la quantità di [BloodDinner] in base a quanti danni da [Laceration] sono stati subiti da tutte le unità.\nQuando questa unità va sul campo, il sangue dormiente che bagna il campo di battaglia salirà in superfice."
+        },
+        {
+            "id": 837206,
+            "name": "Forbici Immerse nel Sangue",
+            "desc": "A inizio Incontro, ottiene 10 [BloodScissor]\n- Il livello di [BloodScissor] non può scendere sotto 1\n- A 10+ [BloodScissor], diventa [BloodScissorTwo].\n- A 20+ [BloodScissor], diventa [BloodScissorThree].\nQuando consuma [BloodScissor] e scende sotto queste soglie, ritorna allo stadio precedente."
+        },
+        {
+            "id": 837207,
+            "name": "Affamata e Avvizzita",
+            "desc": "A inizio Incontro, ottiene [StarvingBarberTwo]"
+        },
+        {
+            "id": 837208,
+            "name": "Sangue... Sangue... Sangue...!",
+            "desc": "A fine turno: Se in panico, riporta i PS a 0 e si riprende dal Panico.\nQuando si riprende dal Panico:\n- Consuma 30 [BloodDinner] per ottenere 2 [Enhancement] e 1 [BloodScissor] il turno successivo e recupera 20 PS.\n- Se non riesce a consumare [BloodDinner], ottiene 30 [Laceration], attiva [Laceration] su di sé e perde 3 Conteggio [Laceration]. Poi, ottiene 2 [Enhancement], 2 [AttackDmgUp] e recupera 20 PS il turno successivo."
+        },
+        {
+            "id": 9999997,
+            "name": "Ripresa dal Panico",
+            "desc": "A Fine Turno: se in Panico, riporta i PS a 0."
+        },
+        {
+            "id": 9999996,
+            "name": "Panico Fisso",
+            "desc": "Il tipo di Panico di questa Unità non può essere cambiato da effetti esterni.\n- Gli status che dovrebbero cambiare il tipo di Panico attivano invece gli effetti delle Unità senza PS."
+        }
+    ]
+}

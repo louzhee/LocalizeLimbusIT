@@ -1,0 +1,124 @@
+{
+  "dataList": [
+    {
+      "id": 863001,
+      "name": "Combattimento Ravvicinato",
+      "desc": "Se la Velocità di questa Unità è più alta di quella del bersaglio, infligge +10% danni per ogni Velocità di differenza (max 30%)\nSe la Velocità di questa Unità è più bassa di quella del bersaglio, infligge -10% danni per ogni Velocità di differenza (max 30%)"
+    },
+    {
+      "id": 863002,
+      "name": "Carica",
+      "desc": "Velocità Min & Max +1 per ogni 5 [Breath] su di sé (max 4)"
+    },
+    {
+      "id": 863003,
+      "name": "Evoca Bersagli",
+      "desc": "A 75%- PV, ottiene un nuovo pattern\nQuando cambia pattern, evoca Vecchio Manager Capo della G Corp. e Reduce Demoralizzato. Poi:\n- Infligge Stigmatizzato sul bersaglio con meno PV;\n- Fissa la Velocità Min & Max su di sé a 1;\n- Ottiene 300 Scudo."
+    },
+    {
+      "id": 863004,
+      "name": "Assegna il Bersaglio",
+      "desc": "Quando usa Fuoco al Bersaglio Deciso o Fuoco al Bersaglio Cambiato, infligge [FellBulletMark] sull'Unità con meno PV tra le Unità più lente"
+    },
+    {
+      "id": 863201,
+      "name": "Rifornimento di Ossigeno",
+      "desc": "Quando la Saccoccia del Passato arriva in battaglia, ottiene +10 Potenza e Conteggio [Breath]\n\nA fine turno, se ha meno di 10 Potenza o Conteggio [Breath], la testa perde PV pari al 2% dei PV max del Corpo per ottenere 5 [Breath] e +5 Conteggio [Breath] (questo effetto non rompe la Parte e non sconfigge l'Anormalità)"
+    },
+    {
+      "id": 863202,
+      "name": "Respiri Profondi",
+      "desc": "Aumenta le chance del Colpo Critico di [Breath] di 1.5x\n\nSu Colpo Critico:\n- A 15+ [Breath], consuma fino a (Potenza [Breath] su di sé / 5) Potenza [Breath] per infliggere +(Potenza [Breath] consumata x 4)% danni su Colpo Critico\n- A 15+ Conteggio [Breath], consuma fino a (Conteggio [Breath] su di sé / 5) Conteggio [Breath] per infliggere +(Conteggio [Breath] consumato x 8)% danni su Colpo Critico"
+    },
+    {
+      "id": 863203,
+      "name": "Oxygen-saturated",
+      "desc": "Nel turno in cui usa 'È... MIO!', fissa la Velocità a 1. A inizio turno, applica 6 [Breath] e +6 Conteggio [Breath] a tutte le Unità presenti.\n\nAlla fine dello stesso turno, consuma ogni Potenza e Conteggio [Breath] oltre i 5 di entrambi. All'inizio del turno successivo, applica la quantità di Potenza e Conteggio [Breath] consumata alla Testa"
+    },
+    {
+      "id": 863204,
+      "name": "Gabbia Toracica in Frantumi",
+      "desc": "Quando il Corpo è Rotto, rimuove la parte Corpo e la rimpiazza con la Parte Persona"
+    },
+    {
+      "id": 863205,
+      "name": "Rigenerazione della gabbia Toracica",
+      "desc": "A fine combattimento, dimezza la Potenza e il Conteggio [Breath] sulla parte Persona\nNel Turno Successivo, la Parte Persona viene rimpiazzata dalla Parte Corpo"
+    },
+    {
+      "id": 863206,
+      "name": "Dolore Straziante",
+      "desc": "Quando questa Unità viene colpita dopo aver perso uno Scontro, perde 1 [Breath]\n\nQuando questa Unità viene colpita da un Attacco Incontrastato, perde 1 Conteggio [Breath]\n\nLa Potenza e il Conteggio [Breath] di questa Unità non può scendere sotto il 5."
+    },
+    {
+      "id": 863207,
+      "name": "Grida Angoscianti",
+      "desc": "Quando i PV del Corpo scendono al 40%, usa 'Condividere il Dolore' nel turno successivo"
+    },
+    {
+      "id": 863208,
+      "name": "Postumi",
+      "desc": "Quando la Persona muore, aumenta la Resistenza ai danni Tagliente, Perforante e Contundente del Corpo e della Testa di 0.2 fino al turno successivo (una volta per Incontro)"
+    },
+    {
+      "id": 863301,
+      "name": "Petali Indulgenti",
+      "desc": "A fine turno, a 20+ [BloodDinner], consuma fino a 50 [BloodDinner] per curare i PV del Corpo e della Testa in base all'[BloodDinner] consumata\n- Non si attiva se la Parte Testa è Stordita o Rotta."
+    },
+    {
+      "id": 863302,
+      "name": "Una Goccia di Linfa",
+      "desc": "Fine attacco: Il Nucleo e la Parte recuperano PV pari al danno inflitto dalle Abilità Attacco di questa Unità\n- Non si attiva se la Parte Testa è Stordita o Rotta."
+    },
+    {
+      "id": 863303,
+      "name": "Bramare",
+      "desc": "A fine turno: se questa unità ha recuperato PV, ottiene 1 [AttackUp] e 1 [DefenseDown] nel turno successivo per ogni 10 PV recuperati (max 10)"
+    },
+    {
+      "id": 863304,
+      "name": "Odore Assetato di Sangue",
+      "desc": "A 100+ [BloodDinner], usa un'Abilità speciale.\nA fine turno: a 500+ [BloodDinner_Accumulation] da questa Unità, o se i PV di questa Unità scendono al 60%, ottiene un nuovo pattern"
+    },
+    {
+      "id": 863305,
+      "name": "Peccato Rifratto",
+      "desc": "Il massimo della Potenza [Combustion], [Laceration], [Vibration], [Burst], e [Sinking] è ridotto a 50 (inclide le varianti Speciali)"
+    },
+    {
+      "id": 863306,
+      "name": "Spina Appuntita",
+      "desc": "Se la Parte Corpo subisce danni da un'Abilità nemica, infligge +1 Conteggio [Laceration] sull'attaccante (una volta per turno per Identità)"
+    },
+    {
+      "id": 863307,
+      "name": "Sete Infinita",
+      "desc": "A inizio turno: ottiene 1 [DefenseDown] per ogni 100 [BloodDinner_Accumulation] da questa Unità (max 10)\nA inizio turno: ottiene 1 [TakeHpHealIncrease] per ogni 200 [BloodDinner_Accumulation] da questa Unità (max 5)"
+    },
+    {
+      "id": 863308,
+      "name": "Bramare Senza Sosta",
+      "desc": "inizia un Evento a Scelta ogni volta che il numero di turni è un multiplo di 3."
+    },
+    {
+      "id": 863309,
+      "name": "Frequenza di Rifrazione Aumentata",
+      "desc": "Se sono passati 9 turni dall'apparizione di questa Unità, ottiene 1 [AttackUp] per ogni turno dopo il 10 (max 10)"
+    },
+    {
+      "id": 863101,
+      "name": "Esecuzione Scelta",
+      "desc": "Se ucciso da Der Fluchschütze, applica 1 [Agility], 1 [Enhancement], e 2 [AttackDmgUp] a Der Fluchschütze nel turno seguente"
+    },
+    {
+      "id": 863102,
+      "name": "Il Primo A Colpo Vince",
+      "desc": "Se ucciso da un Peccatore, genera 3 Risorse E.G.O dell'affinità dell'Abilità Attacco che ha sconfitto questa Unità"
+    },
+    {
+      "id": 863103,
+      "name": "Non Io",
+      "desc": "A inizio combattimento, se questa Unità non ha Stigmatizzato, ottiene 300 Scudo."
+    }
+  ]
+}

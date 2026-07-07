@@ -1,0 +1,66 @@
+{
+  "dataList": [
+    {
+      "id": 40003801,
+      "name": "Prototipo Protesi Speciale Personalizzata della Limbus Company Mk5 - Armamenti Dokkaebi",
+      "desc": "A inizio combattimento, ottiene [AengduNewArm]\n\nSe c'è un alleato con meno del 50% dei PV sul campo escludendo questa unità, ottiene 1 [SupportProtect] (una volta per turno)",
+      "summary": "Ottiene [SupportProtect]",
+      "flavor": "\"On the outside, it looks no different from prostheses you might find in other Nests or Backstreets... But apparently, this particular prosthetic limb has been created using technology unique to Limbus Company. I wonder what that could be...\"\n\n\"Since the development of this prototype was led by the LCD Department, I would assume it has something to do with the power of Distortions... Oh, that's not to say that I have any certainty regarding the matter—I was only in charge of transporting it, you see. It's just a simple speculation, really. In any case, I doubt this is your average prosthetic limb meant for body enhancement.\""
+    },
+    {
+      "id": 40003802,
+      "name": "Fendi-Vertebre del Fuoco Demoniaco",
+      "desc": "A fine attacco, ottiene 1 [WindBlade] per ogni 3 [Breath] (max 5, 2 volte per turno)\n\nA Fine Attacco con Abilità Base, se questa unità ha 15+ [WindBlade], attiva \"Stabilizzazione - Fiamma Lucente Increspata\" sul nemico (una volta per turno)\n\nQuando perde uno Scontro con un Abilità Difensiva, se questa unità ha 3+ [Agility], questa unità non può essere stordita fino alla fine dell'Abilità Difensiva e usa l'Abilità \"Per Reclamare le Loro Ossa\" dopo essere stata colpita (2 volte per turno, esclude gli Stordimenti forzati)",
+      "summary": "Attiva un'Abilità bonus sotto certi requisiti"
+    },
+    {
+      "id": 40003803,
+      "name": "Swiftblade",
+      "desc": "Sul Colpo Critico, ottiene 1 [Agility] il turno successivo (3 volte per Abilità, 2 volte per turno)",
+      "summary": "Ottiene [Agility]"
+    },
+    {
+      "id": 40003804,
+      "name": "Il Luogo In Cui Tornare",
+      "desc": "Quando 3 o più alleati dei Discendenti della Spada sono sconfitti:\n- Quando questa unità ottiene Potenza [Breath] con gli effetti delle sue Abilità o Monete, ne ottiene 1 in più di entrambi\n- Quando 5 o più alleati dei Discendenti della Spada, ne ottiene invece 2 in più\n- A inizio combattimento, applica [SwordPlayOfTheHomeland] su di sé",
+      "summary": ""
+    },
+    {
+      "id": 40004001,
+      "name": "Fuggiasco",
+      "desc": "Quando entra nell'Incontro per la prima volta, ottiene [BrandedKimSatgat]"
+    },
+    {
+      "id": 40004002,
+      "name": "Portamento di un Salsu",
+      "desc": "A 1 Conteggio [Breath], perde 10 PV al posto di Conteggio [Breath] (questo effetto non Stordisce l'unità; i PV di quest'unità non scendono sotto 1)\n\nInfligge +(percentuale dei PV mancanti su di sé / 2) danni su Colpo Critico (max 50%)"
+    },
+    {
+      "id": 40004003,
+      "name": "Scherma Della Patria",
+      "desc": "A inizio combattimento, se è stata attivata una Rison. Superbia:\n- Ottiene (Rison. Superbia x 2) [Breath] (max 8)\n- Applica 1 [SlashResultUp] e 1 [CriticalDamageUp] su ogni alleato (esclude sé stesso; quest effetto è raddoppiato sui bersagli della fazione dei Discendenti della Spada)\n\nA fine turno, ottiene ([Breath] su di sé / 4) [Agility] il turno successivo (max 6, arrotondato per difetto)"
+    },
+    {
+      "id": 40004004,
+      "name": "Mentore dei Discendenti della Spada",
+      "desc": "Quando questa unità ottiene Potenza [Breath] con gli effetti delle sue Abilità o Monete, dà 1 Potenza e 1 Conteggio [Breath] sul Peccatore e sulle 2 Unità di Supporto senza [Breath] o con meno Potenza [Breath] (esclude sé stesso)\n- Se quest'alleato è della fazione dei Discendenti della Spada, dà invece 3 Potenza e +2 Conteggio [Breath]\n\nQuando un alleato dei Discendenti della Spada è sconfitto, questa unità perde 10 SP"
+    },
+    {
+      "id": 40004005,
+      "name": "Sacrifico la Carne Per Reclamare le Loro Ossa",
+      "desc": "Quando questa unità subisce danni fatali, annulla quei danni. Poi, i PV di questa unità non possono scendere sotto 1 per il resto del turno (una volta per Incontro)\n\nA inizio turno, se ha 30+ Potenza [Breath], porta la sua Velocità 20 ed equipaggia l'Abilità \"Sacrifico la Carne\" sullo Slot più a sinistra\n- Se \"Sacrifico la Carne\" è inaccessible, questo effetto non viene attivato"
+    },
+    {
+      "id": 40004006,
+      "name": "Fato Perduto",
+      "desc": "Se questa unità viene sconfitta, perdi l'Incontro",
+      "flavor": "One may get lost and wander onto the wrong path, but willful defiance or deviation from the flow are forbidden by \"it.\""
+    },
+    {
+      "id": 40003901,
+      "name": "Borsone Dimensionale [Ezra]",
+      "desc": "A inizio Incontro, ottiene 1 [DimensionalBagEzraA]\n\nSe questa unità ha usato l'arma dell'Officina attuale più di una volta, cambia arma nel turno successivo\n\nLista delle Armi:\n- Guanti dell'Officina Allas\n- Martello dell'Officina Nester\n- Martello Trivella Atelier Screw\n- Guanti da Combattimento dell'Officina Namir\n- Ascia Atelier YuRia",
+      "comm": "Nomi placeholder."
+    }
+  ]
+}

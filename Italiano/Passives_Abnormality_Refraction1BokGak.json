@@ -1,0 +1,179 @@
+{
+  "dataList": [
+    {
+      "id": 950101,
+      "name": "Potenziamento Reminescente",
+      "desc": "Inizio turno: se i PV sono inferiori al 50%, recupera il 20% dei PV"
+    },
+    {
+      "id": 950901,
+      "name": "Hora de Fiesta",
+      "desc": "Inizio turno: se i PV sono inferiori al 50%, ottiene 1 [Enhancement] e 1 [Endurance]"
+    },
+    {
+      "id": 951001,
+      "name": "Resina Blu",
+      "desc": "Quando una Parte 'Occhio' si rompe, il nemico con meno PS perde 35 PS"
+    },
+    {
+      "id": 951701,
+      "name": "Nobile sia il Tuo Sacrificio",
+      "desc": "Quando un alleato muore, ottiene 1 [Enhancement] per il turno successivo"
+    },
+    {
+      "id": 951702,
+      "name": "Gioia dell'Esecuzione",
+      "desc": "Su Uccisione, ottiene 2 [AttackDmgUp] per il turno successivo"
+    },
+    {
+      "id": 951703,
+      "name": "Martellerai",
+      "desc": "Inizio turno: se questa unità ha [Assemble], ottiene 5 [AttackDmgUp]"
+    },
+    {
+      "id": 951801,
+      "name": "Parafulmine",
+      "desc": "Quando il Palo Telefonico viene colpito, infligge 2 [ElectricShock] all'attaccante in questo turno.\nA 5+ [DogThunder], tutte le Parti infliggeranno 3 [ElectricShock] all'attaccante, a partire dal turno successivo.\n(Dura finché [DogThunder] non raggiunge lo 0.)\nQuando viene colpito da un attacco Accidia, la quantità di [ElectricShock] inflitta è dimezzata (per eccesso)"
+    },
+    {
+      "id": 951802,
+      "name": "Fulmine",
+      "desc": "Finché il Palo Telefonico non è rotto, ottiene 1 [DogThunder] dopo un attacco.\nOgni volta che il Palo Telefonico viene colpito da un attacco, perde 1 [DogThunder]"
+    },
+    {
+      "id": 951803,
+      "name": "Pezzi Infranti",
+      "desc": "Quando il Palo Telefonico è Stordito o Rotto, perde tutto il [DogThunder];\nTutte le Abilità di Attacco del Guardiano delle Stradine vengono quindi annullate per il turno"
+    },
+    {
+      "id": 951901,
+      "name": "Inizio del Giro Turistico",
+      "desc": "Inizio turno: a 10+ Conteggio [Charge], ottiene un nuovo schema d'attacco"
+    },
+    {
+      "id": 952001,
+      "name": "Danno Rilevato!",
+      "desc": "In punto di morte, kqe-1j-23 subisce 100 danni, viene Stordito il turno successivo e gli viene proibito l'uso di tutte le Abilità che infliggono [Duress] per il resto dello scontro"
+    },
+    {
+      "id": 952101,
+      "name": "Sacca Sanguigna",
+      "desc": "Se questa unità possiede [BloodPocket]:\n- Resistenza all'Ira del corpo: -50%\n- Resistenza alla Tristezza del corpo: +50%"
+    },
+    {
+      "id": 952102,
+      "name": "Sacca di Fluido",
+      "desc": "Se questa unità possiede [WaterPocket], cura il suo Nucleo di (Valore Effetto x 20)"
+    },
+    {
+      "id": 952201,
+      "name": "Braccia Pulsanti",
+      "desc": "Inizio turno: ottiene [Enhancement] e [Protection] in base al valore effetto di [AggressiveBokgak]"
+    },
+    {
+      "id": 952202,
+      "name": "Braccia Danneggiate",
+      "desc": "Perde 1 [AggressiveBokgak] ogni volta che questa unità subisce 1 o più danni dagli attacchi"
+    },
+    {
+      "id": 952203,
+      "name": "Guscio Rigenerante",
+      "desc": "Fine turno: se l'unità non ha subito danni dagli attacchi durante il turno, recupera il 5% dei PV e ottiene 1 [AggressiveBokgak]"
+    },
+    {
+      "id": 952204,
+      "name": "Occhi Frenetici",
+      "desc": "Il comportamento dipende dal valore effetto di [AggressiveBokgak].\nUsa Abilità aggressive a 4+ [AggressiveBokgak], e diventa difensiva con meno di 4"
+    },
+    {
+      "id": 952401,
+      "name": "Proiettili PV",
+      "desc": "Inizio turno: recupera 15 PV.\nCon meno del 50% di PV, recupera 15 PV addizionali"
+    },
+    {
+      "id": 952701,
+      "name": "Proiettile PV Sovraccarico",
+      "desc": "Inizio turno: ottiene 2 [AttackDmgUp] e 2 [Vulnerable]"
+    },
+    {
+      "id": 952702,
+      "name": "Iniezione Ampolla PV",
+      "desc": "Inizio Turno: se i PV di questa unità non sono al massimo, recupera il 25% dei PV (max 3 volte; se l'unità è Stordita, si riprende dallo Stordimento)"
+    },
+    {
+      "id": 952801,
+      "name": "Aggressività Amplificata",
+      "desc": "Quando viene colpito, ottiene 1 [AggressiveBokgak].\nFine turno: a 4+ [AggressiveBokgak], entra nello stato di [Enrage]"
+    },
+    {
+      "id": 952802,
+      "name": "Frenesia",
+      "desc": "Nello stato di [Enrage], ottiene 3 [Enhancement] e 3 [Vulnerable], ottiene un nuovo schema di Abilità e non ottiene [AggressiveBokgak] quando viene colpito"
+    },
+    {
+      "id": 952803,
+      "name": "Rabbia Scintillante",
+      "desc": "Con meno del 50% di PV, entra in [Enrage] ogni turno"
+    },
+    {
+      "id": 952901,
+      "name": "Pelle Putrescente",
+      "desc": "Inizio turno: con meno del 50% di PV, quando viene colpito, infligge 3 [Poison] all'attaccante"
+    },
+    {
+      "id": 952902,
+      "name": "Muta",
+      "desc": "Dopo che questa Parte viene rotta, se l'altro Braccio non è rotto alla fine del turno successivo, questa Parte si rigenera con gli stessi PV dell'altro Braccio; quindi, cura il Nucleo di una quantità pari ai PV del Braccio rigenerato.\n\nQuando entrambe le Braccia sono rotte, ottiene un nuovo schema di Abilità"
+    },
+    {
+      "id": 952903,
+      "name": "Contorsione Dolorosa",
+      "desc": "Ottiene 5 [Vulnerable] e infligge 10 [Poison] a tutti i nemici ogni turno"
+    },
+    {
+      "id": 952904,
+      "name": "Istinti Striscianti",
+      "desc": "Il comportamento dipende dal valore effetto di [AggressiveBokgak].\nUsa Abilità aggressive a 4+ valore effetto di [AggressiveBokgak], e diventa difensivo a 0"
+    },
+    {
+      "id": 953301,
+      "name": "Estasi Travolgente",
+      "desc": "A partire dal turno 3, entra in stato [Cromer_Ecstasy] ogni 2 turni"
+    },
+    {
+      "id": 953302,
+      "name": "Purezza Sbocciante",
+      "desc": "Fine turno: se il corpo principale di Kromer scende sotto il 50% di PV, ottiene [Cromer_Madness] per i turni rimanenti"
+    },
+    {
+      "id": 953303,
+      "name": "Carne Impeccabile",
+      "desc": "Quando il Braccio viene rotto, la Parte ottiene 2 [Reduction]"
+    },
+    {
+      "id": 953401,
+      "name": "Dhyāna",
+      "desc": "Se ci sono alleati superstiti, ottiene 10 [Protection] a ogni inizio turno"
+    },
+    {
+      "id": 953402,
+      "name": "Karma Ciclico",
+      "desc": "Tutte le unità trasferiscono 10 del loro [Cycle] ai propri bersagli Per Colpo.\n(Il Valore Effetto di [Cycle] trasferito aumenta di 5 per ogni conteggio Scontro).\nIl [Cycle] non viene trasferito a 'La Mia Forma Si Svuota' finché i suoi alleati sono in vita"
+    },
+    {
+      "id": 953403,
+      "name": "Anatman",
+      "desc": "Inizio turno: se la Mūrti è rotta, applica 30 [Cycle] e 3 [Vulnerable] a un altro alleato casuale, ottiene un nuovo schema di Abilità ed entra in modalità Indiscriminata di Anatman (Non-Sé)"
+    },
+    {
+      "id": 953404,
+      "name": "Nirmāna",
+      "desc": "Ogni volta che la Mūrti si riprende, i suoi PV massimi aumentano del 20%"
+    },
+    {
+      "id": 953501,
+      "name": "Bhaishajya",
+      "desc": "Inizio turno: recupera completamente i PV"
+    }
+  ]
+}

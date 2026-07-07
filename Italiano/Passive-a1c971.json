@@ -1,0 +1,149 @@
+{
+  "dataList": [
+    {
+      "id": 108001,
+      "name": "Resistenza al Peccato",
+      "desc": "Se non è Stordito, subisce -50% danni"
+    },
+    {
+      "id": 108002,
+      "name": "Vibrazione Risonante",
+      "desc": "Se colpito, infligge +2 Conteggio [Vibration] sull'attaccante\nSul Colpo, se il bersaglio ha [Vibration], infligge 2 [Vibration] su ogni nemico\nA fine attacco, se il bersaglio è sconfitto, infligge +4 Conteggio [Vibration] su ogni nemico"
+    },
+    {
+      "id": 108101,
+      "name": "Resistenza al Peccato",
+      "desc": "Se non è Stordito, subisce -80% danni da [Sinking]"
+    },
+    {
+      "id": 108102,
+      "name": "Tristezza Contagiosa",
+      "desc": "A inizio turno, infligge 5 [Sinking] su ogni nemico (esclude il nemico con più PS)\nA fine attacco, se il bersaglio è sconfitto, ogni nemico perde 10 PS. Poi, infligge 3 [Sinking] e +2 Conteggio [Sinking] su ogni nemico"
+    },
+    {
+      "id": 9018101,
+      "name": "Denti",
+      "desc": "Sul colpo, recupera 5 PV. 50% di infliggere 1 [Laceration]"
+    },
+    {
+      "id": 9018102,
+      "name": "Lanterna",
+      "desc": "A inizio combattimento, se bersagliata da 2+ unità, ottiene 1 [Protection], 1 [ParryingResultUp] e 1 [PlusCoinValueUp]"
+    },
+    {
+      "id": 9018103,
+      "name": "Coraggio Censurato",
+      "desc": "A fine attacco, se il bersaglio è Stordito o Sconfitto, aumenta i PV max di questa unità del 20% (max +100% per Incontro)"
+    },
+    {
+      "id": 9018104,
+      "name": "Giustizia Censurata",
+      "desc": "A fine turno, se questa unità non è riuscita a colpire con le sue Abilità, alza la Velocità Min & Max di 1 and ottiene 3 [AttackDmgUp] nel turno successivo"
+    },
+    {
+      "id": 9018105,
+      "name": "Lanterna Strana",
+      "desc": "A inizio combattimento, ottiene 1 [Vulnerable] per ogni nemico che ha bersagliato questa unità (max 5)\nA inizio combattimento, se tutti i nemici hanno bersagliato questa unità, Portata Attacco +1\n- Ottiene 1 Livello Offensivo per ogni nemico; quando si cura, recupera altri 5 PV"
+    },
+    {
+      "id": 9018106,
+      "name": "Arma di Tipo NERO",
+      "desc": "Sul Colpo, infligge sia danno ai PV che danno ai PS"
+    },
+    {
+      "id": 9018201,
+      "name": "Saggezza Censurata",
+      "desc": "A inizio turno, se ha meno di 0 PS, recupera 5~20 PS"
+    },
+    {
+      "id": 9018202,
+      "name": "Temperanza Censurata",
+      "desc": "Se colpita, ottiene 1 [ParryingResultUp] e 1 [Agility] nel turno successivo (max 2)"
+    },
+    {
+      "id": 107901,
+      "name": "I Fratelli Mi Chiamano",
+      "desc": "A inizio turno, ottiene 1 Livello Offensivo per ogni 3% dei PV mancanti su di sé. (max 5)\nA inizio turno, Velocità Min & Max +1 per ogni 300 [BloodDinner]\nI PV di questa unità non scendono sotto il 60%."
+    },
+    {
+      "id": 107902,
+      "name": "Sangue Coagulato",
+      "desc": "A inizio combattimento, ottiene 1 [BloodArmor]\n- [BloodArmor] non può scendere sotto 1\n- A 10+ [BloodArmor], si trasforma in [BloodArmor_2nd].\n- A 20+ [BloodArmor_2nd], si trasforma in [BloodArmor_3rd].\nVelocità Min & Max +1 per ogni livello di [BloodArmor] (max 2)\nSe il [BloodArmor] di questa unità scende sotto queste soglie, esso torna allo stadio precedente"
+    },
+    {
+      "id": 107903,
+      "name": "Vogliono Sangue",
+      "desc": "A fine turno, se in Panico, si riprende dal Panico e consuma 50 [BloodDinner] per ottenere 3 [Enhancement]\n- Se non può consumare [BloodDinner], ottiene 30 [Laceration], 3 [Enhancement] e 2 [AttackDmgUp]"
+    },
+    {
+      "id": 107904,
+      "name": "Sete di Sangue",
+      "desc": "A inizio Incontro, ottiene [Bloodthirst]"
+    },
+    {
+      "id": 107905,
+      "name": "Altra Emofagia",
+      "desc": "A fine attacco, se il bersaglio è sconfitto, aumenta [BloodDinner] pari ai PV max del bersaglio"
+    },
+    {
+      "id": 108201,
+      "name": "Osservazione",
+      "desc": "A Inizio Incontro, Applica 1 [ObservedPerson] su tutti i nemici. Poi, ottiene Potenza e Conteggio [Breath] pari al numero di unità con [ObservedPerson]\n\nA Inizio Turno. Applica 1 [ObservedPerson] su tutti i nemici senza [ObservedPerson]\n\nGli effetti delle Abilità Attacco infliggono +1 Potenza e Conteggio [Vibration] in più per ogni 10 [ObservedPerson] sul bersaglio (max 3)"
+    },
+    {
+      "id": 108202,
+      "name": "Adattamento",
+      "desc": "Ottiene 1 [Breath] ogni volta che infligge danno con le Abilità Attacco (max 15 per turno)\n- Sul Colpo, se il bersaglio ha 15+ [ObservedPerson], ottiene 1 [Breath] in più da questo effetto\n\nOttiene +1 Conteggio [Breath] ogni volta che subisce danni dalle Abilità Attacco nemiche (max 15 per turno)\n- Quando colpito, se il bersaglio ha 15+ [ObservedPerson], ottiene 1 Conteggio [Breath] in più da questo effetto"
+    },
+    {
+      "id": 108203,
+      "name": "Meccanismo di Difesa",
+      "desc": "A Inizio Turno, ottiene il 30% dei PV mancanti come Scudo (max 15% dei PV massimi)\n- Se quest'unità ha [Combustion], perde (Conteggio [Combustion] x 1.5)% Scudo\n- Lo Scudo subisce +100% danni dagli effetti di [Burst]\n\nA Fine Turno, se lo Scudo ottenuto tramite questo effetto è distrutto, ottiene 1 [DefenseDown] per tutta la durata dell'Incontro pari al numero di volte che lo Scudo è stato distrutto (max 5)"
+    },
+    {
+      "id": 108204,
+      "name": "Bias di Conferma",
+      "desc": "A Fine Turno, sottrae 10 PS da ogni nemico con più PS di quest'Unità (max 3 bersagli; 1 volta per nemico per turno)\n(Non si attiva se Hohenheim è in Panico)"
+    },
+    {
+      "id": 108205,
+      "name": "Ipotesi Fondata",
+      "desc": "Al Terzo Turno, ottiene un nuovo pattern e prepara un'Abilità Potente.\nDopo il Terzo Turno, questo effetto si riattiva ogni volta che Hohenheim ha 30+ Conteggio [Breath] a Fine Turno\n\nL'Abilità viene potenziata se Hohenheim non subisce danni ai PV durante la preparazione (non considera i danni allo Scudo)"
+    },
+    {
+      "id": 108206,
+      "name": "Disadattamento",
+      "desc": "Rimpiazza la passiva 「Adattamento」 quando questa viene indebolita da un Evento a Scelta.\n\nOttiene 1 [Breath] ogni volta che infligge danno con le Abilità Attacco (max 15 per turno)\n- Se il bersaglio ha 15+ [ObservedPerson], riduce il [ObservedPerson] sul bersaglio di 3 per ottenere 1 [Breath] in più da questo effetto\n\nOttiene +1 Conteggio [Breath] ogni volta che subisce danni dalle Abilità Attacco nemiche (max 15 per turno)\n- Se il bersaglio ha 15+ [ObservedPerson], riduce il [ObservedPerson] sul bersaglio di 3 per ottenere 1 Conteggio [Breath] in più da questo effetto\n\nI danni sul Colpo Critico non possono essere aumentati o diminuiti"
+    },
+    {
+      "id": 108207,
+      "name": "Meccanismo di Difesa Inadeguato",
+      "desc": "Rimpiazza la passiva 「Meccanismo di Difesa」 quando questa viene indebolita da un Evento a Scelta.\n\nA Inizio Turno, ottiene il 15% dei PV mancanti come Scudo (max 5% dei PV massimi)\n- Se quest'unità ha [Combustion], perde (Conteggio [Combustion] x 2)% Scudo\n- lo Scudo subisce +150% danni dagli effetti di [Burst]\n\nA Fine Turno, se lo Scudo ottenuto tramite questo effetto è distrutto, ottiene 2 [DefenseDown] per tutta la durata dell'Incontro pari al numero di volte che lo Scudo è stato distrutto (max 10)"
+    },
+    {
+      "id": 108208,
+      "name": "Incertezza",
+      "desc": "Rimpiazza la passiva 「Bias di Conferma」 quando questa viene indebolita da un Evento a Scelta.\n\nA Inizio Turno, perde 15 PS\nA Fine Turno, sottrae 5 PS da ogni nemico con più PS di quest'Unità (max 3 bersagli; 1 volta per nemico per turno)\n(Non si attiva se Hohenheim è in Panico)"
+    },
+    {
+      "id": 108209,
+      "name": "Adattamento",
+      "desc": "Ottiene 1 [Breath] ogni volta che infligge danno con le Abilità Attacco (max 15 per turno)\n- Sul Colpo, se il bersaglio ha 15+ [ObservedPerson], ottiene 1 [Breath] in più da questo effetto\n\nOttiene +1 Conteggio [Breath] ogni volta che subisce danni dalle Abilità Attacco nemiche (max 15 per turno)\n- Ottiene 1 [Breath] ogni volta che infligge danno con le Abilità Attacco (max 15 per turno)\n- Sul Colpo, se il bersaglio ha 15+ [ObservedPerson], ottiene 1 [Breath] in più da questo effetto"
+    },
+    {
+      "id": 108210,
+      "name": "Meccanismo di Difesa",
+      "desc": "A Inizio Turno, ottiene il 30% dei PV mancanti come Scudo (max 15% dei PV massimi)\n- Se quest'unità ha [Combustion], perde (Conteggio [Combustion] x 1.5)% Scudo\n- Lo Scudo subisce +100% danni dagli effetti di [Burst]\n\nA Fine Turno, se lo Scudo ottenuto tramite questo effetto è distrutto, ottiene 1 [DefenseDown] per tutta la durata dell'Incontro pari al numero di volte che lo Scudo è stato distrutto (max 5)"
+    },
+    {
+      "id": 108211,
+      "name": "Disadattamento",
+      "desc": "Rimpiazza la passiva 「Adattamento」 quando questa viene indebolita da un Evento a Scelta.\n\nOttiene 1 [Breath] ogni volta che infligge danno con le Abilità Attacco (max 15 per turno)\n- Se il bersaglio ha 15+ [ObservedPerson], riduce il [ObservedPerson] sul bersaglio di 3 per ottenere 1 [Breath] in più da questo effetto\n\nOttiene +1 Conteggio [Breath] ogni volta che subisce danni dalle Abilità Attacco nemiche (max 15 per turno)\n- Se il bersaglio ha 15+ [ObservedPerson], riduce il [ObservedPerson] sul bersaglio di 3 per ottenere 1 Conteggio [Breath] in più da questo effetto\n\nI danni sul Colpo Critico non possono essere aumentati o diminuiti"
+    },
+    {
+      "id": 138904,
+      "name": "Bramare il Sangue",
+      "desc": "A inizio Incontro, ottiene [BloodthirstHard]\n\n<color=#ff6000><mark=#ff000040><b><u>A inizio Incontro, infligge 3 [Laceration] e +3 Conteggio [Laceration] su ogni Peccatore\n- Questo effetto si riattiva ogni volta che un Peccatore sostituisce un altro Peccatore\nA inizio turno, infligge +3 Conteggio [Laceration] su ogni Peccatore senza [Laceration]</u></b></mark></color>\n\n<color=#ff6000><mark=#ff000040><b><u>A inizio combattimento:\n- A 0+ PS, infligge 2 Potenza e Conteggio [Laceration] in più\n- A meno di 0 PS, converte le Monete di ogni Abilità in [SuperCoin] e infligge +50% danni</u></b></mark></color>"
+    }
+  ]
+}
