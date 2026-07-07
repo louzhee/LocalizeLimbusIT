@@ -10,30 +10,41 @@ Traduzione&Localizzazione Italiana per Limbus Company - Non siamo affiliati con 
 <a href="https://espressooffice.carrd.co/">Carrd</a> - <a href="https://t.me/espressooffice">Telegram</a> - <a href="https://discord.gg/3nusa6KWpB">Discord</a> - <a href="https://www.youtube.com/@EspressoOffice/">Youtube</a> - <a href="https://www.instagram.com/espressooffice_it">Instagram</a>
 </div>
 
-## Installazione
-1. Scarica l'ultima versione per il tuo sistema operativo da [releases](https://github.com/kimght/LimbusLocalizationManager/releases)
-   - Per gli utenti Windows: `LimbusLocalizationManager_Setup_x.x.x.exe`
-2. Lancia l'eseguibile
-   - Non preoccuparti se il Windows SmartScreen o l'antivirus ti avvertono dell'autore sconosciuto, clicca su `Ulteriori informazioni` seguito da `Esegui comunque`
-3. Segui le istruzioni per completare l'installazion
+## Metodi d'installazione
+Metodo 1) Usa il Limbus Localization Manager (realizzato da kimght). Trovi le istuzioni >><a href="https://github.com/kimght/LimbusLocalizationManager/blob/main/docs/README/it.md">QUI</a><<
 
-## Aggiungere la localizzazione
-Clicca sulla bandiera italiana per selezionare la nostra localizzazione, poi sul pulsante `+` per installarla.
+Metodo 2) Installazione manuale ((IN ARRIVO))
 
-> Nota bene: Il gioco deve essere chiuso durante il processo di installazione
 
-Una volta che la localizzazione è stata installata, puoi rimuoverla usando il bottone `X`. Con il pulsante `Ripara` reinstallerai l'ultima versione.
+# Stato Traduzione
+## Storia
+- [x] Selva Oscura
+- [x] Canto 1
+- [x] Canto 2
+- [x] Canto 3
+- [x] Canto 4
+- [ ] Canto 5
+- [ ] Canto 6
+- [ ] Canto 7
+- [ ] Canto 8
+- [ ] Canto 9
 
-## Aggiornare la localizzazione
-Quando è disponibile un nuovo aggiornamento, questo verrà indicato nella scheda di localizzazione. Puoi usare il pulsante `Aggiorna` per installarlo subito.
+## Intervalli
+- [x] **Galline da Incubo** 3.5
+- [x] **M.A.R.E.** 4.5 >> IN ARRIVO CON IL PROSSIMO AGGIORNAMENTO <<
+- [ ] **Miracolo nel Distretto 20** 5.5-Ⅰ
+- [ ] **Sacrifico la Carne per Reclamare le Loro Ossa** 5.5-Ⅱ
+- [ ] **Tempo Ammazzatempo** 6.5-Ⅰ
+- [ ] **Assassinio sul WARP Express** 6.5-Ⅱ
+- [ ] **Controllo di Routine LCB** 7.5-Ⅰ
+- [ ] **Spazzare Notturno** 7.5-Ⅱ
+- [ ] **Cultura Primaverile** 8.5-Ⅰ
+- [ ] **Fili Intrecciati** 9.5-Ⅰ
+- [ ] **Esperienza Mnestica** 9.5-Ⅱ
 
-Il modo migliore per aggiornare è usare il pulsante `Aggiorna & Gioca` sulla scheda principale per lanciare Limbus Company. In questo modo:
-- Il programma controllerà se le localizzazioni sono aggiornate all'ultima versione
-- Aggiornerà le localizzazioni che ne hanno bisogno
-- Aprirà il gioco per te
-
-## Membri
+# Membri
 flowerssummerr, Koi, Ghosty, WildKat, Techiee, SirPapera, Luigi, Carols, SimerOtt, Chiara Firever
+
 
 
 
