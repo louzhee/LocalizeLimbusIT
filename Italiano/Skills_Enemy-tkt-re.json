@@ -106,7 +106,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Innesca [Switch_Vibration] in [VibrationCollapse]"
+                  "desc": "[OnSucceedAttack] Trasforma [Switch_Vibration] in [VibrationCollapse]"
                 }
               ]
             }
@@ -120,7 +120,7 @@
         {
           "level": 1,
           "name": "Pronti alla Sconfitta?",
-          "desc": "Dà priorità ai bersagli con [VibrationCollapse]\n[WhenUse] Applica Conteggio [Vibration] pari al Conteggio [Vibration] su di sé a tutti gli altri alleati\n[WhenUse] Innesca [Switch_Vibration] su tutti gli alleati (inclusa questa unità) e converte la loro [Vibration] in [VibrationDistribution]\n[DefeatDuel] Infligge -80% danni e i danni inflitti da questa abilità non Stordiscono il bersaglio",
+          "desc": "Dà priorità ai bersagli con [VibrationCollapse]\n[WhenUse] Applica Conteggio [Vibration] pari al Conteggio [Vibration] su di sé a tutti gli altri alleati\n[WhenUse] Trasforma [Switch_Vibration] su tutti gli alleati (inclusa questa unità) e converte la loro [Vibration] in [VibrationDistribution]\n[DefeatDuel] Infligge -80% danni e i danni inflitti da questa abilità non Stordiscono il bersaglio",
           "coinlist": [
             {
               "coindescs": [

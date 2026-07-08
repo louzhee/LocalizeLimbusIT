@@ -71,7 +71,7 @@
         {
           "level": 1,
           "name": "Catene dell'Orologio Schifose!",
-          "desc": "Potere Scontro +1 per ogni 5 Conteggio [Vibration] su di sé (max 2)\n[WhenUse] Innesca [Switch_Vibration] e converte [Vibration] su di sé in [VibrationDistribution]",
+          "desc": "Potere Scontro +1 per ogni 5 Conteggio [Vibration] su di sé (max 2)\n[WhenUse] Trasforma [Switch_Vibration] e converte [Vibration] su di sé in [VibrationDistribution]",
           "coinlist": [
             {
               "coindescs": [
@@ -181,7 +181,7 @@
         {
           "level": 1,
           "name": "Catene dell'Orologio Ripugnanti!",
-          "desc": "Potere Scontro +1 per ogni 5 Conteggio [Vibration] su di sé (max 2)\n[WhenUse] Innesca [Switch_Vibration] in [VibrationDistribution] pari alla [Vibration] su di sé",
+          "desc": "Potere Scontro +1 per ogni 5 Conteggio [Vibration] su di sé (max 2)\n[WhenUse] Trasforma [Switch_Vibration] in [VibrationDistribution] pari alla [Vibration] su di sé",
           "coinlist": [
             {
               "coindescs": [
@@ -326,7 +326,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Innesca [Switch_Vibration] in [VibrationCollapse]"
+                  "desc": "[OnSucceedAttack] Trasforma [Switch_Vibration] in [VibrationCollapse]"
                 }
               ]
             }
@@ -340,7 +340,7 @@
         {
           "level": 1,
           "name": "Pronti alla Sconfitta?",
-          "desc": "Dà priorità ai bersagli con [VibrationCollapse]\n[WhenUse] Applica Conteggio [Vibration] pari al Conteggio [Vibration] su di sé a tutti gli altri alleati\n[WhenUse] Innesca [Switch_Vibration] su tutti gli alleati (inclusa quest'unità) e converte la loro [Vibration] in [VibrationDistribution]",
+          "desc": "Dà priorità ai bersagli con [VibrationCollapse]\n[WhenUse] Applica Conteggio [Vibration] pari al Conteggio [Vibration] su di sé a tutti gli altri alleati\n[WhenUse] Trasforma [Switch_Vibration] su tutti gli alleati (inclusa quest'unità) e converte la loro [Vibration] in [VibrationDistribution]",
           "coinlist": [
             {},
             {},
@@ -533,7 +533,7 @@
                   "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] A 4+ Conteggio [Vibration], innesca [Switch_Vibration] in [VibrationChain]"
+                  "desc": "[OnSucceedAttack] A 4+ Conteggio [Vibration], Trasforma [Switch_Vibration] in [VibrationChain]"
                 }
               ]
             }
@@ -638,7 +638,7 @@
                   "desc": "[OnSucceedAttack] Infligge 1 [Reduction] il turno successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] A 5+ Conteggio [Vibration], innesca [Switch_Vibration] in [VibrationChain]"
+                  "desc": "[OnSucceedAttack] A 5+ Conteggio [Vibration], Trasforma [Switch_Vibration] in [VibrationChain]"
                 }
               ]
             }

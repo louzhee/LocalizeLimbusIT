@@ -974,7 +974,7 @@
                   "desc": "[OnSucceedAttack] Se il bersaglio ha 10+ [Vibration], consuma 10 [Vibration] sul bersaglio and infligge 2 [TimeSuspend]\n- Se questa unità è in stato di [TimeRentalTwoPersonality], questo effetto non consuma la [Vibration] del bersaglio"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Se la Velocità del bersaglio è inferiore a questa unità, innesca [Switch_Vibration] in [VibrationChainPersonality]"
+                  "desc": "[OnSucceedAttack] Se la Velocità del bersaglio è inferiore a questa unità, Trasforma [Switch_Vibration] in [VibrationChainPersonality]"
                 }
               ]
             }
@@ -1009,7 +1009,7 @@
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Se la Velocità del bersaglio è inferiore a questa unità, innesca [Switch_Vibration] in [VibrationChainPersonality]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Se la Velocità del bersaglio è inferiore a questa unità, Trasforma [Switch_Vibration] in [VibrationChainPersonality]<style=\"highlight\"></style>"
                 }
               ]
             }
