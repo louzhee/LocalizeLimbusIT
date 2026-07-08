@@ -98,7 +98,7 @@
                   "desc": "[OnSucceedAttack] Gain 3 [WornHeart] and [BloodyHand]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 10 [WornHeart], gain 3 additional [BloodyHand] and gain 1 [AttackUp] next turn"
+                  "desc": "[OnSucceedAttack] At 10 [WornHeart], gain 3 additional [BloodyHand] and gain 1 [AttackUp] nel turno successivo"
                 }
               ]
             }
@@ -131,7 +131,7 @@
         {
           "level": 1,
           "name": "How Bountiful...",
-          "desc": "[WhenUse] If the target has 6+ [Laceration], Coin Power +1\n[WhenUse] Consume up to 30 [BloodDinner]: gain Coin Power +1 for every 10 [BloodDinner] consumed (effect expires after the first Coin attack)\n[DefeatDuel] Gain 1 [Vulnerable] next turn",
+          "desc": "[WhenUse] If the target has 6+ [Laceration], Coin Power +1\n[WhenUse] Consume up to 30 [BloodDinner]: gain Coin Power +1 for every 10 [BloodDinner] consumed (effect expires after the first Coin attack)\n[DefeatDuel] Gain 1 [Vulnerable] nel turno successivo",
           "coinlist": [
             {
               "coindescs": [
@@ -217,8 +217,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Expression of Love",
-          "desc": "Prioritizes targets with the least number of negative effects\n[WhenUse] If the target does not have any negative effects, use 'Rough Expression of Love' next turn\n\n[WhenUse] If the target has more negative effects than [FaintMemory] on self, use 'A Sad Embrace' next turn",
+          "name": "Espressione d'Amore",
+          "desc": "Dà priorità al bersaglio con meno status negativi\n[WhenUse] Se il bersaglio non ha status negativi, usa 'Espressione d'Amore Rozza' nel turno successivo\n\n[WhenUse] Se gli status negativi sul bersaglio sono più alti dei [FaintMemory] su di sé, usa 'Un Triste Abbraccio' nel turno successivo",
           "coinlist": [
             {
               "coindescs": [
@@ -226,10 +226,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [AffectionTeddy]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [AffectionTeddy]"
                 },
                 {
-                  "desc": "[WinDuelAttack] Inflict 2 [Vulnerable] next turn"
+                  "desc": "[WinDuelAttack] Infligge 2 [Vulnerable] nel turno successivo"
                 }
               ]
             }
@@ -242,16 +242,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Clawing",
-          "desc": "Prioritizes targets with the least number of negative effects\n[WinDuel] Inflict 3 [AffectionTeddy] next turn\n[DefeatDuel] Inflict 1 [AffectionTeddy] next turn",
+          "name": "Graffi",
+          "desc": "Dà priorità al bersaglio con meno status negativi\n[WinDuel] Infligge 3 [AffectionTeddy] nel turno successivo\n[DefeatDuel] Infligge 1 [AffectionTeddy] nel turno successivo",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [NailPersonality]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [NailPersonality]"
                 }
               ]
             }
@@ -264,20 +264,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Violent Clawing",
-          "desc": "Prioritizes targets with the least number of negative effects\n[WinDuel] Inflict 3 [AffectionTeddy] next turn\n[DefeatDuel] Inflict 1 [AffectionTeddy] next turn",
+          "name": "Graffi Violenti",
+          "desc": "Dà priorità al bersaglio con meno status negativi\n[WinDuel] Infligge 3 [AffectionTeddy] nel turno successivo\n[DefeatDuel] Infligge 1 [AffectionTeddy] nel turno successivo",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Curse]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Curse]"
                 }
               ]
             }
@@ -290,8 +290,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Timid Expression of Love",
-          "desc": "[DuelCounter]\n[WhenUse] Inflict 2 [Disarming] next turn\n[WhenUse] Inflict 1 [Curse]",
+          "name": "Espressione d'Amore Timida",
+          "desc": "[DuelCounter]\n[WhenUse] Infligge 2 [Disarming] nel turno successivo\n[WhenUse] Infligge 1 [Curse]",
           "coinlist": [
             {
               "coindescs": [
@@ -299,10 +299,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If the target has [AffectionTeddy], consume [AffectionTeddy] and inflict [Curse] and [NailPersonality] equal to the value of [AffectionTeddy] consumed (consumes up to 4)"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [AffectionTeddy], consuma fino a 4 [AffectionTeddy] e infligge [Curse] e [NailPersonality] pari allo Stack di [AffectionTeddy] consumato"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If the target has 4+ [Curse], consume 4 [Curse] on the target and inflict 1 [CursePackage]"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 4+ [Curse], consuma 4 [Curse] sul bersaglio e infligge 1 [CursePackage]"
                 }
               ]
             }
@@ -315,8 +315,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Rough Expression of Love",
-          "desc": "[CantChangeTarget]\nTargets the target this unit Clashed with 'Expression of Love' last turn",
+          "name": "Espressione d'Amore Rozza",
+          "desc": "[CantChangeTarget]\nBersaglia l'unità che ha Scontrato 'Espressione d'Amore' nel turno precedente",
           "coinlist": [
             {
               "coindescs": [
@@ -324,13 +324,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "If the target does not have any negative effects, deal +100% damage"
+                  "desc": "Se il bersaglio non ha status negativi, infligge +100% danni"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Curse]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Curse]"
                 },
                 {
-                  "desc": "[WinDuelAttack] Inflict 6 [NailPersonality]"
+                  "desc": "[WinDuelAttack] Infligge 6 [NailPersonality]"
                 }
               ]
             }
@@ -343,8 +343,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "A Sad Embrace",
-          "desc": "[CantChangeTarget]\nTargets the target this unit Clashed with 'Expression of Love' last turn\nFix the damage dealt against that target to 0\n[StartBattle] Gain 2 [Vulnerable] until next turn\n[EndBattle] Enter Staggered state",
+          "name": "un Triste Abbraccio",
+          "desc": "[CantChangeTarget]\nBersaglia l'unità che ha Scontrato 'Espressione d'Amore' nel turno precedente\nQuest'Abilità non infligge danni\n[StartBattle] Ottiene 2 [Vulnerable] fino al turno successivo\n[EndBattle] Viene Stordito",
           "coinlist": [
             {
               "coindescs": [
@@ -352,7 +352,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Fully heals the target's PS"
+                  "desc": "[OnSucceedAttack] Il bersaglio recupera tutti i PS"
                 }
               ]
             }
@@ -365,13 +365,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "An Old, Nostalgic Embrace",
-          "desc": "[DefeatDuel] Deal only half damage against the enemy with this Skill",
+          "name": "Un Vecchio Abbraccio Nostalgico",
+          "desc": "[DefeatDuel] Quest'Abilità infligge la metà dei danni",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Curse]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Curse]"
                 }
               ]
             },
@@ -381,10 +381,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [NailPersonality]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [NailPersonality]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Consume all [AffectionTeddy] on the target\n- If this unit won the Clash, raise the target's Stagger Threshold by ([AffectionTeddy] consumed x 10)"
+                  "desc": "[OnSucceedAttack] Consuma ogni [AffectionTeddy] sul bersaglio\n- Se questa unità ha vinto lo Scontro, alza la Soglia di Stordimento del bersaglio di ([AffectionTeddy] consumato x 10)"
                 }
               ]
             }
@@ -459,7 +459,7 @@
                   "desc": "[OnSucceedAttack] Inflict 10 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [ScarletTakeDamageUp] next turn"
+                  "desc": "[OnSucceedAttack] Inflict 2 [ScarletTakeDamageUp] nel turno successivo"
                 }
               ]
             }
@@ -507,7 +507,7 @@
                   "desc": "[OnSucceedAttack] Gain 3 [Breath]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict 1 [Vulnerable] next turn"
+                  "desc": "[CriticalOnSucceedAttack] Inflict 1 [Vulnerable] nel turno successivo"
                 }
               ]
             }
@@ -534,10 +534,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [IndigoTakeDamageUp] next turn"
+                  "desc": "[OnSucceedAttack] Inflict 2 [IndigoTakeDamageUp] nel turno successivo"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict 1 [Vulnerable] next turn"
+                  "desc": "[CriticalOnSucceedAttack] Inflict 1 [Vulnerable] nel turno successivo"
                 }
               ]
             }
@@ -578,7 +578,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [Breath] Count next turn"
+                  "desc": "[OnSucceedAttack] Gain +2 [Breath] Count nel turno successivo"
                 }
               ]
             }
@@ -819,7 +819,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Binding] next turn\n- If this Skill consumed 30 [BloodDinner], inflict 2 additional [Binding]"
+                  "desc": "[OnSucceedAttack] Inflict 1 [Binding] nel turno successivo\n- If this Skill consumed 30 [BloodDinner], inflict 2 additional [Binding]"
                 }
               ]
             }
@@ -852,7 +852,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Paralysis] next turn\n- If this Skill consumed 50 [BloodDinner], inflict 2 additional [Paralysis]"
+                  "desc": "[OnSucceedAttack] Inflict 1 [Paralysis] nel turno successivo\n- If this Skill consumed 50 [BloodDinner], inflict 2 additional [Paralysis]"
                 }
               ]
             }
@@ -924,14 +924,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 [DefenseUp] next turn"
+                  "desc": "[OnSucceedAttack] Gain 2 [DefenseUp] nel turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 [DefenseUp] next turn"
+                  "desc": "[OnSucceedAttack] Gain 2 [DefenseUp] nel turno successivo"
                 }
               ]
             }
@@ -945,26 +945,26 @@
         {
           "level": 1,
           "name": "Knnhgh nhhnnh",
-          "desc": "[WinDuel] Inflict 1 [Binding] next turn\n[WhenUse] Base Power +1 for every 4 [DefenseUp] on self (max 2)\n[WhenUse] Gain 3 [DefenseUp]",
+          "desc": "[WinDuel] Inflict 1 [Binding] nel turno successivo\n[WhenUse] Base Power +1 for every 4 [DefenseUp] on self (max 2)\n[WhenUse] Gain 3 [DefenseUp]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 [DefenseUp] next turn"
+                  "desc": "[OnSucceedAttack] Gain 2 [DefenseUp] nel turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 [DefenseUp] next turn"
+                  "desc": "[OnSucceedAttack] Gain 2 [DefenseUp] nel turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 [DefenseUp] next turn"
+                  "desc": "[OnSucceedAttack] Gain 2 [DefenseUp] nel turno successivo"
                 }
               ]
             }
@@ -985,7 +985,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain Offense Level Up equal to [DefenseUp] next turn"
+                  "desc": "[OnSucceedAttack] Gain Offense Level Up equal to [DefenseUp] nel turno successivo"
                 }
               ]
             }
@@ -1017,13 +1017,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Spiked Whip",
-          "desc": "[WhenUse] If the target has 6+ [Burst], Clash Power +1",
+          "name": "Frusta di Spine",
+          "desc": "[WhenUse] Se il bersaglio ha 6+ [Burst], Potere Scontro +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Burst]"
                 }
               ]
             }
@@ -1036,20 +1036,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Whip Crack",
-          "desc": "[WhenUse] If the target has 6+ [Burst], Coin Power +1\n[WinDuel] Inflict +2 [Burst] Count",
+          "name": "Colpo di Frusta",
+          "desc": "[WhenUse] Se il bersaglio ha 6+ [Burst], Potere Moneta +1\n[WinDuel] Infligge +2 Conteggio [Burst]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If the target has less than 5 [Burst] Count, inflict +2 [Burst] Count\n- At 5+ [Burst] Count, inflict 2 [Burst] instead"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha meno di 5 Conteggio [Burst], infligge +2 Conteggio [Burst]\n- A 5+ Conteggio [Burst], infligge invece 2 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If the target has less than 5 [Burst] Count, inflict +2 [Burst] Count\n- At 5+ [Burst] Count, inflict 2 [Burst] instead"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha meno di 5 Conteggio [Burst], infligge +2 Conteggio [Burst]\n- A 5+ Conteggio [Burst], infligge invece 2 [Burst]"
                 }
               ]
             }
@@ -1062,13 +1062,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Strangling Crown of Thorns",
-          "desc": "Prioritizes targets with the lowest PS\n[WhenUse] If the target has 0- PS, Clash Power +3\n[WhenUse] Coin Power +1 for every 4 [Burst] on the target (max 3)",
+          "name": "Corona di Spine Strangolante",
+          "desc": "Dà priorità al bersaglio coi PS più bassi\n[WhenUse] Se il bersaglio ha 0 o meno PS, Potere Scontro +3\n[WhenUse] Potere Moneta +1 per ogni 4 [Burst] sul bersaglio (max 3)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal 10 PS damage\n- If the target has 0- PS, deal 20 PS damage instead"
+                  "desc": "[OnSucceedAttack] Infligge 10 danni ai PS\n- Se il bersaglio ha 0 o meno PS, infligge altri 10 danni ai PS"
                 }
               ]
             }
@@ -1081,27 +1081,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Withdraw Whip",
-          "desc": "Prioritizes targets with [ThornNoose]\nIf the target does not have [ThornNoose], deal -50% damage",
+          "name": "Ritirare la Frusta",
+          "desc": "Dà priorità al bersaglio con [ThornNoose]\nSe il bersaglio non ha [ThornNoose], infligge -50% danni",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack]If the target has [ThornNoose], inflict 2 [Burst]\n- If the target has 10+ [Burst], inflict +2 [Burst] Count instead"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [ThornNoose], infligge 2 [Burst]\n- Se il bersaglio 10+ [Burst], infligge invece +2 Conteggio [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack]If the target has [ThornNoose], inflict 2 [Burst]\n- If the target has 10+ [Burst], inflict +2 [Burst] Count instead"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [ThornNoose], infligge 2 [Burst]\n- Se il bersaglio 10+ [Burst], infligge invece +2 Conteggio [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack]If the target has [ThornNoose], inflict 2 [Burst]\n- If the target has 10+ [Burst], inflict +2 [Burst] Count instead"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [ThornNoose], infligge 2 [Burst]\n- Se il bersaglio 10+ [Burst], infligge invece +2 Conteggio [Burst]"
                 }
               ]
             },
@@ -1111,7 +1111,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has [ThornNoose], deal +50% damage"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [ThornNoose], infligge +50% danni"
                 }
               ]
             }
@@ -1124,8 +1124,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Barbed Lasso",
-          "desc": "[WhenUse] If this unit's Speed is faster than the target's, Clash Power +5\n[WhenUse] Coin Power +1 for every 4 [Burst] on the target (max 2)\n[WhenUse] Gain Base Power by the number of targets with [ThornNoose]",
+          "name": "Lazo Spinato",
+          "desc": "[WhenUse] Se la Velocità di questa unità è maggiore di quella del bersaglio, Potere Scontro +5\n[WhenUse] Potere Moneta +1 per ogni 4 [Burst] sul bersaglio (max 2)\n[WhenUse] Potere Base +1 per ogni bersaglio con [ThornNoose]",
           "coinlist": [
             {},
             {},
@@ -1136,13 +1136,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Burst] and +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Burst] e +2 Conteggio [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target is Staggered or has [ThornNoose], deal +30% damage"
+                  "desc": "[OnSucceedAttack] Se il bersaglio è Stordito o ha [ThornNoose], infligge +30% danni"
                 },
                 {
-                  "desc": "[EnemyKill] Inflict ([Burst] Count on the target x 2) [Burst] against all enemies (max 10)"
+                  "desc": "[EnemyKill] Infligge (Conteggio [Burst] sul bersaglio x 2) [Burst] su ogni nemico (max 10)"
                 }
               ]
             }
@@ -1155,8 +1155,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Whip Wreath",
-          "desc": "[StartBattle] Gain (number of enemies with [ThornNoose])% of PV as Shield",
+          "name": "Frusta Fiorita",
+          "desc": "[StartBattle] Ottiene (numero di nemici con [ThornNoose])% dei PV max come Scudo",
           "coinlist": [
             {
               "coindescs": [
@@ -1174,8 +1174,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Snaring Lasso",
-          "desc": "[StartBattle] If there are 3- enemies with [ThornNoose], inflict 1 [ThornNoose]",
+          "name": "Lazo Intrappolante",
+          "desc": "[StartBattle] Se ci sono 3 o meno nemici con [ThornNoose], infligge 1 [ThornNoose]",
           "coinlist": [
             {
               "coindescs": [
@@ -1183,7 +1183,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
                 }
               ]
             }
@@ -1196,13 +1196,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Thorns",
-          "desc": "[CantChangeTarget]\nPrioritizes targets with Barbed Lasso",
+          "name": "Spine",
+          "desc": "[CantChangeTarget]\nDà priorità ai bersagli con [ThornNoose]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Burst] and +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Burst] e +2 Conteggio [Burst]"
                 }
               ]
             }
@@ -1242,7 +1242,7 @@
         {
           "level": 1,
           "name": "The Infinite Parade",
-          "desc": "[CantDuel]\nIf the target used a Defense Skill, deal -100% damage\n[WhenUse] Generate 1 Gondola next turn",
+          "desc": "[CantDuel]\nIf the target used a Defense Skill, deal -100% damage\n[WhenUse] Generate 1 Gondola nel turno successivo",
           "coinlist": [
             {
               "coindescs": [
@@ -1259,7 +1259,7 @@
         {
           "level": 1,
           "name": "The Eternal Festival",
-          "desc": "[CantDuel]\nIf the target used a Defense Skill, deal -100% damage\n[WhenUse] Generate 4 Gondola next turn",
+          "desc": "[CantDuel]\nIf the target used a Defense Skill, deal -100% damage\n[WhenUse] Generate 4 Gondola nel turno successivo",
           "coinlist": [
             {
               "coindescs": [
@@ -1291,7 +1291,7 @@
         {
           "level": 1,
           "name": "LETMEOUT!!!LETMEOUT!!!",
-          "desc": "Uses a self-detonating Skill next turn.",
+          "desc": "Uses a self-detonating Skill nel turno successivo.",
           "coinlist": [
             {
               "coindescs": [
@@ -1372,7 +1372,7 @@
         {
           "level": 1,
           "name": "Be Impaled",
-          "desc": "[WhenUse] Consume up to 40 [BloodDinner]: gain 1 [RegainedStrength] and heal 3 PS for every 10 [BloodDinner] consumed\n\n[DefeatDuel] Lose 3 PS\n[DefeatDuel] Consume 3 [RegainedStrength]. Gain 3 [DefenseDown] next turn",
+          "desc": "[WhenUse] Consume up to 40 [BloodDinner]: gain 1 [RegainedStrength] and heal 3 PS for every 10 [BloodDinner] consumed\n\n[DefeatDuel] Lose 3 PS\n[DefeatDuel] Consume 3 [RegainedStrength]. Gain 3 [DefenseDown] nel turno successivo",
           "coinlist": [
             {
               "coindescs": [
@@ -1559,7 +1559,7 @@
         {
           "level": 1,
           "name": "Don Quixote Hardblood Arts 4 - Sundering",
-          "desc": "Cannot be Staggered until he uses this Skill.\n[WhenUse] Consume up to 100 [BloodDinner]: gain 1 [RegainedStrength] and heal 15 PS for every 10 [BloodDinner] consumed\n[WhenUse] Clash Power +1 for every [BloodDinner_Accumulation] by this unit (max 15)\n[DefeatDuel] Deal -50% damage, and the damage from this Skill does not Stagger the target.\n[EndSkill] For this turn and next turn, gain [AttackDown] and [DefenseDown] equal to the Clash Power gained with this Skill. (max 15)",
+          "desc": "Cannot be Staggered until he uses this Skill.\n[WhenUse] Consume up to 100 [BloodDinner]: gain 1 [RegainedStrength] and heal 15 PS for every 10 [BloodDinner] consumed\n[WhenUse] Clash Power +1 for every [BloodDinner_Accumulation] by this unit (max 15)\n[DefeatDuel] Deal -50% damage, and the damage from this Skill does not Stagger the target.\n[EndSkill] For this turn and nel turno successivo, gain [AttackDown] and [DefenseDown] equal to the Clash Power gained with this Skill. (max 15)",
           "coinlist": [
             {
               "coindescs": [
@@ -1629,7 +1629,7 @@
         {
           "level": 1,
           "name": "Bloody-Merry-Go-Round",
-          "desc": "[CantDuel]\n[WhenUse] Generate Coagulated Dream next turn",
+          "desc": "[CantDuel]\n[WhenUse] Generate Coagulated Dream nel turno successivo",
           "coinlist": [
             {
               "coindescs": [
@@ -1682,7 +1682,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] The target becomes staggered, then becomes [Penetration] next turn"
+                  "desc": "[OnSucceedAttack] The target becomes staggered, then becomes [Penetration] nel turno successivo"
                 },
                 {
                   "desc": "[EndCoin] The target loses 25 [Laceration] Potency. Gain [Laceration] and increase [BloodDinner] equal to that value"
@@ -1699,7 +1699,7 @@
         {
           "level": 1,
           "name": "Ascendant Don Quixote Hardblood Arts - The Sphere",
-          "desc": "Cannot be Staggered until he uses this Skill.\nDeal more damage equal to [BloodDinner_Common_Accumulation]. (max 300%)\n[WhenUse] Heal 30 PS\n[WhenUse] Clash Power +1 for every 10 [RegainedStrength]\n[EndSkill] Consume all [RegainedStrength]. Gain 5 [Vulnerable] this turn and next turn. Gain 2 [Binding] next turn.",
+          "desc": "Cannot be Staggered until he uses this Skill.\nDeal more damage equal to [BloodDinner_Common_Accumulation]. (max 300%)\n[WhenUse] Heal 30 PS\n[WhenUse] Clash Power +1 for every 10 [RegainedStrength]\n[EndSkill] Consume all [RegainedStrength]. Gain 5 [Vulnerable] this turn and nel turno successivo. Gain 2 [Binding] nel turno successivo.",
           "coinlist": [
             {
               "coindescs": [
@@ -1853,12 +1853,12 @@
         {
           "level": 1,
           "name": "Knnh",
-          "desc": "[WinDuel] Deal more damage based on number of Clashes (+10% damage for every Clash, max 50%)\n[WinDuel] Gain 2 [Agility] next turn\n[DefeatDuel] Gain 2 [Binding] next turn",
+          "desc": "[WinDuel] Deal more damage based on number of Clashes (+10% damage for every Clash, max 50%)\n[WinDuel] Gain 2 [Agility] nel turno successivo\n[DefeatDuel] Gain 2 [Binding] nel turno successivo",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vulnerable] next turn"
+                  "desc": "[OnSucceedAttack] Inflict 1 [Vulnerable] nel turno successivo"
                 }
               ]
             }
@@ -1872,7 +1872,7 @@
         {
           "level": 1,
           "name": "Knhhh",
-          "desc": "[OnSucceedEvade] Gain 1 [Agility] next turn",
+          "desc": "[OnSucceedEvade] Gain 1 [Agility] nel turno successivo",
           "coinlist": [
             {
               "coindescs": [
