@@ -5,13 +5,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Gossypium Planting",
-          "desc": "[WhenUse] Inflict 3 [MRcAfBa]",
+          "name": "Piantare il Cotone",
+          "desc": "[WhenUse] Infligge 3 [MRcAfBa]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration] and +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration] e +1 Conteggio [Laceration]"
                 }
               ]
             }
@@ -24,16 +24,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Wound Planting",
+          "name": "Piantare Ferite",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttackHead] Infligge 4 [Laceration]"
                 }
               ]
             }
@@ -46,20 +46,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Draining Roots",
-          "desc": "[CantDuel]\nAmong targets with [MRcAfBa], attack the unit with the slowest Speed;\nDeal ([MRcAfBa] x 10)% damage",
+          "name": "Radici Assorbenti",
+          "desc": "[CantDuel]\nAttacca il bersaglio con [MRcAfBa] con la Velocità minore;\nInfligge ([MRcAfBa] x 10)% danni",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal by ([MRcAfBa] x 5)% of damage dealt"
+                  "desc": "[OnSucceedAttack] Recupera PV pari al ([MRcAfBa] x 5)% del danno inflitto"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal by ([MRcAfBa] x 5)% of damage dealt"
+                  "desc": "[OnSucceedAttack] Recupera PV pari al ([MRcAfBa] x 5)% del danno inflitto"
                 }
               ]
             }
@@ -72,20 +72,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Flourishing Gossypium",
-          "desc": "Attacks the target with the most [Laceration]\n[WhenUse] If the main target is the target with the most [Laceration], Base Power +5, inflict x2 the effects",
+          "name": "Cotone in Prosperità",
+          "desc": "Attacca il bersaglio con più [Laceration]\n[WhenUse] Se il bersaglio principale è quello con più [Laceration], Potere Base +5 e infligge il doppio degli effetti",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Binding] and 2 [ScarletTakeDamageUp] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Binding] e 2 [ScarletTakeDamageUp] nel turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 8 [Laceration] and +4 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge 8 [Laceration] e +4 Conteggio [Laceration]"
                 }
               ]
             }
@@ -98,20 +98,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Scattering Gossypium",
-          "desc": "Among targets with [MRcAfBa], attack the unit with the least PV\n[WhenUse] If the main target is the target with the most [Laceration], Base Power +5\n[EndBattle] [MRcAfBb] state expires next turn.",
+          "name": "Cotone Sparpagliato",
+          "desc": "Attacca l'unità con [MRcAfBa] coi PV minori\n[WhenUse] Se il bersaglio principale è quello con più [Laceration], Potere Base +5\n[EndBattle] [MRcAfBb] scade nel turno successivo.",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration] and +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration] e +2 Conteggio [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration] and +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration] e +2 Conteggio [Laceration]"
                 }
               ]
             }
@@ -124,8 +124,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Scattering Wind",
-          "desc": "[OnSucceedEvade] Inflict 3 [Laceration] and +1 [Laceration] Count",
+          "name": "Vento Disperso",
+          "desc": "[OnSucceedEvade] Infligge 3 [Laceration] e +1 Conteggio [Laceration]",
           "coinlist": [
             {
               "coindescs": [
@@ -143,14 +143,14 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Encroaching Gossypium",
-          "desc": "[CantDuel]\nPrioritizes the unit with the lowest Speed\nDamage dealt by this Attack Skill is fixed to 0.\n[StartBattle] Enter [MRcAfBb] state next turn.",
+          "name": "Cotone Invasivo",
+          "desc": "[CantDuel]\nDà priorità al nemico con la Velocità minore\nQuest'Abilità non infligge danni.\n[StartBattle] Entra nello stato [MRcAfBb] nel turno successivo.",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [MRcAfBa]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [MRcAfBa]"
                 }
               ]
             }
@@ -163,26 +163,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Scattering Red-stained Gossypium",
-          "desc": "Prioritizes the target with the most [Laceration]\n[WhenUse] If the main target is the target with the most [Laceration], Base Power +10\nIf the target has 10+ [Laceration], deal +50% damage",
+          "name": "Sparpagliare il Cotone Rosso",
+          "desc": "Dà priorità al nemico con più [Laceration]\n[WhenUse] Se il bersaglio principale è quello con più [Laceration], Potere Base +10\nSe il bersaglio ha 10+ [Laceration], infligge +50% danni",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Laceration] and +4 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Laceration] e +4 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal PV equal to [Laceration] on target"
+                  "desc": "[OnSucceedAttack] HRecupera PV pari al [Laceration] sul bersaglio"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Laceration] and +4 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Laceration] e +4 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal PV equal to [Laceration] on target"
+                  "desc": "[OnSucceedAttack] HRecupera PV pari al [Laceration] sul bersaglio"
                 }
               ]
             }
@@ -376,16 +376,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "It Shall Penetrate",
+          "name": "Penetrerà",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttackHead] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             }
@@ -398,29 +398,29 @@
       "levelList": [
         {
           "level": 1,
-          "name": "It Shall Be Insidious",
-          "desc": "[WinDuel] Double the [Vulnerable] and [Binding] inflicted by Coin effects.",
+          "name": "Insidierà",
+          "desc": "[WinDuel] Raddoppia il [Vulnerable] e il [Binding] inflitti dalle Monete di quest'Abilità.",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration] and +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration] e +2 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 [Vulnerable] next turn"
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Vulnerable] nel turno successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 [Binding] next turn"
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Binding] nel turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             }
@@ -433,26 +433,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "It Shall Grip",
+          "name": "Stringerà",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [AttackDown] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 2 [AttackDown] nel turno successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 3 [DefenseDown] next turn"
+                  "desc": "[OnSucceedAttackHead] Infligge 3 [DefenseDown] nel turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [AttackDmgDown] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 1 [AttackDmgDown] nel turno successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Gain 1 [AttackDmgUp] next turn"
+                  "desc": "[OnSucceedAttackHead] Ottiene 1 [AttackDmgUp] nel turno successivo"
                 }
               ]
             }
@@ -465,26 +465,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "It Shall Constrict",
+          "name": "Restringerà",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [MRcAmBb]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [MRcAmBb]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [AttackDmgUp] next turn"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [AttackDmgUp] nel turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [MRcAmBb]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [MRcAmBb]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [AttackDmgUp] next turn"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [AttackDmgUp] nel turno successivo"
                 }
               ]
             }
@@ -497,23 +497,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "It Shall Shun",
-          "desc": "If there is a surviving 'Grasp' unit, Final Power +5",
+          "name": "Eluderà",
+          "desc": "Se c'è un unità 'Presa' in vita, Potere Finale +5",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 8 [Laceration] and +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge 8 [Laceration] e +3 Conteggio [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal 10 PS damage"
+                  "desc": "[OnSucceedAttack] Infligge 10 danni ai PS"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Raise Stagger Threshold by 20"
+                  "desc": "[OnSucceedAttackHead] Alza la Soglia di Stordimento del bersaglio di 20"
                 }
               ]
             }
@@ -526,26 +526,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "And it Shall Contempt All",
-          "desc": "If there is a surviving 'Grasp' unit, Final Power +5\n[EndBattle] Remove [MRcAmBc] from all enemies",
+          "name": "E Tutto Sarà Disprezzato",
+          "desc": "Se c'è un unità 'Presa' in vita, Potere Finale +5\n[EndBattle] Rimuove [MRcAmBc] da ogni nemico",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 10 [Laceration] and +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge 10 [Laceration] e +2 Conteggio [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 8 [Laceration] and +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge 8 [Laceration] e +2 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal 15 PS damage"
+                  "desc": "[OnSucceedAttack] Infligge 15 danni ai PS"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Raise Stagger Threshold by 30"
+                  "desc": "[OnSucceedAttackHead] Alza la Soglia di Stordimento del bersaglio di 30"
                 }
               ]
             }
@@ -559,7 +559,7 @@
         {
           "level": 1,
           "name": "Evasione",
-          "desc": "[OnSucceedEvade] Deal 4 PS damage",
+          "desc": "[OnSucceedEvade] Infligge 4 danni ai PS",
           "coinlist": [
             {
               "coindescs": [
