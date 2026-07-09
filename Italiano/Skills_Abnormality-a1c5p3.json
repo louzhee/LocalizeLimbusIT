@@ -204,7 +204,7 @@
         {
           "level": 1,
           "name": "Fluido Tossico",
-          "desc": "[StartBattle] Consuma 1 Slime Verde",
+          "desc": "[StartBattle] Consuma 1 [AaCePcBh]",
           "coinlist": [
             {
               "coindescs": [
@@ -230,7 +230,7 @@
         {
           "level": 1,
           "name": "Fluido Corrosivo",
-          "desc": "[StartBattle] Consuma 1 Slime Verde",
+          "desc": "[StartBattle] Consuma 1 [AaCePcBh]",
           "coinlist": [
             {
               "coindescs": [
@@ -262,7 +262,7 @@
         {
           "level": 1,
           "name": "Fluido Paralitico",
-          "desc": "[StartBattle] Consuma 1 Slime Verde",
+          "desc": "[StartBattle] Consuma 1 [AaCePcBh]",
           "coinlist": [
             {
               "coindescs": [
@@ -294,7 +294,7 @@
         {
           "level": 1,
           "name": "Fluido Divorante",
-          "desc": "[StartBattle] Consuma 2 Slime Verde\n[WhenUse] Infligge 3 Larva",
+          "desc": "[StartBattle] Consuma 2 [AaCePcBh]\n[WhenUse] Infligge 3 Larva",
           "coinlist": [
             {
               "coindescs": [
@@ -325,7 +325,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Slime Verde Effervescente",
+          "name": "Muco Verde Effervescente",
           "desc": "[StartBattle] Ottiene Portata Attacco in base al [AaCePcBh]\n[StartBattle] Ottiene 10 [AaCePcBh]",
           "coinlist": [
             {
@@ -354,7 +354,7 @@
         {
           "level": 1,
           "name": "Predazione",
-          "desc": "[CantDuel][CantChangeTarget]\nBersaglia lo <noparse>Slime Verde</noparse>\nSe attacca lo <noparse>Slime Verde</noparse>, lo uccide",
+          "desc": "[CantDuel][CantChangeTarget]\nBersaglia lo Slime Verde\nSe colpisce lo Slime Verde, lo uccide",
           "coinlist": [
             {
               "coindescs": [
@@ -1584,7 +1584,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 2 [Fragility]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Fragile]"
                 }
               ]
             }

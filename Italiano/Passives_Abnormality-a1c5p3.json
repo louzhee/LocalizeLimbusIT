@@ -3,12 +3,12 @@
     {
       "id": 810001,
       "name": "La Luce Onnipresente",
-      "desc": "If every Candle is snuffed and at full PV, gain resistance until all Candles are lit again.\nWhen all Candles are lit, lose resistance."
+      "desc": "Se ogni Candela è spenta, ottiene Resistenza finché le Candele non vengono accese.\nQuando le Candele vengono accese, perde Resistenza."
     },
     {
       "id": 810002,
       "name": "Oscurità Allontanata",
-      "desc": "Ogni Candela viene riaccesa dopo 4 turni. I PV di ogni Candela è ridotto a 1."
+      "desc": "Ogni Candela viene accesa dopo 4 turni. I PV di ogni Candela è ridotto a 1."
     },
     {
       "id": 810701,
@@ -18,237 +18,237 @@
     {
       "id": 810702,
       "name": "Oscurità Affogante",
-      "desc": "Quando ogni Candela è accesa, usa un'Abilità Difensiva.\nSe lo Scudo viene distrutto, ogni Candela viene riaccesa nel turno successivo."
+      "desc": "Quando ogni Candela è accesa, usa un'Abilità Difensiva.\nSe lo Scudo viene distrutto, ogni Candela viene spenta nel turno successivo."
     },
     {
       "id": 810101,
-      "name": "Exposed Pearl",
-      "desc": "Turn Start: If at 0 Green Slime, become Staggered. Pearl loses all Affinity Resistances by 0.5.\nGain 10 Green Slime when recovering from Stagger."
+      "name": "Perla Esposta",
+      "desc": "A inizio turno: A 0 [AaCePcBh], viene Stordita. La parte Perla perde 0.5 di ogni Resistenza.\nQuando si riprende dallo Stordimento, ottiene 10 [AaCePcBh]."
     },
     {
       "id": 810102,
-      "name": "Cracked Shell",
-      "desc": "At 10% Core PV, gains a new pattern."
+      "name": "Guscio Frantumato",
+      "desc": "A 10% PV del Nucleo, ottiene un nuovo pattern."
     },
     {
       "id": 810103,
-      "name": "Solid Shell",
-      "desc": "The Shell Part retains its resistances even during Staggered state."
+      "name": "Guscio Solido",
+      "desc": "La parte Guscio mantiene le sue resistenze anche quando è Stordita."
     },
     {
       "id": 810104,
-      "name": "Gathering Slime",
-      "desc": "Fix this Part's speed to 1 for a turn when using Devouring Fluid."
+      "name": "Raccogliere Slime",
+      "desc": "Quando usa l'Abilità 'Fluido Divorante', fissa la Velocità di questa unità a 1."
     },
     {
       "id": 810901,
-      "name": "Green Slime",
-      "desc": "Apply 3 Green Slime to Ambling Pearl when defeated by Ambling Pearl."
+      "name": "Muco Verde",
+      "desc": "Se viene sconfitto da Perla Vagante, applica 3 [AaCePcBh] su Perla Vagante."
     },
     {
       "id": 810902,
-      "name": "Contaminating Slime",
-      "desc": "Turn End: Apply (2 + Surviving Green Slime) Poison to all enemies."
+      "name": "Slime Contaminante",
+      "desc": "A fine turno, applica (2 + Slime Verde) [Poison] su ogni nemico."
     },
     {
       "id": 810201,
-      "name": "Expanding Oxygen",
-      "desc": "When the Fluorescence Part is broken, inflict [AaCePcBb] on all enemies.\nFluorescence Part regenerates after 2 turns."
+      "name": "Espansione dell'Ossigeno",
+      "desc": "Quando la parte Fluorente è rotta, infligge [AaCePcBb] su ogni nemico.\nLa parte Fluorente si rigenera dopo 2 turni."
     },
     {
       "id": 810202,
-      "name": "Underwater Breathing",
-      "desc": "Starting from turn 2, gain 8 Poise this turn if the Fluorescence Part isn't broken.\nGain +3 Poise Count. Starting from turn 2, gain 2 Paralyze and 2 Damage Down this turn if the Fluorescence Part is broken."
+      "name": "Respirare Sott'Acqua",
+      "desc": "A partire dal turno 2, ottiene 8 [Breath] se la parte Fluorente non è rotta.\nOttiene +3 Conteggio [Breath]. A partire dal turno 2, ottiene 2 [Paralysis] e 2 [AttackDmgDown] se la parte Fluorente è rotta."
     },
     {
       "id": 810203,
-      "name": "Siltcurrent",
-      "desc": "Starting from turn 2, all Identities without [AaCePcBb] are inflicted with 1 Bind and 1 Paralyze; Identities without [AaCePcBb] lose 3 PS."
+      "name": "Corrente Torrita",
+      "desc": "A partire dal turno 2, ogni nemico con [AaCePcBb] ottiene 1 [Binding] e 1 [Paralysis]; I nemici senza [AaCePcBb] perdono 3 PS."
     },
     {
       "id": 810801,
-      "name": "Harden",
-      "desc": "Can be damaged only with damages equal to or higher than 12.\nAll damage under 12 is nullified."
+      "name": "Indurire",
+      "desc": "Ogni danno subito inferiore a 12 viene annullato."
     },
     {
       "id": 810802,
-      "name": "Rolling Flotsam",
-      "desc": "After the Dream-devouring Siltcurrent uses Blind Obsession, and if this unit is not destroyed at Turn End, deal 20 damage to a random Identity."
+      "name": "Relitto che Rotola",
+      "desc": "Quando la Corrente Torbida Divorasogni usa Ossessione[TabExplain] Cieca: Se questa unità non è distrutta a fine turno, infligge 20 danni su un nemico casuale."
     },
     {
       "id": 810803,
-      "name": "Destroyed Flotsam",
-      "desc": "PV does not drop below 1 upon defeat.\nTurns into a Destroyed Flotsam."
+      "name": "Relitto Distrutto",
+      "desc": "I PV non scendono sotto 1 quando viene sconfitto.\nDiventa un Relitto Distrutto."
     },
     {
       "id": 810301,
-      "name": "Captain's Orders",
-      "desc": "Turn Start: If not at -45 PS, heal (# of surviving other allies x 5) PS.\nTurn Start: If at -45 PS, recover from panic at Turn End and reset PS to 0."
+      "name": "Gli Ordini del Capitano",
+      "desc": "A inizio turno, se non è a -45 PS, recupera (# di altri alleati in vita x 5) PS.\nA inizio turno, se a -45 PS, si riprende dal Panico a fine turno e porta i PS a 0."
     },
     {
       "id": 810302,
-      "name": "Mutilated Tattoos",
-      "desc": "Every time a Pequod Town faction ally is defeated, lose 1 Poise Count and 10 PS."
+      "name": "Tatuaggi Mutilati",
+      "desc": "Ogni volta che un nemico di Pequod Town è sconfitto, perde 1 Conteggio [Breath] e 10 PS."
     },
     {
       "id": 810303,
-      "name": "The Indomitable Harpooneer",
-      "desc": "The lower this unit's PV gets, the more damage this unit's Skills deal."
+      "name": "L'Arpioniera Indomita",
+      "desc": "Più bassi sono i PV di questa unità, più danno infligge con le sue Abilità."
     },
     {
       "id": 810304,
-      "name": "Injected Hatred and Animosity",
+      "name": "Infuso di Odio e Ostilità",
       "desc": "Turn End: If 50%- of max PV, move on to Phase 2.\nThis unit's PV does not drop below 1 before Phase 2 start.\nPhase 2 Start: Heal PV to 50% of max PV and summon 4 allies. Inflict [AaCePcBj] against 1 enemy with the lowest PV percentage at the start of every turn."
     },
     {
       "id": 810305,
-      "name": "Engraved Hatred and Animosity",
-      "desc": "At 1 PV, heal up to 50% of max PV and gain 2 Attack Power Up next turn. (Once per encounter)"
+      "name": "Odio e Ostilità Scolpiti",
+      "desc": "A 1 PV, recupera PV fino al 50% dei PV max e ottiene 2 [Enhancement] nel turno successivo (una volta per Incontro)"
     },
     {
       "id": 810306,
-      "name": "Clouded Mind",
-      "desc": "When Staggered and when at less than 0 PS at Turn End, reset PS to 0."
+      "name": "Mente Annebbiata",
+      "desc": "A fine turno, se è Stordito e se ha meno di 0 PS, riporta i PS a 0."
     },
     {
       "id": 810401,
-      "name": "Engraved Hatred and Animosity",
-      "desc": "Turn End: At 50- PV, gain 2 Haste and 2 Attack Power Up next turn. (once per encounter)"
+      "name": "Odio e Ostilità Scolpiti",
+      "desc": "A fine turno: A 50 o meno PV, ottiene 2 [Agility] e 2 [Enhancement] nel turno successivo (una volta per Incontro)"
     },
     {
       "id": 810402,
-      "name": "Puncturing Harpoon",
-      "desc": "On Critical Hit, inflict 1 additional negative effect with Skill effects."
+      "name": "Forare con l'Arpione",
+      "desc": "Sul Colpo Critico, infligge 1 effetto negativo in più con le sue Abilità."
     },
     {
       "id": 810501,
-      "name": "Captain of the Pequod",
-      "desc": "Turn Start: If not at -45 PS, heal 15 PS.\nTurn End: If panicked, recover from panic. Reset PS to 0."
+      "name": "Capitano Della Pequod",
+      "desc": "A inizio turno, se non ha -45 PS, recupera 15 PS.\nA fine turno, se in Panico, si riprende dal Panico. Riporta i PS a 0."
     },
     {
       "id": 810503,
-      "name": "Muddled Orders",
-      "desc": "When this unit is Staggered, and when all other allies are at less than 0 PS at Turn End, reset their PS to 0."
+      "name": "Ordini Confusi",
+      "desc": "Se questa unità è Stordita, e se tutti gli altri alleati hanno 0 PS a fine turno, riporta i loro PS a 0."
     },
     {
       "id": 810504,
-      "name": "Coldhearted Decision",
-      "desc": "Phase 2 Start: Fully heal PV; Queequeg and Starbuck no longer activate Captain's Orders Passive. Also, Queequeg no longer gets Staggered even when her Assist Defense Shield value reaches 0."
+      "name": "Decisione a Sangue Freddo",
+      "desc": "All'inizio della fase 2: Recupera tutti i PV; Queequeg e Starbuck non attivano la passiva 'Gli Ordini del Capitano' e Queequeg non può più essere Stordita."
     },
     {
       "id": 810601,
       "name": "Ahab",
-      "desc": "Turn Start: If not at -45 PS, heal 15 PS.\nTurn End: If panicked, recover from panic. Reset PS to 0 and gain 2 Attack Power Up and 2 Defense Power Up."
+      "desc": "A inizio turno, se non ha -45 PS, recupera 15 PS.\nA fine turno, se in Panico, si riprende dal Panico. Riporta i PS a 0 e ottiene 2 [Enhancement] e 2 [Endurance]."
     },
     {
       "id": 810602,
-      "name": "Pip's Sin and Innocence",
-      "desc": "Phase Start: Gain 20 Pip's Ego.\nTurn End: Heal 3 PS for every Pip's Ego.\nTurn End: If [AaCePcBo] is at 0, get Staggered next turn."
+      "name": "Il Peccato e l'Innocenza di Pip",
+      "desc": "A inizio turno, ottiene 20 [AaCePcBo].\nA fine turno, recupera 3 PS per ogni [AaCePcBo].\nA fine turno, se ha 0 [AaCePcBo], viene Stordita nel turno successivo."
     },
     {
       "id": 810603,
-      "name": "Starbuck's Fears",
-      "desc": "Phase Start: Gain 20 Starbuck's Ego.\nLose 1 [AaCePcBp] for every Coin destroyed in Clash against targets with [AaCePcBj].\nTurn Start: Gain 1 Protection for every 5 Starbuck's Ego.\nTurn End: If [AaCePcBp] is at 0, get Staggered next turn."
+      "name": "Le Paure di Starbuck",
+      "desc": "All'inizio di questa fase, ottiene 20 [AaCePcBp].\nPerde 1 [AaCePcBp] per ogni Moneta distrutta in uno Scontro contro i bersagli con [AaCePcBj].\nA inizio turno, ottiene 1 [Protection] per ogni 5 [AaCePcBp].\nA fine turno, se ha 0 [AaCePcBp], viene Stordita nel turno successivo."
     },
     {
       "id": 810604,
-      "name": "Puncturing Harpoon",
-      "desc": "During this Phase, on Critical Hit, inflict 1 additional negative effect with Skill effects."
+      "name": "Forare con l'Arpione",
+      "desc": "Durante questa fase, Sul Colpo Critico, infligge 1 effetto negativo in più con le sue Abilità."
     },
     {
       "id": 810605,
       "name": "Queequeg's Atonement",
-      "desc": "Phase Start: Gain 30 Queequeg's Ego.\nTurn End: If this unit still has remaining Shield, regain 5 Queequeg's Ego. If this unit does not have remaining Shield, lose 10 [AaCePcBq].\nTurn End: If [AaCePcBq] is at 0, get Staggered next turn."
+      "desc": "All'inizio di questa fase, ottiene 30 [Ego di Queequeg].\nA fine turno, se c'è ancora dello Scudo su questa unità, ottiene 5 [Ego di Queequeg]. Se invece non rimane Scudo, perde 10 [AaCePcBq].\nA fine turno, se ha 0 [AaCePcBq], viene Stordita nel turno successivo."
     },
     {
       "id": 810606,
-      "name": "The Indomitable Harpooneer",
-      "desc": "The lower this unit's PV gets, the more damage this unit deals with its Skills.\nDeal 1% more PV for every 0.75% missing PV on self\n(Max 100%. Maxes out when this unit is at 25% PV)"
+      "name": "L'Arpioniera Indomita",
+      "desc": "Più bassi sono i PV di questa unità, più danno infligge con le sue Abilità.\ninfligge 1% dei danni in più per ogni 0.75% dei PV mancanti su di sé\n(Max 100%.)"
     },
     {
       "id": 810607,
-      "name": "Price of Nobility",
-      "desc": "Gain Offense Level and Defense Level every time this unit gains other characters' Ego\nLose PS when losing certain Skill Clashes"
+      "name": "Prezzo della Nobiltà",
+      "desc": "Ottiene Livello Offensivo e Livello Difensivo ogni volta che riceve l'Ego di un altro Personaggio\nPerde PS quando alcune Abilità perdono lo Scontro"
     },
     {
       "id": 814101,
-      "name": "The All-Illuminating Light",
-      "desc": "If every Candle is snuffed and at full PV, gain resistance until all Candles are lit again.\nWhen all Candles are lit, lose resistance."
+      "name": "La Luce Onnipresente",
+      "desc": "Se ogni Candela è spenta, ottiene Resistenza finché le Candele non vengono accese.\nQuando le Candele vengono accese, perde Resistenza."
     },
     {
       "id": 814102,
-      "name": "Darkness Deterred",
-      "desc": "Light all Candles every 4 turns after a Candle is snuffed. All Candles' PV is reduced to 1."
+      "name": "Oscurità Allontanata",
+      "desc": "Ogni Candela viene accesa dopo 4 turni. I PV di ogni Candela è ridotto a 1."
     },
     {
       "id": 813601,
-      "name": "Burning Embers",
-      "desc": "PV does not drop below 1.\nAt 1 PV, light the Candles and uses an Attack Skill."
+      "name": "Tizzoni Ardenti",
+      "desc": "I PV non scendono sotto 1.\nA 1 PV, accende le Candele e usa un'Abilità Attacco."
     },
     {
       "id": 813602,
-      "name": "Sinking Darkness",
-      "desc": "When all Candles are lit, use a Defensive Skill.\nSnuff out the Candles next turn when out of Shield."
+      "name": "Oscurità Affogante",
+      "desc": "Quando ogni Candela è accesa, usa un'Abilità Difensiva.\nSe lo Scudo viene distrutto, ogni Candela viene spenta nel turno successivo."
     },
     {
       "id": 813701,
-      "name": "Exposed Pearl",
-      "desc": "Turn Start: If at 0 Green Slime, become Staggered. Pearl loses all Affinity Resistances by 0.5.\nGain 10 Green Slime when recovering from Stagger."
+      "name": "Perla Esposta",
+      "desc": "A inizio turno: A 0 [AaCePcBh], viene Stordita. La parte Perla perde 0.5 di ogni Resistenza.\nQuando si riprende dallo Stordimento, ottiene 10 [AaCePcBh]."
     },
     {
       "id": 813702,
-      "name": "Cracked Shell",
-      "desc": "At 10% Core PV, gains a new pattern."
+      "name": "Guscio Frantumato",
+      "desc": "A 10% PV del Nucleo, ottiene un nuovo pattern."
     },
     {
       "id": 813703,
-      "name": "Solid Shell",
-      "desc": "The Shell Part retains its resistances even during Staggered state."
+      "name": "Guscio Solido",
+      "desc": "La parte Guscio mantiene le sue resistenze anche quando è Stordita."
     },
     {
       "id": 813704,
-      "name": "Gathering Slime",
-      "desc": "Fix this Part's speed to 1 for a turn when using Devouring Fluid."
+      "name": "Raccogliere Slime",
+      "desc": "Quando usa l'Abilità 'Fluido Divorante', fissa la Velocità di questa unità a 1."
     },
     {
       "id": 813801,
-      "name": "Green Slime",
-      "desc": "Apply 3 Green Slime to Ambling Pearl when defeated by Ambling Pearl."
+      "name": "Muco Verde",
+      "desc": "Se viene sconfitto da Perla Vagante, applica 3 [AaCePcBh] su Perla Vagante."
     },
     {
       "id": 813802,
-      "name": "Contaminating Slime",
-      "desc": "Turn End: Apply (2 + Surviving Green Slime) Poison to all enemies."
+      "name": "Slime Contaminante",
+      "desc": "A fine turno, applica (2 + Slime Verde) [Poison] su ogni nemico."
     },
     {
       "id": 813901,
-      "name": "Expanding Oxygen",
-      "desc": "When the Fluorescence Part is broken, inflict [AaCePcBb] on all enemies.\nFluorescence Part regenerates after 2 turns."
+      "name": "Espansione dell'Ossigeno",
+      "desc": "Quando la parte Fluorente è rotta, infligge [AaCePcBb] su ogni nemico.\nLa parte Fluorente si rigenera dopo 2 turni."
     },
     {
       "id": 813902,
-      "name": "Underwater Breathing",
-      "desc": "Starting from turn 2, gain 8 Poise this turn if the Fluorescence Part isn't broken.\nGain +3 Poise Count. Starting from turn 2, gain 2 Paralyze and 2 Damage Down this turn if the Fluorescence Part is broken."
+      "name": "Respirare Sott'Acqua",
+      "desc": "A partire dal turno 2, ottiene 8 [Breath] se la parte Fluorente non è rotta.\nOttiene +3 Conteggio [Breath]. A partire dal turno 2, ottiene 2 [Paralysis] e 2 [AttackDmgDown] se la parte Fluorente è rotta."
     },
     {
       "id": 813903,
-      "name": "Siltcurrent",
-      "desc": "Starting from turn 2, all Identities without [AaCePcBb] are inflicted with 1 Bind and 1 Paralyze; Identities without [AaCePcBb] lose 3 PS."
+      "name": "Corrente Torrita",
+      "desc": "A partire dal turno 2, ogni nemico con [AaCePcBb] ottiene 1 [Binding] e 1 [Paralysis]; I nemici senza [AaCePcBb] perdono 3 PS."
     },
     {
       "id": 814001,
-      "name": "Harden",
-      "desc": "Can be damaged only with damages equal to or higher than 12.\nAll damage under 12 is nullified."
+      "name": "Indurire",
+      "desc": "Ogni danno subito inferiore a 12 viene annullato."
     },
     {
       "id": 814002,
-      "name": "Rolling Flotsam",
-      "desc": "After the Dream-devouring Siltcurrent uses Blind Obsession, and if this unit is not destroyed at Turn End, deal 20 damage to a random Identity."
+      "name": "Relitto che Rotola",
+      "desc": "Quando la Corrente Torbida Divorasogni usa Ossessione[TabExplain] Cieca: Se questa unità non è distrutta a fine turno, infligge 20 danni su un nemico casuale."
     },
     {
       "id": 814003,
-      "name": "Destroyed Flotsam",
-      "desc": "PV does not drop below 1 upon defeat.\nTurns into a Destroyed Flotsam."
+      "name": "Relitto Distrutto",
+      "desc": "I PV non scendono sotto 1 quando viene sconfitto.\nDiventa un Relitto Distrutto."
     }
   ]
 }
