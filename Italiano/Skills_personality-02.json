@@ -343,7 +343,7 @@
         {
           "level": 3,
           "name": "Violenza Scatenata",
-          "desc": "[StartBattle] Consuma 5 Conteggio [Vibration] su di sé e ottiene +1 Portata Attacco per questa Abilità (max +2)\n[DefeatDuel] Perde 20 PS\nInfligge +3% danno per ogni tipo di effetto negativo sul bersaglio (max 15%)\n[EnemyKill] Ottiene +2 Conteggio [Vibration]",
+          "desc": "[StartBattle] Consuma 5 Conteggio [Vibration] su di sé e ottiene +1 Portata Attacco per questa Abilità (max +2)\n[DefeatDuel] Perde 20 PS\nInfligge +3% danni per ogni tipo di effetto negativo sul bersaglio (max 15%)\n[EnemyKill] Ottiene +2 Conteggio [Vibration]",
           "coinlist": [
             {
               "coindescs": [
@@ -371,7 +371,7 @@
         {
           "level": 4,
           "name": "Violenza Scatenata",
-          "desc": "[StartBattle] Consuma 5 Conteggio [Vibration] su di sé e ottiene +1 Portata Attacco per questa Abilità (max +2)\n[DefeatDuel] Perde 20 PS\nInfligge +6% danno per ogni tipo di effetto negativo sul bersaglio (max 30%)\n[EnemyKill] Ottiene +2 Conteggio [Vibration]",
+          "desc": "[StartBattle] Consuma 5 Conteggio [Vibration] su di sé e ottiene +1 Portata Attacco per questa Abilità (max +2)\n[DefeatDuel] Perde 20 PS\nInfligge +6% danni per ogni tipo di effetto negativo sul bersaglio (max 30%)\n[EnemyKill] Ottiene +2 Conteggio [Vibration]",
           "coinlist": [
             {
               "coindescs": [
@@ -519,7 +519,7 @@
                   "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Breath]"
                 },
                 {
-                  "desc": "Infligge +30% danno sul Colpo Critico"
+                  "desc": "Infligge +30% danni sul Colpo Critico"
                 }
               ]
             },
@@ -546,7 +546,7 @@
                   "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Breath]"
                 },
                 {
-                  "desc": "Infligge +30% danno sul Colpo Critico"
+                  "desc": "Infligge +30% danni sul Colpo Critico"
                 }
               ]
             },
@@ -2641,7 +2641,7 @@
         {
           "level": 1,
           "name": "Preparativi Per La Mostra",
-          "desc": "[CanDuelGuard]\nAbilità esclusiva a [IronMaidenPersonality]\n[WinDuel] Infligge +1 Conteggio [Laceration] sull'attaccante (2 volte per turno)\n[WinDuel] Infligge danno Perforante pari alla Potenza [Laceration] sull'attaccante (danno max: 20)",
+          "desc": "[CanDuelGuard]\nAbilità esclusiva a [IronMaidenPersonality]\n[WinDuel] Infligge +1 Conteggio [Laceration] sull'attaccante (2 volte per turno)\n[WinDuel] Infligge danno Perforante pari alla Potenza [Laceration] sull'attaccante (danni max: 20)",
           "coinlist": [
             {
               "coindescs": [
@@ -2655,7 +2655,7 @@
         {
           "level": 4,
           "name": "Preparativi Per La Mostra",
-          "desc": "[CanDuelGuard]\nAbilità esclusiva a [IronMaidenPersonality]\n[WinDuel] Infligge +2 Conteggio [Laceration] sull'attaccante (2 volte per turno)\n[WinDuel] Infligge danno Perforante pari a <style=\"highlight\">(Potenza [Laceration] sull'attaccante x 2)</style> (danno max: <style=\"highlight\">30</style>)",
+          "desc": "[CanDuelGuard]\nAbilità esclusiva a [IronMaidenPersonality]\n[WinDuel] Infligge +2 Conteggio [Laceration] sull'attaccante (2 volte per turno)\n[WinDuel] Infligge danno Perforante pari a <style=\"highlight\">(Potenza [Laceration] sull'attaccante x 2)</style> (danni max: <style=\"highlight\">30</style>)",
           "coinlist": [
             {
               "coindescs": [
@@ -2875,7 +2875,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Infligge +5% danno per ogni tipo di effetto negativo sul bersaglio (max 30%)"
+                  "desc": "Infligge +5% danni per ogni tipo di effetto negativo sul bersaglio (max 30%)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
@@ -2919,7 +2919,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Infligge +5% danno per ogni tipo di effetto negativo sul bersaglio (max 30%)"
+                  "desc": "Infligge +5% danni per ogni tipo di effetto negativo sul bersaglio (max 30%)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
@@ -2997,20 +2997,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Flash of Sunup",
-          "desc": "[WhenUse] Clash Power +1 for every 10 [StigmaWorkshopCelloCaseOne] (max 2)\n[WhenUse] At 20+ [StigmaWorkshopCelloCaseOne], Reuse the final Coin once",
+          "name": "Lampo dell'Alba",
+          "desc": "[WhenUse] Potere Scontro +1 per ogni 10 [StigmaWorkshopCelloCaseOne] (max 2)\n[WhenUse] A 20+ [StigmaWorkshopCelloCaseOne], Riusa la Moneta Finale una volta",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration]"
                 }
               ]
             }
@@ -3018,20 +3018,20 @@
         },
         {
           "level": 2,
-          "name": "Flash of Sunup",
-          "desc": "<style=\"highlight\">[WhenUse] Final Power +1 for every 4 ([Combustion] + [Vibration]) on target (max 2)</style>\n[WhenUse] Clash Power +1 for every 10 [StigmaWorkshopCelloCaseOne] (max 2)\n[WhenUse] At 20+ [StigmaWorkshopCelloCaseOne], Reuse the final Coin once",
+          "name": "Lampo dell'Alba",
+          "desc": "<style=\"highlight\">[WhenUse] Potere Finale +1 per ogni 4 ([Combustion] + [Vibration]) sul bersaglio (max 2)</style>\n[WhenUse] Potere Scontro +1 per ogni 10 [StigmaWorkshopCelloCaseOne] (max 2)\n[WhenUse] A 20+ [StigmaWorkshopCelloCaseOne], Riusa la Moneta Finale una volta",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3039,20 +3039,20 @@
         },
         {
           "level": 4,
-          "name": "Flash of Sunup",
-          "desc": "[WhenUse] Final Power +1 for every 4 ([Combustion] + [Vibration]) on target (max <style=\"highlight\">3</style>)\n<style=\"highlight\">[WhenUse] Gain 4 [StigmaWorkshopCelloCaseOne]</style>\n[WhenUse] Clash Power +1 for every 10 [StigmaWorkshopCelloCaseOne] (max <style=\"highlight\">3</style>)\n[WhenUse] At 20+ [StigmaWorkshopCelloCaseOne], Reuse the final Coin once",
+          "name": "Lampo dell'Alba",
+          "desc": "[WhenUse] Potere Finale +1 per ogni 4 ([Combustion] + [Vibration]) sul bersaglio (max <style=\"highlight\">3</style>)\n<style=\"highlight\">[WhenUse] Ottiene 4 [StigmaWorkshopCelloCaseOne]</style>\n[WhenUse] Potere Scontro +1 per ogni 10 [StigmaWorkshopCelloCaseOne] (max <style=\"highlight\">3</style>)\n[WhenUse] A 20+ [StigmaWorkshopCelloCaseOne], Riusa la Moneta Finale una volta",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion] and <style=\"highlight\">+1 [Combustion] Count</style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion] e <style=\"highlight\">+1 Conteggio [Combustion]</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3065,20 +3065,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Butterfly Slash",
-          "desc": "[WhenUse] For every 10 [StigmaWorkshopCelloCaseOne], gain the following effects:\n- Clash Power +1 (max 2)\n- Reuse the final Coin once (2 times per Skill)",
+          "name": "Colpo della Farfalla",
+          "desc": "[WhenUse] Per ogni 10 [StigmaWorkshopCelloCaseOne], ottiene i seguenti effetti:\n- Potere Scontro +1 (max 2)\n- Riusa la Moneta Finale una volta (2 volte per Abilità)",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration]"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[ReUseOnSucceedAttack] Infligge 1 [Combustion]"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1 (once per Skill)"
+                  "desc": "[ReUseOnSucceedAttack] Innesca [VibrationExplosion], poi riduce il Conteggio [Vibration] del bersaglio di 1 (una volta per Abilità)"
                 }
               ]
             }
@@ -3086,26 +3086,26 @@
         },
         {
           "level": 2,
-          "name": "Butterfly Slash",
-          "desc": "<style=\"highlight\">[WhenUse] Final Power +1 for every 4 ([Combustion] + [Vibration]) on target (max 2)\n[WhenUse] Gain 3 [StigmaWorkshopCelloCaseOne]</style>\n[WhenUse] For every 10 [StigmaWorkshopCelloCaseOne], gain the following effects:\n- Clash Power +1 (max 2)\n- Reuse the final Coin once (2 times per Skill)",
+          "name": "Colpo della Farfalla",
+          "desc": "<style=\"highlight\">[WhenUse] Potere Finale +1 per ogni 4 ([Combustion] + [Vibration]) sul bersaglio (max 2)\n[WhenUse] Ottiene 3 [StigmaWorkshopCelloCaseOne]</style>\n[WhenUse] Per ogni 10 [StigmaWorkshopCelloCaseOne], ottiene i seguenti effetti:\n- Potere Scontro +1 (max 2)\n- Riusa la Moneta Finale una volta (2 volte per Abilità)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] At 10+ [StigmaWorkshopCelloCaseOne], gain the following effects:\n- Inflict +1 [Combustion] Count\n- Inflict +1 [Vibration] Count</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] A 10+ [StigmaWorkshopCelloCaseOne], ottiene i seguenti effetti:\n- Infligge +1 Conteggio [Combustion]\n- Infligge +1 Conteggio [Vibration]</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Inflict 1 [Combustion]<style=\"highlight\"></style>"
+                  "desc": "[ReUseOnSucceedAttack] Infligge 1 [Combustion]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1 (once per Skill)<style=\"highlight\"></style>"
+                  "desc": "[ReUseOnSucceedAttack] Innesca [VibrationExplosion], poi riduce il Conteggio [Vibration] del bersaglio di 1 (una volta per Abilità)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3113,26 +3113,26 @@
         },
         {
           "level": 4,
-          "name": "Butterfly Slash",
-          "desc": "[WhenUse] Final Power +1 for every 4 ([Combustion] + [Vibration]) on target (max <style=\"highlight\">3</style>)\n[WhenUse] Gain <style=\"highlight\">6</style> [StigmaWorkshopCelloCaseOne]\n[WhenUse] For every 10 [StigmaWorkshopCelloCaseOne], gain the following effects:\n- Clash Power +1 (max <style=\"highlight\">3</style>)\n- Reuse the final Coin once (2 times per Skill)",
+          "name": "Colpo della Farfalla",
+          "desc": "[WhenUse] Potere Finale +1 per ogni 4 ([Combustion] + [Vibration]) sul bersaglio (max <style=\"highlight\">3</style>)\n[WhenUse] Ottiene <style=\"highlight\">6</style> [StigmaWorkshopCelloCaseOne]\n[WhenUse] Per ogni 10 [StigmaWorkshopCelloCaseOne], ottiene i seguenti effetti:\n- Potere Scontro +1 (max <style=\"highlight\">3</style>)\n- Riusa la Moneta Finale una volta (2 volte per Abilità)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <style=\"highlight\">For every 10 [StigmaWorkshopCelloCaseOne], gain the following effects:\n- Inflict +1 [Combustion] Count (max 2)\n- Inflict +1 [Vibration] Count (max 2)</style>"
+                  "desc": "[OnSucceedAttack] <style=\"highlight\">Per ogni 10 [StigmaWorkshopCelloCaseOne], ottiene i seguenti effetti:\n- Infligge +1 Conteggio [Combustion] (max 2)\n- Infligge +1 Conteggio [Vibration] (max 2)</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Inflict 1 [Combustion]<style=\"highlight\"></style>"
+                  "desc": "[ReUseOnSucceedAttack] Infligge 1 [Combustion]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1 (once per Skill)<style=\"highlight\"></style>"
+                  "desc": "[ReUseOnSucceedAttack] Innesca [VibrationExplosion], poi riduce il Conteggio [Vibration] del bersaglio di 1 (una volta per Abilità)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3145,30 +3145,30 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Eject",
-          "desc": "[BeforeUse] At 30 [StigmaWorkshopCelloCaseOne], activate \"Eject - High Noon[TabExplain]\" instead (once per turn)\n[WhenUse] If target has 6+ ([Combustion] + [Vibration]), Coin Power +1\n[WhenUse] Gain 5 [StigmaWorkshopCelloCaseOne]\n[WhenUse] For every 10 [StigmaWorkshopCelloCaseOne], gain the following effects:\n- Clash Power +1 (max 2)\n- Inflict +1 [Combustion] Count (max 2)\n- Inflict +1 [Vibration] Count (max 2)\n- Reuse the final Coin once (2 times per Skill)",
+          "name": "Espulsione",
+          "desc": "[BeforeUse] A 30 [StigmaWorkshopCelloCaseOne], usa invece \"Espulsione -  Mezzogiorno[TabExplain]\" (una volta per turno)\n[WhenUse] Se il bersaglio ha 6+ ([Combustion] + [Vibration]), Potere Moneta +1\n[WhenUse] Ottiene 5 [StigmaWorkshopCelloCaseOne]\n[WhenUse] Per ogni 10 [StigmaWorkshopCelloCaseOne], ottiene i seguenti effetti:\n- Potere Scontro +1 (max 2)\n- Infligge +1 Conteggio [Combustion] (max 2)\n- Infligge +1 Conteggio [Vibration] (max 2)\n- Riusa la Moneta Finale una volta (2 volte per Abilità)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationIgnition]"
+                  "desc": "[OnSucceedAttack] Trasforma [Switch_Vibration] in [VibrationIgnition]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1 (2 times per Skill)"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce il Conteggio [Vibration] del bersaglio di 1 (2 volte per Abilità)"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[ReUseOnSucceedAttack] Infligge 1 [Combustion]"
                 }
               ]
             }
@@ -3176,30 +3176,30 @@
         },
         {
           "level": 4,
-          "name": "Eject",
-          "desc": "[BeforeUse] At 30 [StigmaWorkshopCelloCaseOne], activate \"Eject - High Noon[TabExplain]\" instead (once per turn)\n[WhenUse] <style=\"highlight\">Coin Power +1 for every 6 ([Combustion] + [Vibration]) on target (max 2)</style>\n[WhenUse] Gain <style=\"highlight\">8</style> [StigmaWorkshopCelloCaseOne]\n[WhenUse] For every 10 [StigmaWorkshopCelloCaseOne], gain the following effects:\n- Clash Power +1 (max <style=\"highlight\">3</style>)\n- Inflict +1 [Combustion] Count (max <style=\"highlight\">3</style>)\n- Inflict +1 [Vibration] Count (max <style=\"highlight\">3</style>)\n- Reuse the final Coin once (2 times per Skill)",
+          "name": "Espulsione",
+          "desc": "[BeforeUse] A 30 [StigmaWorkshopCelloCaseOne], usa invece \"Espulsione -  Mezzogiorno[TabExplain]\" (una volta per turno)\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 6 ([Combustion] + [Vibration]) sul bersaglio (max 2)</style>\n[WhenUse] Ottiene <style=\"highlight\">8</style> [StigmaWorkshopCelloCaseOne]\n[WhenUse] Per ogni 10 [StigmaWorkshopCelloCaseOne], ottiene i seguenti effetti:\n- Potere Scontro +1 (max <style=\"highlight\">3</style>)\n- Infligge +1 Conteggio [Combustion] (max <style=\"highlight\">3</style>)\n- Infligge +1 Conteggio [Vibration] (max <style=\"highlight\">3</style>)\n- Riusa la Moneta Finale una volta (2 volte per Abilità)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">3</style> [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">3</style> [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationIgnition]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Trasforma [Switch_Vibration] in [VibrationIgnition]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1 (<style=\"highlight\">3</style> times per Skill)"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce il Conteggio [Vibration] del bersaglio di 1 (<style=\"highlight\">3</style> volte per Abilità)"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Inflict 1 [Combustion]<style=\"highlight\"></style>"
+                  "desc": "[ReUseOnSucceedAttack] Infligge 1 [Combustion]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3212,20 +3212,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Stigmatize",
-          "desc": "[DuelCounter]\n[WhenUse] At 5+ [Combustion], Coin Power +1\n[WhenUse] Lose 5 [Combustion] (once per turn)\n[WinDuel] Lose 3 [Combustion] (once per turn)",
+          "name": "Stigmatizza",
+          "desc": "[DuelCounter]\n[WhenUse] A 5+ [Combustion], Potere Moneta +1\n[WhenUse] Perde 5 [Combustion] (una volta per turno)\n[WinDuel] Perde 3 [Combustion] (una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion] (2 times per turn)"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion] (2 volte per turno)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration] (2 times per turn)"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration] (2 volte per turno)"
                 }
               ]
             }
@@ -3233,20 +3233,20 @@
         },
         {
           "level": 3,
-          "name": "Stigmatize",
-          "desc": "[DuelCounter]\n<style=\"highlight\">[BeforeUse] At 30 [StigmaWorkshopCelloCaseOne], activate \"Dismemberment at High Noon[TabExplain]\" instead (once per turn)\n- If this unit has [CaseOverheating], the effect above does not activate\n[WhenUse] At 5+ [Combustion], Coin Power +1</style>\n[WhenUse] Lose 5 [Combustion] (once per turn)\n[WinDuel] Lose 3 [Combustion] (once per turn)",
+          "name": "Stigmatizza",
+          "desc": "[DuelCounter]\n<style=\"highlight\">[BeforeUse] A 30 [StigmaWorkshopCelloCaseOne], usa invece \"Squartamento a Mezzogiorno[TabExplain]\" (una volta per turno)\n- Se questa unità ha [CaseOverheating], l'effetto sovracitato non si attiva\n[WhenUse] A 5+ [Combustion], Potere Moneta +1</style>\n[WhenUse] Perde 5 [Combustion] (una volta per turno)\n[WinDuel] Perde 3 [Combustion] (una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion] (2 times per turn)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion] (2 volte per turno)<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration] (2 times per turn)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration] (2 volte per turno)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3254,20 +3254,20 @@
         },
         {
           "level": 4,
-          "name": "Stigmatize",
-          "desc": "[DuelCounter]\n<style=\"highlight\">[StartBattle] Gain 6 [StigmaWorkshopCelloCaseOne] (once per Encounter)</style>\n[BeforeUse] At 30 [StigmaWorkshopCelloCaseOne], activate \"Dismemberment at High Noon[TabExplain]\" instead (once per turn)\n- If this unit has [CaseOverheating], the effect above does not activate\n[WhenUse] <style=\"highlight\">Coin Power +1 for every 5 [Combustion] on self (max 2)</style>\n[WhenUse] Lose 5 [Combustion] (once per turn)\n[WinDuel] Lose 3 [Combustion] (once per turn)",
+          "name": "Stigmatizza",
+          "desc": "[DuelCounter]\n<style=\"highlight\">[StartBattle] Ottiene 6 [StigmaWorkshopCelloCaseOne] (una volta per Incontro)</style>\n[BeforeUse] A 30 [StigmaWorkshopCelloCaseOne], usa invece \"Squartamento a Mezzogiorno[TabExplain]\" (una volta per turno)\n- Se questa unità ha [CaseOverheating], l'effetto sovracitato non si attiva\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 5 [Combustion] su di sé (max 2)</style>\n[WhenUse] Perde 5 [Combustion] (una volta per turno)\n[WinDuel] Perde 3 [Combustion] (una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion] (2 times per turn)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion] (2 volte per turno)<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration] (2 times per turn)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration] (2 volte per turno)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3280,20 +3280,20 @@
       "levelList": [
         {
           "level": 2,
-          "name": "Seconded Offensive",
+          "name": "Attacco Sostenuto",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Vibration] Count (2 times per turn)"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration] (2 volte per turno)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count (2 times per turn)"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion] (2 volte per turno)"
                 }
               ]
             }
@@ -3301,20 +3301,20 @@
         },
         {
           "level": 3,
-          "name": "Seconded Offensive",
-          "desc": "<style=\"highlight\">[WhenUse] Deal +1% damage for every [StigmaWorkshopCelloCaseOne] on self (max 30%)</style>",
+          "name": "Attacco Sostenuto",
+          "desc": "<style=\"highlight\">[WhenUse] Infligge +1% danni per ogni Stack di [StigmaWorkshopCelloCaseOne] su di sé (max 30%)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Vibration] Count (2 times per turn)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration] (2 volte per turno)<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count (2 times per turn)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion] (2 volte per turno)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3322,20 +3322,20 @@
         },
         {
           "level": 4,
-          "name": "Seconded Offensive",
-          "desc": "<style=\"highlight\">[WhenUse] Gain the following effects based on [StigmaWorkshopCelloCaseOne] Stack:\n- Deal +2% damage for every Stack (max 60%)\n- Final Power +1 for every 10 Stacks (max 3)</style>",
+          "name": "Attacco Sostenuto",
+          "desc": "<style=\"highlight\">[WhenUse] Applica i seguenti effetti in base alle Stack di [StigmaWorkshopCelloCaseOne]:\n- Infligge +2% danni per ogni Stack (max 60%)\n- Potere Finale +1 per ogni 10 Stacks (max 3)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Vibration] Count (2 times per turn)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration] (2 volte per turno)<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count (2 times per turn)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion] (2 volte per turno)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3348,8 +3348,8 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Eject - High Noon",
-          "desc": "[WideAreaRampage]\nActivate the following effects on target with every hit of this Skill:\n- Inflict 1 [Combustion] or 1 [Vibration]\n- If target has no [VibrationIgnition], trigger [Switch_Vibration] into [VibrationIgnition] (once per target)\n[WhenUse]\n- Clash Power +3\n- If the main target has 6+ ([Combustion] + [Vibration]), Coin Power +1 and Clash Power +2\n- Inflict +2 [Combustion] Count on all targets\n- Inflict +2 [Vibration] Count on all targets\n[EndSkill]\n- Inflict 1 [ResultReduction] next turn on all targets hit (once per turn)\n- Gain 1 [Firstlight]\n- Gain 1 [CaseOverheating]",
+          "name": "Espulsione - Mezzogiorno",
+          "desc": "[WideAreaRampage]\nAttiva i seguenti effetti sul bersaglio con ogni colpo di questa Abilità:\n- Infligge 1 [Combustion] o 1 [Vibration]\n- Se il bersaglio non ha [VibrationIgnition], trasforma [Switch_Vibration] in [VibrationIgnition] (una volta per bersaglio)\n[WhenUse]\n- Potere Scontro +3\n- Se il bersaglio principale ha 6+ ([Combustion] + [Vibration]), Potere Moneta +1 e Potere Scontro +2\n- Infligge +2 Conteggio [Combustion] su tutti i bersagli\n- Infligge +2 Conteggio [Vibration] su tutti i bersagli\n[EndSkill]\n- Infligge 1 [ResultReduction] il turno successivo colpendo tutti gli avversari (una volta per turno)\n- Ottiene 1 [Firstlight]\n- Ottiene 1 [CaseOverheating]",
           "coinlist": [
             {
               "coindescs": [
@@ -3371,10 +3371,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Reuse this Coin (max 2 times)"
+                  "desc": "Riusa questa Moneta (max 2 volte)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1 (2 times per Skill)"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce il Conteggio [Vibration] del bersaglio di 1 (2 volte per Abilità)"
                 }
               ]
             }
@@ -3382,8 +3382,8 @@
         },
         {
           "level": 4,
-          "name": "Eject - High Noon",
-          "desc": "[WideAreaRampage]\n<style=\"highlight\">Deal +([Combustion] on self + [Combustion] on target)% damage (max 20%, counted per target)</style>\nActivate the following effects on target with every hit of this Skill:\n- Inflict 1 [Combustion] or 1 [Vibration]\n- If target has no [VibrationIgnition], trigger [Switch_Vibration] into [VibrationIgnition] (once per target)\n[WhenUse]\n- Clash Power +3\n<style=\"highlight\">- Coin Power +1 and Clash Power +2 for every 6 ([Combustion] + [Vibration]) on the main target (max 2 and 4 respectively)</style>\n- Inflict +<style=\"highlight\">3</style> [Combustion] Count on all targets\n- Inflict +<style=\"highlight\">3</style> [Vibration] Count on all targets\n[EndSkill]\n- Inflict 1 [ResultReduction] next turn on all targets hit (once per turn)\n- Gain 1 [Firstlight]\n- Gain 1 [CaseOverheating]",
+          "name": "Espulsione - Mezzogiorno",
+          "desc": "[WideAreaRampage]\n<style=\"highlight\">Infligge +([Combustion] su di sé + [Combustion] sul bersaglio)% danni (max 20%, contato per bersaglio)</style>\nApplica i seguenti effetti sul bersaglio con ogni colpo di questa Abilità:\n- Infligge 1 [Combustion] o 1 [Vibration]\n- Se il bersaglio non ha [VibrationIgnition], trasforma [Switch_Vibration] in [VibrationIgnition] (una volta per bersaglio)\n[WhenUse]\n- Potere Scontro +3\n<style=\"highlight\">- Potere Moneta +1 e Potere Scontro +2 per ogni 6 ([Combustion] + [Vibration]) sul bersaglio principale (rispettivamente, max 2 e 4)</style>\n- Infligge +<style=\"highlight\">3</style> Conteggio [Combustion] su tutti i bersagli\n- Infligge +<style=\"highlight\">3</style> Conteggio [Vibration] su tutti i bersagli\n[EndSkill]\n- Infligge 1 [ResultReduction] il turno successivo colpendo tutti gli avversari (una volta per turno)\n- Ottiene 1 [Firstlight]\n- Ottiene 1 [CaseOverheating]",
           "coinlist": [
             {
               "coindescs": [
@@ -3405,13 +3405,13 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "Reuse this Coin (max 2 times)<style=\"highlight\"></style>"
+                  "desc": "Riusa questa Moneta (max 2 volte)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">If this unit has [Firstlight], deal +([Combustion] Potency on target / 2)% damage (max 20%)</style>"
+                  "desc": "<style=\"highlight\">Se questa unità ha [Firstlight], infligge +(Potenza [Combustion] sul bersaglio / 2)% danni (max 20%)</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1 (<style=\"highlight\">3</style> times per Skill)"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce il Conteggio [Vibration] del bersaglio di 1 (<style=\"highlight\">3</style> volte per Abilità)"
                 }
               ]
             }
@@ -3424,8 +3424,8 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Dismemberment at High Noon",
-          "desc": "[WideAreaRampage]\nDeal +(missing HP percentage on self / 2)% damage (max 25%)\nActivate the following effects on target with every hit of this Skill:\n- Inflict 1 [Combustion] or 1 [Vibration]\n- If target does not have [VibrationIgnition], trigger [Switch_Vibration] into [VibrationIgnition] (once per target)\n[WhenUse]\n- Clash Power +3\n- If the main target has 6+ ([Combustion] + [Vibration]), Coin Power +1 and Clash Power +2\n- Inflict +2 [Combustion] Count on all targets\n- Inflict +2 [Vibration] Count on all targets\n[EndSkill]\n- Consume up to 30 [Combustion] on self and heal (5 + [Combustion] consumed)% HP (max 35%)\n- Consume all [StigmaWorkshopCelloCaseOne] on self\n- Gain 3 [Firstlight]",
+          "name": "Squartamento a Mezzogiorno",
+          "desc": "[WideAreaRampage]\nInfligge +(percentuale PV mancanti su di sé / 2)% damage (max 25%)\nAttiva i seguenti effetti sul bersaglio con ogni colpo di questa Abilità:\n- Infligge 1 [Combustion] o 1 [Vibration]\n- Se il bersaglio non ha [VibrationIgnition], trasforma [Switch_Vibration] in [VibrationIgnition] (una volta per bersaglio)\n[WhenUse]\n- Potere Scontro +3\n- Se il bersaglio principale ha 6+ ([Combustion] + [Vibration]), Potere Moneta +1 e Potere Scontro +2\n- Infligge +2 Conteggio [Combustion] su tutti i bersagli\n- Infligge +2 Conteggio [Vibration]su tutti i bersagli\n[EndSkill]\n- Usa fino a 30 [Combustion] su di sé e recupera (5 + [Combustion] usata)% PV (max 35%)\n- Usa tutte le Stack di [StigmaWorkshopCelloCaseOne] su di sé\n- Ottiene 3 [Firstlight]",
           "coinlist": [
             {
               "coindescs": [
@@ -3447,10 +3447,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Reuse this Coin (max 2 times)"
+                  "desc": "Riusa questa Moneta (max 2 volte)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1 (2 times per Skill)"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce il Conteggio [Vibration] del bersaglio di 1 (2 volte per Abilità)"
                 }
               ]
             }
@@ -3458,8 +3458,8 @@
         },
         {
           "level": 4,
-          "name": "Dismemberment at High Noon",
-          "desc": "[WideAreaRampage]\nDeal +(<style=\"highlight\">missing HP percentage on self</style>)% damage (max <style=\"highlight\">50%</style>)\n<style=\"highlight\">Deal +([Combustion] Potency on target)% damage (max 20%, counted per target)</style>\nActivate the following effects on target with every hit of this Skill:\n- Inflict 1 [Combustion] or 1 [Vibration]\n- If target does not have [VibrationIgnition], trigger [Switch_Vibration] into [VibrationIgnition] (once per target)\n[WhenUse]\n- Clash Power +3\n- <style=\"highlight\">Coin Power +1 and Clash Power +2 for every 6 ([Combustion] + [Vibration]) on the main target (max 2 and 4 respectively)</style>\n- Inflict +<style=\"highlight\">3</style> [Combustion] Count on all targets\n- Inflict +<style=\"highlight\">3</style> [Vibration] Count on all targets\n[EndSkill]\n- Consume up to 30 [Combustion] on self and heal (<style=\"highlight\">20</style> + [Combustion] consumed)% HP (max <style=\"highlight\">50%</style>)\n- Consume all [StigmaWorkshopCelloCaseOne] on self\n- Gain 3 [Firstlight]",
+          "name": "Squartamento a Mezzogiorno",
+          "desc": "[WideAreaRampage]\nInfligge +(<style=\"highlight\">percentuale PV mancanti su di sé</style>)% danni (max <style=\"highlight\">50%</style>)\n<style=\"highlight\">Infligge +(Potenza [Combustion] sul bersaglio)% danni (max 20%, contato per bersaglio)</style>\nAttiva i seguenti effetti sul bersaglio con ogni colpo di questa Abilità:\n- Infligge 1 [Combustion] o 1 [Vibration]\n- Se il bersaglio non ha [VibrationIgnition], trasforma [Switch_Vibration] in [VibrationIgnition] (una volta per bersaglio)\n[WhenUse]\n- Potere Scontro +3\n- <style=\"highlight\">Potere Moneta +1 e Potere Scontro +2 per ogni 6 ([Combustion] + [Vibration]) sul bersaglio principale (rispettivamente, max 2 e 4)</style>\n- Infligge +<style=\"highlight\">3</style> Conteggio [Combustion] su tutti i bersagli\n- Infligge +<style=\"highlight\">3</style> Conteggio [Vibration] su tutti i bersagli\n[EndSkill]\n- Usa fino a 30 [Combustion] su di sé e recupera (<style=\"highlight\">20</style> + [Combustion] usata)% PV (max <style=\"highlight\">50%</style>)\n- Usa tutte le Stack di [StigmaWorkshopCelloCaseOne] su di sé\n- Ottiene 3 [Firstlight]",
           "coinlist": [
             {
               "coindescs": [
@@ -3481,13 +3481,13 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "Reuse this Coin (max 2 times)<style=\"highlight\"></style>"
+                  "desc": "Riusa questa Moneta (max 2 volte)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">If this unit has [Firstlight], deal +([Combustion] Potency on target)% damage (max 20%)</style>"
+                  "desc": "<style=\"highlight\">Se questa unità ha [Firstlight], infligge +(Potenza [Combustion] sul bersaglio)% danno (max 20%)</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1 (<style=\"highlight\">3</style> times per Skill)"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce il Conteggio [Vibration] del bersaglio di 1 (<style=\"highlight\">3</style> volte per Abilità)"
                 }
               ]
             }
