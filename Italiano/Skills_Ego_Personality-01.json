@@ -728,9 +728,9 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Solemn Lament",
-          "abName": "Funeral of the Dead Butterflies",
-          "desc": "[WideAreaRampage]\nWhen inflicting [SinkingWhite] using this Skill's effects: (Chance to flip Heads)% chance to inflict The Departed. If this unit did not inflict The Departed, inflict The Living instead. (calculates every [SinkingWhite] Stack independently)\n\nIf Lobotomy E.G.O::Solemn Lament Yi Sang used this Skill:\n- [BeforeAttack] Gain a random assortment of (Gloom Reson. + 1) [BulletLament] (max 7)\n- [EndSkill] [ReloadLament]",
+          "name": "Lamento Solenne",
+          "abName": "Funerale delle Farfalle Morte",
+          "desc": "[WideAreaRampage]\nQuando infligge [SinkingWhite] usando gli effetti di questa Abilità: (Probabilità di lanciare Testa)% di probabilità di infliggere I Defunti. Se questa unità non ha inflitto I Defunti, infligge invece I Vivi (calcola ogni Stack di [SinkingWhite] indipendentemente)\n\nSe E.G.O della Lobotomy::Lamento Solenne Yi Sang ha usato questa Abilità:\n- [BeforeAttack] Ottiene una quantità casuale di (Rison. Tristezza + 1) [BulletLament] (max 7)\n- [EndSkill] [ReloadLament]",
           "coinlist": [
             {
               "coindescs": [
@@ -738,7 +738,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 random [SinkingWhite]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [SinkingWhite] casuale"
                 }
               ]
             },
@@ -748,7 +748,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 random [SinkingWhite]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [SinkingWhite] casuale"
                 }
               ]
             },
@@ -758,7 +758,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 random [SinkingWhite]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [SinkingWhite] casuale"
                 }
               ]
             },
@@ -768,7 +768,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 random [SinkingWhite]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [SinkingWhite] casuale"
                 }
               ]
             },
@@ -778,22 +778,22 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Spend all [BulletLament] on self"
+                  "desc": "Usa tutti [BulletLament] su di sé"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [SinkingWhite](The Living)"
+                  "desc": "[OnSucceedAttack] Infligge 2 [SinkingWhite](I Vivi)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [SinkingWhite](The Departed)"
+                  "desc": "[OnSucceedAttack] Infligge 2 [SinkingWhite](I Defunti)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce il Conteggio [Vibration] del bersaglio di 1"
                 }
               ]
             }
@@ -801,9 +801,9 @@
         },
         {
           "level": 3,
-          "name": "Solemn Lament",
-          "abName": "Funeral of the Dead Butterflies",
-          "desc": "[WideAreaRampage]\nWhen inflicting [SinkingWhite] using this Skill's effects: (Chance to flip Heads)% chance to inflict The Departed. If this unit did not inflict The Departed, inflict The Living instead. (calculates every [SinkingWhite] Stack independently)\n\nIf Lobotomy E.G.O::Solemn Lament Yi Sang used this Skill:\n- [BeforeAttack] Gain a random assortment of (Gloom Reson. + 1) [BulletLament] (max 7)\n- [EndSkill] [ReloadLament]",
+          "name": "Lamento Solenne",
+          "abName": "Funerale delle Farfalle Morte",
+          "desc": "[WideAreaRampage]\nQuando infligge [SinkingWhite] usando gli effetti di questa Abilità: (Probabilità di lanciare Testa)% di probabilità di infliggere I Defunti. Se questa unità non ha inflitto I Defunti, infligge invece I Vivi (calcola ogni Stack di [SinkingWhite] indipendentemente)\n\nSe E.G.O della Lobotomy::Lamento Solenne Yi Sang ha usato questa Abilità:\n- [BeforeAttack] Ottiene una quantità casuale di (Rison. Tristezza + 1) [BulletLament] (max 7)\n- [EndSkill] [ReloadLament]",
           "coinlist": [
             {
               "coindescs": [
@@ -821,7 +821,7 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 random [SinkingWhite]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [SinkingWhite] casuale<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -831,7 +831,7 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 random [SinkingWhite]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [SinkingWhite] casuale<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -841,7 +841,7 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 random [SinkingWhite]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 3 [SinkingWhite] casuale<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -851,28 +851,28 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "Spend all [BulletLament] on self<style=\"highlight\"></style>"
+                  "desc": "Usa tutti [BulletLament] su di sé<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Sinking]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Vibration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Vibration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [SinkingWhite](The Living)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [SinkingWhite](The Living)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [SinkingWhite](The Departed)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [SinkingWhite](The Departed)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce il Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Deal Gloom damage equal to the sum of both [SinkingWhite] on target</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge danno Tristezza pari alla somma di entrambi [SinkingWhite] sul bersaglio</style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Deal Gloom damage equal to ([BulletLament] spent by this Coin x 2)% of this Coin's final damage</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge danno Tristezza pari a ([BulletLament] usati da questa Moneta x 2)% del danno finale di questa Moneta</style>"
                 }
               ]
             }
@@ -880,9 +880,9 @@
         },
         {
           "level": 4,
-          "name": "Solemn Lament",
-          "abName": "Funeral of the Dead Butterflies",
-          "desc": "[WideAreaRampage]\nWhen inflicting [SinkingWhite] using this Skill's effects: (Chance to flip Heads)% chance to inflict The Departed. If this unit did not inflict The Departed, inflict The Living instead. (calculates every [SinkingWhite] Stack independently)\n<style=\"highlight\">Clash Power +1 for every 4 ([Sinking] + both [SinkingWhite]) on the main target (max 4)</style>\n\nIf Lobotomy E.G.O::Solemn Lament Yi Sang used this Skill:\n- [BeforeAttack] Gain a random assortment of (Gloom Reson. + 1) [BulletLament] (max 7)\n- [EndSkill] [ReloadLament]",
+          "name": "Lamento Solenne",
+          "abName": "Funerale delle Farfalle Morte",
+          "desc": "[WideAreaRampage]\nQuando infligge [SinkingWhite] usando gli effetti di questa Abilità: (Probabilità di lanciare Testa)% di probabilità di infliggere I Defunti. Se questa unità non ha inflitto I Defunti, infligge invece I Vivi (calcola ogni Stack di [SinkingWhite] indipendentemente)\n<style=\"highlight\">Potere Scontro +1 per ogni 4 ([Sinking] + entrambe le [SinkingWhite]) sul bersaglio principale (max 4)</style>\n\nSe E.G.O della Lobotomy::Lamento Solenne Yi Sang ha usato questa Abilità:\n- [BeforeAttack] Ottiene una quantità casuale di (Rison. Tristezza + 1) [BulletLament] (max 7)\n- [EndSkill] [ReloadLament]",
           "coinlist": [
             {
               "coindescs": [
@@ -890,10 +890,10 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 random [SinkingWhite]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [SinkingWhite] casuale<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict +1 [Sinking] Count</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge +1 Conteggio [Sinking]</style>"
                 }
               ]
             },
@@ -903,10 +903,10 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 random [SinkingWhite]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [SinkingWhite] casuale<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict +1 [Sinking] Count</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge +1 Conteggio [Sinking]</style>"
                 }
               ]
             },
@@ -916,10 +916,10 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 random [SinkingWhite]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [SinkingWhite] casuale<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict +1 [Sinking] Count</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge +1 Conteggio [Sinking]</style>"
                 }
               ]
             },
@@ -929,13 +929,13 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 random [SinkingWhite]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 3 [SinkingWhite] casuale<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict +1 [Sinking] Count</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge +1 [Sinking] Count</style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [AzureTakeDamageUp] and 1 [AzureResistDown], this turn and next turn</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge 1 [AzureTakeDamageUp] e 1 [AzureResistDown] questo turno e il successivo</style>"
                 }
               ]
             },
@@ -945,19 +945,19 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "Spend all [BulletLament] on self<style=\"highlight\"></style>"
+                  "desc": "Usa tutti [BulletLament] su di sé<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Sinking]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Vibration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Vibration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [SinkingWhite](The Living)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [SinkingWhite](I Vivi)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [SinkingWhite](The Departed)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [SinkingWhite](I Defunti)<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
@@ -979,8 +979,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Solemn Lament",
-          "abName": "Funeral of the Dead Butterflies",
+          "name": "Lamento Solenne",
+          "abName": "Funerale delle Farfalle Morte",
           "desc": "[CantIdentify]\nTargets randomly\n[BeforeAttack] Gain +(highest Reson. / 2) Atk Weight (max 2, rounded down)\n[BeforeAttack] Base Power -2 for every Cracked Coin (max -6)",
           "coinlist": [
             {
@@ -1023,8 +1023,8 @@
         },
         {
           "level": 3,
-          "name": "Solemn Lament",
-          "abName": "Funeral of the Dead Butterflies",
+          "name": "Lamento Solenne",
+          "abName": "Funerale delle Farfalle Morte",
           "desc": "[CantIdentify]\nTargets randomly\n[BeforeAttack] Gain +(highest Reson. / 2) Atk Weight (max 2, rounded down)\n[BeforeAttack] Base Power -2 for every Cracked Coin (max -6)",
           "coinlist": [
             {
@@ -1070,8 +1070,8 @@
         },
         {
           "level": 4,
-          "name": "Solemn Lament",
-          "abName": "Funeral of the Dead Butterflies",
+          "name": "Lamento Solenne",
+          "abName": "Funerale delle Farfalle Morte",
           "desc": "[CantIdentify]\nTargets randomly\n<style=\"highlight\">Clash Power +1 for every 4 ([Sinking] + both [SinkingWhite]) on the main target (max 4)</style>\n[BeforeAttack] Gain +(highest Reson. / 2) Atk Weight (max 2, rounded down)\n[BeforeAttack] Base Power -2 for every Cracked Coin (max -6)",
           "coinlist": [
             {
