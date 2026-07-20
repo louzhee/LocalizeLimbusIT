@@ -5,20 +5,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Ironsteed Trample",
-          "desc": "[WhenUse] If target has 6+ ([Burst] + [Vibration]), Base Power +3\n[DefeatDuel] Reduce target's [Vibration] Potency by 2",
+          "name": "Pestamento del Destrieroferreo",
+          "desc": "[WhenUse] Se il bersaglio ha 6+ ([Burst] + [Vibration]), Potere Base +3\n[DefeatDuel] Riduce la Potenza [Vibration] sul bersaglio di 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
                 }
               ]
             }
@@ -31,34 +31,34 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Rupturing Trample",
-          "desc": "[WhenUse] Base Power +2 for every 4 ([Burst] + [Vibration]) on target (max 4)",
+          "name": "Pestamento Lacerante",
+          "desc": "[WhenUse] Potere Base +2 per ogni 4 ([Burst] + [Vibration]) sul bersaglio (max 4)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]"
                 }
               ]
             }
@@ -71,13 +71,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Line-Crushing Cavalry Charge",
-          "desc": "[WhenUse] If target has 6+ ([Burst] + [Vibration]), Base Power +2\n[WhenUse] At -30 or lower SP, this unit's Coins always flip Tails\n[DefeatDuel] Reduce target's [Vibration] Potency by 2",
+          "name": "Carica Spezza-Linea della Cavalleria",
+          "desc": "[WhenUse] Se il bersaglio ha 6+ ([Burst] + [Vibration]), Potere Base +2\n[WhenUse] A -30 o meno SP, le Monete di questa unità cadranno sempre su Croce\n[DefeatDuel] Riduce la Potenza [Vibration] sul bersaglio di 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 8 [Burst] and +5 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge 8 [Burst] e +5 Conteggio [Burst]"
                 }
               ]
             }
@@ -90,33 +90,33 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Trample and Decapitate",
-          "desc": "[WhenUse] Base Power +2 for every 4 ([Burst] + [Vibration]) on target (max 4)\n- At 15+ ([Burst] + [Vibration]) on target, Minus Coin Power +1",
+          "name": "Calpesta e Decapita",
+          "desc": "[WhenUse] Potere Base +2 per ogni 4 ([Burst] + [Vibration]) sul bersaglio (max 4)\n- A 15+ ([Burst] + [Vibration]) sul bersaglio, Potere Moneta Negativa +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] sul bersaglio di 1"
                 }
               ]
             }
@@ -129,8 +129,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Filthy snakes... I'll crush you all...",
-          "desc": "[WhenUse] Base Power +2 for every 4 ([Burst] + [Vibration]) on the main target (max 4)\n[DefeatDuel] Base Power -8\n[DefeatDuel] Deal -80% damage and damage dealt by this Skill cannot Stagger the target",
+          "name": "Vili serpenti... Vi abbatterò tutti...",
+          "desc": "[WhenUse] Potere Base +2 per ogni 4 ([Burst] + [Vibration]) sul bersaglio principale (max 4)\n[DefeatDuel] Potere Base -8\n[DefeatDuel] Infligge -80% danni; Il danno inflitto da quest'Abilità non può Stordire il bersaglio",
           "coinlist": [
             {
               "coindescs": [
@@ -138,7 +138,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 2 [Burst]"
                 }
               ]
             },
@@ -148,7 +148,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 2 [Vibration]"
                 }
               ]
             },
@@ -158,7 +158,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 2 [Burst]"
                 }
               ]
             },
@@ -168,10 +168,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] sul bersaglio di 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [SweptAwayWei] against sub-targets next turn"
+                  "desc": "[OnSucceedAttack] Infligge [SweptAwayWei] su ogni bersaglio secondario nel turno successivo"
                 }
               ]
             }
@@ -184,8 +184,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Swiftsteed Linebreaker",
-          "desc": "[WhenUse] Base Power +2 for every 4 ([Burst] + [Vibration]) on the main target (max 6)\n[DefeatDuel] Base Power -5\n[DefeatDuel] Deal -80% damage and damage dealt by this Skill cannot Stagger the target",
+          "name": "Spezza-Linea del Destrierorapido",
+          "desc": "[WhenUse] Potere Base +2 per ogni 4 ([Burst] + [Vibration]) sul bersaglio principale (max 6)\n[DefeatDuel] Potere Base -5\n[DefeatDuel] Infligge -80% danni; Il danno inflitto da quest'Abilità non può Stordire il bersaglio",
           "coinlist": [
             {
               "coindescs": [
@@ -193,10 +193,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If it's the main target, inflict +5 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge +5 [Vibration] sul bersaglio principale"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [Vibration] against 1 sub-target"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [Vibration] su 1 bersaglio secondario"
                 }
               ]
             },
@@ -206,10 +206,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] sul bersaglio di 1"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict [SweptAwayWei] against sub-targets next turn"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge [SweptAwayWei] su ogni bersaglio secondario nel turno successivo"
                 }
               ]
             }
@@ -222,8 +222,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "You Shall Not Pass...!",
-          "desc": "Prioritizes the target with the least [Vibration] Potency\n[WhenUse] If target does not have [Vibration], Base Power -5\n[BeforeAttack] If target does not have [Vibration], deal -90% damage\n[DefeatDuel] Base Power -4\n[DefeatDuel] Damage dealt by this Skill cannot Stagger the target",
+          "name": "Non Ti Farò Passare...!",
+          "desc": "Dà priorità al bersaglio con meno Potenza [Vibration]\n[WhenUse] Se il bersaglio non ha [Vibration], Potere Base -5\n[BeforeAttack] Se il bersaglio non ha [Vibration], infligge -90% danni\n[DefeatDuel] Potere Base -4\n[DefeatDuel] Il danno inflitto da quest'Abilità non può Stordire il bersaglio",
           "coinlist": [
             {
               "coindescs": [
@@ -231,7 +231,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] sul bersaglio di 1"
                 }
               ]
             },
@@ -241,7 +241,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] sul bersaglio di 1"
                 }
               ]
             },
@@ -251,7 +251,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] sul bersaglio di 1"
                 }
               ]
             },
@@ -261,7 +261,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] sul bersaglio di 1"
                 }
               ]
             }
@@ -274,8 +274,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Mad Steed's Voidrender",
-          "desc": "Deal +1% damage for every 1% missing HP on self (max 80%)\n[BeforeAttack] At 50% or less HP, gain +2 more Atk Weight\n[BeforeAttack] If this unit does not have [LegStrengthHorse], this Skill deals +120% damage; then, gain 2 [Vulnerable] next turn\n[DefeatDuel] Base Power -12\n[DefeatDuel] Deal -80% damage and damage dealt by this Skill cannot Stagger the target",
+          "name": "Laceravuoto del Destriero Pazzo",
+          "desc": "Infligge +1% danni per ogni 1% dei PV mancanti su di sé (max 80%)\n[BeforeAttack] A 50% o meno PV, Portata Attacco +2\n[BeforeAttack] Se questa unità non ha [LegStrengthHorse], infligge +120% danni; ottiene poi 2 [Vulnerable] nel turno successivo\n[DefeatDuel] Potere Base -12\n[DefeatDuel] Infligge -80% danni; Il danno inflitto da quest'Abilità non può Stordire il bersaglio",
           "coinlist": [
             {
               "coindescs": [
@@ -283,10 +283,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Burst]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 5 [Burst] and +5 [Burst] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 5 [Burst] e +5 Conteggio [Burst]"
                 }
               ]
             },
@@ -296,10 +296,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Vibration]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 5 [Vibration] and +5 [Vibration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 5 [Vibration] e +5 Conteggio [Vibration]"
                 }
               ]
             },
@@ -309,7 +309,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] sul bersaglio di 1"
                 }
               ]
             },
@@ -319,10 +319,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] sul bersaglio di 1"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1."
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] sul bersaglio di 1."
                 }
               ]
             }
@@ -336,19 +336,19 @@
         {
           "level": 1,
           "name": "Frontal Swirl (前旋斬)",
-          "desc": "[WhenUse] Coin Power +1 for every 5 [Laceration] on target (max 2)\n[WhenUse] Gain 1 [SipOfAlcoholJin]",
+          "desc": "[WhenUse] Coin Power +1 per ogni 5 [Laceration] sul bersaglio (max 2)\n[WhenUse] Ottiene 1 [SipOfAlcoholJin]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             }
@@ -362,22 +362,22 @@
         {
           "level": 1,
           "name": "Way of the Open-throat Chugging (咽道酒)",
-          "desc": "[WhenUse] Coin Power +1 for every 5 [Laceration] on target (max 2)\n[WhenUse] Gain 1 [SipOfAlcoholJin]",
+          "desc": "[WhenUse] Coin Power +1 per ogni 5 [Laceration] sul bersaglio (max 2)\n[WhenUse] Ottiene 1 [SipOfAlcoholJin]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has 5+ [Laceration], inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 5+ [Laceration], infligge +2 Conteggio [Laceration]"
                 }
               ]
             }
@@ -391,7 +391,7 @@
         {
           "level": 1,
           "name": "Waterfall (落酒)",
-          "desc": "[WhenUse] If target has 5+ [Laceration], Coin Power +1\n[WhenUse] Base Power +1 for every [DrunkBlood] Count on target (max 2)\n[WinDuel] Gain 1 [SipOfAlcoholJin]\n[DefeatDuel] Lose 2 [SipOfAlcoholJin]",
+          "desc": "[WhenUse] Se il bersaglio ha 5+ [Laceration], Coin Power +1\n[WhenUse] Potere Base +1 per ogni [DrunkBlood] Count sul bersaglio (max 2)\n[WinDuel] Ottiene 1 [SipOfAlcoholJin]\n[DefeatDuel] Lose 2 [SipOfAlcoholJin]",
           "coinlist": [
             {
               "coindescs": [
@@ -399,7 +399,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 }
               ]
             },
@@ -409,7 +409,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 }
               ]
             },
@@ -419,10 +419,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +3 [Laceration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +3 Conteggio [Laceration]"
                 }
               ]
             }
@@ -436,26 +436,26 @@
         {
           "level": 1,
           "name": "Drunklaim (取)",
-          "desc": "[WhenUse] Coin Power +1 for every 5 [Laceration] on target (max 2)\n[WhenUse] Base Power +1 for every [DrunkBlood] on target (max 2)\n[WhenUse] At 3+ [SipOfAlcoholJin], convert all Coins to [SuperCoin]s\n[DefeatDuel] Deal -80% damage and damage dealt by this Skill cannot Stagger the target",
+          "desc": "[WhenUse] Coin Power +1 per ogni 5 [Laceration] sul bersaglio (max 2)\n[WhenUse] Potere Base +1 per ogni [DrunkBlood] sul bersaglio (max 2)\n[WhenUse] At 3+ [SipOfAlcoholJin], convert all Coins to [SuperCoin]s\n[DefeatDuel] Infligge -80% danni; Il danno inflitto da quest'Abilità non può Stordire il bersaglio",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +1% damage for every ([Laceration] + [Laceration] Count) on the target (max 20%)"
+                  "desc": "Deal +1% damage per ogni (Potenza + Conteggio [Laceration]) on the target (max 20%)"
                 },
                 {
                   "desc": "[OnSucceedAttack] If this unit has 3+ [SipOfAlcoholJin], reuse this Skill once (once per Skill)"
@@ -472,21 +472,21 @@
         {
           "level": 1,
           "name": "True Decapitation Deathblow (眞鎭終斬)",
-          "desc": "[WhenUse] Coin Power +5 for every 6 [Laceration] on target (max 10)\n[WhenUse] If target has [DrunkBlood], convert all Coins to [SuperCoin]s\n[DefeatDuel] Deal -80% damage and damage dealt by this Skill cannot Stagger the target",
+          "desc": "[WhenUse] Coin Power +5 per ogni 6 [Laceration] sul bersaglio (max 10)\n[WhenUse] Se il bersaglio ha [DrunkBlood], convert all Coins to [SuperCoin]s\n[DefeatDuel] Infligge -80% danni; Il danno inflitto da quest'Abilità non può Stordire il bersaglio",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Deal +1% damage for every ([Laceration] + [Laceration] Count) on the target (max 100%)"
+                  "desc": "Deal +1% damage per ogni (Potenza + Conteggio [Laceration]) on the target (max 100%)"
                 },
                 {
-                  "desc": "Deal +10% damage for every [DrunkBlood] on target (max 50%)"
+                  "desc": "Deal +10% damage per ogni [DrunkBlood] sul bersaglio (max 50%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 [SipOfAlcoholJin]"
+                  "desc": "[OnSucceedAttack] Ottiene 2 [SipOfAlcoholJin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal ([DrunkBlood] on target x 5) Lust damage (max 25)"
+                  "desc": "[OnSucceedAttack] Deal ([DrunkBlood] sul bersaglio x 5) Lust damage (max 25)"
                 }
               ]
             }
@@ -500,7 +500,7 @@
         {
           "level": 1,
           "name": "Intoxicated Leaning (醉靠)",
-          "desc": "[WhenUse] Gain 10 Shield for every [SipOfAlcoholJin] on self (max 50)\n[WhenUse] If target has [DrunkBlood], inflict 5 [Laceration]",
+          "desc": "[WhenUse] Ottiene 10 Shield per ogni [SipOfAlcoholJin] on self (max 50)\n[WhenUse] Se il bersaglio ha [DrunkBlood], infligge 5 [Laceration]",
           "coinlist": [
             {}
           ]
@@ -513,19 +513,19 @@
         {
           "level": 1,
           "name": "Drunken Returning Strike (醉回攻)",
-          "desc": "[DuelCounter]\n[WhenUse] Deal +20% damage for every [SipOfAlcoholJin] on self (max 100%)\n[WhenUse] If target has [DrunkBlood], deal +50% damage",
+          "desc": "[DuelCounter]\n[WhenUse] Deal +20% damage per ogni [SipOfAlcoholJin] on self (max 100%)\n[WhenUse] Se il bersaglio ha [DrunkBlood], deal +50% damage",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [SlashResistDown] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 2 [SlashResistDown] nel turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal ([DrunkBlood] on target x 5) Lust damage (max 25)"
+                  "desc": "[OnSucceedAttack] Deal ([DrunkBlood] sul bersaglio x 5) Lust damage (max 25)"
                 }
               ]
             }
@@ -539,7 +539,7 @@
         {
           "level": 1,
           "name": "Ultimate True Decapitation Deathblow (眞-眞鎭終斬)",
-          "desc": "Prioritizes Jia Xichun\n[CantChangeTarget]\n[WhenUse] If this unit's Speed is faster than the target's, Coin Power +1\n[WhenUse] Gain 1 [AttackUp] and 1 [Agility] next turn for every [SipOfAlcoholJin] on self (max 3)\n[WinDuel] Gain +7 Atk Weight",
+          "desc": "Prioritizes Jia Xichun\n[CantChangeTarget]\n[WhenUse] If this unit's Speed is faster than the target's, Coin Power +1\n[WhenUse] Ottiene 1 [AttackUp] and 1 [Agility] nel turno successivo per ogni [SipOfAlcoholJin] on self (max 3)\n[WinDuel] Ottiene +7 Atk Weight",
           "coinlist": [
             {
               "coindescs": [
@@ -547,16 +547,16 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Deal +1% damage for every ([Laceration] + [Laceration] Count) on the target (max 100%)"
+                  "desc": "Deal +1% damage per ogni (Potenza + Conteggio [Laceration]) on the target (max 100%)"
                 },
                 {
-                  "desc": "Deal +10% damage for every [DrunkBlood] on target (max 50%)"
+                  "desc": "Deal +10% damage per ogni [DrunkBlood] sul bersaglio (max 50%)"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 10 [Laceration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 10 [Laceration]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal ([DrunkBlood] on target x 10) Lust damage (max 50)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal ([DrunkBlood] sul bersaglio x 10) Lust damage (max 50)"
                 }
               ]
             }
@@ -570,7 +570,7 @@
         {
           "level": 1,
           "name": "Drunken Decapitation Bladefall (落醉斬)",
-          "desc": "[WhenUse] Base Power +1 for every 5 [Breath] on self (max 2)\n[WhenUse] If this unit's Speed is faster than the target's, Coin Power +1",
+          "desc": "[WhenUse] Potere Base +1 per ogni 5 [Breath] on self (max 2)\n[WhenUse] If this unit's Speed is faster than the target's, Coin Power +1",
           "coinlist": [
             {
               "coindescs": [
@@ -592,7 +592,7 @@
         {
           "level": 1,
           "name": "Drunken Shadowwalking (醉影步)",
-          "desc": "[WhenUse] Base Power +6 for every 2 surviving ally (max 12)\n[OnSucceedEvade] Gain 3 [Breath]\n[EndBattle] Gain +2 [Breath] Count",
+          "desc": "[WhenUse] Potere Base +6 per ogni 2 surviving ally (max 12)\n[OnSucceedEvade] Ottiene 3 [Breath]\n[EndBattle] Ottiene +2 [Breath] Count",
           "coinlist": [
             {
               "coindescs": [
@@ -611,7 +611,7 @@
         {
           "level": 1,
           "name": "True Decapitation Deathblow",
-          "desc": "[StartBattle] HP does not drop below 1 before this Skill ends.\n[WhenUse] Gain 10 [AttackUp]\n[WhenUse] Gain 5 [Enhancement]\n[WhenUse] Gain 10 [AttackDmgUp]\n[DefeatDuel] Deal -80% damage and damage dealt by this Skill cannot Stagger the target",
+          "desc": "[StartBattle] HP does not drop below 1 before this Skill ends.\n[WhenUse] Ottiene 10 [AttackUp]\n[WhenUse] Ottiene 5 [Enhancement]\n[WhenUse] Ottiene 10 [AttackDmgUp]\n[DefeatDuel] Infligge -80% danni; Il danno inflitto da quest'Abilità non può Stordire il bersaglio",
           "coinlist": [
             {
               "coindescs": [
@@ -619,10 +619,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Deal +1% damage for every ([Laceration] + [Laceration] Count) on the target (max 100%)"
+                  "desc": "Deal +1% damage per ogni (Potenza + Conteggio [Laceration]) on the target (max 100%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 5 [SipOfAlcohol]"
+                  "desc": "[OnSucceedAttack] Ottiene 5 [SipOfAlcohol]"
                 }
               ]
             }
@@ -641,7 +641,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 }
               ]
             }
@@ -688,26 +688,26 @@
         {
           "level": 1,
           "name": "Powerful Swing",
-          "desc": "[WinDuel] Gain 1 [Enhancement]",
+          "desc": "[WinDuel] Ottiene 1 [Enhancement]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttackHead] Infligge 1 [Burst]"
                 }
               ]
             }
@@ -720,7 +720,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Counter",
+          "name": "Contrattacco",
           "desc": "",
           "coinlist": [
             {
@@ -739,8 +739,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Growth",
-          "desc": "[DefeatDuel] Deal -80% damage and damage dealt by this Skill cannot Stagger the target",
+          "name": "Crescita",
+          "desc": "[DefeatDuel] Infligge -80% danni; Il danno inflitto da quest'Abilità non può Stordire il bersaglio",
           "coinlist": [
             {
               "coindescs": [
@@ -748,7 +748,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +2 [Burst] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +2 Conteggio [Burst]"
                 }
               ]
             },
@@ -758,7 +758,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [Burst]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [Burst]"
                 }
               ]
             },
@@ -768,7 +768,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +3 [Burst] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +3 Conteggio [Burst]"
                 }
               ]
             },
@@ -802,7 +802,7 @@
         {
           "level": 1,
           "name": "Spirit Talisman School - Vilerage",
-          "desc": "[WhenUse] Final Power +1 for every 4 [Burst] on target (max 4)\n[DefeatDuel] Deal -50% damage and damage dealt by this Skill cannot Stagger the target",
+          "desc": "[WhenUse] Final Power +1 per ogni 4 [Burst] sul bersaglio (max 4)\n[DefeatDuel] Deal -50% damage and damage dealt by this Skill cannot Stagger the target",
           "coinlist": [
             {
               "coindescs": [
@@ -810,10 +810,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 10 [OminousTalisman]"
+                  "desc": "[OnSucceedAttack] Infligge 10 [OminousTalisman]"
                 }
               ]
             },
@@ -823,10 +823,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 10 [OminousTalisman]"
+                  "desc": "[OnSucceedAttack] Infligge 10 [OminousTalisman]"
                 }
               ]
             },
@@ -836,7 +836,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Remove all [OminousTalisman] on target"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Rimuove ogni [OminousTalisman] sul bersaglio"
                 }
               ]
             }
@@ -855,14 +855,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
                 }
               ]
             }
@@ -882,7 +882,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vulnerable] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vulnerable] nel turno successivo"
                 }
               ]
             }
@@ -896,7 +896,7 @@
         {
           "level": 1,
           "name": "...",
-          "desc": "[WhenUse] If target has 3+ types of negative effects, Base Power +1\n[WhenUse] Coin Power +1 for every 6 [Burst] on target (max 2)\n[DefeatDuel] Gain 1 [Vulnerable]",
+          "desc": "[WhenUse] Se il bersaglio ha 3+ types of negative effects, Potere Base +1\n[WhenUse] Coin Power +1 per ogni 6 [Burst] sul bersaglio (max 2)\n[DefeatDuel] Ottiene 1 [Vulnerable]",
           "coinlist": [
             {
               "coindescs": [
@@ -904,7 +904,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
                 },
                 {
                   "desc": "Deal 5 SP damage"
@@ -917,7 +917,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
                 },
                 {
                   "desc": "Deal 5 SP damage"
@@ -934,7 +934,7 @@
         {
           "level": 1,
           "name": "What's this Child's Play?",
-          "desc": "[WhenUse] Heal 15 SP\n[WhenUse] If target has 3+ types of negative effects, Base Power +1",
+          "desc": "[WhenUse] Heal 15 SP\n[WhenUse] Se il bersaglio ha 3+ types of negative effects, Potere Base +1",
           "coinlist": [
             {
               "coindescs": [
@@ -942,7 +942,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
                 }
               ]
             }

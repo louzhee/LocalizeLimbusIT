@@ -5,16 +5,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Elongating Palm",
-          "desc": "[WhenUse] Coin Power +1 for every 10 ([Breath] on self + [Burst] on target) (max 2)\n[WhenUse] Gain +2 [Breath] Count",
+          "name": "Palmo Allungabile",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 10 ([Breath] su di sé + [Burst] sul bersaglio) (max 2)\n[WhenUse] Ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 4 [Breath]"
+                  "desc": "[OnSucceedAttack] Ottiene 4 [Breath]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has [BurstPoison], inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [BurstPoison], infligge +2 Conteggio [Burst]"
                 }
               ]
             }
@@ -27,23 +27,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Puncturing Serpent Arm",
-          "desc": "[WhenUse] Coin Power +1 for every 8 ([Breath] on self + [Burst] on target) (max 3)",
+          "name": "Braccio del Serpente Perforante",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 8 ([Breath] su di sé + [Burst] sul bersaglio) (max 3)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 4 [Breath]"
+                  "desc": "[OnSucceedAttack] Ottiene 4 [Breath]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has [BurstPoison], inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [BurstPoison], infligge 2 [Burst]"
                 }
               ]
             }
@@ -56,22 +56,22 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Serpent's Concealed Puncture",
-          "desc": "If this unit has [SnakeStance] and target has [BurstPoison], this Skill becomes an Unclashable Skill\nCoin Power +1 for every 4 ([Breath] on self + [Burst] on target) (max 10)\n[WinDuel] Inflict +2 [Burst] Count and gain +2 [Breath] Count",
+          "name": "Puntura Nascosta del Serpente",
+          "desc": "Se questa unità ha [SnakeStance] e se il bersaglio ha [BurstPoison], quest'Abilità diventa un'Abilità Non Scontrabile\nPotere Moneta +1 per ogni 4 ([Breath] su di sé + [Burst] sul bersaglio) (max 10)\n[WinDuel] Infligge +2 Conteggio [Burst] e ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Deal +25% damage for every [SnakeStance] on self (max 50%)"
+                  "desc": "infligge +25% danni per ogni [SnakeStance] su di sé (max 50%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Consume 3 [BurstPoison] for every [SnakeStance] on self (max 5 per turn)"
+                  "desc": "[OnSucceedAttack] Consuma 3 [BurstPoison] per ogni [SnakeStance] su di sé (max 5 per turno)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 8 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 8 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [BurstPoison] next turn"
+                  "desc": "[OnSucceedAttack] Infligge [BurstPoison] nel turno successivo"
                 }
               ]
             }
@@ -84,8 +84,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Eyeing for a Chance",
-          "desc": "[CanDuelGuard]\n[WhenUse] Coin Power +1 for every 4 [Burst] on target (max 2)\n[WhenUse] Gain 3 [SnakeStance] (once per Skill)",
+          "name": "Adocchia l'Opportunità",
+          "desc": "[CanDuelGuard]\n[WhenUse] Potere Moneta +1 per ogni 4 [Burst] sul bersaglio (max 2)\n[WhenUse] Ottiene 3 [SnakeStance] (una volta per Abilità)",
           "coinlist": [
             {
               "coindescs": [
@@ -103,16 +103,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Elongating Arm",
-          "desc": "[WhenUse] Coin Power +1 for every 10 ([Breath] on self + [Burst] on target) (max 2)\n[WhenUse] Gain +2 [Breath] Count",
+          "name": "Braccio Allungabile",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 10 ([Breath] su di sé + [Burst] sul bersaglio) (max 2)\n[WhenUse] Ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 4 [Breath]"
+                  "desc": "[OnSucceedAttack] Ottiene 4 [Breath]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has [BurstPoison], inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [BurstPoison], infligge +2 Conteggio [Burst]"
                 }
               ]
             }
@@ -125,23 +125,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Gnawing Serpent Arm",
-          "desc": "[WhenUse] Coin Power +1 for every 8 ([Breath] on self + [Burst] on target) (max 3)",
+          "name": "Morso del Braccio del Serpente",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 8 ([Breath] su di sé + [Burst] sul bersaglio) (max 3)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 4 [Breath]"
+                  "desc": "[OnSucceedAttack] Ottiene 4 [Breath]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has [BurstPoison], inflict +1 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [BurstPoison], infligge +1 Conteggio [Burst]"
                 }
               ]
             }
@@ -154,29 +154,29 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Serpent's Shadowed Puncture",
-          "desc": "[WhenUse] Coin Power +1 for every 8 ([Breath] on self + [Burst] on target) (max 4)\n[WinDuel] Inflict +2 [Burst] Count\n[WinDuel] Gain +2 [Breath] Count",
+          "name": "Puntura Segreta del Serpente",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 8 ([Breath] su di sé + [Burst] sul bersaglio) (max 4)\n[WinDuel] Infligge +2 Conteggio [Burst]\n[WinDuel] Ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [BurstPoison] next turn (once per Skill)"
+                  "desc": "[OnSucceedAttack] Infligge [BurstPoison] nel turno successivo (una volta per Abilità)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this unit has [SnakeStance], Reuse this Coin once (once per Skill)"
+                  "desc": "[OnSucceedAttack] Se questa unità ha [SnakeStance], Riusa questa Moneta (una volta per Abilità)"
                 },
                 {
-                  "desc": "- The Reused Coin deals -70% damage"
+                  "desc": "- La Moneta Riusata infligge -70% danni"
                 }
               ]
             }
@@ -189,8 +189,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Observe for a Chance",
-          "desc": "[CanDuelGuard]\n[WhenUse] Coin Power +1 for every 4 [Burst] on target (max 2)\n[WhenUse] Gain 3 [SnakeStance] (once per Skill)",
+          "name": "Cerca l'Opportunità",
+          "desc": "[CanDuelGuard]\n[WhenUse] Potere Moneta +1 per ogni 4 [Burst] sul bersaglio (max 2)\n[WhenUse] Ottiene 3 [SnakeStance] (una volta per Abilità)",
           "coinlist": [
             {
               "coindescs": [
@@ -208,22 +208,22 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Mutated Elongating Arm",
-          "desc": "[WhenUse] Coin Power +1 for every 10 ([Breath] on self + [Burst] on target) (max 2)\n[WinDuel] Gain +3 [Breath] Count",
+          "name": "Muta del Braccio Allungabile",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 10 ([Breath] su di sé + [Burst] sul bersaglio) (max 2)\n[WinDuel] Ottiene +3 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 4 [Breath]"
+                  "desc": "[OnSucceedAttack] Ottiene 4 [Breath]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has [BurstPoison], inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [BurstPoison], infligge +2 Conteggio [Burst]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] If this unit has 10+ [Breath], gain 1 [SnakeStance] and Reuse Coin once (once per Skill; can gain up to 2 [SnakeStance] per turn)"
+                  "desc": "[CriticalOnSucceedAttack] Se questa unità ha 10+ [Breath], ottiene 1 [SnakeStance] e Riusa questa Moneta (una volta per Abilità; può ottenere fino a 2 [SnakeStance] per turno)"
                 }
               ]
             }
@@ -236,36 +236,36 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Elongating Serpent Arm",
-          "desc": "[WhenUse] Coin Power +1 for every 8 ([Breath] on self + [Burst] on target) (max 3)\n[BeforeAttack] If this unit has [SnakeStance], gain +2 Atk Weight\n- Becomes a [WideAreaRampage] Skill\n- When attacking the same target, if target has 2 or fewer [Burst] Count, inflict +1 [Burst] Count and consume 1 [BurstPoison]\n[WinDuel] Inflict +1 [Burst] Count on all targets",
+          "name": "Braccio del Serpente Allungabile",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 8 ([Breath] su di sé + [Burst] sul bersaglio) (max 3)\n[BeforeAttack] Se questa unità ha [SnakeStance], Portata Attacco +2\n- Diventa una [WideAreaRampage]\n- Se attacca più volte lo stesso bersaglio, se questo ha 2 o meno Conteggio [Burst], infligge +1 Conteggio [Burst] e consuma 1 [BurstPoison]\n[WinDuel] Infligge +1 Conteggio [Burst] on all targets",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has [BurstPoison], inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [BurstPoison], infligge +2 Conteggio [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has [BurstPoison], inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [BurstPoison], infligge +2 Conteggio [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has [BurstPoison], inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [BurstPoison], infligge +2 Conteggio [Burst]"
                 }
               ]
             }
@@ -278,22 +278,22 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Serpent's Keenlance",
-          "desc": "If this unit has [SnakeStance] and target has [BurstPoison], this Skill becomes an Unclashable Skill\n[WhenUse] Coin Power +1 for every 4 ([Breath] on self + [Burst] on target) (max 10)\n[WinDuel] Inflict +2 [Burst] Count and gain +3 [Breath] Count",
+          "name": "Lanciastuta del Serpente",
+          "desc": "Se questa unità ha [SnakeStance] e se il bersaglio ha [BurstPoison], quest'Abilità diventa un'Abilità Non Scontrabile\n[WhenUse] Potere Moneta +1 per ogni 4 ([Breath] su di sé + [Burst] sul bersaglio) (max 10)\n[WinDuel] Infligge +2 Conteggio [Burst] e ottiene +3 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "If this unit has [SnakeStance], deal +100% damage"
+                  "desc": "Se questa unità ha [SnakeStance], infligge +100% danni"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Consume 5 [BurstPoison] for every [SnakeStance] on self (once per turn)"
+                  "desc": "[OnSucceedAttack] Consuma 5 [BurstPoison] per ogni [SnakeStance] su di sé (once per turn)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 10 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 10 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [BurstPoison] next turn"
+                  "desc": "[OnSucceedAttack] Infligge [BurstPoison] nel turno successivo"
                 }
               ]
             }
@@ -306,8 +306,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Wait for a Chance",
-          "desc": "[CanDuelGuard]\n[WhenUse] Coin Power +1 for every 4 [Burst] on target (max 3)\n[WhenUse] Gain 3 [SnakeStance] (once per Skill)",
+          "name": "Attendi l'Opportunità",
+          "desc": "[CanDuelGuard]\n[WhenUse] Potere Moneta +1 per ogni 4 [Burst] sul bersaglio (max 3)\n[WhenUse] Ottiene 3 [SnakeStance] (una volta per Abilità)",
           "coinlist": [
             {
               "coindescs": [
