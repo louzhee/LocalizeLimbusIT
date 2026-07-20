@@ -5,13 +5,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Grovel Before Me",
-          "desc": "[WhenUse] If the target has 4+ [Laceration], Clash Power +1",
+          "name": "Inchinatevi Dinanzi a Me",
+          "desc": "[WhenUse] Se il bersaglio ha 4+ [Laceration], Potere Scontro +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration]"
                 }
               ]
             }
@@ -24,13 +24,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Pathetic One",
-          "desc": "[WhenUse] If the target has 4+ [Laceration], Clash Power +1",
+          "name": "Patetico",
+          "desc": "[WhenUse] Se il bersaglio ha 4+ [Laceration], Potere Scontro +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [laceration]"
                 }
               ]
             }
@@ -43,14 +43,14 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Go... Go Away...!",
-          "desc": "[WhenUse] If the target has 4+ [Laceration], Clash Power +1\n[WhenUse] Deal +5% damage for every [Laceration] Count on the target (max 20%)",
+          "name": "Via... Vattene Via...!",
+          "desc": "[WhenUse] Se il bersaglio ha 4+ [Laceration], Potere Scontro +1\n[WhenUse] Infligge +5% danni per ogni Conteggio [laceration] sul bersaglio (max 20%)",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 8 [Laceration] and +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge 8 [Laceration] e +2 Conteggio [laceration]"
                 }
               ]
             }
@@ -63,34 +63,34 @@
       "levelList": [
         {
           "level": 1,
-          "name": "The Parade's Prince",
-          "desc": "[StartBattle] Gain Atk Weight equal to the number of targets with [Laceration] (max 5)\n[WhenUse] If the target has 4+ [Laceration], Base Power +1\n[WhenUse] If the target has 3+ [Laceration] Count, Coin Power +1\n[DefeatDuel] Lose 1 [KeptBlood]",
+          "name": "Il Principe Della Parata",
+          "desc": "[StartBattle] Portata Attacco +1 per ogni nemico con [Laceration] (max 5)\n[WhenUse] Se il bersaglio ha 4+ [Laceration], Potere Base +1\n[WhenUse] Se il bersaglio ha 3+ Conteggio [laceration], Potere Moneta +1\n[DefeatDuel] Perde 1 [KeptBlood]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration]"
                 }
               ]
             }
@@ -103,26 +103,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Blood... Blood... Blood...!",
-          "desc": "[WhenUse] If the target has 8+ [Laceration], Coin Power +1\n[DefeatDuel] Lose 1 [KeptBlood]",
+          "name": "Sangue... Sangue... Sangue...!",
+          "desc": "[WhenUse] Se il bersaglio ha 8+ [Laceration], Potere Moneta +1\n[DefeatDuel] Perde 1 [KeptBlood]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Laceration] and +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Laceration] e +3 Conteggio [laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If the target has 10+ [Laceration], the next Coin deals +20% damage"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 10+ [Laceration], la prossima Moneta infligge +20% danni"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [KeptBlood]"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [KeptBlood]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Binding] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Binding] nel turno successivo"
                 }
               ]
             }
@@ -135,8 +135,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Leave Me Alone...!",
-          "desc": "[WhenUseEvade] Base Power +1 for every [Laceration] Count on the target (max 4)",
+          "name": "Lasciatemi In Pace...!",
+          "desc": "[WhenUseEvade] Potere Base +1 per ogni Conteggio [laceration] sul bersaglio (max 4)",
           "coinlist": [
             {}
           ]
@@ -148,34 +148,34 @@
       "levelList": [
         {
           "level": 1,
-          "name": "I Am... The Prince... of the Parade...!",
-          "desc": "[CantDuel]\n[WhenUse] Double the amount healed by Hardbloo​d Glaive\n[WhenUse] Reset PS to 0\n[EndSkill] Gain 10 [KeptBlood]\nDoes not get Staggered this turn; ends turn after using this Skill.",
+          "name": "Io... Sono... Il Principe... Della Parata...!",
+          "desc": "[CantDuel]\n[WhenUse] Raddoppia i PV recuperati tramite la passiva 'Falcione Rossosangue'\n[WhenUse] Riporta i PS a 0\n[EndSkill] Ottiene 10 [KeptBlood]\nNon può essere Stordito durante questo turno\n[EndSkill] Termina il turno.",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration] and +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration] e +1 Conteggio [laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration] and +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration] e +1 Conteggio [laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration] and +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration] e +1 Conteggio [laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration] and +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration] e +1 Conteggio [laceration]"
                 }
               ]
             }
@@ -188,34 +188,34 @@
       "levelList": [
         {
           "level": 1,
-          "name": "I'm... Never... Going Back...!",
-          "desc": "[WhenUse] Clash Power +1 for every 5 [Laceration] on the main target (max 3)\n[WhenUse] If the main target has 4+ [Laceration], Coin Power +1\n[WhenUse] Deal +5% damage for every [Laceration] on the main target (max 20%)\n[WhenUse] Double the amount healed by Hardblood[TabExplain] Glaive\n[EndSkill] Gain 10 [KeptBlood]",
+          "name": "Io... Non Tornerò... Mai e Poi Mai...!",
+          "desc": "[WhenUse] Potere Scontro +1 per ogni 5 [Laceration] sul bersaglio principale (max 3)\n[WhenUse] Se il bersaglio principale ha 4+ [Laceration], Potere Moneta +1\n[WhenUse] Infligge +5% danni per ogni [Laceration] sul bersaglio principale (max 20%)\n[WhenUse] Raddoppia i PV recuperati tramite la passiva 'Falcione Rossosangue'\n[EndSkill] Ottiene 10 [KeptBlood]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration] and +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration] e +1 Conteggio [laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration] and +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration] e +1 Conteggio [laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration] and +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration] e +1 Conteggio [laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration] and +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration] e +1 Conteggio [laceration]"
                 }
               ]
             }

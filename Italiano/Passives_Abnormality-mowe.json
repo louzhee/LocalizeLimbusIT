@@ -2,28 +2,28 @@
   "dataList": [
     {
       "id": 835001,
-      "name": "Stored Blood",
-      "desc": "At Turn End, depending on the [KeptBlood] Stack on self:\n- At 5 or fewer Stack: gain 1 [Binding], 1 [Vulnerable], and 1 [AttackDown] next turn for every (6 - Stack)\n- At more than 5 Stack: gain 2 [AttackUp] and 2 [DefenseUp] next turn for every (Stack - 5)"
+      "name": "Sangue Conservato",
+      "desc": "A fine turno, in base al numero di [KeptBlood] su di sé:\n- A 5- Stack: ottiene 1 [Binding], 1 [Vulnerable] e 1 [AttackDown] nel turno successivo per ogni (6 - Stack)\n- A 6+ Stack: ottiene 2 [AttackUp] e 2 [DefenseUp] nel turno successivo per ogni (Stack - 5)"
     },
     {
       "id": 835002,
-      "name": "Must Retain Blood",
-      "desc": "Gains a new pattern when [KeptBlood] reaches 0 for the first time\nFix this unit's speed to 10 when using the Skill 'I Am... The Prince... of the Parade...!'"
+      "name": "Devo Mantenere il Sangue",
+      "desc": "Ottiene un nuovo pattern quando [KeptBlood] scende a 0 per la prima volta\nFissa la Velocità di questa unità a 10 quando usa l'Abilità 'Io... Sono... Il Principe... Della Parata...!'"
     },
     {
       "id": 835003,
-      "name": "The Prince's Frenzy",
-      "desc": "When this unit reaches 30% PV, gain [BloodyCrave]"
+      "name": "La Frenesia del Principe",
+      "desc": "Quando i PV di questa unità scendono al 30%, ottiene [BloodyCrave]"
     },
     {
       "id": 835004,
-      "name": "Hardblood Glaive",
-      "desc": "Prioritizes targets with the highest sum of [Laceration] Potency and Count\nOn Hit, if target has [Laceration], heal 2% PV"
+      "name": "Falcione Rossosangue",
+      "desc": "Dà priorità al bersaglio con più (Potenza + Conteggio) [Laceration]\nSul Colpo, se il bersaglio ha [Laceration], recupera il 2% dei PV"
     },
     {
       "id": 835005,
-      "name": "Sanguivore - Coagulation",
-      "desc": "When this unit has [Laceration]:\n- Gain 1 Offense Level Up and 1 Defense Level Up for every 5 [Laceration] (max 10)\n- Gain 1 Clash Power Up for every 10 [Laceration] (max 5)\n-  Damage taken from [Laceration] -50% (rounded down)"
+      "name": "Sanguivoro - Coagulazione",
+      "desc": "Mentre questa unità ha [Laceration]:\n- Ottiene 1 [AttackUp] e 1 [DefenseUp] per ogni 5 [Laceration] (max 10)\n- Ottiene 1 [ParryingResultUp] per ogni 10 [Laceration] (max 5)\n- Subisce -50% danni da [Laceration] (arrotondato per difetto)"
     },
     {
       "id": 9014501,
