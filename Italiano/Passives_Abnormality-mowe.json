@@ -17,7 +17,7 @@
     },
     {
       "id": 835004,
-      "name": "Falcione Rossosangue",
+      "name": "Falcione di Sangue Coagulato",
       "desc": "Dà priorità al bersaglio con più (Potenza + Conteggio) [Laceration]\nSul Colpo, se il bersaglio ha [Laceration], recupera il 2% dei PV"
     },
     {
@@ -27,58 +27,58 @@
     },
     {
       "id": 9014501,
-      "name": "Blood Coagulation",
-      "desc": "Gain +1 [Laceration] Count every time this unit is hit\nTurn End: consume 3 [Laceration] Count on self to gain 1 [HardenedBlood]"
+      "name": "Coagulazione del Sangue",
+      "desc": "Ottiene +1 Conteggio [Laceration] ogni volta che questa unità viene colpita\nA fine turno, consuma 3 Conteggio [Laceration] su di sé per ottenere 1 [HardenedBlood]"
     },
     {
       "id": 9014502,
-      "name": "Thirst for Blood",
-      "desc": "Prioritizes targets with [Laceration]\nTurn End: if this unit failed to deal any damage this turn, gain 2 [Vulnerable] and 2 [AttackUp] next turn"
+      "name": "Sete di Sangue",
+      "desc": "Dà priorità ai bersagli con [Laceration]\nA fine turno, se questa unità non è riuscita a infliggere danno durante il turno, ottiene 2 [Vulnerable] e 2 [AttackUp] nel turno successivo"
     },
     {
       "id": 9014503,
-      "name": "Bloodsucking",
-      "desc": "Damage taken from [Laceration] -10% (rounded down)\nOn Hit, if target has [Laceration], heal 10% of the damage dealt"
+      "name": "Succhiare il Sangue",
+      "desc": "Subisce -10% danni da [Laceration] (arrotondato per difetto)\nSul Colpo, se il bersaglio ha [Laceration], recupera PV pari al 10% del danno inflitto"
     },
     {
       "id": 9014801,
-      "name": "Rough Bloodsucking",
-      "desc": "Damage taken from [Laceration] -20% (rounded down)\nOn Hit, if target has [Laceration], heal 15% of the damage dealt"
+      "name": "Succhiare il Sangue Bruscamente",
+      "desc": "Subisce -20% danni da [Laceration] (arrotondato per difetto)\nSul Colpo, se il bersaglio ha [Laceration], recupera PV pari al 15% del danno inflitto"
     },
     {
       "id": 9014802,
-      "name": "Power Leakage",
-      "desc": "Every time this unit is hit, if the attacker used a Skill that gains [Charge], the attacker steals 1 [Charge] Count from this unit.\n(Once per Skill. Does not activate if this unit does not have [Charge])"
+      "name": "Perdita di Energia",
+      "desc": "Quando colpita, se l'attaccante ha usato un'Abilità che ottiene [Charge], esso ruba 1 Conteggio [Charge] da questa unità.\n(Una volta per Abilità.)"
     },
     {
       "id": 9015101,
-      "name": "Blood to Brain",
-      "desc": "Damage taken from [Laceration] -30% (rounded down)\nOn Hit, if target has [Laceration], heal 15% of the damage dealt"
+      "name": "Sangue al Cervello",
+      "desc": "Subisce -30% danni da [Laceration] (arrotondato per difetto)\nSul Colpo, se il bersaglio ha [Laceration], recupera PV pari al 15% del danno inflitto"
     },
     {
       "id": 9015102,
-      "name": "Prosthesis Model - L37",
-      "desc": "Turn Start: At less than 5 [Charge] Count, gain 1 [Reduction]\nTurn Start: At 5+ [Charge] Count, gain 2 [ParryingResultUp]"
+      "name": "Modello Protesi - L37",
+      "desc": "A inizio turno, se ha meno di 5 Conteggio [Charge], ottiene 1 [Reduction]\nA inizio turno, a 5+ Conteggio [Charge], ottiene 2 [ParryingResultUp]"
     },
     {
       "id": 9015201,
-      "name": "A Young Kindred",
-      "desc": "Damage taken from [Laceration] -30% (rounded down)\nOn Hit, if target has [Laceration], heal 25% of the damage dealt"
+      "name": "Una Giovane Progenie",
+      "desc": "Subisce -30% danni da [Laceration] (arrotondato per difetto)\nSul Colpo, se il bersaglio ha [Laceration], recupera PV pari al 25% del danno inflitto"
     },
     {
       "id": 9014803,
-      "name": "Tenacious",
-      "desc": "Self-inflicted damage due to this unit's Skills does not reduce this unit's PV under 1"
+      "name": "Tenacia",
+      "desc": "Non può morire dai danni inflitti dai suoi stessi effetti"
     },
     {
       "id": 834801,
-      "name": "Burst Bloodbag",
-      "desc": "Combat Start: starts the Encounter only with half of max PV"
+      "name": "Emersione delle Sacche di Sangue",
+      "desc": "Inizia l'Incontro con la metà dei PV Max"
     },
     {
       "id": 834802,
-      "name": "The Seventh Kindred",
-      "desc": "Gain +1 Slot for every ally at 1 PV (2 times max)"
+      "name": "Il Settimo Progenie",
+      "desc": "Ottiene +1 Slot per ogni alleato a 1 PV (max 2 volte)"
     }
   ]
 }

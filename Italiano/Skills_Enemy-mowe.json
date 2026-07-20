@@ -5,13 +5,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Coagulated Arm",
+          "name": "Braccio Coagulato",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             }
@@ -24,20 +24,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Hardblood Jag",
+          "name": "Lacerazione del Sangue Coagulato",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             }
@@ -50,28 +50,28 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Collecting Blood",
-          "desc": "If target has 10+ [Laceration], deal +20% damage",
+          "name": "Raccogliere il Sangue",
+          "desc": "Se il bersaglio ha 10+ [Laceration], infligge +20% danni",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Absorb up to 10 [Laceration] Potency from the target and heal ([Laceration] Potency absorbed x 2)% PV (this effect does not lower the target's [Laceration] Potency under 1)",
-                  "summary": "[OnSucceedAttack] Absorb [Laceration] on target to heal"
+                  "desc": "[OnSucceedAttack] Assorbe fino a 10 Potenza [Laceration] dal bersaglio e recupera ([Laceration] assorbito x 2)% PV (questo effetto non può rimuovere del tutto il [Laceration] sul bersaglio)",
+                  "summary": "[OnSucceedAttack] Si cura assorbendo il [Laceration] sul bersaglio"
                 }
               ]
             }
@@ -85,12 +85,12 @@
         {
           "level": 1,
           "name": "Contrattacco",
-          "desc": "[WhenUse] Base Power +1 for every 3 [Laceration] Count on self (max 2)",
+          "desc": "[WhenUse] Potere Base +1 per ogni 3 Conteggio [Laceration] su di sé (max 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             }
@@ -103,13 +103,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Coagulated Arm",
+          "name": "Braccio Coagulato",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 }
               ]
             }
@@ -122,20 +122,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Hardblood Slice",
+          "name": "Taglio del Sangue Coagulato",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             }
@@ -148,28 +148,28 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Collecting Blood",
-          "desc": "If target has 10+ [Laceration], deal +20% damage",
+          "name": "Raccogliere il Sangue",
+          "desc": "Se il bersaglio ha 10+ [Laceration], infligge +20% danni",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Absorb up to 10 [Laceration] Potency from the target and heal ([Laceration] Potency absorbed x 2)% PV (this effect does not lower the target's [Laceration] Potency under 1)",
-                  "summary": "[OnSucceedAttack] Absorb [Laceration] on target to heal"
+                  "desc": "[OnSucceedAttack] Assorbe fino a 10 Potenza [Laceration] dal bersaglio e recupera ([Laceration] assorbito x 2)% PV (questo effetto non può rimuovere del tutto il [Laceration] sul bersaglio)",
+                  "summary": "[OnSucceedAttack] Si cura assorbendo il [Laceration] sul bersaglio"
                 }
               ]
             }
@@ -183,12 +183,12 @@
         {
           "level": 1,
           "name": "Contrattacco",
-          "desc": "[WhenUse] Base Power +1 for every 3 [Laceration] Count on self (max 2)",
+          "desc": "[WhenUse] Potere Base +1 per ogni 3 Conteggio [Laceration] su di sé (max 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             }
@@ -201,16 +201,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Coagulated Arm",
+          "name": "Braccio Coagulato",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
                 }
               ]
             }
@@ -223,16 +223,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Hardblood Strike",
+          "name": "Colpo del Sangue Coagulato",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
                 }
               ]
             }
@@ -245,28 +245,28 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Collecting Blood",
-          "desc": "If target has 10+ [Laceration], deal +20% damage",
+          "name": "Raccogliere il Sangue",
+          "desc": "Se il bersaglio ha 10+ [Laceration], infligge +20% danni",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Absorb up to 10 [Laceration] Potency from the target and heal ([Laceration] Potency absorbed x 2)% PV (this effect does not lower the target's [Laceration] Potency under 1)",
-                  "summary": "[OnSucceedAttack] Absorb [Laceration] on target to heal"
+                  "desc": "[OnSucceedAttack] Assorbe fino a 10 Potenza [Laceration] dal bersaglio e recupera ([Laceration] assorbito x 2)% PV (questo effetto non può rimuovere del tutto il [Laceration] sul bersaglio)",
+                  "summary": "[OnSucceedAttack] Si cura assorbendo il [Laceration] sul bersaglio"
                 }
               ]
             }
@@ -280,12 +280,12 @@
         {
           "level": 1,
           "name": "Contrattacco",
-          "desc": "[WhenUse] Base Power +1 for every 3 [Laceration] Count on self (max 2)",
+          "desc": "[WhenUse] Potere Base +1 per ogni 3 Conteggio [Laceration] su di sé (max 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             }
@@ -298,16 +298,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Rip",
-          "desc": "[WhenUse] Gain +2 [Charge] Count",
+          "name": "Strappa",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Charge]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [Charge] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Charge]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 }
               ]
             }
@@ -320,26 +320,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Stab Down",
-          "desc": "[WhenUse] Gain +5 [Charge] Count",
+          "name": "Abbatti",
+          "desc": "[WhenUse] Ottiene +5 Conteggio [Charge]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [Charge] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Charge]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [Charge] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Charge]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 }
               ]
             }
@@ -352,24 +352,24 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Hardblood Weapon",
-          "desc": "[WhenUse] Consume all [Charge] Count on self and consume 2(15 - [Charge] Count consumed)% PV to gain Coin Power +2",
+          "name": "Arma di Sangue Coagulato",
+          "desc": "[WhenUse] Consuma tutto il Conteggio [Charge] su di sé e consuma 2*(15 - Conteggio [Charge] consumato)% PV per ottenere Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 6 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 6 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 6 [DefenseDown]"
+                  "desc": "[OnSucceedAttack] Infligge 6 [DefenseDown]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Absorb up to 10 [Laceration] Potency from the target and heal ([Laceration] Potency absorbed x 2)% PV (this effect does not lower the target's [Laceration] Potency under 1)",
-                  "summary": "[OnSucceedAttack] Absorb [Laceration] on target to heal"
+                  "desc": "[OnSucceedAttack] Assorbe fino a 10 Potenza [Laceration] dal bersaglio e recupera ([Laceration] assorbito x 2)% PV (questo effetto non può rimuovere del tutto il [Laceration] sul bersaglio)",
+                  "summary": "[OnSucceedAttack] Si cura assorbendo il [Laceration] sul bersaglio"
                 }
               ]
             }
@@ -383,7 +383,7 @@
         {
           "level": 1,
           "name": "Blocco",
-          "desc": "[WhenUse] Base Power +1 for every 3 [Laceration] Count on self (max 2)",
+          "desc": "[WhenUse] Potere Base +1 per ogni 3 Conteggio [Laceration] su di sé (max 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -401,16 +401,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Thrust",
-          "desc": "[WhenUse] Gain +2 [Charge] Count",
+          "name": "Affondo",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Charge]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [Charge] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Charge]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             }
@@ -423,26 +423,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Cleave",
-          "desc": "[WhenUse] Gain +5 [Charge] Count",
+          "name": "Fendere",
+          "desc": "[WhenUse] Ottiene +5 Conteggio [Charge]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [Charge] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Charge]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [Charge] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Charge]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             }
@@ -455,24 +455,24 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Hardblood Weapon",
-          "desc": "[WhenUse] Consume all [Charge] Count on self and consume 2(15 - [Charge] Count consumed)% PV to gain Coin Power +2",
+          "name": "Arma di Sangue Coagulato",
+          "desc": "[WhenUse] Consuma tutto il Conteggio [Charge] su di sé e consuma 2*(15 - Conteggio [Charge] consumato)% PV per ottenere Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 6 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 6 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vulnerable]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vulnerable]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Absorb up to 10 [Laceration] Potency from the target and heal ([Laceration] Potency absorbed x 2)% PV (this effect does not lower the target's [Laceration] Potency under 1)",
-                  "summary": "[OnSucceedAttack] Absorb [Laceration] on target to heal"
+                  "desc": "[OnSucceedAttack] Assorbe fino a 10 Potenza [Laceration] dal bersaglio e recupera ([Laceration] assorbito x 2)% PV (questo effetto non può rimuovere del tutto il [Laceration] sul bersaglio)",
+                  "summary": "[OnSucceedAttack] Si cura assorbendo il [Laceration] sul bersaglio"
                 }
               ]
             }
@@ -486,7 +486,7 @@
         {
           "level": 1,
           "name": "Evasione",
-          "desc": "[WhenUse] Base Power +1 for every 3 [Laceration] Count on self (max 2)",
+          "desc": "[WhenUse] Potere Base +1 per ogni 3 Conteggio [Laceration] su di sé (max 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -504,19 +504,19 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Spear Swing",
-          "desc": "[WhenUse] Gain +2 [Charge] Count",
+          "name": "Colpire con la Lancia",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Charge]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [Charge] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Charge]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
                 }
               ]
             }
@@ -529,32 +529,32 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Tear Up Wound",
-          "desc": "[WhenUse] Gain +5 [Charge] Count",
+          "name": "Apri Ferita",
+          "desc": "[WhenUse] Ottiene +5 Conteggio [Charge]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [Charge] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Charge]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [Charge] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Charge]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
                 }
               ]
             }
@@ -567,27 +567,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Hardblood Weapon",
-          "desc": "[WhenUse] Consume all [Charge] Count on self and consume 2(15 - [Charge] Count consumed)% PV to gain Coin Power +2",
+          "name": "Arma di Sangue Coagulato",
+          "desc": "[WhenUse] Consuma tutto il Conteggio [Charge] su di sé e consuma 2*(15 - Conteggio [Charge] consumato)% PV per ottenere Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 6 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 6 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [AttackDown]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [AttackDown]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Absorb up to 10 [Laceration] Potency from the target and heal ([Laceration] Potency absorbed x 2)% PV (this effect does not lower the target's [Laceration] Potency under 1)",
-                  "summary": "[OnSucceedAttack] Absorb [Laceration] on target to heal"
+                  "desc": "[OnSucceedAttack] Assorbe fino a 10 Potenza [Laceration] dal bersaglio e recupera ([Laceration] assorbito x 2)% PV (questo effetto non può rimuovere del tutto il [Laceration] sul bersaglio)",
+                  "summary": "[OnSucceedAttack] Si cura assorbendo il [Laceration] sul bersaglio"
                 }
               ]
             }
@@ -601,7 +601,7 @@
         {
           "level": 1,
           "name": "Blocco",
-          "desc": "[WhenUse] Base Power +1 for every 3 [Laceration] Count on self (max 2)",
+          "desc": "[WhenUse] Potere Base +1 per ogni 3 Conteggio [Laceration] su di sé (max 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -619,13 +619,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Activate Prosthesis",
-          "desc": "[WhenUse] At 10+ [Charge] Count, consume 5 [Charge] Count to gain 3 [AttackUp]",
+          "name": "Attivazione Protesi",
+          "desc": "[WhenUse] A 10+ Conteggio [Charge], consuma 5 Conteggio [Charge] per ottenere 3 [AttackUp]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 }
               ]
             }
@@ -638,23 +638,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Harpoon Mark",
-          "desc": "[StartBattle] At 5- [Charge] Count, gain 5 [Charge] Count, 3 [Laceration] Count, and 1 [Vulnerable]\n[WhenUse] At 10+ [Charge] Count, consume 5 [Charge] Count to gain 3 [AttackUp]",
+          "name": "Marchio dell'Arpione",
+          "desc": "[StartBattle] A 5- Conteggio [Charge], ottiene 5 Conteggio [Charge], 3 Conteggio [Laceration], e 1 [Vulnerable]\n[WhenUse] A 10+ Conteggio [Charge], consuma 5 Conteggio [Charge] per ottenere 3 [AttackUp]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Binding] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Binding] nel turno successivo"
                 }
               ]
             }
@@ -667,26 +667,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Hardblood Harpoon",
-          "desc": "[WhenUse] Consume 10% PV on self to gain +10 [Charge] Count",
+          "name": "Arpione di Sangue Coagulato",
+          "desc": "[WhenUse] Consuma il 10% dei PV su di sé per ottenere +10 Conteggio [Charge]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 6 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 6 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count."
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]."
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Paralysis]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Paralysis]"
                 }
               ]
             }
@@ -700,7 +700,7 @@
         {
           "level": 1,
           "name": "Contrattacco",
-          "desc": "[WhenUse] Base Power +1 for every 3 [Laceration] Count on self (max 2)",
+          "desc": "[WhenUse] Potere Base +1 per ogni 3 Conteggio [Laceration] su di sé (max 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -718,16 +718,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Activate Prosthesis",
-          "desc": "[WhenUse] At 10+ [Charge] Count, consume 3 [Charge] Count to gain Coin Power +1\n[WhenUse] At 15+ [Charge] Count, consume 3 additional [Charge] Count to deal +20% damage\n[WhenUse] At 5- [Charge] Count, lose 10% PV and gain +5 [Charge] Count",
+          "name": "Attivazione Protesi",
+          "desc": "[WhenUse] A 10+ Conteggio [Charge], consuma 3 Conteggio [Charge] per ottenere Potere Moneta +1\n[WhenUse] A 15+ Conteggio [Charge], consuma 3 Conteggio [Charge] in più per infliggere +20% danni\n[WhenUse] A 5- Conteggio [Charge], perde il 10% PV e ottiene +5 Conteggio [Charge]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Binding] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Binding] nel turno successivo"
                 }
               ]
             }
@@ -740,36 +740,36 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Hardblood Reflux",
-          "desc": "[WhenUse] At 10+ [Charge] Count, consume 3 [Charge] Count to gain Coin Power +1\n[WhenUse] At 15+ [Charge] Count, consume 3 additional [Charge] Count to deal +20% damage\n[WhenUse] At 5- [Charge] Count, lose 10% PV and gain +5 [Charge] Count",
+          "name": "Reflusso di Sangue Coagulato",
+          "desc": "[WhenUse] A 10+ Conteggio [Charge], consuma 3 Conteggio [Charge] per ottenere Potere Moneta +1\n[WhenUse] A 15+ Conteggio [Charge], consuma 3 Conteggio [Charge] in più per infliggere +20% danni\n[WhenUse] A 5- Conteggio [Charge], perde il 10% PV e ottiene +5 Conteggio [Charge]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Paralysis]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Paralysis]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
                 }
               ]
             }
@@ -782,29 +782,29 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Bioenergy Conversion Charge",
-          "desc": "[WhenUse] Consume 10% PV on self to gain +15 [Charge] Count",
+          "name": "Convertire la Bionergia in Carica",
+          "desc": "[WhenUse] Consuma il 10% dei PV su di sé per ottenere +15 Conteggio [Charge]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 6 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 6 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [AttackDown]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [AttackDown]"
                 }
               ]
             }
@@ -818,7 +818,7 @@
         {
           "level": 1,
           "name": "Blocco",
-          "desc": "[WhenUse] Base Power +1 for every 3 [Laceration] Count on self (max 2)",
+          "desc": "[WhenUse] Potere Base +1 per ogni 3 Conteggio [Laceration] su di sé (max 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -836,23 +836,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Hardblood Transfusion",
-          "desc": "[WhenUse] At 10+ [Charge] Count, consume 3 [Charge] Count to gain Coin Power +1\n[WhenUse] At 15+ [Charge] Count, consume 3 additional [Charge] Count to deal +20% damage\n[WhenUse] At 5- [Charge] Count, lose 10% PV and gain +5 [Charge] Count",
+          "name": "Trasfusione di Sangue Coagulato",
+          "desc": "[WhenUse] A 10+ Conteggio [Charge], consuma 3 Conteggio [Charge] per ottenere Potere Moneta +1\n[WhenUse] A 15+ Conteggio [Charge], consuma 3 Conteggio [Charge] in più per infliggere +20% danni\n[WhenUse] A 5- Conteggio [Charge], perde il 10% PV e ottiene +5 Conteggio [Charge]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
                 }
               ]
             }
@@ -865,39 +865,39 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Bioenergy Conversion Recharge",
-          "desc": "[WhenUse] Consume 10% PV on self to gain +15 [Charge] Count",
+          "name": "Ricarica Tramite Conversione di Bioenergia",
+          "desc": "[WhenUse] Consuma il 10% dei PV su di sé per ottenere +15 Conteggio [Charge]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vulnerable]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vulnerable]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 6 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 6 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [AttackDown]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [AttackDown]"
                 }
               ]
             }
