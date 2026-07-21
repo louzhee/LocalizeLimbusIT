@@ -30,10 +30,10 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[AlwaysUse] Infligge danni ai PS pari alla metà dei danni inflitti"
+                                    "desc": "Questa moneta non infligge danni ai PV"
                                 },
                                 {
-                                    "desc": "[AlwaysUse] Questa moneta non infligge danni ai PV"
+                                    "desc": "[OnSucceedAttack] Infligge danni ai PS pari alla metà dei danni inflitti"
                                 }
                             ]
                         }
@@ -186,7 +186,7 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Benvenuti in Città",
+                    "name": "Benvenuti al Tour",
                     "desc": "",
                     "coinlist": [
                         {},
@@ -206,7 +206,7 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "La Prego di Cooperare!",
+                    "name": "È Pregato di Cooperare!",
                     "desc": "",
                     "coinlist": [
                         {
@@ -244,7 +244,7 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Felice di Conoscerti, Caro Vicino",
+                    "name": "Piacere di Conoscerti, Caro Vicino",
                     "desc": "[CantDuel]\nAttacca l'unità in [Duress]",
                     "coinlist": [
                         {
@@ -375,7 +375,7 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "impedisci l'accesso",
+                    "name": "Impedire l'Accesso",
                     "desc": "[DefeatDuel] Recupera 10 PV",
                     "coinlist": [
                         {
@@ -447,21 +447,21 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "Se la prima Moneta ha fatto Testa, +10% Danni"
+                                    "desc": "Se la prima Moneta è caduta su Testa, +10% Danni"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "Se la seconda Moneta ha fatto Testa, +10% Danni"
+                                    "desc": "Se la seconda Moneta è caduta su Testa, +10% Danni"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "Se la seconda e la terza Moneta hanno fatto Testa, +30% Danni"
+                                    "desc": "Se la seconda e la terza Moneta sono cadute su Testa, +30% Danni"
                                 }
                             ]
                         }
@@ -625,14 +625,14 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] rimuove 3 risorse E.G.O di un'Affinità casuale"
+                                    "desc": "[OnSucceedAttack] Rimuove 3 Risorse E.G.O di un'Affinità casuale"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] rimuove 3 risorse E.G.O di un'Affinità casuale"
+                                    "desc": "[OnSucceedAttack] Rimuove 3 Risorse E.G.O di un'Affinità casuale"
                                 }
                             ]
                         }
@@ -691,7 +691,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttackHead] Inflict 1 Damage Down nel turno successivo"
+                                    "desc": "[OnSucceedAttackHead] Infligge 1 [AttackDmgDown] nel turno successivo"
                                 }
                             ]
                         }
@@ -711,7 +711,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttackHead] Inflict 1 Bind nel turno successivo"
+                                    "desc": "[OnSucceedAttackHead] Infligge 1 [Binding] nel turno successivo"
                                 }
                             ]
                         }
