@@ -114,7 +114,13 @@
     {
       "id": 2090211,
       "name": "Principio di Fiamma",
-      "desc": "Se Sconfigge un Nemico che ha [Combustion], recupera (Rison-A Ira)% PV"
+      "desc": "Dopo aver sconfitto un nemico affetto da [Combustion], recupera (Rison-A Ira)% PV"
+    },
+        {
+      "id": 2090212,
+      "name": "Principio di Fiamma",
+      "desc": "<style=\"highlight\">Inizio Combattimento: Se è stata attivata una Rison. Ira, infligge 1 [CrimsonTakeDamageUp] sul bersaglio principale a Scontro Vinto (una volta per turno)</style>\n\nDopo aver sconfitto un nemico affetto da [Combustion], recupera <style=\"highlight\">(Rison-A Ira)</style>% PV <style=\"highlight\">(max 12%)</style>",
+      "summary": "Infligge [CrimsonTakeDamageUp]\nRecupera PV quando le condizioni vengono soddisfatte"
     },
     {
       "id": 2090311,

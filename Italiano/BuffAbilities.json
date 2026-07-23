@@ -3,7 +3,7 @@
     {
       "id": "AtkDamageMultiplier",
       "desc": "Danno inflitto +{0}% danni",
-      "variation": "{1}% al {0} danno inflitto"
+      "variation": "{1}% al danno inflitto con Affinità {0}"
     },
     {
       "id": "AtkAndTakeAtkDamageMultiplier",
@@ -54,6 +54,10 @@
       "id": "RecoverSelfHpOnSucceedAttackByDmg",
       "desc": "Recupera PV pari a {0}% del danno inflitto"
     },
+        {
+      "id": "RecoverSelfHpOnSucceedAttackByDmgRR2",
+      "desc": "Recupera {0}% del danno inflitto"
+    },
     {
       "id": "RailEnemyBuffF",
       "desc": "{0} alla quantità di Risorse E.G.O consumate dai Peccatori usando le Abilità E.G.O"
@@ -68,25 +72,25 @@
     },
     {
       "id": "GiveBuffOnRoundStartToAllAlly",
-      "desc": "All'inizio del turno, applica {1} {0} e +{2} Conteggio {0} a tutti gli alleati",
-      "variation": "All'inizio del turno, applica {1} {0} a tutti gli alleati.",
-      "variation2": "All'inizio del turno, applica +{1} Conteggio {0} a tutti gli alleati"
+      "desc": "Inizio Turno: Applica {1} {0} e +{2} Conteggio {0} a tutti gli alleati",
+      "variation": "Inizio Turno: Applica {1} {0} a tutti gli alleati.",
+      "variation2": "Inizio Turno: Applica +{1} Conteggio {0} a tutti gli alleati"
     },
     {
       "id": "GiveBuffOnRoundStartToAllAllyExtra",
-      "desc": "All'inizio del turno, applica {1} {0} a tutti gli alleati e applica +{2} Conteggio {0} in più agli alleati con {0}"
+      "desc": "Inizio Turno: Applica {1} {0} a tutti gli alleati e applica +{2} Conteggio {0} in più agli alleati con {0}"
     },
     {
       "id": "GiveBuffOnRoundStartToAllEnemyExtra",
-      "desc": "All'inizio del turno, applica {1} {0} a tutti i nemici e applica +{2} Conteggio {0} in più a tutti i nemici con {0}"
+      "desc": "Inizio Turno: Applica {1} {0} a tutti i nemici e applica +{2} Conteggio {0} in più a tutti i nemici con {0}"
     },
     {
       "id": "LoseTurnOnRoundEnd",
-      "desc": "Fine Turno: perde Conteggio {0}"
+      "desc": "Fine Turno: Perde Conteggio {0}"
     },
     {
       "id": "Vibration",
-      "desc": "Quando colpita da attacchi che innescano Scoppio Vibrazione, aumenta la Soglia di Stordimento di {0}. Dura {1} turno(i)."
+      "desc": "Quando colpita da attacchi che innescano Scoppio Vibrazione, aumenta la Soglia di Stordimento di {0}. Dura {1} turno(i)"
     },
     {
       "id": "DefAdderByStackCeilToInt",
@@ -102,7 +106,7 @@
     },
     {
       "id": "VibrationDistribution",
-      "desc": "- Inizio Turno: Ottiene ((somma di Conteggio Vibrazione - Distribuzione di tutti gli alleati) / (n° di tutti gli alleati con Vibrazione - Distribuzione)) Livello Offensivo Aumentato il turno successivo (max 5)"
+      "desc": "Inizio Turno: Ottiene ((somma Conteggio Vibrazione - Distribuzione di tutti gli alleati) / (n° di tutti gli alleati con Vibrazione - Distribuzione)) Livello Offensivo Aumentato il turno successivo (max 5)"
     },
     {
       "id": "VibrationChain",
@@ -178,7 +182,7 @@
     },
     {
       "id": "MRR525",
-      "desc": "Fine Turno: perde {1} Conteggio {0}"
+      "desc": "Fine Turno: Perde {1} Conteggio {0}"
     },
     {
       "id": "CoinScaleAdderByAtkType",
@@ -198,7 +202,7 @@
     },
     {
       "id": "MRR536",
-      "desc": "Quando l'unità viene colpita da un'Abilità, ottiene casualmente 1 dei seguenti effetti il turno successivo: {0}, {1} (4 volte max)"
+      "desc": "Quando l'unità viene colpita da un'Abilità, ottiene casualmente 1 dei seguenti effetti il turno successivo: {0}, {1} (max 4 volte)"
     },
     {
       "id": "MRR540",
@@ -206,7 +210,7 @@
     },
     {
       "id": "MRR541",
-      "desc": "Quando ha come bersaglio principale l'unità con il minor numero di {1}, Potere Finale Abilità +{0}"
+      "desc": "Quando ha come bersaglio principale l'unità che ha il minor numero di {1}, Potere Finale Abilità +{0}"
     },
     {
       "id": "MRR518P",
@@ -230,7 +234,7 @@
     },
     {
       "id": "MRR506",
-      "desc": "A Fine Turno: per ogni Parola Chiave, contro tutte le Parti nemiche con 2+ Conteggiot, infligge {1} danni pari a {0} Potenza su ogni Parte; poi riduce il suo Conteggio {0} di 1, innesca {2} una volta e riduce il suo Conteggio {3} di 1"
+      "desc": "A Fine Turno: Per ogni Parola Chiave, contro tutte le Parti nemiche con 2+ Conteggio, infligge {1} danni pari a {0} Potenza su ogni Parte; poi riduce il suo Conteggio {0} di 1, innesca {2} una volta e riduce il suo Conteggio {3} di 1"
     },
     {
       "id": "MRR507",
@@ -246,7 +250,7 @@
     },
     {
       "id": "GiveBuffOnFirstRoundStartPerWave",
-      "desc": "Primo Inizio Turno di un'ondata: ottiene {1} Potenza {0} e +{2} Conteggio {0}"
+      "desc": "Primo Inizio Turno di un'ondata: Ottiene {1} Potenza {0} e +{2} Conteggio {0}"
     },
     {
       "id": "GiveBuffOnBattleStartAR",
@@ -262,11 +266,11 @@
     },
     {
       "id": "MRR511PMinSpeedChangeSkill",
-      "desc": "#1 Alleato Schierato: perde un'Abilità 1, ma ottiene un'Abilità 3"
+      "desc": "#1 Alleato Schierato: Perde un'Abilità 1, ma ottiene un'Abilità 3"
     },
     {
       "id": "MRR512",
-      "desc": "A partire dal #7 Peccatore Schierato, all'inizio dello stesso turno in cui entra come riserva, recupera {0} PS, ottiene {2} {1} per questo incontro, e ottiene {3} Risorse E.G.O per ognuna delle sue Abilità 1, 2 e 3"
+      "desc": "A partire dal #7 Peccatore Schierato, all'inizio dello stesso turno in cui entra come Riserva, recupera {0} PS, ottiene {2} {1} per questo incontro, e ottiene {3} Risorse E.G.O per ognuna delle sue Abilità 1, 2 e 3"
     },
     {
       "id": "AddSinStockOnKillTargetByUsedSkillAttribute",
@@ -274,7 +278,7 @@
     },
     {
       "id": "MRR514",
-      "desc": "Quando un nemico entra in campo come riserva, infligge 5 Sanguinamento e +3 Sanguinamento contro suddetto nemici ad Inizio Combattimento. Se è presente un <Bramasangue> tra gli alleati: quando vengono soddisfatte le seguenti condizioni attiva Sanguinamento su tutti i nemici una volta e riduce il loro Conteggio Sanguinamento di 1"
+      "desc": "Quando un nemico entra in campo come Riserva, infligge 5 Sanguinamento e +3 Sanguinamento contro suddetto nemici ad Inizio Combattimento. Se è presente un <Bramasangue> tra gli alleati: quando vengono soddisfatte le seguenti condizioni attiva Sanguinamento su tutti i nemici una volta e riduce il loro Conteggio Sanguinamento di 1"
     },
     {
       "id": "EnemyLevelTextOnly",
@@ -290,7 +294,7 @@
     },
     {
       "id": "MRR503",
-      "desc": "{0} alleati con i PS minori recuperano {1} PS a Fine Turno (esclusi alleati in Panico o Corrosi)"
+      "desc": "{0} alleati che hanno i PS minori recuperano {1} PS a Fine Turno (esclusi alleati in Panico o Corrosi)"
     },
     {
       "id": "CriticalDamageBoostWithBuffUse",
@@ -314,7 +318,7 @@
     },
     {
       "id": "MRR552",
-      "desc": "Alla morte, 1 alleato con i PV correnti minori ottiene {1} {0} il turno successivo"
+      "desc": "Alla morte, 1 alleato con i PV correnti più bassi ottiene {1} {0} il turno successivo"
     },
     {
       "id": "MRR553",
@@ -354,27 +358,27 @@
     },
     {
       "id": "Heishou10212",
-      "desc": "Branco Heishou - Eccelsa del Ramo Mao Faust: subisce -5% danni dalle Abilità"
+      "desc": "Branco Heishou - Eccelsa del Ramo Mao Faust: Subisce -5% danni dalle Abilità"
     },
     {
       "id": "Heishou10411",
-      "desc": "Branco Heishou - Ramo Mao Ryōshū: se la Velocità di questa unità è più alta del bersaglio, infligge +5% danni"
+      "desc": "Branco Heishou - Ramo Mao Ryōshū: Se la Velocità di questa unità è più alta del bersaglio, infligge +5% danni"
     },
     {
       "id": "Heishou11112",
-      "desc": "Branco Heishou - Ramo Mao Outis: infligge +1 Conteggio Lacerazione Sul Colpo con un Attacco Unilaterale (una volta per turno)"
+      "desc": "Branco Heishou - Ramo Mao Outis: Infligge +1 Conteggio Lacerazione Sul Colpo con un Attacco Unilaterale (una volta per turno)"
     },
     {
       "id": "Heishou10912",
-      "desc": "Branco Heishou - Ramo Si Rodion: infligge 1 Lacerazione Su Colpo Critico (3 volte per turno)"
+      "desc": "Branco Heishou - Ramo Si Rodion: Infligge 1 Lacerazione Su Colpo Critico (3 volte per turno)"
     },
     {
       "id": "Heishou11212",
-      "desc": "Branco Heishou - Ramo Si Gregor: quando infligge danno da Lacerazione, ottiene +1 Conteggio Equilibrio (una volta per turno)"
+      "desc": "Branco Heishou - Ramo Si Gregor: Quando infligge danno da Lacerazione, ottiene +1 Conteggio Equilibrio (una volta per turno)"
     },
     {
       "id": "Heishou11014",
-      "desc": "Branco Heishou - Ramo You Sinclair: quando infligge Lacerazione con le Abilità, infligge 1 Bruciatura (3 volte per turno)"
+      "desc": "Branco Heishou - Ramo You Sinclair: Quando infligge Lacerazione con le Abilità, infligge 1 Bruciatura (3 volte per turno)"
     },
     {
       "id": "Heishou10114",
@@ -382,11 +386,11 @@
     },
     {
       "id": "GiveMpDmgAsValueOnRESelf",
-      "desc": "Ogni Fine Turno: gli alleati perdono {0} PS"
+      "desc": "Ogni Fine Turno: Gli alleati perdono {0} PS"
     },
     {
       "id": "GiveHpDmgAsValueAndIncreaseOnRESelf",
-      "desc": "Fine Turno: gli alleati subiscono {0} danni fissi ai PV. Il danno fisso incrementa di {1} ogni turno (max {2})"
+      "desc": "Fine Turno: Gli alleati subiscono {0} danni fissi ai PV. Il danno fisso incrementa di {1} ogni turno (max {2})"
     },
     {
       "id": "CantRecoverMpOverValue",
@@ -422,11 +426,11 @@
     },
     {
       "id": "Heishou10714",
-      "desc": "Branco Heishou - Eccelso del Ramo You Heathcliff: infligge 5% del danno Gola inflitto dalle Abilità Base come danno Ira"
+      "desc": "Branco Heishou - Eccelso del Ramo You Heathcliff: Infligge 5% del danno Gola inflitto dalle Abilità Base come danno Ira"
     },
     {
       "id": "Heishou10313",
-      "desc": "Branco Heishou - Ramo Wei Don Quixote: quando infligge Lacerazione con le Abilità, infligge 1 Annegamento (3 volte per turno)"
+      "desc": "Branco Heishou - Ramo Wei Don Quixote: Quando infligge Lacerazione con le Abilità, infligge 1 Annegamento (3 volte per turno)"
     },
     {
       "id": "MD7LimitGiveBuffAllyDie",

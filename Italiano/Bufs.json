@@ -1099,8 +1099,8 @@
     {
       "id": "InterlockingTime",
       "name": "Deflagrazione Differita",
-      "desc": "Riduce il danno finale del 30% e lo immagazzina. A 3 Stack, subisce danno fisso pari a 1.5 volte il danno accumulato, e ottiene 3 Rallentamento il turno successivo.",
-      "summary": "Riduci il danno finale del 30% e lo immagazzina. A 3 Stack, subisce danno fisso pari a 1.5 il danno accumulato, e ottiene 3 Rallentamento il turno successivo."
+      "desc": "Riduce il danno finale del 30% e lo immagazzina. A 3 Stack, subisce danno fisso pari a 1.5 volte il danno accumulato, e ottiene 3 Rallentamento il turno successivo",
+      "summary": "Riduci il danno finale del 30% e lo immagazzina. A 3 Stack, subisce danno fisso pari a 1.5 il danno accumulato, e ottiene 3 Rallentamento il turno successivo"
     },
     {
       "id": "TimeRental",
@@ -4053,6 +4053,18 @@
       "desc": "- Stack Max: 1\n- Fine Turno:\n· Ottiene 3 Bruciatura il turno successivo\n· Questo effetto scade",
       "summary": "",
       "flavor": "\"Tieni a mente, però, che la convenienza è sempre accompagnata da compromessi. Un'arma di questa struttura presenta lati negativi che un'arma standard dell'Officina Stigma non potrebbe possedere—penalità inevitabili che possono solo essere mitigate attraverso l'uso di Singolarità, il pinnacolo delle miriadi di innovazioni tecnologiche della Citta.\"\n\n\"Sarebbe doveroso riconoscere adeguatamente le straordinarie qualità delle Singolari—ehm. Tutto ciò è secondario all'argomento principale. Ritorniamo all'argomento in questione, Sinclair.\""
+    },
+    {
+      "id": "DriftingDimensionYisang",
+      "name": "Dimensional Castaway",
+      "desc": "Max Stack: 3\nBefore Getting Hit, gain Shield equal to (Stack)% HP (3 times per turn)",
+      "summary": ""
+    },
+    {
+      "id": "FourDimensionYisang",
+      "name": "Quadricolor Dimensions",
+      "desc": "- Max Stack: 4\n- Gain the following effects based on Stack:\n· 1+: Offense Level +1\n· 2+: Defense Level +2\n· 3+: Gain +1 more Charge Count from this unit's Skills\n· 4+: This unit's Skills deal +(Charge Potency x 4)% damage (max 20%)\n\n- If this unit gains this effect past its max cap, this unit gains the surplus Stack next turn\n- Turn End: Lose 1 Stack",
+      "summary": ""
     }
   ]
 }
