@@ -2,158 +2,158 @@
   "dataList": [
     {
       "id": "TipsinessRail",
-      "name": "Tipsy",
-      "desc": "Lose Clash Power equal to Stack (max 5)",
-      "summary": "Lose Clash Power equal to Stack"
+      "name": "Alticcio",
+      "desc": "Perde Potere Scontro pari alle Stack (Max 5)",
+      "summary": "Perde Potere Scontro pari alle Stack"
     },
     {
       "id": "PassedPortal_Red",
-      "name": "Hemorrhaging Dimension",
-      "desc": "Damage Up +10%",
-      "summary": "Damage Up +10%"
+      "name": "Dimensione Emorragica",
+      "desc": "Danno Aumentato +10%",
+      "summary": "Danno Aumentato +10%"
     },
     {
       "id": "PassedPortal_Green",
-      "name": "Poisonous Dimension",
-      "desc": "Max PV +20%",
-      "summary": "Max PV +20%"
+      "name": "Dimensione Velenosa",
+      "desc": "PV Max +20%",
+      "summary": "PV Max +20%"
     },
     {
       "id": "PassedPortal_Yellow",
-      "name": "Tremoring Dimension",
-      "desc": "Min & Max Speed +1",
-      "summary": "Boost Speed by 1"
+      "name": "Dimensione Vibrante",
+      "desc": "Velocità Min & Max +1",
+      "summary": "Aumenta la Velocità di 1"
     },
     {
       "id": "PassedPortal_Blue",
-      "name": "Electrifying Dimension",
-      "desc": "Coin Power +1",
-      "summary": "Coin Power +1"
+      "name": "Dimensione Elettrificante",
+      "desc": "Potere Moneta +1",
+      "summary": "Potere Moneta +1"
     },
     {
       "id": "FairyCharm",
-      "name": "Charmed",
-      "desc": "- All damage dealt to Fairy reduced to 0\n- Expires when Fairy dies",
-      "summary": "Damage fixed to 0"
+      "name": "Incantato",
+      "desc": "- Tutto il danno inflitto alla Fata è ridotto a 0\n- Expires when Fairy dies",
+      "summary": "Danno fisso a 0"
     },
     {
       "id": "DecoyRegenerated",
-      "name": "Regenerate",
-      "desc": "Gain 1 every time a Part  is restored",
+      "name": "Rigenerazione",
+      "desc": "Ottiene 1 Stack ogni volta che una Parte viene ripristinata",
       "summary": ""
     },
     {
       "id": "WaveFoxUmbrella",
-      "name": "Protection Umbrella",
-      "desc": "All parts gain Protection equal to Stack\nWhen using the \"Waiting\" Skill, spawn Old Umbrella equal to Stack\n1 Spent every time an Umbrella is broken"
+      "name": "Protezione dell'Ombrello",
+      "desc": "Tutte le parti ottengono protezione pari alle Stack\nQuando usa l'Abilità \"Waiting\", evoca Old Umbrella in base alle Stack\nUsa 1 Stack ogni volta che un Umbrella viene rotto"
     },
     {
       "id": "InterlockingTime_Re",
-      "name": "Interlocking Time",
-      "desc": "Reduce final damage by 30% and store it. At 3 Stacks, take fixed damage equal to 2 times the accumulated damage. Gain Bind next turn equal to Stack",
-      "summary": "Reduce final damage by 30% and store it. At 3 Stacks, take fixed damage equal to 2 times the accumulated damage. Gain Bind next turn equal to Stack"
+      "name": "Tempo Collegato",
+      "desc": "Riduce il danno finale del 30% e lo immagazina. A 3 Stack, subisce danno fisso pari a 2 volte il danno immagazzinato. Ottiene Lentezza pari alle Stack il turno successivo",
+      "summary": "Riduce il danno finale del 30% e lo immagazina. A 3 Stack, subisce danno fisso pari a 2 volte il danno immagazzinato. Ottiene Lentezza pari alle Stack il turno successivo"
     },
     {
       "id": "TimeRental_Re",
-      "name": "Borrowed Time",
-      "desc": "Turn End:\n- Gain 3 Haste, 2 Damage Up, and 2 Offense Level Up\n- If only 1 Stack remains, gain 3 Bind, 1 Attack Power Down, and 2 Fragile next turn\n- Lose 1 Stack",
+      "name": "Prendere Tempo",
+      "desc": "Fine Turno:\n- Ottiene 3 Rapidità, 2 Danno Aumentato e 2 Livello Offensivo\n- Se rimane solo 1 Stack, ottiene 3 Lentezza, 1 Potere Attacco Diminuito e 2 Fragile il turno successivo\n- Perde 1 Stack",
       "summary": "-"
     },
     {
       "id": "ReattachedCurseTag_Re",
-      "name": "Reattached Curse Talisman",
-      "desc": "- Max Stack: 12\n- At 8- Stacks, deal +30% damage\n- At 9+ Stacks, gain 5 Bind at Turn Start\n- At 12 Stacks, gain 5 Attack Power Down at Turn Start",
-      "summary": "At 9+, gain 5 Bind at Turn Start\nAt 12+, gain 5 Attack Power Down at Turn Start"
+      "name": "Talismano Maledetto Rincollato",
+      "desc": "- Stack Max: 12\n- A 8- Stack, infligge +30% danni\n- A 9+ Stack, ottiene 5 Lentezza a Inizio Turno\n- A 12+ Stack, ottiene 5 Potere Attacco Diminuito a Inizio Turno",
+      "summary": "A 9+, ottiene 5 Lentezza a Inizio Turno\nA 12+, ottiene 5 Potere Attacco Diminuito a Inizio Turno"
     },
     {
       "id": "WrappedCurseTagRe",
-      "name": "Entangled Curse Talisman",
-     "desc": "- Max Stack: 9\n- Deal +1% damage for every Stack\n- At 9 Stacks, gain 2 Attack Power Down at Turn Start\nRemove this effect at the end of the wave",
-      "summary": "Deal +1% damage per Stack; at 9 Stacks, gain 2 Attack Power Down at Turn Start"
+      "name": "Talismano Maledetto Intrappolato",
+     "desc": "- Stack Max: 9\n- Infligge +1% danni per ogni Stack\n- A 9 Stack, ottiene 2 Potere Attacco Diminuito a Inizio Turno\nRimuove questo effetto alla fine dell'ondata",
+      "summary": "Infligge +1% danni per ogni Stack; a 9 Stack, ottiene 2 Potere Attacco Diminuito a Inizio Turno"
     },
     {
       "id": "AccumulatedPast",
-      "name": "Accumulated Past",
-      "desc": "Generates a Rose unit whose Affinity corresponds to the most-owned Skill Affinity of the target inflicted with this effect\n- If this effect causes the number of Rose units on the field to exceed 7, remove Rose units that are bound with defeated Sinners equal to the excess amount (does not count as death)",
+      "name": "Passato Accumulato",
+      "desc": "Genera una Rosa la cui Affinità corrisponde all'Affinità Peccato posseduta in quantità maggiore dal bersaglio afflitto da questo effetto\n- Se questo effetto fà si che le Rose in campo siano maggiore a 7, rimuove le Rose che sono collegate ai Peccatori sconfitti pari alla quantità in eccesso (non conta come morte)",
       "summary": ""
     },
     {
       "id": "PrepareSinRose",
-      "name": "Crown of Thorns",
-      "desc": "Generates a Rose unit whose Affinity corresponds to the most-owned Skill Affinity of the target inflicted with this effect",
+      "name": "Corona di Spine",
+      "desc": "Genera una Rosa la cui Affinità corrisponde all'Affinità Peccato posseduta in quantità maggiore dal bersaglio afflitto da questo effetto",
       "summary": ""
     },
     {
       "id": "BloomingRose",
-      "name": "Blooming Sin",
-      "desc": "Turn End:\n- Gain 1 Stack\n- Bound Identity loses HP equal to 25% of max HP\n- Lose 10% of E.G.O Resource corresponding to the Rose's (rounded down)\n- The Sign of Roses's Core heals HP equal to 5% of the Core's max HP\n\nAt 4 Stacks,\n- Bound Identity dies\n- Lose all of E.G.O Resource corresponding to the Rose's",
+      "name": "Peccato Sbocciante",
+      "desc": "Fine Turno:\n- Ottiene 1 Stack\n- Le Identità collegate perdono PV pari al 25% dei PV max\n- Perde il 10% delle Risorse E.G.O corrispondenti a quelle della Rosa (arrotondato per difetto)\n- Il Nucleo di Segno delle Rose recupera PV pari al 5% dei PV max del Nucleo\n\nA 4 Stack,\n- L'Identità collegata muore\n- Perde tutte le Risorse E.G.O corrispondenti a quella della Rosa",
       "summary": ""
     },
     {
       "id": "EatingSin",
-      "name": "Drenched Sin",
-      "desc": "Max HP increases by (E.G.O resource drained)%\n\nOn Death\n- Recover E.G.O Resource it drained\n- Heal bound Identity's HP by (25% of Identity's Max HP * Blooming Sin Stack)",
+      "name": "Peccato Inzuppato",
+      "desc": "I PV Max aumentano di (risorse E.G.O risucchiate)%\n\nAlla Morte\n- Recupera le Risorse E.G.O che ha risucchiato\n- Recupera i PV dell'Identità collegata del (25% dei PV max dell'Identità * Stack di Peccato Sbocciante)",
       "summary": ""
     },
     {
       "id": "EnhanceRose",
       "name": "Power-up State",
-      "desc": "Power-up State passive activated",
+      "desc": "Passiva Power-up State attivata",
       "summary": ""
     },
     {
       "id": "FullBloomRose_Crimson",
-      "name": "Bloomed Rose",
-      "desc": "Increased damage dealt & taken with Identity's Wrath Affinity",
+      "name": "Rosa Sbocciata",
+      "desc": "Incrementa il danno inflitto e subito con le Affinità Ira delle Identità",
       "summary": ""
     },
     {
       "id": "FullBloomRose_Scarlet",
-      "name": "Bloomed Rose",
-      "desc": "Increased damage dealt & taken with Identity's Lust Affinity",
+      "name": "Rosa Sbocciata",
+      "desc": "Incrementa il danno inflitto e subito con le Affinità Lussuria delle Identità",
       "summary": ""
     },
     {
       "id": "FullBloomRose_Amber",
-      "name": "Bloomed Rose",
-      "desc": "Increased damage dealt & taken with Identity's Sloth Affinity",
+      "name": "Rosa Sbocciata",
+      "desc": "Incrementa il danno inflitto e subito con le Affinità Accidia delle Identità",
       "summary": ""
     },
     {
       "id": "FullBloomRose_Shamrock",
-      "name": "Bloomed Rose",
-      "desc": "Increased damage dealt & taken with Identity's Gluttony Affinity",
+      "name": "Rosa Sbocciata",
+      "desc": "Incrementa il danno inflitto e subito con le Affinità Gola delle Identità",
       "summary": ""
     },
     {
       "id": "FullBloomRose_Azure",
-      "name": "Bloomed Rose",
-      "desc": "Increased damage dealt & taken with Identity's Gloom Affinity",
+      "name": "Rosa Sbocciata",
+      "desc": "Incrementa il danno inflitto e subito con le Affinità Tristezza delle Identità",
       "summary": ""
     },
     {
       "id": "FullBloomRose_Indigo",
-      "name": "Bloomed Rose",
-      "desc": "Increased damage dealt & taken with Identity's Pride Affinity",
+      "name": "Rosa Sbocciata",
+      "desc": "Incrementa il danno inflitto e subito con le Affinità Superbia delle Identità",
       "summary": ""
     },
     {
       "id": "FullBloomRose_Violet",
-      "name": "Bloomed Rose",
-      "desc": "Increased damage dealt & taken with Identity's Envy Affinity",
+      "name": "Rosa Sbocciata",
+      "desc": "Incrementa il danno inflitto e subito con le Affinità Invidia delle Identità",
       "summary": ""
     },
     {
       "id": "KalpaVine",
-      "name": "Brambles of Eternity",
-      "desc": "All characters deal less damage\nAll characters take less damage",
+      "name": "Rovi dell'Eternità",
+      "desc": "Tutti i personaggi infliggono meno danno\nTutti i personaggi subiscono meno danno",
       "summary": ""
     },
     {
       "id": "InterlockingTimeBokGak",
-      "name": "Interlocking Time",
-      "desc": "- Reduce final damage by 30% and store it\n- At 3 Stacks, take fixed damage equal to 2 times the accumulated damage and remove this effect\n- Turn End: Gain Bind next turn equal to Stack\n- Remove this effect in waves that do not feature Refracted T Corp. Class 3 Collector",
-      "summary": "Reduce final damage by 30% and store it. At 3 Stacks, take fixed damage equal to 2 times the accumulated damage. Gain Bind next turn equal to Stack"
+      "name": "Tempo Collegato",
+      "desc": "- Riduce il danno finale del 30% e lo immagazina\n- A 3 Stack, subisce danno fisso pari a 2 volte il danno immagazzinato e rimuove questo effetto\n- Fine Turno: Ottiene Lentezza pari alle Stack il turno successivo\n- Rimuove questo effetto nelle ondate dove non è presente alcun Membro Collezionatore Classe 3 della T Corp. Rifratto",
+      "summary": "Riduce il danno finale del 30% e lo immagazina.  A 3 Stack, subisce danno fisso pari a 2 volte il danno immagazzinato. Ottiene Lentezza pari alle Stack il turno successivo"
     }
   ]
 }

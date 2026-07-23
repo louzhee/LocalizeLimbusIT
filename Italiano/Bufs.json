@@ -30,7 +30,7 @@
     },
     {
       "id": "Binding",
-      "name": "Rallentamento",
+      "name": "Lentezza",
       "desc": "Velocità -{0} per questo turno.",
       "summary": "VEL -{0}",
       "undefined": "-"
@@ -343,8 +343,8 @@
     {
       "id": "PinkRibbon_Ishmael",
       "name": "Nastri Rosa",
-      "desc": "Aumenta le Stack di 1 ogni volta che quest'unità lancia una Moneta Offensiva.\nA Fine Turno: Ottiene Rallentamento in base alle Stack, poi rimuove quest'effetto.",
-      "summary": "Ottiene {0} Rallentamento"
+      "desc": "Aumenta le Stack di 1 ogni volta che quest'unità lancia una Moneta Offensiva.\nA Fine Turno: Ottiene Lentezza in base alle Stack, poi rimuove quest'effetto.",
+      "summary": "Ottiene {0} Lentezza"
     },
     {
       "id": "Muckworm",
@@ -395,7 +395,7 @@
       "id": "PenetrateDamageUp",
       "name": "Danno Perforante Aumentato",
       "desc": "Infligge +{0}0% danni con le Abilità Perforanti durante questo turno. (Max 100%)",
-      "summary": "Danni Perforanti +{0}0%"
+      "summary": "Danno Perforante +{0}0%"
     },
     {
       "id": "HitDamageUp",
@@ -406,17 +406,17 @@
     {
       "id": "SlashResistDown",
       "name": "Debolezza al Tagliente",
-      "desc": "Aumenta la Resistenza ai Danni Taglienti di {0:F1}"
+      "desc": "Aumenta la Resistenza al Danno Tagliente di {0:F1}"
     },
     {
       "id": "PenetrateResistDown",
       "name": "Debolezza al Perforante",
-      "desc": "Aumenta la Resistenza ai Danni Perforanti di {0:F1}"
+      "desc": "Aumenta la Resistenza al Danno Perforante di {0:F1}"
     },
     {
       "id": "HitResistDown",
       "name": "Debolezza al Contundente",
-      "desc": "Aumenta la Resistenza ai Danni Contundenti di {0:F1}"
+      "desc": "Aumenta la Resistenza al Danno Contundente di {0:F1}"
     },
     {
       "id": "SlashDamageDown",
@@ -685,14 +685,14 @@
     {
       "id": "Greedy",
       "name": "Smania",
-      "desc": "Ottiene 2 Fragile e 10 Rallentamento questo turno. Inoltre, ottiene uno Slot Abilità in più e cambia comportamento.",
-      "summary": "Ottiene 2 Fragile e 10 Rallentamento"
+      "desc": "Ottiene 2 Fragile e 10 Lentezza questo turno. Inoltre, ottiene uno Slot Abilità in più e cambia comportamento.",
+      "summary": "Ottiene 2 Fragile e 10 Lentezza"
     },
     {
       "id": "Desire",
       "name": "Pulsione",
-      "desc": "A Fine Turno: A 5+ Stack, subisce 30 danni ai PS, ottiene 2 Fragile e 10 Rallentamento, e rimuove quest'effetto.",
-      "summary": "Subisce 30 danni ai PS e ottiene 2 Fragile e 10 Rallentamento"
+      "desc": "A Fine Turno: A 5+ Stack, subisce 30 danni ai PS, ottiene 2 Fragile e 10 Lentezza, e rimuove quest'effetto.",
+      "summary": "Subisce 30 danni ai PS e ottiene 2 Fragile e 10 Lentezza"
     },
     {
       "id": "GreedyReady",
@@ -730,7 +730,7 @@
     {
       "id": "Cromer_Madness",
       "name": "Purezza",
-      "desc": "Tutte le parti ottengono 3 Rallentamento e 3 Danno Aumentato, e le loro resistenze fisiche cambiano in 'Fatale'."
+      "desc": "Tutte le parti ottengono 3 Lentezza e 3 Danno Aumentato, e le loro resistenze fisiche cambiano in 'Fatale'."
     },
     {
       "id": "Hardening",
@@ -763,92 +763,92 @@
     {
       "id": "Whistle_Fear",
       "name": "Fischi Spaventosi",
-      "desc": "A inizio Turno: Ottiene 1 Rallentamento e 1 Paralisi.",
-      "summary": "Ottiene 1 Rallentamento & 1 Paralisi"
+      "desc": "A inizio Turno: Ottiene 1 Lentezza e 1 Paralisi.",
+      "summary": "Ottiene 1 Lentezza & 1 Paralisi"
     },
     {
       "id": "SlashTakeDamageDown",
       "name": "Protezione Tagliente",
       "desc": "Subisce -{0}0% danni dalle Abilità Taglienti in questo turno. (Max 100%)",
-      "summary": "Danni Taglienti subiti -{0}0%"
+      "summary": "Danni Taglienti subito -{0}0%"
     },
     {
       "id": "PenetrateTakeDamageDown",
       "name": "Protezione Perforante",
       "desc": "Subisce -{0}0% danni dalle Abilità perforanti in questo turno. (Max 100%)",
-      "summary": "Danni Perforanti subiti -{0}0%"
+      "summary": "Danno Perforante subito -{0}0%"
     },
     {
       "id": "HitTakeDamageDown",
       "name": "Protezione Contundente",
       "desc": "Subisce -{0}0% danni dalle Abilità contundenti in questo turno. (Max 100%)",
-      "summary": "Danni Contundenti subiti -{0}0%"
+      "summary": "Danni Contundenti subito -{0}0%"
     },
     {
       "id": "CrimsonTakeDamageDown",
       "name": "Protezione Ira",
       "desc": "Subisce -{0}0% danni dalle Abilità che infliggono danni da Ira per questo turno. (Max 100%)",
-      "summary": "Danni da Ira subiti -{0}0%"
+      "summary": "Danni da Ira subito -{0}0%"
     },
     {
       "id": "ScarletTakeDamageDown",
       "name": "Protezione Lussuria",
       "desc": "Subisce -{0}0% danni dalle Abilità che infliggono danni da Lussuria per questo turno. (Max 100%)",
-      "summary": "Danni da Lussuria subiti -{0}0%"
+      "summary": "Danni da Lussuria subito -{0}0%"
     },
     {
       "id": "AmberTakeDamageDown",
       "name": "Protezione Accidia",
       "desc": "Subisce -{0}0% danni dalle Abilità che infliggono danni da Accidia per questo turno. (Max 100%)",
-      "summary": "Danni da Accidia subiti -{0}0%"
+      "summary": "Danni da Accidia subito -{0}0%"
     },
     {
       "id": "ShamrockTakeDamageDown",
       "name": "Protezione Gola",
       "desc": "Subisce -{0}0% danni dalle Abilità che infliggono danni da Gola per questo turno. (Max 100%)",
-      "summary": "Danni da Gola subiti-{0}0%"
+      "summary": "Danni da Gola subito-{0}0%"
     },
     {
       "id": "AzureTakeDamageDown",
       "name": "Protezione Tristezza",
       "desc": "Subisce -{0}0% danni dalle Abilità che infliggono danni da Tristezza per questo turno. (Max 100%)",
-      "summary": "Danni da Tristezza subiti -{0}0%"
+      "summary": "Danni da Tristezza subito -{0}0%"
     },
     {
       "id": "IndigoTakeDamageDown",
       "name": "Protezione Superbia",
       "desc": "Subisce -{0}0% danni dalle Abilità che infliggono danni da Superbia per questo turno. (Max 100%)",
-      "summary": "Danni da Superbia subiti -{0}0%"
+      "summary": "Danni da Superbia subito -{0}0%"
     },
     {
       "id": "VioletTakeDamageDown",
       "name": "Protezione Invidia",
       "desc": "Subisce -{0}0% Danni dalle Abilità che infliggono danni da invidia per questo turno. (Max 100%)",
-      "summary": "Danno da Invidia subiti -{0}0%"
+      "summary": "Danno da Invidia subito -{0}0%"
     },
     {
       "id": "SlashTakeDamageUp",
       "name": "Fragilità Tagliente",
-      "desc": "Subisce +{0}0% danni dalle Abilità che infliggono danni da taglio per questo turno. (Max 100%)",
-      "summary": "Danni da Tagliente subiti +{0}0%"
+      "desc": "Subisce +{0}0% danni dalle Abilità che infliggono danno tagliente per questo turno. (Max 100%)",
+      "summary": "Danno Tagliente subito +{0}0%"
     },
     {
       "id": "PenetrateTakeDamageUp",
       "name": "Fragilità Perforante",
-      "desc": "Subisce +{0}0% danni dalle Abilità che infliggono danni perforanti per questo turno. (Max 100%)",
-      "summary": "Danni Perforanti subiti +{0}0%"
+      "desc": "Subisce +{0}0% danni dalle Abilità che infliggono danno Perforante per questo turno. (Max 100%)",
+      "summary": "Danno Perforante subito +{0}0%"
     },
     {
       "id": "HitTakeDamageUp",
       "name": "Fragilità Contundente",
-      "desc": "Subisce +{0}0% danni dalle Abilità che infliggono danni contundenti per questo turno. (Max 100%)",
-      "summary": "Danni Contundente subiti +{0}0%"
+      "desc": "Subisce +{0}0% danni dalle Abilità che infliggono danno contundente per questo turno. (Max 100%)",
+      "summary": "Danno Contundente subito +{0}0%"
     },
     {
       "id": "CrimsonTakeDamageUp",
       "name": "Fragilità Ira",
       "desc": "Subisce +{0}0% danni dalle Abilità che infliggono danni da Ira per questo turno. (Max 100%)",
-      "summary": "Danni da Ira subiti +{0}0%"
+      "summary": "Danni da Ira subito +{0}0%"
     },
     {
       "id": "ScarletTakeDamageUp",
@@ -860,13 +860,13 @@
       "id": "AmberTakeDamageUp",
       "name": "Fragilità Accidia",
       "desc": "Subisce +{0}0% danni dalle Abilità che infliggono danni da Accidia per questo turno. (Max 100%)",
-      "summary": "Danni da Accidia subiti +{0}0%"
+      "summary": "Danni da Accidia subito +{0}0%"
     },
     {
       "id": "ShamrockTakeDamageUp",
       "name": "Fragilità Gola",
       "desc": "Subisce +{0}0% danni dalle Abilità che infliggono danni da Gola per questo turno. (Max 100%)",
-      "summary": "Danni da Gola subiti +{0}0%"
+      "summary": "Danni da Gola subito +{0}0%"
     },
     {
       "id": "AzureTakeDamageUp",
@@ -908,7 +908,7 @@
       "id": "MarkOfHeresy",
       "name": "Sguardo",
       "desc": "Subisce +20% danni aggiuntivi dalle Abilità Perforanti e Contundenti per questo turno.\nL'alleato che uccide il nemico marchiato recupera 10 PS; se l'alleato appartiene ai 'Fanatici di N.Corp', ottiene inoltre 1 Fanatismo al turno successivo.",
-      "summary": "Danni Perforanti e Contundenti subiti +20%"
+      "summary": "Danno Perforante e Contundente subito +20%"
     },
     {
       "id": "HitResultUp",
@@ -1021,8 +1021,8 @@
     {
       "id": "ReattachedCurseTag",
       "name": "Talismano Maledetto Rincollato",
-      "desc": "A 9+, ottiene 5 Rallentamento A Inizio Turno.\nA 12+, ottiene 5 Potere Attacco Diminuito A Inizio Turno.",
-      "summary": "A 9+, ottiene 5 Rallentamento A Inizio Turno.\nA 12+, ottiene 5 Potere Attacco Diminuito A Inizio Turno."
+      "desc": "A 9+, ottiene 5 Lentezza A Inizio Turno.\nA 12+, ottiene 5 Potere Attacco Diminuito A Inizio Turno.",
+      "summary": "A 9+, ottiene 5 Lentezza A Inizio Turno.\nA 12+, ottiene 5 Potere Attacco Diminuito A Inizio Turno."
     },
     {
       "id": "ElectricStorage",
@@ -1076,7 +1076,7 @@
       "id": "ATL_EndureCombustion",
       "name": "Restistenza a Bruciatura",
       "desc": "Quando subisce danno da Bruciatura, riduce il danno del {0}0% (Max 10)",
-      "summary": "Quando subisce danno da Bruciatura, {0}0% danno in meno"
+      "summary": "Quando subisce danno da Bruciatura, {0}0% danni in meno"
     },
     {
       "id": "Resonate",
@@ -1099,14 +1099,14 @@
     {
       "id": "InterlockingTime",
       "name": "Deflagrazione Differita",
-      "desc": "Riduce il danno finale del 30% e lo immagazzina. A 3 Stack, subisce danno fisso pari a 1.5 volte il danno accumulato, e ottiene 3 Rallentamento il turno successivo",
-      "summary": "Riduci il danno finale del 30% e lo immagazzina. A 3 Stack, subisce danno fisso pari a 1.5 il danno accumulato, e ottiene 3 Rallentamento il turno successivo"
+      "desc": "Riduce il danno finale del 30% e lo immagazzina. A 3 Stack, subisce danno fisso pari a 1.5 volte il danno accumulato, e ottiene 3 Lentezza il turno successivo",
+      "summary": "Riduci il danno finale del 30% e lo immagazzina. A 3 Stack, subisce danno fisso pari a 1.5 il danno accumulato, e ottiene 3 Lentezza il turno successivo"
     },
     {
       "id": "TimeRental",
       "name": "Prendere Tempo",
-      "desc": "A Fine Turno: Ottiene 3 Rapidità e 2 Danno Aumentato; se rimane 1 Stack, ottiene 4 Rallentamento e 1 Potere Attacco Diminuito",
-      "summary": "A Fine Turno: Ottiene 3 Rapidità e 2 Danno Aumentato; se rimane 1 Stack, ottiene 4 Rallentamento e 1 Potere Attacco Diminuito"
+      "desc": "A Fine Turno: Ottiene 3 Rapidità e 2 Danno Aumentato; se rimane 1 Stack, ottiene 4 Lentezza e 1 Potere Attacco Diminuito",
+      "summary": "A Fine Turno: Ottiene 3 Rapidità e 2 Danno Aumentato; se rimane 1 Stack, ottiene 4 Lentezza e 1 Potere Attacco Diminuito"
     },
     {
       "id": "Bull_FadedHeat",
@@ -1134,8 +1134,8 @@
     {
       "id": "Bull_BuzzingEmotion",
       "name": "Sentimenti Altalenanti",
-      "desc": "A inizio Turno: ottiene in modo casuale Potere Attacco Diminuito, Paralisi, o Rallentamento in base alle Stack dell'effetto, in seguito quest'effetto viene rimosso",
-      "summary": "A inizio Turno: ottiene casualmente Potere Attacco Diminuito, Paralisi, or Rallentamento in base alle Stack dell'effetto, in seguito quest'effetto viene rimosso"
+      "desc": "A inizio Turno: ottiene in modo casuale Potere Attacco Diminuito, Paralisi, o Lentezza in base alle Stack dell'effetto, in seguito quest'effetto viene rimosso",
+      "summary": "A inizio Turno: ottiene casualmente Potere Attacco Diminuito, Paralisi, or Lentezza in base alle Stack dell'effetto, in seguito quest'effetto viene rimosso"
     },
     {
       "id": "Crazy_LowMorale",
@@ -1182,8 +1182,8 @@
     {
       "id": "Fragile_Mind_LowMorale",
       "name": "Mente Pericolosa",
-      "desc": "A inizio Turno: Ottiene 2 Potere Attacco Aumentato e 3 Rallentamento",
-      "summary": "A inizio Turno: Ottiene 2 Potere Attacco Aumentato e 3 Rallentamento"
+      "desc": "A inizio Turno: Ottiene 2 Potere Attacco Aumentato e 3 Lentezza",
+      "summary": "A inizio Turno: Ottiene 2 Potere Attacco Aumentato e 3 Lentezza"
     },
     {
       "id": "Fragile_Mind_Panic",
@@ -1194,8 +1194,8 @@
     {
       "id": "ErodingMind",
       "name": "Mente Erosa",
-      "desc": "A inizio Turno: Ottiene 2 Potere Attacco Diminuito, 2 Fragile, e 5 Rallentamento",
-      "summary": "A inizio Turno: Ottiene 2 Potere Attacco Diminuito, 2 Fragile, e 5 Rallentamento"
+      "desc": "A inizio Turno: Ottiene 2 Potere Attacco Diminuito, 2 Fragile, e 5 Lentezza",
+      "summary": "A inizio Turno: Ottiene 2 Potere Attacco Diminuito, 2 Fragile, e 5 Lentezza"
     },
     {
       "id": "Blue_LowMorale",
@@ -1270,7 +1270,7 @@
     {
       "id": "DistortedDongrangEmptyMark",
       "name": "Marchio Vuoto",
-      "desc": "Preso di mira da Dongrang. Ottiene 2 Rallentamento ogni turno, e subisce +50% danni da Dongrang."
+      "desc": "Preso di mira da Dongrang. Ottiene 2 Lentezza ogni turno, e subisce +50% danni da Dongrang."
     },
     {
       "id": "DistortedDongrangEarnestAchievement",
@@ -1957,7 +1957,7 @@
     {
       "id": "TimeRentalTwoPersonality",
       "name": "Tempo in Prestito",
-      "desc": "A Fine Turno, con 2+ Conteggio:\n- Ottiene {1} Rapidità, Potere Scontro, e Fragile il turno successivo\n- Se quest'unità dovesse ottienere più Rallentamento che Rapidità il turno successivo, L'effetto di Tempo in Prestito scade al turno successivo, e questa unità viene Stordita\n\nA Fine Turno: A 1 Conteggio, ottiene {0} Rallentamento il turno successivo\nA Fine Turno: Ottiene 1 Potenza, perde Conteggio",
+      "desc": "A Fine Turno, con 2+ Conteggio:\n- Ottiene {1} Rapidità, Potere Scontro, e Fragile il turno successivo\n- Se quest'unità dovesse ottienere più Lentezza che Rapidità il turno successivo, L'effetto di Tempo in Prestito scade al turno successivo, e questa unità viene Stordita\n\nA Fine Turno: A 1 Conteggio, ottiene {0} Lentezza il turno successivo\nA Fine Turno: Ottiene 1 Potenza, perde Conteggio",
       "summary": ""
     },
     {
@@ -2171,7 +2171,7 @@
     {
       "id": "Snare",
       "name": "Lazo",
-      "desc": "- Valore Massimo: 3\n- A Fine Turno: ottiene un Conteggio Lacerazione pari al valore corrente di velocità di questa unità (max 5), e ottiene 1 Rallentamento il turno successivo\n- A Fine Turno: riduci di 1",
+      "desc": "- Valore Massimo: 3\n- A Fine Turno: ottiene un Conteggio Lacerazione pari al valore corrente di velocità di questa unità (max 5), e ottiene 1 Lentezza il turno successivo\n- A Fine Turno: riduci di 1",
       "summary": "",
       "undefined": "-"
     },
@@ -2462,7 +2462,7 @@
     {
       "id": "BirdCage",
       "name": "Gabbia Bruciante",
-      "desc": "Stack Max: 5\nSe quest'unità ha Bruciatura, ottiene +0.1 Resistenza ad Ira per ogni sua Stack (non può andare oltre la Resistenza ad Ira massima, 2.0, con quest'effetto)\nA Fine Turno: ottiene Rallentamento pari alle Stack nel turno successivo\nA Fine Turno: dimezza le Stack (arrotondate per difetto)\n※ Non può ottenere altre Stack di quest'effetto mentre l'effetto è già attivo",
+      "desc": "Stack Max: 5\nSe quest'unità ha Bruciatura, ottiene +0.1 Resistenza ad Ira per ogni sua Stack (non può andare oltre la Resistenza ad Ira massima, 2.0, con quest'effetto)\nA Fine Turno: ottiene Lentezza pari alle Stack nel turno successivo\nA Fine Turno: dimezza le Stack (arrotondate per difetto)\n※ Non può ottenere altre Stack di quest'effetto mentre l'effetto è già attivo",
       "summary": "Resistenza ad Ira +0.1 per ogni Stack",
       "undefined": "-"
     },
@@ -2497,7 +2497,7 @@
     {
       "id": "BurstZilu",
       "name": "Anatema 【Crepa】",
-      "desc": "- Stack Base: 3\n- Quando viene attivata Lacerazione mentre questa unità è afflitta da Anatema, perde 1 Stack, e ottiene 1 Rallentamento il turno successivo\n· Quando questo effetto viene attivato, se questa unità dovesse ottenere 3 o più Rallentamento il turno successivo, perde 2 Stack al posto di ottenere Rallentamento\n- A 0 Stack, subisce danni da Gola pari alla potenza Lacerazione su questa unità\n※ Non può ottenere altre Stack di questo effetto quando è già attivo.",
+      "desc": "- Stack Base: 3\n- Quando viene attivata Lacerazione mentre questa unità è afflitta da Anatema, perde 1 Stack, e ottiene 1 Lentezza il turno successivo\n· Quando questo effetto viene attivato, se questa unità dovesse ottenere 3 o più Lentezza il turno successivo, perde 2 Stack al posto di ottenere Lentezza\n- A 0 Stack, subisce danni da Gola pari alla potenza Lacerazione su questa unità\n※ Non può ottenere altre Stack di questo effetto quando è già attivo.",
       "summary": "",
       "undefined": "-"
     },
@@ -2665,7 +2665,7 @@
     {
       "id": "FellBulletPersonality",
       "name": "Proiettile Crudele",
-      "desc": "Stack Max: 1\n+3% danno Critico per ogni Ricordi Lacerati(max 18%)\nSul Colpo, infligge 1 Sanguinamento (3 per turno)\n Se Uccide, ottiene 3 Equilibrio e +2 Conteggio Equilibrio (2 volte per turno)\nSi esaurisce a Fine Turno",
+      "desc": "Stack Max: 1\n+3% danni Critico per ogni Ricordi Lacerati(max 18%)\nSul Colpo, infligge 1 Sanguinamento (3 per turno)\n Se Uccide, ottiene 3 Equilibrio e +2 Conteggio Equilibrio (2 volte per turno)\nSi esaurisce a Fine Turno",
       "summary": "Infligge più danni Critici, infligge più Sanguinamento",
       "undefined": "-"
     },
@@ -2969,22 +2969,22 @@
     {
       "id": "HurtNightStiletto",
       "name": "Ferita Aperta",
-      "desc": "- Stack Max: 2\n- Fine Turno: Ottiene 1 Rallentamento il turno successivo\n- Fine Turno: A 2 Stack, sostituisce questo effetto con Ferita Profonda il turno successivo",
-      "summary": "Ottiene Rallentamento il turno successivo",
+      "desc": "- Stack Max: 2\n- Fine Turno: Ottiene 1 Lentezza il turno successivo\n- Fine Turno: A 2 Stack, sostituisce questo effetto con Ferita Profonda il turno successivo",
+      "summary": "Ottiene Lentezza il turno successivo",
       "undefined": "-"
     },
     {
       "id": "CriHurtNightStiletto",
       "name": "Ferita Profonda",
-      "desc": "- Stack Base: 3\n- Allo Scoppio Vibrazione, ottiene +1 Conteggio Sanguinamento (2 volte per turno)\n- Non può ottenere Ferita Aperta (negli Incontri Mirati, la Parte)\n- Fine Turno: Ottiene (Stack - 1) Rallentamento il turno successivo\n- Fine Turno: Riduce le Stack di 1",
-      "summary": "Ottiene Conteggio Sanguinamento\nOttiene Rallentamento il turno successivo",
+      "desc": "- Stack Base: 3\n- Allo Scoppio Vibrazione, ottiene +1 Conteggio Sanguinamento (2 volte per turno)\n- Non può ottenere Ferita Aperta (negli Incontri Mirati, la Parte)\n- Fine Turno: Ottiene (Stack - 1) Lentezza il turno successivo\n- Fine Turno: Riduce le Stack di 1",
+      "summary": "Ottiene Conteggio Sanguinamento\nOttiene Lentezza il turno successivo",
       "undefined": "-"
     },
     {
       "id": "HorrHurtNightStiletto",
       "name": "Ferita Mortale",
-      "desc": "- Stack Base: 3\n- Allo Scoppio Vibrazione, ottiene +3 Conteggio Sanguinamento (2 volte per turno)\n- Non può ottenere Ferita Aperta (negli Incontri Mirati, la Parte)\n- Fine Turno: Ottiene Rallentamento pari alle Stack il turno successivo\n- Fine Turno: Riduce le Stack di 1",
-      "summary": "Ottiene Conteggio Sanguinamento\nOttiene Rallentamento il turno successivo",
+      "desc": "- Stack Base: 3\n- Allo Scoppio Vibrazione, ottiene +3 Conteggio Sanguinamento (2 volte per turno)\n- Non può ottenere Ferita Aperta (negli Incontri Mirati, la Parte)\n- Fine Turno: Ottiene Lentezza pari alle Stack il turno successivo\n- Fine Turno: Riduce le Stack di 1",
+      "summary": "Ottiene Conteggio Sanguinamento\nOttiene Lentezza il turno successivo",
       "undefined": "-"
     },
     {
@@ -3143,8 +3143,8 @@
     {
       "id": "LanternGregBigBird",
       "name": "Lampada",
-      "desc": "- Stack Max: 8\n- Fine Turno: Ottiene 1 Rallentamento al turno successivo per ogni 2 Stack (max 4)\n- Fine Turno: Al massimo delle Stack, se sono presenti nemici in campo, consuma tutte le Stack per attivare i seguenti effetti al turno successivo:\n• Ottiene +10 Provocazione nello Slot più a sinistra\n• Infligge 3 Abbaglio al nemico (Nucleo) con più PV attuali",
-      "summary": "Ottiene Rallentamento nel turno successivo",
+      "desc": "- Stack Max: 8\n- Fine Turno: Ottiene 1 Lentezza al turno successivo per ogni 2 Stack (max 4)\n- Fine Turno: Al massimo delle Stack, se sono presenti nemici in campo, consuma tutte le Stack per attivare i seguenti effetti al turno successivo:\n• Ottiene +10 Provocazione nello Slot più a sinistra\n• Infligge 3 Abbaglio al nemico (Nucleo) con più PV attuali",
+      "summary": "Ottiene Lentezza nel turno successivo",
       "undefined": "-"
     },
     {
@@ -3157,7 +3157,7 @@
     {
       "id": "DelusionGregBigBird",
       "name": "Abbaglio",
-      "desc": "- Per ogni 1 (Annegamento + Bruciatura), subisce +0,5% danni dalle Abilità di Attacco Base (max 10%)\n- Unità con PS: Cambia il loro Tipo di Panico in \"Abbaglio\"\n- Unità senza PS: Livello Difensivo -2\n- Fine Turno: Perde 1 Stack\n- Questo effetto non è cumulativo: infliggerlo sostituirà il valore attuale con il nuovo valore\n- Applica la condizione \"Unità senza PS\" a determinati nemici che possiedono PS ma non possono cambiare il proprio Tipo di Panico\n\n※ Effetti Tipo di Panico: Abbaglio\n- Morale Basso: Fine Turno: Ottiene 1 Rallentamento e 2 Livello Difensivo Diminuito al turno successivo\n- Panico: Fine Turno: Ottiene 1 Rallentamento e 4 Livello Difensivo Diminuito al turno successivo",
+      "desc": "- Per ogni 1 (Annegamento + Bruciatura), subisce +0,5% danni dalle Abilità di Attacco Base (max 10%)\n- Unità con PS: Cambia il loro Tipo di Panico in \"Abbaglio\"\n- Unità senza PS: Livello Difensivo -2\n- Fine Turno: Perde 1 Stack\n- Questo effetto non è cumulativo: infliggerlo sostituirà il valore attuale con il nuovo valore\n- Applica la condizione \"Unità senza PS\" a determinati nemici che possiedono PS ma non possono cambiare il proprio Tipo di Panico\n\n※ Effetti Tipo di Panico: Abbaglio\n- Morale Basso: Fine Turno: Ottiene 1 Lentezza e 2 Livello Difensivo Diminuito al turno successivo\n- Panico: Fine Turno: Ottiene 1 Lentezza e 4 Livello Difensivo Diminuito al turno successivo",
       "summary": "Per ogni 1 (Annegamento + Bruciatura), subisce +0,5% danni dalle Abilità di Attacco Base (max 10%)\nUnità con PS: Cambia il Tipo di Panico in \"Abbaglio\"\nUnità senza PS: Livello Difensivo -2",
       "undefined": "-"
     },
@@ -3178,15 +3178,15 @@
     {
       "id": "DelusionGregBigBird_LowMorale",
       "name": "Abbaglio",
-      "desc": "- Morale Basso\n- Fine Turno: Ottiene 1 Rallentamento e 2 Livello Difensivo Diminuito nel turno successivo",
-      "summary": "Fine Turno: Ottiene 1 Rallentamento e 2 Livello Difensivo Diminuito nel turno successivo",
+      "desc": "- Morale Basso\n- Fine Turno: Ottiene 1 Lentezza e 2 Livello Difensivo Diminuito nel turno successivo",
+      "summary": "Fine Turno: Ottiene 1 Lentezza e 2 Livello Difensivo Diminuito nel turno successivo",
       "undefined": "-"
     },
     {
       "id": "DelusionGregBigBird_Panic",
       "name": "Abbaglio",
-      "desc": "- Panico\n- Fine Turno: Ottiene 1 Rallentamento e 4 Livello Difensivo Diminuito nel turno successivo",
-      "summary": "Fine Turno: Ottiene 1 Rallentamento e 4 Livello Difensivo Diminuito nel turno successivo",
+      "desc": "- Panico\n- Fine Turno: Ottiene 1 Lentezza e 4 Livello Difensivo Diminuito nel turno successivo",
+      "summary": "Fine Turno: Ottiene 1 Lentezza e 4 Livello Difensivo Diminuito nel turno successivo",
       "undefined": "-"
     },
     {
@@ -3358,7 +3358,7 @@
     {
       "id": "MeursaultBeeSpore",
       "name": "Spore",
-      "desc": "- Stack Max: 15\n- Fine Turno: Ottiene +1 Conteggio Bruciatura per ogni 5 Stack\n- Ottiene 1 Rallentamento il turno successivo",
+      "desc": "- Stack Max: 15\n- Fine Turno: Ottiene +1 Conteggio Bruciatura per ogni 5 Stack\n- Ottiene 1 Lentezza il turno successivo",
       "summary": "",
       "undefined": "-"
     },
@@ -3794,7 +3794,7 @@
     {
       "id": "ScratchesHurtID",
       "name": "Ferita da Avulsione",
-      "desc": "- Stack Max: 3\n- Inizio Turno: Ottiene 2 Sanguinamento\n- Fine Turno: Ottiene 1 Rallentamento il prossimo turno\n- Fine Turno: perde 1 Stack",
+      "desc": "- Stack Max: 3\n- Inizio Turno: Ottiene 2 Sanguinamento\n- Fine Turno: Ottiene 1 Lentezza il prossimo turno\n- Fine Turno: perde 1 Stack",
       "summary": "",
       "undefined": "-",
       "flavor": ""
@@ -4063,7 +4063,7 @@
     {
       "id": "FourDimensionYisang",
       "name": "Dimensioni Quadricolore",
-      "desc": "- Stack Max: 4\n- Ottiene i seguenti effetti in base alle Stack:\n· 1+: Livello Offensivo +1\n· 2+: Livello Difensivo +2\n· 3+: Ottiene +1 Conteggio Carica in più dalle Abilità di questa unità\n· 4+: Le Abilità di questa unità infliggono +(Potenza Carica x 4)% danno (max 20%)\n\n- Se questa unità ottiene questo effetto oltre le Stack max, ottiene le Stack in eccesso nel turno successivo\n- Fine Turno: Perde 1 Stack",
+      "desc": "- Stack Max: 4\n- Ottiene i seguenti effetti in base alle Stack:\n· 1+: Livello Offensivo +1\n· 2+: Livello Difensivo +2\n· 3+: Ottiene +1 Conteggio Carica in più dalle Abilità di questa unità\n· 4+: Le Abilità di questa unità infliggono +(Potenza Carica x 4)% danni (max 20%)\n\n- Se questa unità ottiene questo effetto oltre le Stack max, ottiene le Stack in eccesso nel turno successivo\n- Fine Turno: Perde 1 Stack",
       "summary": ""
     }
   ]
