@@ -3151,7 +3151,7 @@
         {
           "level": 1,
           "name": "Scarica Elettrica ad Alto Voltaggio",
-          "desc": "Spende tutta la [SelfCharge]",
+          "desc": "A 11+ [SelfCharge], infligge +10% Danni per ogni Stack di [SelfCharge] oltre 10\nSpende tutta la [SelfCharge]",
           "coinlist": [
             {
               "coindescs": [
@@ -3581,12 +3581,12 @@
         {
           "level": 1,
           "name": "Non Stavolta!",
-          "desc": "Dà priorità al Vino di Fata",
+          "desc": "Dà priorità al Vino Fatato",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Se questa attacca Vino di Fata, attiva i seguenti effetti:\n- Cura il 10% dei PV Max nel turno successivo\n- Ottiene 2 [Enhancement], 2 [Agility], e 2 [Protection]"
+                  "desc": "[OnSucceedAttack] Se questa attacca Vino Fatato, attiva i seguenti effetti:\n- Cura il 10% dei PV Max nel turno successivo\n- Ottiene 2 [Enhancement], 2 [Agility], e 2 [Protection]"
                 }
               ]
             }
@@ -3612,7 +3612,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Vino di Fata",
+          "name": "Vino Fatato",
           "desc": "[WhenUse] Converte il [Exalted] del nemico in [Tipsiness]",
           "coinlist": [
             {}
