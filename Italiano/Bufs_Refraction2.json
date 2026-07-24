@@ -41,7 +41,7 @@
     {
       "id": "WaveFoxUmbrella",
       "name": "Protezione dell'Ombrello",
-      "desc": "Tutte le parti ottengono protezione pari alle Stack\nQuando usa l'Abilità \"Waiting\", evoca Old Umbrella in base alle Stack\nUsa 1 Stack ogni volta che un Umbrella viene rotto"
+      "desc": "Tutte le parti ottengono protezione pari alle Stack\nQuando usa l'Abilità \"Attesa\", evoca un Vecchio Ombrello per ogni Stack\nUsa 1 Stack ogni volta che un Ombrello viene rotto"
     },
     {
       "id": "InterlockingTime_Re",
@@ -70,13 +70,13 @@
     {
       "id": "AccumulatedPast",
       "name": "Passato Accumulato",
-      "desc": "Genera una Rosa la cui Affinità corrisponde all'Affinità Peccato posseduta in quantità maggiore dal bersaglio afflitto da questo effetto\n- Se questo effetto fà si che le Rose in campo siano maggiore a 7, rimuove le Rose che sono collegate ai Peccatori sconfitti pari alla quantità in eccesso (non conta come morte)",
+      "desc": "Questo effetto mostra i Turni Totali impiegati nella Metro Rifrattiva\nIl numero aumenta di 1 alla fine del turno\nConsumato del tutto quando il Corpo viene rotto",
       "summary": ""
     },
     {
       "id": "PrepareSinRose",
       "name": "Corona di Spine",
-      "desc": "Genera una Rosa la cui Affinità corrisponde all'Affinità Peccato posseduta in quantità maggiore dal bersaglio afflitto da questo effetto",
+      "desc": "Genera una Rosa la cui Affinità corrisponde all'Affinità Peccato posseduta in quantità maggiore dal bersaglio afflitto da questo effetto\n- Se questo effetto fà si che le Rose in campo siano maggiore a 7, rimuove le Rose che sono collegate ai Peccatori sconfitti pari alla quantità in eccesso (non conta come morte)",
       "summary": ""
     },
     {
@@ -93,11 +93,11 @@
     },
     {
       "id": "EnhanceRose",
-      "name": "Power-up State",
-      "desc": "Passiva Power-up State attivata",
+      "name": "Stato Potenziato",
+      "desc": "Attiva la Passiva in Stato Potenziato",
       "summary": ""
     },
-        {
+    {
       "id": "RailLine2Buff",
       "name": "Rifrazione dello Specchio",
       "summary": ""
@@ -105,43 +105,6 @@
     {
       "id": "FullBloomRose_Crimson",
       "name": "Rosa Sbocciata",
-      "desc": "Incrementa il danno inflitto e subito con le Affinità Ira delle Identità",
-      "summary": ""
-    },
-    {
-      "id": "FullBloomRose_Scarlet",
-      "name": "Rosa Sbocciata",
-      "desc": "Incrementa il danno inflitto e subito con le Affinità Lussuria delle Identità",
-      "summary": ""
-    },
-    {
-      "id": "FullBloomRose_Amber",
-      "name": "Rosa Sbocciata",
-      "desc": "Incrementa il danno inflitto e subito con le Affinità Accidia delle Identità",
-      "summary": ""
-    },
-    {
-      "id": "FullBloomRose_Shamrock",
-      "name": "Rosa Sbocciata",
-      "desc": "Incrementa il danno inflitto e subito con le Affinità Gola delle Identità",
-      "summary": ""
-    },
-    {
-      "id": "FullBloomRose_Azure",
-      "name": "Rosa Sbocciata",
-      "desc": "Incrementa il danno inflitto e subito con le Affinità Tristezza delle Identità",
-      "summary": ""
-    },
-    {
-      "id": "FullBloomRose_Indigo",
-      "name": "Rosa Sbocciata",
-      "desc": "Incrementa il danno inflitto e subito con le Affinità Superbia delle Identità",
-      "summary": ""
-    },
-    {
-      "id": "FullBloomRose_Violet",
-      "name": "Rosa Sbocciata",
-      "desc": "Incrementa il danno inflitto e subito con le Affinità Invidia delle Identità",
       "summary": ""
     },
     {
