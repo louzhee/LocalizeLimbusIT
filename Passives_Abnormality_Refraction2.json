@@ -1,0 +1,494 @@
+{
+  "dataList": [
+    {
+      "id": 853901,
+      "name": "Ombrello Rotto",
+      "desc": "Mentre la parte Corpo è rotta, essa ottiene 1 [AttackDmgDown] ogni turno"
+    },
+    {
+      "id": 853902,
+      "name": "Ombrello Stracciato",
+      "desc": "Mentre la parte Testa è rotta, essa ottiene 1 [AttackDmgDown] ogni turno"
+    },
+    {
+      "id": 853903,
+      "name": "Un Ultimo Sforzo",
+      "desc": "A 15% PV, ottiene 10 [Binding] e 1 [Reduction] ogni turno\nI Vecchi Ombrelli appena generati hanno +30% PV Max. Usa 'Piagnistei in Cerca di Qualcosa' ogni turno."
+    },
+    {
+      "id": 853904,
+      "name": "Cuor Vuoto",
+      "desc": "Ottiene 2 [WaveFoxUmbrella] all'inizio del Turno 1 (max 6)\nOttiene 1 [WaveFoxUmbrella] in più per ogni numero di Cicli\nOttiene 1 [Protection] per ogni [WaveFoxUmbrella]\nSe l'Abilità \"Attesa\" è equipaggiata, evoca 1 Vecchio Ombrello per ogni [WaveFoxUmbrella]"
+    },
+    {
+      "id": 853905,
+      "name": "Lacerazione e Annegamento Rifratti",
+      "desc": "La Potenza di [Burst] e [Sinking] può arrivare ad un massimo di 30.\nIl Conteggio di [Burst] e [Sinking] può arrivare ad un massimo di 5."
+    },
+    {
+      "id": 853906,
+      "name": "Applica Sanguinamento Rifratto",
+      "desc": "Quando ottiene [Laceration], ottiene 1 Potenza e Conteggio in più (non si applica ai buff relativi al Ciclo)"
+    },
+    {
+      "id": 854001,
+      "name": "Vecchio e Abbandonato",
+      "desc": "Se questa unità viene sconfitta, l'attaccante ottiene 2 [Agility] nel turno successivo.\nTutte le Parti della Volpe Vagabonda ottengono 2 [Binding] e 1 [ShardOfUmbrella]."
+    },
+    {
+      "id": 854101,
+      "name": "Persistenza Deteriorata",
+      "desc": "Se lo Scudo è stato distrutto viene completamente distrutto dopo l'uso di un'Abilità Difensiva, ottiene 3 [DefenseDown] e 3 [Vulnerable] nel turno successivo"
+    },
+    {
+      "id": 854102,
+      "name": "Esoscheletro Robusto",
+      "desc": "Se la Testa non è rotta, il Corpo ottiene 3 [Protection] ogni turno"
+    },
+    {
+      "id": 854104,
+      "name": "Carica Rifratta",
+      "desc": "Sul Colpo, se il bersaglio ha [Charge], riduce il Conteggio [Charge] del nemico di 1 e ottiene 1 [SelfCharge] (3 volte per turno)"
+    },
+    {
+      "id": 854103,
+      "name": "Sanguinamento e Vibrazione Rifratti",
+      "desc": "La Potenza di [Laceration] e [Vibration] può arrivare ad un massimo di 30.\nIl Conteggio di [Laceration] e [Vibration] può arrivare ad un massimo di 5."
+    },
+    {
+      "id": 854105,
+      "name": "Carica Autonoma",
+      "desc": "Ottiene 3 [SelfCharge] all'inizio del Turno 1\nGain 1 [SelfCharge] in più per ogni numero di Cicli (max 8)"
+    },
+    {
+      "id": 854201,
+      "name": "Mitosi",
+      "desc": "Mentre il Braccio è rotto, ogni parte ottiene 1 [Reduction] ogni turno."
+    },
+    {
+      "id": 854202,
+      "name": "Vino Fatato Allettante",
+      "desc": "Mentre il Vino Fatato è nell'Incontro, ogni parte ottiene 5 [Binding]"
+    },
+    {
+      "id": 854203,
+      "name": "Sanguinamento e Vibrazione Rifratti",
+      "desc": "La Potenza di [Laceration] e [Vibration] può arrivare ad un massimo di 30.\nIl Conteggio di [Laceration] e [Vibration] può arrivare ad un massimo di 5."
+    },
+    {
+      "id": 854204,
+      "name": "Applica Lacerazione Rifratta",
+      "desc": "Quando ottiene [Burst], ottiene 1 Potenza e Conteggio in più (non si applica ai buff relativi al Ciclo)"
+    },
+    {
+      "id": 854301,
+      "name": "Vino Fatato",
+      "desc": "Quando viene sconfitto, infligge 5 Alticcio su ogni Identità nel turno successivo\nSe invece non viene sconfitto, la Fata Gentiluomo recupera il 10% dei PV e ottiene 2 [Enhancement], 2 [Agility] e 2 [Protection] nel turno successivo\nScade a fine turno"
+    },
+    {
+      "id": 854401,
+      "name": "Mezzi Infranti",
+      "desc": "Quando il Braccio viene rotto, esso ottiene 1 [Reduction] ogni turno"
+    },
+    {
+      "id": 854402,
+      "name": "Applica Annegamento Rifratto",
+      "desc": "Quando ottiene [Sinking], ottiene 1 Potenza e Conteggio in più (non si applica ai buff relativi al Ciclo)"
+    },
+    {
+      "id": 854501,
+      "name": "Mezzi Smarriti",
+      "desc": "Quando il Braccio viene rotto, questa unità ottiene 1 [Reduction] ogni turno."
+    },
+    {
+      "id": 854502,
+      "name": "Ombra Rovinata",
+      "desc": "Se la Testa è rotta, questa unità ottiene 2 [DefenseDown] ogni turno."
+    },
+    {
+      "id": 854503,
+      "name": "Sanguinamento e Vibrazione Rifratti",
+      "desc": "La Potenza di [Laceration] e [Vibration] può arrivare ad un massimo di 30.\nIl Conteggio di [Laceration] e [Vibration] può arrivare ad un massimo di 5."
+    },
+    {
+      "id": 854504,
+      "name": "Applica Lacerazione Rifratta",
+      "desc": "Quando ottiene [Burst], ottiene 1 Potenza e Conteggio in più (non si applica ai buff relativi al Ciclo)"
+    },
+    {
+      "id": 854601,
+      "name": "Foglia Contaminante",
+      "desc": "Applica i segeutni effetti su Fata Gambe Lunghe e Fata Gentiluomo:\n- A inizio turno, ottiene 3 [TakeHpHealIncrease] e 1 [Enhancement]\n- Se il Quadrifoglio sopravvive per 4+ turni, ottiene 1 [Enhancement] in più e 2 [AttackDmgUp]"
+    },
+    {
+      "id": 854701,
+      "name": "Mitosi",
+      "desc": "Mentre il Braccio è rotto, questa unità ottiene 1 [Reduction] ogni turno."
+    },
+    {
+      "id": 854702,
+      "name": "Vino Fatato Allettante",
+      "desc": "Mentre il Vino Fatato è nell'Incontro, ogni parte ottiene 5 [Binding]"
+    },
+    {
+      "id": 854703,
+      "name": "Sanguinamento e Vibrazione Rifratti",
+      "desc": "La Potenza di [Laceration] e [Vibration] può arrivare ad un massimo di 30.\nIl Conteggio di [Laceration] e [Vibration] può arrivare ad un massimo di 5."
+    },
+    {
+      "id": 854704,
+      "name": "Applica Lacerazione Rifratta",
+      "desc": "Quando ottiene [Burst], ottiene 1 Potenza e Conteggio in più (non si applica ai buff relativi al Ciclo)"
+    },
+    {
+      "id": 854801,
+      "name": "Vino Fatato",
+      "desc": "Quando viene sconfitto, infligge 5 Alticcio su ogni Identità nel turno successivo\nSe invece non viene sconfitto, la Fata Gentiluomo recupera il 10% dei PV e ottiene 2 [Enhancement], 2 [Agility] e 2 [Protection] nel turno successivo\nScade a fine turno"
+    },
+    {
+      "id": 854901,
+      "name": "Incantato",
+      "desc": "Infligge Incantato al nemico con la Velocità più bassa.\nIl numero dei bersagli aumenta in base al numero di Cicli.\nIl numero dei bersagli aumenta quando la Fatina viene ripristinata."
+    },
+    {
+      "id": 854902,
+      "name": "Abisso Scoperto",
+      "desc": "Rivela il corpo quando la Fatina è rotta.\nTutti i Buff e Debuff scadono quando il corpo si nasconde di nuovo."
+    },
+    {
+      "id": 854903,
+      "name": "Esca Principale",
+      "desc": "Il Nucleo non subisce i danni subiti dalla parte Fata.\nBersaglia 1 slot in più per ogni nemico [FairyCharm]."
+    },
+    {
+      "id": 854904,
+      "name": "Tronco Rotto",
+      "desc": "Quando il Corpo è rotto:\n- La Fatina avrà il 60% dei suoi PV max al suo ripristino.\n- Il Nucleo recupera 20 PV in più con gli Effetti delle sue Abilità."
+    },
+    {
+      "id": 854905,
+      "name": "Esca in Evoluzione",
+      "desc": "I PV max della Fatina aumentano del 20% ad ogni ripristino."
+    },
+    {
+      "id": 854906,
+      "name": "Annegamento e Lacerazione Rifratta",
+      "desc": "La Potenza di [Burst] e [Sinking] può arrivare ad un massimo di 30.\nIl Conteggio di [Burst] e [Sinking] può arrivare ad un massimo di 5."
+    },
+    {
+      "id": 854907,
+      "name": "Polvere di Fata",
+      "desc": "Quando la parte Fatina viene distrutta, tutte le Identità ottengono 5 [Breath] e 2 Conteggio [Breath] nel turno successivo."
+    },
+    {
+      "id": 855001,
+      "name": "Fuga Dimensionale",
+      "desc": "Fugge in uno 'Squarcio[TabExplain] Dimensionale' dopo un certo numero di turni a partire dal turno 2.\nSe ogni parte è Stordita, fugge in uno 'Squarcio[TabExplain] Dimensionale' nel turno successivo.\nNon può essere Stordito mentre è in uno 'Squarcio Dimensionale'.\nSe il Nucleo ha 30%- PV, non fugge in uno 'Squarcio[TabExplain] Dimensionale'."
+    },
+    {
+      "id": 855002,
+      "name": "Trappola della Fuga Dimensionale",
+      "desc": "Quando tutti gli 'Squarci Dimensionali' vengono rotti nello stesso turno in cui sono stati generati, riemerge da uno 'Squarcio Dimensionale' nel turno successivo.\nPerde poi 5 COnteggio [Charge] e alza la Soglia di Stordimento di ogni parte di 30."
+    },
+    {
+      "id": 855003,
+      "name": "Rigenera la Lama Rifratta Dimensionale",
+      "desc": "Quando la parte Lama è rotta, perde 5 Conteggio [Charge]\nAlla fine del turno successivo, consuma 2 Conteggio [Charge] per rigenerare la Lama rotta.\n\nMentre la parte Lama è rotta, ottiene 2 [AttackDown] all'inizio di ogni turno."
+    },
+    {
+      "id": 855004,
+      "name": "Sanguinamento e Lacerazione Rifratti",
+      "desc": "La Potenza di [Laceration] e [Burst] può arrivare ad un massimo di 30.\nIl Conteggio di [Laceration] e [Burst] può arrivare ad un massimo di 5."
+    },
+    {
+      "id": 855005,
+      "name": "Applica Vibrazione Rifratta",
+      "desc": "Quando ottiene [Vibration], ottiene 1 Potenza e Conteggio in più (non si applica ai buff relativi al Ciclo)"
+    },
+    {
+      "id": 856001,
+      "name": "Dimensione in Emorragia",
+      "desc": "Infligge +10% danni dopo essere passato per la [PassedPortal_Red]"
+    },
+    {
+      "id": 856101,
+      "name": "Dimensione Velenosa",
+      "desc": "I PV max del Nucleo aumentano del 20% dopo essere passato per la [PassedPortal_Green]"
+    },
+    {
+      "id": 856201,
+      "name": "Dimensione Tremante",
+      "desc": "Ottiene 1 Velocità dopo essere passato per la [PassedPortal_Yellow]"
+    },
+    {
+      "id": 856301,
+      "name": "Dimensione Elettrizzante",
+      "desc": "Ottiene Potere Moneta +1 dopo essere passato per la [PassedPortal_Blue]"
+    },
+    {
+      "id": 855101,
+      "name": "Tempo D'Oro",
+      "desc": "A fine turno, se i PV sono tra il 6% e il 24%, il Nucleo si riprende dallo stordimento e si cura immediatamente fino all'80% dei PV max. (una volta per Incontro)"
+    },
+    {
+      "id": 855102,
+      "name": "Retroazione del Tempo Inverso",
+      "desc": "Dopo aver attivato la Passiva Tempo D'Oro, ottiene 2 [Vulnerable]"
+    },
+    {
+      "id": 855103,
+      "name": "Sovraccarica",
+      "desc": "A fine turno, a 5+ Conteggio [Charge], ottiene 3 [AttackDmgUp] nel turno successivo"
+    },
+    {
+      "id": 855104,
+      "name": "Lacerazione e Annegamento Rifratti",
+      "desc": "La Potenza di [Burst] e [Sinking] può arrivare ad un massimo di 30.\nIl Conteggio di [Burst] e [Sinking] può arrivare ad un massimo di 5."
+    },
+    {
+      "id": 855105,
+      "name": "Applica Bruciatura Rifratta",
+      "desc": "Quando ottiene [Combustion], ottiene 1 Potenza e Conteggio in più (non si applica ai buff relativi al Ciclo)"
+    },
+    {
+      "id": 855501,
+      "name": "Ritorno del Passato",
+      "desc": "A 50+ [AccumulatedPastMirror], se i PV del Nucleo sono pari o inferiori all'80%, il Nucleo recupera 200 PV e spende 50 [AccumulatedPastMirror]."
+    },
+    {
+      "id": 855502,
+      "name": "Passato Smarrito",
+      "desc": "Se il Corpo è rotto, spende ogni [AccumulatedPastMirror].\nQuando il Corpo è rotto, tutte le sue resistenze vengono cambiate a Inefficace (0.5) a partire dal turno successivo fino alla fine dell'Incontro."
+    },
+    {
+      "id": 855503,
+      "name": "Porta di Scarico Rotta",
+      "desc": "Quando il Steam Blaster è rotto, spende tutto l'[Breath] di ogni Parte.\nSe il Steam Blaster è rotto, ottiene 1 [Vulnerable] pari all'[Breath] su di sé ogni volta che ottiene [Breath].\nSe il Steam Blaster è rotto, perde 1 [Breath] ad ogni attacco."
+    },
+    {
+      "id": 855504,
+      "name": "Bruciatura e Sanguinamento Rifratti",
+      "desc": "La Potenza di [Combustion] e [Laceration] può arrivare ad un massimo di 30.\nIl Conteggio di [Combustion] e [Laceration] può arrivare ad un massimo di 5."
+    },
+    {
+      "id": 855505,
+      "name": "Applica Annegamento Rifratto",
+      "desc": "Quando ottiene [Sinking], ottiene 1 Potenza e Conteggio in più (non si applica ai buff relativi al Ciclo)"
+    },
+    {
+      "id": 855506,
+      "name": "Perdita di Vapore",
+      "desc": "Quando il Steam Blaster è colpito, perde 1 Potenza e Conteggio [Breath]"
+    },
+    {
+      "id": 855507,
+      "name": "Passato Sovrapposto",
+      "desc": "Ottiene 1 [Enhancement] per ogni 80 [AccumulatedPast] ogni turno.\nA 80+ [AccumulatedPast], ottiene +1 Slot."
+    },
+    {
+      "id": 855508,
+      "name": "Metronomo",
+      "desc": "Se il valore di [AccumulatedPastMirror] è dispari, ottiene 3 [Vulnerable] e [AttackDmgUp]\nSe invece è pari, ottiene 3 [Protection] e [AttackDmgDown]"
+    },
+    {
+      "id": 855601,
+      "name": "Giogo Eterno",
+      "desc": "Ottiene +(numero di Cicli X 5)% PV max.\nInfligge +(numero di Cicli X 5)% danni"
+    },
+    {
+      "id": 855602,
+      "name": "Insegna Rotta",
+      "desc": "Se l'Insegna è rotta, la Rosa perde PV max"
+    },
+    {
+      "id": 855603,
+      "name": "Carne Sparsa",
+      "desc": "Se la Carne è rotta, il Nucleo perde PV max"
+    },
+    {
+      "id": 855604,
+      "name": "Liana Singola",
+      "desc": "Quando una Rose viene sconfitta, il Nucleo e la Carne perdono 30 PV.\nPerde 0.1 Resistenza all'Affinità del Peccato della Rosa per tutta la durata dell'Incontro (cumulabile)"
+    },
+    {
+      "id": 856401,
+      "name": "Odio",
+      "desc": "Se colpito, ottiene 1 [AttackUp] e 1 [DefenseDown]"
+    },
+    {
+      "id": 856402,
+      "name": "Tizzoni",
+      "desc": "Se sconfitto da un colpo diretto, restituisce il danno all'attaccante e infligge 5 [Combustion]"
+    },
+    {
+      "id": 856403,
+      "name": "Peccati Sboccianti",
+      "desc": "A 4 [BloomingRose], viene potenziato per il resto dell'Incontro"
+    },
+    {
+      "id": 856404,
+      "name": "Furia Ardente",
+      "desc": "Se è potenziato, infligge +1 [Combustion] in più con gli effetti delle sue Abilità\nSe sconfitto mentre è potenziato, infligge 4 Conteggio [Combustion] su ogni alleato"
+    },
+    {
+      "id": 856405,
+      "name": "Rosa su una Liana",
+      "desc": "Muore se Insegna delle Rose viene sconfitta."
+    },
+    {
+      "id": 856501,
+      "name": "Desiderio Unilaterale",
+      "desc": "Potere Finale -2 negli Scontri; Potere Finale +2 negli Attacchi Incontrastati"
+    },
+    {
+      "id": 856502,
+      "name": "Peccati Sboccianti",
+      "desc": "A 4 [BloomingRose], viene potenziato per il resto dell'Incontro"
+    },
+    {
+      "id": 856503,
+      "name": "Lussuria Scintillante",
+      "desc": "Se è potenziato, infligge +1 [Laceration] in più con gli effetti delle sue Abilità\nSe sconfitto mentre è potenziato, infligge 4 Conteggio [Laceration] su ogni alleato"
+    },
+    {
+      "id": 856504,
+      "name": "Rosa su una Liana",
+      "desc": "Muore se Insegna delle Rose viene sconfitta."
+    },
+    {
+      "id": 856601,
+      "name": "Impotente",
+      "desc": "Se colpito, ottiene 5 [Protection] nel turno successivo (se Stordito, questo effetto viene annullato)"
+    },
+    {
+      "id": 856602,
+      "name": "Peccati Sboccianti",
+      "desc": "A 4 [BloomingRose], viene potenziato per il resto dell'Incontro"
+    },
+    {
+      "id": 856603,
+      "name": "Accidia Schiacciante",
+      "desc": "Se è potenziato, infligge +1 [Vibration] in più con gli effetti delle sue Abilità\nSe sconfitto mentre è potenziato, infligge 4 Conteggio [Vibration] su ogni alleato"
+    },
+    {
+      "id": 856604,
+      "name": "Rosa su una Liana",
+      "desc": "Muore se Insegna delle Rose viene sconfitta."
+    },
+    {
+      "id": 856701,
+      "name": "Fame",
+      "desc": "Se questa unità non è riuscita a infliggere danni nel turno precedente, ottiene 2 [BurstVulnerable]"
+    },
+    {
+      "id": 856702,
+      "name": "Peccati Sboccianti",
+      "desc": "A 4 [BloomingRose], viene potenziato per il resto dell'Incontro"
+    },
+    {
+      "id": 856703,
+      "name": "Gola Crescente",
+      "desc": "Se è potenziato, infligge +1 [Burst] in più con gli effetti delle sue Abilità\nSe sconfitto mentre è potenziato, infligge 4 Conteggio [Burst] su ogni alleato"
+    },
+    {
+      "id": 856704,
+      "name": "Rosa su una Liana",
+      "desc": "Muore se Insegna delle Rose viene sconfitta."
+    },
+    {
+      "id": 856801,
+      "name": "Ansia",
+      "desc": "Potere Finale +2 negli Scontri; Potere Finale -2 negli Attacchi Incontrastati"
+    },
+    {
+      "id": 856802,
+      "name": "Autodistruzione",
+      "desc": "Se colpito, la sua Resistenza a Tristezza diventa Debole(1.5) e ottiene 5 [Protection]"
+    },
+    {
+      "id": 856803,
+      "name": "Peccati Sboccianti",
+      "desc": "A 4 [BloomingRose], viene potenziato per il resto dell'Incontro"
+    },
+    {
+      "id": 856804,
+      "name": "Tristezza Luccicante",
+      "desc": "Se è potenziato, infligge +1 [Sinking] in più con gli effetti delle sue Abilità\nSe sconfitto mentre è potenziato, infligge 4 Conteggio [Sinking] su ogni alleato"
+    },
+    {
+      "id": 856805,
+      "name": "Rosa su una Liana",
+      "desc": "Muore se Insegna delle Rose viene sconfitta."
+    },
+    {
+      "id": 856901,
+      "name": "Collera",
+      "desc": "A inizio turno, applica 1 Potenza e Conteggio [Breath] su ogni alleato"
+    },
+    {
+      "id": 856902,
+      "name": "Superiorità",
+      "desc": "Mentre questa unità è viva, le probabilità di Colpo Critico di ogni alleato aumentano del +5% per ogni [Breath] su di sé"
+    },
+    {
+      "id": 856903,
+      "name": "Peccati Sboccianti",
+      "desc": "A 4 [BloomingRose], viene potenziato per il resto dell'Incontro"
+    },
+    {
+      "id": 856904,
+      "name": "Superbia Smisurata",
+      "desc": "A inizio turno, se è potenziato, ottiene +1 [Breath] in più con gli effetti delle sue Abilità\nSe sconfitto mentre è potenziato, infligge 4 Conteggio [Breath] su ogni nemico"
+    },
+    {
+      "id": 856905,
+      "name": "Rosa su una Liana",
+      "desc": "Muore se Insegna delle Rose viene sconfitta."
+    },
+    {
+      "id": 857001,
+      "name": "Gelosia",
+      "desc": "A inizio turno, applica 1 Conteggio [Charge] su 2 alleati casuali"
+    },
+    {
+      "id": 857002,
+      "name": "Complesso di Inferiorità",
+      "desc": "Mentre questa unità è viva, i danni su Colpo Critico di ogni alleato aumentano del +5% per ogni Conteggio [Charge] su di sé"
+    },
+    {
+      "id": 857003,
+      "name": "Peccati Sboccianti",
+      "desc": "A 4 [BloomingRose], viene potenziato per il resto dell'Incontro"
+    },
+    {
+      "id": 857004,
+      "name": "Invidia Abbagliante",
+      "desc": "A inizio turno, se è potenziato, infligge +1 Conteggio [Charge] in più con gli effetti delle sue Abilità\nSe sconfitto mentre è potenziato, applica 4 Conteggio [Charge] su ogni nemico"
+    },
+    {
+      "id": 857005,
+      "name": "Rosa su una Liana",
+      "desc": "Muore se Insegna delle Rose viene sconfitta."
+    },
+    {
+      "id": 855605,
+      "name": "Peccati Sboccianti",
+      "desc": "A 4 [BloomingRose], viene potenziato per il resto dell'Incontro"
+    },
+    {
+      "id": 855606,
+      "name": "Rosa su una Liana",
+      "desc": "Muore se Insegna delle Rose viene sconfitta."
+    },
+    {
+      "id": 854403,
+      "name": "Spargere le Fiamme",
+      "desc": "A fine turno, se questa unità ha [Combustion], infligge lo stesso numero di [Combustion] su ogni unità con [WrappedCurseTagRe] nel turno successivo"
+    },
+    {
+      "id": 855607,
+      "name": "Rovi Inzuppati di Peccati",
+      "desc": "A inizio turno, ogni Parte ottiene [Protection] per ogni Peccatore con [PrepareSinRose]"
+    }
+  ]
+}

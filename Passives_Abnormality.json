@@ -1,0 +1,631 @@
+{
+  "dataList": [
+    {
+      "id": 800101,
+      "name": "Il Crepuscolo di una Mela",
+      "desc": "Se il Frutto viene rotto, tutte le Parti ottengono 2 [Vulnerable].\nIl Frutto si rigenera dopo 1 turno.",
+      "summary": "Quando il Frutto viene rotto, infligge 2 [Vulnerable] su ogni Parte"
+    },
+    {
+      "id": 800102,
+      "name": "NOT FOR DISPLAY1",
+      "desc": "After the head regenerates once, bringing the head's PV to 50% initiates a choice prompt."
+    },
+    {
+      "id": 800103,
+      "name": "NOT FOR DISPLAY2",
+      "desc": "At the start of Turn 3, a choice prompt where you can remove the Green Stem effect is initiated."
+    },
+    {
+      "id": 800104,
+      "name": "Radici Intricate",
+      "desc": "A inizio turno, infligge 1 [Binding] su tutti i nemici.\nQuesto effetto persisterà finchè le Radici rimangono intatte.",
+      "summary": "Infligge 1 [Binding] su tutti i nemici finchè le Radici sono intatte"
+    },
+    {
+      "id": 800105,
+      "name": "Una Radice Solitaria",
+      "desc": "Le Radici ottengono 2 [Enhancement] per ogni Braccio intatto."
+    },
+    {
+      "id": 800201,
+      "name": "Che Il Festival Sanguineo Scorra",
+      "desc": "Quando tutte le Bambole vengono sconfitte, passa alla fase successiva."
+    },
+    {
+      "id": 800202,
+      "name": "DON'T LET THE KIDS READ THIS",
+      "desc": "At the start of turn 2 in phase 2, choice prompt 1 is initiated."
+    },
+    {
+      "id": 800203,
+      "name": "Che Il Focoso Festival Si Incendi",
+      "desc": "Se i PV del Corpo scendono al 70%, o se entrambe le Braccia vengono distrutte, passa alla fase successiva."
+    },
+    {
+      "id": 800204,
+      "name": "Frenesia",
+      "desc": "Attiva solo durante la terza fase\nA inizio turno, infligge 3 [Combustion] su ogni nemico."
+    },
+    {
+      "id": 800205,
+      "name": "NOT FOR DISPLAY",
+      "desc": "When PV is brought to 60%, choice prompt 2 is initiated."
+    },
+    {
+      "id": 800206,
+      "name": "Che Il Festival Stellare Cali",
+      "desc": "Se i PV scendono al 25%, passa alla fase successiva."
+    },
+    {
+      "id": 800207,
+      "name": "NOT FOR DISPLAY",
+      "desc": "At the start of turn 2 in phase 4, choice prompt 3 is initiated."
+    },
+    {
+      "id": 800301,
+      "name": "Idolatria",
+      "desc": "A 0 PV, quest'unità non muore e rimane come unità [Inactible] e inattaccabile.\nQuest'unità viene sconfitta quando il Calendario della Fine del Mondo viene sconfitto."
+    },
+    {
+      "id": 800801,
+      "name": "Oro Screpolato",
+      "desc": "Cura PV ogni turno in base alle Stack di [BeingGolden]."
+    },
+    {
+      "id": 800901,
+      "name": "",
+      "desc": ""
+    },
+    {
+      "id": 800902,
+      "name": "Nucleo Fragile",
+      "desc": "Quando la Testa viene distrutta, infligge [Inactible] su ogni Parte durante il turno successivo.\nLa Testa si rigenera dopo 1 turno."
+    },
+    {
+      "id": 800903,
+      "name": "Mela Marcia",
+      "desc": "Se il Corpo è distrutto, infligge 2 [Reduction] su tutte le parti."
+    },
+    {
+      "id": 800904,
+      "name": "NOT FOR DISPLAY",
+      "desc": "NOT FOR DISPLAY"
+    },
+    {
+      "id": 801001,
+      "name": "Fabbrica di Miglioramenti al Lavoro",
+      "desc": "Se quest'unità subisce un danno fatale, non muore e ottiene 1 [Operation] il turno successivo."
+    },
+    {
+      "id": 801002,
+      "name": "Devi Essere Forte",
+      "desc": "A inizio turno, ottiene 1 [Protection]."
+    },
+    {
+      "id": 801201,
+      "name": "Devi Essere Forte",
+      "desc": "A inizio turno, ottiene 2 [Protection]."
+    },
+    {
+      "id": 801301,
+      "name": "Desideri Titubanti",
+      "desc": "In [Greedy], ottiene 2 [Vulnerable] e 10 [Binding] questo turno. Inoltre, ottiene +1 Slot Abilità e cambia comportamento."
+    },
+    {
+      "id": 801302,
+      "name": "Desideri Catturanti",
+      "desc": "Quest'unità va in [Greedy] ogni volta che perde il 30% dei suoi PV Max."
+    },
+    {
+      "id": 801904,
+      "name": "Terrore Gelante",
+      "desc": "Ottiene 1 [Protection] per ogni alleato sconfitto in questa Ondata. (Max 5.)"
+    },
+    {
+      "id": 802401,
+      "name": "Braccia Pulsanti",
+      "desc": "A inizio turno, ottiene Potere Attacco Aumentato e [Protection] in base alle Stack di [Aggressive]."
+    },
+    {
+      "id": 802402,
+      "name": "Braccia Rovinate",
+      "desc": "Perde 1 Stack di [Aggressive] ogni volta che viene attaccato."
+    },
+    {
+      "id": 802403,
+      "name": "Guscio Rigenerante",
+      "desc": "Se quest'unità non è stata attaccata in questo turno, cura il 5% dei suoi PV e ottiene 1 [Aggressive]."
+    },
+    {
+      "id": 802404,
+      "name": "Occhi Sfrenati",
+      "desc": "Il comportamento dipende dal valore di [Aggressive]:\n- A 4 o più [Aggressive], Diventa più aggressivo.\n- A 3 o meno [Aggressive], diventa difensivo."
+    },
+    {
+      "id": 802501,
+      "name": "Aggressività Aumentata",
+      "desc": "Quando viene colpito, ottiene 1 [Aggressive].\nA fine turno, se quest'unità ha 4 o più [Aggressive], entra in stato di [Enrage]."
+    },
+    {
+      "id": 802502,
+      "name": "Furore",
+      "desc": "In stato di [Enrage], quest'unità non può ottenere [Aggressive], ma ottiene 3 [Enhancement] e 3 [Vulnerable] questo turno, e cambia comportamento."
+    },
+    {
+      "id": 802503,
+      "name": "Furia Accecante",
+      "desc": "Quando i PV scendono sotto il 50%, entra in stato di [Enrage] ogni turno."
+    },
+    {
+      "id": 802701,
+      "name": "Aggressività Aumentata",
+      "desc": "Quando viene colpito, ottiene 1 [Aggressive].\nA fine turno, se quest'unità ha 4 o più [Aggressive], entra in stato di [Enrage]."
+    },
+    {
+      "id": 802702,
+      "name": "Furore",
+      "desc": "In stato di [Enrage], quest'unità non può ottenere [Aggressive], ma ottiene 3 [Enhancement] e 3 [Vulnerable] questo turno, e cambia comportamento."
+    },
+    {
+      "id": 802801,
+      "name": "Pelle Putrefatta",
+      "desc": "Quando viene colpito, se i PV di quest'unità sono sotto il 50%, infligge 3 [Poison] sull'attaccante."
+    },
+    {
+      "id": 802802,
+      "name": "Muta",
+      "desc": "Quando questa Parte viene rotta, se l'altro Braccio non viene rotto entro la fine del turno successivo, questa Parte si rigenera e ottiene PV pari ai PV attuali dell'altro braccio."
+    },
+    {
+      "id": 802803,
+      "name": "Contorsione Dolorosa",
+      "desc": "A inizio turno, se entrambe le Braccia sono rotte, ottiene 5 [Vulnerable] e infligge 10 [Poison] su tutti i nemici."
+    },
+    {
+      "id": 802804,
+      "name": "Istinti Striscianti",
+      "desc": "Il comportamento dipende dal valore di [Aggressive]:\n- A 4 o più [Aggressive], Diventa più aggressivo.\n- A 3 o meno [Aggressive], diventa difensivo."
+    },
+    {
+      "id": 803302,
+      "name": "Braccio Strappato",
+      "desc": "Se il Braccio è rotto, ottiene 5 [Vulnerable] ogni turno."
+    },
+    {
+      "id": 802901,
+      "name": "Fischi Terrificanti",
+      "desc": "Se non hai ottenuto [LittleCourage] almeno 3 volte, Sinclair ottiene 1 [Binding] e [Paralysis] ogni turno."
+    },
+    {
+      "id": 802902,
+      "name": "Il Coraggio per Superare la Paura",
+      "desc": "Se hai ottenuto [LittleCourage] almeno 3 volte, Sinclair ottiene 1 [Enhancement] e 2 [Protection] ogni turno."
+    },
+    {
+      "id": 802903,
+      "name": "Devi Abbracciare il Dolore!",
+      "desc": "A inizio turno, se una parte ha [Laceration] o [Combustion], cura il 15% dei PV Max e ottiene 3 [Enhancement].\nLe cure e i potenziamenti ottenuti diminuiscono in base al valore di [LittleCourage]."
+    },
+    {
+      "id": 802904,
+      "name": "La Benedizione dell'Esecuzione",
+      "desc": "Quando sconfigge un nemico, ottiene 2 [Agility] e 5 [AttackDmgUp] nel turno successivo."
+    },
+    {
+      "id": 803001,
+      "name": "Estasi Immensurabile",
+      "desc": "A partire dal terzo turno, diventa [Cromer_Ecstasy] ogni 2 Turni."
+    },
+    {
+      "id": 803002,
+      "name": "Purità Splendente",
+      "desc": "Se il Corpo di Kromer scende al 50% dei suoi PV Max, entra in stato di [Cromer_Madness]."
+    },
+    {
+      "id": 803003,
+      "name": "Carne Impeccabile",
+      "desc": "Se il Braccio è rotto, ottiene 2 [Reduction]."
+    },
+    {
+      "id": 803101,
+      "name": "Sacca di Sangue",
+      "desc": "La Resistenza alle Abilità Ira aumenta.\nLa Resistenza alle Abilità Tristezza diminuisce."
+    },
+    {
+      "id": 803102,
+      "name": "Sacca di Fluido",
+      "desc": "Se Sacca di Fluido è attiva, il Nucleo cura (20 * Stack di Sacca di Fluido) PV."
+    },
+    {
+      "id": 803103,
+      "name": "Sangue Bollente",
+      "desc": "Se il Corpo viene rotto mentre Sacca di Sangue è attiva, tutti i nemici subiscono 20 danni fissi."
+    },
+    {
+      "id": 803201,
+      "name": "Parafulmine",
+      "desc": "Quando il Traliccio viene colpito, infligge 2 [ElectricShock] sull'attaccante durante il turno successivo.\nA 5 o più Stack di [DogThunder], tutte le Parti infliggono +1 [ElectricShock]. (Questo effetto persisterà finchè le Stack di [DogThunder] non scendono 0.)\nQuando viene colpito da un'Abilità Accidia, lo [ElectricShock] inflitto viene dimezzato. (Arrotondato per eccesso.)"
+    },
+    {
+      "id": 803202,
+      "name": "Fulmine",
+      "desc": "Se il Traliccio non è rotto, ottiene 1 [DogThunder] dopo ogni attacco.\nSe il Traliccio viene colpito, consuma 1 [DogThunder]."
+    },
+    {
+      "id": 803203,
+      "name": "Rinforzi In Frantumi",
+      "desc": "Se il Traliccio viene Stordito o viene rotto, consuma tutti le Stack di [DogThunder].\nPoi, tutti gli attacchi del Guardiano delle Stradine vengono annullati."
+    },
+    {
+      "id": 803401,
+      "name": "Pavoneggiamento del Pollo Bongy",
+      "desc": "A fine turno, un nemico a caso subisce 3 danni ai PS."
+    },
+    {
+      "id": 803701,
+      "name": "Rimpolpamento del Pollo Bongy",
+      "desc": "A fine turno, infligge 2 [AttackDmgUp] e 2 [Protection] a tutti gli alleati durante il turno successivo."
+    },
+    {
+      "id": 803901,
+      "name": "Pollame Vigoroso",
+      "desc": "A fine turno, cura 5 PV per ogni Pollo Crudo in battaglia."
+    },
+    {
+      "id": 803902,
+      "name": "Gallo Lugubre",
+      "desc": "A fine turno, tutti i nemici subiscono 5 danni ai PS per ogni Pollo Crudo in battaglia."
+    },
+    {
+      "id": 803903,
+      "name": "Pennuto Fragile",
+      "desc": "Quando una Parte viene rotta, questa ottiene 1 [Vulnerable] per ogni Pollo Crudo sconfitto in precedenza."
+    },
+    {
+      "id": 803904,
+      "name": "Galletto Potente",
+      "desc": "Se la parte non è rotta, ottiene 1 [AttackDmgUp] per ogni Pollo Crudo in vita."
+    },
+    {
+      "id": 804101,
+      "name": "Cordoglio Crescente",
+      "desc": "A fine turno, se l'unità ha 3 o più [Bull_Sadness], genera una testa e cambia comportamento."
+    },
+    {
+      "id": 804102,
+      "name": "Malinconia Inconsolabile",
+      "desc": "A fine turno, se l'unità ha 3 o più [Bull_Sadness] mentre la testa è rotta, viene Stordita."
+    },
+    {
+      "id": 804103,
+      "name": "Preso dalle Corna",
+      "desc": "Se la testa viene Stordita, tutte le altre parti vengono Stordite nel turno successivo."
+    },
+    {
+      "id": 804104,
+      "name": "Abbattuto dalle Corna",
+      "desc": "Quando la testa viene Stordita, tutte le altre parti vengono Stordite nel turno successivo. Poi, esse ottengono 3 [Reduction] per il resto dell'Incontro."
+    },
+    {
+      "id": 804501,
+      "name": "Nervosismo Vivente",
+      "desc": "Sulla morte, tutte le Abilità vengono annullate.\nLa [SelfCharge] su di sé viene raddoppiata."
+    },
+    {
+      "id": 804502,
+      "name": "Nervosismo in Moto",
+      "desc": "Dopo la morte, tutte le Abilità consumano 1 [SelfCharge].\nContinuerà ad attaccare finchè il valore di [SelfCharge] non scende a 0."
+    },
+    {
+      "id": 804503,
+      "name": "Persistenza Immortale",
+      "desc": "Ogni 5 Turni, ottiene Scudo pari ai PV della Testa."
+    },
+    {
+      "id": 804504,
+      "name": "Persistenza Terminata",
+      "desc": "Dopo aver usato 'Attorcigliamento', se lo Scudo finisce, consuma [SelfCharge].\nTutte le Parti vengono Stordite nel turno successivo."
+    },
+    {
+      "id": 804601,
+      "name": "Ombrello Rotto",
+      "desc": "Se la parte Corpo è rotta, ottiene 3 [Vulnerable] e infligge +2 [Burst]."
+    },
+    {
+      "id": 804602,
+      "name": "Ombrello Stracciato",
+      "desc": "Se la parte Testa viene rotta, ottiene 5 [AttackDown] e infligge +2 [Sinking]."
+    },
+    {
+      "id": 804603,
+      "name": "Un Ultimo Sforzo",
+      "desc": "Se i PV scendono al 15%, la Velocità viene fissata a 1 e ottiene 1 [Reduction].\nI Vecchi Ombrelli appena generati hanno +30% PV Max. Usa 'Piagnistei in Cerca di Qualcosa' ogni turno."
+    },
+    {
+      "id": 804701,
+      "name": "Fiamme Disperse",
+      "desc": "A fine turno, se quest'unità ha [Combustion], infligge lo stesso valore di [Combustion] a tutti i nemici con [WrappedCurseTag] durante il turno successivo"
+    },
+    {
+      "id": 804702,
+      "name": "Mezzi Infranti",
+      "desc": "Quando il Braccio viene rotto, infligge -20% danni"
+    },
+    {
+      "id": 804801,
+      "name": "La Birra ti dà il Singhiozzo!",
+      "desc": "Dopo aver colpito con 'Me La Prendo Io!', se il bersaglio ha 5+ [Tipsiness], l'unità viene Stordita."
+    },
+    {
+      "id": 804802,
+      "name": "Che Odore Invitante, Eh?",
+      "desc": "Un odore misterioso interiore potenzia lo spirito.\nA Inizio Ondata, un Peccatore a caso ottiene 5 [Exalted]."
+    },
+    {
+      "id": 805201,
+      "name": "Vecchio e Abbandonato",
+      "desc": "Se questa unità viene sconfitta, l'attaccante ottiene 2 [Agility] nel turno successivo.\nTutte le Parti della Volpe Vagabonda ottengono 2 [Binding] e 1 [ShardOfUmbrella]."
+    },
+    {
+      "id": 804301,
+      "name": "Mentalità Pericolosa",
+      "desc": "A fine turno, perde 10 PS."
+    },
+    {
+      "id": 804302,
+      "name": "Cuor Periglioso",
+      "desc": "In stato di Morale Basso, ottiene 2 [Enhancement] e 3 [Binding]."
+    },
+    {
+      "id": 804303,
+      "name": "Cuor Vacillante",
+      "desc": "In stato di Panico, viene Stordito."
+    },
+    {
+      "id": 804304,
+      "name": "Determinazione",
+      "desc": "Quando esce dallo stato di Panico, cura del tutto i PS, e ottiene 2 [Rapidity] e 2 [Enhancement]."
+    },
+    {
+      "id": 804305,
+      "name": "Lobotomy E.G.O",
+      "desc": "inizia l'Incontro con 1200 Scudo"
+    },
+    {
+      "id": 805301,
+      "name": "Cuor Fortificato",
+      "desc": "Se quest'unità è rotta, Dongbaek ottiene +5 Conteggio [Sinking], tutti i Peccatori consumano 2 Conteggio [Sinking] e ottengono 1 [Protection] e 2 [Enhancement] nel turno successivo."
+    },
+    {
+      "id": 804401,
+      "name": "In Piena Fioritura",
+      "desc": "All'inizio del turno 5, genera 4 Fiori Che Sbocceranno Presto con 3 [DongbaekGrow]"
+    },
+    {
+      "id": 804402,
+      "name": "Mentalità In Fiore",
+      "desc": "Quando i PV scendono al 50%, fissa i danni a 0 per il resto del turno. Poi, passa alla fase successiva."
+    },
+    {
+      "id": 804403,
+      "name": "Duello",
+      "desc": "Se i PV scendono al 50%, usa 'Da Cospargere di Terra' e diventa immune a Stordimento e Panico per due Turni.\nSe Yi Sang è in stato di [DongbaekShowdown], Dongbaek ottiene 1 [Enhancement].\nSe Yi Sang vince il [DongbaekShowdown], tutti gli alleati ottengono 3 [AttackDmgUp] nel turno successivo.\nSe Dongbaek vine il [DongbaekShowdown], Dongbaek cura del tutto i PS."
+    },
+    {
+      "id": 804404,
+      "name": "Il Costo della Fioritura",
+      "desc": "Se 'Brezza Primaverile Incantevole' perde uno Scontro, Dongbaek perde 10 PS"
+    },
+    {
+      "id": 805401,
+      "name": "Lindera in Fiore",
+      "desc": "All'arrivo, ottiene 1 [DongbaekGrow]"
+    },
+    {
+      "id": 804901,
+      "name": "나오면 안되는 텍스트 (번역 x)",
+      "desc": "나오면 안되는 텍스트 (번역 x)"
+    },
+    {
+      "id": 804902,
+      "name": "나오면 안되는 텍스트 (번역 x)",
+      "desc": "나오면 안되는 텍스트 (번역 x)"
+    },
+    {
+      "id": 804903,
+      "name": "Autodistruzione",
+      "desc": "Tutte le Abilità attaccano Indiscriminatamente. Quest'unità perde il 2% dei suoi PV Max ogni volta che attacca."
+    },
+    {
+      "id": 804904,
+      "name": "Autosalvezza",
+      "desc": "Gli effetti di cura ai PV vengono raddoppiati."
+    },
+    {
+      "id": 805601,
+      "name": "Inutilità Radiante",
+      "desc": "A inizio turno, Dongrang ottiene 1 [Protection] e 1 [Enhancement]."
+    },
+    {
+      "id": 805602,
+      "name": "Lavoro Sodo",
+      "desc": "Mentre quest'unità ha [DistortedDongrangEarnestAchievement], applica i seguenti effetti:\n- Può essere sconfitto solo dagli attacchi di Dongrang.\n- Quando quest'unità subisce danni fatali, ottiene [DistortedDongrangEmptyHonor] e cura i PV dell'attaccante.\n- Se Dongrang sconfigge quest'unità, Dongrang cura PV e diventa più forte durante il turno successivo."
+    },
+    {
+      "id": 805603,
+      "name": "Onore Futile",
+      "desc": "Mentre quest'unità ha [DistortedDongrangEmptyHonor], applica i seguenti effetti:\n- Può essere sconfitto solo dagli attacchi di Dongrang.\n- Se Dongrang sconfigge quest'unità, Dongrang perde PV, ottiene 1 [DistortedDongrangEmptiness], e viene indebolito durante il turno successivo"
+    },
+    {
+      "id": 805701,
+      "name": "Carico Fruito",
+      "desc": "L'unità che ha sconfitto quest'unità cura il 5% dei PV Max, e ottiene 1 [Agility] e 1 [Enhancement] nel turno successivo"
+    },
+    {
+      "id": 805001,
+      "name": "Verso l'Ideale",
+      "desc": "Quando i PV di quest'unità scendono all'85% e al 50% dei PV Max, genera 2 Alberi Ambiziosi e cambia comportamento."
+    },
+    {
+      "id": 806001,
+      "name": "Ambizione Radiante",
+      "desc": "A inizio turno, Dongrang ottiene 1 [AttackDmgUp] e 1 [Protection]."
+    },
+    {
+      "id": 805004,
+      "name": "Le Conseguenze della Negligenza",
+      "desc": "Se 'È Giunta la Vendemmia' perde uno Scontro, Dongrang perde 5 PS"
+    },
+    {
+      "id": 805005,
+      "name": "Sorriso Amaro",
+      "desc": "In stato di Panico, ottiene 2 [Protection] e riporta i PS a 0 durante il turno successivo."
+    },
+    {
+      "id": 805006,
+      "name": "Giudizio Inutile",
+      "desc": "When recovering from stagger, gain 1 Attack Power Up."
+    },
+    {
+      "id": 805007,
+      "name": "Impresa Estenuante",
+      "desc": "Dopo aver usato 'Sii I Miei Nutrienti, Prego' 3 volte, viene Stordito nel turno successivo."
+    },
+    {
+      "id": 805002,
+      "name": "Verso l'Ideale",
+      "desc": "Quando i PV di quest'unità scendono all'85% e al 50% dei PV Max, genera 2 Alberi Ambiziosi e cambia comportamento."
+    },
+    {
+      "id": 805003,
+      "name": "Verso l'Ideale",
+      "desc": "Quando i PV di quest'unità scendono al 50%, genera due Alberi Ambiziosi e cambia comportamento."
+    },
+    {
+      "id": 805801,
+      "name": "Fatina Esca",
+      "desc": "Quando la Fatina viene attaccata, solo quella parte perde PV."
+    },
+    {
+      "id": 805802,
+      "name": "Radici Esposte",
+      "desc": "A fine turno, Se la Fatina è rotta, le Radici vengono esposte e possono essere attaccate.\nMentre le Radici sono esposte, tutte le parti ottengono 1 [Enhancement], 2 [Binding], e 3 [Vulnerable]."
+    },
+    {
+      "id": 805803,
+      "name": "Esca di Scorta",
+      "desc": "La Fatina si rigenera dopo 1 turno dall'esposizione delle Radici. (Solo una volta)\nSe le Radici sono state esposte 3 volte o distrutte, si infuria."
+    },
+    {
+      "id": 805804,
+      "name": "Debolezza Trovata",
+      "desc": "A fine turno, subisce danni pari alla Potenza [Vibration] sulla Fatina. (Max 20)"
+    },
+    {
+      "id": 805805,
+      "name": "Debolezza Connessa",
+      "desc": "A fine turno, subisce più danni in base alla Potenza [Combustion] sulla Parte. (Max +15%)"
+    },
+    {
+      "id": 805901,
+      "name": "Riposo Falsificato",
+      "desc": "A fine turno, se il Quadrifoglio Gigante è sul campo, la Fata Gambe Lunghe cura 30 PV."
+    },
+    {
+      "id": 805902,
+      "name": "Mezzi Smarriti",
+      "desc": "Se il Braccio è rotto, ottiene 2 [Reduction]."
+    },
+    {
+      "id": 805903,
+      "name": "Ombra Rovinata",
+      "desc": "Se la Foglia è rotta, ottiene 4 [DefenseDown] e 1 [Vulnerable]."
+    },
+    {
+      "id": 806201,
+      "name": "Foglia Contaminante",
+      "desc": "A inizio turno, applica 1 [TakeHpHealIncrease] e 1 [Enhancement] a Fata Gambe Lunghe."
+    },
+    {
+      "id": 80620101,
+      "name": "Foglia Contaminante",
+      "desc": "A inizio turno, applica 1 [TakeHpHealIncrease] e 1 [Enhancement] a Fata Gambe Lunghe."
+    },
+    {
+      "id": 826301,
+      "name": "Sazietà Momentanea",
+      "desc": "A fine turno, divora tutto gli alleati con [PreparedMeat] a 1 PV. Poi, tutte le Parti ottengono 5 [Vulnerable], [Reduction] e [Disarming]."
+    },
+    {
+      "id": 826302,
+      "name": "Fame Selvaggia",
+      "desc": "A inizio turno, se ci sono alleati a 25% o meno PV, divora tutti gli alleati.\nCura il (n° di alleati divorati x 5)% dei PV Max del Corpo.\nA fine turno, se tutti gli alleati sono sconfitti, ottiene 20 [Enhancement] durante il turno successivo."
+    },
+    {
+      "id": 826303,
+      "name": "Braccia Rotte",
+      "desc": "Se un Braccio è rotto, il Corpo ottiene 5 Sanguinamento all'inizio di ogni turno."
+    },
+    {
+      "id": 826304,
+      "name": "Invito a Mangiare",
+      "desc": "A fine turno, tutti i Peccatori curano 10 PS e ottengono +1 Risorsa E.G.O di tutte le Affinità"
+    },
+    {
+      "id": 826501,
+      "name": "Stomaco Vuoto",
+      "desc": "A fine turno, divora tutti gli alleati con [PreparedMeat] che sono Storditi."
+    },
+    {
+      "id": 826502,
+      "name": "Fame Infinita",
+      "desc": "Dopo aver sconfitto un alleato, il Nucleo recupera 20 PV; infine, ottiene 1 [Vulnerable] il turno successivo."
+    },
+    {
+      "id": 826503,
+      "name": "Fame",
+      "desc": "A fine turno: Se quest'unità non è riuscita a divorare un alleato con Carne Fresca, ottiene 1 [Hunger]. A 75% o meno PV, ottiene +1 [Hunger]. A 50% o meno PV, ottiene 1 ulteriore [Hunger] in più.\nA fine turno, se quest'unità ha divorato un alleato con Carne Fresca, consuma 1 [Hunger]."
+    },
+    {
+      "id": 826504,
+      "name": "Sazietà Momentanea",
+      "desc": "A fine turno, se la regina ha 0 Stack di [Hunger], ottiene (alleati sconfitti durante questo turno x 3) [AttackDown] e [DefenseDown]."
+    },
+    {
+      "id": 826505,
+      "name": "Fame Selvaggia",
+      "desc": "A 4 Stack di [Hunger], passa alla fase successiva nel turno successivo."
+    },
+    {
+      "id": 811801,
+      "name": "Ritorno del Passato",
+      "desc": "A fine turno, se ha 50+ [AccumulatedPastMirror] e se i PV del Nucleo sono pari o inferiori all'80%, il Nucleo recupera 200 PV e spende 50 [AccumulatedPastMirror]"
+    },
+    {
+      "id": 811802,
+      "name": "Passato Smarrito",
+      "desc": "Se il Corpo è rotto, spende ogni [AccumulatedPastMirror].\nQuando il Corpo è rotto, tutte le sue resistenze vengono cambiate a Inefficace (0.5) a partire dal turno successivo fino alla fine dell'Incontro."
+    },
+    {
+      "id": 811808,
+      "name": "Metronomo",
+      "desc": "Se il valore di [AccumulatedPastMirror] è dispari, ottiene 3 [Vulnerable] e [AttackDmgUp]\nSe invece è pari, ottiene 3 [Protection] e [AttackDmgDown]"
+    },
+    {
+      "id": 826401,
+      "name": "Cura",
+      "desc": "A inizio turno: Cura il 15% dei PV Max"
+    },
+    {
+      "id": 826402,
+      "name": "Da Tenere Fresca",
+      "desc": "I PV non scenderanno sotto l'1"
+    },
+    {
+      "id": 124501,
+      "name": "I Difensori della Regina",
+      "desc": "Quando quest'unità viene colpita, subisce -70% danni e li trasferisce a un alleato casuale.\n(Non si attiva se non ci sono alleati, dà la priorità agli alleati con [PreparedMeat]. Questi danni non possono uccidere)"
+    }
+  ]
+}
