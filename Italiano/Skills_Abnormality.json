@@ -3035,7 +3035,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Stuzzicata",
+          "name": "Stuzzica-Coda",
           "desc": "[WhenUse] Ottiene 2 [SelfCharge]\n[DefeatDuel] Perde 1 [SelfCharge]",
           "coinlist": [
             {
@@ -3103,7 +3103,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sgancio Elettrico",
+          "name": "Rilascio Elettrico",
           "desc": "[WhenUse] Ottiene 1 [SelfCharge]\nInfligge +10% danni ai bersagli con [Paralysis]",
           "coinlist": [
             {},
@@ -3304,7 +3304,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Torrente Doloroso",
+          "name": "Torrente Dolorosa",
           "desc": "",
           "coinlist": [
             {
@@ -3387,7 +3387,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Maledizione Accumulata",
+          "name": "Accumula Maledizione",
           "desc": "[WhenUse] Infligge 1 [WrappedCurseTag]",
           "coinlist": [
             {
@@ -3447,7 +3447,7 @@
         {
           "level": 1,
           "name": "Trasferimento dei Talismani",
-          "desc": "[WhenUse] Rimuovi ogni [WrappedCurseTag] dal bersaglio; Ottiene la stessa quantità di [ReattachedCurseTag]",
+          "desc": "[WhenUse] Rimuove ogni [WrappedCurseTag] dal bersaglio; Ottiene la stessa quantità di [ReattachedCurseTag]",
           "coinlist": [
             {}
           ]
@@ -3478,7 +3478,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 5 [Vibration] e +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Vibration] e +2 Conteggio [Vibration]"
                 }
               ]
             }
@@ -3517,7 +3517,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Causa [VibrationExplosion] in base a [Vibration] Count del bersaglio"
+                  "desc": "[OnSucceedAttack] Causa [VibrationExplosion] in base a Conteggio [Vibration] del bersaglio"
                 }
               ]
             }
@@ -3530,7 +3530,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Me La Prendo Io!",
+          "name": "Lo Prendo Io!",
           "desc": "[CantDuel]\nNon può essere intercettato\nDà priorità ai nemici con [Exalted]\nSe il bersaglio non ha [Tipsiness], Potere Scontro +5",
           "coinlist": [
             {
@@ -3542,7 +3542,7 @@
                   "desc": "[OnSucceedAttack] Se il bersaglio ha [Tipsiness], infligge 0 danni, e chi la usa perde 50 PV"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Rimuovi ogni [Exalted] o [Tipsiness]"
+                  "desc": "[OnSucceedAttack] Rimuove ogni [Exalted] o [Tipsiness]"
                 }
               ]
             }
@@ -3555,7 +3555,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Me La Prendo Io!",
+          "name": "Lo Prendo Io!",
           "desc": "Dà priorità ai nemici con [Exalted]\nSe il bersaglio non ha [Tipsiness], Potere Scontro +5",
           "coinlist": [
             {
@@ -3567,7 +3567,7 @@
                   "desc": "[OnSucceedAttack] Se il bersaglio ha [Tipsiness], infligge 0 danni, e chi la usa perde 50 PV"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Rimuovi ogni [Exalted] o [Tipsiness]"
+                  "desc": "[OnSucceedAttack] Rimuove ogni [Exalted] o [Tipsiness]"
                 }
               ]
             }
@@ -3599,7 +3599,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Ti È Piacuta?",
+          "name": "Ti È Piacuto?",
           "desc": "[WhenUse] Ottiene 1 [Binding] nel turno successivo",
           "coinlist": [
             {}
@@ -3901,7 +3901,7 @@
         {
           "level": 1,
           "name": "Brezza Primaverile Incantevole",
-          "desc": "Ottiene +5 Potere Finale per ogni Fiore Che Sboccerà Presto in vita\n\n[EndSkill] Rimuovi tutti i Fiori Che Sbocceranno Presto",
+          "desc": "Ottiene +5 Potere Finale per ogni Fiore Che Sboccerà Presto in vita\n\n[EndSkill] Rimuove tutti i Fiori Che Sbocceranno Presto",
           "coinlist": [
             {
               "coindescs": [
@@ -4576,7 +4576,7 @@
                   "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttackHead] Infligge +2 Conteggio [Vibration]"
                 }
               ]
             }
@@ -4589,7 +4589,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Radici Scavanti",
+          "name": "Nascondi le Radici",
           "desc": "",
           "coinlist": [
             {
@@ -4598,7 +4598,7 @@
                   "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Infligge +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttackHead] Infligge +2 Conteggio [Vibration]"
                 }
               ]
             }
@@ -4617,7 +4617,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +3 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Vibration]"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Infligge 3 [Vibration]"
@@ -4770,13 +4770,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Richiamo Ombre",
+          "name": "Crea Ombre",
           "desc": "[WhenUse] Pianta un Quadrifoglio Gigante nel turno successivo\n[DefeatDuel] Il Quadrifoglio Gigante appare con il 70% dei PV Max",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Rimuovi ogni Conteggio [Laceration]"
+                  "desc": "[OnSucceedAttack] Rimuove ogni Conteggio [Laceration]"
                 }
               ]
             }
