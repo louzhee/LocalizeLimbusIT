@@ -108,7 +108,7 @@
     {
       "id": 956801,
       "name": "Vita Aggrappata a un Cuneo [一櫼之命]",
-      "desc": "A inizio Incontro, ottiene 3 [YesdragonSelfRefraction]\nA fine turno, ottiene 1 [YesdragonSelfRefraction] il turno successivo\nOttiene +1 [YesdragonSelfRefraction] in più da questo effetto ogni volta che si attiva la Passiva \"Furia Tonante\""
+      "desc": "A inizio Incontro, ottiene 3 [YesdragonSelfRefraction]\nA Fine Turno, ottiene 1 [YesdragonSelfRefraction] il turno successivo\nOttiene +1 [YesdragonSelfRefraction] in più da questo effetto ogni volta che si attiva la Passiva \"Furia Tonante\""
     },
     {
       "id": 956802,
@@ -148,7 +148,7 @@
     {
       "id": 956907,
       "name": "Erumpent Flower-burying Efflorescence [梅花滿開]",
-      "desc": "A inizio Incontro, ottiene 3 [YesdragonSelfRefraction]\nA fine turno, ottiene 1 [YesdragonSelfRefraction] il turno successivo\nOttiene +1 [YesdragonSelfRefraction] in più da questo effetto ogni volta che si attiva la Passiva \"Furia Tonante\"\n- Se la parte Scaglia Achillea è rotta, resetta l'aumento di [YesdragonSelfRefraction] ottenuto"
+      "desc": "A inizio Incontro, ottiene 3 [YesdragonSelfRefraction]\nA Fine Turno, ottiene 1 [YesdragonSelfRefraction] il turno successivo\nOttiene +1 [YesdragonSelfRefraction] in più da questo effetto ogni volta che si attiva la Passiva \"Furia Tonante\"\n- Se la parte Scaglia Achillea è rotta, resetta l'aumento di [YesdragonSelfRefraction] ottenuto"
     },
     {
       "id": 956908,
@@ -200,25 +200,25 @@
     {
       "id": 955103,
       "name": "Volontà Del Prescritto",
-      "desc": "A inizio turno:\n- Ottiene [IndexPrescript_Base_2nd] in base al livello di [UnlockBuff_Base] su di sé\n- Infligge [IndexPrescriptTargetToPersonality] su un Peccatore casuale, e dà priorità a quel bersaglio\n<color=#ff9000><mark=#ff000040><b><u>- Quando usa un'Abilità contro il [IndexPrescriptTargetToPersonality], converte ogni Moneta in [SuperCoin]</u></b></mark></color>\n· Se l'[IndexPrescriptTargetToPersonality] viene sconfitto, o se non può più essere bersagliato, <color=#ff6000><mark=#ff000040><b><u>usa le Abilità Attacco rimanenti su un Peccatore casuale (Dà priorità ai bersagli con meno PV, esclude i nemici con 1 PV)</u></b></mark></color>\n- Quando il Peccatore casuale viene sconfitto, o se i suoi PV scendono a 1, riusa questo effetto su un altro Peccatore</u></b></mark></color>\n\nInfligge +2.5% danni sul [IndexPrescriptTargetToPersonality] per ogni [BlessingOfIndexPrescriptEnemy] (max 20%)\n- A 9 [BlessingOfIndexPrescriptEnemy], infligge +30% danni su ogni bersaglio",
+      "desc": "Inizio Turno:\n- Ottiene [IndexPrescript_Base_2nd] in base al livello di [UnlockBuff_Base] su di sé\n- Infligge [IndexPrescriptTargetToPersonality] su un Peccatore casuale, e dà priorità a quel bersaglio\n<color=#ff9000><mark=#ff000040><b><u>- Quando usa un'Abilità contro il [IndexPrescriptTargetToPersonality], converte ogni Moneta in [SuperCoin]</u></b></mark></color>\n· Se l'[IndexPrescriptTargetToPersonality] viene sconfitto, o se non può più essere bersagliato, <color=#ff6000><mark=#ff000040><b><u>usa le Abilità Attacco rimanenti su un Peccatore casuale (Dà priorità ai bersagli con meno PV, esclude i nemici con 1 PV)</u></b></mark></color>\n- Quando il Peccatore casuale viene sconfitto, o se i suoi PV scendono a 1, riusa questo effetto su un altro Peccatore</u></b></mark></color>\n\nInfligge +2.5% danni sul [IndexPrescriptTargetToPersonality] per ogni [BlessingOfIndexPrescriptEnemy] (max 20%)\n- A 9 [BlessingOfIndexPrescriptEnemy], infligge +30% danni su ogni bersaglio",
       "flavor": "Vuoi che metta su famiglia?\n\n\"Deve essere opera del destino. Chi l'avrebbe mai detto che sarei finita con un marito come te...\""
     },
     {
       "id": 955104,
       "name": "Esecuzione Del Prescritto",
-      "desc": "A fine turno, se il [IndexPrescript_Base_2nd] è stato portato al termine durante il turno, recupera 10 PS e ottiene 3 [BlessingOfIndexPrescriptEnemy] (una volta per turno)\n\n<color=#ff6000><mark=#ff000040><b><u>Se invece il [IndexPrescript_Base_2nd] non è stato portato al termine, ottiene 8 [KarmaOfIndexRien]</u></b></mark></color>\n- Se non ha [UnlockBuff_Base], ottiene 1 [BlessingOfIndexPrescriptEnemy] a fine turno\n- A 9 [BlessingOfIndexPrescriptEnemy], non ottiene [KarmaOfIndexRien]",
+      "desc": "A Fine Turno, se il [IndexPrescript_Base_2nd] è stato portato al termine durante il turno, recupera 10 PS e ottiene 3 [BlessingOfIndexPrescriptEnemy] (una volta per turno)\n\n<color=#ff6000><mark=#ff000040><b><u>Se invece il [IndexPrescript_Base_2nd] non è stato portato al termine, ottiene 8 [KarmaOfIndexRien]</u></b></mark></color>\n- Se non ha [UnlockBuff_Base], ottiene 1 [BlessingOfIndexPrescriptEnemy] a fine turno\n- A 9 [BlessingOfIndexPrescriptEnemy], non ottiene [KarmaOfIndexRien]",
       "flavor": "Vuoi che perda la mia famiglia?\n\n\"Devo fare un viaggetto al nord oggi.\"\n\"Ah, a proposito— ciao, piccolo— Tesoro? Stasera dovrebbe arrivarmi un pacco. Potresti andare a ritirarlo, per favore?\""
     },
     {
       "id": 955105,
       "name": "Sprigiona",
-      "desc": "A fine turno, se ha 3/6/9 [BlessingOfIndexPrescriptEnemy], o a 95%/85%/75% o meno PV, ottiene [UnlockBuff_Rien1]/[UnlockBuff_Rien2]/[UnlockBuff_Rien3]\n\nAlla fine del primo turno, se il livello di [UnlockBuff_Base] è inferiore a 1, ottiene [UnlockBuff_Rien1]\nAlla fine del terzo turno, se il livello di [UnlockBuff_Base] è inferiore a 2, ottiene [UnlockBuff_Rien2]\n\nSe gli effetti di [UnlockBuff_Base] sono attivati tramite le condizioni di PV o di Turno:\n- A meno di 3/6/9 [BlessingOfIndexPrescriptEnemy], vengono portati a 3/6/9\nOttiene 5 [KarmaOfIndexRien] nel turno successivo per ogni Stack ottenuto in questo modo",
+      "desc": "A Fine Turno, se ha 3/6/9 [BlessingOfIndexPrescriptEnemy], o a 95%/85%/75% o meno PV, ottiene [UnlockBuff_Rien1]/[UnlockBuff_Rien2]/[UnlockBuff_Rien3]\n\nAlla fine del primo turno, se il livello di [UnlockBuff_Base] è inferiore a 1, ottiene [UnlockBuff_Rien1]\nAlla fine del terzo turno, se il livello di [UnlockBuff_Base] è inferiore a 2, ottiene [UnlockBuff_Rien2]\n\nSe gli effetti di [UnlockBuff_Base] sono attivati tramite le condizioni di PV o di Turno:\n- A meno di 3/6/9 [BlessingOfIndexPrescriptEnemy], vengono portati a 3/6/9\nOttiene 5 [KarmaOfIndexRien] nel turno successivo per ogni Stack ottenuto in questo modo",
       "flavor": "\"Seguire il Prescritto è necessario per sbloccare ciò che è bloccato.\""
     },
     {
       "id": 955106,
       "name": "Panico Fisso",
-      "desc": "Applica gli effetti di [PanicChangeLock]\nA fine turno, se in Panico, porta i PS a 15"
+      "desc": "Applica gli effetti di [PanicChangeLock]\nA Fine Turno, se in Panico, porta i PS a 15"
     },
     {
       "id": 955201,
@@ -241,18 +241,18 @@
     {
       "id": 955204,
       "name": "Esecuzione Del Prescritto",
-      "desc": "A fine turno, se il [IndexPrescript_Base_2nd] è stato portato al termine, recupera 15 PS e ottiene 1 [BlessingOfIndexPrescriptEnemy] (una volta per turno)\n\n<color=#ff9000><mark=#ff000040><b><u>Se invece il [IndexPrescript_Base_2nd] non è stato portato al termine durante il turno, ottiene 8 [KarmaOfIndexRien_2Phase] e perde 1 [BlessingOfIndexPrescriptEnemy]</u></b></mark></color>\n- Se ha usato un'Abilità Potente durante il turno, ottiene invece 12 [KarmaOfIndexRien_2Phase] e perde 2 [BlessingOfIndexPrescriptEnemy]",
+      "desc": "A Fine Turno, se il [IndexPrescript_Base_2nd] è stato portato al termine, recupera 15 PS e ottiene 1 [BlessingOfIndexPrescriptEnemy] (una volta per turno)\n\n<color=#ff9000><mark=#ff000040><b><u>Se invece il [IndexPrescript_Base_2nd] non è stato portato al termine durante il turno, ottiene 8 [KarmaOfIndexRien_2Phase] e perde 1 [BlessingOfIndexPrescriptEnemy]</u></b></mark></color>\n- Se ha usato un'Abilità Potente durante il turno, ottiene invece 12 [KarmaOfIndexRien_2Phase] e perde 2 [BlessingOfIndexPrescriptEnemy]",
       "flavor": "Ho perso... la mia famiglia.\n\n\"Non andartene...\"\n\"Papà... Non lasciarci qui... Ti prego... aiutaci...\""
     },
     {
       "id": 955205,
       "name": "Panico Fisso",
-      "desc": "Applica gli effetti di [PanicChangeLock]\nA fine turno, se in Panico, porta i PS a 30"
+      "desc": "Applica gli effetti di [PanicChangeLock]\nA Fine Turno, se in Panico, porta i PS a 30"
     },
     {
       "id": 955312,
       "name": "Panico Fisso",
-      "desc": "Applica gli effetti di [PanicChangeLock]\nA fine turno, se in Panico, porta i PS a 45"
+      "desc": "Applica gli effetti di [PanicChangeLock]\nA Fine Turno, se in Panico, porta i PS a 45"
     },
     {
       "id": 955601,
@@ -262,7 +262,7 @@
     {
       "id": 955602,
       "name": "Giocherai? Giocherai? Giocherai?",
-      "desc": "A fine turno, se quest'unità è l'unico alleato in vita, o se il Nucleo è a 50% o meno PV, usa \"Giochiamo Insieme Per Sempre~!\" nel turno successivo (una volta per Incontro)"
+      "desc": "A Fine Turno, se quest'unità è l'unico alleato in vita, o se il Nucleo è a 50% o meno PV, usa \"Giochiamo Insieme Per Sempre~!\" nel turno successivo (una volta per Incontro)"
     },
     {
       "id": 955603,
@@ -277,7 +277,7 @@
     {
       "id": 955401,
       "name": "Tutto Il Mio Corpus È Stato Donato A Tibia",
-      "desc": "Subisce -30% danni ai PV e ai PS da [Combustion], [Burst], e [Sinking]; La Soglia di Stordimento viene alzata del 30% in meno dagli effetti di [Vibration]\nSubisce -50% danni da [Laceration]\n\nA inizio turno, se è Stordito, si riprende dallo Stordimento. Poi, ottiene 2 [CrimsonTakeDamageUp] e non può usare 'Installazione D'Arte n.3: Cassa Toracica Improvvisata' fino al turno successivo (una volta per Incontro)\n\nA fine turno, ottiene 1 [DefenseDown] il turno successivo per ogni 4 [Combustion] su di sé (max 15)"
+      "desc": "Subisce -30% danni ai PV e ai PS da [Combustion], [Burst], e [Sinking]; La Soglia di Stordimento viene alzata del 30% in meno dagli effetti di [Vibration]\nSubisce -50% danni da [Laceration]\n\nA inizio turno, se è Stordito, si riprende dallo Stordimento. Poi, ottiene 2 [CrimsonTakeDamageUp] e non può usare 'Installazione D'Arte n.3: Cassa Toracica Improvvisata' fino al turno successivo (una volta per Incontro)\n\nA Fine Turno, ottiene 1 [DefenseDown] il turno successivo per ogni 4 [Combustion] su di sé (max 15)"
     },
     {
       "id": 955301,
@@ -297,7 +297,7 @@
     {
       "id": 955304,
       "name": "Bias di Conferma",
-      "desc": "A fine turno, <color=#ff9000><mark=#ff000040><b><u>sottrae 10 PS da ogni nemico con più PS di quest'Unità</u></b></mark></color> (max 3 bersagli; 1 volta per nemico per turno)\n(Non si attiva se Hohenheim è in Panico)\n\n<color=#ff9000><mark=#ff000040><b><u>I PS di quest'unità non possono scendere sotto il 15</u></b></mark></color>"
+      "desc": "A Fine Turno, <color=#ff9000><mark=#ff000040><b><u>sottrae 10 PS da ogni nemico con più PS di quest'Unità</u></b></mark></color> (max 3 bersagli; 1 volta per nemico per turno)\n(Non si attiva se Hohenheim è in Panico)\n\n<color=#ff9000><mark=#ff000040><b><u>I PS di quest'unità non possono scendere sotto il 15</u></b></mark></color>"
     },
     {
       "id": 955305,
