@@ -943,8 +943,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Blasting Shatterslash [爆碎斬]",
-          "desc": "Prioritizes targets with [Prey]\nCan clash with this Skill regardless of Speed\nCoin Power +1 for every 6 ([Combustion] + [Vibration]) on target (max 3)\n[DefeatDuel] Deal -50% final damage",
+          "name": "Taglio Frantumante Esplosivo [爆碎斬]",
+          "desc": "Dà priorità alla [Prey]\nCi si può Scontrare con quest'Abilità a prescindere dalla Velocità\nPotere Moneta +1 per ogni 6 ([Combustion] + [Vibration]) sul bersaglio (max 3)\n[DefeatDuel] Infligge -50% danni finali",
           "coinlist": [
             {
               "coindescs": [
@@ -952,16 +952,16 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Spend 1 [BulletPropellant]"
+                  "desc": "Spende 1 [BulletPropellant]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Vibration]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 4 [Vibration] and +4 [Vibration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 4 [Vibration] e +4 Conteggio [Vibration]"
                 }
               ]
             },
@@ -971,16 +971,16 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Spend 1 [BulletPropellant]"
+                  "desc": "Spende 1 [BulletPropellant]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [Switch_Vibration] into [VibrationIgnition]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Trasforma [Switch_Vibration] in [VibrationIgnition]"
                 }
               ]
             },
@@ -990,16 +990,16 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Spend 1 [BulletPropellant]"
+                  "desc": "Spende 1 [BulletPropellant]"
                 },
                 {
-                  "desc": "If this unit spent [BulletPropellant] due to this Coin's effect, deal +50% damage"
+                  "desc": "Se questa Moneta ha Speso [BulletPropellant], infligge +50% danni"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Combustion] and +3 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Combustion] e +3 Conteggio [Combustion]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [VibrationExplosion] twice; then, reduce target's [Vibration] Count by 2"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Innesca [VibrationExplosion] due volte; riduce poi il Conteggio [Vibration] sul bersaglio di 2"
                 }
               ]
             }
@@ -1012,8 +1012,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Tanglecleaver [快刀亂麻]",
-          "desc": "Prioritizes targets with [Prey]\nCan Clash with this Skill regardless of Speed; this unit does not become Staggered before it uses this Skill\n[WhenUse] Consume all [BattleSense] Stack on self. If this unit consumed...\n- ... 10+ Stack , gain Atk Weight +1 for every 10 Stack consumed (max 2)\n- ... 25 Stack, Final Power +1 for every 4 (sum of [Combustion] and [Vibration] on the main target) (max 5)\n[DefeatDuel] Deal -80% damage; this Skill's damage cannot Stagger the target; inflict only half the Potency and Count for both [Combustion] and [Vibration] inflicted by this Skill (unless raised by other effects)\n[EndSkill] [FullReload] (once per turn)\n- If this unit has [BulletPropellantSpecial], [ReloadKeepAmmo] instead (once per turn)\n[DefeatDuel] Deal -50% final damage\n[EndSkill] Ends this turn",
+          "name": "Taglianodi [快刀亂麻]",
+          "desc": "Dà priorità alla [Prey]\nCi si può Scontrare con quest'Abilità a prescindere dalla Velocità; Non può essere Stordito fino all'uso di questa Abilità\n[WhenUse] Consuma ogni [BattleSense] su di sé. Se ha consumato...\n- ... 10+ Stack, Portata Attacco +1 per ogni 10 Stack consumate (max 2)\n- ... 25 Stack, Potere Finale +1 per ogni 4 ([Combustion] + [Vibration]) sul bersaglio principale (max 5)\n[DefeatDuel] Infligge -80% danni; til danno inflitto da quest'Abilità non può Stordire i bersagli; La [Combustion] e la [Vibration] inflitte dagli effetti di quest'Abilità vengono dimezzate\n[EndSkill] [FullReload] (una volta per turno)\n- Se ha [BulletPropellantSpecial], effettua invece una [ReloadKeepAmmo] (una volta per turno)\n[DefeatDuel] Infligge -50% danni finali\n[EndSkill] Termina il turno",
           "coinlist": [
             {
               "coindescs": [
@@ -1021,16 +1021,16 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Spend all [BulletPropellant]"
+                  "desc": "Spende tutti i [BulletPropellant]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [Combustion], [Combustion] Count, [Vibration], and [Vibration] Count by [BulletPropellant] spent"
+                  "desc": "[OnSucceedAttack] Infligge ([BulletPropellant] Spesi) Potenza e Conteggio [Combustion] e [Vibration]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [Switch_Vibration] into [VibrationIgnition]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Trasforma [Switch_Vibration] in [VibrationIgnition]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [VibrationExplosion] 3 times; then, reduce target's [Vibration] Count by 3"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Innesca [VibrationExplosion] 3 volte; riduce poi il Conteggio [Vibration] sul bersaglio di 3"
                 }
               ]
             }
@@ -1043,8 +1043,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Savage Tigerslayer's Perfected Flurry of Blades [超絕猛虎殺擊亂斬]",
-          "desc": "Prioritizes targets with [Prey]\nCan Clash with this Skill regardless of Speed; this unit does not become Staggered before it uses this Skill\n[WhenUse] Consume all [BattleSense] Stack on self. If this unit consumed...\n- ... 10+ Stack , gain Atk Weight +1 for every 10 Stack consumed (max 4)\n- ... 25 Stack, Final Power +1 for every 4 (sum of [Combustion] and [Vibration] on the main target) (max 6)\n- ... 50 Stack, Coin Power +1 and deal +50% damage\n[DefeatDuel] Deal -80% damage; this Skill's damage cannot Stagger the target; inflict only half the Potency and Count for both [Combustion] and [Vibration] inflicted by this Skill (unless raised by other effects)\n[EndSkill] [FullReload] (once per turn)\n- If this unit has [BulletPropellantSpecial], [ReloadKeepAmmo] instead (once per turn)\n[DefeatDuel] Deal -50% final damage\n[EndSkill] Ends this turn",
+          "name": "Raffica Perfezionata dell'Ammazzatigri Selvaggio [超絕猛虎殺擊亂斬]",
+          "desc": "Dà priorità alla [Prey]\nCi si può Scontrare con quest'Abilità a prescindere dalla Velocità; Non può essere Stordito fino all'uso di questa Abilità\n[WhenUse] Consuma ogni [BattleSense] su di sé. Se ha consumato...\n- ... 10+ Stack, Portata Attacco +1 per ogni 10 Stack consumate (max 4)\n- ... 25 Stack, Potere Finale +1 per ogni 4 ([Combustion] + [Vibration]) sul bersaglio principale (max 6)\n- ... 50 Stack, Potere Moneta +1 e +50% danni\n[DefeatDuel] Infligge -80% danni; il danno inflitto da quest'Abilità non può Stordire i bersagli; La [Combustion] e la [Vibration] inflitte dagli effetti di quest'Abilità vengono dimezzate\n[EndSkill] [EndSkill] [FullReload] (una volta per turno)\n- Se ha [BulletPropellantSpecial], effettua invece una [ReloadKeepAmmo] (una volta per turno)\n[DefeatDuel] Infligge -50% danni finali\n[EndSkill] Termina il turno",
           "coinlist": [
             {
               "coindescs": [
@@ -1052,10 +1052,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Spend 1 [BulletPropellant]"
+                  "desc": "Spende 1 [BulletPropellant]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 6 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 6 [Combustion]"
                 }
               ]
             },
@@ -1065,10 +1065,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Spend 1 [BulletPropellant]"
+                  "desc": "Spende 1 [BulletPropellant]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +6 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Infligge +6 Conteggio [Combustion]"
                 }
               ]
             },
@@ -1078,10 +1078,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Spend 1 [BulletPropellant]"
+                  "desc": "Spende 1 [BulletPropellant]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 6 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 6 [Vibration]"
                 }
               ]
             },
@@ -1091,10 +1091,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Spend 1 [BulletPropellant]"
+                  "desc": "Spende 1 [BulletPropellant]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +6 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +6 Conteggio [Vibration]"
                 }
               ]
             },
@@ -1104,10 +1104,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Spend 1 [BulletPropellant]"
+                  "desc": "Spende 1 [BulletPropellant]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [Switch_Vibration] into [VibrationIgnition]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Trasforma [Switch_Vibration] in [VibrationIgnition]"
                 }
               ]
             },
@@ -1117,10 +1117,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Spend 1 [BulletPropellant]"
+                  "desc": "Spende 1 [BulletPropellant]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [VibrationExplosion] 5 times; then, reduce target's [Vibration] Count by 5"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] innesca [VibrationExplosion] 5 volte; riduce poi il Conteggio [Vibration] sul bersaglio di 5"
                 }
               ]
             }
@@ -1133,26 +1133,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Reloading Tiantui Star's Blade",
-          "desc": "[WhenUse] Heal 10 SP\n- At less than 0 SP, heal 5 additional SP\n[DuelCounter]\n[DefeatDuel] Lose 1 [BulletPropellant]\n[EndSkill] [FullReload] (once per turn)\n- If this unit has [BulletPropellantSpecial], [ReloadKeepAmmo] instead (once per turn)",
+          "name": "Ricaricando la Lama della Stella Tiantui",
+          "desc": "[WhenUse] Recupera 10 PS\n- A meno di 0 PS, recupera altri 5 PS\n[DuelCounter]\n[DefeatDuel] Perde 1 [BulletPropellant]\n[EndSkill] [FullReload] (una volta per turno)\n- Se questa unità ha [BulletPropellantSpecial], effettua invece una [ReloadKeepAmmo] (una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spend 1 [BulletPropellant]"
+                  "desc": "Spende 1 [BulletPropellant]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Combustion]"
                 }
               ]
             }
@@ -1165,8 +1165,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Gimme Candy.",
-          "desc": "Prioritizes targets with [GiveMeCandy]\n[WhenUse] Coin Power +1 for every [GiveMeCandy] on target (max 5)\n[DefeatDuel] Deal -50% final damage",
+          "name": "Dammi le Caramelle.",
+          "desc": "Dà priorità ai bersagli con [GiveMeCandy]\n[WhenUse] Potere Moneta +1 per ogni [GiveMeCandy] sul bersaglio (max 5)\n[DefeatDuel] Infligge -50% danni finali",
           "coinlist": [
             {
               "coindescs": [
@@ -1174,13 +1174,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[WinDuelAttack] If target has [GiveMeCandy], the target becomes Staggered next turn."
+                  "desc": "[WinDuelAttack] Se il bersaglio ha [GiveMeCandy], Stordisce il bersaglio nel turno successivo."
                 },
                 {
-                  "desc": "[DefeatDuel] Gain Indulged equal to [GiveMeCandy] on target."
+                  "desc": "[DefeatDuel] Ottiene [FullCharon] pari alle Stack di [GiveMeCandy] sul bersaglio."
                 },
                 {
-                  "desc": "[EndSkill] Completely remove [GiveMeCandy] from the target this unit clashed against"
+                  "desc": "[EndSkill] Rimuove ogni [GiveMeCandy] dal bersaglio con cui si è Scontrata"
                 }
               ]
             }
@@ -1193,8 +1193,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "No Candy.",
-          "desc": "[BeforeAttack] Gain +(# of Identities with [GiveMeCandy]) Atk Weight (max 3)\n[WhenUse] Deal +10% damage for every Identity with [GiveMeCandy] (max 50%)\n[WhenUse] Coin Power +1 for every [GiveMeCandy] on the main target (max 5)",
+          "name": "Niente Caramelle.",
+          "desc": "[BeforeAttack] Portata Attacco +(# di Identità con [GiveMeCandy]) (max 3)\n[WhenUse] Infligge +10% danni per ogni Identità con [GiveMeCandy] (max 50%)\n[WhenUse] Potere Moneta +1 per ogni [GiveMeCandy] sul bersaglio principale (max 5)",
           "coinlist": [
             {
               "coindescs": [
@@ -1212,8 +1212,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "All of you...",
-          "desc": "[WhenUse] Coin Power +1 for every [GiveMeCandy] on target (max 5)\n[DefeatDuel] Deal -50% final damage",
+          "name": "Tutti Voi...",
+          "desc": "[WhenUse] Potere moneta +1 per ogni [GiveMeCandy] sul bersaglio (max 5)\n[DefeatDuel] Infligge -50% danni finali",
           "coinlist": [
             {
               "coindescs": [
@@ -1238,8 +1238,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Vroom-Vroom",
-          "desc": "[CantDuel]\n[WhenUse] Deal +20% damage for every Identity with [GiveMeCandy] (max 100%)",
+          "name": "Brum-Brum",
+          "desc": "[CantDuel]\n[WhenUse] Infligge +20% danni per ogni Identità con [GiveMeCandy] (max 100%)",
           "coindescs": [
             {
               "desc": ""
@@ -1253,8 +1253,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Eat. Together.",
-          "desc": "[WhenUse] Apply 1 [GiveMeCandy] to 2 random enemies(prioritizes enemies without [GiveMeCandy])",
+          "name": "Mangiamo. Insieme.",
+          "desc": "[WhenUse] Applica 1 [GiveMeCandy] a 2 nemici casuali (dà priorità ai nemici senza [GiveMeCandy])",
           "coinlist": [
             {
               "coindescs": [
@@ -1272,8 +1272,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "... Kkomi's angry.",
-          "desc": "[BeforeAttack] Gain +(# of Identities with [GiveMeCandy]) Atk Weight\n[WhenUse] Deal +10% damage for every Identity with [GiveMeCandy] (max 50%)\n[WhenUse] Gain Clash Power equal to the number of Identities with [GiveMeCandy] (max 5)\n[DefeatDuel] Deal -80% final damage",
+          "name": "... Kkomi è arrabbiato.",
+          "desc": "[BeforeAttack] Portata Attacco +(# di Identità con [GiveMeCandy])\n[WhenUse] Deal +10% damage for every Identity with [GiveMeCandy] (max 50%)\n[WhenUse] Potere Scontro +1 per ogni Identità con [GiveMeCandy] (max 5)\n[DefeatDuel] Infligge -80% danni finali",
           "coinlist": [
             {
               "coindescs": [
@@ -1298,8 +1298,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "You hit Kkomi.",
-          "desc": "[DuelCounter]\n[WhenUse] All Parts gain 2 Clash Power Up next turn\n[WhenUse] All Parts gain 2 Haste next turn",
+          "name": "Avete fatto male a Kkomi.",
+          "desc": "[DuelCounter]\n[WhenUse] Ogni Parte ottiene 2 [ParryingResultUp] nel turno successivo\n[WhenUse] Ogni Parte ottiene 2 [Agility] nel turno successivo",
           "coinlist": [
             {
               "coindescs": [
@@ -1317,27 +1317,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Punching",
+          "name": "Manate",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal 3 Blunt bonus damage"
+                  "desc": "[OnSucceedAttack] Infligge 3 danni Contundenti bonus"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal 3 Blunt bonus damage"
+                  "desc": "[OnSucceedAttack] Infligge 3 danni Contundenti bonus"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 Paralyze"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Paralysis]"
                 }
               ]
             }
@@ -1350,27 +1350,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Kicking",
+          "name": "Pedate",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal 5 Blunt bonus damage"
+                  "desc": "[OnSucceedAttack] Infligge 5 danni Contundenti bonus"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal 5 Blunt bonus damage"
+                  "desc": "[OnSucceedAttack] Infligge 5 danni Contundenti bonus"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 Paralyze next turn"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Paralysis] nel turno successivo"
                 }
               ]
             }
@@ -1383,14 +1383,14 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Payback",
+          "name": "Rivincita",
           "desc": "",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Target loses 5 SP"
+                  "desc": "[OnSucceedAttack] Infligge 5 danni ai PS"
                 }
               ]
             }
@@ -1403,23 +1403,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Watch Your Back!",
-          "desc": "If target has less than 0 SP, Coin Power +3",
+          "name": "Guardati Le Spalle!",
+          "desc": "Se il bersaglio ha meno di 0 PS, Potere Moneta +3",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 10 SP on self"
+                  "desc": "[OnSucceedAttack] Recupera 10 PS"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Bind and 2 Attack Power Down next turn"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Binding] e 2 [Reduction] il turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Target loses 20 SP"
+                  "desc": "[OnSucceedAttack] Infligge 20 danni ai PS"
                 }
               ]
             }
@@ -1432,8 +1432,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Assemble",
-          "desc": "[StartBattle] Summon 2 allies next turn",
+          "name": "Raduno",
+          "desc": "[StartBattle] Evoca 2 alleati nel turno successivo",
           "coinlist": [
             {
               "coindescs": [
@@ -1451,14 +1451,14 @@
       "levelList": [
         {
           "level": 1,
-          "name": "No More Tests",
-          "desc": "[WhenUse] Gain 3 [HitDamageUp] next turn\n[WhenUse] If the main target has 3+ [MiddleFingerBook], convert all Coins on this Skill to [SuperCoin]s\n[WhenUse] If the main target has 5+ [MiddleFingerBook], gain +1 Atk Weight\n[DefeatDuel] Deal -80% final damage",
+          "name": "Fine Dei Test",
+          "desc": "[WhenUse] Ottiene 3 [HitDamageUp] il turno successivo\n[WhenUse] Se il bersaglio ha 3+ [MiddleFingerBook], converte ogni Moneta in [SuperCoin]\n[WhenUse] Se il bersaglio principale ha 5+ [MiddleFingerBook], Portata Attacco +1\n[DefeatDuel] Infligge -80% danni finali",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Binding] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Binding] nel turno successivo"
                 }
               ]
             }
@@ -1471,30 +1471,30 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Promised Suffering",
-          "desc": "Prioritizes targets with the highest [MiddleFingerBook] Stack\n[WhenUse] If target has 3+ [MiddleFingerBook], convert all Coins on this Skill to [SuperCoin]s\n[DefeatDuel] Deal -50% final damage",
+          "name": "Sofferenza Promessa",
+          "desc": "Dà priorità ai nemici con più [MiddleFingerBook]\n[WhenUse] Se il bersaglio ha 3+ [MiddleFingerBook], converte ogni Moneta in [SuperCoin]\n[DefeatDuel] Infligge -50% danni finali",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vulnerable] this turn and next turn"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vulnerable] questo turno e il turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vulnerable] this turn and next turn"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vulnerable] questo turno e il turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict ([MiddleFingerBook] on the target x 3) Blunt bonus damage"
+                  "desc": "[OnSucceedAttack] Infligge ([MiddleFingerBook] sul bersaglio x 3) danni Contundenti bonus"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Remove all [MiddleFingerBook] on the target"
+                  "desc": "[OnSucceedAttack] Riduce l'[MiddleFingerBook] del bersaglio di 3"
                 }
               ]
             }
@@ -1507,8 +1507,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Enough games",
-          "desc": "[StartBattle] Heal all allies' SP by 10\n[EndBattle] If there are Panicked allies, recover them from Panic at the next Turn Start and reset their SP to 0\n[EndBattle] Apply 1 [HitResultUp] to all allies, including this unit",
+          "name": "Basta Giochetti",
+          "desc": "[StartBattle] Ogni alleato recupera 10 PS\n[EndBattle] Se ci sono alleati in Panico, si riprendono dal Panico nel turno successivo\n[EndBattle] Applica 1 [HitResultUp] su ogni alleato (include sé stesso)",
           "coinlist": [
             {
               "coindescs": [
@@ -1526,8 +1526,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "COMPLETE AND TOTAL EXTERMINATION!!!",
-          "desc": "Can Clash with this Skill regardless of Speed\nIf the main target has 5+ [MiddleFingerBook], Final Power +5\n[DefeatDuel] Deal -80% final damage\n[EndSkill] Remove [MiddleFingerBook] from all targets that were hit",
+          "name": "VI CONDANNO A MORTE!!!",
+          "desc": "Ci si può Scontrare con quest'Abilità a prescindere dalla Velocità\nSe il bersaglio principale ha 5+ [MiddleFingerBook], Potere Finale +5\n[DefeatDuel] Infligge -80% danni finali\n[EndSkill] Rimuove [MiddleFingerBook] da ogni alleato colpito",
           "coinlist": [
             {
               "coindescs": [
@@ -1535,7 +1535,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict ([MiddleFingerBook] on the target x 10) Blunt bonus damage"
+                  "desc": "[OnSucceedAttack] Infligge ([MiddleFingerBook] sul bersaglio x 10) danni Contundenti bonus"
                 }
               ]
             }

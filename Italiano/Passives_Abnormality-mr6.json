@@ -2,8 +2,8 @@
   "dataList": [
     {
       "id": 814201,
-      "name": "Dueling",
-      "desc": "When HP falls below 50%, uses a special skill to target 1 unit, then becomes immune to Stagger and Panic for the next 2 turns.\nIf Yi Sang has 'Dueling', Dongbaek gains 1 Attack Power Up.\nIf Yi Sang wins the duel, all allies gain 3 Damage Up next turn.\nIf Dongbaek wins the duel, Dongbaek fully heals SP."
+      "name": "Duello",
+      "desc": "Se i PV scendono al 50%, usa 'Da Cospargere di Terra' e diventa immune a Stordimento e Panico per i prossimi due turni.\nSe Yi Sang ha [DongbaekShowdown], Dongbaek ottiene 1 [Enhancement].\nSe Yi Sang vince il [DongbaekShowdown], tutti gli alleati ottengono 3 [AttackDmgUp] nel turno successivo.\nSe Dongbaek vine il [DongbaekShowdown], Dongbaek recupera tutti i PS."
     },
     {
       "id": 118301,
@@ -17,48 +17,48 @@
     },
     {
       "id": 124105,
-      "name": "Tigermark Round Reload",
-      "desc": "Turn End: at 90% or less HP, or at the end of the 2nd turn, reload [BulletPropellant] and gain a new pattern next turn\n- If this unit is Staggered, recover from Stagger"
+      "name": "Ricarica dei Proiettili Marchio di Tigre",
+      "desc": "A fine turno, a 90%- PV, o alla fine del secondo turno, ricarica i [BulletPropellant] e ottiene un nuovo pattern\n- Se è Stordito, si riprende dallo Stordimento"
     },
     {
       "id": 124106,
       "name": "Lei Heng [雷橫]",
-      "desc": "Turn End: at 80% or less HP, or at the end of the 4th turn, gain a new pattern next turn\n- Use a powerful attack ('Taglianodi'), repeat every 3rd turn. +10 to Min & Max Speed for turns in which this unit uses this Skill\n- At the start of that turn, gain 25 [BattleSense]\n- If this unit is Staggered, recover from Stagger"
+      "desc": "A fine turno, a 80%- PV, o alla fine del quarto turno, ottiene un nuovo pattern all'inizio del turno successivo\n- Usa l'Abilità Potente 'Taglianodi' ogni 3 turni. Velocità Min & Max +10 nei turni in cui usa quest'Abilità\nAll'inizio di quel turno, ottiene 25 [BattleSense]\n- Se è Stordito, si riprende dallo Stordimento"
     },
     {
       "id": 124107,
-      "name": "Tiantui Star [天退星]",
-      "desc": "If this unit's HP dropped to 60% or below at Turn End, or if this unit is set to use a powerful attack ('Taglianodi') next turn for the second time this Encounter, gain a new pattern next turn\n- When that turn starts, gain 1 [Irritation]\n- When that turn starts, gain 18 [BulletPropellantSpecial] and reload immediately\n· If this unit spends all [BulletPropellantSpecial], convert the effect to [BulletPropellant] and summon 2 of \"Stern Soldato of the Thumb\" units next turn and have them supply this unit with [BulletPropellantSpecial]\n- When Staggered, recover from Stagger"
+      "name": "Stella Tiantui [天退星]",
+      "desc": "Se i PV di questa unità scendono al 60%, o se questa unità sta per usare l'abilità 'Taglianodi' per la seconda volta, ottiene un nuovo pattern all'inizio del turno successivo\n- All'inizio di quel turno, ottiene 1 [Irritation]\n- All'inizio di quel turno, ottiene 18 [BulletPropellantSpecial] ed effettua immediatamente una ricarica\n· Se questa unità ha speso ogni [BulletPropellantSpecial], ottiene invece i [BulletPropellant] ed evoca 2 \"Soldati Del Pollice Severi\" che riforniranno i [BulletPropellantSpecial] di questa unità\n- Se è Stordito, si riprende dallo Stordimento"
     },
     {
       "id": 124108,
-      "name": "Lei Heng, The Pinky's Tiantui Star",
-      "desc": "Turn End: at 40% or less HP, or if this unit is set to use a powerful attack ('Taglianodi') next turn for the third time this Encounter, gain a new pattern next turn\n- Replace the powerful attack 'Taglianodi' with 'Raffica Perfezionata dell'Ammazzatigri Selvaggio'. +15 to Min & Max Speed for turns in which this unit uses this Skill\n- Convert [BattleSense] to [RestoredBattleSense]\n- Convert [Irritation] to [DerivativeHugeIrritation]\n- If this unit is Staggered, recover from Stagger"
+      "name": "Lei Heng, La Stella Tiantui del Mignolo",
+      "desc": "A fine turno, a 40%- PV, o se questa unità sta per usare l'Abilità 'Taglianodi' per la terza volta, ottiene un nuovo pattern all'inizio del turno successivo\n- Rimpiazza l'Abilità 'Taglianodi' con l'Abilità 'Raffica Perfezionata dell'Ammazzatigri Selvaggio'. Velocità Min & Max +15 nei turni in cui usa quest'Abilità\n- [BattleSense] diventa [RestoredBattleSense]\n- [Irritation] diventa [DerivativeHugeIrritation]\n- Se è Stordito, si riprende dallo Stordimento"
     },
     {
       "id": 124112,
-      "name": "Tiantui Star's Blade - Overheat",
-      "desc": "If this unit used a powerful attack ('Taglianodi' or 'Raffica Perfezionata dell'Ammazzatigri Selvaggio'), gain [Complacency] next turn equal to the number of times those skills were used (max 5)"
+      "name": "Spada della Stella Tiantui - Surriscaldamento",
+      "desc": "Se ha usato 'Taglianodi' o 'Raffica Perfezionata dell'Ammazzatigri Selvaggio', ottiene [Complacency] nel turno successivo per ogni volta che ha usato una di queste Abilità (max 5)"
     },
     {
       "id": 124301,
-      "name": "I'm Stuffed",
-      "desc": "At 10+ [FullCharon]...\n- Turn Start: enter a forced Stagger State (for a turn)\n- Turn End: remove [HungryCharon] and [FullCharon] completely"
+      "name": "Sono Piena.",
+      "desc": "A 10+ [FullCharon]...\n- A inizio turno, viene Stordita (per un turno)\n- A fine turno, rimuove ogni [HungryCharon] e [FullCharon]"
     },
     {
       "id": 124302,
-      "name": "Vroom-vroom. Angry now",
-      "desc": "Combat Start: Vergilius gains 1 [HungryCharon]\nAt 3 [HungryCharon], uses a devastating attack (\"Vroom-Vroom\")\n※ Does not activate at \"Combat Start\" if this unit is Staggered due to [FullCharon]"
+      "name": "Brum-Brum. Arrabbiata.",
+      "desc": "A inizio combattimento, Vergilius ottiene 1 [HungryCharon]\nA 3 [HungryCharon], usa un attacco devastante (\"Brum-Brum\")\n※ Questo effetto non si attiva se ha [FullCharon]"
     },
     {
       "id": 124303,
-      "name": "Got Candy?",
-      "desc": "Turn Start: in Deployment Order, inflict 1 [GiveMeCandy] against 1 enemy without [GiveMeCandy]"
+      "name": "Hai delle Caramelle?",
+      "desc": "A inizio turno, infligge 1 [GiveMeCandy] su un nemico senza [GiveMeCandy] seguendo l'Ordine di Schieramento"
     },
     {
       "id": 124304,
-      "name": "Kkomi's not a Piñata",
-      "desc": "Inflict 1 [GiveMeCandy] to the target who attacked Kkomi"
+      "name": "Kkomi non è una Pentolaccia",
+      "desc": "Se Kkomi viene colpito, infligge 1 [GiveMeCandy] sull'attaccante"
     },
     {
       "id": 124001,
