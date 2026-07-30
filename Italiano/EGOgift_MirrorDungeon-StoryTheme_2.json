@@ -44,7 +44,7 @@
     {
         "id": 9428,
         "name": "Cuore di Cetaceo",
-        "desc": "Sul Colpo con un'Abilità di Attacco contro nemici con [Laceration] o 'Sanguinamento Speciale' : Ottiene 1 [Breath]. (3 volte per turno per Identità)\nIn caso di Critico: 50% di probabilità di ottenere 1 [PenetrateResultUp] il turno successivo. (2 volte per turno per Identità; incluse le Abilità E.G.O e le Abilità di Contrattacco)\n\nIn caso di Testa su un colpo Critico con un'Abilità Base: Infligge +1 [Effetto Negativo] addizionale con quella Moneta. (una volta per turno per Identità; incluse le Abilità di Contrattacco ed escluse le Abilità E.G.O)",
+        "desc": "Sul Colpo con un'Abilità di Attacco contro nemici con [Laceration] o '<noparse>Sanguinamento</noparse> Speciale' : Ottiene 1 [Breath]. (3 volte per turno per Identità)\nIn caso di Critico: 50% di probabilità di ottenere 1 [PenetrateResultUp] il turno successivo. (2 volte per turno per Identità; incluse le Abilità E.G.O e le Abilità di Contrattacco)\n\nIn caso di Testa su un colpo Critico con un'Abilità Base: Infligge +1 [Effetto Negativo] addizionale con quella Moneta. (una volta per turno per Identità; incluse le Abilità di Contrattacco ed escluse le Abilità E.G.O)",
         "simpleDesc": [
             {
                 "abilityID": 9428,
@@ -176,22 +176,22 @@
     {
       "id": 9436,
       "name": "Tubo di Vetro a Rifrazione",
-      "desc": "Incontri Regolari) Sul Colpo contro nemici con 10+ (somma di Potenza e Conteggio [Sinking]):\nse il bersaglio è a -45 PS, infligge danni da Tristezza pari a (Potenza [Sinking] sul bersaglio / 2) (una volta per Abilità).\n\nIncontri Mirati) Sul Colpo contro nemici con 10+ (somma di Potenza e Conteggio [Sinking]):\ninfligge danni da Tristezza pari a (Potenza [Sinking] sul bersaglio / 2) (una volta per Abilità).\n\nSe l'Abilità che ha colpito il nemico infligge [Sinking] (inclusi Conteggio [Sinking] e [Sinking] Speciale), invece di infliggere (Potenza [Sinking] / 2) danni da Tristezza, infligge (Potenza [Sinking]) danni da Tristezza.\n(Ogni turno, questo si applica solo alla prima Abilità che infligge Annegamento che va a segno).",
+      "desc": "Incontri Regolari) Sul Colpo contro nemici con 10+ (somma di Potenza e Conteggio [Sinking]):\nse il bersaglio è a -45 PS, infligge danni da Tristezza pari a (Potenza [Sinking] sul bersaglio / 2) (una volta per Abilità).\n\nIncontri Mirati) Sul Colpo contro nemici con 10+ (somma di Potenza e Conteggio [Sinking]):\ninfligge danni da Tristezza pari a (Potenza [Sinking] sul bersaglio / 2) (una volta per Abilità).\n\nSe l'Abilità che ha colpito il nemico infligge [Sinking] (inclusi Conteggio [Sinking] e [Sinking] Speciale), invece di infliggere (Potenza [Sinking] / 2) danni da Tristezza, infligge (Potenza [Sinking]) danni da Tristezza.\n(Ogni turno, questo si applica solo alla prima Abilità che infligge <noparse>Annegamento</noparse> che va a segno).",
       "simpleDesc": [
         {
           "abilityID": 9436,
-          "simpleDesc": "Infligge danni da Tristezza in base all'Annegamento sul bersaglio"
+          "simpleDesc": "Infligge danni da Tristezza in base all'<noparse>Annegamento</noparse> sul bersaglio"
         },
         {
           "abilityID": 94361,
-          "simpleDesc": "Infligge danni da Tristezza in base all'Annegamento sul bersaglio"
+          "simpleDesc": "Infligge danni da Tristezza in base all'<noparse>Annegamento</noparse> sul bersaglio"
         }
       ]
     },
     {
       "id": 9437,
       "name": "Pass Giornaliero per La Manchaland",
-      "desc": "A segno contro bersagli con 10+ (somma di [Laceration], 'Sanguinamento Speciale' e [Burst]): ottiene 1 Potenza e Conteggio [Breath] (2 volte per Abilità)",
+      "desc": "A segno contro bersagli con 10+ (somma di [Laceration], '<noparse>Sanguinamento</noparse> Speciale' e [Burst]): ottiene 1 Potenza e Conteggio [Breath] (2 volte per Abilità)",
       "simpleDesc": [
         {
           "abilityID": 9437,
@@ -202,7 +202,7 @@
     {
       "id": 9438,
       "name": "Medaglia della Vittoria",
-      "desc": "Su Uccisione: 1 alleato con il minor numero di PS ne ripristina 3.\n\nFine Attacco: se un nemico con 10+ (somma di [Laceration], 'Sanguinamento Speciale' e [Burst]) viene sconfitto, 1 alleato ottiene 2 [AttackUp] per il turno successivo (priorità all'alleato che ha sconfitto quel nemico).",
+      "desc": "Su Uccisione: 1 alleato con il minor numero di PS ne ripristina 3.\n\nFine Attacco: se un nemico con 10+ (somma di [Laceration], '<noparse>Sanguinamento</noparse> Speciale' e [Burst]) viene sconfitto, 1 alleato ottiene 2 [AttackUp] per il turno successivo (priorità all'alleato che ha sconfitto quel nemico).",
       "simpleDesc": [
         {
           "abilityID": 9438,
@@ -236,11 +236,11 @@
         },
         {
           "abilityID": 9440,
-          "simpleDesc": "Infligge 3 Sanguinamento e +3 Conteggio Sanguinamento ai rinforzi che entrano in battaglia"
+          "simpleDesc": "Infligge 3 <noparse>Sanguinamento</noparse> e +3 Conteggio <noparse>Sanguinamento</noparse> ai rinforzi che entrano in battaglia"
         },
         {
           "abilityID": 94401,
-          "simpleDesc": "Attiva Sanguinamento una volta su tutti i nemici (riduce il loro Conteggio Sanguinamento di 1)"
+          "simpleDesc": "Attiva <noparse>Sanguinamento</noparse> una volta su tutti i nemici (riduce il loro Conteggio <noparse>Sanguinamento</noparse> di 1)"
         }
       ]
     },
@@ -255,11 +255,11 @@
         },
         {
           "abilityID": 194405,
-          "simpleDesc": "Infligge 5 Sanguinamento e +3 Conteggio Sanguinamento ai rinforzi che entrano in battaglia"
+          "simpleDesc": "Infligge 5 <noparse>Sanguinamento</noparse> e +3 Conteggio <noparse>Sanguinamento</noparse> ai rinforzi che entrano in battaglia"
         },
         {
           "abilityID": 1944051,
-          "simpleDesc": "Attiva Sanguinamento una volta su tutti i nemici (riduce il loro Conteggio Sanguinamento di 1)"
+          "simpleDesc": "Attiva <noparse>Sanguinamento</noparse> una volta su tutti i nemici (riduce il loro Conteggio <noparse>Sanguinamento</noparse> di 1)"
         }
       ]
     }
