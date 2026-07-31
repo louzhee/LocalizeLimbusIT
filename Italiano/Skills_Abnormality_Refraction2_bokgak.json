@@ -1106,7 +1106,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Facciamoci Un Drink!",
+          "name": "Facciamoci un Drink!",
           "coinlist": [
             {
               "coindescs": [
@@ -1127,7 +1127,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Questo È Tutto Ciò Che Ho!",
+          "name": "Questo è Tutto Ciò Che Ho!",
           "desc": "Dà priorità ai bersagli con [Vibration]",
           "coinlist": [
             {
@@ -1143,7 +1143,7 @@
                   "desc": "[OnSucceedAttack] Innesca [VibrationExplosion] pari al Conteggio [Vibration] sul bersaglio"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Consuma tutto il Conteggio [Vibration] sul bersaglio"
+                  "desc": "[OnSucceedAttack] Rimuove tutto il Conteggio [Vibration] sul bersaglio"
                 }
               ]
             }
@@ -1168,7 +1168,7 @@
                   "desc": "[OnSucceedAttack] Se il bersaglio ha 5+ [TipsinessRail], non infligge danni"
                 },
                 {
-                  "desc": "LA Fata Gentiluomo viene Stordita nel turno successivo"
+                  "desc": "La Fata Gentiluomo viene Stordita nel turno successivo"
                 },
                 {
                   "desc": "[OnSucceedAttack] Rimuove ogni [TipsinessRail] sul bersaglio"
@@ -1184,7 +1184,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Ti È Piacuto?",
+          "name": "Ti è Piacuto?",
           "desc": "[WhenUse] Ottiene 3 [Binding] nel turno successivo",
           "coinlist": [
             {}
@@ -1276,7 +1276,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Smeared Flesh",
+          "name": "Carne Sbrattata",
           "coinlist": [
             {
               "coindescs": [
@@ -1319,7 +1319,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +(5 x [Laceration] sul bersaglio x Conteggio [Laceration] sul bersaglio)% danni (max 200%)"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Consuma all [Laceration] sul bersaglio"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Consuma tutto il [Laceration] sul bersaglio"
                 }
               ]
             }
@@ -1456,7 +1456,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Retribuzione Preparatas",
+          "name": "Retribuzione Preparata",
           "desc": "[WhenUse] Ottiene +1 Conteggio [Charge]",
           "coinlist": [
             {
@@ -1965,7 +1965,7 @@
         {
           "level": 1,
           "name": "Accidia Dormiente",
-          "desc": "Se colpita mentre ha Scudo, innesca [VibrationExplosion] su di sé e sul bersaglio\n[WhenUse] Potere Base +1 per ogni Rosa di Affinità diversa da quella di questa unità (max 6)",
+          "desc": "Se colpita mentre ha Scudo, innesca [VibrationExplosion] su di sé e sull'attaccante\n[WhenUse] Potere Base +1 per ogni Rosa di Affinità diversa da quella di questa unità (max 6)",
           "coinlist": [
             {}
           ]

@@ -3517,7 +3517,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Causa [VibrationExplosion] in base a Conteggio [Vibration] del bersaglio"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion] 1 volta per ogni Conteggio [Vibration] sul bersaglio"
                 }
               ]
             }
@@ -3586,7 +3586,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Se questa attacca Vino Fatato, attiva i seguenti effetti:\n- Cura il 10% dei PV Max nel turno successivo\n- Ottiene 2 [Enhancement], 2 [Agility], e 2 [Protection]"
+                  "desc": "[OnSucceedAttack] Se bersaglia il Vino Fatato, attiva i seguenti effetti:\n- Cura il 10% dei PV Max nel turno successivo\n- Ottiene 2 [Enhancement], 2 [Agility], e 2 [Protection]"
                 }
               ]
             }
@@ -3599,7 +3599,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Ti È Piacuto?",
+          "name": "Ti è Piacuto?",
           "desc": "[WhenUse] Ottiene 1 [Binding] nel turno successivo",
           "coinlist": [
             {}
@@ -4776,7 +4776,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Rimuove ogni Conteggio [Laceration]"
+                  "desc": "[OnSucceedAttack] Consuma tutto il Conteggio [Laceration] sul bersaglio"
                 }
               ]
             }
