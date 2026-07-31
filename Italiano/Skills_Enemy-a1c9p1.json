@@ -5,13 +5,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Pierce",
+          "name": "Perfora",
           "desc": "",
           "coinlist": [
               {
                   "coindescs": [
                       {
-                          "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
+                          "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]"
                       }
                   ]
               }
@@ -25,25 +25,25 @@
         {
           "level": 1,
           "name": "Flesh Rip",
-          "desc": "If target has 5+ [Laceration], Base Power +1",
+          "desc": "Se il bersaglio ha 5+ [Laceration], Potere Base +1",
           "coinlist": [
               {
                   "coindescs": [
                       {
-                          "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count\nIf target has 3+ types of negative effects, inflict +1 additional [Laceration] Count"
+                          "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]\nSe il bersaglio ha 3+ effetti negativi diversi, infligge +1 Conteggio [Laceration] in più"
                       },
                       {
-                          "desc": "[OnSucceedAttackHead] Inflict 2 [DefenseDown] next turn"
+                          "desc": "[OnSucceedAttackHead] Infligge 2 [DefenseDown] nel turno successivo"
                       }
                   ]
               },
               {
                   "coindescs": [
                       {
-                          "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count\nIf target has 3+ types of negative effects, inflict +1 additional [Laceration] Count"
+                          "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]\nSe il bersaglio ha 3+ effetti negativi diversi, infligge +1 Conteggio [Laceration] in più"
                       },
                       {
-                          "desc": "[OnSucceedAttackHead] Inflict 2 [DefenseDown] next turn"
+                          "desc": "[OnSucceedAttackHead] Infligge 2 [DefenseDown] nel turno successivo"
                       }
                   ]
               }
@@ -56,23 +56,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Artwork: Liberation of Bones Contingent on Cardiac Rhythm",
-          "desc": "Base Power +1 for every 20% missing HP percentage on this unit's Core (max 4)\nCoin Power +1 for every 3 [Laceration] on target (max 2)\n[WinDuel] Inflict +2 [Vibration] Count\n[DefeatDuel] Gain 1 [Paralysis] next turn",
+          "name": "Opera: Liberazione delle Ossa Contingenti al Ritmo Cardiaco",
+          "desc": "Potere Base +1 per ogni 20% PV mancanti del proprio Nucleo (max 4)\nPotere Moneta +1 per ogni 3 [Laceration] sul bersaglio (max 2)\n[WinDuel] Infligge +2 Conteggio [Vibration]\n[DefeatDuel] Ottiene 1 [Paralysis] nel turno successivo",
           "coinlist": [
               {
                   "coindescs": [
                       {
-                          "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
+                          "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]"
                       },
                       {
-                          "desc": "[OnSucceedAttack] Inflict 3 [Vibration]"
+                          "desc": "[OnSucceedAttack] Infligge 3 [Vibration]"
                       }
                   ]
               },
               {
                   "coindescs": [
                       {
-                          "desc": "[OnSucceedAttack] Inflict 5 [Laceration]"
+                          "desc": "[OnSucceedAttack] Infligge 5 [Laceration]"
                       }
                   ]
               },
@@ -82,19 +82,19 @@
                           "desc": "[SuperCoin]"
                       },
                       {
-                          "desc": "[OnStartCoin] Lose 30% of this unit's current Core HP (does not get Staggered due to this effect; rounded down)"
+                          "desc": "[OnStartCoin] Questa unità perde il 30% dei suoi PV attuali (questo danno non può Stordire; arrotondato per difetto)"
                       },
                       {
-                          "desc": "[OnSucceedAttack] Gain 5 [Laceration]"
+                          "desc": "[OnSucceedAttack] Ottiene 5 [Laceration]"
                       },
                       {
-                          "desc": "[OnSucceedAttack] Inflict 5 [Laceration]"
+                          "desc": "[OnSucceedAttack] Infligge 5 [Laceration]"
                       },
                       {
-                          "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [Switch_Vibration] into [VibrationBleeding]"
+                          "desc": "[UnBrokenCoinOnSucceedAttack] Innesca [Switch_Vibration] in [VibrationBleeding]"
                       },
                       {
-                          "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                          "desc": "[UnBrokenCoinOnSucceedAttack] Innesca [VibrationExplosion]; then, riduce poi il Conteggio [Vibration] sul bersaglio di 1"
                       }
                   ]
               }
@@ -107,8 +107,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Muscular Contraction",
-          "desc": "[CanDuelGuard]\n[StartBattle] Gain 1 [MuscleContraction] next turn. When hit, gain 1 additional [MuscleContraction] (once per turn)",
+          "name": "Contrazione Muscolare",
+          "desc": "[CanDuelGuard]\n[StartBattle] Ottiene 1 [MuscleContraction] nel turno successivo. Se colpito, ottiene 1 [MuscleContraction] in più (una volta per turno)",
           "coinlist": [
               {
                   "coindescs": [
@@ -126,13 +126,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Jab",
+          "name": "Colpo",
           "desc": "",
           "coinlist": [
               {
                   "coindescs": [
                       {
-                          "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                          "desc": "[OnSucceedAttack] Infligge 4 [Laceration]"
                       }
                   ]
               }
@@ -145,20 +145,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Vascular Tear",
-          "desc": "If target has 5+ [Laceration], Base Power +1\nIf target has 3+ types of negative effects, deal +30% damage",
+          "name": "Strappo Vascolare",
+          "desc": "Se il bersaglio ha 5+ [Laceration], Potere Base +1\nSe il bersaglio ha 3+ effetti negativi diversi, infligge +30% danni",
           "coinlist": [
               {
                   "coindescs": [
                       {
-                          "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                          "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                       }
                   ]
               },
               {
                   "coindescs": [
                       {
-                          "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                          "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                       }
                   ]
               }
@@ -171,23 +171,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Artwork: Liberation of Bones Contingent on Cardiac Rhythm",
-          "desc": "Base Power +1 for every 20% missing HP percentage on this unit's Core (max 4)\nCoin Power +1 for every 3 [Laceration] on target (max 2)\n[WinDuel] Inflict +2 [Vibration] Count\n[DefeatDuel] Gain 1 [Paralysis] next turn",
+          "name": "Opera: Liberazione delle Ossa Contingenti al Ritmo Cardiaco",
+          "desc": "Potere Base +1 per ogni 20% PV mancanti del proprio Nucleo (max 4)\nPotere Moneta +1 per ogni 3 [Laceration] sul bersaglio (max 2)\n[WinDuel] Infligge +2 Conteggio [Vibration]\n[DefeatDuel] Ottiene 1 [Paralysis] nel turno successivo",
           "coinlist": [
               {
                   "coindescs": [
                       {
-                          "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
+                          "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]"
                       },
                       {
-                          "desc": "[OnSucceedAttack] Inflict 3 [Vibration]"
+                          "desc": "[OnSucceedAttack] Infligge 3 [Vibration]"
                       }
                   ]
               },
               {
                   "coindescs": [
                       {
-                          "desc": "[OnSucceedAttack] Inflict 5 [Laceration]"
+                          "desc": "[OnSucceedAttack] Infligge 5 [Laceration]"
                       }
                   ]
               },
@@ -197,19 +197,19 @@
                           "desc": "[SuperCoin]"
                       },
                       {
-                          "desc": "[OnStartCoin] Lose 30% of this unit's current Core HP (does not get Staggered due to this effect; rounded down)"
+                          "desc": "[OnStartCoin] Questa unità perde il 30% dei suoi PV attuali (questo danno non può Stordire; arrotondato per difetto)"
                       },
                       {
-                          "desc": "[OnSucceedAttack] Gain 5 [Laceration]"
+                          "desc": "[OnSucceedAttack] Ottiene 5 [Laceration]"
                       },
                       {
-                          "desc": "[OnSucceedAttack] Inflict 5 [Laceration]"
+                          "desc": "[OnSucceedAttack] Infligge 5 [Laceration]"
                       },
                       {
-                          "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [Switch_Vibration] into [VibrationBleeding]"
+                          "desc": "[UnBrokenCoinOnSucceedAttack] Innesca [Switch_Vibration] in [VibrationBleeding]"
                       },
                       {
-                          "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                          "desc": "[UnBrokenCoinOnSucceedAttack] Innesca [VibrationExplosion]; then, riduce poi il Conteggio [Vibration] sul bersaglio di 1"
                       }
                   ]
               }
@@ -222,8 +222,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Muscular Contraction",
-          "desc": "[CanDuelGuard]\n[StartBattle] Gain 1 [MuscleContraction] next turn. When hit, gain 1 additional [MuscleContraction] (once per turn)",
+          "name": "Contrazione Muscolare",
+          "desc": "[CanDuelGuard]\n[StartBattle] Ottiene 1 [MuscleContraction] nel turno successivo. Se colpito, ottiene 1 [MuscleContraction] in più (once per turn)",
           "coinlist": [
               {
                   "coindescs": [
@@ -241,16 +241,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Bound Muscles",
+          "name": "Muscoli Legati",
           "desc": "",
           "coinlist": [
               {
                   "coindescs": [
                       {
-                          "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
+                          "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]"
                       },
                       {
-                          "desc": "[OnSucceedAttackHead] Inflict 1 [Desire] next turn"
+                          "desc": "[OnSucceedAttackHead] Infligge 1 [Desire] nel turno successivo"
                       }
                   ]
               }
@@ -263,26 +263,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Tear and Rip",
-          "desc": "If target has 5+ [Laceration], Base Power +1",
+          "name": "Spezza e Strappa",
+          "desc": "Se il bersaglio ha 5+ [Laceration], Potere Base +1",
           "coinlist": [
               {
                   "coindescs": [
                       {
-                          "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count\nIf target has 3+ types of negative effects, inflict +1 additional [Laceration] Count"
+                          "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]\nSe il bersaglio ha 3+ effetti negativi diversi, infligge +1 Conteggio [Laceration] in più"
                       },
                       {
-                          "desc": "[OnSucceedAttackHead] Inflict 1 [Desire] next turn"
+                          "desc": "[OnSucceedAttackHead] Infligge 1 [Desire] nel turno successivo"
                       }
                   ]
               },
               {
                   "coindescs": [
                       {
-                          "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count\nIf target has 3+ types of negative effects, inflict +1 additional [Laceration] Count"
+                          "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]\nSe il bersaglio ha 3+ effetti negativi diversi, infligge +1 Conteggio [Laceration] in più"
                       },
                       {
-                          "desc": "[OnSucceedAttackHead] Inflict 1 [Desire] next turn"
+                          "desc": "[OnSucceedAttackHead] Infligge 1 [Desire] nel turno successivo"
                       }
                   ]
               }
@@ -295,23 +295,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Artwork Adorned by Desire",
-          "desc": "Base Power +1 for every 20% missing HP percentage on this unit's Core (max 4)\nCoin Power +1 for every 3 [Laceration] on target (max 2)\n[WinDuel] Inflict +2 [Vibration] Count\n[DefeatDuel] Gain 1 [Paralysis] next turn",
+          "name": "Opera Adornata dal Desiderio",
+          "desc": "Potere Base +1 per ogni 20% PV mancanti del proprio Nucleo (max 4)\nPotere Moneta +1 per ogni 3 [Laceration] sul bersaglio (max 2)\n[WinDuel] Infligge +2 Conteggio [Vibration]\n[DefeatDuel] Ottiene 1 [Paralysis] nel turno successivo",
           "coinlist": [
               {
                   "coindescs": [
                       {
-                          "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
+                          "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]"
                       },
                       {
-                          "desc": "[OnSucceedAttack] Inflict 3 [Vibration]"
+                          "desc": "[OnSucceedAttack] Infligge 3 [Vibration]"
                       }
                   ]
               },
               {
                   "coindescs": [
                       {
-                          "desc": "[OnSucceedAttack] Inflict 5 [Laceration]"
+                          "desc": "[OnSucceedAttack] Infligge 5 [Laceration]"
                       }
                   ]
               },
@@ -321,19 +321,19 @@
                           "desc": "[SuperCoin]"
                       },
                       {
-                          "desc": "[OnStartCoin] Lose 30% of this unit's current Core HP (does not get Staggered due to this effect; rounded down)"
+                          "desc": "[OnStartCoin] Questa unità perde il 30% dei suoi PV attuali (questo danno non può Stordire; arrotondato per difetto)"
                       },
                       {
-                          "desc": "[OnSucceedAttack] Gain 5 [Laceration]"
+                          "desc": "[OnSucceedAttack] Ottiene 5 [Laceration]"
                       },
                       {
-                          "desc": "[OnSucceedAttack] Inflict 2 [Desire] next turn"
+                          "desc": "[OnSucceedAttack] Infligge 2 [Desire] nel turno successivo"
                       },
                       {
-                          "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [Switch_Vibration] into [VibrationBleeding]"
+                          "desc": "[UnBrokenCoinOnSucceedAttack] Innesca [Switch_Vibration] in [VibrationBleeding]"
                       },
                       {
-                          "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                          "desc": "[UnBrokenCoinOnSucceedAttack] Innesca [VibrationExplosion]; then, riduce poi il Conteggio [Vibration] sul bersaglio di 1"
                       }
                   ]
               }
@@ -346,8 +346,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Tightening Ribbons",
-          "desc": "[CanDuelGuard]\nWhen hit, inflict 1 [PinkRibbon_Ishmael] against the attacker (once per Skill)\n[StartBattle] Gain 1 [MuscleContraction] next turn. When hit, gain 1 additional [MuscleContraction] (once per turn)",
+          "name": "Nastri Stretti",
+          "desc": "[CanDuelGuard]\nSe colpito, infligge 1 [PinkRibbon_Ishmael] against the attacker (once per Skill)\n[StartBattle] Ottiene 1 [MuscleContraction] nel turno successivo. Se colpito, ottiene 1 [MuscleContraction] in più (una volta per turno)",
           "coinlist": [
               {
                   "coindescs": [

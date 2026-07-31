@@ -5,13 +5,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Pounce",
-          "desc": "Prioritizes targets with the highest HP percentage\n[WhenUse] If target has 4+ [Laceration], Base Power +1",
+          "name": "Balzo",
+          "desc": "Dà priorità ai bersagli con la maggiore percentuale di PV\n[WhenUse] Se il bersaglio ha 4+ [Laceration], Potere Base +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 }
               ]
             }
@@ -24,20 +24,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Gnawing Gobble",
-          "desc": "Prioritizes targets with the highest HP percentage\n[WhenUse] If target has 4+ [Laceration], Base Power +1",
+          "name": "Trangugia e Mastica",
+          "desc": "Dà priorità ai bersagli con la maggiore percentuale di PV\n[WhenUse] Se il bersaglio ha 4+ [Laceration], Potere Base +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has [Laceration], Inflict 2 [PenetrateResistDown] next turn"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [Laceration], Infligge 2 [PenetrateResistDown] nel turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]"
                 }
               ]
             }
@@ -50,27 +50,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Orange-flavored Bubble Supplement",
-          "desc": "Prioritizes targets with the highest HP percentage\n[WhenUse] If target has 4+ [Laceration], Coin Power +1",
+          "name": "Integratori di Spuma al Gusto Arancione",
+          "desc": "Dà priorità ai bersagli con la maggiore percentuale di PV\n[WhenUse] Se il bersaglio ha 4+ [Laceration], Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             }
@@ -83,13 +83,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Add a Note of Bubbly Flavor",
-          "desc": "[WhenUse] Coin Power +1 for every 4 [Laceration] on target (max 2)",
+          "name": "Aggiungi un Pizzico di Bollicine",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 4 [Laceration] sul bersaglio (max 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has [Laceration], Inflict 2 [PenetrateResistDown] next turn"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [Laceration], Infligge 2 [PenetrateResistDown] nel turno successivo"
                 }
               ]
             },
@@ -99,7 +99,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 }
               ]
             },
@@ -109,7 +109,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             }
@@ -122,8 +122,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Herd Migration",
-          "desc": "[OnSucceedEvade] Inflict 2 [Binding] next turn\n[EndBattle] [RunHallway] expires; then, activate [NextHallway]",
+          "name": "Migrazione della Mandria",
+          "desc": "[OnSucceedEvade] Infligge 2 [Binding] nel turno successivo\n[EndBattle] [RunHallway] scade; attiva [NextHallway]",
           "coinlist": [
             {
               "coindescs": [
@@ -141,8 +141,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Chomping Gobble",
-          "desc": "Prioritizes targets with the slowest Speed\n[WhenUse] If target has 4+ [Laceration], Base Power +1\n[BeforeAttack] Base Power -1 for every Cracked Coin",
+          "name": "Trangugia e Mordi",
+          "desc": "Dà priorità ai bersagli con la Velocità minore\n[WhenUse] Se il bersaglio ha 4+ [Laceration], Potere Base +1\n[BeforeAttack] Potere Base -1 per ogni Moneta Infranta",
           "coinlist": [
             {
               "coindescs": [
@@ -150,7 +150,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration] and +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration] e +3 Conteggio [Laceration]"
                 }
               ]
             }
@@ -163,8 +163,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Filling a Medium-sized Orange Bubble",
-          "desc": "Prioritizes targets with the slowest Speed\n[WhenUse] If target has 4+ [Laceration], Coin Power +1\n[BeforeAttack] Base Power -1 for every Cracked Coin",
+          "name": "Riempi una Bollicina Arancione di Taglia Media",
+          "desc": "Dà priorità ai nemici con la Velocità minore\n[WhenUse] Se il bersaglio ha 4+ [Laceration], Potere Moneta +1\n[BeforeAttack] Potere Base -1 per ogni Moneta Infranta",
           "coinlist": [
             {
               "coindescs": [
@@ -172,7 +172,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 }
               ]
             },
@@ -182,10 +182,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vulnerable] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vulnerable] nel turno successivo"
                 }
               ]
             }
@@ -198,8 +198,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "More Potent, More Plentiful",
-          "desc": "Prioritizes targets with the slowest Speed\n[WhenUse] Coin Power +1 for every 3 [Laceration] on target (max 2)\n[BeforeAttack] Base Power -1 for every Cracked Coin",
+          "name": "Più Forte, Più Abbondante",
+          "desc": "Dà priorità ai nemici con la Velocità minore\n[WhenUse] Potere Moneta +1 per ogni 3 [Laceration] sul bersaglio (max 2)\n[BeforeAttack] Potere Base -1 per ogni Moneta Infranta",
           "coinlist": [
             {
               "coindescs": [
@@ -207,7 +207,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +4 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +4 Conteggio [Laceration]"
                 }
               ]
             },
@@ -217,7 +217,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 }
               ]
             },
@@ -227,10 +227,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [PenetrateResistDown] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 2 [PenetrateResistDown] nel turno successivo"
                 }
               ]
             }
@@ -243,8 +243,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Feed Consumption for BongBong Procreation",
-          "desc": "Prioritizes targets with the slowest Speed\n[WhenUse] Coin Power +1 for every 3 [Laceration] on target (max 2)\n[BeforeAttack] Base Power -1 for every Cracked Coin",
+          "name": "Nutri il Consumo per la Procreazione delle BongBong",
+          "desc": "Dà priorità ai nemici con la Velocità minore\n[WhenUse] Potere Moneta +1 per ogni 3 [Laceration] sul bersaglio (max 2)\n[BeforeAttack] Potere Base -1 per ogni Moneta Infranta",
           "coinlist": [
             {
               "coindescs": [
@@ -252,7 +252,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 }
               ]
             },
@@ -262,7 +262,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             },
@@ -272,7 +272,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 }
               ]
             },
@@ -282,7 +282,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             }
@@ -295,8 +295,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Herd Migration",
-          "desc": "[CanDuelGuard]\n[EndBattle] [RunHallway] expires; then, activate [NextHallway] for 'self' and 'The Perfect Food summoned by self'",
+          "name": "Migrazione della Mandria",
+          "desc": "[CanDuelGuard]\n[EndBattle] [RunHallway] scade; attiva [NextHallway] su 'sé' e su 'Il Cibo Perfetto evocato da sé'",
           "coinlist": [
             {
               "coindescs": [

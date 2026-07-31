@@ -54,7 +54,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion] and +2 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion] e +2 Conteggio [Combustion]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] sul bersaglio di 1"
@@ -71,7 +71,7 @@
         {
           "level": 1,
           "name": "Il Cacciatore",
-          "desc": "Potere Moneta +1 per ogni 4 ([Combustion] + [Vibration]) sul bersaglio (max 2)\n\n[WhenUse] Se il bersaglio ha [DuelEdge], converte tutte le Monete di quest'Abilità a [SuperCoin]",
+          "desc": "Potere Moneta +1 per ogni 4 ([Combustion] + [Vibration]) sul bersaglio (max 2)\n\n[WhenUse] Se il bersaglio ha [DuelEdge], converte ogni Moneta di quest'Abilità in [SuperCoin]",
           "coinlist": [
             {
               "coindescs": [
@@ -196,13 +196,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Vain Fruit",
+          "name": "Frutto Vano",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration]"
                 }
               ]
             }
@@ -215,13 +215,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Bring Me Snow White.",
-          "desc": "[WhenUse] At 5+ ([Laceration] + [Burst]) on target, Base Power +5\n[WhenUse] If this unit has [HowDareYouApple], gain +2 Atk Weight",
+          "name": "Portatemi Biancaneve.",
+          "desc": "[WhenUse] A 5+ ([Laceration] + [Burst]) sul bersaglio, Potere Base +5\n[WhenUse] Se questa unità ha [HowDareYouApple], Portata Attacco +2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal 10 SP damage"
+                  "desc": "[OnSucceedAttack] Infligge 10 danni ai PS"
                 }
               ]
             }
@@ -234,8 +234,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Such Insolence!",
-          "desc": "[WhenUse] Coin Power +2 for every 4 ([Laceration] + [Burst]) on target (max 4)\n[WhenUse] If this unit has [HowDareYouApple], gain +2 Atk Weight\n[DefeatDuel] Gain the following effects:\n- Gain 2 [Paralysis]\n- Deal -80% damage\n- This Skill cannot Stagger the target\n- Does not activate [Burst] on target",
+          "name": "Che Insolenza!",
+          "desc": "[WhenUse] Potere Moneta +2 per ogni 4 ([Laceration] + [Burst]) sul bersaglio (max 4)\n[WhenUse] Se questa unità ha [HowDareYouApple], Portata Attacco +2\n[DefeatDuel] Attiva i seguenti effetti:\n- Ottiene 2 [Paralysis]\n- Infligge -80% danni\n- Quest'Abilità non può Stordire i bersagli\n- Non attiva la [Burst] sul bersaglio",
           "coinlist": [
             {
               "coindescs": [
@@ -243,7 +243,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal 5 SP damage"
+                  "desc": "[OnSucceedAttack] Infligge 5 danni ai PS"
                 }
               ]
             },
@@ -253,7 +253,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal 5 SP damage"
+                  "desc": "[OnSucceedAttack] Infligge 5 danni ai PS"
                 }
               ]
             }
@@ -266,7 +266,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Just a Little More...",
+          "name": "Giusto Un Po' Di Più...",
           "desc": "",
           "coinlist": [
             {
@@ -283,26 +283,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Distrust",
-          "desc": "[WhenUse] Coin Power +2 for every 3 ([Laceration] + [Burst]) on target (max 4)",
+          "name": "Sfiducia",
+          "desc": "[WhenUse] Potere Moneta +2 per ogni 3 ([Laceration] + [Burst]) sul bersaglio (max 4)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
                 }
               ]
             }
@@ -315,16 +315,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Pale Stem",
-          "desc": "[WhenUse] Final Power +3 for every 4 ([Laceration] + [Burst]) on target (max 6)",
+          "name": "Stelo Pallido",
+          "desc": "[WhenUse] Potere Finale +3 per ogni 4 ([Laceration] + [Burst]) sul bersaglio (max 6)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
                 }
               ]
             }
@@ -337,16 +337,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Thorny Stem",
-          "desc": "[WhenUse] Final Power +3 for every 4 ([Laceration] + [Burst]) on target (max 6)",
+          "name": "Stelo Spinato",
+          "desc": "[WhenUse] Potere Finale +3 per ogni 4 ([Laceration] + [Burst]) sul bersaglio (max 6)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Burst]"
                 }
               ]
             }
@@ -359,8 +359,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Shared Pain",
-          "desc": "[WhenUse] Final Power +3 for every 4 ([Laceration] + [Burst]) on target (max 6)",
+          "name": "Dolore Condiviso",
+          "desc": "[WhenUse] Potere Finale +3 per ogni 4 ([Laceration] + [Burst]) sul bersaglio (max 6)",
           "coinlist": [
             {
               "coindescs": [
@@ -368,7 +368,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [Vulnerable] next turn"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [Vulnerable] nel turno successivo"
                 }
               ]
             }
@@ -382,7 +382,7 @@
         {
           "level": 1,
           "name": "Root Spike",
-          "desc": "[DefeatDuel] Gain the following effects:\n- Gain 1 [Paralysis]\n- Deal -80% damage\n- This Skill cannot Stagger the target\n- Does not activate [Burst] on target",
+          "desc": "[DefeatDuel] Attiva i seguenti effetti:\n- Ottiene 1 [Paralysis]\n- Infligge -80% danni\n- Quest'Abilità non può Stordire il bersaglio\n- Non attiva la [Burst] sul bersaglio",
           "coinlist": [
             {
               "coindescs": [
@@ -390,10 +390,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +5 [Laceration] Count next turn"
+                  "desc": "[OnSucceedAttack] Infligge +5 Conteggio [Laceration] nel turno successivo"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict (sum of potency from all negative effects on target) [Laceration] or [Burst] (max 30)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge (Potenza + Conteggio di ogni effetto negativo sul bersaglio) Potenza [Laceration] o [Burst] (max 30)"
                 }
               ]
             }
@@ -406,8 +406,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Envying Roots",
-          "desc": "This Skill does not deal damage\n[WhenUse] Consume all [HowDareYouApple] on self and Reuse its Coins by [HowDareYouApple] Stack consumed (max 4)\n[DefeatDuel] This Skill does not activate [Burst] on target",
+          "name": "Radici Invidiose",
+          "desc": "Non infligge danno\n[WhenUse] Consuma ogni [HowDareYouApple] su di sé e Riusa la Moneta per ogni Stack consumata (max 4)\n[DefeatDuel] Quest'Abilità non attiva la [Burst] sul bersaglio",
           "coinlist": [
             {
               "coindescs": [
@@ -415,10 +415,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration] and +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration] e +2 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst] and +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst] e +2 Conteggio [Burst]"
                 }
               ]
             }
@@ -431,13 +431,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Burrowing Roots",
-          "desc": "[WhenUse] Clash Power +1 for every 4 ([Laceration] + [Burst]) on target (max 2)",
+          "name": "Radici Innestate",
+          "desc": "[WhenUse] Potere Scontro +1 per ogni 4 ([Laceration] + [Burst]) sul bersaglio (max 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration]"
                 }
               ]
             }
@@ -450,7 +450,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Vain Fruit",
+          "name": "Frutto Vano",
           "desc": "",
           "coinlist": [
             {}
@@ -893,19 +893,19 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Snagged Lure",
-          "desc": "[CantDuel]\nPrioritizes Sinners who are [FairyCharm]\nThis Skill's Atk Weight = Number of Sinners who are [FairyCharm]",
+          "name": "Esca Impigliata",
+          "desc": "[CantDuel]\nDà Priorità ai Peccatori Incantati\nPortata Attacco +1 per ogni Peccatore [FairyCharm]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Core, Body heals 15 HP"
+                  "desc": "[OnSucceedAttack] Il Corpo e il Nucleo recuperano 15 PV"
                 }
               ]
             }
@@ -918,16 +918,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Burrowing Roots",
+          "name": "Radici Innestate",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]"
                 }
               ]
             }
@@ -940,16 +940,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Expanding Roots",
+          "name": "Espandi le Radici",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Laceration]"
                 }
               ]
             }
@@ -962,13 +962,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Infusing Stems",
-          "desc": "[DefeatDuel] Deal -80% damage and damage dealt by this Skill cannot Stagger the target",
+          "name": "Steli Invadenti",
+          "desc": "[DefeatDuel] Infligge -80% danni; Il danno inflitto da quest'Abilità non può Stordire il bersaglio",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]\n[OnSucceedAttack] Deal +5% damage for every [Burst] on target (max 100%)"
+                  "desc": "[SuperCoin]\n[OnSucceedAttack] Infligge +5% danni per ogni [Burst] sul bersaglio (max 100%)"
                 }
               ]
             }
@@ -981,8 +981,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Uncovered Abyss",
-          "desc": "If target has 5+ [Burst], deal +100% damage\n[DefeatDuel] Deal -80% damage and damage dealt by this Skill cannot Stagger the target",
+          "name": "Abisso Scoperto",
+          "desc": "Se il bersaglio ha 5+ [Burst], infligge +100% danni\n[DefeatDuel] Infligge -80% danni; Il danno inflitto da quest'Abilità non può Stordire il bersaglio",
           "coinlist": [
             {
               "coindescs": [
@@ -1000,8 +1000,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Charmed Consciousness",
-          "desc": "Attacking Faelantern deals 0 damage",
+          "name": "Coscienza Incantata",
+          "desc": "Non subisce danni",
           "coinlist": [
             {
               "coindescs": [
@@ -1017,19 +1017,19 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Snagged Lure",
-          "desc": "[CantDuel]\nCannot be Staggered before using this Skill\nPrioritizes Sinners who are [FairyCharm]\nThis Skill's Atk Weight = Number of Sinners who are [FairyCharm]",
+          "name": "Esca Impigliata",
+          "desc": "[CantDuel]\nNon può essere Stordito prima dell'uso di Quest'Abilità\nDà priorità ai Peccatori Incantati\nPortata Attacco +1 per ogni Peccatore [FairyCharm]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst] and +3 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst] e +3 Conteggio [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration] and +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration] e +3 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Core and Body heal 30 HP"
+                  "desc": "[OnSucceedAttack] Il Corpo e il Nucleo recuperano 30 PV"
                 }
               ]
             }
@@ -1042,13 +1042,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Dimensional Slice",
-          "desc": "[WhenUse] Gain +3 [Charge] Count\n[DefeatDuel] Consume 2 [Charge] Count",
+          "name": "Taglio Dimensionale",
+          "desc": "[WhenUse] Ottiene +3 Conteggio [Charge]\n[DefeatDuel] Consuma 2 Conteggio [Charge]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
                 }
               ]
             }
@@ -1061,20 +1061,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Consecutive Dimensional Slice",
-          "desc": "[WhenUse] Gain +3 [Charge] Count\n[DefeatDuel] Consume 2 [Charge] Count",
+          "name": "Taglio Dimensionale Consecutivo",
+          "desc": "[WhenUse] Ottiene +3 Conteggio [Charge]\n[DefeatDuel] Consuma 2 Conteggio [Charge]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [DimensionRift]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [DimensionRift]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [DimensionRift]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [DimensionRift]"
                 }
               ]
             }
@@ -1087,13 +1087,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Discharge Byproducts",
-          "desc": "[WhenUse] Gain +4 [Charge] Count\n[DefeatDuel] Consume 2 [Charge] Count",
+          "name": "Scarica Prodotti Collaterali",
+          "desc": "[WhenUse] Ottiene +4 Conteggio [Charge]\n[DefeatDuel] Consuma 2 Conteggio [Charge]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Burst]"
                 }
               ]
             }
@@ -1106,8 +1106,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Rip Space",
-          "desc": "At 10+ [Charge] Count, consume 10 [Charge] Count to gain Clash Power +5 and deal +100% damage\nAt less than 10 [Charge] Count, consume 100 Core HP. Deal +80% damage\nThis unit's HP cannot drop to 0 due to this Skill's effect\n[DefeatDuel] Gain the following effects:\n- Gain 2 [Paralysis]\n- Deal -80% damage\n- This Skill cannot Stagger the target\n- Does not activate [Burst] on target",
+          "name": "Strappa Spazio",
+          "desc": "A 10+ Conteggio [Charge], consuma 10 Conteggio [Charge] per ottenere Potere Scontro +5 e infliggere +100% danni\nA 10- Conteggio [Charge], consuma 100 PV del Nucleo per infliggere +80% danni (non può morire per via di questo effetto)\n[DefeatDuel] Attiva i seguenti effetti:\n- Ottiene 2 [Paralysis]\n- Infligge -80% danni\n- Il danno inflitto da quest'Abilità non può Stordire il bersaglio\n- Non attiva la [Burst] sul bersaglio",
           "coinlist": [
             {
               "coindescs": [
@@ -1115,10 +1115,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Gain +2 [Charge] Count"
+                  "desc": "[OnSucceedAttackHead] Ottiene +2 Conteggio [Charge]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [DimensionRift]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [DimensionRift]"
                 }
               ]
             },
@@ -1128,10 +1128,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Gain +2 [Charge] Count"
+                  "desc": "[OnSucceedAttackHead] Ottiene +2 Conteggio [Charge]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [DimensionRift]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [DimensionRift]"
                 }
               ]
             }
@@ -1144,20 +1144,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Prepared Retribution",
-          "desc": "[WhenUse] Gain +1 [Charge] Count",
+          "name": "Retribuzione Preparata",
+          "desc": "[WhenUse] Ottiene +1 Conteggio [Charge]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 }
               ]
             }
@@ -1170,8 +1170,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Vomit Byproducts",
-          "desc": "[WhenUse] If the main target has [DimensionRift], deal +10% damage\n[DefeatDuel] Consume 2 [Charge] Count",
+          "name": "Vomita Prodotti Collaterali",
+          "desc": "[WhenUse] Se il bersaglio principale ha [DimensionRift], infligge +10% danni\n[DefeatDuel] Consuma 2 Conteggio [Charge]",
           "coinlist": [
             {
               "coindescs": [
@@ -1179,7 +1179,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 5 [DimensionRift]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 5 [DimensionRift]"
                 }
               ]
             }
@@ -1192,8 +1192,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "High-speed Rip Space",
-          "desc": "Can Clash with this Skill regardless of Speed; cannot be Staggered before using this Skill\n[DefeatDuel]\n- Gain 2 [ResultReduction] and 1 [Paralysis]\n- Deal -90% damage and damage dealt by this Skill cannot Stagger the target\nGain 1 Clash Power for every Dimension effect on self\nDeal +10% for every Dimension effect on self",
+          "name": "Strappa Spazio ad Alta Velocità",
+          "desc": "Can Clash with this Skill regardless of Speed; cannot be Staggered before using this Skill\n[DefeatDuel]\n- Ottiene 2 [ResultReduction] e 1 [Paralysis]\n- Infligge -90% danni; il danno inflitto da quest'Abilità non può Stordire il bersaglio\nPotere Scontro +1 per ogni effetto \"Dimensione\" su di sé\nInfligge +10% danni per ogni effetto \"Dimensione\" su di sé",
           "coinlist": [
             {
               "coindescs": [
@@ -1201,7 +1201,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [Burst]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [Burst]"
                 }
               ]
             }
@@ -1214,13 +1214,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Opportunity Spotted",
-          "desc": "[WhenUse] If target has [DimensionRift], deal +20% damage",
+          "name": "Opportunità Trovata",
+          "desc": "[WhenUse] Se il bersaglio ha [DimensionRift], infligge +20% danni",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [DimensionRift]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [DimensionRift]"
                 }
               ]
             }
@@ -1233,13 +1233,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Rift Attack",
-          "desc": "[WhenUse] If target has [DimensionRift], deal +10% damage",
+          "name": "Attacco dello Strappo",
+          "desc": "[WhenUse] Se il bersaglio ha [DimensionRift], infligge +10% danni",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [DimensionRift]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [DimensionRift]"
                 }
               ]
             }
@@ -1252,8 +1252,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Dimensional Leap",
-          "desc": "If this 'Dimensional Rift' remains, deal +10% damage",
+          "name": "Salto Dimensionale",
+          "desc": "Se questo 'Strappo[TabExplain] Dimensionale' rimane in vita, infligge +10% danni",
           "coinlist": [
             {
               "coindescs": [
@@ -1271,8 +1271,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Dimensional Leap",
-          "desc": "If this 'Dimensional Rift' remains, max HP +20%",
+          "name": "Salto Dimensionale",
+          "desc": "Se questo 'Strappo[TabExplain] Dimensionale' rimane in vita, ottiene +20% PV Max",
           "coinlist": [
             {
               "coindescs": [
@@ -1290,8 +1290,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Dimensional Leap",
-          "desc": "If this 'Dimensional Rift' remains, gain 1 Speed",
+          "name": "Salto Dimensionale",
+          "desc": "Se questo 'Strappo[TabExplain] Dimensionale' rimane in vita, Velocità Min & Max +1",
           "coinlist": [
             {
               "coindescs": [
@@ -1309,8 +1309,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Dimensional Leap",
-          "desc": "If this 'Dimensional Rift' remains, Coin Power +1",
+          "name": "Salto Dimensionale",
+          "desc": "Se questo 'Strappo[TabExplain] Dimensionale' rimane in vita, Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [

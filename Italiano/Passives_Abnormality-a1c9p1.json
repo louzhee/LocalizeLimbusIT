@@ -3,47 +3,47 @@
     {
       "id": 130601,
       "name": "Duello",
-      "desc": "After Clashing, inflict 1 [DuelEdge] against the target this unit Clashed against\nIn a Clash against targets with [DuelEdge], heal 3 SP for every [DuelEdge] Stack on target (max 15)"
+      "desc": "Dopo uno Scontro, infligge 1 [DuelEdge] sul bersaglio con cui si è Scontrato\nSe si Scontra contro un bersaglio con [DuelEdge], recupera 3 PS per ogni Stack di [DuelEdge] sul bersaglio (max 15)"
     },
     {
       "id": 130602,
-      "name": "Palermitan Style",
-      "desc": "Gain the following effects based on the target's [DuelEdge] Stack\n- For every Stack, deal +5% damage against and take -5% damage from the target with [DuelEdge]\n- At 1+ Stack, in a Clash against targets with [DuelEdge], gain Clash Power +1\n- At 2+ Stack, in a Clash against targets with [DuelEdge], gain Base Power +1\n- At 3+ Stack, in a Clash against targets with [DuelEdge], gain Coin Power +1 and inflict 3 [SeveredTendon] On Hit\n- At 4+ Stack, in a Clash against targets with [DuelEdge], gain Final Power +1"
+      "name": "Stile Palermitano",
+      "desc": "Ottiene i seguenti effetti in base alle Stack di [DuelEdge] sul bersaglio\n- Infligge +5% danni sul bersaglio e subisce -5% danni dal bersaglio per ogni Stack di [DuelEdge]\n- 1+ Stack: Potere Scontro +1 negli Scontri con un bersaglio che ha [DuelEdge]\n- 2+ Stack: Potere Base +1 negli Scontri con un bersaglio che ha [DuelEdge]\n- 3+ Stack: Potere Moneta +1 negli Scontri con un bersaglio che ha [DuelEdge]; infligge 3 [SeveredTendon] Sul Colpo\n- 4+ Stack: Potere Finale +1 negli Scontri con un bersaglio che ha [DuelEdge]"
     },
     {
       "id": 130603,
-      "name": "Palermitan Rapier / The Cleaving Blade",
-      "desc": "If this unit's Skill effects triggered [VibrationExplosion], gain 2 [AttackUp] next turn (3 times per turn)"
+      "name": "Stocco Palermitano / La Lama Fendente",
+      "desc": "Se e sue Abilità hanno innescato lo [VibrationExplosion], ottiene 2 [AttackUp] nel turno successivo (3 volte per turno)"
     },
     {
       "id": 130604,
-      "name": "Hunter's Mark",
-      "desc": "Every 3 turns, select a random enemy (except Ryōshū), reduce their Speed to 1, and target it with all of this unit's Skills\n(If this effect could not be activated due to Stagger, activate it next turn)"
+      "name": "Marchio del Cacciatore",
+      "desc": "Sceglie un nemico casuale ogni 3 turni (esclude Ryōshū) e fissa la sua Velocità a 1. Poi, bersaglia quel nemico con ogni Abilità\n(Se questo effetto non viene attivato per via dello Stordimento, lo attiva nel turno successivo)"
     },
     {
       "id": 130605,
-      "name": "A Textbook with a Singular Purpose",
-      "desc": "Encounter Start: gain [TeachersCommand]\nIn a Clash against Ryōshū, Clash Power -3 and convert the Coins on this unit's Base Attack Skills into [SuperCoin]s.\nAlso, on Clash Lose, deal -80% damage and any \"On Hit\" effects do not activate"
+      "name": "Un Manuale Con un Solo Scopo",
+      "desc": "A inizio Incontro, ottiene [TeachersCommand]\nSe si Scontra con Ryōshū, Potere Scontro -3 e converte ogni Moneta di quell'Abilità in [SuperCoin].\nSe perde questo Scontro, infligge -80% danni e ogni effetto \"Sul Colpo\" non viene attivato"
     },
     {
       "id": 130701,
-      "name": "Searching Arm - Partial Deterrence Release",
-      "desc": "If an Arm is Part Broken, convert the Coins on the remaining Arm's Skills to [SuperCoin]s, and they gain +1 Atk Weight\n- When using a Skill affected by this effect, gain 1 [RapidGrowthApple]"
+      "name": "Braccio Cercante - Rilascio di Deterrenza Parziale",
+      "desc": "Se un Braccio viene Rotto, tutte le Abilità dell'altro Braccio ottengono Portata Attacco +1 e ogni sua Moneta viene convertita in [SuperCoin]\n- All'uso di una di queste Abilità, ottiene 1 [RapidGrowthApple]"
     },
     {
       "id": 130702,
-      "name": "Ebony Queen - Partial Deterrence Release",
-      "desc": "If this unit has Roots, gain 1 [HowDareYouApple] after its Fruit Part is hit\n\nAt 4 [HowDareYouApple], use a powerful Skill that inflicts powerful negative effects\n\nIf this unit does not have Roots, neither gain nor lose [HowDareYouApple]\nWhen the Fruit Part gets broken, lose [HowDareYouApple]"
+      "name": "Regina d'Ebano - Rilascio di Deterrenza Parziale",
+      "desc": "Se questa unità ha le Radici, ottiene 1 [HowDareYouApple] quando la parte Frutto viene colpita\n\nA 4 [HowDareYouApple], usa un'Abilità potente che infligge effetti negativi potenti (\"Radici Invidiose\")\n\nSe questa unità non ha Radici, non può né ottenere né perdere [HowDareYouApple]\nQuando il Frutto viene rotto, [HowDareYouApple] scade"
     },
     {
       "id": 130703,
-      "name": "Entangling Roots",
-      "desc": "Turn Start: inflict 2 [Binding] on all enemies\nThis lasts until the Roots are broken"
+      "name": "Radici Intricate",
+      "desc": "A inizio turno, infligge 2 [Binding] su ogni nemico\nSe le Radici sono rotte, questo effetto non si attiva"
     },
     {
       "id": 130704,
-      "name": "One Sole Root",
-      "desc": "The Roots Part gains 3 [Enhancement] for every unbroken Arm Part\nDoes not gain this effect if the Roots are broken"
+      "name": "Una Radice Solitaria",
+      "desc": "La Parte Radici ottiene 3 [Enhancement] per ogni Parte Braccio intatta\nSe le Radici sono rotte, questo effetto non si attiva"
     },
     {
       "id": 131901,
@@ -72,103 +72,103 @@
     },
     {
       "id": 131801,
-      "name": "Training to Inherit the Name of a Star",
-      "desc": "Attack Skill End: Deal (# of Slash Coins that hit Critically x 10) Slash damage against each target (cannot be Staggered due to this damage)"
+      "name": "Allenamento per Ereditare una Stella",
+      "desc": "A fine attacco, infligge (n° di Monete Tagliente che hanno effettuato un Colpo Critico x 10) danni da Tagliente contro ogni bersaglio (questo effetto non può Stordire)"
     },
     {
       "id": 131802,
-      "name": "Singular Focus of the Mind",
-      "desc": "This unit's [Breath] Potency is capped at 25\nAny excess [Breath] Potency gained past 25 will be converted to [DicipleLittleFinger]"
+      "name": "Unico Interesse della Mente",
+      "desc": "La Potenza [Breath] di questa unità può arrivare ad un massimo di 25\nOgni Potenza [Breath] in eccesso è convertita in [DicipleLittleFinger]"
     },
     {
       "id": 131803,
-      "name": "The Orthodox Blade [整劍]",
-      "desc": "Encounter Start: gain 50 [DicipleLittleFinger]"
+      "name": "La Lama Ortodossa [整劍]",
+      "desc": "A inizio Incontro, ottiene 50 [DicipleLittleFinger]"
     },
     {
       "id": 131804,
-      "name": "Tranquility [靜念]",
-      "desc": "If this unit has [DicipleLittleFinger], gain the following effects:\n- SP does not drop below 0; if it was below 0, recover to 0\n- Convert any SP damage taken into Gloom damage (save for SP changes due to \"Base factors increasing/decreasing Sanity\")"
+      "name": "Tranquillità [靜念]",
+      "desc": "Se questa unità ha [DicipleLittleFinger], attiva i seguenti effetti:\n- I PS non possono scendere sotto 0; se i PS erano sotto 0, li riporta a 0\n- Converte ogni danno ai PS in danni da Tristezza (esclude i cambiamenti ai PS dovuti ai \"Fattori di base che aumentano/diminuiscono la Sanità\")"
     },
     {
       "id": 131805,
-      "name": "Grace",
-      "desc": "In a Clash against targets that aren't Ryōshū, Clash Power -2\nTake -20% damage from targets other than Ryōshū"
+      "name": "Grazia",
+      "desc": "Durante uno Scontro, se il bersaglio non è Ryōshū, Potere Scontro -2\nQuando subisce danni, se l'attaccante non è Ryōshū, subisce -20% danni"
     },
     {
       "id": 130801,
-      "name": "Charmed",
-      "desc": "Turn Start: based on the number of units in the Encounter, inflict [FairyCharm] on Sinners with the slowest Speed\nNumber of [FairyCharm] units increases every time the Fairy Part is restored "
+      "name": "Incantato",
+      "desc": "A inizio turno, infligge [FairyCharm] ai Peccatori con la Velocità più bassa in base al numero di unità partecipanti\nIl numero dei bersagli aumenta ogni volta che la Fatina viene ripristinata."
     },
     {
       "id": 130802,
-      "name": "Uncovered Abyss",
-      "desc": "Reveal body when the Fairy Part is broken\nAll Buffs and Debuffs expire when the Body hides again"
+      "name": "Abisso Scoperto",
+      "desc": "Rivela il Corpo quando la Fatina è rotta.\nTutti i Buff e Debuff scadono quando il corpo si nasconde di nuovo."
     },
     {
       "id": 130803,
-      "name": "Leading Lure",
-      "desc": "Cannot damage Core HP by damaging the Fairy\nA certain Skill gains Atk Weight based on the number of [FairyCharm] units"
+      "name": "Esca Attirante",
+      "desc": "Il Nucleo non subisce i danni subiti dalla parte Fatina\nUna certa abilità ottiene Portata Attacco per ogni nemico [FairyCharm]"
     },
     {
       "id": 130804,
-      "name": "Broken Stump",
-      "desc": "When the Body is broken:\n- Fairy will have 60% of its max HP upon restoration\n- Core heals +20 more HP with Skill effects"
+      "name": "Tronco Rotto",
+      "desc": "Se il Corpo è rotto:\n- La Fatina avrà il 60% dei suoi PV max al suo ripristino.\n- Il Nucleo recupera 20 PV in più con gli Effetti delle sue Abilità."
     },
     {
       "id": 130805,
-      "name": "Evolving Lure",
-      "desc": "Fairy gains 30% increased max HP with each restoration"
+      "name": "Esca in Evoluzione",
+      "desc": "I PV max della Fatina aumentano del 20% ad ogni ripristino."
     },
     {
       "id": 130806,
-      "name": "Fairy Dust",
-      "desc": "When the Fairy is killed, all Identities gain 5 [Breath] and +2 [Breath] Count next turn"
+      "name": "Polvere di Fata",
+      "desc": "Quando la parte Fatina viene distrutta, tutte le Identità ottengono 5 [Breath] e +2 Conteggio [Breath] nel turno successivo"
     },
     {
       "id": 130807,
-      "name": "Increased Aggression - Partial Deterrence Release",
-      "desc": "Use more powerful Skills after the Fairy is restored for the second time"
+      "name": "Ostilità Aumentata - Rilascio di Deterrenza Parziale",
+      "desc": "Se la Parte Fatina si è ripristinata almeno due volte, usa più Abilità Potenti"
     },
     {
       "id": 130901,
-      "name": "Dimensional Escape",
-      "desc": "Starting from turn 2, this unit summons 4 random Dimensions and hides\n- When all Parts are Staggered, this effect activates next turn\n- Cannot be Staggered while hidden inside a 'Dimensional Rift'."
+      "name": "Fuga Dimensionale",
+      "desc": "A partire dal turno 2, questa unità evoca 4 Dimensioni e si nasconde al loro interno\n- Se ogni Parte è Stordita, questo effetto si attiva invece nel turno successivo\n- Non può essere Stordito mentre è in uno \"Squarcio[TabExplain] Dimensionale\"."
     },
     {
       "id": 130902,
-      "name": "Trapped Dimensional Escape",
-      "desc": "When all 'Dimensional Rifts' are broken, this unit voluntarily emerges from a 'Dimensional Rift' next turn\nAfterward, this unit loses 5 [Charge] Count and all of its Parts' Stagger Thresholds are raised by 30"
+      "name": "Trappola della Fuga Dimensionale",
+      "desc": "Quando ogni \"Squarcio[TabExplain] Dimensionale\" viene rotto, questa unità emerge da uno \"Squarcio[TabExplain] Dimensionale\" nel turno successivo\nPerde poi 5 Conteggio [Charge] e alza la Soglia di Stordimento di ogni parte di 30."
     },
     {
       "id": 130903,
-      "name": "Regenerate Dimensional Refraction Blade",
-      "desc": "When the Blade Part is broken, lose 5 [Charge] Count\nAt the next Turn End, consume 2 [Charge] Count to restore the broken Blade.\n\nWhile the Blade Part is broken, gain 2 [AttackDown] at every Turn Start."
+      "name": "Rigenera la Lama Rifratta Dimensionale",
+      "desc": "Quando la parte Lama è rotta, perde 5 Conteggio [Charge]\nAlla fine del turno successivo, consuma 2 Conteggio [Charge] per rigenerare la Lama rotta.\n\nMentre la Parte Lama è rotta, ottiene 2 [AttackDown] all'inizio di ogni turno."
     },
     {
       "id": 130904,
-      "name": "Forced Dimensional Breach Attempt - Partial Deterrence Release",
-      "desc": "At 60% or less Core HP, end turn and gain a new pattern\n- Deactivate \"Dimensional Escape\" Passive\n- Deactivate \"Trapped Dimensional Escape\" Passive\n- If neither of its Arms are broken, use a powerful Skill every few turns"
+      "name": "Tentativo di Salto Dimensionale Forzato - Rilascio di Deterrenza parziale",
+      "desc": "A 60%- PV del Nucleo, termina il turno e ottiene un nuovo pattern:\n- Disattiva le Passive \"Fug[TabExplain]a Dimensionale\" e \"Trappola della Fug[TabExplain]a Dimensionale\"\n- Se nessun Braccio è rotto, usa un'Abilità Potente dopo un certo numero di turni"
     },
     {
       "id": 131001,
-      "name": "Hemorrhaging Dimension",
-      "desc": "Deal +10% damage after passing through the Hemorrhaging Dimension[TabExplain]"
+      "name": "Dimensione in Emorragia",
+      "desc": "Infligge +10% danni dopo essere passato per la [PassedPortal_Red]"
     },
     {
       "id": 131101,
-      "name": "Poisonous Dimension",
-      "desc": "Core gains +20% max HP after passing through the Poisonous Dimension[TabExplain]"
+      "name": "Dimensione Velenosa",
+      "desc": "I PV max del Nucleo aumentano del 20% dopo essere passato per la [PassedPortal_Green]"
     },
     {
       "id": 131201,
-      "name": "Tremoring Dimension",
-      "desc": "Gain 1 Speed after passing through the Tremoring Dimension[TabExplain]"
+      "name": "Dimensione Tremante",
+      "desc": "Ottiene 1 Velocità dopo essere passato per la [PassedPortal_Yellow]"
     },
     {
       "id": 131301,
-      "name": "Electrifying Dimension",
-      "desc": "Gain +1 Coin Power after passing through the Electrifying Dimension[TabExplain]"
+      "name": "Dimensione Elettrizzante",
+      "desc": "Ottiene Potere Moneta +1 dopo essere passato per la [PassedPortal_Blue]"
     }
   ]
 }
