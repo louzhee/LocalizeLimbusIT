@@ -510,74 +510,74 @@
     },
     {
       "id": 901019,
-      "name": "",
+      "name": "Ambling Pearl",
       "subDesc": "",
-      "desc": "The barren mudflat reeks of salt and rot.\nWhat little jade-colored seawater is left there\ndoesn't seem to have anything inside.\n\nA giant clam walks before you.\nWith each step it takes, it sprays a fetid green muck.\n\nIs the clam the source of the contamination,\nor is it working to contain the filth?",
+      "desc": "La distesa fangosa desolata emana una puzza putrida e salina.\nIn tutta quell'acqua di mare color giada non vi è niente all'interno.\n\nUna vongola gigante cammina davanti a voi.\nAd ogni suo passo, sparge della fetida melma verde.\n\nChe la vongola sia l'origine della contaminazione, o sta cercando di contenere il lerciume?",
       "options": [
         {
-          "message": "Sample the green substance.",
-          "messageDesc": "Gluttony & Gloom Advantage check. Pass to gain a Pierce E.G.O Gift."
+          "message": "Esamina la sostanza verde.",
+          "messageDesc": "Prova con Vantaggio per Gola e Tristezza.\nPassa per ottenere un Dono E.G.O Perforante."
         },
         {
-          "message": "Approach it.",
+          "message": "Avvicinati.",
           "result": [
-            "You wade through the virescence.\n\nWith each step, the foul mud\nbrings terrible pain to one's feet.\n\nYou can no longer move forward.\n\nBesides struggling to wade through,\nyou worry that your legs might slough off if you go farther.\n\nWhile you were hesitating,\nthe clam walked off into the distance."
+            "Passate attraverso la virescenza.\n\nAd ogni passo, la melma sudicia infligge un dolore insopportabile alle vostre gambe.\n\nNon riuscite più ad andare avanti.\n\nOltre a far fatica a districarvi, temi che le vostre gambe cederanno se proseguite ancora.\n\nMentre stavate esitando, la vongola cammina via verso l'orizzonte."
           ]
         },
         {
-          "message": "Throw the green substance at it.",
-          "messageDesc": "Win the battle to earn a Pierce E.G.O Gift and a Tremor E.G.O Gift",
+          "message": "Tira la sostanza verde su di lei.",
+          "messageDesc": "Vinci la battaglia per guadagnare un Dono E.G.O Perforante e un Dono E.G.O Vibrazione",
           "result": [
-            "You gather the green substance into a glass bottle...\n... and chuck it into the giant clam's maw.\nPerhaps you caught it off guard by throwing a bottle full of filth into its mouth.\nThe clam spits out the bottle and begins crashing through the filth in your direction."
+            "Hai raccolto la sostanza verde in una bottiglia di vetro...\n\n... e l'hai tirata nelle fauci della vongola gigante.\n\nForse l'hai colta di sorpresa lanciando una bottiglia piena di sporcizia dentro la sua bocca.\nLa vongola sputa la bottiglia e inizia a farsi strada tra la sporcizia nella tua direzione."
           ]
         }
       ]
     },
     {
       "id": 901020,
-      "name": "",
+      "name": "Drenched Gossypium",
       "subDesc": "",
-      "desc": "A field of white, yet somehow dark flowers is ahead.\nThe sky is red, the air windy and bleak.\n\nOne giant flower flutters amidst the field.\n\nIt resembles a person waving from afar.",
+      "desc": "Davanti a voi c'è un campo di fiori bianchi e in qualche modo scuri.\nIl cielo è rosso, l'aria è ventosa e gelida.\n\nUn fiore gigante volteggia nel mezzo del campo fiorito.\n\nAssomiglia ad una persona che saluta in lontananza.",
       "options": [
         {
-          "message": "Approach it.",
-          "messageDesc": "Run a Gluttony & Lust Advantage check to gain a Bleed E.G.O Gift."
+          "message": "Avvicinati.",
+          "messageDesc": "Esegui una prova con Vantaggio per Gola e Lussuria per ottenere un Dono E.G.O Sanguinamento."
         },
         {
-          "message": "Wave back.",
-          "messageDesc": "Win the battle to earn 2 Bleed E.G.O Gifts",
+          "message": "Ricambia il saluto.",
+          "messageDesc": "Vinci la battaglia per ottenere 2 Doni E.G.O Sanguinamento",
           "result": [
-            "You wave out of nostalgia.\n\nIn an instant, all the flowers went awash with red,\nsimultaneously turning to face you.\n\nAfter staring into us for a little while,\ntheir red petals flew at us.\n\nIt was like a punishment for making a half-hearted gesture."
+            "Con un grosso senso di nostalgia, ricambi il saluto.\n\nIn un istante, tutti i fiori si tingono di rosso, voltandosi verso di voi.\n\nDopo averci fissati per un po', i loro rossi petali volano su di noi.\n\nSembravano punirci per aver fatto un gesto così incerto."
           ]
         },
         {
-          "message": "Ignore it completely.",
+          "message": "Ignoralo completamente.",
           "result": [
-            "You look away and continue on your path.\nThe massive flower begins shaking violently, perhaps in an attempt to catch your attention.\nIt appears a tad unnatural, a tad unsettling.\nYou gather the gawking Sinners and escape the field of flowers."
+            "Guardate da un'altra parte e continuate nel vostro cammino.\n\nL'enorme fiore inizia a scuotersi violentemente, forse per provare ad attirare la vostra attenzione.\nÈ alquanto inquietante vedere quello spettacolo.\n\nPrendi i Peccatori esterrefatti e scappate via dal campo fiorito."
           ]
         }
       ]
     },
     {
       "id": 901021,
-      "name": "",
+      "name": "Wayward Passenger",
       "subDesc": "",
-      "desc": "You see a poor passenger, stranded between dimensions.\nMost will never realize that this person ever disappeared.\n\nWell, the transport company would know,\nbut they'll simply pretend that the passenger never existed.\n\nLost and abandoned, tossed out like trash,\nhaving no place left in the City.",
+      "desc": "Vedete un povero passeggero perso tra le dimensioni.\nQuasi nessuno realizzerà che questa persona è scomparsa.\n\nBeh, la compagnia di trasporti saprà, ma semplicemente fingeranno che il passeggero non sia mai esistito.\n\nAbbandonato e perso, gettato via come un rifiuto, senza più un posto nella Città.",
       "options": [
         {
-          "message": "Point the direction it should go.",
-          "messageDesc": "Gloom & Sloth Advantage check. Pass to gain a Keywordless E.G.O Gift."
+          "message": "Puntate nella direzione in cui dovrebbe andare.",
+          "messageDesc": "Prova con Vantaggio per Tristezza e Accidia.\nPassa per ottenere un Dono E.G.O Senza Tratti."
         },
         {
-          "message": "Stand still.",
-          "messageDesc": "Win the battle to earn a Keywordless E.G.O Gift and a Charge E.G.O Gift",
+          "message": "Rimanete fermi.",
+          "messageDesc": "Vinci la battaglia per guadagnare un Dono E.G.O Senza Tratti e un Dono E.G.O Carica",
           "result": [
-            "It idly stared in our direction.\n\nThen, it began shambling for us, realizing something.\n\nAs it drew closer, you were able to identify\nthat the being was a company employee, not a passenger.\n\nThe ID card on its chest gave it away.\n\nThis stranded employee was approaching us,\npreparing to go through the motions."
+            "Rimane immobile, guardando verso la nostra direzione.\n\nPoco dopo, ha iniziato a strisciare verso di noi, realizzando qualcosa.\n\nMentre si avvicinava, siete riusciti a riconoscere la figura: era un dipendente della compagnia, non un passeggero.\n\nIl badge sul suo petto ce lo ha svelato.\n\nIl dipendente perso si stava avvicinando a noi, pronto a eseguire il suo solito lavoro."
           ]
         },
         {
-          "message": "Guide it personally.",
-          "messageDesc": "Gloom & Lust Advantage check. Pass to gain a Charge E.G.O Gift.",
+          "message": "Guidatelo personalmente.",
+          "messageDesc": "Prova con Vantaggio per Tristezza e Lussuria.\nPassa per ottenere un Dono E.G.O Carica.",
           "result": [
             ""
           ]
@@ -586,20 +586,20 @@
     },
     {
       "id": 901022,
-      "name": "",
+      "name": "Wandering Mind",
       "subDesc": "",
-      "desc": "Sometimes, the mind wanders.\n\nWhere does such a mind end up?\n\nIf it had a physical destination,\nthen it must look like this.\n\nAn empty, humanlike statue\nis where that mind would decide to settle.\n\nNow, it extends its arms, trying to grab at anything.",
+      "desc": "A volte, la mente inizia a vagare.\n\nDove finirà mai la mente?\n\nSe avesse una destinazione fisica, avrebbe probabilmente questo aspetto.\n\nUna statua vacua, simile a un umano, saarebbe un luogo in cui quella mente deciderebbe di accomodarcisi.\n\nOra, allunga le sue braccia, provando ad afferrare qualcosa.",
       "options": [
         {
-          "message": "Reach out to grab its hand.",
-          "messageDesc": "Select to gain a Keywordless E.G.O Gift",
+          "message": "Avvicinati per afferrare la sua mano.",
+          "messageDesc": "Seleziona per ottenere un Dono E.G.O Senza Tratti",
           "result": [
-            "You tried to hold its hand,\nbut you couldn't touch it.\n\nIt was an illusion—something that shouldn't be—made visible.\n\nIt retracted its arm,\nas if it understood as well…\n\nThen, it broke itself,\nturning into a small statue."
+            "Hai provato ad afferrare la sua mano, ma non potevi toccarla.\n\nEra un illusione: un qualcosa che non dovrebbe esistere divenuto visibile.\n\nHa ritratto il braccio, come se lo avesse capito...\n\nDopo, si è distrutta, diventando una piccola statuina."
           ]
         },
         {
-          "message": "Refuse it.",
-          "messageDesc": "Gloom & Gluttony & Pride Advantage check. Pass to gain a Tremor E.G.O Gift."
+          "message": "Rifiutala.",
+          "messageDesc": "Prova con Vantaggio per Tristezza, Gola e Superbia.\nPassa per ottenere un Dono E.G.O Vibrazione."
         }
       ]
     },
