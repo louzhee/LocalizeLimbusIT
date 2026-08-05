@@ -5,7 +5,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Braccare la Preda",
+          "name": "Segui la Preda",
           "desc": "[WhenUse] Ottiene +2 Conteggio [Breath]\n[WhenUse] Ottiene +2 [Aggro] su questo Slot Abilità il turno successivo",
           "coinlist": [
             {},
@@ -20,7 +20,7 @@
         },
         {
           "level": 2,
-          "name": "Braccare la Preda",
+          "name": "Segui la Preda",
           "desc": "[WhenUse] Ottiene +3 Conteggio [Breath]\n[WhenUse] Ottiene +3 [Aggro] su questo Slot Abilità il turno successivo",
           "coinlist": [
             {},
@@ -35,7 +35,7 @@
         },
         {
           "level": 4,
-          "name": "Braccare la Preda",
+          "name": "Segui la Preda",
           "desc": "[WhenUse] Ottiene +4 Conteggio [Breath]\n[WhenUse] Ottiene +5 [Aggro] su questo Slot Abilità il turno successivo",
           "coinlist": [
             {},
@@ -55,7 +55,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Arpione Conficcato",
+          "name": "Arpione Uncinato",
           "desc": "[WhenUse] Ottiene +2 [Aggro] su questo Slot Abilità il turno successivo",
           "coinlist": [
             {},
@@ -71,7 +71,7 @@
         },
         {
           "level": 2,
-          "name": "Arpione Conficcato",
+          "name": "Arpione Uncinato",
           "desc": "[WhenUse] Ottiene +3 [Aggro] su questo Slot Abilità il turno successivo\n[WhenUse] Ottiene 1 [Breath] per ogni 3 [Laceration] sul bersaglio (Max 10)",
           "coinlist": [
             {},
@@ -87,7 +87,7 @@
         },
         {
           "level": 4,
-          "name": "Arpione Conficcato",
+          "name": "Arpione Uncinato",
           "desc": "[WhenUse] Ottiene +5 [Aggro] su questo Slot Abilità il turno successivo\n[WhenUse] Ottiene 1 [Breath] per ogni 3 [Laceration] sul bersaglio (Max 10)",
           "coinlist": [
             {},
@@ -108,7 +108,7 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Recidere il Nodo",
+          "name": "Recidere Nodo",
           "desc": "A 3+ Rison. Invidia, Potere Scontro +1\nA 4+ Rison. Invidia, Potere Moneta +1",
           "coinlist": [
             {
@@ -143,7 +143,7 @@
         },
         {
           "level": 4,
-          "name": "Recidere il Nodo",
+          "name": "Recidere Nodo",
           "desc": "A 3+ Rison. Invidia, Potere Scontro +1\nA 4+ Rison. Invidia, Potere Moneta +1\nA 6+ Rison-A Invidia., Potere Moneta +1",
           "coinlist": [
             {
@@ -340,7 +340,7 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Sentenza di Esecuzione",
+          "name": "Sentenza D'Esecuzione",
           "desc": "Se il bersaglio ha 6+ [Vibration], Potere Moneta +1",
           "coinlist": [
             {
@@ -368,7 +368,7 @@
         },
         {
           "level": 4,
-          "name": "Sentenza di Esecuzione",
+          "name": "Sentenza D'Esecuzione",
           "desc": "Potere Moneta +1 per ogni 6 [Vibration] sul bersaglio (Max 2)",
           "coinlist": [
             {
@@ -639,7 +639,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Carica",
+          "name": "Ricarica",
           "desc": "[WhenUse] Ottiene +3 Conteggio [Charge] (1 volta per turno)",
           "coinlist": [
             {}
@@ -647,7 +647,7 @@
         },
         {
           "level": 4,
-          "name": "Carica",
+          "name": "Ricarica",
           "desc": "[WhenUse] Ottiene +3 Conteggio [Charge] (<style=\"highlight\">2 volte</style> per turno)",
           "coinlist": [
             {}
@@ -1675,7 +1675,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Pulisci Congestione",
+          "name": "Pulizia dell' Ingorgo",
           "desc": "",
           "coinlist": [
             {
@@ -1696,7 +1696,7 @@
         },
         {
           "level": 2,
-          "name": "Pulisci Congestione",
+          "name": "Pulizia dell'Ingorgo",
           "desc": "<style=\"highlight\">[WhenUse] A 6+ Conteggio [Charge], Potere Scontro +1</style>",
           "coinlist": [
             {
@@ -1717,7 +1717,7 @@
         },
         {
           "level": 4,
-          "name": "Pulisci Congestione",
+          "name": "Pulizia dell'Ingorgo",
           "desc": "<style=\"highlight\">[WhenUse] A 3+ [Charge], Potere Moneta +1\n[WhenUse] Potere Scontro +1 per ogni 6 Conteggio [Charge] su di sé (max 2)</style>",
           "coinlist": [
             {
@@ -1746,7 +1746,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Turbo: Lama dal Gomito",
+          "name": "Accellerazione: Lama sul Gomito",
           "desc": "[StartBattle] Ottiene [ChargeForceField] pari a (2 + Potenza [Charge] su di sé) (max 6, 1 per turno)\n[WhenUse] Consuma 6 Conteggio [Charge] per ottenere +1 Potere Moneta",
           "coinlist": [
             {
@@ -1767,7 +1767,7 @@
         },
         {
           "level": 2,
-          "name": "Turbo: Lama dal Gomito",
+          "name": "Accellerazione: Lama sul Gomito",
           "desc": "[StartBattle] Ottiene [ChargeForceField] pari a (2 + Potenza [Charge] su di sé) (max 6, 1 per turno)\n[WhenUse] Consuma 6 Conteggio [Charge] per ottenere +1 Potere Moneta<style=\"highlight\"></style>",
           "coinlist": [
             {
@@ -1791,7 +1791,7 @@
         },
         {
           "level": 4,
-          "name": "Turbo: Lama dal Gomito",
+          "name": "Accellerazione: Lama sul Gomito",
           "desc": "[StartBattle] Ottiene [ChargeForceField] pari a (2 + Potenza [Charge] su di sé) (max 6, 1 per turno)\n[WhenUse] Consuma 6 Conteggio [Charge] per ottenere +1 Potere Moneta\n<style=\"highlight\">[WhenUse] A 3+ [Charge], Potere Moneta +1</style>",
           "coinlist": [
             {
@@ -1820,7 +1820,7 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Strappa Spazio - Sovralimentazione ASC",
+          "name": "Strappa Spazio: Sovralimentazione API",
           "desc": "[StartBattle] Se questa unità ha 3+ Potenza [Charge] o meno di 50% HP, converte tutte le Monete di questa Abilità in [SuperCoin]\n- Se questa unità perde uno Scontro mentre questo effetto è attivo, Final Power +3\n[WhenUse] A 10+ Conteggio [Charge], consuma 10 Conteggio [Charge] per ottenere +4 Potere Moneta",
           "coinlist": [
             {
@@ -1861,7 +1861,7 @@
         },
         {
           "level": 4,
-          "name": "Strappa Spazio - Sovralimentazione ASC",
+          "name": "Strappa Spazio: Sovralimentazione API",
           "desc": "[StartBattle] Se questa unità ha 3+ Potenza [Charge] o meno di 50% HP, converte tutte le Monete di questa Abilità in [SuperCoin]\n- Se questa unità perde uno Scontro mentre questo effetto è attivo, Potere Finale +3\n[WhenUse] A 10+ Conteggio [Charge], consuma 10 Conteggio [Charge] per ottenere +4 Potere Moneta\n<style=\"highlight\">[WhenUse] Ottiene Potere Scontro pari a Potenza [Charge] su di sé (max 5)</style>",
           "coinlist": [
             {
@@ -1907,7 +1907,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sovraccarico ASC",
+          "name": "Sovraccarico API",
           "desc": "[CanDuelGuard]\n[StartBattle] A meno di 15 Conteggio [Charge], ottiene gli effetti seguenti:\n- Ottiene [WOverCharge] il turno successivo (max 1 per turno)\n- Fine Turno: Rimuove la prima Soglia di Stordimento di questa unità (una volta per Incontro)",
           "coinlist": [
             {
@@ -1921,8 +1921,8 @@
         },
         {
           "level": 4,
-          "name": "Sovraccarico ASC",
-          "desc": "[CanDuelGuard]\n[StartBattle] A meno di 15 Conteggio [Charge], ottiene gli effetti seguenti:\n- Ottiene [WOverCharge] il turno successivo (max 1 per turno)\n- Fine Turno: Rimuove la prima Soglia di Stordimento di questa unità (una volta per Incontro)\n<style=\"highlight\">- Fine Turno: Aggiunge 1 Strappa Spazio - Sovraspinta ASC alla lista di Abilità in arrivo il turno successivo (una volta per turno)</style>",
+          "name": "Sovraccarico API",
+          "desc": "[CanDuelGuard]\n[StartBattle] A meno di 15 Conteggio [Charge], ottiene gli effetti seguenti:\n- Ottiene [WOverCharge] il turno successivo (max 1 per turno)\n- Fine Turno: Rimuove la prima Soglia di Stordimento di questa unità (una volta per Incontro)\n<style=\"highlight\">- Fine Turno: Aggiunge 1 Strappa Spazio - Sovraspinta API alla lista di Abilità in arrivo il turno successivo (una volta per turno)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2032,7 +2032,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Mutila Artigli",
+          "name": "Artigli Mutilanti",
           "desc": "[StartDuel] Applica 1 [Combustion] e +1 Conteggio [Combustion] al bersaglio e a sé stesso",
           "coinlist": [
             {
@@ -2063,7 +2063,7 @@
         },
         {
           "level": 2,
-          "name": "Mutila Artigli",
+          "name": "Artigli Mutilanti",
           "desc": "<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ ([Combustion] + [Burst]), Potere Moneta +1</style>\n[StartDuel] Applica 1 [Combustion] e +1 Conteggio [Combustion] al bersaglio e a sé stesso",
           "coinlist": [
             {
@@ -2094,7 +2094,7 @@
         },
         {
           "level": 4,
-          "name": "Mutila Artigli",
+          "name": "Artigli Mutilanti",
           "desc": "[WhenUse] Se il bersaglio ha 6+ ([Combustion] + [Burst]), Potere Moneta +1\n<style=\"highlight\">[WhenUse] Potere Scontro +1 per ogni 10 [Combustion] su di sé (max 2)</style>\n[StartDuel] Applica 1 [Combustion] e +1 Conteggio [Combustion] al bersaglio e a sé stesso",
           "coinlist": [
             {
@@ -2235,7 +2235,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Più Cibo per Noi",
+          "name": "Più Vermi per Noi",
           "desc": "[DuelCounter]\n[WhenUse] Ottiene 3 [ChickenStance] il turno successivo\n[WhenUse] Se questa unità ha [ChickenStance], Potere Moneta +1\n[StartDuel] Ottiene +3 Conteggio [Combustion] (una volta per turno)",
           "coinlist": [
             {
@@ -2256,7 +2256,7 @@
         },
         {
           "level": 4,
-          "name": "Più Cibo per Noi",
+          "name": "Più Vermi per Noi",
           "desc": "[DuelCounter]\n[WhenUse] Ottiene 3 [ChickenStance] il turno successivo\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 10+ ([Combustion] + [Burst]), Potere Base +1</style>\n[WhenUse] Se questa unità ha [ChickenStance], Potere Moneta +1\n<style=\"highlight\">[WhenUse] Questa Abilità infligge +1% danni per ogni 3% PV che questa unità ha perso complessivamente in questo Incontro (max 30%)</style>\n[StartDuel] Ottiene +3 Conteggio [Combustion] (una volta per turno)",
           "coinlist": [
             {
