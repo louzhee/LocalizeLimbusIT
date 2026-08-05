@@ -167,7 +167,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Evasione",
+          "name": "Schivata",
           "desc": "[WhenUse] Potere Base +1 per ogni 100 [LimitedTime] (max 3)",
           "coinlist": [
             {
@@ -279,7 +279,7 @@
         {
           "level": 1,
           "name": "Punizione per gli Ammazza-Tempo",
-          "desc": "Quando è in stato di [TimeAcceleration], Potere Scontro +2\n[WhenUse] A 600+ (somma di [OwnTime] su tutte le Parti), infligge +3 Conteggio [Laceration]\n[WhenUse] A 500+ (somma di [OwnTime] su tutte le Parti), infligge +1 Conteggio [Laceration]\n[WhenUse] A 400+ (somma di [OwnTime] su tutte le Parti), consuma 20 [OwnTime] e infligge +1 Potenza e Conteggio [Laceration] in più con questa Abilità",
+          "desc": "Quando è in stato di [TimeAcceleration], Potere Scontro +2\n[WhenUse] A 600+ [OwnTime] sommati su tutte le Parti, infligge +3 Conteggio [Laceration]\n[WhenUse] A 500+ [OwnTime] sommati su tutte le Parti, infligge +1 Conteggio [Laceration]\n[WhenUse] A 400+ [OwnTime] sommati su tutte le Parti, consuma 20 [OwnTime] e infligge +1 Potenza e Conteggio [Laceration] in più con questa Abilità",
           "coinlist": [
             {
               "coindescs": [
@@ -414,8 +414,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Evasione",
-          "desc": "[WhenUse] Potere Base +1 per ogni 50 somma di [OwnTime] su tutte le Parti (max 3)",
+          "name": "Schivata",
+          "desc": "[WhenUse] Potere Base +1 per ogni 50 [OwnTime] sommati su tutte le Parti (max 3)",
           "coinlist": [
             {
               "coindescs": [
