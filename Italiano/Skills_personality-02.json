@@ -569,7 +569,7 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Fiore di Prugno Rosso Sparsi",
+          "name": "Fiori di Prugno Rosso Sparsi",
           "desc": "Infligge +3% danni per ogni [RedApricotBlossom] sul bersaglio\n[WinDuel] Consuma metà del Conteggio [Breath] su di sé, poi ottiene [Breath] pari al Conteggio [Breath] consumato (max 10)",
           "coinlist": [
             {
@@ -590,7 +590,7 @@
         },
         {
           "level": 4,
-          "name": "Fiore di Prugno Rosso Sparsi",
+          "name": "Fiori di Prugno Rosso Sparsi",
           "desc": "Infligge +3% danni per ogni [RedApricotBlossom] sul bersaglio\n<style=\"highlight\">Potere Moneta +1 per ogni 7 [Breath] su di sé (max 3)</style>\n[WinDuel] Consuma metà del Conteggio [Breath] su di sé, poi ottiene [Breath] pari al Conteggio [Breath] consumato (max 10)\n<style=\"highlight\">Questa Abilità non consuma [RedApricotBlossom] Sul Colpo Critico</style>",
           "coinlist": [
             {
@@ -1253,7 +1253,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Risonanza Aumentando la Sintonia S.F.A.",
+          "name": "Risonando Aumentando la Sintonia S.F.A.",
           "desc": "[WhenUse] Perde 5 [Combustion] (1 volta per turno)\n[OnSucceedEvade] Perde 5 [Combustion] (1 volta per turno)",
           "coinlist": [
             {}
@@ -1261,7 +1261,7 @@
         },
         {
           "level": 4,
-          "name": "Risonanza Aumentando la Sintonia S.F.A.",
+          "name": "Risonando Aumentando la Sintonia S.F.A.",
           "desc": "[WhenUse] A 10+ [Combustion], Potere Moneta +3\n[WhenUse] Perde 5 [Combustion] (1 volta per turno)\n[OnSucceedEvade] Perde 5 [Combustion] (1 volta per turno)",
           "coinlist": [
             {}
@@ -1427,7 +1427,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Vi Aprirò la Strada, O Lord.",
+          "name": "Aprirò la Strada, Mio Lord.",
           "desc": "[WhenUse] Se il bersaglio ha 4+ [Burst], Potere Moneta +1\n[WinDuel] Infligge +1 Conteggio [Burst]",
           "coinlist": [
             {
@@ -1448,7 +1448,7 @@
         },
         {
           "level": 2,
-          "name": "Vi Aprirò la Strada, O Lord.",
+          "name": "Aprirò la Strada, Mio Lord.",
           "desc": "[WhenUse] Se il bersaglio ha 4+ [Burst], Potere Moneta +1\n<style=\"highlight\">[WhenUse] Ottiene 2 [Agility] il turno successivo (1 volta per turno)</style>\n[WinDuel] Infligge +1 Conteggio [Burst]",
           "coinlist": [
             {
@@ -1469,7 +1469,7 @@
         },
         {
           "level": 4,
-          "name": "Vi Aprirò la Strada, O Lord.",
+          "name": "Aprirò la Strada, Mio Lord.",
           "desc": "<style=\"highlight\">Se la Velocità di questa unità è maggiore di quella del bersaglio, infligge +(differenza di Velocità x [EnhanceZilu] su di sé)% danni (max 50%)</style>\n<style=\"highlight\">Se la Velocità di questa unità è maggiore del bersaglio di 3 o più, Potere Moneta +1\n[WhenUse] Se il bersaglio ha 4+ [Burst], Potere Moneta +1</style>\n[WhenUse] Ottiene 2 [Agility] il turno successivo (1 volta per turno)\n[WinDuel] Infligge +1 Conteggio [Burst]",
           "coinlist": [
             {
@@ -1498,8 +1498,8 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Nessuna Traccia Visiva o Uditiva.",
-          "desc": "Se la Velocità di questa unità è maggiore di quella del bersaglio, infligge +(differenza di Velocità x Potenza di [Burst] sul bersaglio)% danni (max 50%)\nSe la Velocità di questa unità è maggiore del bersaglio di 2 o più, Potere Moneta +1\n[StartBattle] Ottiene 1 [SupportProtect] (1 volta per turno)\n[BeforeUse] A 10+ [EnhanceZilu], attiva al suo posto \"Tecnica Segreta degli Heishou - Mao: Manifestazione Spaccanuvole\"\n[WhenUse] Ottiene 3 [LegStrength]\n[WinDuel] Infligge +2 [Burst]",
+          "name": "Impercettibile a Vista e Udito",
+          "desc": "Se la Velocità di questa unità è maggiore di quella del bersaglio, infligge +(differenza di Velocità x Potenza di [Burst] sul bersaglio)% danni (max 50%)\nSe la Velocità di questa unità è maggiore del bersaglio di 2 o più, Potere Moneta +1\n[StartBattle] Ottiene 1 [SupportProtect] (1 volta per turno)\n[BeforeUse] A 10+ [EnhanceZilu], attiva al suo posto \"Tecnica Eccelsa degli Heishou - Mao: Manifestazione Spaccanuvole\"\n[WhenUse] Ottiene 3 [LegStrength]\n[WinDuel] Infligge +2 [Burst]",
           "coinlist": [
             {
               "coindescs": [
@@ -1535,8 +1535,8 @@
         },
         {
           "level": 4,
-          "name": "Nessuna Traccia Visiva o Uditiva.",
-          "desc": "Se la Velocità di questa unità è maggiore di quella del bersaglio, infligge +(differenza di Velocità x Potenza di [Burst] sul bersaglio)% danni (max 50%)\n<style=\"highlight\">Se la Velocità di questa unità è maggiore di quella del bersaglio, ottiene Potere Moneta in base alla differenza di Velocità (Potere Moneta +1 per ogni 2 differenza di Velocità; max 2)</style>\n[StartBattle] Ottiene 1 [SupportProtect] (1 volta per turno)\n[BeforeUse] A 10+ [EnhanceZilu], attiva al suo posto \"Tecnica Segreta degli Heishou - Mao: Manifestazione Spaccanuvole\"\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 15+ [Burst], Potere Moneta +1</style>\n[WhenUse] Ottiene 3 [LegStrength]\n[WinDuel] Infligge +2 Conteggio [Burst]",
+          "name": "Impercettibile a Vista e Udito",
+          "desc": "Se la Velocità di questa unità è maggiore di quella del bersaglio, infligge +(differenza di Velocità x Potenza di [Burst] sul bersaglio)% danni (max 50%)\n<style=\"highlight\">Se la Velocità di questa unità è maggiore di quella del bersaglio, ottiene Potere Moneta in base alla differenza di Velocità (Potere Moneta +1 per ogni 2 differenza di Velocità; max 2)</style>\n[StartBattle] Ottiene 1 [SupportProtect] (1 volta per turno)\n[BeforeUse] A 10+ [EnhanceZilu], attiva al suo posto \"Tecnica Eccelsa degli Heishou - Mao: Manifestazione Spaccanuvole\"\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 15+ [Burst], Potere Moneta +1</style>\n[WhenUse] Ottiene 3 [LegStrength]\n[WinDuel] Infligge +2 Conteggio [Burst]",
           "coinlist": [
             {
               "coindescs": [
@@ -1627,7 +1627,7 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Tecnica Segreta degli Heishou - Mao: Manifestazione Spaccanuvole",
+          "name": "Tecnica Eccelsa degli Heishou - Mao: Manifestazione Spaccanuvole",
           "desc": "Se la Velocità di questa unità è maggiore di quella del bersaglio, infligge +(differenza di Velocità x Potenza di [Burst] sul bersaglio)% danni (max 50%)\nSe la Velocità di questa unità è maggiore del bersaglio di 2 o più, Potere Moneta +1\n[WhenUse] Se il bersaglio ha 15+ [Burst], Potere Moneta +1\n[WhenUse] A Velocità 10+, ottiene 20 [Breath]; se questa unità ha meno di 4 Conteggio [Breath], incrementa il Conteggio [Breath] fino a 4\n[WhenUse] Ottiene 3 [LegStrength]\n[WinDuel] Infligge +2 Conteggio [Burst]\n[EndSkill] Consuma 10 [EnhanceZilu]",
           "coinlist": [
             {
@@ -1670,7 +1670,7 @@
         },
         {
           "level": 4,
-          "name": "Tecnica Segreta degli Heishou - Mao: Manifestazione Spaccanuvole",
+          "name": "Tecnica Eccelsa degli Heishou - Mao: Manifestazione Spaccanuvole",
           "desc": "Se la Velocità di questa unità è maggiore di quella del bersaglio, infligge +(differenza di Velocità x Potenza di [Burst] sul bersaglio)% danni (max 50%)\n<style=\"highlight\">Se la Velocità di questa unità è maggiore di quella del bersaglio, ottiene Potere Moneta in base alla differenza di Velocità (Potere Moneta +1 per ogni 2 differenza di Velocità; max 2)</style>\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 10 [Burst] sul bersaglio (max 2)</style>\n[WhenUse] A Velocità 10+, ottiene 20 [Breath]; se questa unità ha meno di 4 Conteggio [Breath], incrementa il Conteggio [Breath] fino a 4\n[WhenUse] Ottiene 3 [LegStrength]\n[WinDuel] Infligge +2 Conteggio [Burst]\n[EndSkill] Consuma 10 [EnhanceZilu]",
           "coinlist": [
             {
@@ -1722,7 +1722,7 @@
         {
           "level": 1,
           "name": "Protezione Gambeleste",
-          "desc": "[CanDuelGuard]\nAbilità esclusiva a [SupportProtect]\n[BeforeUse] A 10+ [EnhanceZilu], attiva al suo posto \"Tecnica Segreta degli Heishou - Mao: Manifestazione Spaccanuvole\"\n[WhenUse] Quest'Abilità ottiene +1 Livello Difensivo per ogni 10% di PV che questa unità ha perso in totale durante questo Incontro (max 6; in base ai PV massimi al momento dell'attivazione)\n[WhenUse] Non può essere Stordito dai danni finché questa Abilità non è conclusa\n[WhenUse] Ottiene 2 [Protection] (1 volta per turno)",
+          "desc": "[CanDuelGuard]\nAbilità esclusiva a [SupportProtect]\n[BeforeUse] A 10+ [EnhanceZilu], attiva al suo posto \"Tecnica Eccelsa degli Heishou - Mao: Manifestazione Spaccanuvole\"\n[WhenUse] Quest'Abilità ottiene +1 Livello Difensivo per ogni 10% di PV che questa unità ha perso in totale durante questo Incontro (max 6; in base ai PV massimi al momento dell'attivazione)\n[WhenUse] Non può essere Stordito dai danni finché questa Abilità non è conclusa\n[WhenUse] Ottiene 2 [Protection] (1 volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -1736,7 +1736,7 @@
         {
           "level": 4,
           "name": "Protezione Gambeleste",
-          "desc": "[CanDuelGuard]\nAbilità esclusiva a [SupportProtect]\n[BeforeUse] A 10+ [EnhanceZilu], attiva al suo posto \"Tecnica Segreta degli Heishou - Mao: Manifestazione Spaccanuvole\"\n[WhenUse] Quest'Abilità ottiene +1 Livello Difensivo per ogni 10% di PV che questa unità ha perso in totale durante questo Incontro (max 6; in base ai PV massimi al momento dell'attivazione)\n[WhenUse] Non può essere Stordito dai danni finché questa Abilità non è conclusa\n[WhenUse] Ottiene 2 [Protection] (1 volta per turno)<style=\"highlight\"></style>",
+          "desc": "[CanDuelGuard]\nAbilità esclusiva a [SupportProtect]\n[BeforeUse] A 10+ [EnhanceZilu], attiva al suo posto \"Tecnica Eccelsa degli Heishou - Mao: Manifestazione Spaccanuvole\"\n[WhenUse] Quest'Abilità ottiene +1 Livello Difensivo per ogni 10% di PV che questa unità ha perso in totale durante questo Incontro (max 6; in base ai PV massimi al momento dell'attivazione)\n[WhenUse] Non può essere Stordito dai danni finché questa Abilità non è conclusa\n[WhenUse] Ottiene 2 [Protection] (1 volta per turno)<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
