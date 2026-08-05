@@ -198,7 +198,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Ritorsione Molteplice",
+          "name": "Rappresaglia Molteplice",
           "desc": "",
           "coinlist": [
             {
@@ -219,7 +219,7 @@
         },
         {
           "level": 4,
-          "name": "Ritorsione Molteplice",
+          "name": "Rappresaglia Molteplice",
           "desc": "A 4+ Rison. Invidia, Potere Moneta +1",
           "coinlist": [
             {
@@ -710,7 +710,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Dedizione allo Studio",
+          "name": "Dedizione Assidua",
           "desc": "Ottiene ([KnowledgeExplored] x 3% dei PV Max) Scudo se questa Abilità viene Scartata\n[WhenUse] [Discard] 1 Abilità del grado più basso in tutti gli Slot Abilità di quest'unità",
           "coinlist": [
             {},
@@ -725,7 +725,7 @@
         },
         {
           "level": 2,
-          "name": "Dedizione allo Studio",
+          "name": "Dedizione Assidua",
           "desc": "Ottiene ([KnowledgeExplored] x <style=\"highlight\">4%</style> dei PV Max) Scudo se questa Abilità viene Scartata\n[WhenUse] [Discard] 1 Abilità del grado più basso in tutti gli Slot Abilità di quest'unità\n<style=\"highlight\">[WhenUse] A 2+ [KnowledgeExplored], Potere Scontro +1\n[WinDuel] Ottiene 2 [KnowledgeTraining] (1 volta per turno)</style>",
           "coinlist": [
             {},
@@ -740,7 +740,7 @@
         },
         {
           "level": 4,
-          "name": "Dedizione allo Studio",
+          "name": "Dedizione Assidua",
           "desc": "Ottiene ([KnowledgeExplored] x <style=\"highlight\">5%</style> dei PV Max) Scudo se questa Abilità viene Scartata\n[WhenUse] [Discard] 1 Abilità del grado più basso in tutti gli Slot Abilità di quest'unità\n<style=\"highlight\">[WhenUse] Ottiene ([KnowledgeExplored] - 1) Potere Scontro (max 2)</style>\n[WinDuel] Ottiene 2 [KnowledgeTraining] (1 volta per turno)",
           "coinlist": [
             {},
@@ -760,7 +760,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Momento dell'Erudizione",
+          "name": "Momento di Erudizione",
           "desc": "[StartBattle] Ottiene [KnowledgeTraining] pari alla sua quantità di [KnowledgeExplored] su di sé\n[WhenUse] [Discard] 2 delle Abilità di questa unità in ordine di grado ascendente da tutti i suoi Slot Abilità",
           "coinlist": [
             {},
@@ -775,7 +775,7 @@
         },
         {
           "level": 2,
-          "name": "Momento dell'Erudizione",
+          "name": "Momento di Erudizione",
           "desc": "<style=\"highlight\">Infligge +3% danni per ogni [KnowledgeExplored] su di sé (max 9%)</style>\n[StartBattle] Applica [KnowledgeTraining] pari alla sua quantità di [KnowledgeExplored] su di sé <style=\"highlight\"> ad un alleato casuale</style> e su di sé <style=\"highlight\">(dà priorità agli alleati con [Discard] che hanno meno [KnowledgeTraining])</style>\n[WhenUse] [Discard] 2 delle Abilità di questa unità in ordine di grado ascendente da tutti i suoi Slot Abilità\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ [Sinking], Potere Moneta +1</style>",
           "coinlist": [
             {},
@@ -790,7 +790,7 @@
         },
         {
           "level": 4,
-          "name": "Momento dell'Erudizione",
+          "name": "Momento di Erudizione",
           "desc": "Infligge <style=\"highlight\">+5%</style> più danni per ogni [KnowledgeExplored] su di sé (max <style=\"highlight\">15%</style>)\n[StartBattle] Applica [KnowledgeTraining] pari alla sua [KnowledgeExplored] su di sé <style=\"highlight\">a 2 random alleati</style> e su di sé (dà priorità agli alleati con [Discard] che hanno meno [KnowledgeTraining])\n[WhenUse] [Discard] 2 delle Abilità di questa unità in ordine di grado ascendente da tutti i suoi Slot Abilità\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 [Sinking] sul bersaglio (max 2)</style>",
           "coinlist": [
             {},
@@ -847,7 +847,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Studio Ossessivo",
+          "name": "Studio Intenso",
           "desc": "[WhenUse] [Discard] 1 Abilità del grado più alto in tutti gli Slot Abilità di quest'unità",
           "coinlist": [
             {
@@ -861,7 +861,7 @@
         },
         {
           "level": 4,
-          "name": "Studio Ossessivo",
+          "name": "Studio Intenso",
           "desc": "[WhenUse] [Discard] 1 Abilità del grado più alto in tutti gli Slot Abilità di quest'unità\n<style=\"highlight\">[WhenUse] Ottiene +6 [Aggro] per questo Slot Abilità il turno successivo</style>",
           "coinlist": [
             {
@@ -1457,7 +1457,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sta Bruciando.",
+          "name": "Sto Bruciando.",
           "desc": "[DuelCounter]\nSe il bersaglio principale ha 4+ ([Combustion] + [Vibration]), Potere Finale +1\nSe [BulletPropellantAlly] (o [BulletPropellantSpecialAlly]) è a 0, Potere Scontro +1",
           "coinlist": [
             {},
@@ -1472,7 +1472,7 @@
         },
         {
           "level": 4,
-          "name": "Sta Bruciando.",
+          "name": "Sto Bruciando.",
           "desc": "[DuelCounter]\n<style=\"highlight\">Potere Finale +1 per ogni 4 ([Combustion] + [Vibration]) sul bersaglio principale (max 2)</style>\nSe [BulletPropellantAlly] (o [BulletPropellantSpecialAlly]) è a 0, Potere Scontro <style=\"highlight\">+2</style>",
           "coinlist": [
             {
