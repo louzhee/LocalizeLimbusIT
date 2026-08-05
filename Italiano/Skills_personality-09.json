@@ -165,7 +165,7 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Studio Ossessivo",
+          "name": "Studio Intensivo",
           "desc": "[WhenUse] [Discard] 1 Abilità del grado più alto in tutti gli Slot Abilità di questa unità\n[WhenUse] Questo slot ottiene 2 [Aggro] il turno successivo",
           "coinlist": [
             {}
@@ -173,7 +173,7 @@
         },
         {
           "level": 4,
-          "name": "Studio Ossessivo",
+          "name": "Studio Intensivo",
           "desc": "[WhenUse] [Discard] 1 Abilità del grado più alto in tutti gli Slot Abilità di questa unità\n[WhenUse] Questo slot ottiene 5 [Aggro] il turno successivo",
           "coinlist": [
             {}
@@ -254,7 +254,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Mano Affilata Infuocata-Combustione",
+          "name": "Mano a Coltello Infuocata-Combustione",
           "desc": "",
           "coinlist": [
             {
@@ -282,7 +282,7 @@
         },
         {
           "level": 2,
-          "name": "Mano Affilata Infuocata-Combustione",
+          "name": "Mano a Coltello Infuocata-Combustione",
           "desc": "Se il bersaglio ha 6+ [Combustion], Potere Moneta +1",
           "coinlist": [
             {
@@ -313,7 +313,7 @@
         },
         {
           "level": 4,
-          "name": "Mano Affilata Infuocata-Combustione",
+          "name": "Mano a Coltello Infuocata-Combustione",
           "desc": "Potere Moneta +1 per ogni 6 [Combustion] sul bersaglio (Max 2)",
           "coinlist": [
             {
@@ -349,7 +349,7 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Lampo Localizzato",
+          "name": "Assalto Loccalizzato",
           "desc": "Se il bersaglio ha 6+ [Combustion] e Conteggio [Combustion], Infligge +30% danni",
           "coinlist": [
             {
@@ -384,7 +384,7 @@
         },
         {
           "level": 4,
-          "name": "Lampo Localizzato",
+          "name": "Assalto Loccalizzato",
           "desc": "<style=\"highlight\">Se il bersaglio ha 6+ [Combustion], Potere Moneta +1</style>\nSe il bersaglio ha 6+ [Combustion] e Conteggio [Combustion], infligge +30% danni",
           "coinlist": [
             {
@@ -534,7 +534,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Soppressione Marziale di T.Corp",
+          "name": "Soppressione Marziale della T.Corp",
           "desc": "[WhenUse] Ottiene +2 Conteggio [Vibration]",
           "coinlist": [
             {
@@ -549,7 +549,7 @@
         },
         {
           "level": 2,
-          "name": "Soppressione Marziale di T.Corp",
+          "name": "Soppressione Marziale della T.Corp",
           "desc": "[WhenUse] Ottiene +2 Conteggio [Vibration]\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ [Vibration], Potere Scontro +1</style>",
           "coinlist": [
             {
@@ -567,7 +567,7 @@
         },
         {
           "level": 4,
-          "name": "Soppressione Marziale di T.Corp",
+          "name": "Soppressione Marziale della T.Corp",
           "desc": "<style=\"highlight\">Infligge +5% danni per ogni [Binding] sul bersaglio (max 15%)</style>\n[WhenUse] Ottiene +2 Conteggio [Vibration]\n[WhenUse] <style=\"highlight\">Potere Scontro +1 per ogni 6 [Vibration] sul bersaglio (max 2)</style>",
           "coinlist": [
             {
@@ -599,7 +599,7 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Esegui Riscossioni",
+          "name": "Riscossione Tributi",
           "desc": "[WhenUse] Se il bersaglio ha 8+ [Vibration], Potere Scontro +1\n[WhenUse] Consuma 8 Conteggio [Vibration] su di sé per ottenere Potere Moneta +1",
           "coinlist": [
             {
@@ -637,7 +637,7 @@
         },
         {
           "level": 4,
-          "name": "Esegui Riscossioni",
+          "name": "Riscossione Tributi",
           "desc": "<style=\"highlight\">Infligge +5% danni per ogni [Binding] sul bersaglio (max 20%)</style>\n[WhenUse] Se il bersaglio ha 8+ [Vibration], Potere Scontro +<style=\"highlight\">2</style>\n[WhenUse] Consuma 8 Conteggio [Vibration] su di sé per ottenere Potere Moneta +1",
           "coinlist": [
             {
@@ -974,7 +974,7 @@
         {
           "level": 1,
           "name": "Andatevene...",
-          "desc": "[StartBattle] Su di sé e 1 alleato dai maggiori PV massimi: consuma fino a 20 [BloodDinner] e applica 1 [BloomingThornsRodionFirst] per ogni 10 [BloodDinner] consumato da questa unità (2 volte per turno)\n- Dà priorità agli alleati <Bramasangue>\n- Se l'alleato è un <Bramasangue>, questa unità applica ancora 1 [BloomingThornsRodionFirst]\n- Se questa unità non ha potuto consumare [BloodDinner], ottiene 5 [Laceration]",
+          "desc": "[StartBattle] Su di sé e 1 alleato dai maggiori PV massimi: consuma fino a 20 [BloodDinner] e applica 1 [BloomingThornsRodionFirst] per ogni 10 [BloodDinner] Consumata da questa unità (2 volte per turno)\n- Dà priorità agli alleati <Bramasangue>\n- Se l'alleato è un <Bramasangue>, questa unità applica ancora 1 [BloomingThornsRodionFirst]\n- Se questa unità non ha potuto consumare [BloodDinner], ottiene 5 [Laceration]",
           "coinlist": [
             {},
             {
@@ -992,7 +992,7 @@
         {
           "level": 2,
           "name": "Andatevene...",
-          "desc": "[StartBattle] Su di sé e 1 alleato dai maggiori PV massimi: consuma fino a 20 [BloodDinner] e applica 1 [BloomingThornsRodionFirst] per ogni 10 [BloodDinner] consumato da questa unità (2 volte per turno)\n- Dà priorità agli alleati <Bramasangue>\n- Se l'alleato è un <Bramasangue>, questa unità applica ancora 1 [BloomingThornsRodionFirst]\n- Se questa unità non ha potuto consumare [BloodDinner], ottiene 5 [Laceration]\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1</style>",
+          "desc": "[StartBattle] Su di sé e 1 alleato dai maggiori PV massimi: consuma fino a 20 [BloodDinner] e applica 1 [BloomingThornsRodionFirst] per ogni 10 [BloodDinner] Consumata da questa unità (2 volte per turno)\n- Dà priorità agli alleati <Bramasangue>\n- Se l'alleato è un <Bramasangue>, questa unità applica ancora 1 [BloomingThornsRodionFirst]\n- Se questa unità non ha potuto consumare [BloodDinner], ottiene 5 [Laceration]\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1</style>",
           "coinlist": [
             {},
             {
@@ -1010,7 +1010,7 @@
         {
           "level": 4,
           "name": "Andatevene...",
-          "desc": "[StartBattle] Su di sé e 1 alleato dai maggiori PV massimi: consuma fino a 20 [BloodDinner] e applica 1 [BloomingThornsRodionFirst] per ogni 10 [BloodDinner] consumato da questa unità (2 volte per turno)\n- Dà priorità agli alleati <Bramasangue>\n- Se l'alleato è un <Bramasangue>, questa unità applica ancora 1 [BloomingThornsRodionFirst]\n- Se questa unità non ha potuto consumare [BloodDinner], ottiene 5 [Laceration]\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)</style>",
+          "desc": "[StartBattle] Su di sé e 1 alleato dai maggiori PV massimi: consuma fino a 20 [BloodDinner] e applica 1 [BloomingThornsRodionFirst] per ogni 10 [BloodDinner] Consumata da questa unità (2 volte per turno)\n- Dà priorità agli alleati <Bramasangue>\n- Se l'alleato è un <Bramasangue>, questa unità applica ancora 1 [BloomingThornsRodionFirst]\n- Se questa unità non ha potuto consumare [BloodDinner], ottiene 5 [Laceration]\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)</style>",
           "coinlist": [
             {},
             {
@@ -1033,7 +1033,7 @@
         {
           "level": 1,
           "name": "Nella Nebbia Più Sottile",
-          "desc": "[StartBattle] Su di sé e 1 alleato dai minori PV massimi: applica 1 [Enhancement], consuma fino a 30 [BloodDinner] e applica 1 [BloomingThornsRodionFirst] per ogni 10 [BloodDinner] consumato da questa unità (2 volte per turno)\n- Dà priorità agli alleati <Bramasangue>\n- Se l'alleato è un <Bramasangue>, questa unità applica ancora 1 [Enhancement] e 2 [BloomingThornsRodionFirst]\n- Se questa unità non ha potuto consumare [BloodDinner], ottiene 5 [Laceration]",
+          "desc": "[StartBattle] Su di sé e 1 alleato dai minori PV massimi: applica 1 [Enhancement], consuma fino a 30 [BloodDinner] e applica 1 [BloomingThornsRodionFirst] per ogni 10 [BloodDinner] Consumata da questa unità (2 volte per turno)\n- Dà priorità agli alleati <Bramasangue>\n- Se l'alleato è un <Bramasangue>, questa unità applica ancora 1 [Enhancement] e 2 [BloomingThornsRodionFirst]\n- Se questa unità non ha potuto consumare [BloodDinner], ottiene 5 [Laceration]",
           "coinlist": [
             {
               "coindescs": [
@@ -1061,7 +1061,7 @@
         {
           "level": 2,
           "name": "Nella Nebbia Più Sottile",
-          "desc": "[StartBattle] Su di sé e 1 alleato dai minori PV massimi: applica 1 [Enhancement], consuma fino a 30 [BloodDinner] e applica 1 [BloomingThornsRodionFirst] per ogni 10 [BloodDinner] consumato da questa unità (2 volte per turno)\n- Dà priorità agli alleati <Bramasangue>\n- Se l'alleato è un <Bramasangue>, questa unità applica ancora 1 [Enhancement] and 2 [BloomingThornsRodionFirst]\n- Se questa unità non ha potuto consumare [BloodDinner], ottiene 5 [Laceration]\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1</style>",
+          "desc": "[StartBattle] Su di sé e 1 alleato dai minori PV massimi: applica 1 [Enhancement], consuma fino a 30 [BloodDinner] e applica 1 [BloomingThornsRodionFirst] per ogni 10 [BloodDinner] Consumata da questa unità (2 volte per turno)\n- Dà priorità agli alleati <Bramasangue>\n- Se l'alleato è un <Bramasangue>, questa unità applica ancora 1 [Enhancement] and 2 [BloomingThornsRodionFirst]\n- Se questa unità non ha potuto consumare [BloodDinner], ottiene 5 [Laceration]\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1089,7 +1089,7 @@
         {
           "level": 4,
           "name": "Nella Nebbia Più Sottile",
-          "desc": "[StartBattle] Su di sé e 1 alleato dai minori PV massimi: applica 1 [Enhancement], consuma fino a 30 [BloodDinner] e applica 1 [BloomingThornsRodionFirst] per ogni 10 [BloodDinner] consumato da questa unità (2 volte per turno)\n- Dà priorità agli alleati <Bramasangue>\n- Se l'alleato è un <Bramasangue>, questa unità applica ancora 1 [Enhancement] and 2 [BloomingThornsRodionFirst]\n- Se questa unità non ha potuto consumare [BloodDinner], ottiene 5 [Laceration]\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)</style>",
+          "desc": "[StartBattle] Su di sé e 1 alleato dai minori PV massimi: applica 1 [Enhancement], consuma fino a 30 [BloodDinner] e applica 1 [BloomingThornsRodionFirst] per ogni 10 [BloodDinner] Consumata da questa unità (2 volte per turno)\n- Dà priorità agli alleati <Bramasangue>\n- Se l'alleato è un <Bramasangue>, questa unità applica ancora 1 [Enhancement] and 2 [BloomingThornsRodionFirst]\n- Se questa unità non ha potuto consumare [BloodDinner], ottiene 5 [Laceration]\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1122,7 +1122,7 @@
         {
           "level": 3,
           "name": "Il Festival Finirà",
-          "desc": "[BeforeUse] A 25+ [BloomingThornsRodionFirst], attiva al suo posto 'Tecnica Segreta del Sangue Coagulato[TabExplain] di Don Quixote - Il Finale'\n[WhenUse] Su di sé (Rison. più alta) alleati: applica (3 + (1 per ogni 50 [BloodDinner_Accumulation] di questa unità) [FestivalFeverRodion] questo turno e il turno successivo (max 10)\n[WhenUse] Su di sé (Rison. più alta) alleati: applica 3 [BloomingThornsRodionFirst]",
+          "desc": "[BeforeUse] A 25+ [BloomingThornsRodionFirst], attiva al suo posto 'Tecnica Eccelsa del Sangue Coagulato[TabExplain] di Don Quixote - Il Finale'\n[WhenUse] Su di sé (Rison. più alta) alleati: applica (3 + (1 per ogni 50 [BloodDinner_Accumulation] di questa unità) [FestivalFeverRodion] questo turno e il turno successivo (max 10)\n[WhenUse] Su di sé (Rison. più alta) alleati: applica 3 [BloomingThornsRodionFirst]",
           "coinlist": [
             {
               "coindescs": [
@@ -1159,7 +1159,7 @@
         {
           "level": 4,
           "name": "Il Festival Finirà",
-          "desc": "[BeforeUse] A 25+ [BloomingThornsRodionFirst], attiva al suo posto 'Tecnica Segreta del Sangue Coagulato[TabExplain] di Don Quixote - Il Finale'\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1</style>\n[WhenUse] Su di sé (Rison. più alta) alleati: applica (3 + (1 per ogni 50 [BloodDinner_Accumulation] di questa unità) [FestivalFeverRodion] questo turno e il turno successivo (max 10)\n[WhenUse] Su di sé (Rison. più alta) alleati: applica 3 [BloomingThornsRodionFirst]",
+          "desc": "[BeforeUse] A 25+ [BloomingThornsRodionFirst], attiva al suo posto 'Tecnica Eccelsa del Sangue Coagulato[TabExplain] di Don Quixote - Il Finale'\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1</style>\n[WhenUse] Su di sé (Rison. più alta) alleati: applica (3 + (1 per ogni 50 [BloodDinner_Accumulation] di questa unità) [FestivalFeverRodion] questo turno e il turno successivo (max 10)\n[WhenUse] Su di sé (Rison. più alta) alleati: applica 3 [BloomingThornsRodionFirst]",
           "coinlist": [
             {
               "coindescs": [
@@ -1247,7 +1247,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Tecnica Segreta del Sangue Coagulato di Don Quixote - Il Finale",
+          "name": "Tecnica Eccelsa del Sangue Coagulato di Don Quixote - Il Finale",
           "desc": "[WhenUse] Su di sé (Rison. più alta) alleati: applica 5 + (1 per ogni 50 [BloodDinner_Accumulation] di questa unità) [FestivalFeverRodion] questo turno e il turno successivo (max 10)\n[WhenUse] Su di sé (Rison. più alta) alleati: applica 5 [BloomingThornsRodionFirst]\nInfligge +1% danni per ogni 5 [BloodDinner_Accumulation] di questa unità (max 50%)\n[EndSkill] Consuma ogni [BloomingThornsRodionFirst] su di sé",
           "coinlist": [
             {
@@ -1284,7 +1284,7 @@
         },
         {
           "level": 4,
-          "name": "Tecnica Segreta del Sangue Coagulato di Don Quixote - Il Finale",
+          "name": "Tecnica Eccelsa del Sangue Coagulato di Don Quixote - Il Finale",
           "desc": "<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1</style>\n[WhenUse] Su di sé (Rison. più alta) alleati: applica (5 + (1 per ogni 50 [BloodDinner_Accumulation] di questa unità) [FestivalFeverRodion] questo turno e il turno successivo (max 10)\n[WhenUse] Su di sé (Rison. più alta) alleati: applica 5 [BloomingThornsRodionFirst]\nInfligge +1% danni per ogni 5 [BloodDinner_Accumulation] di questa unità (max 50%)\n[EndSkill] Consuma ogni [BloomingThornsRodionFirst] su di sé",
           "coinlist": [
             {
@@ -1400,7 +1400,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Fauci del Serpente",
+          "name": "Zanna del Serpente",
           "desc": "[WinDuel] Infligge +2 Conteggio [Burst]\n[WinDuel] Ottiene +1 Conteggio [Breath]",
           "coinlist": [
             {},
@@ -1422,7 +1422,7 @@
         },
         {
           "level": 2,
-          "name": "Fauci del Serpente",
+          "name": "Zanna del Serpente",
           "desc": "<style=\"highlight\">[WhenUse] A 10+ ([Breath] su di sé + [Burst] sul bersaglio), Potere Moneta +1</style>\n[WinDuel] Infligge +2 Conteggio [Burst]\n[WinDuel] Ottiene +<style=\"highlight\">2</style> Conteggio [Breath]",
           "coinlist": [
             {},
@@ -1447,7 +1447,7 @@
         },
         {
           "level": 4,
-          "name": "Fauci del Serpente",
+          "name": "Zanna del Serpente",
           "desc": "<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 10 ([Breath] su di sé + [Burst] sul bersaglio) (max 2)</style>\n[WinDuel] Infligge +2 Conteggio [Burst]\n[WinDuel] Ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {
