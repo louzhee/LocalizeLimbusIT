@@ -190,7 +190,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Fessura Dimensionale",
+          "name": "Fenditura dimensionale",
           "desc": "[WhenUse] Ottiene +2 Conteggio [Charge]",
           "coinlist": [
             {
@@ -204,7 +204,7 @@
         },
         {
           "level": 2,
-          "name": "Fessura Dimensionale",
+          "name": "Fenditura dimensionale",
           "desc": "[WhenUse] Ottiene +2 Conteggio [Charge]",
           "coinlist": [
             {
@@ -221,7 +221,7 @@
         },
         {
           "level": 4,
-          "name": "Fessura Dimensionale",
+          "name": "Fenditura dimensionale",
           "desc": "[WhenUse] Ottiene +2 Conteggio [Charge]\nA 10+ Conteggio [Charge], Potere Moneta +2",
           "coinlist": [
             {
@@ -805,7 +805,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Studio Ossessivo",
+          "name": "Studio Intenso",
           "desc": "[WhenUse] [Discard] casualmente 2 delle Abilità di questa unità in ordine di grado ascendente in tutti i suoi Slot Abilità\n[WhenUse] Ottiene +3 [Aggro] per questo Slot Abilità il turno successivo",
           "coinlist": [
             {
@@ -819,7 +819,7 @@
         },
         {
           "level": 4,
-          "name": "Studio Ossessivo",
+          "name": "Studio Intenso",
           "desc": "[WhenUse] [Discard] casualmente 2 delle Abilità di questa unità in ordine di grado ascendente in tutti i suoi Slot Abilità\n[WhenUse] Ottiene +5 [Aggro] per questo Slot Abilità il turno successivo",
           "coinlist": [
             {
@@ -2097,7 +2097,7 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Fuoco al Bersaglio Cambiato",
+          "name": "Fuoco di ricalibrazione del bersaglio",
           "desc": "[StartBattle] Bersaglia l'unità che ha i PV più bassi\n- A 7 [BoseProjektil], bersaglia prima gli alleati come suoi bersagli principali\n[StartBattle] Ottiene +1 Portata Attacco per ogni 3 [BoseProjektil] su di sé (max 2)\n[WhenUse] A 5+ [Breath], Potere Moneta +1\n[WhenUse] A 3+ Conteggio [Breath], Potere Base +1\n[WhenUse] Ottiene 1 [Breath] per ogni [BoseProjektil] su di sé (max 7)\n[EndSkill] Perde ([BoseProjektil] su di sé x 2) PS (max 14)\n[EndSkill] Se questa unità ha 7 [BoseProjektil] a Inizio Combattimento, li perde tutti\n- Se questa unità perde tutti i [BoseProjektil], e se un alleato viene ucciso, recupera 20 PS",
           "coinlist": [
             {
@@ -2160,7 +2160,7 @@
         },
         {
           "level": 4,
-          "name": "Fuoco al Bersaglio Cambiato",
+          "name": "Fuoco di ricalibrazione del bersaglio",
           "desc": "[StartBattle] Bersaglia l'unità che ha i PV più bassi\n- A 7 [BoseProjektil], bersaglia prima gli alleati come suoi bersagli principali\n[StartBattle] Ottiene +1 Portata Attacco per ogni 3 [BoseProjektil] su di sé (max 2)\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 5 [Breath] su di sé (max 2)</style>\n[WhenUse] <style=\"highlight\">Potere Base +1 per ogni 3 Conteggio [Breath] su di sé (max 2)</style>\n[WhenUse] Ottiene 1 [Breath] per ogni [BoseProjektil] su di sé (max 7)\n[EndSkill] Perde ([BoseProjektil] su di sé x 2) PS (max 14)\n[EndSkill] Se questa unità ha 7 [BoseProjektil] a Inizio Combattimento, li perde tutti\n- Se questa unità perde tutti i [BoseProjektil], e se un alleato viene ucciso, recupera 20 PS",
           "coinlist": [
             {
