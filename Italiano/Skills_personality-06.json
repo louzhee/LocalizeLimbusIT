@@ -5,7 +5,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Ciclo di Energia",
+          "name": "Ciclo Energetico",
           "desc": "[WhenUse] Ottiene +2 Conteggio [Charge]",
           "coinlist": [
             {
@@ -26,7 +26,7 @@
         },
         {
           "level": 2,
-          "name": "Ciclo di Energia",
+          "name": "Ciclo Energetico",
           "desc": "[WhenUse] Ottiene +3 Conteggio [Charge]",
           "coinlist": [
             {
@@ -47,7 +47,7 @@
         },
         {
           "level": 4,
-          "name": "Ciclo di Energia",
+          "name": "Ciclo Energetico",
           "desc": "[WhenUse] Ottiene +4 Conteggio [Charge]",
           "coinlist": [
             {
@@ -135,7 +135,7 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Usa Scudo Energetico",
+          "name": "Dispiega Scudo Energetico",
           "desc": "[WhenUse] A 10+ Conteggio [Charge], consuma tutto il Conteggio [Charge] per applicare (Conteggio [Charge] Consumato / 2) [ChargeForceField] (Arrotondato in Eccesso) ai 2 alleati con la minore percentuale di PV",
           "coinlist": [
             {},
@@ -154,7 +154,7 @@
         },
         {
           "level": 4,
-          "name": "Usa Scudo Energetico",
+          "name": "Dispiega Scudo Energetico",
           "desc": "[WhenUse] A 10+ Conteggio [Charge], consuma tutto il Conteggio [Charge] per applicare (Conteggio [Charge] Consumato / 2) [ChargeForceField] (Arrotondato in Eccesso) ai 2 alleati con la minore percentuale di PV",
           "coinlist": [
             {},
@@ -462,7 +462,7 @@
         },
         {
           "level": 4,
-          "name": "Spendi Conoscenza",
+          "name": "Consuma Conoscenza",
           "desc": "[WhenUse] [Discard] 1 Abilità del grado più alto in tutti gli Slot Abilità di questa unità\n[WhenUse] Potere Scontro +([KnowledgeExplored] - 1)",
           "coinlist": [
             {
@@ -758,7 +758,7 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Sei Tu il Colpevole!",
+          "name": "Il Colpevole è Lei!",
           "desc": "[WhenUse] Se il bersaglio ha 6+ [Vibration], Potere Scontro +1\n[WhenUse] Consuma 10 Conteggio [Vibration] su di sé per ottenere Potere Moneta +2",
           "coinlist": [
             {
@@ -787,7 +787,7 @@
         },
         {
           "level": 4,
-          "name": "Sei Tu il Colpevole!",
+          "name": "Il Colpevole è Lei!",
           "desc": "[WhenUse] Potere Scontro +1 per ogni <style=\"highlight\">6</style> [Vibration] sul bersaglio <style=\"highlight\">(max 2)</style>\n[WhenUse] A <style=\"highlight\"> meno di 15 Conteggio [Vibration] su di sé</style>, consuma 10 Conteggio [Vibration] per ottenere Potere Moneta +2\n<style=\"highlight\">[WhenUse] Consuma 15 Conteggio [Vibration] su di sé per ottenere Potere Moneta +3</style>",
           "coinlist": [
             {
@@ -848,7 +848,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sbattere",
+          "name": "Sbatti",
           "desc": "",
           "coinlist": [
             {
@@ -869,7 +869,7 @@
         },
         {
           "level": 2,
-          "name": "Sbattere",
+          "name": "Sbatti",
           "desc": "Se il bersaglio ha 6+ [Burst], Potere Moneta +1",
           "coinlist": [
             {
@@ -890,7 +890,7 @@
         },
         {
           "level": 4,
-          "name": "Sbattere",
+          "name": "Sbatti",
           "desc": "Se il bersaglio ha 6+ [Burst], Potere Moneta +1",
           "coinlist": [
             {
@@ -2083,7 +2083,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Falciare Assoluto delle Ambizioni del Sangue Impuro [汚血絕志竟成]",
+          "name": "Ambizione Assoluta del Sangue Impuro [汚血絕志竟成]",
           "desc": "[WhenUse] Ottiene 2 [Breath]",
           "coinlist": [
             {
@@ -2121,7 +2121,7 @@
         },
         {
           "level": 2,
-          "name": "Falciare Assoluto delle Ambizioni del Sangue Impuro [汚血絕志竟成]",
+          "name": "Ambizione Assoluta del Sangue Impuro [汚血絕志竟成]",
           "desc": "<style=\"highlight\">[WhenUse] A 6+ ([Burst] sul bersaglio + [Breath] su di sé), Potere Moneta +1</style>\n[WhenUse] Ottiene <style=\"highlight\">3</style> [Breath]",
           "coinlist": [
             {
@@ -2165,7 +2165,7 @@
         },
         {
           "level": 4,
-          "name": "Falciare Assoluto delle Ambizioni del Sangue Impuro [汚血絕志竟成]",
+          "name": "Ambizione Assoluta del Sangue Impuro [汚血絕志竟成]",
           "desc": "<style=\"highlight\">[StartBattle] Applica 1 [ShamrockDamageUp] a tutti gli altri alleati che hanno preparato Abilità Gola questo turno (1 volta per turno)</style>\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 ([Burst] sul bersaglio + [Breath] su di sé) (max 2)</style>\n[WhenUse] Ottiene 3 [Breath]",
           "coinlist": [
             {
@@ -2217,8 +2217,8 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Andate, Branchi Heishou",
-          "desc": "Questa Abilità non attiva Abilità Difensive\n\n[WhenUse] Ottiene 3 [Breath] and +1 Conteggio [Breath]\n\n[EndSkill] Sceglie 1 unità tra gli alleati dei Branchi Heishou che possono agire con meno Stack di [HeishouComboCount] Stack e applica [HeishouComboCount]; infine, applica [HeishouCombo]. (1 volta per turno)\n- Dopo che [HeishouCombo] si è concluso, Il Lord di Hongyuan Hong Lu attiva 'Creo il Cammino di un Lord'\n- Se non si è attivato [HeishouCombo], o se l'Identità affetta è Stordita o sconfitta prima che [HeishouCombo] sia concluso, invece usa 'Lotta[TabExplain] Solitaria: Sacrificio per Conquistare il Giardino'",
+          "name": "A Me, Branchi Heishou",
+          "desc": "Questa Abilità non attiva Abilità Difensive\n\n[WhenUse] Ottiene 3 [Breath] and +1 Conteggio [Breath]\n\n[EndSkill] Sceglie 1 unità tra gli alleati dei Branchi Heishou che possono agire con meno Stack di [HeishouComboCount] Stack e applica [HeishouComboCount]; infine, applica [HeishouCombo]. (1 volta per turno)\n- Dopo che [HeishouCombo] si è concluso, Il Lord di Hongyuan Hong Lu attiva 'Incido il Cammino di un Lord'\n- Se non si è attivato [HeishouCombo], o se l'Identità affetta è Stordita o sconfitta prima che [HeishouCombo] sia concluso, invece usa 'Lotta[TabExplain] Solitaria: Sacrificio per Conquistare il Giardino'",
           "coinlist": [
             {
               "coindescs": [
@@ -2237,8 +2237,8 @@
         },
         {
           "level": 4,
-          "name": "Andate, Branchi Heishou",
-          "desc": "Questa Abilità non attiva Abilità Difensive\n\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 4 ([Burst] sul bersaglio + [Breath] su di sé) (max 3)</style>\n[WhenUse] Ottiene <style=\"highlight\">5</style> [Breath] and +<style=\"highlight\">3</style> Conteggio [Breath]\n\n[EndSkill] Sceglie 1 unità tra gli alleati dei Branchi Heishou che possono agire con meno Stack di [HeishouComboCount] Stack e applica [HeishouComboCount]; infine, applica [HeishouCombo]. (1 volta per turno)\n- Dopo che [HeishouCombo] si è concluso, Il Lord di Hongyuan Hong Lu attiva 'Creo il Cammino di un Lord'\n- Se non si è attivato [HeishouCombo], o se l'Identità affetta è Stordita o sconfitta prima che [HeishouCombo] sia concluso, invece usa 'Lotta[TabExplain] Solitaria: Sacrificio per Conquistare il Giardino'",
+          "name": "A Me, Branchi Heishou",
+          "desc": "Questa Abilità non attiva Abilità Difensive\n\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 4 ([Burst] sul bersaglio + [Breath] su di sé) (max 3)</style>\n[WhenUse] Ottiene <style=\"highlight\">5</style> [Breath] and +<style=\"highlight\">3</style> Conteggio [Breath]\n\n[EndSkill] Sceglie 1 unità tra gli alleati dei Branchi Heishou che possono agire con meno Stack di [HeishouComboCount] Stack e applica [HeishouComboCount]; infine, applica [HeishouCombo]. (1 volta per turno)\n- Dopo che [HeishouCombo] si è concluso, Il Lord di Hongyuan Hong Lu attiva 'Incido il Cammino di un Lord'\n- Se non si è attivato [HeishouCombo], o se l'Identità affetta è Stordita o sconfitta prima che [HeishouCombo] sia concluso, invece usa 'Lotta[TabExplain] Solitaria: Sacrificio per Conquistare il Giardino'",
           "coinlist": [
             {
               "coindescs": [
@@ -2295,7 +2295,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Creo il Cammino di un Lord",
+          "name": "Incido il Cammino di un Lord",
           "desc": "[WhenUse] Se questa unità ha attivato una combinazione con un'Identità Eccelsa del Ramo Heishou: Potere Base +1, Potere Moneta +1\n\n[WhenUse] A 6+ ([Burst] sul bersaglio + [Breath] su di sé), Potere Moneta +1\n[WhenUse] Infligge +5% danni per ogni [HeishouComboCountHonglu]\n[EndSkill] Ottiene [HeishouComboCountHonglu] in base a quale Identità del Branco Heishou ha attivato [HeishouCombo]",
           "coinlist": [
             {
@@ -2319,7 +2319,7 @@
         },
         {
           "level": 4,
-          "name": "Creo il Cammino di un Lord",
+          "name": "Incido il Cammino di un Lord",
           "desc": "[WhenUse] Se questa unità ha attivato una combinazione con un'Identità Eccelsa del Ramo Heishou: Potere Base +1, Potere Moneta +1\n\n<style=\"highlight\">Infligge +1% danni per ogni 1% (percentuale di PV mancanti sul bersaglio + percentuale dei propri PV mancanti) (max 50%)</style>\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 6 ([Burst] sul bersaglio + [Breath] su di sé) (max 3)</style>\n<style=\"highlight\">[WhenUse] Infligge +10% danni per ogni 2 tipi di effetti negativi sul bersaglio (max 30%)</style>\n[WhenUse] Infligge <style=\"highlight\">+10%</style> danni per ogni [HeishouComboCountHonglu]\n[EndSkill] Ottiene [HeishouComboCountHonglu] in base a quale Identità del Branco Heishou ha attivato [HeishouCombo]",
           "coinlist": [
             {
