@@ -91,7 +91,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Calmo...",
+          "name": "In Guardia...",
           "desc": "[WhenUse] Ottiene +2 Conteggio [Vibration]",
           "coinlist": [
             {
@@ -105,7 +105,7 @@
         },
         {
           "level": 2,
-          "name": "Calmo...",
+          "name": "In Guardia...",
           "desc": "[WhenUse] Ottiene +4 Conteggio [Vibration]",
           "coinlist": [
             {
@@ -119,7 +119,7 @@
         },
         {
           "level": 4,
-          "name": "Calmo...",
+          "name": "In Guardia...",
           "desc": "[WhenUse] Ottiene +6 Conteggio [Vibration]",
           "coinlist": [
             {
@@ -352,7 +352,7 @@
         {
           "level": 4,
           "name": "Contre Attaque",
-          "desc": "Se la Velocità di questa unità è maggiore del bersaglio, Potere Moneta +1 per ogni 2 differenza di Velocità (Max 3)\n[WinDuel] Consuma 10 Conteggio [Breath]. Ottiene [Breath] pari a Conteggio [Breath] consumato. Contro i bersagli con [DuelDeclaration_Sinclair], ottiene [Breath] pari a (Conteggio [Breath] consumato x 2) instead\n[WinDuel] Se questa unità ha intrapreso una [OneOnOneDuel] con l'Abilità Attacco dello Slot bersagliato, infligge 1 [Vulnerable] Sul Colpo (Due volte per turno)",
+          "desc": "Se la Velocità di questa unità è maggiore del bersaglio, Potere Moneta +1 per ogni 2 differenza di Velocità (Max 3)\n[WinDuel] Consuma 10 Conteggio [Breath]. Ottiene [Breath] pari a Conteggio [Breath] consumato. Contro i bersagli con [DuelDeclaration_Sinclair], ottiene [Breath] pari a (Conteggio [Breath] consumato x 2)\n[WinDuel] Se questa unità ha intrapreso una [OneOnOneDuel] con l'Abilità Attacco dello Slot bersagliato, infligge 1 [Vulnerable] Sul Colpo (Due volte per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -705,7 +705,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sopprimi.",
+          "name": "Sopprimere",
           "desc": "[WhenUse] Ottiene +3 [Aggro] su questo Slot Abilità il turno successivo\n[WhenUse] Ottiene 1 [DefenseUp]\n[WinDuel] Ottiene +2 Conteggio [Vibration]",
           "coinlist": [
             {
@@ -726,7 +726,7 @@
         },
         {
           "level": 2,
-          "name": "Sopprimi.",
+          "name": "Sopprimere",
           "desc": "[WhenUse] Ottiene +3 [Aggro] su questo Slot Abilità il turno successivo\n[WhenUse] Ottiene <style=\"highlight\">2</style> [DefenseUp]\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 4+ Conteggio [Vibration], Potere Scontro +1</style>\n[WinDuel] Ottiene +2 Conteggio [Vibration]",
           "coinlist": [
             {
@@ -747,7 +747,7 @@
         },
         {
           "level": 4,
-          "name": "Sopprimi.",
+          "name": "Sopprimere",
           "desc": "[WhenUse] Ottiene +3 [Aggro] su questo Slot Abilità il turno successivo\n[WhenUse] Ottiene 2 [DefenseUp]\n[WhenUse] Se il bersaglio ha 4+ Conteggio [Vibration], Potere Scontro +<style=\"highlight\">2</style>\n[WinDuel] Ottiene +<style=\"highlight\">3</style> Conteggio [Vibration]",
           "coinlist": [
             {
@@ -1105,7 +1105,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]\n- Infligge +1 additional [Burst] per ogni 10 [DevyatDimensionalSackSinclair] (max 2)"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]\n- Infligge +1 [Burst] addizionale per ogni 10 [DevyatDimensionalSackSinclair] (max 2)"
                 }
               ]
             },
@@ -1133,7 +1133,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]\n- Infligge +1 additional [Burst] per ogni <style=\"highlight\">8</style> [DevyatDimensionalSackSinclair] (max <style=\"highlight\">4</style>)"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]\n- Infligge +1 [Burst] addizionale per ogni <style=\"highlight\">8</style> [DevyatDimensionalSackSinclair] (max <style=\"highlight\">4</style>)"
                 }
               ]
             },
@@ -1153,7 +1153,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sequenza di Controllo in Crisi & Controllo Corriere",
+          "name": "Sequenza di Controllo della Crisi & Controllo Corriere",
           "desc": "[StartBattle] A 15+ [DevyatDimensionalSackSinclair], attiva al suo posto 'A-aspetta, devo fare manutenzione...!' (1 volta per turno)\n[StartBattle] Se questa Abilità sta per venire attivata, ottiene ([DevyatDimensionalSackSinclair] / 2)% dei PV massimi di questa unità come Scudo (max 15%, 1 volta per turno)",
           "coinlist": [
             {
@@ -1167,7 +1167,7 @@
         },
         {
           "level": 4,
-          "name": "Sequenza di Controllo in Crisi & Controllo Corriere",
+          "name": "Sequenza di Controllo della Crisi & Controllo Corriere",
           "desc": "[StartBattle] A 15+ [DevyatDimensionalSackSinclair], attiva al suo posto 'A-aspetta, devo fare manutenzione...!' (1 volta per turno)\n[StartBattle] Se questa Abilità sta per venire attivata, ottiene <style=\"highlight\">([DevyatDimensionalSackSinclair])%</style> dei PV massimi di questa unità come Scudo (max <style=\"highlight\">25%</style>, 1 volta per turno)",
           "coinlist": [
             {
@@ -1262,7 +1262,7 @@
         {
           "level": 4,
           "name": "Saresti Tu?!",
-          "desc": "Se il bersaglio ha 6+ [Laceration], Potere Moneta +1\n[WhenUse] Ottiene +<style=\"highlight\">5</style> [Aggro] su questo Slot Abilità il turno successivo\n[WhenUse] Recupera 5 PS\n<style=\"highlight\">- A PS max, ottiene Potere Scontro +1 instead</style>",
+          "desc": "Se il bersaglio ha 6+ [Laceration], Potere Moneta +1\n[WhenUse] Ottiene +<style=\"highlight\">5</style> [Aggro] su questo Slot Abilità il turno successivo\n[WhenUse] Recupera 5 PS\n<style=\"highlight\">- A PS max, ottiene invece Potere Scontro +1</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1288,7 +1288,7 @@
         {
           "level": 1,
           "name": "Ripaga con gli Interessi",
-          "desc": "[WhenUse] Ottiene +2 [Aggro] su questo Slot Abilità il turno successivo\n[StartBattle] Questa Abilità ottiene (Rison. più alta. / 3) Livello Offensivo (max 2, arrotondato in difetto)",
+          "desc": "[WhenUse] Ottiene +2 [Aggro] su questo Slot Abilità il turno successivo\n[StartBattle] Questa Abilità ottiene (Rison. più alta. / 3) Livello Offensivo (max 2, arrotondato per difetto)",
           "coinlist": [
             {},
             {
@@ -1310,7 +1310,7 @@
         {
           "level": 2,
           "name": "Ripaga con gli Interessi",
-          "desc": "<style=\"highlight\">Se il bersaglio ha 6+ [Laceration], Potere Moneta +1</style>\n[WhenUse] Questo Slot Abilità ottiene <style=\"highlight\">3</style> [Aggro] il turno successivo\n[StartBattle] Questa Abilità ottiene (Rison. più alta. / <style=\"highlight\">2</style>) Livello Offensivo (max <style=\"highlight\">3</style>, arrotondato in difetto)",
+          "desc": "<style=\"highlight\">Se il bersaglio ha 6+ [Laceration], Potere Moneta +1</style>\n[WhenUse] Questo Slot Abilità ottiene <style=\"highlight\">3</style> [Aggro] il turno successivo\n[StartBattle] Questa Abilità ottiene (Rison. più alta. / <style=\"highlight\">2</style>) Livello Offensivo (max <style=\"highlight\">3</style>, arrotondato per difetto)",
           "coinlist": [
             {},
             {
@@ -1332,7 +1332,7 @@
         {
           "level": 4,
           "name": "Ripaga con gli Interessi",
-          "desc": "Se il bersaglio ha 6+ [Laceration], Potere Moneta +1\n[WhenUse] Questo Slot Abilità ottiene <style=\"highlight\">5</style> [Aggro] il turno successivo\n[StartBattle] Questa Abilità ottiene (Rison. più alta. / 2) Livello Offensivo (max 3, arrotondato in difetto)\n<style=\"highlight\">- Se quella Rison. include una Rison-A, raddoppia il Livello Offensivo ottenuto dal suddetto effetto</style>",
+          "desc": "Se il bersaglio ha 6+ [Laceration], Potere Moneta +1\n[WhenUse] Questo Slot Abilità ottiene <style=\"highlight\">5</style> [Aggro] il turno successivo\n[StartBattle] Questa Abilità ottiene (Rison. più alta. / 2) Livello Offensivo (max 3, arrotondato per difetto)\n<style=\"highlight\">- Se quella Rison. include una Rison-A, raddoppia il Livello Offensivo ottenuto dal suddetto effetto</style>",
           "coinlist": [
             {},
             {
@@ -1358,8 +1358,8 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Scrivete Tutto",
-          "desc": "Infligge +1% danni per ogni 2 [VengeanceBookSinclair] (max 15%)\nSe il bersaglio ha 6+ [Laceration], Potere Moneta +1\n[StartBattle] Questa Abilità ottiene (Rison. più alta. / 2) Livello Offensivo (max 3, arrotondato in difetto)",
+          "name": "Scriveteli Tutti",
+          "desc": "Infligge +1% danni per ogni 2 [VengeanceBookSinclair] (max 15%)\nSe il bersaglio ha 6+ [Laceration], Potere Moneta +1\n[StartBattle] Questa Abilità ottiene (Rison. più alta. / 2) Livello Offensivo (max 3, arrotondato per difetto)",
           "coinlist": [
             {},
             {
@@ -1383,8 +1383,8 @@
         },
         {
           "level": 4,
-          "name": "Scrivete Tutto",
-          "desc": "Infligge +1% danni per ogni <style=\"highlight\">1</style> [VengeanceBookSinclair] (max <style=\"highlight\">30%</style>)\n<style=\"highlight\">Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)</style>\n[StartBattle] Questa Abilità ottiene (Rison. più alta. / 2) Livello Offensivo (max 3, arrotondato in difetto)\n<style=\"highlight\">- Se quella Rison. include una Rison-A, raddoppia il Livello Offensivo ottenuto dal suddetto effetto</style>",
+          "name": "Scriveteli Tutti",
+          "desc": "Infligge +1% danni per ogni <style=\"highlight\">1</style> [VengeanceBookSinclair] (max <style=\"highlight\">30%</style>)\n<style=\"highlight\">Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)</style>\n[StartBattle] Questa Abilità ottiene (Rison. più alta. / 2) Livello Offensivo (max 3, arrotondato per difetto)\n<style=\"highlight\">- Se quella Rison. include una Rison-A, raddoppia il Livello Offensivo ottenuto dal suddetto effetto</style>",
           "coinlist": [
             {},
             {
@@ -1435,7 +1435,7 @@
         {
           "level": 4,
           "name": "Riscaldamento nell'Est",
-          "desc": "<style=\"highlight\">[StartBattle] Il comportamento dell'Abilità cambia in base alla Rison-A Invidia totale:\n- A 4+ somma di Rison-A, usa 'Ripaga con Interesse' come Contrattacco\n- A 6+ somma di Rison-A, usa 'Scrivete tutto' come Contrattacco\nSi attiva a partire dallo Slot Abilità più a sinistra. Si attiva 2 volte per turno)</style>\n[StartBattle] Ottiene <style=\"highlight\">30%</style> dei suoi PV mancanti come Scudo (1 volta per turno)",
+          "desc": "<style=\"highlight\">[StartBattle] Il comportamento dell'Abilità cambia in base alla Rison-A Invidia totale:\n- A 4+ somma di Rison-A, usa 'Ripaga con Interesse' come Contrattacco\n- A 6+ somma di Rison-A, usa 'Scriveteli Tutti' come Contrattacco\nSi attiva a partire dallo Slot Abilità più a sinistra. Si attiva 2 volte per turno)</style>\n[StartBattle] Ottiene <style=\"highlight\">30%</style> dei suoi PV mancanti come Scudo (1 volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -1611,7 +1611,7 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Assalto a Propulsione",
+          "name": "Compressione propulsiva",
           "desc": "[WhenUse] Potere Moneta +1 per ogni 8 ([Combustion] + [Vibration]) sul bersaglio (max 2)\n[WhenUse] A 3+ [FireBulletPropellant], Potere Base +1",
           "coinlist": [
             {
@@ -1675,7 +1675,7 @@
         },
         {
           "level": 4,
-          "name": "Assalto a Propulsione",
+          "name": "Compressione propulsiva",
           "desc": "[WhenUse] Potere Moneta +1 per ogni 8 ([Combustion] + [Vibration]) sul bersaglio (max 2)\n[WhenUse] A 3+ [FireBulletPropellant], <style=\"highlight\">Potere Base +3, infligge +30% danni, e converte le Monete in [SuperCoin]s</style>",
           "coinlist": [
             {
@@ -1747,7 +1747,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Difesa Ferrea",
+          "name": "Guardia Ferrea",
           "desc": "Infligge 1 [Vibration] contro l'attaccante quando subisce un colpo finché questa unità ha ancora uno Scudo (3 volte per turno)",
           "coinlist": [
             {}
@@ -1755,7 +1755,7 @@
         },
         {
           "level": 4,
-          "name": "Ferrous Guard",
+          "name": "Guardia Ferrea",
           "desc": "Infligge <style=\"highlight\">2</style> [Vibration] contro l'attaccante quando subisce un colpo finché questa unità ha ancora uno Scudo (<style=\"highlight\">4</style> volte per turno)",
           "coinlist": [
             {}
@@ -1863,7 +1863,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "... Alimenti la Mia Furia.",
+          "name": "... Alimenti la Mia Carneficina.",
           "desc": "",
           "coinlist": [
             {
@@ -1891,7 +1891,7 @@
         },
         {
           "level": 2,
-          "name": "... Alimenti la Mia Furia.",
+          "name": "... Alimenti la Mia Carneficina",
           "desc": "<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ ([Combustion] + [Burst]), Potere Moneta +1</style>",
           "coinlist": [
             {
@@ -1919,7 +1919,7 @@
         },
         {
           "level": 4,
-          "name": "... Alimenti la Mia Furia.",
+          "name": "... Alimenti la Mia Carneficina",
           "desc": "[WhenUse] Se il bersaglio ha 6+ ([Combustion] + [Burst]), Potere Moneta +1<style=\"highlight\"></style>",
           "coinlist": [
             {
