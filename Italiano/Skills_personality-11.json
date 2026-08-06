@@ -222,7 +222,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Cura Sbornia",
+          "name": "Rimedio per la Sbornia",
           "desc": "[WhenUse] [Discard] 1 Abilità del grado più basso in tutti gli Slot Abilità di questa unità",
           "coinlist": [
             {}
@@ -230,7 +230,7 @@
         },
         {
           "level": 4,
-          "name": "Cura Sbornia",
+          "name": "Rimedio per la Sbornia",
           "desc": "[WhenUse] [Discard] 1 Abilità del grado più basso in tutti gli Slot Abilità di questa unità",
           "coinlist": [
             {}
@@ -614,7 +614,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Il Prezzo di una Pallottola",
+          "name": "Il Prezzo di un Proiettile",
           "desc": "[WhenUse] Ottiene 1 [FreischutzShotCount] (Una volta per turno)\n[EndSkillAll] Perde PS pari a [FreischutzShotCount]",
           "coinlist": [
             {}
@@ -622,7 +622,7 @@
         },
         {
           "level": 4,
-          "name": "Il Prezzo di una Pallottola",
+          "name": "Il Prezzo di un Proiettile",
           "desc": "[WhenUse] Ottiene 1 [FreischutzShotCount] (Una volta per turno)\n[WhenUse] Ottiene Potere Finale pari a ([FreischutzShotCount] x2)\n[EndSkillAll] Perde PS pari a [FreischutzShotCount]",
           "coinlist": [
             {}
@@ -801,7 +801,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Incosciente Insolente...!",
+          "name": "Stolto Insolente...!",
           "desc": "[OnSucceedEvade] Infligge 1 [Sinking] (3 volte per turno)",
           "coinlist": [
             {}
@@ -809,7 +809,7 @@
         },
         {
           "level": 4,
-          "name": "Incosciente Insolente...!",
+          "name": "Stolto Insolente...!",
           "desc": "[OnSucceedEvade] Infligge 1 [Sinking] (6 volte per turno)",
           "coinlist": [
             {}
@@ -822,7 +822,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Puntinata",
+          "name": "Puntinare",
           "desc": "",
           "coinlist": [
             {
@@ -843,7 +843,7 @@
         },
         {
           "level": 2,
-          "name": "Puntinata",
+          "name": "Puntinare",
           "desc": "Se il bersaglio ha 6+ [Laceration], Potere Scontro +1",
           "coinlist": [
             {
@@ -864,7 +864,7 @@
         },
         {
           "level": 4,
-          "name": "Puntinata",
+          "name": "Puntinare",
           "desc": "Se il bersaglio ha 6+ [Laceration], Potere Scontro +1\n<style=\"highlight\">Se il bersaglio ha 10+ [Laceration], Potere Moneta +1 </style>",
           "coinlist": [
             {
@@ -890,7 +890,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Dipingere Sanguineo",
+          "name": "Dipingere col Sangue",
           "desc": "",
           "coinlist": [
             {},
@@ -908,7 +908,7 @@
         },
         {
           "level": 2,
-          "name": "Dipingere Sanguineo",
+          "name": "Dipingere col Sangue",
           "desc": "Se il bersaglio ha 6+ [Laceration], Potere Scontro +1",
           "coinlist": [
             {},
@@ -926,7 +926,7 @@
         },
         {
           "level": 4,
-          "name": "Dipingere Sanguineo",
+          "name": "Dipingere col Sangue",
           "desc": "Se il bersaglio ha 6+ [Laceration], Potere Scontro +2",
           "coinlist": [
             {},
@@ -949,7 +949,7 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Ispezione dei Quadri",
+          "name": "Ispezionare Opere",
           "desc": "Infligge +10% danni per ogni tipo di effetto negativo sul bersaglio (max 30%)\n[WhenUse] Applica 1 [Agility] il turno successivo a 2 alleati adiacenti a questa unità sul Pannello di Controllo",
           "coinlist": [
             {},
@@ -970,7 +970,7 @@
         },
         {
           "level": 4,
-          "name": "Ispezione dei Quadri",
+          "name": "Ispezionare Opere",
           "desc": "Se il bersaglio ha 6+ [Laceration], Potere Moneta +1\nInfligge +12.5% danni per ogni tipo di effetto negativo sul bersaglio (max 50%)\n[WhenUse] Applica 1 [Agility] il turno successivo a 2 alleati adiacenti a questa unità sul Pannello di Controllo",
           "coinlist": [
             {},
@@ -996,7 +996,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Blocco",
+          "name": "Guardia",
           "desc": "[WhenUse] Se il bersaglio ha 10+ [Laceration], Potere Moneta +3",
           "coinlist": [
             {}
@@ -1004,7 +1004,7 @@
         },
         {
           "level": 4,
-          "name": "Blocco",
+          "name": "Guardia",
           "desc": "[WhenUse] Se il bersaglio ha 10+ [Laceration], Potere Moneta +7",
           "coinlist": [
             {}
@@ -1259,7 +1259,7 @@
         {
           "level": 1,
           "name": "Cucire",
-          "desc": "Sul Colpo con questa Abilità: si cura del 10% dei danni ai PV inflitti (max 10)\n[WhenUse] Consuma fino a 40 [BloodDinner] e ottiene 1 [BloodScissorPersonalityFirst] per ogni 8 [BloodDinner] consumato da questa unità\n- Se questa unità non è riuscita a consumare [BloodDinner], ottiene +2 Conteggio [Laceration]",
+          "desc": "Sul Colpo con questa Abilità: si cura del 10% dei danni ai PV inflitti (max 10)\n[WhenUse] Consuma fino a 40 [BloodDinner] e ottiene 1 [BloodScissorPersonalityFirst] per ogni 8 [BloodDinner] consumata da questa unità\n- Se questa unità non è riuscita a consumare [BloodDinner], ottiene +2 Conteggio [Laceration]",
           "coinlist": [
             {
               "coindescs": [
@@ -1280,7 +1280,7 @@
         {
           "level": 2,
           "name": "Cucire",
-          "desc": "Sul Colpo con questa Abilità: si cura del 10% dei danni ai PV inflitti (max 10)\n[WhenUse] Consuma fino a 40 [BloodDinner] e ottiene 1 [BloodScissorPersonalityFirst] per ogni 8 [BloodDinner] consumato da questa unità\n- Se questa unità non è riuscita a consumare [BloodDinner], ottiene +2 Conteggio [Laceration]\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1</style>",
+          "desc": "Sul Colpo con questa Abilità: si cura del 10% dei danni ai PV inflitti (max 10)\n[WhenUse] Consuma fino a 40 [BloodDinner] e ottiene 1 [BloodScissorPersonalityFirst] per ogni 8 [BloodDinner] consumata da questa unità\n- Se questa unità non è riuscita a consumare [BloodDinner], ottiene +2 Conteggio [Laceration]\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1307,7 +1307,7 @@
         {
           "level": 4,
           "name": "Cucire",
-          "desc": "Sul Colpo con questa Abilità: si cura del 10% dei danni ai PV inflitti (max 10)\n[WhenUse] Consuma fino a 40 [BloodDinner] e ottiene 1 [BloodScissorPersonalityFirst] per ogni 8 [BloodDinner] consumato da questa unità\n- Se questa unità non è riuscita a consumare [BloodDinner], ottiene +2 Conteggio [Laceration]\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)</style>",
+          "desc": "Sul Colpo con questa Abilità: si cura del 10% dei danni ai PV inflitti (max 10)\n[WhenUse] Consuma fino a 40 [BloodDinner] e ottiene 1 [BloodScissorPersonalityFirst] per ogni 8 [BloodDinner] consumata da questa unità\n- Se questa unità non è riuscita a consumare [BloodDinner], ottiene +2 Conteggio [Laceration]\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1339,7 +1339,7 @@
         {
           "level": 1,
           "name": "Scissione",
-          "desc": "Sul Colpo con questa Abilità: si cura del 10% dei danni ai PV inflitti (max 20)\n[WhenUse] Consuma fino a 60 [BloodDinner] e ottiene 1 [BloodScissorPersonalityFirst] per ogni 6 [BloodDinner] consumato da questa unità\n- Se questa unità non è riuscita a consumare [BloodDinner], ottiene 5 [Laceration]",
+          "desc": "Sul Colpo con questa Abilità: si cura del 10% dei danni ai PV inflitti (max 20)\n[WhenUse] Consuma fino a 60 [BloodDinner] e ottiene 1 [BloodScissorPersonalityFirst] per ogni 6 [BloodDinner] consumata da questa unità\n- Se questa unità non è riuscita a consumare [BloodDinner], ottiene 5 [Laceration]",
           "coinlist": [
             {
               "coindescs": [
@@ -1373,7 +1373,7 @@
         {
           "level": 2,
           "name": "Scissione",
-          "desc": "Sul Colpo con questa Abilità: si cura del 20% dei danni ai PV inflitti (max 20)\n[WhenUse] Consuma fino a 60 [BloodDinner] e ottiene 1 [BloodScissorPersonalityFirst] per ogni 6 [BloodDinner] consumato da questa unità\n- Se questa unità non è riuscita a consumare [BloodDinner], ottiene 5 [Laceration]\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1</style>",
+          "desc": "Sul Colpo con questa Abilità: si cura del 20% dei danni ai PV inflitti (max 20)\n[WhenUse] Consuma fino a 60 [BloodDinner] e ottiene 1 [BloodScissorPersonalityFirst] per ogni 6 [BloodDinner] consumata da questa unità\n- Se questa unità non è riuscita a consumare [BloodDinner], ottiene 5 [Laceration]\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1407,7 +1407,7 @@
         {
           "level": 4,
           "name": "Scissione",
-          "desc": "Sul Colpo con questa Abilità: si cura del 20% dei danni ai PV inflitti (max 20)\n[WhenUse] Consuma fino a 60 [BloodDinner] e ottiene 1 [BloodScissorPersonalityFirst] per ogni 6 [BloodDinner] consumato da questa unità\n- Se questa unità non è riuscita a consumare [BloodDinner], ottiene 5 [Laceration]\n[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1<style=\"highlight\"></style>",
+          "desc": "Sul Colpo con questa Abilità: si cura del 20% dei danni ai PV inflitti (max 20)\n[WhenUse] Consuma fino a 60 [BloodDinner] e ottiene 1 [BloodScissorPersonalityFirst] per ogni 6 [BloodDinner] consumata da questa unità\n- Se questa unità non è riuscita a consumare [BloodDinner], ottiene 5 [Laceration]\n[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1472,7 +1472,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] A 10+ [BloodScissorPersonalityFirst], infligge +([BloodScissorPersonalityFirst] x 2)% danni (max 38%)\n- A 20+ [BloodScissorPersonalityFirst], infligge +([BloodScissorPersonalityFirst] x 3)% danni instead (max 90%)"
+                  "desc": "[OnSucceedAttack] A 10+ [BloodScissorPersonalityFirst], infligge +([BloodScissorPersonalityFirst] x 2)% danni (max 38%)\n- A 20+ [BloodScissorPersonalityFirst], infligge invece +([BloodScissorPersonalityFirst] x 3)% danni(max 90%)"
                 }
               ]
             }
@@ -1535,7 +1535,7 @@
         {
           "level": 4,
           "name": "Molto Scortese!",
-          "desc": "[WhenUse] A 10+ [BloodScissorPersonalityFirst], Potere Base +1<style=\"highlight\">\n- A 20+ [BloodScissorPersonalityFirst], ottiene Potere Base +2 instead</style>\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 5 [Laceration] su di sé (max 3)</style>",
+          "desc": "[WhenUse] A 10+ [BloodScissorPersonalityFirst], Potere Base +1<style=\"highlight\">\n- A 20+ [BloodScissorPersonalityFirst], ottiene invece Potere Base +2 </style>\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 5 [Laceration] su di sé (max 3)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1982,7 +1982,7 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Attivazione Massima della Mazza dell'Esattrice T-3",
+          "name": "Attivazione Massima: Mazza dell'Esattore T-3",
           "desc": "Se il bersaglio ha [TimeSuspend], infligge +30% danni\n[WhenUse] Se il bersaglio ha 6+ [Vibration], Potere Moneta +1\n[EndSkill] Perde [TimeRentalTwoPersonality] su di sé\n[EndSkill] Ottiene [OutisNoHat] (1 volta per Incontro)",
           "coinlist": [
             {
@@ -2022,7 +2022,7 @@
         },
         {
           "level": 4,
-          "name": "Attivazione Massima della Mazza dell'Esattrice T-3",
+          "name": "Attivazione Massima: Mazza dell'Esattore T-3",
           "desc": "<style=\"highlight\">Se il bersaglio è in stato di [Switch_Vibration] o [FusionVibration], infligge +30% danni</style>\nSe il bersaglio ha [TimeSuspend], infligge +30% danni\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 [Vibration] sul bersaglio (max 2)</style>\n<style=\"highlight\">[WhenUse] Se il bersaglio ha [Binding] Potere Scontro +1</style>\n[EndSkill] Perde [TimeRentalTwoPersonality] su di sé\n[EndSkill] Ottiene [OutisNoHat] (1 volta per Incontro)",
           "coinlist": [
             {
