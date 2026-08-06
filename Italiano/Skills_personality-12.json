@@ -148,7 +148,7 @@
         {
           "level": 3,
           "name": "Guardiano",
-          "desc": "[WhenUse] Applica 2 Defense Power Up e 3 [DefenseUp] a tutti gli alleati\nA 6+ [DefenseUp], Potere Moneta +1\nA 10+ [DefenseUp], infligge +30% danni",
+          "desc": "[WhenUse] Applica 2 Potere Difensivo Aumentato e 3 [DefenseUp] a tutti gli alleati\nA 6+ [DefenseUp], Potere Moneta +1\nA 10+ [DefenseUp], infligge +30% danni",
           "coinlist": [
             {},
             {},
@@ -164,7 +164,7 @@
         {
           "level": 4,
           "name": "Guardiano",
-          "desc": "[WhenUse] Applica 2 Defense Power Up e 3 [DefenseUp] a tutti gli alleati\nPotere Moneta +1 per 6 [DefenseUp] (Max 3)\nA 10+ [DefenseUp], infligge +50% danni",
+          "desc": "[WhenUse] Applica 2 Potere Difensivo Aumentato e 3 [DefenseUp] a tutti gli alleati\nPotere Moneta +1 per 6 [DefenseUp] (Max 3)\nA 10+ [DefenseUp], infligge +50% danni",
           "coinlist": [
             {},
             {},
@@ -184,7 +184,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "La Miglio Difesa",
+          "name": "La Milgiore Difesa",
           "desc": "[StartBattle] Ottiene Scudo pari a (2 * [DefenseUp] su di sé)",
           "coinlist": [
             {}
@@ -192,7 +192,7 @@
         },
         {
           "level": 4,
-          "name": "La Miglio Difesa",
+          "name": "La Milgiore Difesa",
           "desc": "[StartBattle] Ottiene Scudo pari a (2 * [DefenseUp] su di sé)\n[WhenUse] Ottiene +5 [Aggro] su questo Slot Abilità il turno successivo",
           "coinlist": [
             {}
@@ -657,7 +657,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Blocco",
+          "name": "Guardia",
           "desc": "",
           "coinlist": [
             {}
@@ -665,7 +665,7 @@
         },
         {
           "level": 4,
-          "name": "Blocco",
+          "name": "Guardia",
           "desc": "",
           "coinlist": [
             {}
@@ -829,7 +829,7 @@
         {
           "level": 4,
           "name": "Caccia-Incubi",
-          "desc": "[WhenUse] Potere Scontro +1 per ogni 3 Conteggio [Sinking] sul bersaglio (max 3)\n[EndSkill] Se il bersaglio è Stordito, infligge +3 Conteggio [Sinking]\n[EndSkill] Se il bersaglio viene sconfitto, infligge +3 Conteggio [Sinking] on 2 random nemici",
+          "desc": "[WhenUse] Potere Scontro +1 per ogni 3 Conteggio [Sinking] sul bersaglio (max 3)\n[EndSkill] Se il bersaglio è Stordito, infligge +3 Conteggio [Sinking]\n[EndSkill] Se il bersaglio viene sconfitto, infligge +3 Conteggio [Sinking] a 2 nemici casuali",
           "coinlist": [
             {
               "coindescs": [
@@ -967,7 +967,7 @@
         {
           "level": 1,
           "name": "Rimorso Soffocante",
-          "desc": "[WhenUse] Ottiene +3 [Aggro] su questo Slot Abilità il turno successivo\n[WhenUse] Ottiene 10 [Laceration]\n[WhenUse] A 5+ [WornHeartGreg], consuma fino a 60 [BloodDinner]; infine, ottiene 1 [BloodyHandGregFirst] per ogni 6 [BloodDinner] consumato\n- A meno di 5 [WornHeartGreg], ottiene 10 [Laceration] e 2 [BloodyHandGregFirst]",
+          "desc": "[WhenUse] Ottiene +3 [Aggro] su questo Slot Abilità il turno successivo\n[WhenUse] Ottiene 10 [Laceration]\n[WhenUse] A 5+ [WornHeartGreg], consuma fino a 60 [BloodDinner]; infine, ottiene 1 [BloodyHandGregFirst] per ogni 6 [BloodDinner] consumata\n- A meno di 5 [WornHeartGreg], ottiene 10 [Laceration] e 2 [BloodyHandGregFirst]",
           "coinlist": [
             {
               "coindescs": [
@@ -991,7 +991,7 @@
         {
           "level": 2,
           "name": "Rimorso Soffocante",
-          "desc": "[WhenUse] Ottiene +3 [Aggro] su questo Slot Abilità il turno successivo\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1</style>\n[WhenUse] Ottiene 10 [Laceration]\n[WhenUse] A 5+ [WornHeartGreg], consuma fino a 60 [BloodDinner]; infine, ottiene 1 [BloodyHandGregFirst] per ogni 6 [BloodDinner] consumato\n- A meno di 5 [WornHeartGreg], ottiene 10 [Laceration] e 2 [BloodyHandGregFirst]",
+          "desc": "[WhenUse] Ottiene +3 [Aggro] su questo Slot Abilità il turno successivo\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1</style>\n[WhenUse] Ottiene 10 [Laceration]\n[WhenUse] A 5+ [WornHeartGreg], consuma fino a 60 [BloodDinner]; infine, ottiene 1 [BloodyHandGregFirst] per ogni 6 [BloodDinner] consumata\n- A meno di 5 [WornHeartGreg], ottiene 10 [Laceration] e 2 [BloodyHandGregFirst]",
           "coinlist": [
             {
               "coindescs": [
@@ -1015,7 +1015,7 @@
         {
           "level": 4,
           "name": "Rimorso Soffocante",
-          "desc": "[WhenUse] Ottiene +3 [Aggro] su questo Slot Abilità il turno successivo\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)</style>\n[WhenUse] Ottiene 10 [Laceration]\n[WhenUse] A 5+ [WornHeartGreg], consuma fino a 60 [BloodDinner]; infine, ottiene 1 [BloodyHandGregFirst] per ogni 6 [BloodDinner] consumato\n- A meno di 5 [WornHeartGreg], ottiene 10 [Laceration] e <style=\"highlight\">3</style> [BloodyHandGregFirst]",
+          "desc": "[WhenUse] Ottiene +3 [Aggro] su questo Slot Abilità il turno successivo\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)</style>\n[WhenUse] Ottiene 10 [Laceration]\n[WhenUse] A 5+ [WornHeartGreg], consuma fino a 60 [BloodDinner]; infine, ottiene 1 [BloodyHandGregFirst] per ogni 6 [BloodDinner] consumata\n- A meno di 5 [WornHeartGreg], ottiene 10 [Laceration] e <style=\"highlight\">3</style> [BloodyHandGregFirst]",
           "coinlist": [
             {
               "coindescs": [
@@ -1116,7 +1116,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Pazienza Smarrita",
+          "name": "Pazienza Svanita",
           "desc": "[StartBattle] Ottiene 3 [WornHeartGreg] (1 volta per turno)",
           "coinlist": [
             {
@@ -1130,7 +1130,7 @@
         },
         {
           "level": 4,
-          "name": "Pazienza Smarrita",
+          "name": "Pazienza Svanita",
           "desc": "<style=\"highlight\">[StartBattle] A 40%+ PV, ottiene 5 [Laceration] e attiva [Laceration] fino a 3 volte su di sé (1 volta per turno; perde Conteggio [Laceration] pari al numero di volte che si è attivato)\n[StartBattle] A meno di 40% PV, consuma fino a 20 [BloodDinner] e recupera altrettanti PV (1 volta per turno)</style>\n[StartBattle] Ottiene 3 [WornHeartGreg] (1 volta per turno)",
           "coinlist": [
             {
@@ -1364,7 +1364,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Lo faccio per te, sorellona...",
+          "name": "Devo Andare Avanti Per la Sorellona",
           "desc": "[DuelCounter]\n[StartBattle] Ottiene 100 [FirePunchFuel]",
           "coinlist": [
             {
@@ -1378,7 +1378,7 @@
         },
         {
           "level": 4,
-          "name": "Lo faccio per te, sorellona...",
+          "name": "Devo Andare Avanti Per la Sorellona",
           "desc": "[DuelCounter]\n[StartBattle] Ottiene 100 [FirePunchFuel]",
           "coinlist": [
             {
@@ -1397,7 +1397,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Fauci del Serpente",
+          "name": "Zanna Serpentina",
           "desc": "[WhenUse] Ottiene +1 Conteggio [Breath]",
           "coinlist": [
             {
@@ -1418,7 +1418,7 @@
         },
         {
           "level": 2,
-          "name": "Fauci del Serpente",
+          "name": "Zanna Serpentina",
           "desc": "<style=\"highlight\">[WhenUse] A 10+ ([Breath] su di sé + [Burst] sul bersaglio), Potere Moneta +1</style>\n[WhenUse] Ottiene +<style=\"highlight\">2</style> Conteggio [Breath]",
           "coinlist": [
             {
@@ -1442,7 +1442,7 @@
         },
         {
           "level": 4,
-          "name": "Fauci del Serpente",
+          "name": "Zanna Serpentina",
           "desc": "<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 10 ([Breath] su di sé + [Burst] sul bersaglio) (max 2)</style>\n[WhenUse] Ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {
@@ -1471,7 +1471,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Fendente a Sorpresa",
+          "name": "Fendente Imprevedibile",
           "desc": "[WinDuel] Infligge +1 Conteggio [Burst]\n[WinDuel] Ottiene +1 Conteggio [Breath]",
           "coinlist": [
             {
@@ -1502,7 +1502,7 @@
         },
         {
           "level": 2,
-          "name": "Fendente a Sorpresa",
+          "name": "Fendente Imprevedibile",
           "desc": "<style=\"highlight\">[WhenUse] A 10+ ([Breath] su di sé + [Burst] sul bersaglio), Potere Moneta +1</style>\n[WinDuel] Infligge +1 Conteggio [Burst]\n[WinDuel] Ottiene +<style=\"highlight\">2</style> Conteggio [Breath]",
           "coinlist": [
             {
@@ -1536,7 +1536,7 @@
         },
         {
           "level": 4,
-          "name": "Fendente a Sorpresa",
+          "name": "Fendente Imprevedibile",
           "desc": "<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 10 ([Breath] su di sé + [Burst] sul bersaglio) (max 2)</style>\n[WinDuel] Infligge +<style=\"highlight\">2</style> Conteggio [Burst]\n[WinDuel] Ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {
@@ -1578,7 +1578,7 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Affondo del Braccio Serpentino",
+          "name": "Braccio Perforante Serpentagliente",
           "desc": "[WhenUse] Potere Moneta +1 per ogni 8 ([Breath] su di sé + [Burst] sul bersaglio) (max 4)\n- Se questa unità ha [SnakeStance], allora Potere Moneta +1 per ogni 5 ([Breath] su di sé + [Burst] sul bersaglio) (max 6)\n[WhenUse] Ottiene 3 [SnakeStance]\n[WinDuel] Se il bersaglio ha 5+ [Burst], ottiene 5 [Breath]",
           "coinlist": [
             {
@@ -1604,7 +1604,7 @@
         },
         {
           "level": 4,
-          "name": "Affondo del Braccio Serpentino",
+          "name": "Braccio Perforante Serpentagliente",
           "desc": "[WhenUse] Potere Moneta +1 per ogni 8 ([Breath] su di sé + [Burst] sul bersaglio) (max 4)\n- Se questa unità ha [SnakeStance], allora Potere Moneta +1 per ogni 5 ([Breath] su di sé + [Burst] sul bersaglio) (max 6)\n[WhenUse] Ottiene 3 [SnakeStance]\n[WinDuel] Se il bersaglio ha 5+ [Burst], ottiene 5 [Breath]",
           "coinlist": [
             {
@@ -1846,7 +1846,7 @@
         {
           "level": 3,
           "name": "Esecuzione",
-          "desc": "[BeforeUse] Se il bersaglio ha [CriHurtNightStiletto], attiva al suo posto 'La Daga Notturna' (una volta per turno)\n[WhenUse] Se il bersaglio ha 6+ ([Laceration] + [Vibration]), Potere Moneta +1\n[WinDuel] Innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1",
+          "desc": "[BeforeUse] Se il bersaglio ha [CriHurtNightStiletto], attiva al suo posto 'La Daga della Notte' (una volta per turno)\n[WhenUse] Se il bersaglio ha 6+ ([Laceration] + [Vibration]), Potere Moneta +1\n[WinDuel] Innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1",
           "coinlist": [
             {
               "coindescs": [
@@ -1888,7 +1888,7 @@
         {
           "level": 4,
           "name": "Esecuzione",
-          "desc": "[BeforeUse] Se il bersaglio ha [CriHurtNightStiletto], attiva al suo posto 'La Daga Notturna' (una volta per turno)\n[WhenUse] Potere Moneta +1 <style=\"highlight\">per ogni</style> 6 ([Laceration] + [Vibration]) sul bersaglio <style=\"highlight\">(max 2)</style>\n[WinDuel] <style=\"highlight\">Infligge 2 [Vibration]</style> e innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1",
+          "desc": "[BeforeUse] Se il bersaglio ha [CriHurtNightStiletto], attiva al suo posto 'La Daga della Notte' (una volta per turno)\n[WhenUse] Potere Moneta +1 <style=\"highlight\">per ogni</style> 6 ([Laceration] + [Vibration]) sul bersaglio <style=\"highlight\">(max 2)</style>\n[WinDuel] <style=\"highlight\">Infligge 2 [Vibration]</style> e innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1",
           "coinlist": [
             {
               "coindescs": [
@@ -2006,7 +2006,7 @@
       "levelList": [
         {
           "level": 3,
-          "name": "La Daga Notturna",
+          "name": "La Daga della Notte",
           "desc": "Infligge +10% danni per ogni 1 ([Agility] su di sé + [Binding] sul bersaglio) (max 40%)\nInfligge +50% danni se il nemico(Nucleo) ha 20%- PV\n[WhenUse] Potere Moneta +1 per ogni 4 ([Laceration] + [Vibration]) sul bersaglio (max 2)\n[WinDuel][VibrationExplosion]",
           "coinlist": [
             {
@@ -2059,7 +2059,7 @@
         },
         {
           "level": 4,
-          "name": "La Daga Notturna",
+          "name": "La Daga della Notte",
           "desc": "Infligge +<style=\"highlight\">15</style>% danni per ogni 1 ([Agility] su di sé + [Binding] sul bersaglio) (max <style=\"highlight\">60</style>%)\n<style=\"highlight\">Se il bersaglio ha Scudo, infligge +30% danni (negli Incontri Mirati, il Nucleo o Parti)</style>\n<style=\"highlight\">Infligge +1% danni per ogni 1% di PV mancanti del Nemico(Nucleo)</style>\n- Se il nemico(Nucleo) ha 20%- PV, <style=\"highlight\">invece infligge +100% danni</style>\n<style=\"highlight\">[WhenUse] Infligge 5 [DefenseDown]</style>\n[WhenUse] Potere Moneta +1 per ogni 4 ([Laceration] + [Vibration]) sul bersaglio (max <style=\"highlight\">3</style>)\n[WinDuel] <style=\"highlight\">Infligge 4 [Vibration]</style> e innesca [VibrationExplosion]",
           "coinlist": [
             {
