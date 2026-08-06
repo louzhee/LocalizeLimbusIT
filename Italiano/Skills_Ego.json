@@ -3090,12 +3090,45 @@
           "level": 3,
           "name": "Stufato Perpetuo",
           "abName": "Brodilisco",
-          "desc": "[BeforeAttack] Aumenta il danno in base alle risorse Lussuria correnti (Fino al 50%)",
+          "desc": "[BeforeAttack] Aumenta il danno in base alle risorse Lussuria correnti (fino al 50%)",
           "coinlist": [
             {
               "coindescs": [
                 {
                   "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Combustion]"
+                }
+              ]
+            }
+          ]
+                },
+        {
+          "level": 4,
+          "name": "Stufato Perpetuo",
+          "abName": "Brodilisco",
+          "desc": "[BeforeAttack] Aumenta il danno in base alle risorse Lussuria correnti (fino al 50%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "name": "Stufato Perpetuo",
+          "abName": "Brodilisco",
+          "desc": "<style=\"highlight\">Potere Finale +1 for every 4 ([Combustion] + [Laceration]) on the main target (max 3)\n[BeforeAttack] Apply 1 [ScarletResultUp] il turno successivo to allies according to their Deployment Order for every 6 Lust E.G.O resource owned (max 5 units)\n[BeforeAttack] Deal +6% damage for every 1 Lust E.G.O resource owned (max 120%)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict +3 [Combustion] Count<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict +3 [Laceration] Count</style>"
                 }
               ]
             }
@@ -3110,7 +3143,7 @@
           "level": 1,
           "name": "Stufato Perpetuo",
           "abName": "Brodilisco",
-          "desc": "[CantIdentify]\nBersaglia l'unità con i PV maggiori\n\n[BeforeAttack] Aumenta il danno in base alle risorse Lussuria correnti (Fino al 25%)\nPoi spende risorse Lussuria in base alla Rison. Lussuria; aumenta ulteriorimente il danno del 5% per risorsa spesa",
+          "desc": "[CantIdentify]\nBersaglia l'unità con i PV maggiori\n\n[BeforeAttack] Aumenta il danno in base alle risorse Lussuria correnti (Fino al 25%)\nPoi, usa risorse Lussuria in base alla Rison. Lussuria; aumenta ulteriorimente il danno del 5% per risorsa spesa",
           "coinlist": [
             {
               "coindescs": [
@@ -3125,12 +3158,48 @@
           "level": 3,
           "name": "Stufato Perpetuo",
           "abName": "Brodilisco",
-          "desc": "[CantIdentify]\nBersaglia l'unità con i PV maggiori\n\n[BeforeAttack] Aumenta il danno in base alle risorse Lussuria correnti (Fino al 50%)\nPoi spende risorse Lussuria in base alla Rison. Lussuria; aumenta ulteriorimente il danno del 10% per risorsa spesa",
+          "desc": "[CantIdentify]\nBersaglia l'unità con i PV maggiori\n\n[BeforeAttack] Aumenta il danno in base alle risorse Lussuria correnti (fino al 50%)\nPoi, usa risorse Lussuria in base alla Rison. Lussuria; aumenta ulteriorimente il danno del 10% per risorsa spesa",
           "coinlist": [
             {
               "coindescs": [
                 {
                   "desc": "[OnSucceedAttack] Infligge +4 Conteggio [Combustion]"
+                }
+              ]
+            }
+          ]
+                },
+        {
+          "level": 4,
+          "name": "Stufato Perpetuo",
+          "abName": "Brodilisco",
+          "desc": "[CantIdentify]\nBersaglia l'unità con i PV maggiori\n\n[BeforeAttack] Aumenta il danno in base alle risorse Lussuria correnti (fino al 50%)\nPoi, usa risorse Lussuria in base alla Rison. Lussuria; aumenta ulteriorimente il danno del 10% per risorsa spesa",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Infligge +4 Conteggio [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "name": "Stufato Perpetuo",
+          "abName": "Brodilisco",
+          "desc": "[CantIdentify]\nBersaglia l'unità con i PV maggiori\n\n<style=\"highlight\">Potere Finale +1 per ogni 4 ([Combustion] + [Laceration]) sul bersaglio principale (max 3)\n[BeforeAttack] Applica 1 [ScarletResultUp] e 1 [ScarletDamageUp] il turno successivo agli alleati in base al loro Ordine di Schieramento per ogni 6 risorse Lussuria in possesso (max 5 unità)\n[BeforeAttack]\n- Infligge +5% danno per ogni Risorsa E.G.O Lussuria in possesso (max 100%)\n- Poi, usa (Rison. Lussuria x 2) risorse E.G.O Lussuria (max 8)\n- Infligge +20% danno per ogni risorsa E.G.O Lussuria usata (max 160%)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[SuperCoin]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +4 Conteggio [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge +4 Conteggio [Laceration]</style>"
                 }
               ]
             }
@@ -3172,6 +3241,51 @@
                 },
                 {
                   "desc": "[OnSucceedAttackTail] Infligge 7 [Combustion]; se il bersaglio è un alleato, applica 2 [Agility] e 1 [GainSinStockAdder] il turno successivo"
+                }
+              ]
+            }
+          ]
+                },
+        {
+          "level": 4,
+          "name": "Stufato Perpetuo",
+          "abName": "Brodilisco",
+          "desc": "[CantIdentify]\nBersaglia l'unità con i PV minori\nSe il bersaglio è un alleato, questa Abilità infligge 0 danni",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Se il bersaglio è un alleato, questo viene curato del 10% dei PV Max di quest'unità"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Infligge 7 [Combustion]; e il bersaglio è un alleato, applica 2 [Agility] e 1 [GainSinStockAdder] il turno successivo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "name": "Stufato Perpetuo",
+          "abName": "Brodilisco",
+          "desc": "[CantIdentify]\nBersaglia l'unità con i PV minori\n<style=\"highlight\">Le Risorse E.G.O Gola per usare questa Abilità sono ridotte a 0\nSe il bersaglio è un alleato, questa Abilità infligge 0 danni e non fa attivare le Abilità Difensive (Guardie Scontrabili incluse)\n[DefeatDuel] Potere Base -8\n[EndSkill] Se questa Abilità colpisce un alleato, questa unità recupera PS pari al numero di alleati bersagliati da questa Abilità\n[EndSkill] Questa unità recupera (5 x numero degli alleati bersagliati da questa Abilità)% PV Max (min 5%, max 20%)\n[EndSkill] Ottiene 1 [GainSinStockAdder] e 2 [Agility] il turno successivo</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[SuperCoin]</style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Se il bersaglio è un alleato,</style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">- Cura il bersaglio di (5 x numero degli alleati bersagliati da questa Abilità)% dei PV Max di questa unità (max 20%)</style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">- Ottiene 1 [GainSinStockAdder] e 2 [Agility] il turno successivo</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Infligge 7 [Combustion]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3222,6 +3336,30 @@
               "coindescs": [
                 {
                   "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Combustion]"
+                }
+              ]
+            }
+          ]
+                },
+        {
+          "level": 5,
+          "name": "Stufato Perpetuo",
+          "abName": "Brodilisco",
+          "desc": "[CantIdentify]\nBersaglia l'unità con i PV minori\n<style=\"highlight\">Le Risorse E.G.O Gola per usare questa Abilità sono ridotte a 0\n[DefeatDuel] Potere Base -12\n[BeforeAttack] Infligge +15% danni per ogni 4 (Potenza [Combustion] su tutti i bersagli) (max 60%)\n[BeforeAttack] Usa fino a 3 delle Risorse E.G.O maggiormente in possesso per infliggere +10% danno per ogni suddetta risorsa E.G.O utilizzata (max 30%)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[SuperCoin]</style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge 2 [Combustion]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[UnBrokenCoinOnSucceedAttack] Se è stata usata una risorsa E.G.O per l'effetto di questa Abilità, infligge danno Lussuria pari al 50% del danno finale di questa Moneta</style>"
                 }
               ]
             }

@@ -184,7 +184,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[EnemyKill] Gain +2 Conteggio [Charge]"
+                  "desc": "[EnemyKill] Ottiene +2 Conteggio [Charge]"
                 }
               ]
             }
@@ -199,7 +199,7 @@
           "level": 1,
           "name": "Strillo Elettrico",
           "abName": "Pecora Elettrica Sognante",
-          "desc": "[CantIdentify]\nBersaglia Casualmente\n[BeforeAttack] Ottiene (Rison. Invidia - 2) Portata Attacco (max 1)\n[BeforeAttack] Infligge +((Envy Reson. - 3) x 5)% danni (max 15%)\n[BeforeAttack] A meno di 20 Conteggio [Charge], usa 1.5% dei PV Max di quest'unità per ogni Conteggio [Charge] rimanente per arrivare a 20 Conteggio [Charge]\n[BeforeAttack] Spende fino a 20 Conteggio [Charge] per infliggere +2.5% danni per ogni Conteggio [Charge] speso (max 50%)",
+          "desc": "[CantIdentify]\nBersaglia Casualmente\n[BeforeAttack] Ottiene (Rison. Invidia - 2) Portata Attacco (max 1)\n[BeforeAttack] Infligge +((Rison. Invidia - 3) x 5)% danni (max 15%)\n[BeforeAttack] A meno di 20 Conteggio [Charge], usa 1.5% dei PV Max di quest'unità per ogni Conteggio [Charge] rimanente per arrivare a 20 Conteggio [Charge]\n[BeforeAttack] Spende fino a 20 Conteggio [Charge] per infliggere +2.5% danni per ogni Conteggio [Charge] speso (max 50%)",
           "coinlist": [
             {
               "coindescs": [
@@ -868,6 +868,184 @@
                 },
                 {
                   "desc": "<style=\"highlight\">- Se quest'unità ha [NoVillain], infligge +1 Conteggio [Sinking]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2031011,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tirerò Forbici. E Tu?",
+          "abName": "Giocherai?",
+          "desc": "[WinDuelEndSkill] Cura il 2% PV e 5 PS a (2 + Rison. Invidia / 2) alleati che hanno le percentuali minori di PV (max 3 unità)\n[DefeatDuel] Ottiene (Rison. Invidia x 5) Scudo (max 20)\n[DefeatDuel] Infligge +100% danno al bersaglio principale",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Infligge 1 [ResultReduction] il turno successivo (una volta per bersaglio)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Tirerò Forbici. E Tu?",
+          "abName": "Giocherai?",
+          "desc": "[WinDuelEndSkill] Cura il <style=\"highlight\">4</style>% PV e 5 PS a (2 + Rison. Invidia / 2) alleati che hanno le percentuali minori di PV (max <style=\"highlight\">4</style> unità)\n[DefeatDuel] Ottiene (Rison. Invidia x 5) Scudo (max <style=\"highlight\">25</style>)\n[DefeatDuel] Infligge +<style=\"highlight\">150</style>% danno al bersaglio principale",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Infligge 1 [ResultReduction] il turno successivo (una volta per bersaglio)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Tirerò Forbici. E Tu?",
+          "abName": "Giocherai?",
+          "desc": "[WinDuelEndSkill] Cura il <style=\"highlight\">6</style>% PV e 5 PS a (2 + Rison. Invidia / 2) alleati che hanno le percentuali minori di PV (max 4 unità)\n[DefeatDuel] Ottiene (Rison. Invidia x 5) Scudo (max <style=\"highlight\">30</style>)\n[DefeatDuel] Infligge +<style=\"highlight\">200</style>% danno al bersaglio principale",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Infligge 1 [ResultReduction] il turno successivo (una volta per bersaglio)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2031021,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tirerò Forbici. E Tu?",
+          "abName": "Giocherai?",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nA 2+ Rison. Invidia, Potere Finale +1\n[WinDuel] Infligge +60% danno al bersaglio principale\n[DefeatDuel] Ottiene Scudo pari a (Rison. Invidia x 5) (max 20)\n[DefeatDuel] Questa Abilità infligge +1 [ResultReduction] in più",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [ResultReduction] il turno successivo (una volta per bersaglio)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 6 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Tirerò Forbici. E Tu?",
+          "abName": "Giocherai?",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nPotere Finale +1 <style=\"highlight\">per ogni 2 Rison. Invidia (max 2)</style>\n[WinDuel] Infligge +<style=\"highlight\">80</style>% danno al bersaglio principale\n[DefeatDuel] Ottiene Scudo equal to (Rison. Invidia x 5) (max <style=\"highlight\">25</style>)\n[DefeatDuel] Questa Abilità infligge +1 [ResultReduction] in più",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [ResultReduction] il turno successivo (una volta per bersaglio)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 6 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Tirerò Forbici. E Tu?",
+          "abName": "Giocherai?",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nPotere Finale +1 per ogni 2 Rison. Invidia (max <style=\"highlight\">3</style>)\n[WinDuel] Infligge +<style=\"highlight\">100</style>% danno al bersaglio principale\n[DefeatDuel] Ottiene Scudo equal to (Rison. Invidia x 5) (max <style=\"highlight\">30</style>)\n[DefeatDuel] Questa Abilità infligge +1 [ResultReduction] in più",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 1 [ResultReduction] il turno successivo (una volta per bersaglio)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge 6 [Laceration]"
                 }
               ]
             }
