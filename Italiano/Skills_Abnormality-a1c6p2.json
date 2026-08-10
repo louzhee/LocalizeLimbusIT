@@ -513,7 +513,7 @@
                   "desc": "[OnSucceedAttack] Infligge 4 [Laceration] e +2 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Se la Velocità di questa unità è maggiore di quella del bersaglio di 3 o più, riusa questa Moneta (max 1 volta)"
+                  "desc": "[OnSucceedAttack] Se la Velocità di questa unità è maggiore di quella del bersaglio di 3 o più, riusa questa Moneta 1 volta"
                 }
               ]
             }
@@ -527,7 +527,7 @@
         {
           "level": 1,
           "name": "Questa Dimora È Mia!",
-          "desc": "Dà priorità al bersaglio con meno PV\n[WhenUse] Se il bersaglio ha meno di 70% PV, Potere Scontro +2",
+          "desc": "Dà priorità al bersaglio con meno PV\n[WhenUse] Se il bersaglio ha 70%- PV, Potere Scontro +2",
           "coinlist": [
             {
               "coindescs": [
@@ -572,7 +572,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "I'll Get You...!",
+          "name": "Ti Farò...!",
           "desc": "Dà priorità a Heathcliff\n[WhenUse] Se il bersaglio è il nemico più lento, Potere Base +3\n[WhenUse] Infligge [AaCfPbBe], 2 [Vulnerable], 3 [Paralysis], e 5 [Binding] nel turno successivo",
           "coinlist": [
             {
