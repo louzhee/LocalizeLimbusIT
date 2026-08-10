@@ -4,7 +4,7 @@
       "id": 101001,
       "name": "Human Offering",
       "subDesc": "Vedi delle bambole d'argilla in lontananza.",
-      "desc": "Vedete delle bambole d'argilla in lontananza.\nFrugano tra i cadaveri, cercando qualcosa.\nNelle tue orecchie rimbombano continue richieste di tributi.\nDanno l'impressione che possano assalirvi in un qualsiasi momento.\n\nNoti una persona morente lì vicino, ancora ansimante.\nDovresti offrire questa persona?\nOppure…",
+      "desc": "Vedete delle bambole d'argilla in lontananza.\n\nFrugano tra i cadaveri, cercando qualcosa.\nNelle tue orecchie rimbombano continue richieste di tributi.\nDanno l'impressione che possano assalirvi in un qualsiasi momento.\n\nNoti una persona morente lì vicino, ancora ansimante.\nDovresti offrire questa persona?",
       "options": [
         {
           "message": "Offri la persona.",
@@ -33,7 +33,7 @@
       "id": 10100101,
       "name": "Human Offering",
       "subDesc": "Vedi delle bambole d'argilla in lontananza.",
-      "desc": "Offrire i Peccatori pare sia fuori questione.\n\nOffrirai questa persona?\nOppure…",
+      "desc": "Offrire i Peccatori pare sia fuori questione.\n\nOffrirai questa persona?",
       "options": [
         {
           "message": "Offri la persona.",
@@ -54,7 +54,7 @@
     {
       "id": 101002,
       "name": "Eternal Rest",
-      "desc": "Senti una voce fievole.\n\n“Vi prego, aiutatemi…”\n\nSeguirai quel suono? O…",
+      "desc": "Senti una voce fievole.\n\n“Vi prego, aiutatemi…”\n\nSeguirai quel suono?",
       "options": [
         {
           "message": "Controlla l'origine della voce.",
@@ -76,20 +76,20 @@
       "id": 101003,
       "name": "An Encounter with the Unbearable",
       "subDesc": "Gli scricchiolii ti stanno dando ai nervi.",
-      "desc": "Gli scricchiolii ti stanno dando ai nervi.\n\nMentre attraversate un passaggio stretto, uno sciame di scarafaggi s'intrufola nel mezzo della via.\nQuella visione è alquanto rivoltante.\n\nProverete a passarci attraverso? O…",
+      "desc": "Gli scricchiolii vi stanno dando ai nervi.\n\nMentre attraversate un passaggio stretto, una colonia di scarafaggi s'intrufola nel mezzo della via.\nQuella visione è alquanto rivoltante.\n\nProverete ad attraversarli?",
       "options": [
         {
-          "message": "Attraversa cautamente il disgustoso sciame.",
+          "message": "Attraversate cautamente la disgustosa colonia.",
           "messageDesc": "Tutti gli alleati perdono PS",
           "result": [
-            "“Ewwww… Uno mi sta toccando la gamba!”\n\nTutti son riusciti ad attraversare il passaggio, ma il loro disgusto era chiaramente visibile.\nSembrano affaticati dall'esperienza."
+            "“Ewwww… Uno mi sta toccando la gamba!”\n\nTutti sono riusciti ad attraversare il passaggio, ma il loro disgusto era chiaramente visibile.\nSembrano affaticati dall'esperienza."
           ]
         },
         {
           "message": "Adesso basta. Schiaccia gli scarafaggi insieme ai Peccatori.",
           "messageDesc": "Gregor perde molti PS. Inizia un combattimento. Vinci per ottenere un Dono E.G.O.",
           "result": [
-            "“Tsk…”\n\nGregor volta le spalle dalla carneficina, scontento.\nPoco dopo, un orda di soldati insettoidi arrabbiati ci carica contro."
+            "“Tsk…”\n\nGregor volta le spalle dalla carneficina, scontento.\n\nPoco dopo, un'orda di soldati insettoidi infuriati ci carica contro."
           ]
         }
       ]
@@ -140,7 +140,7 @@
       "id": 102002,
       "name": "Exhilarating Edutainment Featuring Excess Violence!",
       "subDesc": "subDesc가 뭘까?",
-      "desc": "Uscendo dal passaggio, vedete un gruppo di cyborg riuniti attorno ad una enorme roulette.\n\n“Oh. Eccitato. Tantissi missi missi mo. Molto. Divertente.”\n“El GIOCO di MOR—TEH!”\n\nVi approcciano, canticchiando una strana canzoncina.\nSembra che vogliano che voi giochiate ad un gioco con la roulette. Cosa farete?",
+      "desc": "Uscendo dal passaggio, vedete un gruppo di cyborg riuniti attorno ad una enorme roulette.\n\n“Oh. Eccitato. Tantissi missi missi mo. Molto. Divertente.”\n“El GIOCO di MOR—TEH!”\n\nVi approcciano, canticchiando una strana canzoncina.\n\nSembra che vogliano che voi vi uniate ad un gioco con la roulette.\nCosa farete?",
       "options": [
         {
           "message": "Accetta la sfida.",
@@ -213,7 +213,7 @@
         {
           "message": "Lascia la stanza.",
           "result": [
-            "Non sei più un bambino. Te sei capace di resistere a semplici impulsi come questo.\nNon è mai una buona idea cadere nella tentazione senza rifletterci due volte.\n\n“Si, bella pensata.”\n\nTe e i Peccatori lasciate la stanza."
+            "Non sei più un bambino. Te sei capace di resistere a semplici impulsi come questo.\n\nNon è mai una buona idea cadere nella tentazione senza riflettere due volte.\n\n“Si, bella pensata.”\n\nTe e i Peccatori lasciate la stanza."
           ]
         }
       ]
@@ -222,7 +222,7 @@
       "id": 1030101,
       "name": "An Old Room with a Clockwork Mechanism",
       "subDesc": "subDesc가 뭘까?",
-      "desc": "Mettere in pratica un pensiero spontaneo è impulsivo e disinvolto quanto un bambino che cerca di afferrare un dolcetto proibito.\n\nQuando tiri la leva, poco dopo un ticchettio si fa sentire.\nLe molle iniziano a girare, qualcheduna lentamente, altre più velocemente.\nAlcune in senso orario, altre in senso antiorario.\n\nOsservare il rombo della macchina diventare sempre più forte, ti mette ansia.",
+      "desc": "Mettere in pratica un pensiero spontaneo è impulsivo e disinvolto quanto un bambino che cerca di afferrare un dolcetto proibito.\n\nQuando tiri la leva, poco dopo un ticchettio si fa sentire.\n\nLe molle iniziano a girare, qualcheduna lentamente, altre più velocemente.\nAlcune in senso orario, altre in senso antiorario.\n\nOsservare il rombo della macchina diventare sempre più forte ti mette ansia.",
       "options": [
         {
           "message": "Tira la leva.",
@@ -345,7 +345,7 @@
         {
           "message": "Non toccare niente e vattene.",
           "result": [
-            "Sicuramente non è niente.\nSe davvero ne avremo bisogno, possiamo sempre tornare per recuperarlo.\n\nHai preferito non danneggiare la psiche dei tuoi Peccatori per un qualcosa di nemmeno certo."
+            "Di sicuro non è niente.\nSe davvero ne avremo bisogno, possiamo sempre tornare per recuperarlo.\n\nHai preferito non danneggiare la psiche dei tuoi Peccatori per un qualcosa di nemmeno certo."
           ]
         }
       ]
@@ -789,27 +789,27 @@
     {
       "id": 910301,
       "name": "The Chicken Strife",
-      "desc": "Dei ragazzi stanno bloccando la strada.\nSono seduti ad un tavolo, tenendo una discussione accesa.\n“Guarda questo pezzo succulento! Il ricco succo che esce da ogni fibra di questa carne così tenera… Questo è ciò che importa nel pollo!”\n“Ti sbagli. Questo pezzo ha un sapore più puro, senza una goccia di quel grasso che contamina il suo sapore. Questo è il vero affare.”\nI due si girano allo stesso tempo per parlarti.\n“Te laggiù! Dicci qual'è il migliore!”",
+      "desc": "Dei ragazzi stanno bloccando la strada.\nSono seduti ad un tavolo, tenendo una discussione accesa.\n\n“Guarda questo pezzo succulento! Il ricco succo che esce da ogni fibra di questa carne così tenera… Questo è ciò che importa nel pollo!”\n\n“Ti sbagli. Questo pezzo ha un sapore più puro, senza una goccia di quel grasso che contamina il suo sapore. Questo è il vero affare.”\n\nI due si girano allo stesso tempo per parlarti.\n“Te laggiù! Dicci qual'è il migliore!”",
       "options": [
         {
           "message": "Il pollo è sempre pollo, no?",
           "messageDesc": "Ottieni un Dono E.G.O.",
           "result": [
-            "“Quello è… vero.”\n“Hai decisamente ragione.”\nHanno abbassato le mani e si sono calmati.\n“Stavamo litigando per un motivo davvero stupido.”\n“Ha ragione… La verità è che col pollo vai sempre sul sicuro.”\nDopo una bella stretta di mano, i due ti danno i loro secchi di pollo.\n“Un gourmet saggio come te si merita entrambi i pezzi. Per favore, prendi, insistiamo.”"
+            "“Quello è… vero.”\n“Hai decisamente ragione.”\n\nHanno abbassato le mani e si sono calmati.\n\n“Stavamo litigando per un motivo davvero stupido.”\n“Ha ragione… La verità è che col pollo vai sempre sul sicuro.”\n\nDopo una bella stretta di mano, i due ti danno i loro secchi di pollo.\n“Un gourmet saggio come te si merita entrambi i pezzi. Per favore, prendi, insistiamo.”"
           ]
         },
         {
           "message": "Devono per forza essere le cosce, così ricche e succose.",
           "messageDesc": "Ottieni un Dono E.G.O.",
           "result": [
-            "“Visto? Le cosce sono le migliori!”\n“Devi avere qualche problema alla lingua.”\nLa persona con in mano un petto di pollo, lascia un sospiro esasperato.\n“Ehi! Eccoti un premio. Ti meriti proprio una coscia tutta per te.”\nSoddisfatto, quello che tiene una coscia te ne dà una dal suo secchio.\n“Continua stare in gamba, io ci conto!”\nNon sapendo come reagire, lasci il tavolo insieme alla coscia di pollo."
+            "“Visto? Le cosce sono le migliori!”\n“Devi avere qualche problema alla lingua.”\n\nLa persona con in mano un petto di pollo, lascia un sospiro esasperato.\n\n“Ehi! Eccoti un premio. Ti meriti proprio una coscia tutta per te.”\nSoddisfatto, quello che tiene una coscia te ne dà una dal suo secchio.\n\n“Continua stare in gamba, io ci conto!”\nNon sapendo come reagire, lasci il tavolo insieme alla coscia di pollo."
           ]
         },
         {
           "message": "Naturalmente il petto, puro ed incontaminato.",
           "messageDesc": "Ottieni un Dono E.G.O.",
           "result": [
-            "“Non è possibile! Davvero ti vorresti privare di questo banchetto di succosità…?”\n“È grasso, non succo. Il petto è più salutare, leggero, viene servito in grosse porzioni, e la facilità con cui lo si mangia lo rende una scelta alquanto ovvia.”\nCommentava la persona con in mano il petto di pollo.\n“Ecco, un premio per te. Prendi questo petto.”\nTi viene dato un bel pezzo dal suo secchio.\n“Buona fortuna coi tuoi progressi. Stammi bene e in forma.”\nNon sapendo di che progressi stesse parlando, lasci il tavolo insieme al petto di pollo."
+            "“Non è possibile! Davvero ti vorresti privare di questo banchetto di succosità…?”\n“È grasso, non succo. Il petto è più salutare, leggero, viene servito in grosse porzioni, e la facilità con cui lo si mangia lo rende una scelta alquanto ovvia.”\n\nCommentava la persona con in mano il petto di pollo.\n\n“Ecco, un premio per te. Prendi questo petto.”\nTi viene dato un bel pezzo dal suo secchio.\n\n“Buona fortuna coi tuoi progressi. Stammi bene e in forma.”\nNon sapendo di che progressi stesse parlando, lasci il tavolo insieme al petto di pollo."
           ]
         }
       ]
@@ -817,27 +817,27 @@
     {
       "id": 910302,
       "name": "Tango of Poultry Passion",
-      "desc": "Un forte riflettore illumina un'area della sala.\nSembra che i polli stiano… partecipando ad un ballo.\n“Quello è il tango.”\nOsservando i loro movimenti che potrebbero essere una danza o una zuffa, notate del sugo fuoriuscire da uno di loro.\nNon sembra che riesca a notarlo…",
+      "desc": "Un forte riflettore illumina un'area della sala.\nSembra che i polli stiano… partecipando ad un ballo.\n\n“Quello è il tango.”\n\nOsservando le loro movenze, che potrebbero essere una danza o una zuffa, notate del sugo fuoriuscire da uno di loro.\n\nNon sembra che riesca a notarlo…",
       "options": [
         {
           "message": "Avvertilo ad alta voce.",
-          "messageDesc": "Prova con Vantaggio per Lussuria. Passa per ottenere un Dono E.G.O.",
+          "messageDesc": "Prova con Vantaggio per Lussuria.\nPassa per ottenere un Dono E.G.O.",
           "result": [
-            "“Mi presti ascolto!!!!! Lei sta perdendo del sugo dal vostro corpo!!!!!!”\n“Non urlare così tanto, stupida…”\nOra che ha notato la fuoriuscita, il pollo agita le sue ali sulla sua schiena, o meglio quello che pare essere la sua schiena.\nSfortunatamente, il nodo della cucitura si era già sciolto.\n“Kieegh, kiiierg…”\nVorrà dire che non riesce a farcela da solo? Creando una scia di sugo mentre si avvicina, tiene con sé un ago e del filo nelle sue mani, ehm, ali.\nVuole che voi li cuciate la schiena."
+            "“Mi presti ascolto!!!!! Lei sta perdendo del sugo dal vostro corpo!!!!!!”\n“Non urlare così tanto, stupida…”\n\nOra che ha notato la fuoriuscita, il pollo agita le sue ali sulla sua schiena, o meglio quello che pare essere la sua schiena.\n\nSfortunatamente, il nodo della cucitura si era già sciolto.\n\n“Kieegh, kiiierg…”\nVorrà dire che non riesce a farcela da solo? Creando una scia di sugo mentre si avvicina, tiene con sé un ago e del filo nelle sue mani, ehm, ali.\n\nVuole che voi li cuciate la schiena."
           ]
         },
         {
           "message": "Non hai visto niente.",
           "messageDesc": "Seleziona per ottenere un Dono E.G.O.",
           "result": [
-            "“Non dovremmo informarlo?”\n“Si, ma~ Sembrano abbastanza felici adesso, no? Non farà male a nessuno starcene qui a guardare per un altro po', giusto?”\n“Cosa ne sarà quando perderà tutto il sugo?”\n“Forse diventerà solamente un pollo poco condito.”\nCol tempo, la fuoriuscita si ferma.\n“Kiehg!”\nForse ha sentito che è diventato più leggero? Improvvisamente ha eseguito una mossa molto complessa.\n“Impressionante.”\nI polli attorno hanno smesso di danzare per guardare la performance, ne sono ammaliati. Poco dopo, si avvicinano al ballerino, emettendo delle grida, come per esultare.\nSe ne vanno dalla luce, lanciando per aria lo straordinario pollo come celebrazione.\nTutto ciò che rimane… è il sugo versato."
+            "“Non dovremmo informarlo?”\n“Si, ma~ Sembrano abbastanza felici adesso, no? Non farà male a nessuno starcene qui a guardare per un altro po', giusto?”\n“Cosa ne sarà quando perderà tutto il sugo?”\n“Forse diventerà solamente un pollo poco condito.”\n\nCol tempo, la fuoriuscita si ferma.\n\n“Kiehg!”\n\nForse ha sentito che è diventato più leggero? Improvvisamente ha eseguito una mossa molto complessa.\n\n“Impressionante.”\n\nI polli attorno hanno smesso di danzare per guardare la performance, ne sono ammaliati. Poco dopo, si avvicinano al ballerino, emettendo delle grida, come per esultare.\n\nSe ne vanno dalla luce, lanciando per aria lo straordinario pollo come celebrazione.\n\nTutto ciò che rimane… è il sugo versato."
           ]
         },
         {
           "message": "Dai qualche cenno.",
           "messageDesc": "50% di chance di ottenere un Dono E.G.O.",
           "result": [
-            "“Mm-mmm~ Mamma mia, che profumino invitante! Mi chiedo da dove verrà mai questo buooon odoreee~?!”\n“…Suppongo che sia stato alquanto sciocco aspettarmi una recita più credibile.”\nLa voce della Peccatrice ha fatto fermare di colpo la danza passionale dei polli.\nEsaminando reciprocamente i dorsi, hanno presto trovato l'origine della fuoriuscita.\n“Kieh, kierg.”\n“Giiegh.”\nIn tutta calma, hanno portato un ago e del filo dallo sfortunato pollo per ricucirgli la schiena, o meglio quel che pare essere la schiena.\nAvevano eseguito un lavoro impeccabile.\nA cucitura fatta, sono fuggiti nell'oscurità.\nTutto quel che è rimasto erano l'ago e filo che avevano usato."
+            "“Mm-mmm~ Mamma mia, che profumino invitante! Mi chiedo da dove verrà mai questo buooon odoreee~?!”\n“…Suppongo che sia stato alquanto sciocco aspettarmi una recita più credibile.”\n\nLa voce della Peccatrice ha fatto fermare di colpo la danza passionale dei polli.\n\nEsaminando reciprocamente i dorsi, hanno presto trovato l'origine della fuoriuscita.\n\n“Kieh, kierg.”\n“Giiegh.”\n\nIn tutta calma, hanno portato un ago e del filo dallo sfortunato pollo per ricucirgli la schiena, o meglio quel che pare essere la schiena.\n\nAvevano eseguito un lavoro impeccabile.\n\nA cucitura fatta, sono fuggiti nell'oscurità.\nTutto quel che è rimasto erano l'ago e filo che avevano usato."
           ]
         }
       ]
@@ -905,13 +905,13 @@
     {
       "id": 1040201,
       "name": "An Ampule to Use",
-      "desc": "\"Guardate, degli avvertimenti sono scritti sulle ampolle!\"\nScorrendo tra le bottiglie di vetro, riesco a vedere delle piccole avvertenze attaccate ad esse.\nPerò, il testo è troppo denso per leggere chiaramente.\n\"Parti mancanti… insufficiente… fermare? Non ho idea di cosa c'è scritto.\"\n\"Illustre Manager! Pare che questo congegno abbia due modalità: singolo e gruppo!\"\nPare sia il momento di scegliere.\nCosa faremo?",
+      "desc": "\"Guardate, degli avvertimenti sono scritti sulle ampolle!\"\nScorrendo tra le bottiglie di vetro, riesco a vedere delle piccole avvertenze attaccate ad esse.\n\nPerò, il testo è troppo denso per leggere chiaramente.\n\"Parti mancanti… insufficiente… fermare? Non ho idea di cosa c'è scritto.\"\n\n\"Illustre Manager! Pare che questo congegno abbia due modalità: singolo e gruppo!\"\nPare sia il momento di scegliere.\nCosa faremo?",
       "options": [
         {
           "message": "Usa l'ampolla su tutti.",
           "messageDesc": "Tutti gli alleati con dei PV mancanti si curano completamente.\nGli alleati a PV pieni perdono PV e PS.",
           "result": [
-            "Non dovrebbe far male lasciare che tutti i Peccatori ne usufruiscano.\nHo premuto il pulsante 'gruppo'.\n\"Ngh!\"\n\"Che strano... improvvisamente mi sento male.\"\nQualche Peccatore geme dal dolore.\nPensando a cosa potevano avere in comune... Ho realizzato che non erano feriti.\n\"Questo non deve essere un qualcosa che si può amministrare agli individui in salute.\"\n...Devo fare più attenzione la prossima volta."
+            "Non dovrebbe far male lasciare che tutti i Peccatori ne usufruiscano.\nHo premuto il pulsante 'gruppo'.\n\n\"Ngh!\"\n\"Che strano... improvvisamente mi sento male.\"\n\nQualche Peccatore geme dal dolore.\nPensando a cosa potevano avere in comune... Ho realizzato che non erano feriti.\n\n\"Questo non deve essere un qualcosa che si può amministrare agli individui in salute.\"\n...Devo fare più attenzione la prossima volta."
           ]
         },
         {
@@ -926,7 +926,7 @@
     {
       "id": 10403,
       "name": "Poking at the Egg",
-      "desc": "\"Queste sono... uova?\"\n\"Per favore faccia attenzione. Potrebbe essere un'Anormalità.\"\nOra che ci penso, mi è stato detto che l'attrezzatura dei laboratori sotterranei della K Corp. maneggiavano le uova delle Succursali della L Corp.\n\"Whoa, ehi... Questo si sta muovendo?\"\nProprio come il Peccatore stava osservando, un uovo iniziava a muoversi.\nCosa faremo?",
+      "desc": "\"Queste sono... uova?\"\n\"Per favore faccia attenzione. Potrebbe essere un'Anormalità.\"\nOra che ci penso, mi è stato detto che l'attrezzatura dei laboratori sotterranei della K Corp. maneggiavano le uova delle Succursali della L Corp.\n\n\"Whoa, ehi... Questo si sta muovendo?\"\n\nProprio come il Peccatore stava osservando, un uovo iniziava a muoversi.\nCosa faremo?",
       "options": [
         {
           "message": "Tocca le uova.",
@@ -956,21 +956,21 @@
     {
       "id": 10405,
       "name": "Make a Wish",
-      "desc": "\"Quelle lassù... sono delle stelle?\"\nGuardando in alto, vediamo una scena che assomiglia ad un cielo notturno dietro una fessura.\n\"Ammirate, una stella cadente!!\"\nHo sentito dire che esprimere un desiderio quando c'è una stella cadente lo fa avverare.\nForse dovremmo provarci?",
+      "desc": "\"Quelle lassù... sono delle stelle?\"\n\nGuardando in alto, vediamo una scena che assomiglia ad un cielo notturno dietro una fessura.\n\n\"Ammirate, una stella cadente!!\"\n\nHo sentito dire che esprimere un desiderio quando c'è una stella cadente lo fa avverare.\nForse dovremmo provarci?",
       "options": [
         {
           "message": "Esprimi un desiderio.",
           "messageDesc": "50% di chance di ottenere un Dono E.G.O",
           "result": [
-            "\"Romantico.\"\nTutti hanno chiuso gli occhi ed espresso un desiderio.\nChe abbia ricevuto una risposta?\nQuando abbiamo aperto gli occhi, per terra c'era un frammento luccicante.\n\"Hmm, mi domando chi abbia desiderato qualcosa del genere?\"\nCommentavano i Peccatori, ma può darsi che non abbia niente a che fare coi desideri dopotutto.\nPrendendo il frammento, abbiamo lasciato il posto.",
-            "\"Romantico.\"\nTutti hanno chiuso gli occhi ed espresso un desiderio.\n...Però, non è successo niente.\n\"Chi è stato! Uno di voi deve aver aperto gli occhi nel mentre!\"\nCalmando il Peccatore infuriato, abbiamo lasciato la stanza."
+            "\"Romantico.\"\n\nTutti hanno chiuso gli occhi ed espresso un desiderio.\n\nChe abbia ricevuto una risposta?\nQuando abbiamo aperto gli occhi, per terra c'era un frammento luccicante.\n\n\"Hmm, mi domando chi abbia desiderato qualcosa del genere?\"\n\nCommentavano i Peccatori, ma può darsi che non abbia niente a che fare coi desideri dopotutto.\nPrendendo il frammento, abbiamo lasciato il posto.",
+            "\"Romantico.\"\n\nTutti hanno chiuso gli occhi ed espresso un desiderio.\n\n...Però, non è successo niente.\n\n\"Chi è stato! Uno di voi deve aver aperto gli occhi nel mentre!\"\nCalmando il Peccatore infuriato, abbiamo lasciato la stanza."
           ]
         },
         {
           "message": "Vattene.",
           "messageDesc": "Non accade nulla.",
           "result": [
-            "Se quella storiella fantasiosa fosse vera, avrei riavuto la mia vera testa molto tempo fa.\nCe ne siamo andati dalla stanza, credendo che sia molto meglio lasciar perdere invece di sprecare il nostro tempo."
+            "Se quella storiella fantasiosa fosse vera, avrei riavuto la mia vera testa molto tempo fa.\n\nCe ne siamo andati dalla stanza, credendo che sia molto meglio lasciar perdere invece di sprecare il nostro tempo."
           ]
         }
       ]
@@ -997,7 +997,7 @@
     {
       "id": 10407,
       "name": "Run",
-      "desc": "Lo spazio si distorce.\nAllo stesso tempo, un verso familiare arriva dalle vostre spalle.\nAssomiglia tanto al verso di un'Anormalità che avevamo precedentemente ridotto a un uovo.\n\"Scappiamo!!\"\nI tredici Peccatori corrono verso il sentiero.\n\"Laggiù!\"\n\"Q-Quello è un vicolo cieco...\"\nI Peccatori sembrano terrorizzati... Proviamo lo stesso ad andare lì dentro?",
+      "desc": "Lo spazio si distorce.\n\nAllo stesso tempo, un verso familiare arriva dalle vostre spalle.\nAssomiglia tanto al verso di un'Anormalità che avevamo precedentemente ridotto a un uovo.\n\n\"Scappiamo!!\"\n\nI tredici Peccatori corrono verso il sentiero.\n\n\"Laggiù!\"\n\"Q-Quello è un vicolo cieco...\"\n\nI Peccatori sembrano terrorizzati... Proviamo lo stesso ad andare lì dentro?",
       "options": [
         {
           "message": "Scappa.",
@@ -1009,7 +1009,7 @@
           "message": "Non scappare.",
           "messageDesc": "Inizia un combattimento. Vinci per ottenere un Dono E.G.O.",
           "result": [
-            "Finendo in un vicolo cieco, può finire solo in un modo.\n\"Kgh!\"\nL'Anormalità incorna i Peccatori.\n\"Testardo d'un toro...\"\nNon abbiamo scelta. Deve essere soppressa un'altra volta."
+            "Finendo in un vicolo cieco, può finire solo in un modo.\n\n\"Kgh!\"\n\nL'Anormalità incorna i Peccatori.\n\n\"Testardo d'un toro...\"\n\nNon abbiamo scelta. Deve essere soppressa un'altra volta."
           ]
         }
       ]
@@ -1017,7 +1017,7 @@
     {
       "id": 1040701,
       "name": "Run.",
-      "desc": "Continuiamo a correre nella strada chiusa.\n\"V-Verremo colpiti da quella cosa se continuiamo!\"\n\"Quel toro diventa più veloce a forza di inseguirci...\"\nL'ansia è palpabile.\nCosa dovremmo fare?",
+      "desc": "Continuiamo a correre nella strada chiusa.\n\n\"V-Verremo colpiti da quella cosa se continuiamo!\"\n\"Quel toro diventa più veloce a forza di inseguirci...\"\n\nL'ansia è palpabile.\nCosa dovremmo fare?",
       "options": [
         {
           "message": "Scappa.",
@@ -1029,7 +1029,7 @@
           "message": "Non scappare.",
           "messageDesc": "Inizia un combattimento. Vinci per ottenere un Dono E.G.O.",
           "result": [
-            "Non c'è scampo.\nMeglio smetterla di scappare e concentrare le forze rimaste per l'inevitabile battaglia...\n\"Kgh!\"\nL'Anormalità incorna i Peccatori.\n\"Testardo d'un toro...\"\nNon abbiamo scelta. Deve essere soppressa un'altra volta."
+            "Non c'è scampo.\nMeglio smetterla di scappare e concentrare le forze rimaste per l'inevitabile battaglia...\n\n\"Kgh!\"\n\nL'Anormalità incorna i Peccatori.\n\n\"Testardo d'un toro...\"\n\nNon abbiamo scelta. Deve essere soppressa un'altra volta."
           ]
         }
       ]
@@ -1037,20 +1037,20 @@
     {
       "id": 1040702,
       "name": "Run.",
-      "desc": "Continuiamo a correre via.\n\"Sarebbe meglio se non ci fossero altre circostanze da curarci.\"\nMormora un Peccatore di una sua osservazione.\n\"Huh?!\"\nSolo allora, il muro di fronte a noi si tramuta in una vasta zona.\nCosa faremo adesso?",
+      "desc": "Continuiamo a correre via.\n\n\"Sarebbe meglio se non ci fossero altre circostanze da curarci.\"\nMormora un Peccatore di una sua osservazione.\n\n\"Huh?!\"\n\nSolo allora, il muro di fronte a noi si tramuta in una vasta zona.\nCosa faremo adesso?",
       "options": [
         {
           "message": "Scappa.",
           "messageDesc": "Inizia un combattimento. Vinci per ottenere un Dono E.G.O.",
           "result": [
-            "Continuiamo a correre nel passaggio.\nAnche se non sappiamo dove possa condurci...\n\"Cosa?\"\nQuanto abbiamo corso?\nSiamo finiti in un'arena fatta apposta per una battaglia contro l'Anormalità.\n\"Testardo d'un toro...\"\nNon abbiamo scelta. Deve essere soppressa un'altra volta."
+            "Continuiamo a correre nel passaggio.\nAnche se non sappiamo dove possa condurci...\n\n\"Cosa?\"\n\nQuanto abbiamo corso?\nSiamo finiti in un'arena fatta apposta per una battaglia contro l'Anormalità.\n\n\"Testardo d'un toro...\"\n\nNon abbiamo scelta. Deve essere soppressa un'altra volta."
           ]
         },
         {
           "message": "Non scappare.",
           "messageDesc": "Ottieni un Dono E.G.O.",
           "result": [
-            "Qui finisce la corsa.\nQuella tremenda creatura ci caricherà tutti, ed esserne certi lo rende doppiamente terrificante.\nEppure, sento che in qualche modo tutto andrà bene.\n\"Ah...\"\nL'Anormalità passa attraverso noi per poi sparire nell'ignoto.\nHa lasciato una scia di un fluido bluastro."
+            "Qui finisce la corsa.\nQuella tremenda creatura ci caricherà tutti, ed esserne certi lo rende doppiamente terrificante.\n\nEppure, sento che in qualche modo tutto andrà bene.\n\n\"Ah...\"\n\nL'Anormalità passa attraverso noi per poi sparire nell'ignoto.\nHa lasciato una scia di un fluido bluastro."
           ]
         }
       ]
@@ -1069,7 +1069,7 @@
         {
           "message": "Rimani in silenzio.",
           "result": [
-            "Vorrei che quel silenzio venga disturbato.\nCreerestiunsuonosetufrantumassiuncorpoceleste.\nLa finestra si frantuma di colpo, e i suoi frammenti ricadono sui Peccatori.\nTutti i Peccatori sono feriti.\n\"... Duole al corpo.\"\nAbbiamo lasciato la stanza, sui nostri corpi sono rimaste incastrate delle schegge."
+            "Vorrei che quel silenzio venga disturbato.\n\nCreerestiunsuonosetufrantumassiuncorpoceleste.\n\nLa finestra si frantuma di colpo, e i suoi frammenti ricadono sui Peccatori.\nTutti i Peccatori sono feriti.\n\n\"... Duole al corpo.\"\n\nAbbiamo lasciato la stanza, sui nostri corpi sono rimaste incastrate delle schegge."
           ]
         }
       ]
@@ -1116,27 +1116,27 @@
     {
       "id": 1040402,
       "name": "Picking a Row and Column",
-      "desc": "Molti oggetti sono apparsi negli scomparti nascosti.\nPotrebbero rivelarsi utili per i prossimi incontri.\nQuale dovremo prendere?",
+      "desc": "Molti oggetti sono apparsi negli scomparti nascosti.\n\nPotrebbero rivelarsi utili per i prossimi incontri.\nQuale dovremo prendere?",
       "options": [
         {
           "message": "Apri lo scaffale nella seconda riga, quinta colonna.",
           "messageDesc": "Ottieni un Dono E.G.O.",
           "result": [
-            "Hai preso l'oggetto dallo scaffale sulla seconda riga, quinta colonna.\nÈ una misteriosa massa verde.\nQuando la osservi, ti sembra di guardare una maschera.\nPoco dopo, l'area iniziò a farsi sfocata e l'armadietto scomparve."
+            "Hai preso l'oggetto dallo scaffale sulla seconda riga, quinta colonna.\n\nÈ una misteriosa massa verde.\nQuando la osservi, ti sembra di guardare una maschera.\n\nPoco dopo, l'area iniziò a farsi sfocata e l'armadietto scomparve."
           ]
         },
         {
           "message": "Apri lo scaffale nella quinta riga, ottava colonna.",
           "messageDesc": "Ottieni un Dono E.G.O.",
           "result": [
-            "Hai preso l'oggetto dallo scaffale sulla quinta riga, ottava colonna.\nÈ una misteriosa massa blu.\nQuando la osservi, ti sembra di guardare un pugnale.\nPoco dopo, l'area iniziò a farsi sfocata e l'armadietto scomparve."
+            "Hai preso l'oggetto dallo scaffale sulla quinta riga, ottava colonna.\n\nÈ una misteriosa massa blu.\nQuando la osservi, ti sembra di guardare un pugnale.\n\nPoco dopo, l'area iniziò a farsi sfocata e l'armadietto scomparve."
           ]
         },
         {
           "message": "Apri lo scaffale nella sesta riga, prima colonna.",
           "messageDesc": "Ottieni un Dono E.G.O.",
           "result": [
-            "Hai preso l'oggetto dallo scaffale sulla sesta riga, prima colonna.\nÈ una misteriosa massa gialla.\nQuando la osservi, ti sembra di guardare un fiore.\nPoco dopo, l'area iniziò a farsi sfocata e l'armadietto scomparve."
+            "Hai preso l'oggetto dallo scaffale sulla sesta riga, prima colonna.\n\nÈ una misteriosa massa gialla.\nQuando la osservi, ti sembra di guardare un fiore.\n\nPoco dopo, l'area iniziò a farsi sfocata e l'armadietto scomparve."
           ]
         }
       ]
