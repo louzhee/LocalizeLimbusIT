@@ -212,8 +212,8 @@
       },
       {
         "id": 114513,
-        "name": "Panic Recovery",
-        "desc": "Turn End: if this unit is Panicked, reset PS to 0\n\nWhen recovering from Panic: at the next Turn Start, heal PS by this unit's missing PV (max 30)"
+        "name": "Ripresa dal Panico",
+        "desc": "A fine turno, se in Panico, riporta i PS a 0\n\nQuando si riprende dal Panico, recupera PS pari ai PV mancanti all'inizio del turno successivo (max 30)"
       }
     ]
 }
