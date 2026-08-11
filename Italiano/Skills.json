@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "Guardia",
-          "desc": "A Scontro Vinto, aumenta la Soglia di Stordimentodell'avversario"
+          "desc": "A Scontro Vinto, aumenta la Soglia di Stordimento dell'avversario"
         }
       ]
     },
@@ -147,7 +147,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Se i PS del bersaglio sono sotto 0, infligge 1 [Vulnerable] il turno successivo"
+                  "desc": "[OnSucceedAttack] Se i PS del bersaglio sono inferiori a 0, infligge 1 [Vulnerable] il turno successivo"
                 }
               ]
             }
@@ -176,7 +176,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Se i PS del bersaglio sono sotto 0, infligge 1 [Vulnerable] il turno successivo"
+                  "desc": "[OnSucceedAttack] Se i PS del bersaglio sono inferiori a 0, infligge 1 [Vulnerable] il turno successivo"
                 }
               ]
             }
@@ -246,14 +246,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] La Moneta finale +1 Stack in più di quest'effetto"
+                  "desc": "[OnSucceedAttack] La Moneta finale infligge +1 Stack in più di [PenetrateTakeDamageUp]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] La Moneta finale +1 Stack in più di quest'effetto"
+                  "desc": "[OnSucceedAttack] La Moneta finale infligge +1 Stack in più di [PenetrateTakeDamageUp]"
                 }
               ]
             },
@@ -277,14 +277,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] L'Ultima Moneta infligge +1 Stack dei questo effetto"
+                  "desc": "[OnSucceedAttack] La Moneta finale infligge +1 Stack in più di [PenetrateTakeDamageUp] e [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] L'Ultima Moneta infligge +1 Stack dei questo effetto"
+                  "desc": "[OnSucceedAttack] La Moneta finale infligge +1 Stack in più di [PenetrateTakeDamageUp] e [Burst]"
                 }
               ]
             },
@@ -500,7 +500,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Infligge +50% danni sul Colpo Critico"
+                  "desc": "[CriticalOnSucceedAttack] Infligge +50% danni"
                 }
               ]
             }
@@ -523,7 +523,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Infligge +70% danni sul Colpo Critico"
+                  "desc": "[CriticalOnSucceedAttack] Infligge +70% danni"
                 }
               ]
             }
@@ -552,7 +552,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "+70% Danni sul Colpo Critico"
+                  "desc": "[CriticalOnSucceedAttack] Infligge +70% danni"
                 }
               ]
             }
@@ -1059,7 +1059,7 @@
         {
           "level": 3,
           "name": "Per la Giustizia!",
-          "desc": "A Velocità 10+, Potere Moneta +2",
+          "desc": "A 10+ Velocità, Potere Moneta +2",
           "coinlist": [
             {},
             {},
@@ -1069,7 +1069,7 @@
         {
           "level": 4,
           "name": "Per la Giustizia!",
-          "desc": "A Velocità 10+, Potere Moneta +2",
+          "desc": "A 10+ Velocità, Potere Moneta +2",
           "coinlist": [
             {
               "coindescs": [
@@ -1245,7 +1245,7 @@
         {
           "level": 3,
           "name": "Strappa spazio",
-          "desc": "[WhenUse] Spende 10 Conteggio [Charge] per ottenere +4 Potere Moneta\nA meno di 10 Conteggio [Charge], perde 20% PV",
+          "desc": "[WhenUse] Spende 10 Conteggio [Charge] per ottenere +4 Potere Moneta\nA meno di 10 Conteggio [Charge], perde il 20% dei PV",
           "coinlist": [
             {
               "coindescs": [
@@ -1367,7 +1367,7 @@
         {
           "level": 2,
           "name": "Doppio Colpo",
-          "desc": "[WhenUse] Sotto il 50% di PV, ottiene 2 [Agility] il turno successivo",
+          "desc": "[WhenUse] A meno del 50% dei PV, ottiene 2 [Agility] il turno successivo",
           "coinlist": [
             {
               "coindescs": [
@@ -1388,7 +1388,7 @@
         {
           "level": 4,
           "name": "Doppio Colpo",
-          "desc": "[WhenUse] Sotto il 50% di PV, ottiene 4 [Agility] il turno successivo",
+          "desc": "[WhenUse] Se i PV sono inferiori al 50%, ottiene 4 [Agility] il turno successivo",
           "coinlist": [
             {
               "coindescs": [
@@ -1414,7 +1414,7 @@
         {
           "level": 3,
           "name": "Respiro Affannato",
-          "desc": "A Velocità 10+, Potere Finale +3",
+          "desc": "A 10+ Velocità, Potere Finale +3",
           "coinlist": [
             {}
           ]
@@ -1422,7 +1422,7 @@
         {
           "level": 4,
           "name": "Respiro Affannato",
-          "desc": "A Velocità 10+, Potere Finale +5",
+          "desc": "A 10+ Velocità, Potere Finale +5",
           "coinlist": [
             {}
           ]
@@ -1619,7 +1619,7 @@
         {
           "level": 2,
           "name": "Taglio in Su",
-          "desc": "Potere Finale +2 contro le unità con [SlashTakeDamageUp]\n[WinDuel] Ottiene 1 [Enhancement] il turno successivo",
+          "desc": "Potere Finale +2 contro le unità afflitte da [SlashTakeDamageUp]\n[WinDuel] Ottiene 1 [Enhancement] il turno successivo",
           "coinlist": [
             {
               "coindescs": [
@@ -1638,7 +1638,7 @@
         {
           "level": 3,
           "name": "Sciabordio",
-          "desc": "[WinDuel] Questa Abilità infligge altri 2 [SlashTakeDamageUp]",
+          "desc": "[WinDuel] Questa Abilità infligge +2 [SlashTakeDamageUp] addizionali",
           "coinlist": [
             {
               "coindescs": [
@@ -2535,7 +2535,7 @@
         {
           "level": 2,
           "name": "Doppio Colpo",
-          "desc": "Se usato senza aver subito danni il turno precedente, Potere Moneta +1",
+          "desc": "Se questa unità non ha subito danni il turno precedente, Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
@@ -2556,7 +2556,7 @@
         {
           "level": 4,
           "name": "Doppio Colpo",
-          "desc": "Se usato senza aver subito danni il turno precedente, Potere Moneta +1",
+          "desc": "Se questa unità non ha subito danni il turno precedente, Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
@@ -2582,7 +2582,7 @@
         {
           "level": 3,
           "name": "Vortice",
-          "desc": "Se usato senza aver subito danni il turno precedente, Potere Moneta +2",
+          "desc": "Se questa unità non ha subito danni il turno precedente, Potere Moneta +2",
           "coinlist": [
             {},
             {
@@ -2597,7 +2597,7 @@
         {
           "level": 4,
           "name": "Vortice",
-          "desc": "Se usato senza aver subito danni il turno precedente, Potere Moneta +2",
+          "desc": "Se questa unità non ha subito danni il turno precedente, Potere Moneta +2",
           "coinlist": [
             {},
             {
@@ -2877,7 +2877,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Se il bersaglio ha sotto il 25% di PV ed è ancora in vita, usa di nuovo questa Moneta\nTesta: +50% Danni per questa Moneta"
+                  "desc": "[OnSucceedAttackHead] Se il bersaglio ha meno del 25% dei PV ed è ancora in vita, usa di nuovo questa Moneta\nTesta: +50% Danni per questa Moneta"
                 },
                 {
                   "desc": "[ReUseOnSucceedAttackHead] +50% Danni per questa Moneta"
@@ -2908,7 +2908,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Se il bersaglio ha sotto il 25% di PV ed è ancora in vita, usa di nuovo questa Moneta\nTesta: +50% Danni per questa Moneta"
+                  "desc": "[OnSucceedAttackHead] Se il bersaglio ha meno del 25% dei PV ed è ancora in vita, usa di nuovo questa Moneta\nTesta: +50% Danni per questa Moneta"
                 },
                 {
                   "desc": "[ReUseOnSucceedAttackHead] +50% Danni per questa Moneta"
@@ -2925,7 +2925,7 @@
         {
           "level": 3,
           "name": "Mutilare",
-          "desc": "[EnemyKill] Usa di nuovo questa Abilità 1 volta",
+          "desc": "[EnemyKill] Usa questa Abilità un'altra volta",
           "coinlist": [
             {
               "coindescs": [
@@ -2942,7 +2942,7 @@
         {
           "level": 4,
           "name": "Mutilare",
-          "desc": "[EnemyKill] Usa di nuovo questa Abilità 1 volta",
+          "desc": "[EnemyKill] Usa questa Abilità un'altra volta",
           "coinlist": [
             {
               "coindescs": [
@@ -3107,7 +3107,7 @@
         {
           "level": 1,
           "name": "Lama Estrema",
-          "desc": "Sotto il 25% di PV, +1 Potere Finale",
+          "desc": "Sotto il 25% dei PV, +1 Potere Finale",
           "coinlist": [
             {}
           ]
@@ -3115,7 +3115,7 @@
         {
           "level": 2,
           "name": "Lama Estrema",
-          "desc": "Sotto il 25% di PV, +2 Potere Finale",
+          "desc": "Sotto il 25% dei PV, Potere Finale +2",
           "coinlist": [
             {}
           ]
@@ -3123,7 +3123,7 @@
         {
           "level": 4,
           "name": "Lama Estrema",
-          "desc": "Sotto il 50% di PV, Potere Finale +2\n[WhenUse] Ottiene +3 Conteggio [Breath]",
+          "desc": "A meno del 50% dei PV, Potere Finale +2\n[WhenUse] Ottiene +3 Conteggio [Breath]",
           "coinlist": [
             {}
           ]
@@ -3136,7 +3136,7 @@
         {
           "level": 1,
           "name": "Lama Volante",
-          "desc": "Sotto il 25% di PV, +1 Potere Finale",
+          "desc": "Sotto il 25% dei PV, +1 Potere Finale",
           "coinlist": [
             {}
           ]
@@ -3144,7 +3144,7 @@
         {
           "level": 2,
           "name": "Lama Volante",
-          "desc": "Sotto il 25% di PV, +2 Potere Finale",
+          "desc": "Sotto il 25% dei PV, Potere Finale +2",
           "coinlist": [
             {}
           ]
@@ -3152,7 +3152,7 @@
         {
           "level": 4,
           "name": "Lama Volante",
-          "desc": "Sotto il 50% di PV, +2 Potere Finale\n[WhenUse] Ottiene 3 [Breath]",
+          "desc": "A meno del 50% dei PV, Potere Finale +2\n[WhenUse] Ottiene 3 [Breath]",
           "coinlist": [
             {}
           ]
@@ -3165,7 +3165,7 @@
         {
           "level": 3,
           "name": "Colpo Fulmineo",
-          "desc": "Sotto il 25% di PV, +2 Potere Finale",
+          "desc": "Sotto il 25% dei PV, Potere Finale +2",
           "coinlist": [
             {
               "coindescs": [
@@ -3186,7 +3186,7 @@
         {
           "level": 4,
           "name": "Colpo Fulmineo",
-          "desc": "A 10+ Conteggio [Breath], Potere Finale +2\nSotto il 50% di PV, Portata Attacco +1",
+          "desc": "A 10+ Conteggio [Breath], Potere Finale +2\nA meno del 50% dei PV, Portata Attacco +1",
           "coinlist": [
             {
               "coindescs": [
@@ -3238,14 +3238,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "Spende 1 [Bullet]"
+                  "desc": "Usa 1 [Bullet]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spende 1 [Bullet]"
+                  "desc": "Usa 1 [Bullet]"
                 }
               ]
             },
@@ -3266,7 +3266,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Spende 1 [Bullet]"
+                  "desc": "Usa 1 [Bullet]"
                 },
                 {
                   "desc": ""
@@ -3276,7 +3276,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Spende 1 [Bullet]"
+                  "desc": "Usa 1 [Bullet]"
                 }
               ]
             },
@@ -3302,21 +3302,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "Spende 1 [Bullet]\n[OnSucceedAttack] Infligge 1 [Laceration]"
+                  "desc": "Usa 1 [Bullet]\n[OnSucceedAttack] Infligge 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spende 1 [Bullet]\n[OnSucceedAttack] Infligge 1 [Laceration]"
+                  "desc": "Usa 1 [Bullet]\n[OnSucceedAttack] Infligge 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spende 1 [Bullet]\n[OnSucceedAttack] Infligge 1 [Laceration]"
+                  "desc": "Usa 1 [Bullet]\n[OnSucceedAttack] Infligge 1 [Laceration]"
                 }
               ]
             },
@@ -3326,26 +3326,26 @@
         {
           "level": 2,
           "name": "Fuoco Concentrato",
-          "desc": "Potere Moneta +1 a Velocità 6+",
+          "desc": "Potere Moneta +1 a 6+ Velocità",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Spende 1 [Bullet]\n[OnSucceedAttack] Infligge 1 [Laceration]"
+                  "desc": "Usa 1 [Bullet]\n[OnSucceedAttack] Infligge 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spende 1 [Bullet]\n[OnSucceedAttack] Infligge 1 [Laceration]"
+                  "desc": "Usa 1 [Bullet]\n[OnSucceedAttack] Infligge 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spende 1 [Bullet]\n[OnSucceedAttack] Infligge 1 [Laceration]"
+                  "desc": "Usa 1 [Bullet]\n[OnSucceedAttack] Infligge 1 [Laceration]"
                 }
               ]
             },
@@ -3360,19 +3360,19 @@
         {
           "level": 1,
           "name": "Soppressione Rapida",
-          "desc": "Potere Moneta +2 a Velocità 6+",
+          "desc": "Potere Moneta +2 a 6+ Velocità",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Spende 1 [Bullet]\n[OnSucceedAttack] Infligge 2 [Vulnerable]"
+                  "desc": "Usa 1 [Bullet]\n[OnSucceedAttack] Infligge 2 [Vulnerable]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spende 1 [Bullet]\n[OnSucceedAttack] Infligge 2 [Vulnerable]"
+                  "desc": "Usa 1 [Bullet]\n[OnSucceedAttack] Infligge 2 [Vulnerable]"
                 }
               ]
             },
@@ -3797,7 +3797,7 @@
         {
           "level": 2,
           "name": "Lama Volante",
-          "desc": "Sotto il 50% di PV, questa Abilità fornisce 1 [Breath] in più",
+          "desc": "A meno del 50% dei PV, questa Abilità fornisce 1 [Breath] in più",
           "keywords": [],
           "coinlist": [
             {
@@ -3819,7 +3819,7 @@
         {
           "level": 4,
           "name": "Lama Volante",
-          "desc": "Sotto il 50% di PV, questa Abilità fornisce 3 [Breath] in più",
+          "desc": "A meno del 50% dei PV, questa Abilità fornisce 3 [Breath] in più",
           "keywords": [],
           "coinlist": [
             {
@@ -3869,7 +3869,7 @@
           "level": 2,
           "name": "Colpo Fulmineo",
           "keywords": [],
-          "desc": "[WhenUse] Sotto il 50% di PV, usa di nuovo le Monete 1 e 2",
+          "desc": "[WhenUse] A meno del 50% dei PV, usa di nuovo le Monete 1 e 2",
           "coinlist": [
             {
               "coindescs": [
@@ -3891,7 +3891,7 @@
           "level": 4,
           "name": "Colpo Fulmineo",
           "keywords": [],
-          "desc": "[WhenUse] Sotto il 50% di PV, usa di nuovo le Monete 1 e 2",
+          "desc": "[WhenUse] A meno del 50% dei PV, usa di nuovo le Monete 1 e 2",
           "coinlist": [
             {
               "coindescs": [
@@ -3930,7 +3930,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Sotto il 25% di PV, cura del 100% dei danni inflitti"
+                  "desc": "[CriticalOnSucceedAttack] Sotto il 25% dei PV, cura del 100% dei danni inflitti"
                 }
               ]
             }
@@ -3952,7 +3952,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Sotto il 25% di PV, cura del 100% dei danni inflitti"
+                  "desc": "[CriticalOnSucceedAttack] Sotto il 25% dei PV, cura del 100% dei danni inflitti"
                 }
               ]
             }
@@ -4055,14 +4055,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "Spende 1 [Bullet]\n[OnSucceedAttack] Infligge 4 [Vibration]"
+                  "desc": "Usa 1 [Bullet]\n[OnSucceedAttack] Infligge 4 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spende 1 [Bullet]\n[OnSucceedAttack] Infligge 4 [Vibration]"
+                  "desc": "Usa 1 [Bullet]\n[OnSucceedAttack] Infligge 4 [Vibration]"
                 }
               ]
             }
@@ -4083,14 +4083,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "Spende 1 [Bullet]\n[OnSucceedAttack] Infligge 8 [Vibration]; Infligge +2 Conteggio [Vibration]"
+                  "desc": "Usa 1 [Bullet]\n[OnSucceedAttack] Infligge 8 [Vibration]; Infligge +2 Conteggio [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spende 1 [Bullet]\n[OnSucceedAttack] Infligge 8 [Vibration]; Infligge +2 Conteggio [Vibration]"
+                  "desc": "Usa 1 [Bullet]\n[OnSucceedAttack] Infligge 8 [Vibration]; Infligge +2 Conteggio [Vibration]"
                 }
               ]
             }
@@ -4116,21 +4116,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "Spende 1 [Bullet]\n[OnSucceedAttack] Infligge 4 [Burst]; Infligge +2 Conteggio [Burst]"
+                  "desc": "Usa 1 [Bullet]\n[OnSucceedAttack] Infligge 4 [Burst]; Infligge +2 Conteggio [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spende 1 [Bullet]\n[OnSucceedAttack] Infligge 4 [Burst]; Infligge +2 Conteggio [Burst]"
+                  "desc": "Usa 1 [Bullet]\n[OnSucceedAttack] Infligge 4 [Burst]; Infligge +2 Conteggio [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spende 1 [Bullet]\n[OnSucceedAttack] Infligge 5 [Vulnerable]"
+                  "desc": "Usa 1 [Bullet]\n[OnSucceedAttack] Infligge 5 [Vulnerable]"
                 }
               ]
             }
@@ -4151,21 +4151,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "Spende 1 [Bullet]\n[OnSucceedAttack] Infligge 4 [Burst]; Infligge +2 Conteggio [Burst]"
+                  "desc": "Usa 1 [Bullet]\n[OnSucceedAttack] Infligge 4 [Burst]; Infligge +2 Conteggio [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spende 1 [Bullet]\n[OnSucceedAttack] Infligge 4 [Burst]; Infligge +2 Conteggio [Burst]"
+                  "desc": "Usa 1 [Bullet]\n[OnSucceedAttack] Infligge 4 [Burst]; Infligge +2 Conteggio [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spende 1 [Bullet]\n[OnSucceedAttack] Infligge 5 [Vulnerable]"
+                  "desc": "Usa 1 [Bullet]\n[OnSucceedAttack] Infligge 5 [Vulnerable]"
                 }
               ]
             }
@@ -4304,7 +4304,7 @@
         {
           "level": 3,
           "name": "Ammazzare",
-          "desc": "Potere Finale +1 quando è sotto 0 PS",
+          "desc": "Potere Finale +1 quando i PS sono inferiori a 0",
           "coinlist": [
             {},
             {},
@@ -4321,7 +4321,7 @@
         {
           "level": 4,
           "name": "Ammazzare",
-          "desc": "Potere Finale +1 quando è sotto 0 PS",
+          "desc": "Potere Finale +1 quando i PS sono inferiori a 0",
           "coinlist": [
             {
               "coindescs": [
@@ -4507,7 +4507,7 @@
         {
           "level": 3,
           "name": "Taglio Apricielo",
-          "desc": "Se il bersaglio ha 6+ [Laceration], raddoppia la probabilità di critico",
+          "desc": "Se il bersaglio ha 6+ [Laceration], raddoppia la probabilità di infliggere un colpo critico",
           "coinlist": [
             {
               "coindescs": [
@@ -4521,7 +4521,7 @@
         {
           "level": 4,
           "name": "Taglio Apricielo",
-          "desc": "Se il bersaglio ha 6+ [Laceration], raddoppia la probabilità di critico\nA 10+ [Breath], +100% Danni Critici",
+          "desc": "Se il bersaglio ha 6+ [Laceration], raddoppia la probabilità di infliggere un colpo critico\nA 10+ [Breath], +100% Danni Critici",
           "coinlist": [
             {
               "coindescs": [
@@ -4561,7 +4561,7 @@
         {
           "level": 2,
           "name": "Taglio Apricielo",
-          "desc": "Se il bersaglio ha 6+ [Laceration], raddoppia la probabilità di critico",
+          "desc": "Se il bersaglio ha 6+ [Laceration], raddoppia la probabilità di infliggere un colpo critico",
           "coinlist": [
             {
               "coindescs": [
@@ -4691,7 +4691,7 @@
         {
           "level": 3,
           "name": "Sopressione",
-          "desc": "Se il bersaglio non ha subito danni da attacchi questo turno, Potere Moneta +2",
+          "desc": "Se il bersaglio non ha subito danni da attacchi in questo turno, Potere Moneta +2",
           "coinlist": [
             {
               "coindescs": [
@@ -4715,7 +4715,7 @@
         {
           "level": 4,
           "name": "Soppressione",
-          "desc": "Se il bersaglio non ha subito danni da attacchi questo turno, Potere Moneta +3",
+          "desc": "Se il bersaglio non ha subito danni da attacchi in questo turno, Potere Moneta +3",
           "coinlist": [
             {
               "coindescs": [
@@ -5193,7 +5193,7 @@
         {
           "level": 4,
           "name": "Colpo Forte",
-          "desc": "[WhenUse] Dà 1 [Protection] all'alleato con meno PV il turno successivo\n[WhenUse] Ottiene +10 [Aggro] per questo Slot Abilità il turno successivo",
+          "desc": "[WhenUse] l'alleato con meno PV Ottiene 1 [Protection] il turno successivo\n[WhenUse] Ottiene +10 [Aggro] per questo Slot Abilità il turno successivo",
           "coinlist": [
             {
               "coindescs": [
@@ -5404,7 +5404,7 @@
         {
           "level": 4,
           "name": "Pañata Party",
-          "desc": "Se i PS del bersaglio sono sotto 0, aumenta la probabilità di critico in proporzione ai suoi PS\nSe l'unità ha 5+ Conteggio [Breath], +30% Danni Critici",
+          "desc": "Se i PS del bersaglio sono inferiori a 0, aumenta la probabilità di di infliggere un colpo critico in proporzione ai suoi PS\nSe l'unità ha 5+ Conteggio [Breath], +30% Danni Critici",
           "coinlist": [
             {
               "coindescs": [
@@ -5687,7 +5687,7 @@
         {
           "level": 3,
           "name": "Balzo Decisivo",
-          "desc": "Se i PV del bersaglio sono sotti il 25%, Potere Finale +2",
+          "desc": "Se i PV del bersaglio sono sotto il 25%, Potere Finale +2",
           "coinlist": [
             {},
             {
@@ -5996,7 +5996,7 @@
                   "desc": "[OnSucceedAttack] Se il bersaglio ha [Burst], +10% Danni"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Si cura del 30% dei danni inflitti"
+                  "desc": "[OnSucceedAttackHead] Recupera PV pari al 30% dei danni inflitti"
                 }
               ]
             }
@@ -6273,7 +6273,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Si cura del 30% dei danni inflitti"
+                  "desc": "[OnSucceedAttackHead] Recupera PV pari al 30% dei danni inflitti"
                 }
               ]
             },
@@ -6288,7 +6288,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Si cura del 50% dei danni inflitti"
+                  "desc": "[OnSucceedAttackHead] Recupera PV pari al 50% dei danni inflitti"
                 }
               ]
             },
@@ -6303,7 +6303,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si cura del 50% dei danni inflitti"
+                  "desc": "[OnSucceedAttack] Recupera PV pari al 50% dei danni inflitti"
                 }
               ]
             },
@@ -6340,7 +6340,7 @@
                   "desc": "[OnSucceedAttack] Infligge 5 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Si cura del 50% dei danni inflitti"
+                  "desc": "[OnSucceedAttackHead] Recupera PV pari al 50% dei danni inflitti"
                 }
               ]
             }
@@ -6357,7 +6357,7 @@
                   "desc": "[OnSucceedAttack] Infligge 5 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Si cura del 50% dei danni inflitti"
+                  "desc": "[OnSucceedAttack] Recupera PV pari al 50% dei danni inflitti"
                 }
               ]
             }
@@ -6397,7 +6397,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Recupera del 100% dei danni inflitti"
+                  "desc": "[OnSucceedAttackHead] Recupera PV pari al 100% dei danni inflitti"
                 }
               ]
             }
@@ -6432,7 +6432,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si cura del 100% dei danni inflitti"
+                  "desc": "[OnSucceedAttack] Recupera PV pari al 100% dei danni inflitti"
                 }
               ]
             }
@@ -6531,7 +6531,7 @@
         {
           "level": 4,
           "name": "Conficca",
-          "desc": "[WhenUse] Ottiene +4 [Aggro] per questo Slot Abilità il turno successivo\nSotto il 50% di PV, Potere Moneta +2",
+          "desc": "[WhenUse] Ottiene +4 [Aggro] per questo Slot Abilità il turno successivo\nA meno del 50% dei PV, Potere Moneta +2",
           "coinlist": [
             {
               "coindescs": [
@@ -6645,7 +6645,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Recupera 50% dei danni inflitti"
+                  "desc": "[OnSucceedAttack] Recupera PV pari al 50% dei danni inflitti"
                 }
               ]
             }
@@ -6680,7 +6680,7 @@
         {
           "level": 1,
           "name": "Idiozia…!",
-          "desc": "[StartBattle] Ottiene 1 [Protection]\nSotto il 50% di PV, Potere Finale +2",
+          "desc": "[StartBattle] Ottiene 1 [Protection]\nA meno del 50% dei PV, Potere Finale +2",
           "coinlist": [
             {}
           ]
@@ -7024,7 +7024,7 @@
         {
           "level": 3,
           "name": "Esecuzione",
-          "desc": "Se Uccide, cura 10 PS a tutti gli alleati e applica 1 [PenetrateDamageUp] e [HitDamageUp]",
+          "desc": "Se Uccide, tutti gli alleati recuperano 10 PS e applica 1 [PenetrateDamageUp] e [HitDamageUp]",
           "coinlist": [
             {
               "coindescs": [
@@ -7052,7 +7052,7 @@
         {
           "level": 4,
           "name": "Esecuzione",
-          "desc": "Se Uccide, cura 10 PS a tutti gli alleati e applica 1 [PenetrateDamageUp] e [HitDamageUp]",
+          "desc": "Se Uccide, tutti gli alleati recuperano 10 PS e applica 1 [PenetrateDamageUp] e [HitDamageUp]",
           "coinlist": [
             {
               "coindescs": [
@@ -7264,7 +7264,7 @@
         {
           "level": 1,
           "name": "Analisi Predittiva",
-          "desc": "In uno Scontro, l'avversario ha -1 Potere Scontro",
+          "desc": "In uno Scontro, l'avversario ha Potere Scontro -1",
           "coinlist": [
             {
               "coindescs": [
@@ -7278,7 +7278,7 @@
         {
           "level": 2,
           "name": "Analisi Predittiva",
-          "desc": "In uno Scontro, l'avversario ha -2 Potere Scontro",
+          "desc": "In uno Scontro, l'avversario ha Potere Scontro -2",
           "coinlist": [
             {
               "coindescs": [
@@ -7292,7 +7292,7 @@
         {
           "level": 4,
           "name": "Analisi Predittiva",
-          "desc": "In uno Scontro, l'avversario ha -2 Potere Scontro",
+          "desc": "In uno Scontro, l'avversario ha Potere Scontro -2",
           "coinlist": [
             {
               "coindescs": [
@@ -7314,7 +7314,7 @@
         {
           "level": 1,
           "name": "Comando sul Campo",
-          "desc": "In uno Scontro, l'avversario ha -1 Potere Scontro",
+          "desc": "In uno Scontro, l'avversario ha Potere Scontro -1",
           "coinlist": [
             {
               "coindescs": [
@@ -7341,7 +7341,7 @@
         {
           "level": 2,
           "name": "Comando sul Campo",
-          "desc": "In uno Scontro, l'avversario ha -2 Potere Scontro",
+          "desc": "In uno Scontro, l'avversario ha Potere Scontro -2",
           "coinlist": [
             {
               "coindescs": [
@@ -7368,7 +7368,7 @@
         {
           "level": 4,
           "name": "Comando sul Campo",
-          "desc": "In uno Scontro, l'avversario ha -2 Potere Scontro",
+          "desc": "In uno Scontro, l'avversario ha Potere Scontro -2",
           "coinlist": [
             {
               "coindescs": [
@@ -7400,7 +7400,7 @@
         {
           "level": 3,
           "name": "Sfrutta la Breccia",
-          "desc": "In uno Scontro, l'avversario ha -2 Potere Scontro",
+          "desc": "In uno Scontro, l'avversario ha Potere Scontro -2",
           "coinlist": [
             {
               "coindescs": [
@@ -7425,7 +7425,7 @@
         {
           "level": 4,
           "name": "Sfrutta la Breccia",
-          "desc": "In uno Scontro, l'avversario ha -2 Potere Scontro\nSe il bersaglio ha 7+ [Burst], Potere Moneta +2",
+          "desc": "In uno Scontro, l'avversario ha Potere Scontro -2\nSe il bersaglio ha 7+ [Burst], Potere Moneta +2",
           "coinlist": [
             {
               "coindescs": [
@@ -7536,7 +7536,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]; a 30+ PS, ne infligge 1 in più; a 45+ PS, infligge 2 in più"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]; a 30+ PS, infligge 1 Conteggio [Combustion] in più; a 45+ PS, infligge 2 Conteggio [Combustion] in più"
                 }
               ]
             }
@@ -7557,7 +7557,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]; a 30+ PS, ne infligge 1 in più; a 45+ PS, infligge 2 in più"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]; a 30+ PS, ne infligge 1 Conteggio [Combustion] in più; a 45+ PS, infligge 2 Conteggio [Combustion] in più"
                 }
               ]
             }
@@ -7586,7 +7586,7 @@
                   "desc": "[OnSucceedAttackHead] Recupera 6 PS"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio ha 6+ Conteggio [Combustion], aumenta la Soglia di Stordimentodel 30% dei danni inflitti"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 6+ Conteggio [Combustion], aumenta la Soglia di Stordimento del 30% dei danni inflitti"
                 }
               ]
             }
@@ -7610,7 +7610,7 @@
                   "desc": "[OnSucceedAttackHead] Recupera 6 PS"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio ha 6+ Conteggio [Combustion], aumenta la Soglia di Stordimentodel 30% dei danni inflitti"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 6+ Conteggio [Combustion], aumenta la Soglia di Stordiment odel 30% dei danni inflitti"
                 }
               ]
             }
@@ -7982,7 +7982,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si cura dei PV in base al [Laceration] sul bersaglio (max 20%)"
+                  "desc": "[OnSucceedAttack] Recupera dei PV in base al [Laceration] sul bersaglio (max 20%)"
                 }
               ]
             }
@@ -8017,7 +8017,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si cura dei PV in base al [Laceration] sul bersaglio (max 20%)"
+                  "desc": "[OnSucceedAttack] Recupera dei PV in base al [Laceration] sul bersaglio (max 20%)"
                 }
               ]
             }
@@ -9160,7 +9160,7 @@
         {
           "level": 1,
           "name": "Pesta Pozzanghere",
-          "desc": "[WhenUse] Quando è sotto -15 PS, Potere Finale +2",
+          "desc": "[WhenUse] Quando i PS sono inferiori a -15, Potere Finale +2",
           "coinlist": [
             {},
             {
@@ -9189,7 +9189,7 @@
         {
           "level": 2,
           "name": "Pesta Pozzanghere",
-          "desc": "[WhenUse] Quando è sotto -15 PS, Potere Finale +2",
+          "desc": "[WhenUse] Quando i PS sono inferiori a -15, Potere Finale +2",
           "coinlist": [
             {},
             {
@@ -9221,7 +9221,7 @@
         {
           "level": 4,
           "name": "Pesta Pozzanghere",
-          "desc": "[WhenUse] Quando è sotto -15 PS, Potere Finale +3\n[WhenUse] Quando è sotto -25 PS, Potere Finale +2",
+          "desc": "[WhenUse] Quando i PS sono inferiori a -15, Potere Finale +3\n[WhenUse] Quando i PS sono inferiori a -25, Potere Finale +2",
           "coinlist": [
             {},
             {
@@ -9412,7 +9412,7 @@
         {
           "level": 1,
           "name": "Brezza Floreale Momentanea",
-          "desc": "[StartBattle] Consuma 6 Conteggio [Vibration] su di sè per trasformare l'Abilità in un'Abilità Massiva con 3 Portata Attacco",
+          "desc": "[StartBattle] Consuma 6 Conteggio [Vibration] su di sè per trasformare l'Abilità in un'Abilità ad Area con Portata Attacco 3",
           "coinlist": [
             {
               "coindescs": [
@@ -9440,7 +9440,7 @@
         {
           "level": 2,
           "name": "Brezza Floreale Momentanea",
-          "desc": "[StartBattle] Consuma 6 Conteggio [Vibration] su di sè per trasformare l'Abilità in un'Abilità Massiva con 3 Portata Attacco",
+          "desc": "[StartBattle] Consuma 6 Conteggio [Vibration] su di sè per trasformare l'Abilità in un'Abilità ad Area con Portata Attacco 3",
           "coinlist": [
             {
               "coindescs": [
@@ -9468,7 +9468,7 @@
         {
           "level": 4,
           "name": "Brezza Floreale Momentanea",
-          "desc": "[StartBattle] Consuma 6 Conteggio [Vibration] su di sè per trasformare l'Abilità in un'Abilità Massiva con 3 Portata Attacco\nSe il bersaglio principale ha 6+ Conteggio [Sinking], Potere Moneta +1",
+          "desc": "[StartBattle] Consuma 6 Conteggio [Vibration] su di sè per trasformare l'Abilità in un'Abilità ad Area con Portata Attacco 3\nSe il bersaglio principale ha 6+ Conteggio [Sinking], Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
@@ -9790,14 +9790,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]\nSe il bersaglio ha 10+ [Burst], si cura del 20% dei danni inflitti"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]\nSe il bersaglio ha 10+ [Burst], Recupera PV pari al 20% dei danni inflitti"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]\nSe il bersaglio ha 10+ [Burst], si cura del 20% dei danni inflitti"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]\nSe il bersaglio ha 10+ [Burst], Recupera PV pari al 20% dei danni inflitti"
                 }
               ]
             }
@@ -9811,14 +9811,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]\nSe il bersaglio ha 10+ [Burst], si cura del 50% dei danni inflitti"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]\nSe il bersaglio ha 10+ [Burst], Recupera PV pari al 50% dei danni inflitti"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]\nSe il bersaglio ha 10+ [Burst], si cura del 50% dei danni inflitti"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]\nSe il bersaglio ha 10+ [Burst], Recupera PV pari al 50% dei danni inflitti"
                 }
               ]
             }
@@ -9832,14 +9832,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]\nSe il bersaglio ha 10+ [Burst], si cura del 50% dei danni inflitti"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]\nSe il bersaglio ha 10+ [Burst], Recupera PV pari al 50% dei danni inflitti"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]\nSe il bersaglio ha 10+ [Burst], si cura del 50% dei danni inflitti"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]\nSe il bersaglio ha 10+ [Burst], Recupera PV pari al 50% dei danni inflitti"
                 }
               ]
             }
@@ -9853,7 +9853,7 @@
         {
           "level": 3,
           "name": "Eliminare il Bersaglio",
-          "desc": "A 80% or more PV, Potere Moneta +1",
+          "desc": "A 80% o più PV, Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
@@ -9874,7 +9874,7 @@
         {
           "level": 4,
           "name": "Eliminare il Bersaglio",
-          "desc": "A 80% or more PV, Potere Moneta +2",
+          "desc": "A 80% o più PV, Potere Moneta +2",
           "coinlist": [
             {
               "coindescs": [
@@ -10400,7 +10400,7 @@
         {
           "level": 2,
           "name": "Scontro Pesante",
-          "desc": "A 10+ Conteggio [Charge], Potere Finale +1\nA Velocità 7+, infligge +25% Danni",
+          "desc": "A 10+ Conteggio [Charge], Potere Finale +1\nA 7+ Velocità, infligge +25% Danni",
           "coinlist": [
             {
               "coindescs": [
@@ -10414,7 +10414,7 @@
         {
           "level": 4,
           "name": "Scontro Pesante",
-          "desc": "A 10+ Conteggio [Charge], Potere Finale +2\nA Velocità 7+, infligge +25% Danni\n[WhenUse] Ottiene +2 Conteggio [Charge]",
+          "desc": "A 10+ Conteggio [Charge], Potere Finale +2\nA 7+ Velocità, infligge +25% Danni\n[WhenUse] Ottiene +2 Conteggio [Charge]",
           "coinlist": [
             {
               "coindescs": [
@@ -10461,7 +10461,7 @@
         {
           "level": 2,
           "name": "Demolire",
-          "desc": "A Velocità 7+, infligge +1 Conteggio [Laceration] con quest'Abilità",
+          "desc": "A 7+ Velocità, infligge +1 Conteggio [Laceration] con quest'Abilità",
           "coinlist": [
             {
               "coindescs": [
@@ -10489,7 +10489,7 @@
         {
           "level": 4,
           "name": "Demolire",
-          "desc": "A Velocità 7+, infligge +1 Conteggio [Laceration] con quest'Abilità\n[WhenUse] Ottiene +4 Conteggio [Charge]",
+          "desc": "A 7+ Velocità, infligge +1 Conteggio [Laceration] con quest'Abilità\n[WhenUse] Ottiene +4 Conteggio [Charge]",
           "coinlist": [
             {
               "coindescs": [
@@ -10797,7 +10797,7 @@
         {
           "level": 1,
           "name": "Remise",
-          "desc": "A Velocità 7+, Potere Moneta +1",
+          "desc": "A 7+ Velocità, Potere Moneta +1",
           "coinlist": [
             {},
             {
@@ -10812,7 +10812,7 @@
         {
           "level": 2,
           "name": "Remise",
-          "desc": "A Velocità 7+, Potere Moneta +1\n[WinDuel] Ottiene 1 [Agility] il turno successivo",
+          "desc": "A 7+ Velocità, Potere Moneta +1\n[WinDuel] Ottiene 1 [Agility] il turno successivo",
           "coinlist": [
             {},
             {
@@ -10827,7 +10827,7 @@
         {
           "level": 4,
           "name": "Remise",
-          "desc": "A Velocità 7+, Potere Moneta +2\n[WinDuel] Ottiene 1 [Agility] il turno successivo",
+          "desc": "A 7+ Velocità, Potere Moneta +2\n[WinDuel] Ottiene 1 [Agility] il turno successivo",
           "coinlist": [
             {},
             {
@@ -10897,7 +10897,7 @@
         {
           "level": 3,
           "name": "Salut!",
-          "desc": "A Velocità 10+, Potere Moneta +2\n[WinDuel] Infligge più danni in base al Numero di Scontri (+5% per Numero di Scontri, max 50%)",
+          "desc": "A 10+ Velocità, Potere Moneta +2\n[WinDuel] Infligge più danni in base al Numero di Scontri (+5% per Numero di Scontri, max 50%)",
           "coinlist": [
             {
               "coindescs": [
@@ -10912,7 +10912,7 @@
         {
           "level": 4,
           "name": "Salut!",
-          "desc": "A Velocità 10+, Potere Moneta +3\n[WinDuel] Infligge più danni in base al Numero di Scontri (+10% per Numero di Scontri, max 100%)",
+          "desc": "A 10+ Velocità, Potere Moneta +3\n[WinDuel] Infligge più danni in base al Numero di Scontri (+10% per Numero di Scontri, max 100%)",
           "coinlist": [
             {
               "coindescs": [
