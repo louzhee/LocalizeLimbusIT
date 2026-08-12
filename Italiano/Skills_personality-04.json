@@ -96,7 +96,7 @@
         {
           "level": 2,
           "name": "Salto",
-          "desc": "[WhenUse] Ottiene +6 Conteggio [Charge]\nA 10+ Conteggio [Charge], ottiene +1 Potere Moneta",
+          "desc": "[WhenUse] Ottiene +6 Conteggio [Charge]\nA 10+ Conteggio [Charge], ottiene Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
@@ -121,7 +121,7 @@
         {
           "level": 4,
           "name": "Salto",
-          "desc": "[WhenUse] Ottiene +7 Conteggio [Charge]\nA 10+ Conteggio [Charge], ottiene +1 Potere Moneta\nA 15+ Conteggio [Charge], ottiene +1 Potere Moneta in più",
+          "desc": "[WhenUse] Ottiene +7 Conteggio [Charge]\nA 10+ Conteggio [Charge], ottiene Potere Moneta +1\nA 15+ Conteggio [Charge], ottiene Potere Moneta +1 in più",
           "coinlist": [
             {
               "coindescs": [
@@ -416,7 +416,7 @@
         {
           "level": 4,
           "name": "O.F.",
-          "desc": "[WhenUse] Ottiene 4 [Breath]\nGain +1 Potere Moneta per ogni 7 [Breath] su di sé (max 2)",
+          "desc": "[WhenUse] Ottiene 4 [Breath]\nOttiene Potere Moneta +1 per ogni 7 [Breath] su di sé (max 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -886,7 +886,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio è Stordito, infligge +20% Danni sul Colpo Critico"
+                  "desc": "[OnSucceedAttack] Se il bersaglio è Stordito, infligge +20% Danni su Colpo Critico"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge 2 [MarkOfButler]"
@@ -919,7 +919,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio è Stordito, infligge +40% Danni sul Colpo Critico"
+                  "desc": "[OnSucceedAttack] Se il bersaglio è Stordito, infligge +40% Danni su Colpo Critico"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge 2 [MarkOfButler]"
@@ -1526,7 +1526,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Infligge <style=\"highlight\">+4%</style> più danni per ogni [RedEyeFirst] e [PenanceFirst] consumati (max <style=\"highlight\">160%</style>)"
+                  "desc": "Infligge <style=\"highlight\">+4%</style> danni per ogni [RedEyeFirst] e [PenanceFirst] consumati (max <style=\"highlight\">160%</style>)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Cura se stessa e 1 alleato con la minore percentuale di PV di <style=\"highlight\">([PenanceFirst] consumata)%</style> dei PV massimi di quell'unità\n- Cura 1 alleato in più per ogni 2 Rison. più alta (max altri 2 alleati)"
@@ -1987,7 +1987,7 @@
         {
           "level": 3,
           "name": "Timore, Disprezzo",
-          "desc": "Se il bersaglio ha [GazeRyoshu], questa Abilità infligge +2 Potenza [Laceration] e [Vibration] in più\n[BeforeUse] A 7+ (somma di [GazeRyoshu] su tutti i nemici), o a 1+ (somma di [ContemptRyoshu] su tutti i nemici), attiva al suo posto '<noparse>Sguardo</noparse> di <noparse>Timore</noparse> Sotto al<noparse>Disprezzo</noparse> Discendente'\n[WhenUse] A 8+ ([Laceration] + [Vibration]) sul bersaglio, Potere Moneta +1\n[WhenUse] Infligge +1% danni per ogni ([Laceration] + [Vibration]) sul bersaglio (max 20%)",
+          "desc": "Se il bersaglio ha [GazeRyoshu], questa Abilità infligge +2 Potenza [Laceration] e [Vibration] in più\n[BeforeUse] A 7+ (somma di [GazeRyoshu] su tutti i nemici), o a 1+ (somma di [ContemptRyoshu] su tutti i nemici), attiva al suo posto '<noparse>Sguardo di Timore Sotto al Disprezzo Discendente</noparse>'\n[WhenUse] A 8+ ([Laceration] + [Vibration]) sul bersaglio, Potere Moneta +1\n[WhenUse] Infligge +1% danni per ogni ([Laceration] + [Vibration]) sul bersaglio (max 20%)",
           "coinlist": [
             {
               "coindescs": [
@@ -2195,10 +2195,10 @@
                   "desc": "Infligge +30% danni per ogni [BoseProjektil] su di sé (max 210%)"
                 },
                 {
-                  "desc": "+2.5% Danni sul Colpo Critico per ogni Potenza [Breath] (max <style=\"highlight\">25%</style>)"
+                  "desc": "+2.5% Danni su Colpo Critico per ogni Potenza [Breath] (max <style=\"highlight\">25%</style>)"
                 },
                 {
-                  "desc": "+7% Danni sul Colpo Critico per ogni [BoseProjektil] su di sé (max 49%)"
+                  "desc": "+7% Danni su Colpo Critico per ogni [BoseProjektil] su di sé (max 49%)"
                 },
                 {
                   "desc": "Infligge +1% danni per ogni 1% di PV mancanti sul bersaglio principale (max 100%)"
@@ -2240,10 +2240,10 @@
                   "desc": "Infligge +<style=\"highlight\">40</style>% danni per ogni [BoseProjektil] su di sé (max <style=\"highlight\">280</style>%)"
                 },
                 {
-                  "desc": "+<style=\"highlight\">5</style>% Danni sul Colpo Critico per ogni Potenza [Breath] (max <style=\"highlight\">50</style>%)"
+                  "desc": "+<style=\"highlight\">5</style>% Danni su Colpo Critico per ogni Potenza [Breath] (max <style=\"highlight\">50</style>%)"
                 },
                 {
-                  "desc": "+<style=\"highlight\">10</style>% Danni sul Colpo Critico per ogni [BoseProjektil] su di sé (max <style=\"highlight\">70</style>%)"
+                  "desc": "+<style=\"highlight\">10</style>% Danni su Colpo Critico per ogni [BoseProjektil] su di sé (max <style=\"highlight\">70</style>%)"
                 },
                 {
                   "desc": "Infligge +1% danni per ogni 1% di PV mancanti sul bersaglio principale (max 100%)"
@@ -2466,7 +2466,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +2 [Burst] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -2745,7 +2745,7 @@
         {
           "level": 3,
           "name": "Piena Fioritura",
-          "desc": "[WhenUse] Se il bersaglio 6+ ([Vibration] + [Sinking]), Potere Moneta +1",
+          "desc": "[WhenUse] Se il bersaglio ha 6+ ([Vibration] + [Sinking]), Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
@@ -2776,7 +2776,7 @@
                   "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce Conteggio [Vibration] del bersaglio di 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce il Conteggio [Vibration] del bersaglio di 1"
                 }
               ]
             }
@@ -2803,7 +2803,7 @@
                   "desc": "[OnSucceedAttack] Infligge 1 [AlriuneEGOThey]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Sinking]"
                 }
               ]
             },
@@ -2816,7 +2816,7 @@
                   "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce Conteggio [Vibration] del bersaglio di 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce il Conteggio [Vibration] del bersaglio di 1"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge Danno da Tristezza pari all'[Sinking] sul bersaglio"
@@ -2866,7 +2866,7 @@
         {
           "level": 1,
           "name": "Racconti Interminabili",
-          "desc": "[CantDuel]\n[WideAreaRampage]\nQuando questa Abilità infligge [GodokPanicType], se il bersaglio ha già [GodokPanicType] in questo turno o gli verrà inflitto [GodokPanicType] il turno successivo, innesca invece [VibrationExplosion], poi riduce Conteggio [Vibration] del bersaglio di 1",
+          "desc": "[CantDuel]\n[WideAreaRampage]\nQuando questa Abilità infligge [GodokPanicType], se il bersaglio ha già [GodokPanicType] in questo turno o gli verrà inflitto [GodokPanicType] il turno successivo, innesca invece [VibrationExplosion], poi riduce il Conteggio [Vibration] del bersaglio di 1",
           "coinlist": [
             {
               "coindescs": [
@@ -2922,7 +2922,7 @@
                   "desc": "[OnSucceedAttack] Infligge 3 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce Conteggio [Vibration] del bersaglio di 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce il Conteggio [Vibration] del bersaglio di 1"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge Danno da Tristezza pari all'[Sinking] sul bersaglio"
