@@ -791,7 +791,7 @@
         {
           "level": 4,
           "name": "Momento di Erudizione",
-          "desc": "Infligge <style=\"highlight\">+5%</style> più danni per ogni [KnowledgeExplored] su di sé (max <style=\"highlight\">15%</style>)\n[StartBattle] Applica [KnowledgeTraining] pari alla sua [KnowledgeExplored] su di sé <style=\"highlight\">a 2 random alleati</style> e su di sé (dà priorità agli alleati con [Discard] che hanno meno [KnowledgeTraining])\n[WhenUse] [Discard] 2 delle Abilità di questa unità in ordine di grado ascendente da tutti i suoi Slot Abilità\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 [Sinking] sul bersaglio (max 2)</style>",
+          "desc": "Infligge <style=\"highlight\">+5%</style> più danni per ogni [KnowledgeExplored] su di sé (max <style=\"highlight\">15%</style>)\n[StartBattle] Applica [KnowledgeTraining] pari alla sua [KnowledgeExplored] su di sé <style=\"highlight\">a 2 alleati casuali</style> e su di sé (dà priorità agli alleati con [Discard] che hanno meno [KnowledgeTraining])\n[WhenUse] [Discard] 2 delle Abilità di questa unità in ordine di grado ascendente da tutti i suoi Slot Abilità\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 [Sinking] sul bersaglio (max 2)</style>",
           "coinlist": [
             {},
             {
@@ -827,7 +827,7 @@
         {
           "level": 4,
           "name": "Brucia Conoscenza",
-          "desc": "Infligge <style=\"highlight\">+5%</style> più danni per ogni [KnowledgeExplored] (max <style=\"highlight\">45%</style>)\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 [Sinking] sul bersaglio (max 2)</style>\n[BeforeAttack] Consuma ogni [KnowledgeTraining] su di sé e ottiene <style=\"highlight\">lo stesso valore</style> come altra [KnowledgeExplored]\n[EndAbilità] A 4+ [KnowledgeExplored], mette il valore a 1 (se questa Abilità sconfigge un nemico, invece mette il valore a 3)",
+          "desc": "Infligge <style=\"highlight\">+5%</style> più danni per ogni [KnowledgeExplored] (max <style=\"highlight\">45%</style>)\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 [Sinking] sul bersaglio (max 2)</style>\n[BeforeAttack] Consuma ogni [KnowledgeTraining] su di sé e ottiene <style=\"highlight\">lo stesso valore</style> come altra [KnowledgeExplored]\n[EndSkill] A 4+ [KnowledgeExplored], mette il valore a 1 (se questa Abilità sconfigge un nemico, invece mette il valore a 3)",
           "coinlist": [
             {},
             {},
@@ -1024,7 +1024,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">Se questa unità non infligge [Burst], +5% Danni sul Colpo Critico per ogni Potenza e Conteggio [Burst] che avrebbe inflita</style>"
+                  "desc": "<style=\"highlight\">Se questa unità non infligge [Burst], +5% Danni sul Colpo Critico per ogni Potenza e Conteggio [Burst] che avrebbe inflitta</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge 4 [Burst]<style=\"highlight\"></style>"
@@ -1404,7 +1404,7 @@
         {
           "level": 4,
           "name": "Taglianodi [快刀亂麻]",
-          "desc": "Se questa unità ha [BulletPropellantSpecialAlly], invece usa 'Raffica Perfezionata dell'Ammazzatigri Selvaggio'\n- [BeforeUse] Se questa unità non ha [BulletPropellantSpecialAlly], annulla l'attivazione\n<style=\"highlight\">Potere Moneta +1 per ogni 8 ([Combustion] + [Vibration]) sul bersaglio principale, (max 2)</style>",
+          "desc": "Se questa unità ha [BulletPropellantSpecialAlly], invece usa 'Raffica Perfezionata dell'Ammazzatigri Selvaggio'\n- [BeforeUse] Se questa unità non ha [BulletPropellantSpecialAlly], annulla l'attivazione\n<style=\"highlight\">Potere Moneta +1 per ogni 8 ([Combustion] + [Vibration]) sul bersaglio principale (max 2)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1778,7 +1778,7 @@
         {
           "level": 3,
           "name": "Indosseremo un mantello di sangue coagulato.",
-          "desc": "Sul Colpo con questa Abilità: si cura del 40% dei danni PV inflitti (max 50 per Abilità)\n[BeforeUse] A 5 [BloodArmorMeursault], attiva al suo posto \"Ouvertüre\"\n[WhenUse] Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)\n[WhenUse] Applica 1 [BloodArmorMeursault] su di sé e (Rison. maggiore) alleati (2 volte per turno; fino a 4 alleati; dà la priorità per prima a <La Manchaland>, e per secondo a <Bramasangue>(Progenie di Grado Maggiore); esclude gli alleati dalle Stack massime)\n[EndSkill] Se il bersaglio viene sconfitto, aumenta ancora la quantità di [BloodDinner] di 20 (una volta per turno)",
+          "desc": "Sul Colpo con questa Abilità: Recupera PV pari al 40% del danno inflitto (max 50 per Abilità)\n[BeforeUse] A 5 [BloodArmorMeursault], attiva al suo posto \"Ouvertüre\"\n[WhenUse] Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)\n[WhenUse] Applica 1 [BloodArmorMeursault] su di sé e (Rison. maggiore) alleati (2 volte per turno; fino a 4 alleati; dà la priorità per prima a <La Manchaland>, e per secondo a <Bramasangue>(Progenie di Grado Maggiore); esclude gli alleati dalle Stack massime)\n[EndSkill] Se il bersaglio viene sconfitto, aumenta ancora la quantità di [BloodDinner] di 20 (una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -1825,7 +1825,7 @@
         {
           "level": 4,
           "name": "Indosseremo un mantello di sangue coagulato.",
-          "desc": "Sul Colpo con questa Abilità: si cura del 40% dei danni PV inflitti (max <style=\"highlight\">80</style> per Abilità)\n[BeforeUse] A 5 [BloodArmorMeursault], attiva al suo posto \"Ouvertüre\"\n[WhenUse] Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)\n<style=\"highlight\">[WhenUse] Infligge +10% danni per ogni 2 Conteggio [Laceration] sul bersaglio (max 40%)</style>\n[WhenUse] Applica 1 [BloodArmorMeursault] su di sé e (Rison. maggiore) alleati (2 volte per turno; fino a 4 alleati; dà la priorità per prima a <La Manchaland>, e per secondo a <Bramasangue>(Progenie di Grado Maggiore); esclude gli alleati dalle Stack massime)\n<style=\"highlight\">- Se era una Rison. Lussuria, applica 2 [BloodArmorMeursault] a 2 alleati con i PV max minori</style>\n[EndSkill] Se il bersaglio viene sconfitto, aumenta ancora la quantità di [BloodDinner] di 20 (una volta per turno)",
+          "desc": "Sul Colpo con questa Abilità: Recupera PV pari al 40% del danno inflitto (max <style=\"highlight\">80</style> per Abilità)\n[BeforeUse] A 5 [BloodArmorMeursault], attiva al suo posto \"Ouvertüre\"\n[WhenUse] Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)\n<style=\"highlight\">[WhenUse] Infligge +10% danni per ogni 2 Conteggio [Laceration] sul bersaglio (max 40%)</style>\n[WhenUse] Applica 1 [BloodArmorMeursault] su di sé e (Rison. maggiore) alleati (2 volte per turno; fino a 4 alleati; dà la priorità per prima a <La Manchaland>, e per secondo a <Bramasangue>(Progenie di Grado Maggiore); esclude gli alleati dalle Stack massime)\n<style=\"highlight\">- Se era una Rison. Lussuria, applica 2 [BloodArmorMeursault] a 2 alleati con i PV max minori</style>\n[EndSkill] Se il bersaglio viene sconfitto, aumenta ancora la quantità di [BloodDinner] di 20 (una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -1927,7 +1927,7 @@
         {
           "level": 3,
           "name": "Ouvertüre",
-          "desc": "Sul Colpo con questa Abilità: si cura del 50% dei danni PV inflitti (max 85 per Abilità)\n[WhenUse] Potere Scontro +2 per ogni 3 [Laceration] sul bersaglio principale (max 8)\n[WhenUse] Infligge +5% danni per ogni 2 Conteggio [Laceration] sul bersaglio principale (max 20%)\n[WhenUse] Applica 2 [BloodArmorMeursault] a (Rison. maggiore) altri alleati (max 4 alleati; dà la priorità per prima a <La Manchaland>, e per secondo a <Bramasangue>(Progenie di Grado Maggiore); esclude gli alleati dalle Stack massime)\n[EndSkill] Consuma ogni [BloodArmorMeursault] su di sé\n[EndSkill] Se questa Abilità sconfigge il bersaglio, inoltre aggiunge 10 [BloodDinner] per ogni bersaglio sconfitto da questa Abilità (una volta per turno)",
+          "desc": "Sul Colpo con questa Abilità: Recupera PV pari al 50% del danno inflitto (max 85 per Abilità)\n[WhenUse] Potere Scontro +2 per ogni 3 [Laceration] sul bersaglio principale (max 8)\n[WhenUse] Infligge +5% danni per ogni 2 Conteggio [Laceration] sul bersaglio principale (max 20%)\n[WhenUse] Applica 2 [BloodArmorMeursault] a (Rison. maggiore) altri alleati (max 4 alleati; dà la priorità per prima a <La Manchaland>, e per secondo a <Bramasangue>(Progenie di Grado Maggiore); esclude gli alleati dalle Stack massime)\n[EndSkill] Consuma ogni [BloodArmorMeursault] su di sé\n[EndSkill] Se questa Abilità sconfigge il bersaglio, inoltre aggiunge 10 [BloodDinner] per ogni bersaglio sconfitto da questa Abilità (una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -1977,7 +1977,7 @@
         {
           "level": 4,
           "name": "Ouvertüre",
-          "desc": "Sul Colpo con questa Abilità: si cura del 50% dei danni PV inflitti (max <style=\"highlight\">100</style> per Abilità)\n[WhenUse] Potere Scontro +2 per ogni 3 [Laceration] sul bersaglio principale (max 8)\n[WhenUse] Infligge +<style=\"highlight\">10</style>% danni per ogni 2 Conteggio [Laceration] sul bersaglio principale (max <style=\"highlight\">40</style>%)\n[WhenUse] Applica 2 [BloodArmorMeursault] a (Rison. maggiore) altri alleati (max 4 alleati; dà la priorità per prima a <La Manchaland>, e per secondo a <Bramasangue>(Progenie di Grado Maggiore); esclude gli alleati dalle Stack massime)\n<style=\"highlight\">- Se era una Rison. Lussuria, applica 1 [BloodArmorMeursault] aggiuntiva</style>\n[EndSkill] Consuma ogni [BloodArmorMeursault] su di sé\n[EndSkill] Se questa Abilità sconfigge il bersaglio, inoltre aggiunge 10 [BloodDinner] per ogni bersaglio sconfitto da questa Abilità (una volta per turno)",
+          "desc": "Sul Colpo con questa Abilità: Recupera PV pari al 50% del danno inflitto (max <style=\"highlight\">100</style> per Abilità)\n[WhenUse] Potere Scontro +2 per ogni 3 [Laceration] sul bersaglio principale (max 8)\n[WhenUse] Infligge +<style=\"highlight\">10</style>% danni per ogni 2 Conteggio [Laceration] sul bersaglio principale (max <style=\"highlight\">40</style>%)\n[WhenUse] Applica 2 [BloodArmorMeursault] a (Rison. maggiore) altri alleati (max 4 alleati; dà la priorità per prima a <La Manchaland>, e per secondo a <Bramasangue>(Progenie di Grado Maggiore); esclude gli alleati dalle Stack massime)\n<style=\"highlight\">- Se era una Rison. Lussuria, applica 1 [BloodArmorMeursault] aggiuntiva</style>\n[EndSkill] Consuma ogni [BloodArmorMeursault] su di sé\n[EndSkill] Se questa Abilità sconfigge il bersaglio, inoltre aggiunge 10 [BloodDinner] per ogni bersaglio sconfitto da questa Abilità (una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -2139,7 +2139,7 @@
                   "desc": "Usa 1 [MeursaultSporeBulletShort]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 Conteggio [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
                 }
               ]
             },
@@ -2284,7 +2284,7 @@
                   "desc": "Infligge -50% danni contro i bersagli secondari"
                 },
                 {
-                  "desc": "\n[UnBrokenCoinOnSucceedAttack] Se le Stack di [MeursaultBeeSpore] sul bersaglio sono al massimo, attiva i seguenti effetti:\n- Infligge (Potenza [Combustion] x Stack di [MeursaultBeeSpore] / 10) Danno da Ira (arrotondato per difetto)\n  - Infliggere Danno da Ira con questo effetto conta come se si stesse attivando [Combustion]\n- Il bersaglio perde 1 Conteggio [Combustion]\n- Le Stack di [MeursaultBeeSpore] sul bersaglio scadono<style=\"highlight\"></style>\n",
+                  "desc": "\n[UnBrokenCoinOnSucceedAttack] Se le Stack di [MeursaultBeeSpore] sul bersaglio sono al massimo, attiva i seguenti effetti:\n- Infligge (Potenza [Combustion] x Stack di [MeursaultBeeSpore] / 10) Danno da Ira (arrotondato per difetto)\n- Infliggere Danno da Ira con questo effetto conta come se si stesse attivando [Combustion]\n- Il bersaglio perde 1 Conteggio [Combustion]\n- Le Stack di [MeursaultBeeSpore] sul bersaglio scadono<style=\"highlight\"></style>\n",
                   "summary": "Infligge Danno da Ira, riduce il Conteggio [Combustion] del bersaglio di 1, [MeursaultBeeSpore] sul bersaglio scade"
                 },
                 {
@@ -2297,7 +2297,7 @@
         {
           "level": 4,
           "name": "Test - Fuoco Alle Polveri",
-          "desc": "<style=\"highlight\">Infligge +50% damage danni per ogni Portata Attacco in eccesso rispetto al numero di bersagli effettivi (negli Incontri Mirati, la Parte)</style>\nInfligge +<style=\"highlight\">10</style>% danni per ogni 5 [MeursaultBeeSpore] sul bersaglio (max <style=\"highlight\">30</style>%)\n<style=\"highlight\">[BeforeUse] A 2 o meno [MeursaultSporeBulletLong], usa 6 PS per ottenere 3 [MeursaultSporeBulletLong]</style>\n[WhenUse] Potere Moneta +1 per ogni 6 ([Combustion] + [Laceration]) sul bersaglio principale (max <style=\"highlight\">3)\n[WhenUse] Se questa unità ha [MeursaultWorkerBee], Potere Scontro +1\n[WhenUse] Converte le Monete pari a [MeursaultWorkerBee] into [SuperCoin](i), a partire dalla 3° Moneta\n[WhenUse] A 3 [MeursaultWorkerBee], ottiene Portata Att. +1</style>\n[EndSkill] [MeursaultSporeBulletReloading]",
+          "desc": "<style=\"highlight\">Infligge +50%  danni per ogni Portata Attacco in eccesso rispetto al numero di bersagli effettivi (negli Incontri Mirati, la Parte)</style>\nInfligge +<style=\"highlight\">10</style>% danni per ogni 5 [MeursaultBeeSpore] sul bersaglio (max <style=\"highlight\">30</style>%)\n<style=\"highlight\">[BeforeUse] A 2 o meno [MeursaultSporeBulletLong], usa 6 PS per ottenere 3 [MeursaultSporeBulletLong]</style>\n[WhenUse] Potere Moneta +1 per ogni 6 ([Combustion] + [Laceration]) sul bersaglio principale (max <style=\"highlight\">3)\n[WhenUse] Se questa unità ha [MeursaultWorkerBee], Potere Scontro +1\n[WhenUse] Converte le Monete pari a [MeursaultWorkerBee] In [SuperCoin](i), a partire dalla 3° Moneta\n[WhenUse] A 3 [MeursaultWorkerBee], ottiene Portata Att. +1</style>\n[EndSkill] [MeursaultSporeBulletReloading]",
           "coinlist": [
             {
               "coindescs": [
@@ -2353,7 +2353,7 @@
                   "desc": "<style=\"highlight\">Questa Moneta infligge +5% danni per ogni [MeursaultWorkerBee] su di sé (max 15%)</style>"
                 },
                 {
-                  "desc": "\n[UnBrokenCoinOnSucceedAttack] Se le Stack di [MeursaultBeeSpore] sul bersaglio sono al massimo, attiva i seguenti effetti:\n- Infligge (Potenza [Combustion] x Stack di [MeursaultBeeSpore] / 10) Danno da Ira (arrotondato per difetto)\n  - Infliggere Danno da Ira con questo effetto conta come se si stesse attivando [Combustion]\n-  Il bersaglio perde 1 Conteggio [Combustion]\n- Le Stack di [MeursaultBeeSpore] sul bersaglio scadono<style=\"highlight\"></style>\n"
+                  "desc": "\n[UnBrokenCoinOnSucceedAttack] Se le Stack di [MeursaultBeeSpore] sul bersaglio sono al massimo, attiva i seguenti effetti:\n- Infligge (Potenza [Combustion] x Stack di [MeursaultBeeSpore] / 10) Danno da Ira (arrotondato per difetto)\n- Infliggere Danno da Ira con questo effetto conta come se si stesse attivando [Combustion]\n- Il bersaglio perde 1 Conteggio [Combustion]\n- Le Stack di [MeursaultBeeSpore] sul bersaglio scadono<style=\"highlight\"></style>\n"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion] e +<style=\"highlight\">2</style> Conteggio [Laceration]"
@@ -2370,7 +2370,7 @@
         {
           "level": 1,
           "name": "Germinazione Delle Spore",
-          "desc": "[StartBattle][MeursaultSporeBulletReloading] (una volta per turno)\n[OnSucceedEvade] Recupera 10 PB (una volta per turno)",
+          "desc": "[StartBattle][MeursaultSporeBulletReloading] (una volta per turno)\n[OnSucceedEvade] Recupera 10 PV (una volta per turno)",
           "coinlist": [
             {}
           ]
