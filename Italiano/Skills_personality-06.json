@@ -788,7 +788,7 @@
         {
           "level": 4,
           "name": "Il Colpevole è Lei!",
-          "desc": "[WhenUse] Potere Scontro +1 per ogni <style=\"highlight\">6</style> [Vibration] sul bersaglio <style=\"highlight\">(max 2)</style>\n[WhenUse] A <style=\"highlight\"> meno di 15 Conteggio [Vibration] su di sé</style>, consuma 10 Conteggio [Vibration] per ottenere Potere Moneta +2\n<style=\"highlight\">[WhenUse] Consuma 15 Conteggio [Vibration] su di sé per ottenere Potere Moneta +3</style>",
+          "desc": "[WhenUse] Potere Scontro +1 per ogni <style=\"highlight\">6</style> [Vibration] sul bersaglio <style=\"highlight\">(max 2)</style>\n[WhenUse] A <style=\"highlight\">meno di 15 Conteggio [Vibration] su di sé</style>, consuma 10 Conteggio [Vibration] per ottenere Potere Moneta +2\n<style=\"highlight\">[WhenUse] Consuma 15 Conteggio [Vibration] su di sé per ottenere Potere Moneta +3</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -807,14 +807,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Se questa Abilità ha consumato 10+ Conteggio [Vibration] on Abilità Use, innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Se questa Abilità ha consumato 10+ Conteggio [Vibration] all'uso dell'Abilità, innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Se questa Abilità ha consumato 10+ Conteggio [Vibration] on Abilità Use, innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1\n- Se questa unità ha consumato meno di 15 Conteggio [Vibration], innesca [VibrationExplosion] su di sé dopo aver attivato il suddetto effetto</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Se questa Abilità ha consumato 10+ Conteggio [Vibration] all'uso dell'Abilità, innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1\n- Se questa unità ha consumato meno di 15 Conteggio [Vibration], innesca [VibrationExplosion] su di sé dopo aver attivato il suddetto effetto</style>"
                 }
               ]
             }
@@ -1351,7 +1351,7 @@
         {
           "level": 4,
           "name": "Una Fine d'Alto Calibro",
-          "desc": "Potere Base +1 per ogni [Bullet] che verrà speso da questa Abilità\n[WhenUse] Se il Fixer dell'Ufficio Alto Calibro Heathcliff è sul campo, activate [CoveringFire]\n[WhenUse] Ottiene 5 [Breath]\n<style=\"highlight\">[WinDuel] Ottiene +2 Conteggio [Breath]</style>",
+          "desc": "Potere Base +1 per ogni [Bullet] che verrà speso da questa Abilità\n[WhenUse] Se il Fixer dell'Ufficio Alto Calibro Heathcliff è sul campo, attiva [CoveringFire]\n[WhenUse] Ottiene 5 [Breath]\n<style=\"highlight\">[WinDuel] Ottiene +2 Conteggio [Breath]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1994,7 +1994,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Condesazione di Energia",
+          "name": "Condensazione di Energia",
           "desc": "[WhenUse] A 10+ Conteggio [Charge], Potere Moneta +2\n[WhenUse] Ottiene +3 Conteggio [Charge] (1 volta per turno)",
           "coinlist": [
             {}
@@ -2002,7 +2002,7 @@
         },
         {
           "level": 4,
-          "name": "Condesazione di Energia",
+          "name": "Condensazione di Energia",
           "desc": "[WhenUse] A 10+ Conteggio [Charge], Potere Moneta <style=\"highlight\">+4</style>\n[WhenUse] Ottiene +3 Conteggio [Charge] (<style=\"highlight\">2 volte</style> per turno)",
           "coinlist": [
             {}
@@ -2218,7 +2218,7 @@
         {
           "level": 3,
           "name": "A Me, Branchi Heishou",
-          "desc": "Questa Abilità non attiva Abilità Difensive\n\n[WhenUse] Ottiene 3 [Breath] and +1 Conteggio [Breath]\n\n[EndSkill] Sceglie 1 unità tra gli alleati dei Branchi Heishou che possono agire con meno Stack di [HeishouComboCount] Stack e applica [HeishouComboCount]; infine, applica [HeishouCombo]. (1 volta per turno)\n- Dopo che [HeishouCombo] si è concluso, Il Lord di Hongyuan Hong Lu attiva 'Incido il Cammino di un Lord'\n- Se non si è attivato [HeishouCombo], o se l'Identità affetta è Stordita o sconfitta prima che [HeishouCombo] sia concluso, invece usa 'Lotta[TabExplain] Solitaria: Sacrificio per Conquistare il Giardino'",
+          "desc": "Questa Abilità non attiva Abilità Difensive\n\n[WhenUse] Ottiene 3 [Breath] e +1 Conteggio [Breath]\n\n[EndSkill] Sceglie 1 unità tra gli alleati dei Branchi Heishou che possono agire con meno Stack di [HeishouComboCount] Stack e applica [HeishouComboCount]; infine, applica [HeishouCombo]. (1 volta per turno)\n- Dopo che [HeishouCombo] si è concluso, Il Lord di Hongyuan Hong Lu attiva 'Incido il Cammino di un Lord'\n- Se non si è attivato [HeishouCombo], o se l'Identità affetta è Stordita o sconfitta prima che [HeishouCombo] sia concluso, invece usa 'Lotta[TabExplain] Solitaria: Sacrificio per Conquistare il Giardino'",
           "coinlist": [
             {
               "coindescs": [
@@ -2238,7 +2238,7 @@
         {
           "level": 4,
           "name": "A Me, Branchi Heishou",
-          "desc": "Questa Abilità non attiva Abilità Difensive\n\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 4 ([Burst] sul bersaglio + [Breath] su di sé) (max 3)</style>\n[WhenUse] Ottiene <style=\"highlight\">5</style> [Breath] and +<style=\"highlight\">3</style> Conteggio [Breath]\n\n[EndSkill] Sceglie 1 unità tra gli alleati dei Branchi Heishou che possono agire con meno Stack di [HeishouComboCount] Stack e applica [HeishouComboCount]; infine, applica [HeishouCombo]. (1 volta per turno)\n- Dopo che [HeishouCombo] si è concluso, Il Lord di Hongyuan Hong Lu attiva 'Incido il Cammino di un Lord'\n- Se non si è attivato [HeishouCombo], o se l'Identità affetta è Stordita o sconfitta prima che [HeishouCombo] sia concluso, invece usa 'Lotta[TabExplain] Solitaria: Sacrificio per Conquistare il Giardino'",
+          "desc": "Questa Abilità non attiva Abilità Difensive\n\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 4 ([Burst] sul bersaglio + [Breath] su di sé) (max 3)</style>\n[WhenUse] Ottiene <style=\"highlight\">5</style> [Breath] e +<style=\"highlight\">3</style> Conteggio [Breath]\n\n[EndSkill] Sceglie 1 unità tra gli alleati dei Branchi Heishou che possono agire con meno Stack di [HeishouComboCount] Stack e applica [HeishouComboCount]; infine, applica [HeishouCombo]. (1 volta per turno)\n- Dopo che [HeishouCombo] si è concluso, Il Lord di Hongyuan Hong Lu attiva 'Incido il Cammino di un Lord'\n- Se non si è attivato [HeishouCombo], o se l'Identità affetta è Stordita o sconfitta prima che [HeishouCombo] sia concluso, invece usa 'Lotta[TabExplain] Solitaria: Sacrificio per Conquistare il Giardino'",
           "coinlist": [
             {
               "coindescs": [
@@ -2263,7 +2263,7 @@
         {
           "level": 1,
           "name": "Artiglio dell'Heishou [黑獣利爪]",
-          "desc": "[DuelCounter]\n[StartBattle] Applica 1 [SlashResultUp] a (Rison. più alta) Identità del Branco Heishou alleate (1 volta per turno)\n\n[StartBattle] Se ci sono Unità di Riserva, sceglie 1 alleato Heishou con la percentuale di PV più bassa.\n- Quando usa questa Abilità, applica [HeishouAttack] all'alleato selezionato, ordina [RetreatForCommon], e lo cura di 10% dei suoi PV alla Ritirata (1 volta per turno)\n- L'Identità del Branco Heishou che si è Ritirata a causa di questo effetto verrà posizionata più avanti nell'ordine di Riserva delle Identità non Heishou\n[StartBattle] Se non ci sono Unità di Riserva, applica 2 [Enhancement] a 1 alleato Heishou con la percentuale di PV più bassa (1 volta per turno)",
+          "desc": "[DuelCounter]\n[StartBattle] Applica 1 [SlashResultUp] a (Rison. più alta) Identità del Branco Heishou alleate (1 volta per turno)\n\n[StartBattle] Se ci sono Unità di Riserva, sceglie 1 alleato Heishou con la percentuale di PV più bassa.\n- Quando usa questa Abilità, applica [HeishouAttack] all'alleato selezionato, ordina [RetreatForCommon], e lo cura del 10% dei suoi PV alla Ritirata (1 volta per turno)\n- L'Identità del Branco Heishou che si è Ritirata a causa di questo effetto verrà posizionata più avanti nell'ordine di Riserva delle Identità non Heishou\n[StartBattle] Se non ci sono Unità di Riserva, applica 2 [Enhancement] a 1 alleato Heishou con la percentuale di PV più bassa (1 volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -2277,7 +2277,7 @@
         {
           "level": 4,
           "name": "Artiglio dell'Heishou [黑獣利爪]",
-          "desc": "[DuelCounter]\n[StartBattle] Applica 1 [SlashResultUp] a (Rison. più alta) Identità del Branco Heishou alleate (1 volta per turno)\n\n[StartBattle] Se ci sono Unità di Riserva, sceglie 1 alleato Heishou con la percentuale di PV più bassa.\n- Quando usa questa Abilità, applica [HeishouAttack] all'alleato selezionato, ordina [RetreatForCommon], e lo cura di 10% dei suoi PV alla Ritirata (1 volta per turno)\n- L'Identità del Branco Heishou che si è Ritirata a causa di questo effetto verrà posizionata più avanti nell'ordine di Riserva delle Identità non Heishou\n[StartBattle] Se non ci sono Unità di Riserva, applica 2 [Enhancement] a 1 alleato Heishou con la percentuale di PV più bassa (1 volta per turno)<style=\"highlight\"></style>",
+          "desc": "[DuelCounter]\n[StartBattle] Applica 1 [SlashResultUp] a (Rison. più alta) Identità del Branco Heishou alleate (1 volta per turno)\n\n[StartBattle] Se ci sono Unità di Riserva, sceglie 1 alleato Heishou con la percentuale di PV più bassa.\n- Quando usa questa Abilità, applica [HeishouAttack] all'alleato selezionato, ordina [RetreatForCommon], e lo cura del 10% dei suoi PV alla Ritirata (1 volta per turno)\n- L'Identità del Branco Heishou che si è Ritirata a causa di questo effetto verrà posizionata più avanti nell'ordine di Riserva delle Identità non Heishou\n[StartBattle] Se non ci sono Unità di Riserva, applica 2 [Enhancement] a 1 alleato Heishou con la percentuale di PV più bassa (1 volta per turno)<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2311,7 +2311,7 @@
                   "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 },
                 {
-                  "desc": "[EnemyKill] Per le 2 Identità del Branco Heishou alleate con meno PS, le cura di 10 PS e applica 1 [Enhancement] il turno successivo"
+                  "desc": "[EnemyKill] Le 2 Identità del Branco Heishou alleate con meno PS Recuperano 10 PS e Ottengono 1 [Enhancement] il turno successivo"
                 }
               ]
             }
@@ -2355,7 +2355,7 @@
         {
           "level": 1,
           "name": "Lotta Solitaria: Sacrificio per Conquistare il Giardino [孑孑單身, 捨生取园]",
-          "desc": "Infligge +10% danni per ogni [HeishouDeathCount] su di sé\nInfligge +1% danni per ogni 1% (percentuale di PV mancanti sul bersaglio + percentuale dei propri PV mancanti) (max 50%)\n[WhenUse] A 3+ [HeishouDeathCount], ottiene +1 Portata Attacco\n[WhenUse] A 6+ ([Burst] sul bersaglio + [Breath] su di sé), Potere Moneta +1\n[WhenUse] Infligge +5% danni per ogni [HeishouComboCountHonglu]",
+          "desc": "Infligge +10% danni per ogni [HeishouDeathCount] su di sé\nInfligge +1% danni per ogni 1% (percentuale di PV mancanti sul bersaglio + percentuale dei propri PV mancanti) (max 50%)\n[WhenUse] A 3+ [HeishouDeathCount], ottiene Portata Attacco +1\n[WhenUse] A 6+ ([Burst] sul bersaglio + [Breath] su di sé), Potere Moneta +1\n[WhenUse] Infligge +5% danni per ogni [HeishouComboCountHonglu]",
           "coinlist": [
             {
               "coindescs": [
@@ -2392,7 +2392,7 @@
         {
           "level": 4,
           "name": "Lotta Solitaria: Sacrificio per Conquistare il Giardino [孑孑單身, 捨生取园]",
-          "desc": "Infligge +10% danni per ogni [HeishouDeathCount] su di sé\nInfligge +1% danni per ogni 1% (percentuale di PV mancanti sul bersaglio + percentuale dei propri PV mancanti) (max 50%)\n[WhenUse] A 3+ [HeishouDeathCount], ottiene +1 Portata Attacco\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 ([Burst] sul bersaglio + [Breath] su di sé) (max 3)</style>\n<style=\"highlight\">[WhenUse] Infligge +10% danni per ogni 2 tipi di effetti negativi sul bersaglio (max 30%)</style>\n[WhenUse] Infligge <style=\"highlight\">+10%</style> danni per ogni [HeishouComboCountHonglu]",
+          "desc": "Infligge +10% danni per ogni [HeishouDeathCount] su di sé\nInfligge +1% danni per ogni 1% (percentuale di PV mancanti sul bersaglio + percentuale dei propri PV mancanti) (max 50%)\n[WhenUse] A 3+ [HeishouDeathCount], ottiene Portata Attacco +1\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 ([Burst] sul bersaglio + [Breath] su di sé) (max 3)</style>\n<style=\"highlight\">[WhenUse] Infligge +10% danni per ogni 2 tipi di effetti negativi sul bersaglio (max 30%)</style>\n[WhenUse] Infligge <style=\"highlight\">+10%</style> danni per ogni [HeishouComboCountHonglu]",
           "coinlist": [
             {
               "coindescs": [
@@ -2529,7 +2529,7 @@
         {
           "level": 1,
           "name": "Raccolta Materiali - Soggetto Lavato Nel Sangue",
-          "desc": "[WhenUse] A 10+ Conteggio [ChargeBodyArt], consuma 5 Conteggio [ChargeBodyArt] per ottenere i seguenti effetti:\n- Potere Scontro +1\n- Converte la Moneta finale di questa Abilià in [SuperCoin]",
+          "desc": "[WhenUse] A 10+ Conteggio [ChargeBodyArt], consuma 5 Conteggio [ChargeBodyArt] per ottenere i seguenti effetti:\n- Potere Scontro +1\n- Converte la Moneta finale di questa Abilità in [SuperCoin]",
           "coinlist": [
             {
               "coindescs": [
@@ -2585,7 +2585,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene +4 [ChargeBodyArt] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +4 Conteggio [ChargeBodyArt]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Se il bersaglio ha 5+ tipi di effetti negativi, usa l'Abilità \"Installazione D'Arte n.3: Cassa Toracica Improvvisata\" sul bersaglio (una volta per turno)"
@@ -2636,7 +2636,7 @@
         {
           "level": 3,
           "name": "Melodia Di Tibia: Dissezione del Non Dissezionato Dal Dissezionato",
-          "desc": "[WhenUse] Infligge +30% danni per ogni Portata Attacco in eccesso rispetto al n° dei bersagli (negli Incontri Mirati, la Parte)\n[WhenUse] Potere Finale +1 per ogni 4 [Laceration] sul bersaglio principale (max 2)\n[WhenUse] A 10+ Conteggio [ChargeBodyArt], consuma fino a 20 Conteggio [ChargeBodyArt] e ottiene i seguenti effetti:\n- Potere Finale +2\n- Infligge +1% danni per ogni Conteggio [ChargeBodyArt] consumato\n- A 3+/5+ [ChargeBodyArt], ottiene +1/+2 Portata Attacco\n- Converte tutte le Monete di questa Abilità in [SuperCoin](i)",
+          "desc": "[WhenUse] Infligge +30% danni per ogni Portata Attacco in eccesso rispetto al n° dei bersagli (negli Incontri Mirati, la Parte)\n[WhenUse] Potere Finale +1 per ogni 4 [Laceration] sul bersaglio principale (max 2)\n[WhenUse] A 10+ Conteggio [ChargeBodyArt], consuma fino a 20 Conteggio [ChargeBodyArt] e ottiene i seguenti effetti:\n- Potere Finale +2\n- Infligge +1% danni per ogni Conteggio [ChargeBodyArt] consumato\n- A 3+/5+ [ChargeBodyArt], ottiene Portata Attacco +1/+2\n- Converte tutte le Monete di questa Abilità in [SuperCoin](i)",
           "coinlist": [
             {
               "coindescs": [
@@ -3063,7 +3063,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflgge 1 [Binding] il turno successivo"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Binding] il turno successivo"
                 },
                 {
                   "desc": "[OnSucceedAttack] se il bersaglio ha [TiedRopeHonglu], infligge 1 [TiedRopeHonglu]"
@@ -3075,7 +3075,7 @@
         {
           "level": 2,
           "name": "Catene Ohra Vincolanti",
-          "desc": "[WhenUse] A 6+ ([Breath] su sè + [Laceration] sul bersaglio), Potere Moneta +1\n[WhenUse] ottiene +3 Conteggio [Breath]",
+          "desc": "[WhenUse] A 6+ ([Breath] su di sè + [Laceration] sul bersaglio), Potere Moneta +1\n[WhenUse] ottiene +3 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -3109,7 +3109,7 @@
         {
           "level": 4,
           "name": "Catene Ohra Vincolanti",
-          "desc": "[WhenUse] Potere Monete +1 per ogni 6 ([Breath] su sè + [Laceration] sul bersaglio) (max 2)\n[WhenUse] Se il bersaglio ha [TiedRopeHonglu], Potere Finale +1\n[WhenUse] Ottiene +3 Conteggio [Breath]",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 6 ([Breath] su di sè + [Laceration] sul bersaglio) (max 2)\n[WhenUse] Se il bersaglio ha [TiedRopeHonglu], Potere Finale +1\n[WhenUse] Ottiene +3 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -3163,7 +3163,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio ha 2+ [TiedRopeHonglu], consuma 1 [TiedRopeHonglu] sul bersaglio per riutilizare questa moneta (una volta per Abilità)"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 2+ [TiedRopeHonglu], consuma 1 [TiedRopeHonglu] sul bersaglio per riutilizzare questa moneta (una volta per Abilità)"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Infligge 1 [ScratchesHurtID]"
@@ -3181,7 +3181,7 @@
         {
           "level": 2,
           "name": "Squarcio Avulsivo",
-          "desc": "[WhenUse] A 6+ ([Breath] su sè + [Laceration] sul bersaglio), Potere Moneta +1\n[WhenUse] Ottiene +2 Conteggio [Breath]",
+          "desc": "[WhenUse] A 6+ ([Breath] su di sè + [Laceration] sul bersaglio), Potere Moneta +1\n[WhenUse] Ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -3214,7 +3214,7 @@
         {
           "level": 4,
           "name": "Squarcio Avulsivo",
-          "desc": "[WhenUse] Potere Moneta +1 per ogni 6 ([Breath] su sè + [Laceration] sul bersaglio) (max 2)\n[WhenUse] Se il bersaglio ha [TiedRopeHonglu], Potere Finale +1\n[WhenUse] Ottiene +2 Conteggio [Breath]",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 6 ([Breath] su di sè + [Laceration] sul bersaglio) (max 2)\n[WhenUse] Se il bersaglio ha [TiedRopeHonglu], Potere Finale +1\n[WhenUse] Ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -3252,7 +3252,7 @@
         {
           "level": 3,
           "name": "Scarnatura del Cacciatore",
-          "desc": "[WhenUse] A 6+ ([Breath] su sè + [Laceration] sul bersaglio), Potere Moneta +1\n[WhenUse] Se il bersaglio ha [TiedRopeHonglu], converte tutte le Monete di questa Abilità in [SuperCoin], ottiene Potere Finale +1, e la Moneta Finale applica il seguente effetto Sul Colpo:\n- Infligge +2 Conteggio [Laceration]\n- Infligge 1 [Reduction] il turno successivo\n[WhenUse] Ottiene 5 [Breath]\n[WhenUse] Ottiene +3 Conteggio [Breath]",
+          "desc": "[WhenUse] A 6+ ([Breath] su di sè + [Laceration] sul bersaglio), Potere Moneta +1\n[WhenUse] Se il bersaglio ha [TiedRopeHonglu], converte tutte le Monete di questa Abilità in [SuperCoin], ottiene Potere Finale +1, e la Moneta Finale applica il seguente effetto Sul Colpo:\n- Infligge +2 Conteggio [Laceration]\n- Infligge 1 [Reduction] il turno successivo\n[WhenUse] Ottiene 5 [Breath]\n[WhenUse] Ottiene +3 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -3296,7 +3296,7 @@
         {
           "level": 4,
           "name": "Scarnatura del Cacciatore",
-          "desc": "[WhenUse] Potere Moneta +1 per ogni 6 ([Breath] su sè + [Laceration] sul bersaglio) (max 2)\n[WhenUse] Se il bersaglio ha [ScratchesHurtID], infligge +20% danni\n[WhenUse] Se il bersaglio ha [TiedRopeHonglu], converte tutte le Monete di questa abilità in [SuperCoin], ottiene Potere Finale +1, e la Moneta Finale applica il seguente effetto Sul Colpo:\n- Infligge +2 Conteggio [Laceration]\n- Infligge 1 [Reduction] il prossimo turno\n[WhenUse] Ottiene 5 [Breath]\n[WhenUse] Ottiene +3 Conteggio [Breath]",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 6 ([Breath] su di sè + [Laceration] sul bersaglio) (max 2)\n[WhenUse] Se il bersaglio ha [ScratchesHurtID], infligge +20% danni\n[WhenUse] Se il bersaglio ha [TiedRopeHonglu], converte tutte le Monete di questa abilità in [SuperCoin], ottiene Potere Finale +1, e la Moneta Finale applica il seguente effetto Sul Colpo:\n- Infligge +2 Conteggio [Laceration]\n- Infligge 1 [Reduction] il prossimo turno\n[WhenUse] Ottiene 5 [Breath]\n[WhenUse] Ottiene +3 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -3351,7 +3351,7 @@
         {
           "level": 1,
           "name": "Lanciando la Catena Ohra",
-          "desc": "[DuelCounter]\n[WhenUse] A 6+ ([Breath] su sè + [Laceration] sul bersaglio), Potere Scontro +2\n[WhenUse] Ottiene 5 [Breath]",
+          "desc": "[DuelCounter]\n[WhenUse] A 6+ ([Breath] su di sè + [Laceration] sul bersaglio), Potere Scontro +2\n[WhenUse] Ottiene 5 [Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -3371,7 +3371,7 @@
         {
           "level": 4,
           "name": "Lanciando la Catena Ohra",
-          "desc": "[DuelCounter]\n[WhenUse] A 6+ ([Breath] su sè + [Laceration] sul bersaglio), Potere Scontro +2\n[WhenUse] Ottiene 5 [Breath]\n[WinDuel] Ottiene +3 Conteggio [Breath]",
+          "desc": "[DuelCounter]\n[WhenUse] A 6+ ([Breath] su di sè + [Laceration] sul bersaglio), Potere Scontro +2\n[WhenUse] Ottiene 5 [Breath]\n[WinDuel] Ottiene +3 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
