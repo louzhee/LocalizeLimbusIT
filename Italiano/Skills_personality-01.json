@@ -169,7 +169,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Blocco",
+          "name": "Guardia",
           "desc": "[WhenUse] [Discard] 1 Abilità di grado più basso in tutti gli Slot Abilità di quest'unità",
           "coinlist": [
             {}
@@ -177,7 +177,7 @@
         },
         {
           "level": 4,
-          "name": "Blocco",
+          "name": "Guardia",
           "desc": "[WhenUse] [Discard] 1 Abilità di grado più basso in tutti gli Slot Abilità di quest'unità",
           "coinlist": [
             {}
@@ -594,7 +594,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Evasione",
+          "name": "Schivata",
           "desc": "",
           "coinlist": [
             {
@@ -608,7 +608,7 @@
         },
         {
           "level": 4,
-          "name": "Evasione",
+          "name": "Schivata",
           "desc": "",
           "coinlist": [
             {
@@ -935,7 +935,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 20% di probabilità di Riusare questa Moneta una volta. Un altro +20% di probabilità di Riusare questa Moneta per ogni tipo di effetto negativo sul bersaglio"
+                  "desc": "[OnSucceedAttack] 20% di probabilità di Riusare questa Moneta una volta. Aggiunge un uteriore +20% di probabilità di Riusare questa Moneta per ogni tipo di effetto negativo sul bersaglio"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
