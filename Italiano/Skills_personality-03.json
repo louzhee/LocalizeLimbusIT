@@ -1347,7 +1347,7 @@
         {
           "level": 1,
           "name": "Tecnica del Sangue Coagulato 6 - Scissione, Variante Sancho",
-          "desc": "Sul Colpo con quest'Abilità: si cura del 30% del danno inflitto ai PV (max 10)\n[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1\n[BeforeAttack] A 10+ [BloodArmorPersonalityFirst], Portata Attacco +1\n[EndSkill] Se quest'Abilità ha aumentato il suo Portata Attacco, consuma 10 [BloodArmorPersonalityFirst]",
+          "desc": "Sul Colpo con quest'Abilità: si cura del 30% del danno inflitto ai PV (max 10)\n[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1\n[BeforeAttack] A 10+ [BloodArmorPersonalityFirst], Portata Attacco +1\n[EndSkill] Se quest'Abilità ha aumentato la sua Portata Attacco, consuma 10 [BloodArmorPersonalityFirst]",
           "coinlist": [
             {
               "coindescs": [
@@ -1415,7 +1415,7 @@
         {
           "level": 4,
           "name": "Tecnica del Sangue Coagulato 6 - Scissione, Variante Sancho",
-          "desc": "Sul Colpo con quest'Abilità: si cura del 30% del danno inflitto ai PV (max 10)\n[WhenUse] Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)\n[BeforeAttack] Ottiene Portata Attacco +1 per ogni 10 [BloodArmorPersonalityFirst] (max 2)\n[EndSkill] Consuma 10 [BloodArmorPersonalityFirst] per ogni Portata Attacco ottenuto<style=\"highlight\"></style>",
+          "desc": "Sul Colpo con quest'Abilità: si cura del 30% del danno inflitto ai PV (max 10)\n[WhenUse] Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)\n[BeforeAttack] Ottiene Portata Attacco +1 per ogni 10 [BloodArmorPersonalityFirst] (max 2)\n[EndSkill] Consuma 10 [BloodArmorPersonalityFirst] per ogni Portata Attacco ottenuta<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1837,7 +1837,7 @@
         {
           "level": 4,
           "name": "È D'Uopo che vi Impartisca un Addestramento sui Costumi Della Tavola",
-          "desc": "<style=\"highlight\">Se la Velocità di questa unità è maggiore del bersaglio, ottiene +1 Potere Moneta per ogni 2 differenza di Velocità (max 2)</style>",
+          "desc": "<style=\"highlight\">Se la Velocità di questa unità è maggiore del bersaglio, ottiene Potere Moneta +1 per ogni 2 differenza di Velocità (max 2)</style>",
           "coinlist": [
             {}
           ]
@@ -2225,7 +2225,7 @@
         {
           "level": 4,
           "name": "Vattene dalla mia testa...",
-          "desc": "<style=\"highlight\">Potere Base +1 per ogni [HystericGauge] su di sé (max 2)\n- A 3 [HystericGauge], ottiene +1 Portata Attacco\n- Infligge -50% danni ai bersagli secondari</style>\n[WhenUse] Consuma 6 Conteggio [ThePowerOfLoveAndHate] su di sé per ottenere Potere Base +1\n[WhenUse] Ottiene +<style=\"highlight\">5</style> Conteggio [ThePowerOfLoveAndHate]\n[WhenUse] Perde 8 PS",
+          "desc": "<style=\"highlight\">Potere Base +1 per ogni [HystericGauge] su di sé (max 2)\n- A 3 [HystericGauge], ottiene Portata Attacco +1\n- Infligge -50% danni ai bersagli secondari</style>\n[WhenUse] Consuma 6 Conteggio [ThePowerOfLoveAndHate] su di sé per ottenere Potere Base +1\n[WhenUse] Ottiene +<style=\"highlight\">5</style> Conteggio [ThePowerOfLoveAndHate]\n[WhenUse] Perde 8 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -2254,7 +2254,7 @@
         {
           "level": 3,
           "name": "Reversed Beats / Arcana Beats Rovesciato",
-          "desc": "Questa Abilità infligge -50% contro i bersagli secondari\n\n[WhenUse] Consuma tutta l'[HystericGauge] per ottenere Potere Scontro +1\n[WhenUse] Consuma Conteggio [ThePowerOfLoveAndHate] per ottenere Potere Scontro (Potere Scontro +1 per ogni 8 Conteggio consumato, max 2)\nInfligge +15% danni per ogni [ThePowerOfLoveAndHate] su di sé (max 60%)\n[BeforeAttack] Consuma ogni [ArcanaQueenOfHate] su di sé per ottenere +1 Portata Attacco\n[BeforeAttack] Se questa Abilità ha un solo bersaglio (negli Incontri Mirati, una Parte), ma ha 2+ Portata Attacco, infligge +20% danni\n[BeforeAttack] Potere Base -6 per ogni Moneta Rotta (max -18)\n[EndBattle] Se questa unità non è a -45 PS, ed è a meno di 0 PS, recupera 10 PS. Recupera più PS in base a quanto il valore dei PS attuali è lontano da 0 (2 PS curati per ogni PS mancante, max 50 PS)\n[WhenUse] Perde 10 PS",
+          "desc": "Questa Abilità infligge -50% contro i bersagli secondari\n\n[WhenUse] Consuma tutta l'[HystericGauge] per ottenere Potere Scontro +1\n[WhenUse] Consuma Conteggio [ThePowerOfLoveAndHate] per ottenere Potere Scontro (Potere Scontro +1 per ogni 8 Conteggio consumato, max 2)\nInfligge +15% danni per ogni [ThePowerOfLoveAndHate] su di sé (max 60%)\n[BeforeAttack] Consuma ogni [ArcanaQueenOfHate] su di sé per ottenere Portata Attacco +1\n[BeforeAttack] Se questa Abilità ha un solo bersaglio (negli Incontri Mirati, una Parte), ma ha 2+ Portata Attacco, infligge +20% danni\n[BeforeAttack] Potere Base -6 per ogni Moneta Rotta (max -18)\n[EndBattle] Se questa unità non è a -45 PS, ed è a meno di 0 PS, recupera 10 PS. Recupera più PS in base a quanto il valore dei PS attuali è lontano da 0 (2 PS curati per ogni PS mancante, max 50 PS)\n[WhenUse] Perde 10 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -2288,7 +2288,7 @@
         {
           "level": 4,
           "name": "Reversed Beats / Arcana Beats Rovesciato",
-          "desc": "Questa Abilità infligge -50% contro i bersagli secondari\n\n[WhenUse] Consuma tutta l'[HystericGauge]; <style=\"highlight\">Potere Scontro +1 per ogni Stack consumata (max 3)</style>\n[WhenUse] Consuma Conteggio [ThePowerOfLoveAndHate] per ottenere Potere Scontro (Potere Scontro +1 per ogni <style=\"highlight\">5</style> Conteggio consumato, max <style=\"highlight\">4</style>)\nInfligge +<style=\"highlight\">30</style>% danni per ogni [ThePowerOfLoveAndHate] su di sé (max <style=\"highlight\">150</style>%)\n[BeforeAttack] Consuma ogni [ArcanaQueenOfHate] su di sé; <style=\"highlight\">ottiene +1 Portata Attacco per ogni Stack consumata (max 3)\n- Se questa Abilità ha consumato 3 [HystericGauge], ottiene +1 Portata Attacco</style>\n[BeforeAttack] Se questa Abilità ha un solo bersaglio (negli Incontri Mirati, una Parte), <style=\"highlight\">infligge +(20 x (Portata Attacco - 1))% danni (max 80%)</style>\n[BeforeAttack] Potere Base -6 per ogni Moneta Rotta (max -18)\n[EndBattle] Se questa unità non è a -45 PS, ed è a meno di 0 PS, recupera 10 PS. Recupera più PS in base a quanto il valore dei PS attuali è lontano da 0 (2 PS recuperati per ogni PS mancante, max 50 PS)\n[WhenUse] Perde 10 PS",
+          "desc": "Questa Abilità infligge -50% contro i bersagli secondari\n\n[WhenUse] Consuma tutta l'[HystericGauge]; <style=\"highlight\">Potere Scontro +1 per ogni Stack consumata (max 3)</style>\n[WhenUse] Consuma Conteggio [ThePowerOfLoveAndHate] per ottenere Potere Scontro (Potere Scontro +1 per ogni <style=\"highlight\">5</style> Conteggio consumato, max <style=\"highlight\">4</style>)\nInfligge +<style=\"highlight\">30</style>% danni per ogni [ThePowerOfLoveAndHate] su di sé (max <style=\"highlight\">150</style>%)\n[BeforeAttack] Consuma ogni [ArcanaQueenOfHate] su di sé; <style=\"highlight\">ottiene Portata Attacco +1 per ogni Stack consumata (max 3)\n- Se questa Abilità ha consumato 3 [HystericGauge], ottiene Portata Attacco +1</style>\n[BeforeAttack] Se questa Abilità ha un solo bersaglio (negli Incontri Mirati, una Parte), <style=\"highlight\">infligge +(20 x (Portata Attacco - 1))% danni (max 80%)</style>\n[BeforeAttack] Potere Base -6 per ogni Moneta Rotta (max -18)\n[EndBattle] Se questa unità non è a -45 PS, ed è a meno di 0 PS, recupera 10 PS. Recupera più PS in base a quanto il valore dei PS attuali è lontano da 0 (2 PS recuperati per ogni PS mancante, max 50 PS)\n[WhenUse] Perde 10 PS",
           "coinlist": [
             {
               "coindescs": [
