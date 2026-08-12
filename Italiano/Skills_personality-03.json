@@ -511,7 +511,7 @@
         },
         {
           "level": 4,
-          "name": "Turbine Am-Gnam-Gman!",
+          "name": "Turbine Am-Gnam-Gnam!",
           "desc": "[WhenUse] Ottiene +5 [Aggro] per questo Slot Abilità il turno successivo\n[WhenUse] Se il bersaglio ha 6+ [Burst], Potere Moneta +1",
           "coinlist": [
             {
@@ -545,7 +545,7 @@
         {
           "level": 1,
           "name": "Denti che Battono",
-          "desc": "[EndBattle] Recupera PV pari ai PV dello Scudo rimanenti (Uno volta per turno. Quantità curata Max: 10% dei PV Max)",
+          "desc": "[EndBattle] Recupera PV pari ai PV dello Scudo rimanenti (Una volta per turno. Quantità curata Max: 10% dei PV Max)",
           "coinlist": [
             {
               "coindescs": [
@@ -559,7 +559,7 @@
         {
           "level": 4,
           "name": "Denti che Battono",
-          "desc": "[WhenUse] Se il bersaglio ha 6+ [Burst], Potere Finale +3\n[EndBattle] Recupera PV pari ai PV dello Scudo rimanenti (Uno volta per turno. Quantità curata Max: 10% dei PV Max)",
+          "desc": "[WhenUse] Se il bersaglio ha 6+ [Burst], Potere Finale +3\n[EndBattle] Recupera PV pari ai PV dello Scudo rimanenti (Una volta per turno. Quantità curata Max: 10% dei PV Max)",
           "coinlist": [
             {
               "coindescs": [
@@ -974,7 +974,7 @@
                   "desc": "[OnSucceedAttack] Se il bersaglio ha 10+ [Vibration], consuma 10 [Vibration] sul bersaglio e infligge 2 [TimeSuspend]\n- Se questa unità è in stato di [TimeRentalTwoPersonality], questo effetto non consuma la [Vibration] del bersaglio"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Se la Velocità del bersaglio è inferiore a questa unità, Trasforma [Switch_Vibration] in [VibrationChainPersonality]"
+                  "desc": "[OnSucceedAttack] Se la Velocità del bersaglio è inferiore a quella di questa unità, Trasforma [Switch_Vibration] in [VibrationChainPersonality]"
                 }
               ]
             }
@@ -1009,7 +1009,7 @@
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Se la Velocità del bersaglio è inferiore a questa unità, Trasforma [Switch_Vibration] in [VibrationChainPersonality]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Se la Velocità del bersaglio è inferiore a quella di questa unità, Trasforma [Switch_Vibration] in [VibrationChainPersonality]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1044,7 +1044,7 @@
         {
           "level": 1,
           "name": "Basta Così",
-          "desc": "Sul Colpo con quest'Abilità: Recuperà PV pari al 30% del danno inflitto (max 10)\n[WhenUse] Consuma fino a 50 [BloodDinner] ed ottiene 1 [BloodArmorPersonalityFirst] per ogni 5 [BloodDinner] consumati da quest'unità\n- Se quest'unità non riesce a consumare [BloodDinner], ottiene 5 [Laceration]",
+          "desc": "Sul Colpo con quest'Abilità: Recupera PV pari al 30% del danno inflitto (max 10)\n[WhenUse] Consuma fino a 50 [BloodDinner] ed ottiene 1 [BloodArmorPersonalityFirst] per ogni 5 [BloodDinner] consumati da quest'unità\n- Se quest'unità non riesce a consumare [BloodDinner], ottiene 5 [Laceration]",
           "coinlist": [
             {},
             {
@@ -1059,7 +1059,7 @@
         {
           "level": 2,
           "name": "Basta Così",
-          "desc": "Sul Colpo con quest'Abilità: Recuperà PV pari al 30% del danno inflitto (max 10)\n[WhenUse] Consuma fino a 50 [BloodDinner] ed ottiene 1 [BloodArmorPersonalityFirst] per ogni 5 [BloodDinner] consumati da quest'unità\n- Se quest'unità non riesce a consumare [BloodDinner], ottiene 5 [Laceration]\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1</style>",
+          "desc": "Sul Colpo con quest'Abilità: Recupera PV pari al 30% del danno inflitto (max 10)\n[WhenUse] Consuma fino a 50 [BloodDinner] ed ottiene 1 [BloodArmorPersonalityFirst] per ogni 5 [BloodDinner] consumati da quest'unità\n- Se quest'unità non riesce a consumare [BloodDinner], ottiene 5 [Laceration]\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1</style>",
           "coinlist": [
             {},
             {
@@ -1074,7 +1074,7 @@
         {
           "level": 4,
           "name": "Basta Così",
-          "desc": "Sul Colpo con quest'Abilità: Recuperà PV pari al 30% del danno inflitto (max 10)\n[WhenUse] Consuma fino a 50 [BloodDinner] ed ottiene 1 [BloodArmorPersonalityFirst] per ogni 5 [BloodDinner] consumati da quest'unità\n- Se quest'unità non riesce a consumare [BloodDinner], ottiene 5 [Laceration]\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)</style>",
+          "desc": "Sul Colpo con quest'Abilità: Recupera PV pari al 30% del danno inflitto (max 10)\n[WhenUse] Consuma fino a 50 [BloodDinner] ed ottiene 1 [BloodArmorPersonalityFirst] per ogni 5 [BloodDinner] consumati da quest'unità\n- Se quest'unità non riesce a consumare [BloodDinner], ottiene 5 [Laceration]\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1100,7 +1100,7 @@
         {
           "level": 1,
           "name": "Lasciali Fiorire",
-          "desc": "Sul Colpo con quest'Abilità: Recuperà PV pari al 30% del danno inflitto (max 10)\n[WhenUse] Consuma fino a 50 [BloodDinner] ed ottiene 1 [BloodArmorPersonalityFirst] per ogni 10 [BloodDinner] consumati da quest'unità\n- Se quest'unità non riesce a consumare [BloodDinner], ottiene 5 [Laceration]\n[BeforeAttack] A 10+ [BloodArmorPersonalityFirst], Portata Attacco +1",
+          "desc": "Sul Colpo con quest'Abilità: Recupera PV pari al 30% del danno inflitto (max 10)\n[WhenUse] Consuma fino a 50 [BloodDinner] ed ottiene 1 [BloodArmorPersonalityFirst] per ogni 10 [BloodDinner] consumati da quest'unità\n- Se quest'unità non riesce a consumare [BloodDinner], ottiene 5 [Laceration]\n[BeforeAttack] A 10+ [BloodArmorPersonalityFirst], Portata Attacco +1",
           "coinlist": [
             {
               "coindescs": [
@@ -1124,7 +1124,7 @@
         {
           "level": 2,
           "name": "Lasciali Fiorire",
-          "desc": "Sul Colpo con quest'AbilitàRecuperà PV pari al 30% del danno inflitto (max 10)\n[WhenUse] Consuma fino a 50 [BloodDinner] ed ottiene 1 [BloodArmorPersonalityFirst] per ogni 10 [BloodDinner] consumati da quest'unità\n- Se quest'unità non riesce a consumare [BloodDinner], ottiene 5 [Laceration]\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1</style>\n[BeforeAttack] <style=\"highlight\">Portata Attacco +1 per ogni 10 [BloodArmorPersonalityFirst] su sé (max 2)</style>",
+          "desc": "Sul Colpo con quest'Abilità: Recuperà PV pari al 30% del danno inflitto (max 10)\n[WhenUse] Consuma fino a 50 [BloodDinner] ed ottiene 1 [BloodArmorPersonalityFirst] per ogni 10 [BloodDinner] consumati da quest'unità\n- Se quest'unità non riesce a consumare [BloodDinner], ottiene 5 [Laceration]\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1</style>\n[BeforeAttack] <style=\"highlight\">Portata Attacco +1 per ogni 10 [BloodArmorPersonalityFirst] su sé (max 2)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1148,7 +1148,7 @@
         {
           "level": 4,
           "name": "Lasciali Fiorire",
-          "desc": "Sul Colpo con quest'AbilitàRecuperà PV pari al 30% del danno inflitto (max 10)\n[WhenUse] Consuma fino a 50 [BloodDinner] ed ottiene 1 [BloodArmorPersonalityFirst] per ogni 10 [BloodDinner] consumati da quest'unità\n- Se quest'unità non riesce a consumare [BloodDinner], ottiene 5 [Laceration]\n[WhenUse] Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)</style>\n[BeforeAttack] Portata Attacco +1 per ogni 10 [BloodArmorPersonalityFirst] su sé (max 2)",
+          "desc": "Sul Colpo con quest'Abilità: Recuperà PV pari al 30% del danno inflitto (max 10)\n[WhenUse] Consuma fino a 50 [BloodDinner] ed ottiene 1 [BloodArmorPersonalityFirst] per ogni 10 [BloodDinner] consumati da quest'unità\n- Se quest'unità non riesce a consumare [BloodDinner], ottiene 5 [Laceration]\n[WhenUse] Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)</style>\n[BeforeAttack] Portata Attacco +1 per ogni 10 [BloodArmorPersonalityFirst] su sé (max 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -1177,7 +1177,7 @@
         {
           "level": 3,
           "name": "Io Impalerò",
-          "desc": "Sul Colpo con quest'Abilità Recupera PV peri al 30% del danno inflitto (max 10)\n[WhenUse] Potere Scontro +1 per ogni 10 [BloodArmorPersonalityFirst] (max 2)\n[WhenUse] Se il bersaglio ha 10+ [Laceration], Potere Moneta +1\n[WhenUse] Consuma fino a 50 [BloodDinner] ed ottiene 1 [BloodArmorPersonalityFirst] per ogni 10 [BloodDinner] consumati\n- Se quest'unità non riesce a consumare [BloodDinner], ottiene 10 [Laceration]\nInfligge +5% danni per ogni [Laceration] sul bersaglio (max 50%)\nInfligge +10% danni per ogni 100 [BloodDinner_Accumulation] su sé (max 50%)\n[EndSkill] Se il bersaglio viene sconfitto, aumenta [BloodDinner] di 30; ottiene 10 [BloodArmorPersonalityFirst] (1 volta per turno)",
+          "desc": "Sul Colpo con quest'Abilità Recupera PV pari al 30% del danno inflitto (max 10)\n[WhenUse] Potere Scontro +1 per ogni 10 [BloodArmorPersonalityFirst] (max 2)\n[WhenUse] Se il bersaglio ha 10+ [Laceration], Potere Moneta +1\n[WhenUse] Consuma fino a 50 [BloodDinner] ed ottiene 1 [BloodArmorPersonalityFirst] per ogni 10 [BloodDinner] consumati\n- Se quest'unità non riesce a consumare [BloodDinner], ottiene 10 [Laceration]\nInfligge +5% danni per ogni [Laceration] sul bersaglio (max 50%)\nInfligge +10% danni per ogni 100 [BloodDinner_Accumulation] su sé (max 50%)\n[EndSkill] Se il bersaglio viene sconfitto, aumenta [BloodDinner] di 30; ottiene 10 [BloodArmorPersonalityFirst] (1 volta per turno)",
           "coinlist": [
             {},
             {},
@@ -1193,7 +1193,7 @@
         {
           "level": 4,
           "name": "Io Impalerò",
-          "desc": "Sul Colpo con quest'Abilità Recupera PV peri al 30% del danno inflitto (max 10)\n[WhenUse] Potere Scontro +1 per ogni 10 [BloodArmorPersonalityFirst] (max 2)\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 5 [Laceration] sul bersaglio (max 2)</style>\n[WhenUse] Consuma fino a 50 [BloodDinner] ed ottiene 1 [BloodArmorPersonalityFirst] per ogni 10 [BloodDinner] consumati\n- Se quest'unità non riesce a consumare [BloodDinner], ottiene 10 [Laceration]\nInfligge +5% danni per ogni [Laceration] sul bersaglio (max 50%)\nInfligge +<style=\"highlight\">20</style>% danni per ogni 100 [BloodDinner_Accumulation] su sé (max <style=\"highlight\">100</style>%)\n[EndSkill] Se il bersaglio viene sconfitto, aumenta [BloodDinner] di <style=\"highlight\">60</style>; ottiene 10 [BloodArmorPersonalityFirst] (1 volta per turno)",
+          "desc": "Sul Colpo con quest'Abilità Recupera PV pari al 30% del danno inflitto (max 10)\n[WhenUse] Potere Scontro +1 per ogni 10 [BloodArmorPersonalityFirst] (max 2)\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 5 [Laceration] sul bersaglio (max 2)</style>\n[WhenUse] Consuma fino a 50 [BloodDinner] ed ottiene 1 [BloodArmorPersonalityFirst] per ogni 10 [BloodDinner] consumati\n- Se quest'unità non riesce a consumare [BloodDinner], ottiene 10 [Laceration]\nInfligge +5% danni per ogni [Laceration] sul bersaglio (max 50%)\nInfligge +<style=\"highlight\">20</style>% danni per ogni 100 [BloodDinner_Accumulation] su sé (max <style=\"highlight\">100</style>%)\n[EndSkill] Se il bersaglio viene sconfitto, aumenta [BloodDinner] di <style=\"highlight\">60</style>; ottiene 10 [BloodArmorPersonalityFirst] (1 volta per turno)",
           "coinlist": [
             {},
             {},
@@ -1249,7 +1249,7 @@
         {
           "level": 1,
           "name": "Tecnica del Sangue Coagulato 6 - Frusta, Variante Sancho",
-          "desc": "Sul Colpo con quest'Abilità Recupera PV peri al 30% del danno inflitto (max 20)\n[WhenUse] Ottiene 20 [Laceration]\n[WhenUse] Infligge +1 [Laceration] in più Sul Colpo per ogni 10 [BloodArmorPersonalityFirst] (max 2). Fine Attacco: Consuma 10 [BloodArmorPersonalityFirst]",
+          "desc": "Sul Colpo con quest'Abilità Recupera PV pari al 30% del danno inflitto (max 20)\n[WhenUse] Ottiene 20 [Laceration]\n[WhenUse] Infligge +1 [Laceration] in più Sul Colpo per ogni 10 [BloodArmorPersonalityFirst] (max 2). Fine Attacco: Consuma 10 [BloodArmorPersonalityFirst]",
           "coinlist": [
             {
               "coindescs": [
@@ -1283,7 +1283,7 @@
         {
           "level": 2,
           "name": "Tecnica del Sangue Coagulato 6 - Frusta, Variante Sancho",
-          "desc": "Sul Colpo con quest'Abilità Recupera PV peri al 30% del danno inflitto (max 20)\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1</style>\n[WhenUse] Ottiene 20 [Laceration]\n[WhenUse] Infligge +1 [Laceration] in più Sul Colpo per ogni 10 [BloodArmorPersonalityFirst] (max 2). Fine Attacco: Consuma 10 [BloodArmorPersonalityFirst]",
+          "desc": "Sul Colpo con quest'Abilità Recupera PV pari al 30% del danno inflitto (max 20)\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1</style>\n[WhenUse] Ottiene 20 [Laceration]\n[WhenUse] Infligge +1 [Laceration] in più Sul Colpo per ogni 10 [BloodArmorPersonalityFirst] (max 2). Fine Attacco: Consuma 10 [BloodArmorPersonalityFirst]",
           "coinlist": [
             {},
             {
@@ -1311,7 +1311,7 @@
         {
           "level": 4,
           "name": "Tecnica del Sangue Coagulato 6 - Frusta, Variante Sancho",
-          "desc": "Sul Colpo con quest'Abilità Recupera PV peri al 30% del danno inflitto (max 20)\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)</style>\n[WhenUse] Ottiene 20 [Laceration]\n[WhenUse] Infligge +1 [Laceration] in più Sul Colpo per ogni 10 [BloodArmorPersonalityFirst]. (max 2) Fine Attacco: Consuma 10 [BloodArmorPersonalityFirst]",
+          "desc": "Sul Colpo con quest'Abilità Recupera PV pari al 30% del danno inflitto (max 20)\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)</style>\n[WhenUse] Ottiene 20 [Laceration]\n[WhenUse] Infligge +1 [Laceration] in più Sul Colpo per ogni 10 [BloodArmorPersonalityFirst]. (max 2) Fine Attacco: Consuma 10 [BloodArmorPersonalityFirst]",
           "coinlist": [
             {},
             {
@@ -1347,7 +1347,7 @@
         {
           "level": 1,
           "name": "Tecnica del Sangue Coagulato 6 - Scissione, Variante Sancho",
-          "desc": "Sul Colpo con quest'AbilitàRecuperà PV pari al 30% del danno inflitto (max 10)\n[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1\n[BeforeAttack] A 10+ [BloodArmorPersonalityFirst], Portata Attacco +1\n[EndSkill] Se quest'Abilità ha aumentato la sua Portata Attacco, consuma 10 [BloodArmorPersonalityFirst]",
+          "desc": "Sul Colpo con quest'Abilità: Recuperà PV pari al 30% del danno inflitto (max 10)\n[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1\n[BeforeAttack] A 10+ [BloodArmorPersonalityFirst], Portata Attacco +1\n[EndSkill] Se quest'Abilità ha aumentato la sua Portata Attacco, consuma 10 [BloodArmorPersonalityFirst]",
           "coinlist": [
             {
               "coindescs": [
@@ -1381,7 +1381,7 @@
         {
           "level": 2,
           "name": "Tecnica del Sangue Coagulato 6 - Scissione, Variante Sancho",
-          "desc": "Sul Colpo con quest'AbilitàRecuperà PV pari al 30% del danno inflitto (max 10)\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)</style>\n[BeforeAttack] <style=\"highlight\">Ottiene Portata Attacco +1 per ogni 10 [BloodArmorPersonalityFirst] (max 2)</style>\n[EndSkill] Consuma 10 [BloodArmorPersonalityFirst] per ogni Portata Attacco ottenuto",
+          "desc": "Sul Colpo con quest'Abilità: Recuperà PV pari al 30% del danno inflitto (max 10)\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)</style>\n[BeforeAttack] <style=\"highlight\">Ottiene Portata Attacco +1 per ogni 10 [BloodArmorPersonalityFirst] (max 2)</style>\n[EndSkill] Consuma 10 [BloodArmorPersonalityFirst] per ogni Portata Attacco ottenuto",
           "coinlist": [
             {
               "coindescs": [
@@ -1415,7 +1415,7 @@
         {
           "level": 4,
           "name": "Tecnica del Sangue Coagulato 6 - Scissione, Variante Sancho",
-          "desc": "Sul Colpo con quest'AbilitàRecuperà PV pari al 30% del danno inflitto (max 10)\n[WhenUse] Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)\n[BeforeAttack] Ottiene Portata Attacco +1 per ogni 10 [BloodArmorPersonalityFirst] (max 2)\n[EndSkill] Consuma 10 [BloodArmorPersonalityFirst] per ogni Portata Attacco ottenuta<style=\"highlight\"></style>",
+          "desc": "Sul Colpo con quest'Abilità: Recuperà PV pari al 30% del danno inflitto (max 10)\n[WhenUse] Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)\n[BeforeAttack] Ottiene Portata Attacco +1 per ogni 10 [BloodArmorPersonalityFirst] (max 2)\n[EndSkill] Consuma 10 [BloodArmorPersonalityFirst] per ogni Portata Attacco ottenuta<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1454,7 +1454,7 @@
         {
           "level": 3,
           "name": "Tecnica Segreta del Sangue Coagulato di Sancho - La Sangre",
-          "desc": "Sul Colpo con quest'Abilità Recupera PV peri al 30% del danno inflitto (max 20)\n[WhenUse] Potere Base +1 per ogni 10 [BloodArmorPersonalityFirst] su sé (max 2)\n[WhenUse] Se il bersaglio ha 10+ [Laceration], Potere Moneta +1\nInfligge +5% danni per ogni [Laceration] sul bersaglio (max 50%)\n[WhenUse] Infligge +20% danni per ogni 100 [BloodDinner_Common_Accumulation] (max 100%)\n[EndSkill] Consuma 10 [BloodArmorPersonalityFirst] per ogni 10 [BloodArmorPersonalityFirst]\n[EndSkill] Se il bersaglio viene sconfitto, aumenta [BloodDinner] di 50. Riottiene metà del [BloodArmorPersonalityFirst] consumato da quest'Abilità (1 volta per turno)",
+          "desc": "Sul Colpo con quest'Abilità Recupera PV pari al 30% del danno inflitto (max 20)\n[WhenUse] Potere Base +1 per ogni 10 [BloodArmorPersonalityFirst] su sé (max 2)\n[WhenUse] Se il bersaglio ha 10+ [Laceration], Potere Moneta +1\nInfligge +5% danni per ogni [Laceration] sul bersaglio (max 50%)\n[WhenUse] Infligge +20% danni per ogni 100 [BloodDinner_Common_Accumulation] (max 100%)\n[EndSkill] Consuma 10 [BloodArmorPersonalityFirst] per ogni 10 [BloodArmorPersonalityFirst]\n[EndSkill] Se il bersaglio viene sconfitto, aumenta [BloodDinner] di 50. Riottiene metà del [BloodArmorPersonalityFirst] consumato da quest'Abilità (1 volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -1495,7 +1495,7 @@
         {
           "level": 4,
           "name": "Tecnica Segreta del Sangue Coagulato di Sancho - La Sangre",
-          "desc": "Sul Colpo con quest'Abilità Recupera PV peri al 30% del danno inflitto (max 20)\n[WhenUse] Potere Base +1 per ogni 10 [BloodArmorPersonalityFirst] su sé (max <style=\"highlight\">3</style>)\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 5 [Laceration] sul bersaglio (max 2)</style>\nInfligge +5% danni per ogni [Laceration] sul bersaglio (max 50%)\n[WhenUse] Infligge +20% danni per ogni 100 [BloodDinner_Common_Accumulation] (max 100%)\n[EndSkill] Consuma 10 [BloodArmorPersonalityFirst] per ogni 10 [BloodArmorPersonalityFirst]\n[EndSkill] Se il bersaglio viene sconfitto, aumenta [BloodDinner] di <style=\"highlight\">100</style>. Riottiene metà del [BloodArmorPersonalityFirst] consumato da quest'Abilità (1 volta per turno)",
+          "desc": "Sul Colpo con quest'Abilità Recupera PV pari al 30% del danno inflitto (max 20)\n[WhenUse] Potere Base +1 per ogni 10 [BloodArmorPersonalityFirst] su sé (max <style=\"highlight\">3</style>)\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 5 [Laceration] sul bersaglio (max 2)</style>\nInfligge +5% danni per ogni [Laceration] sul bersaglio (max 50%)\n[WhenUse] Infligge +20% danni per ogni 100 [BloodDinner_Common_Accumulation] (max 100%)\n[EndSkill] Consuma 10 [BloodArmorPersonalityFirst] per ogni 10 [BloodArmorPersonalityFirst]\n[EndSkill] Se il bersaglio viene sconfitto, aumenta [BloodDinner] di <style=\"highlight\">100</style>. Riottiene metà del [BloodArmorPersonalityFirst] consumato da quest'Abilità (1 volta per turno)",
           "coinlist": [
             {
               "coindescs": [
