@@ -56,7 +56,7 @@
         {
           "level": 1,
           "name": "Protezione Clienti",
-          "desc": "[WhenUse] Applica 2 [DefenseUp] all'alleato che ha la percentuale di PV attuale più bassa (3 volte per turno)",
+          "desc": "[WhenUse] Applica 2 [DefenseUp] all'alleato con la minore percentuale di PV (3 volte per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -84,7 +84,7 @@
         {
           "level": 2,
           "name": "Protezione Clienti",
-          "desc": "[WhenUse] Applica 3 [DefenseUp]  all'alleato che ha la percentuale di PV attuale più bassa (3 volte per turno)\nA 5+ [DefenseUp], Potere Scontro +1",
+          "desc": "[WhenUse] Applica 3 [DefenseUp] all'alleato con la minore percentuale di PV (3 volte per turno)\nA 5+ [DefenseUp], Potere Scontro +1",
           "coinlist": [
             {
               "coindescs": [
@@ -112,7 +112,7 @@
         {
           "level": 4,
           "name": "Protezione Clienti",
-          "desc": "[WhenUse] Applica 4 [DefenseUp]  all'alleato che ha la percentuale di PV attuale più bassa (3 volte per turno)\nA 5+ [DefenseUp], Potere Scontro +2",
+          "desc": "[WhenUse] Applica 4 [DefenseUp] all'alleato con la minore percentuale di PV (3 volte per turno)\nA 5+ [DefenseUp], Potere Scontro +2",
           "coinlist": [
             {
               "coindescs": [
@@ -282,7 +282,7 @@
         {
           "level": 2,
           "name": "Rimbombo Metallico",
-          "desc": "[StartBattle] Consuma 5 Conteggio [Vibration] su di sé e ottiene +1 Portata Attacco per questa Abilità\n[WhenUse] Ottiene +4 Conteggio [Vibration]",
+          "desc": "[StartBattle] Consuma 5 Conteggio [Vibration] su di sé e ottiene Portata Attacco +1 per questa Abilità\n[WhenUse] Ottiene +4 Conteggio [Vibration]",
           "coinlist": [
             {
               "coindescs": [
@@ -310,7 +310,7 @@
         {
           "level": 4,
           "name": "Rimbombo Metallico",
-          "desc": "[StartBattle] Consuma 5 Conteggio [Vibration] su di sé e ottiene +1 Portata Attacco per questa Abilità\n[WhenUse] Ottiene +4 Conteggio [Vibration]",
+          "desc": "[StartBattle] Consuma 5 Conteggio [Vibration] su di sé e ottiene Portata Attacco +1 per questa Abilità\n[WhenUse] Ottiene +4 Conteggio [Vibration]",
           "coinlist": [
             {
               "coindescs": [
@@ -343,7 +343,7 @@
         {
           "level": 3,
           "name": "Violenza Scatenata",
-          "desc": "[StartBattle] Consuma 5 Conteggio [Vibration] su di sé e ottiene +1 Portata Attacco per questa Abilità (max +2)\n[DefeatDuel] Perde 20 PS\nInfligge +3% danni per ogni tipo di effetto negativo sul bersaglio (max 15%)\n[EnemyKill] Ottiene +2 Conteggio [Vibration]",
+          "desc": "[StartBattle] Consuma 5 Conteggio [Vibration] su di sé e ottiene Portata Attacco +1 per questa Abilità (max +2)\n[DefeatDuel] Perde 20 PS\nInfligge +3% danni per ogni tipo di effetto negativo sul bersaglio (max 15%)\n[EnemyKill] Ottiene +2 Conteggio [Vibration]",
           "coinlist": [
             {
               "coindescs": [
@@ -371,7 +371,7 @@
         {
           "level": 4,
           "name": "Violenza Scatenata",
-          "desc": "[StartBattle] Consuma 5 Conteggio [Vibration] su di sé e ottiene +1 Portata Attacco per questa Abilità (max +2)\n[DefeatDuel] Perde 20 PS\nInfligge +6% danni per ogni tipo di effetto negativo sul bersaglio (max 30%)\n[EnemyKill] Ottiene +2 Conteggio [Vibration]",
+          "desc": "[StartBattle] Consuma 5 Conteggio [Vibration] su di sé e ottiene Portata Attacco +1 per questa Abilità (max +2)\n[DefeatDuel] Perde 20 PS\nInfligge +6% danni per ogni tipo di effetto negativo sul bersaglio (max 30%)\n[EnemyKill] Ottiene +2 Conteggio [Vibration]",
           "coinlist": [
             {
               "coindescs": [
@@ -1254,7 +1254,7 @@
         {
           "level": 1,
           "name": "Risonando Aumentando la Sintonia S.F.A.",
-          "desc": "[WhenUse] Perde 5 [Combustion] (1 volta per turno)\n[OnSucceedEvade] Perde 5 [Combustion] (1 volta per turno)",
+          "desc": "[WhenUse] Perde 5 [Combustion] (una volta per turno)\n[OnSucceedEvade] Perde 5 [Combustion] (una volta per turno)",
           "coinlist": [
             {}
           ]
@@ -1262,7 +1262,7 @@
         {
           "level": 4,
           "name": "Risonando Aumentando la Sintonia S.F.A.",
-          "desc": "[WhenUse] A 10+ [Combustion], Potere Moneta +3\n[WhenUse] Perde 5 [Combustion] (1 volta per turno)\n[OnSucceedEvade] Perde 5 [Combustion] (1 volta per turno)",
+          "desc": "[WhenUse] A 10+ [Combustion], Potere Moneta +3\n[WhenUse] Perde 5 [Combustion] (una volta per turno)\n[OnSucceedEvade] Perde 5 [Combustion] (una volta per turno)",
           "coinlist": [
             {}
           ]
@@ -1390,7 +1390,7 @@
                   "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] A Velocità 10+, Riusa questa Moneta una volta (1 volta per Abilità)</style> "
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] A Velocità 10+, Riusa questa Moneta una volta (una volta per Abilità)</style> "
                 }
               ]
             }
@@ -1414,7 +1414,7 @@
                   "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] A Velocità 10+, Riusa questa Moneta una volta (1 volta per Abilità)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] A Velocità 10+, Riusa questa Moneta una volta (una volta per Abilità)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1440,7 +1440,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Se il bersaglio ha [BurstAgility] or [BurstZilu], infligge +30% danni"
+                  "desc": "Se il bersaglio ha [BurstAgility] o [BurstZilu], infligge +30% danni"
                 }
               ]
             }
@@ -1449,7 +1449,7 @@
         {
           "level": 2,
           "name": "Aprirò la Strada, Mio Lord.",
-          "desc": "[WhenUse] Se il bersaglio ha 4+ [Burst], Potere Moneta +1\n<style=\"highlight\">[WhenUse] Ottiene 2 [Agility] il turno successivo (1 volta per turno)</style>\n[WinDuel] Infligge +1 Conteggio [Burst]",
+          "desc": "[WhenUse] Se il bersaglio ha 4+ [Burst], Potere Moneta +1\n<style=\"highlight\">[WhenUse] Ottiene 2 [Agility] il turno successivo (una volta per turno)</style>\n[WinDuel] Infligge +1 Conteggio [Burst]",
           "coinlist": [
             {
               "coindescs": [
@@ -1461,7 +1461,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Se il bersaglio ha [BurstAgility] or [BurstZilu], infligge +30% danni<style=\"highlight\"></style>"
+                  "desc": "Se il bersaglio ha [BurstAgility] o [BurstZilu], infligge +30% danni<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1470,7 +1470,7 @@
         {
           "level": 4,
           "name": "Aprirò la Strada, Mio Lord.",
-          "desc": "<style=\"highlight\">Se la Velocità di questa unità è maggiore di quella del bersaglio, infligge +(differenza di Velocità x [EnhanceZilu] su di sé)% danni (max 50%)</style>\n<style=\"highlight\">Se la Velocità di questa unità è maggiore del bersaglio di 3 o più, Potere Moneta +1\n[WhenUse] Se il bersaglio ha 4+ [Burst], Potere Moneta +1</style>\n[WhenUse] Ottiene 2 [Agility] il turno successivo (1 volta per turno)\n[WinDuel] Infligge +1 Conteggio [Burst]",
+          "desc": "<style=\"highlight\">Se la Velocità di questa unità è maggiore di quella del bersaglio, infligge +(differenza di Velocità x [EnhanceZilu] su di sé)% danni (max 50%)</style>\n<style=\"highlight\">Se la Velocità di questa unità è maggiore del bersaglio di 3 o più, Potere Moneta +1\n[WhenUse] Se il bersaglio ha 4+ [Burst], Potere Moneta +1</style>\n[WhenUse] Ottiene 2 [Agility] il turno successivo (una volta per turno)\n[WinDuel] Infligge +1 Conteggio [Burst]",
           "coinlist": [
             {
               "coindescs": [
@@ -1485,7 +1485,7 @@
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge 1 [Burst]</style>"
                 },
                 {
-                  "desc": "Se il bersaglio ha [BurstAgility] or [BurstZilu], infligge <style=\"highlight\">+50%</style> danni"
+                  "desc": "Se il bersaglio ha [BurstAgility] o [BurstZilu], infligge <style=\"highlight\">+50%</style> danni"
                 }
               ]
             }
@@ -1499,7 +1499,7 @@
         {
           "level": 3,
           "name": "Impercettibile a Vista e Udito",
-          "desc": "Se la Velocità di questa unità è maggiore di quella del bersaglio, infligge +(differenza di Velocità x Potenza di [Burst] sul bersaglio)% danni (max 50%)\nSe la Velocità di questa unità è maggiore del bersaglio di 2 o più, Potere Moneta +1\n[StartBattle] Ottiene 1 [SupportProtect] (1 volta per turno)\n[BeforeUse] A 10+ [EnhanceZilu], attiva al suo posto \"Tecnica Eccelsa degli Heishou - Mao: Manifestazione Spaccanuvole\"\n[WhenUse] Ottiene 3 [LegStrength]\n[WinDuel] Infligge +2 [Burst]",
+          "desc": "Se la Velocità di questa unità è maggiore di quella del bersaglio, infligge +(differenza di Velocità x Potenza di [Burst] sul bersaglio)% danni (max 50%)\nSe la Velocità di questa unità è maggiore del bersaglio di 2 o più, Potere Moneta +1\n[StartBattle] Ottiene 1 [SupportProtect] (una volta per turno)\n[BeforeUse] A 10+ [EnhanceZilu], attiva al suo posto \"Tecnica Eccelsa degli Heishou - Mao: Manifestazione Spaccanuvole\"\n[WhenUse] Ottiene 3 [LegStrength]\n[WinDuel] Infligge +2 [Burst]",
           "coinlist": [
             {
               "coindescs": [
@@ -1527,7 +1527,7 @@
                   "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] A Velocità 10+, Riusa questa Moneta una volta (1 volta per Abilità)"
+                  "desc": "[OnSucceedAttack] A Velocità 10+, Riusa questa Moneta una volta (una volta per Abilità)"
                 }
               ]
             }
@@ -1536,7 +1536,7 @@
         {
           "level": 4,
           "name": "Impercettibile a Vista e Udito",
-          "desc": "Se la Velocità di questa unità è maggiore di quella del bersaglio, infligge +(differenza di Velocità x Potenza di [Burst] sul bersaglio)% danni (max 50%)\n<style=\"highlight\">Se la Velocità di questa unità è maggiore di quella del bersaglio, ottiene Potere Moneta in base alla differenza di Velocità (Potere Moneta +1 per ogni 2 differenza di Velocità; max 2)</style>\n[StartBattle] Ottiene 1 [SupportProtect] (1 volta per turno)\n[BeforeUse] A 10+ [EnhanceZilu], attiva al suo posto \"Tecnica Eccelsa degli Heishou - Mao: Manifestazione Spaccanuvole\"\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 15+ [Burst], Potere Moneta +1</style>\n[WhenUse] Ottiene 3 [LegStrength]\n[WinDuel] Infligge +2 Conteggio [Burst]",
+          "desc": "Se la Velocità di questa unità è maggiore di quella del bersaglio, infligge +(differenza di Velocità x Potenza di [Burst] sul bersaglio)% danni (max 50%)\n<style=\"highlight\">Se la Velocità di questa unità è maggiore di quella del bersaglio, ottiene Potere Moneta in base alla differenza di Velocità (Potere Moneta +1 per ogni 2 differenza di Velocità; max 2)</style>\n[StartBattle] Ottiene 1 [SupportProtect] (una volta per turno)\n[BeforeUse] A 10+ [EnhanceZilu], attiva al suo posto \"Tecnica Eccelsa degli Heishou - Mao: Manifestazione Spaccanuvole\"\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 15+ [Burst], Potere Moneta +1</style>\n[WhenUse] Ottiene 3 [LegStrength]\n[WinDuel] Infligge +2 Conteggio [Burst]",
           "coinlist": [
             {
               "coindescs": [
@@ -1564,7 +1564,7 @@
                   "desc": "[OnSucceedAttack] Infligge 3 [Burst]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] A Velocità 10+, Riusa questa Moneta una volta (1 volta per Abilità)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] A Velocità 10+, Riusa questa Moneta una volta (una volta per Abilità)<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "<style=\"highlight\">[ReUseOnSucceedAttack] Infligge [BurstAgility]</style>"
@@ -1581,7 +1581,7 @@
         {
           "level": 1,
           "name": "Sarà Fatto.",
-          "desc": "[DuelCounter]\n[StartBattle] Ottiene 1 [SupportProtect] (1 volta per turno)\n[WhenUse] Quest'Abilità ottiene +1 Livello Offensivo per ogni 10% di PV che questa unità ha perso in totale durante questo Incontro (max 6; in base ai PV massimi al momento dell'attivazione)\n[WhenUse] Ottiene 3 [LegStrength]",
+          "desc": "[DuelCounter]\n[StartBattle] Ottiene 1 [SupportProtect] (una volta per turno)\n[WhenUse] Quest'Abilità ottiene +1 Livello Offensivo per ogni 10% di PV che questa unità ha perso in totale durante questo Incontro (max 6; in base ai PV massimi al momento dell'attivazione)\n[WhenUse] Ottiene 3 [LegStrength]",
           "coinlist": [
             {
               "coindescs": [
@@ -1602,7 +1602,7 @@
         {
           "level": 4,
           "name": "Sarà Fatto.",
-          "desc": "[DuelCounter]\n[StartBattle] Ottiene 1 [SupportProtect] (1 volta per turno)\n[WhenUse] Quest'Abilità ottiene +1 Livello Offensivo per ogni 10% di PV che questa unità ha perso in totale durante questo Incontro (max 6; in base ai PV massimi al momento dell'attivazione)\n[WhenUse] Ottiene 3 [LegStrength]\n<style=\"highlight\">[WhenUse] Se la Velocità di questa unità è maggiore del bersaglio di 2 o più, ottiene Potere Base in base alla differenza di Velocità (Potere Base +1 per ogni 2 differenza di Velocità; max 2)</style>",
+          "desc": "[DuelCounter]\n[StartBattle] Ottiene 1 [SupportProtect] (una volta per turno)\n[WhenUse] Quest'Abilità ottiene +1 Livello Offensivo per ogni 10% di PV che questa unità ha perso in totale durante questo Incontro (max 6; in base ai PV massimi al momento dell'attivazione)\n[WhenUse] Ottiene 3 [LegStrength]\n<style=\"highlight\">[WhenUse] Se la Velocità di questa unità è maggiore del bersaglio di 2 o più, ottiene Potere Base in base alla differenza di Velocità (Potere Base +1 per ogni 2 differenza di Velocità; max 2)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1659,7 +1659,7 @@
                   "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] A Velocità 10+, Riusa questa Moneta una volta (1 volta per Abilità)"
+                  "desc": "[OnSucceedAttack] A Velocità 10+, Riusa questa Moneta una volta (una volta per Abilità)"
                 },
                 {
                   "desc": "[ReUseOnSucceedAttack] Infligge [BurstZilu]"
@@ -1702,7 +1702,7 @@
                   "desc": "[OnSucceedAttack] Infligge 3 [Burst]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] A Velocità 10+, Riusa questa Moneta una volta (1 volta per Abilità)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] A Velocità 10+, Riusa questa Moneta una volta (una volta per Abilità)<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[ReUseOnSucceedAttack] Infligge [BurstZilu]<style=\"highlight\"></style>"
@@ -1722,7 +1722,7 @@
         {
           "level": 1,
           "name": "Protezione Gambeleste",
-          "desc": "[CanDuelGuard]\nAbilità esclusiva a [SupportProtect]\n[BeforeUse] A 10+ [EnhanceZilu], attiva al suo posto \"Tecnica Eccelsa degli Heishou - Mao: Manifestazione Spaccanuvole\"\n[WhenUse] Quest'Abilità ottiene +1 Livello Difensivo per ogni 10% di PV che questa unità ha perso in totale durante questo Incontro (max 6; in base ai PV massimi al momento dell'attivazione)\n[WhenUse] Non può essere Stordito dai danni finché questa Abilità non è conclusa\n[WhenUse] Ottiene 2 [Protection] (1 volta per turno)",
+          "desc": "[CanDuelGuard]\nAbilità esclusiva a [SupportProtect]\n[BeforeUse] A 10+ [EnhanceZilu], attiva al suo posto \"Tecnica Eccelsa degli Heishou - Mao: Manifestazione Spaccanuvole\"\n[WhenUse] Quest'Abilità ottiene +1 Livello Difensivo per ogni 10% di PV che questa unità ha perso in totale durante questo Incontro (max 6; in base ai PV massimi al momento dell'attivazione)\n[WhenUse] Non può essere Stordito dai danni finché questa Abilità non è conclusa\n[WhenUse] Ottiene 2 [Protection] (una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -1736,7 +1736,7 @@
         {
           "level": 4,
           "name": "Protezione Gambeleste",
-          "desc": "[CanDuelGuard]\nAbilità esclusiva a [SupportProtect]\n[BeforeUse] A 10+ [EnhanceZilu], attiva al suo posto \"Tecnica Eccelsa degli Heishou - Mao: Manifestazione Spaccanuvole\"\n[WhenUse] Quest'Abilità ottiene +1 Livello Difensivo per ogni 10% di PV che questa unità ha perso in totale durante questo Incontro (max 6; in base ai PV massimi al momento dell'attivazione)\n[WhenUse] Non può essere Stordito dai danni finché questa Abilità non è conclusa\n[WhenUse] Ottiene 2 [Protection] (1 volta per turno)<style=\"highlight\"></style>",
+          "desc": "[CanDuelGuard]\nAbilità esclusiva a [SupportProtect]\n[BeforeUse] A 10+ [EnhanceZilu], attiva al suo posto \"Tecnica Eccelsa degli Heishou - Mao: Manifestazione Spaccanuvole\"\n[WhenUse] Quest'Abilità ottiene +1 Livello Difensivo per ogni 10% di PV che questa unità ha perso in totale durante questo Incontro (max 6; in base ai PV massimi al momento dell'attivazione)\n[WhenUse] Non può essere Stordito dai danni finché questa Abilità non è conclusa\n[WhenUse] Ottiene 2 [Protection] (una volta per turno)<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1944,7 +1944,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Infligge 1 [DefenseDown] il turno successivo (1 volta per turno)"
+                  "desc": "[CriticalOnSucceedAttack] Infligge 1 [DefenseDown] il turno successivo (una volta per turno)"
                 }
               ]
             }
@@ -1985,7 +1985,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Infligge <style=\"highlight\">2</style> [DefenseDown] il turno successivo (1 volta per turno)"
+                  "desc": "[CriticalOnSucceedAttack] Infligge <style=\"highlight\">2</style> [DefenseDown] il turno successivo (una volta per turno)"
                 }
               ]
             }
@@ -2013,7 +2013,7 @@
         {
           "level": 3,
           "name": "Dispiegare l'Arco [弓刀]",
-          "desc": "<style=\"highlight\">Se questa unità non ha [ArrowShiFau], attiva al suo posto \"Evasione\"\n\n[StartBattle] Se questa unità sta per usare \"Scintilla dell'Arco\", usa al suo posto \"Evasione\"\n[StartBattle] Se questa unità ha [SnipingArrowMode], ottiene (36 / [AimForTheGoal] Stack) Scudo per quel turno (1 volta per turno)\n\n[EndBattle] Se questa unità ha [SnipingArrowMode], e non ha usato un'Abilità Attacco in questo turno, ottiene 1 [AimForTheGoal] il turno successivo (1 volta per turno)\n[EndBattle] Se questa unità non ha [SnipingArrowMode], ed ha 1+ [ArrowShiFau], ottiene 1 di sia [SnipingArrowMode] e [AimForTheGoal] il turno successivo (1 volta per turno)</style>",
+          "desc": "<style=\"highlight\">Se questa unità non ha [ArrowShiFau], attiva al suo posto \"Evasione\"\n\n[StartBattle] Se questa unità sta per usare \"Scintilla dell'Arco\", usa al suo posto \"Evasione\"\n[StartBattle] Se questa unità ha [SnipingArrowMode], ottiene (36 / [AimForTheGoal] Stack) Scudo per quel turno (una volta per turno)\n\n[EndBattle] Se questa unità ha [SnipingArrowMode], e non ha usato un'Abilità Attacco in questo turno, ottiene 1 [AimForTheGoal] il turno successivo (una volta per turno)\n[EndBattle] Se questa unità non ha [SnipingArrowMode], ed ha 1+ [ArrowShiFau], ottiene 1 di sia [SnipingArrowMode] e [AimForTheGoal] il turno successivo (una volta per turno)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2027,7 +2027,7 @@
         {
           "level": 4,
           "name": "Dispiegare l'Arco [弓刀]",
-          "desc": "Se questa unità non ha [ArrowShiFau], attiva al suo posto \"Evasione\"\n\n[StartBattle] Se questa unità sta per usare \"Scintilla dell'Arco\", usa al suo posto \"Evasione\"\n[StartBattle] Se questa unità ha [SnipingArrowMode], ottiene (<style=\"highlight\">60</style> / [AimForTheGoal] Stack) Scudo per quel turno (1 volta per turno)\n\n[EndBattle] Se questa unità ha [SnipingArrowMode], e non ha usato un'Abilità Attacco in questo turno, ottiene 1 [AimForTheGoal] il turno successivo (1 volta per turno)\n[EndBattle] Se questa unità non ha [SnipingArrowMode], ed ha 1+ [ArrowShiFau], ottiene 1 di sia [SnipingArrowMode] e [AimForTheGoal] il turno successivo (1 volta per turno)",
+          "desc": "Se questa unità non ha [ArrowShiFau], attiva al suo posto \"Evasione\"\n\n[StartBattle] Se questa unità sta per usare \"Scintilla dell'Arco\", usa al suo posto \"Evasione\"\n[StartBattle] Se questa unità ha [SnipingArrowMode], ottiene (<style=\"highlight\">60</style> / [AimForTheGoal] Stack) Scudo per quel turno (una volta per turno)\n\n[EndBattle] Se questa unità ha [SnipingArrowMode], e non ha usato un'Abilità Attacco in questo turno, ottiene 1 [AimForTheGoal] il turno successivo (una volta per turno)\n[EndBattle] Se questa unità non ha [SnipingArrowMode], ed ha 1+ [ArrowShiFau], ottiene 1 di sia [SnipingArrowMode] e [AimForTheGoal] il turno successivo (una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -2278,7 +2278,7 @@
         {
           "level": 3,
           "name": "Come Richiesto dal Prescritto, sarai Eliminato.",
-          "desc": "Se quest'Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], infligge +20% danni sul Colpo Critico\nA 6+ ([Breath] su di sé + [Sinking] sul bersaglio), Potere Moneta +1\n[StartBattle] A 6+ [BlessingOfIndexPrescriptAlly], trasforma tutte le monete di quest'Abilità in [SuperCoin](i)\n[WhenUse] Ottiene +3 [Breath] Count",
+          "desc": "Se quest'Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], infligge +20% danni sul Colpo Critico\nA 6+ ([Breath] su di sé + [Sinking] sul bersaglio), Potere Moneta +1\n[StartBattle] A 6+ [BlessingOfIndexPrescriptAlly], trasforma tutte le monete di quest'Abilità in [SuperCoin](i)\n[WhenUse] Ottiene +3 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -2957,7 +2957,7 @@
         {
           "level": 1,
           "name": "Gli Atti di Vandalismo Non Sono Tollerati.",
-          "desc": "[DuelCounter]\nAbilità esclusiva a [SilverOpportunity]\nAbilità esclusiva a [SupportProtect]\nInfligge +5% danni per ogni tipo di effetto negativo sul bersaglio (max 20%)\n[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1\n[WhenUse] A 10+ Conteggio [ChargeBodyArt], consuma 5 Conteggio [ChargeBodyArt] per ottenere i seguenti effetti:\n- Potere Scontro +1\n- Converte la Moneta finale di questa Abilià in [SuperCoin]",
+          "desc": "[DuelCounter]\nAbilità esclusiva a [SilverOpportunity]\nAbilità esclusiva a [SupportProtect]\nInfligge +5% danni per ogni tipo di effetto negativo sul bersaglio (max 20%)\n[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1\n[WhenUse] A 10+ Conteggio [ChargeBodyArt], consuma 5 Conteggio [ChargeBodyArt] per ottenere i seguenti effetti:\n- Potere Scontro +1\n- Converte la Moneta finale di questa Abilità in [SuperCoin]",
           "coinlist": [
             {
               "coindescs": [
