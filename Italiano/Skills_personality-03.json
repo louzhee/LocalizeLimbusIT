@@ -302,7 +302,7 @@
         {
           "level": 4,
           "name": "Una Giusta Vendetta",
-          "desc": "[StartBattle] Il Livello Offensivo di quest'Abilità aumenta di 1 (Rison-A più alta/2) (Max 6)\nSe la Rison-A più alta è Invidia, migliora l'aumento del Livello Offensivo del suddetto effetto del 50% (arrotondato per difetto)\nOttiene double the Offense Level from above effects in encounters with 6 or fewer Participant Limits.",
+          "desc": "[StartBattle] Il Livello Offensivo di quest'Abilità aumenta di 1 (Rison-A più alta/2) (Max 6)\nSe la Rison-A più alta è Invidia, migliora l'aumento del Livello Offensivo del suddetto effetto del 50% (arrotondato per difetto)\nOttiene il doppio del Livello Offensivo dai suddetti effetti negli Incontri Mirati limitati a 6 o meno partecipanti.",
           "coinlist": [
             {
               "coindescs": [
@@ -525,7 +525,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Recupera 15 PV. Recupera il +50% in più dei PV quando riusa la Moneta when reusing Coin."
+                  "desc": "[OnSucceedAttack] Recupera 15 PV. Recupera il +50% in più dei PV quando riusa la Moneta."
                 },
                 {
                   "desc": "[OnSucceedAttack] Recupera PV aggiuntivi in base alla [Burst] sul bersaglio (2 PV curati per 1 [Burst]. Max 40)"
@@ -1639,7 +1639,7 @@
                   "desc": "[OnSucceedAttack] Infligge 1 [Combustion]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Infligge +1 [Combustion] Count</style>"
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Infligge +1 Conteggio [Combustion]</style>"
                 }
               ]
             }
@@ -1737,7 +1737,7 @@
                   "desc": "[OnSucceedAttack] Infligge 2 [Combustion]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 [DefenseDown] per ogni 6 [Combustion] sul bersaglio (max <style=\"highlight\">5</style>, 1 volta per turno)\n<style=\"highlight\">- Infligge additional [DefenseDown] pari a [DianxueDonQuixote] sul bersaglio</style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [DefenseDown] per ogni 6 [Combustion] sul bersaglio (max <style=\"highlight\">5</style>, 1 volta per turno)\n<style=\"highlight\">- Infligge [DefenseDown] addizionale pari a [DianxueDonQuixote] sul bersaglio</style>"
                 }
               ]
             }
@@ -2517,7 +2517,7 @@
         {
           "level": 3,
           "name": "Corna Schiaccianti [破碎角]",
-          "desc": "Se il bersaglio ha 6+ ([Burst] + [Sinking]), Potere Moneta +1\n[StartBattle] Se questa unità ha [GrownHorns], converte tutte le Monete di questa Abilità in [SuperCoin]i)\n[WhenUse] Ottiene 3 [GrownHorns]",
+          "desc": "Se il bersaglio ha 6+ ([Burst] + [Sinking]), Potere Moneta +1\n[StartBattle] Se questa unità ha [GrownHorns], converte tutte le Monete di questa Abilità in [SuperCoin](i)\n[WhenUse] Ottiene 3 [GrownHorns]",
           "coinlist": [
             {},
             {
