@@ -13,7 +13,7 @@
     {
       "id": 855501,
       "name": "Ritorno del Passato",
-      "desc": "A 50+ [AccumulatedPastMirror], se i PV del Nucleo sono pari o inferiori all'80%, il Nucleo recupera 200 PV e spende 50 [AccumulatedPastMirror] a fine turno."
+      "desc": "A 50+ [AccumulatedPastMirror], se i PV del Nucleo sono pari o inferiori all'80%, il Nucleo recupera 200 PV e spende 50 [AccumulatedPastMirror] a Fine Turno."
     },
     {
       "id": 962302,
@@ -88,7 +88,7 @@
     {
       "id": 961801,
       "name": "Ora D'Oro",
-      "desc": "A fine turno, se i PV sono tra il 6% e il 24%, il Nucleo si riprende dallo stordimento e si cura immediatamente fino all'80% dei PV max. (una volta per Incontro)"
+      "desc": "A Fine Turno, se i PV sono tra il 6% e il 24%, il Nucleo si riprende dallo stordimento e si cura immediatamente fino all'80% dei PV max. (una volta per Incontro)"
     },
     {
       "id": 961802,
@@ -98,7 +98,7 @@
     {
       "id": 961803,
       "name": "Sovraccarica",
-      "desc": "A fine turno, a 5+ Conteggio [Charge], ottiene 3 [AttackDmgUp] nel turno successivo"
+      "desc": "A Fine Turno, a 5+ Conteggio [Charge], ottiene 3 [AttackDmgUp] nel turno successivo"
     },
     {
       "id": 961804,
@@ -188,7 +188,7 @@
     {
       "id": 960201,
       "name": "Vino Fatato",
-      "desc": "Quando viene sconfitto, infligge 5 [TipsinessRail] su 3 Identità casuali e 5 [ParryingResultDown] su ogni altra Identità nel turno successivo\nA fine turno, il Vino Fatato esce dall'Incontro; la Fata Gentiluomo recupera il 10% dei PV del Nucleo e ottiene 2 [Enhancement], 2 [Agility] e 2 [Protection] nel turno successivo"
+      "desc": "Quando viene sconfitto, infligge 5 [TipsinessRail] su 3 Identità casuali e 5 [ParryingResultDown] su ogni altra Identità nel turno successivo\nA Fine Turno, il Vino Fatato esce dall'Incontro; la Fata Gentiluomo recupera il 10% dei PV del Nucleo e ottiene 2 [Enhancement], 2 [Agility] e 2 [Protection] nel turno successivo"
     },
     {
       "id": 960301,
@@ -203,7 +203,7 @@
     {
       "id": 960401,
       "name": "Foglia Contaminante",
-      "desc": "Applica i seguenti effetti su Fata Gambe Lunghe e Fata Gentiluomo:\n- A inizio turno, ottiene 1 [Enhancement]\n- A fine turno, ottiene 1 [Enhancement] e 1 [AttackDmgUp] nel turno successivo (ne ottiene 1 in più ad ogni turno)"
+      "desc": "Applica i seguenti effetti su Fata Gambe Lunghe e Fata Gentiluomo:\n- A Inizio Turno, ottiene 1 [Enhancement]\n- A Fine Turno, ottiene 1 [Enhancement] e 1 [AttackDmgUp] nel turno successivo (ne ottiene 1 in più ad ogni turno)"
     },
     {
       "id": 960501,
@@ -268,7 +268,7 @@
     {
       "id": 961007,
       "name": "Rovi Inzuppati di Peccati",
-      "desc": "A inizio turno, ogni Parte ottiene 1 [Protection] e 4 [DefenseUp] per ogni Peccatore con [PrepareSinRose]"
+      "desc": "A Inizio Turno, ogni Parte ottiene 1 [Protection] e 4 [DefenseUp] per ogni Peccatore con [PrepareSinRose]"
     },
     {
       "id": 961005,
@@ -333,12 +333,12 @@
     {
       "id": 961604,
       "name": "Superbia Smisurata",
-      "desc": "A inizio turno, Se questa unità è in [EnhanceRose], ottiene +1 [Breath] in più con gli effetti delle sue Abilità\nSe uccisa in [EnhanceRose], infligge +4 Conteggio [Breath] su ogni nemico"
+      "desc": "A Inizio Turno, Se questa unità è in [EnhanceRose], ottiene +1 [Breath] in più con gli effetti delle sue Abilità\nSe uccisa in [EnhanceRose], infligge +4 Conteggio [Breath] su ogni nemico"
     },
     {
       "id": 961704,
       "name": "Invidia Abbagliante",
-      "desc": "A inizio turno, Se questa unità è in [EnhanceRose], infligge +1 Conteggio [Charge] in più con gli effetti delle sue Abilità\nSe uccisa in [EnhanceRose], applica +4 Conteggio [Charge] su ogni nemico"
+      "desc": "A Inizio Turno, Se questa unità è in [EnhanceRose], infligge +1 Conteggio [Charge] in più con gli effetti delle sue Abilità\nSe uccisa in [EnhanceRose], applica +4 Conteggio [Charge] su ogni nemico"
     }
   ]
 }

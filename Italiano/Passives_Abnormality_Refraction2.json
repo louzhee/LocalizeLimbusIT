@@ -83,7 +83,7 @@
     {
       "id": 854301,
       "name": "Vino Fatato",
-      "desc": "Quando viene sconfitto, infligge 5 Alticcio su ogni Identità nel turno successivo\nSe invece non viene sconfitto, la Fata Gentiluomo recupera il 10% dei PV e ottiene 2 [Enhancement], 2 [Agility] e 2 [Protection] nel turno successivo\nScade a fine turno"
+      "desc": "Quando viene sconfitto, infligge 5 Alticcio su ogni Identità nel turno successivo\nSe invece non viene sconfitto, la Fata Gentiluomo recupera il 10% dei PV e ottiene 2 [Enhancement], 2 [Agility] e 2 [Protection] nel turno successivo\nScade a Fine Turno"
     },
     {
       "id": 854401,
@@ -118,7 +118,7 @@
     {
       "id": 854601,
       "name": "Foglia Contaminante",
-      "desc": "Applica i seguenti effetti su Fata Gambe Lunghe e Fata Gentiluomo:\n- A inizio turno, ottiene 3 [TakeHpHealIncrease] e 1 [Enhancement]\n- Se il Quadrifoglio sopravvive per 4+ turni, ottiene 1 [Enhancement] in più e 2 [AttackDmgUp]"
+      "desc": "Applica i seguenti effetti su Fata Gambe Lunghe e Fata Gentiluomo:\n- A Inizio Turno, ottiene 3 [TakeHpHealIncrease] e 1 [Enhancement]\n- Se il Quadrifoglio sopravvive per 4+ turni, ottiene 1 [Enhancement] in più e 2 [AttackDmgUp]"
     },
     {
       "id": 854701,
@@ -143,7 +143,7 @@
     {
       "id": 854801,
       "name": "Vino Fatato",
-      "desc": "Quando viene sconfitto, infligge 5 Alticcio su ogni Identità nel turno successivo\nSe invece non viene sconfitto, la Fata Gentiluomo recupera il 10% dei PV e ottiene 2 [Enhancement], 2 [Agility] e 2 [Protection] nel turno successivo\nScade a fine turno"
+      "desc": "Quando viene sconfitto, infligge 5 Alticcio su ogni Identità nel turno successivo\nSe invece non viene sconfitto, la Fata Gentiluomo recupera il 10% dei PV e ottiene 2 [Enhancement], 2 [Agility] e 2 [Protection] nel turno successivo\nScade a Fine Turno"
     },
     {
       "id": 854901,
@@ -228,7 +228,7 @@
     {
       "id": 855101,
       "name": "Ora D'Oro",
-      "desc": "A fine turno, se i PV sono tra il 6% e il 24%, il Nucleo si riprende dallo stordimento e si cura immediatamente fino all'80% dei PV max. (una volta per Incontro)"
+      "desc": "A Fine Turno, se i PV sono tra il 6% e il 24%, il Nucleo si riprende dallo stordimento e si cura immediatamente fino all'80% dei PV max. (una volta per Incontro)"
     },
     {
       "id": 855102,
@@ -238,7 +238,7 @@
     {
       "id": 855103,
       "name": "Sovraccarica",
-      "desc": "A fine turno, a 5+ Conteggio [Charge], ottiene 3 [AttackDmgUp] nel turno successivo"
+      "desc": "A Fine Turno, a 5+ Conteggio [Charge], ottiene 3 [AttackDmgUp] nel turno successivo"
     },
     {
       "id": 855104,
@@ -423,7 +423,7 @@
     {
       "id": 856901,
       "name": "Collera",
-      "desc": "A inizio turno, applica 1 Potenza e Conteggio [Breath] su ogni alleato"
+      "desc": "A Inizio Turno, applica 1 Potenza e Conteggio [Breath] su ogni alleato"
     },
     {
       "id": 856902,
@@ -438,7 +438,7 @@
     {
       "id": 856904,
       "name": "Superbia Smisurata",
-      "desc": "A inizio turno, Se questa unità è in [EnhanceRose], ottiene +1 [Breath] in più con gli effetti delle sue Abilità\nSe uccisa in [EnhanceRose], infligge +4 Conteggio [Breath] su ogni nemico"
+      "desc": "A Inizio Turno, Se questa unità è in [EnhanceRose], ottiene +1 [Breath] in più con gli effetti delle sue Abilità\nSe uccisa in [EnhanceRose], infligge +4 Conteggio [Breath] su ogni nemico"
     },
     {
       "id": 856905,
@@ -448,7 +448,7 @@
     {
       "id": 857001,
       "name": "Gelosia",
-      "desc": "A inizio turno, applica +1 Conteggio [Charge] su 2 alleati casuali"
+      "desc": "A Inizio Turno, applica +1 Conteggio [Charge] su 2 alleati casuali"
     },
     {
       "id": 857002,
@@ -463,7 +463,7 @@
     {
       "id": 857004,
       "name": "Invidia Abbagliante",
-      "desc": "A inizio turno, Se questa unità è in [EnhanceRose], infligge +1 Conteggio [Charge] in più con gli effetti delle sue Abilità\nSe uccisa in [EnhanceRose], applica +4 Conteggio [Charge] su ogni nemico"
+      "desc": "A Inizio Turno, Se questa unità è in [EnhanceRose], infligge +1 Conteggio [Charge] in più con gli effetti delle sue Abilità\nSe uccisa in [EnhanceRose], applica +4 Conteggio [Charge] su ogni nemico"
     },
     {
       "id": 857005,
@@ -483,12 +483,12 @@
     {
       "id": 854403,
       "name": "Spargere le Fiamme",
-      "desc": "A fine turno, se questa unità ha [Combustion], infligge lo stesso numero di [Combustion] su ogni unità con [WrappedCurseTagRe] nel turno successivo"
+      "desc": "A Fine Turno, se questa unità ha [Combustion], infligge lo stesso numero di [Combustion] su ogni unità con [WrappedCurseTagRe] nel turno successivo"
     },
     {
       "id": 855607,
       "name": "Rovi Inzuppati di Peccati",
-      "desc": "A inizio turno, ogni Parte ottiene [Protection] per ogni Peccatore con [PrepareSinRose]"
+      "desc": "A Inizio Turno, ogni Parte ottiene [Protection] per ogni Peccatore con [PrepareSinRose]"
     }
   ]
 }

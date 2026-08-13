@@ -95,28 +95,28 @@
     {
       "id": 132006,
       "name": "Ali in Fiamme - Rilascio di Deterrenza Parziale",
-      "desc": "Non subisce danni da [Combustion]\n\nA fine turno, recupera ([Combustion] su di sé x 5) PV del Nucleo",
+      "desc": "Non subisce danni da [Combustion]\n\nA Fine Turno, recupera ([Combustion] su di sé x 5) PV del Nucleo",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": 132501,
       "name": "Prescritto Consegnato Su Un Dispositivo",
-      "desc": "A inizio Incontro, ottiene Scudo pari al 20% dei PV max (questo Scudo non scade)\n\nA inizio turno:\n- Ottiene [IndexPrescript_Base_2nd] in base al livello di [UnlockBuff_Base]\n- <color=#ff6000><mark=#ff000040><b><u>Infligge [IndexPrescriptTargetToPersonality] ad un nemico casuale e lo bersaglia con ogni Abilità</u></b></mark></color> (esclude certi pattern)\n\nInfligge +2.5% danni all'[IndexPrescriptTargetToPersonality] per ogni [BlessingOfIndexPrescriptEnemy] (max 20%)\n- A 9 [BlessingOfIndexPrescriptEnemy], infligge invece +30% danni su ogni bersaglio",
+      "desc": "A inizio Incontro, ottiene Scudo pari al 20% dei PV max (questo Scudo non scade)\n\nA Inizio Turno:\n- Ottiene [IndexPrescript_Base_2nd] in base al livello di [UnlockBuff_Base]\n- <color=#ff6000><mark=#ff000040><b><u>Infligge [IndexPrescriptTargetToPersonality] ad un nemico casuale e lo bersaglia con ogni Abilità</u></b></mark></color> (esclude certi pattern)\n\nInfligge +2.5% danni all'[IndexPrescriptTargetToPersonality] per ogni [BlessingOfIndexPrescriptEnemy] (max 20%)\n- A 9 [BlessingOfIndexPrescriptEnemy], infligge invece +30% danni su ogni bersaglio",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": 132502,
       "name": "Volontà del Prescritto",
-      "desc": "<color=#ff6000><mark=#ff000040><b><u>Se un [IndexPrescript_Base_2nd] è stato portato a termine durante il turno,</u></b></mark></color> recupera 15 PS e ottiene (livello di [UnlockBuff_Base] + 1) [BlessingOfIndexPrescriptEnemy] (una volta per turno)\n\n<color=#ff6000><mark=#ff000040><b><u>Se invece il [IndexPrescript_Base_2nd] non è stato portato al termine durante il turno</u></b></mark></color>, ottiene 1 [PressureOfPrescript] e 5 [KarmaOfIndexStudent]\n- Se non ha [UnlockBuff_Base], ottiene 1 [BlessingOfIndexPrescriptEnemy] a fine turno\n- A 9 [BlessingOfIndexPrescriptEnemy], non ottiene [KarmaOfIndexStudent]\n- Se in stato di E.G.O Manifestato::Attuazione, raddoppia la [KarmaOfIndexStudent] ottenuta",
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>Se un [IndexPrescript_Base_2nd] è stato portato a termine durante il turno,</u></b></mark></color> recupera 15 PS e ottiene (livello di [UnlockBuff_Base] + 1) [BlessingOfIndexPrescriptEnemy] (una volta per turno)\n\n<color=#ff6000><mark=#ff000040><b><u>Se invece il [IndexPrescript_Base_2nd] non è stato portato al termine durante il turno</u></b></mark></color>, ottiene 1 [PressureOfPrescript] e 5 [KarmaOfIndexStudent]\n- Se non ha [UnlockBuff_Base], ottiene 1 [BlessingOfIndexPrescriptEnemy] a Fine Turno\n- A 9 [BlessingOfIndexPrescriptEnemy], non ottiene [KarmaOfIndexStudent]\n- Se in stato di E.G.O Manifestato::Attuazione, raddoppia la [KarmaOfIndexStudent] ottenuta",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": 132503,
       "name": "Sprigiona",
-      "desc": "A fine turno, se ha 3/6/9 [BlessingOfIndexPrescriptEnemy], o a 90%-/75%-/60%- PV:\n- Ottiene [UnlockBuff_1]/[UnlockBuff_2]/[UnlockBuff_3]\n- Porta i PS a 45\n- <color=#ff6000><mark=#ff000040><b><u>Consuma ogni [PressureOfPrescript]</u></b></mark></color> e si riprende dallo Stordimento\n- Ottiene 1 [BlessingOfIndexPrescriptEnemy] al turno seguente al turno in cui [UnlockBuff_Base] è stato ottenuto per la prima volta\n\nSe [UnlockBuff_Base] è stato ottenuto tramite la condizione dei PV:\n- Ottiene (PS recuperati / 15) [KarmaOfIndexStudent]\n- Se questa unità ha meno di 3/6/9 [BlessingOfIndexPrescriptEnemy], porta [BlessingOfIndexPrescriptEnemy] a 3/6/9\n- Ottiene 1 [DefenseDown] e 2 [KarmaOfIndexStudent] nel turno successivo per ogni [BlessingOfIndexPrescriptEnemy] ottenuta\n\nQuando usa il suo attacco potente, Velocità +10",
+      "desc": "A Fine Turno, se ha 3/6/9 [BlessingOfIndexPrescriptEnemy], o a 90%-/75%-/60%- PV:\n- Ottiene [UnlockBuff_1]/[UnlockBuff_2]/[UnlockBuff_3]\n- Porta i PS a 45\n- <color=#ff6000><mark=#ff000040><b><u>Consuma ogni [PressureOfPrescript]</u></b></mark></color> e si riprende dallo Stordimento\n- Ottiene 1 [BlessingOfIndexPrescriptEnemy] al turno seguente al turno in cui [UnlockBuff_Base] è stato ottenuto per la prima volta\n\nSe [UnlockBuff_Base] è stato ottenuto tramite la condizione dei PV:\n- Ottiene (PS recuperati / 15) [KarmaOfIndexStudent]\n- Se questa unità ha meno di 3/6/9 [BlessingOfIndexPrescriptEnemy], porta [BlessingOfIndexPrescriptEnemy] a 3/6/9\n- Ottiene 1 [DefenseDown] e 2 [KarmaOfIndexStudent] nel turno successivo per ogni [BlessingOfIndexPrescriptEnemy] ottenuta\n\nQuando usa il suo attacco potente, Velocità +10",
       "summary": "",
       "undefined": "-",
       "flavor": "\"It is said that the blade and fabric granted by the Prescript unlock their power only when the Prescript is executed.\""
@@ -124,14 +124,14 @@
     {
       "id": 132504,
       "name": "E.G.O Manifestato::Attuazione",
-      "desc": "A inizio turno, se questa unità ha [UnlockBuff_Base] e 25+ PS, consuma 15 PS e Manifesta il suo E.G.O\n- Se Stordita, si riprende dallo Stordimento\n- Ottiene [Blandishment_Enemy] and a different set of Resistance values while in this state\n- A inizio turno, a meno di 0 PS, Termina lo stato E.G.O Manifestato",
+      "desc": "A Inizio Turno, se questa unità ha [UnlockBuff_Base] e 25+ PS, consuma 15 PS e Manifesta il suo E.G.O\n- Se Stordita, si riprende dallo Stordimento\n- Ottiene [Blandishment_Enemy] and a different set of Resistance values while in this state\n- A Inizio Turno, a meno di 0 PS, Termina lo stato E.G.O Manifestato",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": 132505,
       "name": "Forma di Annientamento",
-      "desc": "All'arrivo di Vespa:\n- Se [UnlockBuff_Base] è sotto il livello II, diventa [UnlockBuff_2] e porta le Stack di [BlessingOfIndexPrescriptEnemy] a 6.\nA inizio turno, ottiene 1 [DefenseDown] e 2 [KarmaOfIndexStudent] per ogni Stack ottenuta\n- Ottiene 1 [Blandishment_Shin_Enemy] e uno Scudo pari al 50% dei PV max (questo Scudo non scade)\n- Non può ottenere [PressureOfPrescript] tramite la Passiva \"Sprigiona[TabExplain]\"\n- [PressureOfPrescript] diventa [PressureOfPrescript_2nd]. Poi, porta le Stack di [PressureOfPrescript_2nd] al massimo\n- A inizio turno, ottiene 1 [PressureOfPrescript_2nd]\n- Porta i PS a 30 e ottiene (SP recuperati / 10) [KarmaOfIndexStudent]\n- I PS di questa unità non possono scendere sotto 0\n\nA 20%- PV, porta le Stack di [PressureOfPrescript_2nd] al massimo",
+      "desc": "All'arrivo di Vespa:\n- Se [UnlockBuff_Base] è sotto il livello II, diventa [UnlockBuff_2] e porta le Stack di [BlessingOfIndexPrescriptEnemy] a 6.\nA Inizio Turno, ottiene 1 [DefenseDown] e 2 [KarmaOfIndexStudent] per ogni Stack ottenuta\n- Ottiene 1 [Blandishment_Shin_Enemy] e uno Scudo pari al 50% dei PV max (questo Scudo non scade)\n- Non può ottenere [PressureOfPrescript] tramite la Passiva \"Sprigiona[TabExplain]\"\n- [PressureOfPrescript] diventa [PressureOfPrescript_2nd]. Poi, porta le Stack di [PressureOfPrescript_2nd] al massimo\n- A Inizio Turno, ottiene 1 [PressureOfPrescript_2nd]\n- Porta i PS a 30 e ottiene (SP recuperati / 10) [KarmaOfIndexStudent]\n- I PS di questa unità non possono scendere sotto 0\n\nA 20%- PV, porta le Stack di [PressureOfPrescript_2nd] al massimo",
       "summary": "",
       "undefined": "-",
       "flavor": "'C-Che persona pericolosa... Di questo passo, potrei non riuscire a ultimare il Prescritto.'"
@@ -139,7 +139,7 @@
     {
       "id": 132230,
       "name": "Ripresa dal Panico",
-      "desc": "A fine turno, se in Panico, riporta i PS a 30.",
+      "desc": "A Fine Turno, se in Panico, riporta i PS a 30.",
       "summary": "",
       "undefined": "-"
     }
