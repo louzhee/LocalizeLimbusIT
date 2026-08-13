@@ -2,21 +2,21 @@
   "dataList": [
     {
       "id": 1070,
-      "panicName": "Affetto e Risentimento",
-      "lowMoraleDescription": "Infligge +10% danno a e subisce +10% danno da Ryōshū",
+      "panicName": "Affetto e Rancore",
+      "lowMoraleDescription": "Infligge e subisce +10% danno da Ryōshū",
       "panicDescription": "Infligge +20% danno a e subisce +10% danno da Ryōshū"
     },
     {
       "id": 1074,
-      "panicName": "Vessazione",
+      "panicName": "Infastidito",
       "lowMoraleDescription": "Ottiene 1 [PenetrateResultUp] e 1 [MentalIncreaseDown]",
-      "panicDescription": "Ottiene 2 [PenetrateResultUp], 1 [PenetrateDamageUp], e 2 [MentalIncreaseDown]"
+      "panicDescription": "Ottiene 2 [PenetrateResultUp], 1 [PenetrateDamageUp] e 2 [MentalIncreaseDown]"
     },
     {
       "id": 1072,
       "panicName": "Rischio di Non Conformità al Prescritto",
-      "lowMoraleDescription": "Infligge +20% danno all'[IndexPrescriptTargetToPersonality]\nSubisce +10% danno dalle unità che non sono l'[IndexPrescriptTargetToPersonality]",
-      "panicDescription": "Infligge +30% danno all'[IndexPrescriptTargetToPersonality]\nSubisce +20% danno dalle unità che non sono l'[IndexPrescriptTargetToPersonality]"
+      "lowMoraleDescription": "Infligge +20% danno all'[IndexPrescriptTargetToPersonality]\nSubisce +10% danno dalle unità diverse dall'[IndexPrescriptTargetToPersonality]",
+      "panicDescription": "Infligge +30% danno all'[IndexPrescriptTargetToPersonality]\nSubisce +20% danno dalle unità diverse dall'[IndexPrescriptTargetToPersonality]"
     }
   ]
 }
