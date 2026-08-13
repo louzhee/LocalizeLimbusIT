@@ -5,13 +5,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Flame Strike",
+          "name": "Colpo Fiammeggiante",
           "desc": "[WhenUse] Ottiene 1 [MRcAiBa]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 5 [Combustion] and +3 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Combustion] e +3 Conteggio [Combustion]"
                 }
               ]
             }
@@ -24,13 +24,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Ardor Blossom Pinions",
+          "name": "Battiti del Fiore Ardente",
           "desc": "[WhenUse] Ottiene 2 [MRcAiBa]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 2 [CrimsonResistDown] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 2 [CrimsonResistDown] nel turno successivo"
                 }
               ]
             }
@@ -43,8 +43,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Spark",
-          "desc": "[WhenUse] Infligge +2 [Combustion] Count\n[WinDuel] Infligge [Combustion] equal to [Combustion] on target\n[DefeatDuel] Ottiene the following effects:\n- Damage dealt by this Skill cannot Stagger the target\n- If this is a Wrath Skill, remove [Combustion] on the target\n- Halve the amount of [Combustion] and [Combustion] Count this Skill inflicts",
+          "name": "Scintilla",
+          "desc": "[WhenUse] Infligge +2 Conteggio [Combustion]\n[WinDuel] Infligge [Combustion] pari alla [Combustion] sul bersaglio\n\n[DefeatDuel]:\n- Quest'Abilità non può Stordire il bersaglio\n- Se quest'Abilità è di Affinità Ira, rimuove tutta la [Combustion] sul bersaglio\n- Dimezza la Potenza e il Conteggio [Combustion] inflitti da quest'Abilità",
           "coinlist": [
             {
               "coindescs": [
@@ -52,7 +52,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] If target has 3+ [MRcAiBb]...\n- Infligge 10 [Combustion]\n- Infligge +2 [Combustion] Count\n- Infligge 2 [MRcAiBc]\n- [MRcAiBb] expires completely"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Se il bersaglio ha 3+ [MRcAiBb]:\n- Infligge 10 [Combustion]\n- Infligge +2 Conteggio [Combustion]\n- Infligge 2 [MRcAiBc]\n- [MRcAiBb] scade"
                 }
               ]
             },
@@ -62,10 +62,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge 6 [Combustion] and +4 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Infligge 6 [Combustion] e +4 Conteggio [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge 2 [CrimsonResistDown] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 2 [CrimsonResistDown] nel turno successivo"
                 }
               ]
             }
@@ -78,26 +78,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Dust Explosion",
-          "desc": "[WhenUse] If target has 5+ [Combustion], this Skill gains Clash Power +2",
+          "name": "Esplosione di Polvere",
+          "desc": "[WhenUse] Se il bersaglio ha 5+ [Combustion], Potere Scontro +2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge [Combustion] Count equal to the number of Wrath Skills that the Ardor Blossom Moth will use this turn"
+                  "desc": "[OnSucceedAttack] Infligge +(numero di Abilità Ira equipaggiate da questa unità) Conteggio [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Against the enemy with the slowest Speed, inflict [Combustion] Count equal to the number of Wrath Skills that the Ardor Blossom Moth will use this turn"
+                  "desc": "[OnSucceedAttackHead] Infligge +(numero di Abilità Ira equipaggiate da questa unità) Conteggio [Combustion] sul nemico più lento"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge [Combustion] equal to the number of Wrath Skills that the Ardor Blossom Moth will use this turn"
+                  "desc": "[OnSucceedAttack] Infligge +(numero di Abilità Ira equipaggiate da questa unità) Conteggio [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Against the enemy with the lowest Speed, inflict [Combustion] equal to the number of Wrath Skills that the Ardor Blossom Moth will use this turn"
+                  "desc": "[OnSucceedAttackHead] Infligge +(numero di Abilità Ira equipaggiate da questa unità) Conteggio [Combustion] sul nemico più lento"
                 }
               ]
             }
@@ -110,8 +110,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Ardor Blossom Star",
-          "desc": "Ottiene Clash Power equal to (# of Wrath Skills that the Ardor Blossom Moth will use this turn x2)\n[WhenUse] Infligge (# of Wrath Skills that the Ardor Blossom Moth will use this turn x2) [Combustion] to all enemies\n[DefeatDuel] Ottiene the following effects:\n- This Attack Skill deals 0 damage\n- Remove [Combustion] from all targets\n- Halve the amount of [Combustion] and [Combustion] Count this Skill inflicts",
+          "name": "Stella del Fiore Ardente",
+          "desc": "Potere Scontro +((numero di Abilità Ira equipaggiate da questa unità) x 2)\n[WhenUse] Infligge ((numero di Abilità Ira equipaggiate da questa unità) x 2) [Combustion] su ogni nemico\n\n[DefeatDuel]:\n- Non infligge danni\n- Rimuove tutta la [Combustion] sui bersagli\n- Dimezza la Potenza e il Conteggio [Combustion] inflitti da quest'Abilità",
           "coinlist": [
             {
               "coindescs": [
@@ -119,10 +119,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge [Combustion] equal to the number of Wrath Skills that the Ardor Blossom Moth will use this turn"
+                  "desc": "[OnSucceedAttack] Infligge (numero di Abilità Ira equipaggiate da questa unità) [Combustion]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Against the enemy with the slowest Speed, Infligge [Combustion] and [Combustion] Count equal to the number of Wrath Skills that the Ardor Blossom Moth will use this turn"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge (numero di Abilità Ira equipaggiate da questa unità) Potenza e Conteggio [Combustion] sul nemico più lento"
                 }
               ]
             },
@@ -132,10 +132,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge [Combustion] equal to the number of Wrath Skills that the Ardor Blossom Moth will use this turn"
+                  "desc": "[OnSucceedAttack] Infligge (numero di Abilità Ira equipaggiate da questa unità) [Combustion]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Against the enemy with the slowest Speed, Infligge [Combustion] and [Combustion] Count equal to the number of Wrath Skills that the Ardor Blossom Moth will use this turn"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge (numero di Abilità Ira equipaggiate da questa unità) Potenza e Conteggio [Combustion] sul nemico più lento"
                 }
               ]
             },
@@ -145,10 +145,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Raise the target's Stagger Threshold by 70% of damage dealt"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Aumenta la Soglia di Stordimento del bersaglio pari al 70% del danno inflitto"
                 },
                 {
-                  "desc": "- Infligge 10 [Combustion] against targets that have been Staggered by this"
+                  "desc": "- Infligge 10 [Combustion] su ogni nemico Stordito da questo effetto."
                 }
               ]
             }
@@ -162,7 +162,7 @@
         {
           "level": 1,
           "name": "Schivata",
-          "desc": "[WhenUse] Base Power +1 for every 4 [Combustion] on target (max 3)\n[WhenUse] Infligge 4 [Combustion]\n[OnSucceedEvade] Ottiene 1 [MRcAiBa] next turn",
+          "desc": "[WhenUse] Potere Base +1 per ogni 4 [Combustion] sul bersaglio (max 3)\n[WhenUse] Infligge 4 [Combustion]\n[OnSucceedEvade] Ottiene 1 [MRcAiBa] nel turno successivo",
           "coinlist": [
             {}
           ]
@@ -174,15 +174,15 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Stoke the Flames",
-          "desc": "[CantDuel] [CantChangeTarget]\nDamage dealt by this Attack Skill is fixed to 0",
+          "name": "Alimenta le Fiamme",
+          "desc": "[CantDuel] [CantChangeTarget]\nNon infligge danni",
           "coinlist": [
             {},
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 2 [MRcAiBb] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 2 [MRcAiBb] nel turno successivo"
                 }
               ]
             }
@@ -201,7 +201,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration] and +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration] and +2 Conteggio [Laceration]"
                 }
               ]
             }
@@ -220,14 +220,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration] and +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration] and +2 Conteggio [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 2 [Binding] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Binding] nel turno successivo"
                 }
               ]
             }
@@ -252,7 +252,7 @@
                   "desc": "[OnSucceedAttack] Infligge 2 [Vulnerable]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 2 [Binding] next turn"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 2 [Binding] nel turno successivo"
                 }
               ]
             }
@@ -266,7 +266,7 @@
         {
           "level": 1,
           "name": "Electric Load",
-          "desc": "[StartBattle] Ottiene 1 [SelfCharge]\n[WhenUse] At 5+ [SelfCharge], Coin Power +1\nIf target has [Paralysis], deal +30% damage\n[DefeatDuel] Lose 2 [SelfCharge]",
+          "desc": "[StartBattle] Ottiene 1 [SelfCharge]\n[WhenUse] At 5+ [SelfCharge], Coin Power +1\nSe il bersaglio ha [Paralysis], deal +30% damage\n[DefeatDuel] Lose 2 [SelfCharge]",
           "coinlist": [
             {
               "coindescs": [
@@ -292,7 +292,7 @@
         {
           "level": 1,
           "name": "Electric Release",
-          "desc": "[StartBattle] Ottiene 1 [SelfCharge]\n[WhenUse] At 5+ [SelfCharge], Coin Power +1\nIf target has [Paralysis], deal +30% damage\n[DefeatDuel] Lose 3 [SelfCharge]",
+          "desc": "[StartBattle] Ottiene 1 [SelfCharge]\n[WhenUse] At 5+ [SelfCharge], Coin Power +1\nSe il bersaglio ha [Paralysis], deal +30% damage\n[DefeatDuel] Lose 3 [SelfCharge]",
           "coinlist": [
             {
               "coindescs": [
@@ -325,7 +325,7 @@
         {
           "level": 1,
           "name": "Electric Discharge",
-          "desc": "[StartBattle] Ottiene 1 [SelfCharge]\nIf target has [Paralysis], deal +30% damage",
+          "desc": "[StartBattle] Ottiene 1 [SelfCharge]\nSe il bersaglio ha [Paralysis], deal +30% damage",
           "coinlist": [
             {
               "coindescs": [
@@ -375,7 +375,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [Paralysis] on the main target"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has [ElectricStorage], deal 40% of final damage dealt as fixed damage"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [ElectricStorage], deal 40% of final damage dealt as fixed damage"
                 }
               ]
             }
@@ -389,7 +389,7 @@
         {
           "level": 1,
           "name": "Coil Up",
-          "desc": "[StartBattle] The Head Part gains Shield by its current HP\n[EndBattle] If the Head Part has Shield, gain 10 [SelfCharge] next turn",
+          "desc": "[StartBattle] The Head Part gains Shield by its current HP\n[EndBattle] If the Head Part has Shield, gain 10 [SelfCharge] nel turno successivo",
           "coinlist": [
             {}
           ]
@@ -402,7 +402,7 @@
         {
           "level": 1,
           "name": "Wriggling Head",
-          "desc": "Prioritizes targets with the least HP\nIf target has [Paralysis], deal +50% damage\n<color=#ff6000><mark color=#ff000040><b><u>If target has used a Defense Skill, deal -100% damage</color></mark></b></u>\nBase Power +1 for every [SelfCharge]\n[WhenUse] Lose 1 [SelfCharge]\n[EndSkill] If it was an Unopposed Attack, lose 1 [SelfCharge]\n- If the target attacked by this Skill used a Defense Skill, lose 1 more [SelfCharge]",
+          "desc": "Prioritizes targets with the least HP\nSe il bersaglio ha [Paralysis], deal +50% damage\n<color=#ff6000><mark color=#ff000040><b><u>Se il bersaglio ha used a Defense Skill, deal -100% damage</color></mark></b></u>\nBase Power +1 for every [SelfCharge]\n[WhenUse] Lose 1 [SelfCharge]\n[EndSkill] If it was an Unopposed Attack, lose 1 [SelfCharge]\n- If the target attacked by this Skill used a Defense Skill, lose 1 more [SelfCharge]",
           "coinlist": [
             {
               "coindescs": [
@@ -428,7 +428,7 @@
         {
           "level": 1,
           "name": "Wriggling Tail",
-          "desc": "Prioritizes targets with the least HP\nIf target has [Paralysis], deal +50% damage\n<color=#ff6000><mark color=#ff000040><b><u>If target has used a Defense Skill, deal -100% damage</color></mark></b></u>\nBase Power +1 for every [SelfCharge]\n[WhenUse] Lose 1 [SelfCharge]\n[EndSkill] If it was an Unopposed Attack, lose 1 [SelfCharge]\n- If the target attacked by this Skill used a Defense Skill, lose 1 more [SelfCharge]",
+          "desc": "Prioritizes targets with the least HP\nSe il bersaglio ha [Paralysis], deal +50% damage\n<color=#ff6000><mark color=#ff000040><b><u>Se il bersaglio ha used a Defense Skill, deal -100% damage</color></mark></b></u>\nBase Power +1 for every [SelfCharge]\n[WhenUse] Lose 1 [SelfCharge]\n[EndSkill] If it was an Unopposed Attack, lose 1 [SelfCharge]\n- If the target attacked by this Skill used a Defense Skill, lose 1 more [SelfCharge]",
           "coinlist": [
             {
               "coindescs": [
@@ -700,7 +700,7 @@
         {
           "level": 1,
           "name": "Skull Crushing",
-          "desc": "Final Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 2)\n[WhenUse] Ottiene +2 [Breath] Count",
+          "desc": "Final Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 2)\n[WhenUse] Ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -726,7 +726,7 @@
         {
           "level": 1,
           "name": "Ah, Please be Quiet",
-          "desc": "Final Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 2)\n[StartBattle] <color=#ff6000><mark=#ff000040><b><u>If this unit has [PressureOfPrescript], or if target has [IndexPrescriptTargetToPersonality]</u></b></mark></color>, convert the final Coin to [SuperCoin]\n[DefeatDuel] Deal -50% damage; On Hit, does not Stagger the target; On Hit, does not activate [Sinking] on target\n[WhenUse] Ottiene 2 [Breath]",
+          "desc": "Final Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 2)\n[StartBattle] <color=#ff6000><mark=#ff000040><b><u>If this unit has [PressureOfPrescript], or Se il bersaglio ha [IndexPrescriptTargetToPersonality]</u></b></mark></color>, convert the final Coin to [SuperCoin]\n[DefeatDuel] Deal -50% damage; On Hit, does not Stagger the target; On Hit, does not activate [Sinking] on target\n[WhenUse] Ottiene 2 [Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -745,7 +745,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 2 [Sinking] and +1 [Sinking] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 2 [Sinking] and +1 Conteggio [Sinking]"
                 }
               ]
             }
@@ -759,7 +759,7 @@
         {
           "level": 1,
           "name": "I-I Have to Execute the Prescript Soon...!",
-          "desc": "<color=#ff6000><mark=#ff000040><b><u>At 2 [PressureOfPrescript], cannot change target</u></b></mark></color>\n<color=#ff6000><mark=#ff000040><b><u>Does not trigger Defense Skills</u></b></mark></color>\nFinal Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 3)\n[StartBattle] <color=#ff6000><mark=#ff000040><b><u>If this unit has [PressureOfPrescript], or if target has [IndexPrescriptTargetToPersonality]</u></b></mark></color>, convert all Coins to [SuperCoin]s\n[DefeatDuel] Deal -80% damage; On Hit, does not Stagger the target; On Hit, does not activate [Sinking] on target\n[WhenUse] Ottiene 2 [Breath] and +2 [Breath] Count",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>At 2 [PressureOfPrescript], cannot change target</u></b></mark></color>\n<color=#ff6000><mark=#ff000040><b><u>Does not trigger Defense Skills</u></b></mark></color>\nFinal Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 3)\n[StartBattle] <color=#ff6000><mark=#ff000040><b><u>If this unit has [PressureOfPrescript], or Se il bersaglio ha [IndexPrescriptTargetToPersonality]</u></b></mark></color>, convert all Coins to [SuperCoin]s\n[DefeatDuel] Deal -80% damage; On Hit, does not Stagger the target; On Hit, does not activate [Sinking] on target\n[WhenUse] Ottiene 2 [Breath] and +2 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -774,7 +774,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +2 [Sinking] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +2 Conteggio [Sinking]"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Deal +20% damage"
@@ -843,7 +843,7 @@
         {
           "level": 1,
           "name": "Let These Hands be the Proxy...",
-          "desc": "Final Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 2)\n[WhenUse] Ottiene +2 [Breath] Count\n[EndSkill] Lose 3 SP",
+          "desc": "Final Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 2)\n[WhenUse] Ottiene +2 Conteggio [Breath]\n[EndSkill] Lose 3 SP",
           "coinlist": [
             {
               "coindescs": [
@@ -855,7 +855,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking]"
                 }
               ]
             }
@@ -869,7 +869,7 @@
         {
           "level": 1,
           "name": "Disembowel, Eviscerate...",
-          "desc": "Final Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 2)\n[StartBattle] <color=#ff6000><mark=#ff000040><b><u>If this unit has [PressureOfPrescript], or if target has [IndexPrescriptTargetToPersonality]</u></b></mark></color>, convert the final Coin to [SuperCoin]\n[DefeatDuel] Deal -50% damage; On Hit, does not Stagger the target; On Hit, does not activate [Sinking] on target\n[WhenUse] Ottiene 2 [Breath]\n[EndSkill] Lose 3 SP",
+          "desc": "Final Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 2)\n[StartBattle] <color=#ff6000><mark=#ff000040><b><u>If this unit has [PressureOfPrescript], or Se il bersaglio ha [IndexPrescriptTargetToPersonality]</u></b></mark></color>, convert the final Coin to [SuperCoin]\n[DefeatDuel] Deal -50% damage; On Hit, does not Stagger the target; On Hit, does not activate [Sinking] on target\n[WhenUse] Ottiene 2 [Breath]\n[EndSkill] Lose 3 SP",
           "coinlist": [
             {
               "coindescs": [
@@ -888,7 +888,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +2 [Sinking] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +2 Conteggio [Sinking]"
                 }
               ]
             }
@@ -902,7 +902,7 @@
         {
           "level": 1,
           "name": "Procuration: Engrave",
-          "desc": "Coin Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 2)\n[StartBattle] <color=#ff6000><mark=#ff000040><b><u>If this unit has [PressureOfPrescript], or if target has [IndexPrescriptTargetToPersonality]</u></b></mark></color>, convert all Coins on this Skill to [SuperCoin]s\n[WhenUse]<color=#ff6000><mark=#ff000040><b><u>If the target has [IndexPrescriptTargetToPersonality], deal +50% damage</u></b></mark></color>\n[WhenUse] Ottiene 3 [Breath] and +3 [Breath] Count\n[DefeatDuel] Deal -80% damage; On Hit, does not Stagger the target; On Hit, does not activate [Sinking] on target\n[EndSkill] Lose 6 SP",
+          "desc": "Coin Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 2)\n[StartBattle] <color=#ff6000><mark=#ff000040><b><u>If this unit has [PressureOfPrescript], or Se il bersaglio ha [IndexPrescriptTargetToPersonality]</u></b></mark></color>, convert all Coins on this Skill to [SuperCoin]s\n[WhenUse]<color=#ff6000><mark=#ff000040><b><u>If the target has [IndexPrescriptTargetToPersonality], deal +50% damage</u></b></mark></color>\n[WhenUse] Ottiene 3 [Breath] and +3 Conteggio [Breath]\n[DefeatDuel] Deal -80% damage; On Hit, does not Stagger the target; On Hit, does not activate [Sinking] on target\n[EndSkill] Lose 6 SP",
           "coinlist": [
             {
               "coindescs": [
@@ -914,7 +914,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +3 [Sinking] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +3 Conteggio [Sinking]"
                 }
               ]
             }
@@ -1061,7 +1061,7 @@
         {
           "level": 1,
           "name": "Ardor Blossom Star",
-          "desc": "Ottiene Clash Power equal to (# of Wrath Skills that the Ardor Blossom Moth will use this turn x2)\n[WhenUse] Infligge (# of Wrath Skills that the Ardor Blossom Moth will use this turn x2) [Combustion] to all enemies\n[DefeatDuel] Ottiene the following effects:\n- This Attack Skill deals 0 damage\n- Remove [Combustion] from all targets\n- Halve the amount of [Combustion] and [Combustion] Count this Skill inflicts",
+          "desc": "Ottiene Clash Power equal to (# of Wrath Skills that the Ardor Blossom Moth will use this turn x2)\n[WhenUse] Infligge (# of Wrath Skills that the Ardor Blossom Moth will use this turn x2) [Combustion] to all enemies\n[DefeatDuel] Ottiene the following effects:\n- This Attack Skill deals 0 damage\n- Remove [Combustion] from all targets\n- Halve the amount of [Combustion] and Conteggio [Combustion] this Skill inflicts",
           "coinlist": [
             {
               "coindescs": [
@@ -1072,7 +1072,7 @@
                   "desc": "[OnSucceedAttack] Infligge [Combustion] equal to the number of Wrath Skills that the Ardor Blossom Moth will use this turn"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Against the enemy with the slowest Speed, Infligge [Combustion] and [Combustion] Count equal to the number of Wrath Skills that the Ardor Blossom Moth will use this turn"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Against the enemy with the slowest Speed, Infligge [Combustion] and Conteggio [Combustion] equal to the number of Wrath Skills that the Ardor Blossom Moth will use this turn"
                 }
               ]
             },
@@ -1085,7 +1085,7 @@
                   "desc": "[OnSucceedAttack] Infligge [Combustion] equal to the number of Wrath Skills that the Ardor Blossom Moth will use this turn"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Against the enemy with the slowest Speed, inflict [Combustion] and [Combustion] Count equal to the number of Wrath Skills that the Ardor Blossom Moth will use this turn"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Against the enemy with the slowest Speed, inflict [Combustion] and Conteggio [Combustion] equal to the number of Wrath Skills that the Ardor Blossom Moth will use this turn"
                 }
               ]
             },
