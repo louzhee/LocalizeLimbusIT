@@ -213,20 +213,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Concussive Stab",
-          "desc": "[WhenUse] Coin Power +1 for every 7 ([Combustion] + [Vibration]) on target (max 2)",
+          "name": "Punta Concussiva",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 7 ([Combustion] + [Vibration]) sul bersaglio (max 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]"
                 }
               ]
             }
@@ -239,20 +239,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Burning Stab",
-          "desc": "[WhenUse] Coin Power +1 for every 7 ([Combustion] + [Vibration]) on target (max 2)",
+          "name": "Punta Ardente",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 7 ([Combustion] + [Vibration]) sul bersaglio (max 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Combustion]"
                 }
               ]
             }
@@ -265,8 +265,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Propulsion Slice",
-          "desc": "[WhenUse] Coin Power +1 for every 7 ([Combustion] + [Vibration]) on target (max 2)\n[DefeatDuel] Deal -75% damage and damage dealt by this Skill cannot Stagger the target",
+          "name": "Taglio Propulsivo",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 7 ([Combustion] + [Vibration]) sul bersaglio (max 2)\n[DefeatDuel] Infligge -75% danni; Il danno inflitto da quest'Abilità non può Stordire il bersaglio",
           "coinlist": [
             {
               "coindescs": [
@@ -274,16 +274,16 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Spend 1 [BudgetBulletPropellant]"
+                  "desc": "Usa 1 [BudgetBulletPropellant]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Combustion]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [Switch_Vibration] into [VibrationIgnition]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Trasforma [Switch_Vibration] in [VibrationIgnition]"
                 }
               ]
             },
@@ -293,10 +293,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Spend 1 [BudgetBulletPropellant]"
+                  "desc": "Usa 1 [BudgetBulletPropellant]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] sul bersaglio di 1"
                 }
               ]
             }
@@ -309,8 +309,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Propellant Ammo Reload",
-          "desc": "[StartBattle] [FullReload] (once per turn)\n[WhenUse] If target has 6+ ([Combustion] + [Vibration]), Coin Power +3\n[WhenUse] Gain 1 [AttackDmgUp] next turn",
+          "name": "Ricarica Munizioni Propellenti",
+          "desc": "[StartBattle] [FullReload] (una volta per turno)\n[WhenUse] Se il bersaglio ha 6+ ([Combustion] + [Vibration]), Potere Moneta +3\n[WhenUse] Ottiene 1 [AttackDmgUp] nel turno successivo",
           "coinlist": [
             {
               "coindescs": [
@@ -328,20 +328,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Concussive Penetration",
-          "desc": "[WhenUse] Coin Power +1 for every 7 ([Combustion] + [Vibration]) on target (max 2)",
+          "name": "Perforazione Concussiva",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 7 ([Combustion] + [Vibration]) sul bersaglio (max 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]"
                 }
               ]
             }
@@ -354,20 +354,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Burning Penetration",
-          "desc": "[WhenUse] Coin Power +1 for every 7 ([Combustion] + [Vibration]) on target (max 2)",
+          "name": "Perforazione Ardente",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 7 ([Combustion] + [Vibration]) sul bersaglio (max 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Combustion]"
                 }
               ]
             }
@@ -380,8 +380,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Propulsion Cleave",
-          "desc": "[WhenUse] Coin Power +1 for every 7 ([Combustion] + [Vibration]) on target (max 2)\n[DefeatDuel] Deal -75% damage and damage dealt by this Skill cannot Stagger the target",
+          "name": "Fendente Propulsivo",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 7 ([Combustion] + [Vibration]) sul bersaglio (max 2)\n[DefeatDuel] Infligge -75% danni; Il danno inflitto da quest'Abilità non può Stordire il bersaglio",
           "coinlist": [
             {
               "coindescs": [
@@ -389,16 +389,16 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Spend 1 [BudgetBulletPropellant]"
+                  "desc": "Usa 1 [BudgetBulletPropellant]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration] and +2 [Vibration] Count,"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration] e +2 Conteggio [Vibration],"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion] and +2 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion] e +2 Conteggio [Combustion]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [Switch_Vibration] into [VibrationIgnition]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Trasforma [Switch_Vibration] in [VibrationIgnition]"
                 }
               ]
             },
@@ -408,10 +408,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Spend 1 [BudgetBulletPropellant]"
+                  "desc": "Usa 1 [BudgetBulletPropellant]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] sul bersaglio di 1"
                 }
               ]
             }
@@ -424,8 +424,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Propellant Ammo Reload",
-          "desc": "[StartBattle] [FullReload] (once per turn)\n[WhenUse] If target has 6+ ([Combustion] + [Vibration]), Coin Power +3\n[WhenUse] Gain 1 [AttackDmgUp] next turn",
+          "name": "Ricarica Munizioni Propellenti",
+          "desc": "[StartBattle] [FullReload] (una volta per turno)\n[WhenUse] Se il bersaglio ha 6+ ([Combustion] + [Vibration]), Potere Moneta +3\n[WhenUse] Ottiene 1 [AttackDmgUp] nel turno successivo",
           "coinlist": [
             {
               "coindescs": [
