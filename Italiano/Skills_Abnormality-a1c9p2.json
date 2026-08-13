@@ -195,13 +195,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Bite",
-          "desc": "[StartBattle] Ottiene 2 [SelfCharge]\n[WhenUse] At 5+ [SelfCharge], Base Power +2\n[DefeatDuel] Lose 1 [SelfCharge]",
+          "name": "Morso",
+          "desc": "[StartBattle] Ottiene 2 [SelfCharge]\n[WhenUse] A 5+ [SelfCharge], Potere Base +2\n[DefeatDuel] Perde 1 [SelfCharge]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration] and +2 Conteggio [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration] e +2 Conteggio [Laceration]"
                 }
               ]
             }
@@ -214,13 +214,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Tail Poke",
-          "desc": "[StartBattle] Ottiene 2 [SelfCharge]\n[WhenUse] At 5+ [SelfCharge], Coin Power +1\n[DefeatDuel] Lose 1 [SelfCharge]",
+          "name": "Stuzzica-Coda",
+          "desc": "[StartBattle] Ottiene 2 [SelfCharge]\n[WhenUse] A 5+ [SelfCharge], Potere Moneta +1\n[DefeatDuel] Perde 1 [SelfCharge]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration] and +2 Conteggio [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration] e +2 Conteggio [Laceration]"
                 }
               ]
             },
@@ -240,8 +240,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Wrapping Coil",
-          "desc": "[StartBattle] Ottiene 3 [SelfCharge]\n[WhenUse] At 5+ [SelfCharge], Base Power +2\n[DefeatDuel] Lose 1 [SelfCharge]",
+          "name": "Striscia e Arrotola",
+          "desc": "[StartBattle] Ottiene 3 [SelfCharge]\n[WhenUse] A 5+ [SelfCharge], Potere Base +2\n[DefeatDuel] Perde 1 [SelfCharge]",
           "coinlist": [
             {
               "coindescs": [
@@ -265,8 +265,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Electric Load",
-          "desc": "[StartBattle] Ottiene 1 [SelfCharge]\n[WhenUse] At 5+ [SelfCharge], Coin Power +1\nSe il bersaglio ha [Paralysis], deal +30% damage\n[DefeatDuel] Lose 2 [SelfCharge]",
+          "name": "Carica Elettrica",
+          "desc": "[StartBattle] Ottiene 1 [SelfCharge]\n[WhenUse] A 5+ [SelfCharge], Potere Moneta +1\nSe il bersaglio ha [Paralysis], infligge +30% danni\n[DefeatDuel] Perde 2 [SelfCharge]",
           "coinlist": [
             {
               "coindescs": [
@@ -291,8 +291,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Electric Release",
-          "desc": "[StartBattle] Ottiene 1 [SelfCharge]\n[WhenUse] At 5+ [SelfCharge], Coin Power +1\nSe il bersaglio ha [Paralysis], deal +30% damage\n[DefeatDuel] Lose 3 [SelfCharge]",
+          "name": "Rilascio Elettrico",
+          "desc": "[StartBattle] Ottiene 1 [SelfCharge]\n[WhenUse] A 5+ [SelfCharge], Potere Moneta +1\nSe il bersaglio ha [Paralysis], infligge +30% danni\n[DefeatDuel] Perde 3 [SelfCharge]",
           "coinlist": [
             {
               "coindescs": [
@@ -324,8 +324,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Electric Discharge",
-          "desc": "[StartBattle] Ottiene 1 [SelfCharge]\nSe il bersaglio ha [Paralysis], deal +30% damage",
+          "name": "Scarica Elettrica",
+          "desc": "[StartBattle] Ottiene 1 [SelfCharge]\nSe il bersaglio ha [Paralysis], infligge +30% danni",
           "coinlist": [
             {
               "coindescs": [
@@ -350,8 +350,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "High-voltage Electric Discharge",
-          "desc": "[WhenUse] Lose all [SelfCharge] on self; if this unit lost 10+ [SelfCharge], gain Clash Power +5\n[DefeatDuel] This Attack Skill deals 0 damage",
+          "name": "Scarica Elettrica ad Alto Voltaggio",
+          "desc": "[WhenUse] Spende tutta la [SelfCharge]. Se ha speso 10+ [SelfCharge], Potere Scontro +5\n[DefeatDuel] Quest'Abilità non infligge danni",
           "coinlist": [
             {
               "coindescs": [
@@ -359,7 +359,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 2 [Vulnerable] on the main target"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 2 [Vulnerable] sul bersaglio principale"
                 }
               ]
             },
@@ -372,10 +372,10 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 1 [ElectricStorage]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [Paralysis] on the main target"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [Paralysis] sul bersaglio principale"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio ha [ElectricStorage], deal 40% of final damage dealt as fixed damage"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [ElectricStorage], infligge danno bonus pari al 40% del danno finale"
                 }
               ]
             }
@@ -388,8 +388,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Coil Up",
-          "desc": "[StartBattle] The Head Part gains Shield by its current HP\n[EndBattle] If the Head Part has Shield, gain 10 [SelfCharge] nel turno successivo",
+          "name": "Attorcigliamento",
+          "desc": "[StartBattle] La Testa ottiene uno Scudo pari ai suoi PV\n[EndBattle] Se la Testa ha ancora Scudo, ottiene 10 [SelfCharge] nel turno successivo",
           "coinlist": [
             {}
           ]
@@ -401,8 +401,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Wriggling Head",
-          "desc": "Prioritizes targets with the least HP\nSe il bersaglio ha [Paralysis], deal +50% damage\n<color=#ff6000><mark color=#ff000040><b><u>Se il bersaglio ha used a Defense Skill, deal -100% damage</color></mark></b></u>\nBase Power +1 for every [SelfCharge]\n[WhenUse] Lose 1 [SelfCharge]\n[EndSkill] If it was an Unopposed Attack, lose 1 [SelfCharge]\n- If the target attacked by this Skill used a Defense Skill, lose 1 more [SelfCharge]",
+          "name": "Testa Scossa",
+          "desc": "Dà priorità al bersaglio con meno PV\nSe il bersaglio ha [Paralysis], infligge +50% danni\n<color=#ff6000><mark color=#ff000040><b><u>Se il bersaglio ha usato un'Abilità Difensiva, infligge -100% danni</color></mark></b></u>\nPotere Base +1 per ogni [SelfCharge]\n[WhenUse] Perde 1 [SelfCharge]\n[EndSkill] Se era un Attacco Incontrastato, perde 1 [SelfCharge] in più\n- Se il bersaglio ha equipaggiato un'Abilità Difensiva, perde 1 [SelfCharge] in più",
           "coinlist": [
             {
               "coindescs": [
@@ -427,8 +427,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Wriggling Tail",
-          "desc": "Prioritizes targets with the least HP\nSe il bersaglio ha [Paralysis], deal +50% damage\n<color=#ff6000><mark color=#ff000040><b><u>Se il bersaglio ha used a Defense Skill, deal -100% damage</color></mark></b></u>\nBase Power +1 for every [SelfCharge]\n[WhenUse] Lose 1 [SelfCharge]\n[EndSkill] If it was an Unopposed Attack, lose 1 [SelfCharge]\n- If the target attacked by this Skill used a Defense Skill, lose 1 more [SelfCharge]",
+          "name": "Coda Svincolata",
+          "desc": "Dà priorità al bersaglio con meno PV\nSe il bersaglio ha [Paralysis], infligge +50% danni\n<color=#ff6000><mark color=#ff000040><b><u>Se il bersaglio ha usato un'Abilità Difensiva, infligge -100% danni</color></mark></b></u>\nPotere Base +1 per ogni [SelfCharge]\n[WhenUse] Perde 1 [SelfCharge]\n[EndSkill] Se era un Attacco Incontrastato, perde 1 [SelfCharge] in più\n- Se il bersaglio ha usato un'Abilità Difensiva, perde 1 [SelfCharge] in più",
           "coinlist": [
             {
               "coindescs": [
@@ -520,7 +520,7 @@
         {
           "level": 1,
           "name": "Scatto Rapido [快閃]",
-          "desc": "[OnDirectAttack] Ottiene 5 [Breath]\n[DefeatDuel] -2 Portata Attacco",
+          "desc": "[OnDirectAttack] Ottiene 5 [Breath]\n[DefeatDuel] Portata Attacco -2",
           "coinlist": [
             {
               "coindescs": [
@@ -699,8 +699,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Skull Crushing",
-          "desc": "Final Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 2)\n[WhenUse] Ottiene +2 Conteggio [Breath]",
+          "name": "Sfondamento del Cranio",
+          "desc": "Potere Finale +1 per ogni 6 ([Breath] su di sé + [Sinking] sul bersaglio) (max 2)\n[WhenUse] Ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -725,8 +725,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Ah, Please be Quiet",
-          "desc": "Final Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 2)\n[StartBattle] <color=#ff6000><mark=#ff000040><b><u>If this unit has [PressureOfPrescript], or Se il bersaglio ha [IndexPrescriptTargetToPersonality]</u></b></mark></color>, convert the final Coin to [SuperCoin]\n[DefeatDuel] Deal -50% damage; On Hit, does not Stagger the target; On Hit, does not activate [Sinking] on target\n[WhenUse] Ottiene 2 [Breath]",
+          "name": "Vi Prego, Faccia Silenzio",
+          "desc": "Potere Finale +1 per ogni 6 ([Breath] su di sé + [Sinking] sul bersaglio) (max 2)\n[StartBattle] <color=#ff6000><mark=#ff000040><b><u>If this unit has [PressureOfPrescript], or Se il bersaglio ha [IndexPrescriptTargetToPersonality]</u></b></mark></color>, convert the final Coin to [SuperCoin]\n[DefeatDuel] Deal -50% damage; On Hit, does not Stagger the target; On Hit, does not activate [Sinking] on target\n[WhenUse] Ottiene 2 [Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -758,8 +758,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "I-I Have to Execute the Prescript Soon...!",
-          "desc": "<color=#ff6000><mark=#ff000040><b><u>At 2 [PressureOfPrescript], cannot change target</u></b></mark></color>\n<color=#ff6000><mark=#ff000040><b><u>Does not trigger Defense Skills</u></b></mark></color>\nFinal Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 3)\n[StartBattle] <color=#ff6000><mark=#ff000040><b><u>If this unit has [PressureOfPrescript], or Se il bersaglio ha [IndexPrescriptTargetToPersonality]</u></b></mark></color>, convert all Coins to [SuperCoin]s\n[DefeatDuel] Deal -80% damage; On Hit, does not Stagger the target; On Hit, does not activate [Sinking] on target\n[WhenUse] Ottiene 2 [Breath] and +2 Conteggio [Breath]",
+          "name": "D-Devo Portare al Termine il Prescritto...!",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>A 2 [PressureOfPrescript], non può cambiare bersaglio</u></b></mark></color>\n<color=#ff6000><mark=#ff000040><b><u>Non attiva le Abilità Difensive</u></b></mark></color>\nPotere Finale +1 per ogni 6 ([Breath] su di sé + [Sinking] sul bersaglio) (max 3)\n[StartBattle] <color=#ff6000><mark=#ff000040><b><u>Se ha [PressureOfPrescript], o se il bersaglio ha [IndexPrescriptTargetToPersonality]</u></b></mark></color>, converte ogni Moneta in [SuperCoin]\n[DefeatDuel] Infligge -80% danni; Il danno inflitto sul colpo non può Stordire e non attiva gli effetti di [Sinking]\n[WhenUse] Ottiene 2 [Breath] e +2 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -777,7 +777,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +2 Conteggio [Sinking]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Deal +20% damage"
+                  "desc": "[CriticalOnSucceedAttack] Infligge +20% danni"
                 }
               ]
             }
@@ -790,8 +790,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Please Don't Resist and just be Crushed to Death",
-          "desc": "<color=#ff6000><mark=#ff000040><b><u>Can Clash with this Skill regardless of Speed</u></b></mark></color>\n[DefeatDuel] Ottiene 3 [ResultReduction] and 4 [Paralysis]\n[DefeatDuel] Deal -90% damage; On Hit, does not Stagger the target; On Hit, does not activate [Sinking] on target\n[EndSkill] Consume all [PressureOfPrescript]",
+          "name": "Vi Prego, Fatevi Schiacciare e Non Opponete Resistenza",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Ci si èuò Scontrare con quest'Abilità a prescindere dalla velocità</u></b></mark></color>\n[DefeatDuel] Ottiene 3 [ResultReduction] e 4 [Paralysis]\n[DefeatDuel] Infligge -90% danni; Il danno inflitto sul colpo non può Stordire e non attiva gli effetti di [Sinking]\n[EndSkill] Consuma ogni [PressureOfPrescript]",
           "coinlist": [
             {
               "coindescs": [
@@ -842,8 +842,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Let These Hands be the Proxy...",
-          "desc": "Final Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 2)\n[WhenUse] Ottiene +2 Conteggio [Breath]\n[EndSkill] Lose 3 SP",
+          "name": "Lascia Che Queste Mani Siano Il Mandante...",
+          "desc": "Potere Finale +1 per ogni 6 ([Breath] su di sé + [Sinking] sul bersaglio) (max 2)\n[WhenUse] Ottiene +2 Conteggio [Breath]\n[EndSkill] Perde 3 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -868,8 +868,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Disembowel, Eviscerate...",
-          "desc": "Final Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 2)\n[StartBattle] <color=#ff6000><mark=#ff000040><b><u>If this unit has [PressureOfPrescript], or Se il bersaglio ha [IndexPrescriptTargetToPersonality]</u></b></mark></color>, convert the final Coin to [SuperCoin]\n[DefeatDuel] Deal -50% damage; On Hit, does not Stagger the target; On Hit, does not activate [Sinking] on target\n[WhenUse] Ottiene 2 [Breath]\n[EndSkill] Lose 3 SP",
+          "name": "Sventrare, Eviscerare...",
+          "desc": "Potere Finale +1 per ogni 6 ([Breath] su di sé + [Sinking] sul bersaglio) (max 2)\n[StartBattle] <color=#ff6000><mark=#ff000040><b><u>Se ha [PressureOfPrescript], o se il bersaglio ha [IndexPrescriptTargetToPersonality]</u></b></mark></color>, converte l'ultima Moneta in [SuperCoin]\n[DefeatDuel] Infligge -50% danni; Il danno inflitto sul colpo non può Stordire e non attiva gli effetti di [Sinking]\n[WhenUse] Ottiene 2 [Breath]\n[EndSkill] Perde 3 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -901,8 +901,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Procuration: Engrave",
-          "desc": "Coin Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 2)\n[StartBattle] <color=#ff6000><mark=#ff000040><b><u>If this unit has [PressureOfPrescript], or Se il bersaglio ha [IndexPrescriptTargetToPersonality]</u></b></mark></color>, convert all Coins on this Skill to [SuperCoin]s\n[WhenUse]<color=#ff6000><mark=#ff000040><b><u>If the target has [IndexPrescriptTargetToPersonality], deal +50% damage</u></b></mark></color>\n[WhenUse] Ottiene 3 [Breath] and +3 Conteggio [Breath]\n[DefeatDuel] Deal -80% damage; On Hit, does not Stagger the target; On Hit, does not activate [Sinking] on target\n[EndSkill] Lose 6 SP",
+          "name": "Attuazione: Incidere",
+          "desc": "Potere Moneta +1 per ogni 6 ([Breath] su di sé + [Sinking] sul bersaglio) (max 2)\n[StartBattle] <color=#ff6000><mark=#ff000040><b><u>Se ha [PressureOfPrescript], o se il bersaglio ha [IndexPrescriptTargetToPersonality]</u></b></mark></color>, converte ogni Moneta in [SuperCoin]s\n[WhenUse]<color=#ff6000><mark=#ff000040><b><u>Se il bersaglio ha [IndexPrescriptTargetToPersonality], infligge +50% damage</u></b></mark></color>\n[WhenUse] Ottiene 3 [Breath] e +3 Conteggio [Breath]\n[DefeatDuel] Infligge -80% danni; Il danno inflitto sul colpo non può Stordire e non attiva gli effetti di [Sinking]\n[EndSkill] Perde 6 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -927,8 +927,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Procuration: Annihilate",
-          "desc": "<color=#ff6000><mark=#ff000040><b><u>Can Clash with this Skill regardless of Speed</u></b></mark></color>\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>If the target has [IndexPrescriptTargetToPersonality], deal +100% damage</u></b></mark></color>\n[DefeatDuel] Ottiene 3 [ResultReduction] and 4 [Paralysis]\n[DefeatDuel] Deal -90% damage; On Hit, does not Stagger the target; On Hit, does not activate [Sinking] on target\n[EndSkill] Lose 15 SP\n[EndSkill] Consume all [PressureOfPrescript]",
+          "name": "Attuazione: Annientare",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Ci si può Scontrare con quest'Abilità a prescindere dalla velocità</u></b></mark></color>\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Se il bersaglio ha [IndexPrescriptTargetToPersonality], infligge +100% danni</u></b></mark></color>\n[DefeatDuel] Ottiene 3 [ResultReduction] e 4 [Paralysis]\n[DefeatDuel] Infligge -90% danni; Il danno inflitto sul colpo non può Stordire e non attiva gli effetti di [Sinking]\n[EndSkill] Perde 15 PS\n[EndSkill] Consuma ogni [PressureOfPrescript]",
           "coinlist": [
             {
               "coindescs": [
@@ -979,8 +979,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Procuration: Annihilation - Mang of Immanent Yearning [本望]",
-          "desc": "[WhenUse] <color=#ff6000><mark=#ff000040><b><u>At 0+ SP, generate 1 Mang</u></b></mark></color>\n- <color=#ff6000><mark=#ff000040><b><u>Deal +20% damage, Final Power +2, Coin Power +2</u></b></mark></color>\n[EndSkill] Lose 15 SP\n[EndSkill] If this Skill generated Mang, lose 20 SP\n[EndSkill] Consume all [PressureOfPrescript] and end this turn",
+          "name": "Attuazione: Annientamento - Mang del Desiderio Immanente [本望]",
+          "desc": "[WhenUse] <color=#ff6000><mark=#ff000040><b><u>A 0+ PS, genera 1 Mang</u></b></mark></color>\n- <color=#ff6000><mark=#ff000040><b><u>Infligge +20% danni, Potere Finale +2, Potere Moneta +2</u></b></mark></color>\n[EndSkill] Perde 15 PS\n[EndSkill] Se quest'Abilità ha generato Mang, perde 20 PS\n[EndSkill] Consuma ogni [PressureOfPrescript] e termina il turno",
           "coinlist": [
             {
               "coindescs": [
@@ -1041,8 +1041,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Envying Roots",
-          "desc": "This Skill does not deal damage\n[WhenUse] Consume all [HowDareYouApple] on self and Reuse its Coins by [HowDareYouApple] Stack consumed (max 4)\n[DefeatDuel] This Skill does not activate [Burst] on target",
+          "name": "Radici Invidiose",
+          "desc": "Non infligge danno\n[WhenUse] Consuma ogni [HowDareYouApple] su di sé e Riusa la Moneta per ogni Stack consumata (max 4)\n[DefeatDuel] Quest'Abilità non attiva la [Burst] sul bersaglio",
           "coinlist": [
             {
               "coindescs": [
@@ -1060,8 +1060,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Ardor Blossom Star",
-          "desc": "Ottiene Clash Power equal to (# of Wrath Skills that the Ardor Blossom Moth will use this turn x2)\n[WhenUse] Infligge (# of Wrath Skills that the Ardor Blossom Moth will use this turn x2) [Combustion] to all enemies\n[DefeatDuel] Ottiene the following effects:\n- This Attack Skill deals 0 damage\n- Remove [Combustion] from all targets\n- Halve the amount of [Combustion] and Conteggio [Combustion] this Skill inflicts",
+          "name": "Stella del Fiore Ardente",
+          "desc": "Potere Scontro +((numero di Abilità Ira equipaggiate da questa unità) x 2)\n[WhenUse] Infligge ((numero di Abilità Ira equipaggiate da questa unità) x 2) [Combustion] su ogni nemico\n\n[DefeatDuel]:\n- Non infligge danni\n- Rimuove tutta la [Combustion] sui bersagli\n- Dimezza la Potenza e il Conteggio [Combustion] inflitti da quest'Abilità",
           "coinlist": [
             {
               "coindescs": [
@@ -1069,10 +1069,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge [Combustion] equal to the number of Wrath Skills that the Ardor Blossom Moth will use this turn"
+                  "desc": "[OnSucceedAttack] Infligge (numero di Abilità Ira equipaggiate da questa unità) [Combustion]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Against the enemy with the slowest Speed, Infligge [Combustion] and Conteggio [Combustion] equal to the number of Wrath Skills that the Ardor Blossom Moth will use this turn"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge (numero di Abilità Ira equipaggiate da questa unità) Potenza e Conteggio [Combustion] sul nemico più lento"
                 }
               ]
             },
@@ -1082,10 +1082,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge [Combustion] equal to the number of Wrath Skills that the Ardor Blossom Moth will use this turn"
+                  "desc": "[OnSucceedAttack] Infligge (numero di Abilità Ira equipaggiate da questa unità) [Combustion]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Against the enemy with the slowest Speed, inflict [Combustion] and Conteggio [Combustion] equal to the number of Wrath Skills that the Ardor Blossom Moth will use this turn"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge (numero di Abilità Ira equipaggiate da questa unità) Potenza e Conteggio [Combustion] sul nemico più lento"
                 }
               ]
             },
@@ -1095,10 +1095,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Raise the target's Stagger Threshold by 70% of damage dealt"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Aumenta la Soglia di Stordimento del bersaglio pari al 70% del danno inflitto"
                 },
                 {
-                  "desc": "- Infligge 10 [Combustion] against targets that have been Staggered by this"
+                  "desc": "- Infligge 10 [Combustion] su ogni nemico Stordito da questo effetto."
                 }
               ]
             }
