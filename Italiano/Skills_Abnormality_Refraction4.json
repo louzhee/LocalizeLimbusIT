@@ -5,13 +5,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Leave This Place",
-          "desc": "[WhenUse] If the target has 4+ [Sinking], Clash Power +1",
+          "name": "Vattene da Qui",
+          "desc": "[WhenUse] Se il bersaglio ha 4+ [Sinking], Potere Scontro +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Sinking]"
                 }
               ]
             }
@@ -24,20 +24,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Don't Make That Face",
-          "desc": "[WhenUse] If the target has 3+ [Sinking] Count, Clash Power +1",
+          "name": "Non Fare Quella Faccia",
+          "desc": "[WhenUse] Se il bersaglio ha 3+ Conteggio [Sinking], Potere Scontro +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Sinking]"
                 }
               ]
             }
@@ -50,37 +50,37 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Who Might You Be?",
-          "desc": "Prioritizes [UninvitedGuest]\nIf the target has [UninvitedGuest], inflict +1 more [Sinking] Potency and Count with this Skill",
+          "name": "E Lei Chi Sarebbe?",
+          "desc": "Dà priorità all'Identità con [UninvitedGuest]\nSe il bersaglio ha [UninvitedGuest], quest'Abilità infligge +1 Potenza e Conteggio [Sinking] in più",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If the target has [UninvitedGuest], Inflict 2 [Paralysis] next turn"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [UninvitedGuest], Infligge 2 [Paralysis] nel turno successivo"
                 }
               ]
             }
@@ -93,29 +93,29 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Interloper, Are You?",
-          "desc": "Prioritizes [UninvitedGuest]\nIf the target has [UninvitedGuest], inflict +1 more [Sinking] Potency and Count with this Skill",
+          "name": "È un Intruso, Non è Così?",
+          "desc": "Dà priorità all'Identità con [UninvitedGuest]\nSe il bersaglio ha [UninvitedGuest], quest'Abilità infligge +1 Potenza e Conteggio [Sinking] in più",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttackHead] Infligge +2 Conteggio [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If the target has [UninvitedGuest], Inflict 2 [Paralysis] next turn"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [UninvitedGuest], Infligge 2 [Paralysis] nel turno successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttackHead] Infligge +2 Conteggio [Sinking]"
                 }
               ]
             }
@@ -128,16 +128,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Leave, Interloper",
-          "desc": "Prioritizes [UninvitedGuest]\nGain Atk Weight equal to number of enemies with [UninvitedGuest]\n[WhenUse] Gain Clash Power equal to the number of enemies with [UninvitedGuest]",
+          "name": "Se Ne Vada, Intruso",
+          "desc": "Prioritizes [UninvitedGuest]\nPortata Attacco +1 per ogni nemico con [UninvitedGuest]\n[WhenUse] Potere Scontro +1 per ogni nemico con [UninvitedGuest]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Sinking]"
                 }
               ]
             },
@@ -157,13 +157,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "My Master",
-          "desc": "[DefeatDuel] Reveals the Portrait attached to this Skill Slot",
+          "name": "Il Mio Padrone",
+          "desc": "[DefeatDuel] Rivela il Ritratto collegato a questo Slot",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Sinking]"
                 }
               ]
             }
@@ -176,13 +176,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "My Tragic Master",
-          "desc": "[DefeatDuel] Reveals the Portrait attached to this Skill Slot",
+          "name": "Il Mio Tragico Padrone",
+          "desc": "[DefeatDuel] Rivela il Ritratto collegato a questo Slot",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Sinking]"
                 }
               ]
             }
@@ -195,7 +195,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Master...?",
+          "name": "Padrone...?",
           "desc": "",
           "coinlist": [
             {
@@ -233,13 +233,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Horned Charge",
-          "desc": "[WhenUse] Gain +1 [Charge] Count",
+          "name": "Ricarica Cornuta",
+          "desc": "[WhenUse] Ottiene +1 Conteggio [Charge]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [DefenseDown] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 2 [DefenseDown] nel turno successivo"
                 }
               ]
             }
@@ -252,20 +252,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Ram Charge",
-          "desc": "[WhenUse] Gain +1 [Charge] Count",
+          "name": "Ricarica dell'Ariete",
+          "desc": "[WhenUse] Ottiene +1 Conteggio [Charge]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [AttackDown] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 1 [AttackDown] nel turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [AttackDown] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 2 [AttackDown] nel turno successivo"
                 }
               ]
             }
@@ -278,13 +278,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Lamb's Cry",
-          "desc": "[WhenUse] Gain +2 [Charge] Count",
+          "name": "Grido dell'Agnello",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Charge]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Paralysis] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Paralysis] nel turno successivo"
                 }
               ]
             }
@@ -297,20 +297,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Lightning Manipulation",
-          "desc": "[WhenUse] Gain +2 [Charge] Count",
+          "name": "Maestria dei Tuoni",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Charge]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Paralysis] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Paralysis] nel turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [AttackDown] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 2 [AttackDown] nel turno successivo"
                 }
               ]
             }
@@ -323,27 +323,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Electric Screaming",
-          "desc": "[WhenUse] Atk Weight +1 for every 4 [Charge] Count on self (max 5)\n[WhenUse] Clash Power +3 for every 5 [Charge] Count on self (max 4)\n[WhenUse] Gain 1 [VioletDamageUp] for every 6 [Charge] Count on self (max 3)\n[EndBattle] All [Charge] Count on self expires. Loses [ConnectedPlug]",
+          "name": "Strillo Elettrico",
+          "desc": "[WhenUse] Portata Attacco +1 per ogni 4 Conteggio [Charge] su di sé (max 5)\n[WhenUse] Potere Scontro +3 per ogni 5 Conteggio [Charge] su di sé (max 4)\n[WhenUse] Ottiene 1 [VioletDamageUp] per ogni 6 Conteggio [Charge] su di sé (max 3)\n[EndBattle] Le stack di [Charge] e [ConnectedPlug] scadono",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [DefenseDown] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 4 [DefenseDown] nel turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [AttackDown] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 4 [AttackDown] nel turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Paralysis] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Paralysis] nel turno successivo"
                 }
               ]
             }
@@ -356,8 +356,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Electric Screaming",
-          "desc": "[CantDuel]\n[WhenUse] Gain 10 [Protection]\n[WhenUse] Atk Weight +1 for every 4 [Charge] Count on self (max 5)\n[WhenUse] Clash Power +3 for every 5 [Charge] Count on self (max 4)\n[WhenUse] Gain 1 [VioletDamageUp] for every 6 [Charge] Count on self (max 3)",
+          "name": "Strillo Elettrico",
+          "desc": "[CantDuel]\n[WhenUse] Ottiene 10 [Protection]\n[WhenUse] Portata Attacco +1 per ogni 4 Conteggio [Charge] su di sé (max 5)\n[WhenUse] Potere Scontro +3 per ogni 5 Conteggio [Charge] su di sé (max 4)\n[WhenUse] Ottiene 1 [VioletDamageUp] per ogni 6 Conteggio [Charge] su di sé (max 3)",
           "coinlist": [
             {
               "coindescs": [
@@ -375,20 +375,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Grounding Refusal",
-          "desc": "Prioritizes targets with [AntiSheepGround]\nClash Power +1 for every [ConnectedPlug]\n[StartBattle] Gain 2(3 - [ConnectedPlug]) [Protection]\n[WhenUse] Gain +1 [Charge] Count\n[DefeatDuel] If the target has [AntiSheepGround], gain 1 [ConnectedPlug]",
+          "name": "Rifiuto di Messa a Terra",
+          "desc": "Dà priorità ai bersagli con [AntiSheepGround]\nPotere Scontro +1 per ogni [ConnectedPlug]\n[StartBattle] Ottiene 2 x (3 - [ConnectedPlug]) [Protection]\n[WhenUse] Ottiene +1 Conteggio [Charge]\n[DefeatDuel] Se il bersaglio ha [AntiSheepGround], ottiene 1 [ConnectedPlug]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Paralysis] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Paralysis] nel turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [DefenseDown] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 2 [DefenseDown] nel turno successivo"
                 }
               ]
             }
@@ -401,13 +401,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Overcharge Release",
+          "name": "Rilascio Sovraccarico",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Paralysis] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Paralysis] nel turno successivo"
                 }
               ]
             }
@@ -420,20 +420,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Enveloping Resignation",
-          "desc": "If the target has 6+ [Sinking], Coin Power +1\n[WinDuel] Inflict +3 [Sinking] Count",
+          "name": "Avvolgersi nella Rassegnazione",
+          "desc": "Se il bersaglio ha 6+ [Sinking], Potere Moneta +1\n[WinDuel] Infligge +3 Conteggio [Sinking]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
                 }
               ]
             }
@@ -446,27 +446,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Strangling Despair",
-          "desc": "Coin Power +1 for every 6 [Sinking] on target (max 2)\n[WinDuel] Inflict +3 [Sinking] Count\n[DefeatDuel] Reduce [Sinking] Count by 1",
+          "name": "Disperazione Strangolante",
+          "desc": "Potere Moneta +1 per ogni 6 [Sinking] sul bersaglio (max 2)\n[WinDuel] Infligge +3 Conteggio [Sinking]\n[DefeatDuel] Rimuove 1 Conteggio [Sinking] dal bersaglio",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Sinking]"
                 }
               ]
             }
@@ -479,34 +479,34 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Chainbreaker",
-          "desc": "If the target has [Binding], Clash Power +1\n[WinDuel] Inflict +4 [Sinking] Count\n[DefeatDuel] Reduce [Sinking] Potency by 2",
+          "name": "Spaccacatene",
+          "desc": "Se il bersaglio ha [Binding], Potere Scontro +1\n[WinDuel] Infligge +4 Conteggio [Sinking]\n[DefeatDuel] Rimuove 2 Potenza [Sinking] dal bersaglio",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
                 }
               ]
             }
@@ -519,20 +519,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Chains of Binding",
-          "desc": "Coin Power + for every 6 [Sinking] on target (max 2)\n[DefeatDuel] Reduce [Sinking] Count by 2\n[DefeatDuel] Apply [BandageOfTheBoundKing]",
+          "name": "Catene Vincolanti",
+          "desc": "Potere Moneta +1 per ogni 6 [Sinking] sul bersaglio (max 2)\n[DefeatDuel] Rimuove 2 Conteggio [Sinking] dal bersaglio\n[DefeatDuel] Applica [BandageOfTheBoundKing]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Binding] next turn\n[OnSucceedAttack] Inflict [Vibration] equal to [Sinking] on target"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Binding] nel turno successivo\n[OnSucceedAttack] Infligge [Vibration] pari all'[Sinking] sul bersaglio"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
                 }
               ]
             }
@@ -545,13 +545,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Thou Wilt Sink",
-          "desc": "If the target has [Binding], Clash Power +1\n[WinDuel] Inflict +2 [Sinking] Count\n[DefeatDuel] Reduce [Sinking] Potency by 4",
+          "name": "Voi Affonderete",
+          "desc": "Se il bersaglio ha [Binding], Potere Scontro +1\n[WinDuel] Infligge +2 Conteggio [Sinking]\n[DefeatDuel] Rimuove 4 Potenza [Sinking] dal bersaglio",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Cause [SinkingSurge]"
+                  "desc": "[OnSucceedAttack] Innesca [SinkingSurge]"
                 }
               ]
             }
@@ -564,16 +564,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Present Thyself Before the King",
-          "desc": "[CantDuel]\n[StartBattle] Gain 5 [Binding], 1 [ComeForwardToTheKing], and 2 [Enhancement] next turn.\n[WhenUse] Apply 300 Shield to targets with [BandageOfTheBoundKing]",
+          "name": "Presentati Dinanzi al Re",
+          "desc": "[CantDuel]\n[StartBattle] Ottiene 5 [Binding], 1 [ComeForwardToTheKing] e 2 [Enhancement] nel turno successivo.\n[WhenUse] Applica 300 Scudo su ogni unità con [BandageOfTheBoundKing]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If this unit dealt damage to the target, inflict [Vibration] equal to [Sinking] on target"
+                  "desc": "[OnSucceedAttack] Se questa unità ha inflitto danni, infligge [Vibration] pari all'[Sinking] sul bersaglio"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
                 }
               ]
             }
@@ -586,7 +586,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Master's Portrait",
+          "name": "Il Ritratto del Padrone",
           "desc": "",
           "coinlist": [
             {

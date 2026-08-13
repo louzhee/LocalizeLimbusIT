@@ -2,93 +2,93 @@
   "dataList": [
     {
       "id": 860501,
-      "name": "Portrait Afterimage Sighting",
-      "desc": "If a Skill Slot is attached to the Master's Portrait, a shockwave in the same color as the aura around the Master's Portrait occurs when the Portrait is revealed"
+      "name": "Avvistamento delle Immagini Residue dei Ritratti",
+      "desc": "Se uno Slot Abilità è collegato al Ritratto del Padrone, sarà rivelato con una reazione dello stesso colore dell'aura che circonda il Ritratto del Padrone"
     },
     {
       "id": 860502,
-      "name": "Throwing Out the Interloper",
-      "desc": "When the Portraits are present:\n- Turn End: Once 3 turns have passed since the Portraits have appeared...\n     - Inflict [UninvitedGuest] to the earliest-Deployed enemy without [UninvitedGuest]\n     - Incinerate all Portraits. Inflict double the amount of fake Portraits burned as [Sinking] Potency and Count against all enemies. Gain [AttackUp] and [Protection] next turn"
+      "name": "Buttare Fuori gli Intrusi",
+      "desc": "A meno di 80% PV, cambia pattern ed evoca 5 Ritrati.\nDopo 3 turni dall'arrivo dei Ritratti, distrugge ogni Ritratto. Poi, attiva i seguenti effetti nel turno successivo:\n- Infligge [UninvitedGuest] sul nemico senza [UninvitedGuest] con ordine di schieramento più alto;\nLe Abilità infliggono il doppio della Potenza e del Conteggio [Sinking];\nOttiene [AttackUp] e [Protection]"
     },
     {
       "id": 860503,
-      "name": "Interloper Hunt",
-      "desc": "If the target has [UninvitedGuest], Clash Power +1 and deal +20% damage"
+      "name": "Caccia Agli Intrusi",
+      "desc": "Se il bersaglio ha [UninvitedGuest], Potere Scontro +1 e infligge +20% danni"
     },
     {
       "id": 860507,
-      "name": "Ooh, Dear Master...",
-      "desc": "When the Portraits are present, reduce Affinity & Attack Type Resistances by 0.5, and gain 8 [Protection].\nIf the enemies defeated the Master's Portrait, inflict [UninvitedGuest] to the unit that defeated it; then gain 0.5 Phys. Resistances and 5 Fragile for the next turn."
+      "name": "Ooh, Caro Padrone...",
+      "desc": "Quando i Ritratti sono presenti, riduce tutte le sue Resistenze di 0.5 e ottiene 8 [Protection].\nSe il Ritratto del Padrone è stato distrutto, infligge [UninvitedGuest] sull'unità che ha inflitto il colpo di grazia. Poi, aumenta ogni Resistenza di 0.5 e ottiene 5 [Vulnerable] nel turno successivo."
     },
     {
       "id": 860505,
-      "name": "You Must Be the Interloper's Family?",
-      "desc": "When an enemy has [UninvitedGuest], inflict [UninvitedGuest] against an enemy without [UninvitedGuest] every time this unit loses 10% of its PV (max 4 enemies)"
+      "name": "Voi Siete la Famiglia dell'Intruso?",
+      "desc": "Se un nemico ha [UninvitedGuest], infligge [UninvitedGuest] su un nemico senza [UninvitedGuest] ogni volta che perde il 10% dei suoi PV max (max 4 nemici)"
     },
     {
       "id": 860601,
-      "name": "Peering Gaze",
-      "desc": "As long as this unit exists, inflict 1 [Sinking] Potency and Count every turn"
+      "name": "Sguardo Peering",
+      "desc": "A inizio turno, infligge 1 Potenza e Conteggio [Sinking] su ogni nemico"
     },
     {
       "id": 860602,
-      "name": "Interloper",
-      "desc": "When this unit is defeated, inflict [UninvitedGuest] against the enemy that attacked this unit last\n- If 4+ enemies have [UninvitedGuest], this effect does not activate"
+      "name": "Intruso",
+      "desc": "Se viene sconfitto, infligge [UninvitedGuest] sull'unità che ha inflitto il colpo di grazia\n- Se 4+ nemici hanno [UninvitedGuest], questo effetto non si attiva"
     },
     {
       "id": 860701,
-      "name": "Peering Gaze",
-      "desc": "As long as this unit exists, inflict 1 [Sinking] Potency and Count every turn"
+      "name": "Sguardo Peering",
+      "desc": "A inizio turno, infligge 1 Potenza e Conteggio [Sinking] su ogni nemico"
     },
     {
       "id": 860702,
-      "name": "Interloper",
-      "desc": "When this unit is defeated, inflict [UninvitedGuest] against the enemy that attacked this unit last\n- If 4+ enemies have [UninvitedGuest], this effect does not activate"
+      "name": "Intruso",
+      "desc": "Se viene sconfitto, infligge [UninvitedGuest] sull'unità che ha inflitto il colpo di grazia\n- Se 4+ nemici hanno [UninvitedGuest], questo effetto non si attiva"
     },
     {
       "id": 860801,
-      "name": "A Familiar Connector",
-      "desc": "For every [ConnectedPlug], gain 1 Min. Speed value, 1 [Vulnerable], and 1 [AttackDmgUp]\nWhen this unit is Staggered next turn due to having 3 [ConnectedPlug], gain 4 [Vulnerable]"
+      "name": "Un Cavo Familiare",
+      "desc": "Ottiene 1 Velocità minima, 1 [Vulnerable] e 1 [AttackDmgUp] per ogni [ConnectedPlug]\nSe questa unità ha 3 [ConnectedPlug], ottiene 4 [Vulnerable] e viene Stordita nel turno successivo"
     },
     {
       "id": 860802,
-      "name": "Overcurrent",
-      "desc": "Turn End: For every 10 [Charge] Count on self, gain 1 [VioletDamageUp] next turn (max 2)"
+      "name": "Corrente in Eccesso",
+      "desc": "A inizio turno, ottiene 1 [VioletDamageUp] per ogni 10 Conteggio [Charge] su di sé (max 2)"
     },
     {
       "id": 860803,
-      "name": "Want to be Free",
-      "desc": "At 25% PV, starting this turn, gain 1 of the following every turn. The values are cumulative and do not expire.\n- Gain 1 [ParryingResultUp]\n- Gain 1 [AttackDmgUp]\n- Gain 1 [Vulnerable]"
+      "name": "Desiderare la Libertà",
+      "desc": "A 25% PV, ottiene 1 dei seguenti effetti ogni turno:\n- [ParryingResultUp]\n- [AttackDmgUp]\n- [Vulnerable]\n\n* Questi effetti sono cumulativi e non scadono"
     },
     {
       "id": 860804,
-      "name": "Generator",
-      "desc": "Turn End: If this unit does not have [ConnectedPlug] and [ThundercloudFormation], summon a Generator once next turn."
+      "name": "Generatore",
+      "desc": "A fine turno, se questa unità non ha [ConnectedPlug] e [ThundercloudFormation], evoca un Generatore nel turno successivo."
     },
     {
       "id": 862801,
-      "name": "Gathering Lightning Cloud",
-      "desc": "Turn End: Apply 4 [ThundercloudFormation] to the Dreaming Electric Sheep next turn.\nDoes not apply more of this effect if it already has this effect."
+      "name": "Raggruppare le Nuvole Temporalesche",
+      "desc": "A fine turno, applica 4 [ThundercloudFormation] alla Pecora Elettrica Sognante nel turno successivo.\n- Se ha già questo status, questo effetto non si attiva."
     },
     {
       "id": 862802,
-      "name": "Detached Anti-Ovine Grounding Plug",
-      "desc": "When hit, inflict 1 [AntiSheepGround] to the Attacker (once per turn)"
+      "name": "Spina di Messa a Terra Anti-Ovino Scollegata",
+      "desc": "Se colpito, infligge 1 [AntiSheepGround] sull'attaccante (una volta per turno)"
     },
     {
       "id": 862803,
-      "name": "Safety Plug",
-      "desc": "Reduces all damage taken to 0"
+      "name": "Spina di Sicurezza",
+      "desc": "Non subisce danni"
     },
     {
       "id": 862901,
-      "name": "Prelude of the Banquet",
-      "desc": "Turn 2 Start: Summon the retinue of the King in Binds.\nThe King has twelve retainers. Upon the death of a retainer, another will fill its place until there are none."
+      "name": "Preludio al Banchetto",
+      "desc": "All'inizio del turno 2, evoca i dodici seguaci del Re Legato."
     },
     {
       "id": 862902,
-      "name": "Closing of the Banquet",
-      "desc": "When all retainers are defeated, the King joins the fight."
+      "name": "Chiusura del Banchetto",
+      "desc": "Il Re Legato entra in battaglia dopo la sconfitta dei suoi seguaci."
     },
     {
       "id": 862903,
@@ -97,13 +97,13 @@
     },
     {
       "id": 862904,
-      "name": "Snapping Bandages",
-      "desc": "When the Body Part is destroyed, apply [BandageOfTheBoundKing] on all enemies."
+      "name": "Strappare le Bende",
+      "desc": "Quando il Corpo è distrutto, applica [BandageOfTheBoundKing] su ogni nemico."
     },
     {
       "id": 828001,
-      "name": "Retainer of the King in Binds",
-      "desc": "- Gain [BandageOfTheBoundKing] and [BigWelcome] for this Encounter.\n- At every Turn Start, the King in Binds blesses this unit with grace.\n- The grace of the King in Binds changes every turn, in the following order: [Enhancement], PS Heal, and PV Heal. If there are less than 6 surviving Retainers(Peccatulum Invidiae), boost the grace's strength."
+      "name": "Seguaci del Re Legato",
+      "desc": "- Ottiene [BandageOfTheBoundKing] e [BigWelcome] per tutto l'Incontro.\n- A inizio turno, attiva uno di questi effetti seguendo quest'ordine:\n- Ottiene 1 [Enhancement];\n- Recupera PS;\nRecupera PV.\n\nSe ci sono meno di 6 Peccatulum Invidiae in vita, l'effetto ottenuto verrà potenziato."
     },
     {
       "id": 828002,
@@ -118,32 +118,32 @@
     {
       "id": 860506,
       "name": "Sforzo Rifratto",
-      "desc": "A 10+ Scontri sullo stesso bersaglio, ottiene o perde Potere Scontro pari a (Numero di Scontri / 10) in uno Scontro (arrotondato per difetto)"
+      "desc": "A 10+ Scontri con lo stesso nemico, ottiene o perde Potere Scontro pari a (Numero di Scontri / 10) (arrotondato per difetto)"
     },
     {
       "id": 828004,
-      "name": "Peccatulum Invidiae Class 2",
-      "desc": "Deal +15% damage and take -15% damage"
+      "name": "Peccatulum Invidiae Classe 2",
+      "desc": "Infligge +15% danni e subisce -15% danni"
     },
     {
       "id": 828005,
-      "name": "Refracted Mind",
-      "desc": "PS all'Entrata +30"
+      "name": "Mente Rifratta",
+      "desc": "+30 PS all'Entrata"
     },
     {
       "id": 828006,
-      "name": "Refracted Mind",
-      "desc": "PS all'Entrata -20"
+      "name": "Mente Rifratta",
+      "desc": "-20 PS all'Entrata"
     },
     {
       "id": 828007,
-      "name": "Refracted Mind",
-      "desc": "PS all'Entrata +45"
+      "name": "Mente Rifratta",
+      "desc": "+45 PS all'Entrata"
     },
     {
       "id": 828008,
-      "name": "Refracted Mind",
-      "desc": "PS all'Entrata +20"
+      "name": "Mente Rifratta",
+      "desc": "+20 PS all'Entrata"
     }
   ]
 }
