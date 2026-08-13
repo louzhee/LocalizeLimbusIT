@@ -1,0 +1,186 @@
+{
+  "dataList": [
+    {
+      "id": "BloodScissor",
+      "name": "Lamaforbice Rossosangue",
+      "desc": "- Valore Max: 10\n- Stadio 1 Lamaforbice Rosso Sangue\n- Usato per Abilità Speciali",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BloodScissorTwo",
+      "name": "Lamaforbice Rossosangue II",
+      "desc": "- Valore Max: 20\n- Stadio 2 Lamaforbice Rosso Sangue\n- A Inizio Turno: ottiene 1 Livello Offensivo Aumentato e 1 Livello Difensivo Diminuito per ogni 5 Stack\n- Usato per Abilità Speciali",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BloodScissorThree",
+      "name": "Lamaforbice Rossosangue III",
+      "desc": "- Valore Max: 30\n- Stadio 3 Lamaforbice Rosso Sangue\n- A Inizio Turno: ottiene 2 Livello Offensivo Aumentato e 1 Livello Difensivo Diminuito per ogni 5 Stack\n- Usato per Abilità Speciali",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BloodDinner",
+      "name": "Emofagia",
+      "desc": "- Valore Max: 999\n- Tutto il danno provocato da Sanguinamento in questa zona viene registrato qui\n- Torna a 0 quando si passa ad una zona diversa\n- Questo valore viene condiviso da tutti i personaggi\n- Tra gli alleati, se c'è una Progenie di grado superiore che consuma Emofagia nello stesso turno, quest'unità non può consumare Emofagia finché quell'alleato non lo consuma per primo.",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BloodDinner_Accumulation",
+      "name": "Emofagia Consumata",
+      "desc": "- Valore Max: 999\n- Emofagia totale consumata in questo incontro: {0}",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "FamineBlood_LowMorale",
+      "name": "Fame",
+      "desc": "- Morale Basso\n- Inizio Turno: ottiene 1 Lentezza e 3 Potere Attacco Aumentato. A Fine Turno: subisce 5 danni ai PS",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "FamineBlood_Panic",
+      "name": "Fame",
+      "desc": "- Panico\n- Inizio Turno: ottiene 2 Lentezza e 4 Potere Attacco Aumentato",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "DuelDeclaration_Camille",
+      "name": "Guanto di Sfida - Camille",
+      "desc": "- In uno Scontro tra l'unità che ha inflitto lo status e l'unità che l'ha subito, il dichiaratore ha +1 Potere Scontro. Sul Colpo, chi ha inflitto lo status ottiene 1 Rapidità il turno successivo. (4 volte per turno)\n- L'effetto viene rimosso quando Guanto di Sfida viene inflitto ad un altro bersaglio. \n- L'effetto viene rimpiazzato quando un'altra unità infligge un Guanto di sfida differente.",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "RecklessDuel",
+      "name": "Duello Temerario",
+      "desc": "A Fine Turno: ottiene 1 Potere Scontro il Turno Successivo per ogni 10% di PV mancanti. (max 5)\nA Fine Turno: ottiene 1 Lentezza il Turno Successivo per ogni 10% di PV mancanti. (max 5)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "ConcentratedAttack",
+      "name": "Attacco Mirato",
+      "desc": "Usato su certi Slot",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "TrulyWeak",
+      "name": "La Debole",
+      "desc": "- Infligge -10% Danni\n- A Fine Turno: Riduce le Stack di 1",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "RealPaperBear",
+      "name": "Un Vero Orso",
+      "desc": "- Mangia le persone. Che Paura!",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BloodScissorScars",
+      "name": "Lacerazione Profonda",
+      "desc": "- Se perde lo Scontro: ottiene +3 Sanguinamento e subisce l'effetto di Sanguinamento. Poi perde 1 Conteggio Sanguinamento.\n- Si esaurisce a Fine Turno.",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "LineCutting",
+      "name": "Manichino da Cucito",
+      "desc": "- ??? dà priorità a questo bersaglio.\n- Si esaurisce a Fine Turno",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "StarvingBarberOne",
+      "name": "Avvizzita",
+      "desc": "- Ha fame di sangue da molto, molto tempo.\n- Perde 15 Livello Offensivo Base\n- Perde 15 Livello Difensivo Base",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "StarvingBarberTwo",
+      "name": "Avvizzita",
+      "desc": "- Ha fame di sangue da molto, molto tempo.\n- Perde 25 Livello Offensivo Base\n- Perde 25 Livello Difensivo Base",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BloodShooting",
+      "name": "Sputa sangue!!",
+      "desc": "Quando muore:\n- Emofagia +30\n- Ottiene 2 Risorse E.G.O tra quelle più scarse\n- Il Turno Successivo: tutti gli alleati ottengono 0.1 a tutte le Resistenze Fisiche. Quest'effetto può accumularsi. (max 5)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "RighteousFeeling",
+      "name": "COSÌ GIUSTO!!",
+      "desc": "- Ad ogni Fine Turno: ottiene 1 Rapidità, 3 Livello Offensivo Aumentato e 3 Livello Difensivo Diminuito il Turno Successivo\n- Ottiene 2 Livello Offensivo Aumentato in più ogni 3 turni (max 6)\n- A Scontro Vinto, recupera 3 PS\n- Se Uccide, ottiene 1 Potere Scontro il Turno Successivo (1 volta per turno)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "DuelDeclarationMeursault",
+      "name": "Guanto di Sfida - Meursault",
+      "desc": "- In uno Scontro tra l'unità che ha inflitto Guanto di Sfida e l'unità che l'ha subito, il dichiaratore ha +1 Potere Scontro. Sul Colpo, chi ha inflitto lo status ottiene 1 Rapidità il turno successivo. (4 volte per turno)\n- L'effetto viene rimosso quando Guanto di Sfida viene inflitto ad un altro bersaglio. \n- L'effetto viene rimpiazzato quando un'altra unità infligge un Guanto di Sfida differente.",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "ConcentratedAttackMeursault",
+      "name": "Attacco Mirato - Meursault",
+      "desc": "<Solo negli Incontri Mirati>\nL'unità che ha inflitto questo Attacco Mirato ottiene i seguenti effetti in base alle Stack di Attacco Mirato sullo slot del bersaglio.\n  · 1x Stack: Ottiene Potere Scontro +1\n  · 2x Stack: Ottiene Potere Base +1\n  · 3x Stack: Ottiene Potere Base +1 e Potere Moneta +1\n- Gli effetti spariscono se, per un turno, l'unità che ha inflitto l'effetto fallisce nel colpire gli Slot designati con Attacco Mirato.",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "Duello_LowMorale",
+      "name": "Specializzato nei Duelli",
+      "desc": "- Morale Basso\n- A inizio turno: Ottiene 2 Livello Offensivo Aumentato. A Scontro perso, ottiene 1 Livello Difensivo Diminuito (max 3 per turno). Velocità Minima -1",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "Duello_Panic",
+      "name": "Specializzato nei Duelli",
+      "desc": "- Panico\n- A inizio turno: Ottiene 4 Livello Offensivo Aumentato. A Scontro perso, ottiene 2 Livello Difensivo Diminuito (max 6 per turno). Velocità Minima -1",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "RighteousFeelingSancho",
+      "name": "Mi assumerò la responsabilità, tra le mie lacrime di sangue.",
+      "desc": "- Ottiene 1 Sangue Coagulato in più ogni volta che quest'unità ottiene Sangue Coagulato. (5 volte per turno)\n- Ad ogni Fine Turno: ottiene 2 Rapidità e 3 Livello Offensivo Aumentato il Turno Successivo\n- Ottiene 2 Livello Offensivo Aumentato in più dopo ogni 3 turni (max 6)\n- A Scontro Vinto, recupera 3 PS\n- Se Uccide, ottiene 1 Potere Scontro Aumentato il Turno Successivo (1 volta per turno)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "UnfinishedDreamSancho",
+      "name": "In cui si racconta della schiavitù del sangue più denso dell'acqua.",
+      "desc": "- Ottiene 2 Sangue Coagulato in più ogni volta che questa unità ottiene Sangue Coagulato. (5 volte per turno)\n- Ad ogni Fine Turno: ottiene 2 Velocità e 3 Livello Offensivo Aumentato il turno successivo\n- Ottiene 2 Livello Offensivo Aumentato in più dopo ogni 3 turni trascorsi (max 6, si cumula)\n- A Scontro Vinto, recupera 3 PS\n- Se Uccide, ottiene 2 Potere Scontro Aumentato il turno successivo (una volta per turno)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "FragmentOfHopeSancho",
+      "name": "In cui si parla del banchetto di sangue per la sofferenza della Famiglia.",
+      "desc": "Ottiene Potere Scontro Aumentato pari alle Stack\nInfligge +10% danni",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "FragmentOfHopeTwoSancho",
+      "name": "Di come una Bramasangue deve sopportare la colpa di aver ucciso il Padre da sola.",
+      "desc": "- Potere Scontro +4 per ogni Stack\n- Applica uno Scudo a sé e agli alleati all'inizio del combattimento\n- Infligge +20% danni\n- Sul Colpo, infligge anche 1 danno fisso",
+      "summary": "",
+      "undefined": "-"
+    }
+  ]
+}

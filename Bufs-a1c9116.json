@@ -1,0 +1,95 @@
+{
+  "dataList": [
+    {
+      "id": "BurstAgility",
+      "name": "Anatema【Rapidità】",
+      "desc": "Stack Base: 3\nQuando viene attivata Lacerazione subendo un'Abilità Attacco da un bersaglio con 10+ Velocità, perde 1 Stack e ottiene +1 Conteggio Lacerazione\nA 0 Stack, subisce danni da Gola pari alla Potenza Lacerazione su questa unità\n※ Non può ottenere altre Stack di questo effetto quando è già attivo",
+      "summary": "Se le condizioni vengono raggiunte: infligge danni Gola bonus",
+      "undefined": "-"
+    },
+    {
+      "id": "LegStrength",
+      "name": "Scattante【Mao】",
+      "desc": "Stack Max: 3\nFine Turno: ottiene 5 Rapidità il turno successivo\nRidotta di 1 a Fine Turno",
+      "summary": "Se le condizioni vengono raggiunte: infligge danni Gola bonus",
+      "undefined": "-"
+    },
+    {
+      "id": "DarkBeast_LowMorale",
+      "name": "Inganno",
+      "desc": "- Morale Basso\n- Se la Velocità di questa unità è maggiore del bersaglio, o su Attacco Incontrastato, infligge +10% danni",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "DarkBeast_Panic",
+      "name": "Inganno",
+      "desc": "- Panico\n- Se la Velocità di questa unità è maggiore del bersaglio, o su Attacco Incontrastato, infligge +20% danni; se la Velocità di questa unità è maggiore del bersaglio, subisce -20% danni",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "RepressedMurderousIntend",
+      "name": "Sete di Sangue Repressa",
+      "desc": "Livello Offensivo Base -10\nLivello Difensivo Base -10",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "WeighedMurderousIntend",
+      "name": "Sete di Sangue Schiacciata",
+      "desc": "Livello Offensivo Base -25\nLivello Difensivo Base -25",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MiddleFingerBook",
+      "name": "Marchio di Vendetta",
+      "desc": "Stack Max: 10\nSubisce +3% danni per Stack (max 30%) dagli attacchi del Medio",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "Persistent",
+      "name": "Persistenza",
+      "desc": "Stack Max: 4\nQuando subisce danni letali, ha l'80% di probabilità di ignorare quei danni, curarsi di 60 PV, riprendersi dallo Stordimento, e perdere questo effetto\n\nQuesgli effetti non si attivano nelle seguenti condizioni:\n- Quando i danni subiti dalla Moneta superano i PV massimi di questa unità\n- Quando questa unità ha l'effetto Cure PV Ridotte\nSi riduce di 1 a Fine Turno",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BackstreetsNight_LowMorale",
+      "name": "Notte nei Vicoli",
+      "desc": "- Morale Basso\n- Ottiene 1 Potere Attacco Aumentato, 1 Cure PV Aumentate, e 1 Fragile",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BackstreetsNight_Panic",
+      "name": "Notte nei Vicoli",
+      "desc": "- Panico\n- Ottiene 2 Potere Attacco Aumentato, 2 Cure PV Aumentate, e 1 Fragile",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "SweeperA",
+      "name": "La Prima Ondata",
+      "desc": "La prima ondata termina dopo {0} turno/i",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "SweeperB",
+      "name": "La Seconda Ondata",
+      "desc": "La seconda ondata termina dopo {0} turno/i",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "SweeperC",
+      "name": "La Terza Ondata",
+      "desc": "La terza ondata termina dopo {0} turno/i",
+      "summary": "",
+      "undefined": "-"
+    }
+  ]
+}

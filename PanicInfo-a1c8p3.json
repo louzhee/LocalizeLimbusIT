@@ -1,0 +1,46 @@
+{
+  "dataList": [
+    {
+      "id": 1049,
+      "panicName": "Istinti da Belva",
+      "lowMoraleDescription": "Infligge +(differenza della percentuale dei PV / 2)% danni ai bersagli con la percentuale di PV più alta rispetto a quelli di questa unità (max 10%)\nOttiene 1 [Enhancement], 1 [AttackDmgUp], e 1 [Vulnerable]",
+      "panicDescription": "Infligge +(differenza della percentuale dei PV)% danni ai bersagli con la percentuale di PV più alta rispetto a quelli di questa unità (max 25%)\nOttiene 1 [PlusCoinValueUp], 2 [AttackDmgUp], e 2 [Vulnerable]"
+    },
+    {
+      "id": 1046,
+      "panicName": "Estrarre la Carne",
+      "lowMoraleDescription": "Ottiene 5 [Laceration] e 1 [Enhancement].",
+      "panicDescription": "Ottiene 10 [Laceration] e 2 [Enhancement]."
+    },
+    {
+      "id": 1050,
+      "panicName": "Le Regole",
+      "lowMoraleDescription": "Se questa unità ha inflitto 2+ [Vibration] nel turno precedente, ottiene 1 [AmberDamageUp]\nSe questa unità ha inflitto 2+ [Combustion] nel turno precedente, ottiene 1 [CrimsonDamageUp]\nSe questa unità non è riuscita a infliggere status, ottiene 2 [DefenseDown]",
+      "panicDescription": "Se questa unità ha inflitto 2+ [Vibration] nel turno precedente, ottiene 2 [AmberDamageUp]\nSe questa unità ha inflitto 2+ [Combustion] nel turno precedente, ottiene 2 [CrimsonDamageUp]\nSe questa unità non è riuscita a infliggere status, ottiene 3 [DefenseDown]"
+    },
+    {
+      "id": 1051,
+      "panicName": "Debole Cuore Forgiato nell'Oro",
+      "lowMoraleDescription": "Ottiene 1 [Enhancement] e 1 [Vulnerable]",
+      "panicDescription": "Ottiene 2 [Enhancement] e 2 [Vulnerable]"
+    },
+    {
+      "id": 1052,
+      "panicName": "Cuore Diretto Verso la Nuova Era",
+      "lowMoraleDescription": "Sul colpo, consuma 3 PS per infliggere 2 [Sinking]",
+      "panicDescription": "Sul colpo, infligge 3 [Sinking] ed ottiene 1 [Sinking]"
+    },
+    {
+      "id": 1053,
+      "panicName": "La Volontà Ereditaria di Hongyuan",
+      "lowMoraleDescription": "Tutte le Parti ottengono 2 [Enhancement] e 1 [Binding]\n- Quando la Parte Corpo perde uno Scontro contro Hong Lu: quella Parte ottiene 1 [AttackDmgUp] e 1 [Vulnerable] il turno successivo (una volta per turno)",
+      "panicDescription": "Tutte le Parti ottengono 2 [Enhancement] e 2 [Binding]\n- Quando la Parte Corpo perde uno Scontro contro Hong Lu: quella Parte ottiene 2 [AttackDmgUp] e 2 [Vulnerable] il turno successivo (una volta per turno)"
+    },
+    {
+      "id": 1054,
+      "panicName": "L'Immortale Volontà Ereditaria di Hongyuan",
+      "lowMoraleDescription": "Ottiene 2 [Enhancement] e 1 [Vulnerable]\nLe unità evocate da questa unità ottengono 3 [DefenseDown]\nInfligge +20% danni. Se la Parte Palanchina ha 0 PV, infligge invece -10% danni",
+      "panicDescription": "Ottiene 2 [Enhancement] e 2 [Vulnerable]\nLe unità evocate da questa unità ottengono 6 [DefenseDown]\nInfligge +30% danni. Se la Parte Palanchina ha 0 PV, infligge invece -15% danni"
+    }
+  ]
+}
