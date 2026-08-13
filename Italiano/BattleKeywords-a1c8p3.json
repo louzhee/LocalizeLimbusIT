@@ -68,14 +68,14 @@
     },
     {
       "id": "BeastEyes_LowMorale",
-      "name": "Instinto Bestiale - Morale Basso",
-      "desc": "- Infligge +(percentuale differenza PV / 2)% danni ai bersagli con la percentuale più alta di PV rispetto a questa unità (max 10%)\n- Inizio Turno: ottiene 1 Potere Finale Aumentato, 1 Danno Aumentato e 1 Fragile",
+      "name": "Instinti da Belva - Morale Basso",
+      "desc": "- Infligge +(differenza della percentuale dei PV / 2)% danni ai bersagli con la percentuale più alta di PV rispetto a questa unità (max 10%)\n- Ottiene 1 Potere Finale Aumentato, 1 Danno Aumentato e 1 Fragile",
       "summary": ""
     },
     {
       "id": "BeastEyes_Panic",
-      "name": "Instinto Bestiale - Panico",
-      "desc": "- Infligge +(percentuale differenza PV)% danni ai bersagli con la percentuale più alta di PV rispetto a questa unità (max 25%)\n- Inizio Turno: ottiene 1 Potere Moneta Aumentato, 2 Danno Aumentato e 2 Fragile\n- Prossimo Inizio Turno: recupera PS pari alla percentuale di PV mancanti di questa unità (max 25)",
+      "name": "Instinti da Belva - Panico",
+      "desc": "- Infligge +(differenza della percentuale dei PV)% danni ai bersagli con la percentuale più alta di PV rispetto a questa unità (max 25%)\n- Ottiene 1 Potere Moneta Aumentato, 2 Danno Aumentato e 2 Fragile\n- Prossimo Inizio Turno: recupera PS pari alla percentuale di PV mancanti di questa unità (max 25)",
       "summary": ""
     },
     {
@@ -110,14 +110,14 @@
     },
     {
       "id": "NEgoFleshSpatula_LowMorale",
-      "name": "Carnve Scavata",
-      "desc": "- Morale Basso\nInizio Turno: Ottiene 5 Sanguinamento e 1 Potere Attacco Aumentato",
+      "name": "Estrarre la Carne",
+      "desc": "- Morale Basso\nOttiene 5 Sanguinamento e 1 Potere Attacco Aumentato",
       "summary": ""
     },
     {
       "id": "NEgoFleshSpatula_Panic",
-      "name": "Carnve Scavata",
-      "desc": "- Panico\nTurn Start: Ottiene 10 Sanguinamento e 2 Potere Attacco Aumentato",
+      "name": "Estrarre la Carne",
+      "desc": "- Panico\nOttiene 10 Sanguinamento e 2 Potere Attacco Aumentato",
       "summary": ""
     },
     {
@@ -164,13 +164,13 @@
     },
     {
       "id": "EgoErodeContempt_LowMorale",
-      "name": "Debole Cuore Dorato",
+      "name": "Debole Cuore Forgiato nell'Oro",
       "desc": "- Morale Basso\n- Inzio Turno: Ottiene 1 Potere Attacco Aumentato e 1 Fragile",
       "summary": ""
     },
     {
       "id": "EgoErodeContempt_Panic",
-      "name": "Debole Cuore Dorato",
+      "name": "Debole Cuore Forgiato nell'Oro",
       "desc": "- Panico\n- Inzio Turno: Ottiene 2 Potere Attacco Aumentato e 2 Fragile",
       "summary": ""
     },
@@ -267,25 +267,25 @@
     {
       "id": "LastingHongwonWill_LowMorale",
       "name": "La Volontà Ereditaria di Hongyuan",
-      "desc": "- Morale Basso\n- Ottiene 2 Potere Attacco Aumentato e 1 Lentezza\n- Quando la Parte del Corpo perde uno Scontro contro Hong Lu: la Parte del Corpo ottiene 1 Danno Aumentato e 1 Fragile il turno successivo (una volta per turno)",
+      "desc": "- Morale Basso\n- Ottiene 2 Potere Attacco Aumentato e 1 Lentezza\n- Quando la Parte Corpo perde uno Scontro contro Hong Lu: la Parte Corpo ottiene 1 Danno Aumentato e 1 Fragile il turno successivo (una volta per turno)",
       "summary": ""
     },
     {
       "id": "LastingHongwonWill_Panic",
       "name": "La Volontà Ereditaria di Hongyuan",
-      "desc": "- Panico\n- Ottiene 2 Potere Attacco Aumentato 2 Lentezza\n- Quando la Parte del Corpo perde uno Scontro contro Hong Lu: la Parte del Corpo ottiene 2 Danno Aumentato e 2 Fragile il turno successivo (una volta per turno)",
+      "desc": "- Panico\n- Ottiene 2 Potere Attacco Aumentato 2 Lentezza\n- Quando la Parte Corpo perde uno Scontro contro Hong Lu: la Parte Corpo ottiene 2 Danno Aumentato e 2 Fragile il turno successivo (una volta per turno)",
       "summary": ""
     },
     {
       "id": "LongLastingHongwonWill_LowMorale",
       "name": "L'Immortale Volontà Ereditaria di Hongyuan",
-      "desc": "- Morale Basso\n- Ottiene 2 Potere Attacco Aumentato e 1 Fragile\n- Le unità generate da questa unità ottengono 3 Livello Difensivo Diminuito\n- Infligge +20% danni. Se i PV della Parte Palanchino arrivano a 0, infligge invece -10% danni",
+      "desc": "- Morale Basso\n- Ottiene 2 Potere Attacco Aumentato e 1 Fragile\n- Le unità generate da questa unità ottengono 3 Livello Difensivo Diminuito\n- Infligge +20% danni. Se i PV della Parte Palanchina scendono a 0, infligge invece -10% danni",
       "summary": ""
     },
     {
       "id": "LongLastingHongwonWill_Panic",
       "name": "L'Immortale Volontà Ereditaria di Hongyuan",
-      "desc": "- Panico\n- Ottiene 2 Potere Attacco Aumentato 2 Fragile\n- Le unità generate da questa unità ottengono 6 Livello Difensivo Diminuito\n- Infligge +30% danni. Se i PV della Parte Palanchino arrivano a 0, infligge invece -15% danni",
+      "desc": "- Panico\n- Ottiene 2 Potere Attacco Aumentato 2 Fragile\n- Le unità generate da questa unità ottengono 6 Livello Difensivo Diminuito\n- Infligge +30% danni. Se i PV della Parte Palanchina scendono a 0, infligge invece -15% danni",
       "summary": ""
     },
     {

@@ -30,15 +30,15 @@
     },
     {
       "id": "Guilt_LowMorale",
-      "name": "Rimorso",
-      "desc": "Fine Turno: ottiene 1 Fragile e Efficenza Cura PS Ridotta",
+      "name": "Sensi di Colpa",
+      "desc": "A fine turno: ottiene 1 Fragile e Efficenza Cura PS Ridotta",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Guilt_Panic",
-      "name": "Rimorso",
-      "desc": "Fine Turno: ottiene 2 Fragile e 1 Efficenza Cura PS Ridotta",
+      "name": "Sensi di Colpa",
+      "desc": "A fine turno: ottiene 2 Fragile e 1 Efficenza Cura PS Ridotta",
       "summary": "",
       "undefined": "-"
     },
@@ -164,35 +164,35 @@
     {
       "id": "RegainedStrength",
       "name": "Sete di Sangue Ritornata",
-      "desc": "- Max Stack: 10\n- Stage 1 Sete di Sangue Ritornata",
+      "desc": "- Max Stack: 10\n- Sete di Sangue Ritornata Stadio 1",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RegainedStrength_2nd",
       "name": "Sete di Sangue Ritornata II",
-      "desc": "- Max Stack: 20\n- Stage 2 Sete di Sangue Ritornata\n- Inizio Turno: ottiene 1 Livello Offensivo Aumentato e 1 Livello Difensivo Aumentato per ogni 5 Stack\n- Potere Scontro +1 alle Abilità che consumano Sete di Sangue Ritornata; infligge +1 Potenza e Conteggio aggiuntivi dei Sanguinamento e Lacerazione inflitti dalle suddette Abilità",
+      "desc": "- Max Stack: 20\n- Sete di Sangue Ritornata Stadio 2\n- Inizio Turno: ottiene 1 Livello Offensivo Aumentato e 1 Livello Difensivo Aumentato per ogni 5 Stack\n- Potere Scontro +1 alle Abilità che consumano Sete di Sangue Ritornata; infligge +1 Potenza e Conteggio aggiuntivi dei Sanguinamento e Lacerazione inflitti dalle suddette Abilità",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RegainedStrength_3rd",
       "name": "Sete di Sangue Ritornata III",
-      "desc": "- Max Stack: 30\n- Stage 3 Sete di Sangue Ritornata\n- Inizio Turno: ottiene 2 Livello Offensivo Aumentato e 1 Livello Difensivo Aumentato per ogni 5 Stack\n- Potere Moneta +1 alle Abilità che consumano Sete di Sangue Ritornata; infligge +1 Potenza e Conteggio aggiuntivi dei Sanguinamento e Lacerazione inflitti dalle suddette Abilità",
+      "desc": "- Max Stack: 30\n- Sete di Sangue Ritornata Stadio 3\n- Inizio Turno: ottiene 2 Livello Offensivo Aumentato e 1 Livello Difensivo Aumentato per ogni 5 Stack\n- Potere Moneta +1 alle Abilità che consumano Sete di Sangue Ritornata; infligge +1 Potenza e Conteggio aggiuntivi dei Sanguinamento e Lacerazione inflitti dalle suddette Abilità",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "WeightOfResponsibility_LowMorale",
       "name": "È tempo di abbandonare il mio sogno...",
-      "desc": "- Morale Basso\n- Ottiene 2 Potere Attacco Aumentato e 1 Fragile; aumenta la Velocità Max di 2\n- recupera +30% PV in più quando si cura\n- Fine Turno: se la Sete di Sangue Ritornata attuale è inferiore alle sue Stack a Inizio Turno, ottiene 2 Livello Offensivo Aumentato e 2 Livello Difensivo Diminuito",
+      "desc": "- Morale Basso\n- Ottiene 2 Potere Attacco Aumentato e 1 Fragile; Velocità Max +2\n- recupera +30% PV in più quando si cura\n- A fine turno: se la Sete di Sangue Ritornata attuale è inferiore alle Stack che aveva all'inizio del turno, ottiene 2 Livello Offensivo Aumentato e 2 Livello Difensivo Diminuito",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "WeightOfResponsibility_Panic",
       "name": "... per la mia Famiglia, come loro Padre...",
-      "desc": "- Panico\n- Ottiene 2 Potere Attacco Aumentato, 2 Rapidità, e 2 Fragile\n- recupera +50% PV in più quando si cura\n- Fine Turno: se la Sete di Sangue Ritornata attuale è inferiore alle sue Stack a Inizio Turno, ottiene 3 Livello Offensivo Aumentato e 5 Livello Difensivo Diminuito",
+      "desc": "- Panico\n- Ottiene 2 Potere Attacco Aumentato; Velocità Max +2\n- recupera +50% PV in più quando si cura\n- A fine turno: se la Sete di Sangue Ritornata attuale è inferiore alle Stack che aveva all'inizio del turno, ottiene 3 Livello Offensivo Aumentato e 5 Livello Difensivo Diminuito",
       "summary": "",
       "undefined": "-"
     },
@@ -227,7 +227,7 @@
     {
       "id": "SanchoMind_LowMorale",
       "name": "Gioia del Massacro Risvegliata",
-      "desc": "- Morale Basso\nOttiene 2 Potere Attacco Aumentato ad ogni Inizio Turno; +2 Efficenza PS",
+      "desc": "- Morale Basso\nOttiene 2 Potere Attacco Aumentato ad ogni Inizio Turno; +2 Efficenza Cura PS",
       "summary": "",
       "undefined": "-"
     },
