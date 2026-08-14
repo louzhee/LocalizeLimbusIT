@@ -433,7 +433,7 @@
         {
           "level": 4,
           "name": "Retraite",
-          "desc": "Se la Velocità di questa unità è maggiore del bersaglio, ottiene Potere Moneta in base alla differenza di Velocità (Potere Moneta +1 per ogni differenza di Velocità; max 3)\n[OnSucceedEvade] Ottiene 1 [Breath] (Max 10)",
+          "desc": "Se la Velocità di questa unità è maggiore del bersaglio, ottiene Potere Moneta in base alla differenza di Velocità (Potere Moneta +1 per ogni differenza di Velocità; Max 3)\n[OnSucceedEvade] Ottiene 1 [Breath] (Max 10)",
           "coinlist": [
             {}
           ]
@@ -768,7 +768,7 @@
                   "desc": "[OnSucceedAttack] Infligge 3 [EchoOfMansion] il turno successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio ha [EchoOfMansion], infligge danni di Affinità Tristezza pari a half of [Sinking] Potenza sul bersaglio (max 20)"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [EchoOfMansion], infligge danni di Affinità Tristezza pari a metà [Sinking] Potenza sul bersaglio (Max 20)"
                 }
               ]
             }
@@ -788,7 +788,7 @@
                   "desc": "[OnSucceedAttack] Infligge 3 [EchoOfMansion] il turno successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio ha [EchoOfMansion], infligge danni di Affinità Tristezza pari a [Sinking] Potenza sul bersaglio (max 30)"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [EchoOfMansion], infligge danni di Affinità Tristezza pari a [Sinking] Potenza sul bersaglio (Max 30)"
                 }
               ]
             }
@@ -933,7 +933,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 40% probabilità di Riusare questa Moneta. Un altro +20% di probabilità di Riusare questa Moneta per ogni tipo di effetto negativo sul bersaglio (2 volte max per Abilità)"
+                  "desc": "[OnSucceedAttack] 40% probabilità di Riusare questa Moneta. Un altro +20% di probabilità di Riusare questa Moneta per ogni tipo di effetto negativo sul bersaglio (2 volte Max per Abilità)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]\nQuando Riusa questa Moneta con i suoi effetti Moneta, infligge un altro +1 Conteggio [Laceration]"
@@ -950,7 +950,7 @@
         {
           "level": 3,
           "name": "Ispezionare Opere",
-          "desc": "Infligge +10% danni per ogni tipo di effetto negativo sul bersaglio (max 30%)\n[WhenUse] Applica 1 [Agility] il turno successivo a 2 alleati adiacenti a questa unità sul Pannello di Controllo",
+          "desc": "Infligge +10% danni per ogni tipo di effetto negativo sul bersaglio (Max 30%)\n[WhenUse] Applica 1 [Agility] il turno successivo a 2 alleati adiacenti a questa unità sul Pannello di Controllo",
           "coinlist": [
             {},
             {
@@ -971,7 +971,7 @@
         {
           "level": 4,
           "name": "Ispezionare Opere",
-          "desc": "Se il bersaglio ha 6+ [Laceration], Potere Moneta +1\nInfligge +12.5% danni per ogni tipo di effetto negativo sul bersaglio (max 50%)\n[WhenUse] Applica 1 [Agility] il turno successivo a 2 alleati adiacenti a questa unità sul Pannello di Controllo",
+          "desc": "Se il bersaglio ha 6+ [Laceration], Potere Moneta +1\nInfligge +12.5% danni per ogni tipo di effetto negativo sul bersaglio (Max 50%)\n[WhenUse] Applica 1 [Agility] il turno successivo a 2 alleati adiacenti a questa unità sul Pannello di Controllo",
           "coinlist": [
             {},
             {
@@ -1048,7 +1048,7 @@
         {
           "level": 4,
           "name": "Onda",
-          "desc": "[WhenUse] A 4+ Conteggio [Charge], Potere Base +1\n[WhenUse] Potere Scontro +1 per ogni 5 Conteggio [Charge] su di sé (max 2)\n[WhenUse] Ottiene +2 Conteggio [Charge]",
+          "desc": "[WhenUse] A 4+ Conteggio [Charge], Potere Base +1\n[WhenUse] Potere Scontro +1 per ogni 5 Conteggio [Charge] su di sé (Max 2)\n[WhenUse] Ottiene +2 Conteggio [Charge]",
           "coinlist": [
             {},
             {
@@ -1092,7 +1092,7 @@
         {
           "level": 2,
           "name": "Salto Caricato",
-          "desc": "[WhenUse] Consuma 6 Conteggio [Charge] su di sé per ottenere Potere Base +1\n- Se questa unità ha consumato Conteggio [Charge], applica ([Charge] + 1) [ChargeForceField] su di sé e 2 altri alleati con il minore Conteggio [Charge]. (Max 7 [ChargeForceField] per alleato. Si attiva 1 volta per turno max)\n[WhenUse] Ottiene +2 Conteggio [Charge]",
+          "desc": "[WhenUse] Consuma 6 Conteggio [Charge] su di sé per ottenere Potere Base +1\n- Se questa unità ha consumato Conteggio [Charge], applica ([Charge] + 1) [ChargeForceField] su di sé e 2 altri alleati con il minore Conteggio [Charge]. (Max 7 [ChargeForceField] per alleato. Si attiva 1 volta per turno Max)\n[WhenUse] Ottiene +2 Conteggio [Charge]",
           "coinlist": [
             {
               "coindescs": [
@@ -1119,7 +1119,7 @@
         {
           "level": 4,
           "name": "Salto Caricato",
-          "desc": "[WhenUse] Consuma 6 Conteggio [Charge] su di sé per ottenere Potere Moneta +1\n- Se questa unità ha consumato Conteggio [Charge], applica ([Charge] + <style=\"highlight\">2</style>) [ChargeForceField] su di sé e 2 altri alleati con il minore Conteggio [Charge]. (Max <style=\"highlight\">8</style> [ChargeForceField] per alleato. Si attiva <style=\"highlight\">2 volte</style> per turno max)\n[WhenUse] Ottiene +2 Conteggio [Charge]",
+          "desc": "[WhenUse] Consuma 6 Conteggio [Charge] su di sé per ottenere Potere Moneta +1\n- Se questa unità ha consumato Conteggio [Charge], applica ([Charge] + <style=\"highlight\">2</style>) [ChargeForceField] su di sé e 2 altri alleati con il minore Conteggio [Charge]. (Max <style=\"highlight\">8</style> [ChargeForceField] per alleato. Si attiva <style=\"highlight\">2 volte</style> per turno Max)\n[WhenUse] Ottiene +2 Conteggio [Charge]",
           "coinlist": [
             {
               "coindescs": [
@@ -1226,7 +1226,7 @@
         {
           "level": 1,
           "name": "Schiera Plasma",
-          "desc": "[WhenUse] Potere Base +1 per ogni 2 Conteggio [Charge] su di sé (max 5)\n[WhenUse] Ottiene +2 Conteggio [Charge] (2 volte per turno)",
+          "desc": "[WhenUse] Potere Base +1 per ogni 2 Conteggio [Charge] su di sé (Max 5)\n[WhenUse] Ottiene +2 Conteggio [Charge] (2 volte per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -1240,7 +1240,7 @@
         {
           "level": 4,
           "name": "Schiera Plasma",
-          "desc": "[WhenUse] Potere Base +1 per <style=\"highlight\">tutto il</style> Conteggio [Charge] su di sé (max <style=\"highlight\">10</style>)\n[WhenUse] Ottiene +2 Conteggio [Charge] (<style=\"highlight\">3</style> volte per turno)",
+          "desc": "[WhenUse] Potere Base +1 per <style=\"highlight\">tutto il</style> Conteggio [Charge] su di sé (Max <style=\"highlight\">10</style>)\n[WhenUse] Ottiene +2 Conteggio [Charge] (<style=\"highlight\">3</style> volte per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -1259,7 +1259,7 @@
         {
           "level": 1,
           "name": "Cucire",
-          "desc": "Sul Colpo con questa Abilità: si cura del 10% dei danni ai PV inflitti (max 10)\n[WhenUse] Consuma fino a 40 [BloodDinner] e ottiene 1 [BloodScissorPersonalityFirst] per ogni 8 [BloodDinner] consumata da questa unità\n- Se questa unità non è riuscita a consumare [BloodDinner], ottiene +2 Conteggio [Laceration]",
+          "desc": "Sul Colpo con questa Abilità: Recupera PV pari al 10% dei danni inflitti (Max 10)\n[WhenUse] Consuma fino a 40 [BloodDinner] e ottiene 1 [BloodScissorPersonalityFirst] per ogni 8 [BloodDinner] consumata da questa unità\n- Se questa unità non è riuscita a consumare [BloodDinner], ottiene +2 Conteggio [Laceration]",
           "coinlist": [
             {
               "coindescs": [
@@ -1280,7 +1280,7 @@
         {
           "level": 2,
           "name": "Cucire",
-          "desc": "Sul Colpo con questa Abilità: si cura del 10% dei danni ai PV inflitti (max 10)\n[WhenUse] Consuma fino a 40 [BloodDinner] e ottiene 1 [BloodScissorPersonalityFirst] per ogni 8 [BloodDinner] consumata da questa unità\n- Se questa unità non è riuscita a consumare [BloodDinner], ottiene +2 Conteggio [Laceration]\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1</style>",
+          "desc": "Sul Colpo con questa Abilità: Recupera PV pari al 10% dei danni inflitti (Max 10)\n[WhenUse] Consuma fino a 40 [BloodDinner] e ottiene 1 [BloodScissorPersonalityFirst] per ogni 8 [BloodDinner] consumata da questa unità\n- Se questa unità non è riuscita a consumare [BloodDinner], ottiene +2 Conteggio [Laceration]\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1307,7 +1307,7 @@
         {
           "level": 4,
           "name": "Cucire",
-          "desc": "Sul Colpo con questa Abilità: si cura del 10% dei danni ai PV inflitti (max 10)\n[WhenUse] Consuma fino a 40 [BloodDinner] e ottiene 1 [BloodScissorPersonalityFirst] per ogni 8 [BloodDinner] consumata da questa unità\n- Se questa unità non è riuscita a consumare [BloodDinner], ottiene +2 Conteggio [Laceration]\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)</style>",
+          "desc": "Sul Colpo con questa Abilità: Recupera PV pari al 10% dei danni inflitti (Max 10)\n[WhenUse] Consuma fino a 40 [BloodDinner] e ottiene 1 [BloodScissorPersonalityFirst] per ogni 8 [BloodDinner] consumata da questa unità\n- Se questa unità non è riuscita a consumare [BloodDinner], ottiene +2 Conteggio [Laceration]\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (Max 2)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1339,7 +1339,7 @@
         {
           "level": 1,
           "name": "Scissione",
-          "desc": "Sul Colpo con questa Abilità: si cura del 10% dei danni ai PV inflitti (max 20)\n[WhenUse] Consuma fino a 60 [BloodDinner] e ottiene 1 [BloodScissorPersonalityFirst] per ogni 6 [BloodDinner] consumata da questa unità\n- Se questa unità non è riuscita a consumare [BloodDinner], ottiene 5 [Laceration]",
+          "desc": "Sul Colpo con questa Abilità: Recupera PV pari al 10% dei danni inflitti (Max 20)\n[WhenUse] Consuma fino a 60 [BloodDinner] e ottiene 1 [BloodScissorPersonalityFirst] per ogni 6 [BloodDinner] consumata da questa unità\n- Se questa unità non è riuscita a consumare [BloodDinner], ottiene 5 [Laceration]",
           "coinlist": [
             {
               "coindescs": [
@@ -1373,7 +1373,7 @@
         {
           "level": 2,
           "name": "Scissione",
-          "desc": "Sul Colpo con questa Abilità: si cura del 20% dei danni ai PV inflitti (max 20)\n[WhenUse] Consuma fino a 60 [BloodDinner] e ottiene 1 [BloodScissorPersonalityFirst] per ogni 6 [BloodDinner] consumata da questa unità\n- Se questa unità non è riuscita a consumare [BloodDinner], ottiene 5 [Laceration]\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1</style>",
+          "desc": "Sul Colpo con questa Abilità: Recupera PV pari al 20% dei danni inflitti (Max 20)\n[WhenUse] Consuma fino a 60 [BloodDinner] e ottiene 1 [BloodScissorPersonalityFirst] per ogni 6 [BloodDinner] consumata da questa unità\n- Se questa unità non è riuscita a consumare [BloodDinner], ottiene 5 [Laceration]\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1407,7 +1407,7 @@
         {
           "level": 4,
           "name": "Scissione",
-          "desc": "Sul Colpo con questa Abilità: si cura del 20% dei danni ai PV inflitti (max 20)\n[WhenUse] Consuma fino a 60 [BloodDinner] e ottiene 1 [BloodScissorPersonalityFirst] per ogni 6 [BloodDinner] consumata da questa unità\n- Se questa unità non è riuscita a consumare [BloodDinner], ottiene 5 [Laceration]\n[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1<style=\"highlight\"></style>",
+          "desc": "Sul Colpo con questa Abilità: Recupera PV pari al 20% dei danni inflitti (Max 20)\n[WhenUse] Consuma fino a 60 [BloodDinner] e ottiene 1 [BloodScissorPersonalityFirst] per ogni 6 [BloodDinner] consumata da questa unità\n- Se questa unità non è riuscita a consumare [BloodDinner], ottiene 5 [Laceration]\n[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1446,7 +1446,7 @@
         {
           "level": 3,
           "name": "Ti Cucirò un Nuovo Vestito!",
-          "desc": "Sul Colpo con questa Abilità: si cura del 30% dei danni ai PV inflitti (max 20)\n[BeforeAttack] A 10+ [BloodScissorPersonalityFirst], Portata Attacco +1\n[WhenUse] Se il bersaglio ha 5+ [Laceration], Potere Moneta +1\n[WhenUse] Potere Scontro +1 per ogni 6 [Laceration] sul bersaglio (max 2)\n[EndSkill] Consuma 15 [BloodScissorPersonalityFirst] per ogni Portata Attacco in più\n[EndSkill] Se il bersaglio viene ucciso, aumenta [BloodDinner] di 10. Recupera metà della [BloodScissorPersonalityFirst] consumata da questa Abilità (1 volta per turno)",
+          "desc": "Sul Colpo con questa Abilità: Recupera PV pari al 30% dei danni inflitti (Max 20)\n[BeforeAttack] A 10+ [BloodScissorPersonalityFirst], Portata Attacco +1\n[WhenUse] Se il bersaglio ha 5+ [Laceration], Potere Moneta +1\n[WhenUse] Potere Scontro +1 per ogni 6 [Laceration] sul bersaglio (Max 2)\n[EndSkill] Consuma 15 [BloodScissorPersonalityFirst] per ogni Portata Attacco in più\n[EndSkill] Se il bersaglio viene ucciso, aumenta [BloodDinner] di 10. Recupera metà della [BloodScissorPersonalityFirst] consumata da questa Abilità (1 volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -1472,7 +1472,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] A 10+ [BloodScissorPersonalityFirst], infligge +([BloodScissorPersonalityFirst] x 2)% danni (max 38%)\n- A 20+ [BloodScissorPersonalityFirst], infligge invece +([BloodScissorPersonalityFirst] x 3)% danni(max 90%)"
+                  "desc": "[OnSucceedAttack] A 10+ [BloodScissorPersonalityFirst], infligge +([BloodScissorPersonalityFirst] x 2)% danni (Max 38%)\n- A 20+ [BloodScissorPersonalityFirst], infligge invece +([BloodScissorPersonalityFirst] x 3)% danni(Max 90%)"
                 }
               ]
             }
@@ -1481,7 +1481,7 @@
         {
           "level": 4,
           "name": "Ti Cucirò un Nuovo Vestito!",
-          "desc": "Sul Colpo con questa Abilità: si cura del 30% dei danni ai PV inflitti (max 20)\n[BeforeAttack] A 10+ [BloodScissorPersonalityFirst], Portata Attacco +1\n<style=\"highlight\">- A 20+ [BloodScissorPersonalityFirst], sostituisce invece l'effetto sovracitato con Portata Attacco +2</style>\n[WhenUse] Se il bersaglio ha 5+ [Laceration], Potere Moneta +1\n[WhenUse] Potere Scontro +1 per ogni 6 [Laceration] sul bersaglio (max 2)\n[EndSkill] Consuma <style=\"highlight\">10</style> [BloodScissorPersonalityFirst] per ogni Portata Attacco in più\n[EndSkill] Se il bersaglio viene ucciso, aumenta [BloodDinner] di <style=\"highlight\">20</style>. Recupera metà della [BloodScissorPersonalityFirst] consumata da questa Abilità (1 volta per turno)\n<style=\"highlight\">- Se il bersaglio è un [LineCuttingPersonality], allora aumenta [BloodDinner] di 20, e ottiene 5 [BloodScissorPersonalityFirst] (1 volta per turno)</style>",
+          "desc": "Sul Colpo con questa Abilità: Recupera PV pari al 30% dei danni inflitti (Max 20)\n[BeforeAttack] A 10+ [BloodScissorPersonalityFirst], Portata Attacco +1\n<style=\"highlight\">- A 20+ [BloodScissorPersonalityFirst], sostituisce invece l'effetto sovracitato con Portata Attacco +2</style>\n[WhenUse] Se il bersaglio ha 5+ [Laceration], Potere Moneta +1\n[WhenUse] Potere Scontro +1 per ogni 6 [Laceration] sul bersaglio (Max 2)\n[EndSkill] Consuma <style=\"highlight\">10</style> [BloodScissorPersonalityFirst] per ogni Portata Attacco in più\n[EndSkill] Se il bersaglio viene ucciso, aumenta [BloodDinner] di <style=\"highlight\">20</style>. Recupera metà della [BloodScissorPersonalityFirst] consumata da questa Abilità (1 volta per turno)\n<style=\"highlight\">- Se il bersaglio è un [LineCuttingPersonality], allora aumenta [BloodDinner] di 20, e ottiene 5 [BloodScissorPersonalityFirst] (1 volta per turno)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1507,7 +1507,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] A 10+ [BloodScissorPersonalityFirst], infligge +([BloodScissorPersonalityFirst] x <style=\"highlight\">3</style>)% danni (max <style=\"highlight\">57</style>%)\n- A 20+ [BloodScissorPersonalityFirst], invece infligge +([BloodScissorPersonalityFirst] x <style=\"highlight\">4</style>)% danni (max <style=\"highlight\">120</style>%)"
+                  "desc": "[OnSucceedAttack] A 10+ [BloodScissorPersonalityFirst], infligge +([BloodScissorPersonalityFirst] x <style=\"highlight\">3</style>)% danni (Max <style=\"highlight\">57</style>%)\n- A 20+ [BloodScissorPersonalityFirst], invece infligge +([BloodScissorPersonalityFirst] x <style=\"highlight\">4</style>)% danni (Max <style=\"highlight\">120</style>%)"
                 }
               ]
             }
@@ -1535,7 +1535,7 @@
         {
           "level": 4,
           "name": "Molto Scortese!",
-          "desc": "[WhenUse] A 10+ [BloodScissorPersonalityFirst], Potere Base +1<style=\"highlight\">\n- A 20+ [BloodScissorPersonalityFirst], ottiene invece Potere Base +2 </style>\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 5 [Laceration] su di sé (max 3)</style>",
+          "desc": "[WhenUse] A 10+ [BloodScissorPersonalityFirst], Potere Base +1<style=\"highlight\">\n- A 20+ [BloodScissorPersonalityFirst], ottiene invece Potere Base +2 </style>\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 5 [Laceration] su di sé (Max 3)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1702,7 +1702,7 @@
         {
           "level": 3,
           "name": "Lama Macellaia Coperta di Maledizioni",
-          "desc": "Se la Velocità di questa unità è maggiore del bersaglio, infligge (differenza di Velocità x [Burst] Potenza sul bersaglio)% danni (max 50%)\nSe la Velocità di questa unità è maggiore del bersaglio di 2 o più, Potere Moneta +1\n[WhenUse] Ottiene 3 [LegStrength]\n[OnDirectAttack] Infligge +2 Conteggio [Burst]",
+          "desc": "Se la Velocità di questa unità è maggiore del bersaglio, infligge (differenza di Velocità x [Burst] Potenza sul bersaglio)% danni (Max 50%)\nSe la Velocità di questa unità è maggiore del bersaglio di 2 o più, Potere Moneta +1\n[WhenUse] Ottiene 3 [LegStrength]\n[OnDirectAttack] Infligge +2 Conteggio [Burst]",
           "coinlist": [
             {
               "coindescs": [
@@ -1736,7 +1736,7 @@
         {
           "level": 4,
           "name": "Lama Macellaia Coperta di Maledizioni",
-          "desc": "Se la Velocità di questa unità è maggiore del bersaglio, infligge (differenza di Velocità x [Burst] Potenza sul bersaglio)% danni (max 50%)\n<style=\"highlight\">Se la Velocità di questa unità è maggiore del bersaglio, ottiene Potere Moneta in base alla differenza di Velocità (Potere Moneta +1 per ogni 2 differenza di Velocità; max 2)\n[WhenUse] Se il bersaglio ha 15+ [Burst], Potere Moneta +1</style>\n[WhenUse] Ottiene 3 [LegStrength]\n[OnDirectAttack] Infligge +2 Conteggio [Burst]",
+          "desc": "Se la Velocità di questa unità è maggiore del bersaglio, infligge (differenza di Velocità x [Burst] Potenza sul bersaglio)% danni (Max 50%)\n<style=\"highlight\">Se la Velocità di questa unità è maggiore del bersaglio, ottiene Potere Moneta in base alla differenza di Velocità (Potere Moneta +1 per ogni 2 differenza di Velocità; Max 2)\n[WhenUse] Se il bersaglio ha 15+ [Burst], Potere Moneta +1</style>\n[WhenUse] Ottiene 3 [LegStrength]\n[OnDirectAttack] Infligge +2 Conteggio [Burst]",
           "coinlist": [
             {
               "coindescs": [
@@ -1792,7 +1792,7 @@
         {
           "level": 4,
           "name": "Mutazione Heishou Parziale",
-          "desc": "[DuelCounter]\n[WhenUse] Ottiene 3 [LegStrength]\n<style=\"highlight\">[WhenUse] Se la Velocità di questa unità è maggiore del bersaglio, ottiene Potere Base in base alla differenza di Velocità (Potere Base +1 per ogni 2 differenza di Velocità; max 2)</style>",
+          "desc": "[DuelCounter]\n[WhenUse] Ottiene 3 [LegStrength]\n<style=\"highlight\">[WhenUse] Se la Velocità di questa unità è maggiore del bersaglio, ottiene Potere Base in base alla differenza di Velocità (Potere Base +1 per ogni 2 differenza di Velocità; Max 2)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2005,7 +2005,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnStartCoin] Consume tutto il Conteggio [Vibration] su di sé\n- Potere Moneta +1 per ogni 5 Conteggio [Vibration] consumato (max 5)\n- Infligge +1% danni per ogni 1 Conteggio [Vibration] consumato (max 50%)"
+                  "desc": "[OnStartCoin] Consume tutto il Conteggio [Vibration] su di sé\n- Potere Moneta +1 per ogni 5 Conteggio [Vibration] consumato (Max 5)\n- Infligge +1% danni per ogni 1 Conteggio [Vibration] consumato (Max 50%)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
@@ -2023,7 +2023,7 @@
         {
           "level": 4,
           "name": "Attivazione Massima: Mazza dell'Esattore T-3",
-          "desc": "<style=\"highlight\">Se il bersaglio è in stato di [Switch_Vibration] o [FusionVibration], infligge +30% danni</style>\nSe il bersaglio ha [TimeSuspend], infligge +30% danni\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 [Vibration] sul bersaglio (max 2)</style>\n<style=\"highlight\">[WhenUse] Se il bersaglio ha [Binding] Potere Scontro +1</style>\n[EndSkill] Perde [TimeRentalTwoPersonality] su di sé\n[EndSkill] Ottiene [OutisNoHat] (1 volta per Incontro)",
+          "desc": "<style=\"highlight\">Se il bersaglio è in stato di [Switch_Vibration] o [FusionVibration], infligge +30% danni</style>\nSe il bersaglio ha [TimeSuspend], infligge +30% danni\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 [Vibration] sul bersaglio (Max 2)</style>\n<style=\"highlight\">[WhenUse] Se il bersaglio ha [Binding] Potere Scontro +1</style>\n[EndSkill] Perde [TimeRentalTwoPersonality] su di sé\n[EndSkill] Ottiene [OutisNoHat] (1 volta per Incontro)",
           "coinlist": [
             {
               "coindescs": [
@@ -2045,7 +2045,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnStartCoin] Consume tutto il Conteggio [Vibration] su di sé<style=\"highlight\"></style>\n- Potere Moneta +1 per ogni <style=\"highlight\">4</style> Conteggio [Vibration] consumato (max 5)\n- Infligge +<style=\"highlight\">2</style>% danni per ogni 1 Conteggio [Vibration] consumato (max 100%)"
+                  "desc": "[OnStartCoin] Consume tutto il Conteggio [Vibration] su di sé<style=\"highlight\"></style>\n- Potere Moneta +1 per ogni <style=\"highlight\">4</style> Conteggio [Vibration] consumato (Max 5)\n- Infligge +<style=\"highlight\">2</style>% danni per ogni 1 Conteggio [Vibration] consumato (Max 100%)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
@@ -2118,7 +2118,7 @@
         {
           "level": 2,
           "name": "Scherma Khopesh",
-          "desc": "[WhenUse] Ottiene +3 [Aggro] su questo Slot Abilità il turno successivo\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 ([Sinking] + [Vibration]) sul bersaglio (max 2)</style>",
+          "desc": "[WhenUse] Ottiene +3 [Aggro] su questo Slot Abilità il turno successivo\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 ([Sinking] + [Vibration]) sul bersaglio (Max 2)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2135,7 +2135,7 @@
         {
           "level": 4,
           "name": "Scherma Khopesh",
-          "desc": "[WhenUse] Ottiene +3 [Aggro] su questo Slot Abilità il turno successivo\n[WhenUse] Potere Moneta +1 per ogni 6 ([Sinking] + [Vibration]) sul bersaglio (max 2)\n<style=\"highlight\">[WhenUse] Se quest'unità ha [TheUdjatOutis], Potere Scontro +1\n[WinDuel] Infligge 2 [SheutFracture]</style>",
+          "desc": "[WhenUse] Ottiene +3 [Aggro] su questo Slot Abilità il turno successivo\n[WhenUse] Potere Moneta +1 per ogni 6 ([Sinking] + [Vibration]) sul bersaglio (Max 2)\n<style=\"highlight\">[WhenUse] Se quest'unità ha [TheUdjatOutis], Potere Scontro +1\n[WinDuel] Infligge 2 [SheutFracture]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2195,7 +2195,7 @@
         {
           "level": 2,
           "name": "Incisione Miraggio",
-          "desc": "[WhenUse] Ottiene +5 [Aggro] su questo Slot Abilità il turno successivo\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 ([Sinking] + [Vibration]) sul bersaglio (max 2)</style>",
+          "desc": "[WhenUse] Ottiene +5 [Aggro] su questo Slot Abilità il turno successivo\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 ([Sinking] + [Vibration]) sul bersaglio (Max 2)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2226,7 +2226,7 @@
         {
           "level": 4,
           "name": "Incisione Miraggio",
-          "desc": "[WhenUse] Ottiene +5 [Aggro] su questo Slot Abilità il turno successivo\n[WhenUse] Potere Moneta +1 per ogni 6 ([Sinking] + [Vibration]) sul bersaglio (max 2)\n<style=\"highlight\">[WhenUse] Se quest'Unità ha [TheUdjatOutis], Potere Scontro +2 e infligge +30% danni\n[WinDuel] Infligge 2 [SheutFracture]</style>",
+          "desc": "[WhenUse] Ottiene +5 [Aggro] su questo Slot Abilità il turno successivo\n[WhenUse] Potere Moneta +1 per ogni 6 ([Sinking] + [Vibration]) sul bersaglio (Max 2)\n<style=\"highlight\">[WhenUse] Se quest'Unità ha [TheUdjatOutis], Potere Scontro +2 e infligge +30% danni\n[WinDuel] Infligge 2 [SheutFracture]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2265,7 +2265,7 @@
         {
           "level": 3,
           "name": "L'Avanguardia Eseguirà",
-          "desc": "[WhenUse] Ottiene +8 [Aggro] su questo Slot Abilità il turno successivo\n[WhenUse] Potere Base +1 per ogni [LCA_Bullet] che sta per essere usato da quest'Abilità\n[EndSkill] Ottiene 2 [Protection] il turno successivo (una volta per turno)\n[EndSkill] A 2 o meno [LCA_Bullet], [FullReload] (5 volter per Incontro)",
+          "desc": "[WhenUse] Ottiene +8 [Aggro] su questo Slot Abilità il turno successivo\n[WhenUse] Potere Base +1 per ogni [LCA_Bullet] che sta per essere usato da quest'Abilità\n[EndSkill] Ottiene 2 [Protection] il turno successivo (una volta per turno)\n[EndSkill] A 2 o meno [LCA_Bullet], [FullReload] (5 volte per Incontro)",
           "coinlist": [
             {
               "coindescs": [
@@ -2371,7 +2371,7 @@
         {
           "level": 1,
           "name": "Compostezza",
-          "desc": "Quando quest'unità viene colpita mentre ha uno Scudo, infligge 3 [Sinking] all'attaccante (3 volte per turno)\n[WhenUse] Per ogni [Protection] su di sé, ottiene Scudo pari al 5% dei PV max di quest'unità (max 15%; una volta per turno)",
+          "desc": "Quando quest'unità viene colpita mentre ha uno Scudo, infligge 3 [Sinking] all'attaccante (3 volte per turno)\n[WhenUse] Per ogni [Protection] su di sé, ottiene Scudo pari al 5% dei PV Max di quest'unità (Max 15%; una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -2385,7 +2385,7 @@
         {
           "level": 4,
           "name": "Compostezza",
-          "desc": "Quando quest'unità viene colpita mentre ha uno Scudo, infligge 3 [Sinking] all'attaccante (3 volte per turno)\n<style=\"highlight\">[WhenUse] Se quest'unità ha [TheUdjatOutis], ottiene 1 [Protection] (una volta per turno)</style>\n[WhenUse] Per ogni [Protection] su di sé, ottiene Scudo pari al 5% dei PV max di quest'unità (max 15%; una volta per turno)",
+          "desc": "Quando quest'unità viene colpita mentre ha uno Scudo, infligge 3 [Sinking] all'attaccante (3 volte per turno)\n<style=\"highlight\">[WhenUse] Se quest'unità ha [TheUdjatOutis], ottiene 1 [Protection] (una volta per turno)</style>\n[WhenUse] Per ogni [Protection] su di sé, ottiene Scudo pari al 5% dei PV Max di quest'unità (Max 15%; una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -2425,7 +2425,7 @@
         {
           "level": 2,
           "name": "Pestare",
-          "desc": "<style=\"highlight\">Potere Moneta +1 per ogni 6 ([Combustion] + [Laceration]) sul bersaglio (max 2)</style>\n[WhenUse] Recupera 5 PS",
+          "desc": "<style=\"highlight\">Potere Moneta +1 per ogni 6 ([Combustion] + [Laceration]) sul bersaglio (Max 2)</style>\n[WhenUse] Recupera 5 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -2446,7 +2446,7 @@
         {
           "level": 3,
           "name": "Pestare",
-          "desc": "Potere Moneta +1 per ogni 6 ([Combustion] + [Laceration]) sul bersaglio (max 2)\n<style=\"highlight\">[BeforeUse] Se questa unità ha [MiddleFatherSwordFourOutis], si attiva come \"Ti Sgozzo Come un Maiale\"</style>\n[WhenUse] Recupera 5 PS",
+          "desc": "Potere Moneta +1 per ogni 6 ([Combustion] + [Laceration]) sul bersaglio (Max 2)\n<style=\"highlight\">[BeforeUse] Se questa unità ha [MiddleFatherSwordFourOutis], si attiva come \"Ti Sgozzo Come un Maiale\"</style>\n[WhenUse] Recupera 5 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -2470,7 +2470,7 @@
         {
           "level": 4,
           "name": "Pestare",
-          "desc": "Potere Moneta +1 per ogni 6 ([Combustion] + [Laceration]) sul bersaglio (max 2)\n[BeforeUse] Se questa unità ha [MiddleFatherSwordFourOutis], si attiva come \"Ti Sgozzo Come un Maiale\"\n<style=\"highlight\">[WhenUse] Se questa unità ha [ReinforcedTattooSpiderOutis], converte la Moneta 2 in [SuperCoin]</style>\n[WhenUse] Recupera 5 PS",
+          "desc": "Potere Moneta +1 per ogni 6 ([Combustion] + [Laceration]) sul bersaglio (Max 2)\n[BeforeUse] Se questa unità ha [MiddleFatherSwordFourOutis], si attiva come \"Ti Sgozzo Come un Maiale\"\n<style=\"highlight\">[WhenUse] Se questa unità ha [ReinforcedTattooSpiderOutis], converte la Moneta 2 in [SuperCoin]</style>\n[WhenUse] Recupera 5 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -2478,7 +2478,7 @@
                   "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Aumenta la Soglia di Stordimento di by 5</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Aumenta la Soglia di Stordimento di 5</style>"
                 }
               ]
             },
@@ -2502,7 +2502,7 @@
         {
           "level": 1,
           "name": "Non Cedere Per Così Poco!",
-          "desc": "[WhenUse] Questa Abilità ottiene Livello Offensivo pari a (Rison. più alta / 2) (max 3, arrotondato per difetto)\n[WhenUse] Se la spada di questa unità si trova allo stadio [MiddleFatherSwordTwoOutis], infligge [Combustion] pari al valore base di [Laceration] che l'Abilità infligge Sul Colpo con le Monete\n[WhenUse] Ottiene +5 [Aggro] su questo Slot Abilità il turno successivo",
+          "desc": "[WhenUse] Questa Abilità ottiene Livello Offensivo pari a (Rison. più alta / 2) (Max 3, arrotondato per difetto)\n[WhenUse] Se la spada di questa unità si trova allo stadio [MiddleFatherSwordTwoOutis], infligge [Combustion] pari al valore base di [Laceration] che l'Abilità infligge Sul Colpo con le Monete\n[WhenUse] Ottiene +5 [Aggro] su questo Slot Abilità il turno successivo",
           "coinlist": [
             {
               "coindescs": [
@@ -2530,7 +2530,7 @@
         {
           "level": 2,
           "name": "Non Cedere Per Così Poco!",
-          "desc": "<style=\"highlight\">Potere Moneta +1 per ogni 6 ([Combustion] + [Laceration]) sul bersaglio (max 2)</style>\n[WhenUse] Questa Abilità ottiene Livello Offensivo pari a (Rison. più alta / 2) (max 3, arrotondato per difetto)\n[WhenUse] Se la spada di questa unità si trova allo stadio [MiddleFatherSwordTwoOutis], infligge [Combustion] pari al valore base di [Laceration] che l'Abilità infligge Sul Colpo con le Monete\n[WhenUse] Ottiene +5 [Aggro] su questo Slot Abilità il turno successivo",
+          "desc": "<style=\"highlight\">Potere Moneta +1 per ogni 6 ([Combustion] + [Laceration]) sul bersaglio (Max 2)</style>\n[WhenUse] Questa Abilità ottiene Livello Offensivo pari a (Rison. più alta / 2) (Max 3, arrotondato per difetto)\n[WhenUse] Se la spada di questa unità si trova allo stadio [MiddleFatherSwordTwoOutis], infligge [Combustion] pari al valore base di [Laceration] che l'Abilità infligge Sul Colpo con le Monete\n[WhenUse] Ottiene +5 [Aggro] su questo Slot Abilità il turno successivo",
           "coinlist": [
             {
               "coindescs": [
@@ -2561,7 +2561,7 @@
         {
           "level": 3,
           "name": "Non Cedere Per Così Poco!",
-          "desc": "Potere Moneta +1 per ogni 6 ([Combustion] + [Laceration]) sul bersaglio (max 2)\n<style=\"highlight\">[BeforeUse] Se questa unità ha [MiddleFatherSwordFourOutis], si attiva come \"Pugnalata Allo Stomaco\"</style>\n[WhenUse] Questa Abilità ottiene Livello Offensivo pari a (Rison. più alta / 2) (max 3, arrotondato per difetto)\n[WhenUse] Se la spada di questa unità si trova allo stadio [MiddleFatherSwordTwoOutis] <style=\"highlight\">o [MiddleFatherSwordThreeOutis]</style>, infligge [Combustion] pari al valore base di [Laceration] che l'Abilità infligge Sul Colpo con le Monete\n[WhenUse] Ottiene +5 [Aggro] su questo Slot Abilità il turno successivo",
+          "desc": "Potere Moneta +1 per ogni 6 ([Combustion] + [Laceration]) sul bersaglio (Max 2)\n<style=\"highlight\">[BeforeUse] Se questa unità ha [MiddleFatherSwordFourOutis], si attiva come \"Pugnalata Allo Stomaco\"</style>\n[WhenUse] Questa Abilità ottiene Livello Offensivo pari a (Rison. più alta / 2) (Max 3, arrotondato per difetto)\n[WhenUse] Se la spada di questa unità si trova allo stadio [MiddleFatherSwordTwoOutis] <style=\"highlight\">o [MiddleFatherSwordThreeOutis]</style>, infligge [Combustion] pari al valore base di [Laceration] che l'Abilità infligge Sul Colpo con le Monete\n[WhenUse] Ottiene +5 [Aggro] su questo Slot Abilità il turno successivo",
           "coinlist": [
             {
               "coindescs": [
@@ -2586,7 +2586,7 @@
                   "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Se questa unità ha [ReinforcedTattooSpiderOutis], infligge danno Contundente pari a ([Combustion] sul bersaglio + [Laceration] sul bersaglio)%  del danno finale di questa Moneta (max 20%)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Se questa unità ha [ReinforcedTattooSpiderOutis], infligge danno Contundente pari a ([Combustion] sul bersaglio + [Laceration] sul bersaglio)%  del danno finale di questa Moneta (Max 20%)</style>"
                 }
               ]
             }
@@ -2595,7 +2595,7 @@
         {
           "level": 4,
           "name": "Non Cedere Per Così Poco!",
-          "desc": "Potere Moneta +1 per ogni 6 ([Combustion] + [Laceration]) sul bersaglio (max 2)\n[BeforeUse] Se questa unità ha [MiddleFatherSwordFourOutis], si attiva come \"Pugnalata Allo Stomaco\"\n[WhenUse] Questa Abilità ottiene Livello Offensivo pari a (Rison. più alta / 2) (max 3, arrotondato per difetto)\n<style=\"highlight\">[WhenUse] Converte le Monete di questa abilità pari alle Stack di [ReinforcedTattooSpiderOutis] su questa unità in [SuperCoin](i), a partire dalla Moneta 3</style>\n[WhenUse] Se la spada di questa unità si trova allo stadio [MiddleFatherSwordTwoOutis] o [MiddleFatherSwordThreeOutis], infligge [Combustion] pari al valore base di [Laceration] che l'Abilità infligge Sul Colpo con le Monete\n[WhenUse] Ottiene +5 [Aggro] su questo Slot Abilità il turno successivo",
+          "desc": "Potere Moneta +1 per ogni 6 ([Combustion] + [Laceration]) sul bersaglio (Max 2)\n[BeforeUse] Se questa unità ha [MiddleFatherSwordFourOutis], si attiva come \"Pugnalata Allo Stomaco\"\n[WhenUse] Questa Abilità ottiene Livello Offensivo pari a (Rison. più alta / 2) (Max 3, arrotondato per difetto)\n<style=\"highlight\">[WhenUse] Converte le Monete di questa abilità pari alle Stack di [ReinforcedTattooSpiderOutis] su questa unità in [SuperCoin](i), a partire dalla Moneta 3</style>\n[WhenUse] Se la spada di questa unità si trova allo stadio [MiddleFatherSwordTwoOutis] o [MiddleFatherSwordThreeOutis], infligge [Combustion] pari al valore base di [Laceration] che l'Abilità infligge Sul Colpo con le Monete\n[WhenUse] Ottiene +5 [Aggro] su questo Slot Abilità il turno successivo",
           "coinlist": [
             {
               "coindescs": [
@@ -2623,7 +2623,7 @@
                   "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Se questa unità ha [ReinforcedTattooSpiderOutis], infligge danno Contundente pari a ([Combustion] sul bersaglio + [Laceration] sul bersaglio)% del danno finale di questa Moneta (max 20%)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Se questa unità ha [ReinforcedTattooSpiderOutis], infligge danno Contundente pari a ([Combustion] sul bersaglio + [Laceration] sul bersaglio)% del danno finale di questa Moneta (Max 20%)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -2637,7 +2637,7 @@
         {
           "level": 3,
           "name": "Timbro Della Vendetta",
-          "desc": "Potere Finale +1 per ogni 4 ([Combustion] + [Laceration]) sul bersaglio (max 3)\n[BeforeUse] Se questa unità ha [MiddleFatherSwordFourOutis], si attiva come \"Vi Condanno A Morte\"\n[WhenUse] Questa Abilità ottiene Livello Offensivo pari a (Rison. più alta) (max 6)\n[WhenUse] Potere Finale +1 per ogni [ReinforcedTattooSpiderOutis] su di sé (max 3)\n[WhenUse] Se la spada di questa unità si trova allo stadio [MiddleFatherSwordTwoOutis] o [MiddleFatherSwordThreeOutis], infligge [Combustion] pari al valore base di [Laceration] che l'Abilità infligge Sul Colpo con le Monete\n[EndSkill] Consuma tutte le Stack di [ResentmentSpiderOutis] su di sé",
+          "desc": "Potere Finale +1 per ogni 4 ([Combustion] + [Laceration]) sul bersaglio (Max 3)\n[BeforeUse] Se questa unità ha [MiddleFatherSwordFourOutis], si attiva come \"Vi Condanno A Morte\"\n[WhenUse] Questa Abilità ottiene Livello Offensivo pari a (Rison. più alta) (Max 6)\n[WhenUse] Potere Finale +1 per ogni [ReinforcedTattooSpiderOutis] su di sé (Max 3)\n[WhenUse] Se la spada di questa unità si trova allo stadio [MiddleFatherSwordTwoOutis] o [MiddleFatherSwordThreeOutis], infligge [Combustion] pari al valore base di [Laceration] che l'Abilità infligge Sul Colpo con le Monete\n[EndSkill] Consuma tutte le Stack di [ResentmentSpiderOutis] su di sé",
           "coinlist": [
             {
               "coindescs": [
@@ -2675,7 +2675,7 @@
         {
           "level": 4,
           "name": "Timbro Della Vendetta",
-          "desc": "Potere Finale +1 per ogni 4 ([Combustion] + [Laceration]) sul bersaglio (max 3)\n<style=\"highlight\">A 6+ Rison-A Invidia, Potere Moneta +1</style>\n[BeforeUse] Se questa unità ha [MiddleFatherSwordFourOutis], si attiva come \"Vi Condanno A Morte\"\n[WhenUse] Questa Abilità ottiene Livello Offensivo pari a (Rison. più alta) (max 6)\n[WhenUse] Potere Finale +1 per ogni [ReinforcedTattooSpiderOutis] su di sé (max 3)\n<style=\"highlight\">[WhenUse] Converte le Monete di questa Abilità in [SuperCoin](i) pari alle Stack di [ReinforcedTattooSpiderOutis] su questa unità, a partire dalla Moneta 3</style>\n[WhenUse] Se la spada di questa unità si trova allo stadio [MiddleFatherSwordTwoOutis] o [MiddleFatherSwordThreeOutis], infligge [Combustion] pari al valore base di [Laceration] che l'Abilità infligge Sul Colpo con le Monete\n[EndSkill] Consuma tutte le Stack di [ResentmentSpiderOutis]su di sé\n<style=\"highlight\">[EndSkill] Se questa Abilità è stata attivata come Contrattacco, ottiene 1 [HitDamageUp] il turno successivo (una volta per turno)</style>",
+          "desc": "Potere Finale +1 per ogni 4 ([Combustion] + [Laceration]) sul bersaglio (Max 3)\n<style=\"highlight\">A 6+ Rison-A Invidia, Potere Moneta +1</style>\n[BeforeUse] Se questa unità ha [MiddleFatherSwordFourOutis], si attiva come \"Vi Condanno A Morte\"\n[WhenUse] Questa Abilità ottiene Livello Offensivo pari a (Rison. più alta) (Max 6)\n[WhenUse] Potere Finale +1 per ogni [ReinforcedTattooSpiderOutis] su di sé (Max 3)\n<style=\"highlight\">[WhenUse] Converte le Monete di questa Abilità in [SuperCoin](i) pari alle Stack di [ReinforcedTattooSpiderOutis] su questa unità, a partire dalla Moneta 3</style>\n[WhenUse] Se la spada di questa unità si trova allo stadio [MiddleFatherSwordTwoOutis] o [MiddleFatherSwordThreeOutis], infligge [Combustion] pari al valore base di [Laceration] che l'Abilità infligge Sul Colpo con le Monete\n[EndSkill] Consuma tutte le Stack di [ResentmentSpiderOutis] su di sé\n<style=\"highlight\">[EndSkill] Se questa Abilità è stata attivata come Contrattacco, ottiene 1 [HitDamageUp] il turno successivo (una volta per turno)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2765,7 +2765,7 @@
         {
           "level": 3,
           "name": "Ti Sgozzo Come un Maiale",
-          "desc": "Abilità esclusiva di [MiddleFatherSwordFourOutis]\nPotere Moneta +1 per ogni 6 ([Combustion] + [Laceration]) sul bersaglio (max 2)\n[WhenUse] Questa Abilità ottiene Livello Offensivo pari a (Risonanza più alta / 2) (max 3, arrotondato per difetto)\n[BeforeAttack] Ottiene [Combustion] pari al numero delle Monete di questa Abilità\n[EndSkill] Perde 5 PS",
+          "desc": "Abilità esclusiva di [MiddleFatherSwordFourOutis]\nPotere Moneta +1 per ogni 6 ([Combustion] + [Laceration]) sul bersaglio (Max 2)\n[WhenUse] Questa Abilità ottiene Livello Offensivo pari a (Risonanza più alta / 2) (Max 3, arrotondato per difetto)\n[BeforeAttack] Ottiene [Combustion] pari al numero delle Monete di questa Abilità\n[EndSkill] Perde 5 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -2798,7 +2798,7 @@
         {
           "level": 4,
           "name": "Ti Sgozzo Come un Maiale",
-          "desc": "Abilità esclusiva di [MiddleFatherSwordFourOutis]\nPotere Moneta +1 per ogni 6 ([Combustion] + [Laceration]) sul bersaglio (max 2)\n[WhenUse] Questa Abilità ottiene Livello Offensivo pari a (Risonanza più alta / 2) (max 3, arrotondato per difetto)\n<style=\"highlight\">[WhenUse] Se questa unità ha [ReinforcedTattooSpiderOutis], infligge 1 [Laceration] Sul Colpo della Moneta</style>\n[BeforeAttack] Ottiene [Combustion] pari al numero di Monete in questa Abilità\n[EndSkill] Perde 5 PS",
+          "desc": "Abilità esclusiva di [MiddleFatherSwordFourOutis]\nPotere Moneta +1 per ogni 6 ([Combustion] + [Laceration]) sul bersaglio (Max 2)\n[WhenUse] Questa Abilità ottiene Livello Offensivo pari a (Risonanza più alta / 2) (Max 3, arrotondato per difetto)\n<style=\"highlight\">[WhenUse] Se questa unità ha [ReinforcedTattooSpiderOutis], infligge 1 [Laceration] Sul Colpo della Moneta</style>\n[BeforeAttack] Ottiene [Combustion] pari al numero di Monete in questa Abilità\n[EndSkill] Perde 5 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -2836,7 +2836,7 @@
         {
           "level": 3,
           "name": "Pugnalata Allo Stomaco [Lævateinn]",
-          "desc": "Abilità esclusiva di [MiddleFatherSwordFourOutis]\nSe il bersaglio ha 4+ ([Combustion] + [Laceration]), Potere Finale +1\n[WhenUse] Questa Abilità ottiene Livello Offensivo pari a (Risonanza più alta / 2) (max 3, arrotondato per difetto)\n[WhenUse] Ottiene +5 [Aggro] su questo Slot Abilità il turno successivo\n[BeforeAttack] Ottiene [Combustion] pari al numero di Monete di questa Abilità\n[EndSkill] Perde 5 PS",
+          "desc": "Abilità esclusiva di [MiddleFatherSwordFourOutis]\nSe il bersaglio ha 4+ ([Combustion] + [Laceration]), Potere Finale +1\n[WhenUse] Questa Abilità ottiene Livello Offensivo pari a (Risonanza più alta / 2) (Max 3, arrotondato per difetto)\n[WhenUse] Ottiene +5 [Aggro] su questo Slot Abilità il turno successivo\n[BeforeAttack] Ottiene [Combustion] pari al numero di Monete di questa Abilità\n[EndSkill] Perde 5 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -2893,7 +2893,7 @@
         {
           "level": 4,
           "name": "Pugnalata Allo Stomaco [Lævateinn]",
-          "desc": "Abilità esclusiva di [MiddleFatherSwordFourOutis]\nSe il bersaglio ha 4+ ([Combustion] + [Laceration]), Potere Finale +1\n[WhenUse] Questa Abilità ottiene Livello Offensivo pari a (Risonanza più alta / 2) (max 3, arrotondato per difetto)\n[WhenUse] Ottiene +5 [Aggro] su questo Slot Abilità il turno successivo\n[BeforeAttack] Ottiene [Combustion] pari al numero di Monete di questa Abilità\n[EndSkill] Perde 5 PS",
+          "desc": "Abilità esclusiva di [MiddleFatherSwordFourOutis]\nSe il bersaglio ha 4+ ([Combustion] + [Laceration]), Potere Finale +1\n[WhenUse] Questa Abilità ottiene Livello Offensivo pari a (Risonanza più alta / 2) (Max 3, arrotondato per difetto)\n[WhenUse] Ottiene +5 [Aggro] su questo Slot Abilità il turno successivo\n[BeforeAttack] Ottiene [Combustion] pari al numero di Monete di questa Abilità\n[EndSkill] Perde 5 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -2955,7 +2955,7 @@
         {
           "level": 3,
           "name": "Vi Condanno A Morte [Lævateinn]",
-          "desc": "Abilità esclusiva di [MiddleFatherSwordFourOutis]\nPotere Finale +1 per ogni 4 ([Combustion] + [Laceration]) sul bersaglio (max 3)\nInfligge +1% danni per ogni 1 ([Combustion] + [Laceration]) sul bersaglio (max 20%)\n[WhenUse] Questa Abilità ottiene Livello Offensivo pari a (Risonanza più alta) (max 6)\n[WhenUse] Se questa unità ha [ReinforcedTattooSpiderOutis], Potere Moneta +1\n[BeforeAttack] Ottiene [Combustion] pari al numero di Monete di questa Abilità\n[EndSkill] Perde 5 PS\n[EndSkill] Consuma tutte le Stack di [ResentmentSpiderOutis] su di sé",
+          "desc": "Abilità esclusiva di [MiddleFatherSwordFourOutis]\nPotere Finale +1 per ogni 4 ([Combustion] + [Laceration]) sul bersaglio (Max 3)\nInfligge +1% danni per ogni 1 ([Combustion] + [Laceration]) sul bersaglio (Max 20%)\n[WhenUse] Questa Abilità ottiene Livello Offensivo pari a (Risonanza più alta) (Max 6)\n[WhenUse] Se questa unità ha [ReinforcedTattooSpiderOutis], Potere Moneta +1\n[BeforeAttack] Ottiene [Combustion] pari al numero di Monete di questa Abilità\n[EndSkill] Perde 5 PS\n[EndSkill] Consuma tutte le Stack di [ResentmentSpiderOutis] su di sé",
           "coinlist": [
             {
               "coindescs": [
@@ -3003,10 +3003,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge danno Perforante pari a ([Combustion] sul bersaglio + [Laceration]sul bersaglio)% del danno finale di questa Moneta (max 25%)"
+                  "desc": "[OnSucceedAttack] Infligge danno Perforante pari a ([Combustion] sul bersaglio + [Laceration] sul bersaglio)% del danno finale di questa Moneta (Max 25%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge danno Contundente pari a ([Combustion] sul bersaglio + [Laceration]sul bersaglio)% del danno finale di questa Moneta (max 25%)"
+                  "desc": "[OnSucceedAttack] Infligge danno Contundente pari a ([Combustion] sul bersaglio + [Laceration] sul bersaglio)% del danno finale di questa Moneta (Max 25%)"
                 }
               ]
             }
@@ -3015,7 +3015,7 @@
         {
           "level": 4,
           "name": "Vi Condanno A Morte [Lævateinn]",
-          "desc": "Abilità esclusiva di [MiddleFatherSwordFourOutis]\nPotere Finale +1 per ogni 4 ([Combustion] + [Laceration]) sul bersaglio (max 3)\nInfligge +1% danni per ogni 1 ([Combustion] + [Laceration]) sul bersaglio (max <style=\"highlight\">40%</style>)\n[WhenUse] Questa Abilità ottiene Livello Offensivo pari a (Risonanza più alta) (max 6)\n[WhenUse] Se questa unità ha [ReinforcedTattooSpiderOutis], Potere Moneta +1\n<style=\"highlight\">[WhenUse] Se questa unità ha [ReinforcedTattooSpiderOutis], infligge 1 Potenza [Laceration] Sul Colpo Moneta</style>\n[BeforeAttack] Ottiene [Combustion] pari al numero di Monete di questa Abilità\n[EndSkill] Perde 5 PS\n[EndSkill] Consuma tutte le Stack di [ResentmentSpiderOutis] su di sé\n<style=\"highlight\">[EndSkill] Se questa Abilità è stata attivata come Contrattacco, ottiene 1 [HitDamageUp] il turno successivo (una volta per turno)</style>",
+          "desc": "Abilità esclusiva di [MiddleFatherSwordFourOutis]\nPotere Finale +1 per ogni 4 ([Combustion] + [Laceration]) sul bersaglio (Max 3)\nInfligge +1% danni per ogni 1 ([Combustion] + [Laceration]) sul bersaglio (Max <style=\"highlight\">40%</style>)\n[WhenUse] Questa Abilità ottiene Livello Offensivo pari a (Risonanza più alta) (Max 6)\n[WhenUse] Se questa unità ha [ReinforcedTattooSpiderOutis], Potere Moneta +1\n<style=\"highlight\">[WhenUse] Se questa unità ha [ReinforcedTattooSpiderOutis], infligge 1 Potenza [Laceration] Sul Colpo Moneta</style>\n[BeforeAttack] Ottiene [Combustion] pari al numero di Monete di questa Abilità\n[EndSkill] Perde 5 PS\n[EndSkill] Consuma tutte le Stack di [ResentmentSpiderOutis] su di sé\n<style=\"highlight\">[EndSkill] Se questa Abilità è stata attivata come Contrattacco, ottiene 1 [HitDamageUp] il turno successivo (una volta per turno)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -3046,7 +3046,7 @@
                   "desc": "[OnSucceedAttack] Infligge 4 [Laceration]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge danno Tagliente pari a (([Combustion] sul bersaglio + [Laceration] sul bersaglio) x 2)% del danno finale di questa Moneta (max 50%)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge danno Tagliente pari a (([Combustion] sul bersaglio + [Laceration] sul bersaglio) x 2)% del danno finale di questa Moneta (Max 50%)</style>"
                 }
               ]
             },
@@ -3059,7 +3059,7 @@
                   "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge danno Tagliente pari a (([Combustion] sul bersaglio + [Laceration] sul bersaglio) x 2)% del danno finale di questa Moneta (max 50%)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge danno Tagliente pari a (([Combustion] sul bersaglio + [Laceration] sul bersaglio) x 2)% del danno finale di questa Moneta (Max 50%)</style>"
                 }
               ]
             },
@@ -3069,10 +3069,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge danno Perforante pari a ([Combustion] sul bersaglio + [Laceration]sul bersaglio)% del danno finale di questa Moneta (max 25%)"
+                  "desc": "[OnSucceedAttack] Infligge danno Perforante pari a ([Combustion] sul bersaglio + [Laceration] sul bersaglio)% del danno finale di questa Moneta (Max 25%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack]Infligge danno Contundente pari a ([Combustion] sul bersaglio + [Laceration]sul bersaglio)% del danno finale di questa Moneta (max 25%)"
+                  "desc": "[OnSucceedAttack]Infligge danno Contundente pari a ([Combustion] sul bersaglio + [Laceration] sul bersaglio)% del danno finale di questa Moneta (Max 25%)"
                 }
               ]
             }
@@ -3185,7 +3185,7 @@
         {
           "level": 3,
           "name": "Brava Bimba. Il Tuo Sacrificio per la Famiglia Non Sarà Dimenticato.",
-          "desc": "Abilità esclusiva di [MiddleFatherSwordFourOutis]\n[CantDuel]\n[CantChangeTarget]\nGli effetti esterni non possono far Riusare questa Abilità, e questa Abilità non attiva le Abilità Difensive\nPotere Finale +1 per ogni 4 ([Combustion] + [Laceration]) sul bersaglio principale (max 3)\n[WhenUse] Potere Finale +1 e infligge +10% danni per ogni [ReinforcedTattooSpiderOutis] su di sé (max 3, max 100%)\n[WhenUse] Se Il Nido dei Ragni: Apprendista del Medio Ishmael è tra i bersagli, infligge +100% danni\n[EndSkill] Consuma tutte le Stack di [ResentmentSpiderOutis] su di sé e ottiene 5 [ResentmentSpiderOutis]\n[EndSkill] Se un alleato bersagliato viene ucciso, ottiene 10 [ResentmentSpiderOutis]",
+          "desc": "Abilità esclusiva di [MiddleFatherSwordFourOutis]\n[CantDuel]\n[CantChangeTarget]\nGli effetti esterni non possono far Riusare questa Abilità, e questa Abilità non attiva le Abilità Difensive\nPotere Finale +1 per ogni 4 ([Combustion] + [Laceration]) sul bersaglio principale (Max 3)\n[WhenUse] Potere Finale +1 e infligge +10% danni per ogni [ReinforcedTattooSpiderOutis] su di sé (Max 3, Max 100%)\n[WhenUse] Se Il Nido dei Ragni: Apprendista del Medio Ishmael è tra i bersagli, infligge +100% danni\n[EndSkill] Consuma tutte le Stack di [ResentmentSpiderOutis] su di sé e ottiene 5 [ResentmentSpiderOutis]\n[EndSkill] Se un alleato bersagliato viene ucciso, ottiene 10 [ResentmentSpiderOutis]",
           "coinlist": [
             {
               "coindescs": [
