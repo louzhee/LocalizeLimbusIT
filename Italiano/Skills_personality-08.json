@@ -370,7 +370,7 @@
         {
           "level": 3,
           "name": "Arpione dell'Ossessione",
-          "desc": "Infligge più danni in base ai PV mancanti del bersaglio (+0.2% danni per 1% PV mancanti, max +20%)\n[EndSkill] Se il bersaglio viene Stordito o sconfitto, (1+(Rison-A più alta/2)) alleati con meno PS si curano di 10 PS, ottiene 2 [Breath], e +4 Conteggio [Breath]. (2 volte max. Max # di alleati che possono venire curati: 4)",
+          "desc": "Infligge più danni in base ai PV mancanti del bersaglio (+0.2% danni per 1% PV mancanti, max +20%)\n[EndSkill] Se il bersaglio viene Stordito o sconfitto, (1+(Rison-A più alta/2)) alleati con meno PS Recuperano 10 PS, ottiene 2 [Breath], e +4 Conteggio [Breath]. (2 volte max. Max # di alleati che possono venire curati: 4)",
           "coinlist": [
             {},
             {
@@ -399,7 +399,7 @@
         {
           "level": 4,
           "name": "Arpione dell'Ossessione",
-          "desc": "Infligge più danni in base ai PV mancanti del bersaglio (+0.3% danni per 1% PV mancanti, max +30%)\nPotere Moneta +1 per ogni 5 [Laceration] sul bersaglio (Max 2)\n[EndSkill] Se il bersaglio viene Stordito o sconfitto, (1+(Rison-A più alta/2)) alleati con meno PS si curano di 10 PS, ottiene 2 [Breath], e ottiene +4 Conteggio [Breath]. (4 volte max. Max # di alleati che possono venire curati: 4)",
+          "desc": "Infligge più danni in base ai PV mancanti del bersaglio (+0.3% danni per 1% PV mancanti, max +30%)\nPotere Moneta +1 per ogni 5 [Laceration] sul bersaglio (Max 2)\n[EndSkill] Se il bersaglio viene Stordito o sconfitto, (1+(Rison-A più alta/2)) alleati con meno PS Recuperano 10 PS, ottiene 2 [Breath], e ottiene +4 Conteggio [Breath]. (4 volte max. Max # di alleati che possono venire curati: 4)",
           "coinlist": [
             {},
             {
@@ -433,7 +433,7 @@
         {
           "level": 1,
           "name": "Non Temete",
-          "desc": "[WhenUse] 2 alleati adiacenti a questa unità sul Pannello di Controllo si curano per 3 PS (2 volte max)",
+          "desc": "[WhenUse] 2 alleati adiacenti a questa unità sul Pannello di Controllo si Recuperano 3 PS (2 volte max)",
           "coinlist": [
             {
               "coindescs": [
@@ -447,7 +447,7 @@
         {
           "level": 4,
           "name": "Non Temete",
-          "desc": "[WhenUse] 2 alleati adiacenti a questa unità sul Pannello di Controllo si curano per 5 PS (2 volte max)",
+          "desc": "[WhenUse] 2 alleati adiacenti a questa unità sul Pannello di Controllo Recuperano 5 PS (2 volte max)",
           "coinlist": [
             {}
           ]
