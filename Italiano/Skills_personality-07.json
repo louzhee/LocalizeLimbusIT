@@ -504,7 +504,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge [PhotoElectricity] pari a [Charge] (max 2)"
+                  "desc": "[OnSucceedAttack] Infligge [PhotoElectricity] pari a [Charge] (Max 2)"
                 }
               ]
             }
@@ -529,7 +529,7 @@
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge 1 [TakeHpHealReduce]</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge [PhotoElectricity] pari a [Charge] (max <style=\"highlight\">3</style>)"
+                  "desc": "[OnSucceedAttack] Infligge [PhotoElectricity] pari a [Charge] (Max <style=\"highlight\">3</style>)"
                 }
               ]
             }
@@ -560,7 +560,7 @@
                   "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [TakeHpHealReduce]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge [PhotoElectricity] pari a [Charge] (max 3)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge [PhotoElectricity] pari a [Charge] (Max 3)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -587,14 +587,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene +([Charge] x 3) Conteggio [Charge] (max 9)"
+                  "desc": "[OnSucceedAttack] Ottiene +([Charge] x 3) Conteggio [Charge] (Max 9)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge [PhotoElectricity] pari a [Charge] (max 3)"
+                  "desc": "[OnSucceedAttack] Infligge [PhotoElectricity] pari a [Charge] (Max 3)"
                 }
               ]
             }
@@ -603,7 +603,7 @@
         {
           "level": 4,
           "name": "Arpione Fotoelettrico",
-          "desc": "<style=\"highlight\">Potere Moneta +1 per ogni 2 [Charge] su di sé (max 2)</style>",
+          "desc": "<style=\"highlight\">Potere Moneta +1 per ogni 2 [Charge] su di sé (Max 2)</style>",
           "coinlist": [
             {},
             {
@@ -616,17 +616,17 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene +([Charge] x 3) Conteggio [Charge] (max 9)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Ottiene +([Charge] x 3) Conteggio [Charge] (Max 9)<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge [PhotoElectricity] pari a [Charge] (max 3)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge [PhotoElectricity] pari a [Charge] (Max 3)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge 1 [HitTakeDamageUp] per ogni 2 [Charge] (max 2)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge 1 [HitTakeDamageUp] per ogni 2 [Charge] (Max 2)</style>"
                 }
               ]
             }
@@ -691,7 +691,7 @@
         {
           "level": 4,
           "name": "Decapitazione",
-          "desc": "[WhenUse] Se il bersaglio ha 6+ [Sinking], Potere Scontro +1\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 3 Conteggio [Sinking] sul bersaglio (max 2)</style>",
+          "desc": "[WhenUse] Se il bersaglio ha 6+ [Sinking], Potere Scontro +1\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 3 Conteggio [Sinking] sul bersaglio (Max 2)</style>",
           "coinlist": [
             {},
             {
@@ -761,7 +761,7 @@
         {
           "level": 4,
           "name": "Corteo Funebre",
-          "desc": "[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 5 [Sinking] sul bersaglio (max 2)</style>\n[WhenUse] <style=\"highlight\">Portata Attacco +1 per ogni 4 [Coffin] su di sé (max 2)</style>\n[WhenUse] Se questa unità ha [NightPathfinding], Portata Attacco +1\n[EndSkill] Se questa unità ha [NightPathfinding], perde 10 PS",
+          "desc": "[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 5 [Sinking] sul bersaglio (Max 2)</style>\n[WhenUse] <style=\"highlight\">Portata Attacco +1 per ogni 4 [Coffin] su di sé (Max 2)</style>\n[WhenUse] Se questa unità ha [NightPathfinding], Portata Attacco +1\n[EndSkill] Se questa unità ha [NightPathfinding], perde 10 PS",
           "coinlist": [
             {},
             {
@@ -791,7 +791,7 @@
         {
           "level": 3,
           "name": "Requiem",
-          "desc": "[WinDuel] Recupera 10 PS\n[BeforeUse] Se questa unità ha [NightPathfinding], attiva al suo posto 'Lamenta, Piangi e Dispera'\n[WhenUse] Potere Moneta +1 per ogni 6 [Sinking] sul bersaglio (max 2)\n[WhenUse] Infligge +7% danni per ogni [Coffin] su di sé (max 70%)\n[WhenUse] Ottiene 1 [Coffin]\n[EndSkill] Se questa Abilità uccide il bersaglio, ottiene 2 [Coffin]",
+          "desc": "[WinDuel] Recupera 10 PS\n[BeforeUse] Se questa unità ha [NightPathfinding], attiva al suo posto 'Lamenta, Piangi e Dispera'\n[WhenUse] Potere Moneta +1 per ogni 6 [Sinking] sul bersaglio (Max 2)\n[WhenUse] Infligge +7% danni per ogni [Coffin] su di sé (Max 70%)\n[WhenUse] Ottiene 1 [Coffin]\n[EndSkill] Se questa Abilità uccide il bersaglio, ottiene 2 [Coffin]",
           "coinlist": [
             {
               "coindescs": [
@@ -809,7 +809,7 @@
                   "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
                 },
                 {
-                  "desc": "[EnemyKill] Infligge ([Sinking] sul bersaglio ucciso/3) [Sinking] a 2 nemici casuali (max 3)"
+                  "desc": "[EnemyKill] Infligge ([Sinking] sul bersaglio ucciso/3) [Sinking] a 2 nemici casuali (Max 3)"
                 }
               ]
             }
@@ -818,7 +818,7 @@
         {
           "level": 4,
           "name": "Requiem",
-          "desc": "[WinDuel] Recupera 10 PS\n[BeforeUse] Se questa unità ha [NightPathfinding], attiva al suo posto 'Lamenta, Piangi e Dispera'\n[WhenUse] Potere Moneta +1 for <style=\"highlight\">every 3</style> [Sinking] sul bersaglio (max <style=\"highlight\">4</style>)\n[WhenUse] Infligge +12% danni per ogni [Coffin] su di sé (max 120%)\n[WhenUse] Ottiene 1 [Coffin]\n[EndSkill] Se questa Abilità uccide il bersaglio, ottiene 2 [Coffin]",
+          "desc": "[WinDuel] Recupera 10 PS\n[BeforeUse] Se questa unità ha [NightPathfinding], attiva al suo posto 'Lamenta, Piangi e Dispera'\n[WhenUse] Potere Moneta +1 per <style=\"highlight\">ogni 3</style> [Sinking] sul bersaglio (Max <style=\"highlight\">4</style>)\n[WhenUse] Infligge +12% danni per ogni [Coffin] su di sé (Max 120%)\n[WhenUse] Ottiene 1 [Coffin]\n[EndSkill] Se questa Abilità uccide il bersaglio, ottiene 2 [Coffin]",
           "coinlist": [
             {
               "coindescs": [
@@ -836,7 +836,7 @@
                   "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">3</style> [Sinking]"
                 },
                 {
-                  "desc": "[EnemyKill] Infligge ([Sinking] sul bersaglio ucciso/<style=\"highlight\">2</style>) [Sinking] a 2 nemici casuali (max <style=\"highlight\">5</style>)"
+                  "desc": "[EnemyKill] Infligge ([Sinking] sul bersaglio ucciso/<style=\"highlight\">2</style>) [Sinking] a 2 nemici casuali (Max <style=\"highlight\">5</style>)"
                 }
               ]
             }
@@ -880,13 +880,13 @@
         {
           "level": 4,
           "name": "O Dullahan...!",
-          "desc": "[DuelCounter]\n[BeforeUse] Se questa unità ha [NightPathfinding] e ha 15+ PS, usa 'Lamenta, Piangi e Dispera' come Contrattacco (1 volta per turno)\n[StartBattle] Se questa unità non ha [NightPathfinding], ottiene 1 [NightPathfinding] il turno successivo (1 volta per turno)\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 3 [Sinking] sul bersaglio (max 2)</style>\n<style=\"highlight\">[WinDuel] Ottiene [AttackUp] il turno successivo pari a (# di Scontri/3) (max 3, 1 volta per turno)</style>\n[EndBattle] Se questa unità ha [NightPathfinding], perde [NightPathfinding]",
+          "desc": "[DuelCounter]\n[BeforeUse] Se questa unità ha [NightPathfinding] e ha 15+ PS, usa 'Lamenta, Piangi e Dispera' come Contrattacco (1 volta per turno)\n[StartBattle] Se questa unità non ha [NightPathfinding], ottiene 1 [NightPathfinding] il turno successivo (1 volta per turno)\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 3 [Sinking] sul bersaglio (Max 2)</style>\n<style=\"highlight\">[WinDuel] Ottiene [AttackUp] il turno successivo pari a (# di Scontri/3) (Max 3, 1 volta per turno)</style>\n[EndBattle] Se questa unità ha [NightPathfinding], perde [NightPathfinding]",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking] <style=\"highlight\">and +1 Conteggio [Sinking]</style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking] <style=\"highlight\">e +1 Conteggio [Sinking]</style>"
                 }
               ]
             }
@@ -900,7 +900,7 @@
         {
           "level": 3,
           "name": "Lamenta, Piangi e Dispera",
-          "desc": "[WhenUse] Perde 15 PS\n[WhenUse] Potere Base +1 per ogni 5 [Sinking] sul bersaglio (max 2)\n[WhenUse] Infligge più danni quanto più i PS dell'unità sono distanti da 45 (+0.3% danni per ogni PS mancante, max 21%)\nInfligge +7% danni per ogni [Coffin] su di sé (max 70%)\nInfligge +10% danni per ogni [NightPathfinding] su di sé (max 30%)\n[WhenUse] Ottiene 1 [Coffin]\n[EndSkill] Se questa Abilità uccide il bersaglio, ottiene 2 [Coffin]\n[EndSkill] A meno di 0 PS, recupera 10 PS. Quando l'unità è meno di 0 PS, recupera più PS in base a quanto il valore dei PS attuali è lontano da 0 (recupera 1 altri PS per ogni PS mancante; max 25)\n[EndBattle] Perde [NightPathfinding]",
+          "desc": "[WhenUse] Perde 15 PS\n[WhenUse] Potere Base +1 per ogni 5 [Sinking] sul bersaglio (Max 2)\n[WhenUse] Infligge più danni quanto più i PS dell'unità sono distanti da 45 (+0.3% danni per ogni PS mancante, Max 21%)\nInfligge +7% danni per ogni [Coffin] su di sé (Max 70%)\nInfligge +10% danni per ogni [NightPathfinding] su di sé (Max 30%)\n[WhenUse] Ottiene 1 [Coffin]\n[EndSkill] Se questa Abilità uccide il bersaglio, ottiene 2 [Coffin]\n[EndSkill] A meno di 0 PS, recupera 10 PS. Quando l'unità è a meno di 0 PS, recupera più PS in base a quanto il valore dei PS attuali è lontano da 0 (recupera 1 altri PS per ogni PS mancante; Max 25)\n[EndBattle] Perde [NightPathfinding]",
           "coinlist": [
             {
               "coindescs": [
@@ -915,10 +915,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge danni di Affinità Tristezza pari a [Sinking] sul bersaglio (max 15)"
+                  "desc": "[OnSucceedAttack] Infligge danni di Affinità Tristezza pari a [Sinking] sul bersaglio (Max 15)"
                 },
                 {
-                  "desc": "[EnemyKill] Infligge ([Sinking] sul bersaglio ucciso/3) [Sinking] a 2 nemici casuali (max 4)"
+                  "desc": "[EnemyKill] Infligge ([Sinking] sul bersaglio ucciso/3) [Sinking] a 2 nemici casuali (Max 4)"
                 },
                 {
                   "desc": "[EnemyKill] Recupera 15 PS"
@@ -930,7 +930,7 @@
         {
           "level": 4,
           "name": "Lamenta, Piangi e Dispera",
-          "desc": "[WhenUse] Perde 15 PS\n[WhenUse] Potere Base +1 per ogni 5 [Sinking] sul bersaglio (max <style=\"highlight\">4</style>)\n[WhenUse] Infligge più danni quanto più i PS dell'unità sono distanti da 45 (+0.3% danni per ogni PS mancante, max 21%)\nInfligge +<style=\"highlight\">10</style>% danni per ogni [Coffin] su di sé (max <style=\"highlight\">100</style>%)\nInfligge +<style=\"highlight\">20</style>% danni per ogni [NightPathfinding] su di sé (max <style=\"highlight\">60</style>%)\n[WhenUse] Ottiene <style=\"highlight\">2</style> [Coffin]\n[EndSkill] Se questa Abilità uccide il bersaglio, ottiene <style=\"highlight\">3</style> [Coffin]\n[EndSkill] A meno di 0 PS, recupera 10 PS. Quando è sotto 0 PS, recupera più PS quanto più i PS di questa unità sono distanti da 0 (recupera <style=\"highlight\">2</style> altri PS per ogni PS mancante; max <style=\"highlight\">50</style>)\n[EndBattle] Perde [NightPathfinding]",
+          "desc": "[WhenUse] Perde 15 PS\n[WhenUse] Potere Base +1 per ogni 5 [Sinking] sul bersaglio (Max <style=\"highlight\">4</style>)\n[WhenUse] Infligge più danni quanto più i PS dell'unità sono distanti da 45 (+0.3% danni per ogni PS mancante, Max 21%)\nInfligge +<style=\"highlight\">10</style>% danni per ogni [Coffin] su di sé (Max <style=\"highlight\">100</style>%)\nInfligge +<style=\"highlight\">20</style>% danni per ogni [NightPathfinding] su di sé (Max <style=\"highlight\">60</style>%)\n[WhenUse] Ottiene <style=\"highlight\">2</style> [Coffin]\n[EndSkill] Se questa Abilità uccide il bersaglio, ottiene <style=\"highlight\">3</style> [Coffin]\n[EndSkill] A meno di 0 PS, recupera 10 PS. Quando è sotto 0 PS, recupera più PS quanto più i PS di questa unità sono distanti da 0 (recupera <style=\"highlight\">2</style> altri PS per ogni PS mancante; Max <style=\"highlight\">50</style>)\n[EndBattle] Perde [NightPathfinding]",
           "coinlist": [
             {
               "coindescs": [
@@ -945,10 +945,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge danni di Affinità Tristezza pari a [Sinking] sul bersaglio (max <style=\"highlight\">30</style>)"
+                  "desc": "[OnSucceedAttack] Infligge danni di Affinità Tristezza pari a [Sinking] sul bersaglio (Max <style=\"highlight\">30</style>)"
                 },
                 {
-                  "desc": "[EnemyKill] Infligge ([Sinking] sul bersaglio ucciso/<style=\"highlight\">2</style>) [Sinking] a 2 nemici casuali (max <style=\"highlight\">8</style>)"
+                  "desc": "[EnemyKill] Infligge ([Sinking] sul bersaglio ucciso/<style=\"highlight\">2</style>) [Sinking] a 2 nemici casuali (Max <style=\"highlight\">8</style>)"
                 },
                 {
                   "desc": "[EnemyKill] Recupera 15 PS"
@@ -965,7 +965,7 @@
         {
           "level": 3,
           "name": "Lamenta, Piangi e Dispera",
-          "desc": "[WhenUse] Perde 15 PS\n[WhenUse] Potere Base +1 per ogni 5 [Sinking] sul bersaglio (max 2)\n[WhenUse] Infligge più danni quanto più i PS dell'unità sono distanti da 45 (+0.3% danni per ogni PS mancante, max 21%)\nInfligge +7% danni per ogni [Coffin] su di sé (max 70%)\nInfligge +10% danni per ogni [NightPathfinding] su di sé (max 30%)\n[WhenUse] Ottiene 1 [Coffin]\n[EndSkill] Se questa Abilità uccide il bersaglio, ottiene 2 [Coffin]\n[EndSkill] A meno di 0 PS, recupera 10 PS. Quando è sotto 0 PS, recupera più PS quanto più i PS di questa unità sono distanti da 0 (recupera 1 altri PS per ogni PS mancante; max 25)\n[EndBattle] Perde [NightPathfinding]",
+          "desc": "[WhenUse] Perde 15 PS\n[WhenUse] Potere Base +1 per ogni 5 [Sinking] sul bersaglio (Max 2)\n[WhenUse] Infligge più danni quanto più i PS dell'unità sono distanti da 45 (+0.3% danni per ogni PS mancante, Max 21%)\nInfligge +7% danni per ogni [Coffin] su di sé (Max 70%)\nInfligge +10% danni per ogni [NightPathfinding] su di sé (Max 30%)\n[WhenUse] Ottiene 1 [Coffin]\n[EndSkill] Se questa Abilità uccide il bersaglio, ottiene 2 [Coffin]\n[EndSkill] A meno di 0 PS, recupera 10 PS. Quando è sotto 0 PS, recupera più PS quanto più i PS di questa unità sono distanti da 0 (recupera 1 altri PS per ogni PS mancante; Max 25)\n[EndBattle] Perde [NightPathfinding]",
           "coinlist": [
             {
               "coindescs": [
@@ -980,10 +980,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge danni di Affinità Tristezza pari a [Sinking] sul bersaglio (max 15)"
+                  "desc": "[OnSucceedAttack] Infligge danni di Affinità Tristezza pari a [Sinking] sul bersaglio (Max 15)"
                 },
                 {
-                  "desc": "[EnemyKill] Infligge ([Sinking] sul bersaglio ucciso/3) [Sinking] a 2 nemici casuali (max 4)"
+                  "desc": "[EnemyKill] Infligge ([Sinking] sul bersaglio ucciso/3) [Sinking] a 2 nemici casuali (Max 4)"
                 },
                 {
                   "desc": "[EnemyKill] Recupera 15 PS"
@@ -995,7 +995,7 @@
         {
           "level": 4,
           "name": "Lamenta, Piangi e Dispera",
-          "desc": "[WhenUse] Perde 15 PS\n[WhenUse] Potere Base +1 per ogni 5 [Sinking] sul bersaglio (max <style=\"highlight\">4</style>)\n[WhenUse] Infligge più danni quanto più i PS dell'unità sono distanti da 45 (+0.3% danni per ogni PS mancante, max 21%)\nInfligge +<style=\"highlight\">10</style>% danni per ogni [Coffin] su di sé (max <style=\"highlight\">100</style>%)\nInfligge +<style=\"highlight\">20</style>% danni per ogni [NightPathfinding] su di sé (max <style=\"highlight\">60</style>%)\n[WhenUse] Ottiene <style=\"highlight\">2</style> [Coffin]\n[EndSkill] Se questa Abilità uccide il bersaglio, ottiene <style=\"highlight\">3</style> [Coffin]\n[EndSkill] A meno di 0 PS, recupera 10 PS. Quando è sotto 0 PS, recupera più PS quanto più i PS di questa unità sono distanti da 0 (recupera <style=\"highlight\">2</style> altri PS per ogni PS mancante; max <style=\"highlight\">50</style>)\n[EndBattle] Perde [NightPathfinding]",
+          "desc": "[WhenUse] Perde 15 PS\n[WhenUse] Potere Base +1 per ogni 5 [Sinking] sul bersaglio (Max <style=\"highlight\">4</style>)\n[WhenUse] Infligge più danni quanto più i PS dell'unità sono distanti da 45 (+0.3% danni per ogni PS mancante, Max 21%)\nInfligge +<style=\"highlight\">10</style>% danni per ogni [Coffin] su di sé (Max <style=\"highlight\">100</style>%)\nInfligge +<style=\"highlight\">20</style>% danni per ogni [NightPathfinding] su di sé (Max <style=\"highlight\">60</style>%)\n[WhenUse] Ottiene <style=\"highlight\">2</style> [Coffin]\n[EndSkill] Se questa Abilità uccide il bersaglio, ottiene <style=\"highlight\">3</style> [Coffin]\n[EndSkill] A meno di 0 PS, recupera 10 PS. Quando è sotto 0 PS, recupera più PS quanto più i PS di questa unità sono distanti da 0 (recupera <style=\"highlight\">2</style> altri PS per ogni PS mancante; Max <style=\"highlight\">50</style>)\n[EndBattle] Perde [NightPathfinding]",
           "coinlist": [
             {
               "coindescs": [
@@ -1010,10 +1010,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge danni di Affinità Tristezza pari a [Sinking] sul bersaglio (max <style=\"highlight\">30</style>)"
+                  "desc": "[OnSucceedAttack] Infligge danni di Affinità Tristezza pari a [Sinking] sul bersaglio (Max <style=\"highlight\">30</style>)"
                 },
                 {
-                  "desc": "[EnemyKill] Infligge ([Sinking] sul bersaglio ucciso/<style=\"highlight\">2</style>) [Sinking] a 2 nemici casuali (max <style=\"highlight\">8</style>)"
+                  "desc": "[EnemyKill] Infligge ([Sinking] sul bersaglio ucciso/<style=\"highlight\">2</style>) [Sinking] a 2 nemici casuali (Max <style=\"highlight\">8</style>)"
                 },
                 {
                   "desc": "[EnemyKill] Recupera 15 PS"
@@ -1142,7 +1142,7 @@
         {
           "level": 2,
           "name": "Colpo alla Testa",
-          "desc": "<style=\"highlight\">Se la Velocità di questa unità è maggiore del bersaglio, infligge +10% danni per ogni 1 differenza di Velocità (max 30%)</style>\n[WhenUse] Ottiene 3 [Breath] e +1 Conteggio [Breath]\n<style=\"highlight\">[WhenUse] Ottiene 2 [Agility] il turno successivo (1 volta per turno)</style>",
+          "desc": "<style=\"highlight\">Se la Velocità di questa unità è maggiore del bersaglio, infligge +10% danni per ogni 1 differenza di Velocità (Max 30%)</style>\n[WhenUse] Ottiene 3 [Breath] e +1 Conteggio [Breath]\n<style=\"highlight\">[WhenUse] Ottiene 2 [Agility] il turno successivo (1 volta per turno)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1165,7 +1165,7 @@
         {
           "level": 4,
           "name": "Colpo alla Testa",
-          "desc": "Se la Velocità di questa unità è maggiore del bersaglio, infligge +10% danni per ogni 1 differenza di Velocità <style=\"highlight\">(max 50%)</style>\n[WhenUse] Ottiene 3 [Breath] e +<style=\"highlight\">2</style> Conteggio [Breath]\n[WhenUse] Ottiene 2 [Agility] il turno successivo (1 volta per turno)",
+          "desc": "Se la Velocità di questa unità è maggiore del bersaglio, infligge +10% danni per ogni 1 differenza di Velocità <style=\"highlight\">(Max 50%)</style>\n[WhenUse] Ottiene 3 [Breath] e +<style=\"highlight\">2</style> Conteggio [Breath]\n[WhenUse] Ottiene 2 [Agility] il turno successivo (1 volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -1193,7 +1193,7 @@
         {
           "level": 3,
           "name": "Punta al Centro",
-          "desc": "[BeforeUse] Se questa unità ha [Bullet_LogicAtelier], attiva al suo posto 'AL-Cartuccia Polverizzante ad AV'\nSe la Velocità di questa unità è maggiore del bersaglio, infligge +10% danni per ogni 1 differenza di Velocità (max 50%)\n[WhenUse] Ottiene 5 [Breath]\n[WhenUse] Consuma ogni [LogicAtelierAM] su di sé, ottiene (valore consumato x 2) Potenza [Breath], e infligge +(valore consumato x 12.5)% danni",
+          "desc": "[BeforeUse] Se questa unità ha [Bullet_LogicAtelier], attiva al suo posto 'AL-Cartuccia Polverizzante ad AV'\nSe la Velocità di questa unità è maggiore del bersaglio, infligge +10% danni per ogni 1 differenza di Velocità (Max 50%)\n[WhenUse] Ottiene 5 [Breath]\n[WhenUse] Consuma ogni [LogicAtelierAM] su di sé, ottiene (valore consumato x 2) Potenza [Breath], e infligge +(valore consumato x 12.5)% danni",
           "coinlist": [
             {
               "coindescs": [
@@ -1213,7 +1213,7 @@
         {
           "level": 4,
           "name": "Punta al Centro",
-          "desc": "[BeforeUse] Se questa unità ha [Bullet_LogicAtelier], attiva al suo posto 'AL-Cartuccia Polverizzante ad AV'\nSe la Velocità di questa unità è maggiore del bersaglio, infligge +10% danni per ogni 1 differenza di Velocità (max 50%)\n[WhenUse] Ottiene 5 [Breath]\n[WhenUse] Consuma ogni [LogicAtelierAM] su di sé, ottiene (valore consumato x 2) Potenza [Breath], e infligge +(valore consumato x 12.5)% danni\n<style=\"highlight\">[EndSkill] Ottiene +2 Conteggio [Breath]</style>",
+          "desc": "[BeforeUse] Se questa unità ha [Bullet_LogicAtelier], attiva al suo posto 'AL-Cartuccia Polverizzante ad AV'\nSe la Velocità di questa unità è maggiore del bersaglio, infligge +10% danni per ogni 1 differenza di Velocità (Max 50%)\n[WhenUse] Ottiene 5 [Breath]\n[WhenUse] Consuma ogni [LogicAtelierAM] su di sé, ottiene (valore consumato x 2) Potenza [Breath], e infligge +(valore consumato x 12.5)% danni\n<style=\"highlight\">[EndSkill] Ottiene +2 Conteggio [Breath]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1266,7 +1266,7 @@
         {
           "level": 3,
           "name": "AL-Cartuccia Polverizzante ad AV",
-          "desc": "Se la Velocità di questa unità è maggiore del bersaglio, infligge +10% danni per ogni 1 differenza di Velocità (max 50%)\n[WhenUse] Ottiene 5 [Breath]\n[WhenUse] Consuma ogni [LogicAtelierAM] su di sé, ottiene (valore consumato x 2) Potenza [Breath], e infligge +(valore consumato x 25)% danni",
+          "desc": "Se la Velocità di questa unità è maggiore del bersaglio, infligge +10% danni per ogni 1 differenza di Velocità (Max 50%)\n[WhenUse] Ottiene 5 [Breath]\n[WhenUse] Consuma ogni [LogicAtelierAM] su di sé, ottiene (valore consumato x 2) Potenza [Breath], e infligge +(valore consumato x 25)% danni",
           "coinlist": [
             {
               "coindescs": [
@@ -1286,7 +1286,7 @@
         {
           "level": 4,
           "name": "AL-Cartuccia Polverizzante ad AV",
-          "desc": "Se la Velocità di questa unità è maggiore del bersaglio, infligge +10% danni per ogni 1 differenza di Velocità (max 50%)\n[WhenUse] Ottiene 5 [Breath]\n[WhenUse] Consuma ogni [LogicAtelierAM] su di sé, ottiene (valore consumato x 2) Potenza [Breath], e infligge +(valore consumato x 25)% danni\n<style=\"highlight\">[EndSkill] Ottiene +5 Conteggio [Breath]</style>",
+          "desc": "Se la Velocità di questa unità è maggiore del bersaglio, infligge +10% danni per ogni 1 differenza di Velocità (Max 50%)\n[WhenUse] Ottiene 5 [Breath]\n[WhenUse] Consuma ogni [LogicAtelierAM] su di sé, ottiene (valore consumato x 2) Potenza [Breath], e infligge +(valore consumato x 25)% danni\n<style=\"highlight\">[EndSkill] Ottiene +5 Conteggio [Breath]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1395,7 +1395,7 @@
         {
           "level": 4,
           "name": "Squarcio Lenticolare",
-          "desc": "<style=\"highlight\">Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)</style>\n[WhenUse] Ottiene <style=\"highlight\">2</style> [Endurance] il turno successivo (1 volta per turno)",
+          "desc": "<style=\"highlight\">Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (Max 2)</style>\n[WhenUse] Ottiene <style=\"highlight\">2</style> [Endurance] il turno successivo (1 volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -1475,7 +1475,7 @@
         {
           "level": 4,
           "name": "Nube Temporalesca",
-          "desc": "<style=\"highlight\">Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)\n[WhenUse] Ottiene 1 [Endurance] il turno successivo (1 volta per turno)</style>",
+          "desc": "<style=\"highlight\">Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (Max 2)\n[WhenUse] Ottiene 1 [Endurance] il turno successivo (1 volta per turno)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1532,7 +1532,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Infligge +10% danni per ogni tipo di effetto negativo sul bersaglio (max 30%)"
+                  "desc": "Infligge +10% danni per ogni tipo di effetto negativo sul bersaglio (Max 30%)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge 6 [Laceration]"
@@ -1544,7 +1544,7 @@
         {
           "level": 4,
           "name": "Fendente Tonante",
-          "desc": "<style=\"highlight\">Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)</style>\n[StartBattle] Ottiene 1 [CloudWall] il turno successivo\n[WhenUse] Ottiene 1 [Endurance] il turno successivo (1 volta per turno)\n<style=\"highlight\">[WinDuel] Ottiene 1 [BlackCloudBlade] il turno successivo (1 volta per turno)</style>",
+          "desc": "<style=\"highlight\">Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (Max 2)</style>\n[StartBattle] Ottiene 1 [CloudWall] il turno successivo\n[WhenUse] Ottiene 1 [Endurance] il turno successivo (1 volta per turno)\n<style=\"highlight\">[WinDuel] Ottiene 1 [BlackCloudBlade] il turno successivo (1 volta per turno)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1569,7 +1569,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Infligge +10% danni per ogni tipo di effetto negativo sul bersaglio <style=\"highlight\">(max 100%)</style>"
+                  "desc": "Infligge +10% danni per ogni tipo di effetto negativo sul bersaglio <style=\"highlight\">(Max 100%)</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge 6 [Laceration]<style=\"highlight\"></style>"
@@ -1606,7 +1606,7 @@
         {
           "level": 4,
           "name": "Regole dei Vicoli",
-          "desc": "[DuelCounter]\nSe il Capitano del Clan Kurokumo Ishmael è sul campo, attiva i seguenti:\n- Converte tutte le Monete di questa Abilità in [SuperCoin]\n- Potere Finale +4 a questa Abilità a Scontro Perso\n<style=\"highlight\">Infligge +10% danni per ogni tipo di effetto negativo sul bersaglio (max 100%)</style>\n[WhenUse] Se questa unità ha [CloudWall], attiva tutti gli effetti di Riuso delle Monete di questa Abilità incondizionatamente",
+          "desc": "[DuelCounter]\nSe il Capitano del Clan Kurokumo Ishmael è sul campo, attiva i seguenti:\n- Converte tutte le Monete di questa Abilità in [SuperCoin]\n- Potere Finale +4 a questa Abilità a Scontro Perso\n<style=\"highlight\">Infligge +10% danni per ogni tipo di effetto negativo sul bersaglio (Max 100%)</style>\n[WhenUse] Se questa unità ha [CloudWall], attiva tutti gli effetti di Riuso delle Monete di questa Abilità incondizionatamente",
           "coinlist": [
             {
               "coindescs": [
@@ -1651,7 +1651,7 @@
         {
           "level": 4,
           "name": "Regole dei Vicoli",
-          "desc": "Se il bersaglio ha 6+ [Laceration], Potere Moneta +1\nInfligge +10% danni per ogni tipo di effetto negativo sul bersaglio (max 100%)\n[WhenUse] Se questa unità ha [CloudWall], attiva tutti gli effetti di Riuso delle Monete di questa Abilità incondizionatamente",
+          "desc": "Se il bersaglio ha 6+ [Laceration], Potere Moneta +1\nInfligge +10% danni per ogni tipo di effetto negativo sul bersaglio (Max 100%)\n[WhenUse] Se questa unità ha [CloudWall], attiva tutti gli effetti di Riuso delle Monete di questa Abilità incondizionatamente",
           "coinlist": [
             {
               "coindescs": [
@@ -1718,7 +1718,7 @@
         {
           "level": 4,
           "name": "Pulizia dell'Ingorgo",
-          "desc": "<style=\"highlight\">[WhenUse] A 3+ [Charge], Potere Moneta +1\n[WhenUse] Potere Scontro +1 per ogni 6 Conteggio [Charge] su di sé (max 2)</style>",
+          "desc": "<style=\"highlight\">[WhenUse] A 3+ [Charge], Potere Moneta +1\n[WhenUse] Potere Scontro +1 per ogni 6 Conteggio [Charge] su di sé (Max 2)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1747,7 +1747,7 @@
         {
           "level": 1,
           "name": "Accelerazione: Lama sul Gomito",
-          "desc": "[StartBattle] Ottiene [ChargeForceField] pari a (2 + Potenza [Charge] su di sé) (max 6, 1 per turno)\n[WhenUse] Consuma 6 Conteggio [Charge] per ottenere Potere Moneta +1",
+          "desc": "[StartBattle] Ottiene [ChargeForceField] pari a (2 + Potenza [Charge] su di sé) (Max 6, 1 per turno)\n[WhenUse] Consuma 6 Conteggio [Charge] per ottenere Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
@@ -1768,7 +1768,7 @@
         {
           "level": 2,
           "name": "Accelerazione: Lama sul Gomito",
-          "desc": "[StartBattle] Ottiene [ChargeForceField] pari a (2 + Potenza [Charge] su di sé) (max 6, 1 per turno)\n[WhenUse] Consuma 6 Conteggio [Charge] per ottenere Potere Moneta +1<style=\"highlight\"></style>",
+          "desc": "[StartBattle] Ottiene [ChargeForceField] pari a (2 + Potenza [Charge] su di sé) (Max 6, 1 per turno)\n[WhenUse] Consuma 6 Conteggio [Charge] per ottenere Potere Moneta +1<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1792,7 +1792,7 @@
         {
           "level": 4,
           "name": "Accelerazione: Lama sul Gomito",
-          "desc": "[StartBattle] Ottiene [ChargeForceField] pari a (2 + Potenza [Charge] su di sé) (max 6, 1 per turno)\n[WhenUse] Consuma 6 Conteggio [Charge] per ottenere Potere Moneta +1\n<style=\"highlight\">[WhenUse] A 3+ [Charge], Potere Moneta +1</style>",
+          "desc": "[StartBattle] Ottiene [ChargeForceField] pari a (2 + Potenza [Charge] su di sé) (Max 6, 1 per turno)\n[WhenUse] Consuma 6 Conteggio [Charge] per ottenere Potere Moneta +1\n<style=\"highlight\">[WhenUse] A 3+ [Charge], Potere Moneta +1</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1821,7 +1821,7 @@
         {
           "level": 3,
           "name": "Strappa Spazio: Sovralimentazione API",
-          "desc": "[StartBattle] Se questa unità ha 3+ Potenza [Charge] o meno di 50% HP, converte tutte le Monete di questa Abilità in [SuperCoin]\n- Se questa unità perde uno Scontro mentre questo effetto è attivo, Final Power +3\n[WhenUse] A 10+ Conteggio [Charge], consuma 10 Conteggio [Charge] per ottenere +4 Potere Moneta",
+          "desc": "[StartBattle] Se questa unità ha 3+ Potenza [Charge] o meno del 50% dei PV, converte tutte le Monete di questa Abilità in [SuperCoin]\n- Se questa unità perde uno Scontro mentre questo effetto è attivo, Potere Finale +3\n[WhenUse] A 10+ Conteggio [Charge], consuma 10 Conteggio [Charge] per ottenere +4 Potere Moneta",
           "coinlist": [
             {
               "coindescs": [
@@ -1853,7 +1853,7 @@
                   "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge Danni Taglienti pari a (Potenza [Charge] x 5)% dei danni finali di questa Moneta (max 25%)"
+                  "desc": "[OnSucceedAttack] Infligge Danni Taglienti pari a (Potenza [Charge] x 5)% dei danni finali di questa Moneta (Max 25%)"
                 }
               ]
             }
@@ -1862,7 +1862,7 @@
         {
           "level": 4,
           "name": "Strappa Spazio: Sovralimentazione API",
-          "desc": "[StartBattle] Se questa unità ha 3+ Potenza [Charge] o meno di 50% HP, converte tutte le Monete di questa Abilità in [SuperCoin]\n- Se questa unità perde uno Scontro mentre questo effetto è attivo, Potere Finale +3\n[WhenUse] A 10+ Conteggio [Charge], consuma 10 Conteggio [Charge] per ottenere +4 Potere Moneta\n<style=\"highlight\">[WhenUse] Ottiene Potere Scontro pari a Potenza [Charge] su di sé (max 5)</style>",
+          "desc": "[StartBattle] Se questa unità ha 3+ Potenza [Charge] o meno del 50% dei PV, converte tutte le Monete di questa Abilità in [SuperCoin]\n- Se questa unità perde uno Scontro mentre questo effetto è attivo, Potere Finale +3\n[WhenUse] A 10+ Conteggio [Charge], consuma 10 Conteggio [Charge] per ottenere +4 Potere Moneta\n<style=\"highlight\">[WhenUse] Ottiene Potere Scontro pari a Potenza [Charge] su di sé (Max 5)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1894,7 +1894,7 @@
                   "desc": "[OnSucceedAttack] Infligge 2 [Burst]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge Danni Taglienti pari a (Potenza [Charge] x <style=\"highlight\">10</style>)% dei danni finali di questa Moneta (max <style=\"highlight\">50%</style>)"
+                  "desc": "[OnSucceedAttack] Infligge Danni Taglienti pari a (Potenza [Charge] x <style=\"highlight\">10</style>)% dei danni finali di questa Moneta (Max <style=\"highlight\">50%</style>)"
                 }
               ]
             }
@@ -1908,7 +1908,7 @@
         {
           "level": 1,
           "name": "Sovraccarico API",
-          "desc": "[CanDuelGuard]\n[StartBattle] A meno di 15 Conteggio [Charge], ottiene gli effetti seguenti:\n- Ottiene [WOverCharge] il turno successivo (max 1 per turno)\n- Fine Turno: Rimuove la prima Soglia di Stordimento di questa unità (una volta per Incontro)",
+          "desc": "[CanDuelGuard]\n[StartBattle] A meno di 15 Conteggio [Charge], ottiene gli effetti seguenti:\n- Ottiene [WOverCharge] il turno successivo (Max 1 per turno)\n- Fine Turno: Rimuove la prima Soglia di Stordimento di questa unità (una volta per Incontro)",
           "coinlist": [
             {
               "coindescs": [
@@ -1922,7 +1922,7 @@
         {
           "level": 4,
           "name": "Sovraccarico API",
-          "desc": "[CanDuelGuard]\n[StartBattle] A meno di 15 Conteggio [Charge], ottiene gli effetti seguenti:\n- Ottiene [WOverCharge] il turno successivo (max 1 per turno)\n- Fine Turno: Rimuove la prima Soglia di Stordimento di questa unità (una volta per Incontro)\n<style=\"highlight\">- Fine Turno: Aggiunge 1 Strappa Spazio - Sovraspinta API alla lista di Abilità in arrivo il turno successivo (una volta per turno)</style>",
+          "desc": "[CanDuelGuard]\n[StartBattle] A meno di 15 Conteggio [Charge], ottiene gli effetti seguenti:\n- Ottiene [WOverCharge] il turno successivo (Max 1 per turno)\n- Fine Turno: Rimuove la prima Soglia di Stordimento di questa unità (una volta per Incontro)\n<style=\"highlight\">- Fine Turno: Aggiunge 1 Strappa Spazio - Sovraspinta API alla lista di Abilità in arrivo il turno successivo (una volta per turno)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1997,7 +1997,7 @@
         {
           "level": 4,
           "name": "Beccali",
-          "desc": "[WhenUse] Se il bersaglio ha 6+ ([Combustion] + [Burst]), Potere Moneta +1\n<style=\"highlight\">[WhenUse] Potere Scontro +1 per ogni 10 [Combustion] su di sé (max 2)</style>\n[StartDuel] Applica 1 [Combustion] e +1 Conteggio [Combustion] al bersaglio e a sé stesso",
+          "desc": "[WhenUse] Se il bersaglio ha 6+ ([Combustion] + [Burst]), Potere Moneta +1\n<style=\"highlight\">[WhenUse] Potere Scontro +1 per ogni 10 [Combustion] su di sé (Max 2)</style>\n[StartDuel] Applica 1 [Combustion] e +1 Conteggio [Combustion] al bersaglio e a sé stesso",
           "coinlist": [
             {
               "coindescs": [
@@ -2095,7 +2095,7 @@
         {
           "level": 4,
           "name": "Artigli Mutilanti",
-          "desc": "[WhenUse] Se il bersaglio ha 6+ ([Combustion] + [Burst]), Potere Moneta +1\n<style=\"highlight\">[WhenUse] Potere Scontro +1 per ogni 10 [Combustion] su di sé (max 2)</style>\n[StartDuel] Applica 1 [Combustion] e +1 Conteggio [Combustion] al bersaglio e a sé stesso",
+          "desc": "[WhenUse] Se il bersaglio ha 6+ ([Combustion] + [Burst]), Potere Moneta +1\n<style=\"highlight\">[WhenUse] Potere Scontro +1 per ogni 10 [Combustion] su di sé (Max 2)</style>\n[StartDuel] Applica 1 [Combustion] e +1 Conteggio [Combustion] al bersaglio e a sé stesso",
           "coinlist": [
             {
               "coindescs": [
@@ -2123,7 +2123,7 @@
                   "desc": "[OnSucceedAttack] Ottiene 3 [Combustion] e +1 Conteggio [Combustion]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge (([Combustion] su di sé x 2)% del danno finale di questa Moneta) danno da Ira (max 20%)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge (([Combustion] su di sé x 2)% del danno finale di questa Moneta) danno da Ira (Max 20%)</style>"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Se questa unità ha [ChickenStance] o meno del 50% dei PV, riusa questa Moneta (una volta per Abilità)"
@@ -2184,7 +2184,7 @@
         {
           "level": 4,
           "name": "Massacro Sanguifiamma [血炎亂舞]",
-          "desc": "[WideAreaRampage]\n<style=\"highlight\">Infligge +1.5% danni per ogni [Combustion] su di sé (max 30%)</style>\n[StartBattle] Se questa unità ha [ChickenStance] o meno del 50% dei PV, converte tutte le Monete in [SuperCoin](i)\n[BeforeUse] A 20 [ChickenFightlust], attiva invece 'Lame Scatenate del Gallo sotto il Cielo Insanguinato'\n[WhenUse] Ottiene 3 [ChickenStance]\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 ([Combustion] + [Burst]) sul bersaglio principale (max 2)\n[WhenUse] Potere Scontro +1 per ogni 20% di PV mancanti su di sé (max 3)</style>\n[EndSkill] Ottiene +2 Conteggio [Combustion]",
+          "desc": "[WideAreaRampage]\n<style=\"highlight\">Infligge +1.5% danni per ogni [Combustion] su di sé (Max 30%)</style>\n[StartBattle] Se questa unità ha [ChickenStance] o meno del 50% dei PV, converte tutte le Monete in [SuperCoin](i)\n[BeforeUse] A 20 [ChickenFightlust], attiva invece 'Lame Scatenate del Gallo sotto il Cielo Insanguinato'\n[WhenUse] Ottiene 3 [ChickenStance]\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 ([Combustion] + [Burst]) sul bersaglio principale (Max 2)\n[WhenUse] Potere Scontro +1 per ogni 20% di PV mancanti su di sé (Max 3)</style>\n[EndSkill] Ottiene +2 Conteggio [Combustion]",
           "coinlist": [
             {
               "coindescs": [
@@ -2222,7 +2222,7 @@
                   "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Burst]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge (([Combustion] su di sé + [Combustion] sul bersaglio principale)% del danno finale di questa Moneta) danno da Gola (max 20%)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge (([Combustion] su di sé + [Combustion] sul bersaglio principale)% del danno finale di questa Moneta) danno da Gola (Max 20%)</style>"
                 }
               ]
             }
@@ -2257,7 +2257,7 @@
         {
           "level": 4,
           "name": "Più Vermi per Noi",
-          "desc": "[DuelCounter]\n[WhenUse] Ottiene 3 [ChickenStance] il turno successivo\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 10+ ([Combustion] + [Burst]), Potere Base +1</style>\n[WhenUse] Se questa unità ha [ChickenStance], Potere Moneta +1\n<style=\"highlight\">[WhenUse] Questa Abilità infligge +1% danni per ogni 3% PV che questa unità ha perso complessivamente in questo Incontro (max 30%)</style>\n[StartDuel] Ottiene +3 Conteggio [Combustion] (una volta per turno)",
+          "desc": "[DuelCounter]\n[WhenUse] Ottiene 3 [ChickenStance] il turno successivo\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 10+ ([Combustion] + [Burst]), Potere Base +1</style>\n[WhenUse] Se questa unità ha [ChickenStance], Potere Moneta +1\n<style=\"highlight\">[WhenUse] Questa Abilità infligge +1% danni per ogni 3% PV che questa unità ha perso complessivamente in questo Incontro (Max 30%)</style>\n[StartDuel] Ottiene +3 Conteggio [Combustion] (una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -2333,7 +2333,7 @@
         {
           "level": 4,
           "name": "Lame Scatenate del Gallo sotto il Cielo Insanguinato [血天下鷄舞亂刀]",
-          "desc": "[WideAreaRampage]\n<style=\"highlight\">Infligge +3% danni per ogni [Combustion] su di sé (max 60%)\nInfligge +1% danni per ogni 2% (percentuale dei PV mancanti sul bersaglio + percentuale dei PV mancanti su di sé) (max 50%)</style>\n[WhenUse] Ottiene 3 [ChickenStance]\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 ([Combustion] + [Burst]) sul bersaglio principale (max 2)\n[WhenUse] Potere Scontro +1 per ogni 20% di PV mancanti su di sé (max 3)</style>\n[WinDuel] Ottiene 10 [Combustion]\n[EndSkill] Usa tutto l'[ChickenFightlust]\n[EndSkill] A più di 20 [Combustion], usa fino a 25 [Combustion] in più e recupera ([Combustion] usata x 2)% PV",
+          "desc": "[WideAreaRampage]\n<style=\"highlight\">Infligge +3% danni per ogni [Combustion] su di sé (Max 60%)\nInfligge +1% danni per ogni 2% (percentuale dei PV mancanti sul bersaglio + percentuale dei PV mancanti su di sé) (Max 50%)</style>\n[WhenUse] Ottiene 3 [ChickenStance]\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 ([Combustion] + [Burst]) sul bersaglio principale (Max 2)\n[WhenUse] Potere Scontro +1 per ogni 20% di PV mancanti su di sé (Max 3)</style>\n[WinDuel] Ottiene 10 [Combustion]\n[EndSkill] Usa tutto l'[ChickenFightlust]\n[EndSkill] A più di 20 [Combustion], usa fino a 25 [Combustion] in più e recupera ([Combustion] usata x 2)% PV",
           "coinlist": [
             {
               "coindescs": [
@@ -2458,7 +2458,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Diminuisce la propria Soglia di Stordimento 5<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Diminuisce la propria Soglia di Stordimento di 5<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "<style=\"highlight\">- Se il bersaglio ha [RetaliationBook], recupera 3 PS</style>"
@@ -2495,7 +2495,7 @@
         {
           "level": 1,
           "name": "Guardati Le Spalle!",
-          "desc": "[StartBattle] Applica 2 [AttackUp] agli alleati adiacenti a questa unità sul Pannello di Controllo\n[StartBattle] Questa Abilità ottiene (Rison. più alta / 2) Livello Offensivo (max 3, arrotondato per difetto)\n[WhenUse] Ottiene +5 [Aggro] su questo Slot il turno successivo",
+          "desc": "[StartBattle] Applica 2 [AttackUp] agli alleati adiacenti a questa unità sul Pannello di Controllo\n[StartBattle] Questa Abilità ottiene (Rison. più alta / 2) Livello Offensivo (Max 3, arrotondato per difetto)\n[WhenUse] Ottiene +5 [Aggro] su questo Slot il turno successivo",
           "coinlist": [
             {
               "coindescs": [
@@ -2529,7 +2529,7 @@
         {
           "level": 2,
           "name": "Guardati Le Spalle!",
-          "desc": "<style=\"highlight\">Se il bersaglio ha 6+ ([Combustion] + [Laceration]), Potere Moneta +1</style>\n[StartBattle] Applica 2 [AttackUp] agli alleati adiacenti a questa unità sul Pannello di Controllo\n[StartBattle] Questa Abilità ottiene (Rison. più alta / 2) Livello Offensivo (max 3, arrotondato per difetto)\n[WhenUse] Ottiene +5 [Aggro] su questo Slot il turno successivo",
+          "desc": "<style=\"highlight\">Se il bersaglio ha 6+ ([Combustion] + [Laceration]), Potere Moneta +1</style>\n[StartBattle] Applica 2 [AttackUp] agli alleati adiacenti a questa unità sul Pannello di Controllo\n[StartBattle] Questa Abilità ottiene (Rison. più alta / 2) Livello Offensivo (Max 3, arrotondato per difetto)\n[WhenUse] Ottiene +5 [Aggro] su questo Slot il turno successivo",
           "coinlist": [
             {
               "coindescs": [
@@ -2563,7 +2563,7 @@
         {
           "level": 4,
           "name": "Guardati Le Spalle!",
-          "desc": "Se il bersaglio ha 6+ ([Combustion] + [Laceration]), Potere Moneta +1\n[StartBattle] Applica 2 [AttackUp] agli alleati adiacenti a questa unità sul Pannello di Controllo\n[StartBattle] Questa Abilità ottiene (Rison. più alta / 2) Livello Offensivo (max 3, arrotondato per difetto)\n<style=\"highlight\">[WhenUse] Se il bersaglio ha [RetaliationBook], Potere Finale +2</style>\n[WhenUse] Ottiene +5 [Aggro] su questo Slot il turno successivo",
+          "desc": "Se il bersaglio ha 6+ ([Combustion] + [Laceration]), Potere Moneta +1\n[StartBattle] Applica 2 [AttackUp] agli alleati adiacenti a questa unità sul Pannello di Controllo\n[StartBattle] Questa Abilità ottiene (Rison. più alta / 2) Livello Offensivo (Max 3, arrotondato per difetto)\n<style=\"highlight\">[WhenUse] Se il bersaglio ha [RetaliationBook], Potere Finale +2</style>\n[WhenUse] Ottiene +5 [Aggro] su questo Slot il turno successivo",
           "coinlist": [
             {
               "coindescs": [
@@ -2602,7 +2602,7 @@
         {
           "level": 3,
           "name": "I MIEI COUPOOOOOOOOOOON!!!!",
-          "desc": "Potere Finale +1 per ogni 4 ([Combustion] + [Laceration]) sul bersaglio principale (max 3)\n[StartBattle] Questa Abilità ottiene (Rison. più alta) Livello Offensivo (max 6)\n[WhenUse] A 6+ Rison-A Invidia, ottiene Portata Attacco +1\n[WhenUse] Infligge +30% danni per ogni Portata Attacco oltre il numero dei bersagli attuali (negli Incontri Mirati, la Parte)",
+          "desc": "Potere Finale +1 per ogni 4 ([Combustion] + [Laceration]) sul bersaglio principale (Max 3)\n[StartBattle] Questa Abilità ottiene (Rison. più alta) Livello Offensivo (Max 6)\n[WhenUse] A 6+ Rison-A Invidia, ottiene Portata Attacco +1\n[WhenUse] Infligge +30% danni per ogni Portata Attacco oltre il numero dei bersagli attuali (negli Incontri Mirati, la Parte)",
           "coinlist": [
             {
               "coindescs": [
@@ -2622,7 +2622,7 @@
         {
           "level": 4,
           "name": "I MIEI COUPOOOOOOOOOOON!!!!",
-          "desc": "Potere Finale +1 per ogni 4 ([Combustion] + [Laceration]) sul bersaglio principale (max 3)\nPotere Finale +1 per ogni 2 Rison. Invidia (max 3)\n[StartBattle] Questa Abilità ottiene (Rison. più alta) Livello Offensivo (max 6)\n<style=\"highlight\">[WhenUse] Se il bersaglio principale ha [RetaliationBook], Potere Finale +2</style>\n[WhenUse] A 6+ Rison. Invidia, ottiene +1 Portata Attacco\n<style=\"highlight\">[WhenUse] A 20+ [VengeanceBookHeathcliff], ottiene +1 Portata Attacco</style>\n[WhenUse] Infligge +<style=\"highlight\">60</style>% danni per ogni Portata Attacco oltre il numero dei bersagli attuali (negli Incontri Mirati, la Parte)\n<style=\"highlight\">[EnemyKill] Per ogni nemico ucciso usando questa Abilità, ottiene 2 Tatuaggi Vendicativi (max 6 per turno)</style>",
+          "desc": "Potere Finale +1 per ogni 4 ([Combustion] + [Laceration]) sul bersaglio principale (Max 3)\nPotere Finale +1 per ogni 2 Rison. Invidia (Max 3)\n[StartBattle] Questa Abilità ottiene (Rison. più alta) Livello Offensivo (Max 6)\n<style=\"highlight\">[WhenUse] Se il bersaglio principale ha [RetaliationBook], Potere Finale +2</style>\n[WhenUse] A 6+ Rison. Invidia, ottiene +1 Portata Attacco\n<style=\"highlight\">[WhenUse] A 20+ [VengeanceBookHeathcliff], ottiene +1 Portata Attacco</style>\n[WhenUse] Infligge +<style=\"highlight\">60</style>% danni per ogni Portata Attacco oltre il numero dei bersagli attuali (negli Incontri Mirati, la Parte)\n<style=\"highlight\">[EnemyKill] Per ogni nemico ucciso usando questa Abilità, ottiene 2 Tatuaggi Vendicativi (Max 6 per turno)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2636,7 +2636,7 @@
                   "desc": "[OnSucceedAttack] Infligge 5 [Combustion]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge (Rison. Invidia x 5)% del danno finale di questa Moneta come Danno Contundente bonus (max 30%)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge (Rison. Invidia x 5)% del danno finale di questa Moneta come Danno Contundente bonus (Max 30%)</style>"
                 }
               ]
             }
@@ -2671,7 +2671,7 @@
         {
           "level": 4,
           "name": "Rivincita",
-          "desc": "<style=\"highlight\">[StartBattle] A 6+ somma della Rison-A Invidia, usa l'Abilità \"I MIEI COUPOOOOOOOOOOON!!!!\" come Contrattacco (si attiva dallo Slot Abilità più a sinistra, 2 volte per turno)\n[StartBattle]3 alleati del Medio che hanno i PS più bassi Recuperano (Rison. Invidia + 3) PS (inclusa questa unità; una volta per turno, max 10 PS; alleati a -40 o meno PS esclusi)</style>\n[StartBattle] Ottiene il 25% dei PV mancanti come Scudo (una volta per turno)",
+          "desc": "<style=\"highlight\">[StartBattle] A 6+ somma della Rison-A Invidia, usa l'Abilità \"I MIEI COUPOOOOOOOOOOON!!!!\" come Contrattacco (si attiva dallo Slot Abilità più a sinistra, 2 volte per turno)\n[StartBattle]3 alleati del Medio che hanno i PS più bassi Recuperano (Rison. Invidia + 3) PS (inclusa questa unità; una volta per turno, Max 10 PS; alleati a -40 o meno PS esclusi)</style>\n[StartBattle] Ottiene il 25% dei PV mancanti come Scudo (una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -2697,7 +2697,7 @@
         {
           "level": 4,
           "name": "VI CONDANNO A MORTE!!",
-          "desc": "Questa Abilità non può essere riutilizzata tramite effetti esterni\nInfligge +1% danni per ogni 1% di PV mancanti su di sé (max 30%)\nPotere Finale +1 per ogni 4 ([Combustion] + [Laceration]) sul bersaglio principale (max 5)\n[StartBattle] Questa Abilità ottiene (Rison. più alta) Livello Offensivo (max 6)\n[WhenUse] Se il bersaglio principale ha [RetaliationBook], Potere Finale +3\n[WhenUse] A 20+ [VengeanceBookHeathcliff], ottiene +1 Portata Attacco\n[WhenUse] Infligge +60% danni per ogni Portata Attacco in eccesso rispetto al numero di bersagli (negli Incontri Mirati, la Parte)\n[EnemyKill] Per ogni nemico ucciso con questa Abilità, ottiene una risorsa E.G.O casuale di una delle Affinità meno posseduta (max 4)\n[EndSkill] Consuma 15 [MiddleFingerTattooID] su di sé",
+          "desc": "Questa Abilità non può essere riutilizzata tramite effetti esterni\nInfligge +1% danni per ogni 1% di PV mancanti su di sé (Max 30%)\nPotere Finale +1 per ogni 4 ([Combustion] + [Laceration]) sul bersaglio principale (Max 5)\n[StartBattle] Questa Abilità ottiene (Rison. più alta) Livello Offensivo (Max 6)\n[WhenUse] Se il bersaglio principale ha [RetaliationBook], Potere Finale +3\n[WhenUse] A 20+ [VengeanceBookHeathcliff], ottiene +1 Portata Attacco\n[WhenUse] Infligge +60% danni per ogni Portata Attacco in eccesso rispetto al numero di bersagli (negli Incontri Mirati, la Parte)\n[EnemyKill] Per ogni nemico ucciso con questa Abilità, ottiene una risorsa E.G.O casuale di una delle Affinità meno posseduta (Max 4)\n[EndSkill] Consuma 15 [MiddleFingerTattooID] su di sé",
           "coinlist": [
             {
               "coindescs": [
@@ -2720,7 +2720,7 @@
                   "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce il Conteggio [Vibration] del bersaglio di 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge il (Rison. Invidia x 7)% del danno finale di questa Moneta come Danno Contundente bonus (max 42%)"
+                  "desc": "[OnSucceedAttack] Infligge il (Rison. Invidia x 7)% del danno finale di questa Moneta come Danno Contundente bonus (Max 42%)"
                 }
               ]
             }
@@ -2776,7 +2776,7 @@
         {
           "level": 4,
           "name": "La Spada di Palermo",
-          "desc": "[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 6 ([Combustion] + [Vibration]) sul bersaglio (max 2)</style>",
+          "desc": "[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 6 ([Combustion] + [Vibration]) sul bersaglio (Max 2)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2852,7 +2852,7 @@
         {
           "level": 4,
           "name": "Colpi Sottani",
-          "desc": "[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 6 ([Combustion] + [Vibration]) sul bersaglio (max 2)\n[WinDuel] Se il bersaglio ha [DuelEdgeAlly], infligge +1 Conteggio [Vibration]</style>",
+          "desc": "[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 6 ([Combustion] + [Vibration]) sul bersaglio (Max 2)\n[WinDuel] Se il bersaglio ha [DuelEdgeAlly], infligge +1 Conteggio [Vibration]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2904,7 +2904,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Infligge +10% danni per ogni [EvolvingManual] su di sé (max 30%)"
+                  "desc": "Infligge +10% danni per ogni [EvolvingManual] su di sé (Max 30%)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Trasforma [Switch_Vibration] in [VibrationIgnition]"
@@ -2922,7 +2922,7 @@
         {
           "level": 4,
           "name": "Il Cacciatore",
-          "desc": "[BeforeUse] Se il bersaglio ha 5 [DuelEdgeAlly], usa \"Sezionatura di Cervo\" al posto di questa Abilità (una volta per turno)\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 6 ([Combustion] + [Vibration]) sul bersaglio (max 2)</style>\n[WhenUse] Ottiene i seguenti effetti in base alle Stack di [DuelEdgeAlly] presenti sul bersaglio:\n- <style=\"highlight\">Infligge +6% danni per ogni Stack (max 30%)</style>\n- 1+ [DuelEdgeAlly]: Infligge +1 Potenza [Vibration] in più\n- 2+ [DuelEdgeAlly]: Infligge +1 Conteggio [Vibration] in più\n- 3+ [DuelEdgeAlly]: Infligge +1 Potenza [Combustion] in più\n- 4+ [DuelEdgeAlly]: Infligge +1 Conteggio [Combustion] in più\n[WhenUse] e questa unità ha [EvolvingManual] o se il bersaglio ha 3+ [DuelEdgeAlly], converte tutte le Monete di questa Abilità in [SuperCoin](i)",
+          "desc": "[BeforeUse] Se il bersaglio ha 5 [DuelEdgeAlly], usa \"Sezionatura di Cervo\" al posto di questa Abilità (una volta per turno)\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 6 ([Combustion] + [Vibration]) sul bersaglio (Max 2)</style>\n[WhenUse] Ottiene i seguenti effetti in base alle Stack di [DuelEdgeAlly] presenti sul bersaglio:\n- <style=\"highlight\">Infligge +6% danni per ogni Stack (Max 30%)</style>\n- 1+ [DuelEdgeAlly]: Infligge +1 Potenza [Vibration] in più\n- 2+ [DuelEdgeAlly]: Infligge +1 Conteggio [Vibration] in più\n- 3+ [DuelEdgeAlly]: Infligge +1 Potenza [Combustion] in più\n- 4+ [DuelEdgeAlly]: Infligge +1 Conteggio [Combustion] in più\n[WhenUse] Se questa unità ha [EvolvingManual] o se il bersaglio ha 3+ [DuelEdgeAlly], converte tutte le Monete di questa Abilità in [SuperCoin](i)",
           "coinlist": [
             {
               "coindescs": [
@@ -2941,7 +2941,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Infligge <style=\"highlight\">+25%</style> danni per ogni [EvolvingManual] su di sé (max <style=\"highlight\">75%</style>)"
+                  "desc": "Infligge <style=\"highlight\">+25%</style> danni per ogni [EvolvingManual] su di sé (Max <style=\"highlight\">75%</style>)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Trasforma [Switch_Vibration] in [VibrationIgnition]<style=\"highlight\"></style>"
@@ -2964,12 +2964,12 @@
         {
           "level": 1,
           "name": "Misurare la Portata della Lama",
-          "desc": "[DuelCounter]\nInfligge +10% danni per ogni [DuelEdgeAlly] sul bersaglio (max 50%)",
+          "desc": "[DuelCounter]\nInfligge +10% danni per ogni [DuelEdgeAlly] sul bersaglio (Max 50%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion] (2 )"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion] (2 volte per turno)"
                 }
               ]
             },
@@ -2985,7 +2985,7 @@
         {
           "level": 4,
           "name": "Misurare la Portata della Lama",
-          "desc": "[DuelCounter]\nInfligge +<style=\"highlight\">20</style>% danni per ogni [DuelEdgeAlly] sul bersaglio (max <style=\"highlight\">100</style>%)\n<style=\"highlight\">[WhenUse] Potere Finale +1 per ogni 4 ([Combustion] + [Vibration]) sul bersaglio (max 2)</style>",
+          "desc": "[DuelCounter]\nInfligge +<style=\"highlight\">20</style>% danni per ogni [DuelEdgeAlly] sul bersaglio (Max <style=\"highlight\">100</style>%)\n<style=\"highlight\">[WhenUse] Potere Finale +1 per ogni 4 ([Combustion] + [Vibration]) sul bersaglio (Max 2)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -3010,7 +3010,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "I Will Protect.",
+          "name": "Farò da Scudo",
           "desc": "[CanDuelGuard]\nAbilità esclusiva di [SupportProtect]",
           "coinlist": [
             {
@@ -3024,7 +3024,7 @@
         },
         {
           "level": 4,
-          "name": "I Will Protect.",
+          "name": "Farò da Scudo",
           "desc": "[CanDuelGuard]\nAbilità esclusiva di [SupportProtect]\n<style=\"highlight\">[WhenUse]\n- Ottiene 2 [Protection] (una volta per turno)\n- Recupera 5 PS per ogni unità protetta da [SupportProtect]</style>",
           "coinlist": [
             {
@@ -3044,7 +3044,7 @@
         {
           "level": 3,
           "name": "Sezionatura di Cervo",
-          "desc": "[WhenUse]\n- Ottiene +([EvolvingManual] - 1) Portata Attacco (max 2)\n- Potere Moneta +1 per ogni 6 ([Combustion] + [Vibration]) sul bersaglio principale (max 2)\n- Quando attacca solo 1 bersaglio, infligge +15% danni (per gli Incontri Mirati, 1 Parte)\n- Infligge +15% danni per ogni # Portata Attacco oltre il numero di bersagli in campo (per gli Incontri Mirati, le Parti)\n\n[EndSkill]\n- Consuma tutte le Stack di [DuelEdgeAlly] sul bersaglio principale\n- Ottiene 1 [EvolvingManual]. Se il bersaglio principale viene sconfitto, ottiene invece 2 [EvolvingManual]",
+          "desc": "[WhenUse]\n- Ottiene +([EvolvingManual] - 1) Portata Attacco (Max 2)\n- Potere Moneta +1 per ogni 6 ([Combustion] + [Vibration]) sul bersaglio principale (Max 2)\n- Quando attacca solo 1 bersaglio, infligge +15% danni (per gli Incontri Mirati, 1 Parte)\n- Infligge +15% danni per ogni # Portata Attacco oltre il numero di bersagli in campo (per gli Incontri Mirati, le Parti)\n\n[EndSkill]\n- Consuma tutte le Stack di [DuelEdgeAlly] sul bersaglio principale\n- Ottiene 1 [EvolvingManual]. Se il bersaglio principale viene sconfitto, ottiene invece 2 [EvolvingManual]",
           "coinlist": [
             {
               "coindescs": [
@@ -3079,7 +3079,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnStartCoin] Questa Moneta ottiene Potere Moneta +1 per ogni [EvolvingManual] (max 3)"
+                  "desc": "[OnStartCoin] Questa Moneta ottiene Potere Moneta +1 per ogni [EvolvingManual] (Max 3)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Trasforma [Switch_Vibration] in [VibrationIgnition]"
@@ -3094,7 +3094,7 @@
         {
           "level": 4,
           "name": "Sezionatura di Cervo",
-          "desc": "[WhenUse]\n- Ottiene +([EvolvingManual] - 1) Portata Attacco (max 2)\n- Potere Moneta +1 per ogni 6 ([Combustion] + [Vibration]) sul bersaglio principale (max <style=\"highlight\">3</style>)\n- Quando attacca solo 1 bersaglio, innesca +<style=\"highlight\">25</style>% danni (per gli Incontri Mirati, 1 Parte)\n- Infligge +<style=\"highlight\">25</style>% danni per ogni # Portata Attacco oltre il numero di bersagli in campo (per gli Incontri Mirati, le Parti)\n\n[EndSkill]\n- Consuma tutte le Stack di [DuelEdgeAlly] sul bersaglio principale\n- Ottiene 1 [EvolvingManual]. Se il bersaglio principale viene sconfitto, ottiene invece 2 [EvolvingManual]",
+          "desc": "[WhenUse]\n- Ottiene +([EvolvingManual] - 1) Portata Attacco (Max 2)\n- Potere Moneta +1 per ogni 6 ([Combustion] + [Vibration]) sul bersaglio principale (Max <style=\"highlight\">3</style>)\n- Quando attacca solo 1 bersaglio, innesca +<style=\"highlight\">25</style>% danni (per gli Incontri Mirati, 1 Parte)\n- Infligge +<style=\"highlight\">25</style>% danni per ogni # Portata Attacco oltre il numero di bersagli in campo (per gli Incontri Mirati, le Parti)\n\n[EndSkill]\n- Consuma tutte le Stack di [DuelEdgeAlly] sul bersaglio principale\n- Ottiene 1 [EvolvingManual]. Se il bersaglio principale viene sconfitto, ottiene invece 2 [EvolvingManual]",
           "coinlist": [
             {
               "coindescs": [
@@ -3129,7 +3129,7 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnStartCoin] Questa Moneta ottiene Potere Moneta +1 per ogni [EvolvingManual] (max 3)<style=\"highlight\"></style>"
+                  "desc": "[OnStartCoin] Questa Moneta ottiene Potere Moneta +1 per ogni [EvolvingManual] (Max 3)<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Trasforma [Switch_Vibration] in [VibrationIgnition]<style=\"highlight\"></style>"
