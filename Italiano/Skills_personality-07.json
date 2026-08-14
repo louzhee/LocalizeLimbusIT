@@ -557,7 +557,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [TakeHpSi cura diReduce]"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [TakeHpHealReduce]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge [PhotoElectricity] pari a [Charge] (max 3)<style=\"highlight\"></style>"
@@ -1747,7 +1747,7 @@
         {
           "level": 1,
           "name": "Accellerazione: Lama sul Gomito",
-          "desc": "[StartBattle] Ottiene [ChargeForceField] pari a (2 + Potenza [Charge] su di sé) (max 6, 1 per turno)\n[WhenUse] Consuma 6 Conteggio [Charge] per ottenere +1 Potere Moneta",
+          "desc": "[StartBattle] Ottiene [ChargeForceField] pari a (2 + Potenza [Charge] su di sé) (max 6, 1 per turno)\n[WhenUse] Consuma 6 Conteggio [Charge] per ottenere Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
@@ -1768,7 +1768,7 @@
         {
           "level": 2,
           "name": "Accellerazione: Lama sul Gomito",
-          "desc": "[StartBattle] Ottiene [ChargeForceField] pari a (2 + Potenza [Charge] su di sé) (max 6, 1 per turno)\n[WhenUse] Consuma 6 Conteggio [Charge] per ottenere +1 Potere Moneta<style=\"highlight\"></style>",
+          "desc": "[StartBattle] Ottiene [ChargeForceField] pari a (2 + Potenza [Charge] su di sé) (max 6, 1 per turno)\n[WhenUse] Consuma 6 Conteggio [Charge] per ottenere Potere Moneta +1<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1792,7 +1792,7 @@
         {
           "level": 4,
           "name": "Accellerazione: Lama sul Gomito",
-          "desc": "[StartBattle] Ottiene [ChargeForceField] pari a (2 + Potenza [Charge] su di sé) (max 6, 1 per turno)\n[WhenUse] Consuma 6 Conteggio [Charge] per ottenere +1 Potere Moneta\n<style=\"highlight\">[WhenUse] A 3+ [Charge], Potere Moneta +1</style>",
+          "desc": "[StartBattle] Ottiene [ChargeForceField] pari a (2 + Potenza [Charge] su di sé) (max 6, 1 per turno)\n[WhenUse] Consuma 6 Conteggio [Charge] per ottenere Potere Moneta +1\n<style=\"highlight\">[WhenUse] A 3+ [Charge], Potere Moneta +1</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2377,7 +2377,7 @@
                   "desc": "[OnSucceedAttack] Se questa unità ha 20+ [Combustion] o meno del 50% dei PV, riusa questa Moneta (una volta per Abilità)"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge (20% del danno finale di questa Moneta) danno da Ira su tutti i bersagli\n- Se questa è la Moneta finale, cura i suoi PV in base al danno inflitto dall'effetto sovracitato</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge (20% del danno finale di questa Moneta) danno da Ira su tutti i bersagli\n- Se questa è la Moneta finale, Recupera PV in base al danno inflitto dall'effetto sovracitato</style>"
                 }
               ]
             }
@@ -2602,7 +2602,7 @@
         {
           "level": 3,
           "name": "I MIEI COUPOOOOOOOOOOON!!!!",
-          "desc": "Potere Finale +1 per ogni 4 ([Combustion] + [Laceration]) sul bersaglio principale (max 3)\n[StartBattle] Questa Abilità ottiene (Rison. più alta) Livello Offensivo (max 6)\n[WhenUse] A 6+ Rison-A Invidia, ottiene +1 Portata Attacco\n[WhenUse] Infligge +30% danni per ogni Portata Attacco oltre il numero dei bersagli attuali (negli Incontri Mirati, la Parte)",
+          "desc": "Potere Finale +1 per ogni 4 ([Combustion] + [Laceration]) sul bersaglio principale (max 3)\n[StartBattle] Questa Abilità ottiene (Rison. più alta) Livello Offensivo (max 6)\n[WhenUse] A 6+ Rison-A Invidia, ottiene Portata Attacco +1\n[WhenUse] Infligge +30% danni per ogni Portata Attacco oltre il numero dei bersagli attuali (negli Incontri Mirati, la Parte)",
           "coinlist": [
             {
               "coindescs": [
@@ -2671,7 +2671,7 @@
         {
           "level": 4,
           "name": "Rivincita",
-          "desc": "<style=\"highlight\">[StartBattle] A 6+ somma della Rison-A Invidia, usa l'Abilità \"I MIEI COUPOOOOOOOOOOON!!!!\" come Contrattacco (si attiva dallo Slot Abilità più a sinistra, 2 volte per turno)\n[StartBattle] Cura (Rison. Invidia + 3) PS a 3 alleati del Medio che hanno i PS più bassi (inclsa questa unità; una volta per turno, max 10 PS; alleati a -40 o meno PS esclusi)</style>\n[StartBattle] Ottiene il 25% dei PV mancanti come Scudo (una volta per turno)",
+          "desc": "<style=\"highlight\">[StartBattle] A 6+ somma della Rison-A Invidia, usa l'Abilità \"I MIEI COUPOOOOOOOOOOON!!!!\" come Contrattacco (si attiva dallo Slot Abilità più a sinistra, 2 volte per turno)\n[StartBattle]3 alleati del Medio che hanno i PS più bassi Recuperano (Rison. Invidia + 3) PS (inclusa questa unità; una volta per turno, max 10 PS; alleati a -40 o meno PS esclusi)</style>\n[StartBattle] Ottiene il 25% dei PV mancanti come Scudo (una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
