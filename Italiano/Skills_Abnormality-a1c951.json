@@ -85,7 +85,7 @@
                 {
                     "level": 1,
                     "name": "Impacchettiamo",
-                    "desc": "Se questa unità ha [AaCeSeBa], aggiunge l'effetto 'infligge 1 [Paralysis] nel turno successivo' su ogni Moneta\nBersaglia l'unità con la Velocità minore\n[EndBattle] Spende tutto il Conteggio [Charge]",
+                    "desc": "Se questa unità ha [AaCeSeBa], ogni Moneta infligge 1 [Paralysis] nel turno successivo\nBersaglia l'unità con la Velocità minore\n[EndBattle] Spende tutto il Conteggio [Charge]",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -107,7 +107,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Sceglie 1 effetto casuale tra [Protection], [Enhancement], [Vulnerable] e [Paralysis]. Poi, infligge or applica 3 Stack dell'effetto scelto."
+                                    "desc": "[OnSucceedAttack] Sceglie 1 effetto casuale tra [Protection], [Enhancement], [Vulnerable] e [Paralysis]. Poi, infligge o applica 3 Stack dell'effetto scelto."
                                 },
                                 {
                                     "desc": "[OnSucceedAttack] Infligge danno ai PS pari al Conteggio [Charge] su di sé"

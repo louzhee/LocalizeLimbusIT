@@ -5,8 +5,8 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Let's Get Packing",
-                    "desc": "If this unit has [AaCeSeBa], add 'Inflict 1 [Paralysis] next turn' to Coin effects\nTargets the unit with the lowest Speed\n[EndBattle] Spend all [Charge] Count",
+                    "name": "Impacchettiamo",
+                    "desc": "Se questa unità ha [AaCeSeBa], ogni Moneta infligge 1 [Paralysis] nel turno successivo\nBersaglia l'unità con la Velocità minore\n[EndBattle] Spende tutto il Conteggio [Charge]",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -14,7 +14,7 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Gain 3 [Breath]."
+                                    "desc": "[OnSucceedAttack] Ottiene 3 [Breath]."
                                 }
                             ]
                         },
@@ -24,10 +24,10 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Deal bonus damage equal to [Breath] on self"
+                                    "desc": "[OnSucceedAttack] Infligge danni bonus pari all'[Breath] su di sé"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Gain 1 [Breath] and +3 [Breath] Count"
+                                    "desc": "[OnSucceedAttack] Ottiene 1 [Breath] e +3 Conteggio [Breath]"
                                 }
                             ]
                         },
@@ -37,16 +37,16 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Randomly select 1 of 4 effects ([Protection], [Enhancement], [Vulnerable], [Paralysis]). Inflict or apply 3 of the selected effect."
+                                    "desc": "[OnSucceedAttack] Sceglie 1 effetto casuale tra [Protection], [Enhancement], [Vulnerable] e [Paralysis]. Poi, infligge o applica 3 Stack dell'effetto scelto."
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Target loses PS equal to [Charge] Count on this unit"
+                                    "desc": "[OnSucceedAttack] Infligge danno ai PS pari al Conteggio [Charge] su di sé"
                                 },
                                 {
-                                    "desc": "[EnemyKill] All enemies lose 10 Sp."
+                                    "desc": "[EnemyKill] Ogni nemico perde 10 PS."
                                 },
                                 {
-                                    "desc": "[EnemyKillFail] Gain 2 [Paralysis] next turn."
+                                    "desc": "[EnemyKillFail] Ottiene 2 [Paralysis] nel turno successivo."
                                 }
                             ]
                         }

@@ -77,7 +77,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Spende 1 [BulletPropellant]"
+                  "desc": "Usa 1 [BulletPropellant]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge 3 [Combustion] e +2 Conteggio [Combustion]"
@@ -97,7 +97,7 @@
         {
           "level": 1,
           "name": "Triplo Taglio - Detonazione [爆]",
-          "desc": "Potere Finale +1 per ogni 4 ([Combustion] + [Vibration]) sul bersaglio (max 4)\n[DefeatDuel] Spende 1 [BulletPropellant]",
+          "desc": "Potere Finale +1 per ogni 4 ([Combustion] + [Vibration]) sul bersaglio (max 4)\n[DefeatDuel] Usa 1 [BulletPropellant]",
           "coinlist": [
             {
               "coindescs": [
@@ -109,7 +109,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Spende 1 [BulletPropellant]"
+                  "desc": "Usa 1 [BulletPropellant]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge 3 [Combustion] e +2 Conteggio [Combustion]"
@@ -122,7 +122,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Spende 1 [BulletPropellant]"
+                  "desc": "Usa 1 [BulletPropellant]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge 3 [Combustion] e +2 Conteggio [Combustion]"
@@ -150,7 +150,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Spende 1 [BulletPropellant]"
+                  "desc": "Usa 1 [BulletPropellant]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge 3 [Combustion]"
@@ -169,7 +169,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Spende 1 [BulletPropellant]"
+                  "desc": "Usa 1 [BulletPropellant]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Combustion]"
@@ -188,7 +188,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Spende 1 [BulletPropellant]"
+                  "desc": "Usa 1 [BulletPropellant]"
                 },
                 {
                   "desc": "Se questa Moneta ha Speso [BulletPropellant], infligge +50% danni"
@@ -219,7 +219,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Spende tutti i [BulletPropellant]"
+                  "desc": "Usa tutti i [BulletPropellant]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge ([BulletPropellant] Spesi) Potenza e Conteggio [Combustion] e [Vibration]"
@@ -250,7 +250,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Spende 1 [BulletPropellant]"
+                  "desc": "Usa 1 [BulletPropellant]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge 6 [Combustion]"
@@ -263,7 +263,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Spende 1 [BulletPropellant]"
+                  "desc": "Usa 1 [BulletPropellant]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge +6 Conteggio [Combustion]"
@@ -276,7 +276,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Spende 1 [BulletPropellant]"
+                  "desc": "Usa 1 [BulletPropellant]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge 6 [Vibration]"
@@ -289,7 +289,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Spende 1 [BulletPropellant]"
+                  "desc": "Usa 1 [BulletPropellant]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge +6 Conteggio [Vibration]"
@@ -302,7 +302,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Spende 1 [BulletPropellant]"
+                  "desc": "Usa 1 [BulletPropellant]"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Trasforma [Switch_Vibration] in [VibrationIgnition]"
@@ -315,7 +315,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Spende 1 [BulletPropellant]"
+                  "desc": "Usa 1 [BulletPropellant]"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Innesca [VibrationExplosion] 5 volte; riduce poi il Conteggio [Vibration] sul bersaglio di 5"
@@ -344,7 +344,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Spende 1 [BulletPropellant]"
+                  "desc": "Usa 1 [BulletPropellant]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge 3 [Combustion]"
@@ -376,20 +376,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Contempt",
-          "desc": "If target has 3+ [GazeReplica], double the amount of negative effects inflicted with this Skill\n[WhenUse] If target has 6+ [Laceration], Coin Power +1",
+          "name": "Disprezzo",
+          "desc": "Se il bersaglio ha 3+ [GazeReplica], infligge il doppio degli effetti negativi\n[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttackHead] Infligge 4 [Laceration]"
                 }
               ]
             }
@@ -402,8 +402,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Awe",
-          "desc": "If target has 3+ [GazeReplica], double the amount of negative effects inflicted with this Skill\n[WhenUse] If target has 6+ [Laceration], Coin Power +1",
+          "name": "Timore",
+          "desc": "Se il bersaglio ha 3+ [GazeReplica], infligge il doppio degli effetti negativi\n[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
@@ -411,10 +411,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 3 [DefenseDown] next turn"
+                  "desc": "[OnSucceedAttackHead] Infligge 3 [DefenseDown] nel turno successivo"
                 }
               ]
             },
@@ -424,10 +424,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [AttackDmgDown] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 1 [AttackDmgDown] nel turno successivo"
                 }
               ]
             }
@@ -440,20 +440,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Contempt, Awe 【Unleashed】",
+          "name": "Disprezzo, Timore 【Scatenati】",
           "desc": "[CantChangeTarget]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vulnerable]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vulnerable]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal 10 PS damage"
+                  "desc": "[OnSucceedAttack] Il bersaglio perde 10 PS"
                 }
               ]
             },
@@ -463,10 +463,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Raise Stagger Threshold equal to ([GazeReplica] on target x 5)"
+                  "desc": "[OnSucceedAttack] Aumenta la Soglia di Stordimento del bersaglio di ([GazeReplica] sul bersaglio x 5)"
                 },
                 {
-                  "desc": "[EndSkill] Remove [GazeReplica] on the target"
+                  "desc": "[EndSkill] Rimuove lo [GazeReplica] sul bersaglio"
                 }
               ]
             }
@@ -479,8 +479,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Contemptuous Thing",
-          "desc": "Prioritizes Hong Lu\n[WhenUse] Inflict 4 [GraspReplica]\n[WhenUse] Gain 2 [AttackDmgUp] next turn",
+          "name": "Cosa Spregevole",
+          "desc": "Dà priorità a Hong Lu\n[WhenUse] Infligge 4 [GraspReplica]\n[WhenUse] Ottiene 2 [AttackDmgUp] nel turno successivo",
           "coinlist": [
             {
               "coindescs": [
@@ -498,20 +498,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Be Awed",
-          "desc": "Prioritizes targets with [GraspReplica]",
+          "name": "Cadi in Soggezione",
+          "desc": "Dà priorità ai bersagli con [GraspReplica]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 6 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 6 [Laceration]"
                 }
               ]
             }
@@ -524,13 +524,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "You Must Confront This",
-          "desc": "[DuelCounter]\n[DefeatDuel] Reduce target's [GazeReplica] by 2\n[DefeatDuel] Reduce target's [GraspReplica] by 1",
+          "name": "Devi Affrontarlo",
+          "desc": "[DuelCounter]\n[DefeatDuel] Riduce lo [GazeReplica] sul bersaglio di 2\n[DefeatDuel] Riduce la [GraspReplica] sul bersaglio di 1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             }
@@ -543,8 +543,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Awe, Contempt【Unleashed】",
-          "desc": "[BeforeAttack] Gain Atk Weight by the number of Sinners with 4+ [GazeReplica]",
+          "name": "Timore, Disprezzo【Scatenati】",
+          "desc": "[BeforeAttack] Portata Attacco +(Numero di Peccatori con 4+ [GazeReplica])",
           "coinlist": [
             {
               "coindescs": [
@@ -552,10 +552,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Binding] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Binding] nel turno successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has 4+ [GazeReplica], inflict 1 [GazeReplica]"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 4+ [GazeReplica], infligge 1 [GazeReplica]"
                 }
               ]
             }
@@ -568,8 +568,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Spiral Warp Field",
-          "desc": "[CanDuelGuard]\n[StartBattle] Jia Huan and Gubo gain 30 Shield\n[WinDuel] Jia Huan and Gubo gain 30 Shield",
+          "name": "Campo a Spirale Deformato",
+          "desc": "[CanDuelGuard]\n[StartBattle] Jia Huan e Gubo ottengono 30 Scudo\n[WinDuel] Jia Huan e Gubo ottengono 30 Scudo",
           "coinlist": [
             {
               "coindescs": [
@@ -587,16 +587,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Front Line Fire",
-          "desc": "Targets the frontmost target\n[WhenUse] Gain 1 [BoseProjektilReplica]\n[WhenUse] If target has 6+ [Laceration], Coin Power +1\n[WhenUse] Gain +1 [Breath] Count",
+          "name": "Fuoco sulla Prima Linea",
+          "desc": "Bersaglia il nemico più a destra\n[WhenUse] Ottiene 1 [BoseProjektilReplica]\n[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1\n[WhenUse] Ottiene +1 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "+50% Damage on Critical Hit"
+                  "desc": "+50% danni sul Colpo Critico"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             }
@@ -609,16 +609,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Rear Line Fire",
-          "desc": "Targets the rearmost target\n[WhenUse] Gain 1 [BoseProjektilReplica]\n[WhenUse] If target has 6+ [Laceration], Coin Power +1\n[WhenUse] Gain +2 [Breath] Count",
+          "name": "Fuoco sulle Retrovie",
+          "desc": "Bersaglia il nemico più a sinistra\n[WhenUse] Ottiene 1 [BoseProjektilReplica]\n[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1\n[WhenUse] Ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "+70% Damage on Critical Hit"
+                  "desc": "+70% danni sul Colpo Critico"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             }
@@ -631,29 +631,29 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sigilshattered Bullet",
-          "desc": "Targets the frontmost target\n[WhenUse] Gain 3 [Breath] and +2 [Breath] Count",
+          "name": "Proiettile Frantuma Sigilli",
+          "desc": "Bersaglia il nemico più a destra\n[WhenUse] Ottiene 3 [Breath] e +2 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "This Coin deals damage only against the main target"
+                  "desc": "Questa Moneta colpisce solo il bersaglio principale"
                 },
                 {
-                  "desc": "[EnemyKill] The final Coin deals +100% damage"
+                  "desc": "[EnemyKill] L'ultima Moneta infligge +100% danni"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "This Coin deals damage only against the sub-targets"
+                  "desc": "Questa Moneta colpisce solo i bersagli secondari"
                 },
                 {
-                  "desc": "+100% Damage on Critical Hit"
+                  "desc": "+100% danni sul Colpo Critico"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration] and +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration] e +2 Conteggio [Laceration]"
                 }
               ]
             }
@@ -666,35 +666,35 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Bullet Drenched with the Blood of a Comrade",
-          "desc": "[CantChangeTarget]\nPrioritizes N Corp. Employees\n- If this unit failed to attack the targeted unit, cancel this Skill\n[WhenUse] Gain 5 [Breath]\n[EndBattle] Heal 20 PS",
+          "name": "Proiettile Infangato dal Sangue di un Compagno",
+          "desc": "[CantChangeTarget]\nBersaglia un alleato della N Corp.\n- Se il bersaglio principale originale non può più essere bersagliato, quest'Abilità viene annullata\n[WhenUse] Ottiene 5 [Breath]\n[EndBattle] Recupera 20 PS",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "This Coin deals damage only against the main target"
+                  "desc": "Questa Moneta colpisce solo il bersaglio principale"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict (target's PV at the \"On Hit' timing) Pride bonus damage with the final Coin"
+                  "desc": "[OnSucceedAttack] L'ultima Moneta infligge (PV del bersaglio principale rimanenti dopo il colpo) danni bonus da Superbia"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Kills the target"
+                  "desc": "[OnSucceedAttack] Uccide il bersaglio"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "This Coin deals damage only against the sub-targets"
+                  "desc": "Questa Moneta colpisce solo i bersagli secondari"
                 },
                 {
-                  "desc": "+100% Damage on Critical Hit"
+                  "desc": "+100% danni sul Colpo Critico"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration] and +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration] e +2 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Sinking] and +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Sinking] e +2 Conteggio [Sinking]"
                 }
               ]
             }
@@ -707,8 +707,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Reminiscence Shattering Bullet",
-          "desc": "[WideAreaRampage]\nDeal +10% damage for every [BoseProjektilReplica] on self\n[WhenUse] Lose 10 PS\n[EndSkill] Spende all [BoseProjektilReplica] on self",
+          "name": "Proiettile Frantuma Ricordi",
+          "desc": "[WideAreaRampage]\nInfligge +10% danni per ogni [BoseProjektilReplica] su di sé\n[WhenUse] Perde 10 PS\n[EndSkill] Usa ogni [BoseProjektilReplica] su di sé",
           "coinlist": [
             {
               "coindescs": [
@@ -716,13 +716,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Lose 5 PS"
+                  "desc": "[OnSucceedAttack] Perde 5 PS"
                 }
               ]
             },
@@ -732,13 +732,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Lose 5 PS"
+                  "desc": "[OnSucceedAttack] Perde 5 PS"
                 }
               ]
             },
@@ -748,13 +748,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Lose 5 PS"
+                  "desc": "[OnSucceedAttack] Perde 5 PS"
                 }
               ]
             },
@@ -764,13 +764,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Lose 5 PS"
+                  "desc": "[OnSucceedAttack] Perde 5 PS"
                 }
               ]
             }
@@ -783,7 +783,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Melee Combat",
+          "name": "Combattimento Corpo a Corpo",
           "desc": "[DuelCounter]",
           "coinlist": [
             {
