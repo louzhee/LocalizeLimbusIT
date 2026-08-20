@@ -3,7 +3,7 @@
       {
         "id": 114501,
         "name": "Ufficiale del Pollice, Capo IIII",
-        "desc": "Subisce -30% danni da [Combustion], [Laceration], [Vibration], [Burst] e [Sinking]\n\nQuando lancia una Moneta che usa [BulletPropellant]: anche se non avere [BulletPropellant] non annulla i suoi attacchi, gli effetti Sul Colpo della Moneta \"infilgge [Combustion]\" e \"infligge Conteggio [Combustion]\" non si attivano\n\nDurante uno Scontro, infligge +(1 + (numero di Scontri / 3)) Conteggio [Vibration]\n(max 3; 3 volte per turno per bersaglio)"
+        "desc": "Subisce -30% danni da [Combustion], [Laceration], [Vibration], [Burst] e [Sinking]\n\nQuando lancia una Moneta che usa [BulletPropellant] mentre non ha [BulletPropellant]: l'attacco non viene annullato, ma gli effetti Sul Colpo che infliggerebbero Potenza o Conteggio [Combustion] non si attivano\n\nDurante uno Scontro, infligge +(1 + (numero di Scontri / 3)) Conteggio [Vibration] (max 3; 3 volte per turno per bersaglio)"
       },
       {
         "id": 114502,
@@ -13,47 +13,47 @@
       {
         "id": 114503,
         "name": "Preda Scelta",
-        "desc": "A Inizio Turno, infligge 1 [Prey] sul nemico che ha inflitto più danni a questa unità nel turno precedente\n\nDopo che Lei Heng attacca la sua [Prey], se il bersaglio è...\n- Stordito, ogni nemico perde 10 PS e ottiene 1 [ParryingResultDown] in questo turno e nel turno successivo (una volta per turno)\n- Sconfitto, attiva l'effetto sovrastante un'altra volta"
+        "desc": "A Inizio Turno, infligge 1 [Prey] sul nemico che ha inflitto più danni a questa unità nel turno precedente\n\nDopo che Lei Heng attacca la sua [Prey], se il bersaglio è...\n- Stordito, ogni nemico perde 10 PS e ottiene 1 [ParryingResultDown] in questo turno e nel turno successivo (una volta per turno)\n- Sconfitto, attiva questo effetto un'altra volta"
       },
       {
         "id": 114504,
         "name": "La Spada della Stella Tiantui [天退星刀]",
-        "desc": "Gli Attacchi Incontrastati infliggono +30% danni e applicano 1 [Vulnerable] nel turno successivo\n\nLe Monete che usano [BulletPropellant] infliggono +20% danni e applicano 2 [DefenseDown] nel turno successivo\n\nQuesti effetti non si attivano se il bersaglio ha equipaggiato un'Abilità Difensiva"
+        "desc": "Gli Attacchi Incontrastati di Lei Heng infliggono +30% danni e applicano 1 [Vulnerable] nel turno successivo\n\nLe Monete che hanno usato [BulletPropellant] infliggono +20% danni e applicano 2 [DefenseDown] nel turno successivo\n\nQuesti effetti non si attivano se il bersaglio ha equipaggiato un'Abilità Difensiva"
       },
       {
         "id": 114505,
         "name": "Ricarica dei Proiettili Marchio di Tigre",
-        "desc": "A Fine Turno, a 90%- PV, o alla fine del secondo turno, ricarica i [BulletPropellant] e ottiene un nuovo pattern\n- Se è Stordito, si riprende dallo Stordimento"
+        "desc": "A Fine Turno, a 90%- PV, o alla fine del secondo turno, ricarica e ottiene un nuovo pattern\n- Se Stordito, si riprende dallo Stordimento"
       },
       {
         "id": 114506,
         "name": "Lei Heng [雷橫]",
-        "desc": "A Fine Turno, a 80%- PV, o alla fine del quarto turno, ottiene un nuovo pattern all'inizio del turno successivo\n- Usa l'Abilità Potente 'Taglianodi' ogni 3 turni. Velocità Min & Max +10 nei turni in cui usa quest'Abilità\nAll'inizio di quel turno, ottiene 25 [BattleSense]\n- Se è Stordito, si riprende dallo Stordimento"
+        "desc": "A Fine Turno, a 80%- PV, o alla fine del quarto turno, ottiene un nuovo pattern all'inizio del turno successivo\n- Usa l'Abilità Potente \"Taglianodi\" ogni 3 turni. Velocità Min & Max +10 nei turni in cui usa quest'Abilità\n- All'inizio di quel turno, ottiene 25 [BattleSense]\n- Se Stordito, si riprende dallo Stordimento"
       },
       {
         "id": 114507,
         "name": "Stella Tiantui [天退星]",
-        "desc": "Se i PV di questa unità scendono al 60%, o se questa unità sta per usare l'abilità 'Taglianodi' per la seconda volta, ottiene un nuovo pattern all'inizio del turno successivo\n- All'inizio di quel turno, ottiene 1 [Irritation]\n- All'inizio di quel turno, ottiene 18 [BulletPropellantSpecial] ed effettua immediatamente una ricarica\n· Se questa unità ha speso ogni [BulletPropellantSpecial], ottiene invece i [BulletPropellant] ed evoca 2 \"Soldati Del Pollice Severi\" che riforniranno i [BulletPropellantSpecial] di questa unità\n- Se è Stordito, si riprende dallo Stordimento"
+        "desc": "Se i PV di questa unità scendono al 60%, o se questa unità sta per usare l'abilità \"Taglianodi\" per la seconda volta, ottiene un nuovo pattern all'inizio del turno successivo\n- All'inizio di quel turno, ottiene 1 [Irritation]\n- All'inizio di quel turno, ottiene 18 [BulletPropellantSpecial] ed effettua immediatamente una ricarica\n· Se ha usato ogni [BulletPropellantSpecial], ottiene invece i [BulletPropellant] ed evoca 2 \"Soldato Del Pollice Severo\" che riforniranno i [BulletPropellantSpecial] di Lei Heng\n- Se Stordito, si riprende dallo Stordimento"
       },
       {
         "id": 114508,
         "name": "Lei Heng, La Stella Tiantui del Mignolo",
-        "desc": "A Fine Turno, a 40%- PV, o se questa unità sta per usare l'Abilità 'Taglianodi' per la terza volta, ottiene un nuovo pattern all'inizio del turno successivo\n- Rimpiazza l'Abilità 'Taglianodi' con l'Abilità 'Raffica Perfezionata dell'Ammazzatigri Selvaggio'. Velocità Min & Max +15 nei turni in cui usa quest'Abilità\n- [BattleSense] diventa [RestoredBattleSense]\n- [Irritation] diventa [HugeIrritation]\n- Se è Stordito, si riprende dallo Stordimento"
+        "desc": "A Fine Turno, a 40%- PV, o se questa unità sta per usare l'Abilità \"Taglianodi\" per la terza volta, ottiene un nuovo pattern all'inizio del turno successivo\n- Rimpiazza l'Abilità \"Taglianodi\" con l'Abilità \"Raffica Perfezionata dell'Ammazzatigri Selvaggio\". Velocità Min & Max +15 nei turni in cui usa quest'Abilità\n- [BattleSense] diventa [RestoredBattleSense]\n- [Irritation] diventa [HugeIrritation]\n- Se Stordito, si riprende dallo Stordimento"
       },
       {
         "id": 114510,
         "name": "Chachihu [揷翅虎]",
-        "desc": "Inizio Combattimento:\n- Recupera PS pari alla sua Velocità. Se i suoi PS sono sotto 0, raddoppia il numero di PS recuperati\n- Ottiene (Velocità / 3) [SlashDamageUp] (max 5)\n\nA Inizio Combattimento, se questa unità ha 3+ [Binding], questo effetto non si attiva e ottiene invece [DefenseDown] pari alla [Binding] su di sé (max 9)"
+        "desc": "Inizio Combattimento:\n- Recupera PS pari alla sua Velocità. A meno di 0 PS, recupera il doppio dei PS\n- Ottiene (Velocità / 3) [SlashDamageUp] (max 5)\n\nA Inizio Combattimento, se questa unità ha 3+ [Binding], questo effetto non si attiva e ottiene invece [DefenseDown] pari alla [Binding] su di sé (max 9)"
       },
       {
         "id": 114512,
         "name": "Spada della Stella Tiantui - Surriscaldamento",
-        "desc": "Se ha usato 'Taglianodi' o 'Raffica Perfezionata dell'Ammazzatigri Selvaggio', ottiene [Complacency] nel turno successivo per ogni volta che ha usato una di queste Abilità (max 5)"
+        "desc": "Se ha usato \"Taglianodi\" o \"Raffica Perfezionata dell'Ammazzatigri Selvaggio\", ottiene 1 [Complacency] nel turno successivo per ogni volta che ha usato una di queste Abilità (max 5)"
       },
       {
         "id": 117101,
         "name": "Supporto Marchio di Tigre Selvaggio",
-        "desc": "A Inizio Turno, ottiene 5 [Vulnerable]\nA Fine Turno, rifornisce i [BulletPropellantSpecial] di Lei Heng\n\nSe questa unità è stata sconfitta durante il turno, non rifornisce i [BulletPropellantSpecial] di Lei Heng e quest'ultimo ottiene 1 [Vulnerable] e 1 [ParryingResultDown] nel turno successivo"
+        "desc": "A Inizio Turno, ottiene 5 [Vulnerable]\nA Fine Turno, rifornisce i [BulletPropellantSpecial] di Lei Heng\n\nSe questa unità è stata sconfitta durante il turno, Lei Heng ottiene 1 [Vulnerable] e 1 [ParryingResultDown] nel turno successivo"
       },
       {
         "id": 113501,

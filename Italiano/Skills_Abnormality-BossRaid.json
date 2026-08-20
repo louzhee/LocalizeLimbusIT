@@ -654,20 +654,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Double Slash",
-          "desc": "Final Power +1 for every 4 ([Combustion] + [Vibration]) on target (max 2)",
+          "name": "Doppio Taglio",
+          "desc": "Potere Finale +1 per ogni 4 ([Combustion] + [Vibration]) sul bersaglio (max 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Vibration]"
                 }
               ]
             }
@@ -680,27 +680,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Triple Slash",
-          "desc": "Final Power +1 for every 4 ([Combustion] + [Vibration]) on target (max 2)",
+          "name": "Triplo Taglio",
+          "desc": "Potere Finale +1 per ogni 4 ([Combustion] + [Vibration]) sul bersaglio (max 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration] and +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration] e +2 Conteggio [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] sul bersaglio di 1"
                 }
               ]
             }
@@ -713,26 +713,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Double Slash - Blast [爆]",
-          "desc": "Final Power +1 for every 4 ([Combustion] + [Vibration]) on target (max 4)\n[DefeatDuel] Lose 1 [BulletPropellant]",
+          "name": "Doppio Taglio - Detonazione [爆]",
+          "desc": "Potere Finale +1 per ogni 4 ([Combustion] + [Vibration]) sul bersaglio (max 4)\n[DefeatDuel] Perde 1 [BulletPropellant]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spend 1 [BulletPropellant]"
+                  "desc": "Usa 1 [BulletPropellant]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Combustion] and +2 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Combustion] e +2 Conteggio [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Vibration] and +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Vibration] e +2 Conteggio [Vibration]"
                 }
               ]
             }
@@ -745,39 +745,39 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Triple Slash - Blast [爆]",
-          "desc": "Final Power +1 for every 4 ([Combustion] + [Vibration]) on target (max 4)\n[DefeatDuel] Lose 1 [BulletPropellant]",
+          "name": "Triplo Taglio - Detonazione [爆]",
+          "desc": "Potere Finale +1 per ogni 4 ([Combustion] + [Vibration]) sul bersaglio (max 4)\n[DefeatDuel] Usa 1 [BulletPropellant]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spend 1 [BulletPropellant]"
+                  "desc": "Usa 1 [BulletPropellant]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Combustion] and +2 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Combustion] e +2 Conteggio [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration] and +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration] e +2 Conteggio [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spend 1 [BulletPropellant]"
+                  "desc": "Usa 1 [BulletPropellant]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Combustion] and +2 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Combustion] e +2 Conteggio [Combustion]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [VibrationExplosion] 2 times; then, reduce target's [Vibration] Count by 2"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Innesca [VibrationExplosion] due volte; riduce poi il Conteggio [Vibration] sul bersaglio di 2"
                 }
               ]
             }
@@ -790,8 +790,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Blasting Shatterslash [爆碎斬]",
-          "desc": "Prioritizes targets that have [Prey_leiheng]\n<color=#ff6000><mark=#ff000040><b><u>Can clash with this Skill regardless of Speed</u></b></mark></color>\nCoin Power +1 for every 6 ([Combustion] + [Vibration]) on target (max 3)\n[DefeatDuel] Lose 10 SP",
+          "name": "Colpo Frantumante Esplosivo [爆碎斬]",
+          "desc": "Dà priorità alla [Prey_leiheng]\n<color=#ff6000><mark=#ff000040><b><u>Ci si può Scontrare con quest'Abilità a prescindere dalla Velocità</u></b></mark></color>\nPotere Moneta +1 per ogni 6 ([Combustion] + [Vibration]) sul bersaglio (max 3)\n[DefeatDuel] Perde 10 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -799,16 +799,16 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Spend 1 [BulletPropellant]"
+                  "desc": "Usa 1 [BulletPropellant]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Vibration]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 4 [Vibration] and +4 [Vibration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 4 [Vibration] e +4 Conteggio [Vibration]"
                 }
               ]
             },
@@ -818,16 +818,16 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Spend 1 [BulletPropellant]"
+                  "desc": "Usa 1 [BulletPropellant]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [Switch_Vibration] into [VibrationIgnition]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Trasforma [Switch_Vibration] in [VibrationIgnition]"
                 }
               ]
             },
@@ -837,16 +837,16 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Spend 1 [BulletPropellant]"
+                  "desc": "Usa 1 [BulletPropellant]"
                 },
                 {
-                  "desc": "<color=#ff6000><mark=#ff000040><b><u>If this unit spent [BulletPropellant] due to this Coin's effect, deal +50% damage</u></b></mark></color>"
+                  "desc": "<color=#ff6000><mark=#ff000040><b><u>Se questa Moneta ha usato [BulletPropellant], infligge +50% danni</u></b></mark></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Combustion] and +3 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Combustion] e +3 Conteggio [Combustion]"
                 },
                 {
-                  "desc": "<color=#ff6000><mark=#ff000040><b><u>[UnBrokenCoinOnSucceedAttack]</u></b></mark></color> Trigger [VibrationExplosion] 2 times; then, reduce target's [Vibration] Count by 2"
+                  "desc": "<color=#ff6000><mark=#ff000040><b><u>[UnBrokenCoinOnSucceedAttack]</u></b></mark></color> Innesca [VibrationExplosion] due volte; riduce poi il Conteggio [Vibration] sul bersaglio di 2"
                 }
               ]
             }
@@ -859,8 +859,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Tanglecleaver [快刀亂麻]",
-          "desc": "Prioritizes targets that have [Prey_leiheng]\n<color=#ff6000><mark=#ff000040><b><u>Can Clash with this Skill regardless of Speed; this unit does not become Staggered before it uses this Skill</u></b></mark></color>\n[WhenUse] Consume all [BattleSense] Stack on self. If this unit consumed...\n- ... 10+ Stacks, gain Atk Weight +1 for every 10 Stack consumed (max 2)\n- ... 25 Stacks, Final Power +1 for every 4 (sum of [Combustion] and [Vibration] on the main target) (max 5)\n[DefeatDuel] Gain 1 [Paralysis]\n[DefeatDuel] Deal -80% damage; this Skill's damage cannot Stagger the target; <color=#ff6000><mark=#ff000040><b><u>inflict only half the Potency and Count for both [Combustion] and [Vibration] inflicted by this Skill</u></b></mark></color> (unless raised by other effects)\n[EndSkill] [FullReload] (once per turn)\n- If this unit has [BulletPropellantSpecial], [ReloadKeepAmmo] instead (once per turn)\n[EndSkill] Ends this turn",
+          "name": "Taglianodi [快刀亂麻]",
+          "desc": "Dà priorità alla [Prey_leiheng]\n<color=#ff6000><mark=#ff000040><b><u>Ci si può Scontrare con quest'Abilità a prescindere dalla Velocità; Non può essere Stordito fino all'uso di questa Abilità</u></b></mark></color>\n[WhenUse] Consuma ogni [BattleSense] su di sé. Se ha consumato...\n- ... 10+ Stack, Portata Attacco +1 per ogni 10 Stack consumate (max 2)\n- ... 25 Stack, Potere Finale +1 per ogni 4 ([Combustion] + [Vibration]) sul bersaglio principale (max 5)\n[DefeatDuel] Ottiene 1 [Paralysis]\n[DefeatDuel] Infligge -80% danni; il danno inflitto da quest'Abilità non può Stordire i bersagli; <color=#ff6000><mark=#ff000040><b><u>La [Combustion] e la [Vibration] inflitte dagli effetti di quest'Abilità vengono dimezzate</u></b></mark></color>\n[EndSkill] [FullReload] (una volta per turno)\n- Se ha [BulletPropellantSpecial], effettua invece una [ReloadKeepAmmo] (una volta per turno)\n[EndSkill] Termina il turno",
           "coinlist": [
             {
               "coindescs": [
@@ -868,16 +868,16 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Spend all [BulletPropellant]"
+                  "desc": "Usa ogni [BulletPropellant]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [Combustion], [Combustion] Count, [Vibration], and [Vibration] Count by [BulletPropellant] spent"
+                  "desc": "[OnSucceedAttack] Infligge ([BulletPropellant] usati) Potenza e Conteggio [Combustion] e [Vibration]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [Switch_Vibration] into [VibrationIgnition]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Trasforma [Switch_Vibration] in [VibrationIgnition]"
                 },
                 {
-                  "desc": "<color=#ff6000><mark=#ff000040><b><u>[UnBrokenCoinOnSucceedAttack]</u></b></mark></color> Trigger [VibrationExplosion] 3 times; then, reduce target's [Vibration] Count by 3"
+                  "desc": "<color=#ff6000><mark=#ff000040><b><u>[UnBrokenCoinOnSucceedAttack]</u></b></mark></color> Innesca [VibrationExplosion] 3 volte; riduce poi il Conteggio [Vibration] sul bersaglio di 3"
                 }
               ]
             }
@@ -890,8 +890,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Savage Tigerslayer's Perfected Flurry of Blades [超絕猛虎殺擊亂斬]",
-          "desc": "Prioritizes targets that have [Prey_leiheng]\n<color=#ff6000><mark=#ff000040><b><u>Can Clash with this Skill regardless of Speed; this unit does not become Staggered before it uses this Skill</u></b></mark></color>\n[WhenUse] Consume all [BattleSense] Stack on self. If this unit consumed...\n- ... 10+ Stacks, gain Atk Weight +1 for every 10 Stack consumed (max 4)\n- ... 25+ Stacks, Final Power +1 for every 4 (sum of [Combustion] and [Vibration] on the main target) (max 6)\n- ... 50 Stacks, Coin Power +1 and deal +50% damage\n[DefeatDuel] Gain 6 [Paralysis]\n[DefeatDuel] Deal -80% damage; this Skill's damage cannot Stagger the target; <color=#ff6000><mark=#ff000040><b><u>inflict only half the Potency and Count for both [Combustion] and [Vibration] inflicted by this Skill</u></b></mark></color> (unless raised by other effects)\n[EndSkill] [FullReload] (once per turn)\n- If this unit has [BulletPropellantSpecial], [ReloadKeepAmmo] instead (once per turn)\n[EndSkill] Ends this turn",
+          "name": "Raffica Perfezionata dell'Ammazzatigri Selvaggio [超絕猛虎殺擊亂斬]",
+          "desc": "Dà priorità alla [Prey_leiheng]\n<color=#ff6000><mark=#ff000040><b><u>Ci si può Scontrare con quest'Abilità a prescindere dalla Velocità; Non può essere Stordito fino all'uso di questa Abilità</u></b></mark></color>\n[WhenUse] Consuma ogni [BattleSense] su di sé. Se ha consumato...\n- ... 10+ Stack, Portata Attacco +1 per ogni 10 Stack consumate (max 4)\n- ... 25+ Stack, Potere Finale +1 per ogni 4 ([Combustion] + [Vibration]) sul bersaglio principale (max 6)\n- ... 50 Stack, Potere Moneta +1 e infligge +50% danni\n[DefeatDuel] Ottiene 6 [Paralysis]\n[DefeatDuel] Infligge -80% danni; il danno inflitto da quest'Abilità non può Stordire i bersagli; <color=#ff6000><mark=#ff000040><b><u>La [Combustion] e la [Vibration] inflitte dagli effetti di quest'Abilità vengono dimezzate</u></b></mark></color>\n[EndSkill] [FullReload] (una volta per turno)\n- Se ha [BulletPropellantSpecial], effettua invece una [ReloadKeepAmmo] (una volta per turno)\n[EndSkill] Termina il turno",
           "coinlist": [
             {
               "coindescs": [
@@ -899,10 +899,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Spend 1 [BulletPropellant]"
+                  "desc": "Usa 1 [BulletPropellant]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 6 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 6 [Combustion]"
                 }
               ]
             },
@@ -912,10 +912,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Spend 1 [BulletPropellant]"
+                  "desc": "Usa 1 [BulletPropellant]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +6 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Infligge +6 Conteggio [Combustion]"
                 }
               ]
             },
@@ -925,10 +925,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Spend 1 [BulletPropellant]"
+                  "desc": "Usa 1 [BulletPropellant]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 6 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 6 [Vibration]"
                 }
               ]
             },
@@ -938,10 +938,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Spend 1 [BulletPropellant]"
+                  "desc": "Usa 1 [BulletPropellant]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +6 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +6 Conteggio [Vibration]"
                 }
               ]
             },
@@ -951,10 +951,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Spend 1 [BulletPropellant]"
+                  "desc": "Usa 1 [BulletPropellant]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [Switch_Vibration] into [VibrationIgnition]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Trasforma [Switch_Vibration] in [VibrationIgnition]"
                 }
               ]
             },
@@ -964,10 +964,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Spend 1 [BulletPropellant]"
+                  "desc": "Usa 1 [BulletPropellant]"
                 },
                 {
-                  "desc": "<color=#ff6000><mark=#ff000040><b><u>[UnBrokenCoinOnSucceedAttack]</u></b></mark></color> Trigger [VibrationExplosion] 5 times; then, reduce target's [Vibration] Count by 5"
+                  "desc": "<color=#ff6000><mark=#ff000040><b><u>[UnBrokenCoinOnSucceedAttack]</u></b></mark></color> Innesca [VibrationExplosion] 5 volte; riduce poi il Conteggio [Vibration] sul bersaglio di 5"
                 }
               ]
             }
@@ -980,26 +980,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Reloading Tiantui Star's Blade",
-          "desc": "[DuelCounter]\n[DefeatDuel] Lose 1 [BulletPropellant]\n[EndBattle] [FullReload] (once per turn)\n- If this unit has [BulletPropellantSpecial], [ReloadKeepAmmo] instead (once per turn)",
+          "name": "Ricarica la Spada della Stella Tiantui",
+          "desc": "[DuelCounter]\n[DefeatDuel] Perde 1 [BulletPropellant]\n[EndBattle] [FullReload] (una volta per turno)\n- Se ha [BulletPropellantSpecial], effettua invece una [ReloadKeepAmmo] (una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spend 1 [BulletPropellant]"
+                  "desc": "Usa 1 [BulletPropellant]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Vibration]"
                 }
               ]
             }
@@ -1012,8 +1012,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Savage Tigermark Support",
-          "desc": "[EndBattle] Give 6 [BulletPropellantSpecial] to Lei Heng\n[EndBattle] [DisengageCombat]",
+          "name": "Supporto Marchio di Tigre Selvaggio",
+          "desc": "[EndBattle] Dà 6 [BulletPropellantSpecial] a Lei Heng\n[EndBattle] [DisengageCombat]",
           "coinlist": [
             {}
           ]

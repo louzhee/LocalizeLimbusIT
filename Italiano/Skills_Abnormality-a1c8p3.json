@@ -65,7 +65,7 @@
         {
           "level": 1,
           "name": "Doppio Taglio - Detonazione [爆]",
-          "desc": "Potere Finale +1 per ogni 4 ([Combustion] + [Vibration]) sul bersaglio (max 4)\n[DefeatDuel] Lose 1 [BulletPropellant]",
+          "desc": "Potere Finale +1 per ogni 4 ([Combustion] + [Vibration]) sul bersaglio (max 4)\n[DefeatDuel] Perde 1 [BulletPropellant]",
           "coinlist": [
             {
               "coindescs": [
@@ -97,7 +97,7 @@
         {
           "level": 1,
           "name": "Triplo Taglio - Detonazione [爆]",
-          "desc": "Potere Finale +1 per ogni 4 ([Combustion] + [Vibration]) sul bersaglio (max 4)\n[DefeatDuel] Usa 1 [BulletPropellant]",
+          "desc": "Potere Finale +1 per ogni 4 ([Combustion] + [Vibration]) sul bersaglio (max 4)\n[DefeatDuel] Perde 1 [BulletPropellant]",
           "coinlist": [
             {
               "coindescs": [
@@ -191,7 +191,7 @@
                   "desc": "Usa 1 [BulletPropellant]"
                 },
                 {
-                  "desc": "Se questa Moneta ha Speso [BulletPropellant], infligge +50% danni"
+                  "desc": "Se questa Moneta ha usato [BulletPropellant], infligge +50% danni"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge 3 [Combustion] e +3 Conteggio [Combustion]"
@@ -222,7 +222,7 @@
                   "desc": "Usa tutti i [BulletPropellant]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge ([BulletPropellant] Spesi) Potenza e Conteggio [Combustion] e [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge ([BulletPropellant] usati) Potenza e Conteggio [Combustion] e [Vibration]"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Trasforma [Switch_Vibration] in [VibrationIgnition]"
@@ -331,7 +331,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Ricaricando la Lama della Stella Tiantui",
+          "name": "Ricarica la Spada della Stella Tiantui",
           "desc": "[DuelCounter]\n[DefeatDuel] Perde 1 [BulletPropellant]\n[EndSkill] [FullReload] (una volta per turno)\n- Se ha [BulletPropellantSpecial], effettua invece una [ReloadKeepAmmo] (una volta per turno)",
           "coinlist": [
             {
@@ -364,7 +364,7 @@
         {
           "level": 1,
           "name": "Supporto Marchio di Tigre Selvaggio",
-          "desc": "[EndBattle] Se questa unità è ancora viva, Lei Heng riceve 6 [BulletPropellantSpecial]\n[EndBattle] [DisengageCombat]",
+          "desc": "[EndBattle] Dà 6 [BulletPropellantSpecial] a Lei Heng\n[EndBattle] [DisengageCombat]",
           "coinlist": [
             {}
           ]

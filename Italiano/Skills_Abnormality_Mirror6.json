@@ -993,7 +993,7 @@
                   "desc": "Usa 1 [BulletPropellant]"
                 },
                 {
-                  "desc": "Se questa Moneta ha Speso [BulletPropellant], infligge +50% danni"
+                  "desc": "Se questa Moneta ha usato [BulletPropellant], infligge +50% danni"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge 3 [Combustion] e +3 Conteggio [Combustion]"
@@ -1024,7 +1024,7 @@
                   "desc": "Usa tutti i [BulletPropellant]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge ([BulletPropellant] Spesi) Potenza e Conteggio [Combustion] e [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge ([BulletPropellant] usati) Potenza e Conteggio [Combustion] e [Vibration]"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Trasforma [Switch_Vibration] in [VibrationIgnition]"
@@ -1133,7 +1133,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Ricaricando la Lama della Stella Tiantui",
+          "name": "Ricarica la Spada della Stella Tiantui",
           "desc": "[WhenUse] Recupera 10 PS\n- A meno di 0 PS, recupera altri 5 PS\n[DuelCounter]\n[DefeatDuel] Perde 1 [BulletPropellant]\n[EndSkill] [FullReload] (una volta per turno)\n- Se questa unità ha [BulletPropellantSpecial], effettua invece una [ReloadKeepAmmo] (una volta per turno)",
           "coinlist": [
             {
