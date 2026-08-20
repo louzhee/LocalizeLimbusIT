@@ -4065,6 +4065,20 @@
       "name": "Dimensioni Quadricolore",
       "desc": "- Stack Max: 4\n- Ottiene i seguenti effetti in base alle Stack:\n· 1+: Livello Offensivo +1\n· 2+: Livello Difensivo +2\n· 3+: Ottiene +1 Conteggio Carica in più dalle Abilità di questa unità\n· 4+: Le Abilità di questa unità infliggono +(Potenza Carica x 4)% danni (max 20%)\n\n- Se questa unità ottiene questo effetto oltre le Stack max, ottiene le Stack in eccesso nel turno successivo\n- Fine Turno: Perde 1 Stack",
       "summary": ""
+    },
+    {
+      "id": "DianxueHongLu",
+      "name": "Colpo al Nervo - Hong Lu",
+      "desc": "- Max Stack: 3\n- The unit that inflicted this Nerve Strike gains the following effects based on target's (or targeted Part's) Nerve Strike Stack\n· 1x Stack: Gain Clash Power +1\n· 2x Stack: Gain Base Power +1\n· 3x Stack: Gain Clash Power +1 and Base Power +1\n- Expires if the unit that inflicted it inflicts this effect against a different target (or a different Part)\n- Replaced when another unit inflicts Nerve Strike (Stacks are preserved)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "DuelSousTemoinsEast",
+      "name": "Osservazione - Cinq dell'Est",
+      "desc": "- Max Stack: 3\n- Offense Level +(Stack)\n- At 2+ Stack, Base Skills gain +1 more Poise Potency\n- At 3+ Stack, Base Skills gain +1 more Poise Count",
+      "summary": "",
+      "undefined": "-"
     }
   ]
 }
