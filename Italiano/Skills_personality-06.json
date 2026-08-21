@@ -3396,15 +3396,15 @@
         {
           "level": 1,
           "name": "Fa Jin",
-          "desc": "[WhenUse] If target does not have [DianxueHongLu], Clash Power +1\n[WhenUse] Gain +3 [Breath] Count",
+          "desc": "[WhenUse] Se il bersaglio non ha [DianxueHongLu], Potere Scontro +1\n[WhenUse] Ottiene +3 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has 3+ [DianxueHongLu], Reuse this Coin (once per Skill)"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 3+ [DianxueHongLu], Riutilizza questa Moneta (una volta per Abilità)"
                 }
               ]
             }
@@ -3413,18 +3413,18 @@
         {
           "level": 2,
           "name": "Fa Jin",
-          "desc": "<style=\"highlight\">If this unit's Speed is faster than the target's by 2 or more, Coin Power +1</style>\n[WhenUse] If target does not have [DianxueHongLu], Clash Power +1\n[WhenUse] Gain +3 [Breath] Count",
+          "desc": "<style=\"highlight\">Se la Velocità di questa unità è più alta di quella del bersaglio di 2 o più, Potere Moneta +1</style>\n[WhenUse] Se il bersaglio non ha [DianxueHongLu], Potere Scontro +1\n[WhenUse] Ottiene +3 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has 3+ [DianxueHongLu], Reuse this Coin (once per Skill)"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 3+ [DianxueHongLu], Riutilizza questa Moneta (una volta per Abilità)"
                 },
                 {
-                  "desc": "<style=\"highlight\">[ReUseOnSucceedAttack] Inflict 1 [Combustion]</style>"
+                  "desc": "<style=\"highlight\">[ReUseOnSucceedAttack] Infligge 1 [Combustion]</style>"
                 }
               ]
             }
@@ -3433,18 +3433,18 @@
         {
           "level": 4,
           "name": "Fa Jin",
-          "desc": "If this unit's Speed is faster than the target's by 2 or more, Coin Power +1\n<style=\"highlight\">[WhenUse] Clash Power +1 for every 6 ([Breath] on self + [Combustion] on target) (max 2)</style>\n[WhenUse] If target does not have [DianxueHongLu], Clash Power +1\n[WhenUse] Gain +3 [Breath] Count",
+          "desc": "Se la Velocità di questa unità è più alta di quella del bersaglio di 2 o più, Potere Moneta +1\n<style=\"highlight\">[WhenUse] Potere Scontro +1 per ogni 6 ([Breath] su di sé + [Combustion] sul bersaglio) (max 2)</style>\n[WhenUse] Se il bersaglio non ha [DianxueHongLu], Potere Scontro +1\n[WhenUse] Ottiene +3 [Breath] Count",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has 3+ [DianxueHongLu], Reuse this Coin (once per Skill)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 3+ [DianxueHongLu], Riutilizza questa Moneta (una volta per Abilità)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Inflict 1 [Combustion]<style=\"highlight\"></style>"
+                  "desc": "[ReUseOnSucceedAttack] Infligge 1 [Combustion]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3457,23 +3457,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Virescent Flame Palm",
-          "desc": "[WinDuel] Gain 3 [Breath]\n- Gain [Breath] Count equal to [DianxueHongLu] on target",
+          "name": "Palmo della Fiamma Virescente",
+          "desc": "[WinDuel] Ottiene 3 [Breath]\n- Ottiene Conteggio [Breath] pari a [DianxueHongLu] sul bersaglio",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 [Breath] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has 2+ [DianxueHongLu], Reuse this Coin (once per Skill)"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 2+ [DianxueHongLu], Riutilizza questa Moneta (una volta per Abilità)"
                 }
               ]
             }
@@ -3481,29 +3481,29 @@
         },
         {
           "level": 2,
-          "name": "Virescent Flame Palm",
-          "desc": "<style=\"highlight\">If this unit's Speed is faster than the target's, gain Coin Power based on Speed difference (Coin Power +1 for every 2 Speed difference; max 2)</style>\n[WinDuel] Gain 3 [Breath]\n- Gain [Breath] Count equal to [DianxueHongLu] on target",
+          "name": "Palmo della Fiamma Virescente",
+          "desc": "<style=\"highlight\">Se la Velocità di questa unità è maggiore del bersaglio, ottiene Potere Moneta in base alla differenza di Velocità (Potere Moneta +1 per ogni 2 Velocità di differenza; max 2)</style>\n[WinDuel] Ottiene 3 [Breath]\n- Ottiene Conteggio [Breath] pari a [DianxueHongLu] sul bersaglio",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +<style=\"highlight\">2</style> [Breath] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +<style=\"highlight\">2</style> Conteggio [Breath]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict +1 [Combustion] Count</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge +1 Conteggio [Combustion]</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has 2+ [DianxueHongLu], Reuse this Coin (once per Skill)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 2+ [DianxueHongLu], Riutilizza questa Moneta (una volta per Abilità)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[ReUseOnSucceedAttack] Inflict [DefenseDown] equal to [DianxueHongLu] on target (once per turn)</style>"
+                  "desc": "<style=\"highlight\">[ReUseOnSucceedAttack] Infligge [DefenseDown] pari a [DianxueHongLu] sul bersaglio (una volta per turno)</style>"
                 }
               ]
             }
@@ -3511,29 +3511,29 @@
         },
         {
           "level": 4,
-          "name": "Virescent Flame Palm",
-          "desc": "If this unit's Speed is faster than the target's, gain Coin Power based on Speed difference (Coin Power +1 for every 2 Speed difference; max 2)\n<style=\"highlight\">[WhenUse] At 6+ ([Breath] on self + [Combustion] on target), Final Power +1</style>\n[WinDuel] Gain 3 [Breath]\n- Gain [Breath] Count equal to [DianxueHongLu] on target",
+          "name": "Palmo della Fiamma Virescente",
+          "desc": "Se la Velocità di questa unità è maggiore del bersaglio, ottiene Potere Moneta in base alla differenza di Velocità (Potere Moneta +1 per ogni 2 Velocità di differenza; max 2)\n<style=\"highlight\">[WhenUse] A 6+ ([Breath] su di sé + [Combustion] sul bersaglio), Potere Finale +1</style>\n[WinDuel] Ottiene 3 [Breath]\n- Ottiene Conteggio [Breath] pari a [DianxueHongLu] sul bersaglio",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [Breath] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Breath]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Combustion]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +1 [Combustion] Count<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has 2+ [DianxueHongLu], Reuse this Coin (once per Skill)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 2+ [DianxueHongLu], Riutilizza questa Moneta (una volta per Abilità)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Inflict [DefenseDown] equal to [DianxueHongLu] on target (once per turn)<style=\"highlight\"></style>"
+                  "desc": "[ReUseOnSucceedAttack] Infligge [DefenseDown] pari a [DianxueHongLu] sul bersaglio (una volta per turno)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3546,39 +3546,39 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Take the Hit to the Last Blow, Please?",
-          "desc": "If this unit's Speed is faster than the target's by 2 or more, Coin Power +1\n[WinDuel] Gain 3 [Breath]\n- Gain [Breath] Count equal to [DianxueHongLu] on target",
+          "name": "Reggeresti Fino all'Ultimo Colpo, Per Favore?",
+          "desc": "Se la Velocità di questa unità è più alta di quella del bersaglio di 2 o più, Potere Moneta +1\n[WinDuel] Ottiene 3 [Breath]\n- Ottiene Conteggio [Breath] pari a [DianxueHongLu] sul bersaglio",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +([Breath] on self + [Combustion] on target)% damage on Critical Hit (max 20%)"
+                  "desc": "Infligge +([Breath] su di sé + [Combustion] sul bersaglio)% danni su Colpo Critico (max 20%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict 2 [DefenseDown] (2 times per turn)"
+                  "desc": "[CriticalOnSucceedAttack] Infligge 2 [DefenseDown] (2 volte per turno)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has [DianxueHongLu], Reuse this Coin (once per Skill)"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [DianxueHongLu], Riutilizza questa Moneta (una volta per Abilità)"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Deal Wrath damage equal to ([Combustion] on target x 2)% of this Coin's final damage (max 40%)"
+                  "desc": "[ReUseOnSucceedAttack] Infligge danno Ira pari a ([Combustion] sul bersaglio x 2)% del danno finale di questa Moneta (max 40%)"
                 }
               ]
             }
@@ -3586,39 +3586,39 @@
         },
         {
           "level": 4,
-          "name": "Take the Hit to the Last Blow, Please?",
-          "desc": "If this unit's Speed is faster than the target's by 2 or more, Coin Power +1\n<style=\"highlight\">[WhenUse] At 6+ ([Breath] on self + [Combustion] on target), Coin Power +1</style>\n[WinDuel] Gain <style=\"highlight\">5</style> [Breath]\n- Gain [Breath] Count equal to [DianxueHongLu] on target",
+          "name": "Reggeresti Fino all'Ultimo Colpo, Per Favore?",
+          "desc": "Se la Velocità di questa unità è più alta di quella del bersaglio di 2 o più, Potere Moneta +1\n<style=\"highlight\">[WhenUse] A 6+ ([Breath] su di sé + [Combustion] sul bersaglio), Potere Moneta +1</style>\n[WinDuel] Ottiene <style=\"highlight\">5</style> [Breath]\n- Ottiene Conteggio [Breath] pari a [DianxueHongLu] sul bersaglio",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +([Breath] on self + [Combustion] on target)% damage on Critical Hit (max <style=\"highlight\">30</style>%)"
+                  "desc": "Infligge +([Breath] su di sé + [Combustion] sul bersaglio)% danni su Colpo Critico (max <style=\"highlight\">30</style>%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict 2 [DefenseDown] (2 times per turn)<style=\"highlight\"></style>"
+                  "desc": "[CriticalOnSucceedAttack] Infligge 2 [DefenseDown] (2 volte per turno)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has [DianxueHongLu], Reuse this Coin (once per Skill)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [DianxueHongLu], Riutilizza questa Moneta (una volta per Abilità)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Deal Wrath damage equal to ([Combustion] on target x 2)% of this Coin's final damage (max 40%)<style=\"highlight\"></style>"
+                  "desc": "[ReUseOnSucceedAttack] Infligge danno Ira pari a ([Combustion] sul bersaglio x 2)% del danno finale di questa Moneta (max 40%)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3631,16 +3631,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Light as a Tuft of Cloud",
-          "desc": "If this unit's Speed is faster than the attacker's by 2 or more, Coin Power +1\n[StartBattle] Gain +2 [Breath] Count (once per turn)",
+          "name": "Leggero Come Un Ciuffo di Nuvole",
+          "desc": "Se la Velocità di questa unità è più alta di quella del bersaglio di 2 o più, Potere Moneta +1\n[StartBattle] Ottiene +2 Conteggio [Breath] (una volta per turno)",
           "coinlist": [
             {}
           ]
         },
         {
           "level": 4,
-          "name": "Light as a Tuft of Cloud",
-          "desc": "If this unit's Speed is faster than the attacker's by 2 or more, Coin Power +1\n[StartBattle] Gain +<style=\"highlight\">3</style> [Breath] Count (once per turn)",
+          "name": "Leggero Come Un Ciuffo di Nuvole",
+          "desc": "Se la Velocità di questa unità è più alta di quella del bersaglio di 2 o più, Potere Moneta +1\n[StartBattle] Ottiene +<style=\"highlight\">3</style> Conteggio [Breath] (una volta per turno)",
           "coinlist": [
             {}
           ]
