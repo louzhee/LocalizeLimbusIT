@@ -789,14 +789,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [Breath] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Breath]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 [Breath]"
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Breath]"
                 }
               ]
             }
@@ -809,20 +809,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Completed Heixian Bolus - Wei [未]",
-          "desc": "[WhenUse] If target has 5+ ([Laceration] + [Burst]), Clash Power +1\n[WhenUse] If target has 7+ ([Laceration] + [Burst]), gain 5 [Breath] and +2 [Breath] Count",
+          "name": "Bolo Heixian Completo - Wei [未]",
+          "desc": "[WhenUse] Se il bersaglio ha 5+ ([Laceration] + [Burst]), Potere Scontro +1\n[WhenUse] Se il bersaglio ha 7+ ([Laceration] + [Burst]), ottiene 5 [Breath] e +2 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
                 }
               ]
             }
@@ -835,19 +835,19 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Completed Heixian Bolus - Yin [寅]",
-          "desc": "[WhenUse] Coin Power +1 for every 5 (sum of [Laceration] and [Burst] on target) (max 3)",
+          "name": "Bolo Heixian Completo - Yin [寅]",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 5 ([Laceration] + [Burst]) sul bersaglio (max 3)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [DefenseDown] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 2 [DefenseDown] nel turno successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 5 [Breath]"
+                  "desc": "[OnSucceedAttack] Ottiene 5 [Breath]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Laceration]"
                 }
               ]
             }
@@ -860,13 +860,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Completed Heixian Bolus - Si [巳]",
-          "desc": "[WhenUse] If the main target has 10+ ([Laceration] + [Burst]), Atk Weight +1",
+          "name": "Bolo Heixian Completo - Si [巳]",
+          "desc": "[WhenUse] Se il bersaglio principale ha 10+ ([Laceration] + [Burst]), Portata Attacco +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Poison]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Poison]"
                 }
               ]
             },
@@ -876,7 +876,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [Poison]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [Poison]"
                 }
               ]
             }
@@ -889,8 +889,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Completed Heixian Bolus - You [酉]",
-          "desc": "[WhenUse] If target has 10+ ([Laceration] + [Burst]), Coin Power +1\nInflict 1 [Laceration] and [DefenseDown] with every Critical Hit",
+          "name": "Bolo Heixian Completo - You [酉]",
+          "desc": "[WhenUse] Se il bersaglio ha 10+ ([Laceration] + [Burst]), Potere Moneta +1\n[CriticalOnSucceedAttack] Infligge 1 [Laceration] e [DefenseDown]",
           "coinlist": [
             {
               "coindescs": [
@@ -898,10 +898,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Burst] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 2 Conteggio [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 2 PS"
+                  "desc": "[OnSucceedAttack] Recupera 2 PS"
                 }
               ]
             },
@@ -911,10 +911,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 2 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 2 PS"
+                  "desc": "[OnSucceedAttack] Recupera 2 PS"
                 }
               ]
             },
@@ -924,10 +924,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 2 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 2 PS"
+                  "desc": "[OnSucceedAttack] Recupera 2 PS"
                 }
               ]
             }
@@ -940,8 +940,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Completed Heixian Bolus - Hun [混]",
-          "desc": "[WhenUse] Coin Power +1 for every type of negative effect on the main target (max 2)\n[DefeatDuel] Deal -50% damage and damage dealt by this Skill cannot Stagger the target\n[EndSkill] Gain 2 [Binding] and 6 [DefenseDown] next turn",
+          "name": "Bolo Heixian Completo - Hun [混]",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni effetto negativo diverso sul bersaglio principale (max 2)\n[DefeatDuel] Infligge -50% danni; Il danno inflitto da quest'Abilità non può Stordire\n[EndSkill] Ottiene 2 [Binding] e 6 [DefenseDown] nel turno successivo",
           "coinlist": [
             {
               "coindescs": [
@@ -949,10 +949,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 5 [Breath]"
+                  "desc": "[OnSucceedAttack] Ottiene 5 [Breath]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [Laceration]"
                 }
               ]
             },
@@ -962,7 +962,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [Poison]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [Poison]"
                 }
               ]
             },
@@ -972,7 +972,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +3 [Burst] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +3 Conteggio [Burst]"
                 }
               ]
             }
@@ -985,8 +985,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Completed Heixian Bolus - You [酉] - Defense",
-          "desc": "[CanDuelGuard]\n[WhenUse] If target has 5+ (sum of [Laceration] + [Burst]), Coin Power +2\n[WhenUse] Heal 8 PS\n[WhenUse] Gain 3 [Breath] and +2 [Breath] Count",
+          "name": "Bolo Heixian Completo - You [酉] - Difesa",
+          "desc": "[CanDuelGuard]\n[WhenUse] Se il bersaglio ha 5+ ( [Laceration] + [Burst]), Potere Moneta +2\n[WhenUse] Recupera 8 PS\n[WhenUse] Ottiene 3 [Breath] e +2 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -1004,8 +1004,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Precious Jade's Cradle [寶玉搖籃]",
-          "desc": "[CantChangeTarget]\nPrioritizes Hong Lu\nWhen this Skill targets Hong Lu, deal 0 damage\n[EndSkill] When this Skill targets Hong Lu, Stagger him, then turn him into [ExpensiveJade] next turn; then, end the turn",
+          "name": "Culla della Giada Preziosa [寶玉搖籃]",
+          "desc": "[CantChangeTarget]\nBersaglia Hong Lu\nSe bersaglia Hong Lu, non infligge danni\n[EndSkill] Stordisce Hong Lu e lo mette nella [ExpensiveJade]. Poi, termina il turno.",
           "coinlist": [
             {
               "coindescs": [
@@ -1023,20 +1023,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Supernatural, Strength, Chaos, and Spirits - Yin Si You [寅巳酉]",
-          "desc": "[WhenUse] Coin Power +1 for every 5 (sum of [Laceration] and [Burst] on target) (max 2)",
+          "name": "Soprannaturale, Forza, Caos e Animo - Yin Si You [寅巳酉]",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 5 ([Laceration] + [Burst]) sul bersaglio (max 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration] and 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration] e 2 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration] and 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration] e 2 [Burst]"
                 }
               ]
             }
@@ -1049,27 +1049,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "You do not know the fathoms of the eye's powers, its special nature",
-          "desc": "Prioritizes Hong Lu\n[WhenUse] When there is Baoyu, the Precious Jade, convert all Coins on this Skill to [SuperCoin]s\n[WhenUse] Coin Power +1 for every 5 (sum of [Laceration] and [Burst] on target) (max 2)",
+          "name": "Voi non conoscete la vastità dei poteri dell'occhio, la sua natura speciale.",
+          "desc": "Dà priorità a Hong Lu\n[WhenUse] Se \"Baoyu, la Giada Preziosa\" è in campo, converte ogni Moneta di quest'Abilità in [SuperCoin]\n[WhenUse] Potere Moneta +1 per ogni 5 ([Laceration] + [Burst]) sul bersaglio (max 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count and +3 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration] e +3 Conteggio [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration] and 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration] e 1 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration] and 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration] e 1 [Burst]"
                 }
               ]
             }
@@ -1082,16 +1082,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Please Watch me, O Xianren...!",
-          "desc": "Prioritizes Hong Lu\n[WinDuel] Gain 5 [Breath] and +2 [Breath] Count\n[DefeatDuel] Gain 2 [AttackUp] and 2 [DefenseDown] next turn",
+          "name": "Proteggetemi, O Xianren...!",
+          "desc": "Dà priorità a Hong Lu\n[WinDuel] Ottiene 5 [Breath] e +2 Conteggio [Breath]\n[DefeatDuel] Ottiene 2 [AttackUp] e 2 [DefenseDown] nel turno successivo",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Binding] and 2 [Vulnerable] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Binding] e 2 [Vulnerable] nel turno successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count and +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration] e +2 Conteggio [Burst]"
                 }
               ]
             }
@@ -1104,8 +1104,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "You do not know the fate of a Hierarch without the Xianren's care! ",
-          "desc": "[WhenUse] Heal 25 PS\n[DefeatDuel] Deal -50% damage and damage dealt by this Skill cannot Stagger the target",
+          "name": "Voi non potete comprendere il destino di una Gerarca privata della protezione degli Xianren!",
+          "desc": "[WhenUse] Recupera 25 PS\n[DefeatDuel] Infligge -50% danni; Il danno inflitto da quest'Abilità non può Stordire il bersaglio",
           "coinlist": [
             {
               "coindescs": [
@@ -1113,10 +1113,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal +2.5% damage for every (sum of [Burst] and [Laceration] on target) (max 50%)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +2.5% danni per ogni ([Burst] + [Laceration]) sul bersaglio (max 50%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Poison]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Poison]"
                 }
               ]
             },
@@ -1126,10 +1126,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal +2.5% damage for every (sum of [Burst] and [Laceration] on target) (max 50%)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +2.5% danni per ogni ([Burst] + [Laceration]) sul bersaglio (max 50%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration] and +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration] e +2 Conteggio [Laceration]"
                 }
               ]
             },
@@ -1139,10 +1139,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal +2.5% damage for every (sum of [Burst] and [Laceration] on target) (max 50%)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +2.5% danni per ogni ([Burst] + [Laceration]) sul bersaglio (max 50%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst] and +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst] e +2 Conteggio [Burst]"
                 }
               ]
             }
@@ -1155,8 +1155,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Nothing But a Meaningless Struggle...!",
-          "desc": "[CanDuelGuard]\n[WinDuel] Jia Mu heals 15 PS. At 0 PS, heal 30 PS instead.",
+          "name": "Nient'Altro che uno Sforzo Insensato...!",
+          "desc": "[CanDuelGuard]\n[WinDuel] Jia Mu recupera 15 PS.\n- A 0 PS, recupera invece 15 PS.",
           "coinlist": [
             {
               "coindescs": [
@@ -1174,25 +1174,25 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Still, you can do nothing",
-          "desc": "[WhenUse] Gain [OutpouringAnger]\n[WhenUse] Heal 8 PS\n[WhenUse] If the main target has less than 50% PV, or if the main target has 10+ (sum of [Burst] and [Laceration]), convert this Skill's Coins to [SuperCoin]s\n[DefeatDuel] Gain 1 [Vulnerable]\n- When losing a clash against Hong Lu, gain 2 [Vulnerable] instead",
+          "name": "Tuttavia, non potete niente",
+          "desc": "[WhenUse] Ottiene [OutpouringAnger]\n[WhenUse] Recupera 8 PS\n[WhenUse] Se il bersaglio principale ha meno della metà dei PV, o se ha 10+ ([Burst] è [Laceration]), converte ogni Moneta di quest'Abilità in [SuperCoin]\n[DefeatDuel] Ottiene 1 [Vulnerable]\n- Se si è Scontrata con Hong Lu, ottiene 1 [Vulnerable] in più",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration] and 4 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration] e 4 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal 10 PS damage and raise target's Stagger Threshold by 50% of damage dealt"
+                  "desc": "[OnSucceedAttack] Infligge 10 danni ai PS e aumenta la Soglia di Stordimento del bersaglio del 50% del danno inflitto"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Binding] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Binding] nel turno successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 8 PS"
+                  "desc": "[OnSucceedAttack] Recupera 8 PS"
                 }
               ]
             }
@@ -1205,38 +1205,38 @@
       "levelList": [
         {
           "level": 1,
-          "name": "A Hierarch without the Xianren's blessing is a Hierarch in name only; she will die an insect's death!!!",
-          "desc": "[WhenUse] At 30% or less Core PV: Coin Power +3, deal +30% damage\n[WhenUse] At less than 50% Core PV: convert this Skill's Coins to [SuperCoin]s\n[DefeatDuel] Deal -50% damage and damage dealt by this Skill cannot Stagger the target",
+          "name": "Una Gerarca senza l'approvazione degli Xianren è Gerarca solo di nome. Soffrirà e morirà come un insetto!!!",
+          "desc": "[WhenUse] A 30%- PV del Nucleo: Potere Moneta +3, infligge +30% danni\n[WhenUse] A 50%- PV del Nucleo: converte ogni Moneta di quest'Abilità in [SuperCoin]\n[DefeatDuel] Infligge -50% danni; Il danno inflitto da quest'Abilità non Stordisce il bersaglio",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 Heaping Obedience"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 1 [PileObedient]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 5 PS"
+                  "desc": "[OnSucceedAttack] Recupera 5 PS"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [PileObedient]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 2 [PileObedient]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 5 PS"
+                  "desc": "[OnSucceedAttack] Recupera 5 PS"
                 }
               ]
             }
@@ -1249,8 +1249,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Be honored to be in audience of such a great man",
-          "desc": "Can Clash with this Skill regardless of Speed; cannot be Staggered before using this Skill\n[WhenUse] Gain 2 [Enhancement], 2 [Endurance], and 2 [AttackDmgUp] to the Body Part next turn\n[WhenUse] Heal this unit's PS up to 30 PS\n[DefeatDuel] Deal -50% damage and damage dealt by this Skill cannot Stagger the target",
+          "name": "Siate onorati di ricevere ascolto da un grande uomo",
+          "desc": "Ci si può Scontrare con quest'Abilità a prescindere dalla Velocità; Non può essere Stordita prima dell'uso di quest'Abilità\n[WhenUse] Applica 2 [Enhancement], 2 [Endurance] e 2 [AttackDmgUp] alla parte Corpo nel turno successivo\n[WhenUse] Porta i suoi PS a 30\n[DefeatDuel] Infligge -50% danni; Il danno inflitto da quest'Abilità non può Stordire il bersaglio",
           "coinlist": [
             {
               "coindescs": [
@@ -1258,7 +1258,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 10 [Sinking]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 10 [Sinking]"
                 }
               ]
             }
@@ -1271,8 +1271,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Be with this little girl, O Xianren",
-          "desc": "[StartBattle] Body and Core Parts gain Shield equal to 10% of their max PV, respectively\n[WhenUse] Body Part gains 1 [Enhancement], 1 [Endurance], and 2 [AttackDmgUp] next turn\n[WhenUse] Heal 15 PS",
+          "name": "Proteggete questa povera ragazza, O' Xianren",
+          "desc": "[StartBattle] Il Corpo e il Nucleo ottengono Scudo pari al 10% dei loro rispettivi PV max\n[WhenUse] Il Corpo ottiene 1 [Enhancement], 1 [Endurance] e 2 [AttackDmgUp] nel turno successivo\n[WhenUse] Recupera 15 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -1280,7 +1280,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Sinking] and +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Sinking] e +2 Conteggio [Sinking]"
                 }
               ]
             }
@@ -1293,8 +1293,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "O Xianren...!",
-          "desc": "Can Clash with this Skill regardless of Speed; cannot be Staggered before using this Skill\n[StartBattle] Generate 5 Elder Trees next turn\n[DefeatDuel] Deal -50% damage and this damage dealt by this Skill cannot Stagger the target\n[EndSkill] Ends turn",
+          "name": "O' Xianren...!",
+          "desc": "Ci si può Scontrare con quest'Abilità a prescindere dalla Velocità; Non può essere Stordita prima dell'uso di quest'Abilità\n[StartBattle] Evoca 5 Alberi Anziani nel turno successivo\n[DefeatDuel] Infligge -50% danni; Il danno inflitto da quest'Abilità non può Stordire il bersaglio\n[EndSkill] Termina il turno",
           "coinlist": [
             {
               "coindescs": [
@@ -1312,26 +1312,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Please give me, Shi Miyin, your strength!",
-          "desc": "If target has 50%+ PV, Coin Power +1",
+          "name": "Datemi la vostra forza, O' Xianren! Datela a Shi Miyin!",
+          "desc": "Se il bersaglio ha 50%+ PV, Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Among targets without [ImperfectEternalLife], choose and heal 15% PV for the ally with the least PV"
+                  "desc": "[OnSucceedAttack] Sceglie un bersaglio senza [ImperfectEternalLife] e cura l'alleato coi PV minori del 15% dei suoi PV"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Among targets without [ImperfectEternalLife], choose and heal 15% PV for the ally with the least PV"
+                  "desc": "[OnSucceedAttack] Sceglie un bersaglio senza [ImperfectEternalLife] e cura l'alleato coi PV minori del 15% dei suoi PV"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 }
               ]
             }
@@ -1344,8 +1344,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "An Offering of Extreme Extracted Immortality [極仙榨滴供養]",
-          "desc": "[CantIdentify]\nThis Skill cannot deal damage to allies\nCan Clash with this Skill regardless of Speed; cannot be Staggered before using this Skill\n[WhenUse] Coin Power +2 and deal +20% damage for every 1 ally with [SupremeEternalLife]\n[WhenUse] If there aren't any allies with [SupremeEternalLife], apply 200 Shield to all targets\n[EndSkill] Ends turn",
+          "name": "Un'Offerta di Immortalità Estrema Estratta [極仙榨滴供養]",
+          "desc": "[CantIdentify]\nNon infligge danno ai suoi alleati\nCi si pyò Scontrare con quest'Abilità a prescindere dalla Velocità; Non può essere Stordita prima dell'uso di quest'Abilità\n[WhenUse] Potere Moneta +2 e infligge +20% danni per ogni alleato con [SupremeEternalLife]\n[WhenUse] Se non ci sono alleati con [SupremeEternalLife], applica 200 Scudo su ogni bersaglio\n[EndSkill] Termina il turno",
           "coinlist": [
             {
               "coindescs": [
@@ -1353,10 +1353,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If the target is an ally, siphon their remaining PV and their [ImperfectEternalLife]. Then, apply the same amount of [ImperfectEternalLife] Stack to all of this unit's Parts next turn. Eliminate the Siphoned unit afterward."
+                  "desc": "[OnSucceedAttack] Se colpisce un alleato, gli sottrae ogni PV e [ImperfectEternalLife]. Poi, applica lo stesso numero di [ImperfectEternalLife] sottratte e le applica a tutte le sue Parti nel turno successivo.\n- Gli alleati a cui sono stati sottratti i PV vengono eliminati."
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 8 [Laceration] and 8 [Burst]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 8 [Laceration] and 8 [Burst]"
                 }
               ]
             }
@@ -1369,7 +1369,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "I greet you now",
+          "name": "Vi saluto",
           "desc": "",
           "coinlist": [
             {
@@ -1378,10 +1378,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal 5 PS damage"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 5 danni ai PS"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [Vulnerable] next turn"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 1 [Vulnerable] nel turno successivo"
                 }
               ]
             }
@@ -1394,8 +1394,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "I'll be docile",
-          "desc": "[CanDuelGuard]\n[WinDuel] Jia Mu heals 15 PS. At 0 PS, heal 30 PS instead.",
+          "name": "Sarò mansueto",
+          "desc": "[CanDuelGuard]\n[WinDuel] Jia Mu recupera 15 PS.\n- Se Jia Mu è a 0 PS, recupera invece 30 PS.",
           "coinlist": [
             {
               "coindescs": [
@@ -1413,8 +1413,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "I'll be your amusement",
-          "desc": "[CantDuel]\n[EndSkill] Kills this unit and heals Jia Mu's PS up to 45 PS. Apply 2 [Enhancement] and 5 [AttackDmgUp] to Jia Mu next turn",
+          "name": "Vi intratterrò",
+          "desc": "[CantDuel]\n[EndSkill] Uccide questa unità e porta i PS di Jia Mu a 45.\nApplica 2 [Enhancement] e 5 [AttackDmgUp] a Jia Mu nel turno successivo",
           "coinlist": [
             {
               "coindescs": [
@@ -1422,10 +1422,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal 15 PS damage "
+                  "desc": "[OnSucceedAttack] Infligge 15 danni ai PS"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Raise Stagger Threshold by 50% of damage dealt"
+                  "desc": "[OnSucceedAttack] Aumenta la Soglia di Stordimento del bersaglio del 50% del danno inflitto"
                 }
               ]
             }
@@ -1438,26 +1438,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Give me your vitality",
-          "desc": "If target has 50%+ PV, Coin Power +1",
+          "name": "Dammi la tua linfa",
+          "desc": "Se il bersaglio ha 50%+ PV, Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 20% of Max PV"
+                  "desc": "[OnSucceedAttack] Recupera il 20% dei PV max"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 20% of Max PV"
+                  "desc": "[OnSucceedAttack] Recupera il 20% dei PV max"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 }
               ]
             }
@@ -1470,13 +1470,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Please me",
-          "desc": "If target has 50%+ PV, Clash Power +2\n[WhenUse] Heal 10 PS for Jia Mu",
+          "name": "Soddisfami",
+          "desc": "Se il bersaglio ha 50%+ PV, Potere Scontro +2\n[WhenUse] Jia Mu recupera 10 PS",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Sinking]"
                 }
               ]
             }
@@ -1489,20 +1489,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "The Xianren's Wise Counsel",
-          "desc": "[WhenUse] Apply 1 [Enhancement] and 1 [AttackDmgUp] to Jia Mu next turn",
+          "name": "Il Saggio Consiglio degli Xianren",
+          "desc": "[WhenUse] Applica 1 [Enhancement] e 1 [AttackDmgUp] a Jia Mu nel turno successivo",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 }
               ]
             }
@@ -1515,13 +1515,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "The Xianren's True Counsel",
-          "desc": "[WhenUse] Apply 1 [Endurance] and 1 [Protection] to Jia Mu next turn",
+          "name": "L'Autentico Consiglio degli Xianren",
+          "desc": "[WhenUse] Applica 1 [Endurance] e 1 [Protection] a Jia Mu nel turno successivo",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Burst]"
                 }
               ]
             }
@@ -1534,7 +1534,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "I need more vitality...",
+          "name": "Mi serve più linfa...",
           "desc": "",
           "coinlist": [
             {
@@ -1553,8 +1553,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Nothing But a Meaningless Struggle...!",
-          "desc": "[CanDuelGuard]\n[WhenUse] Coin Power +1 for every 5 (sum of [Laceration] and [Burst] on target) (max 3)\n[WinDuel] Inflict +1 [Burst] Count, inflict 2 [DefenseDown]",
+          "name": "Nient'Altro che uno Sforzo Insensato...!",
+          "desc": "[CanDuelGuard]\n[WhenUse] Potere Moneta +1 per ogni 5 ([Laceration] + [Burst]) sul bersaglio (max 3)\n[WinDuel] Infligge +1 Conteggio [Burst] e 2 [DefenseDown]",
           "coinlist": [
             {
              "coindescs": [
