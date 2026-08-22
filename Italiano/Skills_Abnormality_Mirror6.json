@@ -857,27 +857,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "You do not know the fathoms of the eye's powers, its special nature",
-          "desc": "Prioritizes the target with the earliest Deployment Order\n[WhenUse] When there is Baoyu, the Precious Jade, convert all Coins on this Skill to [SuperCoin]s\n[WhenUse] Coin Power +1 for every 5 ([Laceration] + [Burst]) on target (max 2)",
+          "name": "Voi non conoscete la vastità dei poteri dell'occhio, la sua natura speciale.",
+          "desc": "Dà priorità all'unità con l'ordine di schieramento più alto\n[WhenUse] Se \"Baoyu, la Giada Preziosa\" è in campo, converte ogni Moneta di quest'Abilità in [SuperCoin]\n[WhenUse] Potere Moneta +1 per ogni 5 ([Laceration] + [Burst]) sul bersaglio (max 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count and +3 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration] e +3 Conteggio [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration] and 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration] e 1 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration] and 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration] e 1 [Burst]"
                 }
               ]
             }
@@ -890,16 +890,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Please Watch me, O Xianren...!",
-          "desc": "Prioritizes the target with the earliest Deployment Order\n[WinDuel] Gain 5 [Breath] and +2 [Breath] Count\n[DefeatDuel] Gain 2 [AttackUp] and 2 [DefenseDown] next turn",
+          "name": "Proteggetemi, O Xianren...!",
+          "desc": "Dà priorità all'unità con l'ordine di schieramento più alto\n[WinDuel] Ottiene 5 [Breath] e +2 Conteggio [Breath]\n[DefeatDuel] Gain 2 [AttackUp] and 2 [DefenseDown] next turn",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Binding] and 2 [Vulnerable] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Binding] e 2 [Vulnerable] nel turno successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count and +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration] e +2 Conteggio [Burst]"
                 }
               ]
             }
@@ -912,25 +912,25 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Still, you can do nothing",
-          "desc": "[WhenUse] Heal 8 SP\n[WhenUse] If the main target has less than 50% HP, or if the main target has 10+ ([Burst] + [Laceration]), convert this Skill's Coins to [SuperCoin]s\n[DefeatDuel] Gain 1 [Vulnerable]\n- When losing a clash against Hong Lu, gain 2 [Vulnerable] instead",
+          "name": "Tuttavia, non potete niente",
+          "desc": "[WhenUse] Recupera 8 PS\n[WhenUse] Se il bersaglio principale ha meno della metà dei PV, o se ha 10+ ([Burst] + [Laceration]), converte ogni Moneta di quest'Abilità in [SuperCoin]\n[DefeatDuel] Ottiene 1 [Vulnerable]\n- Se si è Scontrata con Hong Lu, ottiene 1 [Vulnerable] in più",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration] and 4 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration] e 4 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal 10 SP damage and raise target's Stagger Threshold by 50% of damage dealt"
+                  "desc": "[OnSucceedAttack] Infligge 10 danni ai PS e aumenta la Soglia di Stordimento del bersaglio del 50% del danno inflitto"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Binding] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Binding] nel turno successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 8 SP"
+                  "desc": "[OnSucceedAttack] Recupera 8 PS"
                 }
               ]
             }
