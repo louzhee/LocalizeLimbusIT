@@ -72,7 +72,7 @@
         {
           "level": 1,
           "name": "Carica Spezza-Linea della Cavalleria",
-          "desc": "[WhenUse] Se il bersaglio ha 6+ ([Burst] + [Vibration]), Potere Base +2\n[WhenUse] A -30 o meno SP, le Monete di questa unità cadranno sempre su Croce\n[DefeatDuel] Riduce la Potenza [Vibration] sul bersaglio di 2",
+          "desc": "[WhenUse] Se il bersaglio ha 6+ ([Burst] + [Vibration]), Potere Base +2\n[WhenUse] A -30 o meno PS, le Monete di questa unità cadranno sempre su Croce\n[DefeatDuel] Riduce la Potenza [Vibration] sul bersaglio di 2",
           "coinlist": [
             {
               "coindescs": [
@@ -335,8 +335,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Frontal Swirl (前旋斬)",
-          "desc": "[WhenUse] Coin Power +1 per ogni 5 [Laceration] sul bersaglio (max 2)\n[WhenUse] Ottiene 1 [SipOfAlcoholJin]",
+          "name": "Colpo Roteante Frontale (前旋斬)",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 5 [Laceration] sul bersaglio (max 2)\n[WhenUse] Ottiene 1 [SipOfAlcoholJin]",
           "coinlist": [
             {
               "coindescs": [
@@ -361,8 +361,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Way of the Open-throat Chugging (咽道酒)",
-          "desc": "[WhenUse] Coin Power +1 per ogni 5 [Laceration] sul bersaglio (max 2)\n[WhenUse] Ottiene 1 [SipOfAlcoholJin]",
+          "name": "La Via dello Scolare a Gola Aperta (咽道酒)",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 5 [Laceration] sul bersaglio (max 2)\n[WhenUse] Ottiene 1 [SipOfAlcoholJin]",
           "coinlist": [
             {
               "coindescs": [
@@ -391,7 +391,7 @@
         {
           "level": 1,
           "name": "Waterfall (落酒)",
-          "desc": "[WhenUse] Se il bersaglio ha 5+ [Laceration], Coin Power +1\n[WhenUse] Potere Base +1 per ogni [DrunkBlood] Count sul bersaglio (max 2)\n[WinDuel] Ottiene 1 [SipOfAlcoholJin]\n[DefeatDuel] Lose 2 [SipOfAlcoholJin]",
+          "desc": "[WhenUse] Se il bersaglio ha 5+ [Laceration], Potere Moneta +1\n[WhenUse] Potere Base +1 per ogni [DrunkBlood] sul bersaglio (max 2)\n[WinDuel] Ottiene 1 [SipOfAlcoholJin]\n[DefeatDuel] Lose 2 [SipOfAlcoholJin]",
           "coinlist": [
             {
               "coindescs": [
@@ -436,7 +436,7 @@
         {
           "level": 1,
           "name": "Drunklaim (取)",
-          "desc": "[WhenUse] Coin Power +1 per ogni 5 [Laceration] sul bersaglio (max 2)\n[WhenUse] Potere Base +1 per ogni [DrunkBlood] sul bersaglio (max 2)\n[WhenUse] At 3+ [SipOfAlcoholJin], convert all Coins to [SuperCoin]s\n[DefeatDuel] Infligge -80% danni; Il danno inflitto da quest'Abilità non può Stordire il bersaglio",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 5 [Laceration] sul bersaglio (max 2)\n[WhenUse] Potere Base +1 per ogni [DrunkBlood] sul bersaglio (max 2)\n[WhenUse] At 3+ [SipOfAlcoholJin], converte ogni Moneta in [SuperCoin]\n[DefeatDuel] Infligge -80% danni; Il danno inflitto da quest'Abilità non può Stordire il bersaglio",
           "coinlist": [
             {
               "coindescs": [
@@ -455,10 +455,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "Deal +1% damage per ogni (Potenza + Conteggio [Laceration]) on the target (max 20%)"
+                  "desc": "Infligge +1% danni per ogni (Potenza + Conteggio [Laceration]) sul bersaglio (max 20%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this unit has 3+ [SipOfAlcoholJin], reuse this Skill once (once per Skill)"
+                  "desc": "[OnSucceedAttack] If this unit has 3+ [SipOfAlcoholJin], riusa quest'Abilità (una volta per Abilità)"
                 }
               ]
             }
@@ -472,21 +472,21 @@
         {
           "level": 1,
           "name": "True Decapitation Deathblow (眞鎭終斬)",
-          "desc": "[WhenUse] Coin Power +5 per ogni 6 [Laceration] sul bersaglio (max 10)\n[WhenUse] Se il bersaglio ha [DrunkBlood], convert all Coins to [SuperCoin]s\n[DefeatDuel] Infligge -80% danni; Il danno inflitto da quest'Abilità non può Stordire il bersaglio",
+          "desc": "[WhenUse] Potere Moneta +5 per ogni 6 [Laceration] sul bersaglio (max 10)\n[WhenUse] Se il bersaglio ha [DrunkBlood], converte ogni Moneta [SuperCoin]\n[DefeatDuel] Infligge -80% danni; Il danno inflitto da quest'Abilità non può Stordire il bersaglio",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Deal +1% damage per ogni (Potenza + Conteggio [Laceration]) on the target (max 100%)"
+                  "desc": "Infligge +1% danni per ogni (Potenza + Conteggio [Laceration]) on the target (max 100%)"
                 },
                 {
-                  "desc": "Deal +10% damage per ogni [DrunkBlood] sul bersaglio (max 50%)"
+                  "desc": "Infligge +10% danni per ogni [DrunkBlood] sul bersaglio (max 50%)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Ottiene 2 [SipOfAlcoholJin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal ([DrunkBlood] sul bersaglio x 5) Lust damage (max 25)"
+                  "desc": "[OnSucceedAttack] Infligge ([DrunkBlood] sul bersaglio x 5) danni da Lussuria (max 25)"
                 }
               ]
             }
@@ -499,8 +499,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Intoxicated Leaning (醉靠)",
-          "desc": "[WhenUse] Ottiene 10 Shield per ogni [SipOfAlcoholJin] on self (max 50)\n[WhenUse] Se il bersaglio ha [DrunkBlood], infligge 5 [Laceration]",
+          "name": "Inclinazione Inebriata (醉靠)",
+          "desc": "[WhenUse] Ottiene 10 Shield per ogni [SipOfAlcoholJin] su di sé (max 50)\n[WhenUse] Se il bersaglio ha [DrunkBlood], infligge 5 [Laceration]",
           "coinlist": [
             {}
           ]
@@ -512,8 +512,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Drunken Returning Strike (醉回攻)",
-          "desc": "[DuelCounter]\n[WhenUse] Deal +20% damage per ogni [SipOfAlcoholJin] on self (max 100%)\n[WhenUse] Se il bersaglio ha [DrunkBlood], deal +50% damage",
+          "name": "Contraccolpo Ubriaco (醉回攻)",
+          "desc": "[DuelCounter]\n[WhenUse] Infligge +20% danni per ogni [SipOfAlcoholJin] su di sé (max 100%)\n[WhenUse] Se il bersaglio ha [DrunkBlood], infligge +50% danni",
           "coinlist": [
             {
               "coindescs": [
@@ -525,7 +525,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal ([DrunkBlood] sul bersaglio x 5) Lust damage (max 25)"
+                  "desc": "[OnSucceedAttack] Infligge ([DrunkBlood] sul bersaglio x 5) danni da Lussuria (max 25)"
                 }
               ]
             }
@@ -539,7 +539,7 @@
         {
           "level": 1,
           "name": "Ultimate True Decapitation Deathblow (眞-眞鎭終斬)",
-          "desc": "Prioritizes Jia Xichun\n[CantChangeTarget]\n[WhenUse] If this unit's Speed is faster than the target's, Coin Power +1\n[WhenUse] Ottiene 1 [AttackUp] and 1 [Agility] nel turno successivo per ogni [SipOfAlcoholJin] on self (max 3)\n[WinDuel] Ottiene +7 Atk Weight",
+          "desc": "Dà priorità a Jia Xichun\n[CantChangeTarget]\n[WhenUse] Se la Velocità di questa unità è maggiore di quella del bersaglio, Potere Moneta +1\n[WhenUse] Ottiene 1 [AttackUp] e 1 [Agility] nel turno successivo per ogni [SipOfAlcoholJin] su di sé (max 3)\n[WinDuel] Portata Attacco +7",
           "coinlist": [
             {
               "coindescs": [
@@ -547,16 +547,16 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Deal +1% damage per ogni (Potenza + Conteggio [Laceration]) on the target (max 100%)"
+                  "desc": "Infligge +1% danni per ogni (Potenza + Conteggio [Laceration]) sul bersaglio (max 100%)"
                 },
                 {
-                  "desc": "Deal +10% damage per ogni [DrunkBlood] sul bersaglio (max 50%)"
+                  "desc": "Infligge +10% danni per ogni [DrunkBlood] sul bersaglio (max 50%)"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 10 [Laceration]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal ([DrunkBlood] sul bersaglio x 10) Lust damage (max 50)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge ([DrunkBlood] sul bersaglio x 10) danni da Lussuria (max 50)"
                 }
               ]
             }
@@ -570,15 +570,15 @@
         {
           "level": 1,
           "name": "Drunken Decapitation Bladefall (落醉斬)",
-          "desc": "[WhenUse] Potere Base +1 per ogni 5 [Breath] on self (max 2)\n[WhenUse] If this unit's Speed is faster than the target's, Coin Power +1",
+          "desc": "[WhenUse] Potere Base +1 per ogni 5 [Breath] on self (max 2)\n[WhenUse] Se la Velocità di questa unità è maggiore di quella del bersaglio, Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Ultimate True Decapitation Deathblow (眞-眞鎭終斬) deals +20% damage"
+                  "desc": "\"Ultimate True Decapitation Deathblow\" (眞-眞鎭終斬) infligge +20% danni"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Reuse this Coin (5 times max)"
+                  "desc": "[CriticalOnSucceedAttack] Riusa questa Moneta (max 5 volte)"
                 }
               ]
             }
@@ -591,8 +591,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Drunken Shadowwalking (醉影步)",
-          "desc": "[WhenUse] Potere Base +6 per ogni 2 surviving ally (max 12)\n[OnSucceedEvade] Ottiene 3 [Breath]\n[EndBattle] Ottiene +2 [Breath] Count",
+          "name": "Camminare nelle Ombre Ubriaco (醉影步)",
+          "desc": "[WhenUse] Potere Base +6 per ogni 2 alleati in vita (max 12)\n[OnSucceedEvade] Ottiene 3 [Breath]\n[EndBattle] Ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -611,7 +611,7 @@
         {
           "level": 1,
           "name": "True Decapitation Deathblow",
-          "desc": "[StartBattle] HP does not drop below 1 before this Skill ends.\n[WhenUse] Ottiene 10 [AttackUp]\n[WhenUse] Ottiene 5 [Enhancement]\n[WhenUse] Ottiene 10 [AttackDmgUp]\n[DefeatDuel] Infligge -80% danni; Il danno inflitto da quest'Abilità non può Stordire il bersaglio",
+          "desc": "[StartBattle] Questa unità non può morire fino alla fine di quest'Abilità.\n[WhenUse] Ottiene 10 [AttackUp]\n[WhenUse] Ottiene 5 [Enhancement]\n[WhenUse] Ottiene 10 [AttackDmgUp]\n[DefeatDuel] Infligge -80% danni; Il danno inflitto da quest'Abilità non può Stordire il bersaglio",
           "coinlist": [
             {
               "coindescs": [
@@ -619,7 +619,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Deal +1% damage per ogni (Potenza + Conteggio [Laceration]) on the target (max 100%)"
+                  "desc": "Infligge +1% danni per ogni (Potenza + Conteggio [Laceration]) sul bersaglio (max 100%)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Ottiene 5 [SipOfAlcohol]"
@@ -635,7 +635,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Downward Slam",
+          "name": "Colpo Discendente",
           "desc": "",
           "coinlist": [
             {
@@ -654,8 +654,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Stick Combo",
-          "desc": "[WinDuel] Deal +30% damage",
+          "name": "Colpi di Bastone",
+          "desc": "[WinDuel] Infligge +30% danni",
           "coinlist": [
             {
               "coindescs": [
@@ -687,7 +687,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Powerful Swing",
+          "name": "Colpo Devastante",
           "desc": "[WinDuel] Ottiene 1 [Enhancement]",
           "coinlist": [
             {
@@ -778,7 +778,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal +20% damage"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +20% danni"
                 }
               ]
             },
@@ -788,7 +788,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal +50% damage"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +50% danni"
                 }
               ]
             }
@@ -802,7 +802,7 @@
         {
           "level": 1,
           "name": "Spirit Talisman School - Vilerage",
-          "desc": "[WhenUse] Final Power +1 per ogni 4 [Burst] sul bersaglio (max 4)\n[DefeatDuel] Deal -50% damage and damage dealt by this Skill cannot Stagger the target",
+          "desc": "[WhenUse] Potere Finale +1 per ogni 4 [Burst] sul bersaglio (max 4)\n[DefeatDuel] Deal -50% damage and damage dealt by this Skill cannot Stagger the target",
           "coinlist": [
             {
               "coindescs": [
@@ -849,7 +849,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Oh, damn...",
+          "name": "Oh cavolo...",
           "desc": "",
           "coinlist": [
             {
@@ -875,7 +875,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "What is this foolish pretend-fight?",
+          "name": "A che serve questo combattimento finto?",
           "desc": "",
           "coinlist": [
             {},
@@ -896,7 +896,7 @@
         {
           "level": 1,
           "name": "...",
-          "desc": "[WhenUse] Se il bersaglio ha 3+ types of negative effects, Potere Base +1\n[WhenUse] Coin Power +1 per ogni 6 [Burst] sul bersaglio (max 2)\n[DefeatDuel] Ottiene 1 [Vulnerable]",
+          "desc": "[WhenUse] Se il bersaglio ha 3+ effetti negativi diversi, Potere Base +1\n[WhenUse] Potere Moneta +1 per ogni 6 [Burst] sul bersaglio (max 2)\n[DefeatDuel] Ottiene 1 [Vulnerable]",
           "coinlist": [
             {
               "coindescs": [
@@ -907,7 +907,7 @@
                   "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
                 },
                 {
-                  "desc": "Deal 5 SP damage"
+                  "desc": "Infligge 5 danni ai PS"
                 }
               ]
             },
@@ -920,7 +920,7 @@
                   "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
                 },
                 {
-                  "desc": "Deal 5 SP damage"
+                  "desc": "Infligge 5 danni ai PS"
                 }
               ]
             }
@@ -933,8 +933,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "What's this Child's Play?",
-          "desc": "[WhenUse] Heal 15 SP\n[WhenUse] Se il bersaglio ha 3+ types of negative effects, Potere Base +1",
+          "name": "Perché Stiamo Giocando come dei Bambini?",
+          "desc": "[WhenUse] Recupera 15 PS\n[WhenUse] Se il bersaglio ha 3+ effetti negativi diversi, Potere Base +1",
           "coinlist": [
             {
               "coindescs": [

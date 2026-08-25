@@ -5,13 +5,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Pressure Point Penetration",
+          "name": "Perforare il Punto di Pressione",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 }
               ]
             }
@@ -24,20 +24,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Pressure Point Crush",
-          "desc": "[WhenUse] If target has 3+ [Laceration], Clash Power +1\n[WhenUse] If target has 4+ [Vibration], Coin Power +1",
+          "name": "Schiacciare il Punto di Pressione",
+          "desc": "[WhenUse] Se il bersaglio ha 3+ [Laceration], Potere Scontro +1\n[WhenUse] Se il bersaglio ha 4+ [Vibration], Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
                 }
               ]
             }
@@ -50,36 +50,36 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Palanquin Crush",
-          "desc": "[WhenUse] If target has 3+ [Laceration], Clash Power +1\n[WhenUse] If target has 4+ [Vibration], Coin Power +1",
+          "name": "Schiaccia la Palanchina",
+          "desc": "[WhenUse] Se il bersaglio ha 3+ [Laceration], Potere Scontro +1\n[WhenUse] Se il bersaglio ha 4+ [Vibration], Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             }
@@ -93,7 +93,7 @@
         {
           "level": 1,
           "name": "Guardia",
-          "desc": "[WhenUse] Gain 3 Shield for every type of negative effect on self (max 10)"
+          "desc": "[WhenUse] Ottiene 3 Scudo per ogni effetto negativo diverso su di sé (max 10)"
         }
       ]
     },
@@ -102,13 +102,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Pressure Point Stab",
+          "name": "Coltellata al Punto di Pressione",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             }
@@ -121,20 +121,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Pressure Point Strike",
-          "desc": "[WhenUse] If target has 3+ [Laceration], Clash Power +1\n[WhenUse] If target has 4+ [Vibration], Coin Power +1",
+          "name": "Colpo al Punto di Pressione",
+          "desc": "[WhenUse] Se il bersaglio ha 3+ [Laceration], Potere Scontro +1\n[WhenUse] Se il bersaglio ha 4+ [Vibration], Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]"
                 }
               ]
             }
@@ -147,36 +147,36 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Palanquin Buster",
-          "desc": "[WhenUse] If target has 3+ [Laceration] Count, Clash Power +1\n[WhenUse] If target has 4+ [Vibration] Count, Coin Power +1",
+          "name": "Spacca la Palanchina",
+          "desc": "[WhenUse] Se il bersaglio ha 3+ Conteggio [Laceration], Potere Scontro +1\n[WhenUse] Se il bersaglio ha 4+ Conteggio [Vibration], Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             }
@@ -190,7 +190,7 @@
         {
           "level": 1,
           "name": "Guardia",
-          "desc": "[WhenUse] Gain 3 Shield for every type of negative effect on self (max 10)"
+          "desc": "[WhenUse] Ottiene 3 Scudo per ogni effetto negativo diverso su di sé (max 10)"
         }
       ]
     },
@@ -199,13 +199,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Pinpoint Strike",
+          "name": "Colpo Diretto",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [AttackDown] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 1 [AttackDown] nel turno successivo"
                 }
               ]
             }
@@ -218,14 +218,14 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Circular Roundhouse Point-Strike",
-          "desc": "Gain Clash Power +1 for every type of negative effect on self (max 3)",
+          "name": "Colpo Diretto Circolare",
+          "desc": "Potere Scontro +1 per ogni effetto negativo diverso su di sé (max 3)",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [AttackDown] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 2 [AttackDown] nel turno successivo"
                 }
               ]
             }
@@ -238,27 +238,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Circular Roundhouse Strike",
-          "desc": "Gain Clash Power +1 for every type of negative effect on self (max 3)",
+          "name": "Colpo Circolare",
+          "desc": "Potere Scontro +1 per ogni effetto negativo diverso su di sé (max 3)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [AttackDown] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 2 [AttackDown] nel turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [AttackDown] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 2 [AttackDown] nel turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [AttackDown] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 2 [AttackDown] nel turno successivo"
                 }
               ]
             }
@@ -272,7 +272,7 @@
         {
           "level": 1,
           "name": "Contrattacco",
-          "desc": "Gain Coin Power +1 for every type of negative effect on self (max 3)",
+          "desc": "Potere Moneta +1 per ogni effetto negativo diverso su di sé (max 3)",
           "coinlist": [
             {}
           ]
@@ -284,13 +284,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Center Strike",
+          "name": "Colpo Centrale",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [DefenseDown] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 1 [DefenseDown] nel turno successivo"
                 }
               ]
             }
@@ -303,14 +303,14 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Semicircular Roundhouse Point-Strike",
-          "desc": "Gain Clash Power +1 for every type of negative effect on self (max 3)",
+          "name": "Colpo Diretto Semi-Circolare",
+          "desc": "Potere Scontro +1 per ogni effetto negativo diverso su di sé (max 3)",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [DefenseDown] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 2 [DefenseDown] nel turno successivo"
                 }
               ]
             }
@@ -323,27 +323,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Semicircular Roundhouse Strike",
-          "desc": "Gain Clash Power +1 for every type of negative effect on self (max 3)",
+          "name": "Colpo Semi-Circolare",
+          "desc": "Potere Scontro +1 per ogni effetto negativo diverso su di sé (max 3)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [DefenseDown] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 2 [DefenseDown] nel turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [DefenseDown] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 2 [DefenseDown] nel turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [DefenseDown] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 2 [DefenseDown] nel turno successivo"
                 }
               ]
             }
@@ -357,7 +357,7 @@
         {
           "level": 1,
           "name": "Contrattacco",
-          "desc": "Gain Coin Power +1 for every type of negative effect on self (max 3)",
+          "desc": "Potere Moneta +1 per ogni effetto negativo diverso su di sé (max 3)",
           "coinlist": [
             {}
           ]
@@ -369,13 +369,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Clawing",
+          "name": "Graffi",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
                 }
               ]
             }
@@ -388,20 +388,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Wild Clawing",
-          "desc": "[WhenUse] If target has 4+ [Burst], Base Power +1",
+          "name": "Graffi Selvaggi",
+          "desc": "[WhenUse] Se il bersaglio ha 4+ [Burst], Potere Base +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 }
               ]
             }
@@ -414,21 +414,21 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Tear Off",
-          "desc": "[WhenUse] Base Power +1 for every 20% missing PV on self (max 4)\n[WhenUse] Coin Power +1 for every 6 [Burst] (max 2)",
+          "name": "Strappare",
+          "desc": "[WhenUse] Potere Base +1 per ogni 20% dei PV mancanti su di sé (max 4)\n[WhenUse] Potere Moneta +1 per ogni 6 [Burst] (max 2)",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 }
               ]
             },
@@ -438,7 +438,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst] and +3 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst] e +3 Conteggio [Burst]"
                 }
               ]
             }
@@ -457,7 +457,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Burst]"
                 }
               ]
             }
@@ -470,8 +470,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Leaping Cracked Jar",
-          "desc": "[EndSkill] Randomly inflict 2 of the following effects next turn. Dies after dealing 10 damage\n- 3 [AttackDown]\n- 3 [DefenseDown]\n- 1 [Paralysis]\n- 2 [Binding]",
+          "name": "Salto dalla Fessura della Giara",
+          "desc": "[EndSkill] Sceglie 2 tra questi effetti e li infligge nel turno successivo. Dopo aver inflitto 10 danni, muore.\n- 3 [AttackDown]\n- 3 [DefenseDown]\n- 1 [Paralysis]\n- 2 [Binding]",
           "coinlist": [
             {
               "coindescs": [
@@ -489,13 +489,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Claw Scratch",
+          "name": "Graffi da Artiglio",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
                 }
               ]
             }
@@ -508,20 +508,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Wild Scratching",
-          "desc": "[WhenUse] If target has 4+ [Burst], Base Power +1",
+          "name": "Artigli Selvaggi",
+          "desc": "[WhenUse] Se il bersaglio ha 4+ [Burst], Potere Base +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 }
               ]
             }
@@ -534,21 +534,21 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Latching On",
-          "desc": "[WhenUse] Base Power +1 for every 20% missing PV on self (max 4)\n[WhenUse] Coin Power +1 for every 6 [Burst] (max 2)",
+          "name": "Attaccarsi",
+          "desc": "[WhenUse] Potere Base +1 per ogni 20% dei PV mancanti su di sé (max 4)\n[WhenUse] Potere Moneta +1 per ogni 6 [Burst] (max 2)",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 }
               ]
             },
@@ -558,7 +558,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 }
               ]
             }
@@ -577,7 +577,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst] and +1 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst] e +1 Conteggio [Burst]"
                 }
               ]
             }
@@ -590,8 +590,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Leaping Cracked Jar",
-          "desc": "[EndSkill] Randomly inflict 2 of the following effects next turn. Dies after dealing 10 damage\n- 3 [AttackDown]\n- 3 [DefenseDown]\n- 1 [Paralysis]\n- 2 [Binding]",
+          "name": "Salto dalla Fessura della Giara",
+          "desc": "[EndSkill] Sceglie 2 tra questi effetti e li infligge nel turno successivo. Dopo aver inflitto 10 danni, muore.\n- 3 [AttackDown]\n- 3 [DefenseDown]\n- 1 [Paralysis]\n- 2 [Binding]",
           "coinlist": [
             {
               "coindescs": [
@@ -609,13 +609,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Wound Digging",
+          "name": "Scavare le Ferite",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst]"
                 }
               ]
             }
@@ -628,20 +628,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Wild Digging",
-          "desc": "[WhenUse] If target has 4+ [Burst], Coin Power +1",
+          "name": "Scavare Selvaggio",
+          "desc": "[WhenUse] Se il bersaglio ha 4+ [Burst], Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 }
               ]
             }
@@ -654,21 +654,21 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Flesh Digging",
-          "desc": "[WhenUse] Base Power +1 for every 20% missing PV on self (max 4)\n[WhenUse] Coin Power +1 for every 6 [Burst] (max 2)",
+          "name": "Scavare la Carne",
+          "desc": "[WhenUse] Potere Base +1 per ogni 20% dei PV mancanti su di sé (max 4)\n[WhenUse] Potere Moneta +1 per ogni 6 [Burst] (max 2)",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
                 }
               ]
             },
@@ -678,7 +678,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +4 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +4 Conteggio [Burst]"
                 }
               ]
             }
@@ -697,7 +697,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
                 }
               ]
             }
@@ -710,8 +710,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Leaping Cracked Jar",
-          "desc": "[EndSkill] Randomly inflict 2 of the following effects next turn. Dies after dealing 10 damage\n- 3 [AttackDown]\n- 3 [DefenseDown]\n- 1 [Paralysis]\n- 2 [Binding]",
+          "name": "Salto dalla Fessura della Giara",
+          "desc": "[EndSkill] Sceglie 2 tra questi effetti e li infligge nel turno successivo. Dopo aver inflitto 10 danni, muore.\n- 3 [AttackDown]\n- 3 [DefenseDown]\n- 1 [Paralysis]\n- 2 [Binding]",
           "coinlist": [
             {
               "coindescs": [
@@ -729,26 +729,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Wound Clawing",
-          "desc": "[WhenUse] If target has 4+ [Burst], Coin Power +1",
+          "name": "Graffiare Ferite",
+          "desc": "[WhenUse] Se il bersaglio ha 4+ [Burst], Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             }
@@ -761,16 +761,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Flesh Tearing",
-          "desc": "[WhenUse] Coin Power +1 for every 4 [Burst] on target (max 2)",
+          "name": "Strappare la Carne",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 4 [Burst] sul bersaglio (max 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]"
                 }
               ]
             }
@@ -783,8 +783,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Writhing in Loneliness",
-          "desc": "[WhenUse] Base Power +1 for every 10% missing PV on self (max 5)\n[WhenUse] Coin Power +1 for every 4 [Burst] on target (max 3)\n\n[WhenUse] If target has 10+ ([Burst] + [Burst] Count), inflict [Burst] Count equal to [Burst] Count on target",
+          "name": "Attorcigliarsi in Solitudine",
+          "desc": "[WhenUse] Potere Base +1 per ogni 10% dei PV mancanti su di sé (max 5)\n[WhenUse] Potere Moneta +1 per ogni 4 [Burst] sul bersaglio (max 3)\n\n[WhenUse] Se il bersaglio ha 10+ (Potenza + Conteggio [Burst]), infligge Conteggio [Burst] pari al Conteggio [Burst] sul bersaglio",
           "coinlist": [
             {
               "coindescs": [
@@ -792,10 +792,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 }
               ]
             },
@@ -805,10 +805,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 }
               ]
             },
@@ -818,10 +818,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 }
               ]
             },
@@ -831,10 +831,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 15+ ([Burst] + [Burst] Count), inflict ([Burst] Potency x [Burst] Count) Gluttony damage. (max 40)"
+                  "desc": "[OnSucceedAttack] A 15+ (Potenza + Conteggio [Burst]), infligge (Potenza x Conteggio [Burst]) danni da Gola (max 40)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +5 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +5 Conteggio [Laceration]"
                 }
               ]
             }
@@ -853,13 +853,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has 5+ [Burst], reuse this Skill (2 times max)"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 5+ [Burst], riusa quest'Abilità (max 2 volte)"
                 }
               ]
             }
@@ -872,8 +872,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Leaping Cracked Jar",
-          "desc": "[EndSkill] Randomly inflict 3 of the following effects next turn. Dies after dealing 30 damage\n- 4 [AttackDown]\n- 4 [DefenseDown]\n- 2 [Paralysis]\n- 2 [Binding]",
+          "name": "Salto dalla Fessura della Giara",
+          "desc": "[EndSkill] Sceglie 2 tra questi effetti e li infligge nel turno successivo. Dopo aver inflitto 30 danni, muore.\n- 3 [AttackDown]\n- 3 [DefenseDown]\n- 1 [Paralysis]\n- 2 [Binding]",
           "coinlist": [
             {
               "coindescs": [
@@ -891,13 +891,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Slash",
+          "name": "Taglio",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             }
@@ -910,20 +910,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Pressuring",
-          "desc": "[WhenUse] If target has 5+ [Laceration], Clash Power +1",
+          "name": "Mettere Pressione",
+          "desc": "[WhenUse] Se il bersaglio ha 5+ [Laceration], Potere Scontro +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             }
@@ -936,27 +936,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Ruptured Image Execution",
-          "desc": "[WhenUse] Coin Power +1 for every 5 [Laceration] on target (max 2)",
+          "name": "Esecuzione dell'Immagine Lacerata",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 5 [Laceration] sul bersaglio (max 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +1% damage for every ([Laceration] + [Laceration] Count) on the target (max 20%)"
+                  "desc": "Infligge +1% danni per ogni (Potenza + Conteggio [Laceration]) sul bersaglio (max 20%)"
                 }
               ]
             }
@@ -970,15 +970,15 @@
         {
           "level": 1,
           "name": "Contrattacco",
-          "desc": "[WhenUse] If target has 6+ [Laceration], Base Power +1",
+          "desc": "[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Base +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [DefenseDown] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 3 [DefenseDown] nel turno successivo"
                 }
               ]
             }
@@ -991,13 +991,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sweep Away",
+          "name": "Colpo Rapido",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]"
                 }
               ]
             }
@@ -1010,20 +1010,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Cornering",
-          "desc": "[WhenUse] If target has 5+ [Laceration], Clash Power +1",
+          "name": "Circondare",
+          "desc": "[WhenUse] Se il bersaglio ha 5+ [Laceration], Potere Scontro +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             }
@@ -1036,27 +1036,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Execution of the Ruptured Image",
-          "desc": "[WhenUse] Coin Power +1 for every 5 [Laceration] on target (max 2)",
+          "name": "Esecuzione dell'Immagine Lacerata",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 5 [Laceration] sul bersaglio (max 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +1% damage for every ([Laceration] + [Laceration] Count) on the target (max 20%)"
+                  "desc": "Infligge +1% danni per ogni (Potenza + Conteggio [Laceration]) sul bersaglio (max 20%)"
                 }
               ]
             }
@@ -1070,15 +1070,15 @@
         {
           "level": 1,
           "name": "Contrattacco",
-          "desc": "[WhenUse] If target has 6+ [Laceration], Base Power +1",
+          "desc": "[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Base +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [AttackDown] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 3 [AttackDown] nel turno successivo"
                 }
               ]
             }
@@ -1091,13 +1091,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Parrying Slash",
-          "desc": "[WhenUse] If target has 8+ [Laceration], Clash Power +1",
+          "name": "Parata Tagliente",
+          "desc": "[WhenUse] Se il bersaglio ha 8+ [Laceration], Potere Scontro +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration]"
                 }
               ]
             }
@@ -1110,20 +1110,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Pressuring Slash",
-          "desc": "[WhenUse] If target has 5+ [Laceration], Clash Power +1",
+          "name": "Taglio Stressante",
+          "desc": "[WhenUse] Se il bersaglio ha 5+ [Laceration], Potere Scontro +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             }
@@ -1137,12 +1137,12 @@
         {
           "level": 1,
           "name": "Waveslash",
-          "desc": "[WhenUse] Coin Power +1 for every 5 [Laceration] on target (max 2)",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 5 [Laceration] sul bersaglio (max 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             },
@@ -1152,14 +1152,14 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Deal +1% damage for every ([Laceration] + [Laceration] Count) on the target (max 20%)"
+                  "desc": "Infligge +1% danni per ogni (Potenza + Conteggio [Laceration]) sul bersaglio (max 20%)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Laceration]"
                 }
               ]
             }
@@ -1172,13 +1172,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Becalming of a Bewildered Steed",
-          "desc": "[WhenUse] Coin Power +1 for every 5 [Laceration] on target (max 3)",
+          "name": "Ritorno alla Quiete di un Destriero Imbizzarrito",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 5 [Laceration] sul bersaglio (max 3)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Laceration] and +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Laceration] e +3 Conteggio [Laceration]"
                 }
               ]
             },
@@ -1188,7 +1188,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Deal +2% damage for every ([Laceration] + [Laceration] Count) on the target (max 50%)"
+                  "desc": "Infligge +2% danni per ogni (Potenza + Conteggio [Laceration]) sul bersaglio (max 50%)"
                 }
               ]
             }
@@ -1202,22 +1202,22 @@
         {
           "level": 1,
           "name": "Contrattacco",
-          "desc": "[WhenUse] If target has 6+ [Laceration], Base Power +1",
+          "desc": "[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Base +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Binding] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Binding] nel turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [AttackDown] and [DefenseDown] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 3 [AttackDown] e [DefenseDown] nel turno successivo"
                 }
               ]
             }
@@ -1230,13 +1230,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Frontal Swirl",
-          "desc": "[WhenUse] If target has 5+ [Laceration], Base Power +1\n[WhenUse] Gain 1 [SipOfAlcohol]",
+          "name": "Colpo Roteante Frontale",
+          "desc": "[WhenUse] Se il bersaglio ha 5+ [Laceration], Potere Base +1\n[WhenUse] Ottiene 1 [SipOfAlcohol]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Laceration]"
                 }
               ]
             }
@@ -1249,20 +1249,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Way of the Open-throat Chugging",
-          "desc": "[WhenUse] Base Power +1 for every 5 [Laceration] on target (max 2)\n[WhenUse] Gain 1 [SipOfAlcohol]",
+          "name": "La Via dello Scolare a Gola Aperta",
+          "desc": "[WhenUse] Potere Base +1 per ogni 5 [Laceration] sul bersaglio (max 2)\n[WhenUse] Ottiene 1 [SipOfAlcohol]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             }
@@ -1275,30 +1275,30 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Waterfall",
-          "desc": "[WhenUse] If target has 5+ [Laceration], Coin Power +1\n\n[DefeatDuel] Lose 3 [SipOfAlcohol]",
+          "name": "Cascata",
+          "desc": "[WhenUse] Se il bersaglio ha 5+ [Laceration], Potere Moneta +1\n\n[DefeatDuel] Perde 3 [SipOfAlcohol]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Laceration]"
                 },
                 {
-                  "desc": "[WinDuelAttack] Inflict +3 [Laceration] Count"
+                  "desc": "[WinDuelAttack] Infligge +3 Conteggio [Laceration]"
                 }
               ]
             }
@@ -1312,29 +1312,29 @@
         {
           "level": 1,
           "name": "Drunklaim",
-          "desc": "[WhenUse] Coin Power +1 for every 5 [Laceration] on target (max 2)\n[WhenUse] At 3+ [SipOfAlcohol], convert all Coins on this Skill to [SuperCoin]s",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 5 [Laceration] sul bersaglio (max 2)\n[WhenUse] A 3+ [SipOfAlcohol], converte ogni Moneta di quest'Abilità in [SuperCoin]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +1% damage for every ([Laceration] + [Laceration] Count) on the target (max 20%)"
+                  "desc": "Infligge +1% danni per ogni (Potenza + Conteggio [Laceration]) sul bersaglio (max 20%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this unit has 3+ [SipOfAlcohol], reuse this Skill once (once per Skill)"
+                  "desc": "[OnSucceedAttack] Se questa unità ha 3+ [SipOfAlcohol], riusa quest'Abilità (una volta per Abilità)"
                 }
               ]
             }
@@ -1347,23 +1347,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Drunken Returning Strike",
-          "desc": "[WhenUse] If target has 5+ [Laceration], Base Power +1",
+          "name": "Contraccolpo Ubriaco",
+          "desc": "[WhenUse] Se il bersaglio ha 5+ [Laceration], Potere Base +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Paralysis] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Paralysis] nel turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [AttackDown] and [DefenseDown] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 5 [AttackDown] e [DefenseDown] nel turno successivo"
                 }
               ]
             }
@@ -1377,15 +1377,15 @@
         {
           "level": 1,
           "name": "True Decapitation Deathblow",
-          "desc": "[StartBattle] PV does not drop below 1 before this Skill ends.\n[WhenUse] Gain 10 [AttackUp]\n[WhenUse] Gain 5 [Enhancement]\n[WhenUse] Gain 10 [AttackDmgUp]",
+          "desc": "[StartBattle] Questa unità non può morire fino alla fine di quest'Abilità.\n[WhenUse] Ottiene 10 [AttackUp]\n[WhenUse] Ottiene 5 [Enhancement]\n[WhenUse] Ottiene 10 [AttackDmgUp]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Deal +1% damage for every ([Laceration] + [Laceration] Count) on the target (max 100%)"
+                  "desc": "Infligge +1% danni per ogni (Potenza + Conteggio [Laceration]) sul bersaglio (max 100%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 5 [SipOfAlcohol]"
+                  "desc": "[OnSucceedAttack] Ottiene 5 [SipOfAlcohol]"
                 }
               ]
             }
@@ -1398,8 +1398,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Intoxicated Leaning",
-          "desc": "[WhenUse] Gain 5 Shield for every [SipOfAlcohol] on self (max 25)\n[WhenUse] Gain [SipOfAlcohol] equal to the number of Skills targeting this unit (max 5)",
+          "name": "Inclinazione Inebriata",
+          "desc": "[WhenUse] Ottiene 5 Shield per ogni [SipOfAlcohol] su di sé (max 25)\n[WhenUse] Ottiene [SipOfAlcohol] pari al numero di Abilità che bersagliano questa unità (max 5)",
           "coinlist": [
             {
               "coindescs": [
