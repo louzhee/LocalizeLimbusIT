@@ -90,7 +90,7 @@
                   "desc": "[OnSucceedAttack] Infligge 3 [Vibration] e +3 Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Innesca [Switch_Vibration] in [VibrationIgnition]"
+                  "desc": "[OnSucceedAttack] Trasforma [Switch_Vibration] in [VibrationIgnition]"
                 }
               ]
             },
@@ -132,7 +132,7 @@
                   "desc": "[OnSucceedAttack] Infligge 3 [Vibration] e +3 Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Innesca [Switch_Vibration] in [VibrationIgnition]"
+                  "desc": "[OnSucceedAttack] Trasforma [Switch_Vibration] in [VibrationIgnition]"
                 }
               ]
             },
@@ -207,7 +207,7 @@
         {
           "level": 1,
           "name": "Sezionatura di Elefante",
-          "desc": "A 6+ [Breath], Potere Moneta +1\nPotere Moneta +1 per ogni 4 ([Combustion] + [Vibration]) sul bersaglio (max 2)\n[WhenUse] Ottiene +3 Conteggio [Breath]\n[DefeatDuel] Infligge -50% danni finali e non infligge Colpi Critici.\nI Danni inflitti da quest'Abilità non Stordiscono il bersaglio",
+          "desc": "A 6+ [Breath], Potere Moneta +1\nPotere Moneta +1 per ogni 4 ([Combustion] + [Vibration]) sul bersaglio (max 2)\n[WhenUse] Ottiene +3 Conteggio [Breath]\n[DefeatDuel] Infligge -50% danni finali e non infligge Colpi Critici.\nI danni inflitti da quest'Abilità non Stordiscono il bersaglio",
           "coinlist": [
             {
               "coindescs": [
@@ -250,7 +250,7 @@
                   "desc": "Usa 1 [AccelBullet]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Innesca [Switch_Vibration] in [VibrationIgnition]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Trasforma [Switch_Vibration] in [VibrationIgnition]"
                 }
               ]
             },
@@ -327,7 +327,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Innesca [Switch_Vibration] in [VibrationIgnition]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Trasforma [Switch_Vibration] in [VibrationIgnition]"
                 }
               ]
             },
@@ -357,7 +357,7 @@
         {
           "level": 1,
           "name": "Precognizione",
-          "desc": "Quando Schiva tutte le Monete di un'Abilità nemica, usa \"Sezionatura di Coniglio\" come Attacco Indiscriminato sull'attaccante\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Potere Base +1 per ogni 2 [FutureEyeOn]</u></b></mark></color>\n[WhenUse] [FullReload] (una volta per turno)\n[OnSucceedEvade] Ottiene 3 [Breath] (2 volte per turno)\n[OnSucceedEvade] Recupera 2 PS (5 volte per turno)\n[OnDefeatEvade] Perde 5 PS",
+          "desc": "Quando Schiva tutte le Monete di un'Abilità nemica, usa \"Sezionatura di Coniglio\" come Attacco Incontrastato sull'attaccante\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Potere Base +1 per ogni 2 [FutureEyeOn]</u></b></mark></color>\n[WhenUse] [FullReload] (una volta per turno)\n[OnSucceedEvade] Ottiene 3 [Breath] (2 volte per turno)\n[OnSucceedEvade] Recupera 2 PS (5 volte per turno)\n[OnDefeatEvade] Perde 5 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -915,7 +915,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] If this unit has [ReinforcedTattooSpider], infligge 2 [Paralysis]"
@@ -958,7 +958,7 @@
         {
           "level": 1,
           "name": "Timbro Della Vendetta",
-          "desc": "Potere Base +1 per ogni 3 [Laceration] on target (max 3)\n[EndSkill] Consume all [ResentmentSpider] on self and ottiene 1 [DaughterEducationSpider]",
+          "desc": "Potere Base +1 per ogni 3 [Laceration] on target (max 3)\n[EndSkill] Consume all [ResentmentSpider] on self e ottiene 1 [DaughterEducationSpider]",
           "coinlist": [
             {
               "coindescs": [
@@ -976,7 +976,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             },
@@ -996,7 +996,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +2 [Laceration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] If this unit has [ReinforcedTattooSpider], infligge 2 [Paralysis]"
@@ -1055,7 +1055,7 @@
         {
           "level": 1,
           "name": "Infrazione Del Regolamento",
-          "desc": "When hit, Reuse this Skill once per ogni [ReinforcedTattooSpider] on self (1 time max)\n[WhenUse] If this unit has [ReinforcedTattooSpider], On Coin Hit, infligge +1 [Laceration] Count",
+          "desc": "When hit, Reuse this Skill once per ogni [ReinforcedTattooSpider] on self (1 time max)\n[WhenUse] If this unit has [ReinforcedTattooSpider], On Coin Hit, infligge +1 Conteggio [Laceration]",
           "coinlist": [
             {
               "coindescs": [
@@ -1138,7 +1138,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] If this unit has [ReinforcedTattooSpider], infligge 2 [Paralysis]"
@@ -1181,7 +1181,7 @@
         {
           "level": 1,
           "name": "Timbro Della Vendetta",
-          "desc": "Potere Base +1 per ogni 3 [Laceration] on target (max 3)\n[WhenUse] If this unit has [ReinforcedTattooSpider], infligge 1 [Laceration] On Coin Hit\n[EndSkill] Consume all [ResentmentSpider] on self and ottiene 1 [DaughterEducationSpider]",
+          "desc": "Potere Base +1 per ogni 3 [Laceration] on target (max 3)\n[WhenUse] If this unit has [ReinforcedTattooSpider], infligge 1 [Laceration] On Coin Hit\n[EndSkill] Consume all [ResentmentSpider] on self e ottiene 1 [DaughterEducationSpider]",
           "coinlist": [
             {
               "coindescs": [
@@ -1199,7 +1199,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             },
@@ -1219,7 +1219,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +2 [Laceration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] If this unit has [ReinforcedTattooSpider], infligge 2 [Paralysis]"
@@ -1287,7 +1287,7 @@
         {
           "level": 1,
           "name": "Infrazione Del Regolamento",
-          "desc": "When hit, <color=#ff6000><mark=#ff000040><b><u>Reuse this Skill once per ogni [ReinforcedTattooSpider] on self</u></b></mark></color> (1 time max)\n[WhenUse] If this unit has [ReinforcedTattooSpider], On Coin Hit, infligge +1 [Laceration] Count\n[BeforeAttack] At 50% or less HP, deal +40% damage",
+          "desc": "When hit, <color=#ff6000><mark=#ff000040><b><u>Reuse this Skill once per ogni [ReinforcedTattooSpider] on self</u></b></mark></color> (1 time max)\n[WhenUse] If this unit has [ReinforcedTattooSpider], On Coin Hit, infligge +1 Conteggio [Laceration]\n[BeforeAttack] At 50% or less HP, deal +40% damage",
           "coinlist": [
             {
               "coindescs": [
@@ -1439,7 +1439,7 @@
         {
           "level": 1,
           "name": "Colpo Devasta-Fixer!",
-          "desc": "Thermal Blade Skill. \nWhen in [HeatingWireOnSpider] state, this Skill activates its Thermal Blade effects\nIf target has 4+ [Laceration], Potere Moneta +1\n[WhenUse] If this unit has [ReinforcedTattooSpiderDaughter], infligge +1 [Laceration] Count On Coin Hit\n[EndSkill] At 2+ [GotACompliment], ottiene 1 [VioletDamageUp] il turno successivo",
+          "desc": "Thermal Blade Skill. \nWhen in [HeatingWireOnSpider] state, this Skill activates its Thermal Blade effects\nIf target has 4+ [Laceration], Potere Moneta +1\n[WhenUse] If this unit has [ReinforcedTattooSpiderDaughter], infligge +1 Conteggio [Laceration] On Coin Hit\n[EndSkill] At 2+ [GotACompliment], ottiene 1 [VioletDamageUp] il turno successivo",
           "coinlist": [
             {
               "coindescs": [
@@ -1451,7 +1451,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             }
@@ -1465,7 +1465,7 @@
         {
           "level": 1,
           "name": "Danza delle Lame Incrociate!",
-          "desc": "Thermal Blade Skill. \nWhen in [HeatingWireOnSpider] state, this Skill activates its Thermal Blade effects\nIf target has 4+ [Laceration], Potere Moneta +1\n[WhenUse] If this unit has [ReinforcedTattooSpiderDaughter], infligge +1 [Laceration] Count On Coin Hit\n[DefeatDuel] Damage dealt by this Skill cannot Stagger the target",
+          "desc": "Thermal Blade Skill. \nWhen in [HeatingWireOnSpider] state, this Skill activates its Thermal Blade effects\nIf target has 4+ [Laceration], Potere Moneta +1\n[WhenUse] If this unit has [ReinforcedTattooSpiderDaughter], infligge +1 Conteggio [Laceration] On Coin Hit\n[DefeatDuel] Damage dealt by this Skill cannot Stagger the target",
           "coinlist": [
             {
               "coindescs": [
@@ -1483,7 +1483,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +2 [Laceration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             },
@@ -1493,7 +1493,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             },
@@ -1520,7 +1520,7 @@
         {
           "level": 1,
           "name": "Violet~ Breaking Slam!",
-          "desc": "Thermal Blade Skill. \nWhen in [HeatingWireOnSpider] state, this Skill activates its Thermal Blade effects\n[WhenUse] If this unit has [ReinforcedTattooSpiderDaughter], infligge +1 [Laceration] Count On Coin Hit\n[WhenUse] At 40% or less HP, deal +60% damage\n[WhenUse] At 5+ [GotACompliment], 50% chance to infligge 1 [Paralysis] On Coin Hit\n[DefeatDuel] Damage dealt by this Skill cannot Stagger the target\n[EndSkill] Consume all [ResentmentSpiderDaughter] on self and ottiene 1 [GotACompliment]",
+          "desc": "Thermal Blade Skill. \nWhen in [HeatingWireOnSpider] state, this Skill activates its Thermal Blade effects\n[WhenUse] If this unit has [ReinforcedTattooSpiderDaughter], infligge +1 Conteggio [Laceration] On Coin Hit\n[WhenUse] At 40% or less HP, deal +60% damage\n[WhenUse] At 5+ [GotACompliment], 50% chance to infligge 1 [Paralysis] On Coin Hit\n[DefeatDuel] Damage dealt by this Skill cannot Stagger the target\n[EndSkill] Consume all [ResentmentSpiderDaughter] on self e ottiene 1 [GotACompliment]",
           "coinlist": [
             {
               "coindescs": [
@@ -1538,7 +1538,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             },
@@ -1548,7 +1548,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +2 [Laceration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             },
@@ -1590,7 +1590,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
                 }
               ]
             },
@@ -1629,7 +1629,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] If this unit has [ReinforcedTattooSpider], infligge 2 [Paralysis]"
@@ -1672,7 +1672,7 @@
         {
           "level": 1,
           "name": "Timbro Della Condanna a Morte!",
-          "desc": "Potere Base +1 per ogni 3 [Laceration] on target (max 3)\n[WhenUse] If this unit has [ReinforcedTattooSpider], infligge 1 [Laceration] On Coin Hit\n[EndSkill] Consume all [ResentmentSpider] on self and ottiene 1 [DaughterEducationSpider]",
+          "desc": "Potere Base +1 per ogni 3 [Laceration] on target (max 3)\n[WhenUse] If this unit has [ReinforcedTattooSpider], infligge 1 [Laceration] On Coin Hit\n[EndSkill] Consume all [ResentmentSpider] on self e ottiene 1 [DaughterEducationSpider]",
           "coinlist": [
             {
               "coindescs": [
@@ -1690,7 +1690,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]"
                 }
               ]
             },
@@ -1710,7 +1710,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +3 [Laceration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +3 Conteggio [Laceration]"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] If this unit has [ReinforcedTattooSpider], infligge 2 [Paralysis]"
@@ -1778,7 +1778,7 @@
         {
           "level": 1,
           "name": "Infrazione Del Regolamento!",
-          "desc": "When hit, <color=#ff6000><mark=#ff000040><b><u>Reuse this Skill once per ogni [ReinforcedTattooSpider] on self</u></b></mark></color> (1 time max)\n[WhenUse] If this unit has [ReinforcedTattooSpider], On Coin Hit, infligge +1 [Laceration] Count\n[BeforeAttack] At 50% or less HP, deal +40% damage",
+          "desc": "When hit, <color=#ff6000><mark=#ff000040><b><u>Reuse this Skill once per ogni [ReinforcedTattooSpider] on self</u></b></mark></color> (1 time max)\n[WhenUse] If this unit has [ReinforcedTattooSpider], On Coin Hit, infligge +1 Conteggio [Laceration]\n[BeforeAttack] At 50% or less HP, deal +40% damage",
           "coinlist": [
             {
               "coindescs": [
@@ -1877,7 +1877,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge 10 [Combustion] and +2 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Infligge 10 [Combustion] e +2 Conteggio [Combustion]"
                 }
               ]
             }
@@ -1929,7 +1929,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge +4 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Infligge +4 Conteggio [Combustion]"
                 }
               ]
             },
@@ -1971,7 +1971,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge +3 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Combustion]"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Deal 10 Slash bonus damage"
@@ -2039,7 +2039,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +2 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Combustion]"
                 }
               ]
             }
@@ -2053,19 +2053,19 @@
         {
           "level": 1,
           "name": "Pugno Dell'Imperatore",
-          "desc": "Deal +20% damage per ogni type of negative effect on target (max 100%)\nDeal +10% damage per ogni 2 [OffenseBug] on target",
+          "desc": "Infligge +20% danni per ogni effetto negativo diverso sul bersaglio (max 100%)\nInfligge +10% danni per ogni 2 [OffenseBug] sul bersaglio",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 2 Potency and +2 Count of a random status, chosen from [Combustion], [Laceration], [Vibration], [Burst], and [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 2 Potenza e +2 Conteggio di uno status casuale tra [Combustion], [Laceration], [Vibration], [Burst] e [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 2 Potency and +2 Count of a random status, chosen from [Combustion], [Laceration], [Vibration], [Burst], and [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 2 Potenza e +2 Conteggio di uno status casuale tra [Combustion], [Laceration], [Vibration], [Burst] e [Sinking]"
                 }
               ]
             }
@@ -2079,7 +2079,7 @@
         {
           "level": 1,
           "name": "Frusta & Pugni Dell'Imperatore",
-          "desc": "Deal +20% damage per ogni type of negative effect on target (max 100%)\nDeal +10% damage per ogni 2 [OffenseBug] on target\n[DefeatDuel] Deal -80% damage and damage dealt by this Skill cannot Stagger the target",
+          "desc": "Infligge +20% danni per ogni effetto negativo diverso sul bersaglio (max 100%)\nInfligge +10% danni per ogni 2 [OffenseBug] sul bersaglio\n[DefeatDuel] Infligge -80% danni; Il danno inflitto da quest?Abilità non può Stordire il bersaglio",
           "coinlist": [
             {
               "coindescs": [
@@ -2087,7 +2087,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge 3 Potency and +3 Count of a random status, chosen from [Combustion], [Laceration], [Vibration], [Burst], and [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 3 Potenza e +3 Conteggio di uno status casuale tra [Combustion], [Laceration], [Vibration], [Burst] e [Sinking]"
                 }
               ]
             },
@@ -2097,7 +2097,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge 3 Potency and +3 Count of a random status, chosen from [Combustion], [Laceration], [Vibration], [Burst], and [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 3 Potenza e +3 Conteggio di uno status casuale tra [Combustion], [Laceration], [Vibration], [Burst] e [Sinking]"
                 }
               ]
             },
@@ -2107,7 +2107,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Ottiene 5 [Breath] and +3 [Breath] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Ottiene 5 [Breath] e +3 Conteggio [Breath]"
                 }
               ]
             }
@@ -2120,8 +2120,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "The Emperor's Devouring",
-          "desc": "[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>Potere Base +10 per ogni [SuperCoin] on the Skill</color></mark></b></u> this unit Clashed with",
+          "name": "Il Divoramento Dell'Imperatore",
+          "desc": "[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>Potere Base +10 per ogni [SuperCoin] del bersaglio</color></mark></b></u>",
           "coinlist": [
             {
               "coindescs": [
@@ -2129,13 +2129,13 @@
                   "desc": "[ExtractCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Absorb all positive effects from the target"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Assorbe tutti gli effetti positivi sul bersaglio"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <color=#ff6000><mark color=#ff000040><b><u>Halve the [OffenseBug] Stack on target</color></mark></b></u> (rounded down)"
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark color=#ff000040><b><u>Dimezza le Stack di [OffenseBug] sul bersaglio</color></mark></b></u> (arrotondato per difetto)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Absorb all negative effects from the target\n- After activating the above effect, if this unit does not have [DefenseBug], ottiene 2 [ResultReduction] il turno successivo"
+                  "desc": "[OnSucceedAttack] Assorbe tutti gli effetti negativi sul bersaglio. Poi, se questa unità non ha [DefenseBug], ottiene 2 [ResultReduction] il turno successivo"
                 }
               ]
             }
@@ -2149,7 +2149,7 @@
         {
           "level": 1,
           "name": "Fustigazione Dell'Imperatore",
-          "desc": "Deal +20% damage per ogni type of negative effect on target (max 100%)\nDeal +10% damage per ogni 2 [OffenseBug] on target\n[WhenUse] Ottiene +10 [Charge] Count\n[StartDuel] Lose 5 [Charge] Count\n[DefeatDuel] Deal -80% damage and damage dealt by this Skill cannot Stagger the target",
+          "desc": "Infligge +20% danni per ogni effetto negativo diverso sul bersaglio (max 100%)\nInfligge +10% danni per ogni 2 [OffenseBug] sul bersaglio\n[WhenUse] Ottiene +10 Conteggio [Charge]\n[StartDuel] Perde 5 Conteggio [Charge]\n[DefeatDuel] Infligge -80% danni; Il danno inflitto da quest'Abilità non può Stordire il bersaglio",
           "coinlist": [
             {
               "coindescs": [
@@ -2157,7 +2157,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge 3 Potency and +3 Count of a random status, chosen from [Combustion], [Laceration], [Vibration], [Burst], and [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 3 Potenza e +3 Conteggio di uno status casuale tra [Combustion], [Laceration], [Vibration], [Burst] e [Sinking]"
                 }
               ]
             },
@@ -2167,7 +2167,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Consume all [Charge] Count on self and deal +([Charge] Count consumed x 20)% damage"
+                  "desc": "[OnSucceedAttack] Consuma tutto il Conteggio [Charge] su di sé e infligge +([Charge] consumata x 20)% danni"
                 }
               ]
             }
@@ -2181,7 +2181,7 @@
         {
           "level": 1,
           "name": "Marcia Degli Scarafaggi",
-          "desc": "Deal +10% damage per ogni 2 [OffenseBug] on target",
+          "desc": "Infligge +10% danni per ogni 2 [OffenseBug] sul bersaglio",
           "coinlist": [
             {
               "coindescs": [
@@ -2213,7 +2213,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Scossa Dell'Imperatore",
+          "name": "Terremoto Dell'Imperatore",
           "desc": "",
           "coinlist": [
             {
@@ -2233,17 +2233,17 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +3 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [Switch_Vibration] into a random [Vibration] type"
+                  "desc": "[OnSucceedAttack] Trasforma [Switch_Vibration] in una [Vibration] casuale"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] sul bersaglio di 1"
                 }
               ]
             }
@@ -2256,8 +2256,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Escissione Dell'Imperatore",
-          "desc": "Deal +20% damage per ogni type of negative effect on target (max 100%)\nDeal +10% damage per ogni 2 [OffenseBug] on target\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>Potere Base +20 per ogni [SuperCoin] on the Skill</color></mark></b></u> this unit Clashed with\n[DefeatDuel] Deal -80% damage and damage dealt by this Skill cannot Stagger the target",
+          "name": "Excision Dell'Imperatore",
+          "desc": "Infligge +20% danni per ogni effetto negativo diverso sul bersaglio (max 100%)\nInfligge +10% danni per ogni 2 [OffenseBug] sul bersaglio\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>Potere Base +20 per ogni [SuperCoin] del bersaglio</color></mark></b></u>\n[DefeatDuel] Infligge -80% danni; Il danno inflitto da quest'Abilità non può Stordire il bersaglio",
           "coinlist": [
             {
               "coindescs": [
@@ -2265,7 +2265,7 @@
                   "desc": "[ExtractCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge 3 Potency and +3 Count of a random status, chosen from [Combustion], [Laceration], [Vibration], [Burst], and [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 3 Potenza e +3 Conteggio di uno status casuale tra [Combustion], [Laceration], [Vibration], [Burst] e [Sinking]"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 5 [AttackDown]"
@@ -2278,7 +2278,7 @@
                   "desc": "[ExtractCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge 3 Potency and +3 Count of a random status, chosen from [Combustion], [Laceration], [Vibration], [Burst], and [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 3 Potenza e +3 Conteggio di uno status casuale tra [Combustion], [Laceration], [Vibration], [Burst] e [Sinking]"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 5 [DefenseDown]"
@@ -2295,7 +2295,7 @@
         {
           "level": 1,
           "name": "Banchetto Dell'Imperatore",
-          "desc": "Deal +20% damage per ogni type of negative effect on target (max 100%)\nDeal +10% damage per ogni 2 [OffenseBug] on target\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>Potere Base +20 per ogni [SuperCoin] on the Skill</color></mark></b></u> this unit Clashed with\n[DefeatDuel] Deal -80% damage and damage dealt by this Skill cannot Stagger the target",
+          "desc": "Infligge +20% danni per ogni effetto negativo diverso sul bersaglio (max 100%)\nInfligge +10% danni per ogni 2 [OffenseBug] sul bersaglio\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>Potere Base +20 per ogni [SuperCoin] del bersaglio</color></mark></b></u>\n[DefeatDuel] Infligge -80% danni; il danno inflitto da quest'Abilità non può Stordire il bersaglio",
           "coinlist": [
             {
               "coindescs": [
@@ -2303,7 +2303,7 @@
                   "desc": "[ExtractCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Remove target's Shield"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Rimuove lo Scudo del bersaglio"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [Paralysis]"
@@ -2316,7 +2316,7 @@
                   "desc": "[ExtractCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] The Core and the Part both heal 25% of their respective max HP"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Il Nucleo e la Parte recuperano il 25% dei loro PV max"
                 }
               ]
             }
@@ -2330,7 +2330,7 @@
         {
           "level": 1,
           "name": "'Figliolo, ricordati di puntare al cuore.'",
-          "desc": "[CantChangeTarget]\n[WhenUse] Ottiene 10 [Breath] and +4 [Breath] Count\n[WinDuel] Ottiene 10 [Breath]\n[DefeatDuel] Deal -80% damage and does not hit Critically\nDamage dealt by this Skill cannot Stagger the target\n[DefeatDuel] Ottiene 5 [Vulnerable] il turno successivo",
+          "desc": "[CantChangeTarget]\n[WhenUse] Ottiene 10 [Breath] e +4 Conteggio [Breath]\n[WinDuel] Ottiene 10 [Breath]\n[DefeatDuel] Infligge -80% danni e non effettua Colpi Critici\nIl danno inflitto da quest'Abilità non può Stordire il bersaglio\n[DefeatDuel] Ottiene 5 [Vulnerable] il turno successivo",
           "coinlist": [
             {
               "coindescs": [
@@ -2338,10 +2338,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge 5 Potency and +2 Count of a random status, chosen from [Combustion], [Laceration], [Vibration], [Burst], and [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 5 Potenza e +2 Conteggio di uno status casuale tra [Combustion], [Laceration], [Vibration], [Burst] e [Sinking]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Deal Pride damage equal to 25% of target's max HP"
+                  "desc": "[CriticalOnSucceedAttack] Infligge danni da Superbia pari al 25% dei PV max del bersaglio"
                 }
               ]
             },
@@ -2351,10 +2351,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge 5 Potency and +2 Count of a random status, chosen from [Combustion], [Laceration], [Vibration], [Burst], and [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 5 Potenza e +2 Conteggio di uno status casuale tra [Combustion], [Laceration], [Vibration], [Burst] e [Sinking]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Deal Pride damage equal to 25% of target's max HP"
+                  "desc": "[CriticalOnSucceedAttack] Infligge danni da Superbia pari al 25% dei PV max del bersaglio"
                 }
               ]
             },
@@ -2364,10 +2364,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge 5 Potency and +2 Count of a random status, chosen from [Combustion], [Laceration], [Vibration], [Burst], and [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 5 Potenza e +2 Conteggio di uno status casuale tra [Combustion], [Laceration], [Vibration], [Burst] e [Sinking]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Deal Pride damage equal to 25% of target's max HP"
+                  "desc": "[CriticalOnSucceedAttack] Infligge danni da Superbia pari al 25% dei PV max del bersaglio"
                 }
               ]
             },
@@ -2377,10 +2377,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge 5 Potency and +2 Count of a random status, chosen from [Combustion], [Laceration], [Vibration], [Burst], and [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 5 Potenza e +2 Conteggio di uno status casuale tra [Combustion], [Laceration], [Vibration], [Burst] e [Sinking]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Deal Pride damage equal to 25% of target's max HP"
+                  "desc": "[CriticalOnSucceedAttack] Infligge danni da Superbia pari al 25% dei PV max del bersaglio"
                 }
               ]
             }
@@ -2394,7 +2394,7 @@
         {
           "level": 1,
           "name": "Scudo Dell'Imperatore",
-          "desc": "<color=#ff6000><mark=#ff000040><b><u>For this turn, take -50% damage from the targeted unit's Attack Skills</u></b></mark></color>\n[WinDuel] Infligge 3 [Binding] il turno successivo\n[DefeatDuel] Target heals 15 PS",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Subisce -50% danni dal bersaglio di quest'Abilità per tutto il turno</u></b></mark></color>\n[WinDuel] Infligge 3 [Binding] il turno successivo\n[DefeatDuel] Il bersaglio recupera 15 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -2572,7 +2572,7 @@
         {
           "level": 1,
           "name": "Liberazione Della Carne Repressa",
-          "desc": "[CantChangeTarget]\nDuring the turn this unit has this Skill equipped, ottiene 1 [PlusCoinValueDown] and 1 [ResultReduction] <color=#ff6000><mark=#ff000040><b><u>when hit by Attack Skills</u></b></mark></color> (once per Skill; max 3 times per turn)\nCannot be Staggered before using this Skill\nOn Kill with this Skill: heal 15 PS per ogni target killed\n[StartBattle] Ottiene 4 [Protection]\n[WhenUse] Deal +3% damage per ogni 6 ([Laceration] on main target + [Laceration] on sub-target) (max 30%)\n[DefeatDuel] Deal -60% damage and damage dealt by this Skill cannot Stagger the target\n[DefeatDuel] [BoneBladeTheRings] expires\n[EndSkill] [BoneBladeTheRings] expires",
+          "desc": "[CantChangeTarget]\nDuring the turn this unit has this Skill equipped, ottiene 1 [PlusCoinValueDown] e 1 [ResultReduction] <color=#ff6000><mark=#ff000040><b><u>when hit by Attack Skills</u></b></mark></color> (once per Skill; max 3 times per turn)\nCannot be Staggered before using this Skill\nOn Kill with this Skill: heal 15 PS per ogni target killed\n[StartBattle] Ottiene 4 [Protection]\n[WhenUse] Deal +3% damage per ogni 6 ([Laceration] on main target + [Laceration] on sub-target) (max 30%)\n[DefeatDuel] Deal -60% damage e damage dealt by this Skill cannot Stagger the target\n[DefeatDuel] [BoneBladeTheRings] expires\n[EndSkill] [BoneBladeTheRings] expires",
           "coinlist": [
             {
               "coindescs": [
@@ -2619,7 +2619,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]"
                 }
               ]
             }
@@ -2756,7 +2756,7 @@
         {
           "level": 1,
           "name": "Lascia Che Queste Mani Siano Il Mandante...",
-          "desc": "Potere Finale +1 per ogni 6 ([Breath] on self + [Sinking] on target) (max 2)\n[WhenUse] Ottiene +2 [Breath] Count\n[EndSkill] Lose 3 PS",
+          "desc": "Potere Finale +1 per ogni 6 ([Breath] on self + [Sinking] sul bersaglio) (max 2)\n[WhenUse] Ottiene +2 Conteggio [Breath]\n[EndSkill] Lose 3 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -2768,7 +2768,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking]"
                 }
               ]
             }
@@ -2801,7 +2801,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +2 [Sinking] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +2 Conteggio [Sinking]"
                 }
               ]
             }
@@ -2815,7 +2815,7 @@
         {
           "level": 1,
           "name": "Procuration: Engrave",
-          "desc": "Potere Moneta +1 per ogni 6 ([Breath] on self + [Sinking] on target) (max 2)\n[StartBattle] <color=#ff6000><mark=#ff000040><b><u>If this unit has [PressureOfPrescript], or if target has [IndexPrescriptTargetToPersonality]</u></b></mark></color>, convert all Coins on this Skill to [SuperCoin]\n[WhenUse]<color=#ff6000><mark=#ff000040><b><u>If the target has [IndexPrescriptTargetToPersonality], deal +50% damage</u></b></mark></color>\n[WhenUse] Ottiene 3 [Breath] and +3 [Breath] Count\n[DefeatDuel] Deal -80% damage; On Hit, does not Stagger the target; On Hit, does not activate [Sinking] on target\n[EndSkill] Lose 6 PS",
+          "desc": "Potere Moneta +1 per ogni 6 ([Breath] on self + [Sinking] on target) (max 2)\n[StartBattle] <color=#ff6000><mark=#ff000040><b><u>If this unit has [PressureOfPrescript], or if target has [IndexPrescriptTargetToPersonality]</u></b></mark></color>, convert all Coins on this Skill to [SuperCoin]\n[WhenUse]<color=#ff6000><mark=#ff000040><b><u>If the target has [IndexPrescriptTargetToPersonality], deal +50% damage</u></b></mark></color>\n[WhenUse] Ottiene 3 [Breath] e +3 Conteggio [Breath]\n[DefeatDuel] Deal -80% damage; On Hit, does not Stagger the target; On Hit, does not activate [Sinking] on target\n[EndSkill] Lose 6 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -2827,7 +2827,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +3 [Sinking] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +3 Conteggio [Sinking]"
                 }
               ]
             }
@@ -2841,7 +2841,7 @@
         {
           "level": 1,
           "name": "Procuration: Annihilate",
-          "desc": "<color=#ff6000><mark=#ff000040><b><u>Can Clash with this Skill regardless of Speed</u></b></mark></color>\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>If the target has [IndexPrescriptTargetToPersonality], deal +100% damage</u></b></mark></color>\n[DefeatDuel] Ottiene 3 [ResultReduction] and 4 [Paralysis]\n[DefeatDuel] Deal -90% damage; On Hit, does not Stagger the target; On Hit, does not activate [Sinking] on target\n[EndSkill] Lose 15 PS\n[EndSkill] Consume all [PressureOfPrescript]",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Can Clash with this Skill regardless of Speed</u></b></mark></color>\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>If the target has [IndexPrescriptTargetToPersonality], deal +100% damage</u></b></mark></color>\n[DefeatDuel] Ottiene 3 [ResultReduction] e 4 [Paralysis]\n[DefeatDuel] Deal -90% damage; On Hit, does not Stagger the target; On Hit, does not activate [Sinking] on target\n[EndSkill] Lose 15 PS\n[EndSkill] Consume all [PressureOfPrescript]",
           "coinlist": [
             {
               "coindescs": [
@@ -2955,7 +2955,7 @@
         {
           "level": 1,
           "name": "Hear all. Hope all. With these Hands, all will...",
-          "desc": "<color=#ff6000><mark=#ff000040><b><u>Targets Ryōshū and cannot change target</u></b></mark></color>\n[WhenUse]<color=#ff6000><mark=#ff000040><b><u>Generate 1 Mang</u></b></mark></color>\n- <color=#ff6000><mark=#ff000040><b><u>Deal +20% damage, Potere Finale +2, Potere Moneta +2</u></b></mark></color>\n[EndSkill] Lose 15 PS\n[EndSkill] If this Skill generated 1 Mang, lose 20 PS",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Targets Ryōshū e cannot change target</u></b></mark></color>\n[WhenUse]<color=#ff6000><mark=#ff000040><b><u>Generate 1 Mang</u></b></mark></color>\n- <color=#ff6000><mark=#ff000040><b><u>Deal +20% damage, Potere Finale +2, Potere Moneta +2</u></b></mark></color>\n[EndSkill] Lose 15 PS\n[EndSkill] If this Skill generated 1 Mang, lose 20 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -3002,7 +3002,7 @@
         {
           "level": 1,
           "name": "Defend [守]",
-          "desc": "[CanDuelGuard]\n[StartBattle] Ottiene +4 [Breath] Count\n- If the Skill Slot using this Skill is a main target of an Attack Skill, ottiene 2 fewer [Breath] Count from this effect\n\n[WinDuel] Ottiene +1 [Breath] Count",
+          "desc": "[CanDuelGuard]\n[StartBattle] Ottiene +4 Conteggio [Breath]\n- If the Skill Slot using this Skill is a main target of an Attack Skill, ottiene 2 fewer Conteggio [Breath] from this effect\n\n[WinDuel] Ottiene +1 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -3021,12 +3021,12 @@
         {
           "level": 1,
           "name": "Reflect [反]",
-          "desc": "[DuelCounter]\n[DefeatDuel] Lose 1 [Breath] Count",
+          "desc": "[DuelCounter]\n[DefeatDuel] Lose 1 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene +2 [Breath] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Breath]"
                 }
               ]
             }
@@ -3083,7 +3083,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene +1 [Breath] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]"
                 }
               ]
             },
@@ -3109,7 +3109,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene +1 [Breath] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [Breath]"
                 }
               ]
             },
@@ -3137,7 +3137,7 @@
         {
           "level": 1,
           "name": "Sterminatore di Stelle Cadenti [落星一殺]",
-          "desc": "Can Clash with this Skill regardless of Speed\nDeal +1% damage per ogni [DicipleLittleFinger] on self\n[WhenUse] Potere Moneta +1 per ogni 10 [DicipleLittleFinger] on self\n[DefeatDuel] Deal -80% damage and damage dealt by this Skill cannot Stagger the target",
+          "desc": "Can Clash with this Skill regardless of Speed\nDeal +1% damage per ogni [DicipleLittleFinger] on self\n[WhenUse] Potere Moneta +1 per ogni 10 [DicipleLittleFinger] on self\n[DefeatDuel] Deal -80% damage e damage dealt by this Skill cannot Stagger the target",
           "coinlist": [
             {
               "coindescs": [
@@ -3423,7 +3423,7 @@
         {
           "level": 1,
           "name": "Infilza Il Cuor Del Silenzio, Perforane Ogni Memoria",
-          "desc": "Ci si può Scontrare con quest'Abilità a prescindere dalla velocità\nAttiva i seguenti effetti in base all'arma usata:\n- Le armi Perforanti infliggono +50% danni\n- Le armi Taglienti e Contundenti infliggono -25% danni\n[StartBattle] Attiva i seguenti effetti in base al livello di [UnlockBuff_Base] (cumulativi):\n- [UnlockBuff_Rien2]: converte le Monete 3 e 4 in [SuperCoin]\n- [UnlockBuff_Rien3]: Se quest'Abilità vince lo Scontro, ottiene 1 [AttackDmgUp] il turno successivo\n[WhenUse] Ottiene 2 [Breath] and +2 Conteggio [Breath]",
+          "desc": "Ci si può Scontrare con quest'Abilità a prescindere dalla velocità\nAttiva i seguenti effetti in base all'arma usata:\n- Le armi Perforanti infliggono +50% danni\n- Le armi Taglienti e Contundenti infliggono -25% danni\n[StartBattle] Attiva i seguenti effetti in base al livello di [UnlockBuff_Base] (cumulativi):\n- [UnlockBuff_Rien2]: converte le Monete 3 e 4 in [SuperCoin]\n- [UnlockBuff_Rien3]: Se quest'Abilità vince lo Scontro, ottiene 1 [AttackDmgUp] il turno successivo\n[WhenUse] Ottiene 2 [Breath] e +2 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -3529,7 +3529,7 @@
         {
           "level": 1,
           "name": "Furioso (Replica)",
-          "desc": "[WideAreaRampage]\n<color=#ff6000><mark=#ff000040><b><u>Non attiva le Abilità Difensive</u></b></mark></color>\nCi si può Scontrare con quest'Abilità a prescindere dalla Velocità\n[WhenUse]\n- Ottiene 3 [Breath] e +3 Conteggio [Breath]\n- Potere Scontro +5 (<color=#ff6000><mark=#ff000040><b><u>il Potere Scontro ottenuto è ridotto di 1 per ogni 10 [KarmaOfIndexRien] su di sé, con un minimo di 0</u></b></mark></color>)\n[WhenUse] A 0+ PS, genera 1 Mang\n- Infligge +40% danni; Potere Finale +4\n\n[WinDuel]\n- Ottiene 3 [Breath] e +3 Conteggio [Breath]\n- A fine attacco, Infligge 3 [Laceration], 1 [Binding], e 1 [Vulnerable] nel turno successivo su ogni bersaglio colpito da quest'Abilità \n[DefeatDuel]\n- Ottiene 4 [AttackDmgDown] e 9 [Paralysis]\n- Il danno inflitto da quest'Abilità non può Stordire il bersaglio e non può attivare gli effetti di [Sinking] sul colpo\n[EndSkill] Se quest'Abilità ha generato Mang, perde 20 PS\n[EndSkill] Termina il turno",
+          "desc": "[WideAreaRampage]\n<color=#ff6000><mark=#ff000040><b><u>Non attiva le Abilità Difensive</u></b></mark></color>\nCi si può Scontrare con quest'Abilità a prescindere dalla Velocità\n[WhenUse]\n- Ottiene 3 [Breath] e +3 Conteggio [Breath]\n- Potere Scontro +5 (<color=#ff6000><mark=#ff000040><b><u>il Potere Scontro ottenuto è ridotto di 1 per ogni 10 [KarmaOfIndexRien] su di sé, con un minimo di 0</u></b></mark></color>)\n[WhenUse] A 0+ PS, genera 1 Mang (望)\n- Infligge +40% danni; Potere Finale +4\n\n[WinDuel]\n- Ottiene 3 [Breath] e +3 Conteggio [Breath]\n- A fine attacco, Infligge 3 [Laceration], 1 [Binding], e 1 [Vulnerable] nel turno successivo su ogni bersaglio colpito da quest'Abilità \n[DefeatDuel]\n- Ottiene 4 [AttackDmgDown] e 9 [Paralysis]\n- Il danno inflitto da quest'Abilità non può Stordire il bersaglio e non può attivare gli effetti di [Sinking] sul colpo\n[EndSkill] Se quest'Abilità ha generato Mang, perde 20 PS\n[EndSkill] Termina il turno",
           "coinlist": [
             {
               "coindescs": [
@@ -3827,7 +3827,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +2 [Sinking] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +2 Conteggio [Sinking]"
                 }
               ]
             },
@@ -3837,7 +3837,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Ottiene +2 [Breath] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Ottiene +2 Conteggio [Breath]"
                 }
               ]
             }
