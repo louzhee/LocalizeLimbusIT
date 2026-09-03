@@ -391,7 +391,7 @@
                   "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Sinking]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] If target has 50%- HP, inflict Gloom Damage equal to \"All\" [SinkingWhite] values on target\n- \"All\" = the sum of both The Living and The Departed on target</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] If target has 50%- HP, inflict Gloom Damage pari a \"All\" [SinkingWhite] values on target\n- \"All\" = the sum of both The Living and The Departed on target</style>"
                 }
               ]
             }
@@ -982,18 +982,18 @@
           "level": 1,
           "name": "Registro Trasloco",
           "abName": "Kqe-1j-23",
-          "desc": "[CantIdentify]\nTargets randomly\nOttiene Potere Moneta in base alle seguenti condizioni (max 3):\n- Potere Moneta +1 for every 6 [Combustion] Potency on the main target\n- Gain Potere Moneta equal to ([Charge] Potency on self - 1)\n[BeforeAttack] Gain +(Rison. più alta + 3) [Charge] Count (max 10)\n[BeforeAttack] Deal +([Charge] Potency + Count - 1)% damage (max 20%)\n[EnemyKill] Gain +4 [Charge] Count",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nOttiene Potere Moneta in base alle seguenti condizioni (max 3):\n- Potere Moneta +1 per ogni 6 Potenza [Combustion] sul bersaglio principale\n- Ottiene Potere Moneta pari a (Potenza [Charge] su di sé - 1)\n[BeforeAttack] Ottiene +(Rison. più alta + 3) Conteggio [Charge] (max 10)\n[BeforeAttack] Infligge +(Potenza + Conteggio [Charge] - 1)% danno (max 20%)\n[EnemyKill] Ottiene +4 Conteggio [Charge]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [IDMicroChip]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [IDMicroChip]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Binding] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Binding] il turno successivo"
                 }
               ]
             },
@@ -1010,28 +1010,28 @@
           "level": 3,
           "name": "Registro Trasloco",
           "abName": "Kqe-1j-23",
-          "desc": "[CantIdentify]\nTargets randomly\nOttiene Potere Moneta in base alle seguenti condizioni (max 3):\n- Potere Moneta +1 for every 6 [Combustion] Potency on the main target\n- Gain Potere Moneta equal to ([Charge] Potency on self - 1)\n[BeforeAttack] Gain +(Rison. più alta + 3) [Charge] Count (max 10)\n[BeforeAttack] Deal +(([Charge] Potency + Count - 1) x <style=\"highlight\">2</style>)% damage (max <style=\"highlight\">40</style>%)\n[EnemyKill]\n- Gain +4 [Charge] Count\n<style=\"highlight\">- Gain 1 [AttackDmgUp] next turn (once per turn)</style>",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nOttiene Potere Moneta in base alle seguenti condizioni (max 3):\n- Potere Moneta +1 per ogni 6 Potenza [Combustion] sul bersaglio principale\n- Ottiene Potere Moneta pari a (Potenza [Charge] su di sé - 1)\n[BeforeAttack] Ottiene +(Rison. più alta + 3) Conteggio [Charge] (max 10)\n[BeforeAttack] Infligge +((Potenza + Conteggio [Charge] - 1) x <style=\"highlight\">2</style>)% danno (max <style=\"highlight\">40</style>%)\n[EnemyKill]\n- Ottiene +4 Conteggio [Charge]\n<style=\"highlight\">- Ottiene 1 [AttackDmgUp] il turno successivo (once per turn)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +<style=\"highlight\">2</style> [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Infligge +<style=\"highlight\">2</style> Conteggio [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [IDMicroChip]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [IDMicroChip]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Binding] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Binding] il turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnStartCoin] Consume up to 8 [Charge] Count</style>"
+                  "desc": "<style=\"highlight\">[OnStartCoin] Usa fino a 8 Conteggio [Charge]</style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] If this Coin consumed [Charge] Count, deal Envy damage equal to ([Charge] Count consumed x 5)% of this Coin's final damage (min 5%, max 40%)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Se questa Moneta ha usato Conteggio [Charge], infligge danno Invidia pari a (Conteggio [Charge] usato x 5)% del danno finale di questa Moneta (min 5%, max 40%)</style>"
                 }
               ]
             }
@@ -1041,28 +1041,28 @@
           "level": 4,
           "name": "Registro Trasloco",
           "abName": "Kqe-1j-23",
-          "desc": "[CantIdentify]\nTargets randomly\nOttiene Potere Moneta in base alle seguenti condizioni (max 3):\n- Potere Moneta +1 for every 6 [Combustion] Potency on the main target\n- Gain Potere Moneta equal to ([Charge] Potency on self - 1)\n[BeforeAttack] Gain +(Rison. più alta + 3) [Charge] Count (max 10)\n[BeforeAttack] Deal +(([Charge] Potency + Count - 1) x <style=\"highlight\">3</style>)% damage (max <style=\"highlight\">60</style>%)\n[EnemyKill]\n- Gain +4 [Charge] Count\n- Gain 1 [AttackDmgUp] next turn (once per turn)",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nOttiene Potere Moneta in base alle seguenti condizioni (max 3):\n- Potere Moneta +1 per ogni 6 Potenza [Combustion] sul bersaglio principale\n- Ottiene Potere Moneta pari a (Potenza [Charge] su di sé - 1)\n[BeforeAttack] Ottiene +(Rison. più alta + 3) Conteggio [Charge] (max 10)\n[BeforeAttack] Infligge +((Potenza + Conteggio [Charge] - 1) x <style=\"highlight\">3</style>)% danno (max <style=\"highlight\">60</style>%)\n[EnemyKill]\n- Ottiene +4 Conteggio [Charge]\n- Ottiene 1 [AttackDmgUp] il turno successivo (once per turn)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">+3</style> [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">+3</style> Conteggio [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [IDMicroChip]"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [IDMicroChip]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Binding] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Binding] il turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnStartCoin] Consume up to 8 [Charge] Count<style=\"highlight\"></style>"
+                  "desc": "[OnStartCoin] Usa fino a 8 Conteggio [Charge]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this Coin consumed [Charge] Count, deal Envy damage equal to ([Charge] Count consumed x 5)% of this Coin's final damage (min 5%, max 40%)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Se questa Moneta ha usato Conteggio [Charge], infligge danno Invidia pari a (Conteggio [Charge] usato x 5)% del danno finale di questa Moneta (min 5%, max 40%)<style=\"highlight\"></style>"
                 }
               ]
             }
