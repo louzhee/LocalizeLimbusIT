@@ -270,7 +270,12 @@
     {
       "id": 2020511,
       "name": "Spada Fiammeggiante",
-      "desc": "Se Testa Colpisce con un'Abilità con affinità Lussuria, infligge 1 [Combustion] sul bersaglio (6 volte per turno)"
+      "desc": "Se Testa Colpisce con un'Abilità Affinità Lussuria, infligge 1 [Combustion] sul bersaglio (6 volte per turno)"
+    },
+    {
+      "id": 2020512,
+      "name": "Spada Fiammeggiante",
+      "desc": "Se Testa Colpisce con un'Abilità Affinità <style=\"highlight\">Ira o</style> Lussuria, infligge 1 [Combustion] (6 volte per turno)\n<style=\"highlight\">- Se il bersaglio ha Potenza [Combustion] massima, infligge invece 1 [DefenseDown]\n\nAll'Uso di un'Abilità Base Gola, ottiene 1 risorsa E.G.O Gola (una volta per turno)</style>"
     },
     {
       "id": 2060511,
@@ -605,6 +610,11 @@
       "name": "Stufato Straripante",
       "desc": "Se Croce Colpisce, infligge 1 [Combustion] se il bersaglio è un nemico\n\n<style=\"highlight\">Quando usa le Abilità Attacco Base che infliggono Potenza o Conteggio [Combustion] ai nemici,\n\n- Per le Abilità Monete Positive:\n· A meno di 40 PS, recupera 4 PS\n· A 40 PS o più, infligge +10% danno\n\n- Per le Abilità Monete Negative:\n· A più di -25 PS, perde 4 PS (questo effetto non può ridurre i PS dell'unità al di sotto di -40)\n· A -25 PS o meno, infligge +10% danno</style>",
       "summary": "Se Croce Colpisce, infligge [Combustion] sul bersaglio. Recupera o perde PS su di sé, o infligge più danno"
+    },
+    {
+      "id": 2121011,
+      "name": "Elaborazione Registro Trasloco",
+      "desc": "A 3+ Rison. più alta: Sul Colpo usando un'Abilità, infligge 1 [Binding] sul bersaglio principale il turno successivo (una volta per turno)\n\nA 3+ Potenza [Charge], le seguenti Abilità Base infliggono +10% danno:\n- Abilità Base che fanno ottenere o consumano Conteggio [Charge]\n- Abilità Base che infliggono Potenza o Conteggio [Combustion] sul nemico"
     }
   ]
 }
