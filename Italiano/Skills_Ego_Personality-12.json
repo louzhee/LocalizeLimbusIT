@@ -885,27 +885,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Move-in Reg.",
+          "name": "Registro Trasloco",
           "abName": "Kqe-1j-23",
-          "desc": "Gain Coin Power based on the following conditions (max 3):\n- Coin Power +1 for every 6 [Combustion] Potency on the main target\n- Gain Coin Power equal to ([Charge] Potency on self - 1)\n[BeforeAttack] This Skill inflicts +([Charge] Potency on self - 1) more [Combustion] Potency (max 2)\n[BeforeAttack] Gain +(highest Reson. + 1) [Charge] Count (max 7)\n[BeforeAttack] Consume up to 15 [Charge] Count and deal +1% damage for every [Charge] Count consumed (max 15%)",
+          "desc": "Ottiene Potere Moneta in base alle seguenti condizioni (max 3):\n- Potere Moneta +1 per ogni 6 Potenza [Combustion] sul bersaglio principale\n- Ottiene Potere Moneta pari a (Potenza [Charge] su di sé - 1)\n[BeforeAttack] Quest'Abilità infligge +(Potenza [Charge] su di sé - 1) Potenza [Combustion] in più (max 2)\n[BeforeAttack] Ottiene +(Rison. più alta + 1) Conteggio [Charge] (max 7)\n[BeforeAttack] Usa fino a 15 Conteggio [Charge] per infliggere +1% danno per ogni Conteggio [Charge] usato (max 15%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has [IDMicroChip] or [Binding],  inflict +2 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [IDMicroChip] o [Binding], infligge +2 Conteggio [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [IDMicroChip]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [IDMicroChip]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Binding] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Binding] il turno successivo"
                 }
               ]
             }
@@ -913,30 +913,30 @@
         },
         {
           "level": 3,
-          "name": "Move-in Reg.",
+          "name": "Registro Trasloco",
           "abName": "Kqe-1j-23",
-          "desc": "Gain Coin Power based on the following conditions (max 3):\n- Coin Power +1 for every 6 [Combustion] Potency on the main target\n- Gain Coin Power equal to ([Charge] Potency on self - 1)\n[BeforeAttack] This Skill inflicts +([Charge] Potency on self - 1) more [Combustion] Potency (max 2)\n[BeforeAttack] Gain +(highest Reson. + 1) [Charge] Count (max 7)\n<style=\"highlight\">- At 3 or fewer [Charge] Count, gain 3 more [Charge] Count</style>\n[BeforeAttack] Consume up to 15 [Charge] Count and deal +<style=\"highlight\">2</style>% damage for every [Charge] Count consumed (max <style=\"highlight\">30</style>%)\n<style=\"highlight\">[EndSkill] If the Before Attack effects consumed 15 [Charge] Count, gain +5 [Charge] Count</style>",
+          "desc": "Ottiene Potere Moneta in base alle seguenti condizioni (max 3):\n- Potere Moneta +1 per ogni 6 Potenza [Combustion] sul bersaglio principale\n- Ottiene Potere Moneta pari a (Potenza [Charge] su di sé - 1)\n[BeforeAttack] Quest'Abilità infligge +(Potenza [Charge] su di sé - 1) Potenza [Combustion] in più (max 2)\n[BeforeAttack] ottiene +(Rison. più alta + 1) Conteggio [Charge] (max 7)\n<style=\"highlight\">- A 3 o meno Conteggio [Charge], ottiene 3 Conteggio [Charge] in più</style>\n[BeforeAttack] Usa fino a 15 Conteggio [Charge] per infliggere +<style=\"highlight\">2</style>% danno per ogni Conteggio [Charge] usato (max <style=\"highlight\">30</style>%)\n<style=\"highlight\">[EndSkill] Se l'effetto [BeforeAttack] usa 15 Conteggio [Charge], ottiene +5 Conteggio [Charge]</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has [IDMicroChip] or [Binding],  inflict +2 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [IDMicroChip] o [Binding], infligge +2 Conteggio [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Gain +2 [Charge] Count</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Ottiene +2 Conteggio [Charge]</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [IDMicroChip]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [IDMicroChip]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Binding] next turn<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Binding] il turno successivo<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -944,30 +944,30 @@
         },
         {
           "level": 4,
-          "name": "Move-in Reg.",
+          "name": "Registro Trasloco",
           "abName": "Kqe-1j-23",
-          "desc": "Gain Coin Power based on the following conditions (max 3):\n- Coin Power +1 for every 6 [Combustion] Potency on the main target\n- Gain Coin Power equal to ([Charge] Potency on self - 1)\n[BeforeAttack] This Skill inflicts +([Charge] Potency on self - 1) more [Combustion] Potency (max 2)\n[BeforeAttack] Gain +(highest Reson. + 1) [Charge] Count (max 7)\n- At 3 or fewer [Charge] Count, gain 3 more [Charge] Count\n[BeforeAttack] Consume up to 15 [Charge] Count and deal +<style=\"highlight\">3</style>% damage for every [Charge] Count consumed (max <style=\"highlight\">45</style>%)\n[EndSkill] If the Before Attack effects consumed 15 [Charge] Count, gain +5 [Charge] Count",
+          "desc": "Ottiene Potere Moneta in base alle seguenti condizioni (max 3):\n- Potere Moneta +1 per ogni 6 Potenza [Combustion] sul bersaglio principale\n- Ottiene Potere Moneta pari a (Potenza [Charge] su di sé - 1)\n[BeforeAttack] Quest'Abilità infligge +(Potenza [Charge] su di sé - 1) Potenza [Combustion] in più (max 2)\n[BeforeAttack] Ottiene +(Rison. più alta + 1) Conteggio [Charge] (max 7)\n- A 3 o meno Conteggio [Charge], ottiene 3 Conteggio [Charge] in più\n[BeforeAttack] Usa fino a 15 Conteggio [Charge] per infliggere +<style=\"highlight\">3</style>% danno per ogni Conteggio [Charge] usato (max <style=\"highlight\">45</style>%)\n[EndSkill] Se l'effetto [BeforeAttack] usa 15 Conteggio [Charge], ottiene +5 Conteggio [Charge]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">3</style> [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">3</style> [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has [IDMicroChip] or [Binding],  inflict +2 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [IDMicroChip] o [Binding], infligge +2 Conteggio [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [Charge] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Charge]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [IDMicroChip]"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [IDMicroChip]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Binding] next turn<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Binding] il turno successivo<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -980,9 +980,9 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Move-in Reg.",
+          "name": "Registro Trasloco",
           "abName": "Kqe-1j-23",
-          "desc": "[CantIdentify]\nTargets randomly\nGain Coin Power based on the following conditions (max 3):\n- Coin Power +1 for every 6 [Combustion] Potency on the main target\n- Gain Coin Power equal to ([Charge] Potency on self - 1)\n[BeforeAttack] Gain +(highest Reson. + 3) [Charge] Count (max 10)\n[BeforeAttack] Deal +([Charge] Potency + Count - 1)% damage (max 20%)\n[EnemyKill] Gain +4 [Charge] Count",
+          "desc": "[CantIdentify]\nTargets randomly\nOttiene Potere Moneta in base alle seguenti condizioni (max 3):\n- Potere Moneta +1 for every 6 [Combustion] Potency on the main target\n- Gain Potere Moneta equal to ([Charge] Potency on self - 1)\n[BeforeAttack] Gain +(Rison. più alta + 3) [Charge] Count (max 10)\n[BeforeAttack] Deal +([Charge] Potency + Count - 1)% damage (max 20%)\n[EnemyKill] Gain +4 [Charge] Count",
           "coinlist": [
             {
               "coindescs": [
@@ -1008,9 +1008,9 @@
         },
         {
           "level": 3,
-          "name": "Move-in Reg.",
+          "name": "Registro Trasloco",
           "abName": "Kqe-1j-23",
-          "desc": "[CantIdentify]\nTargets randomly\nGain Coin Power based on the following conditions (max 3):\n- Coin Power +1 for every 6 [Combustion] Potency on the main target\n- Gain Coin Power equal to ([Charge] Potency on self - 1)\n[BeforeAttack] Gain +(highest Reson. + 3) [Charge] Count (max 10)\n[BeforeAttack] Deal +(([Charge] Potency + Count - 1) x <style=\"highlight\">2</style>)% damage (max <style=\"highlight\">40</style>%)\n[EnemyKill]\n- Gain +4 [Charge] Count\n<style=\"highlight\">- Gain 1 [AttackDmgUp] next turn (once per turn)</style>",
+          "desc": "[CantIdentify]\nTargets randomly\nOttiene Potere Moneta in base alle seguenti condizioni (max 3):\n- Potere Moneta +1 for every 6 [Combustion] Potency on the main target\n- Gain Potere Moneta equal to ([Charge] Potency on self - 1)\n[BeforeAttack] Gain +(Rison. più alta + 3) [Charge] Count (max 10)\n[BeforeAttack] Deal +(([Charge] Potency + Count - 1) x <style=\"highlight\">2</style>)% damage (max <style=\"highlight\">40</style>%)\n[EnemyKill]\n- Gain +4 [Charge] Count\n<style=\"highlight\">- Gain 1 [AttackDmgUp] next turn (once per turn)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1039,9 +1039,9 @@
         },
         {
           "level": 4,
-          "name": "Move-in Reg.",
+          "name": "Registro Trasloco",
           "abName": "Kqe-1j-23",
-          "desc": "[CantIdentify]\nTargets randomly\nGain Coin Power based on the following conditions (max 3):\n- Coin Power +1 for every 6 [Combustion] Potency on the main target\n- Gain Coin Power equal to ([Charge] Potency on self - 1)\n[BeforeAttack] Gain +(highest Reson. + 3) [Charge] Count (max 10)\n[BeforeAttack] Deal +(([Charge] Potency + Count - 1) x <style=\"highlight\">3</style>)% damage (max <style=\"highlight\">60</style>%)\n[EnemyKill]\n- Gain +4 [Charge] Count\n- Gain 1 [AttackDmgUp] next turn (once per turn)",
+          "desc": "[CantIdentify]\nTargets randomly\nOttiene Potere Moneta in base alle seguenti condizioni (max 3):\n- Potere Moneta +1 for every 6 [Combustion] Potency on the main target\n- Gain Potere Moneta equal to ([Charge] Potency on self - 1)\n[BeforeAttack] Gain +(Rison. più alta + 3) [Charge] Count (max 10)\n[BeforeAttack] Deal +(([Charge] Potency + Count - 1) x <style=\"highlight\">3</style>)% damage (max <style=\"highlight\">60</style>%)\n[EnemyKill]\n- Gain +4 [Charge] Count\n- Gain 1 [AttackDmgUp] next turn (once per turn)",
           "coinlist": [
             {
               "coindescs": [
