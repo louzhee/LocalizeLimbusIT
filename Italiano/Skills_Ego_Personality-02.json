@@ -56,19 +56,19 @@
         },{
           "level": 5,
           "name": "9:2",
-          "abName": "Skin Prophet",
-          "desc": "<style=\"highlight\">Required Gluttony E.G.O resource to use this Skill is reduced by 1</style>\n[BeforeAttack] At 4+ (<style=\"highlight\">highest Reson.</style>), Atk Weight +1\nAt 6+ (<style=\"highlight\">highest Reson.</style>), additional Atk Weight +1\n\n<style=\"highlight\">[BeforeAttack] Deal +5% damage for every ([Combustion] on all targets + [Combustion] on self) (max 100%)</style>",
+          "abName": "Profeta della Pelle",
+          "desc": "<style=\"highlight\">Le risorse E.G.O Gola necessarie per usare quest'Abilità sono ridotte di 1</style>\n[BeforeAttack] A 4+ (<style=\"highlight\">Rison. più alta</style>), Portata Attacco +1\nA 6+ (<style=\"highlight\">Rison. più alta</style>), Portata Attacco addizionale +1\n\n<style=\"highlight\">[BeforeAttack] Infligge +5% danno per goni ([Combustion] su tutti i bersagli + [Combustion] su di sé) (max 100%)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Combustion]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Combustion]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict 5 [DefenseDown]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge 5 [DefenseDown]</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Convert 2 [Combustion] on target into 1 [DefenseDown] (<style=\"highlight\">max 5; this effect cannot lower target's [Combustion] Potency below 1)\n- If target has fewer than 10 [Combustion] Potency, this unit may use excess [Combustion] Potency on self past 30 for the above effect</style>"
+                  "desc": "[OnSucceedAttack] Converte 2 [Combustion] sul bersaglio in 1 [DefenseDown] (<style=\"highlight\">max 5; questo effetto non può diminuire la Potenza [Combustion] del bersaglio a meno di 1)\n- Se il bersaglio ha meno di 10 Potenza [Combustion], questa unità può usare la Potenza [Combustion] oltre 30 in eccesso su di sé per l'effetto sovracitato</style>"
                 }
               ]
             }
@@ -142,8 +142,8 @@
       {
           "level": 5,
           "name": "9:2",
-          "abName": "Skin Prophet",
-          "desc": "[CantIdentify]\nTargets randomly\n<style=\"highlight\">Required Gluttony E.G.O resource to use this Skill is reduced by 1</style>\n[BeforeAttack] At 4+ (<style=\"highlight\">highest Reson.</style>), Atk Weight +1\nAt 6+ (<style=\"highlight\">highest Reson.</style>), additional Atk Weight +1\n\n<style=\"highlight\">[BeforeAttack] Deal +6% damage for every ([Combustion] on all targets + [Combustion] on self) (max 120%)\n[DefeatDuel] Base Power -10</style>",
+          "abName": "Profeta della Pelle",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n<style=\"highlight\">Le risorse E.G.O Gola necessarie per usare quest'Abilità sono ridotte di 1</style>\n[BeforeAttack] A 4+ (<style=\"highlight\">Rison. più alta</style>), Portata Attacco +1\nA 6+ (<style=\"highlight\">Rison. più alta</style>), Portata Attacco addizionale +1\n\n<style=\"highlight\">[BeforeAttack] Infligge +6% danno per ogni ([Combustion] su tutti i bersagli + [Combustion] su di sé) (max 120%)\n[DefeatDuel] Potere Base -10</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -151,16 +151,16 @@
                   "desc": "<style=\"highlight\">[SuperCoin]</style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Inflict 2 [Binding] next turn"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Infligge 2 [Binding] il turno successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Combustion]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Combustion]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict 5 [DefenseDown]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge 5 [DefenseDown]</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Convert 2 [Combustion] on target into 1 [DefenseDown] (<style=\"highlight\">max 5; this effect cannot lower target's [Combustion] Potency below 1)\n- If target has fewer than 10 [Combustion] Potency, this unit may use excess [Combustion] Potency on self past 30 for the above effect</style>"
+                  "desc": "[OnSucceedAttack] Converte 2 [Combustion] sul bersaglio in 1 [DefenseDown] (<style=\"highlight\">max 5; questo effetto non può diminuire la Potenza [Combustion] del bersaglio a meno di 1)\n- Se il bersaglio ha meno di 10 Potenza [Combustion], questa unità può usare la Potenza [Combustion] oltre 30 in eccesso su di sé per l'effetto sovracitato</style>"
                 }
               ]
             }
