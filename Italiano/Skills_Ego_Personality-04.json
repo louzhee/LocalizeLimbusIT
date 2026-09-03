@@ -33,7 +33,7 @@
                   "desc": "[OnSucceedAttack] Infligge 5 [Sinking]"
                 },
                 {
-                  "desc": "[EnemyKill] Ottiene 3 risorse E.G.O di un'Affinità casuale correntemente in possesso; Cura 3 PS a tutti gli alleati"
+                  "desc": "[EnemyKill] Ottiene 3 risorse E.G.O di un'Affinità casuale correntemente in possesso; Tutti gli alleati recuperano 3 PS"
                 }
               ]
             }
@@ -51,7 +51,7 @@
                   "desc": "[OnSucceedAttack] Infligge 6 [Sinking]"
                 },
                 {
-                  "desc": "[EnemyKill] Ottiene 3 risorse E.G.O di un'Affinità casuale correntemente in possesso; Cura 3 PS a tutti gli alleati"
+                  "desc": "[EnemyKill] Ottiene 3 risorse E.G.O di un'Affinità casuale correntemente in possesso; Tutti gli alleati recuperano 3 PS"
                 }
               ]
             }
@@ -61,18 +61,18 @@
           "level": 5,
           "name": "Soda",
           "abName": "Wellcheers",
-          "desc": "<style=\"highlight\">If target has less than 25% HP, deal +40% damage\n[BeforeAttack] At 4+ highest Reson., gain +1 Atk Weight\n\n[EndSkill] Apply 1 [GainSinStockAdder] next turn to (2 + highest Reson.) random allies, including this unit (max 7)\n[EndSkill] If there are Staggered or Panicked units among targets, gain 1 E.G.O resource for the least-owned Affinity; heal 3 SP</style>",
+          "desc": "<style=\"highlight\">Se il bersaglio ha meno del 25% PV, infligge +40% danno\n[BeforeAttack] A 4+ Rison. più alta, ottiene +1 Portata Attacco\n\n[EndSkill] Applica 1 [GainSinStockAdder] il turno successivo a (2 + Rison. più alta) alleati casuali, includsa questa unità (max 7)\n[EndSkill] Se ci sono unità Stordite o in Panico tra i bersagli, ottiene 1 Risorsa E.G.O dell'Affinità meno posseduta; recupera 3 PS</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict 4 [Vibration]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge 4 [Vibration]</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 6 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 6 [Sinking]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[EnemyKill] Gain 3 E.G.O resources of a random Affinity currently owned; All allies heal 3 SP<style=\"highlight\"></style>"
+                  "desc": "[EnemyKill] Ottiene 3 risorse E.G.O di un'Affinità casuale correntemente in possesso; Tutti gli alleati recuperano 3 PS<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -95,7 +95,7 @@
                   "desc": "[OnSucceedAttack] Infligge 4 [Sinking]"
                 },
                 {
-                  "desc": "[EndSkill] Applica a tutti gli alleati +1 [GainSinStockAdder]"
+                  "desc": "[EndSkill] Applica 1 [GainSinStockAdder] a tutti gli alleati"
                 }
               ]
             }
@@ -113,7 +113,7 @@
                   "desc": "[OnSucceedAttack] Infligge 5 [Sinking]"
                 },
                 {
-                  "desc": "[EndSkill] Applica a tutti gli alleati +1 <[GainSinStockAdder]"
+                  "desc": "[EndSkill] Applica 1 [GainSinStockAdder] a tutti gli alleati"
                 }
               ]
             }
@@ -131,7 +131,7 @@
                   "desc": "[OnSucceedAttack] Infligge 6 [Sinking]"
                 },
                 {
-                  "desc": "[EndSkill] Applica a tutti gli alleati +1 [GainSinStockAdder] e 1 [Agility] il turno successivo"
+                  "desc": "[EndSkill] Applica 1 [GainSinStockAdder] a tutti gli alleati, applica 1 [Agility] il turno successivo"
                 }
               ]
             }
@@ -141,7 +141,7 @@
           "level": 5,
           "name": "Soda",
           "abName": "Wellcheers",
-          "desc": "[CantIdentify]\nTargets randomly\n\n<style=\"highlight\">If target has less than 25% HP, deal +40% damage\n[DefeatDuel] Base Power -12\n[BeforeAttack] At 4+ highest Reson., gain +1 Atk Weight\n[EndSkill] If there are Staggered or Panicked units among targets, gain 1 E.G.O resource for the least-owned Affinity; heal 3 SP</style>",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n\n<style=\"highlight\">Se il bersaglio ha meno del 25% PV, infligge +40% danno\n[DefeatDuel] Potere Base -12\n[BeforeAttack] A 4+ Rison. più alta, ottiene +1 Portata Attacco\n[EndSkill] Se ci sono unità Stordite o in Panico tra i bersagli, ottiene 1 Risorsa E.G.O dell'Affinità meno posseduta; recupera 3 PS</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -149,13 +149,13 @@
                   "desc": "<style=\"highlight\">[SuperCoin]</style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict 4 [Vibration]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge 4 [Vibration]</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 6 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 6 [Sinking]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[EndSkill] All allies gain 1 [GainSinStockAdder], apply 1 [Agility] next turn<style=\"highlight\"></style>"
+                  "desc": "[EndSkill] Applica 1 [GainSinStockAdder] a tutti gli alleati, applica 1 [Agility] il turno successivo<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "<style=\"highlight\">[EndSkillTail] All allies gain 1 [GainSinStockAdder] next turn (once per turn)</style>"
