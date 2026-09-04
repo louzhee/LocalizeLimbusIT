@@ -7,7 +7,7 @@
           "level": 1,
           "name": "Giardino delle Spine",
           "abName": "Insegna delle Rose",
-          "desc": "[BeforeAttack] A 3+ Rison. più alta, Portata Attacco +1\n[WhenUse] Applica 1 '(Affinità Peccato Corrispondente) Potenziata' ed '1 Potenzia (Affinità Peccato Corrispondente)' a (1 + # della Rison. più alta) alleati.\n- A 4+ Rison. Corrispondente, applica 1 ulteriore '(Affinità Peccato Corrispondente) Potenziata'",
+          "desc": "[BeforeAttack] A 3+ Rison. più alta, Portata Attacco +1\n[WhenUse] Applica 1 'Danno (Affinità Peccato Corrispondente) Potenziato' ed 1 'Potere (Affinità Peccato Corrispondente) Potenziato' a (1 + # della Rison. più alta) alleati.\n- A 4+ Rison. Corrispondente, applica 1 ulteriore 'Danno (Affinità Peccato Corrispondente) Potenziato'",
           "coinlist": [
             {
               "coindescs": [
@@ -22,7 +22,7 @@
           "level": 3,
           "name": "Giardino delle Spine",
           "abName": "Insegna delle Rose",
-          "desc": "[BeforeAttack] Ottiene (# della Rison. più alta - 2) Portata Attacco (Max 2)\n[WhenUse] Applica 1 '(Affinità Peccato Corrispondente) Potenziata' e '1 Potenzia (Affinità Peccato Corrispondente)' a (2 + # della Rison. più alta) alleati.\n- A 4+ Rison. Corrispondente, applica 1 ulteriore '(Affinità Peccato Corrispondente) Potenziata'\n- A 5+ Rison. Corrispondente, applica 1 ulteriore '(Affinità Peccato Corrispondente) Potenziata'",
+          "desc": "[BeforeAttack] Ottiene (# della Rison. più alta - 2) Portata Attacco (Max 2)\n[WhenUse] Applica 1 'Potere (Affinità Peccato Corrispondente) Potenziato' e '1 Potere (Affinità Peccato Corrispondente) Potenziato' a (2 + # della Rison. più alta) alleati.\n- A 4+ Rison. Corrispondente, applica 1 ulteriore 'Danno (Affinità Peccato Corrispondente) Potenziato'\n- A 5+ Rison. Corrispondente, applica 1 ulteriore 'Danno (Affinità Peccato Corrispondente) Potenziato'",
           "coinlist": [
             {
               "coindescs": [
@@ -37,7 +37,7 @@
           "level": 4,
           "name": "Giardino delle Spine",
           "abName": "Insegna delle Rose",
-          "desc": "[BeforeAttack] Ottiene (# della Rison. più alta - 2) Portata Attacco (Max 3)\n[WhenUse] Applica 1 '(Affinità Peccato Corrispondente) Potenziata' e '1 Potenzia (Affinità Peccato Corrispondente)' a (4 + # della Rison. più alta) alleati.\n- A 4+ Rison. Corrispondente, applica 1 ulteriore '(Affinità Peccato Corrispondente) Potenziata'\n- A 5+ Rison. Corrispondente, applica 1 ulteriore '(Affinità Peccato Corrispondente) Potenziata'\n- A 6+ Rison-A Corrispondente, applica gli effetti precedenti anche nel turno successivo",
+          "desc": "[BeforeAttack] Ottiene (# della Rison. più alta - 2) Portata Attacco (Max 3)\n[WhenUse] Applica 1 'Danno (Affinità Peccato Corrispondente) Potenziato' e '1 Potere (Affinità Peccato Corrispondente) Potenziato' a (4 + # della Rison. più alta) alleati.\n- A 4+ Rison. Corrispondente, applica 1 ulteriore 'Danno (Affinità Peccato Corrispondente) Potenziato'\n- A 5+ Rison. Corrispondente, applica 1 ulteriore 'Danno (Affinità Peccato Corrispondente) Potenziato'\n- A 6+ Rison-A Corrispondente, applica gli effetti precedenti anche nel turno successivo",
           "coinlist": [
             {
               "coindescs": [
@@ -65,7 +65,7 @@
                   "desc": "[OnSucceedAttack] Infligge 1 [AttackDmgDown]. Infligge 2 [Binding] il turno successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 'Fragilità' e 1 'Fragile' per l'Affinità Peccato con la Rison. più alta\n- A 4+ Rison. Corrispondente, infligge 1 ulteriore 'Fragilità (Affinità Peccato Corrispondente)'"
+                  "desc": "[OnSucceedAttack] Infligge 1 'Fragilità[TabExplain]' e 1 'Potere Diminuito[TabExplain]' per l'Affinità Peccato con la Rison. più alta\n- A 4+ Rison. Corrispondente, infligge 1 ulteriore 'Fragilità (Affinità Peccato Corrispondente)'"
                 }
               ]
             }
@@ -83,7 +83,7 @@
                   "desc": "[OnSucceedAttack] Infligge 1 [AttackDmgDown]. Infligge 2 [Binding] il turno successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 'Fragility' e 1 'Power Down' per l'Affinità Peccato con la Rison. più alta\n- A 4+ Rison. Corrispondente, infligge 1 ulteriore 'Fragilità (Affinità Peccato Corrispondente)'\n- A 5+ Rison. Corrispondente, infligge 1 ulteriore 'Fragilità (Affinità Peccato Corrispondente)'"
+                  "desc": "[OnSucceedAttack] Infligge 1 'Fragilità[TabExplain]' e 1 'Potere Diminuito[TabExplain]' per l'Affinità Peccato con la Rison. più alta\n- A 4+ Rison. Corrispondente, infligge 1 ulteriore 'Fragilità[TabExplain] (Affinità Peccato Corrispondente)'\n- A 5+ Rison. Corrispondente, infligge 1 ulteriore 'Fragilità[TabExplain] (Affinità Peccato Corrispondente)'"
                 }
               ]
             }
@@ -101,7 +101,7 @@
                   "desc": "[OnSucceedAttack] Infligge 1 [AttackDmgDown]. Infligge 2 [Binding] il turno successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge 1 'Fragility' e 1 'Power Down' per l'Affinità Peccato con la Rison. più alta\n- A 4+ Rison. Corrispondente, infligge 1 ulteriore 'Fragilità (Affinità Peccato Corrispondente)'\n- A 5+ Rison. Corrispondente, infligge 1 ulteriore 'Fragilità (Affinità Peccato Corrispondente)'\n- A 6+ Rison-A Corrispondente, applica gli effetti precedenti anche nel turno successivo"
+                  "desc": "[OnSucceedAttack] Infligge 1 'Fragilità[TabExplain]' e 1 'Potere Diminuito[TabExplain]' per l'Affinità Peccato con la Rison. più alta\n- A 4+ Rison. Corrispondente, infligge 1 ulteriore 'Fragilità[TabExplain] (Affinità Peccato Corrispondente)'\n- A 5+ Rison. Corrispondente, infligge 1 ulteriore 'Fragilità[TabExplain] (Affinità Peccato Corrispondente)'\n- A 6+ Rison-A Corrispondente, applica gli effetti precedenti anche nel turno successivo"
                 }
               ]
             }
