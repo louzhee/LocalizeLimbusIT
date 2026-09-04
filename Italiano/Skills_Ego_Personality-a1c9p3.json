@@ -5,20 +5,20 @@
       "levelList": [
         {
           "level": 4,
-          "name": "Crow’s Eye View",
+          "name": "Punto di Vista del Corvo",
           "abName": "Yi Sang",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Reduction] this turn and next turn"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Reduction] questo turno e il successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Apply 3 [Agility] to all allies next turn"
+                  "desc": "[OnSucceedAttack] Applica 3 [Agility] a tutti gli alleati il turno successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Binding] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Binding] il turno successivo"
                 }
               ]
             }
@@ -38,10 +38,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 8 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 8 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal by 50% of damage dealt"
+                  "desc": "[OnSucceedAttack] Si cura del 50% del danno inflitto"
                 }
               ]
             }
@@ -54,26 +54,26 @@
       "levelList": [
         {
           "level": 4,
-          "name": "Chains of Others",
+          "name": "Catene Altrui",
           "abName": "Meursault",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Binding] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Binding] il turno successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 3 [Binding] next turn"
+                  "desc": "[OnSucceedAttack] Ottiene 3 [Binding] il turno successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Reduction] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Reduction] il turno successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 3 [Reduction] next turn"
+                  "desc": "[OnSucceedAttack] Ottiene 3 [Reduction] il turno successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 [Protection] next turn"
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Protection] il turno successivo"
                 }
               ]
             }
@@ -86,14 +86,14 @@
       "levelList": [
         {
           "level": 4,
-          "name": "Land of Illusion",
+          "name": "Mondo delle Illusioni",
           "abName": "Hong Lu",
-          "desc": "[EndSkill] Heal 15 SP for this unit and all allies\n[EndSkill] Remove Burn from this unit and all allies",
+          "desc": "[EndSkill] Questa unità e tutti gli alleati recuperano 15 PS\n[EndSkill] Rimuove Bruciatura da questa unità e da tutti gli alleati",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Sinking]"
                 }
               ]
             }
@@ -108,15 +108,15 @@
           "level": 4,
           "name": "To Páthos Máthos",
           "abName": "Outis",
-          "desc": "If target’s HP is below 50%, deal +30% damage",
+          "desc": "Se i PV del bersaglio sono al di sotto del 50%, infligge +30% danni",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Burst]"
                 },
                 {
-                  "desc": "[EnemyKill] Apply 1 [AttackDmgUp] to a random ally"
+                  "desc": "[EnemyKill] Applica 1 [AttackDmgUp] ad un alleato casuale"
                 }
               ]
             }
