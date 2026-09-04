@@ -710,7 +710,7 @@
           "level": 3,
           "name": "Lacrime del Sangue Impuro",
           "abName": "Yinglong",
-          "desc": "[CantIdentify]\nBersaglia casualmente\n<style=\"highlight\">A 10+ [YesdragonSelf], Base Power +1</style>\n[StartBattle] Ottiene [YesdragonNodie]\n[BeforeAttack] Ottiene (Rison. Gola + 4) [YesdragonSelf] (max 10)\n[BeforeAttack] Subisce ([YesdragonSelf] su di sé x 2) danno ai PV\nNon viene Stordita se quest'effetto fa scendere i PV di questa unità sotto una Soglia di Stordimento; rimuove, invece, la Soglia di Stordimento maggiore dei PV correnti di questa unità",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n<style=\"highlight\">A 10+ [YesdragonSelf], Potere Base +1</style>\n[StartBattle] Ottiene [YesdragonNodie]\n[BeforeAttack] Ottiene (Rison. Gola + 4) [YesdragonSelf] (max 10)\n[BeforeAttack] Subisce ([YesdragonSelf] su di sé x 2) danno ai PV\nNon viene Stordita se quest'effetto fa scendere i PV di questa unità sotto una Soglia di Stordimento; rimuove, invece, la Soglia di Stordimento maggiore dei PV correnti di questa unità",
           "coinlist": [
             {
               "coindescs": [
@@ -738,12 +738,12 @@
           "level": 4,
           "name": "Lacrime del Sangue Impuro",
           "abName": "Yinglong",
-          "desc": "[CantIdentify]\nBersaglia casualmente\n<style=\"highlight\">Base Power +1 per ogni 10 [YesdragonSelf] su di sé (max 2)</style>\n[StartBattle] Ottiene [YesdragonNodie]\n[BeforeAttack] Ottiene (Rison. Gola + 4) [YesdragonSelf] (max 10)\n[BeforeAttack] Subisce ([YesdragonSelf] su di sé x 2) danno ai PV\nNon viene Stordita se quest'effetto fa scendere i PV di questa unità sotto una Soglia di Stordimento; rimuove, invece, la Soglia di Stordimento maggiore dei PV correnti di questa unità",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n<style=\"highlight\">Potere Base +1 per ogni 10 [YesdragonSelf] su di sé (max 2)</style>\n[StartBattle] Ottiene [YesdragonNodie]\n[BeforeAttack] Ottiene (Rison. Gola + 4) [YesdragonSelf] (max 10)\n[BeforeAttack] Subisce ([YesdragonSelf] su di sé x 2) danno ai PV\nNon viene Stordita se quest'effetto fa scendere i PV di questa unità sotto una Soglia di Stordimento; rimuove, invece, la Soglia di Stordimento maggiore dei PV correnti di questa unità",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +1 [Burst] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge 3 [Burst]<style=\"highlight\"></style>"
