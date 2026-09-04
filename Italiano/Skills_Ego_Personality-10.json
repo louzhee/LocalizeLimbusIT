@@ -590,25 +590,25 @@
           "level": 1,
           "name": "Lacrime del Sangue Impuro",
           "abName": "Yinglong",
-          "desc": "[StartBattle] Gain [YesdragonNodie]\n[BeforeAttack] Gain [YesdragonSelf] equal to Gluttony Reson. (max 5)\n[BeforeAttack] Take ([YesdragonSelf] on self x 2) PV damage\n- Does not get Staggered if this lowers this unit's PV below a Stagger Threshold; instead, remove the Stagger Threshold higher than this unit's current PV\n[EndSkill] For 3 turns, lose 10 PS at Turn End",
+          "desc": "[StartBattle] Ottiene [YesdragonNodie]\n[BeforeAttack] Ottiene [YesdragonSelf] pari alla Rison. Gola (max 5)\n[BeforeAttack] Subisce ([YesdragonSelf] su di sé x 2) danno ai PV\n- Non viene Stordita se quest'effetto fa scendere i PV di questa unità sotto una Soglia di Stordimento; rimuove, invece, la Soglia di Stordimento maggiore dei PV correnti di questa unità\n[EndSkill] Per 3 turni, perde 10 PS a Fine Turno",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this unit has 30% or less PV, or is at 20 [YesdragonSelf] Stack, Reuse this Coin (una volta per Abilità)"
+                  "desc": "[OnSucceedAttack] Se questa unità ha 30% o meno PV, o ha almeno 20 Stack di [YesdragonSelf], Riusa questa Moneta (una volta per Abilità)"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Consume all PV on self to deal +20% damage with this Coin (once per Turn)"
+                  "desc": "[ReUseOnSucceedAttack] Usa tutti i PV che ha per infliggere +20% danno con questa Moneta (una volta per Turno)"
                 }
               ]
             }
@@ -618,25 +618,25 @@
           "level": 3,
           "name": "Lacrime del Sangue Impuro",
           "abName": "Yinglong",
-          "desc": "<style=\"highlight\">At 6+ [YesdragonSelf], Coin Power +1</style>\n[StartBattle] Gain [YesdragonNodie]\n[BeforeAttack] Gain [YesdragonSelf] equal to Gluttony Reson. (max 5)\n[BeforeAttack] Take ([YesdragonSelf] on self x 2) PV damage\n- Does not get Staggered if this lowers this unit's PV below a Stagger Threshold; instead, remove the Stagger Threshold higher than this unit's current PV\n[EndSkill] For 3 turns, lose 10 PS at Turn End",
+          "desc": "<style=\"highlight\">A 6+ [YesdragonSelf], Potere Moneta +1</style>\n[StartBattle] Ottiene [YesdragonNodie]\n[BeforeAttack] Ottiene [YesdragonSelf] pari alla Rison. Gola (max 5)\n[BeforeAttack] Subisce ([YesdragonSelf] su di sé x 2) danno ai PV\n- Non viene Stordita se quest'effetto fa scendere i PV di questa unità sotto una Soglia di Stordimento; rimuove, invece, la Soglia di Stordimento maggiore dei PV correnti di questa unità\n[EndSkill] Per 3 turni, perde 10 PS a Fine Turno",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">3</style> [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">3</style> [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this unit has 30% or less PV, or is at 20 [YesdragonSelf] Stack, Reuse this Coin (una volta per Abilità)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Se questa unità ha 30% o meno PV, o ha almeno 20 Stack di [YesdragonSelf], Riusa questa Moneta (una volta per Abilità)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Consume all PV on self to deal +20% damage with this Coin (once per Turn)<style=\"highlight\"></style>"
+                  "desc": "[ReUseOnSucceedAttack] Usa tutti i PV che ha per infliggere +20% danno con questa Moneta (una volta per Turno)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -646,28 +646,28 @@
           "level": 4,
           "name": "Lacrime del Sangue Impuro",
           "abName": "Yinglong",
-          "desc": "<style=\"highlight\">Coin Power +1 for every 6 [YesdragonSelf] on self (max 3)</style>\n[StartBattle] Gain [YesdragonNodie]\n[BeforeAttack] Gain [YesdragonSelf] equal to Gluttony Reson. (max 5)\n[BeforeAttack] Take ([YesdragonSelf] on self x 2) PV damage\n- Does not get Staggered if this lowers this unit's PV below a Stagger Threshold; instead, remove the Stagger Threshold higher than this unit's current PV\n[EndSkill] For 3 turns, lose 10 PS at Turn End",
+          "desc": "<style=\"highlight\">Potere Moneta +1 per ogni 6 [YesdragonSelf] su di sé (max 3)</style>\n[StartBattle] Ottiene [YesdragonNodie]\n[BeforeAttack] Ottiene [YesdragonSelf] pari alla Rison. Gola (max 5)\n[BeforeAttack] Subisce ([YesdragonSelf] su di sé x 2) danno ai PV\n- Non viene Stordita se quest'effetto fa scendere i PV di questa unità sotto una Soglia di Stordimento; rimuove, invece, la Soglia di Stordimento maggiore dei PV correnti di questa unità\n[EndSkill] Per 3 turni, perde 10 PS a Fine Turno",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\"> Deal +1% damage for every 2% missing PV on self (max 40%)</style>"
+                  "desc": "<style=\"highlight\"> Infligge +1% danno per ogni 2% PV mancanti su di sé (max 40%)</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this unit has 30% or less PV, or is at 20 [YesdragonSelf] Stack, Reuse this Coin (una volta per Abilità)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Se questa unità ha 30% o meno PV, o ha almeno 20 Stack di [YesdragonSelf], Riusa questa Moneta (una volta per Abilità)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Consume all PV on self to deal +20% damage with this Coin (once per Turn)<style=\"highlight\"></style>"
+                  "desc": "[ReUseOnSucceedAttack] Usa tutti i PV che ha per infliggere +20% danno con questa Moneta (una volta per Turno)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -682,25 +682,25 @@
           "level": 1,
           "name": "Lacrime del Sangue Impuro",
           "abName": "Yinglong",
-          "desc": "[CantIdentify]\nBersaglia casualmente\n[StartBattle] Gain [YesdragonNodie]\n[BeforeAttack] Gain (Gluttony Reson. + 4) [YesdragonSelf] (max 10)\n[BeforeAttack] Take ([YesdragonSelf] on self x 2) PV damage\nDoes not get Staggered if this lowers this unit's PV below a Stagger Threshold; instead, remove the Stagger Threshold higher than this unit's current PV",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[StartBattle] Ottiene [YesdragonNodie]\n[BeforeAttack] Ottiene (Rison. Gola + 4) [YesdragonSelf] (max 10)\n[BeforeAttack] Subisce ([YesdragonSelf] su di sé x 2) danno ai PV\nNon viene Stordita se quest'effetto fa scendere i PV di questa unità sotto una Soglia di Stordimento; rimuove, invece, la Soglia di Stordimento maggiore dei PV correnti di questa unità",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If this unit has 30% or less PV, or is at 20 [YesdragonSelf] Stack, Reuse this Coin (una volta per Abilità)"
+                  "desc": "[OnSucceedAttack] Se questa unità ha 30% o meno PV, o ha almeno 20 Stack di [YesdragonSelf], Riusa questa Moneta (una volta per Abilità)"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Consume all PV on self to deal +20% damage with this Coin (once per Turn)"
+                  "desc": "[ReUseOnSucceedAttack] Usa tutti i PV che ha per infliggere +20% danno con questa Moneta (una volta per Turno)"
                 }
               ]
             }
@@ -710,25 +710,25 @@
           "level": 3,
           "name": "Lacrime del Sangue Impuro",
           "abName": "Yinglong",
-          "desc": "[CantIdentify]\nBersaglia casualmente\n<style=\"highlight\">At 10+ [YesdragonSelf], Base Power +1</style>\n[StartBattle] Gain [YesdragonNodie]\n[BeforeAttack] Gain (Gluttony Reson. + 4) [YesdragonSelf] (max 10)\n[BeforeAttack] Take ([YesdragonSelf] on self x 2) PV damage\nDoes not get Staggered if this lowers this unit's PV below a Stagger Threshold; instead, remove the Stagger Threshold higher than this unit's current PV",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n<style=\"highlight\">A 10+ [YesdragonSelf], Base Power +1</style>\n[StartBattle] Ottiene [YesdragonNodie]\n[BeforeAttack] Ottiene (Rison. Gola + 4) [YesdragonSelf] (max 10)\n[BeforeAttack] Subisce ([YesdragonSelf] su di sé x 2) danno ai PV\nNon viene Stordita se quest'effetto fa scendere i PV di questa unità sotto una Soglia di Stordimento; rimuove, invece, la Soglia di Stordimento maggiore dei PV correnti di questa unità",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Burst]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">3</style> [Burst]"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">3</style> [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If this unit has 30% or less PV, or is at 20 [YesdragonSelf] Stack, Reuse this Coin (una volta per Abilità)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Se questa unità ha 30% o meno PV, o ha almeno 20 Stack di [YesdragonSelf], Riusa questa Moneta (una volta per Abilità)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Consume all PV on self to deal +20% damage with this Coin (once per Turn)<style=\"highlight\"></style>"
+                  "desc": "[ReUseOnSucceedAttack] Usa tutti i PV che ha per infliggere +20% danno con questa Moneta (una volta per Turno)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -738,28 +738,28 @@
           "level": 4,
           "name": "Lacrime del Sangue Impuro",
           "abName": "Yinglong",
-          "desc": "[CantIdentify]\nBersaglia casualmente\n<style=\"highlight\">Base Power +1 for every 10 [YesdragonSelf] on self (max 2)</style>\n[StartBattle] Gain [YesdragonNodie]\n[BeforeAttack] Gain (Gluttony Reson. + 4) [YesdragonSelf] (max 10)\n[BeforeAttack] Take ([YesdragonSelf] on self x 2) PV damage\nDoes not get Staggered if this lowers this unit's PV below a Stagger Threshold; instead, remove the Stagger Threshold higher than this unit's current PV",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n<style=\"highlight\">Base Power +1 per ogni 10 [YesdragonSelf] su di sé (max 2)</style>\n[StartBattle] Ottiene [YesdragonNodie]\n[BeforeAttack] Ottiene (Rison. Gola + 4) [YesdragonSelf] (max 10)\n[BeforeAttack] Subisce ([YesdragonSelf] su di sé x 2) danno ai PV\nNon viene Stordita se quest'effetto fa scendere i PV di questa unità sotto una Soglia di Stordimento; rimuove, invece, la Soglia di Stordimento maggiore dei PV correnti di questa unità",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +1 [Burst] Count<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Burst]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\"> Deal +1% damage for every 2% missing PV on self (max 40%)</style>"
+                  "desc": "<style=\"highlight\"> Infligge +1% danno per ogni 2% PV mancanti su di sé (max 40%)</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this unit has 30% or less PV, or is at 20 [YesdragonSelf] Stack, Reuse this Coin (una volta per Abilità)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Se questa unità ha 30% o meno PV, o ha almeno 20 Stack di [YesdragonSelf], Riusa questa Moneta (una volta per Abilità)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Consume all PV on self to deal +20% damage with this Coin (once per Turn)<style=\"highlight\"></style>"
+                  "desc": "[ReUseOnSucceedAttack] Usa tutti i PV che ha per infliggere +20% danno con questa Moneta (una volta per Turno)<style=\"highlight\"></style>"
                 }
               ]
             }
