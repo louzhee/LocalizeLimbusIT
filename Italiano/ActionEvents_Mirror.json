@@ -964,26 +964,26 @@
     },
     {
       "id": 901015,
-      "name": "",
+      "name": "Drunkard",
       "subDesc": "",
-      "desc": "The air is thick with steam.\n\nIt's not simply gaseous water; the steam's color is brown.\n\nBeyond the veil of steam, you hear a voice.\n\n\"Mhm! It's only right to drink straight from the bottle!\"\n\n\"The ones from the west are good-tasting these days.\"\n\n\"You there! You like booze?\"",
+      "desc": "L'aria è densa di vapore.\n\nNon è semplice vapore acqueo; il colore del vapore è marrone.\n\nOltre al manto nebbioso, sentite una voce.\n\n\"Mhm! Il vero modo di bere è direttamente dalla bottiglia!\"\n\n\"Quelli dell'ovest sono di 'na prelibatezza in 'sti giorni.\"\n\n\"Ehi te laggiù! Ti piace l'alcol?\"",
       "options": [
         {
-          "message": "I do.",
+          "message": "Sì.",
           "result": [
             ""
           ]
         },
         {
-          "message": "I don't.",
-          "messageDesc": "Select to gain a Tremor E.G.O Gift",
+          "message": "No.",
+          "messageDesc": "Seleziona per ottenere un Dono E.G.O Vibrazione",
           "result": [
-            "\"Pfeh! You only hate it because you haven't had a taste of the good ones~ Here!\"\n\nIt's met with a staunch refusal.\n\n\"Seriously...? You won't drink this precious stuff?\"\n\nStill rejected.\n\n\"Tch... My mood's all dampened now.\"\n\nIt placed the bottle of alcohol down, and walked back into the veil of steam."
+            "\"Pfeh! L'odi solo perché non hai mai dato un'assaggio a quelli di qualità~ Tieni!\"\n\nViene rifiutato con fermezza.\n\n\"Davvero...? Non vuoi bere questa roba pregiata?\"\n\nAncora rifiutato.\n\n\"Tch... Non sono più dell'umore giusto.\"\n\nHa appoggiato la bottiglia d'alcohol per terra, ed è ritornato nel manto nebbioso."
           ]
         },
         {
-          "message": "I don't know how to live without alcohol.",
-          "messageDesc": "Run a Sloth & Gluttony Advantage check to gain an E.G.O Gift.",
+          "message": "Non saprei vivere senza.",
+          "messageDesc": "Esegui una prova con Vantaggio per Accidia e Gola per ottenere un Dono E.G.O.",
           "result": [
             ""
           ]
@@ -992,47 +992,47 @@
     },
     {
       "id": 901030,
-      "name": "",
+      "name": "Chattering Teeth",
       "subDesc": "",
-      "desc": "This is a dark cavern.\n\nSounds of hard objects hitting each other loudly echo at random intervals.\n\nThe noise is coming from three large skulls. They approach us, clacking and rattling.\n\nThey have no bodies. So they roll. They make noises endlessly even as they roll.\n\nLooking at the three skulls that rolled at our feet, we find they have different expressions.\n\nShould we choose one of them?",
+      "desc": "Questa è una caverna buia.\n\nSi sentono i forti riecheggi di oggetti solidi che si scontrano ad intervalli casuali.\n\nIl rumore proviene da tre teschi grossi. Si avvicinano, con i loro schiocchi e tintinnii.\n\nAssenti di un corpo, rotolano. Il rumore persiste anche nel rotolamento.\n\nOsservando i tre teschi rotolati ai nostri piedi, notiamo espressioni differenti l'un dall'altro.\n\nDovremmo scegliere uno di loro?",
       "options": [
         {
-          "message": "Choose the laughing skull."
+          "message": "Scegli il teschio ridente."
         },
         {
-          "message": "Choose the angry skull.",
-          "messageDesc": "Wrath & Envy Advantage check. Pass to gain a Rupture E.G.O Gift."
+          "message": "Scegli il teschio arrabbiato.",
+          "messageDesc": "Prova con Vantaggio per Ira e Invidia.\nPassa per ottenere un Dono E.G.O Lacerazione."
         },
         {
-          "message": "Choose the deranged skull.",
-          "messageDesc": "Lust & Gloom Advantage check. Pass to gain a Pierce E.G.O Gift."
+          "message": "Scegli il teschio folle.",
+          "messageDesc": "Prova con Vantaggio per Lussuria e Tristezza.\nPassa per ottenere un Dono E.G.O Perforante."
         }
       ]
     },
     {
       "id": 901036,
-      "name": "",
+      "name": "Four-hundred Roses",
       "subDesc": "",
-      "desc": "This flower was once a rose that could have been tiny and beautiful.\n\nBut now, the blood it holds gives off a cruel smell.\n\nDrinking and growing giant, it sucked in blood that overflowed from a spring.\n\nWithout an end.\n\nIt greedily gobbles up the stream of blood with its branched roots.",
+      "desc": "Questo fiore fu un tempo una piccola e meravigliosa rosa.\n\nMa adesso, col sangue in suo possesso, dà una puzza cruenta.\n\nBevendo e crescendo fino a diventare gigantesca, ha succhiato il sangue fuoriuscito da una sorgente.\n\nSenza una fine.\n\nAvidamente ingurgita il flusso di sangue con le sue radici ramificate.",
       "options": [
         {
-          "message": "Plug the spring to stop it from drinking blood.",
+          "message": "Tappa la sorgente per non farle più bere sangue.",
           "result": [
-            "The spring was blocked so that it can't drink the overflowing blood.\n\nHowever, it's an unfair action for the rose.\n\nThe rose wasn't responsible for causing the spring to overflow.\n\nIt simply took root here because it liked blood.\n\nNow that the source of its favorite thing is gone, it will try to take our blood."
+            "La sorgente è stata bloccata così che non possa più bere il sangue fuoriuscito.\n\nTuttavia, la rosa la ritiene un'azione ingiusta.\n\nLa rosa non è la responsabile per la fuoriuscita dalla sorgente.\n\nLe piaceva il sangue, quindi si è semplicemente radicata qui.\n\nOra che l'origine della cosa che più amava è scomparsa, proverà a prendersi il nostro sangue."
           ]
         },
         {
-          "message": "Break the spring's entryway to let more blood out.",
-          "messageDesc": "Select to gain a Keywordless E.G.O Gift",
+          "message": "Spacca l'entrata della sorgente per rilasciare più sangue.",
+          "messageDesc": "Seleziona per ottenere un Dono E.G.O Senza Tratti",
           "result": [
-            "When the spring's entryway was broken, the blood that must've belonged to someone in the past flows like a waterfall and onto the rose.\n\nAs if overjoyed, the rose waves its roots and lies in the pool of blood.\n\nLike that, the rose drooped low and sank into blood.\n\nAt the center, a small flower bloomed.\n\nCould this be its reward? We carefully picked it up."
+            "Quando l'entrata della sorgente è stata distrutta, il sangue che doveva appartene a qualcuno si riversa come una cascata sulla rosa.\n\nCome se rallegrata, la rosa muove le sue radice e si sdraia nel bagno di sangue.\n\nE così, la rosa discende per sprofondare nel sangue.\n\nAl centro, un piccolo fiore sboccia.\n\nChe sia una ricompensa? Attentamente la raccogliamo."
           ]
         },
         {
-          "message": "Feed it the blood of the Sinners",
-          "messageDesc": "Select to gain a Bleed E.G.O Gift",
+          "message": "Dalle del sangue dei Peccatori",
+          "messageDesc": "Seleziona per ottenere un Dono E.G.O Sanguinamento",
           "result": [
-            "What is the nature of the blood that fills the spring? Who—or what—is it from?\n\nInstead of feeding it that mysterious blood, I decide to feed it blood of the Sinners.\n\nThe bloodsteeped rose extends its petals, yearning for our blood nevertheless.\n\nThe rose drinks the blood of the Sinners, and a smaller flower blossoms next to the base of its stem.\n\nPerhaps it is giving us a gift in return for our blood. I carefully pick up the flower."
+            "Qual'è la natura del sangue che riempe la sorgente? A chi, o a cosa, appartiene?\n\nInvece di lasciare che is nutra del sangue misterioso, ho deciso di darle il sangue dei Peccatori.\n\nLa rosa tinta di sangue ci porge i petali, bramando nondimeno che del nostro sangue.\n\nLa rosa beve il sangue dei Peccatori, e un fiore più piccolo sboccia accanto alla base del suo stelo.\n\nForse ci sta offrendo un dono in cambio del nostro sangue. Attentamente raccolgo il fiore."
           ]
         }
       ]
