@@ -22,7 +22,7 @@
     },
     {
       "key": "AccumulatedExp",
-      "text": "Punteggio Spesa Bulbi Oculari"
+      "text": "Bulbi Oculari Spesi"
     },
     {
       "key": "RemainExpToNextLevel",
@@ -154,11 +154,11 @@
     },
     {
       "key": "Log_Purchased",
-      "text": "Comprato: {0} x{1} ({2} spesi)"
+      "text": "Comprato: {0} x{1} ({2} bulbi spesi)"
     },
     {
       "key": "Log_PurchasedKeyItem",
-      "text": "Comprato: <color=#{3}>{0} x{1}</color> ({2} spesi)"
+      "text": "Comprato: <color=#{3}>{0} x{1}</color> ({2} bulbi spesi)"
     },
     {
       "key": "Log_NpcInteracted",
@@ -190,79 +190,79 @@
     },
     {
       "key": "Log_BattleResultSync",
-      "text": "Battle Outcome Reflected: ({0}): PV {1}/{2}, PM{3}/{4}"
+      "text": "Risultato Battaglia Riflesso: ({0}): PV {1}/{2}, PM{3}/{4}"
     },
     {
       "key": "Log_BattleDefeatHp",
-      "text": "Battle Lost: PV {0}"
+      "text": "Battaglia Persa: PV {0}"
     },
     {
       "key": "Log_CheatVitals",
-      "text": "Cheat: {0}"
+      "text": "Trucco: {0}"
     },
     {
       "key": "Log_EventEffectVitals",
-      "text": "Event Effect :{0}"
+      "text": "Effetto Evento :{0}"
     },
     {
       "key": "Log_RecruitFullRecover",
-      "text": "Ally Gained ({0}): Fully Heal HP/SP"
+      "text": "Gli alleati ottengono ({0}): Ripristino Completo PV/PS"
     },
     {
       "key": "Log_VitalsNoChange",
-      "text": "No Changes"
+      "text": "Nessun Cambiamento"
     },
     {
       "key": "Log_NpcDefeated",
-      "text": "{0} Defeated ({1} Dmg)"
+      "text": "{0} Sconfitto ({1} Danno)"
     },
     {
       "key": "Log_NpcDefeatedWeakness",
-      "text": "{0} Defeated ({1} Weakpoint Dmg)"
+      "text": "{0} Sconfitto ({1} Danno Debolezza)"
     },
     {
       "key": "Log_DamageDealt",
-      "text": "Dealt {1} Dmg against {0}"
+      "text": "Inflitto {1} Danno contro {0}"
     },
     {
       "key": "Log_DamageDealtWeakness",
-      "text": "Dealt {1} Weakpoint Dmg against {0}"
+      "text": "Inflitto {1} Danno Debolezza contro {0}"
     },
     {
       "key": "Log_PlayerDead",
-      "text": "Player Dead"
+      "text": "Giocatore Morto"
     },
     {
       "key": "Log_BattleEntered",
-      "text": "Commence Battle"
+      "text": "Inizio Battaglia"
     },
     {
       "key": "Log_BattleWin",
-      "text": "Battle Won"
+      "text": "Battaglia Vinta"
     },
     {
       "key": "Log_BattleLose",
-      "text": "Battle Lost"
+      "text": "Battaglia Persa"
     },
     {
       "key": "Log_RestSpotHealed",
-      "text": "HP fully healed"
+      "text": "PV curati del tutto"
     },
     {
       "key": "Log_EscapeBlocked",
-      "text": "Can't leave this room at the moment."
+      "text": "Impossibile lasciare questa stanza al momento."
     },
     {
       "key": "Log_WardenAppeared",
-      "text": "A sense of unsettling omen creeps in."
+      "text": "Si insinua un senso di un inquietante presagio."
     },
     {
       "key": "Log_SuicideBlocked",
-      "text": "This cannot be the way out."
+      "text": "Questa non può essere la via d'uscita."
     },
     {
       "key": "ProgressPopup_Title",
-      "text": "Grande Magazzino Sisyphe"
+      "text": "Grand Magasin Sisyphe"
     },
     {
       "key": "ProgressPopup_Suicide",
@@ -270,67 +270,67 @@
     },
     {
       "key": "ProgressPopup_EnemyAttackIndication",
-      "text": "Show precise enemy attack range"
+      "text": "Mostra il raggio di attacco preciso dei nemici"
     },
     {
       "key": "ProgressPopup_MyAttackIndication",
-      "text": "Show precise ally attack range"
+      "text": "Mostra il raggio di attacco preciso degli alleati"
     },
     {
       "key": "ProgressPopup_Restore",
-      "text": "Restore Savepoint"
+      "text": "Ripristina Punto di Salvataggio"
     },
     {
       "key": "RestorePopup_Title",
-      "text": "Restore Savepoint"
+      "text": "Ripristina Punto di Salvataggio"
     },
     {
       "key": "RestorePopup_Checking",
-      "text": "Checking..."
+      "text": "Controllo..."
     },
     {
       "key": "RestorePopup_FoundNoQuest",
-      "text": "Restorable Autosave found."
+      "text": "Punto di Salvataggio automatico trovato."
     },
     {
       "key": "RestoreCompare_ColCurrent",
-      "text": "Last Savepoint"
+      "text": "Ultimo Punto di Salvataggio"
     },
     {
       "key": "RestoreCompare_ColBackup",
-      "text": "Restore"
+      "text": "Ripristina"
     },
     {
       "key": "RestoreCompare_NoQuest",
-      "text": "None"
+      "text": "Nessuno"
     },
     {
       "key": "RestoreCompare_Unknown",
-      "text": "Not Found"
+      "text": "Non Trovato"
     },
     {
       "key": "RestoreCompare_SavedAt",
-      "text": "Saved At: {0}"
+      "text": "Salvato A: {0}"
     },
     {
       "key": "RestorePopup_None",
-      "text": "No restorable Autosave found."
+      "text": "Nessun Salvataggio automatico ripristinabile trovato."
     },
     {
       "key": "RestorePopup_LoadFailed",
-      "text": "Cannot verify autosave information."
+      "text": "Impossibile verificare informazioni sul Salvataggio automatico."
     },
     {
       "key": "RestorePopup_Confirm",
-      "text": "Any progress you've made since that savepoint will be deleted. This process is irreversible. Restore save anyway?"
+      "text": "Ogni progresso fatto dall'ultimo punto di salvataggio verrà cancellato. Questo processo è irreversibile. Ripristinare comunque il salvataggio?"
     },
     {
       "key": "RestorePopup_Running",
-      "text": "Restoring..."
+      "text": "Ripristino..."
     },
     {
       "key": "RestorePopup_NeedRestart",
-      "text": "Restored. Any progress made after this point will not be saved. Please restart the game."
+      "text": "Ripristino completato. Ogni progresso fatto oltre questo punto non sarà salvato. Riavvia il gioco."
     },
     {
       "key": "RestorePopup_Close",
@@ -354,19 +354,19 @@
     },
     {
       "key": "Setting_Sisyphus_UiSetting",
-      "text": "UI Settings"
+      "text": "Impostazioni UI"
     },
     {
       "key": "Setting_Sisyphus_KeyManual",
-      "text": "Keyboard shortcuts guide"
+      "text": "Guida scorciatoie Tastiera"
     },
     {
       "key": "Setting_Sisyphus_CensorDeadscene",
-      "text": "Censor death scenes"
+      "text": "Censura le scene di morte"
     },
     {
       "key": "Setting_Sisyphus_Move",
-      "text": "Move"
+      "text": "Muoviti"
     },
     {
       "key": "Setting_Sisyphus_Interaction",
@@ -374,11 +374,11 @@
     },
     {
       "key": "Setting_Sisyphus_Quest",
-      "text": "Registro Missioni"
+      "text": "Missioni"
     },
     {
       "key": "Setting_Sisyphus_GauntletSuicide",
-      "text": "Use the gauntlet to commit suicide"
+      "text": "Usa il guanto per suicidarti"
     },
     {
       "key": "Setting_Sisyphus_Attack",
@@ -398,7 +398,7 @@
     },
     {
       "key": "Setting_Sisyphus_LockedNeedItem",
-      "text": "※ Non disponibile. Acquista l'oggetto rilevante per sbloccare l'opzione."
+      "text": "<size=90%>※ Non disponibile. Acquista l'oggetto rilevante per sbloccare l'opzione.</size>"
     },
     {
       "key": "Setting_Sisyphus_LanternToggle",
@@ -426,19 +426,19 @@
     },
     {
       "key": "Setting_Sisyphus_FullLog",
-      "text": "View Log History"
+      "text": "Vedi Registro Storia"
     },
     {
       "key": "Setting_Sisyphus_CreditFastForward",
-      "text": "Speed up credit scroll"
+      "text": "Velocizza crediti"
     },
     {
       "key": "Setting_Sisyphus_CreditSkip",
-      "text": "Skip credits"
+      "text": "Salta crediti"
     },
     {
       "key": "Setting_Sisyphus_QuestNavigation",
-      "text": "Toggle quest navigation arrow"
+      "text": "Attiva/Disattiva freccia navigazione missione"
     },
     {
       "key": "Setting_Sisyphus_TabDefault",
@@ -450,11 +450,11 @@
     },
     {
       "key": "WardenBigNail",
-      "text": "The Warden's Greatnail"
+      "text": "Il Granchiodo del Guardiano"
     },
     {
       "key": "FormationUI_AskToBack",
-      "text": "Leaving via the \"back\" button will count as defeat."
+      "text": "Andarsene tramite il pulsante \"indietro\" conterà come sconfitta."
     },
     {
       "key": "Setting_Sisyphus_Manual",
@@ -462,7 +462,7 @@
     },
     {
       "key": "Setting_Sisyphus_BattleStatus",
-      "text": "Status in the Shadowed"
+      "text": "Stato nell'Ombrato"
     },
     {
       "key": "TheaterTitle",
@@ -474,39 +474,39 @@
     },
     {
       "key": "Setting_Sisyphus_MobileMenu",
-      "text": "Open Menu"
+      "text": "Apri Menu"
     },
     {
       "key": "Setting_Sisyphus_MobileAutoAttack",
-      "text": "Auto-attack"
+      "text": "Auto attacco"
     },
     {
       "key": "Setting_Sisyphus_MobileInteraction",
-      "text": "Interact"
+      "text": "Interagisci"
     },
     {
       "key": "Setting_Sisyphus_MobileQuestNavigation",
-      "text": "Quest Nav. Arrow"
+      "text": "Freccia Nav. Missione"
     },
     {
       "key": "Setting_Sisyphus_MobileLantern",
-      "text": "Lantern"
+      "text": "Lanterna"
     },
     {
       "key": "Setting_Sisyphus_MobileUnlockNotice",
-      "text": "Functions marked with \"※\" must be unlocked by purchasing a relevant item."
+      "text": "Le funzioni marchiate con \"※\" devono essere sbloccate acquistando l'oggetto rilevante."
     },
     {
       "key": "Rpg_Menu_Status_Ego_Resources_Owned",
-      "text": "Current E.G.O Resources"
+      "text": "Risorse E.G.O Correnti"
     },
     {
       "key": "Rpg_Menu_Status_Character_Mental_Status",
-      "text": "Sinner SP Status"
+      "text": "Stato PS Peccatori"
     },
     {
       "key": "Rpg_Move_Floor_Ui_Current_Floor",
-      "text": "Current Floor"
+      "text": "Piano Corrente"
     }
   ]
 }
