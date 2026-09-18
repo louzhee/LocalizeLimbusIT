@@ -3039,8 +3039,8 @@
     {
       "id": "ProtectStanceRyoshu",
       "name": "Posa della Protettrice",
-      "desc": "- Stack Max: 2\n- Subisce il (Stack x 10)% di danni in meno\n- Inizio Turno: Ottiene Scudo in base alla quantità di Equilibrio su di sé (max 20)\n- Fine Turno: Ottiene 3 Potenza Equilibrio e +1 Conteggio Equilibrio: lo Slot Abilità posizionato più a sinistra di quest'unità ottiene +5 Aggro il turno successivo\n- Fine Turno: Perde 1 Stack",
-      "summary": "Take less damage",
+      "desc": "- Stack Max: 2\n- Subisce il (Stack x 10)% di danni in meno\n- Inizio Turno: Ottiene Scudo in base alla quantità di Equilibrio su di sé (max 20)\n- Fine Turno: Ottiene 3 Potenza Equilibrio e +1 Conteggio Equilibrio: lo Slot Abilità posizionato più a sinistra di quest'unità ottiene +5 Provocazione il turno successivo\n- Fine Turno: Perde 1 Stack",
+      "summary": "Subisce meno danno",
       "undefined": "-"
     },
     {
@@ -4083,35 +4083,35 @@
     {
       "id": "NoirSuitAlly",
       "name": "Le Noir: Cappotto Gabardine",
-      "desc": "- Stack Max: 100\n- Livello Difensivo +1 per ogni 25 Stack\n- Ottiene +5 Aggro nello slot più a sinisra\n- Quando Colpito mentre questa unità ha Scudo, ottiene 5 Stack (10 per turno)\n- Fine Turno: Se questa Unità ha Scudo rimanente, ottiene 10 Stack\n- Applica i seguenti effetti quando questa Unità ottiene o consuma Conteggio Preservazione per via delle sue Abilità o Passive:\n · Ottiene Stack pari al Conteggio Preservazione Ottenuto (Le Stack di questo Effetto sono ottenute indipendentemente dal conteggio massimo di Preservazione)\n · Ottiene Stack pari a (Conteggio Preservazione Consumato x 2)\n · Può ottenere fino a 30 Stack con questo effetto\n- At 100 Stacks, converte questo effetto in Armure Éveillée il turno successivo",
-      "summary": "Ottiene Livello Difensivo e Aggro",
+      "desc": "- Stack Max: 100\n- Livello Difensivo +1 per ogni 25 Stack\n- Ottiene +5 Provocazione nello Slot più a sinisra\n- Quando l'unità viene colpita mentre ha Scudo, ottiene 5 Stack (10 per turno)\n- Fine Turno: Se questa unità ha Scudo rimanente, ottiene 10 Stack\n- Applica i seguenti effetti quando questa unità ottiene o usa Conteggio Preservazione con le sue Abilità o Passive:\n · Ottiene Stack pari al Conteggio Preservazione ottenuto (le Stack di questo effetto vengono ottenute indipendentemente dal Conteggio massimo di Preservazione)\n · Ottiene Stack pari a (Conteggio Preservazione usato x 2)\n · Può ottenere fino a 30 Stack con questo effetto\n- A 100 Stack, converte questo effetto in Armure Éveillée nel turno successivo",
+      "summary": "Ottiene Livello Difensivo e Provocazione",
       "flavor": "Un soprabito in twill dal fitto intreccio diagonale;\nla sua trama ad alta densità garantisce un'elevata protezione contro gli urti e le sollecitazioni esterne."
     },
     {
       "id": "ChargeNoirAlly",
-      "name": "Preservazionr",
-      "desc": "- Carica Unica\n- Conteggio Max: 20\n- Interagisce allo stesso modo della normale Carica con gli effetti che incrementano o riducono la Potenza e il Conteggio Carica\n- Fine Turno: Perdee 1 Conteggio\n\n<color=#1aece7>Conteggio cumulativo consumato: {2}</color>",
-      "summary": "Carica Unica",
+      "name": "Preservazione",
+      "desc": "- Carica Speciale\n- Conteggio Max: 20\n- Interagisce allo stesso modo della normale Carica con gli effetti che incrementano o riducono la Potenza e il Conteggio Carica\n- Fine Turno: Perde 1 Conteggio\n\n<color=#1aece7>Conteggio totale usato: {2}</color>",
+      "summary": "Carica Speciale",
       "flavor": "La forza viene compressa, raccolta e fissata sul posto. A volte, ci vuole più forza per impedire un cambiamento che per causarlo."
     },
     {
       "id": "RealisationAlly",
       "name": "Armure Éveillée",
-      "desc": "- Stack Max: 100\n- Velocità Min e Max +2\n- Livello Offensivo +1 e Livello Difensivo +1 per ogni 25 Stack\n- Converte tutte le Monete degli Attacchi Base in Monete Infrangibili\n- Inizio Turno: Recupera 8 SP\n- A 0 Stack, converte questo effetto in \"Le Noir: Cappotto Gabardine\"",
+      "desc": "- Stack Max: 100\n- Velocità Min e Max +2\n- Livello Offensivo +1 e Livello Difensivo +1 per ogni 25 Stack\n- Converte tutte le Monete degli Attacchi Base in Monete Infrangibili\n- Inizio Turno: Recupera 8 PS\n- A 0 Stack, converte questo effetto in \"Le Noir: Cappotto Gabardine\"",
       "summary": "Ottiene Livello Offensivo, Livello Difensivo e Velocità\nConverte le Monete degli Attacchi Base in Monete Infrangibili",
       "flavor": "La trama del tessuto di Le Noir impedisce alla forza esterna di raggiungere chi lo indossa. Lo scopo per cui si risveglia è eliminare il cambiamento imposto dall'esterno. Il tessuto immagazzina l'energia degli attacchi che assorbe, per poi espellere tutta quella forza in un'unica scarica volta a rimuovere la fonte esterna del cambiamento."
     },
     {
       "id": "ChargeRougeAlly",
       "name": "Pulsazione",
-      "desc": "- Carica Unica\n- Conteggio Max: 20\n- Interagisce allo stesso modo della normale Carica con gli effetti che incrementano o riducono la Potenza e il Conteggio Carica\n- Fine Turno: Perde 1 Conteggio",
+      "desc": "- Carica Speciale\n- Conteggio Max: 20\n- Interagisce allo stesso modo della normale Carica con gli effetti che incrementano o riducono la Potenza e il Conteggio Carica\n- Fine Turno: Perde 1 Conteggio",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RougeIshmaelCocoon",
       "name": "Camerino",
-      "desc": "- Stack Max: 2\n- Fissa la Velocità di questa Unità a 1\n- Subisce -50% danni dalle abilità\n- Immediatamente dopo aver ottenuto questo effetto, rimuove le soglie di stordimento; Se Stordito, si riprende dallo stordimento\n- Inizio Turnot: Ottiene 10 Aggro\n- Quando colpito, Ottiene +1  Conteggio Pulsazione (20 volte per turno)\n- Fine Turno: Perde 1 Stack\n- Non può Ritirarsi\n- Non può entrare in Corrosione E.G.O; invece, entra nello stato di panico standard (è affetto dagli effetti che cambiano il panico)\n- While in this state, aside from its exclusive Skill \"As the Voice Says, I Gladly Withdraw into Myself\", cannot equip Defense Skills or E.G.O Skills",
+      "desc": "- Stack Max: 2\n- Fissa la Velocità di questa unità a 1\n- Subisce -50% danni dalle Abilità\n- Subito dopo aver ottenuto questo effetto, rimuove le proprie Soglie di Stordimento; se Stordita, l'unità si riprende dallo Stordimento\n- Inizio Turno: Ottiene 10 Provocazione\n- Quando colpita, ottiene +1  Conteggio Pulsazione (20 volte per turno)\n- Fine Turno: Perde 1 Stack\n- Non può Ritirarsi\n- Non può entrare in Corrosione E.G.O; entra invece nello stato di Panico standard (l'unità può essere affetta dagli effetti che modificano il tipo di Panico)\n- While in this state, aside from its exclusive Skill \"As the Voice Says, I Gladly Withdraw into Myself\", cannot equip Defense Skills or E.G.O Skills",
       "summary": "",
       "undefined": "-",
       "flavor": "Though it has become hardier, it has now become passive. When viewed through the lens of Le Rouge, however durable something might have become, what is passive is always fragile.\n\nBut one must first come to a halt in order to usher in change. And that is what makes this process painful."
