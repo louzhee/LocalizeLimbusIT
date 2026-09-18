@@ -3120,15 +3120,15 @@
           "level": 5,
           "name": "Stufato Perpetuo",
           "abName": "Brodilisco",
-          "desc": "<style=\"highlight\">Potere Finale +1 for every 4 ([Combustion] + [Laceration]) on the main target (max 3)\n[BeforeAttack] Apply 1 [ScarletResultUp] il turno successivo to allies according to their Deployment Order for every 6 Lust E.G.O resource owned (max 5 units)\n[BeforeAttack] Deal +6% damage for every 1 Lust E.G.O resource owned (max 120%)</style>",
+          "desc": "<style=\"highlight\">Potere Finale +1 per ogni 4 ([Combustion] + [Laceration]) sul bersaglio principale (max 3)\n[BeforeAttack] Applica 1 [ScarletResultUp] il turno successivo agli alleati in base al loro Ordine di Schieramento per ogni 6 risorse E.G.O Lussuria in possesso (max 5 unità)\n[BeforeAttack] Infligge +6% danni per ogni 1 Risorsa E.G.O Lussuria in possesso (max 120%)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Combustion] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Combustion]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict +3 [Laceration] Count</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge +3 Conteggio [Laceration]</style>"
                 }
               ]
             }
