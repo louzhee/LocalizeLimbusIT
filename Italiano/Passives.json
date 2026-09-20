@@ -3258,33 +3258,33 @@
     {
       "id": 1041601,
       "name": "Feedback",
-      "desc": "When triggering [VibrationExplosion] on the enemy, increase the Stagger Threshold raise by +15%\n- At 12+ [ChargeNoirAlly] Count, consume 1 [ChargeNoirAlly] Count when triggering [VibrationExplosion] to increase the Stagger Threshold raise by +30% instead (effect applied per target)\n\nWhen hit, if this unit has Shield, inflict 2 [Vibration] Potency on the attacker (2 times per turn per enemy)",
-      "summary": "Increase Stagger Threshold raise",
-      "flavor": "The Noirs believe they can collapse their opponents' worth by subjecting them to violent tremors—the more violently the target vibrates, the more changes it must undergo from moment to moment. The combat techniques of the Noirs were built upon that conviction.\n\nAnd though the Noirs neither remember nor have ever experienced it, beyond the Grand Magasin Sisyphe exist fighting techniques founded upon the very same principle and have since been refined far beyond."
+      "desc": "Quando innesca una [VibrationExplosion] sul nemico, aumenta l'incremento della Soglia di Stordimento del 15%\n- At 12+ Conteggio [ChargeNoirAlly], consuma 1 Conteggio [ChargeNoirAlly] quando innesca una [VibrationExplosion] per aumentare l'incremento della Soglia di Stordimento invece deò +30% (effetto applicato per bersaglio)\n\nQuando Colpito, se questa unità ha uno scudo, infligge 2 Potenza [Vibration] sull'attaccante (2 volte per turno per nemico)",
+      "summary": "aumenta l'incremento della Soglia di Stordimento",
+      "flavor": "I Noir sono convinti di poter annientare la resistenza nemica infliggendo violente scosse: più il bersaglio oscilla violentemente, più cambiamenti dovrà affrontare di momento in momento. Le loro tecniche di combattimento si fondano su questo esatto presupposto. Eppure, per quanto i Noir non lo ricordino e non ne abbiano alcuna esperienza diretta, oltre il Grand Magasin Sisyphe esistono stili di combattimento basati sullo stesso identico principio, ma affinati a un livello di gran lunga superiore."
     },
     {
       "id": 1041602,
-      "name": "Le Noir: Gabardine Fabric",
-      "desc": "Upon entering the field, gain 25 [NoirSuitAlly]\n\nTurn Start: Gain Shield equal to (([NoirSuitAlly] + [RealisationAlly]) / 5)% of this unit's max HP",
-      "summary": "Gain Shield"
+      "name": "Le Noir: Tessuto Gabardine",
+      "desc": "Quando entra in campo, ottiene 25 [NoirSuitAlly]\n\nInizio Turno: Ottiene Scudo pari al (([NoirSuitAlly] + [RealisationAlly]) / 5)% dei PV massimi di questa unità",
+      "summary": "Ottiene Scudo"
     },
     {
       "id": 1041603,
-      "name": "Le Noir: Gabardine Fabric",
-      "desc": "Upon entering the field, gain 25 [NoirSuitAlly]\n\nTurn Start:\n- Gain Shield equal to (([NoirSuitAlly] + [RealisationAlly]) / 5)% of this unit's max HP\n- If this unit has [RealisationAlly], convert \"Triple Stamped Stitching\" into \"Single Kick - Couture Multiple\"",
-      "summary": "Gain Shield"
+      "name": "Le Noir: Tessuto Gabardine",
+      "desc": "Quando entra in campo, ottiene 25 [NoirSuitAlly]\n\nInizio Turno: Ottiene Scudo pari al (([NoirSuitAlly] + [RealisationAlly]) / 5)% dei PV massimi di questa unità\n- Se questa unità ha [RealisationAlly], converte \"Pestata a Triplo Punto\" into \"Calcio Singolo - Couture Multiple\"",
+      "summary": "Ottiene Scudo"
     },
     {
       "id": 1041604,
-      "name": "Conservation",
-      "desc": "Gain 1 [ChargeNoirAlly] Potency for every 10 cumulative [ChargeNoirAlly] Count this unit consumes in this Encounter\n\nTurn End: At fewer than 3 [ChargeNoirAlly] Potency, consume all [ChargeNoirAlly] Count to gain ([ChargeNoirAlly] Count consumed x 5) Shield next turn\n\nAt 3+ [ChargeNoirAlly] Potency, this unit's Base Skills gain +1 more [ChargeNoirAlly] Count when this unit has fewer than 12 [ChargeNoirAlly] Count\n\nOn Base Attack Skill Use,\n- If target has 6+ [Vibration] Potency, Coin Power +1\n- At 3+ [ChargeNoirAlly] Potency, Coin Power +1\n- Deal +([ChargeNoirAlly] Potency x 2)% damage (max 10%)\n· If the said Skill is \"Triple Stamped Stitching\" or \"Single Kick - Couture Multiple\", deal +([ChargeNoirAlly] Potency x 4)% damage instead (max 20%)",
-      "summary": "At fewer than a certain number of Preservation Count, gain more Preservation Count\nOn Base Attack Skill Use, gain Coin Power and deal more damage"
+      "name": "Conservazione",
+      "desc": "Ottiene 1 [ChargeNoirAlly] Potenza per ogni 10 Conteggio [ChargeNoirAlly] consumato da questa unità in questo incontro\n\nFine Turno: A meno di 3 Potenza [ChargeNoirAlly], consuma tutto il conteggio [ChargeNoirAlly] per ottenere (Conteggio [ChargeNoirAlly] consumato x 5) Scudo il turno successivo\n\nA 3+ Potenza [ChargeNoirAlly], le Abilità Base di questa unità ottengoni +1 Conteggio [ChargeNoirAlly] in più quando questà unità ha meno di 12 Conteggio [ChargeNoirAlly]\n\nAll'uso di un Abilità base offensiva,\n- Se il bersaglio ha 6+ Potenza [Vibration], Potere Moneta +1\n- A 3+ Potenza [ChargeNoirAlly], Potere Moneta +1\n- Infligge +(Potenza [ChargeNoirAlly] x 2)% danni (max 10%)\n· Se L'Abilità usata è \"Pestata a Triplo Punto\" o \"Calcio Singolo - Couture Multiple\", infligge invece +([ChargeNoirAlly] Potency x 4)% danni (max 20%)",
+      "summary": "A meno di un certo numero di Conteggio Preservazione, ottiene ulteriore Conteggio preservazione\nSull'uso di abilità base ottiene Potere Moneta e infligge più danni"
     },
     {
       "id": 1041621,
-      "name": "Le Noir's Virtue and Worth",
-      "desc": "Among allies that have [Charge] or Unique [Charge], when 1 ally with the earliest Deployment Order triggers [VibrationExplosion] using its Base Skills, increase the Stagger Threshold raise by +12.5%",
-      "summary": "Increase Stagger Threshold raised by Tremor Burst\nInflict Tremor Potency when hit"
+      "name": "Pregio e Virtù di Le Noir",
+      "desc": "Fra gli alleati che hanno [Charge] o [Charge] Speciale, quando un alleato col più alto ordine di schieramento innesca [VibrationExplosion] usando un abilità base, aumenta l'incremento della Soglia di Stordimento +12.5%",
+      "summary": "Aumenta l'incremento della Soglia di Stordimento con Scoppio Vibrazione\nInfligge Potenza Vibrazione quando colpito"
     },
     {
       "id": 1081601,
