@@ -2417,7 +2417,7 @@
     {
       "id": 1071311,
       "name": "Armatura Pulisci Ingorghi",
-      "desc": "- Inizio Combattimento: Se questa unità ha meno del 50% dei PV, ottiene Scudo pari a (Potenza [Charge] x 5) (max 25)\n- Subito prima di subire un colpo, ottiene Scudo pari a (Potenza [Charge] su sè) (max 5, 3 volte per turno)\n- Se questa unità ottiene Conteggio [Charge] che eccede il Limite di Conteggio [Charge] Massimo usando un' Abilità, l'abilità infligge +3% danni per ogni Conteggio [Charge] che eccede il Limite di Conteggio [Charge] Massimo (max 15%)"
+      "desc": "- Inizio Combattimento: Se questa unità ha meno del 50% dei PV, ottiene Scudo pari a (Potenza [Charge] x 5) (max 25)\n- Subito prima di subire un colpo, ottiene Scudo pari a (Potenza [Charge] su sè) (max 5, 3 volte per turno)\n- Se questa unità ottiene Conteggio [Charge] che eccede il Limite di Conteggio [Charge] Massimo usando un' Abilità, l'Abilità infligge +3% danni per ogni Conteggio [Charge] che eccede il Limite di Conteggio [Charge] Massimo (max 15%)"
     },
     {
       "id": 1071321,
@@ -2807,7 +2807,7 @@
     {
       "id": 1041421,
       "name": "Nascita Della Primavera",
-      "desc": "Quando l'alleato con il valore più alto di Velocità colpisce un nemico con un abilità che infligge Potenza, Conteggio [Sinking] o <noparse>Annegamento</noparse> Speciale, infligge 2 [Vibration] ed innesca [VibrationExplosion]; poi riduce Conteggio [Vibration] del bersaglio di 1 (una volta per turno)",
+      "desc": "Quando l'alleato con il valore più alto di Velocità colpisce un nemico con un Abilità che infligge Potenza, Conteggio [Sinking] o <noparse>Annegamento</noparse> Speciale, infligge 2 [Vibration] ed innesca [VibrationExplosion]; poi riduce Conteggio [Vibration] del bersaglio di 1 (una volta per turno)",
       "summary": "Infligge [Vibration], innesca [VibrationExplosion]"
     },
     {
@@ -3048,7 +3048,7 @@
     {
       "id": 1061502,
       "name": "Ch'unokkun",
-      "desc": "Se un bersaglio ha [TiedRopeHonglu], ottiene [TiedWithRopeID]\nQuando concateni le abilità, se è presente un nemico alla quale questa unità ha inflitto [TiedRopeHonglu] , allora questa unità può attirare le Abilità Offensive del Nemico a se stesso indipendentemente dalla velocità (solo negli incontri mirati)"
+      "desc": "Se un bersaglio ha [TiedRopeHonglu], ottiene [TiedWithRopeID]\nQuando concateni le Abilità, se è presente un nemico alla quale questa unità ha inflitto [TiedRopeHonglu] , allora questa unità può attirare le Abilità Offensive del Nemico a se stesso indipendentemente dalla velocità (solo negli incontri mirati)"
     },
     {
       "id": 1061521,
@@ -3070,13 +3070,13 @@
     {
       "id": 1081503,
       "name": "Fendi-Vertebre del Fuoco Demoniaco",
-      "desc": "Quando perde uno scontro con un Abilità Difensiva, se questa unità possiede 3+ [Agility], questa unità non può essere stordita prendendo danni fino alla fine dell'abilità difensiva, e attiva \"Per Reclamare le Loro Ossa\" dopo essere stata colpita (2 volte per turno, escludendo stordimenti forzati)",
+      "desc": "Quando perde uno scontro con un Abilità Difensiva, se questa unità possiede 3+ [Agility], questa unità non può essere stordita prendendo danni fino alla fine dell'Abilità difensiva, e attiva \"Per Reclamare le Loro Ossa\" dopo essere stata colpita (2 volte per turno, escludendo stordimenti forzati)",
       "summary": "Activate additional Skill when conditions are met"
     },
     {
       "id": 1081513,
       "name": "Fendi-Vertebre del Fuoco Demoniaco",
-      "desc": "<style=\"highlight\">A Fine Attacco con Abilità Base, se questa unità ha 15+ [WindBladeIshmael], attiva \" Stabilizzazione - Fiamma Lucente Increspata\" (una volta per turno)</style>\n\nQuando perde uno scontro con un Abilità Difensiva, se questa unità possiede 3+ [Agility], questa unità non può essere stordita prendendo danni fino alla fine dell'abilità difensiva, e attiva \"Per Reclamare le Loro Ossa\" dopo essere stata colpita (2 volte per turno, escludendo stordimenti forzati)",
+      "desc": "<style=\"highlight\">A Fine Attacco con Abilità Base, se questa unità ha 15+ [WindBladeIshmael], attiva \" Stabilizzazione - Fiamma Lucente Increspata\" (una volta per turno)</style>\n\nQuando perde uno scontro con un Abilità Difensiva, se questa unità possiede 3+ [Agility], questa unità non può essere stordita prendendo danni fino alla fine dell'Abilità difensiva, e attiva \"Per Reclamare le Loro Ossa\" dopo essere stata colpita (2 volte per turno, escludendo stordimenti forzati)",
       "summary": "Activate additional Skill when conditions are met"
     },
     {
@@ -3278,12 +3278,12 @@
       "id": 1041604,
       "name": "Conservazione",
       "desc": "Ottiene 1 [ChargeNoirAlly] Potenza per ogni 10 Conteggio [ChargeNoirAlly] consumato da questa unità in questo incontro\n\nFine Turno: A meno di 3 Potenza [ChargeNoirAlly], consuma tutto il conteggio [ChargeNoirAlly] per ottenere (Conteggio [ChargeNoirAlly] consumato x 5) Scudo il turno successivo\n\nA 3+ Potenza [ChargeNoirAlly], le Abilità Base di questa unità ottengoni +1 Conteggio [ChargeNoirAlly] in più quando questà unità ha meno di 12 Conteggio [ChargeNoirAlly]\n\nAll'uso di un Abilità base offensiva,\n- Se il bersaglio ha 6+ Potenza [Vibration], Potere Moneta +1\n- A 3+ Potenza [ChargeNoirAlly], Potere Moneta +1\n- Infligge +(Potenza [ChargeNoirAlly] x 2)% danni (max 10%)\n· Se L'Abilità usata è \"Pestata a Triplo Punto\" o \"Calcio Singolo - Couture Multiple\", infligge invece +([ChargeNoirAlly] Potency x 4)% danni (max 20%)",
-      "summary": "A meno di un certo numero di Conteggio Preservazione, ottiene ulteriore Conteggio preservazione\nSull'uso di abilità base ottiene Potere Moneta e infligge più danni"
+      "summary": "A meno di un certo numero di Conteggio Preservazione, ottiene ulteriore Conteggio preservazione\nSull'uso di Abilità base ottiene Potere Moneta e infligge più danni"
     },
     {
       "id": 1041621,
       "name": "Pregio e Virtù di Le Noir",
-      "desc": "Fra gli alleati che hanno [Charge] o [Charge] Speciale, quando un alleato col più alto ordine di schieramento innesca [VibrationExplosion] usando un abilità base, aumenta l'incremento della Soglia di Stordimento +12.5%",
+      "desc": "Fra gli alleati che hanno [Charge] o [Charge] Speciale, quando un alleato col più alto ordine di schieramento innesca [VibrationExplosion] usando un Abilità base, aumenta l'incremento della Soglia di Stordimento +12.5%",
       "summary": "Aumenta l'incremento della Soglia di Stordimento con Scoppio Vibrazione\nInfligge Potenza Vibrazione quando colpito"
     },
     {
@@ -3295,14 +3295,33 @@
     {
       "id": 1081602,
       "name": "Nel Camerino...",
-      "desc": "Ottiene 1 [ChargeRougeAlly] per ogni 10 Conteggio [ChargeRougeAlly] cumulativo consuamto da questa unità in questo incontro\n\nGli effetti che consumano o riducono i PV non possono Stordire o ridurre i PV di questa unità sotto 1\n(A 1 PV, Gli effetti delle Abilità Base che consumano PV saranno attivati gratis)\n\nDurante questo incontro, quando questa Unità subisce danni che porterebbero i PV a 0, annulla quel danno; poi, Ottiene immediatamente 2 [RougeIshmaelCocoon] ed entra nello stato di [RougeIshmaelCocoon] (una volta per Incontro)\n- Se questa Unità è entrata nello stato di [RougeIshmaelCocoon] per via della sua Abilità Difensiva, l'effetto sovracitato non si potrà attivare per il resto dell'Incontro\n\nQuando entra nello stato di [RougeIshmaelCocoon], ottiene Scudo pari ai PV massimi di questa Unità\n- Lo Scudo ottenuto da questo effetto non scade a fine turno\n- Quando Esce dallo stato di [RougeIshmaelCocoon], lo scudo ottenuto dall'effetto sovracitato scade\n\n- Quano si trova nello stato di [RougeIshmaelCocoon], questa Unità ha solo accesso all'Abilità \"Come Dice la Voce, Mi Ritiro Dentro Me Stessa\" (non può utilizzzare abilità E.G.O)\n\nFine Turno: A 0 Stack di [RougeIshmaelCocoon], esce dallo stato di [RougeIshmaelCocoon] ed entra nello stato di [RougeIshmaelEclose]: poi, ottiene +5 Conteggio [ChargeRougeAlly]",
+      "desc": "Ottiene 1 [ChargeRougeAlly] per ogni 10 Conteggio [ChargeRougeAlly] cumulativo consuamto da questa unità in questo incontro\n\nGli effetti che consumano o riducono i PV non possono Stordire o ridurre i PV di questa unità sotto 1\n(A 1 PV, Gli effetti delle Abilità Base che consumano PV saranno attivati gratis)\n\nDurante questo incontro, quando questa Unità subisce danni che porterebbero i PV a 0, annulla quel danno; poi, Ottiene immediatamente 2 [RougeIshmaelCocoon] ed entra nello stato di [RougeIshmaelCocoon] (una volta per Incontro)\n- Se questa Unità è entrata nello stato di [RougeIshmaelCocoon] per via della sua Abilità Difensiva, l'effetto sovracitato non si potrà attivare per il resto dell'Incontro\n\nQuando entra nello stato di [RougeIshmaelCocoon], ottiene Scudo pari ai PV massimi di questa Unità\n- Lo Scudo ottenuto da questo effetto non scade a fine turno\n- Quando Esce dallo stato di [RougeIshmaelCocoon], lo scudo ottenuto dall'effetto sovracitato scade\n\n- Quano si trova nello stato di [RougeIshmaelCocoon], questa Unità ha solo accesso all'Abilità \"Come Dice la Voce, Mi Ritiro Dentro Me Stessa\" (non può utilizzzare Abilità E.G.O)\n\nFine Turno: A 0 Stack di [RougeIshmaelCocoon], esce dallo stato di [RougeIshmaelCocoon] ed entra nello stato di [RougeIshmaelEclose]: poi, ottiene +5 Conteggio [ChargeRougeAlly]",
       "flavor": "Mi rifarò il look! Per avvicinarmi al mio vero io!"
     },
     {
       "id": 1081621,
       "name": "[Actrice Haute Couture du Rouge] - Robes",
-      "desc": "li Alleati Schierati come #1 e #2 Recuperano +20% PV in più da passive, abilità e effetti delle Monete\n\nSu Risonanza Assoluta Lussuria, gli alleati #1 e #2 subiscono -10% meno danni dalle abilità questo turno",
-      "flavor": "Quando non è fattibile sovrascrivere il soggetto con la forma esatta dell'Identità Riflessa, un \"costume\" fatto su misura per l'attore verrà creato e indossato.\n\nL'Haute Couture è una forma di Reinterpretazione cinematografica; Rimpiazza una creatura esistente con un abito, e l'attore, adesso sovrascritto, Si cala completamente nella parte. \n\nQuesta finzione della realtà viene accettata di buon grado dal pubblico a teatro, mentre l'attore, almeno entro i confini della narrazione, incarna l'esistenza originale in una sincera ricreazione"
+      "desc": "Gli Alleati Schierati come #1 e #2 recuperano +20% PV in più da Passive, Abilità e effetti delle Monete\n\nSu Risonanza Assoluta Lussuria, gli alleati #1 e #2 subiscono -10% danni dalle Abilità in questo turno",
+      "flavor": "Quando non è possibile sovrascrivere il soggetto con la forma esatta dell'Identità Riflessa, un \"costume\" fatto su misura per l'attore verrà creato e indossato.\n\nL'Haute Couture è una forma di Reinterpretazione cinematografica; Rimpiazza una creatura esistente con un abito, e l'attore, adesso sovrascritto, Si cala completamente nella parte. \n\nQuesta finzione della realtà viene accettata di buon grado dal pubblico a teatro, mentre l'attore, almeno entro i confini della narrazione, incarna l'esistenza originale in una sincera ricreazione"
+    },
+    {
+      "id": 1091701,
+      "name": "Snipping in the Alteration Shop are Blossom Scissors",
+      "desc": "Turn End: Gain Shield next turn equal to [ChargeKhaki] Count\nAt 2+/3+/5+ [ChargeKhaki] Potency, Base Skill Final Power +1/+2/+3",
+      "summary": "Gain Base Skill Final Power"
+    },
+    {
+      "id": 1091702,
+      "name": "Inertia of Drifting",
+      "desc": "Gain 1 [ChargeKhaki] Potency for every 10 cumulative [ChargeKhaki] Count this unit consumes in this Encounter\n\nAt Attack End of another ally that has [NoirScissorShield], activate \"Patterning\" against the said ally's target (once per turn)\n- [BeforeUse] If the said target has 2+ [NoirScissorAlly], activate as \"Cutout\" instead (once per turn)",
+      "summary": "Activate additional attack"
+    },
+    {
+      "id": 1091721,
+      "name": "First is Thanks-snipping",
+      "desc": "1 ally with the fastest Speed deals +10% damage using Slash Base Skills",
+      "summary": "Bonus Slash damage",
+      "flavor": "The single pair dearest to me, above all the rest... will be yours as well."
     }
   ]
 }

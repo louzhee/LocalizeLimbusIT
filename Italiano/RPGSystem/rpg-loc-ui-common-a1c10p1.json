@@ -13,6 +13,14 @@
       "text": "A che Piano dovremmo andare?"
     },
     {
+      "key": "FloorMoveUnboughtConfirmDesc",
+      "text": "Non hai ancora acquistato tutti gli oggetti di questo piano.\nVuoi spostarti lo stesso ad un altro piano?"
+    },
+    {
+      "key": "FloorMoveUnboughtDontShowAgain",
+      "text": "Non mostrare più questo messaggio"
+    },
+    {
       "key": "DialogueSkipConfirmDesc",
       "text": "Saltare questa scena della storia?"
     },
@@ -185,10 +193,6 @@
       "text": "Progressi Missione: {0}"
     },
     {
-      "key": "Log_PlayerHit",
-      "text": "Colpi Subiti: {0}"
-    },
-    {
       "key": "Log_BattleResultSync",
       "text": "Risultato Battaglia Riflesso: ({0}): PV {1}/{2}, PM{3}/{4}"
     },
@@ -214,19 +218,7 @@
     },
     {
       "key": "Log_NpcDefeated",
-      "text": "{0} Sconfitto ({1} Danno)"
-    },
-    {
-      "key": "Log_NpcDefeatedWeakness",
-      "text": "{0} Sconfitto ({1} Danno Debolezza)"
-    },
-    {
-      "key": "Log_DamageDealt",
-      "text": "Inflitto {1} Danno contro {0}"
-    },
-    {
-      "key": "Log_DamageDealtWeakness",
-      "text": "Inflitto {1} Danno Debolezza contro {0}"
+      "text": "{0} Sconfitto"
     },
     {
       "key": "Log_PlayerDead",
@@ -266,7 +258,7 @@
     },
     {
       "key": "ProgressPopup_Suicide",
-      "text": "Ucciditi"
+      "text": "Torna alla\nSorgente"
     },
     {
       "key": "ProgressPopup_EnemyAttackIndication",
@@ -349,6 +341,14 @@
       "text": "Registro Storia"
     },
     {
+      "key": "LogPopup_Tab_Story",
+      "text": "Registri Storia"
+    },
+    {
+      "key": "LogPopup_Tab_System",
+      "text": "Registri Sistema"
+    },
+    {
       "key": "Setting_Tab_Sisyphus",
       "text": "Sisyphe"
     },
@@ -364,6 +364,46 @@
       "key": "Setting_Sisyphus_CensorDeadscene",
       "text": "Censura le scene di morte"
     },
+        {
+      "key": "Setting_Sisyphus_LightMode",
+      "text": "Lighting Mode"
+    },
+    {
+      "key": "Setting_Sisyphus_Brightness",
+      "text": "Modifica Luminosità"
+    },
+    {
+      "key": "Setting_Sisyphus_BrightnessCeiling",
+      "text": "Limit Peak Brightness"
+    },
+    {
+      "key": "Setting_Sisyphus_MoveAssist",
+      "text": "Directional Movement Correction"
+    },
+    {
+      "key": "Setting_Sisyphus_RunStartDelay",
+      "text": "Timer Corsa Automatica"
+    },
+    {
+      "key": "Setting_Sisyphus_VirtualPadWalkStart",
+      "text": "V. Joystick Walk Threshold"
+    },
+    {
+      "key": "Setting_Sisyphus_VirtualPadRunKeep",
+      "text": "V. Joystick Maintain Sprint Radius"
+    },
+    {
+      "key": "Setting_Sisyphus_VirtualPadRunStart",
+      "text": "V. Joystic Sprint Threshold"
+    },
+    {
+      "key": "Setting_Sisyphus_TurnAssist",
+      "text": "Directional Change Threshold Adjustment"
+    },
+    {
+      "key": "Setting_Sisyphus_RunStartDelayValue",
+      "text": "{0} Secondi"
+    },
     {
       "key": "Setting_Sisyphus_Move",
       "text": "Muoviti"
@@ -378,7 +418,7 @@
     },
     {
       "key": "Setting_Sisyphus_GauntletSuicide",
-      "text": "Usa il guanto per suicidarti"
+      "text": "Torna alla Sorgente"
     },
     {
       "key": "Setting_Sisyphus_Attack",
