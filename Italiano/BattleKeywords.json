@@ -3515,93 +3515,93 @@
     {
       "id": "RougeIshmaelCocoon",
       "name": "Camerino",
-      "desc": "- Stack Max: 2\n- Fissa la Velocità di questa unità a 1\n- Subisce -50% danni dalle Abilità\n- Subito dopo aver ottenuto questo effetto, rimuove le proprie Soglie di Stordimento; se Stordita, l'unità si riprende dallo Stordimento\n- Inizio Turno: Ottiene 10 Provocazione\n- Quando colpita, ottiene +1  Conteggio Pulsazione (20 volte per turno)\n- Fine Turno: Perde 1 Stack\n- Non può Ritirarsi\n- Non può entrare in Corrosione E.G.O; entra invece nello stato di Panico standard (l'unità può essere affetta dagli effetti che modificano il tipo di Panico)\n- While in this state, aside from its exclusive Skill \"As the Voice Says, I Gladly Withdraw into Myself\", cannot equip Defense Skills or E.G.O Skills",
+      "desc": "- Stack Max: 2\n- Fissa la Velocità di questa unità a 1\n- Subisce -50% danni dalle Abilità\n- Subito dopo aver ottenuto questo effetto, rimuove le proprie Soglie di Stordimento; se Stordita, l'unità si riprende dallo Stordimento\n- Inizio Turno: Ottiene 10 Provocazione\n- Quando colpita, ottiene +1  Conteggio Pulsazione (20 volte per turno)\n- Fine Turno: Perde 1 Stack\n- Non può Ritirarsi\n- Non può entrare in Corrosione E.G.O; entra invece nello stato di Panico standard (l'unità può essere affetta dagli effetti che modificano il tipo di Panico)\n- Mentre è in questo stato, tranne per la sua Abilità esclusiva \"As the Voice Says, I Gladly Withdraw into Myself\", non può equipaggiare Abilità Difensive o Abilità E.G.O",
       "summary": "",
       "undefined": "-",
-      "flavor": "Though it has become hardier, it has now become passive. When viewed through the lens of Le Rouge, however durable something might have become, what is passive is always fragile.\n\nBut one must first come to a halt in order to usher in change. And that is what makes this process painful."
+      "flavor": "Nonostante sia diventato più resistente, è ormai diventato passivo. Dal punto di vista di Le Rouge, non importa quanto qualcosa possa diventare resistente: ciò che è passivo è sempre fragile.\n\nMa bisogna prima fermarsi per poter invitare il cambiamento. Ed è ciò che rende doloroso questo processo."
     },
     {
       "id": "RougeIshmaelEclose",
-      "name": "Full Makeover",
-      "desc": "- Min & Max Speed +1\n- Max HP increased by 25%\n- Take -10% damage from Skills\n- Base Skills inflict +1 more Bleed Potency on enemies",
+      "name": "Makeover Totale",
+      "desc": "- Velocità Min & Max +1\n- PV Max aumentati del 25%\n- Subisce -10% danni dalle Abilità\n- Le Abilità Base infliggono un ulteriore +1 Potenza Sanguinamento sui nemici",
       "summary": "",
       "undefined": "-",
-      "flavor": "Though she has emerged from the cocoon, she has failed to truly metamorphose—as that process involves the disintegration of the self. Still, the process has managed to boost her physical abilities."
+      "flavor": "Anche se è emersa dal bozzolo, non è riuscita a trasformarsi fino in fondo—dato che quel processo richiede la disintegrazione dell'io. Tuttavia, il processo ha ottenuto un aumento delle sue capacità fisiche."
     },
     {
       "id": "EmpathicDistressAlly",
-      "name": "Fracturing of the Senses",
-      "desc": "- Max Stack: 5\n- When other allies are hit, gain +1 Tremor Count, and lose 1 Stack (once per Skill)\n- If there are no other allies on the field, gain 2 Tremor Potency when hit, and lose 1 Stack (once per Skill)\n- When hit by Crit Attack, take +(Tremor Potency on self)% damage (max 15%)",
+      "name": "Frattura dei Sensi",
+      "desc": "- Stack Max: 5\n- Quando gli alleati vengono colpiti, ottiene +1 Conteggio Vibrazione e perde 1 Stack (una volta per Abilità)\n- Se non ci sono alleati in campo, ottiene 2 Potenza Vibrazione quando viene colpita, e perde 1 Stack (una volta per Abilità)\n- Quando colpita da un Colpo Critico, subisce +(Potenza Vibrazione su di sé)% danni (max 15%)",
       "summary": "",
       "undefined": "-",
       "flavor": "The fracturing occurs when one first recognizes the incongruity between the forms of the body and the heart."
     },
     {
       "id": "PersonalityVibration",
-      "name": "Tremor Identity",
-      "desc": "Identities that have Base Attack Skills that inflict Tremor Potency, Tremor Count, or Unique Tremor",
+      "name": "Identità Vibrazione",
+      "desc": "Identità che hanno Abilità Attacco Base che infliggono Potenza, Conteggio Vibrazione o Vibrazione Speciale",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "PersonalityBreath",
-      "name": "Poise Identity",
-      "desc": "Identities that have Base Attack Skills that apply or gain Poise Potency or Poise Count",
+      "name": "Identità Equilibrio",
+      "desc": "Identità che hanno Abilità Attacco Base che applicano o ottengono Potenza o Conteggio Equilibrio",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "PersonalityCharge",
-      "name": "Charge Identity",
-      "desc": "Identities that have Base Attack Skills that apply, gain, or consume Charge or Unique Charge",
+      "name": "Identità Carica",
+      "desc": "Identità che hanno Abilità Attacco Base che applicano, ottengono o usano Conteggio Carica o Carica Speciale",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ChargeKhakiAlly",
-      "name": "Inertia of Drifting",
-      "desc": "- Max Count: 20\n- Unique Charge\n- Interacts the same way as normal Charge does to effects that raise or reduce Charge Potency and Count\n- Turn End: Lose 1 Count",
+      "name": "Inerzia della Deriva",
+      "desc": "- Conteggio Max: 20\n- Carica Speciale\n- Interagisce allo stesso modo della Carica classica con gli effetti che aumentano o riducono Potenza e Conteggio Carica\n- Fine Turno: Perde 1 Conteggio",
       "summary": "",
       "undefined": "-",
       "flavor": "Those who are carried by the tide like buoys may not be able to change the flow of things, but they can still bolster the tide and commit to their acts within."
     },
     {
       "id": "NoirScissorAlly",
-      "name": "Mark of Shearing",
-      "desc": "- Max Stack: 4\n- When a target that has this effect is defeated, the unit that inflicted this effect heals 5 SP and gains 1 Offense Level Up next turn (3 times per turn)",
+      "name": "Segno del Taglio",
+      "desc": "- Stack Max: 4\n- Quando viene sconfitto un bersaglio con questo effetto, l'unità che ha inflitto questo effetto recupera 5 PS e ottiene 1 Livello Offensivo Aumentato il turno successivo (3 volte per turno)",
       "summary": "",
       "undefined": "-",
       "flavor": "A cutting mark used to trim fabric and other materials to the required measurements."
     },
     {
       "id": "NoirScissorCut",
-      "name": "Blossom Scissors",
-      "desc": "- Max Stack: 2\n- Deal +7% damage for every Stack",
+      "name": "Forbici Floreali",
+      "desc": "- Stack Max: 2\n- Infligge +7% danni per ogni Stack",
       "summary": "",
       "undefined": "-",
       "flavor": "The scissors used to sever the primordial materials produced underground are larger and more extraordinary still. These scissors have cut and recut the very first cloth ever woven. That flowers should bloom from them is only natural, for they have always cut things at their very roots."
     },
     {
       "id": "SupportAlly",
-      "name": "Duality",
-      "desc": "Skills can target allied Identities\nUpon auto-targeting Skills, or in Regular Encounters, prioritize the ally with the earliest Deployment Order\n- If target is an ally, the attack does not hit, and does not trigger Defense Skills (including Clashable Defense Skills)\nIf target is an ally, activate this Skill at Combat Start",
+      "name": "Dualità",
+      "desc": "Le Abilità possono bersagliare le Identità alleate\nCon Abilità a bersaglio automatico, o negli Incontri Regolari, priorità all'alleato con l'Ordine di Schieramento più basso\n- Se il bersaglio è un alleato, l'attacco non colpisce e non attiva le Abilità Difensive (Abilità Difensive Scontrabili incluse)\nSe il bersaglio è un alleato, l'Abilità si attiva a Inizio Combattimento",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "SupportEnemy",
-      "name": "Duality",
-      "desc": "Skills can target allies\nUpon auto-targeting Skills, or in Regular Encounters, target random allies\n- If target is an ally, the attack does not hit, and does not trigger Defense Skills (including Clashable Defense Skills)\nIf target is an ally, activate this Skill at Combat Start",
+      "name": "Dualità",
+      "desc": "Le Abilità possono bersagliare gli alleati\nCon Abilità a bersaglio automatico, o negli Incontri Regolari, bersaglia alleati casuali\n- Se il bersaglio è un alleato, l'attacco non colpisce e non attiva le Abilità Difensive (Abilità Difensive Scontrabili incluse)\nSe il bersaglio è un alleato, l'Abilità si attiva a Inizio Combattimento",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "NoirScissorShield",
-      "name": "Second is Welcome-snipping",
-      "desc": "- Max Stack: 1\n- Offense Level +3, Defense Level +3\n- On Skill Use, heal 5 SP if this unit is a Charge Identity (once per turn)\n- On Base Skill Hit, deal Slash damage equal to 5% of each Coin's final damage\n- Expires at Turn End",
+      "name": "Il Secondo è Benvenuto-snip",
+      "desc": "- Stack Max: 1\n- Livello Offensivo +3, Livello Difensivo +3\n- All'Uso dell'Abilità, recupera 5 PS se questa unità è un'Identità Carica (una volta per turno)\n- Sul Colpo di un'Abilità Base, infligge danno Tagliente pari al 5% del danno finale di ogni Moneta\n- Scade a Fine Turno",
       "summary": "",
       "undefined": "-",
-      "flavor": "A pair of scissors becomes one through two, and makes two of what was one."
+      "flavor": "Un paio di forbici diventa uno attraverso due, e rende due ciò che era uno."
     }
   ]
 }
