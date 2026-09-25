@@ -2,80 +2,80 @@
   "dataList": [
     {
       "id": "NoirNoComply",
-      "name": "Instruction Incompliance",
-      "desc": "- Max Stack: 3\n- Take +5% damage for every Stack",
+      "name": "Inosservanza delle Istruzioni",
+      "desc": "- Stack Max: 3\n- Subisce +5% danno per ogni Stack",
       "summary": "",
       "undefined": "-",
       "flavor": "Failure to comply with the brand's doctrine instructions may result in corrective measures to preserve the brand's directional integrity."
     },
     {
       "id": "NoirBindArmor",
-      "name": "Le Noir: Worsted",
-      "desc": "- Max Stack: 15\n- For every 5 Stacks, Max Speed -1, Offense Level +1, Defense Level +1\n- Turn End: Lose 1 Stack",
+      "name": "Le Noir: Pettinato",
+      "desc": "- Stack Max: 15\n- Per ogni 5 Stack, Velocità Max -1, Livello Offensivo +1, Livello Difensivo +1\n- Fine Turno: Perde 1 Stack",
       "summary": "",
       "undefined": "-",
       "flavor": "Le Noir's Worsted holds the body like armor, accentuating it beneath a firm, fixed silhouette."
     },
     {
       "id": "ChargeNoir",
-      "name": "Preservation",
-      "desc": "- Unique Charge\n- Max Count: 20\n- Interacts the same way as normal Charge does to effects that raise or reduce Charge Potency and Count\n- Turn End: Lose 1 Count",
+      "name": "Conservazione",
+      "desc": "- Carica Speciale\n- Conteggio Max: 20\n- Interagisce allo stesso modo della Carica classica con gli effetti che aumentano o riducono Potenza e Conteggio Carica\n- Fine Turno: Perde 1 Conteggio",
       "summary": "",
       "undefined": "-",
       "flavor": "Force is compressed, gathered, and fixed in place. Sometimes, it takes more force to prevent change than to cause it."
     },
     {
       "id": "ChargeRouge",
-      "name": "Pulsation",
-      "desc": "- Unique Charge\n- Max Count: 20\n- Interacts the same way as normal Charge does to effects that raise or reduce Charge Potency and Count\n- Turn End: Lose 1 Count",
+      "name": "Pulsazione",
+      "desc": "- Carica Speciale\n- Conteggio Max: 20\n- Interagisce allo stesso modo della Carica classica con gli effetti che aumentano o riducono Potenza e Conteggio Carica\n- Fine Turno: Perde 1 Conteggio",
       "summary": "",
       "undefined": "-",
       "flavor": "Contraction and relaxation of flesh. The flow of blood. The explosive strength driven by them all."
     },
     {
       "id": "RisingMadnessRouge",
-      "name": "Sunshine",
-      "desc": "- Max Stack: 2\n- Turn End: Lose 1 Stack\n- Turn Start: At 0 Stack, apply the following effects:\n· Gain 1 Damage Up and 1 Fragile\n· Convert Coins on all Skills to Unbreakable Coins, starting from the final Coin (number of Coins converted on each Skill is equal to Pulsation Potency on self)\n· Turn End: Restore this effect to Max Stack next turn",
+      "name": "Luce Solare",
+      "desc": "- Stack Max: 2\n- Fine Turno: Perde 1 Stack\n- Inizio Turno: A 0 Stack, applica i seguenti effetti:\n· Ottiene 1 Danno Aumentato e 1 Fragile\n· Converte le Monete di tutte le Abilità in Monete Infrangibili, a partire dalla Moneta finale (il numero di Monete convertite su ogni Abilità è pari alla Potenza Pulsazione su di sé)\n· Fine Turno: Riporta le Stack di questo effetto al massimo il turno successivo",
       "summary": "",
       "undefined": "-",
-      "flavor": "You can be..."
+      "flavor": "Puoi essere..."
     },
     {
       "id": "RisingMadnessRouge2nd",
-      "name": "Stinging Sunshine",
-      "desc": "- Max Stack: 1\n- Turn End: Lose 1 Stack\n- Turn Start: At 0 Stack, apply the following effects:\n· Gain 2 Power Up, 2 Damage Up, and 3 Fragile\n· Convert Coins on all Skills to Unbreakable Coins, starting from the final Coin (number of Coins converted on each Skill is equal to Pulsation Potency on self)\n· Turn End: Restore this effect to Max Stack next turn",
+      "name": "Luce Solare Pungente",
+      "desc": "- Stack Max: 1\n- Fine Turno: Perde 1 Stack\n- Inizio Turno: A 0 Stack, applica i seguenti effetti:\n· Ottiene 2 Potere Aumentato, 2 Danno Aumentato e 3 Fragile\n· Converte le Monete di tutte le Abilità in Monete Infrangibili, a partire dalla Moneta finale (il numero di Monete convertite su ogni Abilità è pari alla Potenza Pulsazione su di sé)\n· Fine Turno: Riporta le Stack di questo effetto al massimo il turno successivo",
       "summary": "",
       "undefined": "-",
-      "flavor": "The Sunlight whispers into all that it touches, beating down all the same even as its heat grows from a prickle on the skin to unbearable, burning pain and the subject is cooked alive."
+      "flavor": "La Luce Solare sussurra a tutto ciò che tocca, continuando a battere forte anche se il suo calore si trasforma da un pizzichio sulla pella in un dolore bruciante e insopportabile, e il soggetto viene poi cucinato vivo."
     },
     {
       "id": "RisingMadnessNoir",
-      "name": "Sunshine",
-      "desc": "- Max Stack: 2\n- Turn End: Lose 1 Stack\n- Turn Start: At 0 Stack, apply the following effects:\n· Gain 1 Damage Up and 1 Fragile\n· Convert Coins on all Skills to Unbreakable Coins, starting from the final Coin (number of Coins converted on each Skill is equal to Preservation Potency on self)\n· Turn End: Restore this effect to Max Stack next turn",
+      "name": "Luce Solare",
+      "desc": "- Stack Max: 2\n- Fine Turno: Perde 1 Stack\n- Inizio Turno: A 0 Stack, applica i seguenti effetti:\n· Ottiene 1 Danno Aumentato e 1 Fragile\n· Converte le Monete di tutte le Abilità in Monete Infrangibili, a partire dalla Moneta finale (il numero di Monete convertite su ogni Abilità è pari alla Potenza Conservazione su di sé)\n· Fine Turno: Riporta le Stack di questo effetto al massimo il turno successivo",
       "summary": "",
       "undefined": "-",
-      "flavor": "You can be..."
+      "flavor": "Puoi essere..."
     },
     {
       "id": "RisingMadnessNoir2nd",
-      "name": "Stinging Sunshine",
-      "desc": "- Max Stack: 1\n- Turn End: Lose 1 Stack\n- Turn Start: At 0 Stack, apply the following effects:\n· Gain 2 Power Up, 2 Damage Up, and 3 Fragile\n· Convert Coins on all Skills to Unbreakable Coins, starting from the final Coin (number of Coins converted on each Skill is equal to Preservation Potency on self)\n· Turn End: Restore this effect to Max Stack next turn",
+      "name": "Luce Solare Pungente",
+      "desc": "- Stack Max: 1\n- Fine Turno: Perde 1 Stack\n- Inizio Turno: A 0 Stack, applica i seguenti effetti:\n· Ottiene 2 Potere Aumentato, 2 Danno Aumentato e 3 Fragile\n· Converte le Monete di tutte le Abilità in Monete Infrangibili, a partire dalla Moneta finale (il numero di Monete convertite su ogni Abilità è pari alla Potenza Conservazione su di sé)\n· Fine Turno: Riporta le Stack di questo effetto al massimo il turno successivo",
       "summary": "",
       "undefined": "-",
-      "flavor": "The Sunlight whispers into all that it touches, beating down all the same even as its heat grows from a prickle on the skin to unbearable, burning pain and the subject is cooked alive."
+      "flavor": "La Luce Solare sussurra a tutto ciò che tocca, continuando a battere forte anche se il suo calore si trasforma da un pizzichio sulla pella in un dolore bruciante e insopportabile, e il soggetto viene poi cucinato vivo."
     },
     {
       "id": "RougeThreeNormal",
-      "name": "Boutique: New Releases",
-      "desc": "- Max Stack: 20\n\nOn Skill Use, consume 1% of max HP on self to deal +(HP consumed) Skill damage",
+      "name": "Boutique: Nuove Uscite",
+      "desc": "- Stack Max: 20\n\nAll'Uso di un'Abilità, usa l'1% dei propri PV max per infliggere +(PV usati) danno Abilità",
       "summary": "",
       "undefined": "-",
-      "flavor": "Follow the warm voice... into a new season...!"
+      "flavor": "Segui la voce calda... in una nuova stagione...!"
     },
     {
       "id": "RougeThreeCocoon",
       "name": "Changing Room",
-      "desc": "- Max Stack: 3\n- Does not take HP damage\n- When hit, apply the following effects: (20 times per turn):\n· Gain +1 Pulsation Count\n· Gain 1 Damage Up\n· Gain 1 Defense Level Down next turn",
+      "desc": "- Stack Max: 3\n- Does not take HP damage\n- When hit, apply the following effects: (20 times per turn):\n· Gain +1 Pulsation Count\n· Gain 1 Damage Up\n· Gain 1 Defense Level Down next turn",
       "summary": "",
       "undefined": "-",
       "flavor": "Warning: Fixing a misshapen dress. We all know the changing room manners, don't we?"
@@ -83,7 +83,7 @@
     {
       "id": "RougeThreeCocoonHit",
       "name": "Persecution",
-      "desc": "- Max Stack: 20",
+      "desc": "- Stack Max: 20",
       "summary": "",
       "undefined": "-",
       "flavor": "Disturbing someone while they're in a changing room...? This is persecution, persecution against my faith...!"
@@ -97,28 +97,28 @@
     {
       "id": "SapsareeYammi",
       "name": "Eat yummies and perk up, you hear?",
-      "desc": "- Max Stack: 5\n- Offense Level +1 for every Stack\n- Turn Start: Lose 1 Stack for every \"Got an appetite, you hear?\" on self",
+      "desc": "- Stack Max: 5\n- Offense Level +1 for every Stack\n- Turn Start: Lose 1 Stack for every \"Got an appetite, you hear?\" on self",
       "summary": "",
       "flavor": "Not satiation from flavor, but from unrefined fullness."
     },
     {
       "id": "SapsareeCooking",
       "name": "Chopped Ingredients",
-      "desc": "- Max Stack: 5\n- Expires at Turn End",
+      "desc": "- Stack Max: 5\n- Expires at Turn End",
       "summary": "",
       "flavor": "Hacked up haphazardly with no other purpose than to fit it down the gullet. Not even an ounce of culinary philosophy or care went into each chop."
     },
     {
       "id": "SapsareeHungry",
       "name": "Got an appetite, you hear?",
-      "desc": "- Max Stack: 3\n- Offense Level +1 for every Stack\n- At 3 Stacks, deal +50% damage\n- Expires when Sous Chef uses the \"Aah! I'm on lunch break, you hear?\" Skill",
+      "desc": "- Stack Max: 3\n- Offense Level +1 for every Stack\n- At 3 Stacks, deal +50% damage\n- Expires when Sous Chef uses the \"Aah! I'm on lunch break, you hear?\" Skill",
       "summary": "",
       "flavor": "A hunger content with anything shoved into the gut. Such is the nature of those who subsist here."
     },
     {
       "id": "SapsareeSpices",
       "name": "Fiery, Tongue-scorching Sauce",
-      "desc": "- Max Stack: 3\n- Offense Level -1 for every Stack",
+      "desc": "- Stack Max: 3\n- Offense Level -1 for every Stack",
       "summary": "",
       "flavor": "A lazy cook's solution for disguising substandard ingredient quality."
     },
@@ -153,49 +153,49 @@
     {
       "id": "UnresolvedFeelings",
       "name": "Layered Patchwork",
-      "desc": "- Max Stack: 30\n- Gain Defense Level equal to Stack\n- When hit by target that has \"Gratitude for Listening\", lose Stack equal to \"Gratitude for Listening\" (2 times per turn per Identity)\n- On Clash Lose using the \"Thank you... for listening...\" Skill, lose 5 Stacks",
+      "desc": "- Stack Max: 30\n- Gain Defense Level equal to Stack\n- When hit by target that has \"Gratitude for Listening\", lose Stack equal to \"Gratitude for Listening\" (2 times per turn per Identity)\n- On Clash Lose using the \"Thank you... for listening...\" Skill, lose 5 Stacks",
       "summary": "",
       "flavor": "Ironically, it has deafened itself to any voice by hiding under wraps upon wraps of thick blankets."
     },
     {
       "id": "Wariness",
       "name": "Guarded Caution",
-      "desc": "- Max Stack: 10\n- Lose Offense Level and Defense Level equal to Stack\n- If this unit loses a Clash, lose 3 Stacks",
+      "desc": "- Stack Max: 10\n- Lose Offense Level and Defense Level equal to Stack\n- If this unit loses a Clash, lose 3 Stacks",
       "summary": "",
       "flavor": "The unfamiliarity of the Voice is not what makes one wary; it is the Voice knocking on the heart that does so."
     },
     {
       "id": "ReliefSense",
       "name": "Gratitude for Listening",
-      "desc": "- Max Stack: 3\n- Turn Start: Gain 1 Stack and heal 10 SP\n- Skills against this Stage's boss deal +(Stack x 50)% damage; then, this effect expires on Attack End of the Skill used\n- At 3 Stacks, damage dealt by this unit disregards Layered Patchwork's Defense Level effects",
+      "desc": "- Stack Max: 3\n- Turn Start: Gain 1 Stack and heal 10 SP\n- Skills against this Stage's boss deal +(Stack x 50)% damage; then, this effect expires on Attack End of the Skill used\n- At 3 Stacks, damage dealt by this unit disregards Layered Patchwork's Defense Level effects",
       "summary": "",
       "flavor": "Thank you... for listening..."
     },
     {
       "id": "HorribleTerror",
       "name": "Horribly Infinite Replay",
-      "desc": "- Max Stack: 1\n- Turn Start: If this unit is in E.G.O Corrosion state, deal -50% damage to all targets this turn\n- Turn End: This unit takes 50% HP damage; then, this effect expires (rounded down, this effect cannot Stagger this unit)",
+      "desc": "- Stack Max: 1\n- Turn Start: If this unit is in E.G.O Corrosion state, deal -50% damage to all targets this turn\n- Turn End: This unit takes 50% HP damage; then, this effect expires (rounded down, this effect cannot Stagger this unit)",
       "summary": "",
       "flavor": "Until you listen... until you truly hear the Grand Magasin's announcement... again... and again... listen..."
     },
     {
       "id": "HorribleEat",
       "name": "Repeat on Repeat",
-      "desc": "- Max Stack: 15\n- Gain Offense Level equal to Stack",
+      "desc": "- Stack Max: 15\n- Gain Offense Level equal to Stack",
       "summary": "",
       "flavor": "The broadcast is repeated until everyone hears it. It becomes an echo, and the echo repeats in turn until it resonates."
     },
     {
       "id": "NoirSuit",
       "name": "Le Noir: Gabardine Overcoat",
-      "desc": "- Max Stack: 100\n- Turn Start: Gain 1 Defense Level Up for every 20 Stacks (max 4)\n- Gain Stack equal to Preservation Count this unit consumes or gains due to its Skill or Passive effects (max 30 per turn; this effect's Stack is gained regardless of Preservation's max Count)\n- When hit while this unit has Shield, gain 2 Stacks (20 per turn)\n- Turn End: If this unit has Shield, gain 10 Stacks\n- At 100 Stacks, convert this effect into \"Armure Éveillée\" next turn",
+      "desc": "- Stack Max: 100\n- Turn Start: Gain 1 Defense Level Up for every 20 Stacks (max 4)\n- Gain Stack equal to Preservation Count this unit consumes or gains due to its Skill or Passive effects (max 30 per turn; this effect's Stack is gained regardless of Preservation's max Count)\n- When hit while this unit has Shield, gain 2 Stacks (20 per turn)\n- Turn End: If this unit has Shield, gain 10 Stacks\n- At 100 Stacks, convert this effect into \"Armure Éveillée\" next turn",
       "flavor": "An overcoat made from twill fabric, a type of weave made by threading several weft threads over fewer warp threads.\nIts characteristic high-density weave protects its wearer from external trauma.",
       "summary": ""
     },
     {
       "id": "Realisation",
       "name": "Armure Éveillée",
-      "desc": "- Max Stack: 100\n- Turn Start: Heal 5 SP for every 10 Stacks\n- Turn Start: Gain 1 Offense Level Up and 1 Defense Level Up for every 20 Stacks (max 4 each)\n- Convert all Base Attack Skill Coins into Unbreakable Coins\n- After this effect is converted, starting from the end of the next turn, lose 10 Stacks\n- At 0 Stacks, convert this effect into \"Le Noir: Gabardine Overcoat\"",
+      "desc": "- Stack Max: 100\n- Turn Start: Heal 5 SP for every 10 Stacks\n- Turn Start: Gain 1 Offense Level Up and 1 Defense Level Up for every 20 Stacks (max 4 each)\n- Convert all Base Attack Skill Coins into Unbreakable Coins\n- After this effect is converted, starting from the end of the next turn, lose 10 Stacks\n- At 0 Stacks, convert this effect into \"Le Noir: Gabardine Overcoat\"",
       "flavor": "Le Noir's fabric weave prevents external force from reaching its wearer. The purpose for which it awakens is to eliminate change imposed from the outside.\nThe fabric stores energy from attacks it absorbs, then expels all that force in a single burst to remove the external source of change.",
       "summary": ""
     },
@@ -234,7 +234,7 @@
     {
       "id": "NiddlePinned",
       "name": "Taxidermized",
-      "desc": "- Max Stack: 2\n\n- When hit, gain +1 Bleed Count (3 times per turn)\n- Becomes Immobilized while this unit has this effect\n\n- Turn End: Lose 15 HP and 5 Naildle on self\n- Turn End: Lose 1 Stack",
+      "desc": "- Stack Max: 2\n\n- When hit, gain +1 Bleed Count (3 times per turn)\n- Becomes Immobilized while this unit has this effect\n\n- Turn End: Lose 15 HP and 5 Naildle on self\n- Fine Turno: Perde 1 Stack",
       "summary": "",
       "undefined": "-",
       "flavor": "As you wish... Hand-made! Bespoke! Hand-sown!"
@@ -273,21 +273,21 @@
     {
       "id": "Nutrition",
       "name": "A Seized Something.",
-      "desc": "- Max Stack: 5\n- Turn End: Gain +(Stack x 2) Pulsation Count next turn; then, this effect expires\n- If this effect is at max Stack when expiring, all Parts gain Shield equal to 3% of the Core's HP next turn (Shield gained due to this effect does not expire at Turn End)",
+      "desc": "- Stack Max: 5\n- Turn End: Gain +(Stack x 2) Pulsation Count next turn; then, this effect expires\n- If this effect is at Stack Max when expiring, all Parts gain Shield equal to 3% of the Core's HP next turn (Shield gained due to this effect does not expire at Turn End)",
       "summary": "",
       "flavor": "Everything desirable in another's possession should have belonged to me from the start. This is not theft, then, but rightful repossession."
     },
     {
       "id": "Gourmandise",
       "name": "Uncontrollable Rampage",
-      "desc": "- Base Stack: 3\n- Deal +5% damage for every 3 Bleed on self (max 30%)\n- All Parts cannot be Staggered; take -75% damage from Bleed\n- Turn End: Lose 1 Stack\n- Consume all Pulsation Count when this effect expires",
+      "desc": "- Base Stack: 3\n- Deal +5% damage for every 3 Bleed on self (max 30%)\n- All Parts cannot be Staggered; take -75% damage from Bleed\n- Fine Turno: Perde 1 Stack\n- Consume all Pulsation Count when this effect expires",
       "summary": "",
       "flavor": "Every disparate fragment of its anatomy jerks and convulses, trying to rip itself away. Such uncontrollable rampage brings the body together, ironically."
     },
     {
       "id": "BuffetSick",
       "name": "Sac of Suffering",
-      "desc": "- Max Stack: 30\n- Turn End: This effect expires when Uncontrollable Rampage effect expires. Then, this unit gains 1 Fragile next turn for every 5 Stacks",
+      "desc": "- Stack Max: 30\n- Turn End: This effect expires when Uncontrollable Rampage effect expires. Then, this unit gains 1 Fragile next turn for every 5 Stacks",
       "summary": "",
       "flavor": "This organ is the terminus of all painful sensory inputs.\nWhen it bursts, it will drown out all reason and reveal pain in its most unalloyed form."
     },
@@ -300,21 +300,21 @@
     {
       "id": "BloodyMucus",
       "name": "Baptism [Crimson]",
-      "desc": "- Max Effect: 5\n- Offense Level +1 for every 3 Bleed Potency on self (max 3)\n- At max Stack, double the amount of damage taken from Bleed; this unit cannot be defeated due to Bleed damage\n- On Base Attack Skill Use, gain +(Stack x 2) Bleed Count\n- On E.G.O Skill or Defense Skill Use, lose 3 Stacks",
+      "desc": "- Max Effect: 5\n- Offense Level +1 for every 3 Bleed Potency on self (max 3)\n- At Stack Max, double the amount of damage taken from Bleed; this unit cannot be defeated due to Bleed damage\n- On Base Attack Skill Use, gain +(Stack x 2) Bleed Count\n- On E.G.O Skill or Defense Skill Use, lose 3 Stacks",
       "summary": "",
       "flavor": "\"Let blood baptize the flesh\""
     },
     {
       "id": "DeterioratingBody",
       "name": "Instinctive Cling to Life",
-      "desc": "- Max Stack: 5\n- HP does not drop below 1\n- When hit, lose 1 Stack (2 times per Skill)\n- Turn End: Lose 1 Stack; this unit is defeated when this effect expires",
+      "desc": "- Stack Max: 5\n- HP does not drop below 1\n- When hit, lose 1 Stack (2 times per Skill)\n- Fine Turno: Perde 1 Stack; this unit is defeated when this effect expires",
       "summary": "",
       "flavor": "Its instinct to cling to life is tenacious indeed, but in the end, the time comes when one must let go."
     },
     {
       "id": "BuffetFailed",
       "name": "Exhausted",
-      "desc": "- Max Stack: 3\n- Min & Max Speed -1 for every Stack\n- Turn Start: Gain 1 Fragile\n- Turn End: Lose 1 Stack\n(Applies on all Parts)",
+      "desc": "- Stack Max: 3\n- Min & Max Speed -1 for every Stack\n- Turn Start: Gain 1 Fragile\n- Fine Turno: Perde 1 Stack\n(Applies on all Parts)",
       "summary": "",
       "flavor": "Every outburst is followed by limitation. The world levies payment in forms proportionate to force and velocity of the outburst."
     },
@@ -378,7 +378,7 @@
     {
       "id": "RisingMadnessSisyphe",
       "name": "Sunshine",
-      "desc": "- Max Stack: 2\n- Turn End: Lose 1 Stack\n- Turn Start: At 0 Stack, apply the following effects:\n· Gain 1 Damage Up and 1 Fragile\n· Convert Coins on all Skills to Unbreakable Coins\n· Turn End: Restore this effect to Max Stack next turn",
+      "desc": "- Stack Max: 2\n- Fine Turno: Perde 1 Stack\n- Turn Start: At 0 Stack, apply the following effects:\n· Gain 1 Damage Up and 1 Fragile\n· Convert Coins on all Skills to Unbreakable Coins\n· Turn End: Restore this effect to Stack Max next turn",
       "summary": "",
       "undefined": "-",
       "flavor": "You can be..."
@@ -386,7 +386,7 @@
     {
       "id": "RisingMadnessSisyphe2nd",
       "name": "Stinging Sunshine",
-      "desc": "- Max Stack: 1\n- Turn End: Lose 1 Stack\n- Turn Start: At 0 Stack, apply the following effects:\n· Gain 2 Power Up, 2 Damage Up, and 3 Fragile\n· Convert Coins on all Skills to Unbreakable Coins\n· Turn End: Restore this effect to Max Stack next turn",
+      "desc": "- Stack Max: 1\n- Fine Turno: Perde 1 Stack\n- Turn Start: At 0 Stack, apply the following effects:\n· Gain 2 Power Up, 2 Damage Up, and 3 Fragile\n· Convert Coins on all Skills to Unbreakable Coins\n· Turn End: Restore this effect to Stack Max next turn",
       "summary": "",
       "undefined": "-",
       "flavor": "The Sunlight whispers into all that it touches, beating down all the same even as its heat grows from a prickle on the skin to unbearable, burning pain and the subject is cooked alive."
