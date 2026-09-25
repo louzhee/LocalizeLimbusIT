@@ -2,75 +2,75 @@
   "dataList": [
     {
       "id": "NoirNoComply",
-      "name": "Instruction Incompliance",
-      "desc": "- Max Stack: 3\n- Take +5% damage for every Stack",
+      "name": "Inosservanza delle Istruzioni",
+      "desc": "- Stack Max: 3\n- Subisce +5% danno per ogni Stack",
       "summary": "",
       "undefined": "-",
       "flavor": "Failure to comply with the brand's doctrine instructions may result in corrective measures to preserve the brand's directional integrity."
     },
     {
       "id": "NoirBindArmor",
-      "name": "Le Noir: Worsted",
-      "desc": "- Max Stack: 15\n- For every 5 Stacks, Max Speed -1, Offense Level +1, Defense Level +1\n- Turn End: Lose 1 Stack",
+      "name": "Le Noir: Pettinato",
+      "desc": "- Stack Max: 15\n- Per ogni 5 Stack, Velocità Max -1, Livello Offensivo +1, Livello Difensivo +1\n- Fine Turno: Perde 1 Stack",
       "summary": "",
       "undefined": "-",
       "flavor": "Le Noir's Worsted holds the body like armor, accentuating it beneath a firm, fixed silhouette."
     },
     {
       "id": "ChargeNoir",
-      "name": "Preservation",
-      "desc": "- Unique Charge\n- Max Count: 20\n- Interacts the same way as normal Charge does to effects that raise or reduce Charge Potency and Count\n- Turn End: Lose 1 Count\n\n<color=#1aece7>Cumulative Count consumed: {2}</color>",
+      "name": "Conservazione",
+      "desc": "- Carica Speciale\n- Conteggio Max: 20\n- Interagisce allo stesso modo della Carica classica con gli effetti che aumentano o riducono Potenza e Conteggio Carica\n- Fine Turno: Perde 1 Conteggio\n\n<color=#1aece7>Conteggio Cumulativo usato: {2}</color>",
       "summary": "",
       "undefined": "-",
       "flavor": "Force is compressed, gathered, and fixed in place. Sometimes, it takes more force to prevent change than to cause it."
     },
     {
       "id": "ChargeRouge",
-      "name": "Pulsation",
-      "desc": "- Unique Charge\n- Max Count: 20\n- Interacts the same way as normal Charge does to effects that raise or reduce Charge Potency and Count\n- Turn End: Lose 1 Count",
+      "name": "Pulsazione",
+      "desc": "- Carica Speciale\n- Conteggio Max: 20\n- Interagisce allo stesso modo della Carica classica con gli effetti che aumentano o riducono Potenza e Conteggio Carica\n- Fine Turno: Perde 1 Conteggio",
       "summary": "",
       "undefined": "-",
       "flavor": "Contraction and relaxation of flesh. The flow of blood. The explosive strength driven by them all."
     },
     {
       "id": "RisingMadnessRouge",
-      "name": "Sunshine",
-      "desc": "- Max Stack: 2\n- Turn End: Lose 1 Stack\n- Turn Start: At 0 Stack, apply the following effects:\n· Gain 1 Damage Up and 1 Fragile\n· Convert Coins on all Skills to Unbreakable Coins, starting from the final Coin (number of Coins converted on each Skill is equal to Pulsation Potency on self)\n· Turn End: Restore this effect to Max Stack next turn",
+      "name": "Luce Solare",
+      "desc": "- Stack Max: 2\n- Fine Turno: Perde 1 Stack\n- Inizio Turno: A 0 Stack, applica i seguenti effetti:\n· Ottiene 1 Danno Aumentato e 1 Fragile\n· Converte le Monete di tutte le Abilità in Monete Infrangibili, a partire dalla Moneta finale (il numero di Monete convertite su ogni Abilità è pari alla Potenza Pulsazione su di sé)\n· Fine Turno: Riporta le Stack di questo effetto al massimo il turno successivo",
       "summary": "",
       "undefined": "-",
-      "flavor": "You can be..."
+      "flavor": "Puoi essere..."
     },
     {
       "id": "RisingMadnessRouge2nd",
-      "name": "Stinging Sunshine",
-      "desc": "- Max Stack: 1\n- Turn End: Lose 1 Stack\n- Turn Start: At 0 Stack, apply the following effects:\n· Gain 2 Power Up, 2 Damage Up, and 3 Fragile\n· Convert Coins on all Skills to Unbreakable Coins, starting from the final Coin (number of Coins converted on each Skill is equal to Pulsation Potency on self)\n· Turn End: Restore this effect to Max Stack next turn",
+      "name": "Luce Solare Pungente",
+      "desc": "- Stack Max: 1\n- Fine Turno: Perde 1 Stack\n- Inizio Turno: A 0 Stack, applica i seguenti effetti:\n· Ottiene 2 Potere Aumentato, 2 Danno Aumentato e 3 Fragile\n· Converte le Monete di tutte le Abilità in Monete Infrangibili, a partire dalla Moneta finale (il numero di Monete convertite su ogni Abilità è pari alla Potenza Pulsazione su di sé)\n· Fine Turno: Riporta le Stack di questo effetto al massimo il turno successivo",
       "summary": "",
       "undefined": "-",
-      "flavor": "The Sunlight whispers into all that it touches, beating down all the same even as its heat grows from a prickle on the skin to unbearable, burning pain and the subject is cooked alive."
+      "flavor": "La Luce Solare sussurra a tutto ciò che tocca, continuando a battere forte anche se il suo calore si trasforma da un pizzichio sulla pella in un dolore bruciante e insopportabile, e il soggetto viene poi cucinato vivo."
     },
     {
       "id": "RisingMadnessNoir",
-      "name": "Sunshine",
-      "desc": "- Max Stack: 2\n- Turn End: Lose 1 Stack\n- Turn Start: At 0 Stack, apply the following effects:\n· Gain 1 Damage Up and 1 Fragile\n· Convert Coins on all Skills to Unbreakable Coins, starting from the final Coin (number of Coins converted on each Skill is equal to Preservation Potency on self)\n· Turn End: Restore this effect to Max Stack next turn",
+      "name": "Luce Solare",
+      "desc": "- Stack Max: 2\n- Fine Turno: Perde 1 Stack\n- Inizio Turno: A 0 Stack, applica i seguenti effetti:\n· Ottiene 1 Danno Aumentato e 1 Fragile\n· Converte le Monete di tutte le Abilità in Monete Infrangibili, a partire dalla Moneta finale (il numero di Monete convertite su ogni Abilità è pari alla Potenza Conservazione su di sé)\n· Fine Turno: Riporta le Stack di questo effetto al massimo il turno successivo",
       "summary": "",
       "undefined": "-",
-      "flavor": "You can be..."
+      "flavor": "Puoi essere..."
     },
     {
       "id": "RisingMadnessNoir2nd",
-      "name": "Stinging Sunshine",
-      "desc": "- Max Stack: 1\n- Turn End: Lose 1 Stack\n- Turn Start: At 0 Stack, apply the following effects:\n· Gain 2 Power Up, 2 Damage Up, and 3 Fragile\n· Convert Coins on all Skills to Unbreakable Coins, starting from the final Coin (number of Coins converted on each Skill is equal to Preservation Potency on self)\n· Turn End: Restore this effect to Max Stack next turn",
+      "name": "Luce Solare Pungente",
+      "desc": "- Stack Max: 1\n- Fine Turno: Perde 1 Stack\n- Inizio Turno: A 0 Stack, applica i seguenti effetti:\n· Ottiene 2 Potere Aumentato, 2 Danno Aumentato e 3 Fragile\n· Converte le Monete di tutte le Abilità in Monete Infrangibili, a partire dalla Moneta finale (il numero di Monete convertite su ogni Abilità è pari alla Potenza Conservazione su di sé)\n· Fine Turno: Riporta le Stack di questo effetto al massimo il turno successivo",
       "summary": "",
       "undefined": "-",
-      "flavor": "The Sunlight whispers into all that it touches, beating down all the same even as its heat grows from a prickle on the skin to unbearable, burning pain and the subject is cooked alive."
+      "flavor": "La Luce Solare sussurra a tutto ciò che tocca, continuando a battere forte anche se il suo calore si trasforma da un pizzichio sulla pella in un dolore bruciante e insopportabile, e il soggetto viene poi cucinato vivo."
     },
     {
       "id": "RougeThreeNormal",
-      "name": "Boutique: New Releases",
-      "desc": "- Max Stack: 20\n\nOn Skill Use, consume 1% of max HP on self to deal +(HP consumed) Skill damage",
+      "name": "Boutique: Nuove Uscite",
+      "desc": "- Stack Max: 20\n\nAll'Uso di un'Abilità, usa l'1% dei propri PV max per infliggere +(PV usati) danno Abilità",
       "summary": "",
       "undefined": "-",
-      "flavor": "Follow the warm voice... into a new season...!"
+      "flavor": "Segui la voce calda... in una nuova stagione...!"
     },
     {
       "id": "RougeThreeCocoon",
@@ -377,15 +377,15 @@
     },
     {
       "id": "RisingMadnessSisyphe",
-      "name": "Sunshine",
+      "name": "Luce Solare",
       "desc": "- Max Stack: 2\n- Turn End: Lose 1 Stack\n- Turn Start: At 0 Stack, apply the following effects:\n· Gain 1 Damage Up and 1 Fragile\n· Convert Coins on all Skills to Unbreakable Coins\n· Turn End: Restore this effect to Max Stack next turn",
       "summary": "",
       "undefined": "-",
-      "flavor": "You can be..."
+      "flavor": "Puoi essere..."
     },
     {
       "id": "RisingMadnessSisyphe2nd",
-      "name": "Stinging Sunshine",
+      "name": "Luce Solare Pungente",
       "desc": "- Max Stack: 1\n- Turn End: Lose 1 Stack\n- Turn Start: At 0 Stack, apply the following effects:\n· Gain 2 Power Up, 2 Damage Up, and 3 Fragile\n· Convert Coins on all Skills to Unbreakable Coins\n· Turn End: Restore this effect to Max Stack next turn",
       "summary": "",
       "undefined": "-",
