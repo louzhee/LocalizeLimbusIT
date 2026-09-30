@@ -74,102 +74,102 @@
     },
     {
       "id": "RougeThreeCocoon",
-      "name": "Changing Room",
-      "desc": "- Stack Max: 3\n- Does not take HP damage\n- When hit, apply the following effects: (20 times per turn):\n· Gain +1 Pulsation Count\n· Gain 1 Damage Up\n· Gain 1 Defense Level Down next turn",
+      "name": "Camerino",
+      "desc": "- Stack Max: 3\n- Non Subisce danni ai PV\n- Quando colpita, applica i seguenti effetti: (20 volte per turno)\n· Ottiene +1 Conteggio Pulsazione\n· Ottiene 1 Danno Aumentato\n· Ottiene 1 Livello Difensivo Diminuito il turno successivo",
       "summary": "",
       "undefined": "-",
-      "flavor": "Warning: Fixing a misshapen dress. We all know the changing room manners, don't we?"
+      "flavor": "Attenzione: siamo sistemando un vestito deformato. Ci ricordiamo tutti del galateo da camerino, vero?"
     },
     {
       "id": "RougeThreeCocoonHit",
-      "name": "Persecution",
+      "name": "Persecuzione",
       "desc": "- Stack Max: 20",
       "summary": "",
       "undefined": "-",
-      "flavor": "Disturbing someone while they're in a changing room...? This is persecution, persecution against my faith...!"
+      "flavor": "Disturbare qualcuno mentre è nel camerino...? Questa è una persecuzione, una vera e propria persecuzione contro la mia fede...!"
     },
     {
       "id": "SapsareeShield",
-      "name": "Please, eat me...",
-      "desc": "- When Sous Chef is about to take an Unopposed Attack from an enemy, consume 1 Stack to redirect the enemy's targeting to self; then use Assist Defense-exclusive Skill\n- When there are multiple allies that have Assist Defense Stacks, the ally that has the highest Stack has the highest activation priority\n- This effect counts as Assist Defense, and is counted toward calculating Assist Defense Stacks\n- Expires at Turn End",
+      "name": "Mangiami, per favore...",
+      "desc": "- Quando Sous Chef sta per essere colpita da un Attacco Incontrastato da parte di un nemico, consuma 1 Stack per ridirezionare l'attacco del bersaglio su di sè; usa poi l'Abilità esclusiva della Difesa di Supporto\n- Quando ci sono più alleati che hanno Stack di Difesa di Supporto, l'alleato con le Stack più alte ottiene priorità\n- Questo effetto conta come Difesa di Supporto, e viene contato per calcolare le Stack di Difesa di Supporto\n- Scade a Fine Turno",
       "summary": ""
     },
     {
       "id": "SapsareeYammi",
-      "name": "Eat yummies and perk up, you hear?",
-      "desc": "- Stack Max: 5\n- Offense Level +1 for every Stack\n- Turn Start: Lose 1 Stack for every \"Got an appetite, you hear?\" on self",
+      "name": "Mangia cose buone e riprenditi, capito?",
+      "desc": "- Stack Max: 5\n- Livello Offensivo +1 per ogni Stack\n- Inizio Turno: Perde 1 Stack per ogni  \"Ho fame, capito?\" su di sè",
       "summary": "",
-      "flavor": "Not satiation from flavor, but from unrefined fullness."
+      "flavor": "Una sazietà non data dal gusto, ma dal semplice rimpinzarsi lo stomaco."
     },
     {
       "id": "SapsareeCooking",
-      "name": "Chopped Ingredients",
-      "desc": "- Stack Max: 5\n- Expires at Turn End",
+      "name": "Ingredienti Tagliuzzati",
+      "desc": "- Stack Max: 5\n- Scade a Fine Turno",
       "summary": "",
-      "flavor": "Hacked up haphazardly with no other purpose than to fit it down the gullet. Not even an ounce of culinary philosophy or care went into each chop."
+      "flavor": "Tagliato alla rinfusa, senza altro fine se non quello di ingozzarsi. Nemmeno l'ombra di un pensiero culinario o di attenzione in ogni taglio."
     },
     {
       "id": "SapsareeHungry",
-      "name": "Got an appetite, you hear?",
-      "desc": "- Stack Max: 3\n- Offense Level +1 for every Stack\n- At 3 Stacks, deal +50% damage\n- Expires when Sous Chef uses the \"Aah! I'm on lunch break, you hear?\" Skill",
+      "name": "Ho fame, capito?,
+      "desc": "- Stack Max: 3\n- Livello Offensivo +1 per ogni Stack\n- A 3 Stack, infligge +50% danni\n- Scade quando Sous Chef usa l'Abilità \"Aah! Sono in Pausa Pranzo, Capito?\"",
       "summary": "",
-      "flavor": "A hunger content with anything shoved into the gut. Such is the nature of those who subsist here."
+      "flavor": "Una fame soddisfatta da qualsiasi cosa finisca nello stomaco. Questa è la natura di coloro che esistono qui."
     },
     {
       "id": "SapsareeSpices",
-      "name": "Fiery, Tongue-scorching Sauce",
-      "desc": "- Stack Max: 3\n- Offense Level -1 for every Stack",
+      "name": "Salsa Piccantissima. Fa Bruciare la Lingua!",
+      "desc": "- Stack Max: 3\n- Livello Offensivo -1 per ogni Stack",
       "summary": "",
-      "flavor": "A lazy cook's solution for disguising substandard ingredient quality."
+      "flavor": "La soluzione del cuoco pigro per nascondere ingredienti di scarsa qualità."
     },
     {
       "id": "Sapsaree_LowMorale",
-      "name": "Culinary Yearning",
-      "desc": "- Low Morale\n- Offense Level +1 and take +3% damage for every \"Got an appetite, you hear?\" Stack on self",
+      "name": "Brama Culinaria",
+      "desc": "- Morale Basso\n- Livello Offensivo +1 e subisce +3% danni per ogni Stack di \"Ho fame, capito?\" su di sè",
       "summary": "",
-      "flavor": "Don't delude yourself; you're not yearning for \"culinary arts.\" You just want to feel like you're cooking and pretend to dine."
+      "flavor": "Non prenderti in giro; non sei desideri l' \"arte culinaria.\" Vuoi solo avere l'illusione di cucinare e fingere di mangiare."
     },
     {
       "id": "Sapsaree_Panic",
-      "name": "Culinary Yearning",
-      "desc": "- Panic\n- Offense Level +2 and take +5% damage for every \"Got an appetite, you hear?\" Stack on self",
+      "name": "Brama Culinaria",
+      "desc": "- Panico\n- Livello Offensivo +2 e subisce +5% danni perr ogni Stack di \"Ho fame, capito?\" su di sè",
       "summary": "",
-      "flavor": "Don't delude yourself; you're not yearning for \"culinary arts.\" You just want to feel like you're cooking and pretend to dine."
+      "flavor": "Non prenderti in giro; non sei desideri l' \"arte culinaria.\" Vuoi solo avere l'illusione di cucinare e fingere di mangiare."
     },
     {
       "id": "HungryPeople_LowMorale",
       "name": "FOMO",
-      "desc": "- Low Morale\n- Offense Level +1 for every 20% missing HP on self (max 2)\n- Gain 1 Fragile",
+      "desc": "- Morale Basso\n- Livello Offensivo +1 per ogni 20% PV mancanti su sè (max 2)\n- Ottiene 1 Fragile",
       "summary": "",
-      "flavor": "Not again—I'm not gonna miss out on this season's trend!"
+      "flavor": "Non di nuovo—Questa volta non mi farò scappare il trend della stagione!"
     },
     {
       "id": "HungryPeople_Panic",
       "name": "FOMO",
-      "desc": "- Panic\n- Offense Level +1 for every 20% missing HP on self (max 2)\n- Gain 1 Fragile",
+      "desc": "- Panico\n- Livello Offensivo +1 per ogni 20% PV mancanti su sè (max 2)\n- Ottiene 1 Fragile",
       "summary": "",
-      "flavor": "Not again—I'm not gonna miss out on this season's trend!"
+      "flavor": "Non di nuovo—Questa volta non mi farò scappare il trend della stagione!"
     },
     {
       "id": "UnresolvedFeelings",
-      "name": "Layered Patchwork",
-      "desc": "- Stack Max: 30\n- Gain Defense Level equal to Stack\n- When hit by target that has \"Gratitude for Listening\", lose Stack equal to \"Gratitude for Listening\" (2 times per turn per Identity)\n- On Clash Lose using the \"Thank you... for listening...\" Skill, lose 5 Stacks",
+      "name": "Tessuti stratificati",
+      "desc": "- Stack Max: 30\n- Ottiene Livello Difensivo pari alle Stack\n- Quando colpita da un bersaglio che ha \"Riconoscenza per l'ascolto\", perde Stack pari a \"Riconoscenza per l'ascolto\" (2 volte per turno per Identità)\n- Quando perde uno Scontro usando l'Sbilità \"Thank you... for listening...\" , perde 5 Stack",
       "summary": "",
-      "flavor": "Ironically, it has deafened itself to any voice by hiding under wraps upon wraps of thick blankets."
+      "flavor": "Ironicamente, si è reso sordo a qualsiasi voce nascondendosi sotto strati e strati di pesanti coperte."
     },
     {
       "id": "Wariness",
-      "name": "Guarded Caution",
-      "desc": "- Stack Max: 10\n- Lose Offense Level and Defense Level equal to Stack\n- If this unit loses a Clash, lose 3 Stacks",
+      "name": "Cauta Diffidenza",
+      "desc": "- Stack Max: 10\n- Perde Livello Offensivo e Livello Difensivo pari alle Stack\n- Se questa unità perde uno scontro, perde 3 Stack",
       "summary": "",
-      "flavor": "The unfamiliarity of the Voice is not what makes one wary; it is the Voice knocking on the heart that does so."
+      "flavor": "Non è il fatto che la Voce sia sconosciuta a mettere in guardia; è il suo bussare al cuore a farlo."
     },
     {
       "id": "ReliefSense",
-      "name": "Gratitude for Listening",
-      "desc": "- Stack Max: 3\n- Turn Start: Gain 1 Stack and heal 10 SP\n- Skills against this Stage's boss deal +(Stack x 50)% damage; then, this effect expires on Attack End of the Skill used\n- At 3 Stacks, damage dealt by this unit disregards Layered Patchwork's Defense Level effects",
+      "name": "Riconoscenza per l'Ascolto",
+      "desc": "- Stack Max: 3\n- Inizio Turno: Ottiene 1 Stack e recupera 10 PS\n- Le Abilità contro il Boss di questa Sezione infliggono +(Stack x 50)% danni; poi, questo effetto scade alla fine dell'Attacco dell'Abilità Usata\n- A 3 Stack, i danni inflitti contro questa unità ignorano i Livelli Difensivi ottenuti da \"Tessuti Stratificati\"",
       "summary": "",
-      "flavor": "Thank you... for listening..."
+      "flavor": "Grazie... per avermi... ascoltato..."
     },
     {
       "id": "HorribleTerror",
