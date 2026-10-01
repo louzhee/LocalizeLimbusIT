@@ -393,12 +393,12 @@
     {
       "id": 1000201,
       "name": "Lussuria",
-      "desc": "Quando subisce un attacco questo turno, cura 3 PV con una probabilità del 50%."
+      "desc": "Quando subisce un attacco questo turno, recupera 3 PV con una probabilità del 50%."
     },
     {
       "id": 1000221,
       "name": "Lussuria",
-      "desc": "Dà ad un alleato casuale questo effetto: Quando subisce un attacco questo turno, cura 3 PV con una probabilità del 50%."
+      "desc": "Dà ad un alleato casuale questo effetto: Quando subisce un attacco questo turno, recupera 3 PV con una probabilità del 50%."
     },
     {
       "id": 1000301,
@@ -413,12 +413,12 @@
     {
       "id": 1000401,
       "name": "Gola",
-      "desc": "Cura di 5 PV all'inizio della fase di combattimento."
+      "desc": "Recupera 5 PV all'inizio della fase di combattimento."
     },
     {
       "id": 1000421,
       "name": "Gola",
-      "desc": "Dà ad un alleato casuale questo effetto: Cura di 5 PV all'inizio della fase di combattimento."
+      "desc": "Applica ad un alleato casuale questo effetto: Recupera 5 PV all'inizio della fase di combattimento."
     },
     {
       "id": 1000501,
@@ -1626,8 +1626,8 @@
     {
       "id": 1041021,
       "name": "Mangia e Dormi",
-      "desc": "Inizio Combattimento:\n- 1 alleato con la minore percentuale di PV cura 3 PV\n- 1 alleato con i PS più bassi cura 3 PS",
-      "summary": "Cura di PV per 1 alleato con la minore percentuale di PV, cura PS per 1 alleato con meno PS"
+      "desc": "Inizio Combattimento:\n- 1 alleato con la minore percentuale di PV recupera 3 PV\n- 1 alleato con i PS più bassi recupera 3 PS",
+      "summary": "Ripristina PV ad 1 alleato con la minore percentuale di PV, recupera PS per 1 alleato con meno PS"
     },
     {
       "id": 1011001,
@@ -1789,7 +1789,7 @@
     {
       "id": 1121031,
       "name": "Tecnica del Sangue Coagulato di Don Quixote 6: Frusta",
-      "desc": "1 alleato con la minore percentuale di PV recupera 3 PV Sul Colpo (3 volte per turno)\n- Se il bersaglio colpito da quell'alleato ha [Laceration], cura 3 PV in più",
+      "desc": "1 alleato con la minore percentuale di PV recupera 3 PV Sul Colpo (3 volte per turno)\n- Se il bersaglio colpito da quell'alleato ha [Laceration], recupera 3 PV in più",
       "summary": ""
     },
     {
