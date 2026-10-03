@@ -5,20 +5,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Thou hast sinned...",
-          "desc": "[WhenUse]\n- <color=#ff6000><mark=#ff000040><b><u>Final Power +1 for every Candle of Retribution on the field</u></b></mark></color> (max 4)\n- At 10+ [ChargeNoir] Count, Clash Power +1\n[WhenUse] Gain +3 [ChargeNoir] Count\n[DefeatDuel] Damage dealt by this Skill cannot Stagger the target",
+          "name": "Tu hai peccato...",
+          "desc": "[WhenUse]\n- <color=#ff6000><mark=#ff000040><b><u>Potere Finale +1 per ogni Candela del Castigo in battaglia</u></b></mark></color> (max 4)\n- A 10+ Conteggio [ChargeNoir], Potere Scontro +1\n[WhenUse] Ottiene +3 Conteggio [ChargeNoir]\n[DefeatDuel] Il danno inflitto da quest'Abilità non può Stordire",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
                 }
               ]
             }
@@ -31,13 +31,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Atone.",
-          "desc": "[WhenUse]\n- <color=#ff6000><mark=#ff000040><b><u>Final Power +2 for every Candle of Retribution on the field</u></b></mark></color> (max 8)\n- At 15+ [ChargeNoir] Count, consume 5 [ChargeNoir] Count to gain Final Power +2\n[WhenUse] Gain +5 [ChargeNoir] Count\n[DefeatDuel] Damage dealt by this Skill cannot Stagger the target",
+          "name": "Espia le Tue Colpe.",
+          "desc": "[WhenUse]\n- <color=#ff6000><mark=#ff000040><b><u>Potere Finale +2 per ogni Candela del Castigo in battaglia</u></b></mark></color> (max 8)\n- A 15+ Conteggio [ChargeNoir], consuma 5 Conteggio [ChargeNoir] e ottiene Potere Finale +2\n[WhenUse] Ottiene +5 Conteggio [ChargeNoir]\n[DefeatDuel] Il danno inflitto da quest'Abilità non può Stordire",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Sinking]"
                 }
               ]
             },
@@ -47,10 +47,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 2 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Inflict 1 [Binding]</u></b></mark></color> next turn"
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Infligge 1 [Binding]</u></b></mark></color> nel turno successivo"
                 }
               ]
             }
@@ -63,20 +63,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Condemnation",
-          "desc": "Can Clash with this Skill regardless of Speed\n[BeforeAttack] <color=#ff6000><mark=#ff000040><b><u>Gain +(# of Candle of Retribution on the field) Atk Weight (max 2)</u></b></mark></color>\n[WhenUse]\n- If the main target <color=#ff6000><mark=#ff000040><b><u>has 1 Speed</u></b></mark></color>, deal +50% damage\n- <color=#ff6000><mark=#ff000040><b><u>Final Power +2 for every Candle of Retribution on the field (max 8)</u></b></mark></color>\n- At 15+ [ChargeNoir] Count, consume 10 [ChargeNoir] Count to gain Coin Power +1\n[DefeatDuel] Gain 3 [Paralysis], deal -50% damage and damage dealt by this Skill cannot Stagger the target",
+          "name": "Condanna",
+          "desc": "Ci si può Scontrare con quest'Abilità a prescindere dalla Velocità\n[BeforeAttack] <color=#ff6000><mark=#ff000040><b><u>Portata Attacco +1 per ogni Candela del Castigo in battaglia (max 2)</u></b></mark></color>\n[WhenUse]\n- Se <color=#ff6000><mark=#ff000040><b><u>la Velocità del bersaglio principale è a 1</u></b></mark></color>, infligge +50% danni\n- <color=#ff6000><mark=#ff000040><b><u>Potere Finale +2 per ogni Candela del Castigo in battaglia (max 8)</u></b></mark></color>\n- A 15+ Conteggio [ChargeNoir], consuma 10 Conteggio [ChargeNoir] e ottiene Potere Moneta +1\n[DefeatDuel] Ottiene 3 [Paralysis]; Infligge -50% danni; Il danno inflitto da quest'Abilità non può Stordire",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking] and +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking] e +1 Conteggio [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Sinking] and +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Sinking] e +2 Conteggio [Sinking]"
                 }
               ]
             },
@@ -86,11 +86,11 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Inflict 2 [Binding]</u></b></mark></color> next turn\n- <color=#ff6000><mark=#ff000040><b><u>Inflict 4 [Binding]</u></b></mark></color> instead to main targets",
-                  "summary": "Inflict 2 [Binding] next turn; 4 instead on the main target"
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Infligge 2 [Binding]</u></b></mark></color> nel turno successivo\n- <color=#ff6000><mark=#ff000040><b><u>Infligge 2 [Binding]</u></b></mark></color> in più sul bersaglio principale",
+                  "summary": "Infligge 2 [Binding] nel turno successivo; 4 sul bersaglio principale"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [Sinking] and +3 [Sinking] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [Sinking] e +3 Conteggio [Sinking]"
                 }
               ]
             }
@@ -103,9 +103,9 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Your sinfulness shall constrict you.",
-          "desc": "Can Clash with this Skill regardless of Speed\n[BeforeAttack] Gain +(# of Candle of Retribution on the field) Atk Weight (max 4)\n[WhenUse]\n- If the main target <color=#ff6000><mark=#ff000040><b><u>has 1 Speed</u></b></mark></color>, deal +100% damage\n- <color=#ff6000><mark=#ff000040><b><u>Final Power +2 for every Candle of Retribution on the field (max 8)</u></b></mark></color>\n- If there are no Candle of Retribution on the field, Clash Power -3\n- At 15+ [ChargeNoir] Count, consume 10 [ChargeNoir] Count to gain Final Power +1 and Coin Power +1\n[DefeatDuel] Gain 4 [Paralysis], deal -50% damage, and damage dealt by this Skill cannot Stagger the target",
-          "flavor": "\"Mannequins are singing...\"",
+          "name": "I vostri peccati vi uccideranno.",
+          "desc": "Ci si può Scontrare con quest'Abilità a prescindere dalla Velocità\n[BeforeAttack] Portata Attacco +1 per ogni Candela del Castigo in battaglia (max 4)\n[WhenUse]\n- Se <color=#ff6000><mark=#ff000040><b><u>la Velocità del bersaglio principale è a 1</u></b></mark></color>, infligge +100% danni\n- <color=#ff6000><mark=#ff000040><b><u>Potere Finale +2 per ogni Candela del Castigo in battaglia (max 8)</u></b></mark></color>\n- Se non ci sono più Candele del Castigo, Potere Scontro -3\n- A 15+ Conteggio [ChargeNoir], consuma 10 Conteggio [ChargeNoir] per ottenere Potere Finale +1 e Potere Moneta +1\n[DefeatDuel] Ottiene 4 [Paralysis]; infligge -50% danni; Il danno inflitto da quest'Abilità non può Stordire",
+          "flavor": "\"I manichini stanno cantando...\"",
           "coinlist": [
             {
               "coindescs": [
@@ -113,11 +113,11 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Inflict 1 [Binding]</u></b></mark></color> next turn\n- <color=#ff6000><mark=#ff000040><b><u>Inflict 3 [Binding]</u></b></mark></color> instead to main targets",
-                  "summary": "Inflict 1 [Binding] next turn; 3 instead on the main target"
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Infligge 1 [Binding]</u></b></mark></color> nel turno successivo\n- <color=#ff6000><mark=#ff000040><b><u>Infligge 2 [Binding] in più</u></b></mark></color> sul bersaglio principale",
+                  "summary": "Infligge 1 [Binding] nel turno successivo; 3 sul bersaglio principale"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +2 [Sinking] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +2 Conteggio [Sinking]"
                 }
               ]
             },
@@ -127,11 +127,11 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Inflict 1 [Binding]</u></b></mark></color> next turn\n- <color=#ff6000><mark=#ff000040><b><u>Inflict 3 [Binding]</u></b></mark></color> instead to main targets",
-                  "summary": "Inflict 1 [Binding] next turn; 3 instead on the main target"
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Infligge 1 [Binding]</u></b></mark></color> nel turno successivo\n- <color=#ff6000><mark=#ff000040><b><u>Infligge 3 [Binding]</u></b></mark></color> instead to main targets",
+                  "summary": "Infligge 1 [Binding] nel turno successivo; 3 instead on the main target"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 2 [Sinking]"
                 }
               ]
             },
@@ -141,7 +141,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Sinking] and +2 [Sinking] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 2 [Sinking] e +2 Conteggio [Sinking]"
                 }
               ]
             },
@@ -151,7 +151,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [BlackStigmata] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 2 [BlackStigmata] nel turno successivo"
                 }
               ]
             }
@@ -164,8 +164,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Divine Retribution",
-          "desc": "Can Clash with this Skill regardless of Speed\n[WhenUse]\n- If the main target has <color=#ff6000><mark=#ff000040><b><u>1 Speed</u></b></mark></color>, deal +100% damage\n- <color=#ff6000><mark=#ff000040><b><u>Final Power +2 for every Candle of Retribution on the field (max 8)</u></b></mark></color>\n- If there are no Candle of Retribution on the field, Clash Power -5\n- If this unit has [ChargeNoir] Count, consume all [ChargeNoir] Count on self to gain Coin Power +2\n[DefeatDuel] Gain 4 [Paralysis], deal -50% damage, and damage dealt by this Skill cannot Stagger the target",
+          "name": "Castigo Divino",
+          "desc": "Ci si può Scontrare con quest'Abilità a prescindere dalla Velocità\n[WhenUse]\n- Se <color=#ff6000><mark=#ff000040><b><u>la Velocità del bersaglio principale è a 1</u></b></mark></color>, infligge +100% danni\n- <color=#ff6000><mark=#ff000040><b><u>Potere Finale +2 per ogni Candela del Castigo in battaglia (max 8)</u></b></mark></color>\n- Se non ci sono Candele del Castigo, Potere Scontro -5\n- Se quest'unità ha Conteggio [ChargeNoir], consuma tutto il Conteggio [ChargeNoir] su di sé e ottiene Potere Moneta +2\n[DefeatDuel] Ottiene 4 [Paralysis]; Infligge -50% danno; Il danno inflitto da quest'Abilità non può Stordire",
           "coinlist": [
             {
               "coindescs": [
@@ -211,16 +211,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Nail of Penance",
-          "desc": "<color=#ff6000><mark=#ff000040><b><u>If the Warden is at 50% or lower HP</u></b></mark></color>, convert the <color=#ff6000><mark=#ff000040><b><u>first Coin of this Skill into an [SuperCoin]</u></b></mark></color>\nIf target has <color=#ff6000><mark=#ff000040><b><u>9 [ConfessionSecondPhase], Final Power +2</u></b></mark></color>\n[WhenUse] Gain +4 [ChargeNoir] Count\n[WhenUse] Gain 1 [Breath] and +1 [Breath] Count\n[DefeatDuel] Damage dealt by this Skill cannot Stagger the target",
+          "name": "Chiodo della Penitenza",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Se il Guardiano ha 50% o meno PV</u></b></mark></color>, converte la <color=#ff6000><mark=#ff000040><b><u>Prima Moneta di quest'Abilità in [SuperCoin]</u></b></mark></color>\nSe il bersaglio ha <color=#ff6000><mark=#ff000040><b><u>9 [ConfessionSecondPhase], Potere Finale +2</u></b></mark></color>\n[WhenUse] Ottiene +4 Conteggio [ChargeNoir]\n[WhenUse] Ottiene 1 [Breath] e +1 Conteggio [Breath]\n[DefeatDuel] Il danno inflitto da quest'Abilità non può Stordire",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [MarkingNail]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [MarkingNail]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
                 }
               ]
             },
@@ -230,10 +230,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [MarkingNail]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [MarkingNail]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 2 [Sinking]"
                 }
               ]
             }
@@ -246,16 +246,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Nail of Punishment",
-          "desc": "<color=#ff6000><mark=#ff000040><b><u>If the Warden is at 50% or lower HP</u></b></mark></color>, convert the <color=#ff6000><mark=#ff000040><b><u>first Coin of this Skill into an [SuperCoin]</u></b></mark></color>\nIf target has <color=#ff6000><mark=#ff000040><b><u>6+/9+ [ConfessionSecondPhase], Final Power +2/+3</u></b></mark></color>\n[WhenUse] Gain +4 [ChargeNoir] Count\n[WhenUse] Gain 2 [Breath] and +2 [Breath] Count\n[DefeatDuel] Damage dealt by this Skill cannot Stagger the target",
+          "name": "Chiodo del Castigo",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Se il Guardiano ha 50% o meno PV</u></b></mark></color>, converte la <color=#ff6000><mark=#ff000040><b><u>Prima Moneta di quest'Abilità in [SuperCoin]</u></b></mark></color>\nSe il bersaglio ha <color=#ff6000><mark=#ff000040><b><u>6+/9+ [ConfessionSecondPhase], Potere Finale +2/+3</u></b></mark></color>\n[WhenUse] Ottiene +4 Conteggio [ChargeNoir]\n[WhenUse] Ottiene 2 [Breath] e +2 Conteggio [Breath]\n[DefeatDuel] Il danno inflitto da quest'Abilità non può Stordire",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [CeremonialNail]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [CeremonialNail]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking]"
                 }
               ]
             },
@@ -265,10 +265,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [CeremonialNail]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [CeremonialNail]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +2 [Sinking] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +2 Conteggio [Sinking]"
                 }
               ]
             }
@@ -281,8 +281,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Judgment",
-          "desc": "Can Clash with this Skill regardless of Speed\nIf the main target has <color=#ff6000><mark=#ff000040><b><u>3+/6+/9+ [ConfessionSecondPhase], Final Power +2/+3/+5</u></b></mark></color>\n[BeforeAttack] <color=#ff6000><mark=#ff000040><b><u>If the main target has 5+/9+ [ConfessionSecondPhase], gain +1/+3 Atk Weight</u></b></mark></color>\n[WhenUse] If this unit has [ChargeNoir] Count, consume all [ChargeNoir] Count on self to gain Coin Power +2\n[DefeatDuel] Gain 3 [Paralysis], deal -50% damage, and damage dealt by this Skill cannot Stagger the target",
+          "name": "Giudizio",
+          "desc": "Ci si può Scontrare con quest'Abilità a prescindere dalla Velocità\nSe il bersaglio principale ha <color=#ff6000><mark=#ff000040><b><u>3+/6+/9+ [ConfessionSecondPhase], Potere Finale +2/+3/+5</u></b></mark></color>\n[BeforeAttack] <color=#ff6000><mark=#ff000040><b><u>Se il bersaglio ha 5+/9+ [ConfessionSecondPhase], Portata Attacco +1/+3</u></b></mark></color>\n[WhenUse] Se quest'unità ha Conteggio [ChargeNoir], consuma ogni Conteggio [ChargeNoir] su di sé e ottiene Potere Moneta +2\n[DefeatDuel] Ottiene 3 [Paralysis]; Infligge -50% danni; Il danno inflitto da quest'Abilità non può Stordire",
           "coinlist": [
             {
               "coindescs": [
@@ -304,13 +304,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "This Coin <color=#ff6000><mark=#ff000040><b><u>hits only the main target</u></b></mark></color>"
+                  "desc": "Questa Moneta <color=#ff6000><mark=#ff000040><b><u>colpisce solo il bersaglio principale</u></b></mark></color>"
                 },
                 {
-                  "desc": "Deal +(missing HP percentage on self)% damage (max 100%)"
+                  "desc": "Infligge +(% di PV mancanti su di sé)% danni (max 100%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Inflict 4 [ExecutionNailSecondPhase]</u></b></mark></color>"
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Infligge 4 [ExecutionNailSecondPhase]</u></b></mark></color>"
                 }
               ]
             }
@@ -323,8 +323,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Atone before God.",
-          "desc": "<color=#ff6000><mark=#ff000040><b><u>When the Sinner that has [GoldenFabricWarderSecondPhase]</u></b></mark></color> attacks the Slot equipped with this Skill as its main target in the Chaining Phase, the said Skill used by the Sinner deals +100% damage (for E.G.O Skills, +200% damage)\n[EndBattle] At fewer than 100 [EncompassingVoiceSecondPhase] Stack, gain up to 100 Stack\n- The Warden loses SP equal to Stack gained (max 45)",
+          "name": "Espia le Tue Colpe Dinanzi a Dio.",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Se il Peccatore con [GoldenFabricWarderSecondPhase]</u></b></mark></color> colpisce lo Slot di quest'Abilità come bersaglio principale, l'Abilità del Peccatore infligge +100% danni (se è un'Abilità E.G.O, infligge +200% danni)\n[EndBattle] A meno di 100 [EncompassingVoiceSecondPhase], ottiene fino a 100 Stack\n- Poi, Il Guardiano perde 1 PS per ogni Stack ottenuta (max 45)",
           "coinlist": [
             {
               "coindescs": []
@@ -338,33 +338,33 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Repent.",
-          "desc": "If target has <color=#ff6000><mark=#ff000040><b><u>9 [ConfessionSecondPhase], Final Power +2</u></b></mark></color>\n[WhenUse] Consume up to 15 [SpreadingVoiceSecondPhase]\n- Final Power +1, deal +15% damage\n[WhenUse] Gain +4 [ChargeNoir] Count\n[DefeatDuel] Damage dealt by this Skill cannot Stagger the target",
+          "name": "Pentiti.",
+          "desc": "Se il bersaglio ha <color=#ff6000><mark=#ff000040><b><u>9 [ConfessionSecondPhase], Potere Finale +2</u></b></mark></color>\n[WhenUse] Consuma fino a 15 [SpreadingVoiceSecondPhase]\n- Potere Finale +1, infligge +15% danni\n[WhenUse] Ottiene +4 Conteggio [ChargeNoir]\n[DefeatDuel] Il danno inflitto da quest'Abilità non può Stordire",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [MarkingNail]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [MarkingNail]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 2 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [MarkingNail]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [MarkingNail]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [Sinking]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [MarkingNail]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [MarkingNail]"
                 }
               ]
             }
@@ -377,33 +377,33 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Receive thy punishment.",
-          "desc": "If target has <color=#ff6000><mark=#ff000040><b><u>6+/9+ [ConfessionSecondPhase], Final Power +2/+3</u></b></mark></color>\n[WhenUse] Consume up to 15 [SpreadingVoiceSecondPhase]\n- Final Power +2, deal +30% damage\n[WhenUse] Gain +4 [ChargeNoir] Count\n[DefeatDuel] Damage dealt by this Skill cannot Stagger the target",
+          "name": "Accetta la tua pena.",
+          "desc": "Se il bersaglio ha <color=#ff6000><mark=#ff000040><b><u>6+/9+ [ConfessionSecondPhase], Potere Finale +2/+3</u></b></mark></color>\n[WhenUse] Consuma fino a 15 [SpreadingVoiceSecondPhase]\n- Potere Finale +2, infligge +30% danni\n[WhenUse] Ottiene +4 Conteggio [ChargeNoir]\n[DefeatDuel] Il danno inflitto da quest'Abilità non Stordisce",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [CeremonialNail]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [CeremonialNail]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +2 [Sinking] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +2 Conteggio [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [CeremonialNail]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [CeremonialNail]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +3 [Sinking] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +3 Conteggio [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [CeremonialNail]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [CeremonialNail]"
                 }
               ]
             }
@@ -416,8 +416,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Judgment... Sentencing... Condemnation!",
-          "desc": "Can Clash with this Skill regardless of Speed\nThis Skill does not trigger the target's Defense Skill\nCannot be Staggered before using this Skill\nIf the main target has <color=#ff6000><mark=#ff000040><b><u>3+/6+/9+ [ConfessionSecondPhase], Final Power +2/+3/+5</u></b></mark></color>\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>If the main target has [GoldenFabricWarderSecondPhase]:</u></b></mark></color>\n<color=#ff6000><mark=#ff000040><b><u>- Final Power -5, Clash Power -5</u></b></mark></color>\n[WhenUse] Consume up to 40 [SpreadingVoiceSecondPhase] to:\n- Gain Final Power +3\n- Deal +50% damage\n[WhenUse] Deal +([SpreadingVoiceSecondPhase] Stack)% damage; at Attack End, consume all [SpreadingVoiceSecondPhase] on self\n- <color=#ff6000><mark=#ff000040><b><u>On Clash Lose, this effect does not activate</u></b></mark></color>\n[WhenUse] If this unit has [ChargeNoir] Count, consume all [ChargeNoir] Count on self to gain Coin Power +2\n[DefeatDuel] Gain 5 [Paralysis], deal -75% damage, and damage dealt by this Skill cannot Stagger the target\n[EndSkill]\n- Gain 2 [Vulnerable] next turn\n- End this turn",
+          "name": "Giudizio... Sentenza... Condanna!",
+          "desc": "Ci si può Scontrare con quest'Abilità a prescindere dalla Velocità\nNon attiva le Abilità Difensive\nNon può essere Stordito fino all'uso di questa Abilità\nSe il bersaglio principale ha <color=#ff6000><mark=#ff000040><b><u>3+/6+/9+ [ConfessionSecondPhase], Potere Finale +2/+3/+5</u></b></mark></color>\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Se il bersaglio principale ha [GoldenFabricWarderSecondPhase]:</u></b></mark></color>\n<color=#ff6000><mark=#ff000040><b><u>- Potere Finale -5, Potere Scontro -5</u></b></mark></color>\n[WhenUse] Consuma fino a 40 [SpreadingVoiceSecondPhase] per:\n- Ottenere Potere Finale +3\n- Infliggere +50% danni\n[WhenUse] Infligge +(Stack di [SpreadingVoiceSecondPhase])% danni; a Fine Attacco, consuma ogni [SpreadingVoiceSecondPhase] su di sé\n- <color=#ff6000><mark=#ff000040><b><u>A Scontro Perso, questo effetto non si attiva</u></b></mark></color>\n[WhenUse] Se quest'unità ha Conteggio [ChargeNoir], consuma ogni Conteggio [ChargeNoir] su di sé e ottiene Potere Moneta +2\n[DefeatDuel] Ottiene 5 [Paralysis]; Infligge -75% danni; Il danno inflitto da quest'Abilità non Stordisce\n[EndSkill]\n- Ottiene 2 [Vulnerable] nel turno successivo\n- Termina il turno",
           "coinlist": [
             {
               "coindescs": []
@@ -431,17 +431,17 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Activate the effects of [ConfessionSecondPhase] on target, then consume them all</u></b></mark></color>"
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Attiva e rimuove tutta la [ConfessionSecondPhase] sul bersaglio.</u></b></mark></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "On <color=#ff6000><mark=#ff000040><b><u>Clash Lose</u></b></mark></color>, this Coin <color=#ff6000><mark=#ff000040><b><u>hits only the main target</u></b></mark></color>\n<color=#ff6000><mark=#ff000040><b><u>- [DefeatDuelAttack] Inflict 9 [RestrainingNailSecondPhase]</u></b></mark></color>"
+                  "desc": "<color=#ff6000><mark=#ff000040><b><u>A Scontro Perso</u></b></mark></color>, questa Moneta <color=#ff6000><mark=#ff000040><b><u>colpisce solo il bersaglio principale</u></b></mark></color>\n<color=#ff6000><mark=#ff000040><b><u>- [DefeatDuelAttack] Infligge 9 [RestrainingNailSecondPhase]</u></b></mark></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If it is the main target, inflict 3 [BlackStigmata]"
+                  "desc": "[OnSucceedAttack] Se colpisce il bersaglio principale, infligge 3 [BlackStigmata]"
                 }
               ]
             }
@@ -454,8 +454,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Death Unto the Condemned",
-          "desc": "<color=#ff6000><mark=#ff000040><b><u>[CantChangeTarget]</u></b></mark></color>\n- <color=#ff6000><mark=#ff000040><b><u>Sinners that have [GoldenHideWarderSecondPhase] can Clash with this Skill</u></b></mark></color> regardless of Speed\nPrioritizes Sinners that have [RestrainingNailSecondPhase]\nDoes not trigger the target's Defense Skill\nCannot be Staggered before using this Skill\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>If target has [GoldenHideWarderSecondPhase], Clash Power -15</u></b></mark></color>\n[DefeatDuel] Gain 5 [Vulnerable] next turn\n[EndBattle] Consume all [SpreadingVoiceSecondPhase] on self",
+          "name": "Morte ai Condannati",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>[CantChangeTarget]</u></b></mark></color>\n- <color=#ff6000><mark=#ff000040><b><u>I Peccatori con [GoldenHideWarderSecondPhase] Possono Scontrarsi con quest'Abilità</u></b></mark></color> e possono farlo a prescindere dalla Velocità\nDà priorità ai Peccatori con [RestrainingNailSecondPhase]\nNon attiva le Abilità Difensive del bersaglio\nNon può essere Stordito fino all'uso di quest'Abilità\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Se il bersaglio ha [GoldenHideWarderSecondPhase], Potere Scontro -15</u></b></mark></color>\n[DefeatDuel] Ottiene 5 [Vulnerable] nel turno successivo\n[EndBattle] Consuma ogni [SpreadingVoiceSecondPhase] su di sé",
           "coinlist": [
             {
               "coindescs": [
@@ -463,7 +463,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Deal fixed damage equal to 200% of target's max HP</u></b></mark></color>"
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Infligge danno fisso pari al 200% dei PV max del bersaglio</u></b></mark></color>"
                 }
               ]
             }
@@ -476,20 +476,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Thou hast sinned...",
-          "desc": "[WhenUse] Gain +2 [ChargeNoir] Count\n[WhenUse] Gain 1 [Breath] and +2 [Breath] Count\n[DefeatDuel] Damage dealt by this Skill cannot Stagger the target",
+          "name": "Tu hai peccato...",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [ChargeNoir]\n[WhenUse] Ottiene 1 [Breath] e +2 Conteggio [Breath]\n[DefeatDuel] Il danno inflitto da quest'Abilità non può Stordire il bersaglio",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Sinking]"
                 }
               ]
             }
@@ -502,20 +502,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Atone.",
-          "desc": "[WhenUse] Gain +2 [ChargeNoir] Count\n[WhenUse] Gain 2 [Breath] and +1 [Breath] Count\n[DefeatDuel] Damage dealt by this Skill cannot Stagger the target",
+          "name": "Espia le Tue Colpe.",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [ChargeNoir]\n[WhenUse] Ottiene 2 [Breath] e +1 Conteggio [Breath]\n[DefeatDuel] Il danno inflitto da quest'Abilità non può Stordire il bersaglio",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Sinking]"
                 }
               ]
             }
@@ -528,20 +528,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "*sigh* Can you just... get rewound already?",
-          "desc": "<color=#ff6000><mark=#ff000040><b><u>If target has 5+ [ConfessionThirdPhase], convert the first Coin of this Skill into [SuperCoin]</u></b></mark></color>\nIf target has <color=#ff6000><mark=#ff000040><b><u>9 [ConfessionThirdPhase], Final Power +2</u></b></mark></color>\n[WhenUse] Gain +3 [ChargeNoir] Count\n[WhenUse] Gain 2 [Breath] and +1 [Breath] Count",
+          "name": "*sigh* Per cortesia... riavvolgete l'orologio e basta.",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Se il bersaglio ha 5+ [ConfessionThirdPhase], converte la prima Moneta di quest'Abilità in [SuperCoin]</u></b></mark></color>\nSe il bersaglio ha <color=#ff6000><mark=#ff000040><b><u>9 [ConfessionThirdPhase], Potere Finale +2</u></b></mark></color>\n[WhenUse] Ottiene +3 Conteggio [ChargeNoir]\n[WhenUse] Ottiene 2 [Breath] e +1 Conteggio Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
                 }
               ]
             }
@@ -554,16 +554,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Come on, let a guy clock out on time for once.",
-          "desc": "<color=#ff6000><mark=#ff000040><b><u>If target has 5+ [ConfessionThirdPhase], convert the first Coin of this Skill into [SuperCoin]</u></b></mark></color>\nIf target has <color=#ff6000><mark=#ff000040><b><u>6+/9+ [ConfessionThirdPhase], Final Power +2/+3</u></b></mark></color>\n[WhenUse] Gain +5 [ChargeNoir] Count\n[WhenUse] Gain 2 [Breath] and +2 [Breath] Count",
+          "name": "Eddai, fatemi uscire da lavoro in orario, per una volta.",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Se il bersaglio ha 5+ [ConfessionThirdPhase], converte la prima Moneta di quest'Abnilità in [SuperCoin]</u></b></mark></color>\nSe il bersaglio ha <color=#ff6000><mark=#ff000040><b><u>6+/9+ [ConfessionThirdPhase], Potere Finale +2/+3</u></b></mark></color>\n[WhenUse] Ottiene +5 Conteggio [ChargeNoir]\n[WhenUse] Ottiene 2 [Breath] e +2 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [GoldenNail]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [GoldenNail]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]"
                 }
               ]
             },
@@ -573,10 +573,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [GoldenNail]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [GoldenNail]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +2 [Vibration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +2 Conteggio [Vibration]"
                 }
               ]
             }
@@ -589,8 +589,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "\"Judgment.\"",
-          "desc": "Can Clash with this Skill regardless of Speed\nIf the main target has <color=#ff6000><mark=#ff000040><b><u>3+/6+/9+ [ConfessionThirdPhase], Final Power +2/+3/+5</u></b></mark></color>\n[BeforeAttack] <color=#ff6000><mark=#ff000040><b><u>If the main target has 5+/9+ [ConfessionThirdPhase], gain +1/+3 Atk Weight</u></b></mark></color>\n[WhenUse] If this unit has [ChargeNoir] Count, consume all [ChargeNoir] Count on self to gain Coin Power +2\n[DefeatDuel] Gain 3 [Paralysis], deal -75% damage, and damage dealt by this Skill cannot Stagger the target",
+          "name": "\"Giudizio.\"",
+          "desc": "Ci si può Scontrare con quest'Abilità a prescindere dalla Velocità\nSe il bersaglio principale ha <color=#ff6000><mark=#ff000040><b><u>3+/6+/9+ [ConfessionThirdPhase], Potere Finale +2/+3/+5</u></b></mark></color>\n[BeforeAttack] <color=#ff6000><mark=#ff000040><b><u>Se il bersaglio principale ha 5+/9+ [ConfessionThirdPhase], Portata Attacco +1/+3</u></b></mark></color>\n[WhenUse] Se quest'unità ha Conteggio [ChargeNoir], consuma ogni Conteggio [ChargeNoir] su di sé e ottiene Potere Moneta +2\n[DefeatDuel] Ottiene 3 [Paralysis]; Infligge -75% danni; Il danno inflitto da quest'Abilità non può Stordire",
           "coinlist": [
             {
               "coindescs": [
@@ -612,13 +612,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "This Coin <color=#ff6000><mark=#ff000040><b><u>hits only the main target</u></b></mark></color>"
+                  "desc": "Questa Moneta <color=#ff6000><mark=#ff000040><b><u>colpisce solo il bersaglio principale</u></b></mark></color>"
                 },
                 {
-                  "desc": "Deal +(missing HP percentage on self)% damage (max 100%)"
+                  "desc": "Infligge +(% di PV mancanti su di sé)% danni (max 100%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Inflict 4 [ExecutionNailThirdPhase]</u></b></mark></color>"
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Infligge 4 [ExecutionNailThirdPhase]</u></b></mark></color>"
                 }
               ]
             }
@@ -631,8 +631,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "\"Atone before God\"... was it?",
-          "desc": "<color=#ff6000><mark=#ff000040><b><u>When the Sinner that has [GoldenFabricWarderThirdPhase]</u></b></mark></color> attacks the Slot equipped with this Skill as its main target in the Chaining Phase, the said Skill used by the Sinner deals +100% damage (for E.G.O Skills, +200% damage)\n[EndBattle] At fewer than 100 [EncompassingVoiceThirdPhase] Stack, gain up to 100 Stack\n- The Chaplain loses SP equal to Stack gained (max 45)",
+          "name": "\"Espia le Tue Colpe Dinanzi a Dio\"... l'ho detta giusta?",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Se un Peccatore con [GoldenFabricWarderThirdPhase]</u></b></mark></color> attacca lo Slot di quest'Abilità come bersaglio principale, l'Abilità del Peccatore infligge +100% danni (se è un'Abilità E.G.O, infligge invece +200% danni)\n[EndBattle] A meno di 100 [EncompassingVoiceThirdPhase], ottiene fino a 100 Stack\n- Poi, Lo Chaplain perde 1 PS per ogni Stack ottenuta (max 45)",
           "coinlist": [
             {
               "coindescs": []
@@ -646,36 +646,36 @@
       "levelList": [
         {
           "level": 1,
-          "name": "\"Repent.\"",
-          "desc": "If target has <color=#ff6000><mark=#ff000040><b><u>9 [ConfessionThirdPhase], Final Power +2</u></b></mark></color>\n[WhenUse] Consume up to 15 [SpreadingVoiceThirdPhase]\n- Final Power +1, deal +15% damage\n[WhenUse] Gain +5 [ChargeNoir] Count",
+          "name": "\"Pentiti.\"",
+          "desc": "Se il bersaglio ha <color=#ff6000><mark=#ff000040><b><u>9 [ConfessionThirdPhase], Potere Finale +2</u></b></mark></color>\n[WhenUse] Consuma fino a 15 [SpreadingVoiceThirdPhase]\n- Potere Finale +1, infligge +15% danni\n[WhenUse] Ottiene +5 Conteggio [ChargeNoir]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [GoldenNail]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [GoldenNail]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 2 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [GoldenNail]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [GoldenNail]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [Vibration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 3 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [GoldenNail]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [GoldenNail]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1"
                 }
               ]
             }
@@ -688,36 +688,36 @@
       "levelList": [
         {
           "level": 1,
-          "name": "\"Receive thy punishment.\"",
-          "desc": "If target has <color=#ff6000><mark=#ff000040><b><u>6+/9+ [ConfessionThirdPhase], Final Power +2/+3</u></b></mark></color>\n[WhenUse] Consume up to 15 [SpreadingVoiceThirdPhase]\n- Final Power +2, deal +30% damage\n[WhenUse] Gain +6 [ChargeNoir] Count",
+          "name": "\"Accetta la tua pena.\"",
+          "desc": "Se il bersaglio ha <color=#ff6000><mark=#ff000040><b><u>6+/9+ [ConfessionThirdPhase], Potere Finale +2/+3</u></b></mark></color>\n[WhenUse] Consuma fino a 15 [SpreadingVoiceThirdPhase]\n- Potere Finale +2, infligge +30% danni\n[WhenUse] Ottiene +6 Conteggio [ChargeNoir]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [GoldenNail]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [GoldenNail]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +2 [Vibration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +2 Conteggio [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [GoldenNail]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [GoldenNail]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +3 [Vibration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +3 Conteggio [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [GoldenNail]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [GoldenNail]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1"
                 }
               ]
             }
@@ -730,8 +730,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Do you seriously mean to break the Sisyphe System?",
-          "desc": "Can Clash with this Skill regardless of Speed\nThis Skill does not trigger the target's Defense Skill\nCannot be Staggered before using this Skill\nDeal +5% damage for every [ConfessionThirdPhase] on target (against each target separately)\n<color=#ff6000><mark=#ff000040><b><u>If the main target has 3+/6+/9+ [ConfessionThirdPhase], Final Power +2/+3/+5</u></b></mark></color>\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>If the main target has [GoldenFabricWarderThirdPhase]:\n- Final Power -5\n- Clash Power -5</u></b></mark></color>\n- All targets of this Skill <color=#ff6000><mark=#ff000040><b><u>gain Shield equal to 50% of their max HP, respectively</u></b></mark></color>; Shield gained from this effect is removed from the Sinner's total Shield at Attack End\n[WhenUse] Consume up to 40 [SpreadingVoiceThirdPhase] to:\n- Gain Final Power +3\n- Deal +50% damage\n[WhenUse] Deal +([SpreadingVoiceThirdPhase] Stack)% damage; at Attack End, consume all [SpreadingVoiceThirdPhase] on self\n- <color=#ff6000><mark=#ff000040><b><u>On Clash Lose, this effect does not activate</u></b></mark></color>\n[WhenUse] If this unit has [ChargeNoir] Count, consume all [ChargeNoir] Count on self to gain Coin Power +2\n[DefeatDuel] Gain 5 [Paralysis], deal -90% damage, and damage dealt by this Skill cannot Stagger the target\n[EndSkill]\n- Gain 2 [Vulnerable] next turn\n- End this turn",
+          "name": "Volete davvero abbattere il Sistema Sisyphe?",
+          "desc": "Ci si può Scontrare con quest'Abilità a prescindere dalla Velocità\nNon attiva le Abilità Difensive\nNon può essere Stordito fino all'uso di quest'Abilità\nInfligge +5% danni per ogni [ConfessionThirdPhase] sul bersaglio (conta ogni bersaglio separatamente)\n<color=#ff6000><mark=#ff000040><b><u>Se il bersaglio principale ha 3+/6+/9+ [ConfessionThirdPhase], Potere Finale +2/+3/+5</u></b></mark></color>\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Se il bersaglio principale ha [GoldenFabricWarderThirdPhase]:\n- Potere Finale -5\n- Potere Scontro -5</u></b></mark></color>\n- Tutti i bersagli di quest'Abilità <color=#ff6000><mark=#ff000040><b><u>ottengono uno Scudo pari al 50% dei loro PV Max, rispettivamente</u></b></mark></color>; Lo Scudo ottenuto da questo effetto verrà rimosso da ogni Peccatore a Fine Attacco\n[WhenUse] Consuma fino a 40 [SpreadingVoiceThirdPhase] per:\n- Ottenere Potere Finale +3\n- Infliggere +50% danni\n[WhenUse] Infligge +(Stack di [SpreadingVoiceThirdPhase])% danni; a Fine Attacco, consuma ogni [SpreadingVoiceThirdPhase] su di sé\n- <color=#ff6000><mark=#ff000040><b><u>A Scontro Perso, questo effetto non si attiva</u></b></mark></color>\n[WhenUse] Se quest'unità ha Conteggio [ChargeNoir], consuma ogni Conteggio [ChargeNoir] su di sé e ottiene Potere Moneta +2\n[DefeatDuel] Ottiene 5 [Paralysis]; Infligge -90% danni; Il danno inflitto da quest'Abilità non può Stordire\n[EndSkill]\n- Ottiene 2 [Vulnerable] nel turno successivo\n- Termina il turno",
           "coinlist": [
             {
               "coindescs": []
@@ -742,24 +742,24 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Trigger [Switch_Vibration] into [VibrationFocusing]</u></b></mark></color>"
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Trasforma [Switch_Vibration] in [VibrationFocusing]</u></b></mark></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Activate the effects of [ConfessionThirdPhase] on target, then consume them all</u></b></mark></color>"
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Attivate e rimuove tutta la [ConfessionThirdPhase] sul bersaglio</u></b></mark></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "On <color=#ff6000><mark=#ff000040><b><u>Clash Lose</u></b></mark></color>, this Coin <color=#ff6000><mark=#ff000040><b><u>hits only the main target</u></b></mark></color>\n<color=#ff6000><mark=#ff000040><b><u>- [DefeatDuelAttack] Inflict 9 [RestrainingNailThirdPhase]</u></b></mark></color>"
+                  "desc": "<color=#ff6000><mark=#ff000040><b><u>A Scontro Perso</u></b></mark></color>, questa Moneta <color=#ff6000><mark=#ff000040><b><u>colpisce solo il bersaglio principale</u></b></mark></color>\n<color=#ff6000><mark=#ff000040><b><u>- [DefeatDuelAttack] Infligge 9 [RestrainingNailThirdPhase]</u></b></mark></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [VibrationExplosion] 2 times; then, reduce target's [Vibration] Count by 2"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Innesca [VibrationExplosion] 2 volte; riduce poi il Conteggio [Vibration] del bersaglio di 2"
                 }
               ]
             }
@@ -772,8 +772,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Systemwide Ban",
-          "desc": "<color=#ff6000><mark=#ff000040><b><u>[CantChangeTarget]</u></b></mark></color>\n- <color=#ff6000><mark=#ff000040><b><u>Sinners that have [GoldenHideWarderThirdPhase] can Clash with this Skill</u></b></mark></color> regardless of Speed\nPrioritizes Sinners that have [RestrainingNailThirdPhase]\nDoes not trigger the target's Defense Skill\nCannot be Staggered before using this Skill\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>If target has [GoldenHideWarderThirdPhase], Clash Power -15</u></b></mark></color>\n[DefeatDuel] Gain 5 [Vulnerable] next turn\n[EndBattle] Consume all [SpreadingVoiceThirdPhase] on self",
+          "name": "Ban dal Sistema",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>[CantChangeTarget]</u></b></mark></color>\n- <color=#ff6000><mark=#ff000040><b><u>I Peccatori con [GoldenHideWarderThirdPhase] possono Scontrare quest'Abilità</u></b></mark></color> e possono farlo a prescindere dalla Velocità\nDà priorità ai peccatori con [RestrainingNailThirdPhase]\nNon attiva le Abilità Difensive del bersaglio\nNon può essere Stordito fino all'uso di quest'Abilità\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Se il bersaglio ha [GoldenHideWarderThirdPhase], Potere Scontro -15</u></b></mark></color>\n[DefeatDuel] Ottiene 5 [Vulnerable] nel turno successivo\n[EndBattle] Consuma ogni [SpreadingVoiceThirdPhase] su di sé",
           "coinlist": [
             {
               "coindescs": [
@@ -781,7 +781,7 @@
                   "desc": "[ExtractCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Deal fixed damage equal to 200% of target's max HP</u></b></mark></color>"
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Infligge danno fisso pari al 200% dei PV max del bersaglio</u></b></mark></color>"
                 }
               ]
             }
@@ -794,8 +794,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Shift + Delete",
-          "desc": "Does not trigger the target's Defense Skill\nPrioritizes Sinners other than Meursault\n<color=#ff6000><mark=#ff000040><b><u>In a Clash against Meursault</u></b></mark></color>, Clash Power -20\nCannot be Staggered before using this Skill\n[DefeatDuel] Gain 10 [Vulnerable] this turn and next turn\n[EndSkill] If the Chaplain lost the Clash, <color=#ff6000><mark=#ff000040><b><u>the Chaplain loses 50% of its current Shield</u></b></mark></color> (min 0)",
+          "name": "Shift + Canc",
+          "desc": "Non attiva le Abilità Difensive del bersaglio\nNon dà priorità a Meursault\n<color=#ff6000><mark=#ff000040><b><u>Se si Scontra con Meursault</u></b></mark></color>, Potere Scontro -20\nNon può essere Stordito fino all'uso di quest'Abilità\n[DefeatDuel] Ottiene 10 [Vulnerable] in questo turno e nel turno successivo\n[EndSkill] Se Lo Chaplain ha perso lo Scontro, <color=#ff6000><mark=#ff000040><b><u>Lo Chaplain perde il 50% del suo Scudo attuale</u></b></mark></color> (min 0)",
           "coinlist": [
             {
               "coindescs": [
@@ -803,7 +803,7 @@
                   "desc": "[ExtractCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Deal fixed damage equal to 50% of target's current HP</u></b></mark></color> (min 0)"
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Infligge danno fisso pari al 50% dei PV attuali del bersaglio</u></b></mark></color> (min 0)"
                 }
               ]
             },
@@ -813,7 +813,7 @@
                   "desc": "[ExtractCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Deal fixed damage equal to 50% of target's current HP</u></b></mark></color> (min 0)"
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Infligge danno fisso pari al 50% dei PV attuali del bersaglio</u></b></mark></color> (min 0)"
                 }
               ]
             },
@@ -823,7 +823,7 @@
                   "desc": "[ExtractCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Deal fixed damage equal to 200% of target's max HP</u></b></mark></color>"
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Infligge danno fisso pari al 50% dei PV attuali del bersaglio</u></b></mark></color>"
                 }
               ]
             }
@@ -837,19 +837,19 @@
         {
           "level": 1,
           "name": "Readying the Sartorial Nails",
-          "desc": "[WhenUse] Gain +3 [ChargeKhaki] Count\n[WhenUse] Gain +2 [Breath] Count",
+          "desc": "[WhenUse] Ottiene +3 Conteggio [ChargeKhaki]\n[WhenUse] Ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Binding] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Binding] nel turno successivo"
                 }
               ]
             }
@@ -863,7 +863,7 @@
         {
           "level": 1,
           "name": "Patterns and Designs",
-          "desc": "[WhenUse] Gain +3 [ChargeKhaki] Count\n[WhenUse] Gain +2 [Breath] Count\n[DefeatDuel] Deal -80% damage and damage dealt by this Skill cannot Stagger the target",
+          "desc": "[WhenUse] Ottiene +3 [ChargeKhaki] Count\n[WhenUse] Ottiene +2 [Breath] Count\n[DefeatDuel] Infligge -80% damage and damage dealt by this Skill cannot Stagger the target",
           "coinlist": [
             {
               "coindescs": [
@@ -871,7 +871,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
                 }
               ]
             },
@@ -881,7 +881,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [AttackDmgDown] next turn"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 1 [AttackDmgDown] nel turno successivo"
                 }
               ]
             }
@@ -895,7 +895,7 @@
         {
           "level": 1,
           "name": "Fixed Viewpoint",
-          "desc": "[WhenUse] Consume all [ChargeKhaki] Count on self to deal +25% damage for every 3 [ChargeKhaki] Count consumed (max 50%)\n[WhenUse] Gain +3 [ChargeKhaki] Count\n[WhenUse] Gain +2 [Breath] Count\n[DefeatDuel] Deal -80% damage and damage dealt by this Skill cannot Stagger the target",
+          "desc": "[WhenUse] Consuma ogni Conteggio [ChargeKhaki] su di sé e infligge +25% danni per ogni 3 [ChargeKhaki] consumati (max 50%)\n[WhenUse] Ottiene +3 Conteggio [ChargeKhaki]\n[WhenUse] Ottiene +2 Conteggio [Breath]\n[DefeatDuel] Infligge -80% danni; Il danno inflitto da quest'Abilità non può Stordire",
           "coinlist": [
             {
               "coindescs": [
@@ -903,7 +903,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [PenetrateResistDown] this turn and next turn"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 1 [PenetrateResistDown] in questo turno e nel turno successivo"
                 }
               ]
             },
@@ -913,7 +913,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Sinking]"
                 }
               ]
             },
@@ -923,7 +923,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]"
                 }
               ]
             },
@@ -933,7 +933,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal Pierce damage equal to (<color=#ff6000><mark color=#ff000040><b><u>types of negative effects on target</color></mark></b></u> x 15)% of this Coin's final damage (max 45%)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge danni Perforanti pari al (<color=#ff6000><mark color=#ff000040><b><u>effetti negativi diversi sul bersaglio</color></mark></b></u> x 15)% del danno finale di questa Moneta (max 45%)"
                 }
               ]
             }
@@ -947,7 +947,7 @@
         {
           "level": 1,
           "name": "Within Perspective",
-          "desc": "[WhenUse] Final Power +1 for every 2 [ChargeKhaki] Count on self (max 5)\n[OnSucceedEvade] <color=#ff6000><mark color=#ff000040><b><u>Heal 2% HP</color></mark></b></u>",
+          "desc": "[WhenUse] Potere Finale +1 per ogni 2 Conteggio [ChargeKhaki] su di sé (max 5)\n[OnSucceedEvade] <color=#ff6000><mark color=#ff000040><b><u>Recupera 2% PV</color></mark></b></u>",
           "coinlist": [
             {
               "coindescs": []
@@ -962,18 +962,18 @@
         {
           "level": 1,
           "name": "Focusing",
-          "desc": "[CantIdentify]\n[CantDuel] [CantChangeTarget]\nPrioritizes allies\nThis Skill does not trigger Defense Skills",
+          "desc": "[CantIdentify]\n[CantDuel] [CantChangeTarget]\nBersaglia gli alleati\nNon attiva le Abilità Difensive",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target is an ally,"
+                  "desc": "[OnSucceedAttack] Se il bersaglio è un alleato:"
                 },
                 {
-                  "desc": "- Kill target"
+                  "desc": "- Uccide il bersaglio"
                 },
                 {
-                  "desc": "- <color=#ff6000><mark color=#ff000040><b><u>Gain 1 [JeanneDesign]</color></mark></b></u>"
+                  "desc": "- <color=#ff6000><mark color=#ff000040><b><u>Ottiene 1 [JeanneDesign]</color></mark></b></u>"
                 }
               ]
             }
@@ -987,7 +987,7 @@
         {
           "level": 1,
           "name": "First Step",
-          "desc": "[BeforeUse] When Clashing using Meursault's Skills that are not <color=#ff6000><mark color=#ff000040><b><u>Skill 1</color></mark></b></u>, change this Skill to \"You've got to keep to the pattern\"\n[WinDuel] End this Skill and use \"Those times when we chatted together at the café\" on the target",
+          "desc": "[BeforeUse] Quando non si scontra con <color=#ff6000><mark color=#ff000040><b><u>un'Abilità 1 di Meursault</color></mark></b></u>, annulla quest'Abilità e usa \"You've got to keep to the pattern\"\n[WinDuel] Annulla quest'Abilità e usa \"Those times when we chatted together at the café\" sul bersaglio",
           "coinlist": [
             {
               "coindescs": []
@@ -1002,7 +1002,7 @@
         {
           "level": 1,
           "name": "Second Pace",
-          "desc": "[BeforeUse] When Clashing using Meursault's Skills that are not <color=#ff6000><mark color=#ff000040><b><u>Skill 2</color></mark></b></u>, change this Skill to \"You've got to keep to the pattern\"\n[WinDuel] End this Skill and use \"Those times when we chatted together at the café\" on the target",
+          "desc": "[BeforeUse] Quando non si scontra con <color=#ff6000><mark color=#ff000040><b><u>un'Abilità 2 di Meursault</color></mark></b></u>, annulla quest'Abilità e usa \"You've got to keep to the pattern\"\n[WinDuel] Annulla quest'Abilità e usa \"Those times when we chatted together at the café\" sul bersaglio",
           "coinlist": [
             {
               "coindescs": []
@@ -1020,7 +1020,7 @@
         {
           "level": 1,
           "name": "Third Movement",
-          "desc": "[BeforeUse] When Clashing using Meursault's Skills that are not <color=#ff6000><mark color=#ff000040><b><u>Skill 3 or E.G.O Skills</color></mark></b></u>, change this Skill to \"You've got to keep to the pattern\"\n[WinDuel] End this Skill and use \"Those times when we chatted together at the café\" on the target",
+          "desc": "[BeforeUse] Quando non si scontra con <color=#ff6000><mark color=#ff000040><b><u>un'Abilità 3 o un E.G.O di Meursault</color></mark></b></u>, annulla quest'Abilità e usa \"You've got to keep to the pattern\"\n[WinDuel] Annulla quest'Abilità e usa \"Those times when we chatted together at the café\" sul bersaglio",
           "coinlist": [
             {
               "coindescs": []
@@ -1041,19 +1041,19 @@
         {
           "level": 1,
           "name": "You've got to keep to the pattern.",
-          "desc": "This Skill always hits Critically\n[StartDuel] Target has <color=#ff6000><mark color=#ff000040><b><u>100% chance to flip Tails</color></mark></b></u>\n- Target's Minus Coins have 100% chance to flip Heads",
+          "desc": "Quest'Abilità farà solo Critici\n[StartDuel] Le Abilità del bersaglio <color=#ff6000><mark color=#ff000040><b><u>cadranno sempre su Croce</color></mark></b></u>\n- Le Monete Negative cadranno solo su Testa",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 3 [JeannePathos]"
+                  "desc": "[OnSucceedAttack] Ottiene 3 [JeannePathos]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 3 [JeannePathos]"
+                  "desc": "[OnSucceedAttack] Ottiene 3 [JeannePathos]"
                 }
               ]
             }
@@ -1067,7 +1067,7 @@
         {
           "level": 1,
           "name": "Those times when we chatted together at the café",
-          "desc": "[CantDuel]\nThis Skill has the following properties:\n- Does not trigger Defense Skills\n- Its attack does not hit\n[WhenUse] Both this unit and the target gain 5 [JeannePathos] and 5 [JeanneLogos]",
+          "desc": "[CantDuel]\nQuest'Abilità:\n- Non attiva le Abilità Difensive del bersaglio\n- Non colpisce\n[WhenUse] Quest'unità e il bersaglio ottengono 5 [JeannePathos] e 5 [JeanneLogos]",
           "coinlist": [
             {
               "coindescs": []
@@ -1082,7 +1082,7 @@
         {
           "level": 1,
           "name": "We had our little quarrels, yes.",
-          "desc": "[OnSucceedEvade] Both this unit and the target gain 4 [JeannePathos] and 4 [JeanneLogos]",
+          "desc": "[OnSucceedEvade] Quest'unità e il bersaglio ottengono 4 [JeannePathos] e 4 [JeanneLogos]",
           "coinlist": [
             {
               "coindescs": []
@@ -1097,7 +1097,7 @@
         {
           "level": 1,
           "name": "Rights: Rebuild",
-          "desc": "[CantChangeTarget]\nThis Skill does not trigger the target's Defense Skill\nMainly targets Meursault\n[StartDuel] This unit has 100% chance to flip Heads",
+          "desc": "[CantChangeTarget]\nNon attiva le Abilità Difensive del bersaglio\nDà priorità a Meursault\n[StartDuel] Quest'unità farà Croce al 100%",
           "coinlist": [
             {
               "coindescs": [
@@ -1105,7 +1105,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Target dies"
+                  "desc": "[OnSucceedAttack] Uccide il bersaglio"
                 }
               ]
             }
@@ -1119,7 +1119,7 @@
         {
           "level": 1,
           "name": "Rights: Ban",
-          "desc": "<color=#ff6000><mark color=#ff000040><b><u>[EndSkill] Inflict 1 [JeanneCheat] next turn</color></mark></b></u>",
+          "desc": "<color=#ff6000><mark color=#ff000040><b><u>[EndSkill] Infligge 1 [JeanneCheat] nel turno successivo</color></mark></b></u>",
           "flavor": "Meur. If you want, you don't have to keep binding yourself in those chains anymore. You're allowed to judge for yourself. You should be allowed to speak. No more worrying about anyone's gaze, no more letting anyone else's thoughts weigh on you... Just <i>be</i> yourself.",
           "coinlist": [
             {
@@ -1128,10 +1128,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "If the Coin is not Cracked, deal +20% damage"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +20% danni"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [Vulnerable]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 1 [Vulnerable]"
                 }
               ]
             },
@@ -1141,10 +1141,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "If the Coin is not Cracked, deal +20% damage"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +20% danni"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [Vulnerable] next turn"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 1 [Vulnerable] nel turno successivo"
                 }
               ]
             }
@@ -1158,7 +1158,7 @@
         {
           "level": 1,
           "name": "At least on this stage, everything's set and fixed.",
-          "desc": "[BeforeUse] When Clashing against targets <color=#ff6000><mark color=#ff000040><b><u>that are not Meursault, or if this Skill is used as an Unopposed Attack,</color></mark></b></u> change this Skill to \"You went off-pattern.\"\n[DefeatDuel] Meursault gains 10 [JeanneLogos]",
+          "desc": "[BeforeUse] Se non si Scontra <color=#ff6000><mark color=#ff000040><b><u>con Meursault, o se quest'Abilità è un Attacco Incontrastato,</color></mark></b></u> annulla quest'Abilità e usa \"You went off-pattern.\"\n[DefeatDuel] Meursault ottiene 10 [JeanneLogos]",
           "coinlist": [
             {
               "coindescs": []
@@ -1176,8 +1176,8 @@
         {
           "level": 1,
           "name": "You went off-pattern.",
-          "desc": "This Skill always hits Critically\n[StartDuel] Target has <color=#ff6000><mark color=#ff000040><b><u>100% chance to flip Tails</color></mark></b></u>\n- Target's Minus Coins have 100% chance to flip Heads\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>Heal 50% HP</color></mark></b></u>",
-          "flavor": "Meur, you need to execute the gimmick right.",
+          "desc": "Quest'Abilità farà solo Critici\n[StartDuel] ILe Abilità del bersaglio <color=#ff6000><mark color=#ff000040><b><u>cadranno sempre su Croce</color></mark></b></u>\n- Le Monete Negative cadranno solo su Testa\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>Recupera 50% PV</color></mark></b></u>",
+          "flavor": "Meur, devi seguire la gimmick.",
           "coinlist": [
             {
               "coindescs": [
@@ -1203,7 +1203,7 @@
         {
           "level": 1,
           "name": "The designing was up to this point.",
-          "desc": "[WhenUse] Final Power +1 for every 2 Unique [Charge] Count on self (max 5)",
+          "desc": "[WhenUse] Potere Finale +1 per ogni 2 Conteggio [Charge] Speciale su di sé (max 5)",
           "coinlist": [
             {
               "coindescs": []
@@ -1218,7 +1218,7 @@
         {
           "level": 1,
           "name": "Rights: Gaze",
-          "desc": "[WhenUse] Final Power +1 for every 4 Unique [Charge] (Potency + Count) on self (max 3)\n[WhenUse] Deal +10% damage for every 2 types of negative effects on all targets (max 50%; overlapping effects between units are counted separately)\n<color=#ff6000><mark color=#ff000040><b><u>[WinDuel] Inflict 1 [JeanneCheat] next turn</color></mark></b></u>\n[DefeatDuel] Deal -80% damage and damage dealt by this Skill cannot Stagger the target",
+          "desc": "[WhenUse] Potere Finale +1 per ogni 4 (Potenza + Conteggio) [Charge] Speciale su di sé (max 3)\n[WhenUse] Infligge +10% danni per ogni 2 effetti negativi diversi su ogni bersaglio (max 50%; gli stessi effetti su unità diverse contano come status diversi)\n<color=#ff6000><mark color=#ff000040><b><u>[WinDuel] Infligge 1 [JeanneCheat] nel turno successivo</color></mark></b></u>\n[DefeatDuel] Infligge -80% danni; Il danno inflitto da quest'Abilità non può Stordire",
           "flavor": "You must've understood the anxiety your mother felt better than anyone. But, Meur... simply sharing the same space with someone means becoming aware of their gaze. As long as you were there together, you must've had to bear your mother's gaze. You could hardly help but gaze her in return.\n\nIs that why you feel guilty?\nIt seems to me you're still trying to make what happened to your mother into something that was your fault.",
           "coinlist": [
             {
@@ -1227,10 +1227,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "If the Coin is not Cracked, deal +50% damage"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +50% danni"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [AttackDmgDown] next turn"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 2 [AttackDmgDown] nel turno successivo"
                 }
               ]
             },
@@ -1240,10 +1240,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "If the Coin is not Cracked, deal +50% damage"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +50% danni"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Binding] next turn"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 2 [Binding] nel turno successivo"
                 }
               ]
             }
@@ -1256,9 +1256,9 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Department Store Blueprint",
-          "desc": "[WhenUse] Take -90% damage from Skills (once per turn)",
-          "flavor": "This is not a department store blueprint.",
+          "name": "Progetto del Centro Commerciale",
+          "desc": "[WhenUse] Subisce -90% danni dalle Abilità (una volta per turno)",
+          "flavor": "Questo non è il progetto per un centro commerciale.",
           "coinlist": [
             {
               "coindescs": []
@@ -1273,12 +1273,12 @@
         {
           "level": 1,
           "name": "Pattern: \"Desire.\"",
-          "desc": "[WhenUse] At fewer than max [ChargeRouge] Count, consume 5% HP to gain 10 [ChargeRouge] Count",
+          "desc": "[WhenUse] Se non ha il massimo del Conteggio [ChargeRouge], consuma 5% PV e ottiene 10 Conteggio [ChargeRouge]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 }
               ]
             }
@@ -1292,19 +1292,19 @@
         {
           "level": 1,
           "name": "Pattern: \"Don.\"",
-          "desc": "[WhenUse] At fewer than max [ChargeRouge] Count, consume 5% HP to gain 10 [ChargeRouge] Count\n[WhenUse] Consume 5 [ChargeRouge] Count to gain Final Power +2",
+          "desc": "[WhenUse] At fewer than max [ChargeRouge] Count, consume 5% HP to gain 10 [ChargeRouge] Count\n[WhenUse] Consume 5 [ChargeRouge] Count to gain Potere Finale +2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 [Laceration] Count"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 [Laceration] Count"
                 }
               ]
             }
@@ -1318,19 +1318,19 @@
         {
           "level": 1,
           "name": "Pattern: \"Consume.\"",
-          "desc": "[WhenUse] Deal +3% damage for every 2% missing HP on self (max 60%)\n[WhenUse] Consume all [ChargeRouge] Count on self to gain Final Power +1 for every 2 [ChargeRouge] Count consumed (max 3)",
+          "desc": "[WhenUse] Infligge +3% damage for every 2% missing HP on self (max 60%)\n[WhenUse] Consume all [ChargeRouge] Count on self to gain Potere Finale +1 for every 2 [ChargeRouge] Count consumed (max 3)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [ScarletTakeDamageUp]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [ScarletTakeDamageUp]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal Lust damage equal to (missing HP on self)% of this Coin's final damage"
+                  "desc": "[OnSucceedAttack] Infligge Lust damage equal to (missing HP on self)% of this Coin's final damage"
                 }
               ]
             }
@@ -1359,12 +1359,12 @@
         {
           "level": 1,
           "name": "Tailoring: \"Conserve.\"",
-          "desc": "[WhenUse] Gain +5 [ChargeNoir] Count\n- If target has [Vibration], gain +5 additional [ChargeNoir] Count",
+          "desc": "[WhenUse] Ottiene +5 Conteggio [ChargeNoir]\n- If target has [Vibration], gain +5 additional Conteggio [ChargeNoir]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Vibration]"
                 }
               ]
             }
@@ -1378,12 +1378,12 @@
         {
           "level": 1,
           "name": "Tailoring: \"Witness in silence.\"",
-          "desc": "[WhenUse] Gain 5 [ChargeNoir] Count\n- If target has [Vibration], gain 5 additional [ChargeNoir] Count\n[WhenUse] Final Power +1 for every 2 [ChargeNoir] Count on self (max 2)\n[WhenUse] At 10+ [ChargeNoir] Count, inflict 5 [Vibration] Potency on Coin Hit",
+          "desc": "[WhenUse] Ottiene 5 Conteggio [ChargeNoir]\n- If target has [Vibration], gain 5 additional Conteggio [ChargeNoir]\n[WhenUse] Potere Finale +1 for every 2 Conteggio [ChargeNoir] on self (max 2)\n[WhenUse] At 10+ Conteggio [ChargeNoir], infligge 5 [Vibration] Potency on Coin Hit",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 [Vibration] Count"
                 }
               ]
             },
@@ -1404,19 +1404,19 @@
         {
           "level": 1,
           "name": "Tailoring: \"Let all be pinned.\"",
-          "desc": "Deal +4% damage for every [ChargeNoir] on self (max 20%)\n[WhenUse] Consume all [ChargeNoir] Count on self to gain Final Power +1 for every 2 [ChargeNoir] Count consumed (max 3)\n- If this unit consumed 10+ [ChargeNoir] Count, inflict 5 [Vibration] Potency on Coin Hit",
+          "desc": "Infligge +4% damage for every [ChargeNoir] on self (max 20%)\n[WhenUse] Consume all Conteggio [ChargeNoir] on self to gain Potere Finale +1 for every 2 Conteggio [ChargeNoir] consumed (max 3)\n- If this unit consumed 10+ Conteggio [ChargeNoir], infligge 5 [Vibration] Potency on Coin Hit",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 [Vibration] Count"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal Sloth damage equal to ([Vibration] Potency on target)% of this Coin's final damage"
+                  "desc": "[OnSucceedAttack] Infligge Sloth damage equal to ([Vibration] Potency on target)% of this Coin's final damage"
                 }
               ]
             }
@@ -1430,7 +1430,7 @@
         {
           "level": 1,
           "name": "Tailoring: \"Cometh the nail.\"",
-          "desc": "[StartBattle] This turn and next turn, gain Shield equal to 25% of this unit's max HP (min 1)\n- At 2+ [ChargeNoir], gain Shield equal to 40% of this unit's max HP instead",
+          "desc": "[StartBattle] This turn and nel turno successivo, gain Shield equal to 25% of this unit's max HP (min 1)\n- At 2+ [ChargeNoir], gain Shield equal to 40% of this unit's max HP instead",
           "coinlist": [
             {
               "coindescs": []
@@ -1445,20 +1445,20 @@
         {
           "level": 1,
           "name": "Je m'expulse",
-          "desc": "[WhenUse] If the main target has 6+ [Laceration], Coin Power +1\n<color=#ff6000><mark=#ff000040><b><u>[WhenUse] If the main target does not have [Laceration], convert all Coins on this Skill to [SuperCoin]s</u></b></mark></color>\n[DefeatDuel] Deal -80% damage and damage dealt by this Skill cannot Stagger the target",
+          "desc": "[WhenUse] If the main target has 6+ [Laceration], Potere Moneta +1\n<color=#ff6000><mark=#ff000040><b><u>[WhenUse] If the main target does not have [Laceration], convert all Coins on this Skill to [SuperCoin]s</u></b></mark></color>\n[DefeatDuel] Infligge -80% damage and damage dealt by this Skill cannot Stagger the target",
           "flavor": "Excrete.",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 [Laceration] Count"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 }
               ]
             }
@@ -1472,16 +1472,16 @@
         {
           "level": 1,
           "name": "Je me crache",
-          "desc": "[WhenUse] If target has 6+ [Laceration], Base Power +2\n[WhenUse] Gain +1 Atk Weight for every 2 [ChargeRouge] Potency on self (max 2)",
+          "desc": "[WhenUse] If target has 6+ [Laceration], Potere Base +2\n[WhenUse] Ottiene +1 Atk Weight for every 2 [ChargeRouge] Potency on self (max 2)",
           "flavor": "Vomit.",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [BoneNail]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [BoneNail]"
                 }
               ]
             }
@@ -1495,26 +1495,26 @@
         {
           "level": 1,
           "name": "Je m'abjecte",
-          "desc": "[WhenUse] Coin Power +1 for every 4 [Laceration] on the main target (max 2)\n[WhenUse] Gain +1 Atk Weight for every 2 [ChargeRouge] Potency on self (max 2)",
+          "desc": "[WhenUse] Potere Moneta +1 for every 4 [Laceration] on the main target (max 2)\n[WhenUse] Ottiene +1 Atk Weight for every 2 [ChargeRouge] Potency on self (max 2)",
           "flavor": "And cast it to the world.",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [BoneNail]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [BoneNail]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has 3+ [BoneNail], inflict 2 [Vulnerable] next turn"
+                  "desc": "[OnSucceedAttack] If target has 3+ [BoneNail], infligge 2 [Vulnerable] nel turno successivo"
                 }
               ]
             }
@@ -1561,7 +1561,7 @@
                   "desc": "[EndCoin] Recover target from Stagger"
                 },
                 {
-                  "desc": "[EndCoin] Heal HP on target equal to this Skill's Final Power"
+                  "desc": "[EndCoin] Heal HP on target equal to this Skill's Potere Finale"
                 },
                 {
                   "desc": "[EndCoin] Apply 1 [BuffetRouge]"
@@ -1578,7 +1578,7 @@
         {
           "level": 1,
           "name": "La Jouissance",
-          "desc": "Cannot be Staggered before using this Skill\n\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Heal 15 SP and gain Clash Power +2 for every Le Rouge Senior Staff</u></b></mark></color> on the field\n[WhenUse] If <color=#ff6000><mark=#ff000040><b><u>all Le Rouge Senior Staff are defeated</u></b></mark></color>, Clash Power -3\n[DefeatDuel] Deal -80% damage, damage dealt by this Skill cannot Stagger the target, <color=#ff6000><mark=#ff000040><b><u>and gain 1 [BuffetDream]</u></b></mark></color>\n[EndSkill] Convert [BuffetScruple] on the main target into [BuffetResolve]",
+          "desc": "Cannot be Staggered before using this Skill\n\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Heal 15 SP and gain Potere Scontro +2 for every Le Rouge Senior Staff</u></b></mark></color> on the field\n[WhenUse] If <color=#ff6000><mark=#ff000040><b><u>all Le Rouge Senior Staff are defeated</u></b></mark></color>, Potere Scontro -3\n[DefeatDuel] Infligge -80% damage, damage dealt by this Skill cannot Stagger the target, <color=#ff6000><mark=#ff000040><b><u>and gain 1 [BuffetDream]</u></b></mark></color>\n[EndSkill] Convert [BuffetScruple] on the main target into [BuffetResolve]",
           "coinlist": [
             {
               "coindescs": [
@@ -1586,7 +1586,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 [Laceration] Count"
                 }
               ]
             },
@@ -1596,10 +1596,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             },
@@ -1609,7 +1609,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Activate [Laceration] on target 3 times. Target loses 3 [Laceration] Count"
@@ -1626,19 +1626,19 @@
         {
           "level": 1,
           "name": "La Demande",
-          "desc": "[CantDuel]\n[CantChangeTarget]\nThis Skill does not trigger Defense Skills\n[WhenUse] Remove all [BoneNail] on the main target\n[WhenUse] Coin Power +1 for every 4 [Laceration] on the main target (max 2)\n[EndSkill] Remove [BuffetScruple] on the main target",
+          "desc": "[CantDuel]\n[CantChangeTarget]\nThis Skill does not trigger Defense Skills\n[WhenUse] Remove all [BoneNail] on the main target\n[WhenUse] Potere Moneta +1 for every 4 [Laceration] on the main target (max 2)\n[EndSkill] Remove [BuffetScruple] on the main target",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             },
@@ -1659,7 +1659,7 @@
         {
           "level": 1,
           "name": "Le Nom-du-Père",
-          "desc": "[StartBattle] <color=#ff6000><mark=#ff000040><b><u>If this unit has [BuffetRouge]</u></b></mark></color>, convert all Coins on this Skill to [SuperCoin]s\n[WhenUse] Coin Power +1 for every 4 [Laceration] on the main target (max 2)\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>If the main target has [BuffetScruple], lose 2 Atk Weight</u></b></mark></color>\n[DefeatDuel] Deal -80% damage and damage dealt by this Skill cannot Stagger the target\n[EndSkill] Remove [BuffetScruple] on the main target",
+          "desc": "[StartBattle] <color=#ff6000><mark=#ff000040><b><u>If this unit has [BuffetRouge]</u></b></mark></color>, convert all Coins on this Skill to [SuperCoin]s\n[WhenUse] Potere Moneta +1 for every 4 [Laceration] on the main target (max 2)\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>If the main target has [BuffetScruple], lose 2 Atk Weight</u></b></mark></color>\n[DefeatDuel] Infligge -80% damage and damage dealt by this Skill cannot Stagger the target\n[EndSkill] Remove [BuffetScruple] on the main target",
           "coinlist": [
             {
               "coindescs": [
@@ -1667,30 +1667,30 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [BoneNail]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [BoneNail]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [BoneNail]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 1 [BoneNail]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [BoneNail]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [BoneNail]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [BoneNail]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [BoneNail]"
                 }
               ]
             }
@@ -1704,32 +1704,32 @@
         {
           "level": 1,
           "name": "La Castration",
-          "desc": "Can Clash with this Skill regardless of Speed\nCannot be Staggered before using this Skill\n\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>If this unit has fewer than 5 [BuffetDream], convert all Coins on this Skill to [SuperCoin]</u></b></mark></color>\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>If the main target has [BuffetScruple]</u></b></mark></color>, Coin Power -3\n[WhenUse] Final Power +2 for every 6 [Laceration] on the main target (max 6)\n[DefeatDuel] Deal -80% damage, damage dealt by this Skill cannot Stagger the target, <color=#ff6000><mark=#ff000040><b><u>and gain 1 [BuffetDream]</u></b></mark></color>",
+          "desc": "Can Clash with this Skill regardless of Speed\nCannot be Staggered before using this Skill\n\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>If this unit has fewer than 5 [BuffetDream], convert all Coins on this Skill to [SuperCoin]</u></b></mark></color>\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>If the main target has [BuffetScruple]</u></b></mark></color>, Potere Moneta -3\n[WhenUse] Potere Finale +2 for every 6 [Laceration] on the main target (max 6)\n[DefeatDuel] Infligge -80% damage, damage dealt by this Skill cannot Stagger the target, <color=#ff6000><mark=#ff000040><b><u>and gain 1 [BuffetDream]</u></b></mark></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 [Laceration] Count"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Activate [Laceration] on target once. Target loses 1 [Laceration] Count"
@@ -1739,7 +1739,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Activate [Laceration] on target 2 times. Target loses 2 [Laceration] Count"
@@ -1756,7 +1756,7 @@
         {
           "level": 1,
           "name": "Le Trait Unaire",
-          "desc": "[DuelCounter]\n[WhenUse] Coin Power +1 for every 4 [Laceration] on the main target (max 2)\n[WhenUse] Gain +1 Atk Weight for every 5 total sum of [BoneNail] on all enemies (max 4)",
+          "desc": "[DuelCounter]\n[WhenUse] Potere Moneta +1 for every 4 [Laceration] on the main target (max 2)\n[WhenUse] Ottiene +1 Atk Weight for every 5 total sum of [BoneNail] on all enemies (max 4)",
           "coinlist": [
             {
               "coindescs": [
@@ -1764,7 +1764,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             },
@@ -1774,7 +1774,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 }
               ]
             },
@@ -1787,10 +1787,10 @@
                   "desc": "<color=#ff6000><mark=#ff000040><b><u>Consume [BoneNail] on all enemies</u></b></mark></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal Lust damage equal to ([BoneNail] Stack consumed x 10)% of this Coin's final damage"
+                  "desc": "[OnSucceedAttack] Infligge Lust damage equal to ([BoneNail] Stack consumed x 10)% of this Coin's final damage"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count for every 4 [BoneNail] consumed (max 5)"
+                  "desc": "[OnSucceedAttack] Infligge +1 [Laceration] Count for every 4 [BoneNail] consumed (max 5)"
                 }
               ]
             }
@@ -1804,18 +1804,18 @@
         {
           "level": 1,
           "name": "Dégagé",
-          "desc": "[WhenUse] Final Power +1 for every 4 [Laceration] on target (max 2)\n<color=#ff6000><mark=#ff000040><b><u>[WhenUse] If target does not have [Laceration], convert all Coins on this Skill to [SuperCoin]s</u></b></mark></color>\n[DefeatDuel] Deal -80% damage and damage dealt by this Skill cannot Stagger the target",
+          "desc": "[WhenUse] Potere Finale +1 for every 4 [Laceration] on target (max 2)\n<color=#ff6000><mark=#ff000040><b><u>[WhenUse] If target does not have [Laceration], convert all Coins on this Skill to [SuperCoin]s</u></b></mark></color>\n[DefeatDuel] Infligge -80% damage and damage dealt by this Skill cannot Stagger the target",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [BoneNail]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [BoneNail]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 [Laceration] Count"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [BoneNail]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 2 [BoneNail]"
                 }
               ]
             }
@@ -1829,31 +1829,31 @@
         {
           "level": 1,
           "name": "Le Point de Capiton",
-          "desc": "[WhenUse] Final Power +1 for every 4 [Laceration] on target (max 3)\n<color=#ff6000><mark=#ff000040><b><u>[WhenUse] If target does not have [Laceration], convert all Coins on this Skill to [SuperCoin]s</u></b></mark></color>\n[DefeatDuel] Deal -80% damage and damage dealt by this Skill cannot Stagger the target",
+          "desc": "[WhenUse] Potere Finale +1 for every 4 [Laceration] on target (max 3)\n<color=#ff6000><mark=#ff000040><b><u>[WhenUse] If target does not have [Laceration], convert all Coins on this Skill to [SuperCoin]s</u></b></mark></color>\n[DefeatDuel] Infligge -80% damage and damage dealt by this Skill cannot Stagger the target",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [BoneNail]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [BoneNail]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [BoneNail]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 1 [BoneNail]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [BoneNail]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [BoneNail]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [BoneNail]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 1 [BoneNail]"
                 }
               ]
             }
@@ -1867,7 +1867,7 @@
         {
           "level": 1,
           "name": "La Jouissance",
-          "desc": "Cannot be Staggered before using this Skill\n\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>If the main target has [BuffetScruple]</u></b></mark></color>, lose 10 SP, Coin Power -2\n[DefeatDuel] Deal -80% damage, damage dealt by this Skill cannot Stagger the target, <color=#ff6000><mark=#ff000040><b><u>and gain 1 [BuffetDream]</u></b></mark></color>\n[EndSkill] Convert [BuffetScruple] on the main target into [BuffetResolve]",
+          "desc": "Cannot be Staggered before using this Skill\n\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>If the main target has [BuffetScruple]</u></b></mark></color>, lose 10 SP, Potere Moneta -2\n[DefeatDuel] Infligge -80% damage, damage dealt by this Skill cannot Stagger the target, <color=#ff6000><mark=#ff000040><b><u>and gain 1 [BuffetDream]</u></b></mark></color>\n[EndSkill] Convert [BuffetScruple] on the main target into [BuffetResolve]",
           "coinlist": [
             {
               "coindescs": [
@@ -1875,7 +1875,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 [Laceration] Count"
                 }
               ]
             },
@@ -1885,10 +1885,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             },
@@ -1898,7 +1898,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Activate [Laceration] on target 3 times. Target loses 3 [Laceration] Count"
@@ -1920,7 +1920,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[EndCoin] Revive \"Ripped Flesh of the Crimson God\" as \"Le Rouge Senior Staff\" next turn"
+                  "desc": "[EndCoin] Revive \"Ripped Flesh of the Crimson God\" as \"Le Rouge Senior Staff\" nel turno successivo"
                 }
               ]
             }
@@ -1956,7 +1956,7 @@
         {
           "level": 1,
           "name": "Oh... Our Crimson Voice...",
-          "desc": "Inflict +1 [Laceration] Count against the attacker when hit as long as this unit has remaining shield\n[StartBattle] Gain Shield equal to 25% of this unit's max HP\n[EndBattle] If this unit has Shield, lose 1 [BuffetRevival]",
+          "desc": "Infligge +1 [Laceration] Count against the attacker when hit as long as this unit has remaining shield\n[StartBattle] Ottiene Shield equal to 25% of this unit's max HP\n[EndBattle] If this unit has Shield, lose 1 [BuffetRevival]",
           "coinlist": [
             {
               "coindescs": []
@@ -1971,15 +1971,15 @@
         {
           "level": 1,
           "name": "With sickles mine I answer your calling!",
-          "desc": "[WhenUse] Gain +6 [ChargeRouge] Count\n[WhenUse] At 10+ [ChargeRouge] Count, consume 5 [ChargeRouge] Count to gain Base Power +2",
+          "desc": "[WhenUse] Ottiene +6 [ChargeRouge] Count\n[WhenUse] At 10+ [ChargeRouge] Count, consume 5 [ChargeRouge] Count to gain Potere Base +2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [ChargeRouge] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +2 [ChargeRouge] Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 [Laceration] Count"
                 }
               ]
             }
@@ -1993,25 +1993,25 @@
         {
           "level": 1,
           "name": "Accept my offering of flesh!",
-          "desc": "[WhenUse] Gain +4 [ChargeRouge] Count\n[WhenUse] If target has 6+ [Laceration], Coin Power +1\n[WhenUse] At 10+ [ChargeRouge] Count, consume 10 [ChargeRouge] Count to gain Coin Power +1",
+          "desc": "[WhenUse] Ottiene +4 [ChargeRouge] Count\n[WhenUse] If target has 6+ [Laceration], Potere Moneta +1\n[WhenUse] At 10+ [ChargeRouge] Count, consume 10 [ChargeRouge] Count to gain Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [ChargeRouge] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +2 [ChargeRouge] Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 [Laceration] Count"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [ChargeRouge] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +2 [ChargeRouge] Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             }
@@ -2025,35 +2025,35 @@
         {
           "level": 1,
           "name": "An offering from my embrace!",
-          "desc": "[StartBattle] If this unit has less than 50% HP, convert all Coins on this Skill to [SuperCoin]\n[WhenUse] Coin Power +1 for every 6 [Laceration] on target (max 2)\n[WhenUse] At 10+ [ChargeRouge] Count, consume 10 [ChargeRouge] Count to gain Coin Power +1\n[DefeatDuel] Damage dealt by this Skill cannot Stagger the target",
+          "desc": "[StartBattle] If this unit has less than 50% HP, convert all Coins on this Skill to [SuperCoin]\n[WhenUse] Potere Moneta +1 for every 6 [Laceration] on target (max 2)\n[WhenUse] At 10+ [ChargeRouge] Count, consume 10 [ChargeRouge] Count to gain Potere Moneta +1\n[DefeatDuel] Damage dealt by this Skill cannot Stagger the target",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 2 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [ChargeRouge] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +2 [ChargeRouge] Count"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 1 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [ChargeRouge] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +2 [ChargeRouge] Count"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge +2 [Laceration] Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [ChargeRouge] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +2 [ChargeRouge] Count"
                 }
               ]
             }
@@ -2067,12 +2067,12 @@
         {
           "level": 1,
           "name": "We shall devour it all!",
-          "desc": "[StartBattle] If this unit has less than 50% HP, convert all Coins on this Skill to [SuperCoin]\n[WhenUse] Coin Power +1 for every 6 [Laceration] on target (max 2)\n[WhenUse] At 10+ [ChargeRouge] Count, consume 10 [ChargeRouge] Count to gain Coin Power +1\n[WinDuel] Gain +10 [ChargeRouge] Count\n[DefeatDuel] Deal -80% damage; damage dealt by this Skill cannot Stagger the target",
+          "desc": "[StartBattle] If this unit has less than 50% HP, convert all Coins on this Skill to [SuperCoin]\n[WhenUse] Potere Moneta +1 for every 6 [Laceration] on target (max 2)\n[WhenUse] At 10+ [ChargeRouge] Count, consume 10 [ChargeRouge] Count to gain Potere Moneta +1\n[WinDuel] Ottiene +10 [ChargeRouge] Count\n[DefeatDuel] Infligge -80% damage; damage dealt by this Skill cannot Stagger the target",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 [Laceration] Count"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Consume up to 5 [ChargeRouge] Count to deal Slash damage equal to ([ChargeRouge] Count consumed x 3)% of this Coin's final damage (max 15%)\n- Heal ([ChargeRouge] Count consumed)% HP"
@@ -2082,7 +2082,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Consume up to 5 [ChargeRouge] Count to deal Slash damage equal to ([ChargeRouge] Count consumed x 3)% of this Coin's final damage (max 15%)\n- Heal ([ChargeRouge] Count consumed)% HP"
@@ -2092,7 +2092,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 1 [Laceration]"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Consume up to 5 [ChargeRouge] Count to deal Slash damage equal to ([ChargeRouge] Count consumed x 3)% of this Coin's final damage (max 15%)\n- Heal ([ChargeRouge] Count consumed)% HP"
@@ -2102,7 +2102,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Infligge 1 [Laceration]"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Activate [Laceration] on target once. Target loses 1 [Laceration] Count"
@@ -2119,22 +2119,22 @@
         {
           "level": 1,
           "name": "We shan't yet be laid to rest!",
-          "desc": "[DuelCounter]\n[WhenUse] Final Power +1 for every 5 [ChargeRouge] Count on self (max 3)\n[WhenUse] If target has 6+ [Laceration], Coin Power +1",
+          "desc": "[DuelCounter]\n[WhenUse] Potere Finale +1 for every 5 [ChargeRouge] Count on self (max 3)\n[WhenUse] If target has 6+ [Laceration], Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +3 [ChargeRouge] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +3 [ChargeRouge] Count"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [ChargeRouge] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +2 [ChargeRouge] Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Laceration]"
                 }
               ]
             }
