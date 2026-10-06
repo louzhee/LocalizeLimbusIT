@@ -1087,7 +1087,7 @@
           "level": 3,
           "name": "Vuoto",
           "abName": "Uomo Vacuo",
-          "desc": "If the target is defeated before this Skill is finished, prioritize a target that has the lowest HP (for Focused Encounters, the Part)\n\nClash Power +1 for every 4 ([Breath] Potency + [Charge] Count) on self (max <style=\"highlight\">7</style>)\nClash Power +2 for every [BulletHole] on self\n\n[BeforeAttack] Gain +3 [Breath] Count and +5 [Charge] Count\n[BeforeAttack] Consume 3(5 - [BulletHole] on self) SP to gain up to max [BulletHole]\n\n[EndSkill] Gain 2 [BlackWingHole]",
+          "desc": "Se il bersaglio viene eliminato prima della fine di questa Abilità, dai priorità al bersaglio con meno PV (negli incontri mirati, la Parte)\n\nPotere Scontro +1 per ogni 4 (Potenza [Breath] + Conteggio [Charge]) su sè (max <style=\"highlight\">7</style>)\nPotere Scontro +2 per ogni [BulletHole] su sè\n\n[BeforeAttack] Ottiene +3 Conteggio [Breath] e +5 Conteggio [Charge]\n[BeforeAttack] Consuma 3(5 - [BulletHole] su sè) PS per ottenere fino al massimo dei [BulletHole]\n\n[EndSkill] Ottiene 2 [BlackWingHole]",
           "coinlist": [
             {
               "coindescs": [
@@ -1095,25 +1095,25 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "This Coin hits only the main target<style=\"highlight\"></style>"
+                  "desc": "Questa Moneta colpisce solo il bersaglio principale<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "Spend 1 [BulletHole]<style=\"highlight\"></style>"
+                  "desc": "Spende 1 [BulletHole]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "Deal <style=\"highlight\">+15%</style> damage on Critical Hit"
+                  "desc": "Infligge <style=\"highlight\">+15%</style> danni su Colpo Critico"
                 },
                 {
-                  "desc": "If this is the first Coin:\n- Deal +([Charge] Count x 5)% damage (max 100%)\n- Deal +([Breath] Potency x Count)% damage on Critical Hit (max 100%)\n- For this Coin, change target's Pierce Resist. to Fatal<style=\"highlight\"></style>"
+                  "desc": "Se questa è la prima Moneta:\n- Infligge +(Conteggio [Charge] x 5)% danni (max 100%)\n- Infligge +(Potenza [Breath] x Conteggio)% danni su Colpo Critico (max 100%)\n- Per questa Moneta, cambia la resistenza del bersaglio ai danni perforanti in Fatale<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Final Coin Power +1</style>"
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Potere Moneta Finale +1</style>"
                 },
                 {
-                  "desc": "[EndCoin] At 1+ [BulletHole], Reuse this Coin (4 times per Skill)<style=\"highlight\"></style>"
+                  "desc": "[EndCoin] A 1+ [BulletHole], Riutilizza questa Moneta (4 volte per Abilità)<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -1123,13 +1123,13 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "Deal <style=\"highlight\">+50%</style> damage on Critical Hit"
+                  "desc": "Infligge <style=\"highlight\">+50%</style> danni su Colpo Critico"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnStartCoin] When attacking just 1 target, deal +50% damage (in Focused Encounters, a Core)</style>"
+                  "desc": "<style=\"highlight\">[OnStartCoin] Quando attacca 1 solo bersaglio, infligge +50% danni (negli incontri mirati, il Nucleo)</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Sinking] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Sinking]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1139,7 +1139,7 @@
           "level": 4,
           "name": "Vuoto",
           "abName": "Uomo Vacuo",
-          "desc": "If the target is defeated before this Skill is finished, prioritize a target that has the lowest HP (for Focused Encounters, the Part)\n\nClash Power +1 for every 4 ([Breath] Potency + [Charge] Count) on self (max <style=\"highlight\">10</style>)\nClash Power +2 for every [BulletHole] on self\n\n[BeforeAttack] Gain +3 [Breath] Count and +5 [Charge] Count\n[BeforeAttack] Consume 3(5 - [BulletHole] on self) SP to gain up to max [BulletHole]\n\n[EndSkill] Gain 2 [BlackWingHole]",
+          "desc": "Se il bersaglio viene eliminato prima della fine di questa Abilità, dai priorità al bersaglio con meno PV (negli incontri mirati, la Parte)\n\nPotere Scontro +1 per ogni 4 (Potenza [Breath] + Conteggio [Charge]) su sè (max <style=\"highlight\">10</style>)\nPotere Scontro +2 per ogni [BulletHole] su sè\n\n[BeforeAttack] Ottiene +3 Conteggio [Breath] e +5 Conteggio [Charge]\n[BeforeAttack] Consuma 3(5 - [BulletHole] su sè) PS per ottenere fino al massimo dei [BulletHole]\n\n[EndSkill] Ottiene 2 [BlackWingHole]",
           "coinlist": [
             {
               "coindescs": [
@@ -1147,28 +1147,28 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "This Coin hits only the main target<style=\"highlight\"></style>"
+                  "desc": "Questa Moneta colpisce solo il bersaglio principale<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "Spend 1 [BulletHole]<style=\"highlight\"></style>"
+                  "desc": "Spende 1 [BulletHole]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "Deal <style=\"highlight\">+20%</style> damage on Critical Hit"
+                  "desc": "Infligge <style=\"highlight\">+20%</style> Danni su Colpo Critico"
                 },
                 {
-                  "desc": "If this is the first Coin:\n- Deal +([Charge] Count x 5)% damage (max 100%)\n- Deal +([Breath] Potency x Count)% damage on Critical Hit (max 100%)\n- For this Coin, change target's Pierce Resist. to Fatal<style=\"highlight\"></style>"
+                  "desc": "Se questa è la Prima Moneta:\n- Infligge +(Conteggio [Charge] x 5)% danni (max 100%)\n- Infligge +(Potenza [Breath] x Conteggio)% danni su Colpo Critico (max 100%)\n- Per questa Moneta, cambia la resistenza del bersaglio ai danni perforanti in Fatale<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [PenetrateTakeDamageUp] (once per Skill)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge 1 [PenetrateTakeDamageUp] (una volta per Abilità)</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Sinking]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Final Coin Power +1<style=\"highlight\"></style>"
+                  "desc": "[CriticalOnSucceedAttack] Potere Moneta Finale +1<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[EndCoin] At 1+ [BulletHole], Reuse this Coin (4 times per Skill)<style=\"highlight\"></style>"
+                  "desc": "[EndCoin] A 1+ [BulletHole], Riutilizza questa moneta (4 volte per skill)<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -1178,16 +1178,16 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "Deal +50% damage on Critical Hit<style=\"highlight\"></style>"
+                  "desc": "Infligge +50% danni su Colpo Critico<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnStartCoin] When attacking just 1 target, deal +<style=\"highlight\">100</style>% damage (in Focused Encounters, a Core)"
+                  "desc": "[OnStartCoin] Quando attacca 1 solo bersaglio, infligge +<style=\"highlight\">100</style>% danni (negli incontri mirati, il Nucleo)"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnStartCoin] Coin Power +1 for every 4 [Charge] Count (max 5)</style>"
+                  "desc": "<style=\"highlight\">[OnStartCoin] Potere Moneta +1 per ogni 4 Conteggio [Charge] (max 5)</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Sinking] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Sinking]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1202,7 +1202,7 @@
           "level": 1,
           "name": "Vuoto",
           "abName": "Uomo Vacuo",
-          "desc": "[CantIdentify]\nTargets randomly\nThis Skill does not trigger Defense Skills (including Clashable Defense Skills)\nClash Power +1 for every 4 ([Breath] Potency + [Charge] Count) on self (max 5)\n[BeforeAttack] If this unit does not have [BulletHole], gain 1 [BulletHole]\n[BeforeAttack] Base Power -2 for every Cracked Coin (max -4)",
+          "desc": "[CantIdentify]\nBersaglia Casualmente\nQuesta Abilità non innesca Abilità Difensive(Abilità Difensive Scontrabili incluse)\nPotere Scontro +1 per ogni 4 (Potenza [Breath] + Conteggio [Charge]) su sè (max 5)\n[BeforeAttack] Se questa unità non ha [BulletHole], ottiene 1 [BulletHole]\n[BeforeAttack] Potere Base -2 per ogni Moneta infranta (max -4)",
           "coinlist": [
             {
               "coindescs": [
@@ -1210,13 +1210,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnStartCoin] Gain 5 [BlackWingHole]"
+                  "desc": "[OnStartCoin] Ottiene 5 [BlackWingHole]"
                 },
                 {
-                  "desc": "[OnStartCoin] Gain +5 [Charge] Count"
+                  "desc": "[OnStartCoin] Ottiene +5 Conteggio [Charge]"
                 },
                 {
-                  "desc": "[OnStartCoin] Gain 5 [Breath]"
+                  "desc": "[OnStartCoin] Ottiene 5 [Breath]"
                 }
               ]
             },
@@ -1226,40 +1226,40 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "This Coin has ([BulletHole] on self x 20)% chance to flip Tails regardless of this unit's SP"
+                  "desc": "Questa Monega ha il ([BulletHole] su sè x 20)% di possibilità di fare croce indipendentemente dai PS di questa unità"
                 },
                 {
-                  "desc": "[CoinHead]\n- This Coin does not hit"
+                  "desc": "[CoinHead]\n- Questa moneta non colpisce"
                 },
                 {
-                  "desc": "- [EndCoin] Gain 5 [Breath]"
+                  "desc": "- [EndCoin] Ottiene 5 [Breath]"
                 },
                 {
-                  "desc": "- [EndCoin] Gain +3 [Breath] Count"
+                  "desc": "- [EndCoin] Ottiene +3 Conteggio [Breath]"
                 },
                 {
-                  "desc": "- [EndCoin] Gain 2 [BulletHole]"
+                  "desc": "- [EndCoin] Ottiene 2 [BulletHole]"
                 },
                 {
-                  "desc": "- [EndCoin] Refund half of the E.G.O resources consumed by this Skill (rounded down)"
+                  "desc": "- [EndCoin] Rimborsa la metà delle Risorse E.G.O utilizzate da questa Abilità (arrotondate per difetto)"
                 },
                 {
-                  "desc": "[CoinTail]\n- Deal +([Charge] Count x 3)% damage (max 60%)"
+                  "desc": "[CoinTail]\n- Infligge +(Conteggio [Charge] x 3)% danni (max 60%)"
                 },
                 {
-                  "desc": "- Deal +70% damage on Critical Hit"
+                  "desc": "- Infligge +70% danni su Colpo Critico"
                 },
                 {
-                  "desc": "- [OnSucceedAttack] Deal Pierce damage equal to 10% of this Coin's final damage"
+                  "desc": "- [OnSucceedAttack] Infligge danni perforanti pari al 10%"
                 },
                 {
-                  "desc": "- [EndCoin] Consume all [BulletHole] on self"
+                  "desc": "- [EndCoin] Consuma tutti i [BulletHole] su sè"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Sinking]"
                 }
               ]
             }
@@ -1269,7 +1269,7 @@
           "level": 3,
           "name": "Hollow",
           "abName": "Hollowed Man",
-          "desc": "[CantIdentify]\nTargets randomly\nThis Skill does not trigger Defense Skills (including Clashable Defense Skills)\nClash Power +1 for every 4 ([Breath] Potency + [Charge] Count) on self (max <style=\"highlight\">7</style>)\n\n<style=\"highlight\">[BeforeAttack] When attacking just 1 target, deal +100% damage (in Focused Encounters, a Core)</style>\n[BeforeAttack] If this unit does not have [BulletHole], gain 1 [BulletHole]\n[BeforeAttack] Base Power -2 for every Cracked Coin (max -4)",
+          "desc": "[CantIdentify]\nBersaglia Casualmente\nQuesta Abilità non innesca Abilità Difensive(Abilità Difensive Scontrabili incluse)\nPotere Scontro +1 per ogni 4 (Potenza [Breath] + Conteggio [Charge]) su sè (max <style=\"highlight\">7</style>)\n\n<style=\"highlight\">[BeforeAttack] When attacking just 1 target, deal +100% damage (in Focused Encounters, a Core)</style>\n[BeforeAttack] If this unit does not have [BulletHole], gain 1 [BulletHole]\n[BeforeAttack] Base Power -2 for every Cracked Coin (max -4)",
           "coinlist": [
             {
               "coindescs": [
