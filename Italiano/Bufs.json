@@ -4198,6 +4198,96 @@
       "summary": "",
       "undefined": "-",
       "flavor": "Un paio di forbici diventa uno attraverso due, e rende due ciò che era uno."
+    },
+    {
+      "id": "BlackWingHoleFaust",
+      "name": "Ombrello Nero",
+      "desc": "- Stack Max: 5",
+      "summary": ""
+    },
+    {
+      "id": "BulletWoundHole",
+      "name": "Ferita da Arma da Fuoco",
+      "desc": "",
+      "summary": ""
+    },
+    {
+      "id": "BulletHole",
+      "name": "Proiettile Cinereo",
+      "desc": "- Munizione Speciale\n- Capacità Max: 5\n- Questa munizione non può essere ottenuta o persa tramite effetti esterni, ad eccezione dell'Abilità E.G.O \"Hollow\"",
+      "summary": ""
+    },
+    {
+      "id": "BlackWingHole",
+      "name": "Ali Nere",
+      "desc": "- Stack Max: 12\n- Inizio Turno: Ottiene (Stack / 4) Conteggio Carica (arrotondato per difetto)\n- Inizio Turno: Ottiene 1 Livello Offensivo Aumentato per ogni 4 Stack\n- Le Abilità di questa unità che fanno ottenere o usare Carica o Equilibrio infliggono +(Stack)% danno",
+      "summary": ""
+    },
+    {
+      "id": "OathFieldDonQuixote",
+      "name": "Santuario Della Conservazione",
+      "desc": "- Stack Max: 5\n- Applica i seguenti effetti su tutte le Identità alleate:\n  · All'Uso di un'Abilità, ogni alleato ottiene Scudo pari a (Potenza Preservazione su Don Quixote x 2)% dei loro rispettivi PV massimi (una volta per turno, max 10%)\n\n- Applica i seguuenti effetti su tutte le Identità alleate \"Le Noir\"\n  · Livello Offensivo +(Potenza Preservazione su Don Quixote / 3) (arrotondato per difetto; max 2)\n  · Livello Difensivo +(Potenza Preservazione su Don Quixote / 2) (arrotondato per difetto; max 3)\n\n- Applica i seguenti effetti su tutti i nemici:\n  · Velocità Min & Max -1 (questo effetto non può ridurre la Velocità Min & Max al di sotto di 1)\n  · Soglia di Stordimento aumentata tramite Scoppio Vibrazione +10%\n  · Subisce +10% danni dalle Abilità che usano Conteggio Carica o Carica Speciale (subisce invece +20% danni dalle Abilità delle Identità alleate \"Le Noir\")\n\n- Fine Turno: Perde 1 Stack",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Un santuario in cui i valori di conservazione portati avanti dai Le Noir sono preservati. Al suo interno, le azioni di preservazione dei Le Noir vengono conservate a loro beneficio. È un dominio di eterna conservazione-un luogo che accende l'impulso di approssimarsi infinitamente alla morte."
+    },
+    {
+      "id": "NoirShieldUpDonQuixote",
+      "name": "Grazia Del Dio D'Ossidiana",
+      "desc": "- Stack Max: 100\n- Inizio Turno: Ottiene Scudo pari a (Stack / 5)% dei PV max di questa unità (arrotondato per difetto)\n- A 25+ Stack, All'Uso di un'Abilità Base, converte tutte le Monete in Monete Infrangibili\n- A 40+ Stack, questa unità non può essere Stordita (Stordimenti forzati esclusi)",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Il Dio d'Ossidiana. Il Gigante d'Ossidiana. Il Cappellano del Martello. Il Dio d'Ossidiana del Grand Magasin, il cui dominio è sul potere della preservazione, dona le sue benedizioni tramite il contatto diretto. Il Martello è pesante, e la sua tinta nera assorbe tutte le cose e le porta a fermarsi... Come la morte stessa."
+    },
+    {
+      "id": "NoirNailDonQuixote",
+      "name": "Chiodo Promesso",
+      "desc": "- Stack Max: 30\n- Quando si innesca uno Scoppio Vibrazione tramite effetti dell'Abilità, subisce 1 danno Accidia per ogni Stack (max 10; una volta per Abilità)\n- Fine Turno: A 4+ Stack, ottiene 1 Lentezza il turno successivo\n- Inizio Turno: Se Haute Couture::Responsabile Del Brand Dei Noir Don Quixote non è in campo, scade",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Il Martello Prescelto è vincolato dalla promessa di piantare un chiodo. Dunque, ogni volta che il martello cadrà, un chiodo esisterà... anche dove non c'è."
+    },
+    {
+      "id": "PersonalityCombustion",
+      "name": "Identità Bruciatura",
+      "desc": "",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "PersonalityLaceration",
+      "name": "Identità Sanguinamento",
+      "desc": "",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "PersonalityBurst",
+      "name": "Identità Lacerazione",
+      "desc": "",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "PersonalitySinking",
+      "name": "Identità Annegamento",
+      "desc": "",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "Tiphereth_Heads",
+      "name": "Aspettativa di Tiphereth",
+      "desc": "- Tutte le Monete Abilità di questa unità hanno il 100% di probabilità di cadere su Testa (questo effetto ha la precedenza su Abilità, Passive e altri effetti di questa unità)\n- Scade a Fine Turno",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "Tiphereth_Tails",
+      "name": "Aspettativa di Tiphereth [Riflesso]",
+      "desc": "- Tutte le Monete Abilità di questa unità hanno il 100% di probabilità di cadere su Coda questo effetto ha la precedenza su Abilità, Passive e altri effetti di questa unità)\n- Scade a Fine Turno",
+      "summary": "",
+      "undefined": "-"
     }
   ]
 }

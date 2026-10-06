@@ -174,67 +174,67 @@
     {
       "id": "HorribleTerror",
       "name": "Horribly Infinite Replay",
-      "desc": "- Stack Max: 1\n- Turn Start: If this unit is in E.G.O Corrosion state, deal -50% damage to all targets this turn\n- Turn End: This unit takes 50% HP damage; then, this effect expires (rounded down, this effect cannot Stagger this unit)",
+      "desc": "- Stack Max: 1\n- Inizio Turno: If this unit is in E.G.O Corrosion state, deal -50% damage to all targets this turn\n- Fine Turno: This unit takes 50% HP damage; then, this effect expires (rounded down, this effect cannot Stagger this unit)",
       "summary": "",
       "flavor": "Until you listen... until you truly hear the Grand Magasin's announcement... again... and again... listen..."
     },
     {
       "id": "HorribleEat",
       "name": "Repeat on Repeat",
-      "desc": "- Stack Max: 15\n- Gain Offense Level equal to Stack",
+      "desc": "- Stack Max: 15\n- Gain Livello Offensivo equal to Stack",
       "summary": "",
       "flavor": "The broadcast is repeated until everyone hears it. It becomes an echo, and the echo repeats in turn until it resonates."
     },
     {
       "id": "NoirSuit",
-      "name": "Le Noir: Gabardine Overcoat",
-      "desc": "- Stack Max: 100\n- Turn Start: Gain 1 Defense Level Up for every 20 Stacks (max 4)\n- Gain Stack equal to Preservation Count this unit consumes or gains due to its Skill or Passive effects (max 30 per turn; this effect's Stack is gained regardless of Preservation's max Count)\n- When hit while this unit has Shield, gain 2 Stacks (20 per turn)\n- Turn End: If this unit has Shield, gain 10 Stacks\n- At 100 Stacks, convert this effect into \"Armure Éveillée\" next turn",
-      "flavor": "An overcoat made from twill fabric, a type of weave made by threading several weft threads over fewer warp threads.\nIts characteristic high-density weave protects its wearer from external trauma.",
+      "name": "Le Noir: Cappotto Gabardine",
+      "desc": "- Stack Max: 100\n- Inizio Turno: Ottiene 1 Livello Difensivo Aumentato per ogni 20 Stack (max 4)\n- Ottiene Stack pri al Conteggio Preservazione che questa unità usa o ottiene grazie agli effetti delle sue Abilità o Passive (max 30 per turno; le Stack di questo effetto vengono ottenute indipendentemente dal Conteggio massimo di Presevazione)\n- Quando colpita mentre questa unità ha Scudo, ottiene 2 Stack (20 per turno)\n- Fine Turno: Se questa unità ha Scudo, ottiene 10 Stack\n- A 100 Stack, converte questo effetto in \"Armure Éveillée\" il turno successivo",
+      "flavor": "Un soprabito in twill dal fitto intreccio diagonale;\nla sua trama ad alta densità garantisce un'elevata protezione contro gli urti e le sollecitazioni esterne.",
       "summary": ""
     },
     {
       "id": "Realisation",
       "name": "Armure Éveillée",
-      "desc": "- Stack Max: 100\n- Turn Start: Heal 5 SP for every 10 Stacks\n- Turn Start: Gain 1 Offense Level Up and 1 Defense Level Up for every 20 Stacks (max 4 each)\n- Convert all Base Attack Skill Coins into Unbreakable Coins\n- After this effect is converted, starting from the end of the next turn, lose 10 Stacks\n- At 0 Stacks, convert this effect into \"Le Noir: Gabardine Overcoat\"",
-      "flavor": "Le Noir's fabric weave prevents external force from reaching its wearer. The purpose for which it awakens is to eliminate change imposed from the outside.\nThe fabric stores energy from attacks it absorbs, then expels all that force in a single burst to remove the external source of change.",
+      "desc": "- Stack Max: 100\n- Inizio Turno: Recupera 5 PS per ogni 10 Stack\n- Inizio Turno: Ottiene 1 Livello Offensivo Aumentato e 1 Livello Difensivo Aumentato per ogni 20 Stack (max 4 ciascuna)\n- Converte tutte le Monete delle Abilità Attacco base in Monete Infrangibili\n- Dopo che questo effetto viene convertito, a partire dalla fine del turno successivo, perde 10 Stack\n- A 0 Stack, converte questo effetto in \"Le Noir: Cappotto Gabardine\"",
+      "flavor": "La trama del tessuto di Le Noir impedisce alla forza esterna di raggiungere chi lo indossa. Lo scopo per cui si risveglia è eliminare il cambiamento imposto dall'esterno. Il tessuto immagazzina l'energia degli attacchi che assorbe, per poi espellere tutta quella forza in un'unica scarica volta a rimuovere la fonte esterna del cambiamento.",
       "summary": ""
     },
     {
       "id": "LaRouge_LowMorale",
-      "name": "Leave the Leather Behind!",
-      "desc": "- Low Morale\n- Defense Level -3\n- Offense Level +1",
+      "name": "Lasciati la Pelle alle Spalle!",
+      "desc": "- Morale Basso\n- Livello Difensivo -3\n- Livello Offensivo +1",
       "summary": "",
       "undefined": "-",
-      "flavor": "Organs that ought to stay inside are wriggling in impatient excitement, trying to break through the skin to the other side."
+      "flavor": "Gli organi che dovrebbero rimanere all'interno fremono con impaziente eccitazione, tentando di perforare la pelle dall'altro lato."
     },
     {
       "id": "LaRouge_Panic",
-      "name": "Leave the Leather Behind!",
-      "desc": "- Panic\n- Defense Level -5\n- Offense Level +2",
+      "name": "Lasciati la Pelle alle Spalle!",
+      "desc": "- Panico\n- Livello Difensivo -5\n- Livello Offensivo +2",
       "summary": "",
       "undefined": "-",
-      "flavor": "Organs that ought to stay inside are wriggling in impatient excitement, trying to break through the skin to the other side."
+      "flavor": "Gli organi che dovrebbero rimanere all'interno fremono con impaziente eccitazione, tentando di perforare la pelle dall'altro lato."
     },
     {
       "id": "LaNoir_LowMorale",
-      "name": "Back into My Shell...",
-      "desc": "- Low Morale\n- Max Speed -1\n- Defense Level +1",
+      "name": "Di Nuovo nel Mio Guscio...",
+      "desc": "- Morale Basso\n- Velocità Max -1\n- Livello Difensivo +1",
       "summary": "",
       "undefined": "-",
-      "flavor": "Curl inward. Deeper. Tighter. Let the shell harden around what remains."
+      "flavor": "Rannicchiati all'interno. Più in profondità. Più stretto. Lascia che il guscio si indurisca attorno a ciò che rimane."
     },
     {
       "id": "LaNoir_Panic",
-      "name": "Back into My Shell...",
-      "desc": "- Panic\n- Max Speed -5\n- Defense Level +3",
+      "name": "Di Nuovo nel Mio Guscio...",
+      "desc": "- Panico\n- Velocità Max -5\n- Livello Difensivo +3",
       "summary": "",
       "undefined": "-",
-      "flavor": "Curl inward. Deeper. Tighter. Let the shell harden around what remains."
+      "flavor": "Rannicchiati all'interno. Più in profondità. Più stretto. Lascia che il guscio si indurisca attorno a ciò che rimane."
     },
     {
       "id": "NiddlePinned",
       "name": "Taxidermized",
-      "desc": "- Stack Max: 2\n\n- When hit, gain +1 Bleed Count (3 times per turn)\n- Becomes Immobilized while this unit has this effect\n\n- Turn End: Lose 15 HP and 5 Naildle on self\n- Fine Turno: Perde 1 Stack",
+      "desc": "- Stack Max: 2\n\n- When hit, gain +1 Bleed Count (3 times per turn)\n- Becomes Immobilized while this unit has this effect\n\n- Fine Turno: Lose 15 HP and 5 Naildle on self\n- Fine Turno: Perde 1 Stack",
       "summary": "",
       "undefined": "-",
       "flavor": "As you wish... Hand-made! Bespoke! Hand-sown!"
@@ -242,7 +242,7 @@
     {
       "id": "NiddleExpected",
       "name": "Tongue-pinning Needle",
-      "desc": "- If this unit equipped Defense Skills:\n· Lose 1 Naildle on self\n· This effect expires\n\n- Turn End: Gain 3 Naildle; then, this effect expires",
+      "desc": "- If this unit equipped Defense Skills:\n· Lose 1 Naildle on self\n· This effect expires\n\n- Fine Turno: Gain 3 Naildle; then, this effect expires",
       "summary": "",
       "undefined": "-",
       "flavor": "To remove a fixed nail, one must first come to a brief halt."
@@ -265,42 +265,42 @@
     },
     {
       "id": "MeursaultBuffet",
-      "name": "He Who Nails",
-      "desc": "- In this Encounter, if this unit uses its Skill, gain 2 E.G.O Resource of the corresponding Affinity (2 times per turn)\n- Turn Start: If another ally is on the field, damage taken by this unit does not kill this unit this turn\n- Cannot Retreat",
+      "name": "Lui Che Inchioda",
+      "desc": "- In this Encounter, if this unit uses its Skill, gain 2 E.G.O Resource of the corresponding Affinity (2 times per turn)\n- Inizio Turno: If another ally is on the field, damage taken by this unit does not kill this unit this turn\n- Cannot Retreat",
       "summary": "",
       "flavor": "Gripping the Golden Nail, he has rent the Cradle open and now nails a god upon a point."
     },
     {
       "id": "Nutrition",
       "name": "A Seized Something.",
-      "desc": "- Stack Max: 5\n- Turn End: Gain +(Stack x 2) Pulsation Count next turn; then, this effect expires\n- If this effect is at Stack Max when expiring, all Parts gain Shield equal to 3% of the Core's HP next turn (Shield gained due to this effect does not expire at Turn End)",
+      "desc": "- Stack Max: 5\n- Fine Turno: Gain +(Stack x 2) Pulsation Count next turn; then, this effect expires\n- If this effect is at Stack Max when expiring, all Parts gain Shield equal to 3% of the Core's HP next turn (Shield gained due to this effect does not expire at Fine Turno)",
       "summary": "",
       "flavor": "Everything desirable in another's possession should have belonged to me from the start. This is not theft, then, but rightful repossession."
     },
     {
       "id": "Gourmandise",
       "name": "Uncontrollable Rampage",
-      "desc": "- Base Stack: 3\n- Deal +5% damage for every 3 Bleed on self (max 30%)\n- All Parts cannot be Staggered; take -75% damage from Bleed\n- Fine Turno: Perde 1 Stack\n- Consume all Pulsation Count when this effect expires",
+      "desc": "- Base Stack: 3\n- Deal +5% damage per ogni 3 Bleed on self (max 30%)\n- All Parts cannot be Staggered; take -75% damage from Bleed\n- Fine Turno: Perde 1 Stack\n- Consume all Pulsation Count when this effect expires",
       "summary": "",
       "flavor": "Every disparate fragment of its anatomy jerks and convulses, trying to rip itself away. Such uncontrollable rampage brings the body together, ironically."
     },
     {
       "id": "BuffetSick",
       "name": "Sac of Suffering",
-      "desc": "- Stack Max: 30\n- Turn End: This effect expires when Uncontrollable Rampage effect expires. Then, this unit gains 1 Fragile next turn for every 5 Stacks",
+      "desc": "- Stack Max: 30\n- Fine Turno: This effect expires when Uncontrollable Rampage effect expires. Then, this unit gains 1 Fragile next turn per ogni 5 Stack",
       "summary": "",
       "flavor": "This organ is the terminus of all painful sensory inputs.\nWhen it bursts, it will drown out all reason and reveal pain in its most unalloyed form."
     },
     {
       "id": "SavePlacenta",
       "name": "Self-preservation",
-      "desc": "- When Lifecord is about to take an Unopposed Attack from an enemy, consume 1 Stack to redirect the enemy's targeting to the Body; then, use Assist Defense-exclusive Skill\n- Turn End: This effect expires",
+      "desc": "- When Lifecord is about to take an Unopposed Attack from an enemy, consume 1 Stack to redirect the enemy's targeting to the Body; then, use Assist Defense-exclusive Skill\n- Fine Turno: This effect expires",
       "summary": ""
     },
     {
       "id": "BloodyMucus",
       "name": "Baptism [Crimson]",
-      "desc": "- Max Effect: 5\n- Offense Level +1 for every 3 Bleed Potency on self (max 3)\n- At Stack Max, double the amount of damage taken from Bleed; this unit cannot be defeated due to Bleed damage\n- On Base Attack Skill Use, gain +(Stack x 2) Bleed Count\n- On E.G.O Skill or Defense Skill Use, lose 3 Stacks",
+      "desc": "- Max Effect: 5\n- Livello Offensivo +1 per ogni 3 Bleed Potency on self (max 3)\n- At Stack Max, double the amount of damage taken from Bleed; this unit cannot be defeated due to Bleed damage\n- On Base Attack Skill Use, gain +(Stack x 2) Bleed Count\n- On E.G.O Skill or Defense Skill Use, lose 3 Stack",
       "summary": "",
       "flavor": "\"Let blood baptize the flesh\""
     },
@@ -314,71 +314,71 @@
     {
       "id": "BuffetFailed",
       "name": "Exhausted",
-      "desc": "- Stack Max: 3\n- Min & Max Speed -1 for every Stack\n- Turn Start: Gain 1 Fragile\n- Fine Turno: Perde 1 Stack\n(Applies on all Parts)",
+      "desc": "- Stack Max: 3\n- Min & Velocità Max -1 per ogni Stack\n- Inizio Turno: Gain 1 Fragile\n- Fine Turno: Perde 1 Stack\n(Applies on all Parts)",
       "summary": "",
       "flavor": "Every outburst is followed by limitation. The world levies payment in forms proportionate to force and velocity of the outburst."
     },
     {
       "id": "EarlyBuffet_LowMorale",
       "name": "Inner Schism",
-      "desc": "- Low Morale\n- Defense Level -3\n- Offense Level +3\n- In a Clash against targets that have 5 Baptism [Crimson], Clash Power +2",
+      "desc": "- Morale Basso\n- Livello Difensivo -3\n- Livello Offensivo +3\n- In a Clash against targets that have 5 Baptism [Crimson], Clash Power +2",
       "summary": "",
       "flavor": "Why... ? How did I... come to exist? What... am I?"
     },
     {
       "id": "EarlyBuffet_Panic",
       "name": "Inner Schism",
-      "desc": "- Panic\n- Defense Level -5\n- Offense Level +3\n- Deal +10% damage\n- In a Clash against targets that have 3+ Baptism [Crimson], Clash Power +3",
+      "desc": "- Panic\n- Livello Difensivo -5\n- Livello Offensivo +3\n- Deal +10% damage\n- In a Clash against targets that have 3+ Baptism [Crimson], Clash Power +3",
       "summary": "",
       "flavor": "Why... ? How did I... come to exist? What... am I?"
     },
     {
       "id": "SisyphusTopaz",
-      "name": "Topaz",
+      "name": "Topazio",
       "desc": "- No effect",
       "summary": ""
     },
     {
       "id": "SisyphusAmethyst",
-      "name": "Amethyst",
+      "name": "Ametista",
       "desc": "- Skills inflict 1 more Burn, Bleed, Tremor, Rupture, and Sinking Potency against enemies",
       "summary": ""
     },
     {
       "id": "SisyphusAmber",
-      "name": "Amber",
+      "name": "Ambra",
       "desc": "- Skills inflict 1 more Burn, Bleed, Tremor, Rupture, and Sinking Potency against enemies\n- Gain +1 more Count when gaining Charge Count and Poise Count",
       "summary": ""
     },
     {
       "id": "SisyphusEmerald",
-      "name": "Emerald",
+      "name": "Smeraldo",
       "desc": "- Skills inflict 1 more Burn, Bleed, Tremor, Rupture, and Sinking Potency against enemies\n- Gain +1 more Count when gaining Charge Count and Poise Count\n- Gain +10 Charge Count when gaining this effect (once per Encounter)",
       "summary": ""
     },
     {
       "id": "SisyphusGold",
-      "name": "Gold",
+      "name": "Oro",
       "desc": "- Skills inflict 1 more Burn, Bleed, Tremor, Rupture, and Sinking Potency against enemies\n- Gain +1 more Count when gaining Charge Count and Poise Count\n- Gain +10 Charge Count when gaining this effect (once per Encounter)\n- Clash Power +1",
       "summary": ""
     },
     {
       "id": "SisyphusRuby",
-      "name": "Ruby",
+      "name": "Rubino",
       "desc": "- Skills inflict 1 more Burn, Bleed, Tremor, Rupture, and Sinking Potency against enemies\n- Gain +1 more Count when gaining Charge Count and Poise Count\n- Gain +10 Charge Count when gaining this effect (once per Encounter)\n- Clash Power +1\n- Final Power +1",
       "summary": ""
     },
     {
       "id": "RougeThreeCocoonShield",
       "name": "Devotion",
-      "desc": "- Turn Start: Gain Shield equal to Stack\n- Lose Stack when losing Shield",
+      "desc": "- Inizio Turno: Gain Shield equal to Stack\n- Lose Stack when losing Shield",
       "summary": "",
       "flavor": "\"Now faith is the substance of things hoped for, the          of things not seen.\""
     },
     {
       "id": "RisingMadnessSisyphe",
       "name": "Sunshine",
-      "desc": "- Stack Max: 2\n- Fine Turno: Perde 1 Stack\n- Turn Start: At 0 Stack, apply the following effects:\n· Gain 1 Damage Up and 1 Fragile\n· Convert Coins on all Skills to Unbreakable Coins\n· Turn End: Restore this effect to Stack Max next turn",
+      "desc": "- Stack Max: 2\n- Fine Turno: Perde 1 Stack\n- Inizio Turno: At 0 Stack, apply the following effects:\n· Gain 1 Damage Up and 1 Fragile\n· Convert Coins on all Skills to Unbreakable Coins\n· Fine Turno: Restore this effect to Stack Max next turn",
       "summary": "",
       "undefined": "-",
       "flavor": "You can be..."
@@ -386,7 +386,7 @@
     {
       "id": "RisingMadnessSisyphe2nd",
       "name": "Stinging Sunshine",
-      "desc": "- Stack Max: 1\n- Fine Turno: Perde 1 Stack\n- Turn Start: At 0 Stack, apply the following effects:\n· Gain 2 Power Up, 2 Damage Up, and 3 Fragile\n· Convert Coins on all Skills to Unbreakable Coins\n· Turn End: Restore this effect to Stack Max next turn",
+      "desc": "- Stack Max: 1\n- Fine Turno: Perde 1 Stack\n- Inizio Turno: At 0 Stack, apply the following effects:\n· Gain 2 Power Up, 2 Damage Up, and 3 Fragile\n· Convert Coins on all Skills to Unbreakable Coins\n· Fine Turno: Restore this effect to Stack Max next turn",
       "summary": "",
       "undefined": "-",
       "flavor": "The Sunlight whispers into all that it touches, beating down all the same even as its heat grows from a prickle on the skin to unbearable, burning pain and the subject is cooked alive."
@@ -394,19 +394,19 @@
     {
       "id": "WeakWithering_LowMorale",
       "name": "Messy Sewing",
-      "desc": "- Low Morale\n- Turn Start: Gain 1 Offense Level Down",
+      "desc": "- Morale Basso\n- Inizio Turno: Gain 1 Livello Offensivo Down",
       "summary": ""
     },
     {
       "id": "WeakWithering_Panic",
       "name": "Messy Sewing",
-      "desc": "- Low Morale\n- Turn Start: Gain 1 Offense Level Down and 1 Damage Down",
+      "desc": "- Morale Basso\n- Inizio Turno: Gain 1 Livello Offensivo Down and 1 Damage Down",
       "summary": ""
     },
     {
       "id": "NiddlePin",
       "name": "Naildle",
-      "desc": "- Unique Bleed\n- When taking Pierce damage, gain +1 Bleed Count and reduce this effect's Stack by 1\n- Turn End: Gain 1 Bleed and reduce this effect's Stack by 1",
+      "desc": "- Unique Bleed\n- When taking Pierce damage, gain +1 Bleed Count and reduce this effect's Stack by 1\n- Fine Turno: Gain 1 Bleed and reduce this effect's Stack by 1",
       "summary": ""
     }
   ]
