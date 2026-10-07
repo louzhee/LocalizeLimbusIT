@@ -3189,7 +3189,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sblocco Forzato",
+          "name": "Sprigionamento Forzato",
           "desc": "[DuelCounter]\n[WhenUse] Ottiene 3 [Breath]\n[EndBattle] Al di sotto del livello 3 di [UnlockBuff_Base], attiva i seguenti effetti (una volta per turno):\n- Se quest'unità ha [UnlockBuff_Base], aumenta di 1 il suo livello\n- A meno di 6/9 [BlessingOfIndexPrescriptAlly], modifica le sue Stack in 6/9\n- Ottiene 5 [KarmaOfIndexAlly] al prossimo Inizio Turno per ogni [BlessingOfIndexPrescriptAlly] ottenuto",
           "coinlist": [
             {},
@@ -3211,7 +3211,7 @@
         },
         {
           "level": 4,
-          "name": "Sblocco Forzato",
+          "name": "Sprigionamento Forzato",
           "desc": "[DuelCounter]\n<style=\"highlight\">Potere Finale +1 per ogni livello di [UnlockBuff_Base] (max 3)</style>\n[WhenUse] Ottiene 3 [Breath]\n[EndBattle] Al di sotto del livello 3 di [UnlockBuff_Base], attiva i seguenti effetti (una volta per turno):\n- Se quest'unità ha [UnlockBuff_Base], aumenta di 1 il suo livello\n- A meno di 6/9 [BlessingOfIndexPrescriptAlly], modifica le sue Stack in 6/9\n- Ottiene 5 [KarmaOfIndexAlly] al prossimo Inizio Turno per ogni [BlessingOfIndexPrescriptAlly] ottenuto",
           "coinlist": [
             {},
@@ -3563,8 +3563,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Judgment!",
-          "desc": "[CantDuel]\nThis Skill has the following properties:\n- Does not trigger Defense Skills\n- External effects cannot trigger this Skill to be Reused\n- Target's HP cannot be reduced below 1 until this Skill ends\n[WhenUse] Potere Finale +1 per ogni 4 (Potenza [Vibration] + [NoirNailDonQuixote]) sul bersaglio (max 2)\n[WhenUse] At 3+ Potenza [ChargeNoirAlly], Potere Moneta +1 e infligge +20% damage",
+          "name": "Giudizio!",
+          "desc": "[CantDuel]\nQuesta Abilità ha le seguenti proprietà:\n- Non attiva le Abilità Difensive\n- Gli effetti esterni non possono causare il Riutilizzo di questa Abilità\n- I PV del bersaglio non possono scendere al di sotto di 1 finché questa Abilità non termina\n[WhenUse] Potere Finale +1 per ogni 4 (Potenza [Vibration] + [NoirNailDonQuixote]) sul bersaglio (max 2)\n[WhenUse] A 3+ Potenza [ChargeNoirAlly], Potere Moneta +1 e infligge +20% danno",
           "coinlist": [
             {
               "coindescs": [
@@ -3580,8 +3580,8 @@
         },
         {
           "level": 4,
-          "name": "Judgment!",
-          "desc": "[CantDuel]\nThis Skill has the following properties:\n- Does not trigger Defense Skills\n- External effects cannot trigger this Skill to be Reused\n- Target's HP cannot be reduced below 1 until this Skill ends\n[WhenUse] Potere Finale +1 per ogni 4 (Potenza [Vibration] + [NoirNailDonQuixote]) sul bersaglio (max <style=\"highlight\">3</style>)\n[WhenUse] At 3+ Potenza [ChargeNoirAlly], Potere Moneta +1 e infligge +<style=\"highlight\">40</style>% damage",
+          "name": "Giudizio!",
+          "desc": "[CantDuel]\nQuesta Abilità ha le seguenti proprietà:\n- Non attiva le Abilità Difensive\n- Gli effetti esterni non possono causare il Riutilizzo di questa Abilità\n- I PV del bersaglio non possono scendere al di sotto di 1 finché questa Abilità non termina\n[WhenUse] Potere Finale +1 per ogni 4 (Potenza [Vibration] + [NoirNailDonQuixote]) sul bersaglio (max <style=\"highlight\">3</style>)\n[WhenUse] At 3+ Potenza [ChargeNoirAlly], Potere Moneta +1 e infligge +<style=\"highlight\">40</style>% danno",
           "coinlist": [
             {
               "coindescs": [
@@ -3603,7 +3603,7 @@
         {
           "level": 3,
           "name": "Con Ogni Colpo, Reciderò Il Tuo Avvento!",
-          "desc": "This Skill counts as an Attack Skill even when it activates instead of a Defense Skill; this Skill is unaffected by Defense Power-changing effects, and is instead affected by Attack Power-changing effects\n[StartBattle] Applica 2 [AttackUp] and 2 [DefenseUp] on all \"Le Noir\" allied Identities (una volta per turno)\n[WhenUse] At 6+ total sum of (Potenza [Vibration] + [NoirNailDonQuixote]) on all targets, Potere Moneta +1\n[WhenUse] At 3+ Potenza [ChargeNoirAlly], Potere Moneta +1\n[WhenUse] Deal +30% damage per ogni excess Atk Weight beyond the # of actual targets (for Focused Encounters, Parts)\n[BeforeAttack] The final Coin gains Potere Finale +2 per ogni highest Reson. (max 8)\n[EndSkill] Consume all [NoirShieldUpDonQuixote]",
+          "desc": "Questa Abilità viene considerata come un'Abilità Attacco anche quando viene usata al posto di un'Abilità Difensiva; questa Abilità non viene influenzata da effetti che modificano il Potere Difensivo, e viene invece influenzata dagli effetti che modificano il Potere Offensivo\n[StartBattle] Applica 2 [AttackUp] e 2 [DefenseUp] a tutte le Identità alleate \"Le Noir\" (una volta per turno)\n[WhenUse] A 6+ somma totale di (Potenza [Vibration] + [NoirNailDonQuixote]) su tutti i bersagli, Potere Moneta +1\n[WhenUse] A 3+ Potenza [ChargeNoirAlly], Potere Moneta +1\n[WhenUse] Infligge +30% danno per ogni Portata Attacco in eccesso oltre il numero di bersagli attuali (negli Incontri Mirati, le Parti)\n[BeforeAttack] La Moneta finale ottiene Potere Finale +2 per ogni Rison. più alta (max 8)\n[EndSkill] Usa tutte le Stack di [NoirShieldUpDonQuixote]",
           "coinlist": [
             {
               "coindescs": [
@@ -3631,7 +3631,7 @@
                   "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Ottiene +3 Conteggio [ChargeNoirAlly] (once per Coin)"
+                  "desc": "[OnSucceedAttack] Ottiene +3 Conteggio [ChargeNoirAlly] (una volta per Moneta)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Modifica [Switch_Vibration] in [VibrationFocusing]"
@@ -3640,7 +3640,7 @@
                   "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce il Conteggio [Vibration] del bersaglio di 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Applica the following effects sul bersaglio depending on its respective [NoirNailDonQuixote] Stack\n- Se il bersaglio ha 3+ [NoirNailDonQuixote], innesca [VibrationExplosion], poi riduce il Conteggio [Vibration] del bersaglio di 1\n- Deal Sloth damage equal to ([NoirNailDonQuixote] sul bersaglio x 1.5)% of this Coin's final damage (max 45%)\n- Consume all [NoirNailDonQuixote] sul bersaglio"
+                  "desc": "[OnSucceedAttack] Applica i seguenti effetti sul bersaglio in base alle sue Stack di [NoirNailDonQuixote]\n- Se il bersaglio ha 3+ [NoirNailDonQuixote], innesca [VibrationExplosion], poi riduce il Conteggio [Vibration] del bersaglio di 1\n- Infligge danno Accidia pari a ([NoirNailDonQuixote] sul bersaglio x 1.5)% del danno finale di questa Moneta (max 45%)\n- Usa tutte le Stack di [NoirNailDonQuixote] sul bersaglio"
                 }
               ]
             }
@@ -3649,7 +3649,7 @@
         {
           "level": 4,
           "name": "Con Ogni Colpo, Reciderò Il Tuo Avvento!",
-          "desc": "This Skill counts as an Attack Skill even when it activates instead of a Defense Skill; this Skill is unaffected by Defense Power-changing effects, and is instead affected by Attack Power-changing effects\n[StartBattle] Applica 2 [AttackUp] and 2 [DefenseUp] on all \"Le Noir\" allied Identities (una volta per turno)\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 6 total sum of (Potenza [Vibration] + [NoirNailDonQuixote]) on all targets (max 2)</style>\n[WhenUse] At 3+ Potenza [ChargeNoirAlly], Potere Moneta +1\n[WhenUse] Deal +<style=\"highlight\">50</style>% damage per ogni excess Atk Weight beyond the # of actual targets (for Focused Encounters, Parts)\n[BeforeAttack] The final Coin gains Potere Finale +2 per ogni highest Reson. (max 8)\n[EndSkill] Consume all [NoirShieldUpDonQuixote]",
+          "desc": "Questa Abilità viene considerata come un'Abilità Attacco anche quando viene usata al posto di un'Abilità Difensiva; questa Abilità non viene influenzata da effetti che modificano il Potere Difensivo, e viene invece influenzata dagli effetti che modificano il Potere Offensivo\n[StartBattle] Applica 2 [AttackUp] e 2 [DefenseUp] a tutte le Identità alleate \"Le Noir\" (una volta per turno)\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 6 somma totale di (Potenza [Vibration] + [NoirNailDonQuixote]) su tutti i bersagli (max 2)</style>\n[WhenUse] A 3+ Potenza [ChargeNoirAlly], Potere Moneta +1\n[WhenUse] Infligge +<style=\"highlight\">50</style>% danno per ogni Portata Attacco in eccesso oltre il numero di bersagli attuali (negli Incontri Mirati, le Parti)\n[BeforeAttack] La Moneta finale ottiene Potere Finale +2 per ogni Rison. più alta (max 8)\n[EndSkill] Usa tutte le Stack di [NoirShieldUpDonQuixote]",
           "coinlist": [
             {
               "coindescs": [
@@ -3677,7 +3677,7 @@
                   "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Ottiene +<style=\"highlight\">4</style> Conteggio [ChargeNoirAlly] (once per Coin)"
+                  "desc": "[OnSucceedAttack] Ottiene +<style=\"highlight\">4</style> Conteggio [ChargeNoirAlly] (una volta per Moneta)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Modifica [Switch_Vibration] in [VibrationFocusing]"
@@ -3686,7 +3686,7 @@
                   "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce il Conteggio [Vibration] del bersaglio di 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Applica the following effects sul bersaglio depending on its respective [NoirNailDonQuixote] Stack\n- Se il bersaglio ha 3+ [NoirNailDonQuixote], innesca [VibrationExplosion], poi riduce il Conteggio [Vibration] del bersaglio di 1\n- Deal Sloth damage equal to ([NoirNailDonQuixote] sul bersaglio x <style=\"highlight\">3</style>)% of this Coin's final damage (max <style=\"highlight\">90</style>%)\n- Consume all [NoirNailDonQuixote] sul bersaglio"
+                  "desc": "[OnSucceedAttack] Applica i seguenti effetti sul bersaglio in base alle sue Stack di [NoirNailDonQuixote]\n- Se il bersaglio ha 3+ [NoirNailDonQuixote], innesca [VibrationExplosion], poi riduce il Conteggio [Vibration] del bersaglio di 1\n- Infligge danno Accidia pari a ([NoirNailDonQuixote] sul bersaglio x <style=\"highlight\">3</style>)% del danno finale di questa Moneta (max <style=\"highlight\">90</style>%)\n- Usa tutte le Stack di [NoirNailDonQuixote] sul bersaglio"
                 }
               ]
             }
