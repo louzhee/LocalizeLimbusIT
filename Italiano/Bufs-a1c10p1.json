@@ -234,7 +234,7 @@
     {
       "id": "NiddlePinned",
       "name": "Tassidermizzato",
-      "desc": "- Stack Max: 2\n\n- Quando colpita, ottiene +1 Conteggio Sanguinamento (3 volte per turno)\n- L'unità diventa Immobilizzata fintanto che ha questo effetto\n\n- Fine Turno: Perde 15 PV e 5 Naildle su di sé\n- Fine Turno: Perde 1 Stack",
+      "desc": "- Stack Max: 2\n\n- Quando colpita, ottiene +1 Conteggio Sanguinamento (3 volte per turno)\n- L'unità diventa Immobilizzata fintanto che ha questo effetto\n\n- Fine Turno: Perde 15 PV e 5 Chiodillo su di sé\n- Fine Turno: Perde 1 Stack",
       "summary": "",
       "undefined": "-",
       "flavor": "Come desideri... Fatto a mano! Su misura! Cucito a meno!"
@@ -242,7 +242,7 @@
     {
       "id": "NiddleExpected",
       "name": "Ago Perfora Lingua",
-      "desc": "- Se questa unità ha equipaggiato un'Abilità Difensiva:\n· Perde 1 Naildle su di sé\n· Questo effetto scade\n\n- Fine Turno: Ottiene 3 Naildle; poi l'effetto scade",
+      "desc": "- Se questa unità ha equipaggiato un'Abilità Difensiva:\n· Perde 1 Chiodillo su di sé\n· Questo effetto scade\n\n- Fine Turno: Ottiene 3 Chiodillo; poi l'effetto scade",
       "summary": "",
       "undefined": "-",
       "flavor": "Per rimuovere un chiodo fisso, bisogna prima fermarsi brevemente."
@@ -405,7 +405,7 @@
     },
     {
       "id": "NiddlePin",
-      "name": "Naildle",
+      "name": "Chiodillo",
       "desc": "- Sanguinamento Speciale\n- Quando subisce danno Perforante, ottiene +1 Conteggio Sanguinamento e riduce le Stack di questo effetto di 1\n- Fine Turno: Ottiene 1 Sanguinamento e riduce le Stack di questo effetto di 1",
       "summary": ""
     }
