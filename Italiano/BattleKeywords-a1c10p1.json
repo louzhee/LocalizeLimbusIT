@@ -302,7 +302,7 @@
       "name": "Battesimo [Cremisi]",
       "desc": "- Effetto Max: 5\n- Livello Offensivo +1 per ogni 3 Potenza Sanguinamento su di sé (max 3)\n- A Stack Max, raddoppia la quantità di danno subito da Sanguinamento; questa unità non può essere sconfitta dal danno da Sanguinamento\n- All'Uso di un'Abilità Attacco Base, ottiene +(Stack x 2) Conteggio Sanguinamento\n- All'Uso di un'Abilità E.G.O o Difensiva, perde 3 Stack",
       "summary": "",
-      "flavor": "\"Let blood baptize the flesh\""
+      "flavor": "\"Lascia che il sangue battezzi la carne\""
     },
     {
       "id": "DeterioratingBody",
@@ -323,19 +323,19 @@
       "name": "Scisma Interno",
       "desc": "- Morale Basso\n- Livello Difensivo -3\n- Livello Offensivo +3\n- In uno Scontro contro i nemici che hanno 5 Battesimo [Cremisi], Potere Scontro +2",
       "summary": "",
-      "flavor": "Why... ? How did I... come to exist? What... am I?"
+      "flavor": "Perché... ? Come sono... ventuo al mondo? Cosa... sono?"
     },
     {
       "id": "EarlyBuffet_Panic",
       "name": "Scisma Interno",
-      "desc": "- Panic\n- Livello Difensivo -5\n- Livello Offensivo +3\n- Infligge +10% danno\n- In uno Scontro contro i nemici che hanno 3+ Battesimo [Cremisi], Potere Scontro +3",
+      "desc": "- Panico\n- Livello Difensivo -5\n- Livello Offensivo +3\n- Infligge +10% danno\n- In uno Scontro contro i nemici che hanno 3+ Battesimo [Cremisi], Potere Scontro +3",
       "summary": "",
-      "flavor": "Why... ? How did I... come to exist? What... am I?"
+      "flavor": "Perché... ? Come sono... ventuo al mondo? Cosa... sono?"
     },
     {
       "id": "SisyphusTopaz",
       "name": "Topazio",
-      "desc": "- No effect",
+      "desc": "- Nessun effetto",
       "summary": ""
     },
     {
@@ -373,40 +373,40 @@
       "name": "Devozione",
       "desc": "- Inizio Turno: Ottiene Scudo pari alle Stack\n- Perde Stack quando perde Scudo",
       "summary": "",
-      "flavor": "\"Now faith is the substance of things hoped for, the          of things not seen.\""
+      "flavor": "\"Adesso la fede è la sostanza di ciò che viene sperato,          delle cose non viste.\""
     },
     {
       "id": "RisingMadnessSisyphe",
-      "name": "Sunshine",
-      "desc": "- Stack Max: 2\n- Fine Turno: Perde 1 Stack\n- Inizio Turno: At 0 Stack, apply the following effects:\n· Gain 1 Damage Up and 1 Fragile\n· Convert Coins on all Skills to Unbreakable Coins\n· Fine Turno: Restore this effect to Stack Max next turn",
+      "name": "Luce Solare",
+      "desc": "- Stack Max: 2\n- Fine Turno: Perde 1 Stack\n- Inizio Turno: A 0 Stack, applica i seguenti effetti:\n· Ottiene 1 Danno Aumentato e 1 Fragile\n· Converte le Monete su tutte le Abilità in Monete Infrangibili\n· Fine Turno: Ripristina questo effetto al massimo delle Stack il turno successivo",
       "summary": "",
       "undefined": "-",
-      "flavor": "You can be..."
+      "flavor": "Puoi essere..."
     },
     {
       "id": "RisingMadnessSisyphe2nd",
-      "name": "Stinging Sunshine",
-      "desc": "- Stack Max: 1\n- Fine Turno: Perde 1 Stack\n- Inizio Turno: At 0 Stack, apply the following effects:\n· Gain 2 Power Up, 2 Damage Up, and 3 Fragile\n· Convert Coins on all Skills to Unbreakable Coins\n· Fine Turno: Restore this effect to Stack Max next turn",
+      "name": "Luce Solare Pungente",
+      "desc": "- Stack Max: 1\n- Fine Turno: Perde 1 Stack\n- Inizio Turno: A 0 Stack, applica i seguenti effetti:\n· Ottiene 2 Potere Aumentato, 2 Danno Aumentato e 3 Fragile\n· Converte le Monete su tutte le Abilità in Monete Infrangibili\n· Fine Turno: Ripristina questo effetto al massimo delle Stack il turno successivo",
       "summary": "",
       "undefined": "-",
-      "flavor": "The Sunlight whispers into all that it touches, beating down all the same even as its heat grows from a prickle on the skin to unbearable, burning pain and the subject is cooked alive."
+      "flavor": "La Luce Solare sussurra a tutto ciò che tocca, continuando a battere forte anche se il suo calore si trasforma da un pizzichio sulla pella in un dolore bruciante e insopportabile, e il soggetto viene poi cucinato vivo."
     },
     {
       "id": "WeakWithering_LowMorale",
-      "name": "Messy Sewing",
-      "desc": "- Morale Basso\n- Inizio Turno: Gain 1 Livello Offensivo Down",
+      "name": "Cucito Caotico",
+      "desc": "- Morale Basso\n- Inizio Turno: Ottiene 1 Livello Offensivo Diminuito",
       "summary": ""
     },
     {
       "id": "WeakWithering_Panic",
       "name": "Messy Sewing",
-      "desc": "- Morale Basso\n- Inizio Turno: Gain 1 Livello Offensivo Down and 1 Damage Down",
+      "desc": "- Morale Basso\n- Inizio Turno: Gain 1 Livello Offensivo Diminuito e 1 Danno Diminuito",
       "summary": ""
     },
     {
       "id": "NiddlePin",
       "name": "Naildle",
-      "desc": "- Unique Bleed\n- When taking Pierce damage, gain +1 Bleed Count and reduce this effect's Stack by 1\n- Fine Turno: Gain 1 Bleed and reduce this effect's Stack by 1",
+      "desc": "- Sanguinamento Speciale\n- Quando subisce danno Perforante, ottiene +1 Conteggio Sanguinamento e riduce le Stack di questo effetto di 1\n- Fine Turno: Ottiene 1 Sanguinamento e riduce le Stack di questo effetto di 1",
       "summary": ""
     }
   ]
