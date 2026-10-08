@@ -173,17 +173,17 @@
     },
     {
       "id": "HorribleTerror",
-      "name": "Horribly Infinite Replay",
-      "desc": "- Stack Max: 1\n- Turn Start: If this unit is in E.G.O Corrosion state, deal -50% damage to all targets this turn\n- Turn End: This unit takes 50% HP damage; then, this effect expires (rounded down, this effect cannot Stagger this unit)",
+      "name": "Replay Orribilmente Infinito",
+      "desc": "- Stack Max: 1\n- Inizio Turno: Se questa unità è in stato Corrosione E.G.O, infligge -50% danno a tutti i bersagli per questo turno\n- Fine Turno: Questa unità subisce 50% danno ai PV; poi, questo effetto scade (arrotondato per difetto, questo effetto non Stordisce l'unità)",
       "summary": "",
-      "flavor": "Until you listen... until you truly hear the Grand Magasin's announcement... again... and again... listen..."
+      "flavor": "Finché non ascolterai... finché non udirai davvero l'annuncio del Grand Magasin... ascolta... ancora... e ancora..."
     },
     {
       "id": "HorribleEat",
-      "name": "Repeat on Repeat",
-      "desc": "- Stack Max: 15\n- Gain Offense Level equal to Stack",
+      "name": "Ripeti e Ripeti",
+      "desc": "- Stack Max: 15\n- Ottiene Livello Offensivo pari alle Stack",
       "summary": "",
-      "flavor": "The broadcast is repeated until everyone hears it. It becomes an echo, and the echo repeats in turn until it resonates."
+      "flavor": "La trasmissione viene ripetuta finché tutti l'hanno ascoltata. Diventa un eco, e l'eco si ripete a sua volta, fino a riscuonare."
     },
     {
       "id": "NoirSuit",
@@ -233,152 +233,152 @@
     },
     {
       "id": "NiddlePinned",
-      "name": "Taxidermized",
-      "desc": "- Stack Max: 2\n\n- When hit, gain +1 Bleed Count (3 times per turn)\n- Becomes Immobilized while this unit has this effect\n\n- Turn End: Lose 15 HP and 5 Naildle on self\n- Turn End: Lose 1 Stack",
+      "name": "Tassidermizzato",
+      "desc": "- Stack Max: 2\n\n- Quando colpita, ottiene +1 Conteggio Sanguinamento (3 volte per turno)\n- L'unità diventa Immobilizzata fintanto che ha questo effetto\n\n- Fine Turno: Perde 15 PV e 5 Naildle su di sé\n- Fine Turno: Perde 1 Stack",
       "summary": "",
       "undefined": "-",
-      "flavor": "As you wish... Hand-made! Bespoke! Hand-sown!"
+      "flavor": "Come desideri... Fatto a mano! Su misura! Cucito a meno!"
     },
     {
       "id": "NiddleExpected",
-      "name": "Tongue-pinning Needle",
-      "desc": "- If this unit equipped Defense Skills:\n· Lose 1 Naildle on self\n· This effect expires\n\n- Turn End: Gain 3 Naildle; then, this effect expires",
+      "name": "Ago Perfora Lingua",
+      "desc": "- Se questa unità ha equipaggiato un'Abilità Difensiva:\n· Perde 1 Naildle su di sé\n· Questo effetto scade\n\n- Fine Turno: Ottiene 3 Naildle; poi l'effetto scade",
       "summary": "",
       "undefined": "-",
-      "flavor": "To remove a fixed nail, one must first come to a brief halt."
+      "flavor": "Per rimuovere un chiodo fisso, bisogna prima fermarsi brevemente."
     },
     {
       "id": "HowlingCocoon",
-      "name": "Cry of the Cocoon - Frail",
-      "desc": "- The Cocoon is crying intermittently.\n- Skill Final Power +2",
+      "name": "Pianto del Bozzolo - Gracile",
+      "desc": "- Il Bozzolo piange ad intermittenza.\n- Potere Finale Abilità +2",
       "summary": "",
       "undefined": "-",
-      "flavor": "Those who speak in half-truths and misinformation source their confidence from ignorance, which is what makes them so convincing."
+      "flavor": "Coloro che parlano tramite mezze verità e disinformazione traggono la loro sicurezza dall'ignoranza, ed è proprio quest'ultima a renderli così convincenti."
     },
     {
       "id": "HowlingCocoonTwo",
-      "name": "Cry of the Cocoon - Vicious",
-      "desc": "- The Cocoon does not cease its cries.\n- Skill Final Power +3",
+      "name": "Pianto del Bozzolo - Vizioso",
+      "desc": "- Il Bozzolo non cessa il suo pianto.\n- Potere Finale Abilità +3",
       "summary": "",
       "undefined": "-",
-      "flavor": "Rigid denim... and selvage... have jack to do with each other... Gnnnngh... You know this! You're just tryin' to piss me off, aren't you?! I knew it!!!"
+      "flavor": "Un denim rigido... e della cimosa... non hanno niente a che fare l'uno con l'altra... Gnnnngh... Lo sapevi! Stai solo cercando di farmi arrabbiare, no?! Lo sapevo!!!"
     },
     {
       "id": "MeursaultBuffet",
-      "name": "He Who Nails",
-      "desc": "- In this Encounter, if this unit uses its Skill, gain 2 E.G.O Resource of the corresponding Affinity (2 times per turn)\n- Turn Start: If another ally is on the field, damage taken by this unit does not kill this unit this turn\n- Cannot Retreat",
+      "name": "Lui Che Inchioda",
+      "desc": "- In questo Incontro, se questa unità usa le sue Abilità, ottiene 2 Risorse E.G.O dell'Affinità corrispondente (2 volte per turno)\n- Inizio Turno: Se è presente un altro alleato sul campo, il danno subito da questa unità non la uccide per questo turno\n- Non può Ritirarsi",
       "summary": "",
-      "flavor": "Gripping the Golden Nail, he has rent the Cradle open and now nails a god upon a point."
+      "flavor": "Stringendo il Chiodo Dorato, lui ha squarciato la Culla ed ora inchioda un dio."
     },
     {
       "id": "Nutrition",
-      "name": "A Seized Something.",
-      "desc": "- Stack Max: 5\n- Turn End: Gain +(Stack x 2) Pulsation Count next turn; then, this effect expires\n- If this effect is at max Stack when expiring, all Parts gain Shield equal to 3% of the Core's HP next turn (Shield gained due to this effect does not expire at Turn End)",
+      "name": "Un Qualcosa di Afferrato.",
+      "desc": "- Stack Max: 5\n- Fine Turno: Ottiene +(Stack x 2) Conteggio Pulsazione il turno successivo; poi questo effetto scade\n- Se questo effetto ha le Stack massime quando scade, tutte le Parti ottengono Scudo pari al 3% dei PV del Nucleo il turno successivo (lo Scudo ottenuto con questo effetto non scade a Fine Turno)",
       "summary": "",
-      "flavor": "Everything desirable in another's possession should have belonged to me from the start. This is not theft, then, but rightful repossession."
+      "flavor": "Tutto ciò che è desiderabile e che gli altri posseggono sarebbe dovuto essere mio dall'inizio. Non si tratta di furto, ma di riappropriazione legittima."
     },
     {
       "id": "Gourmandise",
-      "name": "Uncontrollable Rampage",
-      "desc": "- Base Stack: 3\n- Deal +5% damage for every 3 Bleed on self (max 30%)\n- All Parts cannot be Staggered; take -75% damage from Bleed\n- Turn End: Lose 1 Stack\n- Consume all Pulsation Count when this effect expires",
+      "name": "Furia Incontrollabile",
+      "desc": "- Stack Base: 3\n- Infligge +5% danno per ogni 3 Sanguinamento su di sé (max 30%)\n- Tutte le Parti non possono essere Stordite; subisce -75% danni da Sanguinamento\n- Fine Turno: Perde 1 Stack\n- Usa tutto il Conteggio Pulsazione quando questo effetto scade",
       "summary": "",
-      "flavor": "Every disparate fragment of its anatomy jerks and convulses, trying to rip itself away. Such uncontrollable rampage brings the body together, ironically."
+      "flavor": "Ogni frammento disparato della sua anatomia sussulta e si contorce, cercando di strapparsi via. Ironicamente, una simile furia incontrollabile unisce il corpo."
     },
     {
       "id": "BuffetSick",
-      "name": "Sac of Suffering",
-      "desc": "- Stack Max: 30\n- Turn End: This effect expires when Uncontrollable Rampage effect expires. Then, this unit gains 1 Fragile next turn for every 5 Stacks",
+      "name": "Sacca della Sofferenza",
+      "desc": "- Stack Max: 30\n- Fine Turno: Questo effetto scade quando scade Furia Incontrollabile. Poi questa unità ottiene 1 Fragile il turno successivo per ogni 5 Stack",
       "summary": "",
-      "flavor": "This organ is the terminus of all painful sensory inputs.\nWhen it bursts, it will drown out all reason and reveal pain in its most unalloyed form."
+      "flavor": "Questo organo è il punto di arrivo di tutti gli stimoli sensoriali dolorosi.\nQuando scoppia, soffocherà ogni ragione e rivelerà il dolore nella sua forma più pura."
     },
     {
       "id": "SavePlacenta",
-      "name": "Self-preservation",
-      "desc": "- When Lifecord is about to take an Unopposed Attack from an enemy, consume 1 Stack to redirect the enemy's targeting to the Body; then, use Assist Defense-exclusive Skill\n- Turn End: This effect expires",
+      "name": "Auto-conservazione",
+      "desc": "- Quando Lifecord sta per ricevere un Attacco Incontrastato da un nemico, usa 1 Stack per reindirizzare il nemico verso il Corpo; poi usa l'Abilità speciale Difesa di Support\n- Fine Turno: Questo effetto scade",
       "summary": ""
     },
     {
       "id": "BloodyMucus",
-      "name": "Baptism [Crimson]",
-      "desc": "- Max Effect: 5\n- Offense Level +1 for every 3 Bleed Potency on self (max 3)\n- At max Stack, double the amount of damage taken from Bleed; this unit cannot be defeated due to Bleed damage\n- On Base Attack Skill Use, gain +(Stack x 2) Bleed Count\n- On E.G.O Skill or Defense Skill Use, lose 3 Stacks",
+      "name": "Battesimo [Cremisi]",
+      "desc": "- Effetto Max: 5\n- Livello Offensivo +1 per ogni 3 Potenza Sanguinamento su di sé (max 3)\n- A Stack Max, raddoppia la quantità di danno subito da Sanguinamento; questa unità non può essere sconfitta dal danno da Sanguinamento\n- All'Uso di un'Abilità Attacco Base, ottiene +(Stack x 2) Conteggio Sanguinamento\n- All'Uso di un'Abilità E.G.O o Difensiva, perde 3 Stack",
       "summary": "",
       "flavor": "\"Let blood baptize the flesh\""
     },
     {
       "id": "DeterioratingBody",
-      "name": "Instinctive Cling to Life",
-      "desc": "- Stack Max: 5\n- HP does not drop below 1\n- When hit, lose 1 Stack (2 times per Skill)\n- Turn End: Lose 1 Stack; this unit is defeated when this effect expires",
+      "name": "Attaccamento Istintivo alla Vita",
+      "desc": "- Stack Max: 5\n- I PV non scendono al di sotto di 1\n- Quando colpita, perde 1 Stack (2 volte per Abilità)\n- Fine Turno: Perde 1 Stack; questa unità viene sconfitta quando questo effto scade",
       "summary": "",
-      "flavor": "Its instinct to cling to life is tenacious indeed, but in the end, the time comes when one must let go."
+      "flavor": "Il suo istinto di attaccarsi alla vita è davvero tenace ma, alla fine, arriva il momento in cui bisogna lasciare la presa."
     },
     {
       "id": "BuffetFailed",
-      "name": "Exhausted",
-      "desc": "- Stack Max: 3\n- Min & Max Speed -1 for every Stack\n- Turn Start: Gain 1 Fragile\n- Turn End: Lose 1 Stack\n(Applies on all Parts)",
+      "name": "Sfiancamento",
+      "desc": "- Stack Max: 3\n- Min & Velocità Max -1 per ogni Stack\n- Inizio Turno: Ottiene 1 Fragile\n- Fine Turno: Perde 1 Stack\n(Si applica su tutte le Parti)",
       "summary": "",
-      "flavor": "Every outburst is followed by limitation. The world levies payment in forms proportionate to force and velocity of the outburst."
+      "flavor": "Ogni scoppio è seguito da una limitazione. Il mondo impone pagamenti in forme proporzionate alla forza e alla velocità dello scoppio."
     },
     {
       "id": "EarlyBuffet_LowMorale",
-      "name": "Inner Schism",
-      "desc": "- Low Morale\n- Defense Level -3\n- Offense Level +3\n- In a Clash against targets that have 5 Baptism [Crimson], Clash Power +2",
+      "name": "Scisma Interno",
+      "desc": "- Morale Basso\n- Livello Difensivo -3\n- Livello Offensivo +3\n- In uno Scontro contro i nemici che hanno 5 Battesimo [Cremisi], Potere Scontro +2",
       "summary": "",
-      "flavor": "Why... ? How did I... come to exist? What... am I?"
+      "flavor": "Perché... ? Come sono... ventuo al mondo? Cosa... sono?"
     },
     {
       "id": "EarlyBuffet_Panic",
-      "name": "Inner Schism",
-      "desc": "- Panic\n- Defense Level -5 \n- Offense Level +3\n- Deal +10% damage\n- In a Clash against targets that have 3+ Baptism [Crimson], Clash Power +3",
+      "name": "Scisma Interno",
+      "desc": "- Panico\n- Livello Difensivo -5\n- Livello Offensivo +3\n- Infligge +10% danno\n- In uno Scontro contro i nemici che hanno 3+ Battesimo [Cremisi], Potere Scontro +3",
       "summary": "",
-      "flavor": "Why... ? How did I... come to exist? What... am I?"
+      "flavor": Perché... ? Come sono... ventuo al mondo? Cosa... sono?"
     },
     {
       "id": "SisyphusTopaz",
-      "name": "Topaz",
-      "desc": "- No effect",
+      "name": "Topazio",
+      "desc": "- Nessun effetto",
       "summary": ""
     },
     {
       "id": "SisyphusAmethyst",
-      "name": "Amethyst",
-      "desc": "- Inflict 1 more Burn, Bleed, Tremor, Rupture, and Sinking Potency using Skills against enemies",
+      "name": "Ametista",
+      "desc": "- Le Abilità infliggono 1 Potenza Bruciatura, Sanguinamento, Vibrazione, Lacerazione e Annegamento in più contro i nemici",
       "summary": ""
     },
     {
       "id": "SisyphusAmber",
-      "name": "Amber",
-      "desc": "- Skills inflict 1 more Burn, Bleed, Tremor, Rupture, and Sinking Potency against enemies\n- Gain +1 more Count when gaining Charge Count and Poise Count",
+      "name": "Ambra",
+      "desc": "- Le Abilità infliggono 1 Potenza Bruciatura, Sanguinamento, Vibrazione, Lacerazione e Annegamento in più contro i nemici\n- Ottiene +1 Conteggio in più quando ottiene Conteggio Carica e Equilibrio",
       "summary": ""
     },
     {
       "id": "SisyphusEmerald",
-      "name": "Emerald",
-      "desc": "- Skills inflict 1 more Burn, Bleed, Tremor, Rupture, and Sinking Potency against enemies\n- Gain +1 more Count when gaining Charge Count and Poise Count\n- Gain +10 Charge Count when gaining this effect (once per Encounter)",
+      "name": "Smeraldo",
+      "desc": "- Le Abilità infliggono 1 Potenza Bruciatura, Sanguinamento, Vibrazione, Lacerazione e Annegamento in più contro i nemici\n- Ottiene +1 Conteggio in più quando ottiene Conteggio Carica e Equilibrio\n- Ottiene +10 Conteggio Carica quando ottiene questo effetto (una volta per Incontro)",
       "summary": ""
     },
     {
       "id": "SisyphusGold",
-      "name": "Gold",
-      "desc": "- Skills inflict 1 more Burn, Bleed, Tremor, Rupture, and Sinking Potency against enemies\n- Gain +1 more Count when gaining Charge Count and Poise Count\n- Gain +10 Charge Count when gaining this effect (once per Encounter)\n- Clash Power +1",
+      "name": "Oro",
+      "desc": "- Le Abilità infliggono 1 Potenza Bruciatura, Sanguinamento, Vibrazione, Lacerazione e Annegamento in più contro i nemici\n- Ottiene +1 Conteggio in più quando ottiene Conteggio Carica e Equilibrio\n- Ottiene +10 Conteggio Carica quando ottiene questo effetto (una volta per Incontro)\n- Potere Scontro +1",
       "summary": ""
     },
     {
       "id": "SisyphusRuby",
-      "name": "Ruby",
-      "desc": "- Skills inflict 1 more Burn, Bleed, Tremor, Rupture, and Sinking Potency against enemies\n- Gain +1 more Count when gaining Charge Count and Poise Count\n- Gain +10 Charge Count when gaining this effect (once per Encounter)\n- Clash Power +1\n- Final Power +1",
+      "name": "Rubino",
+      "desc": "- Le Abilità infliggono 1 Potenza Bruciatura, Sanguinamento, Vibrazione, Lacerazione e Annegamento in più contro i nemici\n- Ottiene +1 Conteggio in più quando ottiene Conteggio Carica e Equilibrio\n- Ottiene +10 Conteggio Carica quando ottiene questo effetto (una volta per Incontro)\n- Potere Scontro +1\n- Potere Finale +1",
       "summary": ""
     },
     {
       "id": "RougeThreeCocoonShield",
-      "name": "Devotion",
-      "desc": "- Turn Start: Gain Shield equal to Stack\n- Lose Stack when losing Shield",
+      "name": "Devozione",
+      "desc": "- Inizio Turno: Ottiene Scudo pari alle Stack\n- Perde Stack quando perde Scudo",
       "summary": "",
-      "flavor": "\"Now faith is the substance of things hoped for, the          of things not seen.\""
+      "flavor": "\"desso la fede è la sostanza di ciò che viene sperato,          delle cose non viste.\""
     },
     {
       "id": "RisingMadnessSisyphe",
       "name": "Luce Solare",
-      "desc": "- Stack Max: 2\n- Turn End: Lose 1 Stack\n- Turn Start: At 0 Stack, apply the following effects:\n· Gain 1 Damage Up and 1 Fragile\n· Convert Coins on all Skills to Unbreakable Coins\n· Turn End: Restore this effect to Stack Max next turn",
+      "desc": "- Stack Max: 2\n- Fine Turno: Perde 1 Stack\n- Inizio Turno: A 0 Stack, applica i seguenti effetti:\n· Ottiene 1 Danno Aumentato e 1 Fragile\n· Converte le Monete su tutte le Abilità in Monete Infrangibili\n· Fine Turno: Ripristina questo effetto al massimo delle Stack il turno successivo",
       "summary": "",
       "undefined": "-",
       "flavor": "Puoi essere..."
@@ -386,27 +386,27 @@
     {
       "id": "RisingMadnessSisyphe2nd",
       "name": "Luce Solare Pungente",
-      "desc": "- Stack Max: 1\n- Turn End: Lose 1 Stack\n- Turn Start: At 0 Stack, apply the following effects:\n· Gain 2 Power Up, 2 Damage Up, and 3 Fragile\n· Convert Coins on all Skills to Unbreakable Coins\n· Turn End: Restore this effect to Stack Max next turn",
+      "desc": "- Stack Max: 1\n- Fine Turno: Perde 1 Stack\n- Inizio Turno: A 0 Stack, applica i seguenti effetti:\n· Ottiene 2 Potere Aumentato, 2 Danno Aumentato e 3 Fragile\n· Converte le Monete su tutte le Abilità in Monete Infrangibili\n· Fine Turno: Ripristina questo effetto al massimo delle Stack il turno successivo",
       "summary": "",
       "undefined": "-",
-      "flavor": "The Sunlight whispers into all that it touches, beating down all the same even as its heat grows from a prickle on the skin to unbearable, burning pain and the subject is cooked alive."
+      "flavor": "La Luce Solare sussurra a tutto ciò che tocca, continuando a battere forte anche se il suo calore si trasforma da un pizzichio sulla pella in un dolore bruciante e insopportabile, e il soggetto viene poi cucinato vivo."
     },
     {
       "id": "WeakWithering_LowMorale",
-      "name": "Messy Sewing",
-      "desc": "- Low Morale\n- Turn Start: Gain 1 Offense Level Down",
+      "name": "Cucito Caotico",
+      "desc": "- Morale Basso\n- Inizio Turno: Ottiene 1 Livello Offensivo Diminuito",
       "summary": ""
     },
     {
       "id": "WeakWithering_Panic",
-      "name": "Messy Sewing",
-      "desc": "- Low Morale\n- Turn Start: Gain 1 Offense Level Down and 1 Damage Down",
+      "name": "Cucito Caotico",
+      "desc": "- Panico\n- Inizio Turno: Gain 1 Livello Offensivo Diminuito e 1 Danno Diminuito",
       "summary": ""
     },
     {
       "id": "NiddlePin",
       "name": "Naildle",
-      "desc": "- Unique Bleed\n- When taking Pierce damage, gain +1 Bleed Count and reduce this effect's Stack by 1\n- Turn End: Gain 1 Bleed and reduce this effect's Stack by 1",
+      "desc": "- Sanguinamento Speciale\n- Quando subisce danno Perforante, ottiene +1 Conteggio Sanguinamento e riduce le Stack di questo effetto di 1\n- Fine Turno: Ottiene 1 Sanguinamento e riduce le Stack di questo effetto di 1",
       "summary": ""
     }
   ]
