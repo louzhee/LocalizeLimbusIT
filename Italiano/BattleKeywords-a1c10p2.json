@@ -2,171 +2,171 @@
   "dataList": [
     {
       "id": "TangleBlackYarn",
-      "name": "Tangling",
-      "desc": "- Max Stack: 30\n- Take +1% damage for every Stack\n- Base Power -1 for every 10 Stacks\n- Turn End: Gain 1 Bind next turn for every 3 Stacks (max 10)\n- <color=#ff6000><mark color=#ff000040><b><u>On Defense Skill Use,</color></mark></b></u> lose half of the Stacks (rounded up)",
+      "name": "Attorcigliamento",
+      "desc": "- Stack Max: 30\n- Subisce +1% danno per ogni Stack\n- Potere Base -1 per ogni 10 Stack\n- Fine Turno: Ottiene 1 Lentezza il turno successivo per ogni 3 Stack (max 10)\n- <color=#ff6000><mark color=#ff000040><b><u>All'Uso di un'Abilità Difensiva,</color></mark></b></u> perde metà delle Stack (arrotondato per eccesso)",
       "summary": "",
-      "flavor": "The department store is a world of sewing, bound together by thread and needle. Even that which came from the sea now finds its body turned to thread, black water tangling into black yarn."
+      "flavor": "Il grande magazzino è un mondo sartoriale, legato da ago e filo. Anche ciò che venne da mare ora trova il suo corpo trasformato in filo, l'acqua nera che si attorciglia in filo nero."
     },
     {
       "id": "SickBlackYarn",
-      "name": "Bursting Blackstitch",
-      "desc": "- Max Stack: 50\n- Take +1% damage for every Stack\n- Turn Start: Gain 1 Fragile for every 25 Stacks",
+      "name": "Punto Indietro Scoppiettante",
+      "desc": "- Stack Max: 50\n- Subisce +1% danno per ogni Stack\n- Inizio Turno: Ottiene 1 Fragile per ogni 25 Stack",
       "summary": "",
-      "flavor": "Each time a loose strand bursts from the black yarn, it carries the briny scent of tears... strangely nostalgic despite itself."
+      "flavor": "Ogni volta che un filo sciolto esce dal filato nero, porta con sé il profumo salmastro delle lacrime... stranamento nostaglico, suo malgrado."
     },
     {
       "id": "HeavyBlackYarn",
-      "name": "Clumped Black Threads",
-      "desc": "- Max Stack: 5\n- Gain Slot Weight equal to Stack (per Part)\n- Take +10% damage for every Stack",
+      "name": "Fili Neri Ammassati",
+      "desc": "- tack Max: 5\n- Ottiene Portata Attacco pari alle Stack (per Parte)\n- Subisce +10% danno per ogni Stack",
       "summary": "",
-      "flavor": "Black is an image of death and mass. Just as what holds black seawater grows heavy, black thread gains weight as it clumps together. It gathers everything into itself, knots tight, sinks, and stops."
+      "flavor": "Il nero è un'immagine della morte e della massa. Come l'acqua di mare nera diventa pesante con ciò che contiene, il filo nero si appesantisce ammassandosi. Raccoglie tutto dentro di sé, si annoda, affonda e si ferma"
     },
     {
       "id": "HideBlackYarn",
-      "name": "Pool of Black Water",
-      "desc": "- Max Potency: 6\n- Max Count: 2\n- <color=#ff6000><mark color=#ff000040><b><u>When hit, lose 1 Potency</color></mark></b></u> (once per Skill)\n- Turn End: Lose 1 Count\n- <color=#ff6000><mark color=#ff000040><b><u>Expires if Potency or Count reaches 0</color></mark></b></u>\n- Cannot be Staggered\n- On Unopposed Attack, deal +100% damage\n- Take -100% damage",
+      "name": "Specchio d'Acqua Nera",
+      "desc": "- Potenza Max: 6\n-Conteggio Max: 2\n- <color=#ff6000><mark color=#ff000040><b><u>Quando colpita, perde 1 Potenza</color></mark></b></u> (una volta per Abilità)\n- Fine Turno: Perde 1 Conteggio\n- <color=#ff6000><mark color=#ff000040><b><u>Scade se Potenza o Conteggio arrivano a 0</color></mark></b></u>\n- L'unità non può essere Stordita\n- Infligge +100% danno con un'Attacco Incontrastato\n- Subisce -100% danno",
       "summary": "",
-      "flavor": "It is neither sea nor aquarium now, only a stagnant pond. Yet the great longing that has settled there holds enough sorrow to momentarily hide the body."
+      "flavor": "Adesso non è né un mare né un acquario, solo una pozza stagnante, eppure il grande desiderio che vi si è insediato contiene abbastanza dolore da nascondere momentaneamente il corpo."
     },
     {
       "id": "AngryBlackYarn",
-      "name": "Instinct of the Predator of Eld",
-      "desc": "- All Parts gain Clash Power +2 for every Part that has this effect\n- Deal +5% damage for every 3 Tangling Stacks on target (max 50%)\n- Expires at Turn End",
+      "name": "Istinto del Predatore di Eld",
+      "desc": "- Tutte le parti ottengono Potere Scontro +2 per ogni Parte che ha questo effetto\n- Infligge +5% danno per ogni 3 Stack di Attorcigliamento sul bersaglio (max 50%)\n- Scade a Fine Turno",
       "summary": "",
-      "flavor": "Every aquarium had its predator, much like a Floor Manager in the department store. The predator now wears the shape of a fish, but in an earlier Sisyphe System, there were no fish-shaped beings in the Aquarium. The minds of those who lived there may have been fish, but their forms were human."
+      "flavor": "Ogni acquario ha il suo predatore, proprio come un Manager del Piano nel grande magazzino. Adesso il predatore veste la parte di un pesce, ma in un precedente Sistema Sisyphe non c'erano entità a forma di pesce nell'Acquario. Le menti di colori che vivevano lì potrebbero essere state dei pesci, ma le loro forme erano umane."
     },
     {
       "id": "BlackYarn_LowMorale",
-      "name": "Bereaved of Child",
-      "desc": "- Low Morale\n- On Skill Use, if Pwie is the main target, Clash Power +3, Base Power +2\n- When hit, inflict 1 Tangling (3 times per Skill)",
+      "name": "Lutto per il Bambino",
+      "desc": "- Morale Basso\n- All'Uso di un'Abilità, se il bersaglio principale è Pwie, Potere Scontro +3, Potere Base +2\n- Quando l'unità viene colpita, infligge 1 Attorcigliamento (3 volte per Abilità)",
       "summary": ""
     },
     {
       "id": "BlackYarn_Panic",
-      "name": "Bereaved of Child",
-      "desc": "- Panic\n- All Attacks target Pwie\n- On Skill Use, if Pwie is the main target, Clash Power +6, Base Power +4\n- Combat Start: Convert all Skill Coins into Unbreakable Coins\n- When hit, inflict 1 Tangling (6 times per Skill)",
+      "name": "Lutto per il Bambino",
+      "desc": "- Panico\n- Tutti gli Attacchi bersagliano Pwie\n- All'Uso di un'Abilità, se il bersaglio principale è Pwie, Potere Scontro +6, Potere Base +4\n- Inizio Combattimento: Converte tutte le Monete Abilità in Monete Infrangibili\n- Quando l'unità viene colpita, infligge 1 Attorcigliamento (6 volte per Abilità)",
       "summary": ""
     },
     {
       "id": "FlowerLaurelWreath",
-      "name": "Laurel Wreath of Atonement",
-      "desc": "- Remove all Stagger Thresholds\n- Clash Power +2\n- Take -50% SP damage from Sinking (rounded down)\n- Turn End: Heal 10 SP and gain 5 Haste next turn\n- <color=#ff6000><mark color=#ff000040><b><u>Clash Win: Heal 5 SP for all allies including this unit and Assist Units</color></mark></b></u>",
+      "name": "Alloro dell'Espiazione",
+      "desc": "- Rimuove tutte le Soglie di Stordimento\n- Potere Scontro +2\n- Subisce -50% danni ai PS da Annegamento (arrotondato per difetto)\n- Fine Turno: Recupera 10 PS e ottiene 5 Rapidità il turno successivo\n- <color=#ff6000><mark color=#ff000040><b><u>Scontro Vinto: Tutti gli alleati recuperano 5 PS, inclusa questa unità e le Unità di Supporto</color></mark></b></u>",
       "summary": "",
-      "flavor": "Let the confession of its sins bloom beneath the fragrance of flowers."
+      "flavor": "Lascia che la confessione dei suoi peccati sbocci sotto la fragranza dei fiori."
     },
     {
       "id": "AlriuneSillage",
-      "name": "Faint Aroma",
-      "desc": "- Max Stack: 30\n- Turn End: Take SP damage equal to Stack\n- If this unit took Sinking damage, gain 1 Stack\n- On Tremor Burst, apply 1 ~ 2 Faint Aroma on 3 other random allies\n- At max Stack:\n · Gain 2 Tremor and trigger Tremor Burst on self\n · Take Gloom damage equal to Sinking on self\n · Faint Aroma expires\n · Cannot gain for the rest of the turn\n- On death, apply half of this unit's Faint Aroma Stack randomly between this unit's allies (rounded down)",
+      "name": "Tenue Aroma",
+      "desc": "- Stack Max: 30\n- Fine Turno: Subisce danno ai PS pari alle Stack\n- Se questa unità ha subito danno da Annegamento, ottiene 1 Stack\n- Quando si innesca Scoppio Vibrazione, applica 1 ~ 2 Stack di Tenue Aroma su 3 altri alleati casuali\n- A Stack max:\n · Ottiene 2 Vibrazione e innesca Scoppio Vibrazione su di sé\n · Subisce danno Tristezza pari ad Annegamento su di sé\n · Tenue Aroma scade\n · Non può ottenere Tenue Aroma per il resto del turno\n- Alla morte, applica metà delle Stack di Tenue Aroma di questa unità in modo casuale agli alleati (arrotondato per difetto)",
       "summary": "",
-      "flavor": "Fragrance begets longing. Longing, in turn, becomes yearning."
+      "flavor": "La fragranza genera desiderio. Il desiderio, a sua volta, diventa brama."
     },
     {
       "id": "AlriunePetal",
-      "name": "Petals",
-      "desc": "Max Stack: 3\n- <color=#ff6000><mark color=#ff000040><b><u>At 3 Stacks, use a powerful Skill that turn</color></mark></b></u>\n- Deal +(Petals Stack on self x 10)% damage to Staggered targets\n- Turn End: Gain 1 Stack",
+      "name": "Petali",
+      "desc": "Stack Max: 3\n- <color=#ff6000><mark color=#ff000040><b><u>A 3 Stack, usa un'Abilità potente in quel turno</color></mark></b></u>\n- Infligge +(Stack di Petali su di sé x 10)% danno ai bersagli Storditi\n- Fine Turno: Ottiene 1 Stack",
       "summary": "",
-      "flavor": "One petal, two petals... and then, three."
+      "flavor": "Un petalo, due petali... e poi tre."
     },
     {
       "id": "ThreadDye",
-      "name": "Dyed Thread",
-      "desc": "- Max Stack: 3\n- Cannot gain Haste while having this effect\n- Turn End: Remove Haste that will be applied next turn\n- Turn End: Gain Bind next turn equal to Potency and lose 1 Stack\n- <color=#ff6000><mark color=#ff000040><b><u>At max Stack, gain Immobilize this turn and next turn; then, this effect expires</color></mark></b></u>",
+      "name": "Filo Tinto",
+      "desc": "- Stack Max: 3\n- Non può ottenere Rapidità mentre ha questo effettot\n- Fine Turno: Rimuove la Rapidità che verrebbe applicata nel turno successivo\n- Fine Turno: Ottiene Lentezza il turno successivo pari alla Potenza e perde 1 Stack\n- <color=#ff6000><mark color=#ff000040><b><u>A Stack max, ottiene Immobile questo turno e il turno successivo; poi l'effetto scade</color></mark></b></u>",
       "summary": "",
-      "flavor": "Like nails, threads will hold you fast, the color of its binds predetermined."
+      "flavor": "Come i chiodi, i fili ti terranno forte, il colore dei suoi vincoli predeterminato."
     },
     {
       "id": "SpreadingDye",
-      "name": "Gloss Medium",
-      "desc": "- If target has Bind, inflict 1 more Bleed Potency and Bleed Count\n- On Skill Use, if the main target has Dyed Thread or Tar Dye, the said Skill gains Final Power +1 and deals +20% damage",
+      "name": "Medium Lucido",
+      "desc": "- Se il bersaglio ha Lentezza, infligge 1 Potenza e Conteggio Sanguinamento in più\n- All'Uso di un'Abilità, se il bersaglio principale ha Filo Tinto o Tinta di Catrame, quell'Abilità ottiene Potere Finale +1 e infligge +20% danno",
       "summary": "",
-      "flavor": "Most dyes are meant to have a color.\nBut this one's dye has none.\n\nApplied in rough, uneven strokes, it reveals a spectrum of colors through nothing but the reflection and refraction of pure light."
+      "flavor": "La maggior parte dei coloranti sono pensati per essere colorati.\nMa questo non ha un colore.\n\nApplicato con tratti ruvidi ed irregolari, rivela uno spettro di colori attraverso nient'altro che la riflessione e rifrazione della luce pura."
     },
     {
       "id": "StickyDye",
-      "name": "Tar Dye",
-      "desc": "- Max Stack: 1\n- Min & Max Speed -1 (min 1)",
+      "name": "Colorante Catrame",
+      "desc": "- Stack Max: 1\n- Velocità Min & Max -1 (min 1)",
       "summary": "",
-      "flavor": "The dye clings, making every step harder to take."
+      "flavor": "Il colorante si attacca, rendendo ogni passo più difficile."
     },
     {
       "id": "ChargeKhaki",
-      "name": "Inertia of Drifting",
-      "desc": "- Unique Charge\n- Max Count: 20\n- Interacts the same way as normal Charge does to effects that raise or reduce Charge Potency and Count\n- Turn End: Lose 1 Count",
+      "name": "Inerzia della Deriva",
+      "desc": "- Carica Speciale\n- Conteggio Max: 20\n- Interagisce allo stesso modo della Carica classica con gli effetti che aumentano o riducono Potenza e Conteggio Carica\n- Fine Turno: Perde 1 Conteggio",
       "summary": "",
-      "flavor": "Those who are carried by the tide like buoys may not be able to change the flow of things, but they can still bolster the tide and commit to their acts within."
+      "flavor": "Coloro che vengono spinti dalla corrente come boe potrebbero non essere in grado di cambiare il flusso delle cose, ma possono comunque sostenersi con la marea e impegnarsi nelle loro azioni interiori"
     },
     {
       "id": "FinishedFabric",
-      "name": "Cut Fabric",
-      "desc": "- Max Stack: 30\n- Skills that gain or consume Charge Count (including Unique Charge) deal +(Stack)% damage (max 30%)\n- Turn End: Lose 5 Stacks\n  · If Shield was broken this turn, lose 10 Stacks instead",
+      "name": "Tessuto Tagliato",
+      "desc": "- Stack Max: 30\n- Le Abilità che fanno ottenere o usano Conteggio Carica (Carica Speciale inclusa) infliggono +(Stack)% danno (max 30%)\n- Fine Turno: Perde 5 Stack\n  · Se viene rotto lo Scudo in questo turno, perde invece 10 Stack",
       "summary": "",
-      "flavor": "Fabrics with functions of their own can only serve their purpose when properly cut."
+      "flavor": "I tessuti dotati di funzioni proprie possono svolgere la loro funzione solo quando tagliati correttamente."
     },
     {
       "id": "LargeTailoringShears",
-      "name": "Blossom Scissors",
-      "desc": "- Max Stack: 3\n- Deal +(5 + Stack x 5)% damage against Sinners (max 20%)\n- On Skill Use against Alteration Target Sinners, gain Clash Power equal to Stack",
+      "name": "Forbici Floreali",
+      "desc": "- tack Max: 3\n- Infligge +(5 + Stack x 5)% danno contro i Peccatori (max 20%)\n- All'Uso di un'Abilità contro i Peccatori con Bersaglio dell'Alterazione, ottiene Potere Scontro pari alle Stack",
       "summary": "",
-      "flavor": "The scissors used to sever the primordial materials produced underground are larger and more extraordinary still. These scissors have cut and recut the very first cloth ever woven. That flowers should bloom from them is only natural, for they have always cut things at their very roots."
+      "flavor": "Le forbici usate per recidere materiali primordiali prodotti nel sottosuolo sono ancora più grandi e straordinarie. Quelle forbici hanno tagliato e ritagliato il primo tessuto che è stato tessuto. Che i fiori sboccino da esse è solo naturale, visto che hanno sempre tagliato tutto alle loro radici."
     },
     {
       "id": "TailoringTarget",
-      "name": "Alteration Target",
-      "desc": "- Min & Max Speed +5\n- This turn's first-used Skill gains Clash Power +3\n- Combat Start: If this unit has an equipped Defense Skill, take -80% damage from Annette the Alterationist\n- Turn End: Lose 1 Stack",
+      "name": "Bersaglio dell'Alterazione",
+      "desc": "- Velocità Min & Max +5\n- L'Abilità usata per prima in questo turno ottiene Potere Scontro +3\n- Inizio Combattimento: Se questa unità ha equipaggiato una Abilità Difensiva, subisce -80% danno da Annette la Sarta\n- Fine Turno: Perde 1 Stack",
       "summary": "",
-      "flavor": "Rather than altering the clothes to fit the person, she alters the person to fit the clothes. Here, clothes are what define the wearer; preserving the garment and altering the person is how worth is protected and how the customer is served."
+      "flavor": "Piuttosto che modificare i vestiti per adattarli alla persona, lei modifica la persona per adattarla ai vestiti. Qui, l'abito fa il monaco; preservare l'indumento e alterare la persona è il modo in cui il valore viene protetto e come il cliente viene servito."
     },
     {
       "id": "ScissorsMark",
-      "name": "Mark of Shearing",
-      "desc": "- Max Stack: 9\n- Lose Defense Level equal to Stack",
+      "name": "Segno del Taglio",
+      "desc": "- Stack Max: 9\n- Perde Livello Difensivo pari alle Stack",
       "summary": "",
-      "flavor": "A cutting mark used to trim fabric and other materials to the required measurements."
+      "flavor": "Un segno usato per indicare il tessuto e gli altri materiali da tagliare alla lunghezza richiesta."
     },
     {
       "id": "DamagedFabric",
-      "name": "Sheared Apart",
-      "desc": "- Max Stack: 30\n- Turn Start : Gain 1 HP Healing Down for every 6 Stacks (max 5)\n- Upon Clashing against \"Patterning\" or \"Surfile à la Chaîne\", lose Clash Power equal to Stack",
+      "name": "Tagliato a Pezzi",
+      "desc": "- Stack Max: 30\n- Inizio Turno : Ottiene 1 Cure PV Ridotte per ogni 6 Stack (max 5)\n- Dopo essersi scontrata con \"Patterning\" o \"Surfile à la Chaîne\", perde Potere Scontro pari alle Stack",
       "summary": "",
-      "flavor": "Once the fabric has been cut apart, sewing the scraps back together only makes patchwork. It can never return to a single fabric woven from its original threads."
+      "flavor": "Una volta che un tessuto è stato tagliato, ricucire assieme gli scarti crea solo un patchwork. Non potrà mai tornare a quel singolo tessuto realizzato con i fili originali."
     },
     {
       "id": "ThirdTailor_LowMorale",
-      "name": "Trembling Hands",
-      "desc": "- Low Morale\n- Take +7.5% damage\n- Every time this unit is hit, gain +1 Tremor Count (once per Skill, max 5 per turn)",
+      "name": "Mani Tremanti",
+      "desc": "- Morale Basso\n- Subisce +7.5% danno\n- Ogni volta che questa unità viene colpita, ottiene +1 Conteggio Vibrazione (una volta per Abilità, max 5 per turno)",
       "summary": "",
       "undefined": "-",
-      "flavor": "My hands are starting to shake, and even the scissors won't stay steady... I won't be able to cut the pattern anymore..."
+      "flavor": "Le mie mani hanno iniziato a tremare, e persino le forbici non riescono a rimanere stabili... Non potrò più tagliare il cartamodello..."
     },
     {
       "id": "ThirdTailor_Panic",
-      "name": "Trembling Hands",
+      "name": "Mani Tremanti",
       "desc": "- Panic\n- Take +15% damage\n- Every time this unit is hit, gain 1 Tremor Potency and +1 Tremor Count (once per Skill, max 5 per turn)",
       "summary": "",
       "undefined": "-",
-      "flavor": "My hands are starting to shake, and even the scissors won't stay steady... I won't be able to cut the pattern anymore..."
+      "flavor": "Le mie mani hanno iniziato a tremare, e persino le forbici non riescono a rimanere stabili... Non potrò più tagliare il cartamodello..."
     },
     {
       "id": "GoldenLeatherEnhance",
-      "name": "Shower of Stinging Sunshine [King of Needleworks]",
-      "desc": "Skill Final Power +1 for every 3 Naildle on the target (max 3)",
+      "name": "Doccia di Luce Solare Pungente [Re dei Ricami]",
+      "desc": "Potere Finale Abilità +1 per ogni 3 Chiodillo sul bersaglio (max 3)",
       "summary": "",
-      "flavor": "\"You don't have to listen anymore. You only have to make it so you cannot hear them. Simply do what you want. Don't deny yourself.\""
+      "flavor": "\"Non devi più ascoltare. Devi solo fare in modo di non ascoltarli. Fai semplicemente ciò che vuoi. Non negarti.\""
     },
     {
       "id": "NoirShieldUp",
-      "name": "Blessing of the Obsidian God",
-      "desc": "- Max Potency: 999\n- Base Count: 2\n- Cannot be Staggered\n- Turn Start: The Part gains Shield equal to Stack\n- This effect counts as a \"Shield Management\" effect\n- Lose Stack when losing Shield\n- Turn End: Lose 1 Count",
+      "name": "Grazia Del Dio D'Ossidiana",
+      "desc": "- Potenza Max: 999\n- Conteggio Base: 2\n- L'unità non può essere Stordita\n- Inizio Turno: La Parte ottiene Scudo pari alle Stack\n- Questo effetto viene considerato come un \"Gestione delle Scudo\"\n- Perde Stack quando perde Scudo\n- Fine Turno: Perde 1 Conteggio",
       "summary": "",
-      "flavor": "The Obsidian God. The Obsidian Giant. The Chaplain of the Hammer. The Obsidian God of the Grand Magasin, whose domain is the power of preservation, grants his blessing through direct contact. The hammer is hard, and its black hue absorbs all things and brings them to a halt... much like death itself."
+      "flavor": "Il Dio d'Ossidiana. Il Gigante d'Ossidiana. Il Cappellano del Martello. Il Dio d'Ossidiana del Grand Magasin, il cui dominio è sul potere della preservazione, dona le sue benedizioni tramite il contatto diretto. Il Martello è pesante, e la sua tinta nera assorbe tutte le cose e le porta a fermarsi... Come la morte stessa."
     },
     {
       "id": "NoirShieldPiece",
-      "name": "Apocalyptic Vengeance",
-      "desc": "- Max Stack: 2\n- Take -10% damage\n- At 2 Stacks, Final Power -2",
+      "name": "Vendetta Apocalittica",
+      "desc": "- Stack Max: 2\n- Subisce -10% danno\n- A 2 Stack, Potere Finale -2",
       "summary": "",
-      "flavor": "It feels as though a fragment of imaginary mass is pressing down upon the body—a crude imitation of a Giant's punishment. According to the covenant, ascending to a higher place is akin to bearing a heavy boulder and climbing in silence."
+      "flavor": "Sembra come se un frammento di massa immaginaria stia premendo sul corpo—una cruda imitazione della punizione di un Gigante. Secondo il patto, ascendere ad un luogo più alto assomiglia a spingere un masso pesante e arrampicarsi in silenzio."
     },
     {
       "id": "VibrationResonance",
