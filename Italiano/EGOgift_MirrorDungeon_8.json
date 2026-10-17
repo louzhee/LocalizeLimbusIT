@@ -2,119 +2,119 @@
   "dataList": [
     {
       "id": 9284,
-      "name": "Out-of-style Rouge Clothing",
-      "desc": "When allies heal HP through Base Attack Skills' Skill or Coin effects, heal +50% HP (3 times per turn; rounded down)\n\n[Haute Couture::Boutique du Rouge Ishmael Exclusive Effect]\nIf Haute Couture::The Crimson God of Le Rouge Sinclair is with this unit on the field, gain 1 [RougeIshmaelCocoon] at Turn Start and enter [RougeIshmaelCocoon] state (once per Encounter)\n- If \"In this Encounter, when this unit takes damage that brings its HP down to 0, nullify that damage; then, immediately gain 2 [RougeIshmaelCocoon] and enter the [RougeIshmaelCocoon] state (once per Encounter)\" from the Passive \"Into the <noparse>Changing Room</noparse>…\" activated, the exclusive effect does not activate\n- When the exclusive effect activates, the effect \"In this Encounter, when this unit takes damage that brings its HP down to 0, nullify that damage; then, immediately gain 2 [RougeIshmaelCocoon] and enter the [RougeIshmaelCocoon] state (once per Encounter)\" from the Passive \"Into the <noparse>Changing Room</noparse>…\" does not activate",
+      "name": "Indumenti Rouge Fuori-Moda",
+      "desc": "Quando gli alleati recuperano PV tramite gli effetti l'Abilità delle Abilità Attacco Base o gli effetti Moneta, recupera +50% di PV (3 volte per turno; arrotondato per difetto)\n\n[Effetto Esclusivo di Haute Couture::Boutique du Rouge Ishmael]\nSe Haute Couture::Il Dio Cremisi di Le Rouge Sinclair si trova insieme a questa unità sul campo, ottiene 1 [RougeIshmaelCocoon] ad Inizio Turno ed entra nello stato [RougeIshmaelCocoon] (una volta per Incontro)\n- Se l'effetto \"Durante questo incontro, quando questa Unità subisce danni che porterebbero i PV a 0, annulla quel danno; poi, Ottiene immediatamente 2 [RougeIshmaelCocoon] ed entra nello stato di [RougeIshmaelCocoon] (una volta per Incontro)\" dalla Passiva \"Nel <noparse>Camerino</noparse>...\" è attivo, l'effetto esclusivo non si attiva\n- Quando l'effetto esclusivo si attiva, l'effetto \"Durante questo incontro, quando questa Unità subisce danni che porterebbero i PV a 0, annulla quel danno; poi, Ottiene immediatamente 2 [RougeIshmaelCocoon] ed entra nello stato di [RougeIshmaelCocoon] (una volta per Incontro)\" dalla Passiva \"Nel <noparse>Camerino</noparse>...\" non si attiva",
       "simpleDesc": [
         {
           "abilityID": 9284,
-          "simpleDesc": "Immediately enter [RougeIshmaelCocoon]"
+          "simpleDesc": "Entra immediatamente in [RougeIshmaelCocoon]"
         },
         {
           "abilityID": 92841,
-          "simpleDesc": "Heal more HP"
+          "simpleDesc": "Recupera più PV"
         }
       ]
     },
     {
       "id": 9285,
       "name": "Soda Pop",
-      "desc": "Sinners who attempt to heal HP on self this turn using Skill or Coin effects gain the following effects next turn:\n- Skills deal +10% damage\n- Gain [AttackUp] equal to (sum of HP healed during the turn (including excess healing) / 10) (max 6; rounded down)\n\nIf there are other Identities on the field that are in the same faction as the units that activated the above effect, they gain half of the [AttackUp] the above units gained (min 1, max 3 per turn; rounded down)",
+      "desc": "I Peccatori che tenteranno di recuperare i propri PV in questo turno usando un'Abilità o degli effetti Moneta otterranno i seguenti effetti nel turno successivo:\n- Le Abilità infliggono +10% di danno\n- Ottieni [AttackUp] pari a (somma dei PV recuperati durante il turno (incluse cure in eccesso) / 10) (max 6; arrotondato per difetto)\n\nSe ci sono altre Identità sul campo appartenenti alla stessa fazione delle unità a cui è stato attivato l'effetto, ottengono metà della quantità di [AttackUp] ottenuta dalle unità affette (minimo 1, max 3 per turno; arrotondato per difetto)",
       "simpleDesc": [
         {
           "abilityID": 9285,
-          "simpleDesc": "Deal more damage and gain [AttackUp]"
+          "simpleDesc": "Infliggi più danno e ottieni [AttackUp]"
         }
       ]
     },
     {
       "id": 9286,
-      "name": "Maison du Noir Slacks",
-      "desc": "When allies that have 2+ [Charge] Potency trigger [VibrationExplosion], apply the following effects:\n- Deal ([Charge] Potency on self x [Charge] Count) Envy Damage (2 times per skill, max 100 damage per tick)\n- Every 2 times the above effect deals Envy Damage, inflict 3 [Binding] next turn on target\n\nEvery time an ally triggers [VibrationExplosion] using a Skill, gain ([Charge] Potency on self / 3) [AttackUp] next turn (max 5 per turn; rounded down)",
+      "name": "Pantaloni Maison du Noir",
+      "desc": "Quando gli alleati che hanno 2+ Potenza [Charge] innescano [VibrationExplosion], applica i seguenti effetti:\n- Infliggi (Potenza [Charge] su di sé x Conteggio [Charge]) Danno Invidia (2 volte per abilità, max 100 di danno per tick)\n- Ogni 2 volte che l'effetto precedente infligge Danno Invidia, infliggi 3 [Binding] al bersaglio nel turno successivo\n\nOgni volta che un alleato innesca [VibrationExplosion] usando un'Abilità, ottiene (Potenza [Charge] su di sé / 3) [AttackUp] nel turno successivo (max 5 per turno; arrotondato per difetto)",
       "simpleDesc": [
         {
           "abilityID": 9286,
-          "simpleDesc": "Deal Envy Damage and inflict [Binding]"
+          "simpleDesc": "Infliggi Danno Invidia e infliggi [Binding]"
         },
         {
           "abilityID": 92861,
-          "simpleDesc": "Gain [AttackUp]"
+          "simpleDesc": "Ottieni [AttackUp]"
         }
       ]
     },
     {
       "id": 9287,
-      "name": "Le Noir Mary Janes",
-      "desc": "Combat Start: On Hit from an Identity that has the highest Shield, deal (current Shield / 2) Sloth Damage (2 times per Skill, max 100 damage per tick; rounded down)\n- If 2+ Identities have the same Shield HP, applies to the Identity with the earlier Deployment Order\n\nIf the affected Identity is a [PersonalityCharge], deal Sloth Damage equal to current Shield instead (3 times per skill, max 100 per tick; rounded down)",
+      "name": "Mary Jane Le Noir",
+      "desc": "Inizio Combattimento: Sul Colpo da un'Identità che ha lo Scudo più alto, infliggi (Scudo attuale / 2) Danno Accidia (2 volte per Abilità, max 100 di danno per tick; arrotondato per difetto)\n- Se 2+ Identità hanno la stessa quantità di Scudo PV, viene applicato all'Identità schierata per prima nell'Ordine di Schieramento\n\nSe l'Identità affetta è un'[PersonalityCharge], invece infliggi Danno Accidia pari allo Scudo attuale (3 volte per abilità, max 100 per tick; arrotondato per difetto)",
       "simpleDesc": [
         {
           "abilityID": 9287,
-          "simpleDesc": "Deal Sloth Damage based on Shield"
+          "simpleDesc": "Infliggi Danno Accidia in base allo Scudo"
         }
       ]
     },
     {
       "id": 9288,
-      "name": "Straight Pin of the King of Needleworks",
-      "desc": "Turn Start: If no enemies have [SewingKingMark], inflict [SewingKingMark] on a random enemy (in Focused Encounters, a Part)",
+      "name": "Spillo da Cucito del Re dei Ricami",
+      "desc": "Inizio Turno: Se nessun nemico ha [SewingKingMark], infliggi [SewingKingMark] su un nemico casuale (negli Incontri Mirati, una Parte)",
       "simpleDesc": [
         {
           "abilityID": 9288,
-          "simpleDesc": "Inflict [SewingKingMark]; deal fixed damage on death"
+          "simpleDesc": "Infliggi [SewingKingMark]; infliggi danno fisso per morte"
         }
       ]
     },
     {
       "id": 9289,
-      "name": "Cartilage",
-      "desc": "Skills that consume [Charge] Count or Unique [Charge] deal +([Charge] Potency on self x 2)% damage (max 10%)\n\nTurn End: Units that consumed [Charge] Count or Unique [Charge] this turn gain 1 [Agility] next turn\n\nIf a unit's Speed is faster than the target's, Clash Power +1\n- If the said unit is a \"Sisyphe\" Identity, gain Final Power +1 instead",
+      "name": "Cartilagine",
+      "desc": "Le Abilità che consumano Conteggio [Charge] o [Charge] Speciale infliggono +(Potenza [Charge] su di sé x 2)% di danno (max 10%)\n\nFine Turno: Le unità che hanno consumato Conteggio [Charge] o [Charge] Speciale questo turno ottengono 1 [Agility] nel turno successivo\n\nSe la Velocità di una unità è maggiore rispetto al bersagliom Potere Scontro +1\n- Se tale unità è un'Identità del \"Sisyphe\", invece ottiene Potere Finale +1",
       "simpleDesc": [
         {
           "abilityID": 9289,
-          "simpleDesc": "Deal more damage, gain [Agility], and gain Clash/Final Power"
+          "simpleDesc": "Infliggi più danno, ottieni [Agility] e ottieni Potere Scontro/Finale"
         }
       ]
     },
     {
       "id": 9290,
-      "name": "Blanket",
-      "desc": "Identities that equipped Defense Skills this turn take -20% damage from enemy attacks\n- Combat End: If the affected Identity is a [PersonalityCharge], gain 2 [AttackUp] next turn\n- Combat End: If the affected Identity is a \"Sisyphe\" Identity, gain 1 [ResultEnhancement] next turn",
+      "name": "Coperta",
+      "desc": "Le Identità che hanno equipaggiato delle Abilità Difensive subiscono -20% di danno dagli attacchi nemici per questo turno\n- Fine Combattimento: Se l'Identità affetta è un'[PersonalityCharge], ottieni 2 [AttackUp] nel turno successivo\n- Fine Combattimento: Se l'Identità affetta è un'Identità del \"Sisyphe\",ottieni 1 [ResultEnhancement] nel turno successivo",
       "simpleDesc": [
         {
           "abilityID": 9290,
-          "simpleDesc": "Take less damage and gain [AttackUp]/[ResultEnhancement]"
+          "simpleDesc": "Subisci meno danno e ottieni [AttackUp]/[ResultEnhancement]"
         }
       ]
     },
     {
       "id": 9291,
-      "name": "Blossom Scissors",
-      "desc": "[Effects apply only to #1 Deployed Identity]\n\n\"Sisyphe\" Identity or [PersonalityCharge]: On Base Skill final Coin Hit, deal Slash Damage equal to 5% of the said Coin's final damage on the main target (once per Skill)",
+      "name": "Forbici Floreali",
+      "desc": "[Gli effetti si applicano solo alla 1° Identità Schierata]\n\nIdentità del \"Sisyphe\" o [PersonalityCharge]: Sul Colpo della Moneta finale dell'Abilità Base, infliggi Danno Tagliene pari al 5% del danno finale di quella Moneta sul bersaglio principale (una volta per Abilità)",
       "simpleDesc": [
         {
           "abilityID": 9291,
-          "simpleDesc": "Deal Slash Damage on the main target"
+          "simpleDesc": "Infliggi Danno Tagliente sul bersaglio principale"
         }
       ]
     },
     {
       "id": 19291,
-      "name": "Blossom Scissors+",
-      "desc": "[Effects apply only to #1 Deployed Identity]\n\n\"Sisyphe\" Identity or [PersonalityCharge]: On Base Skill final Coin Hit, deal Slash Damage equal to <style=\"upgradeHighlight\">10%</style> of the said Coin's final damage on the main target (once per Skill)",
+      "name": "Forbici Floreali+",
+      "desc": "[Gli effetti si applicano solo alla 1° Identità Schierata]\n\nIdentità del \"Sisyphe\" o [PersonalityCharge]: Sul Colpo della Moneta finale dell'Abilità Base, infliggi Danno Tagliene pari al <style=\"upgradeHighlight\">10%</style> del danno finale di quella Moneta sul bersaglio principale (una volta per Abilità)",
       "simpleDesc": [
         {
           "abilityID": 19291,
-          "simpleDesc": "Deal Slash Damage on the main target"
+          "simpleDesc": "Infliggi Danno Tagliente sul bersaglio principale"
         }
       ]
     },
     {
       "id": 29291,
-      "name": "Blossom Scissors++",
-      "desc": "[Effects apply only to #1 Deployed Identity]\n\n\"Sisyphe\" Identity or [PersonalityCharge]: On Base Skill final Coin Hit, deal Slash Damage equal to <style=\"upgradeHighlight\">15%</style> of the said Coin's final damage on the main target (once per Skill)",
+      "name": "Forbici Floreali++",
+      "desc": "[Gli effetti si applicano solo alla 1° Identità Schierata]\n\nIdentità del \"Sisyphe\" o [PersonalityCharge]: Sul Colpo della Moneta finale dell'Abilità Base, infliggi Danno Tagliene pari al <style=\"upgradeHighlight\">15%</style> del danno finale di quella Moneta sul bersaglio principale (una volta per Abilità)",
       "simpleDesc": [
         {
           "abilityID": 29291,
-          "simpleDesc": "Deal Slash Damage on the main target"
+          "simpleDesc": "Infliggi Danno Tagliente sul bersaglio principale"
         }
       ]
     }
