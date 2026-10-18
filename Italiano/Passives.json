@@ -2461,7 +2461,7 @@
     {
       "id": 1081302,
       "name": "Koi-Koi [こいこい]",
-      "desc": "Inizio Turno: se questa unità non ha [HanafudaCombo], ottiene 0 Potenza [HanafudaCombo] e 3 Conteggio [HanafudaCombo]\n\nInizio Turno: se questa unità non ha un Seme in mano, ottiene un Seme casuale ([HanafudaOne], [HanafudaTwo], o [HanafudaThree]) che corrisponde ad un'Abilità Attacco Base sullo Slot Abilità più a sinistra di questa unità\n\nInizio Combattimento: quando questa unità usa un'Abilità Attacco Base o un'Abilità E.G.O presente sullo Slot Abilità più a sinistra, attiva il seguente effetto (una volta per turno):\n- Il turno successivo, converte la Mano su di sé a quella corrispondente all'Affinità Peccato dell'Abilità usata\n- Se l'Abilità era o \"Sakura-sen\" o un'Abilità E.G.O, ottiene 1 Potenza [HanafudaCombo]\n- Se l'Affinità dell'Abilità corrisponde all'Affinità nella descrizione della Mano corrente (dunque \"crea una Mano\"), attiva il seguente effetto:\n  · Ottiene 1 Potenza [HanafudaCombo]\n  · Se questa unità ha formato una Mano di seguito nel turno precedente e in questo turno, gain 1 Potenza [HanafudaCombo]\n  · Sul Colpo con la suddetta Abilità: innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1\n  · 25% di possibilità di ottenere 1 Risorsa E.G.O corrispondente all'Affinità dell'Abilità\n- A Fine Attacco dell'Abilità: a 5 Potenza [HanafudaCombo], o a 0 Conteggio [HanafudaCombo], usa \"Kōzan\"",
+      "desc": "Inizio Turno: se questa unità non ha [HanafudaCombo], ottiene 0 Potenza [HanafudaCombo] e 3 Conteggio [HanafudaCombo]\n\nInizio Turno: se questa unità non ha un Seme in mano, ottiene un Seme casuale ([HanafudaOne], [HanafudaTwo], o [HanafudaThree]) che corrisponde ad un'Abilità Attacco Base sullo Slot Abilità più a sinistra di questa unità\n\nInizio Combattimento: quando questa unità usa un'Abilità Attacco Base o un'Abilità E.G.O presente sullo Slot Abilità più a sinistra, attiva il seguente effetto (una volta per turno):\n- Il turno successivo, converte la Mano su di sé a quella corrispondente all'Affinità Peccato dell'Abilità usata\n- Se l'Abilità era o \"Sakura-sen\" o un'Abilità E.G.O, ottiene 1 Potenza [HanafudaCombo]\n- Se l'Affinità dell'Abilità corrisponde all'Affinità nella descrizione della Mano corrente (dunque \"crea una Mano\"), attiva il seguente effetto:\n  · Ottiene 1 Potenza [HanafudaCombo]\n  · Se questa unità ha formato una Mano di seguito nel turno precedente e in questo turno, ottiene 1 Potenza [HanafudaCombo]\n  · Sul Colpo con la suddetta Abilità: innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1\n  · 25% di possibilità di ottenere 1 Risorsa E.G.O corrispondente all'Affinità dell'Abilità\n- A Fine Attacco dell'Abilità: a 5 Potenza [HanafudaCombo], o a 0 Conteggio [HanafudaCombo], usa \"Kōzan\"",
       "summary": "Quando crea una Mano, ottiene [HanafudaCombo]. Innesca Scoppio Vibrazione."
     },
     {
@@ -2567,13 +2567,13 @@
       "id": 1091401,
       "name": "Corna Festive",
       "desc": "Ottiene 1 [Charge] ogni volta che quest'unità consuma 10 Conteggio [Charge] cumulativo in quest'Incontro\n\nQuando usa un'Abilità Attacco Base che infligge Potenza [Sinking] Potency, se il bersaglio non ha [Sinking], quest'unità ottiene 5 [Sinking] e raddoppia la quantità di Potenza Annegamento che l'Abilità applica (una volta per turno; negli Incontri Mirati, la Parte)",
-      "summary": "If enemy does not have [Sinking], gain [Sinking] and inflict more [Sinking] Potency"
+      "summary": "If enemy does not have [Sinking], ottiene [Sinking] and inflict more [Sinking] Potency"
     },
     {
       "id": 1091411,
       "name": "Corna Festive",
       "desc": "Ottiene 1 [Charge] ogni volta che quest'unità consuma 10 Conteggio [Charge] cumulativo in quest'Incontro\n\nQuando usa un'Abilità Attacco Base che infligge Potenza [Sinking] Potency, se il bersaglio non ha [Sinking], quest'unità ottiene 5 [Sinking] e raddoppia la quantità di Potenza Annegamento che l'Abilità applica (una volta per turno; negli Incontri Mirati, la Parte)\n\n<style=\"highlight\">A meno del 35% di PV, L'Abilità Attacco Base ottiene Potere Finale +1</style>",
-      "summary": "If enemy does not have [Sinking], gain [Sinking] and inflict more [Sinking] Potency\nAt less than 35% HP, Final Power +1"
+      "summary": "If enemy does not have [Sinking], ottiene [Sinking] and inflict more [Sinking] Potency\nAt less than 35% HP, Potere Finale +1"
     },
     {
       "id": 1091421,
@@ -2602,25 +2602,25 @@
       "id": 1111421,
       "name": "Occhio Di Falco",
       "desc": "Inizio Combattimento: applica 1 [Protection] il turno successivo ad 1 alleato con la percentuale di PV minore",
-      "summary": "Gain Protection"
+      "summary": "Ottiene Protection"
     },
     {
       "id": 1021402,
       "name": "Prescritto Consegnato Su Un Foglietto",
       "desc": "Inizio Turno:\n- Ottiene [IndexPrescriptFaust_0] / [IndexPrescriptFaust_1] / [IndexPrescriptFaust_2] / [IndexPrescriptFaust_3] in base a [BlessingOfIndexPrescriptAlly] su di sé\n- Infligge [IndexPrescriptTargetToEnemy] ad un nemico casuale (negli Incontri Mirati, ad una Parte casuale)\n- Applica [IndexPrescriptTargetMarkToEnemy] alle Abilità Base di quest'Unità sul Pannello Di Controllo (1 per Slot, max 2 Abilità)\n· A 6+ [BlessingOfIndexPrescriptAlly], l'effetto dà priorità all'Abilità 3\n- Tutti gli effetti sovracitati e [IndexPrescript_Base] non vengono effettuati se l'Unità è Stordita, è <noparse>Immobilizzata</noparse> o è sotto l'effetto di <noparse>Corrosione</noparse>",
-      "summary": "Gain Prescript\nInflict 'The Prescript's Target' to random target\nApply 'Mark of the Prescript' on a Base Attack Skill"
+      "summary": "Ottiene Prescript\nInflict 'The Prescript's Target' to random target\nApply 'Mark of the Prescript' on a Base Attack Skill"
     },
     {
       "id": 1021403,
       "name": "Volontà Del Prescritto",
       "desc": "Fine Turno: Se il [IndexPrescript_Base] è stato portato a termine in questo turno, recupera 4 PS ed ottiene 1 [BlessingOfIndexPrescriptAlly] (una volta per turno)\n- Quando esegue un [IndexPrescript_Base], se il bersaglio principale ha [IndexPrescriptTargetToEnemy] su di sé, si cura invece di 8 PS ed ottiene 3 [BlessingOfIndexPrescriptAlly]\n\nFine Turno: Se il [IndexPrescript_Base] non è stato eseguito in questo turno, ottiene 5 [KarmaOfIndexAlly]\n- A 9 [BlessingOfIndexPrescriptAlly], non ottiene [KarmaOfIndexAlly]\n- Se quest'Unità ha provato ad eseguire il [IndexPrescript_Base] all'Inizio del Combattimento, ma non ha potuto bersagliare il nemico durante il Turno, non ottiene [KarmaOfIndexAlly]",
-      "summary": "Upon executing Prescript, heal SP and gain Grace of the Prescript\nUpon failing Prescript, gain Karmic Consequence"
+      "summary": "Upon executing Prescript, heal SP and ottiene Grace of the Prescript\nUpon failing Prescript, ottiene Karmic Consequence"
     },
     {
       "id": 1021401,
       "name": "Lama Del Proselito",
       "desc": "Infligge +2% danni con le Abilità marchiate con [IndexPrescriptTargetMarkToEnemy] per ogni [BlessingOfIndexPrescriptAlly] su di sé (max 16%)\n- A 9 [BlessingOfIndexPrescriptAlly], infligge invece +20% danni con le Abilità Base\n\nSu Colpo con Abilità Base sui nemici affetti da [IndexPrescriptTargetToEnemy], ottiene 1 [Breath] e infligge 1 [Sinking] (una volta per turno)\n- Incrementa il numero di volte che quest'effetto si può attivare per turno di 1 ogni 3 [BlessingOfIndexPrescriptAlly] (max 2)\n\n- A 9 [BlessingOfIndexPrescriptAlly], le Abilità Base infliggono +1 Potenza [Sinking] in più e quest'Unità ottiene +1 Potenza [Breath] in più",
-      "summary": "Skills marked with Mark of the Prescript deal more damage based on Grace of the Prescript Stack\nOn Hit, gain Poise and inflict Sinking"
+      "summary": "Skills marked with Mark of the Prescript deal more damage based on Grace of the Prescript Stack\nOn Hit, ottiene Poise and inflict Sinking"
     },
     {
       "id": 1021421,
@@ -2632,13 +2632,13 @@
       "id": 1031402,
       "name": "Prescritto Consegnato Su Un Dispositivo",
       "desc": "Inizio Turno:\n- Ottiene [IndexPrescriptDon_0] / [IndexPrescriptDon_1] / [IndexPrescriptDon_2] / [IndexPrescriptDon_3] in base al livello di [UnlockBuff_Base] su di sé\n- Infligge [IndexPrescriptTargetToEnemy] ad un nemico casuale (negli Incontri Mirati, ad una Parte)\n- Applica [IndexPrescriptTargetMarkToEnemy] alle Abilità Attacco Base di questa unità sul Pannello di Controllo (1 per Slot, max 2 Abilità)\n· A [UnlockBuffAlly_2]+, l’effetto dà priorità all’Abilità 3\n- Se questa unità è Stordita, Immobilizzata, in Panico o in <noparse>Corrosione</noparse> E.G.O, tutti gli effetti sovracitati e [IndexPrescript_Base_2nd] non si attivano\n\nSe questa unità ha [UnlockBuffAlly_3] ad Inizio Turno, ottiene [Blandishment_Shin]",
-      "summary": "Gain Prescript\nInflict The Prescript's Target to random target\nApply Mark of the Prescript on a Base Attack Skill"
+      "summary": "Ottiene Prescript\nInflict The Prescript's Target to random target\nApply Mark of the Prescript on a Base Attack Skill"
     },
     {
       "id": 1031403,
       "name": "Volontà Del Prescritto",
       "desc": "Fine Turno: Se il [IndexPrescript_Base_2nd] è stato portato a termine in questo turno, recupera 4 PS ed ottiene 1 [BlessingOfIndexPrescriptAlly] (una volta per turno)\n- Quando si porta a termine il [IndexPrescript_Base_2nd], se il bersaglio principale ha [IndexPrescriptTargetToEnemy], si cura invece di 8 PS ed ottiene 3 [BlessingOfIndexPrescriptAlly]\n\nFine Turno: Se il [IndexPrescript_Base_2nd] non è stato portato a termine in questo turno, ottiene 5 [KarmaOfIndexAlly]\n- A [UnlockBuffAlly_3], non ottiene [KarmaOfIndexAlly]\n- Se questa unità prova ad eseguire un [IndexPrescript_Base_2nd] all’Inizio del Combattimento, ma non ha potuto bersagliare un nemico durante la fase di combattimento, non ottiene [KarmaOfIndexAlly] a Fine Turno",
-      "summary": "Upon executing Prescript, heal SP and gain Grace of the Prescript\nUpon failing Prescript, gain Karmic Consequence"
+      "summary": "Upon executing Prescript, heal SP and ottiene Grace of the Prescript\nUpon failing Prescript, ottiene Karmic Consequence"
     },
     {
       "id": 1031404,
@@ -2739,13 +2739,13 @@
       "id": 1011505,
       "name": "Dispositivo dell’Oracolo [Caduceo]",
       "desc": "Viene assegnata un’arma casuale ad ogni Moneta per le Abilità Attacco Base. Ogni arma ha un effetto unico.\n- [YisangWeapon01Hatchet]\n- [YisangWeapon02Stiletto]\n- [YisangWeapon03Greatsword]\n- [YisangWeapon04Rapier]\n- [YisangWeapon05Sledgehammer]\n- [YisangWeapon06Ultragreatsword]\n- [YisangWeapon07Lance]\n- [YisangWeapon08Chain]\n- [YisangWeapon09Scythe]\n\nOttiene 1 [StackYisangSpecialSkill] quando usa le Abilità con [IndexPrescriptTargetMarkToEnemy]",
-      "summary": "A random weapon is assigned\nGain special effect when using 'Furioso-Replica'"
+      "summary": "A random weapon is assigned\nOttiene special effect when using 'Furioso-Replica'"
     },
     {
       "id": 1011506,
       "name": "Dispositivo dell’Oracolo [Caduceo]",
       "desc": "Viene assegnata un’arma casuale ad ogni Moneta per le Abilità Attacco Base. Ogni arma ha un effetto unico.\n- [YisangWeapon01Hatchet]\n- [YisangWeapon02Stiletto]\n- [YisangWeapon03Greatsword]\n- [YisangWeapon04Rapier]\n- [YisangWeapon05Sledgehammer]\n- [YisangWeapon06Ultragreatsword]\n- [YisangWeapon07Lance]\n- [YisangWeapon08Chain]\n- [YisangWeapon09Scythe]\n\nOttiene 1 [StackYisangSpecialSkill] quando usa le Abilità con [IndexPrescriptTargetMarkToEnemy]\n\n<style=\"highlight\">Converte [BurningWoundYisangMask] in [BurningWoundYisang] alla fine del turno se questa unità ha usato ‘Furioso (Replica)’ per la prima volta in questo Incontro\n\nInizio Turno: Se questa unità ha [BurningWoundYisang] ed ha ‘Furioso (Replica)’ sul Pannello di Controllo, ottiene [BlackNightmareYisang]</style>",
-      "summary": "A random weapon is assigned\nGain special effect when using 'Furioso-Replica'"
+      "summary": "A random weapon is assigned\nOttiene special effect when using 'Furioso-Replica'"
     },
     {
       "id": 1011501,
@@ -2818,7 +2818,7 @@
     {
       "id": 1121503,
       "name": "Supporto A Scariche Alterne",
-      "desc": "Inizio Turno: Se ci sono 3+ con Equipaggiamento E.G.O, inclusa questa unità, tutti gli alleati con Equipaggiamento E.G.O. ottengono 1 [AttackUp]\n\nSe questa unità ha 12 o meno Conteggio [Charge] quando usa Conteggio [Charge] per l'effetto della Passiva E.G.O di AEDD Gregor:\nSe Colpisce Testa, invece di usare 2 Conteggio [Charge] Count, questa unità usa 4 Scudo o PV per attivare la Passiva dell'E.G.O\n- Questo effetto si attiva solo quando l'unità è a 25%+ PV"
+      "desc": "Inizio Turno: Se ci sono 3+ con Equipaggiamento E.G.O, inclusa questa unità, tutti gli alleati con Equipaggiamento E.G.O. ottengono 1 [AttackUp]\n\nSe questa unità ha 12 o meno Conteggio [Charge] quando usa Conteggio [Charge] per l'effetto della Passiva E.G.O di AEDD Gregor:\nSe Colpisce Testa, invece di usare 2 Conteggio Conteggio [Charge], questa unità usa 4 Scudo o PV per attivare la Passiva dell'E.G.O\n- Questo effetto si attiva solo quando l'unità è a 25%+ PV"
     },
     {
       "id": 1121501,
@@ -3037,7 +3037,7 @@
     {
       "id": 1111507,
       "name": "Spada Sigillata [Lævateinn]",
-      "desc": "Quando entra in un Incontro per la prima volta, ottiene [MiddleFatherSwordOneOutis]\n\n<style=\"highlight\">Inizio Turno: A 0 [CountSkillMidOutis], ottiene [CountSkillMidOutis] corrispondente al livello di risveglio\n- [MiddleFatherSwordOneOutis]: Ottiene 1 [CountSkillMidOutis]\n- [MiddleFatherSwordTwoOutis]: Ottiene 2 [CountSkillMidOutis]\n- [MiddleFatherSwordThreeOutis]: Ottiene 2 [CountSkillMidOutis]\n\nQuando le seguenti condizioni vengono soddisfatte, perde 1 [CountSkillMidOutis] (una volta per turn)\n- Quando usa l'Abilità \"Timbro Della Vendetta\", perde 1 Stack (anche quando \"Timbro Della Vendetta\" si attiva come Contrattacco)\n- A 6+ somma di Rison-A Invidia, perde 1 Stack a Fine Turno\n\nA 0 Stack di [CountSkillMidOutis], usa \"Oggi si Spacchetta!\" come Attacco Incontrastato a Fine Abilità\n- Fine Turno: A 0 Stack di [CountSkillMidOutis], e se questa unità non è riuscita ad usare \"Oggi si Spacchetta!\" in quel turno, usa \"Oggi si Spacchetta!\" a Inizio Combattimento del turno successivo\n- Mentre la spada di questa unità ha [MiddleFatherSwordOneOutis], a meno dell'80% di PV, usa \"Oggi si Spacchetta!\" a prescindere dalle Stack di [CountSkillMidOutis]\n\nA 50%- PV, ottiene 3 [MiddleFatherGutsOutis] (una volta per Incontro)\n\nQuando viene Stordita per la prima volta in questo Incontro, si riprende dallo Stordimento a Fine Turno e ottiene 15 [ResentmentSpiderOutis] (tranne Stordimenti forzati)\n\nInizio Turno: A 15 [ResentmentSpiderOutis], sostituisce un'Abilità Base di questa unità sul Pannello di Controllo con \"Timbro Della Vendetta\" o \"Vi Condanno A Morte\" (3 volte per Incontro)\n- Si applica solo all'Abilità nello Slot più in basso a sinistra sul Pannello di Controllo\n- Questo effetto non si applica se o \"Timbro Della Vendetta\" o \"Vi Condanno A Morte\" sono già presenti nello Slot interessato</style>",
+      "desc": "Quando entra in un Incontro per la prima volta, ottiene [MiddleFatherSwordOneOutis]\n\n<style=\"highlight\">Inizio Turno: A 0 [CountSkillMidOutis], ottiene [CountSkillMidOutis] corrispondente al livello di risveglio\n- [MiddleFatherSwordOneOutis]: Ottiene 1 [CountSkillMidOutis]\n- [MiddleFatherSwordTwoOutis]: Ottiene 2 [CountSkillMidOutis]\n- [MiddleFatherSwordThreeOutis]: Ottiene 2 [CountSkillMidOutis]\n\nQuando le seguenti condizioni vengono soddisfatte, perde 1 [CountSkillMidOutis] (una volta per turno)\n- Quando usa l'Abilità \"Timbro Della Vendetta\", perde 1 Stack (anche quando \"Timbro Della Vendetta\" si attiva come Contrattacco)\n- A 6+ somma di Rison-A Invidia, perde 1 Stack a Fine Turno\n\nA 0 Stack di [CountSkillMidOutis], usa \"Oggi si Spacchetta!\" come Attacco Incontrastato a Fine Abilità\n- Fine Turno: A 0 Stack di [CountSkillMidOutis], e se questa unità non è riuscita ad usare \"Oggi si Spacchetta!\" in quel turno, usa \"Oggi si Spacchetta!\" a Inizio Combattimento del turno successivo\n- Mentre la spada di questa unità ha [MiddleFatherSwordOneOutis], a meno dell'80% di PV, usa \"Oggi si Spacchetta!\" a prescindere dalle Stack di [CountSkillMidOutis]\n\nA 50%- PV, ottiene 3 [MiddleFatherGutsOutis] (una volta per Incontro)\n\nQuando viene Stordita per la prima volta in questo Incontro, si riprende dallo Stordimento a Fine Turno e ottiene 15 [ResentmentSpiderOutis] (tranne Stordimenti forzati)\n\nInizio Turno: A 15 [ResentmentSpiderOutis], sostituisce un'Abilità Base di questa unità sul Pannello di Controllo con \"Timbro Della Vendetta\" o \"Vi Condanno A Morte\" (3 volte per Incontro)\n- Si applica solo all'Abilità nello Slot più in basso a sinistra sul Pannello di Controllo\n- Questo effetto non si applica se o \"Timbro Della Vendetta\" o \"Vi Condanno A Morte\" sono già presenti nello Slot interessato</style>",
       "flavor": "\"Sepolte nei meandri più reconditi della Città ci sono le Rovine. Spingiti oltre, e non sarai più nella Città. Questo è un frammento di una spada brandita da uno degli Endwatchers, coloro che aspettavano la fine, i quali abitavano nelle Rovine, attendendo l'apocalisse. È soltanto un frammento, ma al suo interno giace assopito il suo immenso potere — intatto, immacolato.\n... Così mi avevate detto, un tempo. Fratelli Maggiori, avevate proprio ragione. Questa spada è una Figata.\""
     },
     {
@@ -3059,7 +3059,7 @@
       "id": 1081501,
       "name": "Prototipo Protesi Speciale Personalizzata della Limbus Company Mk5 - Armamenti Dokkaebi",
       "desc": "Inizio Combattimento: Ottiene [AengduNewArmIshmael] e Recupera (Rison. Superbia) PS per ogni alleato dei Discendenti della Spada escludendo questa unità\n\nInizio Combattimento: Se c'è un Identità alleata con meno del 50% dei PV sul campo escludendo questa unità, ottiene 1 [SupportProtect] (una volta per turno)\n\nFine Abilità: Ottiene 1 [WindBladeIshmael] per ogni 3 Potenza [Breath] su sè (max 5, 2 volte per turno)",
-      "summary": "Gain [AengduNewArmIshmael]"
+      "summary": "Ottiene [AengduNewArmIshmael]"
     },
     {
       "id": 1081502,
@@ -3152,14 +3152,14 @@
     {
       "id": 1121601,
       "name": "Morgenfeuer [Officina Stigma]",
-      "desc": "Quando le altre Identità dell'Ufficio Alba[TabExplain] soddisfano le seguenti condizioni, Rappresentante dell'Ufficio Alba[TabExplain] Gregor usa l'Abilità \"Lampo dell'Alba\" contro il nemico bersagliato (una volta per turn per Identità)\n- A Fine Attacco dell'Abilità Base: Se il nemico che è stato colpito viene Stordito, usa \"Lampo dell'Alba\" contro quel nemico\n(Non si attiva se quel nemico era già Stordito prima dell'Attacco di quell'Abilità)\n- A Fine Attacco delle seguenti Abilità, usa \"Lampo dell'Alba\" sul nemico che hanno colpito (priorità ai bersagli Storditi):\n  · Fixer dell'Ufficio Alba[TabExplain] Faust: \"Espulsione\", \"Espulsione - Mezzogiorno[TabExplain]\" e \"Squartamento a Mezzogiorno[TabExplain]\"\n  · Fixer dell'Ufficio Alba[TabExplain] Sinclair: \"Stigmatizza\" e \"Colpo Fiammeggiante\"\n\nSe Fixer dell'Ufficio Alba[TabExplain] Sinclair è in campo: Sul Colpo usando le Monete extra aggiunte alle Abilità Base di Rappresentante dell'Ufficio Alba[TabExplain] Gregor, infligge danno Ira in più pari a [Combustion] sul nemico bersagliato (max 10; max 20 per turno)\n- Conta come se stesse attivando [Combustion]",
+      "desc": "Quando le altre Identità dell'Ufficio Alba[TabExplain] soddisfano le seguenti condizioni, Rappresentante dell'Ufficio Alba[TabExplain] Gregor usa l'Abilità \"Lampo dell'Alba\" contro il nemico bersagliato (una volta per turno per Identità)\n- A Fine Attacco dell'Abilità Base: Se il nemico che è stato colpito viene Stordito, usa \"Lampo dell'Alba\" contro quel nemico\n(Non si attiva se quel nemico era già Stordito prima dell'Attacco di quell'Abilità)\n- A Fine Attacco delle seguenti Abilità, usa \"Lampo dell'Alba\" sul nemico che hanno colpito (priorità ai bersagli Storditi):\n  · Fixer dell'Ufficio Alba[TabExplain] Faust: \"Espulsione\", \"Espulsione - Mezzogiorno[TabExplain]\" e \"Squartamento a Mezzogiorno[TabExplain]\"\n  · Fixer dell'Ufficio Alba[TabExplain] Sinclair: \"Stigmatizza\" e \"Colpo Fiammeggiante\"\n\nSe Fixer dell'Ufficio Alba[TabExplain] Sinclair è in campo: Sul Colpo usando le Monete extra aggiunte alle Abilità Base di Rappresentante dell'Ufficio Alba[TabExplain] Gregor, infligge danno Ira in più pari a [Combustion] sul nemico bersagliato (max 10; max 20 per turno)\n- Conta come se stesse attivando [Combustion]",
       "summary": "Se le condizioni vengono soddisfatte, infligge danno ira in base alla Potenza Bruciatura",
       "flavor": "Un'arma di classe A+ di un'Officina che è rimasta un compagno costante del suo impugnatore, <i>il Fixer alle Prime Luci dell'Alba</i>, fin dai suoi primi giorni come Fixer durante la Guerra del Fumo e le sue consegeunze. Ogni contratto completato con successo dal Fixer aggiungeva fama al nome dell'Officina Stigma, e come gesto di gratitudine, hanno ripetutamente potenziato ed espanso le Capacità dell'Arma. Così come la reputazione di quel Fixer veterano era stata costruita nel tempo, anche questa lama è stata forgiata, riforgiata e affilata dagli anni. \nLa Morgenfeuer, un tempo ritenuta un'arma di Grado S, ha finito per perdere vigore e filo nel crepuscolo del Fixer alle Prime Luci dell'Alba dopo il suo ritiro dalla prima linea del settore per formare la futura generazione."
     },
     {
       "id": 1121611,
       "name": "Morgenfeuer [Officina Stigma]",
-      "desc": "<style=\"highlight\">Quando questa unità ha [DawnLight], ottiene 2 [StigmaWorkshopHandStep1] Sul Colpo usando le Abilità Attacco Base</style>\n\nQuando le altre Identità dell'Ufficio Alba[TabExplain] soddisfano le seguenti condizioni, Rappresentante dell'Ufficio Alba[TabExplain] Gregor usa l'Abilità \"Lampo dell'Alba\" contro il nemico bersagliato (una volta per turn per Identità)\n- A Fine Attacco dell'Abilità Base: Se il nemico che è stato colpito viene Stordito, usa \"Lampo dell'Alba\" contro quel nemico\n(Non si attiva se quel nemico era già Stordito prima dell'Attacco di quell'Abilità)\n- A Fine Attacco delle seguenti Abilità, usa \"Lampo dell'Alba\" sul nemico che hanno colpito (priorità ai bersagli Storditi):\n  · Fixer dell'Ufficio Alba[TabExplain] Faust: \"Espulsione\", \"Espulsione - Mezzogiorno[TabExplain]\" e \"Squartamento a Mezzogiorno[TabExplain]\"\n  · Fixer dell'Ufficio Alba[TabExplain] Sinclair: \"Stigmatizza\" e \"Colpo Fiammeggiante\"\n\nSe Fixer dell'Ufficio Alba[TabExplain] Sinclair è in campo: Sul Colpo usando le Monete extra aggiunte alle Abilità Base di Rappresentante dell'Ufficio Alba[TabExplain] Gregor, infligge danno Ira in più pari a [Combustion] sul nemico bersagliato (max 10; max 20 per turno)\n- Conta come se stesse attivando [Combustion]",
+      "desc": "<style=\"highlight\">Quando questa unità ha [DawnLight], ottiene 2 [StigmaWorkshopHandStep1] Sul Colpo usando le Abilità Attacco Base</style>\n\nQuando le altre Identità dell'Ufficio Alba[TabExplain] soddisfano le seguenti condizioni, Rappresentante dell'Ufficio Alba[TabExplain] Gregor usa l'Abilità \"Lampo dell'Alba\" contro il nemico bersagliato (una volta per turno per Identità)\n- A Fine Attacco dell'Abilità Base: Se il nemico che è stato colpito viene Stordito, usa \"Lampo dell'Alba\" contro quel nemico\n(Non si attiva se quel nemico era già Stordito prima dell'Attacco di quell'Abilità)\n- A Fine Attacco delle seguenti Abilità, usa \"Lampo dell'Alba\" sul nemico che hanno colpito (priorità ai bersagli Storditi):\n  · Fixer dell'Ufficio Alba[TabExplain] Faust: \"Espulsione\", \"Espulsione - Mezzogiorno[TabExplain]\" e \"Squartamento a Mezzogiorno[TabExplain]\"\n  · Fixer dell'Ufficio Alba[TabExplain] Sinclair: \"Stigmatizza\" e \"Colpo Fiammeggiante\"\n\nSe Fixer dell'Ufficio Alba[TabExplain] Sinclair è in campo: Sul Colpo usando le Monete extra aggiunte alle Abilità Base di Rappresentante dell'Ufficio Alba[TabExplain] Gregor, infligge danno Ira in più pari a [Combustion] sul nemico bersagliato (max 10; max 20 per turno)\n- Conta come se stesse attivando [Combustion]",
       "summary": "Ottiene [StigmaWorkshopHandStep1]\nSe le condizioni vengono soddisfatte, infligge danno ira in base alla Potenza Bruciatura",
       "flavor": "Un'arma di classe A+ di un'Officina che è rimasta un compagno costante del suo impugnatore, <i>il Fixer alle Prime Luci dell'Alba</i>, fin dai suoi primi giorni come Fixer durante la Guerra del Fumo e le sue consegeunze. Ogni contratto completato con successo dal Fixer aggiungeva fama al nome dell'Officina Stigma, e come gesto di gratitudine, hanno ripetutamente potenziato ed espanso le Capacità dell'Arma. Così come la reputazione di quel Fixer veterano era stata costruita nel tempo, anche questa lama è stata forgiata, riforgiata e affilata dagli anni. \nLa Morgenfeuer, un tempo ritenuta un'arma di Grado S, ha finito per perdere vigore e filo nel crepuscolo del Fixer alle Prime Luci dell'Alba dopo il suo ritiro dalla prima linea del settore per formare la futura generazione."
     },
@@ -3258,7 +3258,7 @@
     {
       "id": 1041601,
       "name": "Feedback",
-      "desc": "Quando innesca una [VibrationExplosion] sul nemico, aumenta l'incremento della Soglia di Stordimento del 15%\n- At 12+ Conteggio [ChargeNoirAlly], consuma 1 Conteggio [ChargeNoirAlly] quando innesca una [VibrationExplosion] per aumentare l'incremento della Soglia di Stordimento invece deò +30% (effetto applicato per bersaglio)\n\nQuando Colpito, se questa unità ha uno scudo, infligge 2 Potenza [Vibration] sull'attaccante (2 volte per turno per nemico)",
+      "desc": "Quando innesca [VibrationExplosion] sul nemico, aumenta l'incremento della Soglia di Stordimento del 15%\n- A 12+ Conteggio [ChargeNoirAlly], consuma 1 Conteggio [ChargeNoirAlly] quando innesca una [VibrationExplosion] per aumentare l'incremento della Soglia di Stordimento invece deò +30% (effetto applicato per bersaglio)\n\nQuando Colpito, se questa unità ha uno scudo, infligge 2 Potenza [Vibration] sull'attaccante (2 volte per turno per nemico)",
       "summary": "aumenta l'incremento della Soglia di Stordimento",
       "flavor": "I Noir sono convinti di poter annientare la resistenza nemica infliggendo violente scosse: più il bersaglio oscilla violentemente, più cambiamenti dovrà affrontare di momento in momento. Le loro tecniche di combattimento si fondano su questo esatto presupposto. Eppure, per quanto i Noir non lo ricordino e non ne abbiano alcuna esperienza diretta, oltre il Grand Magasin Sisyphe esistono stili di combattimento basati sullo stesso identico principio, ma affinati a un livello di gran lunga superiore."
     },
@@ -3277,7 +3277,7 @@
     {
       "id": 1041604,
       "name": "Conservazione",
-      "desc": "Ottiene 1 [ChargeNoirAlly] Potenza per ogni 10 Conteggio [ChargeNoirAlly] consumato da questa unità in questo incontro\n\nFine Turno: A meno di 3 Potenza [ChargeNoirAlly], consuma tutto il conteggio [ChargeNoirAlly] per ottenere (Conteggio [ChargeNoirAlly] consumato x 5) Scudo il turno successivo\n\nA 3+ Potenza [ChargeNoirAlly], le Abilità Base di questa unità ottengoni +1 Conteggio [ChargeNoirAlly] in più quando questà unità ha meno di 12 Conteggio [ChargeNoirAlly]\n\nAll'uso di un Abilità base offensiva,\n- Se il bersaglio ha 6+ Potenza [Vibration], Potere Moneta +1\n- A 3+ Potenza [ChargeNoirAlly], Potere Moneta +1\n- Infligge +(Potenza [ChargeNoirAlly] x 2)% danni (max 10%)\n· Se L'Abilità usata è \"Pestata a Triplo Punto\" o \"Calcio Singolo - Couture Multiple\", infligge invece +([ChargeNoirAlly] Potency x 4)% danni (max 20%)",
+      "desc": "Ottiene 1 [ChargeNoirAlly] Potenza per ogni 10 Conteggio [ChargeNoirAlly] consumato da questa unità in questo incontro\n\nFine Turno: A meno di 3 Potenza [ChargeNoirAlly], consuma tutto il conteggio [ChargeNoirAlly] per ottenere (Conteggio [ChargeNoirAlly] consumato x 5) Scudo il turno successivo\n\nA 3+ Potenza [ChargeNoirAlly], le Abilità Base di questa unità ottengoni +1 Conteggio [ChargeNoirAlly] in più quando questà unità ha meno di 12 Conteggio [ChargeNoirAlly]\n\nAll'uso di un Abilità base offensiva,\n- Se il bersaglio ha 6+ Potenza [Vibration], Potere Moneta +1\n- A 3+ Potenza [ChargeNoirAlly], Potere Moneta +1\n- Infligge +(Potenza [ChargeNoirAlly] x 2)% danni (max 10%)\n· Se L'Abilità usata è \"Pestata a Triplo Punto\" o \"Calcio Singolo - Couture Multiple\", infligge invece +(Potenza [ChargeNoirAlly] x 4)% danni (max 20%)",
       "summary": "A meno di un certo numero di Conteggio Preservazione, ottiene ulteriore Conteggio preservazione\nSull'uso di Abilità base ottiene Potere Moneta e infligge più danni"
     },
     {
@@ -3288,8 +3288,8 @@
     },
     {
       "id": 1081601,
-      "name": "Culla Del Cambiamento",
-      "desc": "All'uso di Abilità Base, a meno di 10 Conteggio [ChargeRougeAlly], Potere Scontro +2\n\nSe questa unità è nello stato di [RougeIshmaelEclose], Recupera l'8% dei PV Sul Colpo usando Abilità Base (5 times per turn)",
+      "name": "Culla del Cambiamento",
+      "desc": "All'uso di Abilità Base, a meno di 10 Conteggio [ChargeRougeAlly], Potere Scontro +2\n\nSe questa unità è nello stato di [RougeIshmaelEclose], Recupera l'8% dei PV Sul Colpo usando Abilità Base (5 volte per turno)",
       "flavor": "Anche se alcuni lo chiamano \"camerino,\" sarebbe più appropriato per chi si trova dall'altra parte chiamarlo \"pupa\" o \"uovo.\"\nLei si scioglie e si lacera, trasformandosi... Finché, quando sarà giunto il momento, romperà il guscio ed emergerà nel mondo esterno.\nMa se qualcuno all'esterno dovesse rompere il guscio prima del tempo... purtroppo, finirebbe per  distruggerla.\nLei è nel suo momento più vulnerabile, perciò va protetta e trattata con cura."
     },
     {
@@ -3300,103 +3300,103 @@
     },
     {
       "id": 1081621,
-      "name": "[Actrice Haute Couture du Rouge] - Robes",
-      "desc": "Gli Alleati Schierati come #1 e #2 recuperano +20% PV in più da Passive, Abilità e effetti delle Monete\n\nSu Risonanza Assoluta Lussuria, gli alleati #1 e #2 subiscono -10% danni dalle Abilità in questo turno",
+      "name": "[Actrice Haute Couture du Rouge] - Abiti",
+      "desc": "Gli Alleati Schierati in posizione #1 e #2 recuperano +20% PV in più da Passive, Abilità e effetti delle Monete\n\nCon Risonanza Assoluta Lussuria, gli alleati #1 e #2 subiscono -10% danni dalle Abilità in questo turno",
       "flavor": "Quando non è possibile sovrascrivere il soggetto con la forma esatta dell'Identità Riflessa, un \"costume\" fatto su misura per l'attore verrà creato e indossato.\n\nL'Haute Couture è una forma di Reinterpretazione cinematografica; Rimpiazza una creatura esistente con un abito, e l'attore, adesso sovrascritto, Si cala completamente nella parte. \n\nQuesta finzione della realtà viene accettata di buon grado dal pubblico a teatro, mentre l'attore, almeno entro i confini della narrazione, incarna l'esistenza originale in una sincera ricreazione"
     },
     {
       "id": 1091701,
-      "name": "Snipping in the Alteration Shop are Blossom Scissors",
-      "desc": "Turn End: Gain Shield next turn equal to [ChargeKhaki] Count\nAt 2+/3+/5+ [ChargeKhaki] Potency, Base Skill Final Power +1/+2/+3",
-      "summary": "Gain Base Skill Final Power"
+      "name": "Le Forbici Floreali risuonano nella Sartoria",
+      "desc": "Fine Turno: Ottiene Scudo pari a Conteggio [ChargeKhaki] il turno successivo\nA 2+/3+/5+ Potenza [ChargeKhaki], Potere Finale Abilità Base +1/+2/+3",
+      "summary": "Ottiene Potere Finale Abilità Base"
     },
     {
       "id": 1091702,
-      "name": "Inertia of Drifting",
-      "desc": "Gain 1 [ChargeKhaki] Potency for every 10 cumulative [ChargeKhaki] Count this unit consumes in this Encounter\n\nAt Attack End of another ally that has [NoirScissorShield], activate \"Patterning\" against the said ally's target (once per turn)\n- [BeforeUse] If the said target has 2+ [NoirScissorAlly], activate as \"Cutout\" instead (once per turn)",
-      "summary": "Activate additional attack"
+      "name": "Inerzia della Deriva",
+      "desc": "Ottiene 1 Potenza [ChargeKhaki] per ogni 10 Conteggio [ChargeKhaki] cumulativo usato da questa unità in questo Incontro\n\nA Fine Attacco di un altro alleato che ha [NoirScissorShield], usa \"Patterning\" contro il bersaglio colpito da quell'alleato (una volta per turno)\n- [BeforeUse] Se il suddetto bersaglio ha 2+ [NoirScissorAlly], usa invece \"Cutout\" (una volta per turno)",
+      "summary": "Attiva un attacco in più"
     },
     {
       "id": 1091721,
-      "name": "First is Thanks-snipping",
-      "desc": "1 ally with the fastest Speed deals +10% damage using Slash Base Skills",
-      "summary": "Bonus Slash damage",
-      "flavor": "The single pair dearest to me, above all the rest... will be yours as well."
+      "name": "Prima Ringrazio-snip",
+      "desc": "1 alleato con la Velocità maggiore infligge +10% danni usando le Abilità Base Taglienti",
+      "summary": "Danno Tagliente Bonus",
+      "flavor": "Il singolo paio a me più caro, sopra tutto quanto... sarà anche vostro."
     },
     {
       "id": 1031501,
-      "name": "Obsidian Covenant",
-      "desc": "Combat End: If this unit has [OathFieldDonQuixote], gain 1 [Agility] next turn\n\nThis unit's Base Attack Skills deal +([ChargeNoirAlly] Potency on self x 3)% damage against the main target (max 15%)",
-      "summary": "If [OathFieldDonQuixote] is active, gain [Agility] next turn\nBase Attack Skills deal more damage against the main target",
-      "flavor": "I heard His voice, His promise: \"Everything that exists has meaning.\""
+      "name": "Patto d'Ossidiana",
+      "desc": "Fine Combattimento: Se questa unità ha [OathFieldDonQuixote], ottiene 1 [Agility] il turno successivo\n\nLe Abilità Attacco Base di questa unità infliggono +(Potenza [ChargeNoirAlly] su di sé x 3)% danni contro il bersaglio principale (max 15%)",
+      "summary": "Se [OathFieldDonQuixote] è attivo, ottiene [Agility] il turno successivo\nLe Abilità Attacco Base infliggono more danni contro il bersaglio principale",
+      "flavor": "Ho udito la Sua voce, la Sua promessa: \"Tutto ciò che esiste ha significato.\""
     },
     {
       "id": 1031502,
       "name": "Malleus Promissionis",
-      "desc": "Upon entering the Encounter for the first time, gain +10 [ChargeNoirAlly] Count and apply +2 [Charge] Count on other \"Le Noir\" allied Identities\n\nWhen inflicting [NoirNailDonQuixote] using Skill effects:\n- At 12+ [ChargeNoirAlly] Count, inflict +1 more [NoirNailDonQuixote] and consume 4 [ChargeNoirAlly] Count\n- At fewer than 12 [ChargeNoirAlly] Count, consume 2 [ChargeNoirAlly] Count\n- At insufficient [ChargeNoirAlly] Count, does not inflict [NoirNailDonQuixote]\n- Skills that inflict [NoirNailDonQuixote] due to this effect count as Skills that consume [Charge] Count\n\nGain 1 [ChargeNoirAlly] Potency every time this unit consumes 10 cumulative [ChargeNoirAlly] Count in this Encounter",
-      "summary": "Gain [ChargeNoirAlly] Count; \"Le Noir\" allies gain [Charge] Count\nConsume [ChargeNoirAlly] Count when inflicting [NoirNailDonQuixote]; inflict more [NoirNailDonQuixote] when at sufficient [ChargeNoirAlly] Count\nGain [ChargeNoirAlly] Potency by consuming [ChargeNoirAlly] Count",
-      "flavor": "A hammer drives nails. This hammer strikes nothing but nails. Whatever it strikes is a nail. That is what was agreed upon."
+      "desc": "Quando entra nell'Incontro per la prima volta, ottiene +10 Conteggio [ChargeNoirAlly] e applica +2 Conteggio [Charge] sulle altre Identità alleate \"Le Noir\"\n\nQuando infligge [NoirNailDonQuixote] usando gli effetti delle Abilità:\n- A 12+ Conteggio [ChargeNoirAlly], infligge +1 [NoirNailDonQuixote] in più e usa 4 Conteggio [ChargeNoirAlly]\n- A meno di 12 Conteggio [ChargeNoirAlly], usa 2 Conteggio [ChargeNoirAlly]\n- Quando il Conteggio [ChargeNoirAlly] è insufficente, non infligge [NoirNailDonQuixote]\n- Le Abilità che infliggono [NoirNailDonQuixote] con questo effetto sono considerate come Abilità che usano Conteggio [Charge]\n\nOttiene 1 Potenza [ChargeNoirAlly] ogni volta che questa unità usa 10 Conteggio [ChargeNoirAlly] totale in questo Incontro",
+      "summary": "Ottiene Conteggio [ChargeNoirAlly]; gli alleati \"Le Noir\" ottengono Conteggio [Charge]\nUsa Conteggio [ChargeNoirAlly] quando infligge [NoirNailDonQuixote]; infligge più [NoirNailDonQuixote] quando ha Conteggio [ChargeNoirAlly] a sufficenza\nOttiene Potenza [ChargeNoirAlly] consumando Conteggio [ChargeNoirAlly]",
+      "flavor": "Un martello conficca i chiodi. Questo martello colpisce nient'altro che i chiodi. Tutto ciò che colpisce è un chiodo. Questo è quanto è stato concordato."
     },
     {
       "id": 1031503,
-      "name": "Mission of Conservation",
-      "desc": "Upon entering the Encounter for the first time, gain 25 [NoirShieldUpDonQuixote]\n\nWhen consuming [ChargeNoirAlly] Count, or when gaining [ChargeNoirAlly] Count past its max cap, gain ([ChargeNoirAlly] Count consumed or surplus [ChargeNoirAlly] Count x 5) [NoirShieldUpDonQuixote] (max 30 per turn)\n\nWhen an allied Identity that has Shield is hit, this unit gains 2 [NoirShieldUpDonQuixote] (max 10 per turn)\n- If the said allied Identity is a [PersonalityCharge], gain 5 [NoirShieldUpDonQuixote] instead",
-      "summary": "Gain [NoirShieldUpDonQuixote]"
+      "name": "Missione di Conservazione",
+      "desc": "Quando entra nell'Incontro per la prima volta, ottiene 25 [NoirShieldUpDonQuixote]\n\nQuando usa Conteggio [ChargeNoirAlly] o quando ottiene Conteggio [ChargeNoirAlly] oltre la sua capacità massima, ottiene (Conteggio [ChargeNoirAlly] usato o surplus di Conteggio [ChargeNoirAlly] x 5) [NoirShieldUpDonQuixote] (max 30 per turno)\n\nQuando un'Identità alleata che ha Scudo viene colpita, questa unità ottiene 2 [NoirShieldUpDonQuixote] (max 10 per turno)\n- Se la suddetta Identità è un'[PersonalityCharge], ottiene invece 5 [NoirShieldUpDonQuixote]",
+      "summary": "Ottiene [NoirShieldUpDonQuixote]"
     },
     {
       "id": 1031504,
-      "name": "The Lord's Will and Values Be With Us...",
-      "desc": "Before Attack of another \"Le Noir\" allied Identity on an enemy, this unit uses \"Judgment!\" Skill as an Unopposed Attack against the main target (once per turn)\n\nOn the final Coin Start of a Base Skill, the said Coin gains Final Power +([ChargeNoirAlly] Potency on self + ([NoirNailDonQuixote] on target / 2)) (max 5)\n\nIf this unit has [OathFieldDonQuixote], Base Skill 1/2/3 gains Clash Power +1/+2/+3\n\nWhen [VibrationExplosion] triggers on a target that has [NoirNailDonQuixote], this unit and 1 other allied [PersonalityCharge] that has the lowest [Charge] Count gain +2 [Charge] Count (2 times per turn)",
-      "summary": "Use \"Judgment!\" Skill before a \"Le Noir\" ally attacks\nBase Skill final Coins gain Final Power\nIf [OathFieldDonQuixote] is active, Base Skills gain Clash Power\nGain [Charge] Count when triggering [VibrationExplosion] on targets that have [NoirNailDonQuixote]",
-      "flavor": "The Obsidian God's words be our guiding light, our armor and shield in this troubled world of uncertainties; becometh His Voice the shining beam of light upon us, thereby bestowing us with meaning so coveted."
+      "name": "Che la Volontà e le Virtù del Signore siano con noi...",
+      "desc": "Prima che un'Identità alleata \"Le Noir\" attacchi un nemico, questa unità usa l'Abilità \"Giudizio!\" come Attacco Incontrastato contro il bersaglio principale (una volta per turno)\n\nAll'Inizio della Moneta finale di un'Abilità Base, quella Moneta ottiene Potere Finale +(Potenza [ChargeNoirAlly] su di sé + ([NoirNailDonQuixote] sul bersaglio / 2)) (max 5)\n\nSe questa unità ha [OathFieldDonQuixote], le Abilità Base 1/2/3 ottengono Potere Scontro +1/+2/+3\n\nQuando si innesca [VibrationExplosion] su un bersaglio che ha [NoirNailDonQuixote], questa unità e 1 altra [PersonalityCharge] alleata con il Conteggio [Charge] minore ottengono +2 Conteggio [Charge] (2 volte per turno)",
+      "summary": "Usa l'Abilità \"Giudizio!\" prima che un'Identità alleata \"Le Noir\" attacchi\nLe Monete finali delle Abilità Base ottengono Potere Finale\nSe [OathFieldDonQuixote] è attivo, le Abilità Base ottengono Potere Scontro\nOttiene Conteggio [Charge] quando innesca [VibrationExplosion] sui bersagli che hanno [NoirNailDonQuixote]",
+      "flavor": "Che le parole del Dio d'Ossidiana siano la nostra luce guida, il nostro scudo e armatura in questo mondo incerto e travagliato; la Sua Voce diventi il raggio splendente su di noi, donando a noi il significato a cui tanto ambiamo."
     },
     {
       "id": 1031511,
-      "name": "Obsidian Covenant",
-      "desc": "Combat End: If this unit has [OathFieldDonQuixote], gain 2 [Agility] next turn\n\nThis unit's Base Attack Skills deal +([ChargeNoirAlly] Potency on self x 6)% damage against the main target (max 30%)",
-      "summary": "If [OathFieldDonQuixote] is active, gain [Agility] next turn\nBase Attack Skills deal more damage against the main target",
-      "flavor": "I heard His voice, His promise: \"Everything that exists has meaning.\""
+      "name": "Patto d'Ossidiana",
+      "desc": "Fine Combattimento: Se questa unità ha [OathFieldDonQuixote], ottiene 2 [Agility] il turno successivo\n\nLe Abilità Attacco Base di questa unità infliggono +(Potenza [ChargeNoirAlly] su di sé x 6)% danni contro il bersaglio principale (max 30%)",
+      "summary": "Se [OathFieldDonQuixote] è attivo, ottiene [Agility] il turno successivo\nLe Abilità Attacco Base infliggono più danni contro il bersaglio principale",
+      "flavor": "Ho udito la Sua voce, la Sua promessa: \"Tutto ciò che esiste ha significato.\""
     },
     {
       "id": 1031521,
-      "name": "Formation Conservation",
-      "desc": "All allied [PersonalityCharge] take -2% damage this turn for every allied [PersonalityCharge] on the field at Combat Start (max -10%)",
-      "summary": "Allied [PersonalityCharge] take less damage"
+      "name": "Conservazione dell'Assetto",
+      "desc": "Tutte le [PersonalityCharge] alleate subiscono -2% danni in questo turno per ogni [PersonalityCharge] alleata in campo a Inizio Combattimento (max -10%)",
+      "summary": "Le [PersonalityCharge] alleate subiscono meno danno"
     },
     {
       "id": 1101602,
       "name": "La Jouissance phallique",
-      "desc": "Gain 1 [ChargeRougeAlly] Count every time [Laceration] is activated in this Encounter (10 times per turn)\n\nCombat End: At 15+ [ChargeRougeAlly] Count, if this unit is not in [BuffetSinclair] state, consume all [ChargeRougeAlly] Count to gain 3 [BuffetSinclair] next turn\n- Heal SP equal to (3 x [ChargeRougeAlly] Count consumed beyond 15) (max 15)\n\nWhen [BuffetSinclair] expires, consume all [ChargeRougeAlly] Count on self to heal HP equal to ([ChargeRougeAlly] Count consumed x 2)\n\nGain 1 [ChargeRougeAlly] Potency for every 10 cumulative [ChargeRougeAlly] Count this unit consumes in this Encounter\n\nThis unit's Base Attack Skills and Clashable Counter Skills are considered as Skills that gain [Charge] Count",
-      "summary": "Gain [ChargeRougeAlly] Count every time [Laceration] is activated"
+      "desc": "Ottiene 1 Conteggio [ChargeRougeAlly] ogni volta che viene attivata [Laceration] in questo Incontro (10 volte per turno)\n\nFine Combattimento: A 15+ Conteggio [ChargeRougeAlly], se questa unità non è nello stato [BuffetSinclair], usa tutto il Conteggio [ChargeRougeAlly] per ottenere 3 [BuffetSinclair] il turno successivo\n- Recupera PS pari a (3 x Conteggio [ChargeRougeAlly] usato oltre 15) (max 15)\n\nQuando [BuffetSinclair] termina, usa tutto il Conteggio [ChargeRougeAlly] su di sé per recuperare PV pari a (Conteggio [ChargeRougeAlly] usato x 2)\n\nOttiene 1 Potenza [ChargeRougeAlly] per ogni 10 Conteggio [ChargeRougeAlly] cumulativo che questa unità usa in questo Incontro\n\nLe Abilità Attacco Base e i Contrattacchi Scontrabili di questa unità sono considerati come Abilità che fanno ottenere Conteggio [Charge]",
+      "summary": "Ottiene Conteggio [ChargeRougeAlly] ogni volta che viene attivata [Laceration]"
     },
     {
       "id": 1101603,
       "name": "La Fin de l'Enfance",
-      "desc": "Gain [HungrySinclair] based on the following conditions (50 per turn):\n- When this unit consumes [ChargeRougeAlly] Count, gain Stack equal to [ChargeRougeAlly] Count consumed\n- When this unit's Base Skills heal other allies' HP, gain Stack equal to actual amount healed\n- Gain 1 Stack for every 10 cumulative HP allies lost\n- On Base Attack Hit by another \"Le Rouge\" allied Identity, gain 2 Stacks\n- Turn End: Gain 5 Stacks for every other \"Le Rouge\" allied Identity on the field\n\nTurn End: At 100+ [HungrySinclair], and if this unit does not have [TransformSinclair], replace the Skill on the leftmost Skill Slot's bottom row with \"La Voracité\" at the next Turn Start\n\nCombat Start: If this unit equipped \"La Voracité\" or \"La Castration\" for the first time in this Encounter, gain [BuffetThirst] and [TransformSinclair]; then, remove this unit's Stagger Threshold\n- Replace equipped Base Skills with [TransformSinclair] exclusive Skills\n- Base Skills that targeted allies activate Unopposed Attack against random enemies\n- At Attack End of the Skill activated by the said effect, consume all [HungrySinclair]\n\nTurn End: At 150 [HungrySinclair], if this unit has [TransformSinclair], and if this unit does not have \"La Voracité\" on its Dashboard at the next Turn Start, replace a Base Skill with \"La Voracité\" (prioritizes the Skill on the leftmost Slot's bottom row)",
-      "summary": "Gain [HungrySinclair] based on conditions",
-      "flavor": "Who decides where childhood ends?\n\nThe crimson child set out on an adventure all on his lonesome.\nTracing memories, longing for what was lost, the child walked on with friendless steps... and in loneliness, bade farewell to childhood."
+      "desc": "Ottiene [HungrySinclair] in base alle seguenti condizioni (50 per turno):\n- Quando questa unità usa Conteggio [ChargeRougeAlly], ottiene Stack pari al Conteggio [ChargeRougeAlly] usato\n- Quando le Abilità Base di questa unità fanno recuperare PV ad altri alleati, ottiene Stack pari alla quantità di PV curati\n- Ottiene 1 Stack per ogni 10 PV persi cumulativamente dagli alleati\n- Sul Colpo di Attacco Base di un'altra Identità alleata \"Le Rouge\", ottiene 2 Stack\n- Fine Turno: Ottiene 5 Stack per ogni altra Identità \"Le Rouge\" in campo\n\nFine Turno: A 100+ [HungrySinclair], e se questa unità non ha [TransformSinclair], cambia l'Abilità nello Slot Abilità più a sinistra con \"La Voracité\" all'inizio del prossimo Inizio Turno\n\nInizio Combattimento: Se questa unità ha equipaggiato \"La Voracité\" o \"La Castration\" per la prima volta in questo Incontro, ottiene [BuffetThirst] e [TransformSinclair]; poi rimuove le Soglie di Stordimento di questa unità\n- Cambia le Abilità Base con le Abilità esclusive di [TransformSinclair]\n- Le Abilità Base che bersagliano gli alleati attivano invece un Attacco Incontrastato contro nemici casuali\n- A Fine Attacco dell'Abilità attivata dal precedente effetto, usa tutte le Stack di [HungrySinclair]\n\nFine Turno: A 150 [HungrySinclair], se questa unità ha [TransformSinclair], e se questa unità non ha \"La Voracité\" sul Pannello di Controllo all'inizio del prossimo Inizio Turno, sostituisce un'Abilità Base con \"La Voracité\" (priorità all'Abilità nello Slot più in basso a sinistra)",
+      "summary": "Ottiene [HungrySinclair] in base a delle condizioni",
+      "flavor": "Chi decide dove termina l'infanzia?\n\nIl fanciullo cremisi partì tutto solo per un'avventura.\nRintracciando ricordi, desiderando ciò che era perso, il fanciullo camminò senza amici... e nella solitudine, disse addio all'infanzia."
     },
     {
       "id": 1101604,
       "name": "La Moisson",
-      "desc": "When this unit's Base Skill effects consume an ally's HP, the ally cannot become Staggered by the said effects, and its HP does not drop below 1.\n\nCombat End: At 3+ Lust Reson., apply [BuffetThirst] next turn on (Lust Reson. / 3) other allies (rounded up)\n- Prioritizes \"Le Rouge\" allies, in Deployment order\n\nWhen using a [SupportAlly] Skill on an ally, apply 1 [BuffetFriendShield] to the non-immobilized \"Le Rouge\" ally with the highest current HP (once per turn)\nAt Base Attack End by another allied [PersonalityCharge], if the said Skill did not defeat its main target, use \"Je vous aide\" against that enemy (once per turn)",
-      "summary": "When using a [SupportAlly] Skill on an ally, apply [BuffetFriendShield]\nApply [BuffetThirst] on ally next turn based on Lust Reson."
+      "desc": "Quando i PV di un alleato vengono consumati per via dell'effetto di un Abilità Base di questa unità, l'alleato non può essere Stordito da quegli effetti, e i suoi PV non possono scendere al di sotto di 1.\n\nFine Combattimento: A 3+ Rison. Lussuria, applica [BuffetThirst] il turno successivo su altri (Rison. Lussuria / 3) alleati (arrotondato per eccesso)\n- Priorità agli alleati \"Le Rouge\", in ordine di Schieramento\n\nQuando usa un'Abilità [SupportAlly] su un alleato, applica 1 [BuffetFriendShield] all'alleato \"Le Rouge\" non immobilizzato con i maggiori PV correnti (una volta per turno)\nAlla Fine di un'Attacco Base da parte di un'[PersonalityCharge] alleata, se quell'Abilità non ha sconfitto il bersaglio principale, usa \"Je vous aide\" contro quel nemico (una volta per turno)",
+      "summary": "Quando usa un'Abilità [SupportAlly] su un alleato, applica [BuffetFriendShield]\nApplica [BuffetThirst] su un alleato il turno successivo in base alla Rison. Lussuria"
     },
     {
       "id": 1101614,
       "name": "La Moisson",
-      "desc": "When this unit's Base Skill effects consume an ally's HP, the ally cannot become Staggered by the said effects, and its HP does not drop below 1.\n\nCombat End: At 3+ Lust Reson., apply [BuffetThirst] next turn on (Lust Reson. / 3) other allies (rounded up)\n- Prioritizes \"Le Rouge\" allies, in Deployment order\n- If this unit has [TransformSinclair], apply this effect to +1 more ally (max 4 allies)\n\nIf this unit does not have [TransformSinclair],\n- When using a [SupportAlly] Skill on an ally, apply 1 [BuffetFriendShield] to the non-immobilized \"Le Rouge\" ally with the highest current HP (once per turn)\n- At Base Attack End by another allied [PersonalityCharge], if the said Skill did not defeat its main target, use \"Je vous aide\" against that enemy (once per turn)\n\nIf this unit has [TransformSinclair],\n- Gain [RougeFamilySinclair]\n- Activate [DinnerField] on the current battlefield\n- Turn End: Gain [BuffetThirst] next turn\n- Combat Start: Apply 1 [BuffetFriendShield] to the non-immobilized \"Le Rouge\" ally with the highest current HP\n- At Attack End of a Base Attack Skill against enemies, if the main target has 5 [BoneNailSinclair], use \"La Demande\" (once per turn)",
-      "summary": "When using a [SupportAlly] Skill on an ally, apply [BuffetFriendShield]\nApply [BuffetThirst] on ally next turn based on Lust Reson."
+      "desc": "Quando i PV di un alleato vengono consumati per via dell'effetto di un Abilità Base di questa unità, l'alleato non può essere Stordito da quegli effetti, e i suoi PV non possono scendere al di sotto di 1.\n\nFine Combattimento: A 3+ Rison. Lussuria, applica [BuffetThirst] il turno successivo su altri (Rison. Lussuria / 3) alleati (arrotondato per eccesso)\n- Priorità agli alleati \"Le Rouge\", in ordine di Schieramento\n- Se questa unità ha [TransformSinclair], applica questo effetto a 1 alleato in più (max 4 alleati)\n\nSe questa unità non ha [TransformSinclair],\n- Quando usa un'Abilità [SupportAlly] su un alleato, applica 1 [BuffetFriendShield] all'alleato \"Le Rouge\" non immobilizzato con i maggiori PV correnti (una volta per turno)\n- Alla Fine di un'Attacco Base da parte di un'[PersonalityCharge] alleata, se quell'Abilità non ha sconfitto il bersaglio principale, usa \"Je vous aide\" contro quel nemico (una volta per turno))\n\nSe questa unità ha [TransformSinclair],\n- Ottiene [RougeFamilySinclair]\n- Attiva [DinnerField] sul campo di battaglia corrente\n- Fine Turno: Ottiene [BuffetThirst] il turno successivo\n- Inizio Combattimento: Applica 1 [BuffetFriendShield] all'alleato \"Le Rouge\" non immobilizzato con i maggiori PV correnti\n- A Fine Attacco di un'Abilità Attacco Base contro dei nemici, se il bersaglio principale ha 5 [BoneNailSinclair], usa \"La Demande\" (una volta per turno)",
+      "summary": "Quando usa un'Abilità [SupportAlly] su un alleato, applica [BuffetFriendShield]\nApplica [BuffetThirst] su un alleato il turno successivo in base alla Rison. Lussuria"
     },
     {
       "id": 1101611,
       "name": "Les Pouvoirs de la vie",
-      "desc": "When a \"Le Rouge\" ally becomes Staggered due to damage, use \"Le Manque-à-être\" on the said ally (once per turn, excluding forced Stagger)\n\nIf this unit does not have [TransformSinclair],\n- When a non-\"Le Rouge\" ally becomes Staggered due to damage, use \"Le Manque-à-être\" on the said ally (once per Encounter, excluding forced Stagger)\n\nIf this unit has [TransformSinclair],\n- When another \"Le Rouge\" ally takes damage that brings its HP down to 0, HP does not drop below 1, and the said ally heals 50% HP (rounded up, once per Encounter per Identity)"
+      "desc": "Quando un alleato \"Le Rouge\" viene Stordito dopo aver subito dei danni, usa \"Le Manque-à-être\" su quell'alleato (una volta per turno, Stordimento forzato escluso)\n\nSe questa unità non ha [TransformSinclair],\n- Quando un alleato che non è un \"Le Rouge\" viene Stordito dopo aver subito dei danni, usa \"Le Manque-à-être\" su quell'alleato (una volta per Incontro, Stordimento forzato escluso)\n\nSe questa unità ha [TransformSinclair],\n- Quando un altro alleato \"Le Rouge\" subisce danni che porterebbero i suoi PV a 0, i PV non scendono al di sotto di 1 e quell'alleato recupera il 50% dei PV (arrotondato per eccesso, una volta per Incontro, per Identità)"
     },
     {
       "id": 1101621,
-      "name": "Voracious Overindulgence",
-      "desc": "Combat Start: Apply 2 [AttackUp] to the ally with the lowest HP\nThe said ally heals 5% HP at Attack Skill End (min 1, once per turn)"
+      "name": "Abbuffata Incontrollata",
+      "desc": "Inizio Combattimento: Applica 2 [AttackUp] all'alleato con i PV minori\nQuell'alleato recupera il 5% dei PV alla Fine dell'Abilità Attacco (min 1, una volta per turno)"
     }
   ]
 }

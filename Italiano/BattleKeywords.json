@@ -3695,67 +3695,67 @@
     },
     {
       "id": "SewingKingMark",
-      "name": "Mark of the King of Needleworks",
-      "desc": "- Max Stack: 1\n- Take +20% damage from \"Sisyphe\" Identities\n- Turn End: Gain 1 Bind next turn\n- Turn End: Take fixed damage equal to 5% of HP damage (including Shield damage) taken from the Sinners' Skills\n- On death, deal fixed damage equal to 10% of this unit's max HP on 1 random ally (in Focused Encounters, a Part)",
+      "name": "Marchio del Re dei Ricami",
+      "desc": "- Stack Max: 1\n- Subisce +20% danni dalle Identità \"Sisyphe\"\n- Fine Turno: Ottiene 1 Lentezza il turno successivo\n- Fine Turno: subisce danno fisso pari al 5% del danno ai PV (incluso il danno allo Scudo) subito dalle Abilità dei Peccatori\n- Alla morte, infligge danno fisso pari al 10% dei PV max di questa unità ad un alleato casuale (negli Incontri Mirati, una Parte)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "HungrySinclair",
-      "name": "Relentless Hunger",
-      "desc": "- Max Stack: 150\n- Can gain up to 50 Stacks per turn",
+      "name": "Ingordigia Insaziabile",
+      "desc": "- Stack Max: 150\n- Può ottenere fino a un massimo di 50 Stack per turno",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "TransformSinclair",
-      "name": "Noble Dignity",
-      "desc": "Gain all of the following effects based on Pulsation Potency on self:\n- 2+: Take -25% damage from Bleed\n- 3+: Base Skills inflict +1 more Bleed Potency and Count\n- 4+: Base Skill Base Power +1\n\n- Min & Max Speed +1\n- When this unit takes damage that brings its HP down to 0, this unit's HP does not drop below 1 for the turn (once per Encounter)\n\n- Apply the following effects to \"Le Rouge\" allied Identities (including this unit):\n  · Min & Max Speed +1\n  · If there is not enough Charge Count to activate the effects of Skills that consume Charge Count, consume 1 Buffet to gain 1 Charge Count for every missing Charge Count required for activation",
-      "summary": "Strengthen Base Skills under certain conditions",
+      "name": "Nobil Decoro",
+      "desc": "Ottiene tutti i seguenti effetti in base alla Potenza Pulsazione su di sé:\n- 2+: Subisce -25% danni da Sanguinamento\n- 3+: le Abilità Base infliggono +1 Potenza e Conteggio Sanguinamento in più\n- 4+: Potere Base delle Abilità Base +1\n\n- Velocità Min & Max +1\n- Quando questa unità subisce danno che porterebbe i suoi PV a 0, per quel turno i PV dell'unità non scendono al di sotto di 1 (una volta per Incontro)\n\n- Applica i seguenti effetti alle Identità alleate \"Le Rouge\" (inclusa questa unità):\n  · Velocità Min & Max +1\n  · Se non c'è abbastanza Conteggio Carica per attivare gli effetti delle Abilità che usano Conteggio Carica, usa 1 Buffet per ottenere 1 Conteggio Carica per ogni Conteggio Carica mancante per l'attivazione",
+      "summary": "Migliora le Abilità Base con determinate condizioni",
       "undefined": "-"
     },
     {
       "id": "BoneNailSinclair",
       "name": "L'Abject",
-      "desc": "- Unique Bleed\n- Max Stack: 5\n- Take +2% damage from \"Le Rouge\" Identities for every Stack (max 10%)\n- Turn Start: Gain +1 Bleed Count\n- Turn End: Gain (Stack / 2) Bind next turn (rounded down)\n- Turn Start: If Haute Couture::The Crimson God of Le Rouge Sinclair is not on the field, this effect expires",
+      "desc": "- Sanguinamento Speciale\n- Stack Max: 5\n- Subisce +2% danni per ogni Stack dalle Identità \"Le Rouge\" (max 10%)\n- Inizio Turno: Ottiene +1 Conteggio Sanguinamento\n- Fine Turno: Ottiene (Stack / 2) Lentezza il turno successivo (arrotondato per difetto)\n- Inizio Turno: Se Haute Couture::Il Dio Cremisi dei Le Rouge Sinclair non è sul campo, questo effetto scade",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BuffetSinclair",
-      "name": "Uncontrollable Rampage",
-      "desc": "- Max Stack: 3\n- Offense Level +1 for every Stack (max 3)\n- Min & Max Speed +1\n- Deal +1% damage for every Bleed on self (max 15%)\n\n- Cannot become Staggered (excluding forced Stagger)\n- Take -50% damage from Bleed\n- Cannot be defeated by Bleed damage\n\n- On Base Attack Skill Use, gain +3 Bleed Count\n- On Base Attack Skill Hit, gain Bleed equal to Uncontrollable Rampage Stack\n\n- Turn End: Lose 1 Count",
-      "summary": "On Base Attack Skill Use, gain Bleed Count\nOn Base Attack Skill Hit, gain Bleed equal to Uncontrollable Rampage Stack",
+      "name": "Furia Irrefrenabile",
+      "desc": "- Stack Max: 3\n- Livello Offensivo +1 per ogni Stack (max 3)\n- Velocità Min & Max +1\n- Infligge +1% danno per ogni Sanguinamento su di sé (max 15%)\n\n- L'unitò non può essere Stordita (Stordimenti forzati esclusi)\n- Subisce -50% danni da Sanguinamento\n- Non può morire dal danno da Sanguinamento\n\n- All'Uso delle Abilità Attacco Base, ottiene +3 Conteggio Sanguinamento\n- Quando le Abilità Attacco Base Colpiscono, ottiene Sanguinamento pari alle Stack di Furia Irrefrenabile\n\n- Fine Turno: Perde 1 Conteggio",
+      "summary": "All'Uso delle Abilità Attacco Base, ottiene Conteggio Sanguinamento\nQuando le Abilità Attacco Base Colpiscono, ottiene Sanguinamento pari alle Stack di Furia Irrefrenabile",
       "undefined": "-"
     },
     {
       "id": "DinnerField",
       "name": "Buffet",
-      "desc": "- Max Value: 999\n- This value is increased by (actual HP healed / 10) whenever allies' or enemies' HP is healed on the field\n · Max 100 per instance of healing\n · Rounded up for each instance\n · Healing from E.G.O Gifts does not count\n\n- This value is shared by all characters\n- Resets when moving to a different zone",
+      "desc": "- Valore Max: 999\n- Questo valore aumente di (PV attualmente recuperati / 10) ogni volta che i PV degli alleati o dei nemici in campo vengono ripristinati\n · Max 100 per ogni istanza di recupero\n · Arrotondato per eccesso per ogni istanza\n · Il recupero tramite Doni E.G.O non viene contato\n\n- Questo valore è condiviso tra tutti i personaggi\n- Si azzera quando ci si sposta in una zona diversa",
       "summary": "",
       "undefined": "-",
-      "flavor": "The Buffet of flesh and meat is served. Let this be a feasting hall for all."
+      "flavor": "Il Buffet di carne è servito. Che questa sia una sala da banchetto per tutti."
     },
     {
       "id": "BuffetFriendShield",
-      "name": "Attending the Divine",
-      "desc": "- Unique Assist Defense\n- Max Stack: 1\n\n- When Haute Couture::The Crimson God of Le Rouge Sinclair is about to take an Unopposed Attack from an enemy, consume 1 Stack to redirect the enemy's targeting to self\n · Then, copy and use Haute Couture::The Crimson God of Le Rouge Sinclair's \"La Garde\"\n- When there are multiple allies that have Assist Defense Stacks, the ally that has the highest Stack has the highest activation priority\n- This effect counts as Assist Defense, and is counted toward calculating Assist Defense Stacks\n\n- Turn End: This effect expires",
+      "name": "Occuparsi del Divino",
+      "desc": "- Difesa Di Supporto Speciale\n- Stack Max: 1\n\n- Quando Haute Couture::La Divinità Cremisi dei Le Rouge Sinclair sta per subire un Attacco Incontrastato da un nemico, usa 1 Stack per ridireazionare il bersaglio del nemico su di sè\n · Poi, copia e usa l'abilità \"La Garde\" di Haute Couture::La Divinità Cremisi dei Le Rouge Sinclair- Quando sono presenti più alleati che hanno Stack di Difesa di Supporto, l'alleato con le Stack maggiori ha la priorità di attivazione più alta\n- Questo effetto viene considerato come Difesa di Supporto e viene considerato nei calcoli delle Stack di Difesa di Supporto\n\n- Fine Turno: Questo effetto scade",
       "summary": "",
       "undefined": "-",
-      "flavor": "Let us attend to our new God."
+      "flavor": "È ora di prendersi cura del nostro nuovo Dio."
     },
     {
       "id": "BuffetThirst",
-      "name": "Desperate Hunger",
-      "desc": "- Offense Level +2\n\n- At Coin Start of a Base Attack Skill used against an enemy, consume 1 Charge Count to deal +5% damage\n · Skills that inflict Bleed Potency or Count deal +10% damage instead (including Unique Bleed)\n · At 1+ Buffet Value on the field, if this unit is not at max Charge Count, consume 1 Buffet to gain +1 Charge Count\n · If both Charge Count and Buffet are at 0, consume 1% HP on self instead to activate the effect (rounded down; damage dealt by this effect does not Stagger or reduce this unit's HP below 1; activates even at 1 HP)\n\n- Turn End: This effect expires",
-      "summary": "Consume Charge Count to deal more damage",
+      "name": "Fame Disperata",
+      "desc": "- Livello Offensivo +2\n\n- Quando viene lanciata una Moneta di un'Abilità Base usata contro un nemico, usa 1 Conteggio Carica per infliggere +5% danni\n ·  Le Abilità che infliggono Potenza o Conteggio Sanguinamento infliggono invece +10% danni (Sanguinamento Speciale incluso)\n · A 1+ valore di Buffet sul campo, se questa unità non ha il massimo del Conteggio Carica, usa 1 Buffet per ottenere +1 Conteggio Carica\n · Se sia il Conteggio Carica e Buffet sono a 0, usa invece l'1% dei PV su di sé per attivare l'effetto (arrotondato per difetto; il danno subito da questo effetto non Stordisce o riduce i PV di questa unità al di sotto di 1)\n\n- Fine Turno: Questo effetto scade",
+      "summary": "Consume Conteggio Carica per infliggere più danno",
       "undefined": "-",
-      "flavor": "The sharper one hungers, the fiercer the desperation.\nThe further one is driven, the deeper the longing."
+      "flavor": "Quanto più acuta è la fame, tanto è più feroce la disperazione.\nPiù ci si spinge oltre, tanto più profondo è il desiderio."
     },
     {
       "id": "RougeFamilySinclair",
-      "name": "Crimson Cradle",
-      "desc": "When conditions are met by other \"Le Rouge\" allies, activate corresponding effects for Haute Couture::The Crimson God of Le Rouge Sinclair\n- Effects remain active even if the corresponding ally is defeated\n\nLe Rouge Ishmael\n- If Ishmael is in \"Full Makeover\" state, Sinclair's max HP +10%; Sinclair heals 5% max HP On Base Attack Hit (rounded up, 5 times per turn)",
+      "name": "Culla Cremisi",
+      "desc": "Quando le condizioni vengono soddisfatte dagli altri alleati \"Le Rouge\", attiva i seguenti effetti per Haute Couture::La Divinità Cremisi dei Le Rouge Sinclair\n- Gli effetti rimarranno attivi anche se l'alleato corrispondente viene sconfitto\n\nHaute Couture::Boutique Du Rouge Ishmael\n- Se Ishmael è nello stato \"Makeover Totale\", PV max di Sinclair +10%; Sinclair recuper il 5% dei PV max sul Colpo con Attacco Base (arrotondata per eccesso, 5 volte per turno)",
       "summary": "",
       "undefined": "-"
     }

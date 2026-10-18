@@ -3410,7 +3410,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration] e +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration] e +2 Conteggio [Vibration]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Trasforma [Switch_Vibration] in [VibrationIgnition]"
@@ -3601,7 +3601,7 @@
         {
           "level": 1,
           "name": "Retouche",
-          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[EndSkill] If target is an ally, apply +3 [Charge] Count and 1 [AttackUp]\n[EndSkill] If target is an ally, activate the following effects (once per turn):\n- Apply Shield equal to 5% of this unit's max HP (min 1)\n- Apply 1 [NoirScissorShield]\n- If target is [PersonalityCharge], apply 1 [Enhancement]",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[EndSkill] Se il bersaglio è un alleato, applica +3 Conteggio [Charge] e 1 [AttackUp]\n[EndSkill] Se il bersaglio è un alleato, attiva i seguenti effetti (una volta per turno):\n- Applica Scudo pari al 5% dei PV max di questa unità (min 1)\n- Applica 1 [NoirScissorShield]\n- Se il bersaglio è un'[PersonalityCharge], applica 1 [Enhancement]",
           "coinlist": [
             {
               "coindescs": []
@@ -3611,7 +3611,7 @@
         {
           "level": 2,
           "name": "Retouche",
-          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[EndSkill] If target is an ally, apply +<style=\"highlight\">4</style> [Charge] Count and 1 [AttackUp]\n[EndSkill] If target is an ally, activate the following effects (once per turn):\n- Apply Shield equal to 5% of this unit's max HP (min 1)\n- Apply 1 [NoirScissorShield]\n- If target is [PersonalityCharge], apply 1 [Enhancement]<style=\"highlight\"></style>",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[EndSkill] Se il bersaglio è un alleato, applica +<style=\"highlight\">4</style> Conteggio [Charge] e 1 [AttackUp]\n[EndSkill] Se il bersaglio è un alleato, attiva i seguenti effetti (una volta per turno):\n- Applica Scudo pari al 5% dei PV max di questa unità (min 1)\n- Applica 1 [NoirScissorShield]\n- Se il bersaglio è un'[PersonalityCharge], applica 1 [Enhancement]<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": []
@@ -3621,7 +3621,7 @@
         {
           "level": 4,
           "name": "Retouche",
-          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[EndSkill] If target is an ally, apply +4 [Charge] Count and 1 [AttackUp]\n[EndSkill] If target is an ally, activate the following effects <style=\"highlight\">(2 times per turn)</style>:\n- Apply Shield equal to <style=\"highlight\">10%</style> of this unit's max HP (min 1)\n- Apply 1 [NoirScissorShield]\n- If target is [PersonalityCharge], apply 2 [Enhancement]",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[EndSkill] Se il bersaglio è un alleato, applica +4 Conteggio [Charge] e 1 [AttackUp]\n[EndSkill] Se il bersaglio è un alleato, attiva i seguenti effetti <style=\"highlight\">(2 volte per turno)</style>:\n- Applica Scudo pari al <style=\"highlight\">10%</style> dei PV max di questa unità (min 1)\n- Applica 1 [NoirScissorShield]\n- Se il bersaglio è un'[PersonalityCharge], applica 2 [Enhancement]",
           "coinlist": [
             {
               "coindescs": []
@@ -3635,27 +3635,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Pin and Trim Along the Patterns",
-          "desc": "[StartBattle] Apply the following effects to 1 other ally with the earliest Deployment Order (prioritizes [PersonalityCharge]; once per turn):\n- Apply 2 [AttackUp]\n- Apply Shield equal to 5% of this unit's max HP (min 1)\n- If the said Identity is [PersonalityCharge], apply an additional 1 [AttackUp] and Shield equal to 5% of this unit's max HP\n\n[WhenUse] If target has 6+ [Vibration] Potency, Coin Power +1\n[WhenUse] Consume 5 [ChargeKhakiAlly] Count to gain Final Power +2",
+          "name": "Appunta e Taglia Seguendo i Modelli",
+          "desc": "[StartBattle] Applica i seguenti effetti ad 1 altro alleato con il Numero di Schieramento più basso (priorità alle [PersonalityCharge]; una volta per turno):\n- Applica 2 [AttackUp]\n- Applica Scudo pari al 5% dei PV max di questa unità (min 1)\n- Se quell'Identità è un'[PersonalityCharge], applica 1 [AttackUp] in più e Scudo pari al 5% dei PV max di questa unità\n\n[WhenUse] Se il bersaglio ha 6+ Potenza [Vibration], Potere Moneta +1\n[WhenUse] Usa 5 Conteggio [ChargeKhakiAlly] per ottenere Potere Finale +2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +6 [ChargeKhakiAlly] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +6 Conteggio [ChargeKhakiAlly]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce il Conteggio [Vibration] del bersaglio di 1"
                 }
               ]
             }
@@ -3663,27 +3663,27 @@
         },
         {
           "level": 2,
-          "name": "Pin and Trim Along the Patterns",
-          "desc": "[StartBattle] Apply the following effects to <style=\"highlight\">this unit and</style> 1 other ally with the earliest Deployment Order (prioritizes [PersonalityCharge]; once per turn):\n- Apply 2 [AttackUp]\n- Apply Shield equal to 5% of this unit's max HP (min 1)\n- If the said Identity is [PersonalityCharge], apply an additional 1 [AttackUp] and Shield equal to 5% of this unit's max HP\n\n[WhenUse] If target has 6+ [Vibration] Potency, Coin Power +1\n[WhenUse] Consume 5 [ChargeKhakiAlly] Count to gain Final Power +2",
+          "name": "Appunta e Taglia Seguendo i Modelli",
+          "desc": "[StartBattle] Applica i seguenti effetti a <style=\"highlight\">questa unità e</style> 1 altro alleato con il Numero di Schieramento più basso (priorità alle [PersonalityCharge]; una volta per turno):\n- Applica 2 [AttackUp]\n- Applica Scudo pari al 5% dei PV max di questa unità (min 1)\n- Se quell'Identità è un'[PersonalityCharge], applica 1 [AttackUp] in più e Scudo pari al 5% dei PV max di questa unità\n\n[WhenUse] Se il bersaglio ha 6+ Potenza [Vibration], Potere Moneta +1\n[WhenUse] Usa 5 Conteggio [ChargeKhakiAlly] per ottenere Potere Finale +2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +6 [ChargeKhakiAlly] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Ottiene +6 Conteggio [ChargeKhakiAlly]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce il Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3691,30 +3691,30 @@
         },
         {
           "level": 4,
-          "name": "Pin and Trim Along the Patterns",
-          "desc": "[StartBattle] Apply the following effects to this unit, 1 other ally with the earliest Deployment Order (prioritizes [PersonalityCharge]), <style=\"highlight\">and 1 ally with the lowest current HP percentage</style> (once per turn):\n- Apply 2 [AttackUp]\n- Apply Shield equal to 5% of this unit's max HP (min 1)\n- If the said ally is [PersonalityCharge], apply an additional 1 [AttackUp] and Shield equal to 5% of this unit's max HP\n\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 [Vibration] Potency on target (max 2)</style>\n[WhenUse] Consume 5 [ChargeKhakiAlly] Count to gain Final Power +2",
+          "name": "Appunta e Taglia Seguendo i Modelli",
+          "desc": "[StartBattle] Applica i seguenti effetti a questa unità, 1 altro alleato con il Numero di Schieramento più basso (priorità alle [PersonalityCharge]), <style=\"highlight\">e a 1 altro alleato con la percenutale minore di PV correnti</style> (una volta per turno):\n- Applica 2 [AttackUp]\n- Applica Scudo pari al 5% dei PV max di questa unità (min 1)\n- Se quell'Identità è un'[PersonalityCharge], applica 1 [AttackUp] in più e Scudo pari al 5% dei PV max di questa unità\n\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 Potenza [Vibration] sul bersaglio (max 2)</style>\n[WhenUse] Usa 5 Conteggio [ChargeKhakiAlly] per ottenere Potere Finale +2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +6 [ChargeKhakiAlly] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Ottiene +6 Conteggio [ChargeKhakiAlly]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce il Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [AmberResistDown] (once per turn)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [AmberResistDown] (una volta per turno)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3728,35 +3728,35 @@
         {
           "level": 3,
           "name": "Coupez dans le Biais",
-          "desc": "Deal +15% damage for every [NoirScissorCut] on self (max 30%)\n\n[StartBattle] Apply the following effects to 1 other ally with the earliest Deployment Order (prioritizes [PersonalityCharge]) and 1 ally with the lowest current HP percentage (once per turn):\n- Apply 1 [NoirScissorShield]\n- Apply Shield equal to 5% of this unit's max HP (min 1)\n\n[WhenUse] If target has 6+ [Vibration] Potency, Coin Power +1\n[WhenUse] Final Power +1 for every 3 [ChargeKhakiAlly] Potency (max 2)\n[WhenUse] Consume 5 [ChargeKhakiAlly] Count to gain Final Power +2\n\n[EndSkill] Gain +5 [ChargeKhakiAlly] Count",
+          "desc": "Infligge +15% danni per ogni [NoirScissorCut] su di sé (max 30%)\n\n[StartBattle] Applica i seguenti effetti ad 1 altro alleato con il Numero di Schieramento più basso (priorità alle [PersonalityCharge]) e a 1 altro alleato con la percenutale minore di PV correnti (una volta per turno):\n- Applica 1 [NoirScissorShield]\n- Applica Scudo pari al 5% dei PV max di questa unità (min 1)\n\n[WhenUse] Se il bersaglio ha 6+ Potenza [Vibration], Potere Moneta +1\n[WhenUse] Potere Finale +1 per ogni 3 Potenza [ChargeKhakiAlly] (max 2)\n[WhenUse] Usa 5 Conteggio [ChargeKhakiAlly] per ottenere Potere Finale +2\n\n[EndSkill] Ottiene +5 Conteggio [ChargeKhakiAlly]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [NoirScissorAlly]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [NoirScissorAlly]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [NoirScissorAlly]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [NoirScissorAlly]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce il Conteggio [Vibration] del bersaglio di 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 5+ [ChargeKhakiAlly] Count, consume 5 [ChargeKhakiAlly] Count to trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] A 5+ Conteggio [ChargeKhakiAlly], usa 5 Conteggio [ChargeKhakiAlly] per innescare [VibrationExplosion]; poi riduce il Conteggio [Vibration] del bersaglio di 1"
                 }
               ]
             }
@@ -3765,35 +3765,35 @@
         {
           "level": 4,
           "name": "Coupez dans le Biais",
-          "desc": "Deal <style=\"highlight\">+30%</style> damage for every [NoirScissorCut] on self <style=\"highlight\">(max 60%)</style>\n\n[StartBattle] Apply the following effects to this unit, 1 other ally with the earliest Deployment Order (prioritizes [PersonalityCharge]), and 1 ally with the lowest current HP percentage (once per turn):\n- Apply 1 [NoirScissorShield]\n- Apply Shield equal to <style=\"highlight\">10%</style> of this unit's max HP (min 1)\n\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 [Vibration] Potency on target (max 2)</style>\n[WhenUse] Final Power +1 for every 3 [ChargeKhakiAlly] Potency (max 2)\n[WhenUse] Consume 5 [ChargeKhakiAlly] Count to gain Final Power +2\n\n[EndSkill] Gain +5 [ChargeKhakiAlly] Count",
+          "desc": "Infligge <style=\"highlight\">+30%</style> danni per ogni [NoirScissorCut] su di sé <style=\"highlight\">(max 60%)</style>\n\n[StartBattle] Applica i seguenti effetti a questa unità, 1 altro alleatocon il Numero di Schieramento più basso (priorità alle [PersonalityCharge]) e a 1 altro alleato con la percenutale minore di PV correnti (una volta per turno):\n- Applica 1 [NoirScissorShield]\n- Applica Scudo pari al <style=\"highlight\">10%</style> dei PV max di questa unità (min 1)\n\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 Potenza [Vibration] sul bersaglio (max 2)</style>\n[WhenUse] Potere Finale +1 per ogni 3 Potenza [ChargeKhakiAlly] (max 2)\n[WhenUse] Usa 5 Conteggio [ChargeKhakiAlly] per ottenere Potere Finale +2\n\n[EndSkill] Ottiene +5 Conteggio [ChargeKhakiAlly]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [NoirScissorAlly]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [NoirScissorAlly]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [NoirScissorAlly]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [NoirScissorAlly]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce il Conteggio [Vibration] del bersaglio di 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 5+ [ChargeKhakiAlly] Count, consume 5 [ChargeKhakiAlly] Count to trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] A 5+ Conteggio [ChargeKhakiAlly], usa 5 Conteggio [ChargeKhakiAlly] per innescare [VibrationExplosion]; poi riduce il Conteggio [Vibration] del bersaglio di 1"
                 }
               ]
             }
@@ -3806,13 +3806,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Trimming",
-          "desc": "[DuelCounter]\n[StartBattle] Gain +5 [ChargeKhakiAlly] Count (2 times per turn)\n[StartBattle] Apply Shield equal to 5% of this unit's max HP to this unit and 2 other allies with the lowest current HP percentage (min 1, once per turn)",
+          "name": "Ritagliare",
+          "desc": "[DuelCounter]\n[StartBattle] Ottiene +5 Conteggio [ChargeKhakiAlly] (2 volte per turno)\n[StartBattle] Applica Scudo pari al 5% dei PV max di questa unità a questa unità e ad altri 2 alleati con la percentuale minore di PV correnti (min 1, una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
                 }
               ]
             }
@@ -3820,13 +3820,13 @@
         },
         {
           "level": 4,
-          "name": "Trimming",
-          "desc": "[DuelCounter]\n[StartBattle] Gain +5 [ChargeKhakiAlly] Count (2 times per turn)\n[StartBattle] Apply Shield equal to <style=\"highlight\">10%</style> of this unit's max HP to this unit and 2 other allies with the lowest current HP percentage (min 1, once per turn)\n\n<style=\"highlight\">[WhenUse] Clash Power +1 for every 5 [ChargeKhakiAlly] Count (max 4)</style>",
+          "name": "Ritagliare",
+          "desc": "[DuelCounter]\n[StartBattle] Ottiene +5 Conteggio [ChargeKhakiAlly] (2 volte per turno)\n[StartBattle] Applica Shield equal to <style=\"highlight\">10%</style> dei PV max di questa unità a questa unità e ad altri 2 alleati con la percentuale minore di PV correnti (min 1, una volta per turno)\n\n<style=\"highlight\">[WhenUse] Potere Scontro +1 per ogni 5 Conteggio [ChargeKhakiAlly] (max 4)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
                 }
               ]
             }
@@ -3839,19 +3839,19 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Patterning",
-          "desc": "[CantDuel]\n[WhenUse] Gain +3 [ChargeKhakiAlly] Count",
+          "name": "Modellamento",
+          "desc": "[CantDuel]\n[WhenUse] Ottiene +3 Conteggio [ChargeKhakiAlly]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] At 3+ [ChargeKhakiAlly] Potency, Reuse this Coin (once per Skill)"
+                  "desc": "[OnSucceedAttack] A 3+ Potenza [ChargeKhakiAlly], Riusa questa Moneta (una volta per Abilità)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [NoirScissorAlly]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [NoirScissorAlly]"
                 }
               ]
             }
@@ -3864,20 +3864,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Cutout",
-          "desc": "[CantDuel]\n[WhenUse] Final Power +1 for every 3 [ChargeKhakiAlly] Potency (max 2)\n[WhenUse] Gain +5 [ChargeKhakiAlly] Count\n\n[EndSkill] Consume 2 [NoirScissorAlly] on target\n[EndSkill] Gain 1 [NoirScissorCut]",
+          "name": "Sagoma",
+          "desc": "[CantDuel]\n[WhenUse] Potere Finale +1 per ogni 3 Potenza [ChargeKhakiAlly] (max 2)\n[WhenUse] Ottiene +5 Conteggio [ChargeKhakiAlly]\n\n[EndSkill] Consuma 2 [NoirScissorAlly] sul bersaglio\n[EndSkill] Ottiene 1 [NoirScissorCut]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce il Conteggio [Vibration] del bersaglio di 1"
                 }
               ]
             }

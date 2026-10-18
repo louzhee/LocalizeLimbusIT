@@ -3328,7 +3328,7 @@
                   "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce il Conteggio [Vibration] del bersaglio di 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce il Conteggio [Vibration] del bersaglio di 1"
                 }
               ]
             }
@@ -3358,7 +3358,7 @@
                   "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce il Conteggio [Vibration] del bersaglio di 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce il Conteggio [Vibration] del bersaglio di 1"
                 }
               ]
             }
@@ -3388,7 +3388,7 @@
                   "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce il Conteggio [Vibration] del bersaglio di 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce il Conteggio [Vibration] del bersaglio di 1"
                 }
               ]
             }
@@ -3427,10 +3427,10 @@
                   "desc": "[OnSucceedAttack] Ottiene +3 Conteggio [ChargeNoirAlly]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Modifica [Switch_Vibration] in [VibrationFocusing]"
+                  "desc": "[OnSucceedAttack] Trasforma [Switch_Vibration] in [VibrationFocusing]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce il Conteggio [Vibration] del bersaglio di 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce il Conteggio [Vibration] del bersaglio di 1"
                 },
                 {
                   "desc": "[OnSucceedAttack] Se il bersaglio ha 3+ [NoirNailDonQuixote], innesca [VibrationExplosion], poi riduce il Conteggio [Vibration] del bersaglio di 1"
@@ -3467,10 +3467,10 @@
                   "desc": "[OnSucceedAttack] Ottiene +<style=\"highlight\">4</style> Conteggio [ChargeNoirAlly]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Modifica [Switch_Vibration] in [VibrationFocusing]"
+                  "desc": "[OnSucceedAttack] Trasforma [Switch_Vibration] in [VibrationFocusing]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce il Conteggio [Vibration] del bersaglio di 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce il Conteggio [Vibration] del bersaglio di 1"
                 },
                 {
                   "desc": "[OnSucceedAttack] Se il bersaglio ha 3+ [NoirNailDonQuixote], innesca [VibrationExplosion], poi riduce il Conteggio [Vibration] del bersaglio di 1"
@@ -3486,7 +3486,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Testimoniate in Silenzio",
+          "name": "Testimoniate in Silenzio!",
           "desc": "[StartBattle] Ottiene 3 [OathFieldDonQuixote] (una volta per turno)\n[StartBattle] Recupera 4 PS e cura 4 PS ad 1 altra Identità alleata \"Le Noir\" con i PS più bassi (una volta per turno)\n[StartBattle] Ottiene +2 Conteggio [ChargeNoirAlly] (una volta per turno)\n[WhenUse] A 3+ Potenza [ChargeNoirAlly], Potere Moneta +1",
           "coinlist": [
             {
@@ -3510,7 +3510,7 @@
         },
         {
           "level": 3,
-          "name": "Testimoniate in Silenzio",
+          "name": "Testimoniate in Silenzio!",
           "desc": "[StartBattle] Ottiene 3 [OathFieldDonQuixote] (una volta per turno)\n[StartBattle] Recupera <style=\"highlight\">5</style> PS e cura 5 PS ad 1 altra Identità alleata \"Le Noir\" con i PS più bassi (una volta per turno)\n<style=\"highlight\">[StartBattle] Applica i seguenti effetti in base alle Stack di [NoirShieldUpDonQuixote] su di sé:\n- A 100 [NoirShieldUpDonQuixote], usa invece \"Con Ogni Colpo, Reciderò Il Tuo Avvento!\" (una volta per turno; può essere usata per gli Attacchi Incontrastati)\n- A meno di 100 Stack di [NoirShieldUpDonQuixote], ottiene Scudo pari al ([NoirShieldUpDonQuixote] / 10)% dei PV max di questa unità (una volta per turno)</style>\n[StartBattle] Ottiene +<style=\"highlight\">3</style> Conteggio [ChargeNoirAlly] (una volta per turno)\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ (Potenza [Vibration] + [NoirNailDonQuixote]), Potere Moneta +1</style>\n[WhenUse] A 3+ Potenza [ChargeNoirAlly], Potere Moneta +1 <style=\"highlight\">e infligge +10% damage</style>",
           "coinlist": [
             {
@@ -3534,7 +3534,7 @@
         },
         {
           "level": 4,
-          "name": "Testimoniate in Silenzio",
+          "name": "Testimoniate in Silenzio!",
           "desc": "[StartBattle] Ottiene 3 [OathFieldDonQuixote] (una volta per turno)\n[StartBattle] Heal <style=\"highlight\">6</style> SP on self and 1 other \"Le Noir\" allied Identity that has the lowest SP (una volta per turno)\n[StartBattle] Applica i seguenti effetti in base alle Stack di [NoirShieldUpDonQuixote] su di sé:\n- A 100 [NoirShieldUpDonQuixote], usa invece \"Con Ogni Colpo, Reciderò Il Tuo Avvento!\" (una volta per turno; può essere usata per gli Attacchi Incontrastati)\n- A meno di 100 Stack di [NoirShieldUpDonQuixote], ottiene Scudo pari al ([NoirShieldUpDonQuixote] / 10)% dei PV max di questa unità (una volta per turno)\n[StartBattle] Ottiene +<style=\"highlight\">4</style> Conteggio [ChargeNoirAlly] (una volta per turno)\n[WhenUse] <style=\"highlight\">Potere Moneta +1 per ogni 6 (Potenza [Vibration] + [NoirNailDonQuixote]) sul bersaglio (max 2)</style>\n[WhenUse] A 3+ Potenza [ChargeNoirAlly], Potere Moneta +1 e infligge +<style=\"highlight\">20</style>% danno",
           "coinlist": [
             {
@@ -3634,10 +3634,10 @@
                   "desc": "[OnSucceedAttack] Ottiene +3 Conteggio [ChargeNoirAlly] (una volta per Moneta)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Modifica [Switch_Vibration] in [VibrationFocusing]"
+                  "desc": "[OnSucceedAttack] Trasforma [Switch_Vibration] in [VibrationFocusing]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce il Conteggio [Vibration] del bersaglio di 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce il Conteggio [Vibration] del bersaglio di 1"
                 },
                 {
                   "desc": "[OnSucceedAttack] Applica i seguenti effetti sul bersaglio in base alle sue Stack di [NoirNailDonQuixote]\n- Se il bersaglio ha 3+ [NoirNailDonQuixote], innesca [VibrationExplosion], poi riduce il Conteggio [Vibration] del bersaglio di 1\n- Infligge danno Accidia pari a ([NoirNailDonQuixote] sul bersaglio x 1.5)% del danno finale di questa Moneta (max 45%)\n- Usa tutte le Stack di [NoirNailDonQuixote] sul bersaglio"
@@ -3680,10 +3680,10 @@
                   "desc": "[OnSucceedAttack] Ottiene +<style=\"highlight\">4</style> Conteggio [ChargeNoirAlly] (una volta per Moneta)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Modifica [Switch_Vibration] in [VibrationFocusing]"
+                  "desc": "[OnSucceedAttack] Trasforma [Switch_Vibration] in [VibrationFocusing]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion], poi riduce il Conteggio [Vibration] del bersaglio di 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce il Conteggio [Vibration] del bersaglio di 1"
                 },
                 {
                   "desc": "[OnSucceedAttack] Applica i seguenti effetti sul bersaglio in base alle sue Stack di [NoirNailDonQuixote]\n- Se il bersaglio ha 3+ [NoirNailDonQuixote], innesca [VibrationExplosion], poi riduce il Conteggio [Vibration] del bersaglio di 1\n- Infligge danno Accidia pari a ([NoirNailDonQuixote] sul bersaglio x <style=\"highlight\">3</style>)% del danno finale di questa Moneta (max <style=\"highlight\">90</style>%)\n- Usa tutte le Stack di [NoirNailDonQuixote] sul bersaglio"
