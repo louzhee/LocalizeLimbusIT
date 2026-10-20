@@ -29,7 +29,7 @@
     {
       "id": 9286,
       "name": "Pantaloni Maison du Noir",
-      "desc": "Quando gli alleati che hanno 2+ Potenza [Charge] innescano [VibrationExplosion], applica i seguenti effetti:\n- Infliggi (Potenza [Charge] su di sé x Conteggio [Charge]) Danno Invidia (2 volte per abilità, max 100 di danno per tick)\n- Ogni 2 volte che l'effetto precedente infligge Danno Invidia, infliggi 3 [Binding] al bersaglio nel turno successivo\n\nOgni volta che un alleato innesca [VibrationExplosion] usando un'Abilità, ottiene (Potenza [Charge] su di sé / 3) [AttackUp] nel turno successivo (max 5 per turno; arrotondato per difetto)",
+      "desc": "Quando gli alleati che hanno 2+ Potenza [Charge] innescano [VibrationExplosion], applica i seguenti effetti:\n- Infliggi (Potenza [Charge] su di sé x Conteggio [Charge]) Danno Invidia (2 volte per abilità, max 100 di danno per colpo)\n- Ogni 2 volte che l'effetto precedente infligge Danno Invidia, infliggi 3 [Binding] al bersaglio nel turno successivo\n\nOgni volta che un alleato innesca [VibrationExplosion] usando un'Abilità, ottiene (Potenza [Charge] su di sé / 3) [AttackUp] nel turno successivo (max 5 per turno; arrotondato per difetto)",
       "simpleDesc": [
         {
           "abilityID": 9286,
@@ -44,7 +44,7 @@
     {
       "id": 9287,
       "name": "Mary Jane Le Noir",
-      "desc": "Inizio Combattimento: Sul Colpo da un'Identità che ha lo Scudo più alto, infliggi (Scudo attuale / 2) Danno Accidia (2 volte per Abilità, max 100 di danno per tick; arrotondato per difetto)\n- Se 2+ Identità hanno la stessa quantità di Scudo PV, viene applicato all'Identità schierata per prima nell'Ordine di Schieramento\n\nSe l'Identità affetta è un'[PersonalityCharge], invece infliggi Danno Accidia pari allo Scudo attuale (3 volte per abilità, max 100 per tick; arrotondato per difetto)",
+      "desc": "Inizio Combattimento: Sul Colpo da un'Identità che ha lo Scudo più alto, infliggi (Scudo attuale / 2) Danno Accidia (2 volte per Abilità, max 100 di danno per colpo; arrotondato per difetto)\n- Se 2+ Identità hanno la stessa quantità di Scudo PV, viene applicato all'Identità schierata per prima nell'Ordine di Schieramento\n\nSe l'Identità affetta è un'[PersonalityCharge], invece infliggi Danno Accidia pari allo Scudo attuale (3 volte per abilità, max 100 per colpo; arrotondato per difetto)",
       "simpleDesc": [
         {
           "abilityID": 9287,
