@@ -3,20 +3,20 @@
     {
       "id": 971115,
       "name": "Le Rouge Casualwear Hall, 1F",
-      "desc": "\"Damn it! The trend's changed again!\"\n\nA Rouge sales associate scans a list, yanking clothes from the racks and flinging them onto the floor one after another.\n\n\"Fluorescent plaid only just went out. Now it's polka dots? Hah!\"\n\nLooks like they have no use for any of those clothes now... Maybe we can take them off their hands?",
+      "desc": "\"Dannazione! Il trend è cambiato di nuovo!\"\n\nUn Addetto alle Vendite controlla una lista, ritirando gli indumenti dagli scaffali e buttandoli per terra uno dopo l'altro.\n\n\"Il tartan fluo è appena passato di moda. Ora vanno i pois? Hah!\"\n\nSembra che non abbia più bisogno di quei vestiti... Forse possiamo appropriarcene?",
       "options": [
         {
-          "message": "Ask if we can have the out-of-fashion clothes.",
-          "messageDesc": "Lust & Gluttony Advantage check. Pass to gain a Keywordless E.G.O Gift (failing begins a combat Encounter)",
+          "message": "Chiedi se possiamo avere i vestiti passati di moda.",
+          "messageDesc": "Prova con Vantaggio per Lussuria e Gola.\nPassa per ottenere un Dono E.G.O Senza Tratti (fallire inizierà un Combattimento)",
           "result": [
             ""
           ]
         },
         {
-          "message": "Ignore them.",
-          "messageDesc": "No particular effect",
+          "message": "Ignora.",
+          "messageDesc": "Nessun effetto particolare",
           "result": [
-            "Funny. Now that we know they've gone out of fashion, the clothes that looked perfectly fine a moment ago suddenly seem a little tacky.\n\nProbably not worth taking after all."
+            "Strano. I capi che sembravano completamente apposto sembrano scadenti, ora che sono passati di moda.\n\nForse non vale proprio la pena di prenderli."
           ]
         }
       ]
@@ -24,20 +24,20 @@
     {
       "id": 971116,
       "name": "Sous Chef",
-      "desc": "\"Come try this season's Meat Soda, you hear?\"\n\nSous Chef stops us beside a fountain bubbling with soda.\n\n\"Camemblack Scabbardfish... fresh larva, even a fisherman's chair... *slurp* I infused it with all kinds of rarity-rare ingredients, you hear?\"\n\n\"First time? Then it's just 3 eyeballs a cup, you hear? It's crazy value, you hear? Special discount, you hear? Once-in-a-lifetime deal, you hear?\"\n\nThat is indeed cheaper than expected... Should we try it?",
+      "desc": "\"Venite a provare la Soda di Carne di questa stagione, capito?\"\n\nSous Chef ci ferma dietro ad una effervescente fontana di soda.\n\n\"Larve fresche di... Pesce Sciabola Camemblack, persino la sedia di un pescatore... *slurp* l'ho infusa di tutti i tipi di ingredienti rarissimi, capito?\"\n\n\"Prima volta? Allora fanno solo 3 bulbi oculari a bicchiere, capito? È una cifra assurda, capito? Sconto speciale, capito? Un vero affarone, capito?\"\n\nÈ decisamente più economico di quanto mi aspettassi... Dovremmo provare?",
       "options": [
         {
-          "message": "Ask for a cup of soda.",
-          "messageDesc": "Lust & Gluttony Advantage check. Pass to gain a Keywordless E.G.O Gift",
+          "message": "Chiedi per un bicchiere di soda.",
+          "messageDesc": "Prova con Vantaggio per Lussuria e Gola.\nPassa per ottenere un Dono E.G.O Senza Tratti",
           "result": [
             ""
           ]
         },
         {
-          "message": "Still, that looks a little... hard to stomach.",
-          "messageDesc": "All allies lose HP",
+          "message": "Ma sembra un po'... difficile da digerire.",
+          "messageDesc": "Tutti gli alleati perdono PV",
           "result": [
-            "\"You can't just turn down the Meat Soda I worked so hard to make, you hear?!\"\n\nSous Chef grabs a pair of crude cleavers in both of her hands and starts swinging wildly.\n\n\"Looks like I'll have to infuse the flavors into you, you hear? You'll be my next ingredient, you hear?!\"\n\nWe make a run for it, but there was no escaping that tiny whirlwind of cleaver blades unscathed."
+            "\"Non potete rifiutare così la Soda di Carne a cui ho lavorato così tanto, capito?!\"\n\nSous Chef prende un paio di coltellacci e inizia ad agitarli all'impazzata.\n\n\"Sembra che debba infondere i gusti dentro voi, capito? Sarete i miei prossimi ingredienti, capito?!\"\n\nAbbiamo cercato di scappare, ma non siamo riusciti a sfuggire indenni da quel minuscolo uragano di mannaie."
           ]
         }
       ]
@@ -45,25 +45,25 @@
     {
       "id": 971117,
       "name": "Le Noir, 3F",
-      "desc": "\"Interested in this season's new arrivals?\"\n\nWe were browsing the Maison du Noir when a group of sales associates wrapped head to toe in black fabric approached us.\n\n\"You have an eye for quality. This one here—the balance of warp and weft is exquisite.\"\n\n\"A dense weave, yet not a trace of stiffness. It brings out the softness of the fabric beautifully.\"\n\n\"32 stitches to the inch. You could roll across the basement floors and still not wear it through. That ruggedness is woven into the spirit of our signature style.\"\n\n\"Those crude slabs of flesh the Le Rouges stitch together cannot possibly compare to this masterpiece.\"\n\n\"Well? Are you going to make the purchase?\"",
+      "desc": "\"Vi interessano gli ultimi arrivi di questa stagione?\"\n\nStavamo guardando in giro per la Maison du Noir quando un gruppo di addetti alla vendita ricoperti dalla testa ai piedi di tessuto nero si è avvicinato a noi.\n\n\"Avete occhio per la qualità. Guardate questo: il bilancio di trama e ordito è elegante.\"\n\n\"L'intreccio è spesso, eppure non c'è ombra di tensione. Riesce a risaltare splendidamente la morbidezza del tessuto.\"\n\n\"8 punti al centimetro. Potreste anche farlo rotolare per i piani sotterranei e sembrerebbe ancora nuovo di zecca. La robustezza è intrecciata nello spirito del nostro stile inimitabile.\"\n\n\"Quei primitivi blocchi di carne che i Le Rouge cuciono assieme non sono minimamente comparabili a questo capolavoro.\"\n\n\"Allora? Siete pronti a fare il vostro acquisto?\"",
       "options": [
         {
-          "message": "Try bargaining by appealing to Le Noir's aesthetic despite our empty eyeball wallet.",
-          "messageDesc": "Sloth & Envy Advantage check. Pass to gain a Tremor E.G.O Gift",
+          "message": "Provate a contrattare elogiando l'estetica dei Le Noir nonostante la mancanza di bulbi oculari.",
+          "messageDesc": "Prova con Vantaggio per Accidia e Invidia.\nPassa per ottenere un Dono E.G.O Vibrazione",
           "result": [
             ""
           ]
         },
         {
-          "message": "Tell them we don't have any eyeballs.",
-          "messageDesc": "All allies lose SP",
+          "message": "Di' che non avete nessun bulbo oculare.",
+          "messageDesc": "Tutti gli alleati perdono PS",
           "result": [
-            "\"Hm... no eyeballs?\"\n\nThe Le Noir sales associate barely glances at the coins we offer.\n\n\"What is this, child's play? Some juvenile toy you're seen fit to carry around?\"\n\n\"You are clearly not the sort of clientele the Maison du Noir should be catering to.\"\n\n\"You wasted enough of my time. The exit is that way.\""
+            "\"Hm... neanche un bulbo?\"\n\nL'addetto alla vendita di Le Noir dà un'occhiata alle monete che abbiamo offerto.\n\n\"Che cos'è, qualche giochetto per bambini? Pensate che sia decoroso portarvi in giro simili giocattolini?\"\n\n\"Chiaramente non siete il tipo di clientela a cui la Maison du Noir dovrebbe avere a che fare.\"\n\n\"Avete sprecato il mio tempo più che a sufficienza. L'uscita è da quella parte.\""
           ]
         },
         {
-          "message": "Boutique du Rouge's lineup looks more stylish, though...?",
-          "messageDesc": "Lust & Gluttony Advantage check. Pass to gain a Tremor E.G.O Gift",
+          "message": "Però la linea della Boutique du Rouge sembra più stilosa...?",
+          "messageDesc": "Prova con Vantaggio per Lussuria e Gola.\nPassa per ottenere un Dono E.G.O Vibrazione",
           "result": [
             ""
           ]
@@ -73,20 +73,20 @@
     {
       "id": 971118,
       "name": "One-leg, Four-legs",
-      "desc": "As we enter Le Noir's Footwear Hall, we find One-leg tearing Four-legs a new one.\n\n\"You vile, lowly little thing. The vulgar sound of your appendages clopping against the floor revolts me. The worst part is how disgustingly close together they are.\"\n\n\"Please forgive me... One-leg...\"\n\n\"Quiet. Dragging around all those useless legs was bad enough. Now you're cluttering my ears with useless words too, you hideous thing.\"\n\n\"......\"\n\n\"No excuses this time? Hah! I'd rather hire those Le Rouge wretches next door. Down on their luck, but still better than your kind.\"\n\n\"Between the two of them, they'd have the same number of legs scraping the floor and still get twice as much work done as you!\"\n\nFour-leg trembles in fear under the relentless abuse.\n\n\"S-such cruel treatment, forsooth...\"\n\n\"Bloody hell, I'm gettin' pissed off just listening to this...\"\n\n... This is getting hard to watch.\n\nWhat should we do?\"",
+      "desc": "Entrando nel Reparto Calzature di Le Noir, troviamo Monopode fare a pezzi Quadropede.\n\n\"Vile e infima creature, il suono volgare del tuo galoppare mi fa ribrezzo. Il peggio è quanto quelle tue appendici siano disgustosamente vicine tra loro.\"\n\n\"La prego di perdonarmi... Monopode...\"\n\n\"Taci. Strisciare in giro con quelle inutili gambe è già abbastanza sgradevole da sentire. Ora riempi pure le mie orecchie con le tue insignificanti parole, orrida creatura che non sei altro.\"\n\n\"......\"\n\n\"L'hai smessa con le scuse? Hah! Assumerei uno di quei straccioni dei Le Rouge della porta accanto. Peggio per loro, ma son messe meglio della tua specie.\"\n\n\"Loro due hanno lo stesso numero di gambe a graffiare il terreno eppure fanno il doppio del tuo lavoro!\"\n\nQuadropede trema di paura dall'abuso senza tregua.\n\n\"C-che crudeltà, invero...\"\n\n\"Ma che diavolo, mi sto scazzando solo a sentire...\"\n\n... Sta diventando difficile da guardare.\n\nCosa dovremmo fare?",
       "options": [
         {
-          "message": "Stand up for Four-legs.",
-          "messageDesc": "Sloth & Envy Advantage check. Pass to gain a Keywordless E.G.O Gift",
+          "message": "Difendete Quadropede.",
+          "messageDesc": "Prova con Vantaggio per Accidia e Invidia.\nPassa per ottenere un Dono E.G.O Senza Tratti",
           "result": [
             ""
           ]
         },
         {
-          "message": "Ignore the situation and move on.",
-          "messageDesc": "No particular effect",
+          "message": "Ignorate la situazione e proseguite.",
+          "messageDesc": "Nessun effetto particolare",
           "result": [
-            "Getting involved would probably keep us here for quite a while.\n\nWe slip past without drawing either of their attention.\n\nEven as we leave, One-leg's berating shows no sign of stopping."
+            "Intromettersi ci farà rimanere qui per un bel po'.\n\nSiamo andati oltre senza attirare attenzioni.\n\nAnche quando ce ne stavamo andando, gli insulti di Monopode non sembravano terminare."
           ]
         }
       ]
@@ -94,20 +94,20 @@
     {
       "id": 971119,
       "name": "Palette and Putty",
-      "desc": "Fluorescent dyes in every color stream down into vats around the room.\n\nBetween them, Palette sweeps the floor with her fluffy hair while checking Putty's legs from every angle.\n\n\"You've got dye residue gunking your knee joints. This must've been really uncomfortable, Big Sis.\"\n\n\"......\"\n\n\"I can't even scrape it off... It's already seeped into the gaps and hardened. I think we'll have to replace the whole thing.\"\n\n\"Hey, you there. Got a minute?\"\n\n\"Could you grab a new knee for my sister from the storeroom in the back? I'd go myself, but I'm right in the middle of dyeing. Can't leave it unattended.\"",
+      "desc": "Tinte fluorescenti di ogni colore si riversano nelle vasche intorno alla stanza.\n\nNel mezzo, Palette strofina il pavimento con i suoi capelli vaporosi mentre controlla le gambe di Putty da tutti gli angoli.\n\n\"Hai del residuo di tinta tra le giunture delle tue ginocchia. Deve essere davvero scomodo, Sorellona.\"\n\n\"......\"\n\n\"Non posso nemmeno levarlo... Si è infiltrato tra gli spazi e si è incrostato. Credo che dovremmo sostituire la parte per intero.\"\n\n\"Ehi, voi laggiù, avete un minuto?\"\n\n\"Potreste prendere un nuovo ginocchio per la mia sorella dal magazzino nel retro? Ci andrei io stessa, ma sono nel bel mezzo della tintura. Non posso lasciare il tutto incustodito.\"",
       "options": [
         {
-          "message": "Offer to go get it.",
-          "messageDesc": "Envy Advantage check. Pass to gain a Charge E.G.O Gift (failing begins a combat Encounter)",
+          "message": "Offritevi a prenderlo.",
+          "messageDesc": "Prova con Vantaggio per Invidia.\nPassa per ottenere un Dono E.G.O Carica (fallire inizierà un Combattimento)",
           "result": [
             ""
           ]
         },
         {
-          "message": "Tell her we're busy too.",
-          "messageDesc": "No particular effect",
+          "message": "Dite di essere anche voi occupati.",
+          "messageDesc": "Nessun effetto particolare",
           "result": [
-            "\"... Yeah. I guess there aren't many customers around here with time to spare to help someone else.\"\n\n\"Putty, Big Sis, let's go replace it together once we're done with this batch.\"\n\n\"......\"\n\nWe leave the two behind, the faint creak of Putty's joints echoing in the corridor."
+            "\"... Si. Immagino non ci siano tanti clienti qui in giro con del tempo da perdere per aiutare qualcun altro.\"\n\n\"Putty, Sorellona, andiamo insieme a rimpiazzarlo una volta che abbiamo finito con questo lotto.\"\n\n\"......\"\n\nCi lasciamo alle spalle le due, con il lieve scricchiolio delle giunture di Putty a risuonare nel corridoio."
           ]
         }
       ]
@@ -115,20 +115,20 @@
     {
       "id": 971120,
       "name": "Annette",
-      "desc": "\"Shoulder seams hanging a touch too low... hems of the arm a span too short. Much work to be done, this one. So, what would you like to have altere—Aha. You came to <i>snip-snip.</i>\"\n\nThe Alterationist looks up from the fabric she is cutting in the middle of the room.\n\n\"Need to borrow scissors to cut something away?\"\n\n\"Hm... Then in return, mind if I split open and dig around in one of your heads a little bit?\"",
+      "desc": "\"La giuntura della spalla si trova leggermente troppo in basso... i bordi del braccio sono un tantino troppo corti. Così tanto lavoro da fare con questo qui. Quindi, cosa vorreste che io alter—Aha. Siete venuti per <i>snip-snip.</i>\"\n\nLa Sarta guarda al tessuto che stava tagliando nel mezzo della stanza.\n\n\"Dovete prendere delle forbici in prestito per tagliare via qualcosa?\"\n\n\"Hm... Allora in cambio, vi dispiace se aprò e frugo un pochino in una delle vostre teste?\"",
       "options": [
         {
-          "message": "Accept.",
-          "messageDesc": "Envy Advantage check. Pass to gain a Charge E.G.O Gift.",
+          "message": "Accetta.",
+          "messageDesc": "Prova con Vantaggio per Invidia.\nPassa per ottenere un Dono E.G.O Carica.",
           "result": [
             ""
           ]
         },
         {
-          "message": "Refuse.",
-          "messageDesc": "No particular effect",
+          "message": "Rifiuta.",
+          "messageDesc": "Nessun effetto particolare",
           "result": [
-            "\"Too bad. Then I can't give them to you.\"\n\nThe Alterationist immediately turns back to her work. It does not look like she's going to answer us again."
+            "\"Peccato. Allora non posso darvele.\"\n\nLa Sarta torna immediatamente a lavorare. Non sembra che ci risponderà più."
           ]
         }
       ]
