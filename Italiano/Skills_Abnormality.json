@@ -138,21 +138,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Cura 1 PV"
+                  "desc": "[OnSucceedAttackHead] Recupera 1 PV"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Cura 1 PV"
+                  "desc": "[OnSucceedAttackHead] Recupera 1 PV"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Cura 1 PV"
+                  "desc": "[OnSucceedAttackHead] Recupera 1 PV"
                 }
               ]
             }
@@ -470,7 +470,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Il corpo principale recupera 3 PV"
+                  "desc": "[OnSucceedAttack] Il Nucleo recupera 3 PV"
                 }
               ]
             },
@@ -511,7 +511,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Il corpo principale cura 10 PV"
+                  "desc": "[OnSucceedAttack] Il Nucleo recupera 10 PV"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge 5 [Laceration] nel turno successivo"
@@ -1119,7 +1119,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Cura il 10% dei PV Max; Ottiene 1 [Aggressive]"
+                  "desc": "[OnSucceedAttack] Recupera il 10% dei PV Max; Ottiene 1 [Aggressive]"
                 }
               ]
             }
@@ -1137,7 +1137,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Cura il 10% dei PV Max"
+                  "desc": "[OnSucceedAttack] Recupera il 10% dei PV Max"
                 }
               ]
             },
@@ -1380,7 +1380,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Cura 20 PV; Infligge +5 Conteggio [Laceration]"
+                  "desc": "[OnSucceedAttack] Recupera 20 PV; Infligge +5 Conteggio [Laceration]"
                 }
               ]
             }
@@ -1549,7 +1549,7 @@
         {
           "level": 1,
           "name": "La Presa",
-          "desc": "[StartBattle] Fissa il suo [Cromer_Target] sul bersaglio per tutto nel turno successivo",
+          "desc": "[StartBattle] Fissa lo [Cromer_Target] sul bersaglio per tutto il turno successivo",
           "coinlist": [
             {
               "coindescs": [
@@ -1926,7 +1926,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Se i PV del bersaglio sono sotto il 30%, lo uccide e cura 30 PV\nOttiene 2 [Enhancement] nel turno successivo"
+                  "desc": "[OnSucceedAttackHead] Se i PV del bersaglio sono sotto il 30%, recupera 30 PV e uccide il bersaglio\nOttiene 2 [Enhancement] nel turno successivo"
                 }
               ]
             }
@@ -2420,7 +2420,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Cura 7 PV"
+                  "desc": "[OnSucceedAttack] Recupera 7 PV"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Infligge 3 [Sinking]"
@@ -2475,7 +2475,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Cura 7 PV"
+                  "desc": "[OnSucceedAttack] Recupera 7 PV"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Infligge 5 [Laceration]"
@@ -2530,7 +2530,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Cura 7 PV"
+                  "desc": "[OnSucceedAttack] Recupera 7 PV"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Infligge 2 [Paralysis] nel turno successivo"
@@ -2585,7 +2585,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Cura 7 PV"
+                  "desc": "[OnSucceedAttack] Recupera 7 PV"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge 3 [Paralysis]"
@@ -3492,7 +3492,7 @@
         {
           "level": 1,
           "name": "Facciamoci Un Drink!",
-          "desc": "In uno Scontro, infligge 1 [Exalted]\n[WhenUse] Cura il 5% dei PV Max",
+          "desc": "In uno Scontro, infligge 1 [Exalted]\n[WhenUse] Recupera il 5% dei PV Max",
           "coinlist": [
             {
               "coindescs": [
@@ -3586,7 +3586,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Se bersaglia il Vino Fatato, attiva i seguenti effetti:\n- Cura il 10% dei PV Max nel turno successivo\n- Ottiene 2 [Enhancement], 2 [Agility], e 2 [Protection]"
+                  "desc": "[OnSucceedAttack] Se bersaglia il Vino Fatato, attiva i seguenti effetti:\n- Recupera il 10% dei PV Max nel turno successivo\n- Ottiene 2 [Enhancement], 2 [Agility], e 2 [Protection]"
                 }
               ]
             }
@@ -3639,7 +3639,7 @@
         {
           "level": 1,
           "name": "Ricordi Pungenti",
-          "desc": "[WinDuel] Cura 8 PS\n[DefeatDuel] Perde 5 PS",
+          "desc": "[WinDuel] Recupera 8 PS\n[DefeatDuel] Perde 5 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -3672,7 +3672,7 @@
         {
           "level": 1,
           "name": "Ricordi Spinosi",
-          "desc": "[WinDuel] Cura 8 PS\n[DefeatDuel] Perde 5 PS",
+          "desc": "[WinDuel] Recupera 8 PS\n[DefeatDuel] Perde 5 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -4102,7 +4102,7 @@
         {
           "level": 1,
           "name": "Profumo",
-          "desc": "[WhenUse] Cura 10 PV",
+          "desc": "[WhenUse] Recupera 10 PV",
           "coinlist": [
             {}
           ]
@@ -4128,7 +4128,7 @@
         {
           "level": 1,
           "name": "Piena Fioritura",
-      "desc": "Non può agire\nAlla fine del turno, perde 20 PS; se i PS raggiungono -45, cura totalmente i PS, ed ottiene 'Mente Frastornata' nel turno successivo.\nSe quest'effetto non viene rimosso per 2 turni, verrà rimosso alla fine del turno.",
+      "desc": "Non può agire\nA fine turno, perde 20 PS; se i PS scendono a -45, recupera tutti i PS e ottiene [DongbaekFascination] nel turno successivo.\nSe questo effetto non viene rimosso per 2 turni, esso verrà rimosso alla fine di quel turno.",
           "coinlist": [
             {}
           ]
@@ -4198,7 +4198,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Cura PV pari ai danni inflitti"
+                  "desc": "[OnSucceedAttack] Recupera PV pari ai danni inflitti"
                 }
               ]
             }
@@ -4217,14 +4217,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Cura PV pari ai danni inflitti\nSe il bersaglio ha [DistortedDongrangEmptyMark], ottiene 1 [Enhancement] nel turno successivo"
+                  "desc": "[OnSucceedAttack] Recupera PV pari ai danni inflitti\nSe il bersaglio ha [DistortedDongrangEmptyMark], ottiene 1 [Enhancement] nel turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Cura PV pari ai danni inflitti\nSe il bersaglio ha [DistortedDongrangEmptyMark], ottiene 1 [Enhancement] nel turno successivo"
+                  "desc": "[OnSucceedAttack] Recupera PV pari ai danni inflitti\nSe il bersaglio ha [DistortedDongrangEmptyMark], ottiene 1 [Enhancement] nel turno successivo"
                 }
               ]
             }
@@ -4262,14 +4262,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]; Cura PV pari al 25% dei danni inflitti"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]; Recupera PV pari al 25% dei danni inflitti"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]; Cura PV pari al 25% dei danni inflitti"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Laceration]; Recupera PV pari al 25% dei danni inflitti"
                 }
               ]
             },
@@ -4353,7 +4353,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 2 [Vulnerable], 5 [Burst], e 5 [Laceration]; Cura PV pari al 10% dei danni inflitti"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vulnerable], 5 [Burst], e 5 [Laceration]; Recupera PV pari al 10% dei danni inflitti"
                 }
               ]
             }
@@ -4477,7 +4477,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 3 [EgoAwakenDongrangSeed] e [EgoAwakenDongrangOverHeal]; Cura i PV del bersaglio di 15"
+                  "desc": "[OnSucceedAttack] Infligge 3 [EgoAwakenDongrangSeed] e [EgoAwakenDongrangOverHeal]; Recupera i PV del bersaglio di 15"
                 }
               ]
             }
@@ -4496,7 +4496,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 3 [Vulnerable] e 10 [Laceration]\nSe il bersaglio ha [EgoAwakenDongrangTree], cura 20 PV e ottiene 2 [Enhancement] nel turno successivo"
+                  "desc": "[OnSucceedAttack] Infligge 3 [Vulnerable] e 10 [Laceration]\nSe il bersaglio ha [EgoAwakenDongrangTree], recupera 20 PV e ottiene 2 [Enhancement] nel turno successivo"
                 }
               ]
             }
@@ -4510,12 +4510,12 @@
         {
           "level": 1,
           "name": "Sii I Miei Nutrienti, Prego",
-          "desc": "[WhenUse] Cura 15 PV a tutti gli Alberi dei Desideri; Se non ci sono Alberi dei Desideri, ne pianta uno",
+          "desc": "[WhenUse] Recupera 15 PV a tutti gli Alberi dei Desideri; Se non ci sono Alberi dei Desideri, ne pianta uno",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Cura 10 PV; Infligge 3 [EgoAwakenDongrangSeed]"
+                  "desc": "[OnSucceedAttack] Recupera 10 PV; Infligge 3 [EgoAwakenDongrangSeed]"
                 }
               ]
             }
@@ -4750,7 +4750,7 @@
                   "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio ha [Laceration], cura 20 PV"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [Laceration], recupera 20 PV"
                 }
               ]
             },
@@ -4795,7 +4795,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Cura 1% PV per ogni [Laceration] sul bersaglio. Poi, rimuove tutto il Conteggio [Laceration]"
+                  "desc": "[OnSucceedAttack] Recupera 1% PV per ogni [Laceration] sul bersaglio. Poi, rimuove tutto il Conteggio [Laceration]"
                 }
               ]
             }
@@ -4826,21 +4826,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Cura 1 PV"
+                  "desc": "[OnSucceedAttackHead] Recupera 1 PV"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Cura 1 PV"
+                  "desc": "[OnSucceedAttackHead] Recupera 1 PV"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Cura 1 PV"
+                  "desc": "[OnSucceedAttackHead] Recupera 1 PV"
                 }
               ]
             }
@@ -5055,7 +5055,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Il Nucleo cura il 3% dei PV Max"
+                  "desc": "[OnSucceedAttack] Il Nucleo recupera il 3% dei PV Max"
                 }
               ]
             }
@@ -5110,7 +5110,7 @@
                   "desc": "[OnSucceedAttackHead] Riusa questa Moneta una volta (3 volte per Abilità)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Il Nucleo cura 10 PV"
+                  "desc": "[OnSucceedAttack] Il Nucleo recupera 10 PV"
                 }
               ]
             }
@@ -5179,7 +5179,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Il Nucleo cura 10 PV"
+                  "desc": "[OnSucceedAttack] Il Nucleo recupera 10 PV"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"

@@ -15,7 +15,7 @@
         {
           "level": 1,
           "name": "Testa Bassa",
-          "desc": "[OnSucceedAttack] Infligge 2 [Binding] e cura il 5% dei PV Max"
+          "desc": "[OnSucceedAttack] Infligge 2 [Binding] e recupera il 5% dei suoi PV Max"
         }
       ]
     },
@@ -1185,21 +1185,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Cura 2 PS"
+                  "desc": "[OnSucceedAttack] Recupera 2 PS"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Cura 2 PS"
+                  "desc": "[OnSucceedAttack] Recupera 2 PS"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Cura 2 PS"
+                  "desc": "[OnSucceedAttack] Recupera 2 PS"
                 }
               ]
             }
@@ -1286,7 +1286,7 @@
         {
           "level": 1,
           "name": "Pasos Pasionales",
-          "desc": "[WhenUse] Cura 5 PS",
+          "desc": "[WhenUse] Recupera 5 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -1462,7 +1462,7 @@
         {
           "level": 1,
           "name": "Raffica Di Insulti",
-          "desc": "[WinDuel] Un alleato casuale cura 10 PS",
+          "desc": "[WinDuel] Un alleato casuale recupera 10 PS",
           "coinlist": [
             {},
             {
@@ -1606,7 +1606,7 @@
         {
           "level": 1,
           "name": "Attivazione dei Proiettili PV",
-          "desc": "[WhenUse] Cura 10 PV",
+          "desc": "[WhenUse] Recupera 10 PV",
           "coinlist": [
             {}
           ]
@@ -2107,7 +2107,7 @@
         {
           "level": 1,
           "name": "Unione",
-          "desc": "[WinDuel] Cura due alleati con meno PS di 15 PS",
+          "desc": "[WinDuel] Due alleati con meno PS recuperano 15 PS",
           "coinlist": [
             {
               "coindescs": [
@@ -2212,7 +2212,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Cura i due alleati con meno PS di 10 PS"
+                  "desc": "[OnSucceedAttack] Due alleati con meno PS recuperano 10 PS"
                 }
               ]
             }
@@ -3682,7 +3682,7 @@
         {
           "level": 1,
           "name": "Al Riparo, Al Riparo!",
-          "desc": "[StartBattle] Cura il 5% dei PV Max",
+          "desc": "[StartBattle] Recupera il 5% dei suoi PV Max",
           "coinlist": [
             {}
           ]
@@ -3756,7 +3756,7 @@
         {
           "level": 1,
           "name": "Mettersi Al Riparo!",
-          "desc": "[StartBattle] Cura il 5% dei PV Max",
+          "desc": "[StartBattle] Recupera il 5% dei suoi PV Max",
           "coinlist": [
             {}
           ]
@@ -3774,7 +3774,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Cura i PV del bersaglio"
+                  "desc": "[OnSucceedAttack] Il bersaglio recupera PV"
                 }
               ]
             }
@@ -4309,7 +4309,7 @@
         {
           "level": 1,
           "name": "Guardia Fluida",
-          "desc": "[WhenUse] Cura il 5% dei PV Max\nOttiene 2 [Vulnerable] il turno successivo\n[EndBattle] Rimuove tutto l'[Tipsiness] su di sé",
+          "desc": "[WhenUse] Recupera il 5% dei suoi PV Max\nOttiene 2 [Vulnerable] il turno successivo\n[EndBattle] Rimuove tutto l'[Tipsiness] su di sé",
           "coinlist": [
             {
               "coindescs": [
