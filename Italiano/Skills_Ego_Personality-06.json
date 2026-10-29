@@ -1156,14 +1156,14 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Repudiation",
-          "abName": "Resident of Metropolaris",
-          "desc": "[BeforeAttack] Gain +1 [Charge] Count\n[BeforeAttack] Consume up to 6 [Charge] Count on self; then, apply 5 [ChargeForceField] on self and on (1 + ([Charge] Count consumed / 2)) random other allies (max 5 units; rounded down)",
+          "name": "Ripudio",
+          "abName": "Abitante di Metropolaris",
+          "desc": "[BeforeAttack] Ottiene +1 Conteggio [Charge]\n[BeforeAttack] Consuma fino a 6 Conteggio [Charge] su sè; poi, applyica 5 [ChargeForceField] su sè e su (1 + (Conteggio [Charge] consumato / 2)) altri alleati casuali (5 unità max; arrotondato per difetto)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [Charge] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Cpnteggio [Charge]"
                 }
               ]
             },
@@ -1174,19 +1174,19 @@
           "level": 3,
           "name": "Repudiation",
           "abName": "Resident of Metropolaris",
-          "desc": "<style=\"highlight\">[WhenUse] Gain Clash Power equal to [Charge] Potency on self (max 2)</style>\n[BeforeAttack] Gain +<style=\"highlight\">3</style> [Charge] Count\n[BeforeAttack] Consume up to <style=\"highlight\">8</style> [Charge] Count on self; then, apply 5 [ChargeForceField] on self and on (1 + ([Charge] Count consumed / 2)) random other allies (max <style=\"highlight\">6</style> units; rounded down)",
+          "desc": "<style=\"highlight\">[WhenUse] Ottiene Potere Scontro pari alla Potenza [Charge] su sè (max 2)</style>\n[BeforeAttack] Ottiene +<style=\"highlight\">3</style> Conteggio [Charge]\n[BeforeAttack] Consuma fino a <style=\"highlight\">8</style> Conteggio [Charge] su sè; poi, applica 5 [ChargeForceField] su sè e su (1 + (Conteggio [Charge] Consumato / 2)) altri alleati casuali (<style=\"highlight\">6</style> unità max; arrotondato per difetto)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [Charge] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Charge]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [PhotoElectricity]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge 1 [PhotoElectricity]</style>"
                 }
               ]
             }
