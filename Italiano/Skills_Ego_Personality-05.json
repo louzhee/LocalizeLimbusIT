@@ -1267,9 +1267,9 @@
         },
         {
           "level": 3,
-          "name": "Hollow",
-          "abName": "Hollowed Man",
-          "desc": "[CantIdentify]\nBersaglia Casualmente\nQuesta Abilità non innesca Abilità Difensive(Abilità Difensive Scontrabili incluse)\nPotere Scontro +1 per ogni 4 (Potenza [Breath] + Conteggio [Charge]) su di sé (max <style=\"highlight\">7</style>)\n\n<style=\"highlight\">[BeforeAttack] When attacking just 1 target, deal +100% damage (in Focused Encounters, a Core)</style>\n[BeforeAttack] If this unit does not have [BulletHole], gain 1 [BulletHole]\n[BeforeAttack] Base Power -2 for every Cracked Coin (max -4)",
+          "name": "Vuoto",
+          "abName": "Uomo Vacuo",
+          "desc": "[CantIdentify]\nBersaglia Casualmente\nQuesta Abilità non innesca Abilità Difensive(Abilità Difensive Scontrabili incluse)\nPotere Scontro +1 per ogni 4 (Potenza [Breath] + Conteggio [Charge]) su di sé (max <style=\"highlight\">7</style>)\n\n<style=\"highlight\">[BeforeAttack] Quando attacca 1 solo bersaglio, infligge +100% danni (negli incontri mirati, un nucleo)</style>\n[BeforeAttack] Se questa unità non ha [BulletHole], ottiene 1 [BulletHole]\n[BeforeAttack] Potere Base -2 per ogni Moneta Infranta (max -4)",
           "coinlist": [
             {
               "coindescs": [
@@ -1277,13 +1277,13 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnStartCoin] Gain 5 [BlackWingHole]<style=\"highlight\"></style>"
+                  "desc": "[OnStartCoin] Ottiene 5 [BlackWingHole]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnStartCoin] Gain +5 [Charge] Count<style=\"highlight\"></style>"
+                  "desc": "[OnStartCoin] Ottiene +5 Conteggio [Charge]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnStartCoin] Gain 5 [Breath]<style=\"highlight\"></style>"
+                  "desc": "[OnStartCoin] Ottiene 5 [Breath]<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -1293,40 +1293,40 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "This Coin has ([BulletHole] on self x 20)% chance to flip Tails regardless of this unit's SP<style=\"highlight\"></style>"
+                  "desc": "Questa Moneta ha una probabilità del ([BulletHole] su sè x 20)% di fare croce indipendentemente dai PS di questa unità<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[CoinHead]\n- This Coin does not hit<style=\"highlight\"></style>"
+                  "desc": "[CoinHead]\n- Questa moneta non colpisce<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "- [EndCoin] Gain 5 [Breath]<style=\"highlight\"></style>"
+                  "desc": "- [EndCoin] Ottiene 5 [Breath]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "- [EndCoin] Gain +3 [Breath] Count<style=\"highlight\"></style>"
+                  "desc": "- [EndCoin] Ottiene +3 Conteggio [Breath]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "- [EndCoin] Gain 2 [BulletHole]<style=\"highlight\"></style>"
+                  "desc": "- [EndCoin] Ottiene 2 [BulletHole]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "- [EndCoin] Refund half of the E.G.O resources consumed by this Skill (rounded down)<style=\"highlight\"></style>"
+                  "desc": "- [EndCoin] Rimborsa la metà delle risorse E.G.O consumate da questa abilità (arrotondate per difetto)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[CoinTail]\n- Deal +([Charge] Count x <style=\"highlight\">4)% damage (max 80%)</style>"
+                  "desc": "[CoinTail]\n- Infligge +(Conteggio [Charge] x <style=\"highlight\">4)% danni (max 80%)</style>"
                 },
                 {
-                  "desc": "- Deal <style=\"highlight\">+100%</style> damage on Critical Hit"
+                  "desc": "- Infligge <style=\"highlight\">+100%</style> danni con Colpo Critico"
                 },
                 {
-                  "desc": "- [OnSucceedAttack] Deal Pierce damage equal to <style=\"highlight\">15</style>% of this Coin's final damage"
+                  "desc": "- [OnSucceedAttack] Infligge danni Perforanti pari al <style=\"highlight\">15</style>% del danno finale di questa Moneta"
                 },
                 {
-                  "desc": "- [EndCoin] Consume all [BulletHole] on self<style=\"highlight\"></style>"
+                  "desc": "- [EndCoin] Consuma tutti i [BulletHole] su sè<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Sinking]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Sinking] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Sinking]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1336,7 +1336,7 @@
           "level": 4,
           "name": "Vuoto",
           "abName": "Uomo Vacuo",
-          "desc": "[CantIdentify]\nTargets randomly\nThis Skill does not trigger Defense Skills (including Clashable Defense Skills)\nClash Power +1 for every 4 ([Breath] Potency + [Charge] Count) on self (max <style=\"highlight\">10</style>)\n\n[BeforeAttack] When attacking just 1 target, deal +<style=\"highlight\">200</style>% damage (in Focused Encounters, a Core)\n<style=\"highlight\">[BeforeAttack] Gain Final Power +([BulletHole] on self)</style>\n[BeforeAttack] If this unit does not have [BulletHole], gain 1 [BulletHole]\n[BeforeAttack] Base Power -2 for every Cracked Coin (max -4)\n<style=\"highlight\">[EnemyKill] Heal 5 SP</style>",
+          "desc": "[CantIdentify]\nBersaglia Casualmente\nQuesta Abilità non innesca Abilità Difensive(Abilità Difensive Scontrabili incluse)\nPotere Scontro +1 per ogni 4 (Potenza [Breath] + Conteggio [Charge]) su sè (max <style=\"highlight\">10</style>)\n\n[BeforeAttack] Quando attacca un solo bersaglio, infligge +<style=\"highlight\">200</style>% danni (negli incontri mirati, un nucleo)\n<style=\"highlight\">[BeforeAttack] Ottiene Potere Finale +([BulletHole] su sè)</style>\n[BeforeAttack] Se questa unità non ha [BulletHole], ottiene 1 [BulletHole]\n[BeforeAttack] Potere Base -2 per ogni Moneta Infranta (max -4)\n<style=\"highlight\">[EnemyKill] Recupera 5 PS</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1344,16 +1344,16 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnStartCoin] Gain 5 [BlackWingHole]<style=\"highlight\"></style>"
+                  "desc": "[OnStartCoin] Ottiene 5 [BlackWingHole]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnStartCoin] Gain +5 [Charge] Count<style=\"highlight\"></style>"
+                  "desc": "[OnStartCoin] Ottiene +5 Conteggio [Charge]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnStartCoin] Gain 5 [Breath]<style=\"highlight\"></style>"
+                  "desc": "[OnStartCoin] Ottiene 5 [Breath]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [Binding] next turn</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge 1 [Binding] il turno successivo</style>"
                 }
               ]
             },
@@ -1363,46 +1363,46 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "This Coin has ([BulletHole] on self x 20)% chance to flip Tails regardless of this unit's SP<style=\"highlight\"></style>"
+                  "desc": "Questa Moneta ha una probabilità del ([BulletHole] on self x 20)% di fare croce indipendentemente dai PS di questa unità <style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[CoinHead]\n- This Coin does not hit<style=\"highlight\"></style>"
+                  "desc": "[CoinHead]\n- Questa Moneta non colpisce<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "- [EndCoin] Gain 5 [Breath]<style=\"highlight\"></style>"
+                  "desc": "- [EndCoin] Ottiene 5 [Breath]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "- [EndCoin] Gain +3 [Breath] Count<style=\"highlight\"></style>"
+                  "desc": "- [EndCoin] Ottiene +3 Conteggio [Breath]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">- [EndCoin] Remove 1 random removable negative effect applied to self</style>"
+                  "desc": "<style=\"highlight\">- [EndCoin] Rimuove 1 effetto negativo rimuovibile casuale su sè</style>"
                 },
                 {
-                  "desc": "- [EndCoin] Gain 2 [BulletHole]<style=\"highlight\"></style>"
+                  "desc": "- [EndCoin] Ottiene 2 [BulletHole]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "- [EndCoin] Refund half of the E.G.O resources consumed by this Skill (rounded down)<style=\"highlight\"></style>"
+                  "desc": "- [EndCoin] Rimborsa la metà delle risorse E.G.O consumate da questa abilità (arrotondate per difetto)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[CoinTail]\n- Deal +([Charge] Count x <style=\"highlight\">5)% damage (max 100%)</style>"
+                  "desc": "[CoinTail]\n- Infligge +(Conteggio [Charge] x <style=\"highlight\">5)% danni (max 100%)</style>"
                 },
                 {
-                  "desc": "- Deal +<style=\"highlight\">130</style>% damage on Critical Hit"
+                  "desc": "- Infligge +<style=\"highlight\">130</style>% danni con colpo critico"
                 },
                 {
-                  "desc": "- [OnSucceedAttack] Deal Pierce damage equal to <style=\"highlight\">20</style>% of this Coin's final damage"
+                  "desc": "- [OnSucceedAttack] Infligge danni Perforanti pari al <style=\"highlight\">20</style>% del danno finale di questa Moneta"
                 },
                 {
-                  "desc": "<style=\"highlight\">- [EnemyKill] Heal 5% HP</style>"
+                  "desc": "<style=\"highlight\">- [EnemyKill] Recupera il 5% dei PV</style>"
                 },
                 {
-                  "desc": "- [EndCoin] Consume all [BulletHole] on self<style=\"highlight\"></style>"
+                  "desc": "- [EndCoin] Consuma tutti i [BulletHole] su sè<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Sinking]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Sinking] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Sinking]<style=\"highlight\"></style>"
                 }
               ]
             }
