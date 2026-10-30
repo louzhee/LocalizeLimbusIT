@@ -1293,7 +1293,7 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "Questa Moneta ha una probabilità del ([BulletHole] su sè x 20)% di fare croce indipendentemente dai PS di questa unità<style=\"highlight\"></style>"
+                  "desc": "Questa Moneta ha una probabilità del ([BulletHole] su di sé x 20)% di fare croce indipendentemente dai PS di questa unità<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[CoinHead]\n- Questa moneta non colpisce<style=\"highlight\"></style>"
@@ -1320,7 +1320,7 @@
                   "desc": "- [OnSucceedAttack] Infligge danni Perforanti pari al <style=\"highlight\">15</style>% del danno finale di questa Moneta"
                 },
                 {
-                  "desc": "- [EndCoin] Consuma tutti i [BulletHole] su sè<style=\"highlight\"></style>"
+                  "desc": "- [EndCoin] Consuma tutti i [BulletHole] su di sé<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge 5 [Sinking]<style=\"highlight\"></style>"
@@ -1336,7 +1336,7 @@
           "level": 4,
           "name": "Vuoto",
           "abName": "Uomo Vacuo",
-          "desc": "[CantIdentify]\nBersaglia Casualmente\nQuesta Abilità non innesca Abilità Difensive(Abilità Difensive Scontrabili incluse)\nPotere Scontro +1 per ogni 4 (Potenza [Breath] + Conteggio [Charge]) su sè (max <style=\"highlight\">10</style>)\n\n[BeforeAttack] Quando attacca un solo bersaglio, infligge +<style=\"highlight\">200</style>% danni (negli incontri mirati, un nucleo)\n<style=\"highlight\">[BeforeAttack] Ottiene Potere Finale +([BulletHole] su sè)</style>\n[BeforeAttack] Se questa unità non ha [BulletHole], ottiene 1 [BulletHole]\n[BeforeAttack] Potere Base -2 per ogni Moneta Infranta (max -4)\n<style=\"highlight\">[EnemyKill] Recupera 5 PS</style>",
+          "desc": "[CantIdentify]\nBersaglia Casualmente\nQuesta Abilità non innesca Abilità Difensive(Abilità Difensive Scontrabili incluse)\nPotere Scontro +1 per ogni 4 (Potenza [Breath] + Conteggio [Charge]) su di sé (max <style=\"highlight\">10</style>)\n\n[BeforeAttack] Quando attacca un solo bersaglio, infligge +<style=\"highlight\">200</style>% danni (negli incontri mirati, un nucleo)\n<style=\"highlight\">[BeforeAttack] Ottiene Potere Finale +([BulletHole] su di sé)</style>\n[BeforeAttack] Se questa unità non ha [BulletHole], ottiene 1 [BulletHole]\n[BeforeAttack] Potere Base -2 per ogni Moneta Infranta (max -4)\n<style=\"highlight\">[EnemyKill] Recupera 5 PS</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1375,7 +1375,7 @@
                   "desc": "- [EndCoin] Ottiene +3 Conteggio [Breath]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">- [EndCoin] Rimuove 1 effetto negativo rimuovibile casuale su sè</style>"
+                  "desc": "<style=\"highlight\">- [EndCoin] Rimuove 1 effetto negativo rimuovibile casuale su di sé</style>"
                 },
                 {
                   "desc": "- [EndCoin] Ottiene 2 [BulletHole]<style=\"highlight\"></style>"
@@ -1396,7 +1396,7 @@
                   "desc": "<style=\"highlight\">- [EnemyKill] Recupera il 5% dei PV</style>"
                 },
                 {
-                  "desc": "- [EndCoin] Consuma tutti i [BulletHole] su sè<style=\"highlight\"></style>"
+                  "desc": "- [EndCoin] Consuma tutti i [BulletHole] su di sé<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge 5 [Sinking]<style=\"highlight\"></style>"
