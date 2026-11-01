@@ -1236,25 +1236,25 @@
     },
     {
       "id": 901049,
-      "name": "",
+      "name": "Heavenly Commander's Scribe",
       "subDesc": "",
-      "desc": "A giant lizard-like thing with the cold skin of a machine stands before us.\n\nIts long tail, shaped like the human hand, bends in all directions before straightening to point at me.\n\n\"The heavenly commander is who I serve.\"\n\n\"It is the duty of the commander's servant to follow commands.\"\n\n\"Tell me what you command.\"",
+      "desc": "Una gigantesca creatura lucertoloide con la fredda pelle di una macchina si impone dinanzi a noi.\n\nLa sua lunga coda, sottoforma di una mano umana, si piega in tutte le direzioni prima di puntare dritto a me.\n\n\"Il comandante celeste è colui a cui presto i miei servigi.\"\n\n\"È il dovere del servo del comandante prestare ai suoi ordini.\"\n\n\"Ditemi qual'è il vostro ordine.\"",
       "options": [
         {
-          "message": "I command death.",
+          "message": "Ordino morte.",
           "result": [
             ""
           ]
         },
         {
-          "message": "I command life.",
+          "message": "Ordino vita.",
           "result": [
             ""
           ]
         },
         {
-          "message": "Don't command anything.",
-          "messageDesc": "Gloom & Pride Advantage check. Pass to gain a Sinking E.G.O Gift.",
+          "message": "Non ordinare nulla.",
+          "messageDesc": "Prova con Vantaggio per Tristezza e Superbia.\nPassa per ottenere un Dono E.G.O Annegamento.",
           "result": [
             ""
           ]
@@ -1263,19 +1263,19 @@
     },
     {
       "id": 901051,
-      "name": "",
+      "name": "Pagoda Veneration",
       "subDesc": "",
-      "desc": "Clackle-\n\nClackle-\n\nA mountain made out of holed rocks. It's shrouded with white fog.\n\nRocks can be heard clashing with each other.\n\nThere's a being with long limbs and stone-like skin piling up a tower.\n\nCould it be a stone tower being made for a wish?\n\nOr is it a cairn that is burying someone alive?",
+      "desc": "Clackle-\n\nClackle-\n\nCoperta da una pallida nebbia, vi è una montagna di rocce bucate.\n\nSi possono sentire le varie pietre scontrarsi l'un l'altra.\n\nÈ presente un essere dotato di lunghi arti con una pelle simil pietra mentre impila una torre.\n\nChe quella sia una torre di roccia per un desiderio?\n\nO è un tumulo che sta seppellendo qualcuno vivo?",
       "options": [
         {
-          "message": "Place a stone over the tower.",
-          "messageDesc": "Sloth & Gloom Advantage check. Pass to gain a Poise E.G.O Gift.",
+          "message": "Metti una pietra sopra la torre.",
+          "messageDesc": "Prova con Vantaggio per Accidia e Tristezza.\nPassa per ottenere un Dono E.G.O Equilibrio.",
           "result": [
             ""
           ]
         },
         {
-          "message": "Bring down the cairn.",
+          "message": "Abbatti il tumulo.",
           "result": [
             ""
           ]
@@ -1306,118 +1306,118 @@
     },
     {
       "id": 901057,
-      "name": "",
+      "name": "Dimensional Oxidation Variant",
       "subDesc": "",
-      "desc": "It's an empty room of cement.\n\nYet I can shake off the creeping feeling that something might be here.\n\nOther Sinners scoff at me in disagreement.\n\nThere's a switch in the room.",
+      "desc": "È una stanza in cemento vuota.\n\nEppure non riesco a togliermi questa inquietante sensazione che ci sia qualcosa qui.\n\nGli altri Peccatori sono in disaccordo con me, facendosi beffe di me.\n\nCìè un interruttore nella stanza.",
       "options": [
         {
-          "message": "Hit the switch.",
-          "messageDesc": "Gain a Charge E.G.O Gift depending on the result of the following choice",
+          "message": "Spingi l'interruttore.",
+          "messageDesc": "Ottieni un Dono E.G.O Carica in base al risultato della scelta seguente",
           "result": [
-            "Upon hitting the switch, the room's light went out.\n\nIn the complete darkness, a sizzling figure appeared.\n\nThis can only be seen in the absence of light as it moves in opposition to light.\n\nBut that doesn't mean it can see light, either.\n\nIt was being projected onto the mind.\n\nI realize that it cannot and should not be contained in spectrums of light.\n\nThis resides in a different dimension, so it can only be felt and seen through it."
+            "Spingendo l'interruttore, la luce della stanza si è spenta.\n\nNel buio completo, una figura rovente compare.\n\nLa si può vedere solo con l'assenza di luce, muovendosi all'opposto della luce.\n\nMa non vuol dire nemmeno che riesca a vedere la luce.\n\nVeniva proiettata nella mente.\n\nHo capito che non può e non dovrebbe essere contenuta nello spettro della luce.\n\nRisiede in una dimensione diversa, una in cui la si può solo sentire e guardare attraverso."
           ]
         },
         {
-          "message": "Leave without pressing the switch.",
+          "message": "Lascia senza premere l'interruttore.",
           "result": [
-            "We decided to leave the room, ignoring the presence.\n\n\"See, I told you there's nothing!\"\n\nSomeone told me off, and I couldn't come up with a rebuttal, so I decided to stay quiet."
+            "Abbiamo deciso di andarcene dalla stanza, ignorando la sua presenza.\n\n\"Visto, te l'ho detto che non c'è niente!\"\n\nMi ha detto qualcuno, non mi veniva in mente niente per controbattere, quindi ho deciso di non dire niente."
           ]
         }
       ]
     },
     {
       "id": 90105701,
-      "name": "",
+      "name": "Dimensional Oxidation Variant - Hit The Switch",
       "subDesc": "",
-      "desc": "What will you do?",
+      "desc": "Cosa farete?",
       "options": [
         {
-          "message": "Reach out to touch it.",
+          "message": "Avvicinatevi per toccarla.",
           "result": [
-            "The Sinner's hand that reached out—or was offered, perhaps—melts without melting down.\n\nThe hand they had was lost, but a hand from the other dimension has promptly replaced it."
+            "La mano dei Peccatori che si sono avvicinati, o che si sono forse offerti, si sciolgono senza fondersi.\n\nLa mano è stata persa, ma una mano dall'altra dimensione l'ha subito rimpiazzata."
           ]
         },
         {
-          "message": "Leave the room.",
-          "messageDesc": "Select to gain a Charge E.G.O Gift",
+          "message": "Lasciate la stanza.",
+          "messageDesc": "Seleziona per ottenere un Dono E.G.O Carica",
           "result": [
-            "Although nothing else happened as we left, I found something on my neck.\n\nNight vision goggles.\n\nThese should be handy in case we walk into pitch-black environments."
+            "Anche se non è successo niente mentre ce n'eravamo andati, ho sentito qualcosa al collo.\n\nDegli occhiali per la visione notturna.\n\nCi saranno d'aiuto se ci ritrovassimo in un ambiente buio."
           ]
         }
       ]
     },
     {
       "id": 901059,
-      "name": "",
+      "name": "Faelantern",
       "subDesc": "",
-      "desc": "In the middle of a quiet and peaceful forest, a delicate tree branch is placed.\n\nA small fairy with a green glow sits atop it.\n\nSaying no words, the fairy waves at us, inviting us to come over and take a break.\n\nIt looked like it was smiling, and it might have been dancing.",
+      "desc": "Nel mezzo di una calma e tranquilla foresta, risiede un rametto delicato.\n\nUna piccola fatina dal bagliore verdeggiante si è appoggiata sopra.\n\nSenza dir alcuna parola, la fatina ci saluta, invitandoci a venire da lei per riposarci.\n\nSembrava sorridere e forse stava per mettersi anche a danzare.",
       "options": [
         {
-          "message": "Take a momentary break.",
-          "messageDesc": "Gain a Sinking E.G.O Gift depending on the result of the following choice",
+          "message": "Prendetevi una breve pausa.",
+          "messageDesc": "Ottieni un Dono E.G.O Annegamento in base al risultato della prossima scelta",
           "result": [
-            "The fairy waves to bring us closer.\n\nIt seemed to be guiding us to a more comfortable place. Or maybe that was what we wanted to believe.\n\nOur feet were hurting from the long journey."
+            "La fatina ci da un cenno di venire più vicini.\n\nSembra voler guidarci in un luogo più comfortevole, o forse è quel che vuole farci credere.\n\nI nostri piedi sono indolenziti dal lungo viaggio."
           ]
         },
         {
-          "message": "Move on without resting.",
-          "messageDesc": "Select to gain a Sinking E.G.O Gift",
+          "message": "Muovetevi senza riposare.",
+          "messageDesc": "Seleziona per ottenere un Dono E.G.O Annegamento",
           "result": [
-            "We can't get careless and stop here.\n\nTree branches came at us trying to stop us from going, but we narrowly dodged them.\n\nWe've learned the real meaning of the fairy's gesture.\n\n\"No such thing as free gifts,\" someone mumbled."
+            "Non possiamo incautamente fermarci qui.\n\nI rami si scagliavano su di noi per fermarci, ma siamo riusciti a schivarli per un pelo.\n\nAbbiamo capito il motivo dietro ai gesti della fata.\n\n\"Non esistono favori senza prezzo,\" mormorava qualcuno."
           ]
         },
         {
-          "message": "Take a break where you're standing.",
-          "messageDesc": "Select to gain a Sinking E.G.O Gift",
+          "message": "Prendetevi una pausa dove state.",
+          "messageDesc": "Seleziona per ottenere un Dono E.G.O Annegamento",
           "result": [
-            "You ignore the beckoning fairy and take a short break where you stand.\n\nAs you gather yourselves to continue on the journey, you realize that several branches had grown in the premises, trapping you in.\n\nLuckily, you managed to snag a piece of the trap as you hacked your way out of the wall of branches, but...\n\n... now you're even more tired than you were before. So much for that break."
+            "Avete ignorato l'invito della fatina e vi siete fatti una breve pausa sul posto.\n\nMentre vi preparavate a continuare il viaggio, avete realizzato che attorno a voi sono cresciuti molti rami, intrappolandovi.\n\nPer vostra fortuna, riuscite a strappare una parte della trappola mentre cercavate di farvi strada nel muro di rami, ma...\n\n... ora siete più stanche di prima. Alla faccia della pausetta."
           ]
         }
       ]
     },
     {
       "id": 90105901,
-      "name": "",
+      "name": "Faelantern - Take A Momentary Break",
       "subDesc": "",
-      "desc": "What will you do?",
+      "desc": "Cosa farete?",
       "options": [
         {
-          "message": "Get closer.",
-          "messageDesc": "Win the battle to earn 2 Sinking E.G.O Gifts",
+          "message": "Avvicinatevi.",
+          "messageDesc": "Vinci la battaglia per guadagnare 2 Doni E.G.O Annegamento",
           "result": [
-            "The fairy's smile stretches into an eerie grin.\n\nThe strangeness didn't need to be pointed out for everyone to share the same sentiment.\n\nEven though we knew we shouldn't trust things by the looks, we still fell for it.\n\nWe'll have to pay the price for it."
+            "Il sorrisetto della fatina si allarga in un inquietante ghigno.\n\nNon c'era da far notare la stranezza prima che tutti quanti potesseto sentire lo stesso presagio.\n\nAnche se sapevamo di non dover fidarci dell'apparenza, ci siamo cascati lo stesso.\n\nDovremo pagarne le conseguenze."
           ]
         },
         {
-          "message": "Leave.",
+          "message": "Andatevene.",
           "result": [
-            "Noticing the hesitation, the thing we wanted to believe was a fairy takes no time to charge at us.\n\nWe barely managed to avoid fatal injuries, but still felt betrayed."
+            "Notando l'esitazione, la creatura che cercava di illuderci che fosse una fata non ha perso tempo nell'assalirci.\n\nSiamo riusciti a malapena a evitare delle ferite letali, ma non riuscivamo a smetterla di sentirci traditi."
           ]
         }
       ]
     },
     {
       "id": 901062,
-      "name": "",
+      "name": "Funeral of a Dying Butterfly",
       "subDesc": "",
-      "desc": "An alleyway of black and white.\n\nThe single streetlamp lighting the path makes the scenery all the more hazy.\n\nSomeone is standing in the light.\n\nPipipipip-\n\nThe device in the Abnormality's hand sounds an alarm.\n\n'The results of the job interview for the big company I had last month are out today.'\n\n'Everyone in this street prepares for exams and interviews.'\n\n'They wait for the results to be announced, staking all they have on them, and once they're told they failed, they go far away and disappear.'\n\n'So I changed my head; I'd like to fly away even if I don't make it.'\n\n'Will you check the results for me?'\n\nThe device displayed a message that it didn't pass.\n\n'What does it say? Did I pass?'",
+      "desc": "Un vicolo bianco e nero.\n\nIl singolo lampione a illuminare il cammino rende la scena ancora più vaga.\n\nC'è qualcuno sotto la luce.\n\nPipipipip-\n\nIl dispositivo in mano all'Anormalità squilla.\n\n'Oggi sono usciti i risultati del colloquio di lavoro che ho partecipato per una grande azienda.'\n\n'Tutti in questa strada si preparano per colloqui ed esami.'\n\n'Attendono che i risultati vengano annunciati, puntando tutto quel che hanno e una volta che a loro viene annunciato il proprio fallimento, partono per un luogo lontana per poi sparire.'\n\n'Quindi ho cambiato testa; vorrei volar via se non ce la facessi.'\n\n'Potresti controllare i risultati per me?'\n\nIl dispositivo mostrava un messaggio di non aver passato.\n\n'Cosa dice? Sono riuscito a passare?'",
       "options": [
         {
-          "message": "Tell the truth.",
-          "messageDesc": "Select to gain a Charge E.G.O Gift",
+          "message": "Di' la verità.",
+          "messageDesc": "Seleziona per ottenere un Dono E.G.O Carica",
           "result": [
-            "'So I failed'.\n\nThe coat it held in one hand falls to the ground.\n\nAt the same time, the plastic bag in the other hand begins to rustle.\n\n'It's actually fortunate, I figured I'd fail.'\n\n'Where do we go when we die, I wonder?'\n\n'Will there be a flower bloomed at our last destination?'\n\nRight after that, the butterfly on the head flew into the sky, and the empty body collapsed to the ground.\n\nAnd the head that must have belonged to the collapsed body rolled out of the bloodied bag.\n\nIt's such a heavy husk that the pupa left behind."
+            "'Quindi ho fallito'.\n\nIl cappotto che teneva in braccio cade a terra.\n\nAllo stesso tempo, il sacchetto di plastica nell'altro braccio inizia a muoversi.\n\n'In realtà è stata una fortuna, sapevo che avrei fallito.'\n\n'Dove mai andremo quando moriamo?'\n\n'Ci sarà un fiore a sbocciare per la nostra destinazione finale?'\n\nSubito dopo, la farfalla sulla sua testa è volata in cielo e il corpo vuoto precipita per terra.\n\nE la testa che doveva appartenere al corpo accasciato è rotolata dal sacchetto insanguinato.\n\nChe guscio pesante la pupa si è lasciata dietro."
           ]
         },
         {
-          "message": "Say that it passed.",
+          "message": "Di' che è passato.",
           "result": [
-            "'Thank you, I should get going now, the orientation is probably starting soon.'\n\nIt spoke, wearing the coat it was holding in one hand.\n\n'I won't need this anymore.'\n\nAnd the butterfly walks away to carry pollen.\n\nWe can only wish that at least a small beam of sunlight shines over its destination."
+            "'Grazie, devo andare adesso, l'orientamento deve iniziare a breve.'\n\nDiceva mentre si metteva addosso il cappotto che si portava sul braccio.\n\n'Non ho più bisogno di questo.'\n\nE la farfalla cammina via per portare il polline.\n\nNon possiamo far altro che sperare un piccolo raggio di sole illumini verso la sua destinazione."
           ]
         },
         {
-          "message": "Try to console them.",
-          "messageDesc": "Gloom & Pride Advantage check. Pass to gain a Sinking E.G.O Gift.",
+          "message": "Provate a consolarla.",
+          "messageDesc": "Prova con Vantaggio per Tristezza e Superbia.\nPassa per ottenere un Dono E.G.O Annegamento.",
           "result": [
             ""
           ]
