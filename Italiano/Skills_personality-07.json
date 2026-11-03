@@ -3148,20 +3148,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Bla Bla Warp Bla, Yap Yap Weft Yap",
-          "desc": "[WhenUse] At fewer than 5 [ChargeRougeAlly] Count, consume (2 x (5 - [ChargeRougeAlly] Count))% HP to raise [ChargeRougeAlly] Count to 5",
+          "name": "Tatatì Trama, Tatatà Ordito",
+          "desc": "[WhenUse] A meno di 5 Conteggio [ChargeRougeAlly], usa (2 x (5 - Conteggio [ChargeRougeAlly]))% PV per aumentare il Conteggio [ChargeRougeAlly] a 5",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +4 [ChargeRougeAlly] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +4 Conteggio [ChargeRougeAlly]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]"
                 }
               ]
             },
@@ -3172,36 +3172,36 @@
         },
         {
           "level": 2,
-          "name": "Bla Bla Warp Bla, Yap Yap Weft Yap",
-          "desc": "<style=\"highlight\">Final Power +1 for every 2 [ChargeRougeAlly] Potency on self (max 2)</style>\n[WhenUse] At fewer than 5 [ChargeRougeAlly] Count, consume (2 x (5 - [ChargeRougeAlly] Count))% HP to raise [ChargeRougeAlly] Count to 5",
+          "name": "Tatatì Trama, Tatatà Ordito",
+          "desc": "<style=\"highlight\">Potere Finale +1 per ogni 2 Potenza [ChargeRougeAlly] su di sé (max 2)</style>\n[WhenUse] A meno di 5 Conteggio [ChargeRougeAlly], usa (2 x (5 - Conteggio [ChargeRougeAlly]))% PV per aumentare il Conteggio [ChargeRougeAlly] a 5",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +4 [ChargeRougeAlly] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Ottiene +4 Conteggio [ChargeRougeAlly]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Deal Pierce damage equal to 1% of this Coin's final damage for every [NeedlekinAlly] Stack on self (min 1)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge danno Perforante pari all'1% del danno finale di questa Moneta per ogni Stack di [NeedlekinAlly] su di sé (min 1)</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Deal Pierce damage equal to 1% of this Coin's final damage for every [NeedlekinAlly] Stack on self (min 1)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge danno Perforante pari all'1% del danno finale di questa Moneta per ogni Stack di [NeedlekinAlly] su di sé (min 1)</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict [NiddlePinAlly] on target equal to [NeedlekinAlly] Stack on self<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge [NiddlePinAlly] sul bersaglio pari alle Stack di [NeedlekinAlly] su di sé<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Deal Pierce damage equal to 1% of this Coin's final damage for every [NeedlekinAlly] Stack on self (min 1)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge danno Perforante pari all'1% del danno finale di questa Moneta per ogni Stack di [NeedlekinAlly] su di sé (min 1)</style>"
                 }
               ]
             }
@@ -3209,36 +3209,36 @@
         },
         {
           "level": 4,
-          "name": "Bla Bla Warp Bla, Yap Yap Weft Yap",
-          "desc": "Final Power +1 for every 2 [ChargeRougeAlly] Potency on self (max 2)\n[WhenUse] At fewer than 5 [ChargeRougeAlly] Count, consume (2 x (5 - [ChargeRougeAlly] Count))% HP to raise [ChargeRougeAlly] Count to 5\n<style=\"highlight\">[WhenUse] If target has 6+ [Laceration], Coin Power +1</style>",
+          "name": "Tatatì Trama, Tatatà Ordito",
+          "desc": "Potere Finale +1 per ogni 2 Potenza [ChargeRougeAlly] su di sé (max 2)\n[WhenUse] A meno di 5 Conteggio [ChargeRougeAlly], usa (2 x (5 - Conteggio [ChargeRougeAlly]))% PV per aumentare il Conteggio [ChargeRougeAlly] a 5\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +4 [ChargeRougeAlly] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Ottiene +4 Conteggio [ChargeRougeAlly]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal Pierce damage equal to 1% of this Coin's final damage for every [NeedlekinAlly] Stack on self (min 1)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge danno Perforante pari all'1% del danno finale di questa Moneta per ogni Stack di [NeedlekinAlly] su di sé (min 1)<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Laceration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal Pierce damage equal to 1% of this Coin's final damage for every [NeedlekinAlly] Stack on self (min 1)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge danno Perforante pari all'1% del danno finale di questa Moneta per ogni Stack di [NeedlekinAlly] su di sé (min 1)<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict [NiddlePinAlly] on target equal to [NeedlekinAlly] Stack on self<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge [NiddlePinAlly] sul bersaglio pari alle Stack di [NeedlekinAlly] su di sé<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal Pierce damage equal to 1% of this Coin's final damage for every [NeedlekinAlly] Stack on self (min 1)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge danno Perforante pari all'1% del danno finale di questa Moneta per ogni Stack di [NeedlekinAlly] su di sé (min 1)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3251,43 +3251,43 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Stitch! Per! Inch!",
-          "desc": "[WhenUse] At fewer than 10 [ChargeRougeAlly] Count, consume (2 x (10 - [ChargeRougeAlly] Count))% HP to raise [ChargeRougeAlly] Count to 10\n[WhenUse] Consume 7 [ChargeRougeAlly] Count on self to gain Final Power +2",
+          "name": "Punti! Per! Pollice!",
+          "desc": "[WhenUse] A meno di 10 Conteggio [ChargeRougeAlly], usa (2 x (10 - Conteggio [ChargeRougeAlly]))% PV per aumentare il Conteggio [ChargeRougeAlly] a 10\n[WhenUse] Usa 7 Conteggio [ChargeRougeAlly] su di sé per ottenere Potere Finale +2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [ChargeRougeAlly] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [ChargeRougeAlly]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [ChargeRougeAlly] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [ChargeRougeAlly]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [ChargeRougeAlly] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [ChargeRougeAlly]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 }
               ]
             }
@@ -3295,58 +3295,58 @@
         },
         {
           "level": 2,
-          "name": "Stitch! Per! Inch!",
-          "desc": "<style=\"highlight\">Final Power +1 for every 2 [ChargeRougeAlly] Potency on self (max 2)</style>\n[WhenUse] At fewer than 10 [ChargeRougeAlly] Count, consume (2 x (10 - [ChargeRougeAlly] Count))% HP to raise [ChargeRougeAlly] Count to 10\n[WhenUse] Consume 7 [ChargeRougeAlly] Count on self to gain Final Power +2",
+          "name": "Punti! Per! Pollice!",
+          "desc": "<style=\"highlight\">Potere Finale +1 per ogni 2 Potenza [ChargeRougeAlly] su di sé (max 2)</style>\n[WhenUse] A meno di 10 Conteggio [ChargeRougeAlly], usa (2 x (10 - Conteggio [ChargeRougeAlly]))% PV per aumentare il Conteggio [ChargeRougeAlly] a 10\n[WhenUse] Usa 7 Conteggio [ChargeRougeAlly] su di sé per ottenere Potere Finale +2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [ChargeRougeAlly] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [ChargeRougeAlly]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Deal Pierce damage equal to 1% of this Coin's final damage for every [NeedlekinAlly] Stack on self (min 1)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge danno Perforante pari all'1% del danno finale di questa Moneta per ogni Stack di [NeedlekinAlly] su di sé (min 1)</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [ChargeRougeAlly] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [ChargeRougeAlly]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Deal Pierce damage equal to 1% of this Coin's final damage for every [NeedlekinAlly] Stack on self (min 1)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge danno Perforante pari all'1% del danno finale di questa Moneta per ogni Stack di [NeedlekinAlly] su di sé (min 1)</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [ChargeRougeAlly] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [ChargeRougeAlly]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Deal Pierce damage equal to 1% of this Coin's final damage for every [NeedlekinAlly] Stack on self (min 1)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge danno Perforante pari all'1% del danno finale di questa Moneta per ogni Stack di [NeedlekinAlly] su di sé (min 1)</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [NiddlePinAlly] on target equal to [NeedlekinAlly] Stack on self<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge [NiddlePinAlly] sul bersaglio pari alle Stack di [NeedlekinAlly] su di sé<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Deal Pierce damage equal to 1% of this Coin's final damage for every [NeedlekinAlly] Stack on self (min 1)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge danno Perforante pari all'1% del danno finale di questa Moneta per ogni Stack di [NeedlekinAlly] su di sé (min 1)</style>"
                 }
               ]
             }
@@ -3354,58 +3354,58 @@
         },
         {
           "level": 4,
-          "name": "Stitch! Per! Inch!",
-          "desc": "Final Power +1 for every 2 [ChargeRougeAlly] Potency on self (max 2)\n[WhenUse] At fewer than 10 [ChargeRougeAlly] Count, consume (2 x (10 - [ChargeRougeAlly] Count))% HP to raise [ChargeRougeAlly] Count to 10\n[WhenUse] Consume 7 [ChargeRougeAlly] Count on self to gain Final Power +2\n<style=\"highlight\">[WhenUse] If target has 6+ [Laceration], Coin Power +1</style>",
+          "name": "Punti! Per! Pollice!",
+          "desc": "Potere Finale +1 per ogni 2 Potenza [ChargeRougeAlly] su di sé (max 2)\n[WhenUse] A meno di 10 Conteggio [ChargeRougeAlly], usa (2 x (10 - Conteggio [ChargeRougeAlly]))% PV per aumentare il Conteggio [ChargeRougeAlly] to 10\n[WhenUse] Usa 7 Conteggio [ChargeRougeAlly] su di sé per ottenere Potere Finale +2\n<style=\"highlight\">[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [ChargeRougeAlly] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [ChargeRougeAlly]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal Pierce damage equal to 1% of this Coin's final damage for every [NeedlekinAlly] Stack on self (min 1)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge danno Perforante pari all'1% del danno finale di questa Moneta per ogni Stack di [NeedlekinAlly] su di sé (min 1)<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [ChargeRougeAlly] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [ChargeRougeAlly]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal Pierce damage equal to 1% of this Coin's final damage for every [NeedlekinAlly] Stack on self (min 1)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge danno Perforante pari all'1% del danno finale di questa Moneta per ogni Stack di [NeedlekinAlly] su di sé (min 1)<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [ChargeRougeAlly] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [ChargeRougeAlly]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal Pierce damage equal to 1% of this Coin's final damage for every [NeedlekinAlly] Stack on self (min 1)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge danno Perforante pari all'1% del danno finale di questa Moneta per ogni Stack di [NeedlekinAlly] su di sé (min 1)<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [NiddlePinAlly] on target equal to [NeedlekinAlly] Stack on self<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge [NiddlePinAlly] sul bersaglio pari alle Stack di [NeedlekinAlly] su di sé<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal Pierce damage equal to 1% of this Coin's final damage for every [NeedlekinAlly] Stack on self (min 1)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge danno Perforante pari all'1% del danno finale di questa Moneta per ogni Stack di [NeedlekinAlly] su di sé (min 1)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3418,36 +3418,36 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Pick stitch too obvious, you say?! I'll pick-stitch your bum!",
-          "desc": "[WhenUse] Gain Atk Weight +1 for every 15 [NiddlePinGather] on self (max 2)\n[WhenUse] Deal +30% damage for every excess Atk Weight beyond the # of actual targets (in Focused Encounters, the Parts)\n[WhenUse] Consume up to 20 [ChargeRougeAlly] Count on self to apply the following effects:\n- Coin Power +1 for every 7 [ChargeRougeAlly] Count consumed (max 2)\n- Deal +2% damage using this Skill for every [ChargeRougeAlly] Count consumed\n[EndSkill] Consume [NiddlePinGather] on self equal to (Atk Weight gained from [NiddlePinGather] x 15)",
+          "name": "Impuntatura troppo ovvia, dici?! Ti impunto il sedere!",
+          "desc": "[WhenUse] Ottiene Gittata Attacco +1 per ogni 15 [NiddlePinGather] su di sé (max 2)\n[WhenUse] Infligge +30% danni per ogni Portata Attacco oltre il numero dei bersagli attuali (negli Incontri Mirati, la Parte)\n[WhenUse] Usa fino a 20 Conteggio [ChargeRougeAlly] su di sé per applicare i seguenti effetti:\n- Potere Moneta +1 per ogni 7 Conteggio [ChargeRougeAlly] usato (max 2)\n- Infligge +2% danni usando questa Abilità per ogni Conteggio [ChargeRougeAlly] usato\n[EndSkill] Usa [NiddlePinGather] su di sé pari a (Gittata Attacco ottenuta da [NiddlePinGather] x 15)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +3 [ChargeRougeAlly] Count (once per Skill)"
+                  "desc": "[OnSucceedAttack] Ottiene +3 Conteggio [ChargeRougeAlly] (una volta per Abilità)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +3 [ChargeRougeAlly] Count (once per Skill)"
+                  "desc": "[OnSucceedAttack] Ottiene +3 Conteggio [ChargeRougeAlly] (una volta per Abilità)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [NiddlePinAlly]"
+                  "desc": "[OnSucceedAttack] Infligge 3 [NiddlePinAlly]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has 5+ [NiddlePinAlly], consume 5 [NiddlePinAlly] on target to inflict [NiddlePinnedAlly] on the said target next turn (counted per target)"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 5+ [NiddlePinAlly], usa 5 [NiddlePinAlly] sul bersaglio per infliggere [NiddlePinnedAlly] su quel bersaglio il turno successivo (contato per bersaglio)"
                 }
               ]
             }
@@ -3455,39 +3455,39 @@
         },
         {
           "level": 4,
-          "name": "Pick stitch too obvious, you say?! I'll pick-stitch your bum!",
-          "desc": "<style=\"highlight\">Final Power +1 for every 2 [ChargeRougeAlly] Potency on self (max 2)</style>\n[WhenUse] Gain Atk Weight +1 for every 15 [NiddlePinGather] on self (max 2)\n[WhenUse] Deal +30% damage for every excess Atk Weight beyond the # of actual targets (in Focused Encounters, the Parts)\n[WhenUse] Consume up to 20 [ChargeRougeAlly] Count on self to apply the following effects:\n- Coin Power +1 for every 7 [ChargeRougeAlly] Count consumed (max 2)\n- Deal +2% damage using this Skill for every [ChargeRougeAlly] Count consumed\n[EndSkill] Consume [NiddlePinGather] on self equal to (Atk Weight gained from [NiddlePinGather] x 15)",
+          "name": "Impuntatura troppo ovvia, dici?! Ti impunto il sedere!",
+          "desc": "<style=\"highlight\">Potere Finale +1 per ogni 2 Potenza [ChargeRougeAlly] su di sé (max 2)</style>\n[WhenUse] Ottiene Gittata Attacco +1 per ogni 15 [NiddlePinGather] su di sé (max 2)\n[WhenUse] Infligge +30% danni per ogni Portata Attacco oltre il numero dei bersagli attuali (negli Incontri Mirati, la Parte)\n[WhenUse] Usa fino a 20 Conteggio [ChargeRougeAlly] su di sé per applicare i seguenti effetti:\n- Potere Moneta +1 per ogni 7 Conteggio [ChargeRougeAlly] usato (max 2)\n- Infligge +2% danni usando questa Abilità per ogni Conteggio [ChargeRougeAlly] usato\n[EndSkill] Usa [NiddlePinGather] su di sé pari a (Gittata Attacco ottenuta da [NiddlePinGather] x 15)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +3 [ChargeRougeAlly] Count (once per Skill)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Ottiene +3 Conteggio [ChargeRougeAlly] (una volta per Abilità)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +3 [ChargeRougeAlly] Count (once per Skill)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Ottiene +3 Conteggio [ChargeRougeAlly] (una volta per Abilità)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Laceration]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [NiddlePinAlly]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 3 [NiddlePinAlly]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [PenetrateTakeDamageUp] next turn</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge 1 [PenetrateTakeDamageUp] il turno successivo</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has 5+ [NiddlePinAlly], consume 5 [NiddlePinAlly] on target to inflict [NiddlePinnedAlly] on the said target next turn (counted per target)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 5+ [NiddlePinAlly], usa 5 [NiddlePinAlly] sul bersaglio per infliggere [NiddlePinnedAlly] su quel bersaglio il turno successivo (contato per bersaglio)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3501,12 +3501,12 @@
         {
           "level": 1,
           "name": "Gnnnngh...",
-          "desc": "[DuelCounter]\n[StartBattle] Consume 20% HP on self to gain 1 [Enhancement] next turn (once per turn)",
+          "desc": "[DuelCounter]\n[StartBattle] Usa il 20% dei PV per ottenere 1 [Enhancement] il turno successivo (una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [NiddlePinAlly]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [NiddlePinAlly]"
                 }
               ]
             }
@@ -3515,12 +3515,12 @@
         {
           "level": 4,
           "name": "Gnnnngh...",
-          "desc": "[DuelCounter]\n[StartBattle] Consume 20% HP on self to gain <style=\"highlight\">2 [Enhancement] and +5 [ChargeRougeAlly] Count</style> next turn (once per turn)\n<style=\"highlight\">[WhenUse] Final Power +1 for every 2 [ChargeRougeAlly] Potency on self (max 2)</style>",
+          "desc": "[DuelCounter]\n[StartBattle] Usa il 20% dei PV per ottenere <style=\"highlight\">2 [Enhancement] e +5 Conteggio [ChargeRougeAlly]</style> il turno successivo (una volta per turno)\n<style=\"highlight\">[WhenUse] Potere Finale +1 per ogni 2 Potenza [ChargeRougeAlly] su di sé (max 2)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [NiddlePinAlly]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [NiddlePinAlly]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3533,36 +3533,36 @@
       "levelList": [
         {
           "level": 2,
-          "name": "Double stitching past the side seam? Double-needle! Rejected!",
-          "desc": "[WideAreaRampage]\nOn Hit using this Skill, heal 8% HP\n[WhenUse] Consume all [NeedlekinAlly] on self to apply 1 [PenetrateDamageUp] to this unit and 2 other random allies next turn\n- Prioritizes \"Le Rouge\" Identities (in Deployment Order)",
+          "name": "Doppia cucitura oltre la Linea del fianco? A due aghi! Bocciata!",
+          "desc": "[WideAreaRampage]\nSul Colpo usando questa Abilità, recupera l'8% dei PV\n[WhenUse] Usa tutte le Stack di [NeedlekinAlly] su di sé per applicare 1 [PenetrateDamageUp] su di sé e su 2 alleati casuali il turno successivo\n- Priorità alle Identità \"Le Rouge\" (in Ordine di Schieramento)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 [ChargeRougeAlly] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [ChargeRougeAlly]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [NiddlePinAlly]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [NiddlePinAlly]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 [ChargeRougeAlly] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [ChargeRougeAlly]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [NiddlePinAlly]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [NiddlePinAlly]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 [ChargeRougeAlly] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +1 Conteggio [ChargeRougeAlly]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [NiddlePinAlly]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [NiddlePinAlly]"
                 }
               ]
             }
