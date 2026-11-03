@@ -801,7 +801,7 @@
           "level": 1,
           "name": "Lacrime del Sangue Impuro - Principio [始]",
           "abName": "Yinglong",
-          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] A 4+ Rison. più alta, Portata Attacco +1\n[BeforeAttack] -2 Potere Base per ogni Moneta Infrangibile (max -8)\n[EndSkill] Gain [DragonLance]",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] A 4+ Rison. più alta, Portata Attacco +1\n[BeforeAttack] -2 Potere Base per ogni Moneta Infrangibile (max -8)\n[EndSkill] Ottiene [DragonLance]",
           "coinlist": [
             {
               "coindescs": [
@@ -941,7 +941,7 @@
           "level": 1,
           "name": "Rimanere Se Stessi [宁作吾]",
           "abName": "Ling",
-          "desc": "[WhenUse] Ottiene 2 [Breath]\n[BeforeAttack] A 5+ (Potenza + Conteggio [Breath] su di sé), Potere Finale +1\n[BeforeAttack] Se quest'unità ha [Cianjing], infligge +15% danni\n[BeforeAttack] Se quest'unità ha [SeniorCianjing], infligge +27% danni\n[EndSkill] Ottiene 5 [Cianjing]\n- Se quest'unità ha già [Cianjing] o [SeniorCianjing], consuma ogni stack per ottenere 5 [SeniorCianjing]",
+          "desc": "[WhenUse] Ottiene 2 [Breath]\n[BeforeAttack] A 5+ (Potenza + Conteggio [Breath] su di sé), Potere Finale +1\n[BeforeAttack] Se quest'unità ha [Cianjing], infligge +15% danni\n[BeforeAttack] Se quest'unità ha [SeniorCianjing], infligge +27% danni\n[EndSkill] Ottiene 5 [Cianjing]\n- Se quest'unità ha già [Cianjing] o [SeniorCianjing], consuma ogni Stack per ottenere 5 [SeniorCianjing]",
           "coinlist": [
             {},
             {
@@ -963,7 +963,7 @@
           "level": 3,
           "name": "Rimanere Se Stessi [宁作吾]",
           "abName": "Ling",
-          "desc": "[WhenUse] Ottiene <style=\"highlight\">3</style> [Breath]\n[BeforeAttack] <style=\"highlight\">Potere Finale +1 per ogni 5 (Potenza + Conteggio [Breath] su di sé) (max 2)</style>\n[BeforeAttack] Se quest'unità ha [Cianjing], ottiene <style=\"highlight\">+1 Portata Attacco</style> e infligge +15% danni\n[BeforeAttack] Se quest'unità ha [SeniorCianjing], ottiene <style=\"highlight\">+2 Portata Attacco</style> e infligge +27% danni\n[EndSkill] Ottiene 5 [Cianjing]\n- Se quest'unità ha già [Cianjing] o [SeniorCianjing], consuma ogni stack per ottenere 5 [SeniorCianjing]",
+          "desc": "[WhenUse] Ottiene <style=\"highlight\">3</style> [Breath]\n[BeforeAttack] <style=\"highlight\">Potere Finale +1 per ogni 5 (Potenza + Conteggio [Breath] su di sé) (max 2)</style>\n[BeforeAttack] Se quest'unità ha [Cianjing], ottiene <style=\"highlight\">+1 Portata Attacco</style> e infligge +15% danni\n[BeforeAttack] Se quest'unità ha [SeniorCianjing], ottiene <style=\"highlight\">+2 Portata Attacco</style> e infligge +27% danni\n[EndSkill] Ottiene 5 [Cianjing]\n- Se quest'unità ha già [Cianjing] o [SeniorCianjing], consuma ogni Stack per ottenere 5 [SeniorCianjing]",
           "coinlist": [
             {},
             {
@@ -985,7 +985,7 @@
           "level": 4,
           "name": "Rimanere Se Stessi [宁作吾]",
           "abName": "Ling",
-          "desc": "[WhenUse] Ottiene <style=\"highlight\">4</style> [Breath]\n[BeforeAttack] Final Power +1 for every 5 ([Breath] Potency + [Breath] Count) (max <style=\"highlight\">3</style>)\n<style=\"highlight\">[BeforeAttack] Se quest'unità non ha [Cianjing] o [SeniorCianjing], recupera la metà delle Risorse e.g.o e dei PS consumati da questa Abilità (arrotondato per difetto. L'effetto si applica anche se l'unità corrode dopo aver usato l'Attivazione E.G.O)</style>\n[BeforeAttack] Se quest'unità ha [Cianjing], ottiene +1 Portata Attacco e infligge +<style=\"highlight\">25</style>% danni\n[BeforeAttack] Se quest'unità ha [SeniorCianjing], ottiene +2 Portata Attacco e infligge +<style=\"highlight\">45</style>% danni\n[EndSkill] Ottiene 5 [Cianjing]\n- Se quest'unità ha già [Cianjing] o [SeniorCianjing], consuma ogni stack per ottenere 5 [SeniorCianjing]",
+          "desc": "[WhenUse] Ottiene <style=\"highlight\">4</style> [Breath]\n[BeforeAttack] Potere Finale +1 per ogni 5 (Potenza [Breath] + Conteggio [Breath]) (max <style=\"highlight\">3</style>)\n<style=\"highlight\">[BeforeAttack] Se quest'unità non ha [Cianjing] o [SeniorCianjing], recupera la metà delle Risorse E.G.O e dei PS consumati da questa Abilità (arrotondato per difetto). L'effetto si applica anche se l'unità corrode dopo aver usato l'Attivazione E.G.O)</style>\n[BeforeAttack] Se quest'unità ha [Cianjing], ottiene +1 Portata Attacco e infligge +<style=\"highlight\">25</style>% danni\n[BeforeAttack] Se quest'unità ha [SeniorCianjing], ottiene +2 Portata Attacco e infligge +<style=\"highlight\">45</style>% danni\n[EndSkill] Ottiene 5 [Cianjing]\n- Se quest'unità ha già [Cianjing] o [SeniorCianjing], consuma ogni Stack per ottenere 5 [SeniorCianjing]",
           "coinlist": [
             {},
             {
@@ -1012,7 +1012,7 @@
           "level": 1,
           "name": "Rimanere Se Stessi [宁作吾]",
           "abName": "Ling",
-          "desc": "[CantIdentify]\nBersaglia casualmente\n[WhenUse] Ottiene 2 [Breath] e +2 Conteggio [Breath]\n[BeforeAttack] Se quest'unità ha [Cianjing] o [SeniorCianjing], Potere Moneta +1\n[EndSkill] Ottiene 5 [Cianjing]\n- Se quest'unità ha già [Cianjing] o [SeniorCianjing], consuma ogni stack per ottenere 5 [SeniorCianjing]",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[WhenUse] Ottiene 2 [Breath] e +2 Conteggio [Breath]\n[BeforeAttack] Se quest'unità ha [Cianjing] o [SeniorCianjing], Potere Moneta +1\n[EndSkill] Ottiene 5 [Cianjing]\n- Se quest'unità ha già [Cianjing] o [SeniorCianjing], consuma ogni Stack per ottenere 5 [SeniorCianjing]",
           "coinlist": [
             {
               "coindescs": [
@@ -1059,7 +1059,7 @@
           "level": 3,
           "name": "Rimanere Se Stessi [宁作吾]",
           "abName": "Ling",
-          "desc": "[CantIdentify]\nBersaglia casualmente\n[WhenUse] Ottiene <style=\"highlight\">3</style> [Breath] e +<style=\"highlight\">3</style> Conteggio [Breath]\n[BeforeAttack] Se quest'unità ha [Cianjing] o [SeniorCianjing],<style=\"highlight\"> Portata Attacco, Potere Base e</style> Potere Moneta +1\n[EndSkill] Ottiene 5 [Cianjing]\n- Se quest'unità ha già [Cianjing] o [SeniorCianjing], consuma ogni stack per ottenere 5 [SeniorCianjing]",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[WhenUse] Ottiene <style=\"highlight\">3</style> [Breath] e +<style=\"highlight\">3</style> Conteggio [Breath]\n[BeforeAttack] Se quest'unità ha [Cianjing] o [SeniorCianjing],<style=\"highlight\"> Portata Attacco, Potere Base e</style> Potere Moneta +1\n[EndSkill] Ottiene 5 [Cianjing]\n- Se quest'unità ha già [Cianjing] o [SeniorCianjing], consuma ogni Stack per ottenere 5 [SeniorCianjing]",
           "coinlist": [
             {
               "coindescs": [
@@ -1106,7 +1106,7 @@
           "level": 4,
           "name": "Rimanere Se Stessi [宁作吾]",
           "abName": "Ling",
-          "desc": "[CantIdentify]\nBersaglia casualmente\n[WhenUse] Ottiene <style=\"highlight\">4 [Breath] e +4 Conteggio [Breath]</style>\n[BeforeAttack] Se quest'unità ha [Cianjing] o [SeniorCianjing], <style=\"highlight\">Portata Attacco, Potere Base e Potere Moneta +2</style>\n[EndSkill] Ottiene 5 [Cianjing]\n- Se quest'unità ha già [Cianjing] o [SeniorCianjing], consuma ogni stack per ottenere 5 [SeniorCianjing]",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[WhenUse] Ottiene <style=\"highlight\">4 [Breath] e +4 Conteggio [Breath]</style>\n[BeforeAttack] Se quest'unità ha [Cianjing] o [SeniorCianjing], <style=\"highlight\">Portata Attacco, Potere Base e Potere Moneta +2</style>\n[EndSkill] Ottiene 5 [Cianjing]\n- Se quest'unità ha già [Cianjing] o [SeniorCianjing], consuma ogni Stack per ottenere 5 [SeniorCianjing]",
           "coinlist": [
             {
               "coindescs": [
@@ -1158,12 +1158,12 @@
           "level": 1,
           "name": "Ripudio",
           "abName": "Abitante di Metropolaris",
-          "desc": "[BeforeAttack] Ottiene +1 Conteggio [Charge]\n[BeforeAttack] Consuma fino a 6 Conteggio [Charge] su di sé; poi, applyica 5 [ChargeForceField] su di sé e su (1 + (Conteggio [Charge] consumato / 2)) altri alleati casuali (5 unità max; arrotondato per difetto)",
+          "desc": "[BeforeAttack] Ottiene +1 Conteggio [Charge]\n[BeforeAttack] Usa fino a 6 Conteggio [Charge] su di sé, poi applica 5 [ChargeForceField] su di sé e su (1 + (Conteggio [Charge] usato / 2)) altri alleati casuali (max 5 unità, arrotondato per difetto)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ottiene +2 Cpnteggio [Charge]"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Charge]"
                 }
               ]
             },
@@ -1172,9 +1172,9 @@
         },
         {
           "level": 3,
-          "name": "Repudiation",
-          "abName": "Resident of Metropolaris",
-          "desc": "<style=\"highlight\">[WhenUse] Ottiene Potere Scontro pari alla Potenza [Charge] su di sé (max 2)</style>\n[BeforeAttack] Ottiene +<style=\"highlight\">3</style> Conteggio [Charge]\n[BeforeAttack] Consuma fino a <style=\"highlight\">8</style> Conteggio [Charge] su di sé; poi, applica 5 [ChargeForceField] su di sé e su (1 + (Conteggio [Charge] Consumato / 2)) altri alleati casuali (<style=\"highlight\">6</style> unità max; arrotondato per difetto)",
+          "name": "Ripudio",
+          "abName": "Abitante di Metropolaris",
+          "desc": "<style=\"highlight\">[WhenUse] Ottiene Potere Scontro pari alla Potenza [Charge] su di sé (max 2)</style>\n[BeforeAttack] Ottiene +<style=\"highlight\">3</style> Conteggio [Charge]\n[BeforeAttack] Usa fino a <style=\"highlight\">8</style> Conteggio [Charge] su di sé; poi applica 5 [ChargeForceField] su di sé e su altri (1 + (Conteggio [Charge] usato / 2)) alleati casuali (max <style=\"highlight\">6</style> unità, arrotondato per difetto)",
           "coinlist": [
             {
               "coindescs": [
@@ -1194,21 +1194,21 @@
         },
         {
           "level": 4,
-          "name": "Repudiation",
-          "abName": "Resident of Metropolaris",
-          "desc": "[WhenUse] Gain Clash Power equal to [Charge] Potency on self (max <style=\"highlight\">3</style>)\n[BeforeAttack] Gain +<style=\"highlight\">5</style> [Charge] Count\n[BeforeAttack] Consume up to <style=\"highlight\">10</style> [Charge] Count on self; then, apply 5 [ChargeForceField] on self and on (1 + ([Charge] Count consumed / 2)) random other allies (max <style=\"highlight\">7</style> units; rounded down)",
+          "name": "Ripudio",
+          "abName": "Abitante di Metropolaris",
+          "desc": "[WhenUse] Ottiene Potere Scontro pari alla Potenza [Charge] su di sé (max <style=\"highlight\">3</style>)\n[BeforeAttack] Ottiene +<style=\"highlight\">5</style> Conteggio [Charge]\n[BeforeAttack] Usa fino a <style=\"highlight\">10</style> Conteggio [Charge] su di sé, poi applica 5 [ChargeForceField] su di sé e su altri (1 + (Conteggio [Charge] usato / 2)) alleati casuali (max <style=\"highlight\">7</style> unità, arrotondato per difetto)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [Charge] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Charge]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [PhotoElectricity]"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [PhotoElectricity]"
                 }
               ]
             }
@@ -1221,9 +1221,9 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Repudiation",
-          "abName": "Resident of Metropolaris",
-          "desc": "[CantIdentify]\nTargets randomly\nDeal +15% damage against targets that have Shield\n[BeforeAttack] Base Power -6 for every Cracked Coin (max -12)\n[BeforeAttack] Gain +3 [Charge] Count\n[BeforeAttack] Consume up to 6 [Charge] Count; then, apply 7 [ChargeForceField] on self and on (1 + ([Charge] Count consumed / 2)) random other allies (max 5 units; rounded down)",
+          "name": "Ripudio",
+          "abName": "Abitante di Metropolaris",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nInfligge +15% danni contro i bersagli che hanno Scudo\n[BeforeAttack] Potere Base -6 per ogni Moneta Rotta (max -12)\n[BeforeAttack] Ottiene +3 Conteggio [Charge]\n[BeforeAttack] Usa fino a 6 Conteggio [Charge], poi applica 7 [ChargeForceField] su di sé e su altri (1 + (Conteggio [Charge] usato / 2)) alleati casuali (max 5 unità, arrotondato per difetto)",
           "coinlist": [
             {
               "coindescs": [
@@ -1231,7 +1231,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [Charge] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Charge]"
                 }
               ]
             },
@@ -1241,7 +1241,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnStartCoin] Consume up to 10 [Charge] Count; then, this Coin gains Final Power equal to Count consumed"
+                  "desc": "[OnStartCoin] Usa fino a 10 Conteggio [Charge]; poi questa Moneta ottiene Potere Finale pari al Conteggio usato"
                 }
               ]
             }
@@ -1249,9 +1249,9 @@
         },
         {
           "level": 3,
-          "name": "Repudiation",
-          "abName": "Resident of Metropolaris",
-          "desc": "[CantIdentify]\nTargets randomly\nDeal +<style=\"highlight\">20</style>% damage against targets that have Shield\n[BeforeAttack] Base Power -6 for every Cracked Coin (max -12)\n<style=\"highlight\">[BeforeAttack] Gain Final Power equal to [Charge] Potency on self (max 2)</style>\n[BeforeAttack] Gain +<style=\"highlight\">4</style> [Charge] Count\n[BeforeAttack] Consume up to <style=\"highlight\">8</style> [Charge] Count on self; then, apply 7 [ChargeForceField] on self and on (1 + ([Charge] Count consumed / 2)) random other allies (max <style=\"highlight\">6</style> units; rounded down)",
+          "name": "Ripudio",
+          "abName": "Abitante di Metropolaris",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nInfligge +<style=\"highlight\">20</style>% danni contro i bersagli che hanno Scudo\n[BeforeAttack] Potere Base -6 per ogni Moneta Rotta (max -12)\n<style=\"highlight\">[BeforeAttack] Ottiene Potere Finale pari a Potenza [Charge] su di sé (max 2)</style>\n[BeforeAttack] Ottiene +<style=\"highlight\">4</style> Conteggio [Charge]\n[BeforeAttack] Usa fino a <style=\"highlight\">8</style> Conteggio [Charge] su di sé; poi applica 7 [ChargeForceField] su di sé e su altri (1 + (Conteggio [Charge] usato / 2)) alleati casuali (max <style=\"highlight\">6</style> unità, arrotondato per difetto)",
           "coinlist": [
             {
               "coindescs": [
@@ -1259,7 +1259,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [Charge] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Charge]"
                 }
               ]
             },
@@ -1269,10 +1269,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnStartCoin] Consume up to 10 [Charge] Count; then, this Coin gains Final Power equal to Count consumed"
+                  "desc": "[OnStartCoin] Usa fino a 10 Conteggio [Charge]; poi questa Moneta ottiene Potere Finale pari al Conteggio usato"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [PhotoElectricity]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge 1 [PhotoElectricity]</style>"
                 }
               ]
             }
@@ -1280,9 +1280,9 @@
         },
         {
           "level": 4,
-          "name": "Repudiation",
-          "abName": "Resident of Metropolaris",
-          "desc": "[CantIdentify]\nTargets randomly\nDeal +<style=\"highlight\">25</style>% damage against targets that have Shield\n[BeforeAttack] Base Power -6 for every Cracked Coin (max -12)\n[BeforeAttack] Gain Final Power equal to [Charge] Potency on self (max <style=\"highlight\">3</style>)\n[BeforeAttack] Gain +<style=\"highlight\">5</style> [Charge] Count\n[BeforeAttack] Consume up to <style=\"highlight\">10</style> [Charge] Count on self; then, apply 7 [ChargeForceField] on self and on (1 + ([Charge] Count consumed / 2)) random other allies (max <style=\"highlight\">7</style> units; rounded down)",
+          "name": "Ripudio",
+          "abName": "Abitante di Metropolaris",
+          "desc": "[CantIdentify]\nBersaglia casualmente\nInfligge +<style=\"highlight\">25</style>% danni contro i bersagli che hanno Scudo\n[BeforeAttack] Potere Base -6 per ogni Moneta Rotta (max -12)\n[BeforeAttack] Ottiene Potere Finale pari a Potenza [Charge] su di sé (max <style=\"highlight\">3</style>)\n[BeforeAttack] Ottiene +<style=\"highlight\">5</style> Conteggio [Charge]\n[BeforeAttack] Usa fino a <style=\"highlight\">10</style> Conteggio [Charge] su di sé; poi applica 7 [ChargeForceField] su di sé e su altri (1 + (Conteggio [Charge] usato / 2)) alleati casuali (max <style=\"highlight\">7</style> unità, arrotondato per difetto)",
           "coinlist": [
             {
               "coindescs": [
@@ -1290,7 +1290,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [Charge] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [Charge]"
                 }
               ]
             },
@@ -1300,10 +1300,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnStartCoin] Consume up to 10 [Charge] Count; then, this Coin gains Final Power equal to Count consumed"
+                  "desc": "[OnStartCoin] Usa fino a 10 Conteggio [Charge]; poi questa Moneta ottiene Potere Finale pari al Conteggio usato"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [PhotoElectricity]"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">2</style> [PhotoElectricity]"
                 }
               ]
             }

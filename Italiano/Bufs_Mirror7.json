@@ -10,42 +10,42 @@
     {
       "id": "Inspire",
       "name": "Scintilla d'Ispirazione",
-      "desc": "Infligge +10% danno ai bersagli con Mezzo Espressivo",
+      "desc": "Infligge +10% danni ai bersagli con Mezzo Espressivo",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "PaintingMaterial",
       "name": "Mezzo Espressivo",
-      "desc": "Se questa unità ha Sanguinamento (negli Incontri Mirati, conta Sanguinamento separatamente su ogni Parte), subisce +10% danno dalle Abilità Lussuria",
+      "desc": "Se questa unità ha Sanguinamento (negli Incontri Mirati, conta Sanguinamento separatamente su ogni Parte), subisce +10% danni dalle Abilità Lussuria",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "GreatAesthetics",
       "name": "Estetica Raffinata",
-      "desc": "- Le Abilità Moneta Positiva ottengono Potere Moneta +1\n- Le Abilità Moneta Negativa ottengono Potere Base +(4 / # delle Monete)\n- Infligge +30% danno con le Abilità",
+      "desc": "- Le Abilità Moneta Positiva ottengono Potere Moneta +1\n- Le Abilità Moneta Negativa ottengono Potere Base +(4 / # delle Monete)\n- Infligge +30% danni con le Abilità",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "GiftCannon",
       "name": "Potenza di Fuoco",
-      "desc": "- Stack Max: 10\n- Infligge +10% danno per ogni Stack",
+      "desc": "- Stack Max: 10\n- Infligge +10% danni per ogni Stack",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "GiftGlass",
       "name": "Delicatezza",
-      "desc": "- Stack Max: 10\n- Subisce +10% danno per ogni Stack",
+      "desc": "- Stack Max: 10\n- Subisce +10% danni per ogni Stack",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BlandishmentShinEnemyDelete",
       "name": "Shin (心) - ???",
-      "desc": "- Velocità Min & Max +1\n- Livello Offensivo +2, Livello Difensivo +2\n- Ottiene +1 Potenza e Conteggio Equilibrio in più dalle Abilità\n- Infligge +(percentuale PV mancanti + 25)% danno (max 100%)",
+      "desc": "- Velocità Min & Max +1\n- Livello Offensivo +2, Livello Difensivo +2\n- Ottiene +1 Potenza e Conteggio Equilibrio in più dalle Abilità\n- Infligge +(percentuale PV mancanti + 25)% danni (max 100%)",
       "summary": "",
       "undefined": "-"
     },
@@ -66,7 +66,7 @@
     {
       "id": "MiddleFatherGutsMirror",
       "name": "Grinta Ridicola",
-      "desc": "- Subisce -(50 +percentuale PV mancanti)% danno dalle Abilità (arrotondato per difetto)\n\n- A Scontro Vinto, recupera (Conteggio Scontri x 5) PS in più (max 15)\n\n- Fine Turno: Se questa unità perde PS in questo turno a causa degli effetti delle sue Abilità, ottiene 3 Danno Aumentato il turno successivo",
+      "desc": "- Subisce -(50 +percentuale PV mancanti)% danni dalle Abilità (arrotondato per difetto)\n\n- A Scontro Vinto, recupera (Conteggio Scontri x 5) PS in più (max 15)\n\n- Fine Turno: Se questa unità perde PS in questo turno a causa degli effetti delle sue Abilità, ottiene 3 Danno Aumentato il turno successivo",
       "summary": "",
       "undefined": "-",
       "flavor": "\"I don't need some stupid crutch like that \"Shin (心)\" crap. I just gotta pull as much power as I can from these tattoos and grit my teeth, and I'll overpower your fancy little tricks no problem.\""
@@ -82,7 +82,7 @@
     {
       "id": "FutureEyeOffMirror",
       "name": "Occhio della Precognizione - Surriscaldamento",
-      "desc": "- Stack Max: 30\n- Le Abilità Attacco infliggono -20% danno\n- Converte tutte le Monete sulle Abilità che usano Proiettile Acceleratore in Monete Infrangibili\n- Inizio Turno: Ottiene 10 Stack\n- A 30 Stack, diventa \"Occhio della Precognizione\"",
+      "desc": "- Stack Max: 30\n- Le Abilità Attacco infliggono -20% danni\n- Converte tutte le Monete sulle Abilità che usano Proiettile Acceleratore in Monete Infrangibili\n- Inizio Turno: Ottiene 10 Stack\n- A 30 Stack, diventa \"Occhio della Precognizione\"",
       "summary": "",
       "undefined": "-"
     },
@@ -97,7 +97,7 @@
     {
       "id": "ObservationTheRingsHidden",
       "name": "Osservando il Tableau",
-      "desc": "- Livello Offensivo Base -20\n- Livello Difensivo Base -20\n- Inizio Turno: Subisce -70% danno finale se l'Apprendista dell'Anulare non si è ritirata da questo Incontro (arrotondato per difetto; no valore min.)",
+      "desc": "- Livello Offensivo Base -20\n- Livello Difensivo Base -20\n- Inizio Turno: Subisce -70% danni finale se l'Apprendista dell'Anulare non si è ritirata da questo Incontro (arrotondato per difetto; no valore min.)",
       "summary": "",
       "undefined": "-",
       "flavor": "\"The appreciation of artwork in a gallery calls for unhurried contemplation. Please remember—impatience dulls the appreciation of art.\""
@@ -130,12 +130,12 @@
     {
       "id": "RingFingerPhysical",
       "name": "Bellezza del Fisico",
-      "desc": "- Contro i nemici che hanno 20+ Sanguinamento, le Abilità Base ottengono Potere Moneta +1 e infliggono +20% danno (calcolato come la somma di Sanguinamento su tutti i bersagli per le Abilità che hanno 2+ Portata Attacco)\n- Le Abilità Base che usano 'Carica Speciale' ottengono Potere Moneta +1 (Abilità E.G.O escluse)\n- Fine Turno: Questo effetto scade"
+      "desc": "- Contro i nemici che hanno 20+ Sanguinamento, le Abilità Base ottengono Potere Moneta +1 e infliggono +20% danni (calcolato come la somma di Sanguinamento su tutti i bersagli per le Abilità che hanno 2+ Portata Attacco)\n- Le Abilità Base che usano 'Carica Speciale' ottengono Potere Moneta +1 (Abilità E.G.O escluse)\n- Fine Turno: Questo effetto scade"
     },
     {
       "id": "RingFingerFauvism",
       "name": "Il Fascino della Bestia",
-      "desc": "- Contro i nemici che hanno 20+ Sanguinamento, le Abilità Base ottengono Potere Moneta +1 e infliggono +20% danno (calcolato come la somma di Sanguinamento su tutti i bersagli per le Abilità che hanno 2+ Portata Attacco)\n- A Inizio Attacco, se il bersaglio ha 15- PS o 20+ Potenza Annegamento, ottiene 1 Potere Contundente Aumentato il turno successivo (una volta per turno)\n- Fine Turno: Questo effetto scade"
+      "desc": "- Contro i nemici che hanno 20+ Sanguinamento, le Abilità Base ottengono Potere Moneta +1 e infliggono +20% danni (calcolato come la somma di Sanguinamento su tutti i bersagli per le Abilità che hanno 2+ Portata Attacco)\n- A Inizio Attacco, se il bersaglio ha 15- PS o 20+ Potenza Annegamento, ottiene 1 Potere Contundente Aumentato il turno successivo (una volta per turno)\n- Fine Turno: Questo effetto scade"
     },
     {
       "id": "KAmpouleMirror",
@@ -145,7 +145,7 @@
     {
       "id": "PlayingWithWaterTogetherMirror",
       "name": "Splish Splash",
-      "desc": "- Stack Max: 10\n- In uno scontro contro l'Ichthys Senza Testa, ottiene i seguenti effetti (una volta per Abilità):\n  · Ottiene e infligge Annegamento pari alle Stack\n  · Recupera PS pari alle Stack\n- A Stack max, le Abilità che bersagliano Skills l'Ichthys Senza Testa infliggono +50% danno"
+      "desc": "- Stack Max: 10\n- In uno scontro contro l'Ichthys Senza Testa, ottiene i seguenti effetti (una volta per Abilità):\n  · Ottiene e infligge Annegamento pari alle Stack\n  · Recupera PS pari alle Stack\n- A Stack max, le Abilità che bersagliano Skills l'Ichthys Senza Testa infliggono +50% danni"
     },
     {
       "id": "RedButterfly",
