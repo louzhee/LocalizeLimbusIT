@@ -175,7 +175,7 @@
           "level": 1,
           "name": "Strillo Elettrico",
           "abName": "Pecora Elettrica Sognante",
-          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene Portata Attacco pari a (Rison. Invidia più alta - 2) (max 2)\n[BeforeAttack] Se quest'unità ha 10+ Conteggio [Charge], spende fino a 20 Conteggio [Charge] Count; infligge +2% danni per ogni Conteggio [Charge] consumato (max 40%)",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene Portata Attacco pari a (Rison. Invidia più alta - 2) (max 2)\n[BeforeAttack] Se quest'unità ha 10+ Conteggio [Charge], usa fino a 20 Conteggio [Charge] Count; infligge +2% danni per ogni Conteggio [Charge] consumato (max 40%)",
           "coinlist": [
             {
               "coindescs": [
@@ -193,7 +193,7 @@
           "level": 3,
           "name": "Strillo Elettrico",
           "abName": "Pecora Elettrica Sognante",
-          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene Portata Attacco pari a (Rison. Invidia più alta - 2) (max <style=\"highlight\">3</style>)\n[BeforeAttack] Se quest'unità ha 10+ Conteggio [Charge], spende fino a 20 Conteggio [Charge] Count; infligge +<style=\"highlight\">2.5</style>% danni per ogni Conteggio [Charge] consumato (max <style=\"highlight\">50</style>%)",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack] Ottiene Portata Attacco pari a (Rison. Invidia più alta - 2) (max <style=\"highlight\">3</style>)\n[BeforeAttack] Se quest'unità ha 10+ Conteggio [Charge], usa fino a 20 Conteggio [Charge]; infligge +<style=\"highlight\">2.5</style>% danni per ogni Conteggio [Charge] consumato (max <style=\"highlight\">50</style>%)",
           "coinlist": [
             {
               "coindescs": [
@@ -211,7 +211,7 @@
           "level": 4,
           "name": "Strillo Elettrico",
           "abName": "Pecora Elettrica Sognante",
-          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack]Ottiene Portata Attacco pari a (Rison. Invidia più alta - 2) (max 3)\n<style=\"highlight\">[BeforeAttack] A 10+ Conteggio [Charge], applica gli effetti di 'Sul Colpo' due volte</style>\n[BeforeAttack] Se quest'unità ha 10+ Conteggio [Charge], spende fino a 20 Conteggio [Charge] Count; infligge +<style=\"highlight\">3</style>% danni per ogni Conteggio [Charge] consumato (max <style=\"highlight\">60</style>%)",
+          "desc": "[CantIdentify]\nBersaglia casualmente\n[BeforeAttack]Ottiene Portata Attacco pari a (Rison. Invidia più alta - 2) (max 3)\n<style=\"highlight\">[BeforeAttack] A 10+ Conteggio [Charge], applica gli effetti di 'Sul Colpo' due volte</style>\n[BeforeAttack] Se quest'unità ha 10+ Conteggio [Charge], usa fino a 20 Conteggio [Charge]; infligge +<style=\"highlight\">3</style>% danni per ogni Conteggio [Charge] consumato (max <style=\"highlight\">60</style>%)",
           "coinlist": [
             {
               "coindescs": [
@@ -1150,7 +1150,7 @@
                   "desc": "Questa Moneta colpisce solo il bersaglio principale<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "Spende 1 [BulletHole]<style=\"highlight\"></style>"
+                  "desc": "Usa 1 [BulletHole]<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "Infligge <style=\"highlight\">+20%</style> Danni su Colpo Critico"

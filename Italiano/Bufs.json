@@ -1754,7 +1754,7 @@
     {
       "id": "SwordPlayOfTheMemorial",
       "name": "Rimembranza",
-      "desc": "Quando possiede 5 Equilibrio o superiore, all'utilizzo di un abilità, le Abilità 1 e 2 ottengono Potere Moneta +(3/# di Monete, minimo 1) e infliggono +(30/# di Monete)% danni critici\n- quando possiede 7 Equilibrio o superiore, all'utilizzo di un'Abilità, l'Abilità 3 infligge +(30/# di Monete)%  +(50/# di Monete)% danni critici",
+      "desc": "Quando possiede 5 Equilibrio o superiore, all'utilizzo di un'Abilità, le Abilità 1 e 2 ottengono Potere Moneta +(3/# di Monete, minimo 1) e infliggono +(30/# di Monete)% danni critici\n- quando possiede 7 Equilibrio o superiore, all'utilizzo di un'Abilità, l'Abilità 3 infligge +(30/# di Monete)%  +(50/# di Monete)% danni critici",
       "summary": "Potenzia le Abilità oltre una certa soglia di Equilibrio"
     },
     {
@@ -4214,7 +4214,7 @@
     {
       "id": "BulletHole",
       "name": "Proiettile Cinereo",
-      "desc": "- Munizione Speciale\n- Capacità Max: 5\n- Questa munizione non può essere ottenuta o persa tramite effetti esterni, ad eccezione dell'Abilità E.G.O \"Hollow\"",
+      "desc": "- Munizione Speciale\n- Capacità Max: 5\n- Questa munizione non può essere ottenuta o persa tramite effetti esterni, ad eccezione dell'Abilità E.G.O \"Vuoto\"",
       "summary": ""
     },
     {
@@ -4365,14 +4365,14 @@
     {
       "id": "NiddlePinAlly",
       "name": "Chiodillo",
-      "desc": "- Sanguinamento Speciale\n- Stack Max: 10\n- Fine Turno: Perde 1 Stack\n\n- Quando perde una Stack di questo effetto, ottiene 1 Potenza sanguinamento e subisce 3 danni Lussusria per ogni Stack persa\n\n- Fine Turno: Se Haute Couture::Il Dio Cremisi dei Le Rouge Sinclair è in campo come nemico e questa unità ha questo effetto, questa unità ottiene 1 L'Abject",
+      "desc": "- Sanguinamento Speciale\n- Stack Max: 10\n- Fine Turno: Perde 1 Stack\n\n- Quando perde una Stack di questo effetto, ottiene 1 Potenza Sanguinamento e subisce 3 danni Lussusria per ogni Stack persa\n\n- Fine Turno: Se Haute Couture::Il Dio Cremisi dei Le Rouge Sinclair è in campo come nemico e questa unità ha questo effetto, questa unità ottiene 1 L'Abject",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "NiddlePinnedAlly",
       "name": "Imbalsamato",
-      "desc": "- Stack Max: 1\n- Potere Finale Abilità -1\n- Sull'uso delle abilità offensive, attiva Sanguinamento su sè e perde 1 Conteggio Sanguinamento (una volta per Abilità)\n- Fine Turno: Ottiene +2 Conteggio Sanguinamento, 1 Potere Diminuito, e 2 Lentezza il turno successivo\n- Fine Turno: Questo effetto scade",
+      "desc": "- Stack Max: 1\n- Potere Finale Abilità -1\n- All'Uso delle Abilità Offensive, attiva Sanguinamento su di sé e perde 1 Conteggio Sanguinamento (una volta per Abilità)\n- Fine Turno: Ottiene +2 Conteggio Sanguinamento, 1 Potere Diminuito e 2 Lentezza il turno successivo\n- Fine Turno: Questo effetto scade",
       "summary": "",
       "undefined": "-"
     },
@@ -4386,43 +4386,43 @@
     },
     {
       "id": "HowlingCocoonAlly",
-      "name": "Grida del Bozzolo - Fragile",
-      "desc": "- Stack Max: 5\n- Potere Finale Abilità Base +1\n- Sul colpo con Abilità Base, recupera il 3% dei PV (5 volte per turno)\n\n- Inizio Turno: Se l'alleato Haute Couture::Il Dio Cremisi dei Le Rouge Sinclair non è in campo, questo effetto scade",
+      "name": "Pianto del Bozzolo - Fragile",
+      "desc": "- Stack Max: 5\n- Potere Finale Abilità Base +1\n- Sul Colpo con Abilità Base, recupera il 3% dei PV (5 volte per turno)\n\n- Inizio Turno: Se l'alleato Haute Couture::Il Dio Cremisi dei Le Rouge Sinclair non è in campo, questo effetto scade",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "HowlingCocoonTwoAlly",
-      "name": "Grida del Bozzolo - Feroce",
-      "desc": "- Stack Max: 1\n- Potere Finale Abilità Base +1\n- Infligge +10% danni usando le Abilità Base\n- Sul colpo con Abilità Base, recupera il 6% dei PV (5 volte per turno)\n\n- Inizio Turno: Se l'alleato Haute Couture::Il Dio Cremisi dei Le Rouge Sinclair non è in campo, questo effetto scade",
+      "name": "Pianto del Bozzolo - Feroce",
+      "desc": "- Stack Max: 1\n- Potere Finale Abilità Base +1\n- Infligge +10% danni usando le Abilità Base\n- Sul Colpo con Abilità Base, recupera il 6% dei PV (5 volte per turno)\n\n- Inizio Turno: Se l'alleato Haute Couture::Il Dio Cremisi dei Le Rouge Sinclair non è in campo, questo effetto scade",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "NoirBindArmorAlly",
       "name": "Le Noir: Cappotto di Lana Pettinata",
-      "desc": "- Stack Max: 15\n- Livello Offensivo +1, Livello Difensivo +1 per ogni 5 Stack\n- Quando questa unità viene colpia mentre ha uno scudo, ottiene 1 Stack (5 Stack per turno)\n- Fine Turno: il Turno Successivo, ottiene (Stack x 5) Scudo e perde 1 Stack",
+      "desc": "- Stack Max: 15\n- Livello Offensivo +1, Livello Difensivo +1 per ogni 5 Stack\n- Quando questa unità viene colpia mentre ha Scudo, ottiene 1 Stack (5 Stack per turno)\n- Fine Turno: il turno successivo, ottiene (Stack x 5) Scudo e perde 1 Stack",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ReadyToListenHonglu",
       "name": "Pronto a Narrare",
-      "desc": "- Stack Max: 2\n- Fine Turno: Ottiene (Stack) Protezione il prossimo turno\n- Fine Turno: Al massimo delle Stack, consuma tutte le Stacks per ottenere 2 Tempo di Ascoltare il turno successivo\n- Può Ottenere fino a 1 Stack per turno\n- Se questa unità ha Tempo di Ascoltare, non può ottenere Pronto a Narrare",
+      "desc": "- Stack Max: 2\n- Fine Turno: Ottiene (Stack) Protezione il prossimo turno\n- Fine Turno: A Stack max, usa tutte le Stack per ottenere 2 Tempo di Ascoltare il turno successivo\n- Può ottenere fino a 1 Stack per turno\n- Se questa unità ha Tempo di Ascoltare, non può ottenere Pronto a Narrare",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "TimeToListenHonglu",
       "name": "Tempo di Ascoltare",
-      "desc": "- Stack Max: 2\n- Potere Base Abilità Base +1\n- Inizio Combattimento (una volta per turno per Peccatore):\n  · Le Identità che hanno equipaggiate Abilità a Moneta Positiva nello slot più a sinistra recuperano 4 PS\n  · Le Identità che hanno equipaggiate Abilità a Moneta Negativa nello slot più a sinistra perdono 4 PS(Questo effetto non può ridurre i PS dell'unità sotto -40)\n- Inizio Combattimento: Applica 1 Danno Accidia Potenziato sulle seguenti Identità (una volta per turno per Peccatore):\n  · Identità che hanno equipaggiato un Abilità a Moneta Positiva e hanno 40 o più PS; Le Identità Le Noir ottengono inoltre 1 Potere Base Aumentato\n  · Identità che hanno equipaggiato un Abilità a Moneta Negativa e hanno -40 o meno PS; Le Identità Le Noir ottengono inoltre 1 Potere Base Aumentato\n- Fine Turno: Perde 1 Stack",
+      "desc": "- Stack Max: 2\n- Potere Base Abilità Base +1\n- Inizio Combattimento (una volta per turno per Peccatore):\n  · Le Identità che hanno equipaggiate Abilità con Moneta Positiva nello Slot più a sinistra recuperano 4 PS\n  · Le Identità che hanno equipaggiate Abilità con Moneta Negativa nello Slot più a sinistra perdono 4 PS (questo effetto non può ridurre i PS dell'unità al di sotto -40 PS)\n- Inizio Combattimento: Applica 1 Danno Accidia Potenziato alle seguenti Identità (una volta per turno per Peccatore):\n  · Identità che hanno equipaggiato un'Abilità a Moneta Positiva e hanno 40 o più PS; le Identità \"Le Noir\" ottengono inoltre 1 Potere Base Aumentato\n  · Identità che hanno equipaggiato un'Abilità con Moneta Negativa e che hanno -40 o meno PS; Le Identità \"Le Noir\" ottengono inoltre 1 Potere Base Aumentato\n- Fine Turno: Perde 1 Stack",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "WarinessHonglu",
       "name": "Punizione Auditiva",
-      "desc": "- Stack Max: 2\n- Perde Livello Offensivo pari alle stack\n- Se c'è un identità che ha Tempo di Ascoltare, subisce +(Stack x 10)% danni dalle Identità \"Le Noir\"\n- Fine Turno: Se c'è un Identità che ha Tempo di Ascoltare, perde 1 Stack (Se l'identità che ha inflitto questo effetto si ritira o viene sconfitta, scade)",
+      "desc": "- Stack Max: 2\n- Perde Livello Offensivo pari alle Stack\n- Se c'è un'Identità che ha Tempo di Ascoltare, subisce +(Stack x 10)% danni dalle Identità \"Le Noir\"\n- Fine Turno: Se c'è un'Identità che ha Tempo di Ascoltare, perde 1 Stack (se l'identità che ha inflitto questo effetto si ritira o viene sconfitta, scade)",
       "summary": "",
       "undefined": "-"
     }

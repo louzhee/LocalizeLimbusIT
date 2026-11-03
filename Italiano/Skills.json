@@ -1245,7 +1245,7 @@
         {
           "level": 3,
           "name": "Strappa spazio",
-          "desc": "[WhenUse] Spende 10 Conteggio [Charge] per ottenere +4 Potere Moneta\nA meno di 10 Conteggio [Charge], perde il 20% dei PV",
+          "desc": "[WhenUse] Usa 10 Conteggio [Charge] per ottenere +4 Potere Moneta\nA meno di 10 Conteggio [Charge], perde il 20% dei PV",
           "coinlist": [
             {
               "coindescs": [
@@ -2340,7 +2340,7 @@
                   "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Spende 3 Conteggio [Charge] per infliggere 2 [SlashTakeDamageUp]"
+                  "desc": "[OnSucceedAttack] Usa 3 Conteggio [Charge] per infliggere 2 [SlashTakeDamageUp]"
                 }
               ]
             }
@@ -2349,7 +2349,7 @@
         {
           "level": 4,
           "name": "Ciclo Energetico",
-          "desc": "If a 5+ Conteggio [Charge], Potere Moneta +1",
+          "desc": "Se a 5+ Conteggio [Charge], Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
@@ -2371,7 +2371,7 @@
                   "desc": "[OnSucceedAttack] Infligge 3 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Spende 3 Conteggio [Charge] per infliggere 2 [SlashTakeDamageUp]"
+                  "desc": "[OnSucceedAttack] Usa 3 Conteggio [Charge] per infliggere 2 [SlashTakeDamageUp]"
                 }
               ]
             }
@@ -2390,28 +2390,28 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Spende 2 Conteggio [Charge] per infliggere 2 [DefenseDown]"
+                  "desc": "[OnSucceedAttack] Usa 2 Conteggio [Charge] per infliggere 2 [DefenseDown]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Spende 2 Conteggio [Charge] per infliggere 2 [DefenseDown]"
+                  "desc": "[OnSucceedAttack] Usa 2 Conteggio [Charge] per infliggere 2 [DefenseDown]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Spende 2 Conteggio [Charge] per infliggere 2 [DefenseDown]"
+                  "desc": "[OnSucceedAttack] Usa 2 Conteggio [Charge] per infliggere 2 [DefenseDown]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Spende 2 Conteggio [Charge] per infliggere 2 [DefenseDown]"
+                  "desc": "[OnSucceedAttack] Usa 2 Conteggio [Charge] per infliggere 2 [DefenseDown]"
                 }
               ]
             }
@@ -2420,33 +2420,33 @@
         {
           "level": 4,
           "name": "Corrente Energetica",
-          "desc": "If a 5+ Conteggio [Charge], Potere Moneta +1",
+          "desc": "Se a 5+ Conteggio [Charge], Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Spende 2 Conteggio [Charge] per infliggere 2 [DefenseDown]"
+                  "desc": "[OnSucceedAttack] Usa 2 Conteggio [Charge] per infliggere 2 [DefenseDown]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Spende 2 Conteggio [Charge] per infliggere 2 [DefenseDown]"
+                  "desc": "[OnSucceedAttack] Usa 2 Conteggio [Charge] per infliggere 2 [DefenseDown]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Spende 2 Conteggio [Charge] per infliggere 2 [DefenseDown]"
+                  "desc": "[OnSucceedAttack] Usa 2 Conteggio [Charge] per infliggere 2 [DefenseDown]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Spende 2 Conteggio [Charge] per infliggere 2 [DefenseDown]"
+                  "desc": "[OnSucceedAttack] Usa 2 Conteggio [Charge] per infliggere 2 [DefenseDown]"
                 }
               ]
             }
@@ -3655,7 +3655,7 @@
         {
           "level": 3,
           "name": "Frusta Mentale",
-          "desc": "[StartBattle] Spende tutto il Conteggio [Charge]\nSe sotto 10 Conteggio [Charge] a Inizio Combattimento, bersaglia un'unità casuale per un attacco incontrastato",
+          "desc": "[StartBattle] Usa tutto il Conteggio [Charge]\nSe sotto 10 Conteggio [Charge] a Inizio Combattimento, bersaglia un'unità casuale per un attacco incontrastato",
           "coinlist": [
             {
               "coindescs": [
@@ -3702,7 +3702,7 @@
         {
           "level": 4,
           "name": "Frusta Mentale",
-          "desc": "[StartBattle] Spende 8 Conteggio [Charge]\nSe a meno di 8 Conteggio [Charge] a Inizio Combattimento, bersaglia un'unità casuale per un attacco incontrastato",
+          "desc": "[StartBattle] Usa 8 Conteggio [Charge]\nSe a meno di 8 Conteggio [Charge] a Inizio Combattimento, bersaglia un'unità casuale per un attacco incontrastato",
           "coinlist": [
             {
               "coindescs": [
@@ -8824,8 +8824,8 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]\nQuando innesca [VibrationExplosion], riduce il Conteggio [Vibration] di 3, poi spende tutto il Conteggio [Charge] per alzare ancora la Soglia di Stordimento del (Conteggio [Charge] x 5)% (max 50%)",
-                  "summary": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce Conteggio [Vibration] di 3; Spende Conteggio [Charge] per alzare ancora la Soglia di Stordimento"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]\nQuando innesca [VibrationExplosion], riduce il Conteggio [Vibration] di 3, poi usa tutto il Conteggio [Charge] per alzare ancora la Soglia di Stordimento del (Conteggio [Charge] x 5)% (max 50%)",
+                  "summary": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce Conteggio [Vibration] di 3; Usa Conteggio [Charge] per alzare ancora la Soglia di Stordimento"
                 }
               ]
             }
@@ -8869,8 +8869,8 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]\nQuando innesca [VibrationExplosion], riduce il Conteggio [Vibration] di 3, poi spende tutto il Conteggio [Charge] per alzare ancora la Soglia di Stordimento del (Conteggio [Charge] x 5)% (max 50%)",
-                  "summary": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce Conteggio [Vibration] di 3; Spende Conteggio [Charge] per alzare ancora la Soglia di Stordimento"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]\nQuando innesca [VibrationExplosion], riduce il Conteggio [Vibration] di 3, poi usa tutto il Conteggio [Charge] per alzare ancora la Soglia di Stordimento del (Conteggio [Charge] x 5)% (max 50%)",
+                  "summary": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce Conteggio [Vibration] di 3; Usa Conteggio [Charge] per alzare ancora la Soglia di Stordimento"
                 }
               ]
             }
@@ -9209,7 +9209,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Spende 5 [Sinking] per infliggere +20% danni"
+                  "desc": "Usa 5 [Sinking] per infliggere +20% danni"
                 },
                 {
                   "desc": "[OnSucceedAttackTail] Innesca [VibrationExplosion]"
@@ -9241,7 +9241,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Spende 5 [Sinking] per infliggere +20% danni"
+                  "desc": "Usa 5 [Sinking] per infliggere +20% danni"
                 },
                 {
                   "desc": "[OnSucceedAttackTail] Innesca [VibrationExplosion]"
@@ -10080,7 +10080,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Spende 5 [Talisman] su di sé; Infligge 5 [Talisman]"
+                  "desc": "[OnSucceedAttack] Usa 5 [Talisman] su di sé; Infligge 5 [Talisman]"
                 }
               ]
             },
@@ -10101,7 +10101,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Spende 5 [Talisman] su di sé; Infligge 5 [Talisman]"
+                  "desc": "[OnSucceedAttack] Usa 5 [Talisman] su di sé; Infligge 5 [Talisman]"
                 }
               ]
             },
@@ -10530,10 +10530,10 @@
                   "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Spende 2 Conteggio [Charge]; Infligge +1 Conteggio [Laceration]"
+                  "desc": "[OnSucceedAttack] Usa 2 Conteggio [Charge]; Infligge +1 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Spende 3 Conteggio [Charge]; Infligge +1 Conteggio [Laceration]"
+                  "desc": "[OnSucceedAttack] Usa 3 Conteggio [Charge]; Infligge +1 Conteggio [Laceration]"
                 }
               ]
             },
@@ -10543,10 +10543,10 @@
                   "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Spende 2 Conteggio [Charge]; Infligge +1 Conteggio [Laceration]"
+                  "desc": "[OnSucceedAttack] Usa 2 Conteggio [Charge]; Infligge +1 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Spende 3 Conteggio [Charge]; Infligge +1 Conteggio [Laceration]"
+                  "desc": "[OnSucceedAttack] Usa 3 Conteggio [Charge]; Infligge +1 Conteggio [Laceration]"
                 }
               ]
             },
@@ -10564,10 +10564,10 @@
                   "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Spende 2 Conteggio [Charge]; Infligge +1 Conteggio [Laceration]"
+                  "desc": "[OnSucceedAttack] Usa 2 Conteggio [Charge]; Infligge +1 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Spende 3 Conteggio [Charge]; Infligge +1 Conteggio [Laceration]"
+                  "desc": "[OnSucceedAttack] Usa 3 Conteggio [Charge]; Infligge +1 Conteggio [Laceration]"
                 }
               ]
             },
@@ -10577,10 +10577,10 @@
                   "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Spende 2 Conteggio [Charge]; Infligge +1 Conteggio [Laceration]"
+                  "desc": "[OnSucceedAttack] Usa 2 Conteggio [Charge]; Infligge +1 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Spende 3 Conteggio [Charge]; Infligge +1 Conteggio [Laceration]"
+                  "desc": "[OnSucceedAttack] Usa 3 Conteggio [Charge]; Infligge +1 Conteggio [Laceration]"
                 }
               ]
             },
