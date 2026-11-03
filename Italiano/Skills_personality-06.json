@@ -3652,20 +3652,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Please Listen to Me",
+          "name": "Per Favore Ascoltami",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [ChargeNoirAlly] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +2 Conteggio [ChargeNoirAlly]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
                 }
               ]
             }
@@ -3673,20 +3673,20 @@
         },
         {
           "level": 2,
-          "name": "Please Listen to Me",
-          "desc": "<style=\"highlight\">[WhenUse] Consume 3 [ChargeNoirAlly] Count to gain Coin Power +1 (max 2 times)</style>",
+          "name": "Per Favore Ascoltami",
+          "desc": "<style=\"highlight\">[WhenUse] Usa 3 Conteggio [ChargeNoirAlly] per ottenere Potere Moneta +1 (max 2 Volte)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +<style=\"highlight\">3</style> [ChargeNoirAlly] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +<style=\"highlight\">3</style> Conteggio [ChargeNoirAlly]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
                 }
               ]
             }
@@ -3694,20 +3694,20 @@
         },
         {
           "level": 4,
-          "name": "Please Listen to Me",
-          "desc": "<style=\"highlight\">Deal +5% damage for every 2 [ChargeNoirAlly] Potency on self (max 10%)</style>\n[WhenUse] Consume 3 [ChargeNoirAlly] Count to gain Coin Power +1 (max 2 times)\n<style=\"highlight\">[EndSkillAll] At fewer than 10 [ChargeNoirAlly] Count, gain +3 [ChargeNoirAlly] Count</style>",
+          "name": "Per Favore Ascoltami",
+          "desc": "<style=\"highlight\">Infligge +5% danni per ogni 2 Potenza [ChargeNoirAlly] su di sè (max 10%)</style>\n[WhenUse] Usa 3 Conteggio [ChargeNoirAlly] per ottenere Potere Moneta +1 (max 2 Volte)\n<style=\"highlight\">[EndSkillAll] A meno di 10 Conteggio [ChargeNoirAlly], ottiene +3 Conteggio [ChargeNoirAlly]</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +<style=\"highlight\">4</style> [ChargeNoirAlly] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +<style=\"highlight\">4</style> Conteggio [ChargeNoirAlly]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">3</style> [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge <style=\"highlight\">3</style> [Vibration]"
                 }
               ]
             }
@@ -3720,32 +3720,32 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Repeat on Repeat",
+          "name": "Ripetere a Oltranza",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain +3 [ChargeNoirAlly] Count"
+                  "desc": "[OnSucceedAttack] Ottiene +3 Conteggio [ChargeNoirAlly]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "If this unit has [TimeToListenHonglu], Reuse this Coin once (once per Skill)"
+                  "desc": "Se questa unità ha [TimeToListenHonglu], Riutiizza questa moneta una volta (una volta per Abilità)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [WarinessHonglu]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [WarinessHonglu]"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Deal 3 SP damage"
+                  "desc": "[ReUseOnSucceedAttack] Infligge 3 danni agli SP"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Inflict 1 [AmberResistDown] next turn (once per turn)"
+                  "desc": "[ReUseOnSucceedAttack] Infligge 1 [AmberResistDown] il turno successivo (una volta per turno)"
                 }
               ]
             }
@@ -3753,8 +3753,8 @@
         },
         {
           "level": 2,
-          "name": "Repeat on Repeat",
-          "desc": "<style=\"highlight\">[WhenUse] Consume 3 [ChargeNoirAlly] Count to gain Coin Power +1 (max 2 times)</style>",
+          "name": "Ripetere a Oltranza",
+          "desc": "<style=\"highlight\">[WhenUse] Usa 3 Conteggio [ChargeNoirAlly] per ottenere Potere Moneta +1 (max 2 Volte)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -3786,7 +3786,7 @@
         },
         {
           "level": 4,
-          "name": "Repeat on Repeat",
+          "name": "Ripetere a Oltranza",
           "desc": "<style=\"highlight\">Deal +10% damage for every 2 [ChargeNoirAlly] Potency on self (max 20%)</style>\n[WhenUse] Consume 3 [ChargeNoirAlly] Count to gain Coin Power +1 (max 2 times)",
           "coinlist": [
             {
@@ -3824,7 +3824,7 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Horribly Infinite Replay",
+          "name": "Orribile Replica Infinita",
           "desc": "Deal +10% damage for every 2 [ChargeNoirAlly] Potency on self (max 30%)\n[WhenUse] Gain ([ChargeNoirAlly] Potency on self x 2) [NoirBindArmorAlly] (max 10 per Skill)\n[WhenUse] Consume 5 [ChargeNoirAlly] Count to gain Coin Power +1 (max 3 times)\n[EndSkill] If this unit does not have [TimeToListenHonglu], gain 1 [ReadyToListenHonglu] (once per turn)",
           "coinlist": [
             {
@@ -3864,7 +3864,7 @@
         },
         {
           "level": 4,
-          "name": "Horribly Infinite Replay",
+          "name": "Orribile Replica Infinita",
           "desc": "Deal +10% damage for every 2 [ChargeNoirAlly] Potency on self (max 30%)\n[WhenUse] Gain ([ChargeNoirAlly] Potency on self x <style=\"highlight\">3</style>) [NoirBindArmorAlly] (max <style=\"highlight\">15</style> per Skill)\n[WhenUse] Consume 5 [ChargeNoirAlly] Count to gain Coin Power +1 (max 3 times)\n[EndSkill] If this unit does not have [TimeToListenHonglu], gain 1 [ReadyToListenHonglu] (once per turn)",
           "coinlist": [
             {
@@ -3912,7 +3912,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Customer Announcement",
+          "name": "Comunicazione ai Clienti",
           "desc": "[DuelCounter]\n[StartBattle] If this unit does not have [SupportProtect], gain 1 [SupportProtect]\n[WhenUse] Gain [NoirBindArmorAlly] equal to [ChargeNoirAlly] Potency on self (max 5 per Skill)\n[WhenUse] Gain +2 [ChargeNoirAlly] Count",
           "coinlist": [
             {
@@ -3933,8 +3933,8 @@
         },
         {
           "level": 4,
-          "name": "Customer Announcement",
-          "desc": "[DuelCounter]\n<style=\"highlight\">Deal +25% damage for every 2 [ChargeNoirAlly] Potency on self (max 75%)</style>\n[StartBattle] If this unit does not have [SupportProtect], gain 1 [SupportProtect]\n<style=\"highlight\">[BeforeUse] If this unit has [TimeToListenHonglu], activate \"Horribly Infinite Replay\" instead (once per Encounter)\n[WhenUse] Coin Power +1 for every 3 [ChargeNoirAlly] Potency on self (max 2)</style>\n[WhenUse] <style=\"highlight\">Gain ([ChargeNoirAlly] Potency on self x 3) [NoirBindArmorAlly]</style> (max <style=\"highlight\">15</style> per Skill)\n[WhenUse] Gain +<style=\"highlight\">4</style> [ChargeNoirAlly] Count",
+          "name": "Comunicazione ai Clienti",
+          "desc": "[DuelCounter]\n<style=\"highlight\">Deal +25% damage for every 2 [ChargeNoirAlly] Potency on self (max 75%)</style>\n[StartBattle] If this unit does not have [SupportProtect], gain 1 [SupportProtect]\n<style=\"highlight\">[BeforeUse] If this unit has [TimeToListenHonglu], activate \"Orribile Replica Infinita\" instead (once per Encounter)\n[WhenUse] Coin Power +1 for every 3 [ChargeNoirAlly] Potency on self (max 2)</style>\n[WhenUse] <style=\"highlight\">Gain ([ChargeNoirAlly] Potency on self x 3) [NoirBindArmorAlly]</style> (max <style=\"highlight\">15</style> per Skill)\n[WhenUse] Gain +<style=\"highlight\">4</style> [ChargeNoirAlly] Count",
           "coinlist": [
             {
               "coindescs": [
@@ -3959,7 +3959,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Warning Announcement",
+          "name": "Comunicazione di Pericolo",
           "desc": "[CanDuelGuard]\n[SupportProtect] exclusive Skill\n[WhenUse] Consume 6 [ChargeNoirAlly] Count to gain 1 [SupportProtect] next turn (once per turn)\n[WhenUse] If this unit does not have [TimeToListenHonglu], gain 1 [ReadyToListenHonglu] (once per turn)\n[WinDuel] Gain +2 [ChargeNoirAlly] Count\n[WinDuel] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1",
           "coinlist": [
             {
@@ -3973,7 +3973,7 @@
         },
         {
           "level": 4,
-          "name": "Warning Announcement",
+          "name": "Comunicazione di Pericolo",
           "desc": "[CanDuelGuard]\n[SupportProtect] exclusive Skill\n<style=\"highlight\">Final Power +1 for every 2 [ChargeNoirAlly] Potency on self (max 3)</style>\n[WhenUse] Consume 6 [ChargeNoirAlly] Count to gain 1 [SupportProtect] next turn (once per turn)\n[WhenUse] If this unit does not have [TimeToListenHonglu], gain 1 [ReadyToListenHonglu] (once per turn)\n[WinDuel] Gain +<style=\"highlight\">4</style> [ChargeNoirAlly] Count\n[WinDuel] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1",
           "coinlist": [
             {
