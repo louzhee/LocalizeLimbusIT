@@ -4,7 +4,7 @@
       "id": 901054,
       "name": "Time Duck",
       "subDesc": "",
-      "desc": "Whirr-clink. Whirr-clink.\n\nNeell'aria rieccheggiano degli oliosi ingranaggi appiccicosi.\n\nÈ il suono delle rotelle che incastrano i propri denti tra di loro. Il suono dei flussi d'acqua che scorrono fino ad unirsi.\n\nUn'anatra stanca e avvilita si presenta di fronte a voi.\n\nIl meccanismo ronza vigorosamente, ma il coniglio sembra spossato.\n\n... No, forse questa è un'anatra.\n\nIl Coniglio si domanda.\n\n'Cosa sono io, per i vostri occhi?'",
+      "desc": "Whirr-clink. Whirr-clink.\n\nNeell'aria riecheggiano degli oliosi ingranaggi appiccicosi.\n\nÈ il suono delle rotelle che incastrano i propri denti tra di loro. Il suono dei flussi d'acqua che scorrono fino ad unirsi.\n\nUn'anatra stanca e avvilita si presenta di fronte a voi.\n\nIl meccanismo ronza vigorosamente, ma il coniglio sembra spossato.\n\n... No, forse questa è un'anatra.\n\nIl Coniglio si domanda.\n\n'Cosa sono io, per i vostri occhi?'",
       "options": [
         {
           "message": "Un'anatra.",
@@ -234,7 +234,7 @@
       "id": 901091,
       "name": "Clockwork-Time-Roly-Poly",
       "subDesc": "",
-      "desc": "La campana suona.\n\nCigola qualche volta...\n\nE rintocca.\n\nLa campana suona per annunciare l'ora. Dondola fino a quasi cadere indietro... per poi riprendere l'equilibrio.\n\nOgni volta che riprende l'equilibrio, il rieccheggia il suono di una campana rotta.\n\nLa campana dondola pericolosamente di nuovo.",
+      "desc": "La campana suona.\n\nCigola qualche volta...\n\nE rintocca.\n\nLa campana suona per annunciare l'ora. Dondola fino a quasi cadere indietro... per poi riprendere l'equilibrio.\n\nOgni volta che riprende l'equilibrio, il riecheggia il suono di una campana rotta.\n\nLa campana dondola pericolosamente di nuovo.",
       "options": [
         {
           "message": "Aiutate la campana a ritrovare l'equilibrio.",
@@ -254,156 +254,156 @@
     },
     {
       "id": 901095,
-      "name": "",
+      "name": "Explorer on a Bereaved Road",
       "subDesc": "",
-      "desc": "A lone signpost stands atop a snowy mountain.\n\nA closer inspection revealed that it was, in fact, not a signpost.\n\nYet it functions as a signpost.\n\nStiff corpses point to various directions with their frozen arms.\n\nWhat awaits at the end of the paths these fingers point to?",
+      "desc": "Un segnavia solitario erge in cima ad una montagna innevata.\n\nGuardando da vicino si scopre che non era, infatti, un segnavia.\n\nEppure quella è la sua funzione.\n\nI cadaveri immobili indicano verso varie vie con le loro mani congelate.\n\nCosa aspetterà alla fine dei cammini indicati dalle dita?",
       "options": [
         {
-          "message": "North, to where the burst-open arm points.",
+          "message": "Nord, dove indica il braccio aperto.",
           "result": [
-            "At the end of the path is an ashen village, burned to the ground.\n\nMost buildings are in ruins, as though this village had once been an epicenter of a great explosion.\n\nThe snowstorm carries with it a burnt scent.\n\nA cabin stands out amidst this ashen ruin buried under ash and snow."
+            "Alla fine del cammino c'è un villaggio in cenere, completamente raso al suono.\n\nMolti edifici sono in rovina, come se questo villaggio fosse un tempo l'epicentro di una grande esplosione.\n\nLa bufera porta con sé un sentore di bruciato.\n\nUna baita sporge tra le rovine carbonizzate, nascosta tra neve e cenere."
           ]
         },
         {
-          "message": "East, to where the warning hand points.",
+          "message": "Est, dove indica la mano in allerta.",
           "messageDesc": "Gain a Sinking E.G.O Gift depending on the result of the following choice",
           "result": [
-            "There is a dark cave.\n\nTerrifying shrieks emanate from the cave. A cacophony of horrible screams."
+            "C'è una caverna buia.\n\nLa caverna emana delle urla terrificanti. Un frastuono di grida tremende."
           ]
         },
         {
-          "message": "West, to where the broken hand points.",
+          "message": "Ovest, dove indica la mano rotta.",
           "result": [
-            "A flowerbed appears past the snowstorm. It looks rather out of place.\n\nMaybe this can be a place of respite."
+            "Oltre la bufera appare un'aiuola. Sembra alquanto fuori posto.\n\nForse si tratta di un punto di sosta."
           ]
         },
         {
-          "message": "Turn back.",
+          "message": "Tornate indietro.",
           "result": [
-            "We decided to ignore the signpost of hands and walk past it."
+            "Abbiamo deciso di ignorare il segnavia di mani e l'abbiamo oltrepassato."
           ]
         }
       ]
     },
     {
       "id": 90109505,
-      "name": "",
+      "name": "Explorer on a Bereaved Road - North, To Where The Burst-Open Arm Points",
       "subDesc": "",
-      "desc": "What happened here?",
+      "desc": "Cosa è successo qui?",
       "options": [
         {
           "message": "Investigate.",
           "result": [
-            "You find a boiling pot inside the cabin.\n\nMany must have perished in the cold, having failed to find this cabin."
+            "Trovate una pentola in ebollizione all'interno della baita.\n\nMolti devono essere caduti nel gelo, non riuscendo a trovare questa baita."
           ]
         },
         {
-          "message": "Walk past it.",
+          "message": "Passate oltre.",
           "result": [
-            "The cabin is completely buried by an avalanche.\n\nThe cabin, which was the only recognizable structure in this village, is completely gone from sight."
+            "La baita è completamente sepolta da una valanga.\n\nLa baita, l'unica struttura riconoscibile in tutto il villaggio, è scomparsa completamente di vista."
           ]
         }
       ]
     },
     {
       "id": 90109506,
-      "name": "",
+      "name": "Explorer on a Bereaved Road - East, To Where The Warning Hand Points",
       "subDesc": "",
-      "desc": "What happened here?",
+      "desc": "Cosa è successo qui?",
       "options": [
         {
           "message": "Investigate.",
-          "messageDesc": "Select to gain a Sinking E.G.O Gift",
+          "messageDesc": "Seleziona per ottenere un Dono E.G.O Annegamento",
           "result": [
-            "There is a compass there that keeps spinning, unable to find a direction.\n\nThe screams stop as soon as you pick up the compass."
+            "Lì c'è un compasso che continua a girare, incapace di trovare una direzione.\n\nLe urla si fermano nle momento in cui avete raccolto il compasso."
           ]
         },
         {
-          "message": "Walk past it.",
+          "message": "Passate oltre.",
           "result": [
-            "The lost ones' screams continue to echo.\n\nOne may assume that they know the way... but there's no telling directions in this endless field of snow."
+            "Le urla dei perduti continuano a riecheggiare.\n\nQualcuno potrebbe presumere che conoscano la via... ma non ci sono chiare direzioni in questo infinito campo innevato."
           ]
         }
       ]
     },
     {
       "id": 90109507,
-      "name": "",
+      "name": "Explorer on a Bereaved Road - West, To Where The Broken Hand Points",
       "subDesc": "",
-      "desc": "Should we rest a little?",
+      "desc": "Dovremmo riposarci?",
       "options": [
         {
-          "message": "Rest a little.",
+          "message": "Prendetevi una pausa.",
           "result": [
-            "After taking a brief respite, you notice that the frost had dwindled somewhat.\n\nThe path forward is unclear... but let's keep moving anyway."
+            "Dopo aver fatto una breve sosta, notate che la brina si è in qualche modo calmata.\n\nIl cammino di fronte non è chiaro... ma continuiamo lo stesso ad avanzare."
           ]
         },
         {
-          "message": "Walk past it.",
+          "message": "Passate oltre.",
           "result": [
-            "The path ahead is an endless blizzard.\n\nA respite like the one you saw earlier will not be easy to find."
+            "Il cammino che ci aspetta è un'interminabile tormenta.\n\nNon sarà facile trovare una sosta come quella che avete visto poco fa."
           ]
         }
       ]
     },
     {
       "id": 901099,
-      "name": "",
+      "name": "Resident of Metropolaris",
       "subDesc": "",
-      "desc": "Welcome. This is the city of peace, Metropolaris.\n\nNo one can be hurt here at Metropolaris.\n\nThe entity called it a city... but there's nothing here.\n\nThe only recognizable being here is the entity that greets you without even looking in your direction.",
+      "desc": "Benvenuti. Questa è la città della pace, Metropolaris.\n\nNessuno può essere ferito qui in Metropolaris.\n\nL'entità l'ha definita una città... ma non c'è niente qui.\n\nL'unica cosa riconoscibile qui è l'entità che vi saluta senza nemmeno guardare nella vostra direzione.",
       "options": [
         {
-          "message": "Ask if there are any other citizens.",
+          "message": "Chiedi se ci sono altri cittadini.",
           "result": [
-            "'There are. Somewhere.'\n\n'But you can't meet them.'\n\n'Citizens of this city can never see nor touch each other. That is our revolutionary policy.'\n\n'If no one can touch another...'\n\nThe entity adds, a tinge of pride in its words.\n\n'... then no one can hurt another.'"
+            "'Si. Da qualche parte.'\n\n'Ma non potete incontrarli.'\n\n'I cittadini di questa città non possono né vedersi né toccarsi. Quella è la nostra normativa rivoluzionaria.'\n\n'Se nessuno può toccare il prossimo...'\n\nAggiunge l'entità, con un pizzico di orgoglio nelle sue parole.\n\n'... allora nessuno potrà ferire il prossimo.'"
           ]
         },
         {
-          "message": "Ask to shake hands.",
-          "messageDesc": "Gain a Charge E.G.O Gift depending on the result of the following choice",
+          "message": "Chiedi di stringere la mano.",
+          "messageDesc": "Ottieni un Dono E.G.O Carica in base al risultato delle scelta successiva",
           "result": [
-            "'What are you doing?'\n\n'Reaching out with your hands... to touch is a taboo.'\n\n'If our hands touch, I'll be hurt. You'll be hurt too.'\n\n'And one day... everyone will be hurt.'"
+            "'Che stai facendo?'\n\n'Stai avvicinando le mani... toccare è un tabù.'\n\n'Se le nostre mani si toccano, verrò ferito.'\n\n'E un giorno... tutti verranno feriti.'"
           ]
         }
       ]
     },
     {
       "id": 90109903,
-      "name": "",
+      "name": "Resident of Metropolaris - Ask If There Are Any Other Citizens",
       "subDesc": "",
-      "desc": "What will you do?",
+      "desc": "Cosa farai?",
       "options": [
         {
-          "message": "Walk past the city.",
+          "message": "Passate oltre la città.",
           "result": [
-            "'Do as you will.'\n\n'Time does not heal all wounds. It only turns them into scars.'\n\n'You will one day remember us and miss us. You will miss our world where no one can hurt or be hurt by anyone.'"
+            "'Fate come volete.'\n\n'Il tempo non cura tutte le ferite, le trasforma in cicatrici.'\n\n'Un giorno vi ricorderete di noi e vi mancheremo. Vi mancherà il nostro mondo dove nessuno può ferire o essere ferito da nessuno.'"
           ]
         },
         {
-          "message": "Stroll this city where there is no one and no one to meet.",
+          "message": "Passeggiate nella città dove non c'è nessuno, nessuno da incontrare.",
           "result": [
-            "The city was infinitely vast, and no one even dares to breathe as we walk.\n\nAnd its citizens are forever at peace."
+            "La città era infinitamente vasta e nessuno osava nemmeno respirare mentre passeggiavamo.\n\nE la cittadina rimase per sempre in pace."
           ]
         }
       ]
     },
     {
       "id": 90109904,
-      "name": "",
+      "name": "Resident of Metropolaris - Ask To Shake Hands",
       "subDesc": "",
-      "desc": "What will you do?",
+      "desc": "Cosa farai?",
       "options": [
         {
-          "message": "Try to shake its hands anyway.",
-          "messageDesc": "Select to gain a Charge E.G.O Gift",
+          "message": "Prova lo stesso a stringere le sue mani.",
+          "messageDesc": "Seleziona per ottenere un Dono E.G.O Carica",
           "result": [
-            "'NO NO NO NO NO NO!'\n\n'NOTHING CAN HURT ME. DON'T LOOK AT ME. DON'T GIVE ME YOUR HAND. DON'T HURT ME.'\n\nThe entity cries as it disappears. It leaves something behind."
+            "'NO NO NO NO NO NO!'\n\n'NIENTE MI PUÒ FERIRE. NON GUARDARMI. NON DARMI LA TUA MANO. NON FERIRMI.'\n\nGrida l'entità mentre scompare. Ha lasciato qualcosa dietro."
           ]
         },
         {
-          "message": "Back off and withdraw your hand.",
+          "message": "Indietreggia e ritira la tua mano.",
           "result": [
-            "It didn't even have a hand to shake ours.\n\nYou lower your confused, lost hand."
+            "Non aveva nemmeno una mano da stringere.\n\nHai abbassato la tua mano confusa."
           ]
         }
       ]
