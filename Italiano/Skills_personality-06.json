@@ -3652,7 +3652,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Per Favore Ascoltami",
+          "name": "Per Favore, Ascoltami",
           "desc": "",
           "coinlist": [
             {
@@ -3673,7 +3673,7 @@
         },
         {
           "level": 2,
-          "name": "Per Favore Ascoltami",
+          "name": "Per Favore, Ascoltami",
           "desc": "<style=\"highlight\">[WhenUse] Usa 3 Conteggio [ChargeNoirAlly] per ottenere Potere Moneta +1 (max 2 Volte)</style>",
           "coinlist": [
             {
@@ -3694,7 +3694,7 @@
         },
         {
           "level": 4,
-          "name": "Per Favore Ascoltami",
+          "name": "Per Favore, Ascoltami",
           "desc": "<style=\"highlight\">Infligge +5% danni per ogni 2 Potenza [ChargeNoirAlly] su di sè (max 10%)</style>\n[WhenUse] Usa 3 Conteggio [ChargeNoirAlly] per ottenere Potere Moneta +1 (max 2 Volte)\n<style=\"highlight\">[EndSkillAll] A meno di 10 Conteggio [ChargeNoirAlly], ottiene +3 Conteggio [ChargeNoirAlly]</style>",
           "coinlist": [
             {
@@ -3792,10 +3792,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Vibration]t<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Vibration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain +<style=\"highlight\">5</style> Conteggio [ChargeNoirAlly]"
+                  "desc": "[OnSucceedAttack] Ottiene +<style=\"highlight\">5</style> Conteggio [ChargeNoirAlly]"
                 }
               ]
             },
@@ -3811,7 +3811,7 @@
                   "desc": "[ReUseOnSucceedAttack] Infligge 3 danni ai PS"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Infligge 1 [AmberResistDown] <style=\"highlight\">Questo turno e</style> il turno successivo (una volta per turno)"
+                  "desc": "[ReUseOnSucceedAttack] Infligge 1 [AmberResistDown] <style=\"highlight\">questo turno e</style> il turno successivo (una volta per turno)"
                 }
               ]
             }
@@ -3837,7 +3837,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Vibration]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi, riduce il Conteggio [Vibration] del bersaglio di 1"
