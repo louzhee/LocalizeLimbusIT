@@ -2682,7 +2682,7 @@
                   "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] A 5+ [Agility], Riusa questa Moneta (once per Skill)"
+                  "desc": "[CriticalOnSucceedAttack] A 5+ [Agility], Riusa questa Moneta (una volta per Abilità)"
                 }
               ]
             }
@@ -2732,7 +2732,7 @@
                   "desc": "[OnSucceedAttack] Infligge 1 [Laceration]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] A 5+ [Agility], Riusa questa Moneta (once per Skill)"
+                  "desc": "[CriticalOnSucceedAttack] A 5+ [Agility], Riusa questa Moneta (una volta per Abilità)"
                 }
               ]
             }
@@ -2746,7 +2746,7 @@
         {
           "level": 1,
           "name": "Osservando le Pietre nella Scacchiera",
-          "desc": "[CanDuelGuard]\n[SupportProtect] Abilità Esclusiva\n\n[WhenUse] Ottiene 3 [Breath]",
+          "desc": "[CanDuelGuard]\nAbilità esclusiva a [SupportProtect]\n\n[WhenUse] Ottiene 3 [Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -2760,7 +2760,7 @@
         {
           "level": 4,
           "name": "Osservando le Pietre nella Scacchiera",
-          "desc": "[CanDuelGuard]\n[SupportProtect] Abilità Esclusiva\n<style=\"highlight\">[WhenUse] Recupera 5 PS su bersagli che questa unità ha protetto con sando [SupportProtect]</style>\n[WhenUse] Ottiene 3 [Breath]",
+          "desc": "[CanDuelGuard]\nAbilità esclusiva a [SupportProtect]\n<style=\"highlight\">[WhenUse] Recupera 5 PS su bersagli che questa unità ha protetto con sando [SupportProtect]</style>\n[WhenUse] Ottiene 3 [Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -2877,7 +2877,7 @@
         {
           "level": 2,
           "name": "Certamente, Il Silenzio della Voce non Implica la Sua Assenza!",
-          "desc": "<style=\"highlight\">Potere Finale +1 per ogni 2 [ChargeRougeAlly] (max 2)\n[WhenUse] A meno di 10 Conteggio [ChargeRougeAlly], consuma 3(10 - Conteggio [ChargeRougeAlly] attuale)% PV per aumentare il Conteggio [ChargeRougeAlly] a 10\n[WhenUse] Consuma 10 Conteggio  [ChargeRougeAlly] per ottenere Potere Moneta +1\n[WhenUse] If target has 6+ [Laceration], Coin Power +1\n[BeforeAttack] Se questa unità ha [RougeIshmaelEclose], infligge +20% danni\n- Se questa unità non ha [RougeIshmaelEclose], consuma il 20% dei PV su di sé per attivare l'effetto sovracitato</style>",
+          "desc": "<style=\"highlight\">Potere Finale +1 per ogni 2 [ChargeRougeAlly] (max 2)\n[WhenUse] A meno di 10 Conteggio [ChargeRougeAlly], consuma 3(10 - Conteggio [ChargeRougeAlly] attuale)% PV per aumentare il Conteggio [ChargeRougeAlly] a 10\n[WhenUse] Consuma 10 Conteggio  [ChargeRougeAlly] per ottenere Potere Moneta +1\n[WhenUse] Se il bersaglio ha 6+ [Laceration], Potere Moneta +1\n[BeforeAttack] Se questa unità ha [RougeIshmaelEclose], infligge +20% danni\n- Se questa unità non ha [RougeIshmaelEclose], consuma il 20% dei PV su di sé per attivare l'effetto sovracitato</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2925,7 +2925,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Se questa unità ha [RougeIshmaelEclose], Riutilizza questa Moneta (once per Skill)"
+                  "desc": "Se questa unità ha [RougeIshmaelEclose], Riutilizza questa Moneta (una volta per Abilità)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge 3 [Laceration]"
@@ -2948,7 +2948,7 @@
         {
           "level": 3,
           "name": "Raschialo, Strappalo Via e Inchiodalo!",
-          "desc": "Infligge +5% danni per ogni [ChargeRougeAlly] (max 25%)\n[StartBattle] A meno del 50% dei PV, o Se questa unità ha [RougeIshmaelEclose], converte tutte le Monete di questa Abilità [SuperCoin]/i\n[WhenUse] A meno di 15 Conteggio [ChargeRougeAlly], consuma 3(15 - Conteggio [ChargeRougeAlly] attuale)% PV per aumentare il Conteggio [ChargeRougeAlly] a 15\n[WhenUse] Consuma 15 [ChargeRougeAlly] per ottenere Poere Moneta +3\n[WhenUse] Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)\n[BeforeAttack] Se questa unità ha [RougeIshmaelEclose], infligge +40% danni\n- Se questa unità non ha [RougeIshmaelEclose], consuma 20% HP su di sé per attivare l'effetto sovracitato",
+          "desc": "Infligge +5% danni per ogni [ChargeRougeAlly] (max 25%)\n[StartBattle] A meno del 50% dei PV, o Se questa unità ha [RougeIshmaelEclose], converte tutte le Monete di questa Abilità [SuperCoin]/i\n[WhenUse] A meno di 15 Conteggio [ChargeRougeAlly], consuma 3(15 - Conteggio [ChargeRougeAlly] attuale)% PV per aumentare il Conteggio [ChargeRougeAlly] a 15\n[WhenUse] Consuma 15 [ChargeRougeAlly] per ottenere Poere Moneta +3\n[WhenUse] Potere Moneta +1 per ogni 6 [Laceration] sul bersaglio (max 2)\n[BeforeAttack] Se questa unità ha [RougeIshmaelEclose], infligge +40% danni\n- Se questa unità non ha [RougeIshmaelEclose], consuma il 20% di PV su di sé per attivare l'effetto sovracitato",
           "coinlist": [
             {
               "coindescs": [
@@ -3071,7 +3071,7 @@
         {
           "level": 1,
           "name": "Come Dice la Voce, Mi Ritiro Dentro Me Stessa",
-          "desc": "Abilità Esclusivan di [RougeIshmaelCocoon]\n[CanDuelGuard]\n[StartBattle] A 10+ Conteggio [ChargeRougeAlly], consuma 10 Conteggio [ChargeRougeAlly] per applicare 1 [ResultEnhancement] il turno successivo a 2 alleati con l'ordine di schieramento più alto (una volta per turn)\n[StartBattle] Recupera 50% HP (una volta per turno)\n[WinDuel] Ottiene +5 Conteggio [ChargeRougeAlly] (4 volte per turno)",
+          "desc": "Abilità esclusiva di di [RougeIshmaelCocoon]\n[CanDuelGuard]\n[StartBattle] A 10+ Conteggio [ChargeRougeAlly], consuma 10 Conteggio [ChargeRougeAlly] per applicare 1 [ResultEnhancement] il turno successivo a 2 alleati con l'ordine di schieramento più alto (una volta per turn)\n[StartBattle] Recupera 50% PV (una volta per turno)\n[WinDuel] Ottiene +5 Conteggio [ChargeRougeAlly] (4 volte per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -3085,7 +3085,7 @@
         {
           "level": 4,
           "name": "Come Dice la Voce, Mi Ritiro Dentro Me Stessa",
-          "desc": "Abilità Esclusivan di [RougeIshmaelCocoon]\n[CanDuelGuard]\n[StartBattle] A 10+ Conteggio [ChargeRougeAlly], consuma 10 Conteggio [ChargeRougeAlly] per applicare 1 [ResultEnhancement] il prossimo turno a 2 alleati con l'ordine di schieramento più alto (una volta per turno)\n<style=\"highlight\">- Se il suddetto alleato è un Indentità dei Le Rouge, ottiene +5 Conteggio [ChargeRougeAlly] il turno successivo e applica anche 1 [AttackDmgUp] al suddetto alleato</style>\n[StartBattle] Recupera <style=\"highlight\">100</style>% HP (una volta per turno)\n<style=\"highlight\">[WinDuel] Rimuove 1 effetto negativo rimuovibile casuale su di sé (una volta per turn)</style>\n[WinDuel] Ottiene +5 Conteggio [ChargeRougeAlly] (4 volte per turno)",
+          "desc": "Abilità esclusiva di di [RougeIshmaelCocoon]\n[CanDuelGuard]\n[StartBattle] A 10+ Conteggio [ChargeRougeAlly], consuma 10 Conteggio [ChargeRougeAlly] per applicare 1 [ResultEnhancement] il prossimo turno a 2 alleati con l'ordine di schieramento più alto (una volta per turno)\n<style=\"highlight\">- Se il suddetto alleato è un Identità dei Le Rouge, ottiene +5 Conteggio [ChargeRougeAlly] il turno successivo e applica anche 1 [AttackDmgUp] al suddetto alleato</style>\n[StartBattle] Recupera <style=\"highlight\">100</style>% PV (una volta per turno)\n<style=\"highlight\">[WinDuel] Rimuove 1 effetto negativo rimuovibile casuale su di sé (una volta per turn)</style>\n[WinDuel] Ottiene +5 Conteggio [ChargeRougeAlly] (4 volte per turno)",
           "coinlist": [
             {
               "coindescs": [

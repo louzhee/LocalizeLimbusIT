@@ -3692,7 +3692,7 @@
         {
           "level": 4,
           "name": "Appunta e Taglia Seguendo i Modelli",
-          "desc": "[StartBattle] Applica i seguenti effetti a questa unità, 1 altro alleato con il Numero di Schieramento più basso (priorità alle [PersonalityCharge]), <style=\"highlight\">e a 1 altro alleato con la percenutale minore di PV correnti</style> (una volta per turno):\n- Applica 2 [AttackUp]\n- Applica Scudo pari al 5% dei PV max di questa unità (min 1)\n- Se quell'Identità è un'[PersonalityCharge], applica 1 [AttackUp] in più e Scudo pari al 5% dei PV max di questa unità\n\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 Potenza [Vibration] sul bersaglio (max 2)</style>\n[WhenUse] Usa 5 Conteggio [ChargeKhakiAlly] per ottenere Potere Finale +2",
+          "desc": "[StartBattle] Applica i seguenti effetti a questa unità, 1 altro alleato con il Numero di Schieramento più basso (priorità alle [PersonalityCharge]), <style=\"highlight\">e a 1 altro alleato con la percentuale minore di PV correnti</style> (una volta per turno):\n- Applica 2 [AttackUp]\n- Applica Scudo pari al 5% dei PV max di questa unità (min 1)\n- Se quell'Identità è un'[PersonalityCharge], applica 1 [AttackUp] in più e Scudo pari al 5% dei PV max di questa unità\n\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 Potenza [Vibration] sul bersaglio (max 2)</style>\n[WhenUse] Usa 5 Conteggio [ChargeKhakiAlly] per ottenere Potere Finale +2",
           "coinlist": [
             {
               "coindescs": [
@@ -3728,7 +3728,7 @@
         {
           "level": 3,
           "name": "Coupez dans le Biais",
-          "desc": "Infligge +15% danni per ogni [NoirScissorCut] su di sé (max 30%)\n\n[StartBattle] Applica i seguenti effetti ad 1 altro alleato con il Numero di Schieramento più basso (priorità alle [PersonalityCharge]) e a 1 altro alleato con la percenutale minore di PV correnti (una volta per turno):\n- Applica 1 [NoirScissorShield]\n- Applica Scudo pari al 5% dei PV max di questa unità (min 1)\n\n[WhenUse] Se il bersaglio ha 6+ Potenza [Vibration], Potere Moneta +1\n[WhenUse] Potere Finale +1 per ogni 3 Potenza [ChargeKhakiAlly] (max 2)\n[WhenUse] Usa 5 Conteggio [ChargeKhakiAlly] per ottenere Potere Finale +2\n\n[EndSkill] Ottiene +5 Conteggio [ChargeKhakiAlly]",
+          "desc": "Infligge +15% danni per ogni [NoirScissorCut] su di sé (max 30%)\n\n[StartBattle] Applica i seguenti effetti ad 1 altro alleato con il Numero di Schieramento più basso (priorità alle [PersonalityCharge]) e a 1 altro alleato con la percentuale minore di PV correnti (una volta per turno):\n- Applica 1 [NoirScissorShield]\n- Applica Scudo pari al 5% dei PV max di questa unità (min 1)\n\n[WhenUse] Se il bersaglio ha 6+ Potenza [Vibration], Potere Moneta +1\n[WhenUse] Potere Finale +1 per ogni 3 Potenza [ChargeKhakiAlly] (max 2)\n[WhenUse] Usa 5 Conteggio [ChargeKhakiAlly] per ottenere Potere Finale +2\n\n[EndSkill] Ottiene +5 Conteggio [ChargeKhakiAlly]",
           "coinlist": [
             {
               "coindescs": [
@@ -3765,7 +3765,7 @@
         {
           "level": 4,
           "name": "Coupez dans le Biais",
-          "desc": "Infligge <style=\"highlight\">+30%</style> danni per ogni [NoirScissorCut] su di sé <style=\"highlight\">(max 60%)</style>\n\n[StartBattle] Applica i seguenti effetti a questa unità, 1 altro alleatocon il Numero di Schieramento più basso (priorità alle [PersonalityCharge]) e a 1 altro alleato con la percenutale minore di PV correnti (una volta per turno):\n- Applica 1 [NoirScissorShield]\n- Applica Scudo pari al <style=\"highlight\">10%</style> dei PV max di questa unità (min 1)\n\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 Potenza [Vibration] sul bersaglio (max 2)</style>\n[WhenUse] Potere Finale +1 per ogni 3 Potenza [ChargeKhakiAlly] (max 2)\n[WhenUse] Usa 5 Conteggio [ChargeKhakiAlly] per ottenere Potere Finale +2\n\n[EndSkill] Ottiene +5 Conteggio [ChargeKhakiAlly]",
+          "desc": "Infligge <style=\"highlight\">+30%</style> danni per ogni [NoirScissorCut] su di sé <style=\"highlight\">(max 60%)</style>\n\n[StartBattle] Applica i seguenti effetti a questa unità, 1 altro alleato con il Numero di Schieramento più basso (priorità alle [PersonalityCharge]) e a 1 altro alleato con la percentuale minore di PV correnti (una volta per turno):\n- Applica 1 [NoirScissorShield]\n- Applica Scudo pari al <style=\"highlight\">10%</style> dei PV max di questa unità (min 1)\n\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 Potenza [Vibration] sul bersaglio (max 2)</style>\n[WhenUse] Potere Finale +1 per ogni 3 Potenza [ChargeKhakiAlly] (max 2)\n[WhenUse] Usa 5 Conteggio [ChargeKhakiAlly] per ottenere Potere Finale +2\n\n[EndSkill] Ottiene +5 Conteggio [ChargeKhakiAlly]",
           "coinlist": [
             {
               "coindescs": [
@@ -3821,7 +3821,7 @@
         {
           "level": 4,
           "name": "Ritagliare",
-          "desc": "[DuelCounter]\n[StartBattle] Ottiene +5 Conteggio [ChargeKhakiAlly] (2 volte per turno)\n[StartBattle] Applica Shield equal to <style=\"highlight\">10%</style> dei PV max di questa unità a questa unità e ad altri 2 alleati con la percentuale minore di PV correnti (min 1, una volta per turno)\n\n<style=\"highlight\">[WhenUse] Potere Scontro +1 per ogni 5 Conteggio [ChargeKhakiAlly] (max 4)</style>",
+          "desc": "[DuelCounter]\n[StartBattle] Ottiene +5 Conteggio [ChargeKhakiAlly] (2 volte per turno)\n[StartBattle] Applica Scudo pari al <style=\"highlight\">10%</style> dei PV max di questa unità a questa unità e ad altri 2 alleati con la percentuale minore di PV correnti (min 1, una volta per turno)\n\n<style=\"highlight\">[WhenUse] Potere Scontro +1 per ogni 5 Conteggio [ChargeKhakiAlly] (max 4)</style>",
           "coinlist": [
             {
               "coindescs": [

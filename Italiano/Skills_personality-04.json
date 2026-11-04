@@ -2866,7 +2866,7 @@
         {
           "level": 1,
           "name": "Racconti Interminabili",
-          "desc": "[CantDuel]\n[WideAreaRampage]\nQuando questa Abilità infligge [GodokPanicType], se il bersaglio ha già [GodokPanicType] in questo turno o gli verrà inflitto [GodokPanicType] il turno successivo, innesca invece [VibrationExplosion], poi riduce il Conteggio [Vibration] del bersaglio di 1",
+          "desc": "[CantDuel]\n[WideAreaRampage]\nQuando questa Abilità infligge [GodokPanicType], se il bersaglio ha già [GodokPanicType] in questo turno o gli verrà inflitto [GodokPanicType] il turno successivo, innesca invece [VibrationExplosion]; poi riduce il Conteggio [Vibration] del bersaglio di 1",
           "coinlist": [
             {
               "coindescs": [
@@ -3534,7 +3534,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] A 3+ Potenza [ChargeNoirAlly] Potency, innesca [VibrationExplosion]; poi, riduce il Conteggio [Vibration] del bersaglio di 1</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] A 3+ Potenza [ChargeNoirAlly], innesca [VibrationExplosion]; poi riduce il Conteggio [Vibration] del bersaglio di 1</style>"
                 }
               ]
             }
@@ -3555,14 +3555,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflgge 2 [Vibration] e +<style=\"highlight\">2</style> Conteggio [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration] e +<style=\"highlight\">2</style> Conteggio [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] A 3+ Potenza [ChargeNoirAlly], innesca [VibrationExplosion]; poi, riduce il Conteggio [Vibration]del bersaglio di 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] A 3+ Potenza [ChargeNoirAlly], innesca [VibrationExplosion]; poi riduce il Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3598,7 +3598,7 @@
                   "desc": "Infligge +([NoirSuitAlly] Stack / 2)% danni (max 50%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi, riduce il Conteggio [Vibration] del bersaglio di 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce il Conteggio [Vibration] del bersaglio di 1"
                 },
                 {
                   "desc": "[OnSucceedAttack] A 3+ Potenza [ChargeNoirAlly], innesca [VibrationExplosion]; poi, riduce il conteggio [Vibration] del bersaglio di 1"
@@ -3635,7 +3635,7 @@
                   "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi, riduce il conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] A 3+ Potenza [ChargeNoirAlly], innesca [VibrationExplosion] <style=\"highlight\">2 times</style>; poi, riduce il Conteggio [Vibration] del bersaglio <style=\"highlight\">2</style>"
+                  "desc": "[OnSucceedAttack] A 3+ Potenza [ChargeNoirAlly], innesca [VibrationExplosion] <style=\"highlight\">2 volte</style>; poi riduce il Conteggio [Vibration] del bersaglio di <style=\"highlight\">2</style>"
                 }
               ]
             }
@@ -3723,21 +3723,21 @@
                   "desc": "[OnSucceedAttack] Infligge 3 [Vibration] e +3 Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] A 3+ Potenza [ChargeNoirAlly], innesca [VibrationExplosion]; poi, riduce il Conteggio [Vibration] del bersaglio di 1"
+                  "desc": "[OnSucceedAttack] A 3+ Potenza [ChargeNoirAlly], innesca [VibrationExplosion]; poi riduce il Conteggio [Vibration] del bersaglio di 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] A 2+ Potenza [ChargeNoirAlly], innesca [VibrationExplosion]; poi, riduce il Conteggio [Vibration] del bersaglio 1"
+                  "desc": "[OnSucceedAttack] A 2+ Potenza [ChargeNoirAlly], innesca [VibrationExplosion]; poi riduce il Conteggio [Vibration] del bersaglio 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi, riduce il Conteggio [Vibration] del bersaglio 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce il Conteggio [Vibration] del bersaglio 1"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge danni perforanti pari al 10% del danno finale di questa Moneta"
@@ -3764,14 +3764,14 @@
                   "desc": "[OnSucceedAttack] Infligge 3 [Vibration] e +3 Conteggio [Vibration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] A 3+ Potenza [ChargeNoirAlly], innesca [VibrationExplosion]; poi, riduce il Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] A 3+ Potenza [ChargeNoirAlly], innesca [VibrationExplosion]; poi riduce il Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] A 2+ Potenza [ChargeNoirAlly], innesca [VibrationExplosion]; poi, riduce il Conteggio [Vibration] del nemico 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] A 2+ Potenza [ChargeNoirAlly], innesca [VibrationExplosion]; poi riduce il Conteggio [Vibration] del nemico 1<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge danni perforanti pari al 10% del danno finale di questa Moneta</style>"
@@ -3781,7 +3781,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi, riduce il Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce il Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge danni perforanti pari al <style=\"highlight\">15</style>% del danno finale di questa Moneta"

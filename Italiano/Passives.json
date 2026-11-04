@@ -2308,7 +2308,7 @@
     {
       "id": 1061302,
       "name": "Il Sovrano degli Heishou",
-      "desc": "Quando altre unità alleate Rinforzano o Ritornano sul campo di battaglia, si curano di 10 PS; infine, a Inizio Combattimento, gli ordina di usare l'Abilità 1 come Attacco Incontrastato verso un nemico casuale\n- Se questo alleato è parte del Branco Heishou o della Famiglia Jia, al suo posto si attiva: recupera 20 PS; infine, a Inizio Combattimento, gli ordina di usare la sua Abilità 3 come Attacco Incontrastato contro un nemico casuale (2 volte per Incontro per Identità)\n\nA Inizio Incontro: ottiene 1 [HeishouSynergy] per ogni Identità del Branco Heishou nella Squadra, incluse unità di Rinforzo\n\nQuando le Unità Heishou sono uccise in un Incontro, recupera 20 PS e ottiene 1 [HeishouDeathCount] (si attiva anche quando questa unità si è Ritirata)\n\nInfligge +5% danni per ogni 1 [HeishouComboCountHonglu] (max 55%)",
+      "desc": "Quando altre unità alleate Rinforzano o Ritornano sul campo di battaglia, si curano di 10 PS; infine, a Inizio Combattimento, gli ordina di usare l'Abilità 1 come Attacco Incontrastato verso un nemico casuale\n- Se questo alleato è parte del Branco Heishou o della Famiglia Jia, si attivano invece i seguenti effetti: recupera 20 PS; infine, a Inizio Combattimento, gli ordina di usare la sua Abilità 3 come Attacco Incontrastato contro un nemico casuale (2 volte per Incontro per Identità)\n\nA Inizio Incontro: ottiene 1 [HeishouSynergy] per ogni Identità del Branco Heishou nella Squadra, incluse unità di Rinforzo\n\nQuando le Unità Heishou sono uccise in un Incontro, recupera 20 PS e ottiene 1 [HeishouDeathCount] (si attiva anche quando questa unità si è Ritirata)\n\nInfligge +5% danni per ogni 1 [HeishouComboCountHonglu] (max 55%)",
       "summary": "Infligge più danni in base a [HeishouComboCountHonglu]"
     },
     {
@@ -3176,7 +3176,7 @@
     {
       "id": 1121621,
       "name": "Protesi dell'Officina Stigma",
-      "desc": "L'alleato che ha i maggiori PV correnti infligge 2 [Vibration] Sul Colpo ai nemici affetti da [Combustion] (una volta per turno)\n- Se quel nemico ha 10+ [Combustion], innesca [VibrationExplosion] Sul Colpo Moneta finale, poi riduce il Conteggio [Vibration] del bersaglio di 1 (una volta per turno))",
+      "desc": "L'alleato che ha i maggiori PV correnti infligge 2 [Vibration] Sul Colpo ai nemici affetti da [Combustion] (una volta per turno)\n- Se quel nemico ha 10+ [Combustion], innesca [VibrationExplosion] Sul Colpo Moneta finale; poi riduce il Conteggio [Vibration] del bersaglio di 1 (una volta per turno))",
       "flavor": "Un armamento protesico prodotto dall'Officina Stigma—un'Officina normalmente specializzata nelle armi da taglio—costruita specificatamente per essere usata dal Fixer alle Prime Luci dell'Alba. Provare a usare questo equipaggiamento fiammeggiante senza capire come funzionano le specifiche particolari dell'Officina Stigma risulterà in conseguenze gravi: dolorose ustioni che sciolgono le carni saranno marchiate nel corpo dell'utilizzatore."
     },
     {
@@ -3258,7 +3258,7 @@
     {
       "id": 1041601,
       "name": "Feedback",
-      "desc": "Quando innesca [VibrationExplosion] sul nemico, aumenta l'incremento della Soglia di Stordimento del 15%\n- A 12+ Conteggio [ChargeNoirAlly], consuma 1 Conteggio [ChargeNoirAlly] quando innesca una [VibrationExplosion] per aumentare l'incremento della Soglia di Stordimento invece deò +30% (effetto applicato per bersaglio)\n\nQuando Colpito, se questa unità ha uno scudo, infligge 2 Potenza [Vibration] sull'attaccante (2 volte per turno per nemico)",
+      "desc": "Quando innesca [VibrationExplosion] sul nemico, aumenta l'incremento della Soglia di Stordimento del 15%\n- A 12+ Conteggio [ChargeNoirAlly], consuma 1 Conteggio [ChargeNoirAlly] quando innesca una [VibrationExplosion] per aumentare l'incremento della Soglia di Stordimento invece del +30% (effetto applicato per bersaglio)\n\nQuando Colpito, se questa unità ha uno scudo, infligge 2 Potenza [Vibration] sull'attaccante (2 volte per turno per nemico)",
       "summary": "aumenta l'incremento della Soglia di Stordimento",
       "flavor": "I Noir sono convinti di poter annientare la resistenza nemica infliggendo violente scosse: più il bersaglio oscilla violentemente, più cambiamenti dovrà affrontare di momento in momento. Le loro tecniche di combattimento si fondano su questo esatto presupposto. Eppure, per quanto i Noir non lo ricordino e non ne abbiano alcuna esperienza diretta, oltre il Grand Magasin Sisyphe esistono stili di combattimento basati sullo stesso identico principio, ma affinati a un livello di gran lunga superiore."
     },
@@ -3277,7 +3277,7 @@
     {
       "id": 1041604,
       "name": "Conservazione",
-      "desc": "Ottiene 1 [ChargeNoirAlly] Potenza per ogni 10 Conteggio [ChargeNoirAlly] consumato da questa unità in questo incontro\n\nFine Turno: A meno di 3 Potenza [ChargeNoirAlly], consuma tutto il conteggio [ChargeNoirAlly] per ottenere (Conteggio [ChargeNoirAlly] consumato x 5) Scudo il turno successivo\n\nA 3+ Potenza [ChargeNoirAlly], le Abilità Base di questa unità ottengoni +1 Conteggio [ChargeNoirAlly] in più quando questà unità ha meno di 12 Conteggio [ChargeNoirAlly]\n\nAll'uso di un Abilità base offensiva,\n- Se il bersaglio ha 6+ Potenza [Vibration], Potere Moneta +1\n- A 3+ Potenza [ChargeNoirAlly], Potere Moneta +1\n- Infligge +(Potenza [ChargeNoirAlly] x 2)% danni (max 10%)\n· Se L'Abilità usata è \"Pestata a Triplo Punto\" o \"Calcio Singolo - Couture Multiple\", infligge invece +(Potenza [ChargeNoirAlly] x 4)% danni (max 20%)",
+      "desc": "Ottiene 1 [ChargeNoirAlly] Potenza per ogni 10 Conteggio [ChargeNoirAlly] consumato da questa unità in questo incontro\n\nFine Turno: A meno di 3 Potenza [ChargeNoirAlly], consuma tutto il conteggio [ChargeNoirAlly] per ottenere (Conteggio [ChargeNoirAlly] consumato x 5) Scudo il turno successivo\n\nA 3+ Potenza [ChargeNoirAlly], le Abilità Base di questa unità ottengono +1 Conteggio [ChargeNoirAlly] in più quando questà unità ha meno di 12 Conteggio [ChargeNoirAlly]\n\nAll'uso di un Abilità base offensiva,\n- Se il bersaglio ha 6+ Potenza [Vibration], Potere Moneta +1\n- A 3+ Potenza [ChargeNoirAlly], Potere Moneta +1\n- Infligge +(Potenza [ChargeNoirAlly] x 2)% danni (max 10%)\n· Se L'Abilità usata è \"Pestata a Triplo Punto\" o \"Calcio Singolo - Couture Multiple\", infligge invece +(Potenza [ChargeNoirAlly] x 4)% danni (max 20%)",
       "summary": "A meno di un certo numero di Conteggio Preservazione, ottiene ulteriore Conteggio preservazione\nSull'uso di Abilità base ottiene Potere Moneta e infligge più danni"
     },
     {
@@ -3295,7 +3295,7 @@
     {
       "id": 1081602,
       "name": "Nel Camerino...",
-      "desc": "Ottiene 1 [ChargeRougeAlly] per ogni 10 Conteggio [ChargeRougeAlly] cumulativo consuamto da questa unità in questo incontro\n\nGli effetti che consumano o riducono i PV non possono Stordire o ridurre i PV di questa unità sotto 1\n(A 1 PV, Gli effetti delle Abilità Base che consumano PV saranno attivati gratis)\n\nDurante questo incontro, quando questa Unità subisce danni che porterebbero i PV a 0, annulla quel danno; poi, Ottiene immediatamente 2 [RougeIshmaelCocoon] ed entra nello stato di [RougeIshmaelCocoon] (una volta per Incontro)\n- Se questa Unità è entrata nello stato di [RougeIshmaelCocoon] per via della sua Abilità Difensiva, l'effetto sovracitato non si potrà attivare per il resto dell'Incontro\n\nQuando entra nello stato di [RougeIshmaelCocoon], ottiene Scudo pari ai PV massimi di questa Unità\n- Lo Scudo ottenuto da questo effetto non scade a fine turno\n- Quando Esce dallo stato di [RougeIshmaelCocoon], lo scudo ottenuto dall'effetto sovracitato scade\n\n- Quano si trova nello stato di [RougeIshmaelCocoon], questa Unità ha solo accesso all'Abilità \"Come Dice la Voce, Mi Ritiro Dentro Me Stessa\" (non può utilizzzare Abilità E.G.O)\n\nFine Turno: A 0 Stack di [RougeIshmaelCocoon], esce dallo stato di [RougeIshmaelCocoon] ed entra nello stato di [RougeIshmaelEclose]: poi, ottiene +5 Conteggio [ChargeRougeAlly]",
+      "desc": "Ottiene 1 [ChargeRougeAlly] per ogni 10 Conteggio [ChargeRougeAlly] cumulativo consuamto da questa unità in questo incontro\n\nGli effetti che consumano o riducono i PV non possono Stordire o ridurre i PV di questa unità sotto 1\n(A 1 PV, Gli effetti delle Abilità Base che consumano PV saranno attivati gratuitamente)\n\nDurante questo incontro, quando questa Unità subisce danni che porterebbero i PV a 0, annulla quel danno; poi, Ottiene immediatamente 2 [RougeIshmaelCocoon] ed entra nello stato di [RougeIshmaelCocoon] (una volta per Incontro)\n- Se questa Unità è entrata nello stato di [RougeIshmaelCocoon] per via della sua Abilità Difensiva, l'effetto sovracitato non si potrà attivare per il resto dell'Incontro\n\nQuando entra nello stato di [RougeIshmaelCocoon], ottiene Scudo pari ai PV massimi di questa Unità\n- Lo Scudo ottenuto da questo effetto non scade a fine turno\n- Quando Esce dallo stato di [RougeIshmaelCocoon], lo scudo ottenuto dall'effetto sovracitato scade\n\n- Quano si trova nello stato di [RougeIshmaelCocoon], questa Unità ha solo accesso all'Abilità \"Come Dice la Voce, Mi Ritiro Dentro Me Stessa\" (non può utilizzare Abilità E.G.O)\n\nFine Turno: A 0 Stack di [RougeIshmaelCocoon], esce dallo stato di [RougeIshmaelCocoon] ed entra nello stato di [RougeIshmaelEclose]: poi, ottiene +5 Conteggio [ChargeRougeAlly]",
       "flavor": "Mi rifarò il look! Per avvicinarmi al mio vero io!"
     },
     {
@@ -3313,7 +3313,7 @@
     {
       "id": 1091702,
       "name": "Inerzia della Deriva",
-      "desc": "Ottiene 1 Potenza [ChargeKhaki] per ogni 10 Conteggio [ChargeKhaki] cumulativo usato da questa unità in questo Incontro\n\nA Fine Attacco di un altro alleato che ha [NoirScissorShield], usa \"Patterning\" contro il bersaglio colpito da quell'alleato (una volta per turno)\n- [BeforeUse] Se il suddetto bersaglio ha 2+ [NoirScissorAlly], usa invece \"Cutout\" (una volta per turno)",
+      "desc": "Ottiene 1 Potenza [ChargeKhaki] per ogni 10 Conteggio [ChargeKhaki] cumulativo usato da questa unità in questo Incontro\n\nA Fine Attacco di un altro alleato che ha [NoirScissorShield], usa \"Modellamento\" contro il bersaglio colpito da quell'alleato (una volta per turno)\n- [BeforeUse] Se il suddetto bersaglio ha 2+ [NoirScissorAlly], usa invece \"Ritagliare\" (una volta per turno)",
       "summary": "Attiva un attacco in più"
     },
     {

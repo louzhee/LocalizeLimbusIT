@@ -2938,7 +2938,7 @@
         {
           "level": 4,
           "name": "Lama del Tramonto",
-          "desc": "[WhenUse] Potere Finale +1 per ogni 4 ([Combustion] + [Vibration]) sul bersaglio (Max 4)\n[WhenUse] A 20+ [StigmaWorkshopHandStep1], ottiene i seguenti effetti:\n- Questa Abilità ottiene una Moneta 3 extra come [SuperCoin]\n- <style=\"highlight\">Sul Colpo usando la Moneta extra, innesca [VibrationExplosion], poi riduce il Conteggio [Vibration] del bersaglio di 1</style>",
+          "desc": "[WhenUse] Potere Finale +1 per ogni 4 ([Combustion] + [Vibration]) sul bersaglio (Max 4)\n[WhenUse] A 20+ [StigmaWorkshopHandStep1], ottiene i seguenti effetti:\n- Questa Abilità ottiene una Moneta 3 extra come [SuperCoin]\n- <style=\"highlight\">Sul Colpo usando la Moneta extra, innesca [VibrationExplosion]; poi riduce il Conteggio [Vibration] del bersaglio di 1</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -3018,7 +3018,7 @@
         {
           "level": 4,
           "name": "Spadone Frangialba",
-          "desc": "<style=\"highlight\"> Infligge +([Combustion] su di sé + [Combustion] sul bersaglio)% danni (Max 30%)</style>\n[StartBattle] Applica 2 [Protection] a 2 altri alleati casuali\n(priorità agli alleati che non hanno [Protection]; tra questi, priorità agli alleati dell'Ufficio Alba[TabExplain])\n[BeforeUse] A 30 [StigmaWorkshopHandStep1], usa invece \"Prime Luci dell'Alba\" (una volta per turno)\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 ([Combustion] + [Vibration]) sul bersaglio (Max 2)</style>\n[WhenUse] A 20+ [StigmaWorkshopHandStep1], ottiene i seguenti effetti:\n- Potere Finale +1\n- Converte tutte le Monete in [SuperCoin](i)\n<style=\"highlight\">- Sul Colpo Moneta finale, attiva [Combustion]sul bersaglio, poi riduce il Conteggio [Combustion] del bersaglio di 1</style>\n[EndSkill] Applica 1 [DawnLight] a tutti gli alleati il turno successivo\n- A 20+ [StigmaWorkshopHandStep1], applica 1 [DawnLight] in più",
+          "desc": "<style=\"highlight\"> Infligge +([Combustion] su di sé + [Combustion] sul bersaglio)% danni (Max 30%)</style>\n[StartBattle] Applica 2 [Protection] a 2 altri alleati casuali\n(priorità agli alleati che non hanno [Protection]; tra questi, priorità agli alleati dell'Ufficio Alba[TabExplain])\n[BeforeUse] A 30 [StigmaWorkshopHandStep1], usa invece \"Prime Luci dell'Alba\" (una volta per turno)\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 ([Combustion] + [Vibration]) sul bersaglio (Max 2)</style>\n[WhenUse] A 20+ [StigmaWorkshopHandStep1], ottiene i seguenti effetti:\n- Potere Finale +1\n- Converte tutte le Monete in [SuperCoin](i)\n<style=\"highlight\">- Sul Colpo Moneta finale, attiva [Combustion]sul bersaglio; poi riduce il Conteggio [Combustion] del bersaglio di 1</style>\n[EndSkill] Applica 1 [DawnLight] a tutti gli alleati il turno successivo\n- A 20+ [StigmaWorkshopHandStep1], applica 1 [DawnLight] in più",
           "coinlist": [
             {
               "coindescs": [
@@ -3189,7 +3189,7 @@
                   "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce il Conteggio [Vibration] del bersaglio di 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Attiva [Combustion] sul bersaglio, poi riduce il Conteggio [Combustion] del bersaglio di 1"
+                  "desc": "[OnSucceedAttack] Attiva [Combustion] sul bersaglio; poi riduce il Conteggio [Combustion] del bersaglio di 1"
                 }
               ]
             }
@@ -3246,7 +3246,7 @@
                   "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; poi riduce il Conteggio [Vibration] del bersaglio di 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Attiva [Combustion] sul bersaglio, poi riduce il Conteggio [Combustion] del bersaglio di 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Attiva [Combustion] sul bersaglio; poi riduce il Conteggio [Combustion] del bersaglio di 1<style=\"highlight\"></style>"
                 }
               ]
             }
