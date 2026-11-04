@@ -53,7 +53,7 @@
     {
       "id": 2040212,
       "name": "Fiamma del Quarto Fiammifero",
-      "desc": "Ogni quarta Abilità usata da questa unità ottiene +4 Potere Finale ed infligge 4 [Combustion] Sul Colpo\n- Se questa Abilità è di Affinità Ira, infligge danni aggiuntivi (max 20%) in base a +(Potenza [Combustion] Su tutti i bersagli / 2)%\n- Se questa abilità è una Abilità, applica i seguenti effetti a Uso Moneta della prima Moneta:\n· Se la Moneta è una Positiva, recupera 10 PS\n· Se la Moneta è una Negativa, perde 15 PS (questo effetto non può ridurre i PS dell'unità al di sotto di -40)",
+      "desc": "Ogni quarta Abilità usata da questa unità ottiene +4 Potere Finale ed infligge 4 [Combustion] Sul Colpo\n- Se questa Abilità è di Affinità Ira, infligge danni aggiuntivi (max 20%) in base a +(Potenza [Combustion] Su tutti i bersagli / 2)%\n- Se questa abilità è un'Abilità E.G.O, applica i seguenti effetti a Uso Moneta della prima Moneta:\n· Se la Moneta è una Positiva, recupera 10 PS\n· Se la Moneta è una Negativa, perde 15 PS (questo effetto non può ridurre i PS dell'unità al di sotto di -40)",
       "summary": "Ogni quarta Abilità usata è potenziata"
     },
     {
@@ -79,7 +79,7 @@
     {
       "id": 2060211,
       "name": "Nastri Vincolanti",
-      "desc": "Infligge (Rison-A Lussuria / 4) [ScarletTakeDamageUp] il turno successivo al bersaglio dell' Abilità più a sinistra nel Pannello di Controllo alla fine di quella Abilità Attacco"
+      "desc": "Infligge (Rison-A Lussuria / 4) [ScarletTakeDamageUp] il turno successivo al bersaglio dell'Abilità più a sinistra nel Pannello di Controllo alla fine di quella Abilità Attacco"
     },
     {
       "id": 2070111,
@@ -245,7 +245,7 @@
     {
       "id": 2040512,
       "name": "Lattina Aperta",
-      "desc": "Sul Colpo, se il bersaglio ha 5+ [Sinking], infligge 1 [Disarming] (5 volte per turno)\n\n<style=\"highlight\">Sul Colpo contro un nemico Stordito o in Panico, ottiene 1 1 [AttackUp] il turno successivo (3 volte per turno; negli Incontri Mirati, il Nucleo)</style>"
+      "desc": "Sul Colpo, se il bersaglio ha 5+ [Sinking], infligge 1 [Disarming] (5 volte per turno)\n\n<style=\"highlight\">Sul Colpo contro un nemico Stordito o in Panico, ottiene 1 [AttackUp] il turno successivo (3 volte per turno; negli Incontri Mirati, il Nucleo)</style>"
     },
     {
       "id": 2060411,
@@ -285,7 +285,7 @@
     {
       "id": 2040611,
       "name": "Divorasogni",
-      "desc": "Sul Critico con una Abilità di Affinità Superbia, ottiene 1 Conteggio [Breath] (3 volte per turno)"
+      "desc": "Sul Critico con un'Abilità di Affinità Superbia, ottiene 1 Conteggio [Breath] (3 volte per turno)"
     },
     {
       "id": 2080511,
@@ -295,12 +295,12 @@
     {
       "id": 2090411,
       "name": "Marciume Appiccicoso",
-      "desc": "Se Testa Colpisce con una Abilità Perforante, infligge 1 [Binding] (2 volte per turno)"
+      "desc": "Se Testa Colpisce con un'Abilità Perforante, infligge 1 [Binding] (2 volte per turno)"
     },
     {
       "id": 2100511,
       "name": "Profezia della Rovina",
-      "desc": "Se Testa Colpisce con una Abilità di Affinità Lussuria, riduce di 4 i PS di questa unità e del bersaglio.\n(Non funziona sui bersagli senza Sanità)\nOttiene 5 Risorse E.G.O Lussuria su Uccisione con una Abilità di Affinità Lussuria"
+      "desc": "Se Testa Colpisce con un'Abilità di Affinità Lussuria, riduce di 4 i PS di questa unità e del bersaglio.\n(Non funziona sui bersagli senza Sanità)\nOttiene 5 Risorse E.G.O Lussuria su Uccisione con un'Abilità di Affinità Lussuria"
     },
     {
       "id": 2090511,
@@ -384,13 +384,13 @@
     {
       "id": 2020611,
       "name": "Il Tempo Corre",
-      "desc": "Se questa unità usa una Abilità che innesca [VibrationExplosion] su un nemico, ottiene 1 [Agility] il turno successivo. (4 volte per turno, Abilità E.G.O incluse)",
-      "summary": "Se usa una Abilità e innesca [VibrationExplosion] su un nemico, ottiene 1 [Agility] il turno successivo. (4 volte per turno, Abilità E.G.O incluse)"
+      "desc": "Se questa unità usa un'Abilità che innesca [VibrationExplosion] su un nemico, ottiene 1 [Agility] il turno successivo. (4 volte per turno, Abilità E.G.O incluse)",
+      "summary": "Se usa un'Abilità e innesca [VibrationExplosion] su un nemico, ottiene 1 [Agility] il turno successivo. (4 volte per turno, Abilità E.G.O incluse)"
     },
     {
       "id": 2040711,
       "name": "Marchio dello Sguardo",
-      "desc": "Se questa unità usa un'Abilità Attacco Base su un nemico, ottiene 1 ulteriore risorsa E.G.O per un'Affinità casuale, tra quelle menoo possedute, che non corrisponde all'Affinità dell'Abilità Attacco usata (2 volte per turno)"
+      "desc": "Se questa unità usa un'Abilità Attacco Base su un nemico, ottiene 1 ulteriore risorsa E.G.O per un'Affinità casuale, tra quelle meno possedute, che non corrisponde all'Affinità dell'Abilità Attacco usata (2 volte per turno)"
     },
     {
       "id": 2070711,
@@ -400,7 +400,7 @@
     {
       "id": 2110711,
       "name": "Uomo Vagante",
-      "desc": "Max Conteggio [Charge] +5\nLe Abilità che consumano Conteggio [Charge] infliggono +2% danni per ogni ([Charge] - 1) (max 10%)",
+      "desc": "Max Conteggio [Charge] +5\nLe Abilità che consumano Conteggio [Charge] infliggono +2% danni per ogni ([Charge] - 1) consumata (max 10%)",
       "summary": "Le Abilità che consumano Conteggio [Charge] infliggono più danni"
     },
     {
@@ -444,7 +444,7 @@
     {
       "id": 2050711,
       "name": "Banchetto Sanguineo",
-      "desc": "Quando questa unità infligge o riceve danni da [Laceration], recupera PV pari al danno da [Laceration] (max 10 per turno)\n- Se attiva una Abilità/Moneta che infligge [Laceration], se il bersaglio ha [RoseWedge], infligge 1 [Laceration] al bersaglio. (2 volte per turno)"
+      "desc": "Quando questa unità infligge o riceve danni da [Laceration], recupera PV pari al danno da [Laceration] (max 10 per turno)\n- Se attiva un'Abilità/Moneta che infligge [Laceration], se il bersaglio ha [RoseWedge], infligge 1 [Laceration] al bersaglio. (2 volte per turno)"
     },
     {
       "id": 2010711,
@@ -537,7 +537,7 @@
     {
       "id": 2120911,
       "name": "Vagabondo",
-      "desc": "Ottiene [MlynarWaiting] se le seguenti condizioni sono rispettate:\n- Ottiene 1 per ogni 3 danni ai PV subiti\n- Ottiene 1 per ogni 5 danni ai PV Scudo ricevuti\n- Ottiene 10 per alleato Stordito quando altri alleati sono storditi\n- Ottiene 20 per alleato morto quando altri alleati sono uccisi\n\nA Inizio Turno: se questa unità è Stordita subendo danni, e se questa unità ha 40+ [MlynarWaiting], fissa tutti i valori di Resistenza di questa unità a 2 per il turno e recupera da Stordimento (una volta per Incontro; escludendo Stordimento forzato)"
+      "desc": "Ottiene [MlynarWaiting] se le seguenti condizioni sono rispettate:\n- Ottiene 1 per ogni 3 danni ai PV subiti\n- Ottiene 1 per ogni 5 danni ai PV Scudo subiti\n- Ottiene 10 per alleato Stordito quando altri alleati sono storditi\n- Ottiene 20 per alleato morto quando altri alleati sono uccisi\n\nA Inizio Turno: se questa unità è Stordita subendo danni, e se questa unità ha 40+ [MlynarWaiting], fissa tutti i valori di Resistenza di questa unità a 2 per il turno e recupera da Stordimento (una volta per Incontro; escludendo Stordimento forzato)"
     },
     {
       "id": 2110911,
@@ -586,7 +586,7 @@
     {
       "id": 2050911,
       "name": "Gocce di Liquore sulla Punta della Lama",
-      "desc": "[AlwaysUseEGOPassive2050911]\n\nSul colpo con Abilità Base, infligge 2 [Laceration] sul bersaglio (una volta per Abilità)\n\nQuesta Identià viene considerata come un Identità che applica [Laceration] e [Breath]\n- Le Abilità Base di questa Identità contano come abilità che infliggono [Laceration] e [Breath]\n\n[WhenUseEGOPassive]\n\nQuando un alleato viene sconfitto, ottiene 1 [AlcoholKimPersonal] il turno successivo\n- Se l'alleato appartiene ai Discendenti della Spada, ottiene invece 2 [AlcoholKimPersonal]\n\nInizio Turno: se questa unità ha [AlcoholKimPersonal], entra in modalità [GhostKimPersonal]\n- Mentore dei Discepoli della Spada Meursault ottiene inoltre [RootSoupKimPersonal] quando si attiva l'effetto sovracitato\n\nInizio Turno: Se questa Unità non possiede [AlcoholKimPersonal], i seguenti effetti scadono - [GhostKimPersonal], [GrudgePersonal], e [RootSoupKimPersonal]\n\nQuando questa unità possiede [AlcoholKimPersonal]: Quando questa unità subisce danni che porterebbero i propri pv a 0, Recupera ([AlcoholKimPersonal] Stack x 25)% PV; Poi, [AlcoholKimPersonal] Scade (una volta per incontrp; questo effetto si applica dopo effetti di Passive dell'identità simili)\n- Quando viene Stordito, guarisce dallo stordimento (esclusi stordimenti forzati)",
+      "desc": "[AlwaysUseEGOPassive2050911]\n\nSul colpo con Abilità Base, infligge 2 [Laceration] sul bersaglio (una volta per Abilità)\n\nQuesta Identià viene considerata come un Identità che applica [Laceration] e [Breath]\n- Le Abilità Base di questa Identità contano come abilità che infliggono [Laceration] e [Breath]\n\n[WhenUseEGOPassive]\n\nQuando un alleato viene sconfitto, ottiene 1 [AlcoholKimPersonal] il turno successivo\n- Se l'alleato appartiene ai Discendenti della Spada, ottiene invece 2 [AlcoholKimPersonal]\n\nInizio Turno: se questa unità ha [AlcoholKimPersonal], entra in modalità [GhostKimPersonal]\n- Mentore dei Discepoli della Spada Meursault ottiene inoltre [RootSoupKimPersonal] quando si attiva l'effetto sovracitato\n\nInizio Turno: Se questa Unità non possiede [AlcoholKimPersonal], i seguenti effetti scadono - [GhostKimPersonal], [GrudgePersonal], e [RootSoupKimPersonal]\n\nQuando questa unità possiede [AlcoholKimPersonal]: Quando questa unità subisce danni che porterebbero i propri pv a 0, Recupera ([AlcoholKimPersonal] Stack x 25)% PV; Poi, [AlcoholKimPersonal] Scade (una volta per incontro; questo effetto si applica dopo effetti di Passive dell'identità simili)\n- Quando viene Stordito, guarisce dallo stordimento (esclusi stordimenti forzati)",
       "summary": "Ottiene [AlcoholKimPersonal]"
     },
     {
@@ -629,13 +629,13 @@
     {
       "id": 2021111,
       "name": "Le Trou de Vidange",
-      "desc": "Se questa unità ha 5 [BulletHole], non consuma Risorse E.G.O quando usa le Abilità E.G.O \"Vuoto\" (sia Risveglio che Corrosione)\n\nInizio Turno: Ottiene 1 [BulletHole] e 1 [BlackWingHole]\n\nQuando un alleato sconfigge un nemico, quell'alleato recupera 5 PS e ottiene 1 [Enhancement] il turno successivo (una volta per turno)\n\nLimite maxx Conteggio [Charge] +5\n\nSe questa unità ottiene Conteggio [Charge] oltre il limite max di Conteggio [Charge], questa unità ottiene casualmente Potenza o Conteggio [Breath] pari alla quantità extra di Conteggio [Charge] ottenuta (max 6 Conteggio [Charge] convertito per turno)",
+      "desc": "Se questa unità ha 5 [BulletHole], non consuma Risorse E.G.O quando usa le Abilità E.G.O \"Vuoto\" (sia Risveglio che Corrosione)\n\nInizio Turno: Ottiene 1 [BulletHole] e 1 [BlackWingHole]\n\nQuando un alleato sconfigge un nemico, quell'alleato recupera 5 PS e ottiene 1 [Enhancement] il turno successivo (una volta per turno)\n\nLimite max Conteggio [Charge] +5\n\nSe questa unità ottiene Conteggio [Charge] oltre il limite max di Conteggio [Charge], questa unità ottiene casualmente Potenza o Conteggio [Breath] pari alla quantità extra di Conteggio [Charge] ottenuta (max 6 Conteggio [Charge] convertito per turno)",
       "flavor": "Non è la penetrazione a creare una cavità, ma il vuoto.\nIl vacuo desidera essere riempito, eppure, da esso, le cose possono solo sgorgare dall'interno."
     },
     {
       "id": 2051011,
       "name": "L'Hémorragie interne",
-      "desc": "[AlwaysUseEGOPassive]\nSe questa unità ha 5 [BulletHole],  non consuma Risorse E.G.O quando usa le Abilità E.G.O \"Vuoto\" (sia Risveglio che Corrosione)\n\nInizio Turno: Ottiene 1 [BulletHole]\n\n[WhenUseEGOPassive]\nInizio Turno: Ottiene 1 [BlackWingHole]\n\nRecupera 5 PS ogni cvolta che questa unità usa o perde 3 [Bullet] cumulativi, e ottiene 1 [ResultEnhancement] il turno successivo ([Bullet] Speciale incluse; contano fino a 9 [Bullet] per turno)",
+      "desc": "[AlwaysUseEGOPassive]\nSe questa unità ha 5 [BulletHole],  non consuma Risorse E.G.O quando usa le Abilità E.G.O \"Vuoto\" (sia Risveglio che Corrosione)\n\nInizio Turno: Ottiene 1 [BulletHole]\n\n[WhenUseEGOPassive]\nInizio Turno: Ottiene 1 [BlackWingHole]\n\nRecupera 5 PS ogni volta che questa unità usa o perde 3 [Bullet] cumulativi, e ottiene 1 [ResultEnhancement] il turno successivo ([Bullet] Speciale incluse; contano fino a 9 [Bullet] per turno)",
       "flavor": "Lo sguardo di un altro si inchioda dentro di me, scavando un vuoto da cui moltitudini guizzano fuori.\nLo scarto viene poi forgiato in un proiettile che creerà un vuoto in te."
     }
   ]
