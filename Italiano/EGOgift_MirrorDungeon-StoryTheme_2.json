@@ -116,7 +116,7 @@
     {
       "id": 9432,
       "name": "Carillon a Forma di Maniero",
-      "desc": "Fine Turno: se è Stordito, si riprende dallo Stordimento; dopodiché, all'Inizio Turno successivo, infligge 4 Potenza [Sinking] e 4 Conteggio [Sinking] a tutti i nemici (una volta per Incontro; negli Incontri Mirati, a tutte le parti).\n\nPer Uccisione, 1 nemico con meno Conteggio [Sinking] ottiene +2 Conteggio [Sinking] (3 volte per turno; negli Incontri Mirati, la Parte).",
+      "desc": "Fine Turno: se è Stordito, si riprende dallo Stordimento; dopodiché, all'Inizio Turno successivo, infligge 4 Potenza [Sinking] e 4 Conteggio [Sinking] a tutti i nemici (una volta per Incontro; negli Incontri Mirati, a tutte le parti).\n\n- Gli effetti sopracitati si attivano ulteriormente per ((Identità di \"Wuthering Heights\" schierate + Identità della \"Famiglia Edgar\" schierate)/2) volte per Incontro (max 4 volte per Incontro; Unità di Riserva incluse)\n\nPer Uccisione, 1 nemico con meno Conteggio [Sinking] ottiene +2 Conteggio [Sinking] (3 volte per turno; negli Incontri Mirati, la Parte).",
       "simpleDesc": [
         {
           "abilityID": 9432,
@@ -176,7 +176,7 @@
     {
       "id": 9436,
       "name": "Tubo di Vetro a Rifrazione",
-      "desc": "Incontri Regolari) Sul Colpo contro nemici con 10+ (somma di Potenza e Conteggio [Sinking]):\nse il bersaglio è a -45 PS, infligge danni da Tristezza pari a (Potenza [Sinking] sul bersaglio / 2) (una volta per Abilità).\n\nIncontri Mirati) Sul Colpo contro nemici con 10+ (somma di Potenza e Conteggio [Sinking]):\ninfligge danni da Tristezza pari a (Potenza [Sinking] sul bersaglio / 2) (una volta per Abilità).\n\nSe l'Abilità che ha colpito il nemico infligge [Sinking] (inclusi Conteggio [Sinking] e [Sinking] Speciale), invece di infliggere (Potenza [Sinking] / 2) danni da Tristezza, infligge (Potenza [Sinking]) danni da Tristezza.\n(Ogni turno, questo si applica solo alla prima Abilità che infligge <noparse>Annegamento</noparse> che va a segno).",
+      "desc": "Sul Colpo contro le Unità con PS, se il bersaglio ha -45 PS, infliggi danni da Tristezza pari alla Potenza [Sinking] sul bersaglio\n\nNegli Incontri Mirati, Sul Colpo contro nemici che hanno 10+ (Potenza [Sinking] + Conteggio [Sinking]):\nInfliggi danni da Tristezza pari a (Potenza [Sinking] sul bersaglio / 2) (una volta per Abilità).\n\nSe l'Abilità che ha colpito il nemico infligge [Sinking] (inclusi Conteggio [Sinking] e [Sinking] Speciale), invece di infliggere (Potenza [Sinking] / 2) danni da Tristezza, infligge (Potenza [Sinking]) danni da Tristezza.\n(Ogni turno, questo si applica solo alla prima Abilità che infligge <noparse>Annegamento</noparse> che va a segno).",
       "simpleDesc": [
         {
           "abilityID": 9436,

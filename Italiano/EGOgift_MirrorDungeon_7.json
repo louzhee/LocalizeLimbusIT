@@ -338,7 +338,7 @@
     {
       "id": 9226,
       "name": "Lama Azzurra di Qualcuno",
-      "desc": "Inizio Combattimento: Gli alleati con Scudo ottengono 1 [CriticalDamageUp]\nPer Critico con un'Abilità di un alleato, quell'alleato ottiene Scudo uguale a ([Breath] / 5) per il turno successivo (max 15)",
+      "desc": "Inizio Combattimento: Gli alleati con Scudo ottengono 1 [CriticalDamageUp]\nPer Critico con un'Abilità di un alleato, quell'alleato ottiene Scudo uguale a ([Breath] / 5) per il turno successivo (max 15)\n\n[Effetto esclusivo per Il Nido Dei Ragni: Apprendista del Mignolo Sinclair]\n- Fine Combattimento: A 30 o più Conteggio [Breath], consuma 10 Conteggio [Breath] per [Discard]re 1 Abilità di Grado minore tra tutti gli Slot Abilità dell'unità (una volta per turno)\n\nTra gli effetti del Dono E.G.O \"Acquavite in Botte\", i seguenti effetti non si applicano all'unità:\n\"Fine Combattimento: se hai più di 40 Potenza [Breath], consuma 15 Potenza [Breath] per [Discard]re 1 Abilità del grado più basso tra tutti gli Slot Abilità dell'unità (una volta per turno per Identità)\"",
       "simpleDesc": [
         {
           "abilityID": 9226,
@@ -347,6 +347,10 @@
         {
           "abilityID": 92261,
           "simpleDesc": "Ottieni Scudo"
+        },
+        {
+          "abilityID": 92262,
+          "simpleDesc": "Effetto Esclusivo di Il Nido dei Ragni: Apprendista del Mignolo Sinclair"
         }
       ]
     },
