@@ -117,6 +117,72 @@
           "simpleDesc": "Infliggi Danno Tagliente sul bersaglio principale"
         }
       ]
+    },
+    {
+      "id": 9301,
+      "name": "Wuthering Heights",
+      "desc": "Fine Turno: quando si è Storditi, recupera dallo Stordimento; dopo, nel successivo Inizio Turno, infliggi 4 Potenza [Sinking] e +4 Conteggio [Sinking] a tutti i nemici (una volta per Incontro; negli Incontri Mirati, a tutte le parte)\n- L'effetto sopracitato si attiva per altre ((Identità di \"Wuthering Heights\" schierate + Identità della \"Famiglia Edgar\" schierate)/2) volte per Incontro (max 4 volte per Incontro; Unità di Riserva incluse)\n\nPer Uccisione, 1 nemico con meno Conteggio [Sinking] ottiene +2 Conteggio [Sinking] (3 volte per turno; negli Incontri Mirati, la Parte)\n\nSul Colpo contro le Unità con PS, se il bersaglio ha -45 PS, infliggi danni da Tristezza pari alla Potenza [Sinking] sul bersaglio\n\nNegli Incontri Mirati, Sul Colpo contro nemici che hanno 10+ (Potenza [Sinking] + Conteggio [Sinking]):\nInfliggi danni da Tristezza pari a (Potenza [Sinking] sul bersaglio / 2) (una volta per Abilità).\n\nSe l'Abilità che ha colpito il nemico infligge [Sinking] (inclusi Conteggio [Sinking] e [Sinking] Speciale), invece di infliggere (Potenza [Sinking] / 2) danni da Tristezza, infligge (Potenza [Sinking]) danni da Tristezza.\n(Ogni turno, questo si applica solo alla prima Abilità che infligge <noparse>Annegamento</noparse> che va a segno)\n\n[Effetto esclusivo per <noparse>Caccia Selvaggia</noparse> Heathcliff]\nInizio Turno: Se questa unità non ha, ottieni 1 [NightPathfinding]\n- A 5/10 [Coffin], ottieni 2/3 [NightPathfinding]\n- Applica 1 [SoundOfStorm] alle Identità di \"Wuthering Heights\" e della \"Famiglia Edgar\" (3 volte per Identità per Incontro)\n\nRaddoppia la quantità di [Coffin] ottenuta\n- Ottieni 2 [Coffin] quando le Identità di \"Wuthering Heights\" e della \"Famiglia Edgar\" sconfiggono un nemico\n\nEffetti dell'Abilità \"Lamenta, Piangi e Dispera\":\n- Sottrai altri 15 PS tramite l'effetto \"All'Uso\"\n  · Gli effetti dell'Abilità o di questo Dono E.G.O non possono ridurre i PS di questa unità sotto i -40\n- Per Colpo con la Moneta Finale, se il nemico ha 20+ [Sinking], infliggi danni da Tristezza pari al 100% del danno finale di questa Moneta",
+      "simpleDesc": [
+        {
+          "abilityID": 9432,
+          "simpleDesc": "Infliggi 4 Potenza e Conteggio [Sinking] verso tutti i nemici nel turno dopo"
+        },
+        {
+          "abilityID": 94321,
+          "simpleDesc": "Il nemico con meno Conteggio [Sinking] ottiene +2 Conteggio [Sinking]"
+        },
+        {
+          "abilityID": 9436,
+          "simpleDesc": "Infliggi danni Tristezza in base all'[Sinking] sul bersaglio"
+        },
+        {
+          "abilityID": 94361,
+          "simpleDesc": "Infliggi danni Tristezza in base all'[Sinking] sul bersaglio"
+        },
+        {
+          "abilityID": 93011,
+          "simpleDesc": "Ottieni [NightPathfinding]; applica [SoundOfStorm] alle Identità con certi tratti-chiave"
+        },
+        {
+          "abilityID": 93012,
+          "simpleDesc": "Raddoppia la quantità di [Coffin] ottenuta"
+        },
+        {
+          "abilityID": 93013,
+          "simpleDesc": "Ottieni [Coffin] quando le Identità di certi tratti-chiave sconfiggono un nemico"
+        },
+        {
+          "abilityID": 93014,
+          "simpleDesc": "\"Lamenta, Piangi e Dispera\" sottrai più PS All'Uso"
+        },
+        {
+          "abilityID": 93015,
+          "simpleDesc": "\"Lamenta, Piangi e Dispera\" infligge danni Tristezza per Colpo con Moneta finale"
+        }
+      ]
+    },
+    {
+      "id": 9302,
+      "name": "La Misura del Freddo",
+      "desc": "Inizio Turno: A 40+ PS, o da -40 PS in giù, ottieni 1 [GainSinStockAdder]\n\n[Effetto esclusivo per le Identità che hanno 2 o più Abilità a Moneta Negativa]\nInizio Turno: Perdi PS (i PS di questa unità non scendono sotto il -40 from da questo effetto)\n\nIn questo Incontro, quando si subiscono danni ai PS damage che dovrebbero ridurre i PS di questa unità a -45, i PS dell'unità non possono scendere sotto il -44 per il turno (una volta per Incontro)\n(※ Si applica solo ai danni PS; non si applica a effetti che cambiano i PS o a effetti che spendono PS come l'utilizzo di Abilità E.G.O)\n\nPrima di Attaccare tramite l'Abilità 3 o un'Abilità E.G.O, spendi fino a 5 Risorse E.G.O della stessa Affinità dell'abilità per infliggere +(Risorse E.G.O spese x 10)% danni",
+      "simpleDesc": [
+        {
+          "abilityID": 9302,
+          "simpleDesc": "Ottieni [GainSinStockAdder] quando le condizioni sui PS sono soddisfatte"
+        },
+        {
+          "abilityID": 93021,
+          "simpleDesc": "Inizio Turno: Perdi PS"
+        },
+        {
+          "abilityID": 93022,
+          "simpleDesc": "Mantieni i PS a -44 una volta subiti danni PS che ridurrebbero i PS a -45"
+        },
+        {
+          "abilityID": 93023,
+          "simpleDesc": "Spendi Risorse E.G.O per infliggere più danni usando l'Abilità 3 o Abilità E.G.O"
+        }
+      ]
     }
   ]
 }

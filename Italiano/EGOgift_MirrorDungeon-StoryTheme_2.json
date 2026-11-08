@@ -3,7 +3,7 @@
     {
         "id": 9427,
         "name": "Arpione per Proteggere il Villaggio",
-        "desc": "[Effetti applicati solo all'Identità schierata in posizione #6]\n\nFine Turno: se con meno del 30% di PV, ottiene 1 [Enhancement] per il turno successivo",
+        "desc": "[Gli effetti si applicano solo alla 6° Identità Schierata]\n\nFine Turno: se con meno del 30% di PV, ottiene 1 [Enhancement] per il turno successivo",
         "simpleDesc": [
             {
                 "abilityID": 9427,
@@ -14,7 +14,7 @@
     {
         "id": 19427,
         "name": "Arpione per Proteggere il Villaggio+",
-        "desc": "[Effetti applicati solo all'Identità schierata in posizione #6]\nFine Turno: se con meno del 40% di PV, ottiene 1 [Enhancement] per il turno successivo\n\nFine Turno: se un alleato è Stordito, ottiene +6 [Aggro] e 4 [DefenseUp] per il turno successivo",
+        "desc": "[Gli effetti si applicano solo alla 6° Identità Schierata]\nFine Turno: se con meno del 40% di PV, ottiene 1 [Enhancement] per il turno successivo\n\nFine Turno: se un alleato è Stordito, ottiene +6 [Aggro] e 4 [DefenseUp] per il turno successivo",
         "simpleDesc": [
             {
                 "abilityID": 19427,
@@ -29,7 +29,7 @@
     {
         "id": 29427,
         "name": "Arpione per Proteggere il Villaggio++",
-        "desc": "[Effetti applicati solo all'Identità schierata in posizione #6]\nFine Turno: se con meno del 50% di PV, ottiene 1 [Enhancement] per il turno successivo\n\nFine Turno: se un alleato è Stordito, ottiene +6 [Aggro] e 4 [DefenseUp] per il turno successivo",
+        "desc": "[Gli effetti si applicano solo alla 6° Identità Schierata]\nFine Turno: se con meno del 50% di PV, ottiene 1 [Enhancement] per il turno successivo\n\nFine Turno: se un alleato è Stordito, ottiene +6 [Aggro] e 4 [DefenseUp] per il turno successivo",
         "simpleDesc": [
             {
                 "abilityID": 29427,
@@ -44,7 +44,7 @@
     {
         "id": 9428,
         "name": "Cuore di Cetaceo",
-        "desc": "Sul Colpo con un'Abilità di Attacco contro nemici con [Laceration] o '<noparse>Sanguinamento</noparse> Speciale' : Ottiene 1 [Breath]. (3 volte per turno per Identità)\nIn caso di Critico: 50% di probabilità di ottenere 1 [PenetrateResultUp] il turno successivo. (2 volte per turno per Identità; incluse le Abilità E.G.O e le Abilità di Contrattacco)\n\nIn caso di Testa su un colpo Critico con un'Abilità Base: Infligge +1 [Effetto Negativo] addizionale con quella Moneta. (una volta per turno per Identità; incluse le Abilità di Contrattacco ed escluse le Abilità E.G.O)",
+        "desc": "Sul Colpo con un'Abilità Attacco contro nemici con [Laceration] o '<noparse>Sanguinamento</noparse> Speciale' : Ottiene 1 [Breath]. (3 volte per turno per Identità)\nIn caso di Critico: 50% di probabilità di ottenere 1 [PenetrateResultUp] il turno successivo. (2 volte per turno per Identità; incluse le Abilità E.G.O e le Abilità Contrattacco)\n\nIn caso di Testa su un colpo Critico con un'Abilità Base: Infligge +1 [Effetto Negativo] addizionale con quella Moneta. (una volta per turno per Identità; incluse le Abilità Contrattacco ed escluse le Abilità E.G.O)",
         "simpleDesc": [
             {
                 "abilityID": 9428,
@@ -63,7 +63,7 @@
     {
         "id": 9431,
         "name": "Violino Rotto",
-        "desc": "[Effetti applicati solo alle Identità schierate nelle posizioni #5 e #6]\n\nCon PV pari o inferiori al 45%: ottiene 1 [AttackUp] e 1 [TakeHpHealIncrease] in caso di Vittoria Scontro (2 volte per turno per ogni personaggio).\n\nCon PV pari o inferiori al 20%: ottiene invece 1 [AttackUp] e 1 [TakeHpHealIncrease] all'Uso dell'Abilità (2 volte per turno per ogni personaggio).",
+        "desc": "[Gli effetti si applicano solo alla 5° e 6° Identità Schierate]\n\nCon PV pari o inferiori al 45%: ottiene 1 [AttackUp] e 1 [TakeHpHealIncrease] in caso di Vittoria Scontro (2 volte per turno per ogni personaggio).\n\nCon PV pari o inferiori al 20%: ottiene invece 1 [AttackUp] e 1 [TakeHpHealIncrease] all'Uso dell'Abilità (2 volte per turno per ogni personaggio).",
         "simpleDesc": [
             {
                 "abilityID": 9431,
@@ -78,7 +78,7 @@
     {
         "id": 19431,
         "name": "Violino Rotto+",
-        "desc": "[Effetti applicati solo alle Identità schierate nelle posizioni #5 e #6]\n\nCon PV pari o inferiori al <style=\"upgradeHighlight\">65%</style> ottiene 1 [AttackUp] e 1 [TakeHpHealIncrease] in caso di Vittoria Scontro (2 volte per turno per ogni personaggio).\n\nCon PV pari o inferiori al <style=\"upgradeHighlight\">40%</style> ottiene invece 1 [AttackUp] e 1 [TakeHpHealIncrease] all'Uso dell'Abilità (2 volte per turno per ogni personaggio).\n\n<style=\"upgradeHighlight\">Quando vince uno Scontro dopo 5+ Scontri, l'Abilità che ha vinto lo Scontro infligge +(# di Scontri x 2)% di danni (max 20%)</style>",
+        "desc": "[Gli effetti si applicano solo alla 5° e 6° Identità Schierate]\n\nCon PV pari o inferiori al <style=\"upgradeHighlight\">65%</style> ottiene 1 [AttackUp] e 1 [TakeHpHealIncrease] in caso di Vittoria Scontro (2 volte per turno per ogni personaggio).\n\nCon PV pari o inferiori al <style=\"upgradeHighlight\">40%</style> ottiene invece 1 [AttackUp] e 1 [TakeHpHealIncrease] all'Uso dell'Abilità (2 volte per turno per ogni personaggio).\n\n<style=\"upgradeHighlight\">Quando vince uno Scontro dopo 5+ Scontri, l'Abilità che ha vinto lo Scontro infligge +(# di Scontri x 2)% di danni (max 20%)</style>",
         "simpleDesc": [
             {
                 "abilityID": 19431,
@@ -97,7 +97,7 @@
     {
         "id": 29431,
         "name": "Violino Rotto++",
-        "desc": "[Effetti applicati solo alle Identità schierate nelle posizioni #5 e #6]\n\nCon PV pari o inferiori al 65%: ottiene 1 [AttackUp] e 1 [TakeHpHealIncrease] in caso di Vittoria Scontro (2 volte per turno per ogni personaggio).\n\nCon PV pari o inferiori al 40%: ottiene invece 1 [AttackUp] e 1 [TakeHpHealIncrease] all'Uso dell'Abilità (2 volte per turno per ogni personaggio).\n\nQuando vince uno Scontro dopo 5+ Scontri, l'Abilità che ha vinto lo Scontro infligge <style=\"upgradeHighlight\">+(# di Scontri x 3)% di danni (max 30%)</style>",
+        "desc": "[Gli effetti si applicano solo alla 5° e 6° Identità Schierate]\n\nCon PV pari o inferiori al 65%: ottiene 1 [AttackUp] e 1 [TakeHpHealIncrease] in caso di Vittoria Scontro (2 volte per turno per ogni personaggio).\n\nCon PV pari o inferiori al 40%: ottiene invece 1 [AttackUp] e 1 [TakeHpHealIncrease] all'Uso dell'Abilità (2 volte per turno per ogni personaggio).\n\nQuando vince uno Scontro dopo 5+ Scontri, l'Abilità che ha vinto lo Scontro infligge <style=\"upgradeHighlight\">+(n° di Scontri x 3)% di danni (max 30%)</style>",
         "simpleDesc": [
             {
                 "abilityID": 29431,
@@ -116,7 +116,7 @@
     {
       "id": 9432,
       "name": "Carillon a Forma di Maniero",
-      "desc": "Fine Turno: se è Stordito, si riprende dallo Stordimento; dopodiché, all'Inizio Turno successivo, infligge 4 Potenza [Sinking] e 4 Conteggio [Sinking] a tutti i nemici (una volta per Incontro; negli Incontri Mirati, a tutte le parti).\n\nPer Uccisione, 1 nemico con meno Conteggio [Sinking] ottiene +2 Conteggio [Sinking] (3 volte per turno; negli Incontri Mirati, la Parte).",
+      "desc": "Fine Turno: se è Stordito, si riprende dallo Stordimento; dopodiché, all'Inizio Turno successivo, infligge 4 Potenza [Sinking] e 4 Conteggio [Sinking] a tutti i nemici (una volta per Incontro; negli Incontri Mirati, a tutte le parti).\n\n- Gli effetti sopracitati si attivano ulteriormente per ((Identità di \"Wuthering Heights\" schierate + Identità della \"Famiglia Edgar\" schierate)/2) volte per Incontro (max 4 volte per Incontro; Unità di Riserva incluse)\n\nPer Uccisione, 1 nemico con meno Conteggio [Sinking] ottiene +2 Conteggio [Sinking] (3 volte per turno; negli Incontri Mirati, la Parte).",
       "simpleDesc": [
         {
           "abilityID": 9432,
@@ -176,7 +176,7 @@
     {
       "id": 9436,
       "name": "Tubo di Vetro a Rifrazione",
-      "desc": "Incontri Regolari) Sul Colpo contro nemici con 10+ (somma di Potenza e Conteggio [Sinking]):\nse il bersaglio è a -45 PS, infligge danni da Tristezza pari a (Potenza [Sinking] sul bersaglio / 2) (una volta per Abilità).\n\nIncontri Mirati) Sul Colpo contro nemici con 10+ (somma di Potenza e Conteggio [Sinking]):\ninfligge danni da Tristezza pari a (Potenza [Sinking] sul bersaglio / 2) (una volta per Abilità).\n\nSe l'Abilità che ha colpito il nemico infligge [Sinking] (inclusi Conteggio [Sinking] e [Sinking] Speciale), invece di infliggere (Potenza [Sinking] / 2) danni da Tristezza, infligge (Potenza [Sinking]) danni da Tristezza.\n(Ogni turno, questo si applica solo alla prima Abilità che infligge <noparse>Annegamento</noparse> che va a segno).",
+      "desc": "Sul Colpo contro le Unità con PS, se il bersaglio ha -45 PS, infliggi danni da Tristezza pari alla Potenza [Sinking] sul bersaglio\n\nNegli Incontri Mirati, Sul Colpo contro nemici che hanno 10+ (Potenza [Sinking] + Conteggio [Sinking]):\nInfliggi danni da Tristezza pari a (Potenza [Sinking] sul bersaglio / 2) (una volta per Abilità).\n\nSe l'Abilità che ha colpito il nemico infligge [Sinking] (inclusi Conteggio [Sinking] e [Sinking] Speciale), invece di infliggere (Potenza [Sinking] / 2) danni da Tristezza, infligge (Potenza [Sinking]) danni da Tristezza.\n(Ogni turno, questo si applica solo alla prima Abilità che infligge <noparse>Annegamento</noparse> che va a segno).",
       "simpleDesc": [
         {
           "abilityID": 9436,

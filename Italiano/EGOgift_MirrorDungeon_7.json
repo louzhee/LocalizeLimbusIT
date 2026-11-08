@@ -338,7 +338,7 @@
     {
       "id": 9226,
       "name": "Lama Azzurra di Qualcuno",
-      "desc": "Inizio Combattimento: Gli alleati con Scudo ottengono 1 [CriticalDamageUp]\nPer Critico con un'Abilità di un alleato, quell'alleato ottiene Scudo uguale a ([Breath] / 5) per il turno successivo (max 15)",
+      "desc": "Inizio Combattimento: Gli alleati con Scudo ottengono 1 [CriticalDamageUp]\nPer Critico con un'Abilità di un alleato, quell'alleato ottiene Scudo uguale a ([Breath] / 5) per il turno successivo (max 15)\n\n[Effetto esclusivo per Il Nido Dei Ragni: Apprendista del Mignolo Sinclair]\n- Fine Combattimento: A 30 o più Conteggio [Breath], consuma 10 Conteggio [Breath] per [Discard]re 1 Abilità di Grado minore tra tutti gli Slot Abilità dell'unità (una volta per turno)\n\nTra gli effetti del Dono E.G.O \"Acquavite in Botte\", i seguenti effetti non si applicano all'unità:\n\"Fine Combattimento: se hai più di 40 Potenza [Breath], consuma 15 Potenza [Breath] per [Discard]re 1 Abilità del grado più basso tra tutti gli Slot Abilità dell'unità (una volta per turno per Identità)\"",
       "simpleDesc": [
         {
           "abilityID": 9226,
@@ -347,6 +347,10 @@
         {
           "abilityID": 92261,
           "simpleDesc": "Ottieni Scudo"
+        },
+        {
+          "abilityID": 92262,
+          "simpleDesc": "Effetto Esclusivo di Il Nido dei Ragni: Apprendista del Mignolo Sinclair"
         }
       ]
     },
@@ -465,7 +469,7 @@
     {
       "id": 9258,
       "name": "Il Libro della Vendetta: Spin-Off",
-      "desc": "Abilità a Monetà Positiva degli alleati: Ottengono Potere Moneta +(8 / n° di Monete) (viene ottenuto almeno 1 Potere Moneta, Abilità E.G.O incluse; arrotondato per difetto)\n\nAbilità a Moneta Negativa degli alleati: Ottengono Potere Finale +(8 / n° di Monete) (viene ottenuto almeno 1 Potere Finale, Abilità E.G.O incluse; arrotondato per difetto)\n\nInizio Incontro: Tutti gli alleati guadagnano 50 di Scudo per ogni unità alleata della fazione del Medio sul campo (Riserve incluse; lo Scudo ottenuto grazie all'effetto non scade a Fine Turno)\n\nFine dell'Attacco con le Abilità Base Invidia o Contundenti degli alleati della fazione del Medio: Recupera come PV del 10% dei danni inflitti dall'Abilità\n- Se questo effetto viene attivato da un'Abilità di Contrattacco, recupera come PV invece del 20% dei danni inflitti\n- Le cure che eccedono i PV verranno convertite in Scudo (lo Scudo ottenuto grazie all'effetto non scade a Fine Turno)\n\nInizio Combattimento: Le unità alleate della fazione del Medio ottengono Livello Offensivo per il turno in base al numero delle Abilità Difensive equipaggiate (max 12 Livelli Offensivi)\n- Se sono state equipaggiate 6+ Abilità Difensive, infliggi +30% di danni con Abilità Base Invidia\n- Infliggi +10% di danni addizionali per ogni Abilità Difensiva equipaggiata oltre a 6 (max 60%)",
+      "desc": "Abilità a Monetà Positiva degli alleati: Ottengono Potere Moneta +(8 / n° di Monete) (viene ottenuto almeno 1 Potere Moneta, Abilità E.G.O incluse; arrotondato per difetto)\n\nAbilità a Moneta Negativa degli alleati: Ottengono Potere Finale +(8 / n° di Monete) (viene ottenuto almeno 1 Potere Finale, Abilità E.G.O incluse; arrotondato per difetto)\n\nInizio Incontro: Tutti gli alleati guadagnano 50 di Scudo per ogni unità alleata della fazione del Medio sul campo (Riserve incluse; lo Scudo ottenuto grazie all'effetto non scade a Fine Turno)\n\nFine dell'Attacco con le Abilità Base Invidia o Contundenti degli alleati della fazione del Medio: Recupera come PV del 10% dei danni inflitti dall'Abilità\n- Se questo effetto viene attivato da un'Abilità Contrattacco, recupera come PV invece del 20% dei danni inflitti\n- Le cure che eccedono i PV verranno convertite in Scudo (lo Scudo ottenuto grazie all'effetto non scade a Fine Turno)\n\nInizio Combattimento: Le unità alleate della fazione del Medio ottengono Livello Offensivo per il turno in base al numero delle Abilità Difensive equipaggiate (max 12 Livelli Offensivi)\n- Se sono state equipaggiate 6+ Abilità Difensive, infliggi +30% di danni con Abilità Base Invidia\n- Infliggi +10% di danni addizionali per ogni Abilità Difensiva equipaggiata oltre a 6 (max 60%)",
       "simpleDesc": [
         {}
       ]

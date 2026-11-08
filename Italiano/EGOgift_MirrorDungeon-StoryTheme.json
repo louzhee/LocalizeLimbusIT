@@ -18,7 +18,7 @@
     {
         "id": 9404,
         "name": "Larve Intrappolate",
-        "desc": "Sul colpo con un'Abilità di Attacco Lussuria o Gola (E.G.O esclusi) contro un nemico: Infligge 2 [Muckworm] al bersaglio.\n\nSe l'Abilità applica Potenza o Conteggio [Laceration] o '<noparse>Sanguinamento</noparse> Speciale', infligge invece 3 [Muckworm].",
+        "desc": "Sul colpo con un'Abilità Attacco Lussuria o Gola (E.G.O esclusi) contro un nemico: Infligge 2 [Muckworm] al bersaglio.\n\nSe l'Abilità applica Potenza o Conteggio [Laceration] o '<noparse>Sanguinamento</noparse> Speciale', infligge invece 3 [Muckworm].",
         "simpleDesc": [
             {
                 "abilityID": 9404,
@@ -33,7 +33,7 @@
     {
         "id": 9407,
         "name": "Su Misura",
-        "desc": "[Effetti applicati solo all'Identità schierata in posizione #3]\n\nInizio Incontro: Ottiene +3 Conteggio [Vibration].\n\nInizio Turno: Ottiene 1 [Protection], 1 [AttackDmgUp] e 1 [ResultEnhancement].",
+        "desc": "[Gli effetti si applicano solo alla 3° Identità Schierata]\n\nInizio Incontro: Ottiene +3 Conteggio [Vibration].\n\nInizio Turno: Ottiene 1 [Protection], 1 [AttackDmgUp] e 1 [ResultEnhancement].",
         "simpleDesc": [
             {
                 "abilityID": 9407,
@@ -48,7 +48,7 @@
     {
         "id": 9408,
         "name": "Scarpe Infestate",
-        "desc": "[Effetti applicati solo all'Identità schierata in posizione #2]\n\nInizio Incontro: Ottiene +3 Conteggio [Sinking].\n\nInizio Turno: Ottiene 1 [Protection], 1 [AttackDmgUp], e 1 [ResultEnhancement].",
+        "desc": "[Gli effetti si applicano solo alla 2° Identità Schierata]\n\nInizio Incontro: Ottiene +3 Conteggio [Sinking].\n\nInizio Turno: Ottiene 1 [Protection], 1 [AttackDmgUp], e 1 [ResultEnhancement].",
         "simpleDesc": [
             {
                 "abilityID": 9408,
@@ -104,7 +104,7 @@
     {
         "id": 9414,
         "name": "Criniera Rosso Sangue",
-        "desc": "Gli effetti si applicano alle Identità con Abilità di Attacco Ira o Lussuria.\n\nFine Turno: Se l'unità non ha subito danni da Abilità di Attacco nemiche, ottiene 2 [Agility] e 2 [Endurance] per il turno successivo.\n\nFine Turno: Se l'unità ha subito danni, ottiene 2 [Binding] e Potere Scontro +2 per il turno successivo.",
+        "desc": "Gli effetti si applicano alle Identità con Abilità Attacco Ira o Lussuria.\n\nFine Turno: Se l'unità non ha subito danni da Abilità Attacco nemiche, ottiene 2 [Agility] e 2 [Endurance] per il turno successivo.\n\nFine Turno: Se l'unità ha subito danni, ottiene 2 [Binding] e Potere Scontro +2 per il turno successivo.",
         "simpleDesc": [
             {
                 "abilityID": 9414,
@@ -134,7 +134,7 @@
     {
         "id": 9416,
         "name": "Integrità",
-        "desc": "Se l'alleato vince uno Scontro usando un'Abilità che infligge Potenza o Conteggio [Laceration] o '<noparse>Sanguinamento</noparse> Speciale', Infligge 2~3 [NailPersonality].\n\nLe Identità 'Fanatico della N Corp.' infliggono +25% di danni e ottengono 1 Fanatico all'Inizio del Turno. Se i PS dell'alleato sono al massimo, o se nel turno precedente è stata formata una Risonanza Lussuria 3+, ottiene inoltre 3 [AttackDmgUp].\n\nLe Identità 'Fanatico della N Corp.' ottengono Potere Finale +2, Potere Moneta Positiva +1, Potere Moneta Negativa -1, e le loro Abilità di Attacco infliggono +1 [NailPersonality] in più.\n\nLe Identità 'Fanatico della N Corp.' infliggono il +50% di danni contro i nemici <Ammasso Meccanico> usando le Abilità Base.",
+        "desc": "Se l'alleato vince uno Scontro usando un'Abilità che infligge Potenza o Conteggio [Laceration] o '<noparse>Sanguinamento</noparse> Speciale', Infligge 2~3 [NailPersonality].\n\nLe Identità 'Fanatico della N Corp.' infliggono +25% di danni e ottengono 1 Fanatico all'Inizio del Turno. Se i PS dell'alleato sono al massimo, o se nel turno precedente è stata formata una Risonanza Lussuria 3+, ottiene inoltre 3 [AttackDmgUp].\n\nLe Identità 'Fanatico della N Corp.' ottengono Potere Finale +2, Potere Moneta Positiva +1, Potere Moneta Negativa -1, e le loro Abilità Attacco infliggono +1 [NailPersonality] in più.\n\nLe Identità 'Fanatico della N Corp.' infliggono il +50% di danni contro i nemici <Ammasso Meccanico> usando le Abilità Base.",
         "simpleDesc": [
             {
                 "abilityID": 9416,
@@ -146,7 +146,7 @@
             },
             {
                 "abilityID": 94162,
-                "simpleDesc": "Potere Finale +2, Potere Moneta Positiva +1, Potere Moneta Negativa -1, le Abilità di Attacco infliggono +1 [NailPersonality] in più"
+                "simpleDesc": "Potere Finale +2, Potere Moneta Positiva +1, Potere Moneta Negativa -1, le Abilità Attacco infliggono +1 [NailPersonality] in più"
             },
             {
                 "abilityID": 94163,
@@ -198,7 +198,7 @@
     {
         "id": 9424,
         "name": "Lettera Mai Spedita",
-        "desc": "[Effetti applicati solo alle Identità schierate nelle posizioni #1, #2]\n\nQuando vince uno Scontro con un'Abilità di Attacco che infligge Potenza o Conteggio [Burst], infligge 5 Potenza [Burst] e +3 Conteggio [Burst] al bersaglio. (una volta per turno per Identità)\n\nDurante uno Scontro con un nemico con Velocità inferiore, ottiene Potere Finale +1 e infligge +25% di danni.\n\nQuando vince uno Scontro con un nemico con il buff [AttackUp], ottiene 3 [AttackUp] per il turno successivo e infligge 3 [AttackDown] al nemico che ha perso lo Scontro (3 volte per turno per Identità).",
+        "desc": "[Gli effetti si applicano solo alla 1° e 2° Identità Schierate]\n\nQuando vince uno Scontro con un'Abilità Attacco che infligge Potenza o Conteggio [Burst], infligge 5 Potenza [Burst] e +3 Conteggio [Burst] al bersaglio. (una volta per turno per Identità)\n\nDurante uno Scontro con un nemico con Velocità inferiore, ottiene Potere Finale +1 e infligge +25% di danni.\n\nQuando vince uno Scontro con un nemico con il buff [AttackUp], ottiene 3 [AttackUp] per il turno successivo e infligge 3 [AttackDown] al nemico che ha perso lo Scontro (3 volte per turno per Identità).",
         "simpleDesc": [
             {
                 "abilityID": 9424,
