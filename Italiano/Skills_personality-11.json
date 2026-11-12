@@ -2005,7 +2005,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnStartCoin] Consume tutto il Conteggio [Vibration] su di sé\n- Potere Moneta +1 per ogni 5 Conteggio [Vibration] consumato (Max 5)\n- Infligge +1% danni per ogni 1 Conteggio [Vibration] consumato (Max 50%)"
+                  "desc": "[OnStartCoin] Usa tutto il Conteggio [Vibration] su di sé\n- Potere Moneta +1 per ogni 5 Conteggio [Vibration] consumato (Max 5)\n- Infligge +1% danni per ogni 1 Conteggio [Vibration] consumato (Max 50%)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1"
@@ -2045,7 +2045,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnStartCoin] Consume tutto il Conteggio [Vibration] su di sé<style=\"highlight\"></style>\n- Potere Moneta +1 per ogni <style=\"highlight\">4</style> Conteggio [Vibration] consumato (Max 5)\n- Infligge +<style=\"highlight\">2</style>% danni per ogni 1 Conteggio [Vibration] consumato (Max 100%)"
+                  "desc": "[OnStartCoin] Usa tutto il Conteggio [Vibration] su di sé<style=\"highlight\"></style>\n- Potere Moneta +1 per ogni <style=\"highlight\">4</style> Conteggio [Vibration] consumato (Max 5)\n- Infligge +<style=\"highlight\">2</style>% danni per ogni 1 Conteggio [Vibration] consumato (Max 100%)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; infine, riduce il Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
@@ -3215,27 +3215,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "High-speed Stabbing",
-          "desc": "[WhenUse] Gain +2 [Breath] Count",
+          "name": "Pugnalata Veloce",
+          "desc": "[WhenUse] Ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 [Breath]"
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Breath]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict +1 [Vibration] Count"
+                  "desc": "[CriticalOnSucceedAttack] Infligge +1 Conteggio [Vibration]"
                 }
               ]
             }
@@ -3243,27 +3243,27 @@
         },
         {
           "level": 2,
-          "name": "High-speed Stabbing",
-          "desc": "<style=\"highlight\">[WhenUse] At 6+ ([Breath] Potency on self + [Vibration] Potency on target), Coin Power +1</style>\n[WhenUse] Gain +2 [Breath] Count",
+          "name": "Pugnalata Veloce",
+          "desc": "<style=\"highlight\">[WhenUse] A 6+ (Potenza [Breath] su di sé + Potenza [Vibration] sul bersaglio), Potere Moneta +1</style>\n[WhenUse] Ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 [Breath]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Breath]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict +1 [Vibration] Count<style=\"highlight\"></style>"
+                  "desc": "[CriticalOnSucceedAttack] Infligge +1 Conteggio [Vibration]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3271,27 +3271,27 @@
         },
         {
           "level": 4,
-          "name": "High-speed Stabbing",
-          "desc": "[WhenUse] At 6+ ([Breath] Potency on self + [Vibration] Potency on target), Coin Power +1\n<style=\"highlight\">[WhenUse] At 3 [WedgeOffice], Final Power +1</style>\n[WhenUse] Gain +2 [Breath] Count",
+          "name": "Pugnalata Veloce",
+          "desc": "[WhenUse] A 6+ (Potenza [Breath] su di sé + Potenza [Vibration] sul bersaglio), Potere Moneta +1\n<style=\"highlight\">[WhenUse] A 3 [WedgeOffice], Potere Finale +1</style>\n[WhenUse] Ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 [Breath]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Breath]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict +1 [Vibration] Count<style=\"highlight\"></style>"
+                  "desc": "[CriticalOnSucceedAttack] Infligge +1 Conteggio [Vibration]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3304,23 +3304,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sparking Spear",
-          "desc": "[StartBattle] Apply 1 [PenetrateDamageUp] to all allied \"Wedge Office[TabExplain]\" Identities, including this unit (once per turn)\n[WhenUse] If the other Skill in the same Skill Slot is \"High-speed Stabbing\", Discard that Skill\n[WhenUse] Gain +2 [Breath] Count",
+          "name": "Lancia Scintillante",
+          "desc": "[StartBattle] Applica 1 [PenetrateDamageUp] a tutte le Identità alleate \"Ufficio Cuneo[TabExplain]\", inclusa questa unità (una volta per turno)\n[WhenUse] Se l'altra Abilità nello stesso Slot Abilità è \"Pugnalata Veloce\", Scarta quell'Abilità\n[WhenUse] Ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 3 [Breath]"
+                  "desc": "[OnSucceedAttack] Ottiene 3 [Breath]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration] and +1 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration] e +1 Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[CriticalOnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] sul bersaglio di 1"
                 }
               ]
             }
@@ -3328,23 +3328,23 @@
         },
         {
           "level": 2,
-          "name": "Sparking Spear",
-          "desc": "[StartBattle] Apply 1 [PenetrateDamageUp] to all allied \"Wedge Office[TabExplain]\" Identities, including this unit (once per turn)\n[WhenUse] If the other Skill in the same Skill Slot is \"High-speed Stabbing\", Discard that Skill\n<style=\"highlight\">[WhenUse] At 6+ ([Breath] Potency on self + [Vibration] Potency on target), Coin Power +1</style>\n<style=\"highlight\">[WhenUse] Final Power +1 for every [WedgeOffice] on self (max 3)</style>\n[WhenUse] Gain +2 [Breath] Count",
+          "name": "Lancia Scintillante",
+          "desc": "[StartBattle] Applica 1 [PenetrateDamageUp] a tutte le Identità alleate \"Ufficio Cuneo[TabExplain]\", inclusa questa unità (una volta per turno)\n[WhenUse] Se l'altra Abilità nello stesso Slot Abilità è \"Pugnalata Veloce\", Scarta quell'Abilità\n<style=\"highlight\">[WhenUse] A 6+ (Potenza [Breath] su di sé + Potenza [Vibration] sul bersaglio), Potere Moneta +1</style>\n<style=\"highlight\">[WhenUse] Potere Finale +1 per ogni [WedgeOffice] su di sé (max 3)</style>\n[WhenUse] Ottiene +2 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 3 [Breath]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Ottiene 3 [Breath]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration] and +1 [Vibration] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration] e +1 Conteggio [Vibration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                  "desc": "[CriticalOnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] sul bersaglio di 1<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3352,23 +3352,23 @@
         },
         {
           "level": 4,
-          "name": "Sparking Spear",
-          "desc": "[StartBattle] Apply 1 [PenetrateDamageUp] to all allied \"Wedge Office[TabExplain]\" Identities, including this unit (once per turn)\n[WhenUse] If the other Skill in the same Skill Slot is \"High-speed Stabbing\", Discard that Skill\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 ([Breath] Potency on self + [Vibration] Potency on target) (max 2)</style>\n[WhenUse] Final Power +1 for every [WedgeOffice] on self (max 3)\n[WhenUse] Gain +<style=\"highlight\">3</style> [Breath] Count",
+          "name": "Lancia Scintillante",
+          "desc": "[StartBattle] Applica 1 [PenetrateDamageUp] a tutte le Identità alleate \"Ufficio Cuneo[TabExplain]\", inclusa questa unità (una volta per turno)\n[WhenUse] Se l'altra Abilità nello stesso Slot Abilità è \"Pugnalata Veloce\", Scarta quell'Abilità\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 (Potenza [Breath] su di sé + Potenza [Vibration] sul bersaglio) (max 2)</style>\n[WhenUse] Potere Finale +1 per ogni [WedgeOffice] su di sé (max 3)\n[WhenUse] Ottiene +<style=\"highlight\">3</style> Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 3 [Breath]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Ottiene 3 [Breath]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration] and +1 [Vibration] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration] e +1 Conteggio [Vibration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                  "desc": "[CriticalOnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] sul bersaglio di 1<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3381,8 +3381,8 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Transpierce",
-          "desc": "[WhenUse] Final Power +1 for every 4 ([Breath] Potency on self + [Vibration] Potency on target) (max 3)\n[WhenUse] Gain 2 [Breath]\n[WhenUse] Gain +3 [Breath] Count\n\n[ComboSkill]: Dawn Office[TabExplain] Rep Gregor\n- [WhenUse] Gain 1 [ComboWedgeDawn] (once per Skill)",
+          "name": "Perfora",
+          "desc": "[WhenUse] Potere Finale +1 per ogni 4 (Potenza [Breath] su di sé + Potenza [Vibration] sul bersaglio) (max 3)\n[WhenUse] Ottiene 2 [Breath]\n[WhenUse] Ottiene +3 Conteggio [Breath]\n\n[ComboSkill] con: Rappresentante dell'Ufficio Alba[TabExplain] Gregor\n- [WhenUse] Ottiene 1 [ComboWedgeDawn] (una volta per Abilità)",
           "coinlist": [
             {
               "coindescs": [
@@ -3390,22 +3390,22 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "If target is in either [Switch_Vibration] or [FusionVibration] states, this Coin deals +50% damage"
+                  "desc": "Se il bersaglio è affetto da [Switch_Vibration] o [FusionVibration], questa Moneta infligge +50% danni"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target isn't in an [Switch_Vibration] state, trigger [Switch_Vibration] into [VibrationCollapse]"
+                  "desc": "[OnSucceedAttack] Se il bersaglio non è affetto da [Switch_Vibration], attiva [Switch_Vibration] in [VibrationCollapse]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] sul bersaglio di 1"
                 },
                 {
-                  "desc": "[ComboSkill]: Dawn Office[TabExplain] Rep Gregor\n- Deal +30% damage\n- [OnSucceedAttack] Inflict +2 [Vibration] Count"
+                  "desc": "[ComboSkill] con: Rappresentante dell'Ufficio Alba[TabExplain] Gregor\n- Infligge +30% danni\n- [OnSucceedAttack] Infligge +2 Conteggio [Vibration]"
                 }
               ]
             }
@@ -3413,8 +3413,8 @@
         },
         {
           "level": 4,
-          "name": "Transpierce",
-          "desc": "<style=\"highlight\">[WhenUse] Deal +([Vibration] Potency x [Vibration] Count on target)% damage (max 100%)</style>\n<style=\"highlight\">[WhenUse] Deal +([Breath] Potency x [Breath] Count on self)% damage on Critical Hit (max 100%)</style>\n[WhenUse] Final Power +1 for every 4 ([Breath] Potency on self + [Vibration] Potency on target) (max <style=\"highlight\">5</style>)\n<style=\"highlight\">[WhenUse] At 3 [WedgeOffice], Clash Power +6</style>\n[WhenUse] Gain 2 [Breath]\n[WhenUse] Gain +3 [Breath] Count\n\n[ComboSkill]: Dawn Office[TabExplain] Rep Gregor\n- [WhenUse] Gain 1 [ComboWedgeDawn] (once per Skill)",
+          "name": "Perfora",
+          "desc": "<style=\"highlight\">[WhenUse] Infligge +(Potenza [Vibration] x Conteggio [Vibration] sul bersaglio)% danni (max 100%)</style>\n<style=\"highlight\">[WhenUse] Infligge +(Potenza [Breath] x Conteggio [Breath] su di sé)% danni su Colpo Critico (max 100%)</style>\n[WhenUse] Potere Finale +1 per ogni 4 (Potenza [Breath] su di sé + Potenza [Vibration] sul bersaglio) (max <style=\"highlight\">5</style>)\n<style=\"highlight\">[WhenUse] A 3 [WedgeOffice], Potere Scontro +6</style>\n[WhenUse] Ottiene 2 [Breath]\n[WhenUse] Ottiene +3 Conteggio [Breath]\n\n[ComboSkill] con: Rappresentante dell'Ufficio Alba[TabExplain] Gregor\n- [WhenUse] Ottiene 1 [ComboWedgeDawn] (una volta per Abilità)",
           "coinlist": [
             {
               "coindescs": [
@@ -3422,25 +3422,25 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "If target is in either [Switch_Vibration] or [FusionVibration] states, this Coin deals +50% damage<style=\"highlight\"></style>"
+                  "desc": "Se il bersaglio è affetto da [Switch_Vibration] o [FusionVibration], questa Moneta infligge +50% danni<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target isn't in an [Switch_Vibration] state, trigger [Switch_Vibration] into [VibrationCollapse]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Se il bersaglio non è affetto da [Switch_Vibration], attiva [Switch_Vibration] in [VibrationCollapse]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Vibration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict 2 [PenetrateTakeDamageUp] (once per turn)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Infligge 2 [PenetrateTakeDamageUp] (una volta per turno)</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] sul bersaglio di 1<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[ComboSkill]: Dawn Office[TabExplain] Rep Gregor\n- Deal +30% damage\n- [OnSucceedAttack] Inflict +2 [Vibration] Count<style=\"highlight\"></style>"
+                  "desc": "[ComboSkill] con: Rappresentante dell'Ufficio Alba[TabExplain] Gregor\n- Infligge +30% danni\n- [OnSucceedAttack] Infligge +2 Conteggio [Vibration]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3453,16 +3453,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Catch Breath",
-          "desc": "[StartBattle] Gain 1 [SupportProtect] (2 times per turn)\n[OnSucceedEvade] \n- Gain 2 [Breath] (3 times per turn)\n- Gain 2 [Agility] next turn (once per turn)",
+          "name": "Prendere Fiato",
+          "desc": "[StartBattle] Ottiene 1 [SupportProtect] (2 volte per turno)\n[OnSucceedEvade] \n- Ottiene 2 [Breath] (3 volte per turno)\n- Ottiene 2 [Agility] il turno successivo (una volta per turno)",
           "coinlist": [
             {}
           ]
         },
         {
           "level": 4,
-          "name": "Catch Breath",
-          "desc": "[StartBattle] Gain 1 [SupportProtect] (2 times per turn)\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 3 [Breath] Potency on self (max 2)</style>\n[OnSucceedEvade] \n- Gain 2 [Breath] (3 times per turn)\n- Gain 2 [Agility] next turn (once per turn)",
+          "name": "Prendere Fiato",
+          "desc": "[StartBattle] Ottiene 1 [SupportProtect] (2 volte per turno)\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 3 Potenza [Breath] su di sé (max 2)</style>\n[OnSucceedEvade] \n- Ottiene 2 [Breath] (3 volte per turno)\n- Ottiene 2 [Agility] il turno successivo (una volta per turno)",
           "coinlist": [
             {}
           ]
@@ -3474,39 +3474,39 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Assume Wedge Formation",
-          "desc": "[CantDuel]\n[WhenUse] At 8+ [Breath] Potency, Coin Power +1\n[WhenUse] If target has 8+ [Vibration] Potency, Final Power +1\n[WhenUse] Gain +3 [Breath] Count\n[EndSkill]\n- Consume 25 [ComboWedge] on self\n- Apply 1 [PenetrateResultUp] next turn to other allied \"Wedge Office[TabExplain]\" Identities\n- Gain 1 [ComboWedgeDawn]",
+          "name": "Assumere la Formazione Cuneo",
+          "desc": "[CantDuel]\n[WhenUse] A 8+ Potenza [Breath], Potere Moneta +1\n[WhenUse] Se il bersaglio ha 8+ Potenza [Vibration], Potere Finale +1\n[WhenUse] Ottiene +3 Conteggio [Breath]\n[EndSkill]\n- Consuma 25 [ComboWedge] su di sé\n- Applica 1 [PenetrateResultUp] il turno successivo alle altre Identità alleate \"Ufficio Cuneo[TabExplain]\"\n- Ottiene 1 [ComboWedgeDawn]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[ComboSkill]: Wedge Office[TabExplain] Fixer Don Quixote\n- Deal +30% damage\n- On final Coin Hit, trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[ComboSkill] con: Fixer dell'Ufficio Cuneo[TabExplain] Don Quixote\n- Infligge +30% danni\n- Quando la Moneta finale colpisce, innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
                 },
                 {
-                  "desc": "[ComboSkill]: Wedge Office[TabExplain] Fixer Sinclair\n- Deal +30% damage\n- On final Coin Hit, trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[ComboSkill] con: Fixer dell'Ufficio Cuneo[TabExplain] Sinclair\n- Infligge +30% danni\n- Quando la Moneta finale colpisce, innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] del bersaglio di 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +30% damage on Critical Hit"
+                  "desc": "Infligge +30% danni su Colpo Critico"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] sul bersaglio di 1"
                 }
               ]
             }
@@ -3519,45 +3519,45 @@
       "levelList": [
         {
           "level": 3,
-          "name": "... All units, engage for collision.",
-          "desc": "[WhenUse] Coin Power +1 for every 8 [Breath] Potency on self (max 2)\n[WhenUse] Final Power +1 for every 8 [Vibration] Potency on target (max 2)\n[WhenUse]\n- Gain +3 [Breath] Count\n- Gain Atk Weight equal to the number of other non-immobilized[TabExplain] allied \"Wedge Office[TabExplain]\" Identities (max 2)\n[WhenUse] Deal +30% damage for every excess Atk Weight beyond the # of actual targets (in Focused Encounters, the Part)\n[EndSkill]\n- Consume all [ComboWedgeDawn] on self",
+          "name": "... A tutte le unità, preparatevi allo scontro",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 8 Potenza [Breath] su di sé (max 2)\n[WhenUse] Potere Finale +1 per ogni 8 Potenza [Vibration] sul bersaglio (max 2)\n[WhenUse]\n- Ottiene +3 Conteggio [Breath]\n- Ottiene Portata Attacco pari al numero delle altre Identità alleate \"Ufficio Cuneo[TabExplain]\" non immbilizzate[TabExplain] (max 2)\n[WhenUse] Infligge +30% danni per ogni Portata Attacco in eccesso oltre il numero di bersagli attuali (negli Incontri Mirati, le Parti)\n[EndSkill]\n- Usa tutte le Stack di [ComboWedgeDawn] su di sé",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [FusionVibration] into [VibrationCollapse]"
+                  "desc": "[OnSucceedAttack] Innesca [FusionVibration] in [VibrationCollapse]"
                 },
                 {
-                  "desc": "[ComboSkill]: Dawn Office[TabExplain] Fixer Faust\n- Deal +20% damage\n- [OnSucceedAttack] Inflict 3 [Combustion]\n- [OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationIgnition]"
+                  "desc": "[ComboSkill] con: Fixer dell'Ufficio Alba[TabExplain] Faust\n- Infligge +20% danni\n- [OnSucceedAttack] Infligge 3 [Combustion]\n- [OnSucceedAttack] Innesca [Switch_Vibration] in [VibrationIgnition]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration]"
                 },
                 {
-                  "desc": "[ComboSkill]: Wedge Office[TabExplain] Fixer Don Quixote\n- Deal +20% damage on Critical Hit\n- [OnSucceedAttack] Inflict +2 [Vibration]"
+                  "desc": "[ComboSkill] con: Fixer dell'Ufficio Cuneo[TabExplain] Don Quixote\n- Infligge +20% danni su Colpo Critico\n- [OnSucceedAttack] Infligge +2 [Vibration]"
                 },
                 {
-                  "desc": "[ComboSkill]: Wedge Office[TabExplain] Fixer Sinclair\n- Deal +20% damage on Critical Hit\n- [OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[ComboSkill] con: Fixer dell'Ufficio Cuneo[TabExplain] Sinclair\n- Infligge +20% danni su Colpo Critico\n- [OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] sul bersaglio di 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] sul bersaglio di 1"
                 },
                 {
-                  "desc": "[ComboSkill]: Dawn Office[TabExplain] Rep Gregor\n- Deal +20% damage\n- [OnSucceedAttack] Inflict 2 [Combustion]\n- [OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1\n- [OnSucceedAttack] Activate [Combustion] on target. Target loses 1 [Combustion] Count"
+                  "desc": "[ComboSkill] con: Rappresentante dell'Ufficio Alba[TabExplain] Gregor\n- Infligge +20% danni\n- [OnSucceedAttack] Infligge 2 [Combustion]\n- [OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] sul bersaglio di 1\n- [OnSucceedAttack] Attiva [Combustion] sul bersaglio. Il bersaglio perde 1 Conteggio [Combustion]"
                 }
               ]
             }
@@ -3570,45 +3570,45 @@
       "levelList": [
         {
           "level": 3,
-          "name": "The Wedge in the Wake of Dawnbreak",
-          "desc": "[WhenUse] Coin Power +1 for every 8 [Breath] Potency on self (max 2)\n[WhenUse] Final Power +1 for every 8 [Vibration] Potency on target (max 2)\n[WhenUse]\n- Gain +3 [Breath] Count\n- Gain Atk Weight equal to the number of other non-immobilized[TabExplain] allied \"Wedge Office[TabExplain]\" Identities (max 2)\n[WhenUse] Deal +30% damage for every excess Atk Weight beyond the # of actual targets (in Focused Encounters, the Part)\n[WinDuel] Trigger [FusionVibration] into [VibrationCollapse]\n[EndSkill]\n- Consume all [ComboWedgeDawn] on self",
+          "name": "Il Cuneo alle Prime Luci dell'Alba",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 8 Potenza [Breath] su di sé (max 2)\n[WhenUse] Potere Finale +1 per ogni 8 Potenza [Vibration] sul bersaglio (max 2)\n[WhenUse]\n- Ottiene +3 Conteggio [Breath]\n- Ottiene Portata Attacco pari al numero delle altre Identità alleate \"Ufficio Cuneo[TabExplain]\" non immbilizzate[TabExplain] (max 2)\n[WhenUse] Infligge +30% danni per ogni Portata Attacco in eccesso oltre il numero di bersagli attuali (negli Incontri Mirati, le Parti)\n[WinDuel] Innesca [FusionVibration] in [VibrationCollapse]\n[EndSkill]\n- Usa tutte le Stack di [ComboWedgeDawn] su di sé",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Vibration]"
                 },
                 {
-                  "desc": "[ComboSkill]: Dawn Office[TabExplain] Fixer Faust\n- Deal +20% damage\n- [OnSucceedAttack] Inflict 3 [Combustion]\n- [OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationIgnition]"
+                  "desc": "[ComboSkill] con: Fixer dell'Ufficio Alba[TabExplain] Faust\n- Infligge +20% danni\n- [OnSucceedAttack] Infligge 3 [Combustion]\n- [OnSucceedAttack] Innesca [Switch_Vibration] in [VibrationIgnition]"
                 },
                 {
-                  "desc": "[ComboSkill]: Dawn Office[TabExplain] Rep Gregor\n- Deal +20% damage\n- [OnSucceedAttack] Inflict 2 [Combustion]\n- [OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1\n- [OnSucceedAttack] Activate [Combustion] on target. Target loses 1 [Combustion] Count"
+                  "desc": "[ComboSkill] con: Rappresentante dell'Ufficio Alba[TabExplain] Gregor\n- Infligge +20% danni\n- [OnSucceedAttack] Infligge 2 [Combustion]\n- [OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] sul bersaglio di 1\n- [OnSucceedAttack] Attiva [Combustion] sul bersaglio. Il bersaglio perde 1 Conteggio [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration]"
                 },
                 {
-                  "desc": "[ComboSkill]: Wedge Office[TabExplain] Fixer Don Quixote\n- Deal +20% damage on Critical Hit\n- [OnSucceedAttack] Inflict +2 [Vibration]"
+                  "desc": "[ComboSkill] con: Fixer dell'Ufficio Cuneo[TabExplain] Don Quixote\n- Infligge +20% danni su Colpo Critico\n- [OnSucceedAttack] Infligge +2 [Vibration]"
                 },
                 {
-                  "desc": "[ComboSkill]: Wedge Office[TabExplain] Fixer Sinclair\n- Deal +20% damage on Critical Hit\n- [OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[ComboSkill] con: Fixer dell'Ufficio Cuneo[TabExplain] Sinclair\n- Infligge +20% danni su Colpo Critico\n- [OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] sul bersaglio di 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +100% damage on Critical Hit"
+                  "desc": "Infligge +100% danni su Colpo Critico"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] sul bersaglio di 1"
                 }
               ]
             }
@@ -3621,8 +3621,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Step Aside.",
-          "desc": "[DuelCounter]\n[SupportProtect] Exclusive Skill\n[WhenUse] Clash Power +1 for every 20% missing HP on self (max 4)\n[WhenUse]\n- This unit and the ally this unit used [SupportProtect] on heal 5 SP\n- Gain Shield equal to 15% HP (once per turn)",
+          "name": "Fatti da Parte.",
+          "desc": "[DuelCounter]\nAbilità Esclusiva di [SupportProtect]\n[WhenUse] Potere Scontro +1 per ogni 20% di PV mancanti su di sé (max 4)\n[WhenUse]\n- Questa unità e l'alleato su cui ha usato [SupportProtect] recuperano 5 PS\n- Ottiene Scudo pari al 15% dei PV (una volta per turno)",
           "coinlist": [
             {
               "coindescs": [
@@ -3630,10 +3630,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 [Breath]"
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Breath]"
                 }
               ]
             },
@@ -3643,10 +3643,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 [Breath]"
+                  "desc": "[OnSucceedAttack] Ottiene 2 [Breath]"
                 }
               ]
             }
