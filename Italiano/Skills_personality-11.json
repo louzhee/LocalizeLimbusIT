@@ -3405,6 +3405,9 @@
                   "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] sul bersaglio di 1"
                 },
                 {
+                  "desc": "[OnSucceedAttack] Infligge danno Perforante pari al 100% del danno finale di questa Moneta"
+                },
+                {
                   "desc": "[ComboSkill] con: Rappresentante dell'Ufficio Alba[TabExplain] Gregor\n- Infligge +30% danni\n- [OnSucceedAttack] Infligge +2 Conteggio [Vibration]"
                 }
               ]
@@ -3438,6 +3441,9 @@
                 },
                 {
                   "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] sul bersaglio di 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge danno Perforante pari al 100% del danno finale di questa Moneta"
                 },
                 {
                   "desc": "[ComboSkill] con: Rappresentante dell'Ufficio Alba[TabExplain] Gregor\n- Infligge +30% danni\n- [OnSucceedAttack] Infligge +2 Conteggio [Vibration]<style=\"highlight\"></style>"
@@ -3520,7 +3526,7 @@
         {
           "level": 3,
           "name": "... A tutte le unità, preparatevi allo scontro",
-          "desc": "[WhenUse] Potere Moneta +1 per ogni 8 Potenza [Breath] su di sé (max 2)\n[WhenUse] Potere Finale +1 per ogni 8 Potenza [Vibration] sul bersaglio (max 2)\n[WhenUse]\n- Ottiene +3 Conteggio [Breath]\n- Ottiene Portata Attacco pari al numero delle altre Identità alleate \"Ufficio Cuneo[TabExplain]\" non immbilizzate[TabExplain] (max 2)\n[WhenUse] Infligge +30% danni per ogni Portata Attacco in eccesso oltre il numero di bersagli attuali (negli Incontri Mirati, le Parti)\n[EndSkill]\n- Usa tutte le Stack di [ComboWedgeDawn] su di sé",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 8 Potenza [Breath] su di sé (max 2)\n[WhenUse] Potere Finale +1 per ogni 8 Potenza [Vibration] sul bersaglio (max 2)\n[WhenUse]\n- Ottiene +3 Conteggio [Breath]\n- Ottiene Portata Attacco pari al numero delle altre Identità alleate \"Ufficio Cuneo[TabExplain]\" non immbilizzate[TabExplain] (max 2)\n[WhenUse] Infligge +60% danni per ogni Portata Attacco in eccesso oltre il numero di bersagli attuali (negli Incontri Mirati, le Parti)\n[EndSkill]\n- Usa tutte le Stack di [ComboWedgeDawn] su di sé",
           "coinlist": [
             {
               "coindescs": [
@@ -3531,6 +3537,9 @@
                   "desc": "[OnSucceedAttack] Innesca [FusionVibration] in [VibrationCollapse]"
                 },
                 {
+                  "desc": "[OnSucceedAttack] Infligge danno Perforante pari al 15% del danno finale di questa Moneta"
+                },
+                {
                   "desc": "[ComboSkill] con: Fixer dell'Ufficio Alba[TabExplain] Faust\n- Infligge +20% danni\n- [OnSucceedAttack] Infligge 3 [Combustion]\n- [OnSucceedAttack] Innesca [Switch_Vibration] in [VibrationIgnition]"
                 }
               ]
@@ -3539,6 +3548,9 @@
               "coindescs": [
                 {
                   "desc": "[OnSucceedAttack] Infligge 1 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge danno Perforante pari al 15% del danno finale di questa Moneta"
                 },
                 {
                   "desc": "[ComboSkill] con: Fixer dell'Ufficio Cuneo[TabExplain] Don Quixote\n- Infligge +20% danni su Colpo Critico\n- [OnSucceedAttack] Infligge +2 [Vibration]"
@@ -3557,6 +3569,9 @@
                   "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] sul bersaglio di 1"
                 },
                 {
+                  "desc": "[OnSucceedAttack] Infligge danno Perforante pari al 15% del danno finale di questa Moneta"
+                },
+                {
                   "desc": "[ComboSkill] con: Rappresentante dell'Ufficio Alba[TabExplain] Gregor\n- Infligge +20% danni\n- [OnSucceedAttack] Infligge 2 [Combustion]\n- [OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] sul bersaglio di 1\n- [OnSucceedAttack] Attiva [Combustion] sul bersaglio. Il bersaglio perde 1 Conteggio [Combustion]"
                 }
               ]
@@ -3571,12 +3586,15 @@
         {
           "level": 3,
           "name": "Il Cuneo alle Prime Luci dell'Alba",
-          "desc": "[WhenUse] Potere Moneta +1 per ogni 8 Potenza [Breath] su di sé (max 2)\n[WhenUse] Potere Finale +1 per ogni 8 Potenza [Vibration] sul bersaglio (max 2)\n[WhenUse]\n- Ottiene +3 Conteggio [Breath]\n- Ottiene Portata Attacco pari al numero delle altre Identità alleate \"Ufficio Cuneo[TabExplain]\" non immbilizzate[TabExplain] (max 2)\n[WhenUse] Infligge +30% danni per ogni Portata Attacco in eccesso oltre il numero di bersagli attuali (negli Incontri Mirati, le Parti)\n[WinDuel] Innesca [FusionVibration] in [VibrationCollapse]\n[EndSkill]\n- Usa tutte le Stack di [ComboWedgeDawn] su di sé",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 8 Potenza [Breath] su di sé (max 2)\n[WhenUse] Potere Finale +1 per ogni 8 Potenza [Vibration] sul bersaglio (max 2)\n[WhenUse]\n- Ottiene +3 Conteggio [Breath]\n- Ottiene Portata Attacco pari al numero delle altre Identità alleate \"Ufficio Cuneo[TabExplain]\" non immbilizzate[TabExplain] (max 2)\n[WhenUse] Infligge +60% danni per ogni Portata Attacco in eccesso oltre il numero di bersagli attuali (negli Incontri Mirati, le Parti)\n[WinDuel] Innesca [FusionVibration] in [VibrationCollapse]\n[EndSkill]\n- Usa tutte le Stack di [ComboWedgeDawn] su di sé",
           "coinlist": [
             {
               "coindescs": [
                 {
                   "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge danno Perforante pari al 20% del danno finale di questa Moneta"
                 },
                 {
                   "desc": "[ComboSkill] con: Fixer dell'Ufficio Alba[TabExplain] Faust\n- Infligge +20% danni\n- [OnSucceedAttack] Infligge 3 [Combustion]\n- [OnSucceedAttack] Innesca [Switch_Vibration] in [VibrationIgnition]"
@@ -3592,6 +3610,9 @@
                   "desc": "[OnSucceedAttack] Infligge 1 [Vibration]"
                 },
                 {
+                  "desc": "[OnSucceedAttack] Infligge danno Perforante pari al 20% del danno finale di questa Moneta"
+                },
+               {
                   "desc": "[ComboSkill] con: Fixer dell'Ufficio Cuneo[TabExplain] Don Quixote\n- Infligge +20% danni su Colpo Critico\n- [OnSucceedAttack] Infligge +2 [Vibration]"
                 },
                 {
@@ -3609,6 +3630,9 @@
                 },
                 {
                   "desc": "[OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] sul bersaglio di 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Infligge danno Perforante pari al 20% del danno finale di questa Moneta"
                 }
               ]
             }
