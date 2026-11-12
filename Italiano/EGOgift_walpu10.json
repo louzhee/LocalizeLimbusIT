@@ -2,8 +2,8 @@
   "dataList": [
     {
       "id": 9292,
-      "name": "Role Model",
-      "desc": "If there are 2 or more \"Fixer\" Identities in the Team Loadout, activate the following effect for 1 \"Fixer\" ally with the lattermost Deployment Order (excluding Backup units):\n- Upon entering the Encounter for the first time, gain [Emulation]\n\nTurn Start: Allied \"Fixer\" Identities heal 2 SP for every 2 allied \"Fixer\" Identities on the field\n\nIf there are 3 or more \"Fixer\" Identities of the same faction on the field, activate the following effect:\n- Base Attack Skills of allies that have [Emulation] deal +(# of \"Fixer\" allies on the field x 3)% damage (max 15%)\n\nIf there are 3 or more \"Fixer\" Identities of different factions on the field, activate the following effect:\n- On Base Attack Skill Use by an ally that has [Emulation], the said ally gains 1 [Enhancement] (2 times per turn)\n- On Hit using a Base Attack Skill by an ally that has [Emulation], inflict 1 [Vulnerable] (2 times per turn; in Focused Encounters, the Part)",
+      "name": "Buon Esempio",
+      "desc": "Se ci sono 2 o più Identità \"Fixer\" in Squadra, attiva il seguente effetto per 1 \"Fixer\" alleato Schierato per ultimo (unità di Riserva escluse):\n- Quando si entra nell'Incontro per la prima volta, ottieni [Emulation]\n\nInizio Turno: Le Identità \"Fixer\" alleate recuperano 2 PS per ogni 2 Identità \"Fixer\" alleate in campo\n\nSe ci sono 3 o più Identità \"Fixer\" della stessa fazione in campo, attiva il seguente effetto:\n- Le Abilità Attacco Base degli alleati che hanno [Emulation] infliggono +(n° di \"Fixer\" alleati in campo x 3)% danni (max 15%)\n\nSe ci sono 3 o più Identità \"Fixer\" di fazioni differenti in campo, attiva il seguente effetto:\n- All'Uso di Abilità Attacco Base da un alleato che ha [Emulation], tale alleato ottiene 1 [Enhancement] (2 volte per turno)\n- Per Colpo tramite un'Abilità Attacco Base da un alleato che ha [Emulation], infliggi 1 [Vulnerable] (2 volte per turno; negli Incontri Mirati, la Parte)",
       "simpleDesc": [
         {
           "abilityID": 9292,
@@ -13,74 +13,74 @@
     },
     {
       "id": 9293,
-      "name": "Carefully-selected Medicinal Herbs",
-      "desc": "Attack Skills additionally triggered by Skills that have the [ComboSkill] effect or triggered by allies' Skill / Passive effects deal +10% damage\n- Deal an additional +2% damage every time the above effect activates (max 10%)\n- For Skills that have the [ComboSkill] effect, gain 1 [AttackDmgUp] every time the said Skills are used (max 2 per Identity)\n- If the ally is a \"<noparse>Dawn Office</noparse>\" or \"<noparse>Wedge Office</noparse>\" Identity, the said ally gains 1 [Enhancement] (max 2 per Identity)",
+      "name": "Erbe Mediche Attentamente Selezionate",
+      "desc": "Le Abilità Attacco attivate da Abilità che hanno l'effetto [ComboSkill], o attivate dagli effetti di Abilità / Passive degli alleati, infliggono +10% danni\n- Infliggi un ulteriore +2% danni ogni volta che l'effetto sopracitato si attiva (max 10%)\n- Per Abilità che hanno l'effetto [ComboSkill], ottieni 1 [AttackDmgUp] ogni volta che tali Abilità vengono usate (max 2 per Identità)\n- Se l'alleato è un'Identità dell'\"<noparse>Ufficio Alba</noparse>\" o dell'\"<noparse>Ufficio Cuneo</noparse>\", l'alleato ottiene 1 [Enhancement] (max 2 per Identità)",
       "simpleDesc": [
         {
           "abilityID": 9293,
-          "simpleDesc": "<noparse>Deal more damage</noparse>, gain [AttackDmgUp]. Gain [Enhancement] upon fulfilling conditions"
+          "simpleDesc": "<noparse>Infliggi più danni</noparse>, ottieni [AttackDmgUp]. Ottieni [Enhancement] a condizioni soddisfatte"
         }
       ]
     },
     {
       "id": 9294,
-      "name": "Hollow Pride",
-      "desc": "Encounter Start: Apply [CursedBlessing] to 1 random ally\nThis E.G.O Gift changes into \"Pride of the Knight\" after 6 Encounter wins in which the Identity that has [CursedBlessing] survives\n{0}",
+      "name": "Orgoglio Vuoto",
+      "desc": "Inizio Incontro: Applica [CursedBlessing] ad 1 alleato casuale\nQuesto Dono E.G.O diventa \"Pride of the Knight\" dopo 6 Incontri vinti con l'Identità in possesso di [CursedBlessing] viva\n{0}",
       "simpleDesc": [
         {
           "abilityID": 9294,
-          "simpleDesc": "Apply [CursedBlessing]"
+          "simpleDesc": "Applica [CursedBlessing]"
         }
       ]
     },
     {
       "id": 9295,
-      "name": "Pride of the Knight",
-      "desc": "[Effects apply only to #1 Deployed Identity]\nRemove all Stagger thresholds\nEncounter Start: Apply [BeyondDespair]",
+      "name": "Orgoglio del Cavaliere",
+      "desc": "[Gli effetti si applicano solo alla 1° Identità Schierata]\nRimuovi tutte le soglie di Stordimento\nInizio Incontro: Applica [BeyondDespair]",
       "simpleDesc": [
         {
           "abilityID": 9295,
-          "simpleDesc": "Apply [BeyondDespair]"
+          "simpleDesc": "Applica [BeyondDespair]"
         }
       ]
     },
     {
       "id": 9296,
-      "name": "Sword Laced with Grief",
-      "desc": "Pierce Base Skills that inflict [Sinking] Potency, Count, or Unique [Sinking] gain Final Power +1\n\nOn Hit by an ally using a Skill, if target has -20 or lower SP, deal Gloom damage equal to [Sinking] Potency to target (once per Skill)\n- If the said Skill was a Pierce Skill, deal additional fixed damage equal to ([Sinking] Count on target / 2) (once per Skill)\n\n[Lobotomy E.G.O::<noparse>The Sword Sharpened with Tears</noparse> Rodion Exclusive Effect]\nOn Hit against an enemy using the final Coin of a Base Skill that consumes [Charge] and has 1 Atk Weight, deal Pride damage to all enemies equal to ([Charge] Potency consumed)% of final damage (including Unique [Charge])\n\n[<noparse>The Sword Sharpened with Tears</noparse> Hong Lu E.G.O Skill Exclusive Effect]\nE.G.O Skill Final Power +1",
+      "name": "Spada Intrisa di Dolore",
+      "desc": "Le Abilità Base Perforanti che infliggono Potenza, Conteggio [Sinking] o [Sinking] Speciale ottengono Potere Finale +1\n\nPer Colpo tramite un'Abilità di un alleato, se il bersaglio -20 o meno PS, infliggi danni Tristezza pari alla Potenza [Sinking] sul bersaglio (una volta per Abilità)\n- Se tale Abilità era un'Abilità Perforante, infliggi un ulteriore danno fisso pari a (Conteggio [Sinking] sul bersaglio / 2) (una volta per Abilità)\n\n[Effetto Esclusivo per Lobotomy E.G.O::<noparse>The Sword Sharpened with Tears</noparse> Rodion]\nPer Colpo contro un nemico tramite la Moneta finale di un'Abilità Base che consuma [Charge] e ha Portata d'Attacco a 1, infliggi danni Superbia pari a (Potenza [Charge] consumata)% del danno finale su tutti i nemici (incluso [Charge] Speciale)\n\n[Effetto Esclusivo per l'Abilità E.G.O <noparse>The Sword Sharpened with Tears</noparse> di Hong Lu]\nPotere Finale +1 per Abilità E.G.O",
       "simpleDesc": [
         {
           "abilityID": 9296,
-          "simpleDesc": "Skills gain Final Power, deal Gloom damage; if target has low SP, deal fixed damage"
+          "simpleDesc": "Le Abilità ottengono Potere Finale, infliggi danni Tristezza; se il bersaglio ha PS bassi, infliggi danni fissi"
         }
       ]
     },
     {
       "id": 9297,
-      "name": "White Cravat",
-      "desc": "Turn Start: Activates when there are 3 or more \"<noparse>Wedge Office</noparse>\" Identities (counts Backup Identities)\n\n[<noparse>Wedge Office</noparse> Rep Outis Exclusive Effect]\n- Turn Start: If the condition above was met for the first time, gain 20 [ComboWedge]\n- Upon using \"Assume Wedge Formation\", \"... All units, engage for collision.\", \"The Wedge in the Wake of Dawnbreak\", gain 1 [ComboWedgeDawn] next turn (2 times per turn)\n- If \"Assume Wedge Formation\" was used, regain half of the consumed [ComboWedge] at the next Turn Start (once per turn, rounded down)",
+      "name": "Foulard Bianco",
+      "desc": "Inizio Turno: Si attiva quando ci sono 3 o più Identità dell'\"<noparse>Ufficio Cuneo</noparse>\" (contano anche le Identità di Riserva)\n\n[Effetto Esclusivo per Rappresentante dell'<noparse>Ufficio Cuneo</noparse> Outis]\n- Inizio Turno: Se la condizione sopracitata è stata soddisfatta per la prima volta, ottieni 20 [ComboWedge]\n- Quando usi \"Assume Wedge Formation\", \"... All units, engage for collision.\", \"The Wedge in the Wake of Dawnbreak\", ottieni 1 [ComboWedgeDawn] nel turno successivo (2 volte per turno)\n- Se \"Assume Wedge Formation\" è stato usato, riottieni metà del [ComboWedge] consumato al prossimo Inizio Turno (una volta per turno, arrotondato per difetto)",
       "simpleDesc": [
         {
           "abilityID": 9297,
-          "simpleDesc": "Gain [ComboWedge] or [ComboWedgeDawn]"
+          "simpleDesc": "Ottieni [ComboWedge] o [ComboWedgeDawn]"
         }
       ]
     },
     {
       "id": 9298,
-      "name": "Black Tricorne",
-      "desc": "In a Clash, inflict 2 [Vibration] on the enemy for every Clash (3 times per Skill)\n\nOn Crit by an ally using a Basic Attack Skill against enemies, if the main target has [Vibration], trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1 (once per Skill)\n- If the enemy is in [Switch_Vibration] state, deal +10% damage on Critical Hit\n- If the enemy is in [VibrationNesting] state, deal an additional +5% damage on Critical Hit for each type of <noparse>superposed</noparse> Unique [Vibration] (max 25%)",
+      "name": "Tricorno Nero",
+      "desc": "In uno Scontro, infliggi 2 [Vibration] al nemico per ogni Scontro (3 volte per Abilità)\n\nPer Critico da un'Abilità Attacco Base alleata contro un nemico, se il bersaglio principale ha [Vibration], innesca [VibrationExplosion]; dopo, diminuisci il Conteggio [Vibration] del bersaglio di 1 (una volta per Abilità)\n- Se il nemico è nello stato [Switch_Vibration], infliggi +10% danni per Colpo Critico\n- Se il nemico è nello stato [VibrationNesting], infliggi un ulteriore +5% danni per Colpo Critico per ogni tipo di <noparse>superposed</noparse> Unique [Vibration] (max 25%)",
       "simpleDesc": [
         {
           "abilityID": 9298,
-          "simpleDesc": "In a Clash, inflict Tremor\nTrigger Tremor Burst when conditions are met, Skills deal more damage on Critical Hit"
+          "simpleDesc": "In uno Scontro, infliggi Vibrazione\nInnesca Scoppio Vibrazione a condizioni soddisfatte, le Abilità infliggono più danni per Colpo Critico"
         }
       ]
     },
     {
       "id": 9299,
-      "name": "Backup Body Adaptation Device",
-      "desc": "When triggering [VibrationExplosion] on enemies that have [VibrationCollapse], deal Sloth damage to each target equal to (each target's Defense Level reduction)% of the damage dealt (max 15%)",
+      "name": "Dispositivo di Adattamento Corpo di Riserva",
+      "desc": "Quando viene innescato [VibrationExplosion] sui nemici che hanno [VibrationCollapse], infliggi danni Accidia a ciascun bersaglio pari a (riduzione del Livello Difensivo di ogni bersaglio)% dei danni inflitti (max 15%)",
       "simpleDesc": [
         {
           "abilityID": 9299,
@@ -90,12 +90,12 @@
     },
     {
       "id": 9300,
-      "name": "Broken Spearhead",
-      "desc": "On Crit using a Pierce Base Attack Skill, inflict [EmbeddedSpearhead] on target at Attack End (once per turn per Identity; in Focused Encounters, the Parts)",
+      "name": "Punta Rotta",
+      "desc": "Per Critico tramite un'Abilità Attacco Base Perforante, infliggi [EmbeddedSpearhead] sul bersaglio a Fine Attacco (una volta per turno per Identità; negli Incontri Mirati, le Parti)",
       "simpleDesc": [
         {
           "abilityID": 9300,
-          "simpleDesc": "Inflict [EmbeddedSpearhead]"
+          "simpleDesc": "Infliggi [EmbeddedSpearhead]"
         }
       ]
     }
