@@ -1316,9 +1316,9 @@
       "levelList": [
         {
           "level": 1,
-          "name": "The Sword Sharpened with Tears",
-          "abName": "The Knight of Despair",
-          "desc": "[CantChangeTarget]\n[SupportAlly]\nDeal +20% damage for every [DespairKnightEGOSword] on self\n[BeforeAttack] Deal +1% damage for every 20 [DespairKnightEGOMind] on self\n[BeforeAttack] If target is an enemy, Atk Weight +2\n[BeforeAttack] Gain +3 [Breath] Count\n[BeforeAttack] Gain +6 [Charge] Count\n[BeforeAttack] At 999 [DespairKnightEGOMind], consume all [DespairKnightEGOMind] Stacks to gain 1 [CriticalDamageUp] next turn\n\n[EndSkill] Gain 1 [DespairKnightEGOSword]\n[EndSkill] Gain 100 [DespairKnightEGOMind]\n\n[EndSkill] If target is an ally:\n- If target is [PersonalityBreath] or [PersonalityCharge] Identity, apply 2 [AttackDmgUp]\n- Apply 5 [Breath] Potency\n- Apply +3 [Breath] Count on target\n- Apply +6 [Charge] Count on target\n- Apply Shield equal to 20% of this unit's max HP\n- Apply [DespairKnightEGOProtect]",
+          "name": "La Spada Affilata con le Lacrime",
+          "abName": "Il Cavaliere della Disperazione",
+          "desc": "[CantChangeTarget]\n[SupportAlly]\nInfligge +20% danni per ogni [DespairKnightEGOSword] su di sé\n[BeforeAttack] Infligge +1% danni per ogni 20 [DespairKnightEGOMind] su di sé\n[BeforeAttack] Se il bersaglio è un nemico, Portata Attacco +2\n[BeforeAttack] Ottiene +3 Conteggio [Breath]\n[BeforeAttack] Ottiene +6 Conteggio [Charge]\n[BeforeAttack] A 999 [DespairKnightEGOMind], usa tutte le Stack di [DespairKnightEGOMind] per ottenere 1 [CriticalDamageUp] il turno successivo\n\n[EndSkill] Ottiene 1 [DespairKnightEGOSword]\n[EndSkill] Ottiene 100 [DespairKnightEGOMind]\n\n[EndSkill] Se il bersaglio è un alleato:\n- Se il bersaglio è un'[PersonalityBreath] o un'[PersonalityCharge], applica 2 [AttackDmgUp]\n- Applica 5 Potenza [Breath]\n- Applica +3 Conteggio [Breath] sul bersaglio\n- Applica +6 Conteggio [Charge] sul bersaglio\n- Applica Scudo pari al 20% dei PV max di questa unità\n- Applica [DespairKnightEGOProtect]",
           "coinlist": [
             {
               "coindescs": [
@@ -1338,9 +1338,9 @@
         },
         {
           "level": 3,
-          "name": "The Sword Sharpened with Tears",
-          "abName": "The Knight of Despair",
-          "desc": "[CantChangeTarget]\n[SupportAlly]\nDeal +<style=\"highlight\">30</style>% damage for every [DespairKnightEGOSword] on self\n<style=\"highlight\">Deal +30% damage for every excess Atk Weight beyond the # of actual targets (in Focused Encounters, the Parts)</style>\n[BeforeAttack] Deal +1% damage for every 20 [DespairKnightEGOMind] on self\n[BeforeAttack] If target is an enemy, Atk Weight +2\n[BeforeAttack] Gain +3 [Breath] Count\n[BeforeAttack] Gain +6 [Charge] Count\n[BeforeAttack] At 999 [DespairKnightEGOMind], consume all [DespairKnightEGOMind] Stacks to gain 1 [CriticalDamageUp] next turn\n\n[EndSkill] Gain 1 [DespairKnightEGOSword]\n[EndSkill] Gain 100 [DespairKnightEGOMind]\n\n[EndSkill] If target is an ally:\n- If target is [PersonalityBreath] or [PersonalityCharge] Identity, apply 2 [AttackDmgUp]\n- Apply 5 [Breath] Potency\n- Apply +3 [Breath] Count on target\n- Apply +6 [Charge] Count on target\n- Apply Shield equal to 20% of this unit's max HP\n- Apply [DespairKnightEGOProtect]\n<style=\"highlight\">- Heal 15 SP on target and self</style>",
+          "name": "La Spada Affilata con le Lacrime",
+          "abName": "Il Cavaliere della Disperazione",
+          "desc": "[CantChangeTarget]\n[SupportAlly]\nInfligge +<style=\"highlight\">30</style>% danni per ogni [DespairKnightEGOSword] su di sé\n<style=\"highlight\">Infligge +30% danni per ogni excess Portata Attacco beyond the # of actual targets (in Focused Encounters, the Parts)</style>\n[BeforeAttack] Infligge +1% danni per ogni 20 [DespairKnightEGOMind] su di sé\n[BeforeAttack] Se il bersaglio è un nemico, Portata Attacco +2\n[BeforeAttack] Ottiene +3 Conteggio [Breath]\n[BeforeAttack] Ottiene +6 Conteggio [Charge]\n[BeforeAttack] A 999 [DespairKnightEGOMind], usa tutte le Stack di [DespairKnightEGOMind] per ottenere 1 [CriticalDamageUp] il turno successivo\n\n[EndSkill] Ottiene 1 [DespairKnightEGOSword]\n[EndSkill] Ottiene 100 [DespairKnightEGOMind]\n\n[EndSkill] Se il bersaglio è un alleato:\n- Se il bersaglio è un'[PersonalityBreath] o un'[PersonalityCharge], applica 2 [AttackDmgUp]\n- Applica 5 Potenza [Breath]\n- Applica +3 Conteggio [Breath] sul bersaglio\n- Applica +6 Conteggio [Charge] sul bersaglio\n- Applica Scudo pari al 20% dei PV max di questa unità\n- Applica [DespairKnightEGOProtect]\n<style=\"highlight\">- Cura 15 PS al bersaglio e recupera 15 PS</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1360,9 +1360,9 @@
         },
         {
           "level": 4,
-          "name": "The Sword Sharpened with Tears",
-          "abName": "The Knight of Despair",
-          "desc": "[CantChangeTarget]\n[SupportAlly]\nDeal +<style=\"highlight\">50</style>% damage for every [DespairKnightEGOSword] on self\nDeal +<style=\"highlight\">50</style>% damage for every excess Atk Weight beyond the # of actual targets (in Focused Encounters, the Parts)\n[BeforeAttack] Deal +1% damage for every 20 [DespairKnightEGOMind] on self\n[BeforeAttack] If target is an enemy, Atk Weight +2\n[BeforeAttack] Gain +3 [Breath] Count\n[BeforeAttack] Gain +6 [Charge] Count\n[BeforeAttack] At 999 [DespairKnightEGOMind], consume all [DespairKnightEGOMind] Stacks to gain 1 [CriticalDamageUp] next turn\n\n[EndSkill] Gain 1 [DespairKnightEGOSword]\n[EndSkill] Gain 100 [DespairKnightEGOMind]\n\n[EndSkill] If target is an ally:\n- If target is [PersonalityBreath] or [PersonalityCharge] Identity, apply 2 [AttackDmgUp]\n- Apply 5 [Breath] Potency\n- Apply +3 [Breath] Count on target\n- Apply +6 [Charge] Count on target\n- Apply Shield equal to 20% of this unit's max HP\n- Apply [DespairKnightEGOProtect]\n- Heal 15 SP on target and self\n<style=\"highlight\">- Remove 1 random removable negative effect applied on target</style>",
+          "name": "La Spada Affilata con le Lacrime",
+          "abName": "Il Cavaliere della Disperazione",
+          "desc": "[CantChangeTarget]\n[SupportAlly]\nInfligge +<style=\"highlight\">50</style>% danni per ogni [DespairKnightEGOSword] su di sé\nInfligge +<style=\"highlight\">50</style>% danni per ogni excess Portata Attacco beyond the # of actual targets (in Focused Encounters, the Parts)\n[BeforeAttack] Infligge +1% danni per ogni 20 [DespairKnightEGOMind] su di sé\n[BeforeAttack] Se il bersaglio è un nemico, Portata Attacco +2\n[BeforeAttack] Ottiene +3 Conteggio [Breath]\n[BeforeAttack] Ottiene +6 Conteggio [Charge]\n[BeforeAttack] A 999 [DespairKnightEGOMind], usa tutte le Stack di [DespairKnightEGOMind] per ottenere 1 [CriticalDamageUp] il turno successivo\n\n[EndSkill] Ottiene 1 [DespairKnightEGOSword]\n[EndSkill] Ottiene 100 [DespairKnightEGOMind]\n\n[EndSkill] Se il bersaglio è un alleato:\n- Se il bersaglio è un'[PersonalityBreath] o un'[PersonalityCharge], applica 2 [AttackDmgUp]\n- Applica 5 Potenza [Breath]\n- Applica +3 Conteggio [Breath] sul bersaglio\n- Applica +6 Conteggio [Charge] sul bersaglio\n- Applica Scudo pari al 20% dei PV max di questa unità\n- Applica [DespairKnightEGOProtect]\n- Cura 15 PS al bersaglio e recupera 15 PS\n<style=\"highlight\">- Remove 1 random removable negative effect applied sul bersaglio</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1377,7 +1377,7 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">Deal +30% Damage on Critical Hit</style>"
+                  "desc": "<style=\"highlight\">Infligge +30% Damage on Critical Hit</style>"
                 }
               ]
             }
@@ -1390,9 +1390,9 @@
       "levelList": [
         {
           "level": 1,
-          "name": "The Sword Sharpened with Tears",
-          "abName": "The Knight of Despair",
-          "desc": "[CantIdentify]\nTargets randomly\nFinal Power +2 for every [DespairKnightEGOSword] on self\n[BeforeAttack] Deal +1% damage for every 10 [DespairKnightEGOMind] on self\n[BeforeAttack] Gain +3 [Breath] Count\n[BeforeAttack] Gain +6 [Charge] Count\n[BeforeAttack] Base Power -3 for every Cracked Coin (max 9)\n\n[EndSkill] Heal SP equal to ([DespairKnightEGOSword] on self x 5); then, [DespairKnightEGOSword] expires\n[EndSkill] [DespairKnightEGOMind] on self expires",
+          "name": "La Spada Affilata con le Lacrime",
+          "abName": "Il Cavaliere della Disperazione",
+          "desc": "[CantIdentify]\nTargets randomly\nFinal Power +2 for every [DespairKnightEGOSword] su di sé\n[BeforeAttack] Infligge +1% danni per ogni 10 [DespairKnightEGOMind] su di sé\n[BeforeAttack] Ottiene +3 Conteggio [Breath]\n[BeforeAttack] Ottiene +6 Conteggio [Charge]\n[BeforeAttack] Base Power -3 for every Cracked Coin (max 9)\n\n[EndSkill] Heal SP pari al ([DespairKnightEGOSword] su di sé x 5); then, [DespairKnightEGOSword] expires\n[EndSkill] [DespairKnightEGOMind] su di sé expires",
           "coinlist": [
             {
               "coindescs": [
@@ -1419,9 +1419,9 @@
         },
         {
           "level": 3,
-          "name": "The Sword Sharpened with Tears",
-          "abName": "The Knight of Despair",
-          "desc": "[CantIdentify]\nTargets randomly\nFinal Power +2 for every [DespairKnightEGOSword] on self\n<style=\"highlight\">Deal +30% damage for every excess Atk Weight beyond the # of actual targets (in Focused Encounters, the Parts)</style>\n[BeforeAttack] Deal +1% damage for every 10 [DespairKnightEGOMind] on self\n[BeforeAttack] Gain +3 [Breath] Count\n[BeforeAttack] Gain +6 [Charge] Count\n[BeforeAttack] Base Power -3 for every Cracked Coin (max 9)\n\n[EndSkill] Heal SP equal to ([DespairKnightEGOSword] on self x 5); then, [DespairKnightEGOSword] expires\n[EndSkill] [DespairKnightEGOMind] on self expires",
+          "name": "La Spada Affilata con le Lacrime",
+          "abName": "Il Cavaliere della Disperazione",
+          "desc": "[CantIdentify]\nTargets randomly\nFinal Power +2 for every [DespairKnightEGOSword] su di sé\n<style=\"highlight\">Infligge +30% danni per ogni excess Portata Attacco beyond the # of actual targets (in Focused Encounters, the Parts)</style>\n[BeforeAttack] Infligge +1% danni per ogni 10 [DespairKnightEGOMind] su di sé\n[BeforeAttack] Ottiene +3 Conteggio [Breath]\n[BeforeAttack] Ottiene +6 Conteggio [Charge]\n[BeforeAttack] Base Power -3 for every Cracked Coin (max 9)\n\n[EndSkill] Heal SP pari al ([DespairKnightEGOSword] su di sé x 5); then, [DespairKnightEGOSword] expires\n[EndSkill] [DespairKnightEGOMind] su di sé expires",
           "coinlist": [
             {
               "coindescs": [
@@ -1429,7 +1429,7 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Gain 1 [PenetrateResultUp] next turn (once per turn)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Ottiene 1 [PenetrateResultUp] il turno successivo (once per turn)</style>"
                 }
               ]
             },
@@ -1439,7 +1439,7 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Gain 1 [PenetrateDamageUp] next turn (once per turn)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Ottiene 1 [PenetrateDamageUp] il turno successivo (once per turn)</style>"
                 }
               ]
             },
@@ -1449,7 +1449,7 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Gain 1 [IndigoDamageUp] next turn (once per turn)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Ottiene 1 [IndigoDamageUp] il turno successivo (once per turn)</style>"
                 }
               ]
             }
@@ -1457,9 +1457,9 @@
         },
         {
           "level": 4,
-          "name": "The Sword Sharpened with Tears",
-          "abName": "The Knight of Despair",
-          "desc": "[CantIdentify]\nTargets randomly\n<style=\"highlight\">At 999 [DespairKnightEGOMind], Final Power +3</style>\nFinal Power +<style=\"highlight\">3</style> for every [DespairKnightEGOSword] on self\nDeal +<style=\"highlight\">50</style>% damage for every excess Atk Weight beyond the # of actual targets (in Focused Encounters, the Parts)\n<style=\"highlight\">Deal +10% damage for every defeated ally</style>\n[BeforeAttack] Deal +1% damage for every 10 [DespairKnightEGOMind] on self\n[BeforeAttack] Gain +3 [Breath] Count\n[BeforeAttack] Gain +6 [Charge] Count\n[BeforeAttack] Base Power -3 for every Cracked Coin (max 9)\n\n[EndSkill] Heal SP equal to ([DespairKnightEGOSword] on self x 5); then, [DespairKnightEGOSword] expires\n[EndSkill] [DespairKnightEGOMind] on self expires",
+          "name": "La Spada Affilata con le Lacrime",
+          "abName": "Il Cavaliere della Disperazione",
+          "desc": "[CantIdentify]\nTargets randomly\n<style=\"highlight\">A 999 [DespairKnightEGOMind], Final Power +3</style>\nFinal Power +<style=\"highlight\">3</style> for every [DespairKnightEGOSword] su di sé\nInfligge +<style=\"highlight\">50</style>% danni per ogni excess Portata Attacco beyond the # of actual targets (in Focused Encounters, the Parts)\n<style=\"highlight\">Infligge +10% danni per ogni defeated ally</style>\n[BeforeAttack] Infligge +1% danni per ogni 10 [DespairKnightEGOMind] su di sé\n[BeforeAttack] Ottiene +3 Conteggio [Breath]\n[BeforeAttack] Ottiene +6 Conteggio [Charge]\n[BeforeAttack] Base Power -3 for every Cracked Coin (max 9)\n\n[EndSkill] Heal SP pari al ([DespairKnightEGOSword] su di sé x 5); then, [DespairKnightEGOSword] expires\n[EndSkill] [DespairKnightEGOMind] su di sé expires",
           "coinlist": [
             {
               "coindescs": [
@@ -1467,7 +1467,7 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [PenetrateResultUp] next turn (once per turn)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [PenetrateResultUp] il turno successivo (once per turn)<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -1477,7 +1477,7 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [PenetrateDamageUp] next turn (once per turn)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [PenetrateDamageUp] il turno successivo (once per turn)<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -1487,13 +1487,13 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">Deal +30% Damage on Critical Hit</style>"
+                  "desc": "<style=\"highlight\">Infligge +30% Damage on Critical Hit</style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [PenetrateTakeDamageUp] next turn</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [PenetrateTakeDamageUp] il turno successivo</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [IndigoDamageUp] next turn (once per turn)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [IndigoDamageUp] il turno successivo (once per turn)<style=\"highlight\"></style>"
                 }
               ]
             }
