@@ -2,65 +2,65 @@
   "dataList": [
     {
       "id": 158001,
-      "name": "Dawn Office - Guardian",
-      "desc": "Turn Start: Apply 2 [Protection] to the ally that has the lowest remaining HP percentage\n\n<color=#ff6000><mark color=#ff000040><b><u>At 30%- HP,</color></mark></b></u> when an ally from the same faction hits using Skill 3, use the \"Flash of Sunup\" Skill against the targeted enemy (once per turn)"
+      "name": "Ufficio Alba - Guardiano",
+      "desc": "A Inizio Turno, applica 2 [Protection] all'alleato con la percentuale di PV minore\n\n<color=#ff6000><mark color=#ff000040><b><u>A 30%- PV,</color></mark></b></u> se un alleato dell'Ufficio Alba[TabExplain] colpisce con un'Abilità 3, usa \"</noparse>Lampo dell'Alba</noparse>\" sul suo bersaglio (una volta per turno)"
     },
     {
       "id": 158002,
-      "name": "Morgenfeuer [Stigma Workshop]",
-      "desc": "Upon entering the Encounter for the first time: Gain 0 [DawnOfficeStigmaSOne]\n\nGain [DawnOfficeStigmaSOne] when the following conditions are met:\n- On Hit using Base Skills: Gain 3 Stacks (once per Skill)\n · If the said Skill is \"Flash of Sunup\" used via the <noparse>Dawn Office</noparse> - <noparse>Guardian</noparse> Passive, gain 1 additional Stack\n · If target has [Combustion], gain 1 more\n- Gain Stacks equal to (damage taken from [Combustion] activation on self / 2)\n\nAt 30 [DawnOfficeStigmaSOne], use a powerful Skill\n\n<color=#ff6000><mark color=#ff000040><b><u>On Hit using this unit's Skills, if target has [Combustion], raise target's Stagger Threshold by 30% of the final damage dealt by the said Skill's final Coin</color></mark></b></u>\n- This effect does not activate on Cracked Coins",
-      "flavor": "An A+ class Workshop weapon that has remained a constant companion of its wielder, <i>the Fixer at the Crack of Dawn</i>, since his first days as a Fixer through the Smoke War and its fallout. Every contract successfully carried out by the Fixer added to Stigma Workshop's fame, and as a show of gratitude, they repeatedly upgraded and expanded the weapon's capabilities. Just as the Fixer's seasoned renown was built up over time, this blade, too, was forged, remade, and sharpened by the years. \nMorgenfeuer, once regarded as an S-class weapon, inevitably lost its fervor and edge in the twilight years of the Fixer at the Crack of Dawn as he withdrew from the front lines of the Fixer business in favor of teaching the next generation."
+      "name": "Morgenfeuer [Officina Stigma]",
+      "desc": "Inizia l'Incontro con 0 [DawnOfficeStigmaSOne]\n\nOttiene [DawnOfficeStigmaSOne] sotto certe condizioni:\n- Sul Colpo: Ottiene 3 Stack (una volta per Abilità)\n · Se l'Abilità in questione è \"Lampo dell'Alba\" usata tramite la Passiva <noparse>Ufficio Alba</noparse> - <noparse>Guardiano</noparse>, ottiene 1 Stack in più\n · Se il bersaglio ha [Combustion], ottiene 1 Stack in più\n- Ottiene Stack pari a (danno subito da [Combustion] / 2)\n\nA 30 [DawnOfficeStigmaSOne], usa \"Prime Luci dell'Alba\"\n\n<color=#ff6000><mark color=#ff000040><b><u>Sul Colpo, se il bersaglio ha [Combustion], la Soglia di Stordimento del bersaglio viene alzata del 30% del danno finale dell'ultima Moneta di quest'Abilità</color></mark></b></u>\n- Questo effetto non si attiva sulle Monete Rotte",
+      "flavor": "Un'arma di classe A+ di un'Officina che è rimasta un compagno costante del suo impugnatore, <i>il Fixer alle Prime Luci dell'Alba</i>, fin dai suoi primi giorni come Fixer durante la Guerra del Fumo e le sue consegeunze. Ogni contratto completato con successo dal Fixer aggiungeva fama al nome dell'Officina Stigma, e come gesto di gratitudine, hanno ripetutamente potenziato ed espanso le Capacità dell'Arma. Così come la reputazione di quel Fixer veterano era stata costruita nel tempo, anche questa lama è stata forgiata, riforgiata e affilata dagli anni. \nLa Morgenfeuer, un tempo ritenuta un'arma di Grado S, ha finito per perdere vigore e filo nel crepuscolo del Fixer alle Prime Luci dell'Alba dopo il suo ritiro dalla prima linea del settore per formare la futura generazione."
     },
     {
       "id": 158003,
-      "name": "Stigma Workshop Weaponry",
-      "desc": "When this unit inflicts [Combustion] using its Skills, inflict +1 more [Combustion] Potency and Count\n- If an enemy hit by this unit's Skills has fewer than 3 [Combustion] Count, inflict +1 [Combustion] Count on the target"
+      "name": "Armi dell'Officina Stigma",
+      "desc": "Quando quest'unità infligge [Combustion] con le sue Abilità, infligge +1 Potenza e Conteggio [Combustion] in più\n- Se il bersaglio di quest'unità ha meno di 3 Conteggio [Combustion], infligge +1 Conteggio [Combustion] in più"
     },
     {
       "id": 158004,
-      "name": "The Fixer at the Crack of Dawn",
-      "desc": "All Sinners heal 20 SP (once per Encounter; Minus Coin Identities lose SP instead)\n\nTake -50% damage from [Combustion] (rounded down)\n- At lower than 50% HP, this effect is enhanced and this unit takes -75% damage from [Combustion]\n\nApply the [PanicChangeLock] effect\nTurn End: If this unit is in Panic, raise SP to 45"
+      "name": "Il Fixer alle Prime Luci dell'Alba",
+      "desc": "Inizio Incontro:\n · I Peccatori con Monete Positive recuperano 20 PS\n · I Peccatori con Monete Negative perdono 20 PS\n\nSubisce -50% danni da [Combustion] (arrotondato per difetto)\n- A 50%- PV, quest'unità subisce invece -75% danni da [Combustion]\n\n[PanicChangeLock]\nA Fine Turno, se è in Panico, porta i suoi PS a 45"
     },
     {
       "id": 158101,
-      "name": "Dawn Office - Seonbae",
-      "desc": "Turn Start: Apply 2 [ParryingResultUp] to the ally with the fastest Speed\n- If Speed is equal, prioritize Philip, Salvador, then Yuna\n\n<color=#ff6000><mark color=#ff000040><b><u>At 30%- HP,</color></mark></b></u> when an ally from the same faction hits using Skill 3, use \"<noparse>Seconded Offensive</noparse>\" against the targeted enemy (once per turn)"
+      "name": "Ufficio Alba - Seonbae",
+      "desc": "A Inizio Turno, Applica 2 [ParryingResultUp] sull'Alleato più Veloce\n- In caso di pareggio, dà priorità a Philip, poi a Salvador, e infine a Yuna\n\n<color=#ff6000><mark color=#ff000040><b><u>A 30%- PV,</color></mark></b></u> se un alleato colpisce con un'Abilità 3, usa \"<noparse>Attacco Sostenuto</noparse>\" sul suo bersaglio (una volta per turno)"
     },
     {
       "id": 158102,
-      "name": "Feuerfalter [Stigma Workshop]",
-      "desc": "Upon entering the Encounter for the first time: Gain 0 [DawnOfficeStigmaYOne]\n\nGain [DawnOfficeStigmaYOne] when the following conditions are met:\n- On Hit using Base Skills: Gain 3 Stacks (once per Skill)\n · If the said Skill is \"<noparse>Seconded Offensive</noparse>\" used via the <noparse>Dawn Office</noparse> - Seonbae Passive, gain 1 additional Stack\n · If target has [Combustion], gain 1 more\n- Gain Stacks equal to (damage taken from [Combustion] activation on self / 2)\n\n<color=#ff6000><mark color=#ff000040><b><u>At 30 [DawnOfficeStigmaYOne], use a powerful Skill</color></mark></b></u>",
-      "flavor": "The appeal of a weapon shaped like a suitcase or a musical instrument case is clear enough.\n\nFirst, the user may blend into the cover of daily life without raising alarm. Though arms of this sort are unwieldy and complicated to make use of in battle, that perceived shortcoming makes them less likely to be recognized as tools of killing.\n\nSecondly, weapons fashioned into the form of a case afford storage capacity. Container-shaped arms, for example, are actively used by the Fixers of the Devyat' Association.\n\nSuch convenience, however, does not automatically win favors from those who elect Workshop gear as their weapon of choice. The common opinion is that anyone who invests so much time in mastering this sort of weaponry would be better served by training with something else—in fact, the user would often hear snide remarks from other combatants, ranging from \"Fixers these days\" to \"showy and pretentious.\"\n\nBut should one let this reputation for impracticality drop one's guard when facing an opponent armed with such a finicky piece of equipment, especially if they happen to be a high-ranking Fixer or a Syndicate officer, one will find that the laughable \"containers\" or \"cases\" carry quite a different weight—a weight grave enough for any Workshop worth its name to call them \"coffins.\" And coffins, as a matter of fact, have a way of inviting butterflies."
+      "name": "Feuerfalter [Officina Stigma]",
+      "desc": "Inizia l'Incontro con 0 [DawnOfficeStigmaYOne]\n\nOttiene [DawnOfficeStigmaYOne] sotto certe condizioni:\n- Sul Colpo: Ottiene 3 Stack (una volta per Abilità)\n · Se quest'Abilità era \"<noparse>Attacco Sostenuto</noparse>\", ottiene 1 Stack in più\n · Se il bersaglio ha [Combustion], ottiene 1 Stack in più\n- Ottiene Stack pari a (danno subito da [Combustion] / 2)\n\n<color=#ff6000><mark color=#ff000040><b><u>A 30 [DawnOfficeStigmaYOne], usa \"Espulsione - Mezzogiorno\"</color></mark></b></u>",
+      "flavor": "Il fascino di un'arma a forma di valigetta o di custodia per strumenti musicali è piuttosto evidente.\n\nIn primo luogo, permette all'utilizzatore di mimetizzarsi nella quotidianità senza destare allarmi. Anche se armi di questo genere risultano ingombranti e complesse da maneggiare in battaglia, è proprio tale apparente limite a renderle meno identificabili come strumenti di morte.\n\nIn secondo luogo, le armi che assumono la forma di una custodia offrono una comoda capacità di carico. Le armi-contenitore, per fare un esempio, vengono impiegate attivamente dai Fixer dell'Associazione Devyat'\n\nQuesta comodità, tuttavia, non garantisce automaticamente il favore di chi favorisce l'equipaggiamento di un Officina per le proprie armi. L'opinione comune è che chiunque spenda un simile quantitativo di tempo a padroneggiare un simile armamentario farebbe meglio ad addestrarsi con tutt'altro; non di rado, infatti, chi le utilizza si sente rivolgere commenti sarcastici da altri combattenti, che vanno da \"I Fixer di oggi...\" fino a \"vistoso e pretenzioso\"\n\nMa se si dovesse abbassare la guardia, rassicurati da questa reputazione di scarsa praticità, di fronte a un avversario dotato di un equipaggiamento così macchinoso — specialmente se si tratta di un Fixer di alto Grado o di un ufficiale di un Sindacato — si scoprirà che quei ridicoli \"contenitori\" o \"custodie\" portano con sé un peso ben diverso. Un peso tanto funesto da spingere qualsiasi Officina degna di questo nome a chiamarli \"bare\". E le bare, si sa, hanno il vizio di attirare le farfalle."
     },
     {
       "id": 158103,
-      "name": "Stigma Workshop Weaponry",
-      "desc": "When this unit inflicts [Combustion] using its Skills, inflict +1 more [Combustion] Potency and Count\n- If an enemy hit by this unit's Skills has fewer than 3 [Combustion] Count, inflict +1 [Combustion] Count on the target"
+      "name": "Armi dell'Officina Stigma",
+      "desc": "Quando quest'unità infligge [Combustion] con le sue Abilità, infligge +1 Potenza e Conteggio [Combustion] in più\n- Se il bersaglio di quest'unità ha meno di 3 Conteggio [Combustion], infligge +1 Conteggio [Combustion] in più"
     },
     {
       "id": 158104,
-      "name": "The Lone Fixer",
-      "desc": "<color=#ff6000><mark color=#ff000040><b><u>Turn End: If there are no other allies remaining on the field, gain [LoneFixer]</color></mark></b></u>\n\nTake -50% damage from [Combustion] (rounded down)\n- At lower than 50% HP, this effect is enhanced and this unit takes -75% damage from [Combustion]\n\nApply the [PanicChangeLock] effect\nTurn End: If this unit is in Panic, raise SP to 45",
+      "name": "Fixer Solitaria",
+      "desc": "<color=#ff6000><mark color=#ff000040><b><u>A Inizio Turno, se non ci sono alleati vivi, ottiene [LoneFixer]</color></mark></b></u>\n\nSubisce -50% danni da [Combustion] (arrotondato per difetto)\n- A 50%- PV, quest'unità subisce invece -75% danni da [Combustion]\n\n[PanicChangeLock]\nA Fine Turno, se è in Panico, porta i suoi PS a 45",
       "flavor": "\"Do you know what loneliness is? It's when someone you held dear has gone far away, and you can't sit down to lunch with them anymore. That's what loneliness means to me, anyway. I just hope... that you never have to find out what it feels like, Philip.\""
     },
     {
       "id": 158201,
-      "name": "Stigma Workshop Weaponry",
+      "name": "Armi dell'Officina Stigma",
       "desc": "When this unit inflicts [Combustion] using its Skills, inflict +1 more [Combustion] Potency and Count\n- If an enemy hit by this unit's Skills has fewer than 3 [Combustion] Count, inflict +1 [Combustion] Count on the target"
     },
     {
       "id": 158202,
-      "name": "Passion",
-      "desc": "<color=#ff6000><mark color=#ff000040><b><u>At 20+/40+ SP,</color></mark></b></u> Coin Power +1/+2"
+      "name": "Passione",
+      "desc": "<color=#ff6000><mark color=#ff000040><b><u>A 20+/40+ PS,</color></mark></b></u> Potere Moneta +1/+2"
     },
     {
       "id": 158203,
-      "name": "Dawn Office - Rookie",
-      "desc": "Take -40% damage from [Combustion] (rounded down)\n\nApply the [PanicChangeLock] effect\nTurn End: If this unit is in Panic, raise SP to 45\n\nWhen HP reaches 0..."
+      "name": "Ufficio Alba - Novellino",
+      "desc": "Subisce -40% danni da [Combustion] (arrotondato per difetto)\n\n[PanicChangeLock]\nA Fine Turno, se è in Panico, porta i suoi PS a 45\n\nA 0 PV..."
     },
     {
       "id": 158301,
-      "name": "Unrelenting",
+      "name": "Implacabile",
       "desc": "<color=#ff6000><mark color=#ff000040><b><u>In this Encounter, when this unit takes damage that brings its HP down to 0,</color></mark></b></u> apply the following effects (once per Encounter):\n- Nullify that damage; then, this unit's HP cannot drop below 1 for the turn\n- Turn End: Heal 50% HP\n- If this effect was activated, take -20% damage for this Encounter"
     },
     {
@@ -114,8 +114,8 @@
     },
     {
       "id": 158603,
-      "name": "Dawn Office - Rookie",
-      "desc": "Upon entering the Encounter for the first time, heal 45 SP\nTake -40% damage from [Combustion] (rounded down)\n\nApply the [PanicChangeLock] effect\nTurn End: If this unit is in Panic, change SP to 45\n\nAt 10 HP..."
+      "name": "Ufficio Alba - Novellino",
+      "desc": "A Inizio Ondata, recupera 45 PS\nSubisce -40% danni da [Combustion] (arrotondato per difetto)\n\n[PanicChangeLock]\nA Fine Turno, se è in Panico, porta i suoi PS a 45\n\nA 10 PV..."
     },
     {
       "id": 158701,
