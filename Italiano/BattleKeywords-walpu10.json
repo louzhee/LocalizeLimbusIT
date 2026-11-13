@@ -2,193 +2,193 @@
   "dataList": [
     {
       "id": "Emulation",
-      "name": "Learning by Example",
-      "desc": "Max Stack: 30\nGain Stacks based on the following conditions:\n- On Clash Win, gain 2 Stacks; On Hit using Base Attack Skills, gain 1 Stack; At Attack End, if the enemy was defeated, gain 3 Stacks\n- On Clash Win using Base Attack Skills by other allies, gain 2 Stacks\n · On Clash Win using Base Attack Skills by other allies in the same faction as this unit, gain 4 Stacks instead\n\nGain the following effects cumulatively based on Stacks:\n- Base Attack Skills deal +1% damage for every Stack (max 30%)\n- 10+: Base Attack Skills Clash Power +1\n- 20+: Base Attack Skills Coin Power +1",
-      "summary": "Gain Stacks based on certain conditions\nDeal more damage, gain Clash Power, gain Coin Power based on Stacks"
+      "name": "Imparare tramite l'Esempio",
+      "desc": "Stack Max: 30\nOttiene Stack in base alle seguenti condizioni:\n- A Scontro Vinto, ottiene 2 Stack; Sul Colpo usando le Abilità Attacco, ottiene 1 Stack; A Fine Attacco, se il nemico è stato sconfitto, ottiene 3 Stack\n- A Scontro Vinto usando le Abilità Attacco dagli altri alleati, ottiene 2 Stack\n · A Scontro Vinto usando le Abilità Attacco dagli altri alleati nella stessa fazione di questa unità, ottiene invece 4 Stack\n\nOttiene i seguenti effetti cumulativamente in base alle Stack:\n- Le Abilità Attacco Base infliggono +1% danni per ogni Stack (max 30%)\n- 10+:Potere Scontro delle Abilità Attacco Base +1\n- 20+: Potere Moneta delle Abilità Attacco Base +1",
+      "summary": "Ottiene Stack in base a determinate condizioni\nInfligge più danno, ottiene Potere Scontro e ottiene Potere Moneta in base alle Stack"
     },
     {
       "id": "CursedBlessing",
-      "name": "A Test of Despair",
-      "desc": "- All Slots gain +20 Aggro\n- On Attack Skill Use, lose 20 SP\n- On Death, all other allies lose 20 SP",
+      "name": "Una Prova di Disperazione",
+      "desc": "- Tutti gli Slot ottengono +20 Provocazione\n- All'Uso di un'Abilità Attacco, perde 20 PS\n- Alla morte, tutti gli altri alleati perdono 20 PS",
       "summary": ""
     },
     {
       "id": "BeyondDespair",
-      "name": "The One Beyond Despair",
-      "desc": "- Turn Start: Gain 2 Protection and 1 Attack Power Up\n- On Defense Skill Use, gain 3 Defense Power Up (once per turn)\n- On Clash Win, heal 5 SP (2 times per turn)\n · At max SP, remove 1 removable negative effect applied to self\n- At Base Skill End, deal Pride damage equal to 10% of damage the said Skill dealt to each enemy\n\n- When this unit takes damage that brings its HP down to 0, it does not take damage for the turn (once per Encounter)\n · After the above effect activates, heal all HP next turn; then, deal +10% damage for every Protection on self until Combat End (max 80%)",
+      "name": "Chi è Dietro la Disperazione",
+      "desc": "- Inizio Turno: Ottiene 2 Protezione e 1 Potere Attacco Aumentato\n- All'Uso di un'Abilità Difensiva, ottiene 3 Potere Difesa Aumentato (una volta per turno)\n- A Scontro Vinto, recupera 5 PS (2 volte per turno)\n · A PS max, rimuove 1 effetto negativo rimuovibile su di sé\n- A Fine Abilità Base, infligge danni Superbia pari al 10% del danno inflitto da quell'Abilità ad ogni nemico\n\n- Quando questa unità subisce danni che portano i suoi PV a 0, non subisce danno per questo turno (una volta per Incontro)\n · Dopo che gli effetti sovracitati si sono attivati, recupera tutti i PV il turno successivo; poi infligge +10% danni per ogni Protezione su di sé fino a Fine Combattimento (max 80%)",
       "summary": ""
     },
     {
       "id": "EmbeddedSpearhead",
-      "name": "Embedded Spearhead",
-      "desc": "- Max Stack: 1\n- On Crit using Pierce Base Attack Skills by targets other than the target that inflicted this effect, take +15% damage\n- When hit by Skills that have the \"Joint Combo\" effect, take an additional +20% damage\n- At Skill End of the Skill that hit, expires",
+      "name": "Punta di Lancia Incassata",
+      "desc": "- Stack Max: 1\n- Su Critico usando un'Abilità Attacco Base Perforante da bersagli diversi dal bersaglio che ha inflitto questo effetto, subisce +15% danni\n- Quando l'unità viene colpita da Abilità che hanno l'effetto \"Attacco Combinato\", subisce +20% danni in più\n- A Fine Abilità dell'Abilità che ha colpito, scade",
       "summary": ""
     },
     {
       "id": "WalpuTenWedgeOffice",
-      "name": "Wedge Office",
-      "desc": "- Max Stack: 3\n- Offense Level +1 for every Stack\n- Turn Start: At 3 Stacks, gain 1 Pierce DMG Up\n- Turn Start: If all other allies that have \"Wedge Office\" are defeated, this effect expires",
+      "name": "Ufficio Cuneo",
+      "desc": "- Stack Max: 3\n- Livello Offensivo +1 per ogni Stack\n- Inizio Turno: A 3 Stack, ottiene 1 Danno Perforante Aumentato\n- Inizio Turno: Se tutti gli altri alleati con \"Ufficio Cuneo\" sono stati sconfitti, questo effetto scade",
       "summary": ""
     },
     {
       "id": "WalpuTenComboWedge",
       "name": "Momentum",
-      "desc": "- Max Stack: 30\n- Consumed by certain Skills\n- Can gain up to 20 Stacks per turn",
+      "desc": "- Stack Max: 30\n- Usato da certe Abilità\n- Può ottenere fino a 20 Stack per turno",
       "summary": ""
     },
     {
       "id": "WalpuTenBattleFieldKnow",
-      "name": "Field Analysis",
-      "desc": "- Max Stack: 4\n- Gain +2 Poise Count when gaining this effect\n- Turn End: Gain +(Stack x 2) Poise Count\n- Skills gain the following effects based on Stack:\n · 1+: Deal +(Stack x 2.5)% damage against enemies\n · 2+: In a Clash, Clash Power +1 for every 2 Clashes (max 2)\n · 3+: Coin Power +1, the final Coin becomes Unbreakable Coin\n · 4+: Target's Pierce Resist. +0.1 until Attack End",
+      "name": "Analisi sul Campo",
+      "desc": "- Stack Max: 4\n- Ottiene +2 Conteggio Equilibrio quando ottiene questo effetto\n- Fine Turno: Ottiene +(Stack x 2) Conteggio Equilibrio\n- Le Abilità ottengono i seguenti effetti in base alle Stack:\n · 1+: Infligge +(Stack x 2.5)% danni ai nemici\n · 2+: In uno Scontro, Potere Scontro +1 per ogni 2 Scontri (max 2)\n · 3+: Potere Moneta +1, la Moneta finale diventa una Moneta Infragibile\n · 4+: Resist. Perforante del bersaglio +0.1 fino a Fine Attacco",
       "summary": ""
     },
     {
       "id": "WalpuTenWedgeMarkSilver",
-      "name": "Silver Mark [Wedge]",
-      "desc": "- Max Stack: 5\n- Turn End: Gain +1 Tremor Count\n- Turn Start: If there are no \"Wedge Office\" enemies on the field, this effect expires",
+      "name": "Marchio d'Argento [Cuneo]",
+      "desc": "- Stack Max: 5\n- Fine Turno: Ottiene +1 Conteggio Vibrazione\n- Inizio Turno: Se non ci sono unità nemiche \"Ufficio Cuneo\" in campo, questo effetto scade",
       "summary": ""
     },
     {
       "id": "WalpuTenWedgeMarkGold",
-      "name": "Golden Mark [Wedge]",
-      "desc": "- Max Stack: 5\n- Turn End: Gain +1 Tremor Count\n- Turn Start: If there are no \"Wedge Office\" enemies on the field, this effect expires",
+      "name": "Marchio d'Oro [Cuneo]",
+      "desc": "- Stack Max: 5\n- Fine Turno: Ottiene +1 Conteggio Vibrazione\n- Inizio Turno: Se non ci sono unità nemiche \"Ufficio Cuneo\" in campo, questo effetto scade",
       "summary": ""
     },
     {
       "id": "DawnOfficeStigmaSOne",
-      "name": "Light of Daybreak",
-      "desc": "- Max Stack: 30\n- Turn Start: Gain 1 Burn for every 5 Stacks\n- Turn Start: Gain +1 Burn Count for every 10 Stacks\n- At 10+ Stacks, inflict +1 more Burn Potency using Base Skills against the enemy\n- At 20+ Stacks, inflict +1 more Burn Count using Base Skills against the enemy",
+      "name": "Luce dell'Alba",
+      "desc": "- Stack Max: 30\n- Inizio Turno: Ottiene 1 Bruciatura per ogni 5 Stack\n- Inizio Turno: Ottiene +1 Conteggio Bruciatura per ogni 10 Stack\n- A 10+ Stack, infligge +1 Potenza Bruciatura in più sui nemici\n- A 20+ Stack, infligge +1 Conteggio Bruciatura in più usando le Abilità Base contro il nemico",
       "summary": "",
-      "flavor": "The first flare of dawn is not a fire that scorches, but one that casts its glow on people."
+      "flavor": "Il primo bagliore dell'alba non è un fuoco che brucia, ma uno che getta la sua luce sulle persone."
     },
     {
       "id": "DawnOfficeStigmaSTwo",
-      "name": "Light of Daybreak",
-      "desc": "- Max Stack: 30\n- Turn Start: Gain 1 Burn for every 5 Stacks\n- Turn Start: Gain +1 Burn Count for every 10 Stacks\n- At 10+ Stacks, inflict +1 more Burn Potency using Base Skills against the enemy\n- At 20+ Stacks, inflict +1 more Burn Count using Base Skills against the enemy",
+      "name": "Luce dell'Alba",
+      "desc": "- Stack Max: 30\n- Inizio Turno: Ottiene 1 Bruciatura per ogni 5 Stack\n- Inizio Turno: Ottiene +1 Conteggio Bruciatura per ogni 10 Stack\n- A 10+ Stack, infligge +1 Potenza Bruciatura in più sui nemici\n- A 20+ Stack, infligge +1 Conteggio Bruciatura in più usando le Abilità Base contro il nemico",
       "summary": "",
-      "flavor": "The first flare of dawn is not a fire that scorches, but one that casts its glow on people."
+      "flavor": "Il primo bagliore dell'alba non è un fuoco che brucia, ma uno che getta la sua luce sulle persone."
     },
     {
       "id": "DawnOfficeStigmaSThree",
-      "name": "Light of Daybreak",
-      "desc": "- Max Stack: 30\n- Turn Start: Gain 1 Burn for every 5 Stacks\n- Turn Start: Gain +1 Burn Count for every 10 Stacks\n- At 10+ Stacks, inflict +1 more Burn Potency using Base Skills against the enemy\n- At 20+ Stacks, inflict +1 more Burn Count using Base Skills against the enemy",
+      "name": "Luce dell'Alba",
+      "desc": "- Stack Max: 30\n- Inizio Turno: Ottiene 1 Bruciatura per ogni 5 Stack\n- Inizio Turno: Ottiene +1 Conteggio Bruciatura per ogni 10 Stack\n- A 10+ Stack, infligge +1 Potenza Bruciatura in più sui nemici\n- A 20+ Stack, infligge +1 Conteggio Bruciatura in più usando le Abilità Base contro il nemico",
       "summary": "",
-      "flavor": "The first flare of dawn is not a fire that scorches, but one that casts its glow on people."
+      "flavor": "Il primo bagliore dell'alba non è un fuoco che brucia, ma uno che getta la sua luce sulle persone."
     },
     {
       "id": "DawnOfficeStigmaYOne",
-      "name": "Fire Butterfly Coffin",
-      "desc": "- Max Stack: 30\n- On Hit using Base Skills, gain 3 Stacks\n · If the said Skill is Skill 1 used via the \"Dawn Office - Seonbae\" Passive, gain 1 more Stack\n · If target has Burn, gain 1 more Stack\n- Turn End: At more than 20 Stacks, gain (excess Stack / 2) Burn next turn (rounded down)\n · At 30 Stacks, gain 5 Burn and +2 Burn Count instead",
+      "name": "Bara della Farfalla di Fuoco",
+      "desc": "- Stack Max: 30\n- Sul Colpo usando Abilità Base, ottiene 3 Stack\n · Se quell'Abilità è l'Abilità 1 usata tramite la Passiva \"Ufficio Alba - Seonbae\", ottiene 1 Stack in pi\n · Se il bersaglio ha Bruciatura, ottiene 1 Stack in più\n- Fine Turno: A più di 20 Stack, ottiene (Stack in eccesso / 2) Bruciatura il turno successivo (arrotondato per difetto)\n · A 30 Stack, ottiene invece 5 Bruciatura e +2 Conteggio Bruciatura",
       "summary": "",
-      "flavor": "Heated to a smoldering temperature within the coffin are butterflies, the kaleidoscope spilling forth to melt and tear the target apart.\n\n\"This type of weapon is still too premature for you to wield, Philip, but it shouldn't hurt to at least learn how it works.\"\n\n\"All those blades inside the coffin make it much easier to deal with multiple opponents at once. That way, you can even take on jobs that would normally be too much for a single Fixer to handle.\""
+      "flavor": "All'interno della bara le farfalle ardono a un calore rovente; un caleidoscopio che sgorga fuori per sciogliere e fare a pezzi l'obiettivo.\n\n\"Impugnare questa tipologia di arma è un passo ancora troppo avventato per te, Sinclair, ma è opportuno che tu ne studi le caratteristiche.\"\n\n\"L'arsenale di lame celato nella bara si rivela di estrema utilità nelle circostanze in cui i limiti di tempo impediscono di gestire gli incarichi in solitaria, o nei combattimenti contro avversari multipli.\""
     },
     {
       "id": "DawnOfficeStigmaYTwo",
-      "name": "Fire Butterfly Coffin",
-      "desc": "- Max Stack: 30\n- On Hit using Base Skills, gain 3 Stacks\n · If the said Skill is Skill 1 used via the \"Dawn Office - Seonbae\" Passive, gain 1 more Stack\n · If target has Burn, gain 1 more Stack\n- Turn End: At more than 20 Stacks, gain (excess Stack / 2) Burn next turn (rounded down)\n · At 30 Stacks, gain 5 Burn and +2 Burn Count instead",
+      "name": "Bara della Farfalla di Fuoco",
+      "desc": "- Stack Max: 30\n- Sul Colpo usando Abilità Base, ottiene 3 Stack\n · Se quell'Abilità è l'Abilità 1 usata tramite la Passiva \"Ufficio Alba - Seonbae\", ottiene 1 Stack in più\n · Se il bersaglio ha Bruciatura, ottiene 1 Stack in più\n- Fine Turno: A più di 20 Stack, ottiene (Stack in eccesso / 2) Bruciatura il turno successivo (arrotondato per difetto)\n · A 30 Stack, ottiene invece 5 Bruciatura e +2 Conteggio Bruciatura",
       "summary": "",
-      "flavor": "Heated to a smoldering temperature within the coffin are butterflies, the kaleidoscope spilling forth to melt and tear the target apart.\n\n\"This type of weapon is still too premature for you to wield, Philip, but it shouldn't hurt to at least learn how it works.\"\n\n\"All those blades inside the coffin make it much easier to deal with multiple opponents at once. That way, you can even take on jobs that would normally be too much for a single Fixer to handle.\""
+      "flavor": "All'interno della bara le farfalle ardono a un calore rovente; un caleidoscopio che sgorga fuori per sciogliere e fare a pezzi l'obiettivo.\n\n\"Impugnare questa tipologia di arma è un passo ancora troppo avventato per te, Sinclair, ma è opportuno che tu ne studi le caratteristiche.\"\n\n\"L'arsenale di lame celato nella bara si rivela di estrema utilità nelle circostanze in cui i limiti di tempo impediscono di gestire gli incarichi in solitaria, o nei combattimenti contro avversari multipli.\""
     },
     {
       "id": "DawnOfficeStigmaYThree",
-      "name": "Fire Butterfly Coffin",
-      "desc": "- Max Stack: 30\n- On Hit using Base Skills, gain 3 Stacks\n · If the said Skill is Skill 1 used via the \"Dawn Office - Seonbae\" Passive, gain 1 more Stack\n · If target has Burn, gain 1 more Stack\n- Turn End: At more than 20 Stacks, gain (excess Stack / 2) Burn next turn (rounded down)\n · At 30 Stacks, gain 5 Burn and +2 Burn Count instead",
+      "name": "Bara della Farfalla di Fuoco",
+      "desc": "- Stack Max: 30\n- Sul Colpo usando Abilità Base, ottiene 3 Stack\n · Se quell'Abilità è l'Abilità 1 usata tramite la Passiva \"Ufficio Alba - Seonbae\", ottiene 1 Stack in più\n · Se il bersaglio ha Bruciatura, ottiene 1 Stack in più\n- Fine Turno: A più di 20 Stack, ottiene (Stack in eccesso / 2) Bruciatura il turno successivo (arrotondato per difetto)\n · A 30 Stack, ottiene invece 5 Bruciatura e +2 Conteggio Bruciatura",
       "summary": "",
-      "flavor": "Heated to a smoldering temperature within the coffin are butterflies, the kaleidoscope spilling forth to melt and tear the target apart.\n\n\"This type of weapon is still too premature for you to wield, Philip, but it shouldn't hurt to at least learn how it works.\"\n\n\"All those blades inside the coffin make it much easier to deal with multiple opponents at once. That way, you can even take on jobs that would normally be too much for a single Fixer to handle.\""
+      "flavor": "All'interno della bara le farfalle ardono a un calore rovente; un caleidoscopio che sgorga fuori per sciogliere e fare a pezzi l'obiettivo.\n\n\"Impugnare questa tipologia di arma è un passo ancora troppo avventato per te, Sinclair, ma è opportuno che tu ne studi le caratteristiche.\"\n\n\"L'arsenale di lame celato nella bara si rivela di estrema utilità nelle circostanze in cui i limiti di tempo impediscono di gestire gli incarichi in solitaria, o nei combattimenti contro avversari multipli.\""
     },
     {
       "id": "LoneFixer",
-      "name": "The Lone Fixer",
-      "desc": "- Final Power +3\n- Offense Level +3\n- Defense Level +3",
+      "name": "Fixer Solitario",
+      "desc": "- Potere Finale +3\n- Livello Offensivo +3\n- Livello Difensivo +3",
       "summary": ""
     },
     {
       "id": "PhilipReady",
-      "name": "Readying Blazing Strike",
-      "desc": "Use \"Blazing Strike\" after a certain number of turns",
+      "name": "In preparazione: Colpo Fiammeggiante",
+      "desc": "Usa \"Colpo Fiammeggiante\" dopo un certo numero di turni",
       "summary": ""
     },
     {
       "id": "PhilipShield",
-      "name": "Feather Shield",
-      "desc": "- When hit, inflict 2 Burn on the attacker\n- Take -5% damage from Attack Skills",
+      "name": "Scudo Piumato",
+      "desc": "- Quando l'unità viene colpita, infligge 2 Bruciatura all'attaccante\n- Subisce -5% danni dalle Abilità Attacco",
       "summary": ""
     },
     {
       "id": "PhilipSword",
-      "name": "Searing Sword",
-      "desc": "On Hit, inflict 2 Burn",
+      "name": "Spada Ardente",
+      "desc": "Sul Colpo, infligge 2 Bruciatura",
       "summary": ""
     },
     {
       "id": "PhilipPower",
-      "name": "Getting Back on One's Feet Amid Sadness",
-      "desc": "- At Skill End, heal 5 SP\n- Deal +20% damage to enemies that have Tremor\n- Turn Start: When Staggered, recover from Stagger; then, all Resist. on self are fixed to 1.5 for the turn",
+      "name": "Rialzarsi in Piedi nella Tristezza",
+      "desc": "- A Fine Abilità, recupera 5 PS\n- Infligge +20% danni ai nemici con Vibrazione\n- Inizio Turno: Quando l'unità è Stordita, si riprende dallo Stordimento; poi tutte le sue resistenze vengono modificate a 1.5 per il turno",
       "summary": "",
-      "flavor": "'For me, who's feeling sadder than anyone...'"
+      "flavor": "'Per me, che mi sento più triste di chiunque altro...'"
     },
     {
       "id": "PhilipWax",
-      "name": "Emotion of Uncertain Sorrow",
-      "desc": "- Max Stack: 5\n- Burn Potency Cap +10 for every Stack\n · When this effect expires or is reduced, the surplus Burn Potency expires\n- Take +10% damage from Burn activation for every Stack\n- When Burn activates, lose 1 Stack",
+      "name": "Emozione di una Tristezza Incerta",
+      "desc": "- Stack Max: 5\n- Limite Potenza Bruciatura +10 per ogni Stack\n · Quando questo effetto scade o si riduce, la Potenza Bruciatura in eccesso scade\n- Subisce +10% danni dalle attivazioni di Bruciatura per ogni Stack\n- Quando si attiva Bruciatura, perde 1 Stack",
       "summary": ""
     },
     {
       "id": "PatronLibrarianofHistorysPage",
-      "name": "Patron Librarian [Floor of History]",
-      "desc": "- Skill Slot +1, lose 1 use of Skill 1, gain 1 use of Skill 3\n- Increase the amount of Burn, Bleed, Rupture, Sinking, or Tremor inflicted using Skills by +1 (including Unique Status Effects)\n- Increase the amount of Poise or Charge (including Unique Charge) gained from Skills by +1\n- Pierce Skills deal +30% damage On Use\n- On Hit using Skills, gain 1 random least-owned E.G.O resource (2 times per Skill)",
+      "name": "Bibliotecario Capo [Piano della Storia]",
+      "desc": "- Slot Abilità +1, perde 1 uso dell'Abilità 1, ottiene 1 uso dell'Abilità 3\n- Aumenta la quantità di Bruciatura, Sanguinamento, Lacerazione, Annegamento o Vibrazione inflitti tramite le Abilità di +1 (variabili Speciali incluse)\n- Aumenta le quantità di Equilibrio o Carica (Carica Speciale inclusa) ottenute dalle Abilità di +1\n- Le Abilità Perforanti infliggono +30% danni All'Uso\n- Sul Colpo usando le Abilità, ottiene 1 risorsa E.G.O tra quelle meno possedute (2 volte per Abilità)",
       "summary": ""
     },
     {
       "id": "EmotionLevelZero",
-      "name": "Emotion Level 0",
-      "desc": "- Max Stack: 30\n- Does not increase beyond 9 Stacks until all allies are at 9 Emotion Level Stacks\n- Gain 3 Stacks On Clash Win, On Heads Hit, and On Kill\n- Gain 1 Stack On Clash Lose, On Tails Hit, and on Ally Death\n- Turn End: If all allies are at 9 Emotion Level Stacks, gain 1 more Stack and increase Emotion Level stage",
+      "name": "Livello Emotivo 0",
+      "desc": "- Stack Max: 30\n- Non aumenta oltre 9 Stack finché tutti gli alleati non hanno 9 Stack di Livello Emotivo\n- Ottiene 3 Stack a Scontro Vinto, se Testa Colpisce e Se Uccide\n- Ottiene 1 Stack a Scontro Perso, se Croce Colpisce e alla morte di un alleato\n- Fine Turno: Se tutti gli alleati hanno 9 Stack di Livello Emotivo, ottiene 1 Stack in più e passa allo stadio successivo",
       "summary": ""
     },
     {
       "id": "EmotionLevelOne",
-      "name": "Emotion Level 1",
-      "desc": "- Max Stack: 30\n- Final Power +1\n- Does not increase beyond 19 Stacks until all allies are at 19 Emotion Level Stacks\n- Gain 3 Stacks On Clash Win, On Heads Hit, and On Kill\n- Gain 1 Stack On Clash Lose, On Tails Hit, and on Ally Death\n- Turn End: If all allies are at 19 Emotion Level Stacks, gain 1 more Stack and increase Emotion Level stage\n\n[Patron Librarian Exclusive Effect]\n- Ashes: When hit, inflict 1~3 Burn on the attacker and 40% chance to gain the \"On Hit using Skills, inflict 1 Burn\" effect for the next turn (does not Stack)",
+      "name": "Livello Emotivo 1",
+      "desc": "- Stack Max: 30\n- Potere Finale +1\n- Non aumenta oltre 19 Stack finché tutti gli alleati non hanno 19 Stack di Livello Emotivo\n- Ottiene 3 Stack a Scontro Vinto, se Testa Colpisce e Se Uccide\n- Ottiene 1 Stack a Scontro Perso, se Croce Colpisce e alla morte di un alleato\n- Fine Turno: Se tutti gli alleati hanno 19 Stack di Livello Emotivo, ottiene 1 Stack in più e passa allo stadio successivo\n\n[Effetto Esclusivo per il Bibliotecario Capo]\n- Ceneri: Quando colpita, l'unità infligge 1~3 Bruciatura all'attaccante ed ha il 40% di probabilità di ottenere l'effetto \"Sul Colpo usando le Abilità, infligge 1 Bruciatura\" per il turno successivo (non si cumula)",
       "summary": ""
     },
     {
       "id": "EmotionLevelTwo",
-      "name": "Emotion Level 2",
-      "desc": "- Max Stack: 30\n- Final Power +2\n- Does not increase beyond 29 Stacks until all allies are at 29 Emotion Level Stacks\n- Gain 3 Stacks On Clash Win, On Heads Hit, and On Kill\n- Gain 1 Stack On Clash Lose, On Tails Hit, and on Ally Death\n- Turn End: If all allies are at 29 Emotion Level Stacks, gain 1 more Stack and increase Emotion Level stage\n\n[Patron Librarian Exclusive Effect]\n- Ashes: When hit, inflict 1~3 Burn on the attacker and 40% chance to gain the \"On Hit using Skills, inflict 1 Burn\" effect for the next turn (does not Stack)\n- Nostalgic Embrace of the Old Days: On Clash Win, 20% chance to trigger Tremor Burst on target; chance increases with every Clash against the same target (2% for every Clash, max 50%)",
+      "name": "Livello Emotivo 2",
+      "desc": "- Stack Max: 30\n- Potere Finale +2\n- Non aumenta oltre 29 Stack finché tutti gli alleati non hanno 29 Stack di Livello Emotivo\n- Ottiene 3 Stack a Scontro Vinto, se Testa Colpisce e Se Uccide\n- Ottiene 1 Stack a Scontro Perso, se Croce Colpisce e alla morte di un alleato\n- Fine Turno: Se tutti gli alleati hanno 29 Stack di Livello Emotivo, ottiene 1 Stack in più e passa allo stadio successivo\n\n[Effetto Esclusivo per il Bibliotecario Capo]\n- Ceneri: Quando colpita, l'unità infligge 1~3 Bruciatura all'attaccante ed ha il 40% di probabilità di ottenere l'effetto \"Sul Colpo usando le Abilità, infligge 1 Bruciatura\" per il turno successivo (non si cumula)\n- Abbraccio Nostalgico dei Vecchi Tempi: A Scontro Vinto, ha il 20% di probabilità di innescare Scoppio Vibrazione sul bersaglio; la probabilità aumenta con ogni Scontro contro lo stesso bersaglio (2% per ogni Scontro, max 50%)",
       "summary": ""
     },
     {
       "id": "EmotionLevelThree",
-      "name": "Emotion Level 3",
-      "desc": "- Max Stack: 30\n- Final Power +3\n\n[Patron Librarian Exclusive Effect]\n- Ashes: When hit, inflict 1~3 Burn on the attacker and 40% chance to gain the \"On Hit using Skills, inflict 1 Burn\" effect for the next turn (does not Stack)\n- Nostalgic Embrace of the Old Days: On Clash Win, 20% chance to trigger Tremor Burst on target; chance increases with every Clash against the same target (2% for every Clash, max 50%)\n- Gluttony: If this unit's attack target has taken damage this turn, deal 1-3 additional damage On Hit and heal 2-5 HP",
+      "name": "Livello Emotivo 3",
+      "desc": "- Stack Max: 30\n- Potere Finale +3\n\n[Effetto Esclusivo per il Bibliotecario Capo]\n- Ceneri: Quando colpita, l'unità infligge 1~3 Bruciatura all'attaccante ed ha il 40% di probabilità di ottenere l'effetto \"Sul Colpo usando le Abilità, infligge 1 Bruciatura\" per il turno successivo (non si cumula)\n- Abbraccio Nostalgico dei Vecchi Tempi: A Scontro Vinto, ha il 20% di probabilità di innescare Scoppio Vibrazione sul bersaglio; la probabilità aumenta con ogni Scontro contro lo stesso bersaglio (2% per ogni Scontro, max 50%)\n- Ingordigia: Se il bersaglio degli attacchi di questa unità ha subito danno in questo turno, infligge 1-3 danni Sul Colpo e recupera 2-5 PV",
       "summary": ""
     },
     {
       "id": "WalpuTenHard",
-      "name": "Hard Difficulty",
-      "desc": "- Max HP +50%\n- Remove the first Stagger Threshold\n- Offense Level +3\n- Max Potency cap for Burn, Bleed, Tremor, Rupture, Sinking: 30\n- Max Count cap for Burn, Bleed, Tremor, Rupture, Sinking: 10\n- Take -30% damage from Bleed, Tremor, Rupture, Sinking",
+      "name": "Modalità Difficile",
+      "desc": "- PV Max +50%\n- Rimuove la prima Soglia di Vacillamento\n- Livello Offensivo +3\n- Limite Potenza Max per Bruciatura, Sanguinamento, Vibrazione, Lacerazione, Annegamento: 30\n- Limite Conteggio Max per Bruciatura, Sanguinamento, Vibrazione, Lacerazione, Annegamento: 10\n- Subisce -30% danni da Sanguinamento, Vibrazione, Lacerazione, Annegamento",
       "summary": ""
     },
     {
       "id": "HistoryAshes",
-      "name": "Pages of the Library - Ashes",
-      "desc": "When hit, inflict 1~3 Burn on the attacker and 40% chance to gain the \"On Hit using Skills, inflict 1 Burn\" effect for the next turn (does not Stack)",
+      "name": "Pagine della Biblioteca - Ceneri",
+      "desc": "Quando colpita, l'unità infligge 1~3 Bruciatura all'attaccante ed ha il 40% di probabilità di ottenere l'effetto \"Sul Colpo usando le Abilità, infligge 1 Bruciatura\" per il turno successivo (non si cumula)",
       "summary": "",
-      "flavor": "\"The charred body represents the child's crumbled hope, while the ever-blazing flame represents the obsession for affection.\""
+      "flavor": "\"Il corpo carbonizzato è come la speranza infranta della bambina, e la candela che brucia ancora come l'ossessione per dell'affetto.\""
     },
     {
       "id": "HistoryNostalgicEmbraceOfTheOldDays",
-      "name": "Pages of the Library - Nostalgic Embrace of the Old Days",
-      "desc": "On Clash Win, 20% chance to trigger Tremor Burst on target; chance increases with every Clash against the same target (2% for every Clash, max 50%)",
+      "name": "Pagine della Biblioteca - Abbraccio Nostalgico dei Vecchi Tempi",
+      "desc": "A Scontro Vinto, ha il 20% di probabilità di innescare Scoppio Vibrazione sul bersaglio; la probabilità aumenta con ogni Scontro contro lo stesso bersaglio (2% per ogni Scontro, max 50%)",
       "summary": "",
-      "flavor": "Teddy was hugging someone tightly. Teddy loved hugs. But something was odd."
+      "flavor": "Teddy stava abbracciando con forza qualcuno. Teddy amava gli abbracci. Ma c'era qualcosa di strano."
     },
     {
       "id": "HistoryGluttony",
-      "name": "Pages of the Library - Gluttony",
-      "desc": "If this unit's attack target has taken damage this turn, deal 1-3 additional damage On Hit and heal 2-5 HP",
+      "name": "Pagine della Biblioteca - Ingordigia",
+      "desc": "Se il bersaglio degli attacchi di questa unità ha subito danno in questo turno, infligge 1-3 danni Sul Colpo e recupera 2-5 PV",
       "summary": "",
-      "flavor": "The fairies were no more than carnivorous monsters, and their \"protection\" was their method to keep the meat fresh."
+      "flavor": "Le fatine non erano altro che mostri carnivori, e la loro \"protezione\" il metodo per tenere la carne fresca."
     },
     {
       "id": "DawnOffice_LowMorale",

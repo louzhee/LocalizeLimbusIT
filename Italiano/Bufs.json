@@ -4428,9 +4428,9 @@
     },
     {
       "id": "WedgeOffice",
-      "name": "Wedge Office",
+      "name": "Ufficio Cuneo",
       "excludeAutoLink": true,
-      "desc": "- Max Stack: 3\n- Offense Level +1 for every Stack\n- Combat Start: At 3 Stacks, gain 1 Pierce DMG Up\n- Expires at Turn End",
+      "desc": "- Stack Max: 3\n- Livello Offensivo +1 per ogni Stack\n- Inizio Combattimento: A 3 Stack, ottiene 1 Danno Perforante Aumentato\n- Scade a Fine Turno",
       "summary": "",
       "undefined": "-"
     },
@@ -4438,79 +4438,79 @@
       "id": "ComboWedge",
       "name": "Momentum",
       "excludeAutoLink": true,
-      "desc": "- Max Stack: 30\n- Can gain up to 20 Stacks per turn\nTurn Start: If this unit is Staggered, recover from Stagger (once per Encounter; excluding forced Staggers)",
+      "desc": "- Stack Max: 30\n- Può ottenere fino a 20 Stack per turno\nInizio Turno: Se questa unità è Stordita, si riprende dallo Stordimento (una volta per Incontro; Stordimento forzato escluso)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ComboWedgeDawn",
-      "name": "Dawn's Camaraderie",
+      "name": "Cameratismo dell'Alba",
       "excludeAutoLink": true,
-      "desc": "- Max Stack: 5",
+      "desc": "- Stack Max: 5",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DespairKnightEGOProtect",
-      "name": "The Knight's Loyal Protection",
+      "name": "Protezione Leale del Cavaliere",
       "excludeAutoLink": true,
-      "desc": "Base Stack: 3\nThis unit's Attack Type Resist. that are higher than 1.5 are adjusted to 1.5 (except while Staggered)\nIf this unit is Staggered, take -30% damage (including forced Staggers)\n\nTurn End: Lose 1 Stack\nExpires when the character that applied this effect retreats, is defeated, or applies this effect to a different target; replaced when another character applies an equivalent effect\n\nIf this unit is defeated by an enemy, inflict 2 Fragile against the attacker next turn, and the unit that applied this effect gains 2 Attack Power Up and 3 Damage Up next turn (once per turn)",
+      "desc": "Stack Base: 3\nLe Resistenze al Tipo di Attacco di questa unità che sono superiori a 1.5 vengono modificate in 1.5 (tranne quando Stordita)\nSe questa unità è Stordita, subisce -30% danni (Stordimenti forzati inclusi)\n\nFine Turno: Perde 1 Stack\nScade quando il personaggio che ha applicato questo effetto si ritira, viene sconfitto o applica questo effetto ad un bersaglio diverso\n\nSe questa unità viene sconfitta da un nemico, infligge inflict 2 Fragile all'attaccante nel turno successivo, e l'unità che ha applicato questo effetto ottiene 2 Potere Attacco Aumentato e 3 Danno Aumentato il turno successivo (una volta per turno)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DespairKnightEGOSword",
-      "name": "Sword Sharpened with Tears",
+      "name": "Spada Affilata con le Lacrime",
       "excludeAutoLink": true,
-      "desc": "- Max Stack: 3\n- Skills that gain or consume Charge deal +(Charge Potency x 2)% damage (max 10%)\n- Pierce Skills and Pride Skills deal +(Stack x 5)% damage\n- On Hit using this unit's Pierce or Pride Skills, deal Pride damage equal to ((Stack x 2) + (5% of the Coin's final damage))\n- Attack End: If the main target is an enemy, inflict Sinking Potency equal to Stack",
+      "desc": "- Stack Max: 3\n- Le Abilità che fanno ottenere o usano Carica infliggono +(Potenza Carica x 2)% danni (max 10%)\n- Le Abilità Perforanti e Superbia infliggono +(Stack x 5)% danni\n- Sul Colpo usando le Abilità Perforanti o Superbia di questa unità, infligge danni Superbia pari a ((Stack x 2) + (5% del danno finale della Moneta))\n- Fine Attacco: Se il bersaglio principale è un nemico, infligge Potenza Annegamento pari alle Stack",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DespairKnightEGOMind",
-      "name": "Weathered Pride",
+      "name": "Orgoglio Logorato",
       "excludeAutoLink": true,
-      "desc": "- Max Stack: 999\n- Can gain up to 500 Stacks per turn",
+      "desc": "- Stack Max: 999\n- Può ottenere fino a 500 Stack per turno",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DespairKnightEGOAlly",
-      "name": "Sword of a Forgotten Knight",
+      "name": "Spada di un Cavaliere Dimenticato",
       "excludeAutoLink": true,
-      "desc": "- Max Stack: 3\n- When hit by Pierce or Pride Skills, gain 1 Stack (once per Skill)\n · At max Stack, take 50 Pride damage; then, this effect expires. Gain 1 Pierce Fragility this turn and next turn\n- Only 1 character can have this effect at any given time (existing effect expires when this effect is inflicted on another target)",
+      "desc": "- Stack Max: 3\n- Quando l'unità viene colpita da un'Abilità Perforante o Superbia, ottiene 1 Stack (una volta per Abilità)\n · A Stack max, subisce 50 danni Superbia; poi questo effetto scade. Ottiene 1 Fragilità Perforante questo turno e il turno successivo\n- Solo 1 personaggio alla volta può avere questo effetto attivo (l'effetto esistente scade solo quando viene applicato su un bersaglio diverso)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BattleFieldKnow",
-      "name": "Field Analysis",
+      "name": "Analisi sul Campo",
       "excludeAutoLink": true,
-      "desc": "- Max Stack: 5\n- Gain +1 Poise Count when gaining Stacks of this effect\n- Turn End: Gain +(Stack) Poise Count\n- Turn Start: If this unit is Staggered at Turn Start, recover from Stagger (2 times per Encounter; excluding forced Staggers)\n- Base Attack Skills gain the following effects based on Stack:\n  · 2+: On Skill Use, deal +(30 / # of Coins)% damage on enemies (rounded down)\n  · 3+: Coin Power +1; On Skill Use, convert the final Coin to Unbreakable Coin\n  · 4+: On Skill Use, deal +(30 / # of Coins)% damage on enemies (rounded down)\n  · 5+: Target's Pierce Resist. +0.1 from Attack Start to Attack End\n- The Stack immediately before Skill Use is used to determine whether the damage-boosting and Unbreakable Coin conversion effects are activated",
+      "desc": "- Stack Max: 5\n- Ottiene +1 Conteggio Equilibrio quando ottiene Stack di questo effetto\n- Fine Turno: Ottiene +(Stack) Conteggio Equilibrio\n- Inizio Turno: Se questa unità è Stordita a Inizio Turno, si riprende dallo Stordimento (2 volte per Incontro; Stordimento forzato escluso)\n- Le Abilità Attacco Base ottengono i seguenti effetti in base alle Stack:\n  · 2+: All'Uso di un'Abilità, infligge +(30 / # delle Monete)% danni sui nemici (arrotondato per difetto)\n  · 3+: Potere Moneta +1; All'Uso di un'Abilità, converte la Moneta finale in Moneta Infrangibile\n  · 4+: All'Uso di un'Abilità, infligge +(30 / # delle Monete)% danni ai nemici (arrotondato per difetto)\n  · 5+: Resist. Perforante del bersaglio +0.1 da Inizio Attacco a Fine Attacco\n- Viene considerato il numero delle Stack immediatamente prima dell'Uso dell'Abilità per determinare se vengono attivati gli effetti di aumento del danno e la conversione in Moneta Infragibile",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "WedgeMarkYellow",
-      "name": "Wedge - Don Quixote",
+      "name": "Cuneo - Don Quixote",
       "excludeAutoLink": true,
-      "desc": "- Max Stack: 8\n- At sufficient Stacks, empower a certain Skill of Wedge Office Fixer Sinclair\n- Turn End: Gain +1 Tremor Count\n- Turn Start: If there are no enemy \"Wedge Office\" characters on the field, this effect expires",
+      "desc": "- Stack Max: 8\n- A Stack sufficenti, potenzia una determinata Abilità di Fixer dell'Ufficio Cuneo Sinclair\n- Fine Turno: Ottiene +1 Conteggio Vibrazione\n- Inizio Turno: Se non ci sono unità nemiche \"Ufficio Cuneo\" in campo, questo effetto scade",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "WedgeMarkGreen",
-      "name": "Wedge - Sinclair",
+      "name": "Cuneo - Sinclair",
       "excludeAutoLink": true,
-      "desc": "- Max Stack: 8\n- At sufficient Stacks, empower a certain Skill of Wedge Office Fixer Don Quixote\n- Turn End: Gain +1 Tremor Count\n- Turn Start: If there are no enemy \"Wedge Office\" characters on the field, this effect expires",
+      "desc": "- Stack Max: 8\n- A Stack sufficenti, potenzia una determinata Abilità di Fixer dell'Ufficio Cuneo Don Quixote\n- Fine Turno: Ottiene +1 Conteggio Vibrazione\n- Inizio Turno: Se non ci sono unità nemiche \"Ufficio Cuneo\" in campo, questo effetto scade",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ComboSkill",
-      "name": "Joint Combo",
+      "name": "Attacco Combinato",
       "excludeAutoLink": true,
-      "desc": "If the pertinent Identity is on the field, alive, and isn't immobilized, activate the linked effects (does not activate if the pertinent Identity is in any of the following states: all types of immobilized states, E.G.O Corrosions, and Staggers)",
+      "desc": "Se l'Identità interessata è in campo, in vita e non è immobilizzata, attiva l'effetto combinato (non si attiva se l'Identità interessata è in uno dei seguenti stati: tutti i tipi di immobilizzazione, Corrosione E.G.O e Stordimento)",
       "summary": "",
       "undefined": "-"
     }
