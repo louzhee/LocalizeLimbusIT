@@ -1848,7 +1848,7 @@
     {
       "id": 1031002,
       "name": "Variante delle Tecniche del Sangue Coagulato di Sancho",
-      "desc": "A Inizio Turno: A 15+ [BloodArmorPersonalityFirst], se una delle unità seguenti è stata sconfitta o è sul campo, potenzia lo Slot più a sinistra di questa unità.\nIl Prete Di La Manchalan​d Gregor: Potenzia l'Abilità 1\nIl Barbiere Di La Manchalan​d Outis: Potenzia l'Abilità 2\nQuesta Unità: Potenzia l'Abilità 3\nLa Principessa Di La Manchalan​d Rodion: Potenzia l'Abilità Difensiv​a\n\nQuando altre unità tra gli alleati subiscono danni da [Laceration] o consumano [BloodDinner], ottiene 2 [BloodArmorPersonalityFirst] su se stessa (3 volte per turno)"
+      "desc": "A Inizio Turno: A 15+ [BloodArmorPersonalityFirst], se una delle unità seguenti è stata sconfitta o è sul campo, potenzia lo Slot più a sinistra di questa unità.\nIl Prete Di La Manchalan​d Gregor: Potenzia l'Abilità 1\nIl Barbiere Di La Manchalan​d Outis: Potenzia l'Abilità 2\nQuesta unità: Potenzia l'Abilità 3\nLa Principessa Di La Manchalan​d Rodion: Potenzia l'Abilità Difensiv​a\n\nQuando altre unità tra gli alleati subiscono danni da [Laceration] o consumano [BloodDinner], ottiene 2 [BloodArmorPersonalityFirst] su se stessa (3 volte per turno)"
     },
     {
       "id": 1031003,
@@ -2013,7 +2013,7 @@
       "id": 1121101,
       "name": "Sono l'Unico Sopravvissuto...",
       "desc": "Infligge +0.2% danni per ogni [FirePunchFuel] e [FirePunchFuelOverheated] consumato da questa unità in questo Incontro (max 40%)\n- Se il bersaglio principale è un <Bramasangue>, una <Sacca di Sangue>, o se ha 30+ ([Combustion] + Conteggio [Combustion]), allora infligge +0.3% danni (max 60%)\n\nA 1+ [FirePunchFuel] o [FirePunchFuelOverheated], se questa unità Stordisce o sconfigge dei nemici con [Combustion], infligge +2 Conteggio [Combustion] contro 2 nemici casuali senza [Combustion] o con meno Conteggio [Combustion] (1 volta per turno)\n- negli Incontri Mirati, sulle Parti",
-      "summary": "Deal more damage based on [FirePunchFuel] and [FirePunchFuelOverheated] consumed\nInflict [Combustion] Count against 2 random enemies (una volta per turno))"
+      "summary": "Infligge più danni in base alle Stack di [FirePunchFuel] e [FirePunchFuelOverheated] usate\nInfligge Conteggio [Combustion] a 2 nemici casuali (una volta per turno)"
     },
     {
       "id": 1121121,
@@ -2308,7 +2308,7 @@
     {
       "id": 1061302,
       "name": "Il Sovrano degli Heishou",
-      "desc": "Quando altre unità alleate Rinforzano o Ritornano sul campo di battaglia, si curano di 10 PS; infine, a Inizio Combattimento, gli ordina di usare l'Abilità 1 come Attacco Incontrastato verso un nemico casuale\n- Se questo alleato è parte del Branco Heishou o della Famiglia Jia, si attivano invece i seguenti effetti: recupera 20 PS; infine, a Inizio Combattimento, gli ordina di usare la sua Abilità 3 come Attacco Incontrastato contro un nemico casuale (2 volte per Incontro per Identità)\n\nA Inizio Incontro: ottiene 1 [HeishouSynergy] per ogni Identità del Branco Heishou nella Squadra, incluse unità di Rinforzo\n\nQuando le Unità Heishou sono uccise in un Incontro, recupera 20 PS e ottiene 1 [HeishouDeathCount] (si attiva anche quando questa unità si è Ritirata)\n\nInfligge +5% danni per ogni 1 [HeishouComboCountHonglu] (max 55%)",
+      "desc": "Quando altre unità alleate Rinforzano o Ritornano sul campo di battaglia, si curano di 10 PS; infine, a Inizio Combattimento, gli ordina di usare l'Abilità 1 come Attacco Incontrastato verso un nemico casuale\n- Se questo alleato è parte del Branco Heishou o della Famiglia Jia, si attivano invece i seguenti effetti: recupera 20 PS; infine, a Inizio Combattimento, gli ordina di usare la sua Abilità 3 come Attacco Incontrastato contro un nemico casuale (2 volte per Incontro per Identità)\n\nA Inizio Incontro: ottiene 1 [HeishouSynergy] per ogni Identità del Branco Heishou nella Squadra, incluse unità di Rinforzo\n\nQuando le unità Heishou sono uccise in un Incontro, recupera 20 PS e ottiene 1 [HeishouDeathCount] (si attiva anche quando questa unità si è Ritirata)\n\nInfligge +5% danni per ogni 1 [HeishouComboCountHonglu] (max 55%)",
       "summary": "Infligge più danni in base a [HeishouComboCountHonglu]"
     },
     {
@@ -2544,19 +2544,19 @@
       "id": 1031302,
       "name": "Lamento della Pecora Smarrita [亡羊之嘆]",
       "desc": "Quando attiva [HeishouCombo], Il Lord di Hongyuan Hong Lu ottiene il seguente effetto come effetto di [HeishouComboCountHonglu]:\n- Infligge 1 [Sinking] appena infligge Potenza o Conteggio [Burst] quando usa un'Abilità (3 volte per turno)\n\nNel turno in cui questa unità Sostituisce o Rientra in campo, ottiene 3 [GrownHorns]",
-      "summary": "The Lord of Hongyuan Hong Lu gains special effect"
+      "summary": "Il Lord di Hongyuan Hong Lu ottiene un effetto speciale"
     },
     {
       "id": 1041301,
       "name": "Guerriera Leale",
       "desc": "Se un alleato viene ucciso da un attacco nemico o se i PV dell'attaccato sono meno del 25% dopo l'attacco: Dopo quell'Attacco, Lama Vagabonda di Hongyuan Ryōshū usa \"Colpo Di Supporto\" come Attacco Incontrastato contro il nemico che ha sferrato l'attacco (una volta per Incontro)\n- Il Lord Di Hongyuan Hong Lu può attivare questo effetto 1 volta in più oltre il suo limite massimo\n\nSe \"Ehi, Allontanati\" si attiva tramite la Passiva 'A.V.S.V.L.I', l'Abilità infliggerà +30% danni su Colpo Critico e curerà 2~4 PS per un alleato con i PS più bassi (una volta per turno, alleati con -40 PS o meno esclusi",
-      "summary": "When an ally is hit by a fatal attack, use Skill 3 against the Attacker. Enhance Skill 1 used by the always-active Passive"
+      "summary": "Quando un alleato viene colpito da un attacco fatale, usa l'Abilità 3 contro l'attaccante. Potenzia l'Abilità 1 utilizzata dalla Passiva sempre attiva"
     },
     {
       "id": 1041302,
       "name": "A.V.S.V.L.I.\n(Avrei Voluto Seguire La Via Del Lord Insieme)",
       "desc": "Quando l'Abilità di un altro alleato colpisce un nemico: Dopo quell'Attacco, usa \"Ehi, Allontanati\" come attacco incontrastato contro il nemico (una volta per turno)\n\nNello stesso turno in cui questa unità è rientrata in battaglia o è entrata come sostituto, ottiene 2 [ProtectStanceRyoshu]\nQuando quest'unità attiva un attacco incontrastato tramite la Passiva \"Il Lord Di Hongyuan\" Hong Lu, quest'unità verrà trattata come se avesse il Tratto \"Branco Heishou\" o \"Famiglia Jia\"",
-      "summary": "Use Skill 1 as an Unopposed Attack against the enemy an ally attacked"
+      "summary": "Usa l'Abilità 1 come Attacco Incontrastato contro il nemico attaccato da un alleato"
     },
     {
       "id": 1041321,
@@ -2566,23 +2566,23 @@
     {
       "id": 1091401,
       "name": "Corna Festive",
-      "desc": "Ottiene 1 [Charge] ogni volta che quest'unità consuma 10 Conteggio [Charge] cumulativo in quest'Incontro\n\nQuando usa un'Abilità Attacco Base che infligge Potenza [Sinking] Potency, se il bersaglio non ha [Sinking], quest'unità ottiene 5 [Sinking] e raddoppia la quantità di Potenza Annegamento che l'Abilità applica (una volta per turno; negli Incontri Mirati, la Parte)",
-      "summary": "If enemy does not have [Sinking], ottiene [Sinking] and inflict more [Sinking] Potency"
+      "desc": "Ottiene 1 [Charge] ogni volta che quest'unità consuma 10 Conteggio [Charge] cumulativo in quest'Incontro\n\nQuando usa un'Abilità Attacco Base che infligge Potenza [Sinking], se il bersaglio non ha [Sinking], quest'unità ottiene 5 [Sinking] e raddoppia la quantità di Potenza Annegamento che l'Abilità applica (una volta per turno; negli Incontri Mirati, la Parte)",
+      "summary": "Se un nemico non ha [Sinking], ottiene [Sinking] e infligge più Potenza [Sinking]"
     },
     {
       "id": 1091411,
       "name": "Corna Festive",
-      "desc": "Ottiene 1 [Charge] ogni volta che quest'unità consuma 10 Conteggio [Charge] cumulativo in quest'Incontro\n\nQuando usa un'Abilità Attacco Base che infligge Potenza [Sinking] Potency, se il bersaglio non ha [Sinking], quest'unità ottiene 5 [Sinking] e raddoppia la quantità di Potenza Annegamento che l'Abilità applica (una volta per turno; negli Incontri Mirati, la Parte)\n\n<style=\"highlight\">A meno del 35% di PV, L'Abilità Attacco Base ottiene Potere Finale +1</style>",
-      "summary": "If enemy does not have [Sinking], ottiene [Sinking] and inflict more [Sinking] Potency\nAt less than 35% HP, Potere Finale +1"
+      "desc": "Ottiene 1 [Charge] ogni volta che quest'unità consuma 10 Conteggio [Charge] cumulativo in quest'Incontro\n\nQuando usa un'Abilità Attacco Base che infligge Potenza [Sinking], se il bersaglio non ha [Sinking], quest'unità ottiene 5 [Sinking] e raddoppia la quantità di Potenza Annegamento che l'Abilità applica (una volta per turno; negli Incontri Mirati, la Parte)\n\n<style=\"highlight\">A meno del 35% di PV, L'Abilità Attacco Base ottiene Potere Finale +1</style>",
+      "summary": "Se un nemico non ha [Sinking], ottiene [Sinking] e infligge più Potenza [Sinking]\nA meno del 35% di PV, Potere Finale +1"
     },
     {
       "id": 1091421,
-      "name": "Canto Dei Compagni Defunti",
+      "name": "Canto dei Compagni Defunti",
       "desc": "1 alleato con i PS più bassi: le Abilità che consumano [Charge] o <noparse>Carica</noparse> Speciale e hanno effetti che infliggono [Sinking] contro i nemici, infliggono il 10% in più di danni (Abilità E.G.O escluse)"
     },
     {
       "id": 1111401,
-      "name": "Team Di Avanguardia",
+      "name": "Team dell'Avanguardia",
       "desc": "Infligge +5% danni per ogni [Protection] su di sé (max 15%)\n\nInizio Combattimento: ottiene 2 [TheUdjatOutis]",
       "summary": ""
     },
@@ -2602,43 +2602,43 @@
       "id": 1111421,
       "name": "Occhio Di Falco",
       "desc": "Inizio Combattimento: applica 1 [Protection] il turno successivo ad 1 alleato con la percentuale di PV minore",
-      "summary": "Ottiene Protection"
+      "summary": "Ottiene Protezione"
     },
     {
       "id": 1021402,
       "name": "Prescritto Consegnato Su Un Foglietto",
-      "desc": "Inizio Turno:\n- Ottiene [IndexPrescriptFaust_0] / [IndexPrescriptFaust_1] / [IndexPrescriptFaust_2] / [IndexPrescriptFaust_3] in base a [BlessingOfIndexPrescriptAlly] su di sé\n- Infligge [IndexPrescriptTargetToEnemy] ad un nemico casuale (negli Incontri Mirati, ad una Parte casuale)\n- Applica [IndexPrescriptTargetMarkToEnemy] alle Abilità Base di quest'Unità sul Pannello Di Controllo (1 per Slot, max 2 Abilità)\n· A 6+ [BlessingOfIndexPrescriptAlly], l'effetto dà priorità all'Abilità 3\n- Tutti gli effetti sovracitati e [IndexPrescript_Base] non vengono effettuati se l'Unità è Stordita, è <noparse>Immobilizzata</noparse> o è sotto l'effetto di <noparse>Corrosione</noparse>",
-      "summary": "Ottiene Prescript\nInflict 'The Prescript's Target' to random target\nApply 'Mark of the Prescript' on a Base Attack Skill"
+      "desc": "Inizio Turno:\n- Ottiene [IndexPrescriptFaust_0] / [IndexPrescriptFaust_1] / [IndexPrescriptFaust_2] / [IndexPrescriptFaust_3] in base a [BlessingOfIndexPrescriptAlly] su di sé\n- Infligge [IndexPrescriptTargetToEnemy] ad un nemico casuale (negli Incontri Mirati, ad una Parte casuale)\n- Applica [IndexPrescriptTargetMarkToEnemy] alle Abilità Base di quest'unità sul Pannello Di Controllo (1 per Slot, max 2 Abilità)\n· A 6+ [BlessingOfIndexPrescriptAlly], l'effetto dà priorità all'Abilità 3\n- Tutti gli effetti sovracitati e [IndexPrescript_Base] non vengono effettuati se l'unità è Stordita, è <noparse>Immobilizzata</noparse> o è sotto l'effetto di <noparse>Corrosione</noparse>",
+      "summary": "Ottiene Prescritto\nInfligge 'Obiettivo Del Prescritto' to random target\nApply 'Segno Del Prescritto' on a Base Attack Skill"
     },
     {
       "id": 1021403,
       "name": "Volontà Del Prescritto",
-      "desc": "Fine Turno: Se il [IndexPrescript_Base] è stato portato a termine in questo turno, recupera 4 PS ed ottiene 1 [BlessingOfIndexPrescriptAlly] (una volta per turno)\n- Quando esegue un [IndexPrescript_Base], se il bersaglio principale ha [IndexPrescriptTargetToEnemy] su di sé, si cura invece di 8 PS ed ottiene 3 [BlessingOfIndexPrescriptAlly]\n\nFine Turno: Se il [IndexPrescript_Base] non è stato eseguito in questo turno, ottiene 5 [KarmaOfIndexAlly]\n- A 9 [BlessingOfIndexPrescriptAlly], non ottiene [KarmaOfIndexAlly]\n- Se quest'Unità ha provato ad eseguire il [IndexPrescript_Base] all'Inizio del Combattimento, ma non ha potuto bersagliare il nemico durante il Turno, non ottiene [KarmaOfIndexAlly]",
-      "summary": "Upon executing Prescript, heal SP and ottiene Grace of the Prescript\nUpon failing Prescript, ottiene Karmic Consequence"
+      "desc": "Fine Turno: Se il [IndexPrescript_Base] è stato portato a termine in questo turno, recupera 4 PS ed ottiene 1 [BlessingOfIndexPrescriptAlly] (una volta per turno)\n- Quando esegue un [IndexPrescript_Base], se il bersaglio principale ha [IndexPrescriptTargetToEnemy] su di sé, si cura invece di 8 PS ed ottiene 3 [BlessingOfIndexPrescriptAlly]\n\nFine Turno: Se il [IndexPrescript_Base] non è stato eseguito in questo turno, ottiene 5 [KarmaOfIndexAlly]\n- A 9 [BlessingOfIndexPrescriptAlly], non ottiene [KarmaOfIndexAlly]\n- Se quest'unità ha provato ad eseguire il [IndexPrescript_Base] all'Inizio del Combattimento, ma non ha potuto bersagliare il nemico durante il Turno, non ottiene [KarmaOfIndexAlly]",
+      "summary": "Dopo aver portato a termine un Prescritto, recupera PS e ottiene Grazia del Prescritto\nDopo non aver portato a termine un Prescritto, ottiene Consequenza Karmica"
     },
     {
       "id": 1021401,
       "name": "Lama Del Proselito",
-      "desc": "Infligge +2% danni con le Abilità marchiate con [IndexPrescriptTargetMarkToEnemy] per ogni [BlessingOfIndexPrescriptAlly] su di sé (max 16%)\n- A 9 [BlessingOfIndexPrescriptAlly], infligge invece +20% danni con le Abilità Base\n\nSu Colpo con Abilità Base sui nemici affetti da [IndexPrescriptTargetToEnemy], ottiene 1 [Breath] e infligge 1 [Sinking] (una volta per turno)\n- Incrementa il numero di volte che quest'effetto si può attivare per turno di 1 ogni 3 [BlessingOfIndexPrescriptAlly] (max 2)\n\n- A 9 [BlessingOfIndexPrescriptAlly], le Abilità Base infliggono +1 Potenza [Sinking] in più e quest'Unità ottiene +1 Potenza [Breath] in più",
-      "summary": "Skills marked with Mark of the Prescript deal more damage based on Grace of the Prescript Stack\nOn Hit, ottiene Poise and inflict Sinking"
+      "desc": "Infligge +2% danni con le Abilità marchiate con [IndexPrescriptTargetMarkToEnemy] per ogni [BlessingOfIndexPrescriptAlly] su di sé (max 16%)\n- A 9 [BlessingOfIndexPrescriptAlly], infligge invece +20% danni con le Abilità Base\n\nSu Colpo con Abilità Base sui nemici affetti da [IndexPrescriptTargetToEnemy], ottiene 1 [Breath] e infligge 1 [Sinking] (una volta per turno)\n- Incrementa il numero di volte che quest'effetto si può attivare per turno di 1 ogni 3 [BlessingOfIndexPrescriptAlly] (max 2)\n\n- A 9 [BlessingOfIndexPrescriptAlly], le Abilità Base infliggono +1 Potenza [Sinking] in più e quest'unità ottiene +1 Potenza [Breath] in più",
+      "summary": "Le Abilità marchiate con Segno Del Prescritto infliggono più danni in base alle Stack di Grazia del Prescritto\nSul Colpo, ottiene Equilibrio e infligge Annegamento"
     },
     {
       "id": 1021421,
       "name": "Come Ordina Il Prescritto...",
-      "desc": "Quest'effetto si applica all'Identità con l'ordine di Schieramento più alto:\n- Le Unità dell'Indice avranno la priorità\n\nInizio Combattimento: se l'Unità con l'Abilità più a sinistra nel Pannello Di Controllo e gli altri alleati bersagliano lo stesso Slot Nemico, quelle Abilità infliggono +5% danni per ogni alleato che bersaglia lo stesso Slot, escludendo quest'Unità (max 15%, si applica quando quest'unità e gli alleati usano entrambi un'Abilità Attacco Base sullo Slot del bersaglio principale)",
-      "summary": "Deal more damage based on number of other units that targeted the slot"
+      "desc": "Quest'effetto si applica all'Identità con l'ordine di Schieramento più alto:\n- Le unità dell'Indice avranno la priorità\n\nInizio Combattimento: se l'unità con l'Abilità più a sinistra nel Pannello Di Controllo e gli altri alleati bersagliano lo stesso Slot Nemico, quelle Abilità infliggono +5% danni per ogni alleato che bersaglia lo stesso Slot, escludendo quest'unità (max 15%, si applica quando quest'unità e gli alleati usano entrambi un'Abilità Attacco Base sullo Slot del bersaglio principale)",
+      "summary": "Infligge più danni in base al numero delle altre unità che hanno bersagliato lo slot"
     },
     {
       "id": 1031402,
       "name": "Prescritto Consegnato Su Un Dispositivo",
       "desc": "Inizio Turno:\n- Ottiene [IndexPrescriptDon_0] / [IndexPrescriptDon_1] / [IndexPrescriptDon_2] / [IndexPrescriptDon_3] in base al livello di [UnlockBuff_Base] su di sé\n- Infligge [IndexPrescriptTargetToEnemy] ad un nemico casuale (negli Incontri Mirati, ad una Parte)\n- Applica [IndexPrescriptTargetMarkToEnemy] alle Abilità Attacco Base di questa unità sul Pannello di Controllo (1 per Slot, max 2 Abilità)\n· A [UnlockBuffAlly_2]+, l’effetto dà priorità all’Abilità 3\n- Se questa unità è Stordita, Immobilizzata, in Panico o in <noparse>Corrosione</noparse> E.G.O, tutti gli effetti sovracitati e [IndexPrescript_Base_2nd] non si attivano\n\nSe questa unità ha [UnlockBuffAlly_3] ad Inizio Turno, ottiene [Blandishment_Shin]",
-      "summary": "Ottiene Prescript\nInflict The Prescript's Target to random target\nApply Mark of the Prescript on a Base Attack Skill"
+      "summary": "Ottiene un Prescritto\nInfligge Obiettivo del Prescritto ad un bersaglio casuale\nApplica Segno Del Prescritto su un'Abilità Attacco Base"
     },
     {
       "id": 1031403,
       "name": "Volontà Del Prescritto",
       "desc": "Fine Turno: Se il [IndexPrescript_Base_2nd] è stato portato a termine in questo turno, recupera 4 PS ed ottiene 1 [BlessingOfIndexPrescriptAlly] (una volta per turno)\n- Quando si porta a termine il [IndexPrescript_Base_2nd], se il bersaglio principale ha [IndexPrescriptTargetToEnemy], si cura invece di 8 PS ed ottiene 3 [BlessingOfIndexPrescriptAlly]\n\nFine Turno: Se il [IndexPrescript_Base_2nd] non è stato portato a termine in questo turno, ottiene 5 [KarmaOfIndexAlly]\n- A [UnlockBuffAlly_3], non ottiene [KarmaOfIndexAlly]\n- Se questa unità prova ad eseguire un [IndexPrescript_Base_2nd] all’Inizio del Combattimento, ma non ha potuto bersagliare un nemico durante la fase di combattimento, non ottiene [KarmaOfIndexAlly] a Fine Turno",
-      "summary": "Upon executing Prescript, heal SP and ottiene Grace of the Prescript\nUpon failing Prescript, ottiene Karmic Consequence"
+      "summary": "Dopo aver portato a termine un Prescritto, recupera PS e ottiene Grazia del Prescritto\nDopo non aver portato a termine un Prescritto, ottiene Consequenza Karmica"
     },
     {
       "id": 1031404,
@@ -2649,7 +2649,7 @@
       "id": 1031401,
       "name": "Il Sommo Bip-Bip Incantato Conosce Il Mio Desiderio!",
       "desc": "Infligge +2% danni con le Abilità marchiate con [IndexPrescriptTargetMarkToEnemy] per ogni [BlessingOfIndexPrescriptAlly] su di sé (max 16%)\n- A 9 [BlessingOfIndexPrescriptAlly], infligge invece +20% danni con le Abilità Base\n\nSul Colpo con Abilità Base che colpiscono i bersagli con [IndexPrescriptTargetToEnemy], recupera 3 PS (una volta per Abilità, 2 volte per turno)\n- Recupera PS in più in base al livello di [UnlockBuff_Base]",
-      "summary": "Skills marked with Mark of the Prescript deal more damage based on Grace of the Prescript Stack\nOn Hit, heal SP"
+      "summary": "Skills marked with Segno Del Prescritto deal più danni based on Grazia del Prescritto Stack\nOn Hit, recupera PS"
     },
     {
       "id": 1031421,
@@ -2778,7 +2778,7 @@
     {
       "id": 1051402,
       "name": "Alterazione E.G.O / Spore Proiettili",
-      "desc": "Sempre Attiva: Inizia L'incontro con 10 [MeursaultSporeBulletLong] e 6 [MeursaultSporeBulletShort]\n\nSul Colpo con Monete che usano <noparse>Proiettili Spora</noparse>:\n- Se sono stati usati [MeursaultSporeBulletLong], infligge 2 [MeursaultBeeSpore]\n- Se sono stati usati [MeursaultSporeBulletShort], infligge 3 [MeursaultBeeSpore]\n- Questo conta come \"infliggere effetti negativi con le Abilitàcting negative effects with the Skill\"\n\nPrima dell'Utilizzo di una Moneta che usa [MeursaultSporeBulletShort], se questa Unità non possiede [MeursaultSporeBulletShort], consuma 2 PS e 2 [MeursaultSporeBulletLong] per ottenere 1 [MeursaultSporeBulletShort]\n\nSe questa unità esaurisce i <noparse>Proiettili Spora</noparse> durante un'Abilità, cancella tutte le Monete rimaste e [MeursaultSporeBulletReloading]\n\nQuando i bersagli con [MeursaultBeeSpore] vengono sconfitti, ottiene 1 [MeursaultWorkerBee]",
+      "desc": "Sempre Attiva: Inizia L'incontro con 10 [MeursaultSporeBulletLong] e 6 [MeursaultSporeBulletShort]\n\nSul Colpo con Monete che usano <noparse>Proiettili Spora</noparse>:\n- Se sono stati usati [MeursaultSporeBulletLong], infligge 2 [MeursaultBeeSpore]\n- Se sono stati usati [MeursaultSporeBulletShort], infligge 3 [MeursaultBeeSpore]\n- Questo conta come \"infliggere effetti negativi con le Abilitàcting negative effects with the Skill\"\n\nPrima dell'Utilizzo di una Moneta che usa [MeursaultSporeBulletShort], se questa unità non possiede [MeursaultSporeBulletShort], consuma 2 PS e 2 [MeursaultSporeBulletLong] per ottenere 1 [MeursaultSporeBulletShort]\n\nSe questa unità esaurisce i <noparse>Proiettili Spora</noparse> durante un'Abilità, cancella tutte le Monete rimaste e [MeursaultSporeBulletReloading]\n\nQuando i bersagli con [MeursaultBeeSpore] vengono sconfitti, ottiene 1 [MeursaultWorkerBee]",
       "flavor": "\"L'analisi del team di ricerca (siamo noi) ha confermato che persino l'equipaggiamento nato dalle estrazioni più stabili e meglio gestite potesse mutare in base al suo utente.\nNo, non lo attribuisco all'essere incompleto. Piuttosto, tali cambiamenti potrebbero derivare persino dall'equipaggiamento che raggiunge il picco del suo potenziale, con un vero E.G.O.\nPer ora, chiameremo questo fenomeno \"Alterazioni\".\""
     },
     {
@@ -3176,7 +3176,7 @@
     {
       "id": 1121621,
       "name": "Protesi dell'Officina Stigma",
-      "desc": "L'alleato che ha i maggiori PV correnti infligge 2 [Vibration] Sul Colpo ai nemici affetti da [Combustion] (una volta per turno)\n- Se quel nemico ha 10+ [Combustion], innesca [VibrationExplosion] Sul Colpo Moneta finale; poi riduce il Conteggio [Vibration] del bersaglio di 1 (una volta per turno))",
+      "desc": "L'alleato che ha i maggiori PV correnti infligge 2 [Vibration] Sul Colpo ai nemici affetti da [Combustion] (una volta per turno)\n- Se quel nemico ha 10+ [Combustion], innesca [VibrationExplosion] Sul Colpo Moneta finale; poi riduce il Conteggio [Vibration] del bersaglio di 1 (una volta per turno)",
       "flavor": "Un armamento protesico prodotto dall'Officina Stigma—un'Officina normalmente specializzata nelle armi da taglio—costruita specificatamente per essere usata dal Fixer alle Prime Luci dell'Alba. Provare a usare questo equipaggiamento fiammeggiante senza capire come funzionano le specifiche particolari dell'Officina Stigma risulterà in conseguenze gravi: dolorose ustioni che sciolgono le carni saranno marchiate nel corpo dell'utilizzatore."
     },
     {
@@ -3243,7 +3243,7 @@
     {
       "id": 1061602,
       "name": "Un Duello Osservato",
-      "desc": "Quando entra nell'Incontro per la prima volta, ottiene [DuelSousTemoinsEast] pari al numero di Identità appartenendi alla \"Associazione Cinq\" Schierate come Rinforzi o Unità di Supporto (max 3, unità sconfitte incluse)\n\nContro il bersaglio che ha colpito per ultimo con un'Abilità Attacco Base, infligge 1 [DianxueHongLu] il tunro successivo (una volta per turno; negli Incontri Mirati, la Parte)"
+      "desc": "Quando entra nell'Incontro per la prima volta, ottiene [DuelSousTemoinsEast] pari al numero di Identità appartenendi alla \"Associazione Cinq\" Schierate come Rinforzi o unità di Supporto (max 3, unità sconfitte incluse)\n\nContro il bersaglio che ha colpito per ultimo con un'Abilità Attacco Base, infligge 1 [DianxueHongLu] il tunro successivo (una volta per turno; negli Incontri Mirati, la Parte)"
     },
     {
       "id": 1061611,
@@ -3295,7 +3295,7 @@
     {
       "id": 1081602,
       "name": "Nel Camerino...",
-      "desc": "Ottiene 1 [ChargeRougeAlly] per ogni 10 Conteggio [ChargeRougeAlly] cumulativo consuamto da questa unità in questo incontro\n\nGli effetti che consumano o riducono i PV non possono Stordire o ridurre i PV di questa unità sotto 1\n(A 1 PV, Gli effetti delle Abilità Base che consumano PV saranno attivati gratuitamente)\n\nDurante questo incontro, quando questa Unità subisce danni che porterebbero i PV a 0, annulla quel danno; poi, Ottiene immediatamente 2 [RougeIshmaelCocoon] ed entra nello stato di [RougeIshmaelCocoon] (una volta per Incontro)\n- Se questa Unità è entrata nello stato di [RougeIshmaelCocoon] per via della sua Abilità Difensiva, l'effetto sovracitato non si potrà attivare per il resto dell'Incontro\n\nQuando entra nello stato di [RougeIshmaelCocoon], ottiene Scudo pari ai PV massimi di questa Unità\n- Lo Scudo ottenuto da questo effetto non scade a fine turno\n- Quando Esce dallo stato di [RougeIshmaelCocoon], lo scudo ottenuto dall'effetto sovracitato scade\n\n- Quano si trova nello stato di [RougeIshmaelCocoon], questa Unità ha solo accesso all'Abilità \"Come Dice la Voce, Mi Ritiro Dentro Me Stessa\" (non può utilizzare Abilità E.G.O)\n\nFine Turno: A 0 Stack di [RougeIshmaelCocoon], esce dallo stato di [RougeIshmaelCocoon] ed entra nello stato di [RougeIshmaelEclose]: poi, ottiene +5 Conteggio [ChargeRougeAlly]",
+      "desc": "Ottiene 1 [ChargeRougeAlly] per ogni 10 Conteggio [ChargeRougeAlly] cumulativo consuamto da questa unità in questo incontro\n\nGli effetti che consumano o riducono i PV non possono Stordire o ridurre i PV di questa unità sotto 1\n(A 1 PV, Gli effetti delle Abilità Base che consumano PV saranno attivati gratuitamente)\n\nDurante questo incontro, quando questa unità subisce danni che porterebbero i PV a 0, annulla quel danno; poi, Ottiene immediatamente 2 [RougeIshmaelCocoon] ed entra nello stato di [RougeIshmaelCocoon] (una volta per Incontro)\n- Se questa unità è entrata nello stato di [RougeIshmaelCocoon] per via della sua Abilità Difensiva, l'effetto sovracitato non si potrà attivare per il resto dell'Incontro\n\nQuando entra nello stato di [RougeIshmaelCocoon], ottiene Scudo pari ai PV massimi di questa unità\n- Lo Scudo ottenuto da questo effetto non scade a fine turno\n- Quando Esce dallo stato di [RougeIshmaelCocoon], lo scudo ottenuto dall'effetto sovracitato scade\n\n- Quano si trova nello stato di [RougeIshmaelCocoon], questa unità ha solo accesso all'Abilità \"Come Dice la Voce, Mi Ritiro Dentro Me Stessa\" (non può utilizzare Abilità E.G.O)\n\nFine Turno: A 0 Stack di [RougeIshmaelCocoon], esce dallo stato di [RougeIshmaelCocoon] ed entra nello stato di [RougeIshmaelEclose]: poi, ottiene +5 Conteggio [ChargeRougeAlly]",
       "flavor": "Mi rifarò il look! Per avvicinarmi al mio vero io!"
     },
     {
@@ -3327,7 +3327,7 @@
       "id": 1031501,
       "name": "Patto d'Ossidiana",
       "desc": "Fine Combattimento: Se questa unità ha [OathFieldDonQuixote], ottiene 1 [Agility] il turno successivo\n\nLe Abilità Attacco Base di questa unità infliggono +(Potenza [ChargeNoirAlly] su di sé x 3)% danni contro il bersaglio principale (max 15%)",
-      "summary": "Se [OathFieldDonQuixote] è attivo, ottiene [Agility] il turno successivo\nLe Abilità Attacco Base infliggono more danni contro il bersaglio principale",
+      "summary": "Se [OathFieldDonQuixote] è attivo, ottiene [Agility] il turno successivo\nLe Abilità Attacco Base infliggono più danni contro il bersaglio principale",
       "flavor": "Ho udito la Sua voce, la Sua promessa: \"Tutto ciò che esiste ha significato.\""
     },
     {
@@ -3385,7 +3385,7 @@
     {
       "id": 1101614,
       "name": "La Moisson",
-      "desc": "Quando i PV di un alleato vengono consumati per via dell'effetto di un Abilità Base di questa unità, l'alleato non può essere Stordito da quegli effetti, e i suoi PV non possono scendere al di sotto di 1.\n\nFine Combattimento: A 3+ Rison. Lussuria, applica [BuffetThirst] il turno successivo su altri (Rison. Lussuria / 3) alleati (arrotondato per eccesso)\n- Priorità agli alleati \"Le Rouge\", in ordine di Schieramento\n- Se questa unità ha [TransformSinclair], applica questo effetto a 1 alleato in più (max 4 alleati)\n\nSe questa unità non ha [TransformSinclair],\n- Quando usa un'Abilità [SupportAlly] su un alleato, applica 1 [BuffetFriendShield] all'alleato \"Le Rouge\" non immobilizzato con i maggiori PV correnti (una volta per turno)\n- Alla Fine di un'Attacco Base da parte di un'[PersonalityCharge] alleata, se quell'Abilità non ha sconfitto il bersaglio principale, usa \"Je vous aide\" contro quel nemico (una volta per turno))\n\nSe questa unità ha [TransformSinclair],\n- Ottiene [RougeFamilySinclair]\n- Attiva [DinnerField] sul campo di battaglia corrente\n- Fine Turno: Ottiene [BuffetThirst] il turno successivo\n- Inizio Combattimento: Applica 1 [BuffetFriendShield] all'alleato \"Le Rouge\" non immobilizzato con i maggiori PV correnti\n- A Fine Attacco di un'Abilità Attacco Base contro dei nemici, se il bersaglio principale ha 5 [BoneNailSinclair], usa \"La Demande\" (una volta per turno)",
+      "desc": "Quando i PV di un alleato vengono consumati per via dell'effetto di un Abilità Base di questa unità, l'alleato non può essere Stordito da quegli effetti, e i suoi PV non possono scendere al di sotto di 1.\n\nFine Combattimento: A 3+ Rison. Lussuria, applica [BuffetThirst] il turno successivo su altri (Rison. Lussuria / 3) alleati (arrotondato per eccesso)\n- Priorità agli alleati \"Le Rouge\", in ordine di Schieramento\n- Se questa unità ha [TransformSinclair], applica questo effetto a 1 alleato in più (max 4 alleati)\n\nSe questa unità non ha [TransformSinclair],\n- Quando usa un'Abilità [SupportAlly] su un alleato, applica 1 [BuffetFriendShield] all'alleato \"Le Rouge\" non immobilizzato con i maggiori PV correnti (una volta per turno)\n- Alla Fine di un'Attacco Base da parte di un'[PersonalityCharge] alleata, se quell'Abilità non ha sconfitto il bersaglio principale, usa \"Je vous aide\" contro quel nemico (una volta per turno)\n\nSe questa unità ha [TransformSinclair],\n- Ottiene [RougeFamilySinclair]\n- Attiva [DinnerField] sul campo di battaglia corrente\n- Fine Turno: Ottiene [BuffetThirst] il turno successivo\n- Inizio Combattimento: Applica 1 [BuffetFriendShield] all'alleato \"Le Rouge\" non immobilizzato con i maggiori PV correnti\n- A Fine Attacco di un'Abilità Attacco Base contro dei nemici, se il bersaglio principale ha 5 [BoneNailSinclair], usa \"La Demande\" (una volta per turno)",
       "summary": "Quando usa un'Abilità [SupportAlly] su un alleato, applica [BuffetFriendShield]\nApplica [BuffetThirst] su un alleato il turno successivo in base alla Rison. Lussuria"
     },
     {
@@ -3445,115 +3445,115 @@
     },
     {
       "id": 1111601,
-      "name": "Wedge-style Spearmanship",
-      "desc": "Increase the Stagger Threshold raise by +10% for [VibrationExplosion] triggered by this unit's Skills\nCombat Start: Gain 1 [PenetrateResultUp] and 1 [PenetrateDamageUp]",
+      "name": "Stile d'attacco a Cuneo",
+      "desc": "Aumenta la Soglia di Stordimento del +10% per [VibrationExplosion] innescato dalle Abilità di questa unità\nInizio Combattimento: Ottiene 1 [PenetrateResultUp] e 1 [PenetrateDamageUp]",
       "flavor": "There is only so much piercing power to be gained from sharpening a spearhead. Spears forged from Patented alloys or rare materials recovered from the Ruins may offer greater results, but their price can rival several years' worth of an ordinary Fixer Office's budget. A far more economical approach is to harness the surrounding currents of wind and coil them around the weapon, granting it formidable piercing power at a fraction of the cost. The technique is well-established, with many Workshops offering their own implementations.\nWedge Office's spears are the handiwork of one such Workshop. Combined with the Office's distinctive spearwork, which makes masterful use of twisting and rotational movements, these weapons have run countless foes through."
     },
     {
       "id": 1111602,
-      "name": "Unrelenting",
-      "desc": "In this Encounter, when this unit takes damage that brings its HP down to 0, apply the following effects (once per Encounter):\n- Nullify that damage; then, this unit's HP cannot drop below 1 for the turn\n- Turn End: Heal 50% HP\n- Take -20% damage for this Encounter",
-      "summary": "When this unit takes damage that brings their HP down to 0, nullify that damage; then, this unit's HP cannot drop below 1"
+      "name": "Implacabile",
+      "desc": "In questo Incontro,quando questa unità subisce danni che portano i suoi PV a 0, applica i seguenti effetti (una volta per Incontro):\n- Annulla il danno, poi i PV di questa unità non scendono al di sotto di 1 per il turno\n- Fine Turno: Recuper il 50% dei PV\n- Subisce -20% danni per questo Incontro",
+      "summary": "Quando questa unità subisce danni che portano i suoi PV a 0, annulla il danno, poi i PV di questa unità non scendono al di sotto di 1"
     },
     {
       "id": 1111603,
-      "name": "Wedge Office",
-      "desc": "Turn Start: If there are 2+ allied \"Wedge Office[TabExplain]\" Identities (including this unit) on the field, apply [WedgeOffice] Stack on all allied \"Wedge Office[TabExplain]\" Identities equal to the number of the said Identities on the field",
-      "summary": "Apply [WedgeOffice]"
+      "name": "Ufficio Cuneo",
+      "desc": "Inizio Turno: Se in campo ci sono 2+ Identità alleate dell' \"Ufficio Cuneo[TabExplain]\" (inclusa questa unità), applica Stack di [WedgeOffice] a tutte le Identità alleate dell'\"Ufficio Cuneo[TabExplain]\" pari al numero delle suddette Identità in campo",
+      "summary": "Applica [WedgeOffice]"
     },
     {
       "id": 1111604,
-      "name": "Assistance of the Wedge",
-      "desc": "On Skill Use by an allied Identity (including this unit), gain 1 [ComboWedge] (once per turn per Identity)\nOn Clash Win by an allied \"Wedge Office[TabExplain]\" or \"Dawn Office[TabExplain]\" Identity, gain 2 [ComboWedge] (once per turn per Identity)\n\nAt this unit's Attack End, if this unit has 25+ [ComboWedge], use \"Assume Wedge Formation\" (once per turn)",
-      "summary": "At 25+ [ComboWedge], use \"Assume Wedge Formation\"",
+      "name": "Sostegno del Cuneo",
+      "desc": "All'Uso di un'Abilità da parte di un'Identità alleata (inclusa questa unità), ottiene 1 [ComboWedge] (una volta per turno per Identità)\nA Scontro Vinto da un'Identità alleata \"Ufficio Cuneo[TabExplain]\" o \"Ufficio Alba[TabExplain]\", ottiene 2 [ComboWedge] (una volta per turno per Identità)\n\nA Fine Attacco di questa unità, se questa unità ha 25+ [ComboWedge], usa \"Assumere La Formazione Cuneo\" (una volta per turno)",
+      "summary": "At 25+ [ComboWedge], use \"Assumere La Formazione Cuneo\"",
       "flavor": "Most Fixer Offices work together to make up for one another's shortcomings.\n\nSome Offices, however, find themselves so perfectly in sync that their partnership grows into something more. As they exchange information and forge deeper bonds of trust, they may eventually come to regard one another as siblings."
     },
     {
       "id": 1111605,
-      "name": "Dawn - Wedge",
-      "desc": "Apply the following when allied Dawn Office[TabExplain] Rep Gregor Identity uses the \"Crack of Dawn\" Skill:\n- [ComboSkill]: Wedge Office[TabExplain] Rep Outis\n · [WhenUse] Deal +30% damage\n · [WhenUse] Allied Wedge Office[TabExplain] Rep Outis gains 1 [ComboWedgeDawn]\n\nTurn Start: Convert one of this unit's Base Skills based on [ComboWedgeDawn] Stack on self\n · At 4 [ComboWedgeDawn], convert the said Skill into \"... All units, engage for collision.\"\n · At 5 [ComboWedgeDawn], convert the said Skill into \"The Wedge in the Wake of Dawnbreak\"\n(prioritizes the Skill on the leftmost Slot's bottom row on this unit's Dashboard. If this unit already has one of the Skills above, the said Skill will not be duplicated; instead, the said Skill will be replaced by the Skill corresponding to the [ComboWedgeDawn] Stack condition)",
-      "summary": "Empower Dawn Office[TabExplain] Rep Gregor's \"Crack of Dawn\" Skill"
+      "name": "Alba - Cuneo",
+      "desc": "Applica i seguenti effetti quando l'Identità alleata Rappresentante dell'Ufficio Alba[TabExplain] Gregor usa l'Abilità \"Prime Luci dell'Alba\":\n- [ComboSkill] con: Rappresentante dell'Ufficio Cuneo[TabExplain] Outis\n · [WhenUse] Infligge +30% danni\n · [WhenUse] L'Identità alleata Rappresentante dell'Ufficio Cuneo[TabExplain] Outis ottiene 1 [ComboWedgeDawn]\n\nConverte una delle Abilità Base di questa unità in base alle Stack di [ComboWedgeDawn] su di sé\n · A 4 [ComboWedgeDawn], converte la suddetta Abilità in \"... A tutte le unità, preparatevi allo scontro.\"\n · A 5 [ComboWedgeDawn], converte la suddetta Abilità in \"Il Cuneo alle Prime Luci dell'Alba\"\n(priorità all'Abilità più in basso a sinistra sul Pannello di Controllo di questa unità. Se questa unità ha già una delle Abilità sul Pannello di Controllo, la suddetta Abilità non verrà duplicata; verrà invece rimpiazzata con l'Abilità corrispondente alle Stack di [ComboWedgeDawn])",
+      "summary": "Potenzia l'Abilità \"Prime Luci dell'Alba\" di Rappresentante dell'Ufficio Alba[TabExplain] Gregor"
     },
     {
       "id": 1111621,
-      "name": "Acceleration Lance",
-      "desc": "All allies' Pierce Skills deal +5% damage"
+      "name": "Lancia ad Accelerazione",
+      "desc": "Le Abilità Perforanti di tutti gli alleati infliggono +5% danni"
     },
     {
       "id": 1031601,
-      "name": "Hunters of the City",
-      "desc": "Combat End: At 10+ [Breath] Potency, gain 1 [Agility] next turn\n\nAt more than 20 [Breath] Potency, Base Skills deal +(excess Potency)% damage on Critical Hit (max 15%)",
-      "summary": "At sufficient [Breath] Potency, gain [Agility] next turn\nAt excess [Breath] Potency, Base Skills deal more damage on Critical Hit",
+      "name": "Cacciatori della Città",
+      "desc": "Fine Combattimento: A 10+ Potenza [Breath], ottiene 1 [Agility] il turno successivo\n\nA più di 20 Potenza [Breath], le Abilità Base infliggono +(Potenza in eccesso)% danni su Colpo Critico (max 15%)",
+      "summary": "A Potenza [Breath] sufficiente, ottiene [Agility] il turno successivo\nA Potenza [Breath] in eccesso, le Abilità Base infliggono più danni su Colpo Critico",
       "flavor": "The streets of the City are never short of vile and savage company after dark. Rats desperate to turn their lives around, denizens of the Backstreets harboring dreams of revenge, Syndicates and Fingers embroiled in struggles over their interests... and, of course, the Sweepers.\n\nFor all the fortunes to be made from working after sundown, few Fixers are eager to accept such contracts. There are, however, those who find their greatest opportunities precisely where others dare not tread.\n\nThe discernment to read any situation with remarkable precision. The swiftness and thoroughness to bring a job to its conclusion without inviting further trouble. With these two qualities as its greatest assets, Wedge Office has weathered every contract and walked away with the handsome compensation that follows."
     },
     {
       "id": 1031602,
-      "name": "Ho, Young Sinclair! Thou Must Keep Apace!!",
-      "desc": "In the Team Loadout menu:\n- Equipping <noparse>Wedge Office</noparse> Fixer Don Quixote automatically equips Sinclair's Identity as <noparse>Wedge Office</noparse> Fixer Sinclair\n- When <noparse>Wedge Office</noparse> Fixer Sinclair is unequipped, automatically equip the most recently equipped Identity that isn't <noparse>Wedge Office</noparse> Fixer Don Quixote (If <noparse>Wedge Office</noparse> Fixer Don Quixote Identity was already equipped when entering the Team Loadout menu, removing this Identity will automatically equip the LCB Sinner Don Quixote Identity instead)\n\nFrom Turn Start ~ before Combat Start: If this unit's Speed is slower than allied <noparse>Wedge Office</noparse> Fixer Sinclair Identity's Speed, become faster until their Speed values are equal (this effect does not activate if either of the two Identities is at -45 SP, or is under an effect that fixes their Speed)",
-      "summary": "When Deployed, automatically Deploy the counterpart Identity for Sinclair\nIf this unit's Speed is slower than Sinclair's, become faster until their Speed values are equal\n"
+      "name": "O, Giovane Sinclair! Dovete tenere il passo!!",
+      "desc": "Nel Menu di Schieramento:\n- Equipaggiare Fixer dell'<noparse>Ufficio Cuneo</noparse> Don Quixote equipaggia automaticamente l'Identità Fixer dell'<noparse>Ufficio Cuneo</noparse> Sinclair\n- Quando Fixer dell'<noparse>Ufficio Cuneo</noparse> Sinclair viene disequipaggiato, equipaggia automaticamente l'Identità equipaggiata più recente che non sia Fixer dell'<noparse>Ufficio Cuneo</noparse> Don Quixote (Se l'Identità Fixer dell'<noparse>Ufficio Cuneo</noparse> Don Quixote era già equipaggiata entrando nel Menu di Schieramento, rimuovere questa Identità equipaggerà invece automaticamente l'Identità Peccatrice LCB Don Quixote)\n\nDa Inizio Turno a prima dell'Inizio Combattimento: Se la Velocità di questa unità è minore di quella dell'alleato Fixer dell'<noparse>Ufficio Cuneo</noparse> Sinclair, aumenta la sua Velocità fino a quando entrambi i valori sono uguali (questo effetto non si attiva se entrambe le Identità hanno -45 PS, o hanno un effetto che fissa la loro Velocità)",
+      "summary": "Quando Schierata, Schiera automaticamente l'Identità controparte di Sinclair\nSe la Velocità di questa unità è minore di quella di Sinclair, aumenta la Velocità fino a quando entrambi i valori sono uguali"
     },
     {
       "id": 1031603,
-      "name": "Wedge Drive",
-      "desc": "Turn Start: Gain 1 [BattleFieldKnow]\n\nIf any of the following conditions are met, inflict 1 [WedgeMarkYellow] on the main target (once per turn)\n- On final Coin Hit using an Attack Skill against the main target\n- Upon using this unit's Evade Skill to successfully evade all of the attacker's Coins",
-      "summary": "Turn Start: Gain [BattleFieldKnow]\nWhen conditions are met, inflict [WedgeMarkYellow] on the main target"
+      "name": "Piantare il Cuneo",
+      "desc": "Inizio Turno: Ottiene 1 [BattleFieldKnow]\n\nSe qualsiasi delle seguenti condizioni viene soddisfatta, infligge 1 [WedgeMarkYellow] sul bersaglio principale (una volta per turno)\n- Sul Colpo finale di una Moneta usando un'Abilità Attacco contro il bersaglio principale\n- Quando usa l'Abilità Evasione per schivare con successo tutte le Monete dell'attaccante",
+      "summary": "Inizio Turno: Ottiene [BattleFieldKnow]\nQuando le condizioni vengono soddisfatte, infligge [WedgeMarkYellow] sul bersaglio principale"
     },
     {
       "id": 1031604,
-      "name": "Back-to-back in Dawnbreak's Light",
-      "desc": "When the allied <noparse>Dawn Office</noparse> Fixer Faust Identity uses the \"Dismemberment at High Noon\" Skill, the Skill's Coin 1 gains the following effects (once per turn):\n- [ComboSkill]: <noparse>Wedge Office</noparse> Fixer Don Quixote\n  · [OnSucceedAttack] Inflict 2 [Combustion] and +2 [Combustion] Count\n  · [OnSucceedAttack] Inflict 2 [Vibration]\n  · [OnSucceedAttack] Inflict 1 [WedgeMarkYellow]\n  · [OnSucceedAttack] Allied <noparse>Wedge Office</noparse> Rep Outis Identity gains 1 [ComboWedgeDawn]",
-      "summary": "On Combo Attack, On Hit using the \"Dismemberment at High Noon\" Skill's Coin 1, inflict [Combustion], [Vibration], [WedgeMarkYellow], and [Combustion] Count; Outis gains [ComboWedgeDawn]"
+      "name": "Fianco a Fianco nella Luce dell'Alba",
+      "desc": "Quando l'Identità alleata Fixer dell'<noparse>Ufficio Alba</noparse> Faust usa l'Abilità \"Squartamento a Mezzogiorno\", la Moneta 1 dell'Abilità ottiene i seguenti effetti (una volta per turno):\n- [ComboSkill] con: Fixer dell'<noparse>Ufficio Cuneo</noparse> Don Quixote\n  · [OnSucceedAttack] Infligge 2 [Combustion] e +2 Conteggio [Combustion]\n  · [OnSucceedAttack] Infligge 2 [Vibration]\n  · [OnSucceedAttack] Infligge 1 [WedgeMarkYellow]\n  · [OnSucceedAttack] L'Identità alleata Rappresentante dell'<noparse>Ufficio Cuneo</noparse> Outis ottiene 1 [ComboWedgeDawn]",
+      "summary": "In un Attacco Combinato, Sul Colpo usando la Moneta 1 dell'Abilità \"Squartamento a Mezzogiorno\", infligge [Combustion], [Vibration], [WedgeMarkYellow], e Conteggio [Combustion]; Outis ottiene [ComboWedgeDawn]"
     },
     {
       "id": 1031611,
-      "name": "Hunters of the City",
-      "desc": "Combat End: At 10+ [Breath] Potency, gain 1 [Agility] next turn\n\nAt more than 20 [Breath] Potency, Base Skills deal +(excess Potency)% damage on Critical Hit (max 25%)",
-      "summary": "At sufficient [Breath] Potency, gain [Agility] next turn\nAt excess [Breath] Potency, Base Skills deal more damage on Critical Hit",
+      "name": "Cacciatori della Città",
+      "desc": "Fine Combattimento: A 10+ Potenza [Breath], ottiene 1 [Agility] il turno successivo\n\nA più di 20 Potenza [Breath], le Abilità Base infliggono +(Potenza in eccesso)% danni su Colpo Critico (max 25%)",
+      "summary": "A Potenza [Breath] sufficiente, ottiene [Agility] il turno successivo\nA Potenza [Breath] in eccesso, le Abilità Base infliggono più danni su Colpo Critico",
       "flavor": "The streets of the City are never short of vile and savage company after dark. Rats desperate to turn their lives around, denizens of the Backstreets harboring dreams of revenge, Syndicates and Fingers embroiled in struggles over their interests... and, of course, the Sweepers.\n\nFor all the fortunes to be made from working after sundown, few Fixers are eager to accept such contracts. There are, however, those who find their greatest opportunities precisely where others dare not tread.\n\nThe discernment to read any situation with remarkable precision. The swiftness and thoroughness to bring a job to its conclusion without inviting further trouble. With these two qualities as its greatest assets, Wedge Office has weathered every contract and walked away with the handsome compensation that follows."
     },
     {
       "id": 1031621,
-      "name": "Reconnaissance",
-      "desc": "When 1 ally with the fastest Speed uses a Skill to Clash, inflict 3 [Vibration] Potency on the target of the Clash (once per turn; for Focused Encounters, the Part)",
-      "summary": "The fastest ally inflicts [Vibration] Potency against the target it's Clashing against"
+      "name": "Ricognizione",
+      "desc": "Quando 1 ally con la Velocità maggiore usa un'Abilità per Scontrarsi, infligge 3 Potenza [Vibration] sul bersaglio dello Scontro (una volta per turno; negli Incontri Mirati, la Parte)",
+      "summary": "L'alleato più veloce infligge Potenza [Vibration] al bersaglio con cui si sta Scontrando"
     },
     {
       "id": 1101701,
-      "name": "Hunters of the City",
-      "desc": "Combat End: At 10+ [Breath] Potency, gain 1 [Agility] next turn\n\nAt more than 20 [Breath] Potency, Base Skills deal +(excess Potency)% damage on Critical Hit (max 15%)",
-      "summary": "At sufficient [Breath] Potency, gain [Agility] next turn\nAt excess [Breath] Potency, Base Skills deal more damage on Critical Hit",
+      "name": "Cacciatori della Città",
+      "desc": "Fine Combattimento: A 10+ Potenza [Breath], ottiene 1 [Agility] il turno successivo\n\nA più di 20 Potenza [Breath], le Abilità Base infliggono +(Potenza in eccesso)% danni su Colpo Critico (max 15%)",
+      "summary": "A Potenza [Breath] sufficiente, ottiene [Agility] il turno successivo\nA Potenza [Breath] in eccesso, le Abilità Base infliggono più danni su Colpo Critico",
       "flavor": "The streets of the City are never short of vile and savage company after dark. Rats desperate to turn their lives around, denizens of the Backstreets harboring dreams of revenge, Syndicates and Fingers embroiled in struggles over their interests... and, of course, the Sweepers.\n\nFor all the fortunes to be made from working after sundown, few Fixers are eager to accept such contracts. There are, however, those who find their greatest opportunities precisely where others dare not tread.\n\nThe discernment to read any situation with remarkable precision. The swiftness and thoroughness to bring a job to its conclusion without inviting further trouble. With these two qualities as its greatest assets, Wedge Office has weathered every contract and walked away with the handsome compensation that follows."
     },
     {
       "id": 1101702,
-      "name": "Don Quixote... Please focus on the task at hand.",
-      "desc": "In the Team Loadout menu:\n- Equipping <noparse>Wedge Office</noparse> Fixer Sinclair automatically equips Don Quixote's Identity as <noparse>Wedge Office</noparse> Fixer Don Quixote\n- When <noparse>Wedge Office</noparse> Fixer Don Quixote is unequipped, automatically equip the most recently equipped Identity that isn't <noparse>Wedge Office</noparse> Fixer Sinclair (If <noparse>Wedge Office</noparse> Fixer Sinclair Identity was already equipped when entering the Team Loadout menu, removing this Identity will automatically equip the LCB Sinner Sinclair Identity instead)\n\nFrom Turn Start ~ before Combat Start: If this unit's Speed is slower than allied <noparse>Wedge Office</noparse> Fixer Don Quixote Identity's Speed, become faster until their Speed values are equal (this effect does not activate if either of the two Identities is at -45 SP, or is under an effect that fixes their Speed)",
-      "summary": "When Deployed, automatically Deploy the counterpart Identity for Don Quixote\nIf this unit's Speed is slower than Don Quixote's, become faster until their Speed values are equal"
+      "name": "Don Quixiote... Ti Prego Concentrati Sulla Missione.",
+      "desc": "Nel Menu di Schieramento:\n- Equipaggiare Fixer dell'<noparse>Ufficio Cuneo</noparse> Sinclair equipaggia automaticamente l'Identità Fixer dell'<noparse>Ufficio Cuneo</noparse> Don Quixote\n- Quando Fixer dell'<noparse>Ufficio Cuneo</noparse> Don Quixote viene disequipaggiata, equipaggia automaticamente l'Identità equipaggiata più recente che non sia Fixer dell'<noparse>Ufficio Cuneo</noparse> Sinclair (Se l'Identità Fixer dell'<noparse>Ufficio Cuneo</noparse> Sinclair era già equipaggiata entrando nel Menu di Schieramento, rimuovere questa Identità equipaggerà invece automaticamente l'Identità LCB Peccatore Sinclair)\n\nDa Inizio Turno a prima dell'Inizio Combattimento: Se la Velocità di questa unità è minore di quella dell'alleato Fixer dell'<noparse>Ufficio Cuneo</noparse> Don Quixote, aumenta la sua Velocità fino a quando entrambi i valori sono uguali (questo effetto non si attiva se entrambe le Identità hanno -45 PS, o hanno un effetto che fissa la loro Velocità)",
+      "summary": "Quando Schierata, Schiera automaticamente l'Identità controparte di Don Quixote\nSe la Velocità di questa unità è minore di quella di Don Quixote, aumenta la Velocità fino a quando entrambi i valori sono uguali"
     },
     {
       "id": 1101703,
-      "name": "Wedge Drive",
-      "desc": "Turn Start: Gain 1 [BattleFieldKnow]\n\nIf any of the following conditions are met, inflict 1 [WedgeMarkGreen] on the main target (once per turn)\n- On final Coin Hit using an Attack Skill against the main target\n- Upon using this unit's Evade Skill to successfully evade all of the attacker's Coins",
-      "summary": "Turn Start: Gain [BattleFieldKnow]\nWhen conditions are met, inflict [WedgeMarkGreen] on the main target"
+      "name": "Piantare il Cuneo",
+      "desc": "Inizio Turno: Ottiene 1 [BattleFieldKnow]\n\nSe qualsiasi delle seguenti condizioni viene soddisfatta, infligge 1 [WedgeMarkGreen] sul bersaglio principale (una volta per turno)\n- Sul Colpo finale di una Moneta usando un'Abilità Attacco contro il bersaglio principale\n- Quando usa l'Abilità Evasione per schivare con successo tutte le Monete dell'attaccante",
+      "summary": "Inizio Turno: Ottiene [BattleFieldKnow]\nQuando le condizioni vengono soddisfatte, infligge [WedgeMarkGreen] sul bersaglio principale"
     },
     {
       "id": 1101704,
-      "name": "Back-to-back in Dawnbreak's Light",
-      "desc": "When the allied <noparse>Dawn Office</noparse> Fixer Faust Identity uses the \"Dismemberment at High Noon\" Skill, the Skill's Coin 2 gains the following effects (once per turn):\n- [ComboSkill]: <noparse>Wedge Office</noparse> Fixer Sinclair\n  · [OnSucceedAttack] Inflict 2 [Combustion] and +2 [Combustion] Count\n  · [OnSucceedAttack] Inflict 2 [Vibration]\n  · [OnSucceedAttack] Inflict 1 [WedgeMarkGreen]\n  · [OnSucceedAttack] Allied <noparse>Wedge Office</noparse> Rep Outis Identity gains 1 [ComboWedgeDawn]",
-      "summary": "On Combo Attack, On Hit using the \"Dismemberment at High Noon\" Skill's Coin 2, inflict [Combustion], [Vibration], [WedgeMarkGreen], and [Combustion] Count; Outis gains [ComboWedgeDawn]"
+      "name": "Fianco a Fianco nella Luce dell'Alba",
+      "desc": "Quando l'Identità alleata Fixer dell'<noparse>Ufficio Alba</noparse> Faust usa l'Abilità \"Squartamento a Mezzogiorno\", la Moneta 1 dell'Abilità ottiene i seguenti effetti (una volta per turno):\n- [ComboSkill] con: Fixer dell'<noparse>Ufficio Cuneo</noparse> Sinclair\n  · [OnSucceedAttack] Infligge 2 [Combustion] e +2 Conteggio [Combustion]\n  · [OnSucceedAttack] Infligge 2 [Vibration]\n  · [OnSucceedAttack] Infligge 1 [WedgeMarkGreen]\n  · [OnSucceedAttack] L'Identità alleata Rappresentante dell'<noparse>Ufficio Cuneo</noparse> Outis ottiene 1 [ComboWedgeDawn]",
+      "summary": "In un Attacco Combinato, Sul Colpo usando la Moneta 1 dell'Abilità \"Squartamento a Mezzogiorno\", infligge [Combustion], [Vibration], [WedgeMarkGreen], e Conteggio [Combustion]; Outis ottiene [ComboWedgeDawn]"
     },
     {
       "id": 1101711,
-      "name": "Hunters of the City",
-      "desc": "Combat End: At 10+ [Breath] Potency, gain 1 [Agility] next turn\n\nAt more than 20 [Breath] Potency, Base Skills deal +(excess Potency)% damage on Critical Hit (max 25%)",
-      "summary": "At sufficient [Breath] Potency, gain [Agility] next turn\nAt excess [Breath] Potency, Base Skills deal more damage on Critical Hit",
+      "name": "Cacciatori della Città",
+      "desc": "Fine Combattimento: A 10+ Potenza [Breath], ottiene 1 [Agility] il turno successivo\n\nA più di 20 Potenza [Breath], le Abilità Base infliggono +(Potenza in eccesso)% danni su Colpo Critico (max 25%)",
+      "summary": "A Potenza [Breath] sufficiente, ottiene [Agility] il turno successivo\nA Potenza [Breath] in eccesso, le Abilità Base infliggono più danni su Colpo Critico",
       "flavor": "The streets of the City are never short of vile and savage company after dark. Rats desperate to turn their lives around, denizens of the Backstreets harboring dreams of revenge, Syndicates and Fingers embroiled in struggles over their interests... and, of course, the Sweepers.\n\nFor all the fortunes to be made from working after sundown, few Fixers are eager to accept such contracts. There are, however, those who find their greatest opportunities precisely where others dare not tread.\n\nThe discernment to read any situation with remarkable precision. The swiftness and thoroughness to bring a job to its conclusion without inviting further trouble. With these two qualities as its greatest assets, Wedge Office has weathered every contract and walked away with the handsome compensation that follows."
     },
     {
       "id": 1101721,
-      "name": "Keeping Pace",
-      "desc": "Turn End: Apply 1 [Agility] next turn on the allied Identity with the slowest Speed (prioritize \"Fixer\" Identities)\n- If the said Identity is a \"Fixer\", apply 1 [AttackUp] and 1 [Agility] next turn instead",
-      "summary": "Apply [Agility] next turn for the slowest ally\nIf the said ally is a \"Fixer\", apply [Agility] and [AttackUp] next turn"
+      "name": "Tenere il Passo",
+      "desc": "Fine Turno: Applica 1 [Agility] il turno successivo all'Identità alleata con la Velocità minore (priorità alle Identità \"Fixer\")\n- Se la suddetta Identità è un \"Fixer\", applica invece 1 [AttackUp] e 1 [Agility] il turno successivo instead",
+      "summary": "Applica [Agility] il turno successivo all'alleato più lento\nSe quell'alleato è un \"Fixer\", applica [Agility] e [AttackUp] il turno successivo"
     }
   ]
 }
