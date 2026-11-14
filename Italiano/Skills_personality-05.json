@@ -2189,7 +2189,7 @@
         {
           "level": 4,
           "name": "Alterazione E.G.O - Pallettoni",
-          "desc": "Infligge -50% danni ai bersagli secondari\nInfligge +<style=\"highlight\">15</style>% danni per ogni 5 [MeursaultBeeSpore] sul bersaglio (max <style=\"highlight\">45</style>%)\n[WhenUse] Se il bersaglio principale ha 6+ ([Combustion] + [Laceration]), Potere Moneta +1\n<style=\"highlight\">[WhenUse] Se questa unità ha [MeursaultWorkerBee], Potere Scontro +1\n[WhenUse] Converte Monete pari al numero di [MeursaultWorkerBee] in [SuperCoin](i), a partire dalla Moneta finale\n[EndSkill] A 1 o meno [MeursaultSporeBulletLong], [MeursaultSporeBulletReloading]</style>",
+          "desc": "Infligge -50% danni ai bersagli secondari\nInfligge +<style=\"highlight\">15</style>% danni per ogni 5 [MeursaultBeeSpore] sul bersaglio (max <style=\"highlight\">45</style>%)\n[WhenUse] Se il bersaglio principale ha 6+ ([Combustion] + [Laceration]), Potere Moneta +1\n<style=\"highlight\">[WhenUse] Se questa unità ha [MeursaultWorkerBee], Potere Scontro +1\n[WhenUse] Converte Monete pari al numero di [MeursaultWorkerBee] in [SuperCoin]/i, a partire dalla Moneta finale\n[EndSkill] A 1 o meno [MeursaultSporeBulletLong], [MeursaultSporeBulletReloading]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2297,7 +2297,7 @@
         {
           "level": 4,
           "name": "Test - Fuoco Alle Polveri",
-          "desc": "<style=\"highlight\">Infligge +50%  danni per ogni Portata Attacco in eccesso rispetto al numero di bersagli effettivi (negli Incontri Mirati, la Parte)</style>\nInfligge +<style=\"highlight\">10</style>% danni per ogni 5 [MeursaultBeeSpore] sul bersaglio (max <style=\"highlight\">30</style>%)\n<style=\"highlight\">[BeforeUse] A 2 o meno [MeursaultSporeBulletLong], usa 6 PS per ottenere 3 [MeursaultSporeBulletLong]</style>\n[WhenUse] Potere Moneta +1 per ogni 6 ([Combustion] + [Laceration]) sul bersaglio principale (max <style=\"highlight\">3)\n[WhenUse] Se questa unità ha [MeursaultWorkerBee], Potere Scontro +1\n[WhenUse] Converte le Monete pari a [MeursaultWorkerBee] In [SuperCoin](i), a partire dalla 3° Moneta\n[WhenUse] A 3 [MeursaultWorkerBee], ottiene Portata Att. +1</style>\n[EndSkill] [MeursaultSporeBulletReloading]",
+          "desc": "<style=\"highlight\">Infligge +50%  danni per ogni Portata Attacco in eccesso rispetto al numero di bersagli effettivi (negli Incontri Mirati, la Parte)</style>\nInfligge +<style=\"highlight\">10</style>% danni per ogni 5 [MeursaultBeeSpore] sul bersaglio (max <style=\"highlight\">30</style>%)\n<style=\"highlight\">[BeforeUse] A 2 o meno [MeursaultSporeBulletLong], usa 6 PS per ottenere 3 [MeursaultSporeBulletLong]</style>\n[WhenUse] Potere Moneta +1 per ogni 6 ([Combustion] + [Laceration]) sul bersaglio principale (max <style=\"highlight\">3)\n[WhenUse] Se questa unità ha [MeursaultWorkerBee], Potere Scontro +1\n[WhenUse] Converte le Monete pari a [MeursaultWorkerBee] In [SuperCoin]/i, a partire dalla 3° Moneta\n[WhenUse] A 3 [MeursaultWorkerBee], ottiene Portata Att. +1</style>\n[EndSkill] [MeursaultSporeBulletReloading]",
           "coinlist": [
             {
               "coindescs": [
@@ -2557,7 +2557,7 @@
         {
           "level": 3,
           "name": "Le Fauvisme - Presentazione dell'Opera",
-          "desc": "Infligge +10% danni per ogni tipo di effetto negativo sul bersaglio (max 60%)\n[WhenUse] A meno del 50% dei PV o se il bersaglio ha 5+ Colore Sbranato, usa la Moneta 3 una volta in più e converte tutte le Monete su questa Abilità in [SuperCoin](i)",
+          "desc": "Infligge +10% danni per ogni tipo di effetto negativo sul bersaglio (max 60%)\n[WhenUse] A meno del 50% dei PV o se il bersaglio ha 5+ Colore Sbranato, usa la Moneta 3 una volta in più e converte tutte le Monete su questa Abilità in [SuperCoin]/i",
           "coinlist": [
             {
               "coindescs": [
@@ -2591,7 +2591,7 @@
         {
           "level": 4,
           "name": "Le Fauvisme - Presentazione dell'Opera",
-          "desc": "Infligge +10% danni per ogni tipo di effetto negativo sul bersaglio (max 60%)\n<style=\"highlight\">[WhenUse] Potere Finale +1 per ogni 4 ([Laceration] + [Sinking]) sul bersaglio (max 4)</style>\n[WhenUse] A meno del 50% dei PV o se il bersaglio ha 5+ Colore Sbranato, usa la Moneta 3 una volta in più e converte tutte le Monete su questa Abilità in [SuperCoin](i)\n<style=\"highlight\">- Sul Colpo con la Moneta usata una volta in più: infligge casualmente (Colore Sbranato sul bersaglio / 3) Potenza [Laceration] o [Sinking] (max 3 per ognuno; arrotondato per difetto)</style>",
+          "desc": "Infligge +10% danni per ogni tipo di effetto negativo sul bersaglio (max 60%)\n<style=\"highlight\">[WhenUse] Potere Finale +1 per ogni 4 ([Laceration] + [Sinking]) sul bersaglio (max 4)</style>\n[WhenUse] A meno del 50% dei PV o se il bersaglio ha 5+ Colore Sbranato, usa la Moneta 3 una volta in più e converte tutte le Monete su questa Abilità in [SuperCoin]/i\n<style=\"highlight\">- Sul Colpo con la Moneta usata una volta in più: infligge casualmente (Colore Sbranato sul bersaglio / 3) Potenza [Laceration] o [Sinking] (max 3 per ognuno; arrotondato per difetto)</style>",
           "coinlist": [
             {
               "coindescs": [

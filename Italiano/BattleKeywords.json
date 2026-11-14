@@ -196,12 +196,12 @@
     {
       "id": "Combustion",
       "name": "Bruciatura",
-      "desc": "Alla fine del turno, subisce danni fissi in base alla Potenza dell'effetto.\nInfine, riduce il Conteggio di 1."
+      "desc": "Alla fine del turno, subisce danni fissi in base alla Potenza dell'effetto.\nPoi riduce il Conteggio di 1."
     },
     {
       "id": "Laceration",
       "name": "Sanguinamento",
-      "desc": "Quando viene lanciata una Moneta offensiva, subisce danni fissi in base alla Potenza dell'effetto.\nInfine, riduce il Conteggio di 1."
+      "desc": "Quando viene lanciata una Moneta offensiva, subisce danni fissi in base alla Potenza dell'effetto.\nPoi riduce il Conteggio di 1."
     },
     {
       "id": "Vibration",
@@ -211,12 +211,12 @@
     {
       "id": "Burst",
       "name": "Lacerazione",
-      "desc": "Quando subisce un colpo, subisce danni fissi in base alla Potenza dell'effetto.\nInfine, riduce il Conteggio di 1."
+      "desc": "Quando subisce un colpo, subisce danni fissi in base alla Potenza dell'effetto.\nPoi riduce il Conteggio di 1."
     },
     {
       "id": "Sinking",
       "name": "Annegamento",
-      "desc": "Quando subisce un colpo da un attacco, subisce danni fissi ai PS in base alla Potenza dell'effetto.\n(Le Unità che non hanno PS subiscono invece danno da Tristezza.)\nInfine, riduce il Conteggio di 1."
+      "desc": "Quando subisce un colpo da un attacco, subisce danni fissi ai PS in base alla Potenza dell'effetto.\n(Le Unità che non hanno PS subiscono invece danno da Tristezza.)\nPoi riduce il Conteggio di 1."
     },
     {
       "id": "Breath",
@@ -777,7 +777,7 @@
     {
       "id": "DimensionRift",
       "name": "Squarcio Dimensionale",
-      "desc": "Alla fine del turno, ottiene Conteggio Lacerazione pari alle Stack di quest'effetto. Infine, rimuove quest'effetto."
+      "desc": "Alla fine del turno, ottiene Conteggio Lacerazione pari alle Stack di quest'effetto. Poi rimuove quest'effetto."
     },
     {
       "id": "ShardOfUmbrella",
@@ -1958,7 +1958,7 @@
     {
       "id": "SupportProtect",
       "name": "Difesa di Supporto",
-      "desc": "- Stack Max: 3\n- Quando un alleato sta per subire un Attacco Incontrastato da parte di un nemico, consuma 1 Stack per reindirizzare il bersaglio del nemico su di sé; Infine, esegue l'Abilità esclusiva che viene attivata per Difesa di Supporto\n- Quando sono presenti più alleati con le Stack di Difesa di Supporto, la priorità di attivazione più alta viene assegnata all'alleato con il maggior numero di Stack\n- Non viene attivata per gli alleati che utilizzano un'Abilità Difensiva\n- Scade a Fine Turno",
+      "desc": "- Stack Max: 3\n- Quando un alleato sta per subire un Attacco Incontrastato da parte di un nemico, consuma 1 Stack per reindirizzare il bersaglio del nemico su di sé; Infine esegue l'Abilità esclusiva che viene attivata per Difesa di Supporto\n- Quando sono presenti più alleati con Stack di Difesa di Supporto, la priorità di attivazione più alta viene assegnata all'alleato con il maggior numero di Stack\n- Non viene attivata per gli alleati che utilizzano un'Abilità Difensiva\n- Scade a Fine Turno",
       "summary": "",
       "undefined": "-"
     },
@@ -2105,7 +2105,7 @@
     {
       "id": "BeastEyesAlly",
       "name": "Surriscaldamento",
-      "desc": "- Perde questo effetto quando questa unità ottiene Proiettili Marchio di Tigre Selvaggi\n- Velocità Min e Max +2\n- Le Abilità Base di questa unità perdono (numero totale di Proiettili Marchio di Tigre e Proiettili Marchio di Tigre Selvaggi / 2) Potere Scontro (max 10); Tuttavia, ottiene i seguenti effetti(cumulativi):\n· Totale Proiettili Spesi: {0}\n· 8+ Proiettili Spesi: Ottiene 1 Protezione per ogni 10% di PV mancanti a Inizio Turno (max 5)\n· 14+ Proiettili Spesi: Quando perde uno Scontro, Le Monete Infrangibili sulle Abilità Base di questo personaggio infliggono +(75 + percentuale di PV mancanti)% danni (max 150%)\n· 20+ Proiettili Spesi: infligge +(differenza di PV in percentuale)% danni contro obiettivi che hanno una percentuale di PV rimanenti maggiore di questa unità (max 50%; Abilità E.G.O Escluse)",
+      "desc": "- Perde questo effetto quando questa unità ottiene Proiettili Marchio di Tigre Selvaggi\n- Velocità Min e Max +2\n- Le Abilità Base di questa unità perdono (numero totale di Proiettili Marchio di Tigre e Proiettili Marchio di Tigre Selvaggi / 2) Potere Scontro (max 10); Tuttavia, ottiene i seguenti effetti (cumulativi):\n· Totale Proiettili Spesi: {0}\n· 8+ Proiettili Spesi: Ottiene 1 Protezione per ogni 10% di PV mancanti a Inizio Turno (max 5)\n· 14+ Proiettili Spesi: Quando perde uno Scontro, Le Monete Infrangibili sulle Abilità Base di questo personaggio infliggono +(75 + percentuale di PV mancanti)% danni (max 150%)\n· 20+ Proiettili Spesi: infligge +(differenza di PV in percentuale)% danni contro obiettivi che hanno una percentuale di PV rimanenti maggiore di questa unità (max 50%; Abilità E.G.O Escluse)",
       "summary": "",
       "undefined": "-"
     },
