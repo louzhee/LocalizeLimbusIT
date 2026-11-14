@@ -172,8 +172,8 @@
     {
       "id": "Paralysis",
       "name": "Paralisi",
-      "desc": "Fissa il valore di {0} Moneta(e) a 0 per questo turno.",
-      "summary": "{0} Moneta(e) hanno valore 0"
+      "desc": "Fissa il valore di {0} Moneta/e a 0 per questo turno.",
+      "summary": "{0} Moneta/e hanno valore 0"
     },
     {
       "id": "PlusCoinValueDown",
@@ -265,37 +265,37 @@
     {
       "id": "Combustion",
       "name": "Bruciatura",
-      "desc": "A Fine Turno: subisce {0} danni fissi. Dura {1} turno(i).",
+      "desc": "A Fine Turno: subisce {0} danni fissi. Dura {1} turno/i.",
       "summary": "{0} danni fissi ai PV"
     },
     {
       "id": "Laceration",
       "name": "Sanguinamento",
-      "desc": "Per la(e) prossima(e) {1} volta(e) che quest'unità lancia una Moneta offensiva, subisce {0} danni fissi.",
+      "desc": "Per la/e prossima/e {1} volta/e che quest'unità lancia una Moneta offensiva, subisce {0} danni fissi.",
       "summary": "{0} Danno fisso ai PV"
     },
     {
       "id": "Vibration",
       "name": "Vibrazione",
-      "desc": "Quando subisce un colpo da un attacco che causa Scoppio Vibrazione, aumenta la Soglia di Stordimento di {0}. Dura {1} turno(i).",
+      "desc": "Quando subisce un colpo da un attacco che causa Scoppio Vibrazione, aumenta la Soglia di Stordimento di {0}. Dura {1} turno/i.",
       "summary": "Aumenta la Soglia di Stordimento di {0}"
     },
     {
       "id": "Burst",
       "name": "Lacerazione",
-      "desc": "La(e) prossima(e) {1} volta(e) che quest'unità viene colpita, subisce {0} danni fissi.",
-      "summary": "{0} danno(i) fisso(i) ai PV"
+      "desc": "La/e prossima/e {1} volta/e che quest'unità viene colpita, subisce {0} danni fissi.",
+      "summary": "{0} danno/i fisso/i ai PV"
     },
     {
       "id": "Sinking",
       "name": "Annegamento",
-      "desc": "La(e) prossima(e) {1} volta(e) che questa unità viene colpita, subisce {0} danni fissi ai PS. (Le Unità che non hanno PS subiscono invece danno da Tristezza.)",
-      "summary": "{0} danno da Annegamento"
+      "desc": "La/e prossima/e {1} volta/e che questa unità viene colpita, subisce {0} danni fissi ai PS (le unità che non hanno PS subiscono invece danno da Tristezza)",
+      "summary": "{0} danni da Annegamento"
     },
     {
       "id": "Breath",
       "name": "Equilibrio",
-      "desc": "Aumenta la percentuale di effettuare un colpo critico del {0}x5% per il(i) prossimo(i) {1} colpo(i).",
+      "desc": "Aumenta la percentuale di effettuare un colpo critico del {0}x5% per il/i prossimo/i {1} colpo/i.",
       "summary": "{0}x5% di effetturare un colpo critico"
     },
     {
@@ -611,7 +611,7 @@
     {
       "id": "Meursault_Last_Remodeling",
       "name": "Impianto Finale",
-      "desc": "A inizio Turno: Ottiene 3 Potere Attacco Aumentato, Potere Difesa Aumentato, e Rapidità; muore in {0} turno(i)."
+      "desc": "A inizio Turno: Ottiene 3 Potere Attacco Aumentato, Potere Difesa Aumentato, e Rapidità; muore in {0} turno/i."
     },
     {
       "id": "Choice_90103301",
@@ -697,7 +697,7 @@
     {
       "id": "GreedyReady",
       "name": "Desideri Limitanti",
-      "desc": "Usa un'Abilità che applica 'Smania' in {0} turno(i)."
+      "desc": "Usa un'Abilità che applica 'Smania' in {0} turno/i."
     },
     {
       "id": "Decay",
@@ -708,8 +708,8 @@
     {
       "id": "Poison",
       "name": "Veleno",
-      "desc": "A Fine Turno: Subisce {0} danno(i) fisso(i), poi dimezza le Stack.",
-      "summary": "{0} danno(i) PV"
+      "desc": "A Fine Turno: Subisce {0} danno/i fisso/i, poi dimezza le Stack.",
+      "summary": "{0} danno/i ai PV"
     },
     {
       "id": "Cromer_Target",
@@ -1523,7 +1523,7 @@
     {
       "id": "ChargeForceField",
       "name": "Scudo Energetico",
-      "desc": "- Ottiene ({0} x 3) Scudo.\n- Perde 1 Scudo Energetico # dopo aver perso ({0} x 3) Scudo.\n- (Se l'unità è un impiegato di W Corp., tutti gli effetti di Scudo Energetico si attivano a ({0} x 5) invece che a ({0} x 3))\n- A Fine Turno: Ottiene Conteggio Carica per ogni Scudo Energetico #, e il turno successivo lo scudo ottenuto da Scudo energetico e Scudo energetico vengono rimossi"
+      "desc": "- Ottiene ({0} x 3) Scudo.\n- Perde 1 Scudo Energetico # dopo aver perso ({0} x 3) Scudo.\n- (Se l'unità è un impiegato della W Corp., tutti gli effetti di Scudo Energetico si attivano a ({0} x 5) invece che a ({0} x 3))\n- A Fine Turno: Ottiene Conteggio Carica per ogni Scudo Energetico #, e il turno successivo lo scudo ottenuto da Scudo energetico e Scudo energetico vengono rimossi"
     },
     {
       "id": "SlashResultUp",
@@ -1844,7 +1844,7 @@
     {
       "id": "VibrationCollapse",
       "name": "Vibrazione - Rovina",
-      "desc": "Perde 1 Livello Difensivo per ogni 4 di Potenza Vibrazione su di sè\nPer {1} turno(i): quando subisce un attacco da un'Abilità che causa Scoppio Vibrazione, aumenta la Soglia di Stordimento di {0}\n(Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
+      "desc": "Perde 1 Livello Difensivo per ogni 4 di Potenza Vibrazione su di sè\nPer {1} turno/i: quando subisce un attacco da un'Abilità che causa Scoppio Vibrazione, aumenta la Soglia di Stordimento di {0}\n(Interagisce allo stesso modo del normale Vibrazione agli effetti che ne aumentano Potenza/Conteggio)",
       "summary": "Perde 1 Livello Difensivo per ogni 4 di Potenza Vibrazione su di sè\n Aumenta la Soglia di Stordimento di {0}"
     },
     {
@@ -1933,7 +1933,7 @@
     {
       "id": "VibrationEcho",
       "name": "Vibrazione - Riverbero",
-      "desc": "- Per {1} Turno(i): Quando si innesca Scoppio Vibrazione, subisce {0} danni da Accidia.\n- Per {1} Turno(i): Quando subisce un'Attacco da un'Abilità che causa Scoppio Vibrazione, aumenta la Soglia di Stordimentodel {0}.\n- A Fine Turno: Riduce di 1 il Conteggio.\n(Interagisce allo stesso modo del normale Vibrazione sugli effetti che ne aumentano Potenza/Conteggio)",
+      "desc": "- Per {1} turno/i: Quando si innesca Scoppio Vibrazione, subisce {0} danni da Accidia.\n- Per {1} turno/i: Quando subisce un'Attacco da un'Abilità che causa Scoppio Vibrazione, aumenta la Soglia di Stordimentodel {0}.\n- A Fine Turno: Riduce di 1 il Conteggio.\n(Interagisce allo stesso modo del normale Vibrazione sugli effetti che ne aumentano Potenza/Conteggio)",
       "summary": ""
     },
     {
@@ -1951,7 +1951,7 @@
     {
       "id": "TimeSuspend",
       "name": "Tempus Moratorium",
-      "desc": "- Non subisce alcun danno finchè quest'effetto è attivo; tutto il danno verrà invece immagazzinato\n- Fine combattimento: se il Conteggio quest'effetto è 1, quest'effetto attiva {0} Scoppio Vibrazione(i) dopo aver inflitto {3} danni da Accidia.\n- A Fine Turno: ottiene 1 Potenza e perde 1 Conteggio\n- Tempus Moratorium scadrà immediatamente dopo aver attivato Scoppio Vibrazione e il danno da Accidia se un'altra istanza di Tempus Moratorium è inflitta ad un'unità con Tempus Moratorium.\n- Danno immagazzinato: {2}",
+      "desc": "- Non subisce alcun danno finchè quest'effetto è attivo; tutto il danno verrà invece immagazzinato\n- Fine combattimento: se il Conteggio quest'effetto è 1, quest'effetto attiva {0} volte Scoppio Vibrazione dopo aver inflitto {3} danni da Accidia.\n- A Fine Turno: ottiene 1 Potenza e perde 1 Conteggio\n- Tempus Moratorium scadrà immediatamente dopo aver attivato Scoppio Vibrazione e il danno da Accidia se un'altra istanza di Tempus Moratorium è inflitta ad un'unità con Tempus Moratorium.\n- Danno immagazzinato: {2}",
       "summary": ""
     },
     {
@@ -2504,7 +2504,7 @@
     {
       "id": "SupportProtect",
       "name": "Difesa di Supporto",
-      "desc": "- Stack Max: 3\n- Quando un alleato sta per subire un Attacco Incontrastato da parte di un nemico, consuma 1 Stack per reindirizzare il bersaglio del nemico su di sé; Infine, esegue l'Abilità esclusiva che viene attivata per Difesa di Supporto\n- Quando sono presenti più alleati con le Stack di Difesa di Supporto, la priorità di attivazione più alta viene assegnata all'alleato con il maggior numero di Stack\n- Non viene attivata per gli alleati che utilizzano un'Abilità Difensiva\n- Scade a Fine Turno",
+      "desc": "- Stack Max: 3\n- Quando un alleato sta per subire un Attacco Incontrastato da parte di un nemico, consuma 1 Stack per reindirizzare il bersaglio del nemico su di sé; Infine, esegue l'Abilità esclusiva che viene attivata per Difesa di Supporto\n- Quando sono presenti più alleati con Stack di Difesa di Supporto, la priorità di attivazione più alta viene assegnata all'alleato con il maggior numero di Stack\n- Non viene attivata per gli alleati che utilizzano un'Abilità Difensiva\n- Scade a Fine Turno",
       "summary": "",
       "undefined": "-"
     },
@@ -2651,7 +2651,7 @@
     {
       "id": "BeastEyesAlly",
       "name": "Surriscaldamento",
-      "desc": "- Perde questo effetto quando questa unità ottiene Proiettili Marchio di Tigre Selvaggi\n- Velocità Min e Max +2\n- Le Abilità Base di questa unità perdono (numero totale di Proiettili Marchio di Tigre e Proiettili Marchio di Tigre Selvaggi / 2) Potere Scontro (max 10); Tuttavia, ottiene i seguenti effetti(cumulativi):\n· Totale Proiettili Spesi: {0}\n· 8+ Proiettili Spesi: Ottiene 1 Protezione per ogni 10% di PV mancanti a Inizio Turno (max 5)\n· 14+ Proiettili Spesi: Quando perde uno Scontro, Le Monete Infrangibili sulle Abilità Base di questo personaggio infliggono +(75 + percentuale di PV mancanti)% danni (max 150%)\n· 20+ Proiettili Spesi: infligge +(differenza di PV in percentuale)% danni contro obiettivi che hanno una percentuale di PV rimanenti maggiore di questa unità (max 50%; Abilità E.G.O Escluse)",
+      "desc": "- Perde questo effetto quando questa unità ottiene Proiettili Marchio di Tigre Selvaggi\n- Velocità Min e Max +2\n- Le Abilità Base di questa unità perdono (numero totale di Proiettili Marchio di Tigre e Proiettili Marchio di Tigre Selvaggi / 2) Potere Scontro (max 10); Tuttavia, ottiene i seguenti effetti (cumulativi):\n· Totale Proiettili Spesi: {0}\n· 8+ Proiettili Spesi: Ottiene 1 Protezione per ogni 10% di PV mancanti a Inizio Turno (max 5)\n· 14+ Proiettili Spesi: Quando perde uno Scontro, Le Monete Infrangibili sulle Abilità Base di questo personaggio infliggono +(75 + percentuale di PV mancanti)% danni (max 150%)\n· 20+ Proiettili Spesi: infligge +(differenza di PV in percentuale)% danni contro obiettivi che hanno una percentuale di PV rimanenti maggiore di questa unità (max 50%; Abilità E.G.O Escluse)",
       "summary": "",
       "undefined": "-"
     },

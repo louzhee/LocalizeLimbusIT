@@ -2517,7 +2517,7 @@
         {
           "level": 3,
           "name": "Corna Schiaccianti [破碎角]",
-          "desc": "Se il bersaglio ha 6+ ([Burst] + [Sinking]), Potere Moneta +1\n[StartBattle] Se questa unità ha [GrownHorns], converte tutte le Monete di questa Abilità in [SuperCoin](i)\n[WhenUse] Ottiene 3 [GrownHorns]",
+          "desc": "Se il bersaglio ha 6+ ([Burst] + [Sinking]), Potere Moneta +1\n[StartBattle] Se questa unità ha [GrownHorns], converte tutte le Monete di questa Abilità in [SuperCoin]/i\n[WhenUse] Ottiene 3 [GrownHorns]",
           "coinlist": [
             {},
             {
@@ -2558,7 +2558,7 @@
         {
           "level": 4,
           "name": "Corna Schiaccianti [破碎角]",
-          "desc": "<style=\"highlight\">Potere Moneta +1 per ogni 6 ([Burst] + [Sinking]) sul bersaglio (max 2)</style>\n[StartBattle] Se questa unità ha [GrownHorns], converte tutte le Monete di questa Abilità in [SuperCoin](i) e <style=\"highlight\">infligge +10% danni per ogni Stack di [GrownHorns] su questa unità (max 30%)</style>\n[WhenUse] Ottiene 3 [GrownHorns]",
+          "desc": "<style=\"highlight\">Potere Moneta +1 per ogni 6 ([Burst] + [Sinking]) sul bersaglio (max 2)</style>\n[StartBattle] Se questa unità ha [GrownHorns], converte tutte le Monete di questa Abilità in [SuperCoin]/i e <style=\"highlight\">infligge +10% danni per ogni Stack di [GrownHorns] su questa unità (max 30%)</style>\n[WhenUse] Ottiene 3 [GrownHorns]",
           "coinlist": [
             {},
             {
@@ -2808,7 +2808,7 @@
         {
           "level": 3,
           "name": "I-Il Prescritto Va Ultimato Celermente...",
-          "desc": "Se quest'Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], infligge +20% danni su Colpo Critico\nPotere Finale +1 per ogni 4 ([Breath] su di sé + [Sinking] sul bersaglio) (max 2)\n[StartBattle] A 2+ livello di [UnlockBuff_Base], converte tutte le Monete di quest'Abilità in [SuperCoin](i)\n[WhenUse] Ottiene +3 Conteggio [Breath]",
+          "desc": "Se quest'Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], infligge +20% danni su Colpo Critico\nPotere Finale +1 per ogni 4 ([Breath] su di sé + [Sinking] sul bersaglio) (max 2)\n[StartBattle] A 2+ livello di [UnlockBuff_Base], converte tutte le Monete di quest'Abilità in [SuperCoin]/i\n[WhenUse] Ottiene +3 Conteggio [Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -2835,7 +2835,7 @@
         {
           "level": 4,
           "name": "I-Il Prescritto Va Ultimato Celermente...",
-          "desc": "Se quest'Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], <style=\"highlight\">Potere Moneta +1 e</style> infligge +<style=\"highlight\">40</style>% danni su Colpo Critico\nPotere Finale +1 per ogni 4 ([Breath] su di sé + [Sinking] sul bersaglio) (max <style=\"highlight\">4</style>)\n[StartBattle] A 2+ livello di [UnlockBuff_Base], converte tutte le Monete di quest'Abilità in [SuperCoin](i) <style=\"highlight\">e infligge +20% danni per ogni livello di [UnlockBuff_Base] (max 60%)</style>\n[WhenUse] Ottiene +3 Conteggio [Breath]\n<style=\"highlight\">- Ottiene [Breath] pari al livello corrente di [UnlockBuff_Base]",
+          "desc": "Se quest'Abilità è marchiata con [IndexPrescriptTargetMarkToEnemy], <style=\"highlight\">Potere Moneta +1 e</style> infligge +<style=\"highlight\">40</style>% danni su Colpo Critico\nPotere Finale +1 per ogni 4 ([Breath] su di sé + [Sinking] sul bersaglio) (max <style=\"highlight\">4</style>)\n[StartBattle] A 2+ livello di [UnlockBuff_Base], converte tutte le Monete di quest'Abilità in [SuperCoin]/i <style=\"highlight\">e infligge +20% danni per ogni livello di [UnlockBuff_Base] (max 60%)</style>\n[WhenUse] Ottiene +3 Conteggio [Breath]\n<style=\"highlight\">- Ottiene [Breath] pari al livello corrente di [UnlockBuff_Base]",
           "coinlist": [
             {
               "coindescs": [
@@ -3986,7 +3986,7 @@
                   "summary": "[OnSucceedAttack] Attiva [Switch_Vibration] in [VibrationCollapse]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge danni Perforanti pari a ([WedgeMarkGreen] sul bersaglio x 57)% del danno finale di questa Moneta (max 56%)",
+                  "desc": "[OnSucceedAttack] Infligge danni Perforanti pari a ([WedgeMarkGreen] sul bersaglio x 7)% del danno finale di questa Moneta (max 56%)",
                   "summary": "[OnSucceedAttack] Infligge danni Perforanti in base alle Stack di [WedgeMarkGreen] sul bersaglio"
                 },
                 {

@@ -2314,7 +2314,7 @@
         {
           "level": 3,
           "name": "Salvezza per chi è Incantato dalla Lampada",
-          "desc": "Se una delle seguenti condizioni è soddisfatta, Potere Moneta +1 e infligge +20% danni\n- Se la Velocità di questa unità è 1 o inferiore\n- Se il bersaglio ha [DelusionGregBigBird]\n[WhenUse] Se il bersaglio ha [DelusionGregBigBird], converte tutte le Monete di questa Abilità in [SuperCoin](i) e ottiene Potere Scontro +3",
+          "desc": "Se una delle seguenti condizioni è soddisfatta, Potere Moneta +1 e infligge +20% danni\n- Se la Velocità di questa unità è 1 o inferiore\n- Se il bersaglio ha [DelusionGregBigBird]\n[WhenUse] Se il bersaglio ha [DelusionGregBigBird], converte tutte le Monete di questa Abilità in [SuperCoin]/i e ottiene Potere Scontro +3",
           "coinlist": [
             {
               "coindescs": [
@@ -2977,7 +2977,7 @@
         {
           "level": 3,
           "name": "Spadone Frangialba",
-          "desc": "[StartBattle] Applica 2 [Protection] a 2 altri alleati casuali\n(priorità agli alleati che non hanno [Protection]; tra questi, priorità agli alleati dell'Ufficio Alba[TabExplain])\n[BeforeUse] A 30 [StigmaWorkshopHandStep1], usa invece \"Prime Luci dell'Alba\" (una volta per turno)\n[WhenUse] A 20+ [StigmaWorkshopHandStep1], ottiene i seguenti effetti:\n- Potere Finale +1\n- Converte tutte le Monete in [SuperCoin](i)\n[EndSkill] Applica 1 [DawnLight] a tutti gli alleati il turno successivo\n- A 20+ [StigmaWorkshopHandStep1], applica 1 [DawnLight] in più",
+          "desc": "[StartBattle] Applica 2 [Protection] a 2 altri alleati casuali\n(priorità agli alleati che non hanno [Protection]; tra questi, priorità agli alleati dell'Ufficio Alba[TabExplain])\n[BeforeUse] A 30 [StigmaWorkshopHandStep1], usa invece \"Prime Luci dell'Alba\" (una volta per turno)\n[WhenUse] A 20+ [StigmaWorkshopHandStep1], ottiene i seguenti effetti:\n- Potere Finale +1\n- Converte tutte le Monete in [SuperCoin]/i\n[EndSkill] Applica 1 [DawnLight] a tutti gli alleati il turno successivo\n- A 20+ [StigmaWorkshopHandStep1], applica 1 [DawnLight] in più",
           "coinlist": [
             {
               "coindescs": [
@@ -3018,7 +3018,7 @@
         {
           "level": 4,
           "name": "Spadone Frangialba",
-          "desc": "<style=\"highlight\"> Infligge +([Combustion] su di sé + [Combustion] sul bersaglio)% danni (Max 30%)</style>\n[StartBattle] Applica 2 [Protection] a 2 altri alleati casuali\n(priorità agli alleati che non hanno [Protection]; tra questi, priorità agli alleati dell'Ufficio Alba[TabExplain])\n[BeforeUse] A 30 [StigmaWorkshopHandStep1], usa invece \"Prime Luci dell'Alba\" (una volta per turno)\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 ([Combustion] + [Vibration]) sul bersaglio (Max 2)</style>\n[WhenUse] A 20+ [StigmaWorkshopHandStep1], ottiene i seguenti effetti:\n- Potere Finale +1\n- Converte tutte le Monete in [SuperCoin](i)\n<style=\"highlight\">- Sul Colpo Moneta finale, attiva [Combustion]sul bersaglio; poi riduce il Conteggio [Combustion] del bersaglio di 1</style>\n[EndSkill] Applica 1 [DawnLight] a tutti gli alleati il turno successivo\n- A 20+ [StigmaWorkshopHandStep1], applica 1 [DawnLight] in più",
+          "desc": "<style=\"highlight\"> Infligge +([Combustion] su di sé + [Combustion] sul bersaglio)% danni (Max 30%)</style>\n[StartBattle] Applica 2 [Protection] a 2 altri alleati casuali\n(priorità agli alleati che non hanno [Protection]; tra questi, priorità agli alleati dell'Ufficio Alba[TabExplain])\n[BeforeUse] A 30 [StigmaWorkshopHandStep1], usa invece \"Prime Luci dell'Alba\" (una volta per turno)\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 ([Combustion] + [Vibration]) sul bersaglio (Max 2)</style>\n[WhenUse] A 20+ [StigmaWorkshopHandStep1], ottiene i seguenti effetti:\n- Potere Finale +1\n- Converte tutte le Monete in [SuperCoin]/i\n<style=\"highlight\">- Sul Colpo Moneta finale, attiva [Combustion]sul bersaglio; poi riduce il Conteggio [Combustion] del bersaglio di 1</style>\n[EndSkill] Applica 1 [DawnLight] a tutti gli alleati il turno successivo\n- A 20+ [StigmaWorkshopHandStep1], applica 1 [DawnLight] in più",
           "coinlist": [
             {
               "coindescs": [
@@ -3281,7 +3281,7 @@
         {
           "level": 4,
           "name": "Foschia Rovente",
-          "desc": "[DuelCounter]\nAbilità esclusiva alla [SupportProtect]\n[WhenUse] Ottiene 5 [StigmaWorkshopHandStep1] (una volta per turno)\n[WhenUse] Ottiene 2 [Protection] (una volta per turno)\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 ([Combustion] + [Vibration]) sul bersaglio (Max 2)\n[WhenUse] A 20+ [StigmaWorkshopHandStep1], o se questa unità ha usato l'Abilità \"Prime Luci dell'Alba\" in questo turno, converte tutte le Monete di questa Abilità in [SuperCoin](i)</style>",
+          "desc": "[DuelCounter]\nAbilità esclusiva alla [SupportProtect]\n[WhenUse] Ottiene 5 [StigmaWorkshopHandStep1] (una volta per turno)\n[WhenUse] Ottiene 2 [Protection] (una volta per turno)\n<style=\"highlight\">[WhenUse] Potere Moneta +1 per ogni 6 ([Combustion] + [Vibration]) sul bersaglio (Max 2)\n[WhenUse] A 20+ [StigmaWorkshopHandStep1], o se questa unità ha usato l'Abilità \"Prime Luci dell'Alba\" in questo turno, converte tutte le Monete di questa Abilità in [SuperCoin]/i</style>",
           "coinlist": [
             {
               "coindescs": [
