@@ -1929,7 +1929,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Se il bersaglio non è in stato di [Switch_Vibration] o [FusionVibration], consuma 3 Conteggio [Vibration] su di sé per innescare [Switch_Vibration] in [VibrationChainPersonality]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Se il bersaglio non è in stato di [Switch_Vibration] o [FusionVibration], consuma 3 Conteggio [Vibration] su di sé per trasformare [Switch_Vibration] in [VibrationChainPersonality]</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Se il bersaglio ha 3+ Conteggio [Vibration], innesca [VibrationExplosion] una volta; poi, riduce il Conteggio [Vibration] del bersaglio di 1<style=\"highlight\"></style>"
@@ -3393,7 +3393,7 @@
                   "desc": "Se il bersaglio è in stato di [Switch_Vibration] o [FusionVibration], questa Moneta infligge +50% danni"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio non è in stato di [Switch_Vibration], attiva [Switch_Vibration] in [VibrationCollapse]"
+                  "desc": "[OnSucceedAttack] Se il bersaglio non è in stato di [Switch_Vibration], trasforma [Switch_Vibration] in [VibrationCollapse]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge 2 [Vibration]"
@@ -3428,7 +3428,7 @@
                   "desc": "Se il bersaglio è affetto da [Switch_Vibration] o [FusionVibration], questa Moneta infligge +50% danni<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio non è affetto da [Switch_Vibration], attiva [Switch_Vibration] in [VibrationCollapse]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Se il bersaglio non è affetto da [Switch_Vibration], trasforma [Switch_Vibration] in [VibrationCollapse]<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge 2 [Vibration]<style=\"highlight\"></style>"
@@ -3540,7 +3540,7 @@
                   "desc": "[OnSucceedAttack] Infligge danno Perforante pari al 15% del danno finale di questa Moneta"
                 },
                 {
-                  "desc": "[ComboSkill] con: Fixer dell'Ufficio Alba[TabExplain] Faust\n- Infligge +20% danni\n- [OnSucceedAttack] Infligge 3 [Combustion]\n- [OnSucceedAttack] Innesca [Switch_Vibration] in [VibrationIgnition]"
+                  "desc": "[ComboSkill] con: Fixer dell'Ufficio Alba[TabExplain] Faust\n- Infligge +20% danni\n- [OnSucceedAttack] Infligge 3 [Combustion]\n- [OnSucceedAttack] Trasforma [Switch_Vibration] in [VibrationIgnition]"
                 }
               ]
             },
@@ -3597,7 +3597,7 @@
                   "desc": "[OnSucceedAttack] Infligge danno Perforante pari al 20% del danno finale di questa Moneta"
                 },
                 {
-                  "desc": "[ComboSkill] con: Fixer dell'Ufficio Alba[TabExplain] Faust\n- Infligge +20% danni\n- [OnSucceedAttack] Infligge 3 [Combustion]\n- [OnSucceedAttack] Innesca [Switch_Vibration] in [VibrationIgnition]"
+                  "desc": "[ComboSkill] con: Fixer dell'Ufficio Alba[TabExplain] Faust\n- Infligge +20% danni\n- [OnSucceedAttack] Infligge 3 [Combustion]\n- [OnSucceedAttack] Trasforma [Switch_Vibration] in [VibrationIgnition]"
                 },
                 {
                   "desc": "[ComboSkill] con: Rappresentante dell'Ufficio Alba[TabExplain] Gregor\n- Infligge +20% danni\n- [OnSucceedAttack] Infligge 2 [Combustion]\n- [OnSucceedAttack] Innesca [VibrationExplosion]; riduce poi il Conteggio [Vibration] sul bersaglio di 1\n- [OnSucceedAttack] Attiva [Combustion] sul bersaglio. Il bersaglio perde 1 Conteggio [Combustion]"
