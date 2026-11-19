@@ -1154,7 +1154,7 @@
     {
       "id": 1050802,
       "name": "In Memoriam",
-      "desc": "Quando 3 o più altri alleati Discendenti della Spada sono sconfitti:\n- Ottenendo Potenza/Conteggio [Breath] con gli effetti delle Abilità e Monete di questa: ottiene 1 in più di ognuno\n- Quando 5 o più altri alleati Discendenti della Spada sono sconfitti, invece ottiene 2 in più di ognuno\n- Inizio Combattimento: Applica [SwordPlayOfTheMemorial] su se stesso"
+      "desc": "Quando 3 o più altri alleati Discendenti della Spada sono sconfitti:\n- Ottenendo Potenza/Conteggio [Breath] con gli effetti delle Abilità e Monete di questa: ottiene 1 in più di ognuno\n- Quando 5 o più altri alleati Discendenti della Spada sono sconfitti, invece ottiene 2 in più di ognuno\n- Inizio Combattimento: Applica [SwordPlayOfTheMemorial] su di sé"
     },
     {
       "id": 1090801,
@@ -1520,7 +1520,7 @@
     {
       "id": 1051001,
       "name": "Aula Studio",
-      "desc": "Ogni volta che un altro alleato Scarta un'Abilità, applica 1 [KnowledgeTraining] all'alleato e se stesso (1 volta per Abilità, 3 volte per turno)\nA Fine Turno: il turno successivo, ottiene [PenetrateDamageUp] e [HitDamageUp] pari al numero di altri alleati che hanno Scartato delle Abilità (max 3)"
+      "desc": "Ogni volta che un altro alleato Scarta un'Abilità, applica 1 [KnowledgeTraining] all'alleato e su di sé (1 volta per Abilità, 3 volte per turno)\nA Fine Turno: il turno successivo, ottiene [PenetrateDamageUp] e [HitDamageUp] pari al numero di altri alleati che hanno Scartato delle Abilità (max 3)"
     },
     {
       "id": 1051021,
@@ -1695,7 +1695,7 @@
     {
       "id": 1101001,
       "name": "Inizio Missione di Protezione",
-      "desc": "A Inizio Combattimento, ottiene [DefenseUp] quanto a Conteggio [Vibration] su se stesso (max 5)"
+      "desc": "A Inizio Combattimento, ottiene [DefenseUp] quanto a Conteggio [Vibration] su di sé (max 5)"
     },
     {
       "id": 1101021,
@@ -1704,15 +1704,15 @@
     },
     {
       "id": 1051101,
-      "name": "Duello in Livestream",
-      "desc": "Ottiene 1 [Agility] il turno successivo per ogni 3 Potenza [Breath] su se stesso A Fine Turno (max 2)\nSul Colpo con le Abilità Base: infligge [ConcentratedAttackMeursault] il turno successivo. (1 volta per Abilità)",
-      "summary": "A Fine Turno: ottiene [Agility] in base al Conteggio [Breath] su se stesso. Sul Colpo con un'Abilità Base, infligge [ConcentratedAttackMeursault] il turno successivo"
+      "name": "Duello in Live",
+      "desc": "Ottiene 1 [Agility] il turno successivo per ogni 3 Potenza [Breath] su di sé a Fine Turno (max 2)\nSul Colpo con le Abilità Base: infligge [ConcentratedAttackMeursault] il turno successivo. (1 volta per Abilità)",
+      "summary": "A Fine Turno: ottiene [Agility] in base al Conteggio [Breath] su di sé. Sul Colpo usando un'Abilità Base, infligge [ConcentratedAttackMeursault] il turno successivo"
     },
     {
       "id": 1051111,
-      "name": "Duello in Livestream",
-      "desc": "Ottiene 1 [Agility] il turno successivo per ogni 3 Potenza [Breath] su se stesso A Fine Turno (max 2)\nSul Colpo con le Abilità Base: infligge [ConcentratedAttackMeursault] il turno successivo. (1 volta per Abilità)\n<style=\"highlight\">Se questa unità ha attaccato lo Slot con [ConcentratedAttackMeursault] e ha sconfitto l'entità o distrutto la Parte a cui apparteneva, recupera 7 PS</style>",
-      "summary": "A Fine Turno: ottiene [Agility] in base al Conteggio [Breath] su se stesso. Sul Colpo con un'Abilità Base, infligge [ConcentratedAttackMeursault] il turno successivo. Cura dei PS Se Uccide"
+      "name": "Duello in Live",
+      "desc": "Ottiene 1 [Agility] il turno successivo per ogni 3 Potenza [Breath] su di sé a Fine Turno (max 2)\nSul Colpo con le Abilità Base: infligge [ConcentratedAttackMeursault] il turno successivo. (1 volta per Abilità)\n<style=\"highlight\">Se questa unità ha attaccato lo Slot con [ConcentratedAttackMeursault] e ha sconfitto l'entità o distrutto la Parte a cui apparteneva, recupera 7 PS</style>",
+      "summary": "A Fine Turno: ottiene [Agility] in base al Conteggio [Breath] su di sé. Sul Colpo usando un'Abilità Base, infligge [ConcentratedAttackMeursault] il turno successivo. Cura dei PS Se Uccide"
     },
     {
       "id": 1051121,
@@ -1753,7 +1753,7 @@
     {
       "id": 1111102,
       "name": "Emofagia",
-      "desc": "Se questa unità è sul campo, o è una delle unità che possono scendere in Campo, aumenta la quantità di [BloodDinner] in base a quanti danni da [Laceration] sono stati subiti da tutte le unità.\nQuando questa unità va sul campo, il sangue dormiente che bagna il campo di battaglia salirà in superfice.",
+      "desc": "Se questa unità è sul campo, o è una delle unità che possono scendere in Campo, aumenta la quantità di [BloodDinner] in base a quanti danni da [Laceration] sono stati subiti da tutte le unità.\nQuando questa unità entra in campo, il sangue dormiente che bagna il campo di battaglia salirà in superfice.",
       "summary": ""
     },
     {
@@ -1765,19 +1765,19 @@
     {
       "id": 1121001,
       "name": "Dedizione Autolesionista",
-      "desc": "A Fine Turno: recupera ((10 - [WornHeartGreg])/2) PS per l'alleato con meno PS (esclude: se stesso o gli alleati che sono nel Panico o Corrosi; arrotondati in basso)\nIn questo Incontro, quando questa unità subisce danni che portano i suoi PV a 0, ignora quei danni; infine, i PV di questa unità non possono scendere sotto 1 per quel turno. (Una volta per Incontro)",
+      "desc": "A Fine Turno: recupera ((10 - [WornHeartGreg])/2) PS per l'alleato con meno PS (si escludono: l'unità stessa o gli alleati che sono in Panico o Corrosi; arrotondati in basso)\nIn questo Incontro, quando questa unità subisce danni che portano i suoi PV a 0, ignora quei danni; infine, i PV di questa unità non possono scendere sotto 1 per quel turno. (Una volta per Incontro)",
       "summary": ""
     },
     {
       "id": 1121002,
       "name": "Emofagia",
-      "desc": "Se questa unità è sul campo, o è una delle unità che possono scendere in Campo, aumenta la quantità di [BloodDinner] in base a quanti danni da [Laceration] sono stati subiti da tutte le unità.\nQuando questa unità va sul campo, il sangue dormiente che bagna il campo di battaglia salirà in superfice.",
+      "desc": "Se questa unità è sul campo, o è una delle unità che possono scendere in Campo, aumenta la quantità di [BloodDinner] in base a quanti danni da [Laceration] sono stati subiti da tutte le unità.\nQuando questa unità entra in campo, il sangue dormiente che bagna il campo di battaglia salirà in superfice.",
       "summary": ""
     },
     {
       "id": 1121011,
       "name": "Dedizione Autolesionista",
-      "desc": "A Fine Turno: recupera (10 - [WornHeartGreg]) PS per l'alleato con meno PS (esclude: se stesso o gli alleati che sono nel Panico o Corrosi)\nIn questo Incontro, quando questa unità subisce danni che portano i suoi PV a 0, ignora quei danni; infine, i PV di questa unità non possono scendere sotto 1 per quel turno. (Una volta per Incontro)",
+      "desc": "A Fine Turno: recupera (10 - [WornHeartGreg]) PS per l'alleato con meno PS (si escludono: l'unità stessa o gli alleati che sono in Panico o Corrosi; arrotondati in basso)\nIn questo Incontro, quando questa unità subisce danni che portano i suoi PV a 0, ignora quei danni; infine, i PV di questa unità non poss o gli alleati che sono nel Panico o Corrosi)\nIn questo Incontro, quando questa unità subisce danni che portano i suoi PV a 0, ignora quei danni; infine, i PV di questa unità non possono scendere sotto 1 per quel turno. (Una volta per Incontro)",
       "summary": ""
     },
     {
@@ -1893,7 +1893,7 @@
     {
       "id": 1071102,
       "name": "Mira di Precisione",
-      "desc": "A Fine Turno: ottiene 1 [Agility] il turno successivo per ogni 10 [Breath] su se stesso (max 2)\n\nA Fine Turno: se questa unità non intende usare nessun'Abilità Attacco (incluse Abilità E.G.O, escluso [CoveringFire]), ottiene 10 [Breath] e 1 [PenetrateResultUp] il turno successivo."
+      "desc": "A Fine Turno: ottiene 1 [Agility] il turno successivo per ogni 10 [Breath] su di sé (max 2)\n\nA Fine Turno: se questa unità non intende usare nessun'Abilità Attacco (incluse Abilità E.G.O, escluso [CoveringFire]), ottiene 10 [Breath] e 1 [PenetrateResultUp] il turno successivo."
     },
     {
       "id": 1071103,
@@ -1903,7 +1903,7 @@
     {
       "id": 1071111,
       "name": "Mira di Precisione",
-      "desc": "A Fine Turno: ottiene 1 [Agility] il turno successivo per ogni 10 [Breath] su se stesso (max 2)\n\n<style=\"highlight\">Inizio Combattimento: se questa unità non intende usare nessun'Abilità Attacco (incluse Abilità E.G.O), applica 3 [Breath] a 1 alleato con la Potenza [Breath] più bassa</style>\n\nA Fine Turno: se questa unità non ha usato nessun'Abilità Attacco (incluse Abilità E.G.O, escluso [CoveringFire]), ottiene 10 [Breath] e 1 [PenetrateResultUp] il turno successivo"
+      "desc": "A Fine Turno: ottiene 1 [Agility] il turno successivo per ogni 10 [Breath] su di sé (max 2)\n\n<style=\"highlight\">Inizio Combattimento: se questa unità non intende usare nessun'Abilità Attacco (incluse Abilità E.G.O), applica 3 [Breath] a 1 alleato con la Potenza [Breath] più bassa</style>\n\nA Fine Turno: se questa unità non ha usato nessun'Abilità Attacco (incluse Abilità E.G.O, escluso [CoveringFire]), ottiene 10 [Breath] e 1 [PenetrateResultUp] il turno successivo"
     },
     {
       "id": 1071121,
@@ -2088,12 +2088,12 @@
     {
       "id": 1061201,
       "name": "Corna Concentra-carica di Onde Cerebrali",
-      "desc": "Ottiene 1 [Charge] ogni volta che questa unità consuma 10 Conteggio [Charge] Totale in questo Incontro\n\nA 2+ [Charge]:\n- Infligge +1 [Sinking] in più con le Abilità Attacco Base (non si attiva quando infligge solo Conteggio [Sinking] o quando infligge [Sinking] su se stesso)\n- Infligge +([Charge] x 3)% danni con le Abilità Attacco Base (max 15%)"
+      "desc": "Ottiene 1 [Charge] ogni volta che questa unità consuma 10 Conteggio [Charge] Totale in questo Incontro\n\nA 2+ [Charge]:\n- Infligge +1 [Sinking] in più con le Abilità Attacco Base (non si attiva quando infligge solo Conteggio [Sinking] o quando infligge [Sinking] su di sé)\n- Infligge +([Charge] x 3)% danni con le Abilità Attacco Base (max 15%)"
     },
     {
       "id": 1061211,
       "name": "Corna Concentra-carica di Onde Cerebrali",
-      "desc": "Ottiene 1 [Charge] ogni volta che questa unità consuma 10 Conteggio [Charge] Totale in questo Incontro\n\nA 2+ [Charge]:\n<style=\"highlight\">- Infligge +1 [Sinking] in più con le Abilità Attacco Base per ogni 2 [Charge] (max 2, non si attiva quando infligge solo Conteggio [Sinking] o quando infligge [Sinking] su se stesso)</style>\n- Infligge +([Charge] x <style=\"highlight\">5</style>)% danni con le Abilità Attacco Base (max <style=\"highlight\">25%</style>)"
+      "desc": "Ottiene 1 [Charge] ogni volta che questa unità consuma 10 Conteggio [Charge] Totale in questo Incontro\n\nA 2+ [Charge]:\n<style=\"highlight\">- Infligge +1 [Sinking] in più con le Abilità Attacco Base per ogni 2 [Charge] (max 2, non si attiva quando infligge solo Conteggio [Sinking] o quando infligge [Sinking] su di sé)</style>\n- Infligge +([Charge] x <style=\"highlight\">5</style>)% danni con le Abilità Attacco Base (max <style=\"highlight\">25%</style>)"
     },
     {
       "id": 1061221,
@@ -3048,7 +3048,7 @@
     {
       "id": 1061502,
       "name": "Ch'unokkun",
-      "desc": "Se un bersaglio ha [TiedRopeHonglu], ottiene [TiedWithRopeID]\nQuando concateni le Abilità, se è presente un nemico alla quale questa unità ha inflitto [TiedRopeHonglu] , allora questa unità può attirare le Abilità Offensive del Nemico a se stesso indipendentemente dalla velocità (solo negli incontri mirati)"
+      "desc": "Se un bersaglio ha [TiedRopeHonglu], ottiene [TiedWithRopeID]\nQuando si concatenano le Abilità, se è presente un nemico al quale questa unità ha inflitto [TiedRopeHonglu] , allora questa unità può attirare le Abilità Offensive del Nemico su di sé indipendentemente dalla Velocità (solo negli Incontri Mirati)"
     },
     {
       "id": 1061521,
