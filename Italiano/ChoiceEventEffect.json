@@ -50,19 +50,19 @@
     },
     {
       "id": "RecoverHpOnly",
-      "content": "<color=#ebcaa2>{targets}{conditions}</color> <color=#ebcaa2>recupera(no)</color> <color=#00ff9c>{amount} PV.</color>"
+      "content": "<color=#ebcaa2>{targets}{conditions}</color> <color=#ebcaa2>recupera/no</color> <color=#00ff9c>{amount} PV.</color>"
     },
     {
       "id": "RecoverMpOnly",
-      "content": "<color=#ebcaa2>{targets}{conditions}</color> <color=#ebcaa2>recupera(no)</color> <color=#80c9ff>{amount} PS.</color>"
+      "content": "<color=#ebcaa2>{targets}{conditions}</color> <color=#ebcaa2>recupera/no</color> <color=#80c9ff>{amount} PS.</color>"
     },
     {
       "id": "RecoverHpOnlyUntilMax",
-      "content": "<color=#ebcaa2>{targets}{conditions}</color> <color=#ebcaa2>recupera(no)</color> <color=#00ff9c>tutti i PV.</color>"
+      "content": "<color=#ebcaa2>{targets}{conditions}</color> <color=#ebcaa2>recupera/no</color> <color=#00ff9c>tutti i PV.</color>"
     },
     {
       "id": "RecoverMpOnlyUntilMax",
-      "content": "<color=#ebcaa2>{targets}{conditions}</color> <color=#ebcaa2>recupera(no)</color> <color=#80c9ff>tutti i PS.</color>"
+      "content": "<color=#ebcaa2>{targets}{conditions}</color> <color=#ebcaa2>recupera/no</color> <color=#80c9ff>tutti i PS.</color>"
     },
     {
       "id": "LoseHpOnly",
@@ -74,11 +74,11 @@
     },
     {
       "id": "RecoverHpMpSameAmount",
-      "content": "<color=#ebcaa2>{targets}{conditions}</color> <color=#ebcaa2>recupera(no)</color> <color=#00ff9c>{amount} PV</color> e <color=#80c9ff>PS.</color>"
+      "content": "<color=#ebcaa2>{targets}{conditions}</color> <color=#ebcaa2>recupera/no</color> <color=#00ff9c>{amount} PV</color> e <color=#80c9ff>PS.</color>"
     },
     {
       "id": "RecoverHpMpDifferentAmount",
-      "content": "<color=#ebcaa2>{targets}{conditions}</color> <color=#ebcaa2>recupera(no)</color> <color=#00ff9c>{hpAmount} PV</color> e <color=#80c9ff>{mpAmount} PS.</color>"
+      "content": "<color=#ebcaa2>{targets}{conditions}</color> <color=#ebcaa2>recupera/no</color> <color=#00ff9c>{hpAmount} PV</color> e <color=#80c9ff>{mpAmount} PS.</color>"
     },
     {
       "id": "LoseHpMpSameAmount",
@@ -462,7 +462,7 @@
     },
     {
       "id": "RecoverRatioHpOnly",
-      "content": "<color=#ebcaa2>{targets}{conditions}</color> <color=#ebcaa2>recupera(no) del</color> <color=#00ff9c>{amount}% dei PV Max.</color>"
+      "content": "<color=#ebcaa2>{targets}{conditions}</color> <color=#ebcaa2>recupera/no del</color> <color=#00ff9c>{amount}% dei PV Max.</color>"
     }
   ]
 }
