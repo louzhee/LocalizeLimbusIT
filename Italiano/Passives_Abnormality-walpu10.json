@@ -61,23 +61,23 @@
     {
       "id": 158301,
       "name": "Implacabile",
-      "desc": "<color=#ff6000><mark color=#ff000040><b><u>In this Encounter, when this unit takes damage that brings its HP down to 0,</color></mark></b></u> apply the following effects (once per Encounter):\n- Nullify that damage; then, this unit's HP cannot drop below 1 for the turn\n- Turn End: Heal 50% HP\n- If this effect was activated, take -20% damage for this Encounter"
+      "desc": "<color=#ff6000><mark color=#ff000040><b><u>Quando questa unità subisce danni fatali,</color></mark></b></u> attiva i seguenti effetti (una volta per Incontro):\n- I PV non possono scendere sotto 1 per il resto del turno\n- A Fine Turno, recupera 50% PV\n- Quest'unità subisce -20% danni per il resto dell'Incontro"
     },
     {
       "id": 158302,
-      "name": "Wedge Office",
-      "desc": "Upon entering the Encounter for the first time, activate the following effects:\n- Heal 45 SP\n- Apply 3 [WalpuTenWedgeOffice] to all Wedge Office[TabExplain] allies\n\nTurn Start: <color=#ff6000><mark color=#ff000040><b><u>If an ally is Staggered,</color></mark></b></u> Wedge Office[TabExplain] Rep Oscar gains 2 [SupportProtect] (excluding self)\n<color=#ff6000><mark color=#ff000040><b><u>When an ally becomes Staggered during combat,</color></mark></b></u> Wedge Office[TabExplain] Rep Oscar gains 1 [SupportProtect] (once per turn; checked continuously)\n- If Wedge Office[TabExplain] Rep Oscar is Staggered when gaining [SupportProtect] from the above two effects, recover from Stagger (excluding forced Staggers)"
+      "name": "Ufficio Cuneo",
+      "desc": "Quando entra nell'Incontro, attiva i seguenti effetti:\n- Recupera 45 PS\n- Applica 3 [WalpuTenWedgeOffice] su ogni alleato dell'\"Ufficio Cuneo[TabExplain]\"\n\nA Inizio Turno, <color=#ff6000><mark color=#ff000040><b><u>se un alleato è Stordito,</color></mark></b></u> Oscar ottiene 2 [SupportProtect]\n<color=#ff6000><mark color=#ff000040><b><u>Quando un alleato viene Stordito durante il turno,</color></mark></b></u> Oscar ottiene 1 [SupportProtect] (una volta per turno)\n- Se Oscar ottiene [SupportProtect] mentre è Stordito, si riprende dallo Stordimento (Stordimenti forzati esclusi)"
     },
     {
       "id": 158303,
-      "name": "Assistance of the Wedge",
-      "desc": "When an ally, including this unit, meets the following conditions, gain 1 [WalpuTenComboWedge] (once per condition per character per turn)\nIf the said character is in \"Wedge Office[TabExplain]\", gain 2 [WalpuTenComboWedge] instead\n- On Skill Use\n- On Clash Win\n- When triggering [VibrationExplosion] using Base Skills",
+      "name": "Supporto del Cuneo",
+      "desc": "Ottiene 1 [WalpuTenComboWedge] quando un alleato (una volta per condizione per personaggio per turno; include sé stesso):\n- Usa un'abilità\n- Vince uno Scontro\n- Innesca [VibrationExplosion] con le sue Abilità\nSe il personaggio in questione è un'alleato dell'\"Ufficio Cuneo[TabExplain]\", ottiene invece 2 [WalpuTenComboWedge]",
       "flavor": "Most Fixer Offices work together to make up for one another's shortcomings.\n\nSome Offices, however, find themselves so perfectly in sync that their partnership grows into something more. As they exchange information and forge deeper bonds of trust, they may eventually come to regard one another as siblings."
     },
     {
       "id": 158304,
-      "name": "Wedge-style Spearmanship",
-      "desc": "+10% to Stagger Threshold raised by [VibrationExplosion]\nTurn Start: Gain 1 [PenetrateResultUp] and [PenetrateDamageUp]\n\n<color=#ff6000><mark color=#ff000040><b><u>Deal +20% damage to targets at 50%+ current HP and targets that have Shield</color></mark></b></u>\n\nWhen dealing damage using Base Skills, if the target's Defense Level is higher than the Offense Level of the Skill that hit, deal +2% damage for every 1 Level of difference (max 30%)",
+      "name": "Scherma in Stile Cuneo",
+      "desc": "+10% Soglia di Stordimento alzata dallo [VibrationExplosion]\nTurn Start: Gain 1 [PenetrateResultUp] and [PenetrateDamageUp]\n\n<color=#ff6000><mark color=#ff000040><b><u>Deal +20% damage to targets at 50%+ current HP and targets that have Shield</color></mark></b></u>\n\nWhen dealing damage using Base Skills, if the target's Defense Level is higher than the Offense Level of the Skill that hit, deal +2% damage for every 1 Level of difference (max 30%)",
       "flavor": "There is only so much piercing power to be gained from sharpening a spearhead. Spears forged from Patented alloys or rare materials recovered from the Ruins may offer greater results, but their price can rival several years' worth of an ordinary Fixer Office's budget. A far more economical approach is to harness the surrounding currents of wind and coil them around the weapon, granting it formidable piercing power at a fraction of the cost. The technique is well-established, with many Workshops offering their own implementations.\n\nWedge Office's spears are the handiwork of one such Workshop. Combined with the Office's distinctive spearwork, which makes masterful use of twisting and rotational movements, these weapons have run countless foes through."
     },
     {
