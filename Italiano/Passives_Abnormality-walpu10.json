@@ -70,47 +70,47 @@
     },
     {
       "id": 158303,
-      "name": "Supporto del Cuneo",
+      "name": "Sostegno del Cuneo",
       "desc": "Ottiene 1 [WalpuTenComboWedge] quando un alleato (una volta per condizione per personaggio per turno; include sé stesso):\n- Usa un'abilità\n- Vince uno Scontro\n- Innesca [VibrationExplosion] con le sue Abilità\nSe il personaggio in questione è un'alleato dell'\"Ufficio Cuneo[TabExplain]\", ottiene invece 2 [WalpuTenComboWedge]",
       "flavor": "Most Fixer Offices work together to make up for one another's shortcomings.\n\nSome Offices, however, find themselves so perfectly in sync that their partnership grows into something more. As they exchange information and forge deeper bonds of trust, they may eventually come to regard one another as siblings."
     },
     {
       "id": 158304,
-      "name": "Scherma in Stile Cuneo",
-      "desc": "+10% Soglia di Stordimento alzata dallo [VibrationExplosion]\nTurn Start: Gain 1 [PenetrateResultUp] and [PenetrateDamageUp]\n\n<color=#ff6000><mark color=#ff000040><b><u>Deal +20% damage to targets at 50%+ current HP and targets that have Shield</color></mark></b></u>\n\nWhen dealing damage using Base Skills, if the target's Defense Level is higher than the Offense Level of the Skill that hit, deal +2% damage for every 1 Level of difference (max 30%)",
+      "name": "Stile d'attacco a Cuneo",
+      "desc": "+10% Soglia di Stordimento alzata dallo [VibrationExplosion]\nA Inizio Turno, Ottiene 1 [PenetrateResultUp] e 1 [PenetrateDamageUp]\n\n<color=#ff6000><mark color=#ff000040><b><u>Infligge +20% danni ai bersagli con 50%+ PV o che hanno Scudo</color></mark></b></u>\n\nQuando infligge danni con le sue Abilità, se il Livello Difensivo del bersaglio è più alto del Livello Offensivo dell'Abilità, infligge +2% danni per ogni Livello di differenza (max 30%)",
       "flavor": "There is only so much piercing power to be gained from sharpening a spearhead. Spears forged from Patented alloys or rare materials recovered from the Ruins may offer greater results, but their price can rival several years' worth of an ordinary Fixer Office's budget. A far more economical approach is to harness the surrounding currents of wind and coil them around the weapon, granting it formidable piercing power at a fraction of the cost. The technique is well-established, with many Workshops offering their own implementations.\n\nWedge Office's spears are the handiwork of one such Workshop. Combined with the Office's distinctive spearwork, which makes masterful use of twisting and rotational movements, these weapons have run countless foes through."
     },
     {
       "id": 158401,
-      "name": "Wedge Drive",
-      "desc": "When any of the following conditions are met, gain 1 [WalpuTenBattleFieldKnow] (once per turn)\n- When an enemy is defeated or becomes Staggered during combat\n- <color=#ff6000><mark color=#ff000040><b><u>On Hit against a target that has 4 or more types of negative effect</color></mark></b></u>\n- On Hit against a target that has [WalpuTenWedgeMarkSilver]\n\nOn final Coin Hit using Pierce Skills, inflict 1 [WalpuTenWedgeMarkGold] on the main target (once per Skill)"
+      "name": "Piantare il Cuneo",
+      "desc": "Ottiene 1 [WalpuTenBattleFieldKnow] quando (una volta per turno):\n- Un nemico viene ucciso o Stordito\n- <color=#ff6000><mark color=#ff000040><b><u>Colpisce un nemico con 4+ effetti negativi diversi</color></mark></b></u>\n- Colpisce un bersaglio con [WalpuTenWedgeMarkSilver]\n\nSul Colpo con l'ultima Moneta di un'Abilità Perforante, infligge 1 [WalpuTenWedgeMarkGold] sul bersaglio principale (una volta per Abilità)"
     },
     {
       "id": 158402,
-      "name": "Hunters of the City",
-      "desc": "Upon entering the Encounter for the first time, heal 45 SP\n\nTurn End: At 10+ [Breath] Potency, gain 1 [Agility] next turn\n\nAt 20+ [Breath] Potency, Base Skills deal +(excess Potency)% damage on Critical Hit (max 25%)",
+      "name": "Cacciatori della Città",
+      "desc": "Quando entra nell'incontro, recupera 45 PS\n\nA Inizio Turno, se ha 10+ Potenza [Breath], ottiene 1 [Agility]\n\nA 20+ Potenza [Breath], le Abilità infliggono +(Potenza in eccesso)% danni sul Colpo Critico (max 25%)",
       "flavor": "The streets of the City are never short of vile and savage company after dark. Rats desperate to turn their lives around, denizens of the Backstreets harboring dreams of revenge, Syndicates and Fingers embroiled in struggles over their interests... and, of course, the Sweepers.\n\nFor all the fortunes to be made from working after sundown, few Fixers are eager to accept such contracts. There are, however, those who find their greatest opportunities precisely where others dare not tread.\n\nThe discernment to read any situation with remarkable precision. The swiftness and thoroughness to bring a job to its conclusion without inviting further trouble. With these two qualities as its greatest assets, Wedge Office has weathered every contract and walked away with the handsome compensation that follows."
     },
     {
       "id": 158501,
-      "name": "Wedge Drive",
-      "desc": "Clash Start: Gain 1 [WalpuTenBattleFieldKnow] (once per turn)\n\nOn Pierce Skill final Coin Hit, inflict 1 [WalpuTenWedgeMarkSilver] on the main target (once per Skill)"
+      "name": "Piantare il Cuneo",
+      "desc": "A Inizio Scontro, ottiene 1 [WalpuTenBattleFieldKnow] (una volta per turno)\n\nSul Colpo con l'ultima Moneta di un'Abilità Perforante, infligge 1 [WalpuTenWedgeMarkSilver] sul bersaglio principale (una volta per Abilità)"
     },
     {
       "id": 158502,
-      "name": "Hunters of the City",
-      "desc": "Upon entering the Encounter for the first time, heal 45 SP\n\nTurn End: At 10+ [Breath] Potency, gain 1 [Agility] next turn\n\nAt 20+ [Breath] Potency, Base Skills deal +(excess Potency)% damage on Critical Hit (max 25%)",
+      "name": "Cacciatori della Città",
+      "desc": "Quando entra nell'incontro, recupera 45 PS\n\nA Inizio Turno, se ha 10+ Potenza [Breath], ottiene 1 [Agility]\n\nA 20+ Potenza [Breath], le Abilità infliggono +(Potenza in eccesso)% danni sul Colpo Critico (max 25%)",
       "flavor": "The streets of the City are never short of vile and savage company after dark. Rats desperate to turn their lives around, denizens of the Backstreets harboring dreams of revenge, Syndicates and Fingers embroiled in struggles over their interests... and, of course, the Sweepers.\n\nFor all the fortunes to be made from working after sundown, few Fixers are eager to accept such contracts. There are, however, those who find their greatest opportunities precisely where others dare not tread.\n\nThe discernment to read any situation with remarkable precision. The swiftness and thoroughness to bring a job to its conclusion without inviting further trouble. With these two qualities as its greatest assets, Wedge Office has weathered every contract and walked away with the handsome compensation that follows."
     },
     {
       "id": 158601,
-      "name": "Stigma Workshop Weaponry",
-      "desc": "When this unit inflicts [Combustion] using its Skills, inflict +1 more [Combustion] Potency and Count\n- If an enemy hit by this unit's Skills has fewer than 3 [Combustion] Count, inflict +1 [Combustion] Count on the target"
+      "name": "Armi dell'Officina Stigma",
+      "desc": "Quando quest'unità infligge [Combustion] con le sue Abilità, infligge +1 Potenza e Conteggio [Combustion] in più\n- Se il bersaglio di quest'unità ha meno di 3 Conteggio [Combustion], infligge +1 Conteggio [Combustion] in più"
     },
     {
       "id": 158602,
-      "name": "Passion",
-      "desc": "<color=#ff6000><mark color=#ff000040><b><u>At 20+/40+ SP,</color></mark></b></u> Coin Power +1/+2\n\n<color=#ff6000><mark color=#ff000040><b><u>At 50%- HP,</color></mark></b></u> Final Power +1"
+      "name": "Passione",
+      "desc": "<color=#ff6000><mark color=#ff000040><b><u>A 20+/40+ PS,</color></mark></b></u> Potere Moneta +1/+2\n\n<color=#ff6000><mark color=#ff000040><b><u>A 50%- PV,</color></mark></b></u> Potere Finale +1"
     },
     {
       "id": 158603,
@@ -119,24 +119,24 @@
     },
     {
       "id": 158701,
-      "name": "Passion",
-      "desc": "Turn End: If this unit is not Staggered, inflict 2 [Combustion] on all enemies\n\n<color=#ff6000><mark color=#ff000040><b><u>At 20+/40+/45+ SP,</color></mark></b></u> Final Power +1/+2/+3\n\n<color=#ff6000><mark color=#ff000040><b><u>At 50%- HP,</color></mark></b></u> Final Power +1"
+      "name": "Passione",
+      "desc": "A Fine Turno, se quest'unità è Stordita, infligge 2 [Combustion] su ogni nemico\n\n<color=#ff6000><mark color=#ff000040><b><u>A 20+/40+/45+ PS,</color></mark></b></u> Potere Finale +1/+2/+3\n\n<color=#ff6000><mark color=#ff000040><b><u>A 50%- PV,</color></mark></b></u> Potere Finale +1"
     },
     {
       "id": 158702,
-      "name": "Unstable Shell of Ego",
-      "desc": "Regularly shifts between [PhilipShield] and [PhilipSword] modes, inflicting [Combustion] after taking hits and upon attacking, respectively.\n\nAt 0 [PhilipReady], use \"Blazing[TabExplain] Strike\"\n- Gain 4 [PhilipReady] again next turn after the end of the turn this unit used \"Blazing[TabExplain] Strike\""
+      "name": "Guscio Instabile dell'Ego",
+      "desc": "Cambia regolarmente tra [PhilipShield] e [PhilipSword] ogni due turni.\n\nQuando [PhilipReady] scende a 0, usa \"Colpo Fiammeggiante\"\n- Dopo aver usato \"Colpo Fiammeggiante\", riporta [PhilipReady] a 4"
     },
     {
       "id": 158703,
-      "name": "Volatile Effloresced E.G.O::Waxen Pinion",
-      "desc": "Upon entering the Encounter for the first time, enter with 45 SP and gain [PhilipPower]\n\nTake -50% damage from [Combustion] (rounded down)\n- At lower than 50% HP, this effect is enhanced and this unit takes -75% damage from [Combustion]\n\nApply the [PanicChangeLock] effect\nTurn End: If this unit is in Panic, raise SP to 45",
-      "flavor": "Half-formed wings, yet to choose the skies in which they shall soar."
+      "name": "E.G.O Volatile Manifestato::Ali di Cera",
+      "desc": "Quando entra nell'Incontro, recupera 45 PS e ottiene [PhilipPower]\n\nSubisce -50% danni da [Combustion] (arrotondato per difetto)\n- A 50%- PV, quest'unità subisce invece -75% danni da [Combustion]\n\n[PanicChangeLock]\nA Fine Turno, se è in Panico, porta i suoi PS a 45",
+      "flavor": "Delle ali incomplete che devono ancora decidere quali celi sorvolare."
     },
     {
       "id": 158704,
-      "name": "The Conclusion Prewritten",
-      "desc": "At 10 HP..."
+      "name": "Una Fine Già Scritta",
+      "desc": "A 10 PV..."
     }
   ]
 }
