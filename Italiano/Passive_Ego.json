@@ -655,6 +655,18 @@
       "name": "Arcana Magico",
       "desc": "(3) Tutte le Monete Negative delle Abilità degli alleati infliggono +10% danni\nA Fine Attacco contro il bersaglio principale dell'Abilità E.G.O \"La Spada Affilata con le Lacrime\", infligge 1 [DespairKnightEGOAlly] (una volta per turno)",
       "summary": "(3) Tutte le Monete Negative delle Abilità degli alleati infliggono +10% danni\nFine Attacco di \"La Spada Affilata con le Lacrime\": Infligge 1 [DespairKnightEGOAlly]"
+    },
+    {
+      "id": 50003,
+      "name": "4th Match Flame",
+      "desc": "[SynergyActivationConditions]\nActivate the [SynergyActivationEffect] based on the number of equipped 4th Match Flame E.G.O that meet the conditions stipulated in [SynergyActivationConditions_ForthMatchFlame] (includes Identities not on the field)\n\n[SynergyActivationEffect]\n(2) If 3+/5+/7+/10+ [PersonalityCombustion]s are equipped in the Team Loadout, 4th Match Flame E.G.O deals +20%/+40%/+60%/+80% damage\n- Includes Identities not on the field\n- Deal +20% damage for every excess Atk Weight beyond the # of actual targets",
+      "summary": "(2) 4th Match Flame E.G.O deals more damage"
+    },
+    {
+      "id": 50004,
+      "name": "4th Match Flame",
+      "desc": "(3) At 4th Match Flame E.G.O Skill Attack End, inflict +1 [BurningMatch] Count on all targets hit and randomly inflict 25 [BurningMatch] Potency between targets hit (once per turn per E.G.O)",
+      "summary": "(3) At 4th Match Flame E.G.O Skill Attack End, inflict [BurningMatch] on targets hit"
     }
   ]
 }
