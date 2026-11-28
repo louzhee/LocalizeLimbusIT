@@ -5,26 +5,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "...nocking",
-          "desc": "[WhenUse] If target has 5+ [Sinking], inflict 1 [AttackDown]",
+          "name": "...ssare",
+          "desc": "[WhenUse] Se il bersaglio ha 5+ [Sinking], infligge 1 [AttackDown]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Binding] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Binding] nel turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Paralysis] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Paralysis] nel turno successivo"
                 }
               ]
             }
@@ -37,23 +37,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "...to Clean",
-          "desc": "[WhenUse] If the target is at 10 or less PS, inflict 2 [AttackDown]\n[WinDuel] Inflict 1 [Vulnerable]",
+          "name": "...elle Pulizie",
+          "desc": "[WhenUse] Se il bersaglio ha 10 o meno PS, infligge 2 [AttackDown]\n[WinDuel] Infligge 1 [Vulnerable]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [PlusCoinValueDown] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 1 [PlusCoinValueDown] nel turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Infligge +3 Conteggio [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vulnerable] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vulnerable] nel turno successivo"
                 }
               ]
             }
@@ -66,36 +66,36 @@
       "levelList": [
         {
           "level": 1,
-          "name": "...mmands...!",
-          "desc": "[WhenUse] Base Power +1 for every 3 [Sinking] on target (max 3)\n[WinDuel] All allies heal 5 PS",
+          "name": "...rdina la Sign...!",
+          "desc": "[WhenUse] Potere Base +1 per ogni 3 [Sinking] sul bersaglio (max 3)\n[WinDuel] All allies heal 5 PS",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 8 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 8 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttackHead] Infligge +2 Conteggio [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 8 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 8 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttackHead] Infligge +2 Conteggio [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 8 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 8 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttackHead] Infligge +2 Conteggio [Sinking]"
                 }
               ]
             }
@@ -108,33 +108,33 @@
       "levelList": [
         {
           "level": 1,
-          "name": "...of Dust",
-          "desc": "[WhenUse] Base Power +1 for every 6 [Sinking] on target (max 3)\n[WhenUse] Deal +10% damage for every 6 [Sinking] Count on target (max 30%)",
+          "name": "...lo di Polvere",
+          "desc": "[WhenUse] Potere Base +1 per ogni 6 [Sinking] sul bersaglio (max 3)\n[WhenUse] Infligge +10% danni per ogni 6 Conteggio [Sinking] sul bersaglio (max 30%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict Gloom Affinity bonus damage equal to [Sinking] on target. Reduce [Sinking] Count on target by 1"
+                  "desc": "[OnSucceedAttack] Infligge danni da Tristezza pari all'[Sinking] sul bersaglio. Riduce il Conteggio [Sinking] sul bersaglio di 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict Gloom Affinity bonus damage equal to [Sinking] on target. Reduce [Sinking] Count on target by 1"
+                  "desc": "[OnSucceedAttack] Infligge danni da Tristezza pari all'[Sinking] sul bersaglio. Riduce il Conteggio [Sinking] sul bersaglio di 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict Gloom Affinity bonus damage equal to [Sinking] on target."
+                  "desc": "[OnSucceedAttack] Infligge danni da Tristezza pari all'[Sinking] sul bersaglio."
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Sinking]"
+                  "desc": "[OnSucceedAttack] Infligge 4 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If the target has 3+ [Sinking] Count, Reuse this Coin (twice)"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 3+ Conteggio [Sinking], Riusa questa Moneta (2 volte per Abilità)"
                 }
               ]
             }
@@ -147,8 +147,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Slipp...",
-          "desc": "If this unit has remaining Shield PV at Turn End, lower Stagger threshold by 50",
+          "name": "Visc...",
+          "desc": "[EndBattle] Se lo Scudo di questa unità non viene distrutto, abbassa la propria Soglia di Stordimento di 50",
           "coinlist": [
             {}
           ]
@@ -160,20 +160,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Damn Pl...",
+          "name": "Dannati Ple...",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [AttackUp] next turn"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [AttackUp] nel turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [AttackUp] next turn"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [AttackUp] nel turno successivo"
                 }
               ]
             }
@@ -186,20 +186,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "I'll Remo...",
-          "desc": "[WinDuel] Base Power +1",
+          "name": "Vi But...",
+          "desc": "[WinDuel] Potere Base +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If the target has [AttackDown], deal 20% of damage dealt as bonus Blunt damage"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [AttackDown], infligge il 20% del danno inflitto come danni Contindenti bonus"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If the target has [AttackDown], deal 20% of damage dealt as bonus Blunt damage"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha [AttackDown], infligge il 20% del danno inflitto come danni Contindenti bonus"
                 }
               ]
             }
@@ -212,28 +212,28 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Make Things...",
-          "desc": "[WinDuel] If the target has 2+ [AttackDown], Base Power +1\n[WhenUse] If the target has [DefenseDown], deal 30% of damage dealt as bonus Blunt damage",
+          "name": "Rimetterò Tutto...",
+          "desc": "[WinDuel] Se il bersaglio ha 2+ [AttackDown], Potere Base +1\n[WhenUse] Se il bersaglio ha [DefenseDown], infligge il 30% del danno finale come danni Contundendi bonus",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 4 PS on self"
+                  "desc": "[OnSucceedAttack] Recupera 4 PS"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 4 PS on self"
+                  "desc": "[OnSucceedAttack] Recupera 4 PS"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 4 PS on self"
+                  "desc": "[OnSucceedAttack] Recupera 4 PS"
                 }
               ]
             }
@@ -246,29 +246,29 @@
       "levelList": [
         {
           "level": 1,
-          "name": "... ove You",
-          "desc": "Prioritizes targets with the most negative effects\n[WinDuel] Coin Power +1 for every 3 [DefenseDown] on target (max 3)",
+          "name": "...to fuori",
+          "desc": "Dà prirità al bersaglio con più effetti negativi diversi\n[WinDuel] Potere Moneta +1 per ogni 3 [DefenseDown] sul bersaglio (max 3)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vulnerable]"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vulnerable]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vulnerable] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Vulnerable] nel turno successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Paralysis] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Paralysis] nel turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal +30% damage for every 2 [AttackDown] on target (max 120%)"
+                  "desc": "[OnSucceedAttack] Infligge +30% danni per ogni 2 [AttackDown] sul bersaglio (max 120%)"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] If the target has 3+ negative effects, reuse this coin (once)"
+                  "desc": "[OnSucceedAttackHead] Se il bersaglio ha 3+ effetti negativi diversi, riusa questa Moneta (max 1 volta)"
                 }
               ]
             }
@@ -282,7 +282,7 @@
         {
           "level": 1,
           "name": "Guardia",
-          "desc": "[StartBattle] Gain 20 additional Shield PV for every surviving ally",
+          "desc": "[StartBattle] Ottiene 20 Scudo in più per ogni alleato in campo",
           "coinlist": [
             {
               "coindescs": [
@@ -306,7 +306,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [DefenseDown] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 2 [DefenseDown] nel turno successivo"
                 }
               ]
             }
@@ -320,12 +320,12 @@
         {
           "level": 1,
           "name": "...te",
-          "desc": "[WhenUse] If the target has 2+ negative effects, Base Power +1",
+          "desc": "[WhenUse] Se il bersaglio ha 2+ effetti negativi diversi, Potere Base +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [DefenseDown] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 3 [DefenseDown] nel turno successivo"
                 }
               ]
             }
@@ -339,22 +339,22 @@
         {
           "level": 1,
           "name": "Fl...he",
-          "desc": "[WhenUse] If the target has 4+ negative effects, Coin Power +1",
+          "desc": "[WhenUse] Se il bersaglio ha 4+ effetti negativi diversi, Potere Moneta +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Binding] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 1 [Binding] nel turno successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [PenetrateTakeDamageUp] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 1 [PenetrateTakeDamageUp] nel turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Binding] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Binding] nel turno successivo"
                 }
               ]
             }
@@ -368,25 +368,25 @@
         {
           "level": 1,
           "name": "Cou...oit",
-          "desc": "[WhenUse] If the target has 5+ negative effects, Base Power +2\n[WhenUse] If the target has 5+ negative effects, deal +30% damage",
+          "desc": "[WhenUse] Se il bersaglio ha 5+ effetti negativi diversi, Potere Base +2\n[WhenUse] Se il bersaglio ha 5+ effetti negativi diversi, infligge +30% danni",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vulnerable]"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vulnerable]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vulnerable] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 2 [Vulnerable] nel turno successivo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If the target has 5+ negative effects, reuse this coin (2 times max)"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 5+ effetti negativi diversi, riusa questa Moneta (max 2 volte)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Remove 1 random removable negative effect applied on target"
+                  "desc": "[OnSucceedAttack] Rimuove 1 effetto negativo rimovibile sul bersaglio"
                 }
               ]
             }
@@ -400,7 +400,7 @@
         {
           "level": 1,
           "name": "...",
-          "desc": "[OnSucceedEvade] Heal 5 PS (2 times max)",
+          "desc": "[OnSucceedEvade] Recupera 5 PS (max 2 volte)",
           "coinlist": [
             {
               "coindescs": [

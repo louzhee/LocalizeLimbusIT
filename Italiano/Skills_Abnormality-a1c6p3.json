@@ -5,13 +5,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Impaling",
+          "name": "Impalare",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 6 [Combustion] and +2 Conteggio [Combustion]"
+                  "desc": "[OnSucceedAttack] Infligge 6 [Combustion] e +2 Conteggio [Combustion]"
                 }
               ]
             }
@@ -24,8 +24,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Hewing",
-          "desc": "[WinDuel] If target has [Combustion], Base Power +2",
+          "name": "Intagliare",
+          "desc": "[WinDuel] Se il bersaglio ha [Combustion], Potere Base +2",
           "coinlist": [
             {
               "coindescs": [
@@ -57,8 +57,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Erupting Wrath",
-          "desc": "[WhenUse] Coin Power +1 for every 5 [Combustion] on target (max 3)\n[WinDuel] Se il bersaglio ha 9+ [Combustion], this Skill gains Atk Weight +1",
+          "name": "Ira in Ebollizione",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni 5 [Combustion] sul bersaglio (max 3)\n[WinDuel] Se il bersaglio ha 9+ [Combustion], Portata Attacco +1",
           "coinlist": [
             {
               "coindescs": [
@@ -80,12 +80,12 @@
         {
           "level": 1,
           "name": "Contrattacco",
-          "desc": "[WhenUse] Se il bersaglio ha 5+ [Combustion], Coin Power +2\n[WhenUse] Se il bersaglio ha 6+ [Combustion], reuse this Skill (2 times max)",
+          "desc": "[WhenUse] Se il bersaglio ha 5+ [Combustion], Potere Moneta +2\n[WhenUse] Se il bersaglio ha 6+ [Combustion], riusa quest'Abilità (max 2 volte)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 10 [AttackDmgUp_Weak] nel turno successivo"
+                  "desc": "[OnSucceedAttack] Ottiene 10 [AttackDmgUp_Weak] nel turno successivo"
                 }
               ]
             }
@@ -98,7 +98,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Brush Wounds",
+          "name": "Colpisci le Ferite",
           "desc": "",
           "coinlist": [
             {
@@ -130,8 +130,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Broken Heart",
-          "desc": "[WinDuel] Gain 3 [DefenseUp] nel turno successivo",
+          "name": "Affranto",
+          "desc": "[WinDuel] Ottiene 3 [DefenseUp] nel turno successivo",
           "coinlist": [
             {
               "coindescs": [
@@ -162,7 +162,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Ruination, Wailing, and Lamentation",
+          "name": "Rovina, Pianto e Lamento",
           "desc": "[CantDuel]",
           "coinlist": [
             {
@@ -175,10 +175,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 Attack Power Up nel turno successivo"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Enhancement] nel turno successivo"
                 },
                 {
-                  "desc": "[EnemyKill] Gain 2 Attack Power Up nel turno successivo"
+                  "desc": "[EnemyKill] Ottiene 2 [Enhancement] nel turno successivo"
                 }
               ]
             }
@@ -191,20 +191,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Undeserving of Speech",
-          "desc": "[WhenUse] Se il bersaglio ha 8+ [Laceration], Clash Power +1",
+          "name": "Indegno di Parola",
+          "desc": "[WhenUse] Se il bersaglio ha 8+ [Laceration], Potere Scontro +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Se il bersaglio ha 4+ [Laceration], the next Coin deals +20% damage"
+                  "desc": "[OnSucceedAttackHead] Se il bersaglio ha 4+ [Laceration], la prossima Moneta infligge +20% danni"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Se il bersaglio ha 3+ negative effects, reuse this coin (1 time max)"
+                  "desc": "[OnSucceedAttack] Se il bersaglio ha 3+ effetti negativi diversi, riusa questa Moneta (max 1 volta)"
                 }
               ]
             }
@@ -217,8 +217,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Bodysack",
-          "desc": "[WhenUse] Base Power +1 for every 5 [Laceration] on target (max 3)\n[WhenUse] Clash Power +1 for every negative effect on target (max 2)\n[DefeatDuel] Gain 20 [DefenseDown]\n[DefeatDuel] Gain 1 Fettered Woe",
+          "name": "Sacco Nero",
+          "desc": "[WhenUse] Potere Base +1 per ogni 5 [Laceration] sul bersaglio (max 3)\n[WhenUse] Potere Scontro +1 per ogni effetto negativo diverso sul bersaglio (max 2)\n[DefeatDuel] Ottiene 20 [DefenseDown]\n[DefeatDuel] Ottiene 1 [AaCfPcBf]",
           "coinlist": [
             {
               "coindescs": [
@@ -226,7 +226,7 @@
                   "desc": "[OnSucceedAttack] Infligge 1 [DefenseDown]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Se il bersaglio ha 8+ [Laceration], the last Coin deals +30% damage"
+                  "desc": "[OnSucceedAttackHead] Se il bersaglio ha 8+ [Laceration], l'ultima Moneta infligge +30% danni"
                 }
               ]
             },
@@ -236,7 +236,7 @@
                   "desc": "[OnSucceedAttack] Infligge 1 [DefenseDown]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Se il bersaglio ha 8+ [Laceration], the last Coin deals +30% damage"
+                  "desc": "[OnSucceedAttackHead] Se il bersaglio ha 8+ [Laceration], l'ultima Moneta infligge +30% danni"
                 }
               ]
             },
@@ -246,14 +246,14 @@
                   "desc": "[OnSucceedAttack] Infligge 1 [DefenseDown]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Se il bersaglio ha 8+ [Laceration], the last Coin deals +30% damage"
+                  "desc": "[OnSucceedAttackHead] Se il bersaglio ha 8+ [Laceration], l'ultima Moneta infligge +30% danni"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If this Skill flips all Heads, infligge 2 [Vulnerable] nel turno successivo"
+                  "desc": "[OnSucceedAttack] Se questa Moneta ha lanciato solo Testa, infligge 2 [Vulnerable] nel turno successivo"
                 }
               ]
             }
@@ -266,8 +266,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Lunacy of the Frenzied Wolf",
-          "desc": "[WhenUse] Base Power +1 for every 5 [Laceration] on target (max 4)\n[WhenUse] Clash Power +1 for every negative effect on target (max 2)\n[DefeatDuel] Se il bersaglio ha [AaCfPcBg], raise this unit's Stagger Threshold by 100 nel turno successivo. If this unit does not have a Stagger threshold, create a new Stagger threshold at 0.",
+          "name": "Smania del Lupo Delirante",
+          "desc": "[WhenUse] Potere Base +1 per ogni 5 [Laceration] sul bersaglio (max 4)\n[WhenUse] Potere Scontro +1 per ogni effetto negativo diverso sul bersaglio (max 2)\n[DefeatDuel] Se il bersaglio ha [AaCfPcBg], alza la propria Soglia di Stordimento di 100 nel turno successivo. Se questa unità non ha Soglie di Stordimento, crea una Soglia di Stordimento su di sé.",
           "coinlist": [
             {
               "coindescs": [
@@ -293,7 +293,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If every Coin of this Skill hits, reuse this Coin (1 time max)"
+                  "desc": "[OnSucceedAttack] Se ogni Moneta di quest'Abilità ha colpito, riusa questa Moneta (max 1 volta)"
                 }
               ]
             }
@@ -306,7 +306,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Reflexive Revenge",
+          "name": "Riflesso di Vendetta",
           "desc": "",
           "coinlist": [
             {
@@ -723,7 +723,7 @@
         {
           "level": 1,
           "name": "The Nightmarish Vengeance, Returned",
-          "desc": "[CantChangeTarget]\n[WhenUse] If the target does not have [AaCfPbBa], Clash Power +10\n[DefeatDuel] Gain 3 Fragile nel turno successivo",
+          "desc": "[CantChangeTarget]\n[WhenUse] If the target does not have [AaCfPbBa], Potere Scontro +10\n[DefeatDuel] Ottiene 3 Fragile nel turno successivo",
           "coinlist": [
             {
               "coindescs": [
@@ -1106,7 +1106,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Cuore Che Si Spezza",
+          "name": "Cuore da Spezzare",
           "desc": "[EndSkill] Ottiene 1 [AaCfPcBn]",
           "coinlist": [
             {
@@ -1173,7 +1173,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Presa of Disperazione",
+          "name": "Presa della Disperazione",
           "desc": "",
           "coinlist": [
             {
@@ -1199,7 +1199,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Contorcersi Senza Senso",
+          "name": "Contorcersi Insensato",
           "desc": "",
           "coinlist": [
             {
@@ -1320,7 +1320,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Agility] nel turno successivo"
+                  "desc": "[OnSucceedAttack] Ottiene 1 [Agility] nel turno successivo"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge 1 [Vulnerable]"

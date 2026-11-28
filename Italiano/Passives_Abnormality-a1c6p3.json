@@ -2,43 +2,43 @@
   "dataList": [
     {
       "id": 816101,
-      "name": "Sin Nullification",
-      "desc": "Unless this unit is Staggered or Part Broken, take 80% less [Combustion] damage."
+      "name": "Resistenza al Peccato",
+      "desc": "Se la sua Parte non è Rotta o Stordita, subisce -80% danni da [Combustion]."
     },
     {
       "id": 816102,
-      "name": "Proliferating Flame",
-      "desc": "If the target has [Combustion]: On Hit, spread half of [Combustion] on target to 2 units adjacent to the target on the Dashboard."
+      "name": "Fiamme proliferanti",
+      "desc": "Sul Colpo, se il bersaglio ha [Combustion], infligge la metà della [Combustion] sul bersaglio alle 2 unità adiacenti nel Pannello di Controllo."
     },
     {
       "id": 816601,
-      "name": "Chaotic Hunt",
-      "desc": "Clash Win: Clash Power -1 for the next Clash (max 2)\nClash Lose: Clash Power +1 for the next Clash (max 2)"
+      "name": "Caccia Caotica",
+      "desc": "A Scontro Vinto, Potere Scontro -1 nel prossimo Scontro (max 2)\nA Scontro Perso, Potere Scontro +1 nel prossimo Scontro (max 2)"
     },
     {
       "id": 816602,
-      "name": "Humanity Abandoned",
-      "desc": "Turn Start: gain 2 [AttackDmgUp]."
+      "name": "Umanità Abbandonata",
+      "desc": "A inizio turno, ottiene 2 [AttackDmgUp]."
     },
     {
       "id": 816603,
-      "name": "Sack",
-      "desc": "- When this unit has the Chain, all Parts gain 1 [Enhancement] and 2 [AttackDmgUp]\n- When the Chain is broken, starting next turn, gain 2 [Binding] and +0.7 to all physical resistances until the end of this Encounter"
+      "name": "Sacca",
+      "desc": "- Mentre questa unità ha La Catena, ogni Parte ottiene 1 [Enhancement] e 2 [AttackDmgUp]\n- Quando La Catena viene rotta, ottiene 2 [Binding] e +0.7 a ogni Resistenza a partire dal turno successivo"
     },
     {
       "id": 816604,
-      "name": "Ressentiment",
-      "desc": "When this unit has 35% or less PV: If the target has a higher PV percentage than this unit, Clash Power +2"
+      "name": "Risentimento",
+      "desc": "A 35%- PV, se il bersaglio ha una percentuale di PV maggiore di quella di questa unità, Potere Scontro +2"
     },
     {
       "id": 816605,
-      "name": "Spite-driven",
-      "desc": "If this Unit's current PV percentage is 30% or less:\n- Blunt Skills Deal +20% damage\n- Gain 1 [Enhancement] and 2 [Vulnerable] with every turn that passes. (3 times max)"
+      "name": "Trascinato dal Rancore",
+      "desc": "A 30%- PV del Nucleo:\n- Infligge +20% danni Contundenti\n- Ottiene 1 [Enhancement] e 2 [Vulnerable] ogni turno. (max 3 volte)"
     },
     {
       "id": 816606,
-      "name": "Infernal Hound",
-      "desc": "When the Chain is broken, inflict [AaCfPcBg] to a random enemy.\nStarting next turn, prioritize target with [AaCfPcBg]."
+      "name": "Segugio Infernale",
+      "desc": "Quando La Catena è rotta, infligge [AaCfPcBg] su un nemico casuale.\nA partire dal prossimo turno, bersaglia l'unità con [AaCfPcBg]."
     },
     {
       "id": 817101,
@@ -87,68 +87,68 @@
     },
     {
       "id": 9101606,
-      "name": "Vying Spirit",
-      "desc": "The lower this unit's PV gets, the higher this unit's Defense Level gets\nDefense Level +1 for every 10% missing PV on self (rounded down)"
+      "name": "Spirito Competitivo",
+      "desc": "Livello Difensivo +1 per ogni 10% dei PV mancanti (arrotondato per difetto)"
     },
     {
       "id": 821601,
-      "name": "Wild Hunt of Desolation",
-      "desc": "Cannot be defeated at 0 PV. PV does not drop below 1."
+      "name": "Caccia Selvaggia della Desolazione",
+      "desc": "I PV non scendono sotto 1."
     },
     {
       "id": 817401,
-      "name": "A Distant Identity",
-      "desc": "Turn End: If both Hands are at 1 PV, become Immobilized."
+      "name": "Un'Identità Lontana",
+      "desc": "A Fine Turno, se entrambe le mani hanno 1 PV, become [Inactible]."
     },
     {
       "id": 817402,
-      "name": "Cold Body",
-      "desc": "PV does not drop below 1."
+      "name": "Corpo Freddo",
+      "desc": "I PV non scendono sotto 1."
     },
     {
       "id": 817403,
-      "name": "A Shaky Ego",
-      "desc": "Turn End: If both Hands are at 1 PV, gain Shield next turn.\nOnce the Shield is fully depleted, become Immobilized."
+      "name": "Ego Fragile",
+      "desc": "A Fine Turno, se entrambe le mani hanno 1 PV, ottiene 300 Sudo\nQuando lo Scudo viene distrutto, diventa [Inactible]."
     },
     {
       "id": 819201,
-      "name": "Misery-severing Hand",
-      "desc": "If the other Hand is at 2+ PV at the next Turn End after the turn in which this Hand reaches 1 PV, this unit heals PV equal to 50% of the other Hand's PV. (rounded down)"
+      "name": "Mano Spezza-Miseria",
+      "desc": "Quando questa Mano scende a 1 PV, recupera PV pari al 50% dei PV dell'altra Mano. (arrotondato per difetto; non si attiva se l'altra Mano ha 1 PV)"
     },
     {
       "id": 821401,
-      "name": "Deep Bereavement",
-      "desc": "Become Staggered as long as this unit's PV is at 1. The PV does not drop below 1."
+      "name": "Lutto Profondo",
+      "desc": "A 1 PV, viene stordita. I PV non scendono sotto 1."
     },
     {
       "id": 817404,
-      "name": "Broken Heart",
+      "name": "Cuore Spezzato",
       "desc": "Turn Start: If there is a Hand with 2+ PV, gain 10 [Protection], and all Resistance values become 0.2.\nTurn Start: If both Hands are at 1 PV, [Protection] expires, and all Resistance values revert to default values."
     },
     {
       "id": 817405,
-      "name": "For Every Heathcliff",
-      "desc": "When Clashing against Heathcliff, Clash Power -3 and deal -50% damage against Heathcliff\nWins Encounter if Heathcliff dies"
+      "name": "Per Ogni Heathcliff",
+      "desc": "Se si Scontra con Heathcliff, Potere Scontro -3 e infligge -50% danni\nSe Heathcliff muore, vince l'Incontro"
     },
     {
       "id": 816408,
-      "name": "Moment of Vengeance",
-      "desc": "Clash Win: Heal 5 PS on self\nClash Lose: Lose 5 PS and gain 2 [Binding] next turn. (Once per turn)\nIf this unit did not land a single hit this turn, lose 5 PS at Turn End"
+      "name": "Momento della Vendetta",
+      "desc": "A Scontro vinto, recupera 5 PS\nA Scontro perso, perde 5 PS e ottiene 2 [Binding] nel turno successivo (una volta per turno)\nSe questa unità non è riuscita a colpire in questo turno, perde 5 PS a Fine Turno"
     },
     {
       "id": 9101607,
-      "name": "Cannot Retreat",
-      "desc": "For the duration of this Encounter, Retreat functions will not activate for Heathcliff Identities."
+      "name": "Ritirata negata",
+      "desc": "Per questo Incontro, le Identità di heathcliff non possono effettuare la Ritirata."
     },
     {
       "id": 816103,
-      "name": "Erupting Wrath",
+      "name": "Ira in Ebollizione",
       "desc": "On death, inflict 12 [Combustion] and +8 [Combustion] Count on all enemies"
     },
     {
       "id": 816104,
-      "name": "Nightmare",
-      "desc": "In a turn, if an allied unit(including this unit) loses a Clash or takes damage from enemy attacks, gain 1 [AttackUp] and heal 1 SP (max 12 times)"
+      "name": "Incubo",
+      "desc": "Se un'unità alleata (inclusa questa unità) perde uno Scontro o è colpita, ottiene 1 [AttackUp] e recupera 1 SP (max 12 volte)"
     }
   ]
 }

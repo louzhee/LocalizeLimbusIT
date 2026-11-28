@@ -1008,7 +1008,7 @@
         {
           "level": 1,
           "name": "Fatti Schiacciare",
-          "desc": "Dà priorità all'unità con più status negativi\n[WinDuel] Potere Moneta +1 per ogni 3 [AttackDown] sul bersaglio (max 3)",
+          "desc": "Dà priorità all'unità con più effetti negativi\n[WinDuel] Potere Moneta +1 per ogni 3 [AttackDown] sul bersaglio (max 3)",
           "coinlist": [
             {
               "coindescs": [
@@ -1029,7 +1029,7 @@
                   "desc": "[OnSucceedAttack] Infligge +30% danni per ogni 2 [AttackDown] sul bersaglio (max 120%)"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Se il bersaglio ha 3+ status negativi, riusa questa Moneta (max 1 volta)"
+                  "desc": "[OnSucceedAttackHead] Se il bersaglio ha 3+ effetti negativi, riusa questa Moneta (max 1 volta)"
                 }
               ]
             }
