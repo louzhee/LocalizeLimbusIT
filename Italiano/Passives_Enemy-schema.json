@@ -3,7 +3,7 @@
     {
       "id": 600201,
       "name": "Schemacraft",
-      "desc": "[PanicChangeLock]\n\nI PS non scendono sotto 0\n\nApplica i seguenti effetti su Mine, Patriarca della Terza Famiglia del Clan Kurokumo:\n- <color=#ff6000><mark=#ff000040><b><u>Se si Scontra con un'Abilità E.G.O Tagliente, Potere Scontro -5</u></b></mark></color>\n- <color=#ff6000><mark=#ff000040><b><u>Subisce +(150 / # di monete)% danni dalle Abilità E.G.O Taglienti</u></b></mark></color>",
+      "desc": "[PanicChangeLock]\n\nI PS non possono scendere sotto 0\n\nApplica i seguenti effetti su Mine, Patriarca della Terza Famiglia del Clan Kurokumo:\n- <color=#ff6000><mark=#ff000040><b><u>Se si Scontra con un'Abilità E.G.O Tagliente, Potere Scontro -5</u></b></mark></color>\n- <color=#ff6000><mark=#ff000040><b><u>Subisce +(150 / # di monete)% danni dalle Abilità E.G.O Taglienti</u></b></mark></color>",
       "flavor": "\"A series of representations, crafted in groupings of schema. There's a great deal you can experience through this training, so.. bon courage, Manager. You in particular, well... I must say this suits you especially well.\"\n\n\"If Sisyphe Tower were still standing, I wonder what form your iteration of the system would've taken?\""
     },
     {
@@ -28,40 +28,40 @@
     {
       "id": 600405,
       "name": "Schemacraft",
-      "desc": "In this Encounter, apply the following effects on Kurokumo Clan Captain Jun:\n- Max HP +75%, Remove one Stagger Threshold (30%)\n- <color=#ff6000><mark=#ff000040><b><u>Take +50% damage from Slash Skills (for E.G.O Skills, take +100% damage instead)</u></b></mark></color>\n- If this unit's HP has dropped to 50% or below for the first time, the turn ends immediately;\nIf this unit has fewer than 5 \"Kurokumo Clan\" allies on the field (excluding this unit), summon up to 5 allies (combining <noparse>Determined</noparse> Kurokumo Henchmen and Tense Kurokumo Henchmen; newly-summoned units enter the field with 30 SP)",
+      "desc": "Attiva i seguenti effetti su Jun, Capitano del Clan Kurokumo:\n- PV Max +75%, rimuove una Soglia di Stordimento (30%)\n- <color=#ff6000><mark=#ff000040><b><u>Subisce +50% danni dalle Abilità Taglienti (subisce +100% danni dalle Abilità E.G.O Taglienti)</u></b></mark></color>\n- Quando i PV di questa unità scendono sotto il 50% per la prima volta, termina immediatamente il turno;\nSe ci sono meno di 5 alleati del \"Clan Kurokumo\", evoca fino a 5 unità del \"Clan Kurokumo\" (queste unità vengono evocate con 30 PS)",
       "flavor": "\"A series of representations, crafted in groupings of schema. There's a great deal you can experience through this training, so.. bon courage, Manager. You in particular, well... I must say this suits you especially well.\"\n\n\"If Sisyphe Tower were still standing, I wonder what form your iteration of the system would've taken?\""
     },
     {
       "id": 600508,
       "name": "Schemacraft",
-      "desc": "In this Encounter, apply the following effects on Ricardo:\n- Max HP +25%, Remove one Stagger Threshold (25%)\n- <color=#ff6000><mark=#ff000040><b><u>Take +50% damage from Blunt Skills (for E.G.O Skills, take +100% damage instead)</u></b></mark></color>\n- SP does not drop below 0\n- Min & Max Speed +1 every time this unit's ally from \"The Middle\" is killed (max 3 each)\n- Upon using the \"Assemble\" Skill, summon 2 more allies",
+      "desc": "Attiva i seguenti effetti su Ricardo:\n- PV Max +25%, Rimuove una Soglia di Stordimento (25%)\n- <color=#ff6000><mark=#ff000040><b><u>Subisce +50% danni dalle Abilità Contundenti (subisce +100% danni dalle Abilità E.G.O Contundenti)</u></b></mark></color>\n- I PS non possono scendere sotto 0\n- Velocità +1 per ogni unità \"Il Medio\" alleata sconfitta (max 3)\n- Quando usa l'Abilità \"Raduno\", evoca 2 alleati in più",
       "flavor": "\"A series of representations, crafted in groupings of schema. There's a great deal you can experience through this training, so.. bon courage, Manager. You in particular, well... I must say this suits you especially well.\"\n\n\"If Sisyphe Tower were still standing, I wonder what form your iteration of the system would've taken?\""
     },
     {
       "id": 600605,
       "name": "Schemacraft",
-      "desc": "In this Encounter, apply the following effects on Little Brother Werner:\n- <color=#ff6000><mark=#ff000040><b><u>Take +25% damage from Blunt Skills (for E.G.O Skills, take +100% damage instead)</u></b></mark></color>",
+      "desc": "Attiva i seguenti effetti su Werner, Fratellino del Medio:\n- <color=#ff6000><mark=#ff000040><b><u>Subisce +25% danni dalle Abilità Contundenti (subisce +100% danni dalle Abilità E.G.O Contundenti)</u></b></mark></color>",
       "flavor": "\"A series of representations, crafted in groupings of schema. There's a great deal you can experience through this training, so.. bon courage, Manager. You in particular, well... I must say this suits you especially well.\"\n\n\"If Sisyphe Tower were still standing, I wonder what form your iteration of the system would've taken?\""
     },
     {
       "id": 601101,
-      "name": "Sparkle",
-      "desc": "The \"Telepole\" Part gains 10 [ElectricPolePower] every specific turn\nIf [ElectricPolePower] is reduced to 0 due to its effects, the \"Telepole\" Part will be destroyed\nIf [ElectricPolePower] remains until Turn End, this unit uses a powerful Skill next turn"
+      "name": "Scintilla",
+      "desc": "La Parte \"Traliccio\" ottiene 10 [ElectricPolePower] in certi turni\nSe [ElectricPolePower] scende a 0, la Parte \"Traliccio\" viene rotta\nSe [ElectricPolePower] non è scaduto, usa un'Abilità potente nel turno successivo"
     },
     {
       "id": 601102,
-      "name": "Lightning Rod",
-      "desc": "At 5+ [DogThunder], all Parts will inflict 3 [ElectricShock] on the attacker when hit, starting from the next turn (lasts until [DogThunder] reaches 0)\nWhen hit by a Sloth attack, the amount of [ElectricShock] inflicted is halved (rounded up)"
+      "name": "Parafulmine",
+      "desc": "Quando le Stack di [DogThunder] arrivano a 5+: A partire dal prossimo turno, infligge 3 [ElectricShock] sull'attaccante (questo effetto persisterà finchè le Stack di [DogThunder] non scendono 0)\nSe colpito da un'Abilità Accidia, lo [ElectricShock] inflitto viene dimezzato (arrotondato per eccesso)"
     },
     {
       "id": 601103,
-      "name": "Lightning",
-      "desc": "While the Telepole isn’t broken, gain 1 [DogThunder] after an attack\nWhenever the Telepole is hit by an attack, lose 1 [DogThunder]"
+      "name": "Fulmine",
+      "desc": "Se la Parte \"Traliccio\" non è rotta, ottiene 1 [DogThunder] dopo ogni attacco\nSe la Parte \"Traliccio\" viene colpita, perde 1 [DogThunder]"
     },
     {
       "id": 601104,
-      "name": "Breaking Pieces",
-      "desc": "When Telepole is Staggered or Broken, lose all [DogThunder];\nAll Attack Skills of the Alleyway Watchdog will then be canceled for the turn"
+      "name": "Pezzi in Frantumi",
+      "desc": "Se la parte \"Traliccio\" viene Stordita o rotta, perde ogni Stack di [DogThunder].\nPoi, tutte le Abilità del Guardiano delle Stradine vengono annullate."
     }
   ]
 }

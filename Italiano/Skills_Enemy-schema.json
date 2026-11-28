@@ -102,7 +102,7 @@
         {
           "level": 1,
           "name": "Kumogiri",
-          "desc": "Dà priorità al bersaglio con più Potenza [Laceration]\n[WhenUse]\n- Portata Attacco +1 e Potere Moneta +1 per ogni 50 [SharpSensibility]\n- Infligge +([SharpSensibility] su di sé)% danni\n[WhenUse] Infligge +(Potenza [Laceration] sul bersaglio principale)% danni (max 50%)\n[DefeatDuel] Ottiene 3 [Paralysis], infligge -75% danni e non Stordisce\n[EndSkillAll] Consuma ogni [SharpSensibility]",
+          "desc": "Dà priorità al bersaglio con più Potenza [Laceration]\n[WhenUse]\n- Portata Attacco +1 e Potere Moneta +1 per ogni 50 [SharpSensibility]\n- Infligge +([SharpSensibility] su di sé)% danni\n[WhenUse] Infligge +(Potenza [Laceration] sul bersaglio principale)% danni (max 50%)\n[DefeatDuel] Ottiene 3 [Paralysis], infligge -75% danni e non può Stordire i bersagli\n[EndSkillAll] Consuma ogni [SharpSensibility]",
           "coinlist": [
             {
               "coindescs": [
@@ -243,7 +243,7 @@
         {
           "level": 1,
           "name": "Lacera lo Spazio [Kurokumo]",
-          "desc": "Dà priorità al bersaglio con più Potenza [Laceration]\n[WhenUse]\n- Portata Attacco +1 per ogni 25 [SharpSensibility]\n- Potere Moneta +1 per ogni 50 [SharpSensibility]\n- Infligge +([SharpSensibility] su di sé)% danni\n[WhenUse] Infligge +(Potenza + Conteggio [Laceration] sul bersaglio principale)% danni (max 100%)\n[DefeatDuel] Ottiene 4 [Paralysis], infligge -75% danni e non Stordisce\n[EndSkillAll] Consuma ogni [SharpSensibility]",
+          "desc": "Dà priorità al bersaglio con più Potenza [Laceration]\n[WhenUse]\n- Portata Attacco +1 per ogni 25 [SharpSensibility]\n- Potere Moneta +1 per ogni 50 [SharpSensibility]\n- Infligge +([SharpSensibility] su di sé)% danni\n[WhenUse] Infligge +(Potenza + Conteggio [Laceration] sul bersaglio principale)% danni (max 100%)\n[DefeatDuel] Ottiene 4 [Paralysis], infligge -75% danni e non può Stordire i bersagli\n[EndSkillAll] Consuma ogni [SharpSensibility]",
           "flavor": "Una tecnica ideata dal Patriarca della Seconda Famiglia del Clan Kurokumo. Il colpo non sarà stato perfezionato, ma riesce comunque a tagliare lo spazio in un solo istante.",
           "coinlist": [
             {
@@ -295,20 +295,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Electromotive Pursuit",
-          "desc": "[WhenUse] Potere Moneta +1 for every [DogThunder] on self (max 3)\n[WhenUse] Deal +15% damage for every 5 ([Laceration] + [Burst]) on target (max 60%)\n[WhenUse] Se il bersaglio ha 3+ [ElectricShock], convert all Coins on this Skill to [SuperCoin]s\n[DefeatDuel] Deal -50% damage and damage dealt by this Skill cannot Stagger the target",
+          "name": "Caccia Elettromotrice",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni Stack di [DogThunder] (max 3)\n[WhenUse] Infligge +15% danni per ogni 5 ([Laceration] + [Burst]) sul bersaglio (max 60%)\n[WhenUse] Se il bersaglio ha 3+ [ElectricShock], converte ogni Moneta di quest'Abilità in [SuperCoin]\n[DefeatDuel] Infligge -50% danni e non può Stordire i bersagli",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 5 [Burst] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Burst] nel turno successivo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge +4 Conteggio [Burst] next turn"
+                  "desc": "[OnSucceedAttack] Infligge +4 Conteggio [Burst] nel turno successivo"
                 }
               ]
             }
@@ -321,13 +321,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Lightning Rod",
-          "desc": "[WhenUse] Potere Moneta +1 for every [DogThunder] on self (max 3)\n[WhenUse] Deal +20% damage for every 5 ([Laceration] + [Burst]) on target (max 80%)\n[WhenUse] Se il bersaglio ha 3+ [ElectricShock], convert all Coins on this Skill to [SuperCoin]s\n[DefeatDuel] Deal -50% damage and damage dealt by this Skill cannot Stagger the target",
+          "name": "Parafulmine",
+          "desc": "[WhenUse] Potere Moneta +1 per ogni Stack di [DogThunder] (max 3)\n[WhenUse] Infligge +20% danni per ogni 5 ([Laceration] + [Burst]) sul bersaglio (max 80%)\n[WhenUse] Se il bersaglio ha 3+ [ElectricShock], converte ogni Moneta di quest'Abilità in [SuperCoin]\n[DefeatDuel] Infligge -50% danni e non può Stordire i bersagli",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Infligge 5 [Burst] and +2 Conteggio [Burst] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 5 [Burst] e +2 Conteggio [Burst] nel turno successivo"
                 }
               ]
             },
@@ -347,8 +347,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Red Bolts",
-          "desc": "[WhenUse] Gain +1 Atk Weight for every 2 [ElectricPolePower] on self (max 5)\n[WhenUse] Potere Finale +1 and deal +10% damage for every [ElectricPolePower] on self (max 10, max 100% respectively)\n[WhenUse] Deal +15% damage for every 5 ([Laceration] + [Burst]) on the main target (max 60%)\n[DefeatDuel] Deal -50% damage and damage dealt by this Skill cannot Stagger the target\n[EndSkill] [ElectricPolePower] expires",
+          "name": "Fulmini Rossi",
+          "desc": "[WhenUse] Portata Attacco +1 per ogni 2 Stack di [ElectricPolePower] (max 5)\n[WhenUse] Potere Finale +1 (max 10) e +10% danni (max 100%) per ogni Stack di [ElectricPolePower]\n[WhenUse] Infligge +15% danni per ogni 5 ([Laceration] + [Burst]) sul bersaglio principale (max 60%)\n[DefeatDuel] Infligge -50% danni e non può Stordire i bersagli\n[EndSkill] [ElectricPolePower] scade",
           "coinlist": [
             {
               "coindescs": [
@@ -356,7 +356,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge 10 [Burst] next turn"
+                  "desc": "[OnSucceedAttack] Infligge 10 [Burst] nel turno successivo"
                 }
               ]
             },
@@ -366,7 +366,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst] next turn"
+                  "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Burst] nel turno successivo"
                 }
               ]
             }
@@ -379,8 +379,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Trash Disposal",
-          "desc": "Se il bersaglio ha 4+ [Laceration], Potere Moneta +1\n[DefeatDuel] Damage dealt by this Skill cannot Stagger the target",
+          "name": "Smaltamento Rifiuti",
+          "desc": "Se il bersaglio ha 4+ [Laceration], Potere Moneta +1\n[DefeatDuel] Non può Stordire il bersaglio",
           "coinlist": [
             {
               "coindescs": [
@@ -398,10 +398,10 @@
                   "desc": "[OnSucceedAttack] Infligge +1 Conteggio [Laceration]"
                 },
                 {
-                  "desc": "On Hit using this Coin, heal 30% of the HP damage dealt"
+                  "desc": "[OnSucceedAttack] Recupera PV pari al 30% dei danni inflitto"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Reuse this Coin (3 times per Skill)"
+                  "desc": "[OnSucceedAttackHead] Riusa questa Moneta (3 volte per Abilità)"
                 }
               ]
             }
@@ -415,7 +415,7 @@
         {
           "level": 1,
           "name": "333..1973",
-          "desc": "[StartBattle] Gain 4 [Persistent]\n[DefeatDuel] Damage dealt by this Skill cannot Stagger the target",
+          "desc": "[StartBattle] Ottiene 4 [Persistent]\n[DefeatDuel] Non può Stordire il bersaglio",
           "coinlist": [
             {
               "coindescs": [
@@ -423,7 +423,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Lower user's Stagger Threshold by 5"
+                  "desc": "[OnSucceedAttack] Abbassa la propria Soglia di Stordimento di 5"
                 }
               ]
             },
@@ -446,13 +446,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Night in the Backstreets",
-          "desc": "Se il bersaglio ha 2+ [Laceration], Potere Moneta +1\n[DefeatDuel] Damage dealt by this Skill cannot Stagger the target",
+          "name": "Notte nei Vicoli",
+          "desc": "Se il bersaglio ha 2+ [Laceration], Potere Moneta +1\n[DefeatDuel] Non può Stordire il bersaglio",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 8 HP"
+                  "desc": "[OnSucceedAttack] Recupera 8 PV"
                 },
                 {
                   "desc": "[OnSucceedAttack] Infligge +2 Conteggio [Laceration]"
@@ -465,13 +465,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 8 HP"
+                  "desc": "[OnSucceedAttack] Recupera 8 PV"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Lower user's Stagger Threshold by 8"
+                  "desc": "[OnSucceedAttack] Abbassa la propria Soglia di Stordimento di 8"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Activate [Laceration] on the target once (reduce Conteggio [Laceration] by 1)"
+                  "desc": "[OnSucceedAttack] Attiva il [Laceration] sul bersaglio (riduce il Conteggio [Laceration] sul bersaglio di 1)"
                 }
               ]
             }
